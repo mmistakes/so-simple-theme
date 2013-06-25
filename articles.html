@@ -1,0 +1,12 @@
+---
+layout: page
+permalink: /articles/index.html
+title: Articles
+description: "An archive of posts sorted by date."
+---
+
+{% for post in site.posts %} 
+<ul class="post-list">
+  <li><article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+</ul>
+{% endfor %}

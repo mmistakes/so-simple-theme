@@ -1,0 +1,92 @@
+hr { 
+    display: block; 
+    margin: 1em 0; 
+    padding: 0;
+    height: 1px; 
+    border: 0; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff; 
+}
+
+// Figures and images
+// --------------------------------------------------
+
+figure {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  &.half {
+    @media @large {
+      a {
+        width: 310px;
+        float: left;
+        &:nth-child(odd) {
+          margin-right: 10px;
+        }
+        &:nth-child(even) {
+          margin-left: 10px;
+        }
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+  &.third {
+    @media @large {
+      a {
+        width: 200px;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        &:first-child {
+          margin-left: 0;
+        }
+        &:nth-child(3) {
+          margin-right: 0;
+        }
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-width: 0; 
+  vertical-align: middle; 
+  -ms-interpolation-mode: bicubic; 
+}
+svg:not(:root) {
+  overflow: hidden; 
+}
+
+// Buttons
+// --------------------------------------------------
+.btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  .font-rem(14);
+  background-color: @black;
+  color: @white;
+  border: 2px solid @black;
+  .rounded(20px);
+  &:visited {
+    color: @white;
+  }
+  &:hover {
+    background-color: @white;
+    color: @black;
+  }
+}
+
+// Well
+// --------------------------------------------------
+.well {
+  padding: 20px;
+  border: 1px solid @comp-color;
+  .rounded(4px);
+}

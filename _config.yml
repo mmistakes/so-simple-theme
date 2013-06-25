@@ -1,0 +1,60 @@
+title:            So Simple Theme
+description:      A simple and clean responsive Jekyll theme for words and photos.
+#Comment out url when working locally to resolve base urls correctly
+#url:              http://mmistakes.github.io/so-simple-theme
+
+# Owner/author information
+owner:
+  name:           Michael Rose
+  avatar:         site-logo.png
+  email:          michael@mademistakes.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        "mmistakes"
+  facebook:       "michaelrose"
+  github:         "mmistakes"
+  linkedin:       "michaelrose"
+  instagram:      "mmistakes"
+  tumblr:         "mademistakes"
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "http://plus.google.com/118238196859537351707"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Internal pages/posts to include in top navigation
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+  - title: Theme Setup
+    url: /theme-setup
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "so-simple-theme.sublime-project", "so-simple-theme.sublime-workspace"]
