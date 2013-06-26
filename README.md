@@ -1,6 +1,6 @@
 # So Simple Theme
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/so-simple-theme) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/so-simple-theme) -- by designer slash illustrator [Michael Rose](http://mademistakes).
 
 ## So Simple Theme is all about:
 
@@ -102,8 +102,6 @@ image:
   feature: feature-image-filename.jpg
   thumb: thumbnail-image.jpg #keep it square 200x200 px is good
 ```
-
-The large texture images used in *Minimal Mistakes* are from [Love Textures](http://lovetextures.com), probably a good idea to swap these out with your own photos...
 
 #### Categories
 
