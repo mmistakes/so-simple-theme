@@ -22,9 +22,9 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-42019123-1
-google_verify:      
+google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
 
 # Internal pages/posts to include in top navigation
 links:
