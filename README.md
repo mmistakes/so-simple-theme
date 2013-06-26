@@ -9,7 +9,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Minimal embellishments and subtle animations. 
 * Readable typography to make your words shine.
 * Support for large images to call out your favorite posts.
-* Simple and clear permalink structure[^1].
+* Simple and clear permalink structure.
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 
 ![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.png)
