@@ -16,6 +16,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Minimal embellishments and subtle animations. 
 * Readable typography to make your words shine.
 * Support for large images to call out your favorite posts.
+* Disqus comments if you choose to enable.
 * Simple and clear permalink structure[^1].
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 
