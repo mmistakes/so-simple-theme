@@ -2,7 +2,7 @@ title:            So Simple Theme
 description:      A simple and clean responsive Jekyll theme for words and photos.
 logo:             site-logo.png
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mmistakes.github.io/so-simple-theme
+url:              http://mmistakes.github.io/so-simple-theme
 
 # Owner/author information
 owner:
