@@ -48,14 +48,16 @@ body {
 // Responsive nav toggle stuff
 #site-nav {
 	z-index: 9999;
-	-webkit-animation-duration: 1s;
-	-moz-animation-duration: 1s;
-	-o-animation-duration: 1s;
-	animation-duration: 1s;
-    -webkit-animation-delay: .05s;
-    -moz-animation-delay: .05s;
-    -o-animation-delay: .05s;
-    animation-delay: .05s;
+	@media @medium {
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
+	    -webkit-animation-delay: .05s;
+	    -moz-animation-delay: .05s;
+	    -o-animation-delay: .05s;
+	    animation-delay: .05s;
+	}
 	&.closed {
 		display: none;
 		@media @medium {
