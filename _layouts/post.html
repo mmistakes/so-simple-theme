@@ -16,13 +16,14 @@
   <article class="hentry" itemscope itemtype="http://schema.org/Blogpageing" itemprop="blogpage">
     {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
     <div class="entry-wrapper">
-      <header "entry-header">
+      <header class="entry-header">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
         <h1 class="entry-title" itemprop="headline"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</a></h1>{% endif %}
       </header>
       <footer class="entry-meta">
-        <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
+        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
         <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name"><a href="{{ site.url }}/about.html" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+        <span class="entry-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></span>
         <span><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}"><i class="icon-link"></i> Permalink</a></span>
       </footer>
       <div class="entry-content">
