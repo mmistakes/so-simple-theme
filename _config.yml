@@ -20,7 +20,7 @@ owner:
   google_plus:    "http://plus.google.com/118238196859537351707"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   UA-42019123-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:        
