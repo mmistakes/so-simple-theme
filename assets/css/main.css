@@ -682,7 +682,7 @@ svg:not(:root) {
   font-size: 0.875rem;
   background-color: #000000;
   color: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #000000 !important;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
