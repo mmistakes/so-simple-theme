@@ -14,7 +14,7 @@
 
 <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <article class="hentry" itemscope itemtype="http://schema.org/Blogpageing" itemprop="blogpage">
-    {% if page.image.feature %}<a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}"><img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}"></a>{% endif %}
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
     <div class="entry-wrapper">
       <header "entry-header">
         <h1 class="entry-title" itemprop="headline"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</a></h1>{% endif %}
