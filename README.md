@@ -54,6 +54,14 @@ so-simple-theme/
 
 Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url` or else you will get a bunch of broken links because they are absolute and prefixed with `{{ site.url }}` in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
 
+#### Disqus Comments
+
+Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its front matter:
+
+``` yaml
+comments: true
+```
+
 #### Owner/Author Information
 
 Change your name, and avatar photo (200x200 pixels or larger), email, and social networking urls. If you want to link to an external image on Gravatar or something similiar you'll need to edit the path in `head.html` since it assumes it is located in `/images`.
@@ -149,8 +157,8 @@ To make things easier I use LESS to build So Simple Theme's stylesheets. If you 
 // --------------------------------------------------
 @body-color         : #ebebeb;
 @text-color         : #333;
-@base-color       : #343434;    
-@comp-color       : spin(@base-color, 180); 
+@base-color         : #343434;    
+@comp-color         : spin(@base-color, 180); 
 @border-color       : @base-color;
 @white              : #fff;
 @black              : #000;
