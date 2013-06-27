@@ -18,7 +18,7 @@
     <div class="entry-wrapper">
       <header class="entry-header">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
-        <h1 class="entry-title" itemprop="headline"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</a></h1>{% endif %}
+        <h1 class="entry-title" itemprop="headline"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</a></h1>
       </header>
       <footer class="entry-meta">
         <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
