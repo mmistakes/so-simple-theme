@@ -46,11 +46,11 @@ figcaption {
 	margin-top: 1.5em;
 	padding: .5em 1em;
 	text-indent: 0;
-	font-size: 90%;
-	background-color: #ddd;
-	border-left: 10px solid #ccc;
+	.font-rem(16);
+	background-color: lighten(@black, 95);
+	border: 1px solid lighten(@black, 90);
+	.rounded(4px);
 }
-
 // Blockquotes
 // --------------------------------------------------
 blockquote {
