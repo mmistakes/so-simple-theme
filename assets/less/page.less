@@ -323,6 +323,30 @@ span + .entry-title {
 		text-transform: uppercase;
 	}
 }
+// Tag index
+.tag-box {
+	list-style: none;
+	margin: 0;
+	padding: 4px 0;
+	overflow: hidden;
+	.clearfix();
+	&.inline li {
+		float: left;
+		.font-rem(14);
+		line-height: 2.5;
+	}
+	a { 
+		padding: 4px 6px;
+		margin: 2px;
+		background-color: lighten(@black, 90);
+		.rounded(4px);
+		text-decoration: none;
+		span { 
+			vertical-align: super;
+			.font-rem(10);
+		}
+	}
+}
 
 // Footer
 // --------------------------------------------------
