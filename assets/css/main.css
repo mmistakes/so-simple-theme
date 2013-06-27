@@ -597,6 +597,8 @@ span+.entry-title{margin-top:0;}
 .entry-content{max-width:640px;width:100%;margin-right:auto;margin-left:auto;}.entry-content p:first-child{margin-top:0;}
 @media only screen and (min-width: 62.5em){.entry-content{float:left;}}.entry-content p>a,.entry-content li>a{border-bottom:1px dotted #b3b3b3;}.entry-content p>a:hover,.entry-content li>a:hover{border-bottom-style:solid;}
 .post-list li>a{border-bottom-width:0;}
+.pagination{text-align:center;}
+#disqus_thread{margin-top:2em;}
 #home .entry-title,#page .entry-title{text-align:center;max-width:100%;}
 @media only screen and (min-width: 62.5em){#home .entry-content,#page .entry-content{float:none;}}
 .post-list{margin:0;padding:0;list-style-type:none;}.post-list li{padding:8px 0;border-bottom:1px solid #cccccc;border-bottom:1px solid rgba(0, 0, 0, 0.1);*zoom:1;}.post-list li:before,.post-list li:after{display:table;content:"";line-height:0;}
