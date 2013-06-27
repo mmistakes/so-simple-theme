@@ -75,3 +75,12 @@ blockquote {
 tt, code, kbd, samp, pre {
 	font-family: @code-font;
 }
+p code {
+	.font-rem(16);
+	white-space: nowrap;
+	margin: 0 2px;
+	padding: 0 5px;
+	border: 1px solid lighten(@black, 90);
+	background-color: lighten(@black, 95);
+	.rounded(3px);
+}
