@@ -3,7 +3,7 @@ description:      A simple and clean responsive Jekyll theme for words and photo
 logo:             site-logo.png
 disqus_shortname: sosimpletheme
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://mmistakes.github.io/so-simple-theme
+url:              http://mmistakes.github.io/so-simple-theme
 
 # Owner/author information
 owner:
