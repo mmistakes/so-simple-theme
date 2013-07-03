@@ -605,7 +605,7 @@ span+.entry-title{margin-top:0;}
 .post-list{margin:0;padding:0;list-style-type:none;}.post-list li{padding:8px 0;border-bottom:1px solid #cccccc;border-bottom:1px solid rgba(0, 0, 0, 0.1);*zoom:1;}.post-list li:before,.post-list li:after{display:table;content:"";line-height:0;}
 .post-list li:after{clear:both;}
 .post-list a>span{float:right;}
-.post-list .entry-date{font-size:14px;font-size:0.875rem;text-transform:uppercase;}
+.post-list .entry-date{font-size:14px;font-size:0.875rem;text-transform:uppercase;display:none;}@media only screen and (min-width: 48em){.post-list .entry-date{display:inline;}}
 .tag-box{list-style:none;margin:0;padding:4px 0;overflow:hidden;*zoom:1;}.tag-box:before,.tag-box:after{display:table;content:"";line-height:0;}
 .tag-box:after{clear:both;}
 .tag-box.inline li{float:left;font-size:14px;font-size:0.875rem;line-height:2.5;}
