@@ -47,6 +47,7 @@ body {
 // Responsive nav toggle stuff
 #site-nav {
 	z-index: 9999;
+	display: none;
 	@media @medium {
 		-webkit-animation-duration: 1s;
 		-moz-animation-duration: 1s;
@@ -58,17 +59,21 @@ body {
 	    animation-delay: .05s;
 	}
 	&.closed {
-		display: none;
+		
 		@media @medium {
 			display: block;
 		}
 	}
 	&.opened {
+		display: block;
 		max-height: 100%;
 		li {
 			float: none;
 		}
 	}
+}
+.no-js #site-nav {
+	display: block;
 }	
 #nav-toggle { 
 	display: block;
@@ -290,13 +295,13 @@ span + .entry-title {
 		border-bottom-width: 0;
 	}
 }
-// Pagination
-.pagination {
-	text-align: center;
-}
 // Disqus Comments
 #disqus_thread {
 	margin-top: 2em;
+}
+// Pagination
+.pagination {
+	text-align: center;
 }
 // Page layout
 #home,
