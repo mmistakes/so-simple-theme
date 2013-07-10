@@ -19,7 +19,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Disqus comments if you choose to enable.
 * Simple and clear permalink structure[^1].
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
-* Custom 404 page
+* Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
