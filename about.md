@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/index.html
 title: About the Jekyll Theme
-tags: [Jekyll, theme, themes, simple, minimal, minimalism, responsive]
+tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 image:
   feature: so-simple-sample-image-4.jpg
 ---
@@ -19,6 +19,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Disqus comments if you choose to enable.
 * Simple and clear permalink structure[^1].
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
+* Custom 404 page
 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
