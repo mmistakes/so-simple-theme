@@ -396,3 +396,36 @@ span + .entry-title {
 	padding: 10px;
 	text-align: center;
 }
+
+// Google Search
+// --------------------------------------------------
+
+#goog-fixurl {
+	ul {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		li {
+			list-style-type: none;
+		}
+	}
+}
+#goog-wm-qt {
+	width: auto;
+	margin-right: 10px;
+}
+#goog-wm-sb {
+	display: inline-block;
+	padding: 8px 20px;
+	background-color: @black;
+	color: @white;
+	border: 2px solid @black !important;
+	.rounded(20px);
+	&:visited {
+		color: @white;
+	}
+	&:hover {
+		background-color: @white;
+		color: @black;
+	}
+}

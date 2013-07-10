@@ -615,3 +615,7 @@ span+.entry-title{margin-top:0;}
 .footer-wrapper a{color:#666666;}
 .social-icons{margin:1em 0 2em;}.social-icons a{padding:4px 8px;}.social-icons a:hover{color:#000000;}
 .upgrade{padding:10px;text-align:center;}
+#goog-fixurl ul{list-style:none;margin-left:0;padding-left:0;}#goog-fixurl ul li{list-style-type:none;}
+#goog-wm-qt{width:auto;margin-right:10px;}
+#goog-wm-sb{display:inline-block;padding:8px 20px;background-color:#000000;color:#ffffff;border:2px solid #000000 !important;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}#goog-wm-sb:visited{color:#ffffff;}
+#goog-wm-sb:hover{background-color:#ffffff;color:#000000;}
