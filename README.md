@@ -15,15 +15,81 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 
 ![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.png)
 
+## [Preview the Theme](http://mmistakes.github.io/so-simple-theme)
+
 General notes and suggestions for customizing So Simple Theme.
 
-## Basic Setup
+---
 
-1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
-2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
-3. Make it your own and customize, customize, customize.
+## Basic Setup for new Jekyll site
 
-## [Preview the Theme](http://mmistakes.github.io/so-simple-theme)
+1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
+2. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork)
+3. Clone the repo you just forked to your computer.
+4. Edit `_config.yml` to personalize your site.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
+6. Read the documentation below for further customization pointers and documentation.
+
+---
+
+## Setup for Existing Jekyll site
+
+1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
+2. Clone the following files and edit personalize content as need: `about.md`, `articles.html`, `index.html`, and `tags.html`.
+3. Set the following variables in your `config.yml` file:
+
+``` yaml
+title:            Site Title
+description:      Site description for the metas.
+logo:             site-logo.png
+disqus_shortname: shortname
+#Comment out url when working locally to resolve base urls correctly
+url:              http://whatever.com
+
+# Owner/author information
+owner:
+  name:           Your Name
+  avatar:         your-photo.jpg
+  email:          your@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         
+  linkedin:       
+  instagram:      
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "http://plus.google.com/123123123123132123"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+  - title: Google
+    url: http://google.com
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+```
+
+---
+
+## Folder Structure
 
 ``` bash
 so-simple-theme/
@@ -50,6 +116,8 @@ so-simple-theme/
 ├── index.html  //homepage. lists 10 latest posts
 └── tags.html  //lists all posts sorted by tag
 ```
+
+---
 
 ## Customization
 
@@ -143,6 +211,8 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 Twitter cards make it possible to attach images and post summaries to Tweets that link to your content. Summary Card meta tags have been added to `head.html` to support this, you just need to [validate and apply your domain](https://dev.twitter.com/docs/cards) to turn it on.
 
+---
+
 ## Further Customization
 
 To make things easier I use LESS to build So Simple Theme's stylesheets. If you want to make some minor cosmetic alterations, take a look at `variables.less` in `assets/less/`. Changing some of the following variables can help make the theme your own. Just compile `main.less` using your preprocessor of choice and off you go -- I like [CodeKit](http://incident57.com/codekit/) for OS X and [Prepros](http://alphapixels.com/prepros/) for Windows.
@@ -172,9 +242,13 @@ To make things easier I use LESS to build So Simple Theme's stylesheets. If you 
 @link-color         : #343434;
 ```
 
+---
+
 ## Questions?
 
 Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter [@mmistakes](http://twitter.com/mmistakes) or [file a GitHub Issue](https://github.com/mmistakes/so-simple-theme/issues/new).
+
+---
 
 ## License
 
