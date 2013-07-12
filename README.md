@@ -35,7 +35,7 @@ General notes and suggestions for customizing So Simple Theme.
 ## Setup for Existing Jekyll site
 
 1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
-2. Clone the following files and edit personalize content as need: `about.md`, `articles.html`, `index.html`, and `tags.html`.
+2. Clone the following files and personalize content as need: `about.md`, `articles.html`, `index.html`, and `tags.html`.
 3. Set the following variables in your `config.yml` file:
 
 ``` yaml
