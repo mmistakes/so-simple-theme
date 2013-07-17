@@ -1,6 +1,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/main.min.js"></script>
+{% if site.owner.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
@@ -16,4 +17,5 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+{% endif %}
 {% if page.comments %}{% include disqus_comments.html %}{% endif %}
