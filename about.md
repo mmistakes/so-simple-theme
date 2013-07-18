@@ -24,3 +24,13 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
+
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Made Mistakes -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7328585512091257"
+     data-ad-slot="8811103536"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
