@@ -83,13 +83,3 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 Make any link standout more when applying the `.btn` class.
 
 <div markdown="0"><a href="#" class="btn">This is a button</a></div>
-
-<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Made Mistakes small -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:320px;height:50px"
-     data-ad-client="ca-pub-7328585512091257"
-     data-ad-slot="7855747535"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>

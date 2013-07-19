@@ -176,13 +176,3 @@ This theme is free and open source software, distributed under the [GNU General 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
 
 [^1]: Used to generate absolute urls in *sitemap.xml*, *feed.xml*, and for canonical urls in *head.html*. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally remove or comment out this line so local CSS, JS, and image assets are used.
-
-<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Made Mistakes small -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:320px;height:50px"
-     data-ad-client="ca-pub-7328585512091257"
-     data-ad-slot="7855747535"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
