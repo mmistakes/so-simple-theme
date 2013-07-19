@@ -26,11 +26,11 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 [^1]: Example: *domain.com/category-name/post-title*
 
 <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Made Mistakes -->
+<!-- Made Mistakes small -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;width:320px;height:50px"
      data-ad-client="ca-pub-7328585512091257"
-     data-ad-slot="8811103536"></ins>
+     data-ad-slot="7855747535"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
