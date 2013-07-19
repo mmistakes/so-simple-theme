@@ -27,10 +27,14 @@ body {
 		display: block;
 		float: left;
 		list-style: none;
-		padding: 6px 10px;
 		text-align: center;
 		.font-rem(14);
 		text-transform: uppercase;
+		color: @white;
+	}
+	a {
+		display: block;
+		padding: 6px 10px;
 		color: @white;
 		border: 1px solid @black;
 		.rounded(4px);
@@ -39,9 +43,6 @@ body {
 			border-bottom: 1px solid lighten(@black,50);
 			border: 1px solid fade(@white,50);
 		}
-	}
-	a {
-		color: @white;
 	}
 }
 // Responsive nav toggle stuff
@@ -81,6 +82,7 @@ body {
 	margin: 0;
 	padding: 4px 20px;
 	background-color: @black;
+	.rounded(0 0 4px 4px);
 	@media @medium {
 		display: none;
 	}
@@ -391,7 +393,6 @@ span + .entry-title {
 
 // Chrome Frame
 // --------------------------------------------------
-
 .upgrade {
 	padding: 10px;
 	text-align: center;
@@ -399,7 +400,6 @@ span + .entry-title {
 
 // Google Search
 // --------------------------------------------------
-
 #goog-fixurl {
 	ul {
 		list-style: none;
