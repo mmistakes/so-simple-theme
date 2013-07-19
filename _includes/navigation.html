@@ -4,7 +4,7 @@
 	        {% for link in site.links %}
 			<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 	        {% endfor %}
-	        <li><i class="icon-rss"></i> <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a>
+	        <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
