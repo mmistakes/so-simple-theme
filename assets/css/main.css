@@ -581,8 +581,8 @@ body{margin:0;padding:0;width:100%;background-color:#ffffff;border-top:5px solid
 .site-description{margin-top:0;font-family:'volkhov',serif;font-size:16px;font-size:1rem;font-weight:400;font-style:italic;-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-delay:1s;-moz-animation-delay:1s;-o-animation-delay:1s;animation-delay:1s;}@media only screen and (min-width: 48em){.site-description{font-size:20px;font-size:1.25rem;}}
 #main{*zoom:1;}#main:before,#main:after{display:table;content:"";line-height:0;}
 #main:after{clear:both;}
-.hentry{*zoom:1;border-bottom:1px solid #cccccc;border-bottom:1px solid rgba(0, 0, 0, 0.1);}.hentry:before,.hentry:after{display:table;content:"";line-height:0;}
-.hentry:after{clear:both;}
+.entry,.hentry{*zoom:1;border-bottom:1px solid #cccccc;border-bottom:1px solid rgba(0, 0, 0, 0.1);}.entry:before,.hentry:before,.entry:after,.hentry:after{display:table;content:"";line-height:0;}
+.entry:after,.hentry:after{clear:both;}
 .entry-feature-image{margin:40px 0;width:100%;}
 .entry-header{max-width:640px;width:100%;margin-right:auto;margin-left:auto;}@media only screen and (min-width: 62.5em){.entry-header{max-width:100%;margin-right:0;margin-left:0;}}
 .entry-tags{display:block;margin-top:2em;text-transform:uppercase;font-size:16px;font-size:1rem;font-weight:600;}.entry-tags a{color:#222222;}
