@@ -12,14 +12,14 @@
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <article class="hentry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogpost">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% endif %}
+<div id="main" role="main" itemprop="mainContentOfPage">
+  <article class="entry" itemscope itemtype="http://schema.org/ItemPage">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" itemprop="image">{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
+        <h1 class="entry-title" itemprop="name">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}</h1>{% endif %}
       </header>
-      <div class="entry-content">
+      <div class="entry-content" itemprop="description">
         {{ content }}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
