@@ -47,17 +47,13 @@ body {
 }
 // Responsive nav toggle stuff
 #site-nav {
-	z-index: 9999;
+	z-index: 9000;
 	display: none;
 	@media @medium {
 		-webkit-animation-duration: 1s;
 		-moz-animation-duration: 1s;
 		-o-animation-duration: 1s;
 		animation-duration: 1s;
-	    -webkit-animation-delay: .05s;
-	    -moz-animation-delay: .05s;
-	    -o-animation-delay: .05s;
-	    animation-delay: .05s;
 	}
 	&.closed {
 		
@@ -77,6 +73,7 @@ body {
 	display: block;
 }	
 #nav-toggle { 
+	z-index: 9999;
 	display: block;
 	vertical-align: top;
 	margin: 0;
@@ -123,6 +120,7 @@ body {
 	    -moz-animation-delay: .05s;
 	    -o-animation-delay: .05s;
 	    animation-delay: .05s;
+	    border: 4px solid @white;
 	    .rounded(100px);
 		@media @medium {
 			width: 150px;
@@ -179,8 +177,14 @@ body {
 	border-bottom: 1px solid fade(@black,10);
 }
 .entry-feature-image {
-	margin: 40px 0;
+	margin: 20px 0 40px;
 	width: 100%;
+	@media @medium {
+		margin-top: -75px;
+	}
+	@media @large {
+		margin-top: -145px;
+	}
 }
 .entry-header {
 	max-width: 640px;
