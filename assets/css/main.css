@@ -627,3 +627,6 @@ span+.entry-title{margin-top:0;}
 #goog-wm-qt{width:auto;margin-right:10px;}
 #goog-wm-sb{display:inline-block;padding:8px 20px;background-color:#000000;color:#ffffff;border:2px solid #000000 !important;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}#goog-wm-sb:visited{color:#ffffff;}
 #goog-wm-sb:hover{background-color:#ffffff;color:#000000;}
+
+.image-credit{font-size:0.8rem; color: #999; margin-top:-40px;text-transform:uppercase}
+.image-credit a{font-size:0.8rem; color: #999;}
