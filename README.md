@@ -13,7 +13,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 * Vanilla [custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.png)
+![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
 
 ## [Preview the Theme](http://mmistakes.github.io/so-simple-theme)
 
