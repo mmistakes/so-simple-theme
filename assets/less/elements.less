@@ -10,22 +10,34 @@ hr {
 
 // Figures and images
 // --------------------------------------------------
-
 figure {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+  .clearfix();
+  img {
+    margin-bottom: 10px;
+  }
+  a { 
+    img {
+      .translate(0, 0);
+      -webkit-transition-duration: 0.25s;
+      -moz-transition-duration: 0.25s;
+      -o-transition-duration: 0.25s;
+      .opacity(0.7);
+      &:hover {
+        .translate(0, -5px);
+        .box-shadow(0 0 10px fade(@black, 20));
+        .opacity(1);
+      }
+    }
+  }
   &.half {
     @media @large {
-      a {
+      img {
         width: 310px;
         float: left;
-        &:nth-child(odd) {
-          margin-right: 10px;
-        }
-        &:nth-child(even) {
-          margin-left: 10px;
-        }
+        margin-right: 10px;
       }
       figcaption {
         clear: left;
@@ -34,30 +46,16 @@ figure {
   }
   &.third {
     @media @large {
-      a {
+      img {
         width: 200px;
         float: left;
         margin-right: 10px;
-        margin-left: 10px;
-        &:first-child {
-          margin-left: 0;
-        }
-        &:nth-child(3) {
-          margin-right: 0;
-        }
       }
       figcaption {
         clear: left;
       }
     }
   }
-}
-img {
-  max-width: 100%;
-  height: auto;
-  border-width: 0; 
-  vertical-align: middle; 
-  -ms-interpolation-mode: bicubic; 
 }
 svg:not(:root) {
   overflow: hidden; 
