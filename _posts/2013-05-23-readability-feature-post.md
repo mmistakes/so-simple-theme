@@ -7,6 +7,8 @@ tags: [sample post, readability]
 modified: 2013-06-30
 image:
   feature: so-simple-sample-image-3.jpg
+  credit: Michael Rose
+  creditlink: http://mademistakes.com
 comments: true  
 ---
 
