@@ -108,7 +108,14 @@ image:
   thumb: thumbnail-image.jpg #keep it square 200x200 px is good
 {% endhighlight %}
 
-The large texture images used in *Minimal Mistakes* are from [Love Textures](http://lovetextures.com), probably a good idea to swap these out with your own photos...
+If you want to apply attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source.
+
+{% highlight yaml %}
+image:
+  feature: feature-image-filename.jpg
+  credit: Michael Rose #name of the person or site you want to credit
+  creditlink: http://mademistakes.com #url to their site or licensing
+{% endhighlight %}
 
 #### Categories
 
