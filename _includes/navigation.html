@@ -2,7 +2,13 @@
 	<nav role="navigation" id="site-nav" class="animated drop" itemscope itemtype="http://schema.org/SiteNavigationElement">
 	    <ul>
 	        {% for link in site.links %}
-			<li><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></li>
+			<li>
+				{% if link.external %}
+					<a href="{{ link.url }}">{{ link.title }}</a>
+				{% else %}
+					<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+				{% endif %} 
+			</li>
 	        {% endfor %}
 	        <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a>
 	    </ul>
