@@ -30,6 +30,8 @@ General notes and suggestions for customizing So Simple Theme.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
 
+**Pro-tip:** Good idea to delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme demo site that I'm guessing you don't want.
+
 ---
 
 ## Setup for Existing Jekyll site
