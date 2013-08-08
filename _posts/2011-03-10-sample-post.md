@@ -72,6 +72,8 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 ## Code Snippets
 
+Syntax highlighting via Pygments
+
 {% highlight css %}
 #container {
   float: left;
@@ -79,6 +81,12 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
   width: 100%;
 }
 {% endhighlight %}
+
+Non Pygments code example
+
+    <div id="awesome">
+        <p>This is great isn't it?</p>
+    </div>
 
 ## Buttons
 
