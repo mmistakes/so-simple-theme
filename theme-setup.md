@@ -129,6 +129,10 @@ If done correctly `/blog` should be a page listing all the site's posts.
 
 Post and page thumbnails work the same way. These are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) meta tags found in `head.html`. If you don't assign a thumbnail the image you assigned to `site.owner.avatar` in `_config.yml will be used.
 
+Here's an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post's YAML.
+
+![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+
 #### Videos
 
 Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
