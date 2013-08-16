@@ -1,13 +1,13 @@
 .CodeRay {
-  background-color: #efefef;
   font-family: @code-font;
-  font-size: 80%;
+  .font(12);
   color: #333332;
   margin-bottom: 1.5em;
+  border: 1px solid darken(@body-color, 5);
 }
 
-.CodeRay pre {
-  margin: 0px;
+.CodeRay code {
+  margin: 0;
   padding: 1em;
 }
 
@@ -21,7 +21,6 @@ table.CodeRay td {
 }
 
 .CodeRay .line-numbers, .CodeRay .no {
-  background-color: #ECECEC;
   color: #AAA;
   text-align: right;
 }
