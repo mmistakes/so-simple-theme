@@ -551,10 +551,10 @@ var responsiveNav = (function (window, document) {
 
         if (opts.animate) {
           setTimeout(function () {
-            nav.style.position = "absolute";
+            nav.style.position = "relative";
           }, opts.transition + 10);
         } else {
-          nav.style.position = "absolute";
+          nav.style.position = "relative";
         }
 
         navOpen = false;
