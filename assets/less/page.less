@@ -56,7 +56,6 @@ body {
 		animation-duration: 1s;
 	}
 	&.closed {
-		
 		@media @medium {
 			display: block;
 		}
@@ -66,6 +65,9 @@ body {
 		max-height: 100%;
 		li {
 			float: none;
+			@media @medium {
+				float: left;
+			}
 		}
 	}
 }
