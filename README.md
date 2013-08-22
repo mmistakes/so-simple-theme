@@ -5,8 +5,8 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 ## So Simple Theme is all about:
 
 * Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments and subtle animations. 
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
+* Minimal embellishments and subtle animations.
 * Readable typography to make your words shine.
 * Support for large images to call out your favorite posts.
 * Simple and clear permalink structure.
@@ -54,20 +54,20 @@ owner:
   avatar:         your-photo.jpg
   email:          your@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  linkedin:       
-  instagram:      
-  tumblr:         
+  twitter:
+  facebook:
+  github:
+  linkedin:
+  instagram:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    "http://plus.google.com/123123123123132123"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -110,7 +110,7 @@ so-simple-theme/
 |    ├── js
 |    |   ├── main.js  //jQuery plugins and settings
 |    |   └── vendor  //all 3rd party scripts
-|    └── less 
+|    └── less
 ├── images  //images for posts and pages
 ├── _config.yml  //Site options
 ├── about.md  //about page
@@ -160,7 +160,7 @@ links:
     url: /other-page
   - title: External Link
     url: http://mademistakes.com
-    external: true  
+    external: true
 ```
 
 #### Other Stuff
@@ -173,13 +173,13 @@ For the most part you can leave these as is since the author/owner details are p
 
 ### Adding Posts and Pages
 
-There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles). 
+There are two main content layouts: `post.html` (for posts) and `page.html` (for pages). Both have support for large **feature images** that span the full-width of the screen, and both are meant for text heavy blog posts (or articles).
 
 #### Feature Images
 
 A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at [Picturefill](https://github.com/scottjehl/picturefill) or [Adaptive Images](http://adaptive-images.com/).
 
-The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so.
 
 ``` yaml
 image:
@@ -252,8 +252,8 @@ To make things easier I use LESS to build So Simple Theme's stylesheets. If you 
 // --------------------------------------------------
 @body-color         : #ebebeb;
 @text-color         : #333;
-@base-color         : #343434;    
-@comp-color         : spin(@base-color, 180); 
+@base-color         : #343434;
+@comp-color         : spin(@base-color, 180);
 @border-color       : @base-color;
 @white              : #fff;
 @black              : #000;
@@ -261,6 +261,16 @@ To make things easier I use LESS to build So Simple Theme's stylesheets. If you 
 @link-color         : #343434;
 ```
 
+---
+
+## Creating a new Post
+
+You can create a new post like this:
+
+```bash
+$ thor post:new 'My cool post'
+  create  _posts/2013-08-21-my-cool-post
+```
 ---
 
 ## Questions?
