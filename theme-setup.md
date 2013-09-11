@@ -3,44 +3,118 @@ layout: page
 permalink: /theme-setup/index.html
 title: Theme Setup
 description: "Instructions on how to install and customize the Jekyll theme So Simple."
+modified: 2013-09-11
 tags: [Jekyll, theme, install, setup]
 ---
 
 General notes and suggestions for customizing **So Simple Theme**.
 
-## Basic Setup
+## Basic Setup for a new Jekyll site
 
-1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
-2. Fork the [So Simple Theme repo](http://github.com/mmistakes/so-simple-theme/)
-3. Make it your own and customize, customize, customize.
+1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
+2. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
+6. Read the documentation below for further customization pointers and documentation.
 
-## [Preview the Theme](http://mmistakes.github.io/so-simple-theme)
+<div markdown="0"><a href="https://github.com/mmistakes/so-simple-theme" class="btn">Download the Theme</a></div>
+
+**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
+{: .notice}
+
+---
+
+## Setup for an Existing Jekyll site
+
+1. Clone the following folders: `_includes`, `_layouts`, `assets`, and `images`.
+2. Clone the following files and personalize content as need: `about.md`, `articles.html`, `index.html`, `tags.html`, `feed.xml`, and `sitemap.xml`.
+3. Set the following variables in your `config.yml` file:
+
+{% highlight yaml %}
+title:            Site Title
+description:      Site description for the metas.
+logo:             site-logo.png
+disqus_shortname: shortname
+search:           true
+#Comment out url when working locally to resolve base urls correctly
+url:              http://whatever.com
+
+# Owner/author information
+owner:
+  name:           Your Name
+  avatar:         your-photo.jpg
+  email:          your@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:
+  github:
+  linkedin:
+  instagram:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    "http://plus.google.com/123123123123132123"
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+  - title: Google
+    url: http://google.com
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+{% endhighlight %}
+
+---
+
+## Folder Structure
 
 {% highlight bash %}
 so-simple-theme/
-├── _includes
-|    ├── browser-upgrade.html  //prompt to upgrade browser on < IE8
-|    ├── footer.html  //site footer
-|    ├── head.html  //site head
-|    ├── navigation.html //site navigation and masthead
-|    └── scripts.html  //jQuery, plugins, GA, etc.
-├── _layouts
-|    ├── page.html  //page layout
-|    └── post.html  //post layout
-├── _posts
-├── assets
-|    ├── css  //preprocessed less styles. good idea to minify
-|    ├── js
-|    |   ├── main.js  //jQuery plugins and settings
-|    |   └── vendor  //all 3rd party scripts
-|    └── less 
-├── images  //images for posts and pages
-├── _config.yml  //Site options
-├── about.md  //about page
-├── articles.html  //lists all posts from latest to oldest
-├── index.html  //homepage. lists 10 latest posts
-└── tags.html  //lists all posts sorted by tag
+├── _includes/
+|    ├── browser-upgrade.html  #prompt to upgrade browser on < IE8
+|    ├── footer.html  #site footer
+|    ├── head.html  #site head
+|    ├── navigation.html #site navigation and masthead
+|    └── scripts.html  #jQuery, plugins, GA, etc.
+├── _layouts/
+|    ├── page.html  #page layout
+|    └── post.html  #post layout
+├── _posts/
+├── assets/
+|    ├── css/  #preprocessed less styles
+|    ├── fonts/  #icon webfonts
+|    ├── js/
+|    |   ├── _main.js  #main JavaScript file, plugin settings, etc
+|    |   ├── plugins  #jQuery plugins
+|    |   └── vendor/  #jQuery and Modernizr
+|    └── less/
+├── images  #images for posts and pages
+├── _config.yml  #Jekyll site options
+├── about.md  #about page
+├── articles.md  #lists all posts from latest to oldest
+├── index.html  #homepage. lists 10 latest posts
+├── tags.html  #lists all posts sorted by tag
+└── sitemap.xml  #autogenerated sitemap for search engines
 {% endhighlight %}
+
+---
 
 ## Customization
 
@@ -83,6 +157,19 @@ links:
     url: http://mademistakes.com
     external: true 
 {% endhighlight %}
+
+#### Simple Search
+
+Adding the following to `_config.yml` enables search using Christian Fei's [Simple Jekyll jQuery plugin](https://github.com/christian-fei/Simple-Jekyll-Search). Clicking search will trigger a fullscreen overlay that searches post titles' using an autogenerated JSON file.
+
+{% highlight yaml %}
+search: true
+{% endhighlight %}
+
+<figure>
+  <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
+  <figcaption>Clicking search triggers an overlay that allows you to search by post title.</figcaption>
+</figure>
 
 #### Other Stuff
 
@@ -151,34 +238,21 @@ Twitter cards make it possible to attach images and post summaries to Tweets tha
 
 So Simple Theme now supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
 
-## Further Customization
+---
 
-To make things easier I use LESS to build So Simple Theme's stylesheets. If you want to make some minor cosmetic alterations, take a look at `variables.less` in `assets/less/`. Changing some of the following variables can help make the theme your own. Just compile `main.less` using your preprocessor of choice and off you go -- I like [CodeKit](http://incident57.com/codekit/) for OS X and [Prepros](http://alphapixels.com/prepros/) for Windows.
+## Theme Development
 
-{% highlight css %}
-// Typography
-// --------------------------------------------------
-@base-font: 'source-sans-pro', sans-serif;
-@heading-font: @base-font;
-@caption-font: @base-font;
-@code-font: 'source-code-pro', monospace;
-@alt-font: 'volkorn', serif;
+If you want to easily skin the themes' colors and fonts, take a look at `variables.less` in `assets/less/` and make the necessary changes to the color and font variables. To make development easier I setup a Grunt build script to compile/minify the LESS files into `main.min.css` and lint/concatenate/minify all scripts into `scripts.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
 
-@doc-font-size: 16;
-@doc-line-height: 24;
-
-// Colors
-// --------------------------------------------------
-@body-color         : #ebebeb;
-@text-color         : #333;
-@base-color         : #343434;    
-@comp-color         : spin(@base-color, 180); 
-@border-color       : @base-color;
-@white              : #fff;
-@black              : #000;
-@accent-color       : @black;
-@link-color         : #343434;
+{% highlight bash %}
+npm install
 {% endhighlight %}
+
+From the theme's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. You can also use `grunt watch` in combination with `jekyll build --watch` to watch for updates to your LESS and JS files that Grunt will then automatically re-build as you write your code which will in turn auto-generate your Jekyll site when developing locally.
+
+And if the command line isn't your thing (you're using Jekyll so it probably is), [CodeKit](http://incident57.com/codekit/) for Mac OS X and [Prepros](http://alphapixels.com/prepros/) for Windows are great alternatives.
+
+---
 
 ## Questions?
 
