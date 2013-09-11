@@ -244,7 +244,7 @@ select:focus {
   	background-color: lighten(@black, 10);
   }
 }
-form[role="search"] {
+.search-form {
 	width: 100%;
 	position: relative;
 	opacity: 0;
@@ -252,7 +252,7 @@ form[role="search"] {
 	top: 0;
 	left: -200px;
 	z-index: 9002;
-	input[type="search"] {
+	.search-field {
 		-webkit-appearance: none;
 		border: none;
 		width: 100%;
@@ -291,10 +291,10 @@ form[role="search"] {
 		z-index: 1;
 		cursor: pointer;
 	}
-	input[type="search"]::-webkit-search-decoration,
-	input[type="search"]::-webkit-search-cancel-button,
-	input[type="search"]::-webkit-search-results-button,
-	input[type="search"]::-webkit-search-results-decoration {
+	.search-field::-webkit-search-decoration,
+	.search-field::-webkit-search-cancel-button,
+	.search-field::-webkit-search-results-button,
+	.search-field::-webkit-search-results-decoration {
 		display: none;
 	}
 	.post-list {

@@ -32,7 +32,7 @@ $(document).ready(function() {
   
    var bs = {
         close: $(".icon-remove-sign"),
-        searchform: $("form"),
+        searchform: $(".search-form"),
         canvas: $("body"),
         dothis: $('.dosearch')
     };
@@ -45,7 +45,7 @@ $(document).ready(function() {
   });
   
     bs.close.on('click', function() {
-      $('.search-wrapper').css({ display: "hidden" });
+      $('.search-wrapper').removeAttr( 'style' );
       bs.searchform.toggleClass('active');
       bs.canvas.removeClass('search-overlay');
   });
