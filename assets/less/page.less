@@ -380,10 +380,14 @@ span + .entry-title {
 .search-wrapper {
 	display: none;
 	position: absolute;
+	top: 50px;
 	width: 90%;
 	padding-right: 5%;
 	padding-left: 5%;
 	.clearfix();
+	@media @medium {
+		top: 100px;
+	}
 }
 // Footer
 // --------------------------------------------------
