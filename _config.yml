@@ -2,6 +2,7 @@ title:            Site Title
 description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
+search:           true
 #Comment out url when working locally to resolve base urls correctly
 url:              http://your-website.com
 
@@ -65,4 +66,4 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
