@@ -18,3 +18,36 @@ var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
 $(function() {
 	$("article").fitVids();
 });
+
+// Simple Jekyll Search options
+$(document).ready(function() {
+    $('.search-field').simpleJekyllSearch({
+        searchResults : '.search-results',
+        template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+        noResults: '<p>Nothing found.</p>'
+      });
+});
+
+(function( $, window, undefined ) {
+  
+   var bs = {
+        close: $(".icon-remove-sign"),
+        searchform: $("form"),
+        canvas: $("body"),
+        dothis: $('.dosearch')
+    };
+  
+  bs.dothis.on('click', function() {
+    $('.search-wrapper').css({ display: "block" });
+    bs.searchform.toggleClass('active');
+    bs.searchform.find('input').focus();
+    bs.canvas.toggleClass('search-overlay');
+  });
+  
+    bs.close.on('click', function() {
+      $('.search-wrapper').css({ display: "hidden" });
+      bs.searchform.toggleClass('active');
+      bs.canvas.removeClass('search-overlay');
+  });
+    
+})( jQuery, window );

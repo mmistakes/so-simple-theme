@@ -3,6 +3,7 @@ description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
+search:           true
 url:              http://your-website.com
 
 # Owner/author information
