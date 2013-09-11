@@ -206,13 +206,7 @@ var responsiveNav = (function (window, document) {
         addClass(nav, "closed");
         setAttributes(nav, {"aria-hidden": "true"});
 
-        if (opts.animate) {
-          setTimeout(function () {
-            nav.style.position = "absolute";
-          }, opts.transition + 10);
-        } else {
-          nav.style.position = "absolute";
-        }
+  
 
         navOpen = false;
         opts.close();
