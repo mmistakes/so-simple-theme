@@ -2,8 +2,8 @@ title:            Site Title
 description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
-#Comment out url when working locally to resolve base urls correctly
 search:           true
+#Comment out url when working locally to resolve base urls correctly
 url:              http://your-website.com
 
 # Owner/author information
