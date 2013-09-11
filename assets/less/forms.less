@@ -230,3 +230,98 @@ select:focus {
 	float : left;
 	margin-left : 0;
 	margin-right : 3px; }
+
+// Jekyll Simple Search
+// -------------------------------------------------
+.dosearch {
+  padding: 6px 10px;
+  cursor: pointer;
+  display: block;
+  color: @white;
+  .rounded(4px);
+  &:hover {
+	.box-shadow(@shadow: inset 0 0 1px @white);
+  	background-color: lighten(@black, 10);
+  }
+}
+form[role="search"] {
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	transition: all 200ms 100ms cubic-bezier(0, 0.6, 0.4, 1);
+	top: 0;
+	left: -200px;
+	z-index: 9002;
+	input[type="search"] {
+		-webkit-appearance: none;
+		border: none;
+		width: 100%;
+		color: @white;
+		border: none;
+		border-bottom: 1px solid lighten(@white, 20);
+		background-color: transparent;
+		box-shadow: none;
+		border-radius: 0;
+		background-clip: padding-box;
+		.font-rem(32);
+		&:focus {
+			box-shadow: none;
+			outline: none;
+		}
+	}
+	&.active {
+		opacity: 1;
+		top: 0;
+		left: 0;
+	}
+	&.hidden {
+		display: none;
+	}
+	::-webkit-input-placeholder {
+		.font-rem(32);
+	}
+	.icon-remove-sign {
+		position: absolute;
+		top: .6rem;
+		right: 1rem;
+		display: block;
+		cursor: pointer;
+		text-align: center;
+		color: @white;
+		z-index: 1;
+		cursor: pointer;
+	}
+	input[type="search"]::-webkit-search-decoration,
+	input[type="search"]::-webkit-search-cancel-button,
+	input[type="search"]::-webkit-search-results-button,
+	input[type="search"]::-webkit-search-results-decoration {
+		display: none;
+	}
+	.post-list {
+		position: absolute;
+		width: 100%;
+		h4, li, p, a {
+			color: @white;
+		}
+		li {
+			border-bottom: 1px solid lighten(@white,20);
+		}
+	}
+}
+body.search-overlay {
+	overflow: hidden;
+}
+body.search-overlay:after {
+	content: '';
+	background: fade(@black,95);
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9001;
+}
+.no-js .dosearch {
+	display: none;
+}
