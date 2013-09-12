@@ -3,7 +3,6 @@
 [
 	{% for post in site.posts %}
 		{
-		  "siteurl"    : "{{ site.url }}",
 		  "title"      : "{{ post.title | escape }}",
 		  "category"   : "{{ post.category }}",
 		  "url"        : "{{ site.url }}{{ post.url }}",
