@@ -1,10 +1,10 @@
-title:            Site Title
+title:            Random simple
 description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-website.com
+url:              http://abijango.github.io/so-simple-theme
 
 # Owner/author information
 owner:
@@ -12,7 +12,7 @@ owner:
   avatar:         bio-photo.jpg
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        abijango
   facebook:       
   github:         
   stackexchange:  
