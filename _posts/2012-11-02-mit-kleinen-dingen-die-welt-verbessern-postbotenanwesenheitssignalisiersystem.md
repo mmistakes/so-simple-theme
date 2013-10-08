@@ -1,21 +1,13 @@
---- 
+---
 layout: post
 title: "Mit kleinen Dingen die Welt verbessern: Postbotenanwesenheitssignalisiersystem"
-categories: 
-- Gedacht
-tags: 
+tags:
 - Post
 - Weltverbesserung
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
 ---
 Willkommen in einem Bereich, der mir sehr am Herzen liegt. "<strong>Mit kleinen Dingen die Welt verbessern</strong>". Heute: Wie kann ich mir sicher sein, dass der Postbote heute schon im Haus war?
 
-<!--more-->
+
 
 Oftmals stelle ich fest, dass es <a href="http://www.urbandictionary.com/define.php?term=First+World+Problems">First World Problems</a> gibt, die so dumm sind, das man sich wirklich darüber ärgern muss. Als First Worlder.
 

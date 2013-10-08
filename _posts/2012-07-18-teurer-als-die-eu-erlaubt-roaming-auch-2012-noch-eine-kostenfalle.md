@@ -1,27 +1,15 @@
---- 
+---
 layout: post
 title: "Teurer als die EU erlaubt: Roaming auch 2012 noch eine Kostenfalle."
-categories: 
-- Gedacht
-tags: 
+tags:
 - "3 \xC3\x96sterreich"
 - Mobilfunk
 - Roaming
 - Summercamp
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 Wer heutzutage eine Reise bucht, steht oftmals vor einem Dilemma: Möchte ich mir Internet-Zugang im Ausland leisten oder nicht? Die Politik versucht zwar die Roaming-Gebühren zu reglementieren; undurchsichtige AGB helfen den Mobilfunkanbietern jedoch weiterhin, eine Kostenfalle aufrecht zu erhalten. Ein kleiner Erfahrungsbericht.
 
-<!--more-->
+
 
 Für das letztwöchig <a title="7 legendäre Tage am Balaton: Socialisten Summercamp 2012" href="http://johannes.nagl.name/2012/7-legendare-tage-am-balaton-socialisten-summercamp-2012/">stattgefundene Summercamp</a> wollten wir bereits in Österreich Basis-Roaming-Pakete kaufen, weil wir nicht sicher waren, ob wir am Sonntag in Ungarn mobiles Internet auftreiben konnten. Gesagt, getan. Anbieter verglichen und <a href="http://www.drei.at/">3 Österreich</a> auserkoren, weil dieser als einziger Anbieter <a href="http://www.drei.at/portal/de/privat/service/roaming/Roamingpakete.html">250 MB für 19 EUR</a> zur Verfügung stellen. Als Internet-affiner Mensch(, der sein Roaming-Paket mit 9 anderen Software Entwicklern teilen muss), ist das extra hierfür angebotene <a href="http://www.drei.at/portal/de/privat/service/roaming/Holidaypakete.html">Holiday-Paket</a> mit 30 MB schlichtweg zu klein. Das schöne am Holiday-Paket? <em>Das Paket läuft nach drei Wochen <em>automatisch aus</em></em>.
 

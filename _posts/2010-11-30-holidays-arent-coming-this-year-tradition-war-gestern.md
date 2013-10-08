@@ -1,24 +1,13 @@
 ---
 layout: post
 title: Holidays aren't coming this year. Tradition war gestern.
-categories:
-- Gedacht
 tags:
 - Coke
 - Tradition
 - Weihnachten
 - Werbung
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Weihnachten ist ein Fest der Tradition. Teil dieser vielen Traditionen, die rund um das Fest der Liebe entstanden sind, ist der Weihnachtsmann. Zumeist im roten Kostüm anzutreffen. Angeblich ist ja auch Coca Cola nicht ganz unschuldig an der <a href="http://de.wikipedia.org/wiki/Weihnachtsmann">Verbreitung des Weihnachtsmanns</a>. Das kann ich auch nur allzu gut verstehen. Denn: Sobald das erste mal die Coke-Weihnachtstruck Werbung mit dem sympathischen alten Mann mit Bart und roten Mantel im Fernsehen erscheint, komme ich so richtig in Weihnachtsstimmung.<!--more-->
+Weihnachten ist ein Fest der Tradition. Teil dieser vielen Traditionen, die rund um das Fest der Liebe entstanden sind, ist der Weihnachtsmann. Zumeist im roten Kostüm anzutreffen. Angeblich ist ja auch Coca Cola nicht ganz unschuldig an der <a href="http://de.wikipedia.org/wiki/Weihnachtsmann">Verbreitung des Weihnachtsmanns</a>. Das kann ich auch nur allzu gut verstehen. Denn: Sobald das erste mal die Coke-Weihnachtstruck Werbung mit dem sympathischen alten Mann mit Bart und roten Mantel im Fernsehen erscheint, komme ich so richtig in Weihnachtsstimmung.
 
 Gut - „so richtig“. Das ist jetzt vielleicht übertrieben. „So richtig“ bin ich eigentlich nie in Weihnachtsstimmung. Ich glaub ja fast, das kann man wirklich nur als Kind, oder als Elternteil eines jungen Kinds sein. Oder wenn man frisch verliebt ist. Jedenfalls: Weihnachten ist bei mir eng mit Coca Cola verbunden. Ich liebe nämlich die Werbespots, in denen Kinder strahlende Augen bekommen, wenn der Coca Cola Weihnachtstruck durch ihre Stadt fährt. „Holidays are coming“ eben. Plötzlich hat man mehr als nur einen „wonderful dream“ und genießt die Weihnachtszeit.
 

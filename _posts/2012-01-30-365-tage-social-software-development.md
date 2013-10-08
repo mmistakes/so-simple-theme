@@ -1,24 +1,12 @@
---- 
+---
 layout: post
 title: 365 Tage Social Software Development
-categories: 
-- Gedacht
-- Gewerkt
-tags: 
+tags:
 - Die Socialisten
 - Erfahrungbericht
 - Work-Life-Balance
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Im Dezember 2010 war es soweit. Ich habe eingesehen, dass mein alter Beruf schon lange keine Berufung mehr für mich war und ich die deswegen Konsequenzen ziehen sollte. Nicht nur wegen mir, sondern auch wegen der Kollegen (bzw. guten Freundschaften). Es war also klar, dass ich mit Anfang 2011 meine Selbstständigkeit beenden und mir eine neue Arbeit suchen würde. Jetzt, auf den Tag genau ein Jahr, nachdem ich in der neuen Firma zu arbeiten angefangen habe, blicke ich noch einmal zurück und möchte die wichtigsten positiven/negativen Erfahrungen mit euch teilen. <!--more-->
+Im Dezember 2010 war es soweit. Ich habe eingesehen, dass mein alter Beruf schon lange keine Berufung mehr für mich war und ich die deswegen Konsequenzen ziehen sollte. Nicht nur wegen mir, sondern auch wegen der Kollegen (bzw. guten Freundschaften). Es war also klar, dass ich mit Anfang 2011 meine Selbstständigkeit beenden und mir eine neue Arbeit suchen würde. Jetzt, auf den Tag genau ein Jahr, nachdem ich in der neuen Firma zu arbeiten angefangen habe, blicke ich noch einmal zurück und möchte die wichtigsten positiven/negativen Erfahrungen mit euch teilen. 
 
 Die Zeit "<em>in between</em>", zwischen alten und neuem Job war sehr interessant. Nach 2,5 Jahren in der Selbstständigkeit überlegt man, wie es wohl ist, wieder neu anzufangen. Wenn man auf ein völlig neues Umfeld, neue Kollegen, neue Kunden und komplett neue Aufgaben trifft. Wie sich ein geregelteres Arbeitsumfeld und Arbeitszeiten auf den Tagesrythmus auswirken. Und wie es sich anfühlt, am Ende des Monats genau zu wissen, wie viel Geld man tatsächlich verdient hat (ohne auf Rückzahlungen 1,5 Jahre später warten zu müssen).
 

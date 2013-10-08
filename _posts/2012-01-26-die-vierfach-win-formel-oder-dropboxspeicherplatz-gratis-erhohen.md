@@ -1,24 +1,13 @@
---- 
+---
 layout: post
 title: "Die vierfach Win-Formel - oder: Dropboxspeicherplatz gratis erh\xC3\xB6hen"
-categories: 
-- Getestet
-tags: 
+tags:
 - Dropbox
 - Erfahrungsbericht
 - How-To
 - Online Speicher
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Es gibt Dinge, die sind kompliziert, dubios und fragwürdig. Und dann gibt es Dinge, bei denen gewinnt einfach scheinbar jeder. Ohne Haken. Achja? Ja! Hier also die Anleitung, wie man seinen eigenen Dropboxspeicher (kostenlos) erhöhen kann.<!--more-->
+Es gibt Dinge, die sind kompliziert, dubios und fragwürdig. Und dann gibt es Dinge, bei denen gewinnt einfach scheinbar jeder. Ohne Haken. Achja? Ja! Hier also die Anleitung, wie man seinen eigenen Dropboxspeicher (kostenlos) erhöhen kann.
 
 Registriert man sich bei dem allseits beliebten Cloud-Speicheranbieter <a href="http://db.tt/MYKAbwp">Dropbox</a>, dann genießt man viele Vorteile. Automatisches Synchronisieren von Dateien über mehrere Computer, jederzeit über ein Web-Interface zugängliche Dateien, Fotoalben und last but not least: ein sehr angenehm funktionierendes Backup-System.
 

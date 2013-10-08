@@ -1,23 +1,11 @@
 ---
 layout: post
 title: Mit kleinen Schritten die Welt verbessern.
-categories:
-- Gedacht
-- Gefunden
 tags:
 - Letschi
 - Menschlichkeit
 - U6
 - Wiener Linien
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 Mein Tag war anstrengend. Beinahe hätte ich meinen kompletten Schlüsselbund verloren. Nichtsdestotrotz ertappe ich mich in den letzten Tagen und Wochen immer wieder dabei, dass ich mit einem sehr positiven Gefühl unterwegs bin. Ich bin sehr zufrieden mit meinem Leben und habe einige Grundregeln gesammelt: Everything's positive. Everything happens for good reason. Everyone can make a difference. And last but not least: Be [nice](http://www.theniceblog.com/) to everybody. Und genau aus diesem Grund lernte ich heute Letschi kennen.
 

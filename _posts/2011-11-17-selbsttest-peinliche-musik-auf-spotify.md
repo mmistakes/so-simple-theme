@@ -1,23 +1,12 @@
---- 
+---
 layout: post
 title: "Selbsttest: Peinliche Musik auf Spotify"
-categories: 
-- Getestet
-tags: 
+tags:
 - Facebook
 - Musik
 - Spotify
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Seit einigen Tagen ist es so weit: Der Musikdienst Spotify ist in Österreich verfügbar. Seit diesem Zeitpunkt höre ich fast rund um die Uhr Musik. Ich liebe die Leichtigkeit und vor allem die Schnellligkeit, mit der es auf Spotify möglich ist Musik zu finden und zu spielen. Doch die tiefe Facebook-Integration, dh. das automatische Veröffentlichen aller gehörten Lieder, trübt den Beigeschmack etwas. Denn: Was sagen meine Freunde, wenn ich peinliche Musik hören möchte? Ein Selbsttest.<!--more-->
+Seit einigen Tagen ist es so weit: Der Musikdienst Spotify ist in Österreich verfügbar. Seit diesem Zeitpunkt höre ich fast rund um die Uhr Musik. Ich liebe die Leichtigkeit und vor allem die Schnellligkeit, mit der es auf Spotify möglich ist Musik zu finden und zu spielen. Doch die tiefe Facebook-Integration, dh. das automatische Veröffentlichen aller gehörten Lieder, trübt den Beigeschmack etwas. Denn: Was sagen meine Freunde, wenn ich peinliche Musik hören möchte? Ein Selbsttest.
 
 Durch den Artikel "Peinliche Momente verhindern: <a href="http://hypertechtronium.com/peinliche-momente-verhindern-wie-man-einzelne" target="_blank">Wie man einzelne Spotify-Facebook-Shares löscht</a>" auf <a href="http://hypertechtronium.com/" target="_blank">Hypertechtronium</a> animiert, wollte ich den Test wagen. Würden es Freunde überhaupt bemerken, wenn ich peinliche Musik höre? Das Test-Setup war einfach: Zwei Stunden lang Musik von Justin Bieber (passend zur Vorweihnachtszeit waren es hauptsächlich Weihnachtslieder) laufen lassen und auf die Reaktionen meiner Facebook-Freunde warten. Und hier meine gesammelten Ergebnisse:
 <ul>

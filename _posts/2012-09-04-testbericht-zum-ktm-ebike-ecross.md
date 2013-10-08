@@ -1,26 +1,14 @@
---- 
+---
 layout: post
 title: Testbericht zum KTM eBike eCross
-categories: 
-- Getestet
-tags: 
+tags:
 - EBikeTest
 - Erfahrungsbericht
 - "Mobilit\xC3\xA4t"
 - Rennrad
 - wien
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Anfang August war es soweit. Ich durfte endlich auch ein eBike von Wien Energie im Rahmen des <a title="e-Bike-Test? – Ich bin dabei." href="http://johannes.nagl.name/2012/e-bike-test-ich-bin-dabei/">eBikeTests</a> probehalber für eine Woche in Empfang nehmen. Und weil ich ja nicht nur für mich, sondern für euch getestet habe, hier mein Fazit:<!--more-->
+Anfang August war es soweit. Ich durfte endlich auch ein eBike von Wien Energie im Rahmen des <a title="e-Bike-Test? – Ich bin dabei." href="http://johannes.nagl.name/2012/e-bike-test-ich-bin-dabei/">eBikeTests</a> probehalber für eine Woche in Empfang nehmen. Und weil ich ja nicht nur für mich, sondern für euch getestet habe, hier mein Fazit:
 
 Schwer ist es! Schnell ist es! Langsam ist es! Unpraktisch ist es! Teuer ist es! Unterstützend ist es! Ausdauernd ist es! Unausgegoren ist es!
 

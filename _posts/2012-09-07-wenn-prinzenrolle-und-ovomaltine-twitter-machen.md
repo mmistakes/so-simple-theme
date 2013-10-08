@@ -1,27 +1,14 @@
 ---
 layout: post
 title: Wenn Prinzenrolle und Ovomaltine Twitter machen ...
-categories:
-- Gedacht
-- Getestet
 tags:
 - Branding
 - Mit Video
 - Ovomaltine
 - Prinzenrolle
 - Werbung
-status: publish
-type: post
-published: true
-meta:
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Ich gebe es offen und ehrlich zu: Ich lasse mich gerne von Marken verführen. Ich liebe durchdachte Konzepte, lustige Werbeideen oder markante Sprüche. Aber ich bin hierbei auch anspruchsvoll. Merke ich jedoch, dass eine Marke partout nicht (mit mir) will, dann ist sie schnell mal unten durch. Aber, liebe Marken: Es ist doch ganz einfach! Ihr müsst keine großen Werbebudgets aufwenden. Ihr müsst nur zuhören! Und auf Augenhöhe kommunizieren (versuchen). Warum? Ein Erfahrungsbericht in zwei Teilen. <!--more-->
+Ich gebe es offen und ehrlich zu: Ich lasse mich gerne von Marken verführen. Ich liebe durchdachte Konzepte, lustige Werbeideen oder markante Sprüche. Aber ich bin hierbei auch anspruchsvoll. Merke ich jedoch, dass eine Marke partout nicht (mit mir) will, dann ist sie schnell mal unten durch. Aber, liebe Marken: Es ist doch ganz einfach! Ihr müsst keine großen Werbebudgets aufwenden. Ihr müsst nur zuhören! Und auf Augenhöhe kommunizieren (versuchen). Warum? Ein Erfahrungsbericht in zwei Teilen. 
 
 Tatort: Twitter. Thema: Der Kauf einer neuen Packung <a href="http://www.griesson-debeukelaer.de/deDE/marken/prinzen-rolle/">Prinzenrolle</a>. Gesagt getan. Schon hatte ich so ein Dingens gekauft und war erfreut darüber, dass es diese Kindheits-Kekse nun auch als Vollkorn-Variante gibt. Reaktion: Ein positiver "<a href="https://twitter.com/jollife/status/173007094725877760">Mh, lecker. Prinzenrolle mit Vollkorn ist die Empfehlung des Tages</a>"-Tweet.
 

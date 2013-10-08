@@ -1,31 +1,18 @@
---- 
+---
 layout: post
 title: Ei like
-categories: 
-- Getestet
-tags: 
+tags:
 - Erfahrungsbericht
 - Freilandeier
 - Nachhaltigkeit
 - Produkttest
 - Social Media
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _wp_old_slug: nachhaltige-soziale-kommunikation-tonis-freilandeier
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
-  _yoast_wpseo_linkdex: "0"
 ---
 Ehrlich gesagt habe ich noch nie Produkte der Marke Toni´s gekauft. Der ungefähre Werbeslogan besagt, dass seine Hühner die Freiheit haben, alles zu tun, was sie wollen, hat sich bei mir dennoch verinnerlicht. Ich bin daher seit Jahren ein Fan der Marke - dem Produzenten der viel beworbenen Freilandeier.
 
 Nachdem ich nun zu Ostern einen <a href="http://www.tonis.at/de/produkte/uebersicht/tonis-eiaufstrich.html">Ei(-Karotte-/Dill-)Aufstrich</a> geschenkt bekommen hatte, war ich ein wenig enttäuscht. Seitdem ich seit vielen Monaten verstärkt auf regionale, nachhaltige, "bio"-gekennzeichnete Lebensmittel achte, war Toni´s Freilandeier Aufstrich eine gelungene Alternative zu den herkömmlichen Produkten im Kühlregal. Denn es war von rein natürlichen Zutaten ohne Geschmacksverstärker die Rede. Kurz angetestet, waren ich und meine Mitverkosterin jedoch enttäuscht. Obwohl die Verpackung romantisch von "Unermüdlich rühren, würzen und probieren" spricht, mussten wir feststellen, dass der Aufstrich defacto nach fast nichts schmeckt. (Liegt wohl auch am Fehlen der Geschmacksverstärker - was prinzipiell als lobenswert zu werten ist).
 
-In Zeiten von Social Media (für mich Kommunikation auf Augenhöhe, bzw. einfache Möglichkeit zum Feedback geben) Anlass, auf die <a href="https://www.facebook.com/tonis.freiheit">Facebook Pinnwand</a> der Firma Toni´s zu <a href="https://www.facebook.com/tonis.freiheit/posts/286561121421227">posten</a>. Prompt erhielt ich eine <a href="https://www.facebook.com/tonis.freiheit/posts/286561121421227?comment_id=2032972">positive Reaktion</a>. Innerhalb von nur 10 Stunden eine Antwort von Toni´s, dass man mir gerne ein Testpaket mit weiteren Produkten zuschicken würde. Kaum hatte ich die Adresse zugeschickt, bekam ich umgehend die Verständigung, dass das Paket schon auf dem Weg sei.<!--more-->
+In Zeiten von Social Media (für mich Kommunikation auf Augenhöhe, bzw. einfache Möglichkeit zum Feedback geben) Anlass, auf die <a href="https://www.facebook.com/tonis.freiheit">Facebook Pinnwand</a> der Firma Toni´s zu <a href="https://www.facebook.com/tonis.freiheit/posts/286561121421227">posten</a>. Prompt erhielt ich eine <a href="https://www.facebook.com/tonis.freiheit/posts/286561121421227?comment_id=2032972">positive Reaktion</a>. Innerhalb von nur 10 Stunden eine Antwort von Toni´s, dass man mir gerne ein Testpaket mit weiteren Produkten zuschicken würde. Kaum hatte ich die Adresse zugeschickt, bekam ich umgehend die Verständigung, dass das Paket schon auf dem Weg sei.
 
 Hatte ich mit 1-2 weiteren Aufstrichen zur Probe gerechnet, wurde ich heute in der Firma eines (viel, viel, viel) besseren belehrt. Ein Paket voller leckerer Produkte. Schwer, noch kalt von der Lieferung (Kühlwagen-Post?) und mit viel Liebe verpackt. Alle Kollegen im Büro versammelten sich um das Paket und nach dem Öffnen war Jubel, Erstaunen und vor allem Vorfreude bei allen zu vernehmen (Software Entwickler zeigen selten große Emotionen). Ein Bild sagt mehr als tausend Worte:
 

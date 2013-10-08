@@ -1,22 +1,13 @@
---- 
+---
 layout: post
 title: Leckeres Sushi/Maki selber machen
-categories: 
-- Getestet
-tags: 
+tags:
 - Anleitung
 - Gekocht
 - Rezept
 - Sushi
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
-  _wp_old_slug: lecker-sushi-maki-selber-machen
 ---
-Kurz entschlossen haben wir am Wochenende selbst Sushi gemacht. Meine Vermutung: Selber machen ist nicht schwierig und nicht so teuer, wie beim Asiaten ums Eck. Hier mein Fazit und Kochanleitung!<!--more-->
+Kurz entschlossen haben wir am Wochenende selbst Sushi gemacht. Meine Vermutung: Selber machen ist nicht schwierig und nicht so teuer, wie beim Asiaten ums Eck. Hier mein Fazit und Kochanleitung!
 
 Benötigte Zeit: 2,5h (mit Ruhzeiten)
 

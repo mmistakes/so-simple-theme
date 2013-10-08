@@ -1,25 +1,14 @@
---- 
+---
 layout: post
 title: "car2go im Selbsttest \xE2\x80\x93 Teil 2: Die erste Fahrt"
-categories: 
-- Getestet
-tags: 
+tags:
 - Car Sharing
 - car2go
 - Erfahrungsbericht
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 Wenige Tage ist es nun her, dass ich mir im<a href="http://www.car2go.com/wien/de/konzept/shop-office/"> car2go Shop</a> meine Member-Card geholt habe. Die erste Fahrt mit den hübschen Smarts blieb also nicht lange aus. Nach dem eher <a title="car2go im Selbsttest – Teil 1: Anmeldeprozess" href="http://johannes.nagl.name/2012/car2go-im-selbsttest-teil-1-anmeldeprozess/">negativen Erfahrungsbericht zum Thema "Anmeldeprozess"</a>, hier mein Erfahrungsbericht zum Thema: "Die erste Fahrt".
 
-<!--more-->
+
 
 Ich muss sagen, dass ich vor dem ersten Fahrtantritt sehr gespannt war. Nachdem ich mutigst den mir angebotenen Einführungskurs durch die car2go Mitarbeiter erspart habe und fragende Blicke von anderen Kunden erhalten habe, wollte ich's endlich wissen. Ja, bedient sich das Teil denn genauso wie das Carsharing von Denzel? Kurz zusammengefasst: <em>Tut es</em>. Nur besser.
 

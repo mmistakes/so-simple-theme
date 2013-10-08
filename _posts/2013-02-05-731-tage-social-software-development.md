@@ -1,22 +1,12 @@
---- 
+---
 layout: post
 title: 731 Tage Social Software Development
-categories: 
-- Gedacht
-- Gewerkt
-tags: 
+tags:
 - Die Socialisten
 - Erfahrungsbericht
 - Work-Life-Balance
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
-  _wpas_done_all: "1"
 ---
-Vor einem Jahr war es soweit. Das erste Jahr, sprich die ersten 365 Tage Social Software Development bei den Socialisten waren vorbei. Und man glaubt es kaum: Jetzt ist schon wieder was passiert - nämlich wieder ein Jahr vergangen! Zeit, auch dieses wieder Revue passieren zu lassen. Ein Zwischenbericht.<!--more-->
+Vor einem Jahr war es soweit. Das erste Jahr, sprich die ersten 365 Tage Social Software Development bei den Socialisten waren vorbei. Und man glaubt es kaum: Jetzt ist schon wieder was passiert - nämlich wieder ein Jahr vergangen! Zeit, auch dieses wieder Revue passieren zu lassen. Ein Zwischenbericht.
 
 Die Zeit verläuft rasend schnell. Vermutlich tut sie das im Social Software Development Umfeld noch um einen Zacken schneller. Es macht mir jedenfalls Spaß. Würde ich es kurz machen, könnte ich die <a title="365 Tage Social Software Development" href="http://johannes.nagl.name/2012/365-tage-social-software-development/">letztjährige Zusammenfassung</a> einfach hier copy/pasten. Das wäre aber gar ein wenig fad.
 

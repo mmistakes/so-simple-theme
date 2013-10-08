@@ -1,29 +1,15 @@
---- 
+---
 layout: post
 title: "7 legend\xC3\xA4re Tage am Balaton: Socialisten Summercamp 2012"
-categories: 
-- Gedacht
-- Gewerkt
-tags: 
+tags:
 - Arbeit
 - Die Socialisten
 - Projekte
 - Sommer
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
-  _thumbnail_id: "348"
 ---
 Nun ist es also zu Ende. Das #camp404 liegt leider hinter uns. Leider, weil es unglaublich viel Spaß gemacht und eine gelungene Abwechslung zum täglichen Arbeitsalltag dargestellt hat. Grund genug also, um noch mal kurz darüber zu bloggen und die sieben Tage für die Nachwelt zusammenzufassen.
 
-<!--more-->
+
 
 <strong>#camp404?</strong>
 

@@ -1,28 +1,15 @@
---- 
+---
 layout: post
 title: e-Bike-Test? - Ich bin dabei.
-categories: 
-- Getestet
-tags: 
+tags:
 - EBikeTest
 - Erfahrungsbericht
 - KTM
 - WienEnergie
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _wp_old_slug: e-bike-test-ich-bin-gerne-dabei
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
-  _yoast_wpseo_linkdex: "0"
 ---
 Ich muss schon sagen: Bisher habe ich die e-Bike-FahrerInnen ja immer mit einem Lächeln betrachtet. Vor allem in Fernseh-Reportagen, wo gezeigt wird, wie unsportliche Personen ohne viel Schweiß, dafür aber mit ihrem "<a href="http://de.wikipedia.org/wiki/Pedelec">Pedelec</a>" locker leicht in die Arbeit radeln. Win-Win-Situation quasi: Kein Schweiß, aber dennoch eine gewisse Form der Körperbetüchtigung.
 
-Trifft man sie dann an der Ampel, die e-Bike-FahrerInnen, sieht das Bild gleich ganz anders aus. Mühelos rollen sie zu einem an die Ampel. Man merkt noch nichts. Nur um Sekunden später auf der Haltelinie abgehängt zu werden. Mühelos, kurz nach dem Grünwerden der Ampel, sind sie dahin. Und das in einer Leichtigkeit, die man maximal Lance Armstrong zutrauen würde. Immer wieder eine Überraschung!<!--more-->
+Trifft man sie dann an der Ampel, die e-Bike-FahrerInnen, sieht das Bild gleich ganz anders aus. Mühelos rollen sie zu einem an die Ampel. Man merkt noch nichts. Nur um Sekunden später auf der Haltelinie abgehängt zu werden. Mühelos, kurz nach dem Grünwerden der Ampel, sind sie dahin. Und das in einer Leichtigkeit, die man maximal Lance Armstrong zutrauen würde. Immer wieder eine Überraschung!
 
 Diese kurzen Rendez-Vous an der Ampel waren auch der Grund, warum ich gemeinsam mit einem Freund am diesjährigen<a href="http://www.bikefestival.at/"> Argus Bike Festival</a> selbst mal ein e-Bike probieren wollte. Et, <em>voila</em>! Das Grinsen, als ich Batterie-unterstützt fünf Minuten im 50-Meter-Parcours geflitzt bin, hat gleich einmal für ein paar Stunden gehalten. Spaß hats definitv gemacht.
 

@@ -1,25 +1,13 @@
---- 
+---
 layout: post
 title: "Mediencamp Wien 2010 & Buzzattack 2010: Ein Vergleich"
-categories: 
-- Gedacht
-tags: 
+tags:
 - barcamp
 - buzzattack2010
 - konferenz
 - mcvie
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _wp_old_slug: ""
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Das diesjährige <a href="http://www.barcamp.at/Mediencamp">Mediencamp Wien</a> ist bereits ein paar Wochen alt. Dennoch habe ich noch nicht die Zeit bzw. Muse gefunden darüber zu schreiben. Da ich heute ebenfalls Teilnehmer der <a href="http://www.ambuzzador.com/buzzattack/">Buzzattack 2010</a> sein durfte, möchte ich die Chance wahrnehmen und gleich alles in einem Aufwasch erledigen. Hier nun also meine Gedanken bzw. das Resümee zu den beiden Veranstaltungen.<!--more-->
+Das diesjährige <a href="http://www.barcamp.at/Mediencamp">Mediencamp Wien</a> ist bereits ein paar Wochen alt. Dennoch habe ich noch nicht die Zeit bzw. Muse gefunden darüber zu schreiben. Da ich heute ebenfalls Teilnehmer der <a href="http://www.ambuzzador.com/buzzattack/">Buzzattack 2010</a> sein durfte, möchte ich die Chance wahrnehmen und gleich alles in einem Aufwasch erledigen. Hier nun also meine Gedanken bzw. das Resümee zu den beiden Veranstaltungen.
 
 <strong>Mediencamp Wien 2010</strong>
 

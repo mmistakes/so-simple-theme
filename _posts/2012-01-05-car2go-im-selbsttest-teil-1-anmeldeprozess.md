@@ -1,24 +1,12 @@
---- 
+---
 layout: post
 title: "car2go im Selbsttest - Teil 1: Anmeldeprozess"
-categories: 
-- Getestet
-tags: 
+tags:
 - Car Sharing
 - car2go
 - Erfahrungsbericht
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _wp_old_slug: car2go-anmeldeprozess
-  _su_og_image: ""
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
 ---
-Ich bin ein großer Fan des sogenannten Carsharings. Obwohl ich in einer Familie aufgewachsen bin, in der das Auto ein zentrales Thema (Autohändler/-werkstatt) gespielt hat, habe ich bei meinem Umzug nach Wien mein damaliges Auto verkauft. Für mich war ein Auto immer ein Fortbewegungsmittel, das nicht unbedingt mir gehören muss. Daher freut es mich umso mehr, dass in den letzten Jahren das Thema Carsharing immer populärer wird. Grund genug, mir einige Dienste anzusehen. Heute: Das kürzlich gestartete car2go.<!--more-->
+Ich bin ein großer Fan des sogenannten Carsharings. Obwohl ich in einer Familie aufgewachsen bin, in der das Auto ein zentrales Thema (Autohändler/-werkstatt) gespielt hat, habe ich bei meinem Umzug nach Wien mein damaliges Auto verkauft. Für mich war ein Auto immer ein Fortbewegungsmittel, das nicht unbedingt mir gehören muss. Daher freut es mich umso mehr, dass in den letzten Jahren das Thema Carsharing immer populärer wird. Grund genug, mir einige Dienste anzusehen. Heute: Das kürzlich gestartete car2go.
 
 Als ich das erste mal von <a href="http://www.car2go.com/wien/de/">car2go</a> in Wien gehört habe, dachte ich: Der König ist tot. Lang lebe der neue König. Das vor einigen Monaten ins Herz geschlossene <a href="http://www.carsharing.at/">Carsharing</a> von <a href="http://www.denzeldrive.at/">Denzeldrive</a> hat einen, für mich, sehr großen Haken: Das Auto muss immer wieder an den Abholort zurückgebracht werden. Das nervt, vor allem, wenn der Abholort weit von der eigenen Wohnung entfernt ist. Und genau dies ist bei car2go anders. Man holt sich ein Auto genau dort ab, wo gerade eines verfügbar ist und retourniert es (innerhalb des sogenannten "<a href="https://www.car2go.com/wien/de/gebiet/">Geschäftsgebietes</a>") einfach dort, wo es einem am sinnvollsten erscheint. Also entweder direkt vor der Wohnungstüre oder vor einer U-Bahn-Station, etc.
 

@@ -1,25 +1,13 @@
 ---
 layout: post
 title: Privacy, Gedankenlesen und meine Diplomarbeit
-categories:
-- Gedacht
 tags:
 - Diplomarbeit
 - Facebook
 - Mit Video
 - soziale Netze
-status: publish
-type: post
-published: true
-meta:
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "1"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Die soziale Welt war gestern im Aufruhr. Wieder einmal. <em>Was war geschehen</em>? Lt. dem amerikanischen Tech-Blog <a href="http://techcrunch.com/">TechCrunch</a> gab es auf <a href="http://techcrunch.com/2012/09/24/reports-facebook-users-seeing-private-messages-pre-2009-showing-up-on-timelines-as-posted-by-friends/">Facebook eine massive Datenlücke</a>. Wieder einmal. Private Nachrichten aus 2009 waren plötzlich öffentlich für jedermann zugänglich. Die Entrüstung war groß. Die Medien berichteten. Tags drauf, wurde ich in vielerlei Hinsicht an meine Diplomarbeit, die einige Jahre am Buckel hat, erinnert. Und ein Video hat dieses Bild noch einmal verdeutlicht.<!--more-->
+Die soziale Welt war gestern im Aufruhr. Wieder einmal. <em>Was war geschehen</em>? Lt. dem amerikanischen Tech-Blog <a href="http://techcrunch.com/">TechCrunch</a> gab es auf <a href="http://techcrunch.com/2012/09/24/reports-facebook-users-seeing-private-messages-pre-2009-showing-up-on-timelines-as-posted-by-friends/">Facebook eine massive Datenlücke</a>. Wieder einmal. Private Nachrichten aus 2009 waren plötzlich öffentlich für jedermann zugänglich. Die Entrüstung war groß. Die Medien berichteten. Tags drauf, wurde ich in vielerlei Hinsicht an meine Diplomarbeit, die einige Jahre am Buckel hat, erinnert. Und ein Video hat dieses Bild noch einmal verdeutlicht.
 
 2008, als Newsfeeds, Live Ticker, oder Timelines noch lange nicht das Licht der Welt erblickt haben, wagte ich einen Ausblick in die Zukunft sozialer Netzwerke. Er schien (und scheint heute noch) etwas düster. Ich schrieb in etwa:
 <blockquote>Die erste Generation bei etwas zu sein, ist jedoch auch immer mit gewissen Problemen behaftet. Der „gesunde Umgang“ mit dem neuen Medium fehlt. [...] Der Trend des Publizierens wird deswegen so lange steigen, bis sich Missbrauchsfälle häufen. [...] Die Selbstregulierung der veröffentlichten Daten in Social Communities wird definitiv stattfinden. <em>(vgl. das Kapitel "Ausblick" in meiner Diplomarbeit zum Thema <a href="http://johannes.nagl.name/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf">Datenschutz und Informationssicherheit in Social Communities</a>.)</em></blockquote>

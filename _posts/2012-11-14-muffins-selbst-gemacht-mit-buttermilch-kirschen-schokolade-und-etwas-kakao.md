@@ -1,22 +1,14 @@
---- 
+---
 layout: post
 title: "Muffins selbst gemacht: Mit Buttermilch, Kirschen, Schokolade und ... etwas Kakao!"
-categories: 
-- Gedacht
-tags: 
+tags:
 - Die Socialisten
 - Gebacken
 - Gekocht
 - Muffins
 - Rezept
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
 ---
-Nun, es ist noch gar nicht lange her, dass ich mich<a title="Leckeres Sushi/Maki selber machen" href="http://johannes.nagl.name/2012/leckeres-sushi-maki-selber-machen/"> zum ersten Mal als Foodblogger ans Kochen gewagt habe</a>. Und weil's so gut funktioniert hat, wollte ich es gleich ein zweites Mal testen. Diesmal: Etwas Süßes und vor allem einfach Schnelles. Muffins!<!--more-->
+Nun, es ist noch gar nicht lange her, dass ich mich<a title="Leckeres Sushi/Maki selber machen" href="http://johannes.nagl.name/2012/leckeres-sushi-maki-selber-machen/"> zum ersten Mal als Foodblogger ans Kochen gewagt habe</a>. Und weil's so gut funktioniert hat, wollte ich es gleich ein zweites Mal testen. Diesmal: Etwas Süßes und vor allem einfach Schnelles. Muffins!
 
 <em>Ausgangssituation/Werbung für den Arbeitgeber</em>: Bei mir <a href="http://die.socialisten.at/">in der Arbeit</a> im <a href="http://www.facebook.com/diesocialisten">Socialisten</a> <a href="http://www.twitter.com/diesocialisten">Büro</a> gibt es mittwochs Kochtag. Da kommt jeder mal dran und darf die anderen bekochen. Eine nette Idee, die wir jetzt schon seit mehr als einem Jahr, also ca. <a href="https://www.facebook.com/media/set/?set=a.413613792021732.87144.129842310398883&amp;type=3">50 Mal</a> in die Tat umgesetzt haben. Heute bin ich wieder mal an der Reihe und da es immer Bewertungen des Essens gibt, wollte ich dieses mal wieder ein wenig auftrumpfen.
 

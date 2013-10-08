@@ -1,23 +1,12 @@
 ---
 layout: post
 title: "10 Jahre im wahllosen Technik-R\xC3\xBCckblick."
-categories:
-- Gedacht
 tags:
 - iTunes
 - "R\xC3\xBCckblick"
 - Wikipedia
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: "3"
-  _su_og_image: ""
-  _su_og_description: ""
-  _su_og_type: ""
-  _su_og_title: ""
 ---
-Dass 10 Jahre schneller vergehen, als einem lieb ist, ist bekannt. Wie schnell sie dann doch vergehen und wie schnell neue Entwicklungen Einzug in das tägliche Leben finden, war mir bisher nicht klar. Zwei Beispiele, die meine These verdeutlichen sollen, ohne viel Text. <em>Einfach zum Nachdenken</em>. <!--more-->
+Dass 10 Jahre schneller vergehen, als einem lieb ist, ist bekannt. Wie schnell sie dann doch vergehen und wie schnell neue Entwicklungen Einzug in das tägliche Leben finden, war mir bisher nicht klar. Zwei Beispiele, die meine These verdeutlichen sollen, ohne viel Text. <em>Einfach zum Nachdenken</em>.
 
 <strong>iTunes wird 10 Jahre alt</strong>. Diese Nachricht alleine ist nicht weltbewegend. Wenn man sich allerdings die dazu passende Keynote von Steve Jobs ansieht, wie er die Begriffe <em>mp3</em>, <em>rippen</em> und <em>brennen</em> erklärt, wird einem rasch klar: Hoppla. Wie hat man vor zehn Jahren eigentlich Musik gehört?
 

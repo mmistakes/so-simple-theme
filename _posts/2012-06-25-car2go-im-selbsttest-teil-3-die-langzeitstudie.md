@@ -1,27 +1,14 @@
---- 
+---
 layout: post
 title: "car2go im Selbsttest - Teil 3: Die Langzeitstudie"
-categories: 
-- Getestet
-tags: 
+tags:
 - Car Sharing
 - car2go
 - Erfahrungsbericht
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _thumbnail_id: "325"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
-  _yoast_wpseo_linkdex: "0"
 ---
 Knapp sechs Monate ist es nun her, als ich mich bei car2go Wien <a href="http://johannes.nagl.name/2012/car2go-im-selbsttest-teil-1-anmeldeprozess/">angemeldet</a> habe, einige Gedanken zum Thema Anmeldeprozess niedergeschrieben, und dann einen ersten Bericht zur <a href="http://johannes.nagl.name/2012/car2go-im-selbsttest-teil-2-die-erste-fahrt/">ersten Fahrt</a> verfasst habe. Damals war ich vom Konzept angetan. Einige Fahrten später, ziehe ich mein nächstes Fazit.
 
-<!--more-->
+
 
 Eins sticht besonders im Langzeittest hervor: Bequem ist es, das car2go. Nicht nur das Auto selbst, sondern vor allem das Prinzip, das dahintersteckt. Einfach ein Auto drahtlos öffnen,  kurz damit von A nach B fahren: Genauso stelle ich mir persönlich urbane Mobilität vor. Ohne viel wenn und aber.
 

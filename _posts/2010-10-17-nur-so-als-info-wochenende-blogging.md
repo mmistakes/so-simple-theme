@@ -1,24 +1,12 @@
---- 
+---
 layout: post
 title: "Nur so als Info: Wochenende-Blogging."
-categories: 
-- Gedacht
-tags: 
+tags:
 - Kategorie denken
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _wp_old_slug: ""
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 Ich spiele schon seit einigen Wochen mit einem zentralen Gedanken: Ich möchte gezielt am Wochenende bloggen. Wieso, warum und weshalb? Weiter im Text!
 
-Die Woche ist verdammt schnell. Schnell vorbei, schnell-lebig, man ist schnell im Streß. Ehe man es sich versieht ist schon wieder Freitag Abend. Zeit, diesem rasanten Tempo Tribut zu zollen und am Wochenende einen Gang zurück zuschalten. Explizit „langsamer“ leben und sich gezielt aus vielen Dingen ausklinken (Ich habe mich zB entschlossen am Wochenende nur noch in den äußersten Notfällen zu arbeiten. Der Unterschied zwischen Arbeitswoche und Wochenende ist sonst noch geringer und alles fühlt sich nur noch an wie eine Fahrt auf der Autobahn, ohne Pausen.).<!--more-->
+Die Woche ist verdammt schnell. Schnell vorbei, schnell-lebig, man ist schnell im Streß. Ehe man es sich versieht ist schon wieder Freitag Abend. Zeit, diesem rasanten Tempo Tribut zu zollen und am Wochenende einen Gang zurück zuschalten. Explizit „langsamer“ leben und sich gezielt aus vielen Dingen ausklinken (Ich habe mich zB entschlossen am Wochenende nur noch in den äußersten Notfällen zu arbeiten. Der Unterschied zwischen Arbeitswoche und Wochenende ist sonst noch geringer und alles fühlt sich nur noch an wie eine Fahrt auf der Autobahn, ohne Pausen.).
 
 Das Wochenende soll zur Entspannung dienen, dh für mich: Lang schlafen, keine unangenehmen Termine annehmen, aber sehr wohl angenehme Dinge tun, die man während der Woche nicht schafft. Da ich ein großer Verfechter des (lebenslangen) Lernen bin, heißt das für mich auch, mich weiterzubilden. Ich sehe als Entspannung ein gutes Buch zu lesen, oder längere Blog-Artikel zu neuen Trends zu durchforsten. Und das geht viel besser, wenn man mehr Zeit hat.
 

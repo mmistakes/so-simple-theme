@@ -1,21 +1,12 @@
---- 
+---
 layout: post
 title: Marmorgugelhupf im Vergleich
-categories: 
-- Getestet
-tags: 
+tags:
 - Aromen
 - Essen
 - Kochen
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "1"
-  _wpas_done_all: "1"
-  _yoast_wpseo_linkdex: "0"
 ---
-Nun gut. Es ist ein großes Thema: Was essen wir, was nehmen wir zu uns, wie bewußt ernähren wir uns? Oft hat man ein Pech: Man hat wenig Zeit, wenig Lust oder keine Möglichkeit selbst etwas zu kochen. Dann greift man eben zu fertigem. Wer halbwegs bewußt handelt, geht lieber zum Bäcker, als sich Fertigtiefkühlfraß einzuwerfen. Aber - ist das immer klug? Ist man vor Aromen, oder E-Nummern bei Bäckern gefeit? <!--more-->
+Nun gut. Es ist ein großes Thema: Was essen wir, was nehmen wir zu uns, wie bewußt ernähren wir uns? Oft hat man ein Pech: Man hat wenig Zeit, wenig Lust oder keine Möglichkeit selbst etwas zu kochen. Dann greift man eben zu fertigem. Wer halbwegs bewußt handelt, geht lieber zum Bäcker, als sich Fertigtiefkühlfraß einzuwerfen. Aber - ist das immer klug? Ist man vor Aromen, oder E-Nummern bei Bäckern gefeit? 
 
 Der wahllose "Ich setze mich fünf Minuten vor den Computer"-Vergleich zeigt wie folgt:
 

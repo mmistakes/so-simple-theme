@@ -1,24 +1,12 @@
---- 
+---
 layout: post
 title: "Wien soll D\xC3\xBCsseldorf werden"
-categories: 
-- Gedacht
-tags: 
+tags:
 - "D\xC3\xBCsseldorf"
 - "Mobilit\xC3\xA4t"
 - wien
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
-  _yoast_wpseo_linkdex: "0"
 ---
-Heute möchte ich einen kurzen Appell an die Wiener Politiker und Verantwortlichen richten: Wien ist zwar Stadt mit der <a href="http://www.wien.gv.at/politik-verwaltung/mercerstudie.html">höchsten Lebensqualität</a>, dennoch kann man sich einige Dinge noch abschauen. Zum Beispiel von ... Düsseldorf. Eine kurze Pressemeldung beschreibt wieso.<!--more-->
+Heute möchte ich einen kurzen Appell an die Wiener Politiker und Verantwortlichen richten: Wien ist zwar Stadt mit der <a href="http://www.wien.gv.at/politik-verwaltung/mercerstudie.html">höchsten Lebensqualität</a>, dennoch kann man sich einige Dinge noch abschauen. Zum Beispiel von ... Düsseldorf. Eine kurze Pressemeldung beschreibt wieso.
 
 Diese Woche startete car2go (meine Reviews <a title="car2go im Selbsttest – Teil 1: Anmeldeprozess" href="http://johannes.nagl.name/2012/car2go-im-selbsttest-teil-1-anmeldeprozess/">hier</a> und <a title="car2go im Selbsttest – Teil 2: Die erste Fahrt" href="http://johannes.nagl.name/2012/car2go-im-selbsttest-teil-2-die-erste-fahrt/">hier</a>) in Düsseldorf. Gemeinsam mit den örtlichen Verkehrsbetrieben wurde darüber hinaus eine Möglichkeit geschaffen, wie mit einer Karte sowohl öffentliche Verkehrsmittel, Fahrräder als auch car2gos verwendet werden können.
 

@@ -1,24 +1,12 @@
---- 
+---
 layout: post
 title: "car2go: Offizielle Android App verf\xC3\xBCgbar."
-categories: 
-- Gedacht
-tags: 
+tags:
 - Android
 - App
 - car2go
-status: publish
-type: post
-published: true
-meta: 
-  _yoast_wpseo_linkdex: "0"
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
-Wie ihr wisst, bin ich ein großer Fan von car2go. Auch nach vielen Monaten benutze ich die kleinen Smarts sehr gern, um entweder abends nach Hause, oder untertags zum Shoppen zu fahren. Für mich ist carsharing ein sinnvolles Angebot. Vor einigen Tagen wurde das Service noch einmal verbessert: Es wurde eine offizielle Android-App für car2go veröffentlicht. <!--more-->
+Wie ihr wisst, bin ich ein großer Fan von car2go. Auch nach vielen Monaten benutze ich die kleinen Smarts sehr gern, um entweder abends nach Hause, oder untertags zum Shoppen zu fahren. Für mich ist carsharing ein sinnvolles Angebot. Vor einigen Tagen wurde das Service noch einmal verbessert: Es wurde eine offizielle Android-App für car2go veröffentlicht. 
 
 Auf meinem Android Gerät ist seit den ersten Tagen meiner car2go-Nutzung <a href="https://play.google.com/store/apps/details?id=de.emasty.c2g&amp;feature=search_result#?t=W251bGwsMSwyLDEsImRlLmVtYXN0eS5jMmciXQ..">Find2Car</a> gelaufen, eine inoffizielle Applikation, die mir Fahrzeuge in meinem Umkreis anzeigt. Find2Car hat prinzipiell sein Werk gut verrichtet - zu 100 Prozent war ich jedoch nicht zufrieden. Während der Funktionsumfang (Autos anzeigen, Autos reservieren, zu Autos hin navigieren) mobil vollkommen ausreicht, hatte ich immer das Gefühl, dass die App eher ein Lückenbüßer sei. Aus Entwickler-Sicht ist das Angebot einer offenen Programmierschnitstelle (API) zwar sehr lobenswert (siehe dazu meine Randnotiz am Schluß des Artikels), für den Endverbraucher ist es jedoch eher  ungewohnt, auf eine inoffizielle App eines (privaten) Fremdanbieters verwiesen zu werden.
 

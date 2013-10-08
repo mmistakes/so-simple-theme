@@ -1,25 +1,14 @@
 ---
 layout: post
 title: Hello world!
-categories:
-- Gedacht
 tags:
 - Branding
 - Inhalt
 - Kategorie denken
 - Welt
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 
-Oder sollte ich viel mehr sagen „<em>Welcome Back</em>“? Willkommen zurück. Nach Jahren der Abstinenz. Der gut gemeinten und gut vergangenen Abstinenz öffne ich hier wieder meine Türen. Ich öffne meine Türen deswegen, weil ich gemerkt habe, dass es an der Zeit ist Farbe zu bekennen, Meinung zu vertreten und Meinung zu schaffen. Vieles passiert in der Welt. Und dazu habe ich lange Zeit wenig bis gar nichts gesagt. Es ist jetzt natürlich nicht so, dass ich zukünftig (zu) viel sagen werde. Keine Sorge. <em>Rampensau</em> bin ich keine. Manche Themen gehören aber dennoch einfach angesprochen und diskutiert.<!--more-->
+Oder sollte ich viel mehr sagen „<em>Welcome Back</em>“? Willkommen zurück. Nach Jahren der Abstinenz. Der gut gemeinten und gut vergangenen Abstinenz öffne ich hier wieder meine Türen. Ich öffne meine Türen deswegen, weil ich gemerkt habe, dass es an der Zeit ist Farbe zu bekennen, Meinung zu vertreten und Meinung zu schaffen. Vieles passiert in der Welt. Und dazu habe ich lange Zeit wenig bis gar nichts gesagt. Es ist jetzt natürlich nicht so, dass ich zukünftig (zu) viel sagen werde. Keine Sorge. <em>Rampensau</em> bin ich keine. Manche Themen gehören aber dennoch einfach angesprochen und diskutiert.
 
 Willkommen zurück also. Vermutlich wird sich niemand mehr daran erinnern können. Das ist auch gut so. Aber vor knapp 10 Jahren habe ich, an ähnlicher Stelle, begonnen mich mit dem Internet zu beschäftigen und Dinge über mich Preis zu geben. Damals war es in erster Linie das Interesse an der neuen Technik. Das tägliche Ausloten der Grenzen. Was kann man mit dem Computer, diesem HTML, dem World Wide Web denn wirklich alles machen. Heute, 10 Jahre später, werde ich zwar tagtäglich immer wieder überrascht, was alles im Netz so möglich ist, dennoch bin ich der Meinung, dass ich schon einen recht guten Überblick habe. War damals „<em>Inhalt</em>“ ein notwendiges Übel, ein Nebenprodukt des Herumwerkens, möchte ich dieses mal bewußt den Fokus einzig und allein darauf legen. Mit Technik habe ich bereits viel experimentiert. Mit „<em>Inhalt</em>“ noch nicht (genug).
 

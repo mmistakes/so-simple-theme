@@ -1,27 +1,15 @@
---- 
+---
 layout: post
 title: "Ein Team kocht. Oder: Kochen ist mehr als Essen"
-categories: 
-- Gedacht
-- Gewerkt
-tags: 
+tags:
 - Essen
 - Gekocht
 - PicThePic
 - Team
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "3"
-  _su_og_type: ""
-  _su_og_title: ""
-  _su_og_description: ""
-  _su_og_image: ""
 ---
 Vor einigen Wochen durchlief das „<a href="http://www.picthepic.com/">Pic the Pic</a>“-Team eine schwierige Phase. Um diese Phase auch gruppentechnisch aufzuarbeiten wurde ein Termin zum gemeinsamen Kochen vereinbart. Kochen? Für eine Truppe von Grafikern und Programmierern wohl eine unübliche Tätigkeit. Stimmt. Aber wir haben das Glück, dass mit <a href="http://titilaflora.net/bio/">Frau Laflora</a> eine begnadete Köchin im Naheverhältnis zum Team existiert, die mit viel Fingerspitzengefühl und Rücksicht genau auf unsere Bedürfnisse eingegangen ist. Ein <em>Tatsachenbericht</em>.
 
-<!--more-->
+
 
 Wir wussten alle nicht, was uns an diesem Sonntag Mittag, Nachmittag, Abend erwarten würde. Außer des, für mich wichtigen, Ausschlusses von Zutaten wie Ingwer oder Meeresfrüchten aus dem bunten Potpourri der Essenszubereitung, war alles offen. Umso erfreuter war ich, dass der <strong>Menüvorschlag</strong> für den Nachmittag nur äußerst vielversprechend &amp; <strong>sehr gustiös klingende Speisen</strong> beinhaltete. Als Vorspeise gab es einen „Hidden Salad“ (in einem Brotballon versteckter Salat), gefolgt von einer „weißen Bohnensuppe mit Fenchel und Speck“. Im dritten Gang wurde es italienisch - serviert wurde „Trofie al Pesto“. Abgerundet wurde das Menü dann noch mit der Nachspeise - nämlich einer „Appletarte fine mit Vanilleeis“. Es durfte sich also auf das Essen gefreut werden. Zwischen dem Genuss und dem Team stand lediglich nur noch eins: Das Kochen selbst.
 
