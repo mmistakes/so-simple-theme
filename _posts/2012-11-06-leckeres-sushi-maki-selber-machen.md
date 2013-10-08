@@ -64,7 +64,8 @@ Obwohl wir uns strengstens an das Rezept gehalten haben, war der Reis leider nic
 
 Als ideale Einstimmung für das Experiment "Das perfekte Sushi" empfehle ich folgende Doku, die den Mythos des rohen und vor allem teuren Fisches beleuchtet: "Jiros Dream of Sushi" - Zu Besuch bei Jiro, dem 3-Sterne Sushi-Gott, bei dem man ab 30.000 Yen (290 EUR) Essen darf.
 
-http://youtu.be/JorsEExDnMc
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/JorsEExDnMc" frameborder="0"> </iframe>
 
 Ideen zur Umsetzung geholt von:
 <ul>

@@ -3,6 +3,23 @@ layout: page
 permalink: /curriculum-vitae/index.html
 title: Curriculum Vitae
 ---
+<h2>Berufserfahrung</h2>
+<h3>Dienstnehmer</h3>
+<ul>
+	<li><a title="Die Socialisten - Social Software GmbH" href="https://www.facebook.com/diesocialisten">Die Socialisten GmbH</a> seit Februar 2011
+CTO, Social Software Developer</li>
+	<li><a title="DIE ANTWORT · Büro für Informationstechnik GmbH" href="http://www.die-antwort.eu/">DIE ANTWORT · Büro für Informationstechnik GmbH</a> Jänner 2008 - Februar 2011
+Web Enthusiast, Gesellschafter</li>
+	<li><a title="Hagenberg Software GmbH" href="http://www.hagenberg-software.at/">Hagenberg Software GmbH</a>, August 2008 - Februar 2009
+Software-Entwickler, SharePoint-Consultant</li>
+	<li><a title="pmOne. One source for performance management." href="http://www.pmOne.com/">pmOne GmbH</a>, (ehemals Aveness Gmbh), August 2006 - Dezember 2007
+(Junior) Consultant, Software-Entwickler, zuletzt: IT Systemadministration und Helpdesk</li>
+</ul>
+<h3>Selbstständig</h3>
+<ul>
+	<li>laufend selbstständige Tätigkeiten im Bereich Web-Programmierung und Consulting, März 2008 - Dezember 2010 (Erfahrung seit 2000)</li>
+</ul>
+
 <h2>Ausbildung</h2>
 <h3>Schulische Ausbildung</h3>
 <ul>
@@ -45,22 +62,7 @@ Wirtschaftsinformatik und betriebliche Organisation</li>
 	<li>Rettungssanitäter; Sicherer Einsatz Fahrer des Österreichischen Roten Kreuzes.
 (anfänglich im Rahmen des Zivildienstes, ehrenamtlich aktiv im Zeitraum von Okt. 2004 - Feb. 2007)</li>
 </ul>
-<h2>Berufserfahrung</h2>
-<h3>Dienstnehmer</h3>
-<ul>
-	<li><a title="Die Socialisten - Social Software GmbH" href="https://www.facebook.com/diesocialisten">Die Socialisten GmbH</a> seit Februar 2011
-CTO, Social Software Developer</li>
-	<li><a title="DIE ANTWORT · Büro für Informationstechnik GmbH" href="http://www.die-antwort.eu/">DIE ANTWORT · Büro für Informationstechnik GmbH</a> seit Jänner 2008
-Web Enthusiast, Gesellschafter</li>
-	<li><a title="Hagenberg Software GmbH" href="http://www.hagenberg-software.at/">Hagenberg Software GmbH</a>, August 2008 - Februar 2009
-Software-Entwickler, SharePoint-Consultant</li>
-	<li><a title="pmOne. One source for performance management." href="http://www.pmOne.com/">pmOne GmbH</a>, (ehemals Aveness Gmbh), August 2006 - Dezember 2007
-(Junior) Consultant, Software-Entwickler, zuletzt: IT Systemadministration und Helpdesk</li>
-</ul>
-<h3>Selbstständig</h3>
-<ul>
-	<li>laufend selbstständige Tätigkeiten im Bereich Web-Programmierung und Consulting, März 2008 - Dezember 2010 (Erfahrung seit 2000)</li>
-</ul>
+
 <h2>Allgemeine Interessen</h2>
 <ul>
 	<li>Sport, aktiv (Fußball, Laufen)</li>
