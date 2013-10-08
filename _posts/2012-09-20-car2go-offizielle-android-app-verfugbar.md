@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "car2go: Offizielle Android App verf\xC3\xBCgbar."
+title: "car2go: Offizielle Android App verfügbar."
 tags:
 - Android
 - App

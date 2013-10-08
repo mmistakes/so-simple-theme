@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "7 legend\xC3\xA4re Tage am Balaton: Socialisten Summercamp 2012"
+title: "7 legendäre Tage am Balaton: Socialisten Summercamp 2012"
 tags:
 - Arbeit
 - Die Socialisten

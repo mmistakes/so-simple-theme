@@ -1,10 +1,10 @@
 ---
 comments: true
 layout: post
-title: "10 Jahre im wahllosen Technik-R\xC3\xBCckblick."
+title: "10 Jahre im wahllosen Technik-Rückblick."
 tags:
 - iTunes
-- "R\xC3\xBCckblick"
+- Rückblick
 - Wikipedia
 ---
 Dass 10 Jahre schneller vergehen, als einem lieb ist, ist bekannt. Wie schnell sie dann doch vergehen und wie schnell neue Entwicklungen Einzug in das tägliche Leben finden, war mir bisher nicht klar. Zwei Beispiele, die meine These verdeutlichen sollen, ohne viel Text. <em>Einfach zum Nachdenken</em>.

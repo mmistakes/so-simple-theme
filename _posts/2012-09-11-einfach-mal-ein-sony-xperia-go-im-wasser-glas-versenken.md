@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "Einfach mal ein Sony Xperia Go im Wasser(-glas) versenken\xE2\x80\xA6"
+title: "Einfach mal ein Sony Xperia Go im Wasser(-glas) versenken"
 tags:
 - Mit Video
 - Mobile
@@ -14,6 +14,8 @@ Was machen <a href="http://twitter.com/diesocialisten">Die Socialisten</a>, wenn
 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/X2qqYcaaidc" frameborder="0"> </iframe>
+
+&nbsp;
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/K9mdubVtkVo" frameborder="0"> </iframe>
 

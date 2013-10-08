@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: People are awesome
 tags:
-- "H\xC3\xB6chstleistungen"
+- Höchstleistungen
 - Menschen
 ---
 

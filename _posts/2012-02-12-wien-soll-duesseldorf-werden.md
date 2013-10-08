@@ -1,10 +1,10 @@
 ---
 comments: true
 layout: post
-title: "Wien soll D\xC3\xBCsseldorf werden"
+title: "Wien soll Düsseldorf werden"
 tags:
-- "D\xC3\xBCsseldorf"
-- "Mobilit\xC3\xA4t"
+- Düsseldorf
+- Mobilität
 - wien
 ---
 Heute möchte ich einen kurzen Appell an die Wiener Politiker und Verantwortlichen richten: Wien ist zwar Stadt mit der <a href="http://www.wien.gv.at/politik-verwaltung/mercerstudie.html">höchsten Lebensqualität</a>, dennoch kann man sich einige Dinge noch abschauen. Zum Beispiel von ... Düsseldorf. Eine kurze Pressemeldung beschreibt wieso.

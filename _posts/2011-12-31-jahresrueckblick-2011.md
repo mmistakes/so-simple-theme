@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: "2011"
 tags:
-- "Jahresr\xC3\xBCckblick"
+- "Jahresrückblick"
 ---
 Es gibt mehr Jahresrückblicke als Tage im Jahr. Und es gibt so viel, was in einem Jahr passiert, dass eine Struktur schwer fällt. Hier also mein durchaus chaotischer Jahresrückblick, mit (fast) allem wichtigen, was 2011 passiert ist. Unsortiert, ungeschminkt, ungeordnet.
 

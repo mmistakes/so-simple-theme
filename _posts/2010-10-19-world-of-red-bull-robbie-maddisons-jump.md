@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: World of Red Bull - Robbie Maddison's jump
+title: "World of Red Bull - Robbie Maddison's jump"
 tags:
 - buzzattack
 - red bull

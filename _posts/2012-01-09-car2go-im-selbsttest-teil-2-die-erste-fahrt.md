@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "car2go im Selbsttest \xE2\x80\x93 Teil 2: Die erste Fahrt"
+title: "car2go im Selbsttest - Teil 2: Die erste Fahrt"
 tags:
 - Car Sharing
 - car2go

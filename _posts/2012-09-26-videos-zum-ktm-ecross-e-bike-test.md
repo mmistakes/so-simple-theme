@@ -6,7 +6,7 @@ tags:
 - EBikeTest
 - Erfahrungsbericht
 - Mit Video
-- "Mobilit\xC3\xA4t"
+- "Mobilität"
 - Rennrad
 - wien
 - WienEnergie

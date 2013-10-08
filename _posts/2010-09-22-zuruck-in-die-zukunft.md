@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "Zur\xC3\xBCck in die Zukunft."
+title: Zurück in die Zukunft.
 tags:
 - 88mph
 - future

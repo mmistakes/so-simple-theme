@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: "Teurer als die EU erlaubt: Roaming auch 2012 noch eine Kostenfalle."
 tags:
-- "3 \xC3\x96sterreich"
+- "3 Österreich"
 - Mobilfunk
 - Roaming
 - Summercamp

@@ -5,7 +5,7 @@ title: Testbericht zum KTM eBike eCross
 tags:
 - EBikeTest
 - Erfahrungsbericht
-- "Mobilit\xC3\xA4t"
+- "Mobilität"
 - Rennrad
 - wien
 ---

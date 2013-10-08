@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: Everybody's Free (To Wear Sunscreen)
+title: "Everybody's Free (To Wear Sunscreen)"
 tags:
 - Lebensweisheiten
 - Sonnencreme

@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: "Zur Wien Wahl 2010 Farbe bekennen: Gegen blau!"
 tags:
-- "fp\xC3\xB6"
+- fpö
 - wahl
 - wien
 ---
