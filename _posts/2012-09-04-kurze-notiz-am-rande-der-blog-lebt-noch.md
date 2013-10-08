@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Kurze Notiz am Rande Der Blog lebt noch...
 tags:

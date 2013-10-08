@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Muffins selbst gemacht: Mit Buttermilch, Kirschen, Schokolade und ... etwas Kakao!"
 tags:

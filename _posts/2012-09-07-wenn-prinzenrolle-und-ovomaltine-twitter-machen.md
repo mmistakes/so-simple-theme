@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Wenn Prinzenrolle und Ovomaltine Twitter machen ...
 tags:

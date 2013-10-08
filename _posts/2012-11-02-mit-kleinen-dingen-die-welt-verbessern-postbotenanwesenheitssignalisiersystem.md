@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Mit kleinen Dingen die Welt verbessern: Postbotenanwesenheitssignalisiersystem"
 tags:

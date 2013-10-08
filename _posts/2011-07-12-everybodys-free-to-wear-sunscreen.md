@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Everybody's Free (To Wear Sunscreen)
 tags:

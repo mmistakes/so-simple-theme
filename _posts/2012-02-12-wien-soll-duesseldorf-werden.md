@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Wien soll D\xC3\xBCsseldorf werden"
 tags:

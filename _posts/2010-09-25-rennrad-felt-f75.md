@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Rennrad - Felt F75
 tags:

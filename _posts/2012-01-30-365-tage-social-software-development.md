@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: 365 Tage Social Software Development
 tags:

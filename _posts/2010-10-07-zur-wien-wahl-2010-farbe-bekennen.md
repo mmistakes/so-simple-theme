@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Zur Wien Wahl 2010 Farbe bekennen: Gegen blau!"
 tags:

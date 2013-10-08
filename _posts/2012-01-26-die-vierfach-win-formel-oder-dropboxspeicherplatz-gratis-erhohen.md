@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Die vierfach Win-Formel - oder: Dropboxspeicherplatz gratis erh\xC3\xB6hen"
 tags:

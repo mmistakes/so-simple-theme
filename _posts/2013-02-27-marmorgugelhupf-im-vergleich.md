@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Marmorgugelhupf im Vergleich
 tags:

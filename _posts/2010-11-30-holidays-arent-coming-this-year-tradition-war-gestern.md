@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Holidays aren't coming this year. Tradition war gestern.
 tags:

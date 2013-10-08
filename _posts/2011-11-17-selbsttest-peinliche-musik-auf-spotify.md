@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Selbsttest: Peinliche Musik auf Spotify"
 tags:

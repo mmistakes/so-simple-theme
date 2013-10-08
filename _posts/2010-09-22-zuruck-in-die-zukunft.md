@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Zur\xC3\xBCck in die Zukunft."
 tags:

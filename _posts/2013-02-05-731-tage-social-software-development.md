@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: 731 Tage Social Software Development
 tags:

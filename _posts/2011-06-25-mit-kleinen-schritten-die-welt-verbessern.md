@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Mit kleinen Schritten die Welt verbessern.
 tags:

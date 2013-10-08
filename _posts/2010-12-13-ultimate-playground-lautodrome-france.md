@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Ultimate Playground: l'Autodrome, France"
 tags:

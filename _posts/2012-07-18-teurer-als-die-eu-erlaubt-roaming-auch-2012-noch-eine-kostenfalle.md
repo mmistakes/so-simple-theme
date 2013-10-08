@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Teurer als die EU erlaubt: Roaming auch 2012 noch eine Kostenfalle."
 tags:

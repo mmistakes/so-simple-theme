@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "car2go im Selbsttest - Teil 1: Anmeldeprozess"
 tags:

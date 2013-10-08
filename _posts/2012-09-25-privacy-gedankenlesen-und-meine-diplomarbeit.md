@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Privacy, Gedankenlesen und meine Diplomarbeit
 tags:

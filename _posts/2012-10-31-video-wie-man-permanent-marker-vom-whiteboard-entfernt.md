@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Video: Wie man Permanent-Marker vom Whiteboard entfernt"
 tags:

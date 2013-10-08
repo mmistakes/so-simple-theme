@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Hello world!
 tags:

@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Aufstehn aufeinander zugehen
 tags:

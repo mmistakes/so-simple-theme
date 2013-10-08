@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "10 Jahre im wahllosen Technik-R\xC3\xBCckblick."
 tags:

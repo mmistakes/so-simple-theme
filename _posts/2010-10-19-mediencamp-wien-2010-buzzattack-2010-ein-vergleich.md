@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Mediencamp Wien 2010 & Buzzattack 2010: Ein Vergleich"
 tags:

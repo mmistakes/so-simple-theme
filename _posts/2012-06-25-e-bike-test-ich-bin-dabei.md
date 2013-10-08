@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: e-Bike-Test? - Ich bin dabei.
 tags:

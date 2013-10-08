@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Ein Team kocht. Oder: Kochen ist mehr als Essen"
 tags:

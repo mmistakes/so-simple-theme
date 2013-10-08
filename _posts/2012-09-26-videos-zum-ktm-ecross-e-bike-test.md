@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Videos zum KTM eCross E-Bike-Test
 tags:

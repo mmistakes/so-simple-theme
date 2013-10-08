@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "2011"
 tags:

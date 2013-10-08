@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Leckeres Sushi/Maki selber machen
 tags:

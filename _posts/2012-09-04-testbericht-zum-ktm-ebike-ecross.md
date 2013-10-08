@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: Testbericht zum KTM eBike eCross
 tags:

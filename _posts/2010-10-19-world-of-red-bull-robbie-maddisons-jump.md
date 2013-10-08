@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: World of Red Bull - Robbie Maddison's jump
 tags:

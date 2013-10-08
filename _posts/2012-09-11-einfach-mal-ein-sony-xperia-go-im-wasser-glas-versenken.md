@@ -1,4 +1,5 @@
 ---
+comments: true
 layout: post
 title: "Einfach mal ein Sony Xperia Go im Wasser(-glas) versenken\xE2\x80\xA6"
 tags:
