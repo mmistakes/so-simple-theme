@@ -1,16 +1,16 @@
---- 
+---
 layout: post
 title: Everybody's Free (To Wear Sunscreen)
-categories: 
+categories:
 - Gefunden
-tags: 
+tags:
 - Lebensweisheiten
 - Sonnencreme
 - Youtube
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _wp_old_slug: everyones-free-to-wear-sunscreen
   _edit_last: "1"
   _su_og_type: ""
@@ -24,6 +24,7 @@ meta:
   _format_video_embed: http://youtu.be/sTJ7AzBIJoI
   _format_quote_source_name: ""
 ---
-http://youtu.be/sTJ7AzBIJoI
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/sTJ7AzBIJoI" frameborder="0"> </iframe>
 
 Passend hierzu die ultimative <a href="http://hypertechtronium.com/die-grosse-sonnenschutz-infografik">Sonnenschutz-Infografik</a>.

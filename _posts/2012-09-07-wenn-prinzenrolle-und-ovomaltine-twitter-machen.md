@@ -1,10 +1,10 @@
---- 
+---
 layout: post
 title: Wenn Prinzenrolle und Ovomaltine Twitter machen ...
-categories: 
+categories:
 - Gedacht
 - Getestet
-tags: 
+tags:
 - Branding
 - Mit Video
 - Ovomaltine
@@ -13,7 +13,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _yoast_wpseo_linkdex: "0"
   _edit_last: "3"
   _su_og_type: ""
@@ -47,4 +47,4 @@ Gut. <strong>Und die Outtakes</strong>?
 
 Viel Text, wenig Bilder. Deswegen am Schluß noch ein kleines Outtake von <a href="http://www.twitter.com/catearcher">Patrick</a>, der es sich nicht nehmen lies, sein Crunchy Biscuit direkt in Milch einzutunken (und abzubeißen, während die Kamera kurz wegsah):
 
-http://youtu.be/94COgz7QCD4
+<iframe width="560" height="315" src="http://www.youtube.com/embed/94COgz7QCD4" frameborder="0"> </iframe>

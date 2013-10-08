@@ -1,9 +1,9 @@
---- 
+---
 layout: post
 title: "Zur\xC3\xBCck in die Zukunft."
-categories: 
+categories:
 - Gefunden
-tags: 
+tags:
 - 88mph
 - future
 - mcfly
@@ -11,7 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _wp_old_slug: ""
   _edit_last: "1"
   _su_og_type: ""
@@ -19,4 +19,5 @@ meta:
   _su_og_description: ""
   _su_og_image: ""
 ---
-<iframe title="YouTube video player" class="youtube-player" type="text/html" width="584" height="362" src="http://www.youtube.com/embed/4DjgM7DKB_E?rel=0" frameborder="0"></iframe>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/4DjgM7DKB_E" frameborder="0"> </iframe>

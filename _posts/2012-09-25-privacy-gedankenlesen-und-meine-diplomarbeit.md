@@ -1,9 +1,9 @@
---- 
+---
 layout: post
 title: Privacy, Gedankenlesen und meine Diplomarbeit
-categories: 
+categories:
 - Gedacht
-tags: 
+tags:
 - Diplomarbeit
 - Facebook
 - Mit Video
@@ -11,7 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _yoast_wpseo_linkdex: "0"
   _edit_last: "1"
   _su_og_type: ""
@@ -31,6 +31,7 @@ Wohin führt uns das also alles? Bevor ich hier zu sentimental, düster, oder un
 <blockquote>Privatsphäre ist ein Luxus, der auch noch nach der Benutzung von Social Communities, existieren sollte. <em>(vgl. das Kapitel "Diskussion" in meiner Diplomarbeit zum Thema <a href="http://johannes.nagl.name/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf">Datenschutz und Informationssicherheit in Social Communities</a>.)</em></blockquote>
 Prinzipiell überlasse ich jedem selbst, wie er in sozialen Netzwerken interagiert. Nachdenken sollte aber trotzdem. Finde ich. Dass das gut, wichtig und richtig ist, könnte ev. folgendes Video besser zeigen, als ich das in weiteren 452 Wörtern schreiben könnte:
 
-http://youtu.be/F7pYHN9iC9I
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/F7pYHN9iC9I" frameborder="0"> </iframe>
 
 Danke an <a href="https://twitter.com/weiserjo">@weiserjo</a> für den <a href="https://twitter.com/weiserjo/status/250656466200035328">Video-Hinweis</a>!

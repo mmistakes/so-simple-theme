@@ -1,14 +1,14 @@
---- 
+---
 layout: post
 title: "2011"
-categories: 
+categories:
 - Gedacht
-tags: 
+tags:
 - "Jahresr\xC3\xBCckblick"
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _edit_last: "1"
   _su_og_type: ""
   _su_og_title: ""
@@ -25,4 +25,4 @@ Die Socialisten. Social Media. Buzz. Japan Erdbeben und AKW-Fukushima Katastroph
 
 Und was wäre dieser Post ohne einem Video?
 
-<iframe src="https://www.youtube-nocookie.com/embed/SAIEamakLoY?hd=1" frameborder="0" width="584" height="327"></iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/SAIEamakLoY" frameborder="0"> </iframe>

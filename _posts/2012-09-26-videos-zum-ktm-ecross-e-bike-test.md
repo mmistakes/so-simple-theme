@@ -1,9 +1,9 @@
---- 
+---
 layout: post
 title: Videos zum KTM eCross E-Bike-Test
-categories: 
+categories:
 - Getestet
-tags: 
+tags:
 - EBikeTest
 - Erfahrungsbericht
 - Mit Video
@@ -14,7 +14,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _yoast_wpseo_linkdex: "0"
   _edit_last: "1"
   _su_og_type: ""
@@ -30,28 +30,20 @@ Gut. Jetzt könnte man sagen: Wer schaut sich schon 20 Minuten Videos an. Und da
 
 <strong>Mit dem KTM eBike eCross durch die Wiener Innenstadt</strong>
 
-http://youtu.be/7xIBWdhhnQE
-
-&nbsp;
+<iframe width="560" height="315" src="http://www.youtube.com/embed/7xIBWdhhnQE" frameborder="0"> </iframe>
 
 <strong>Mit dem Rennrad Felt F75 durch die Wiener Innenstadt
 </strong>(Übrigens: Etwas schneller als mit dem eBike)
 
-http://youtu.be/nABhxw61YVw
-
-&nbsp;
+<iframe width="560" height="315" src="http://www.youtube.com/embed/nABhxw61YVw" frameborder="0"> </iframe>
 
 <strong>Mit dem KTM eBike eCross die eiserne Hand (Kahlenberg) hinauf.</strong>
 
-http://youtu.be/Lm0cx6QArMM
-
-&nbsp;
+<iframe width="560" height="315" src="http://www.youtube.com/embed/Lm0cx6QArMM" frameborder="0"> </iframe>
 
 <strong>Mit dem KTM eBike den Wiener Kahlenberg hinunter.</strong>
 
-http://youtu.be/I-TyDHZOVy8
-
-&nbsp;
+<iframe width="560" height="315" src="http://www.youtube.com/embed/I-TyDHZOVy8" frameborder="0"> </iframe>
 
 PS: Dieser Post ist der zweite Teil meines Erfahrungsberichts zum Themenschwerpunkt Mobilität: <a title="Testbericht zum KTM eBike eCross" href="http://johannes.nagl.name/2012/testbericht-zum-ktm-ebike-ecross/">Testbericht zum KTM eBike eCross</a>
 

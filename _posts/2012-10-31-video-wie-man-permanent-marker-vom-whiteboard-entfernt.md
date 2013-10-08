@@ -1,9 +1,9 @@
---- 
+---
 layout: post
 title: "Video: Wie man Permanent-Marker vom Whiteboard entfernt"
-categories: 
+categories:
 - Gedacht
-tags: 
+tags:
 - How-To
 - Mit Video
 - Welt verbessern
@@ -11,7 +11,7 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+meta:
   _yoast_wpseo_linkdex: "0"
   _edit_last: "1"
 ---
@@ -21,7 +21,7 @@ Man kennt das Problem: Die Ideen sprudeln, die Konzepte werden größer. Man gre
 <p style="text-align: left;">Das Ausgangsszenario ist also schon erklärt. Heute war es wieder einmal soweit. Rapper Tayfun (vom <a href="https://www.facebook.com/enkplatzrap?fref=ts">Wiener Enkplatzrap Duo</a> <a href="http://soundcloud.com/orcan-1">Orcan &amp; Tayfun</a>) war im Büro und wollte uns etwas über die Geschichte des Enkplatzraps erzählen. Leider griff auch er zum falschen Stift.</p>
 Zum Glück war ich, in meiner Rolle als Weltverbesserer, zur Stelle und hab ihm geholfen. Wie? Ein Blick ins Video lohnt sich alle mal!
 
-http://youtu.be/CMk5wuPnWEE
+<iframe width="560" height="315" src="http://www.youtube.com/embed/CMk5wuPnWEE" frameborder="0"> </iframe>
 
 <strong>Auflösung:</strong>
 
