@@ -1,0 +1,34 @@
+--- 
+layout: post
+title: "Ein Team kocht. Oder: Kochen ist mehr als Essen"
+categories: 
+- Gedacht
+- Gewerkt
+tags: 
+- Essen
+- Gekocht
+- PicThePic
+- Team
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "3"
+  _su_og_type: ""
+  _su_og_title: ""
+  _su_og_description: ""
+  _su_og_image: ""
+---
+Vor einigen Wochen durchlief das „<a href="http://www.picthepic.com/">Pic the Pic</a>“-Team eine schwierige Phase. Um diese Phase auch gruppentechnisch aufzuarbeiten wurde ein Termin zum gemeinsamen Kochen vereinbart. Kochen? Für eine Truppe von Grafikern und Programmierern wohl eine unübliche Tätigkeit. Stimmt. Aber wir haben das Glück, dass mit <a href="http://titilaflora.net/bio/">Frau Laflora</a> eine begnadete Köchin im Naheverhältnis zum Team existiert, die mit viel Fingerspitzengefühl und Rücksicht genau auf unsere Bedürfnisse eingegangen ist. Ein <em>Tatsachenbericht</em>.
+
+<!--more-->
+
+Wir wussten alle nicht, was uns an diesem Sonntag Mittag, Nachmittag, Abend erwarten würde. Außer des, für mich wichtigen, Ausschlusses von Zutaten wie Ingwer oder Meeresfrüchten aus dem bunten Potpourri der Essenszubereitung, war alles offen. Umso erfreuter war ich, dass der <strong>Menüvorschlag</strong> für den Nachmittag nur äußerst vielversprechend &amp; <strong>sehr gustiös klingende Speisen</strong> beinhaltete. Als Vorspeise gab es einen „Hidden Salad“ (in einem Brotballon versteckter Salat), gefolgt von einer „weißen Bohnensuppe mit Fenchel und Speck“. Im dritten Gang wurde es italienisch - serviert wurde „Trofie al Pesto“. Abgerundet wurde das Menü dann noch mit der Nachspeise - nämlich einer „Appletarte fine mit Vanilleeis“. Es durfte sich also auf das Essen gefreut werden. Zwischen dem Genuss und dem Team stand lediglich nur noch eins: Das Kochen selbst.
+
+Dass Kochen in einer geeigneten Umgebung, mit Anleitung einer Expertin und vielen helfenden Händen eine sehr inspirierende Tätigkeit sein kann, bei der man nebenbei viel Plaudern und Spaß haben kann, ist für mich nicht selbstverständlich. Zumindest bisher. Der gestrige Nachmittag, so anstrengend er auch war, ist ein gelungenes Beispiel für den Spaß, den man am Kochen haben kann. Ich habe die vielen Stunden der Zubereitung genossen. Mir wurden viele Fragen <em>fachfräuischst</em> beantwortet, jeder konnte alles probieren, ohne dass ein großer Druck oder Stress entstand. Die Vorbereitung und Erfahrung von Judith hat alles wunderbar einfach erscheinen lassen. Neben dem Gefühl, dass eigenhändiges Nudel-Drehen eine schier unendlich dauernde Tätigkeit ist, habe ich vor allem das <strong>Gefühl mitgenommen</strong>, dass <strong>bodenständiges Kochen nicht fad</strong>, sondern <strong>einfach</strong> und <strong>durchaus abwechslungsreich</strong> sein kann. Die gestrigen Erfahrungen passen also gut zu meiner Devise für 2011 - nämlich öfter selbst zu kochen. Leider musste ich einmal mehr erfahren, dass Küchenausstattung und -größe durchaus zum Erfolg eines gelungenen Kochabenteuers beitragen. Hier sehe ich, abseits des inneren Schweinehunds, eigentlich die größten Hindernisse für das Projekt „Selbst Kochen“.
+
+Um das Kapitel Kochen abzuhaken - meine <a href="http://twitter.com/jollife/status/26752594797928449">Zusammenfassung des Tages</a> kam im Anschluss direkt über Twitter: „<em>Anstrengend, aber wunderbar gustiös.</em>“ Das Sprichwort, dass viele Köche den Brei verderben, kann ich nicht unterschreiben. Wir haben zwar keinen Brei zubereitet, dennoch sind uns <a href="http://picplz.com/user/jollife/pic/1299/">alle Speisen</a> ausgezeichnet gelungen. Das größte AHA-Erlebnis für alle waren wohl <a href="http://picplz.com/user/jollife/pic/1vhx/">die Brotballone</a>, die tatsächlich innerhalb von wenigen Minuten im Backrohr aufgingen. Überrascht war ich von der Bohnensuppe mit Fenchel, weil ich bisher vor Fenchel eher zurückgeschreckt bin. Über die <a href="http://picplz.com/user/jollife/pic/122v/">Nudeln mit Pesto</a> kann man eigentlich nur sagen: MEHR, MEHR, MEHR. Und die <a href="http://picplz.com/user/jollife/pic/1v4n/">abschließende Apfeltarte</a> war himmlisch. Und das <a href="http://www.janatuerlich.at/Applikationen/Produktdetail/Produktdetail/Produkt/Vanilleeis_500ml/jn_Controls.aspx">Vanilleeis von  „Ja Natürlich“</a> ein Traum.
+
+Zurück zur Überschrift des Eintrags: „Ein Team kocht. Oder: Kochen ist mehr als Essen.“ Nach unserer gemeinsamen Team-Höchstleistung, dem Wiener Fotomarathon 2010, war der gemeinsame Koch-Workshop eine zweite große Bewährungsprobe für das Team. Und diese Probe haben wir, aus meiner Sicht, mit Bravour gemeistert. Wir haben uns über viele Stunden hinweg Arbeitsschritte aufgeteilt, sind als Team verständnisvoll an jede neue Aufgabe herangegangen und konnten letztlich die Früchte unseres gemeinsamen Triumphs ernten - bzw. essen. Wir sind als sechs Personen in das Kochen gestartet und als gut abgespieltes Team abends am Esstisch gelandet. Während, bzw. nach dem Essen konnten wir noch viele Themen, die sich in den letzten Tagen und Wochen angestaut hatten, besprechen und somit teilweise auch aufarbeiten. Ich kann mir keine bessere Atmosphäre, als die gestrige, dafür vorstellen. <strong>Ich kann daher nur allen Teams empfehlen, den Horizont zu erweitern und als Team gemeinsam zu kochen</strong>. Gruppendynamik, das Gefühl etwas gemeinsam geschafft zu haben und kulinarische Genüsse auf einmal. Was will man mehr?
+
+Daher möchte ich mich bei Michael für die initiale Idee und bei Judith für die tolle Vorbereitung und Hilfestellungen beim Kochen bedanken. Danke! Sobald es weitere Fotos/Texte zu dem gestrigen Event gibt, werde ich diese hier ergänzen.
