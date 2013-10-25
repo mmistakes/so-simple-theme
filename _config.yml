@@ -4,7 +4,7 @@ logo:             site-logo.png
 disqus_shortname: 
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://davechan.github.io/Dear-Lukie
+url:              http://davechanbi.com
 
 # Owner/author information
 owner:
@@ -12,14 +12,14 @@ owner:
   avatar:         bio-photo.jpg
   email:          chichan1@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  github:         
-  linkedin:       
+  twitter:        "daveillo"
+  github:         "davechan"
+  linkedin:       "bDEkmzg"
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   UA-42092162-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
