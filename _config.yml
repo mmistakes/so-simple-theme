@@ -1,7 +1,7 @@
 title:            HackZoo
 description:      Hacker Zoo's diary.
 logo:             site-logo.png
-disqus_shortname: 
+disqus_shortname: hackzoo
 search:           true
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://your-website.com
