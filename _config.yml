@@ -1,16 +1,17 @@
-title:            Random simple
-description:      Describe your website here.
-logo:             site-logo.png
+title:            Butterfly Dream
+description:      Just a place for me to spew my random thoughts
 disqus_shortname: 
+logo:             site-logo.png
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://abijango.github.io/so-simple-theme
+#url:              http://abijango.com
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Naufal Mir
+  avatar:         avatar.jpg
+  bio:            "Wanna-be musician, Kung fu enthusiast, gamer and all around jack-ass! :)"
+  email:          naufal.mir@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        abijango
   facebook:       
@@ -21,29 +22,28 @@ owner:
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:   https://plus.google.com/117390487047603405694/about
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics:   'UA-44426393-1'
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
 # Links to include in top navigation
 # For external links add external: true
+# Till I fixed About commenting it.
 links:
-  - title: About
-    url: /about
-  - title: Articles
-    url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+- title: About
+  url: /about
+- title: Articles
+  url: /articles 
+#  - title: External Link
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    UTC
 future:      true
 pygments:    true
 markdown:    kramdown
@@ -51,15 +51,18 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
+# Amount of post to show on home page
+paginate: 10
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers: nil
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
