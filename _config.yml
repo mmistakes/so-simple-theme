@@ -1,19 +1,19 @@
-title:            Butterfly Dream
-description:      Just a place for me to spew my random thoughts
-disqus_shortname: 
-logo:             site-logo.png
-search:           true
+title:                     Butterfly Dream
+description:            Jango's Crazy Place
+disqus_shortname:   abijango
+logo:                     site-logo.png
+search:                  true
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://abijango.com
 
 # Owner/author information
 owner:
-  name:           Naufal Mir
-  avatar:         avatar.jpg
-  bio:            "Wanna-be musician, Kung fu enthusiast, gamer and all around jack-ass! :)"
-  email:          naufal.mir@gmail.com
+  name:            Naufal Mir
+  avatar:          avatar.jpg
+  bio:               "Wanna-be musician, Kung fu enthusiast, gamer and all around jack-ass! :)"
+  email:            naufal.mir@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        abijango
+  twitter:          abijango
   facebook:       
   github:         
   stackexchange:  
