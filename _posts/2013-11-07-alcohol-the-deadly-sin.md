@@ -9,7 +9,7 @@ share: true
 published: true
 ---
 
-Having lived in a western country for the last 5 years, maybe my views have changed on the matter. Or rather, they might have just been solidified.
+Having lived in a western country for the last 5 years, maybe my views have changed on the matter. Then again, they might have just been solidified.
 
 I have no problem with the consumption of alcohol, by a non-muslim or by a muslim. Where I have a problem with, is intoxication and the resulting stupidity that ensues. And then again, that is a personal opinion. I am glad to be living in a country where a 'majority' of people won't moan at me for my personal opinions.
 
