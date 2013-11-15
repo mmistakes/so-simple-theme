@@ -1,10 +1,10 @@
 title:                     Butterfly Dream
 description:            Jango's Crazy Place
 disqus_shortname:   abijango
-logo:                     site-logo.png
+logo:                     site-logo.svg
 search:                  true
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://abijango.com
+#url:                        http://abijango.com
 
 # Owner/author information
 owner:

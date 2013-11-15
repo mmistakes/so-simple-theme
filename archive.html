@@ -1,0 +1,23 @@
+---
+layout: post-index
+permalink: /articles/
+title: All Posts
+permalink: /archive/index.html
+description: "An archive of posts."
+---
+
+{% for post in site.posts %}
+<article class="hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard fn" itemprop="author" itemtype="http://schema.org/Person"><a class="url fn" href="{{ site.url }}">{{ site.owner.name }}</a></span>{% if site.disqus_shortname and post.comments %}&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="{{ site.url }}{{ post.url }}#disqus_thread">Comment</a></span>{% endif %}</div><!-- /.entry-meta -->
+    {% if post.link %}
+      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+    {% else %}
+      <h1 class="entry-title" itemprop="name"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+    {% endif %}
+  </header>
+  <div class="entry-content" itemprop="description">
+    <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+{% endfor %}
