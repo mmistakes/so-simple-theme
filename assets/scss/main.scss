@@ -4,28 +4,28 @@
 // ===========================================================
 
 // ROOT =======================================================
-// CSS Reset ==================================================
-@import "reset.less";
 // Variables and mixins =======================================
-@import "variables.less";
-// Site wide styles (html, body, global classes) ==============
-@import "site.less";
-// TYPOGRAPHY =================================================
-@import "typography.less";
-// Pygments Syntax highlighting ===============================
-@import "pygments.less";
-// Coderay Syntax highlighting ===============================
-@import "coderay.less";
+@import "variables";
 // MIXINS =====================================================
-@import "mixins.less";
-@import "grid.less";
+@import "mixins";
+@import "grid";
+// CSS Reset ==================================================
+@import "reset";
+// Site wide styles (html, body, global classes) ==============
+@import "site";
+// TYPOGRAPHY =================================================
+@import "typography";
+// Pygments Syntax highlighting ===============================
+@import "pygments";
+// Coderay Syntax highlighting ===============================
+@import "coderay";
 // ELEMENTS ===================================================
 // Figures, images, social media, other elements ==============
-@import "elements.less";
+@import "elements";
 // Font Awesome webfont icons =================================
-@import "font-awesome.less";
+@import "font-awesome";
 // Standard form controls =====================================
-@import "forms.less";
+@import "forms";
 // LAYOUT =====================================================
 // Page level layout styles ===================================
-@import "page.less";
+@import "page";

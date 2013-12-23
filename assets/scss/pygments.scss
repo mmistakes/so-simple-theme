@@ -1,7 +1,7 @@
 .highlight {
 	margin-bottom: 1.5em;
-	.font(12);
-	border: 1px solid darken(@body-color, 5);
+	@include font(12);
+	border: 1px solid darken($body-color, 5);
 	pre {
 		position: relative;
 		margin: 0;

@@ -1,31 +1,31 @@
-form { 
+form {
 	margin: 0 0 5px 0;
-	fieldset { 
-		margin-bottom: 5px; 
-		padding: 0; 
-		border-width: 0; 
+	fieldset {
+		margin-bottom: 5px;
+		padding: 0;
+		border-width: 0;
 	}
-	legend { 
+	legend {
 		display: block;
 		width: 100%;
 		margin-bottom: 5px * 2;
-		*margin-left: -7px; 
+		*margin-left: -7px;
 		padding: 0;
-		color: @text-color;
+		color: $text-color;
 		border: 0;
-		border-bottom: 1px solid lighten(@black, 80);
-		white-space: normal; 
+		border-bottom: 1px solid lighten($black, 80);
+		white-space: normal;
 	}
 	p {
-		margin-bottom: 5px / 2; 
+		margin-bottom: 5px / 2;
 	}
 	ul {
-		list-style-type: none; 
+		list-style-type: none;
 		margin: 0 0 5px 0;
-		padding: 0; 
+		padding: 0;
 	}
 	br {
-		display: none; 
+		display: none;
 	}
 }
 label,
@@ -33,26 +33,26 @@ input,
 button,
 select,
 textarea {
-	vertical-align: baseline; 
-	*vertical-align: middle; 
+	vertical-align: baseline;
+	*vertical-align: middle;
 }
 input,
 button,
 select,
 textarea {
-	font-family: @base-font; 
-	.box-sizing(border-box); 
+	font-family: $base-font;
+	@include box-sizing(border-box);
 }
 label {
 	display: block;
 	margin-bottom: 10px / 8;
 	font-weight: bold;
-	color: @text-color;
-	cursor: pointer; 
+	color: $text-color;
+	cursor: pointer;
 	input,
 	textarea,
 	select {
-		display: block; 
+		display: block;
 	}
 }
 input,
@@ -62,18 +62,18 @@ select {
 	width: 100%;
 	padding: 4px;
 	margin-bottom: 5px / 4;
-	background-color: @white;
-	border: 1px solid lighten(@black, 80);
-	color: @text-color; 
+	background-color: $white;
+	border: 1px solid lighten($black, 80);
+	color: $text-color;
 	&:hover {
-		border-color: lighten(@accent-color, 50); 
+		border-color: lighten($accent-color, 50);
 	}
 }
-.input-mini { 
-	width: 60px; 
+.input-mini {
+	width: 60px;
 }
-.input-small { 
-	width: 90px; 
+.input-small {
+	width: 90px;
 }
 input[type="image"],
 input[type="checkbox"],
@@ -85,19 +85,19 @@ input[type="radio"] {
 	*margin-top: 0;
 	line-height: normal;
 	cursor: pointer;
-	.rounded(0);
-	border: 0 \9; 
+	@include rounded(0);
+	border: 0 \9;
 }
-input[type="checkbox"], 
-input[type="radio"] {  
-	.box-sizing(border-box);
-	padding: 0; 
-	*width: 13px; 
-	*height: 13px; 
+input[type="checkbox"],
+input[type="radio"] {
+	@include box-sizing(border-box);
+	padding: 0;
+	*width: 13px;
+	*height: 13px;
 }
 input[type="image"] {
-	border: 0; 
-	.box-shadow(none); 
+	border: 0;
+	@include box-shadow(none);
 }
 input[type="file"] {
 	width: auto;
@@ -106,7 +106,7 @@ input[type="file"] {
 	border: initial;
 	background-color: transparent;
 	background-color: initial;
-	.box-shadow(none); 
+	@include box-shadow(none);
 }
 input[type="button"],
 input[type="reset"],
@@ -114,49 +114,49 @@ input[type="submit"] {
 	width : auto;
 	height : auto;
 	cursor : pointer;
-	*overflow : visible; 
+	*overflow : visible;
 }
 select,
 input[type="file"] {
-	*margin-top : 4px;  
+	*margin-top : 4px;
 }
 select {
 	width : auto;
-	background-color : @white;
+	background-color : $white;
 }
 select[multiple],
 select[size] {
-	height : auto; 
+	height : auto;
 }
 textarea {
-	.resize(vertical);
+	@include resize(vertical);
 	height : auto;
-	overflow : auto; 
-	vertical-align : top; 
+	overflow : auto;
+	vertical-align : top;
 }
 input[type="hidden"] {
-	display : none; 
+	display : none;
 }
 .radio,
 .checkbox {
-	padding-left : 18px; 
-	font-weight : normal; 
+	padding-left : 18px;
+	font-weight : normal;
 }
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
 	float : left;
-	margin-left : -18px; 
+	margin-left : -18px;
 }
 .radio.inline,
 .checkbox.inline {
 	display : inline-block;
 	padding-top : 5px;
 	margin-bottom : 0;
-	vertical-align : middle; 
+	vertical-align : middle;
 }
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
-	margin-left : 10px; 
+	margin-left : 10px;
 }
 
 // disabled
@@ -168,8 +168,8 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-	.opacity(.5);
-	cursor : not-allowed; 
+	@include opacity(.5);
+	cursor : not-allowed;
 }
 
 // focus and active
@@ -177,15 +177,15 @@ textarea[readonly] {
 
 input:focus,
 textarea:focus {
-	border-color : @accent-color;
+	border-color : $accent-color;
 	outline : 0;
-	outline : thin dotted \9; 
+	outline : thin dotted \9;
 }
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus,
 select:focus {
-	.box-shadow(none); 
+	@include box-shadow(none);
 }
 
 // help text
@@ -193,17 +193,17 @@ select:focus {
 
 .help-block,
 .help-inline {
-	color : lighten(@black, 50); 
+	color : lighten($black, 50);
 }
 .help-block {
-	display : block; 
-	margin-bottom : 1em; 
+	display : block;
+	margin-bottom : 1em;
 	line-height : 1em;
 }
 .help-inline {
 	display : inline-block;
 	vertical-align : middle;
-	padding-left : 5px; 
+	padding-left : 5px;
 }
 
 // .form-inline
@@ -213,17 +213,17 @@ select:focus {
 .form-inline textarea,
 .form-inline select {
 	display : inline-block;
-	margin-bottom : 0; 
+	margin-bottom : 0;
 }
 .form-inline label {
-	display : inline-block; 
+	display : inline-block;
 }
 .form-inline .radio,
 .form-inline .checkbox,
 .form-inline .radio {
 	padding-left : 0;
 	margin-bottom : 0;
-	vertical-align : middle; 
+	vertical-align : middle;
 }
 .form-inline .radio input[type="radio"],
 .form-inline .checkbox input[type="checkbox"] {
@@ -237,11 +237,11 @@ select:focus {
   padding: 6px 10px;
   cursor: pointer;
   display: block;
-  color: @white;
-  .rounded(4px);
+  color: $white;
+  @include rounded(4px);
   &:hover {
-	.box-shadow(@shadow: inset 0 0 1px @white);
-  	background-color: lighten(@black, 10);
+	@include box-shadow($shadow: inset 0 0 1px $white);
+  	background-color: lighten($black, 10);
   }
 }
 .search-form {
@@ -256,14 +256,14 @@ select:focus {
 		-webkit-appearance: none;
 		border: none;
 		width: 100%;
-		color: @white;
+		color: $white;
 		border: none;
-		border-bottom: 1px solid lighten(@white, 20);
+		border-bottom: 1px solid lighten($white, 20);
 		background-color: transparent;
 		box-shadow: none;
 		border-radius: 0;
 		background-clip: padding-box;
-		.font-rem(32);
+		@include font-rem(32);
 		&:focus {
 			box-shadow: none;
 			outline: none;
@@ -278,7 +278,7 @@ select:focus {
 		display: none;
 	}
 	::-webkit-input-placeholder {
-		.font-rem(32);
+		@include font-rem(32);
 	}
 	.icon-remove-sign {
 		position: absolute;
@@ -287,7 +287,7 @@ select:focus {
 		display: block;
 		cursor: pointer;
 		text-align: center;
-		color: @white;
+		color: $white;
 		z-index: 1;
 		cursor: pointer;
 	}
@@ -301,10 +301,10 @@ select:focus {
 		position: absolute;
 		width: 100%;
 		h4, li, p, a {
-			color: @white;
+			color: $white;
 		}
 		li {
-			border-bottom: 1px solid lighten(@white,20);
+			border-bottom: 1px solid lighten($white,20);
 		}
 	}
 }
@@ -313,8 +313,8 @@ body.search-overlay {
 }
 body.search-overlay:after {
 	content: '';
-	background-color: lighten(@black,5);
-	background-color: fade(@black,95);
+	background-color: lighten($black,5);
+	background-color: fade($black,95);
 	width: 100%;
 	min-height: 100%;
 	height: 100%;
