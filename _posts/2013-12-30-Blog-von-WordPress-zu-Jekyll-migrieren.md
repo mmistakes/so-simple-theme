@@ -28,7 +28,7 @@ Jedes System hat natürlich auch **seine Nachteile**, die nicht verschwiegen wer
 
 * **Not for everyone**: Grundkenntnisse der Programmierung sollten beim erstmaligen Einrichten des Blogs vorhanden sein.
 * **Not for everyone**: Das Tool skaliert sicher nicht für Blogs mit mehreren Autoren/vielen Postings
-* **Not for everyone**: Die Auswahl an Themes und Plugins ist sehr überschaubar.
+* **Not for everyone**: Die Auswahl an [Themes](http://jekyllthemes.org/) und [Plugins](http://jekyllrb.com/docs/plugins/) ist sehr überschaubar.
 * **Not for everyone**: Kein Fancy Online-Editor für Text + Bilder vorhanden.
 * **Not for everyone**: Kommentare und Suche sind out of the box nicht vorhanden, können aber teilweise ergänzt werden. Dazu im Anschluss mehr.
 * **Not for everyone**: Es gibt zwar Import-Tools, aber defacto keine fertigen Export-Möglichkeiten. Ob man also jemals wieder von Jekyll wegkommt hängt stark von seinen Programmier-Kenntnissen ab.
