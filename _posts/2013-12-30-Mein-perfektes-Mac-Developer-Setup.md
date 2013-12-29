@@ -36,8 +36,7 @@ Kurzum: Für jedes System (auch Windows) unbedingt installieren - große Empfehl
 * [Anleitung für die Nutzung in Sublime Text](http://blogs.adobe.com/cantrell/archives/2012/10/using-source-code-pro-with-sublime-text-2.html)
 * Auch sehr zu Empfehlen: Ebenfalls das Terminal umstellen, damit auch dieses die Font verwendet!
 
-### Package Verwaltung: [Homebrew](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/
-) (gratis)
+### Package Verwaltung: [Homebrew](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/) (gratis)
 
 The Missing Package Manager for Mac OS X. Super angenehm, um Entwickler-relevante Dinge (node.js, mySQL, …) zu installieren. Bei mir aktuell für folgende Dinge im Einsatz (es waren schon mal deutlich mehr (siehe Vagrant)):
 
@@ -52,6 +51,23 @@ Früher hatte ich einige Build-Tools direkt am Client in Verwendung. Es gab einz
 * Aufwand zum Einlernen: Gering.
 * Alternative 1: [CodeKit](http://incident57.com/codekit/) (28 USD)
 * Alternative 2 (nur für Images): [ImageOptim](http://imageoptim.com/) (gratis)
+
+### FTP/SSH Zugang: Terminal/[Transmit](http://panic.com/transmit/) (34 USD)
+
+Klar: Jeder Entwickler muss sich früher oder später mal auf externe Server verbinden. Dazu empfehle ich folgende Dinge:
+
+**Terminal/Git**:
+
+Deployments lösen wir bei den meisten Projekten aktuell mittels Git. Dh das Verbinden mit einem externen Server kann über SSH stattfinden. Danach reichen einige wenige Kommandozeilen-Befehle aus. Hierfür ist nicht viel notwendig, außer:
+
+* [SSH Logins mittels der Config-Datei hinterlegen](http://www.maclife.com/article/columns/terminal_101_easy_login_ssh_config_file)
+* [SSH Keys anstelle von Passwörtern verwenden](https://help.github.com/articles/generating-ssh-keys)
+
+Eine Alternative zum händischen Deployment wären Dienste wie [Deploy.do](https://www.deploy.do/) oder [lokale Deploy-Scripts in Kombination mit Grunt](https://npmjs.org/package/grunt-deploy).
+
+**Transmit**:
+
+Für Legacy-Projekte, oder kleine Datei-Suchen zwischen durch unerlässlich: Transmit. Super intuitiv, Favoriten können über Dropbox oder App Store automatisch gesynct werden. Bonus: Kann auch direkt auf S3 Buckets zugreifen.
 
 ### Texteditor: Sublime Text (3) (70 USD)
 
