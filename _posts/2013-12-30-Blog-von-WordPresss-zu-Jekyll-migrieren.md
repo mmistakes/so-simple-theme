@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: "Blog von Wordpress zu Jekyll migrieren"
+title: "Blog von WordPress zu Jekyll migrieren"
 tags:
 - "How-To"
 - Erfahrungsbericht
