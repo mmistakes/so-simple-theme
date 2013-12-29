@@ -42,7 +42,7 @@ Programmierer sind eigen. Und deswegen sollten sie auch eigene Schriftarten verw
 
 Kurzum: Für jedes System (auch Windows) unbedingt installieren - große Empfehlung meinerseits!
 
-* Download hier: [https://github.com/adobe/source-code-pro/downloads]()
+* Download hier: [https://github.com/adobe/source-code-pro/downloads](https://github.com/adobe/source-code-pro/downloads)
 * [Anleitung für die Nutzung in Sublime Text](http://blogs.adobe.com/cantrell/archives/2012/10/using-source-code-pro-with-sublime-text-2.html)
 * Auch sehr zu Empfehlen: Ebenfalls das Terminal umstellen, damit auch dieses die Font verwendet!
 
@@ -53,7 +53,7 @@ The Missing Package Manager for Mac OS X. Super angenehm, um Entwickler-relevant
 
 * node.js (brew install node)
 
-Wie man homebrew, node.js und grunt installiert, erfährt man hier sehr gut: [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/]()
+Wie man homebrew, node.js und grunt installiert, erfährt man hier sehr gut: [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/)
 
 ### JavaScript Task Runner: [Grunt](http://gruntjs.com/) (gratis)
 
@@ -104,4 +104,4 @@ Alles in allem ist das Setup, vor allem durch das Auslagern vieler Dependencies 
 
 ### Ergänzungen?
 
-Was sind eure Ergänzungen? Wobei verwendet ihr andere Tools? Was findet ihr furchtbar? :) Wenn ihr wollt, könnt ihr diesen Blog-Post einfach forken und um Korrekturen oder weitere Tipps ergänzen! Wie? Einfach hier [https://github.com/johannesnagl/johannesnagl.github.io/tree/master/_posts/2013-12-30-Mein-perfektes-Mac-Developer-Setup.md]() auf editieren klicken!
+Was sind eure Ergänzungen? Wobei verwendet ihr andere Tools? Was findet ihr furchtbar? :) Wenn ihr wollt, könnt ihr diesen Blog-Post einfach forken und um Korrekturen oder weitere Tipps ergänzen! Wie? Einfach hier [https://github.com/johannesnagl/johannesnagl.github.io/blob/master/_posts/2013-12-30-Mein-perfektes-Mac-Developer-Setup.md](https://github.com/johannesnagl/johannesnagl.github.io/blob/master/_posts/2013-12-30-Mein-perfektes-Mac-Developer-Setup.md) auf editieren klicken!
