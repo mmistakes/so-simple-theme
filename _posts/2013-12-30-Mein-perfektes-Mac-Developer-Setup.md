@@ -1,3 +1,13 @@
+---
+comments: true
+layout: post
+title: "Mein perfektes (Mac) Developer Setup"
+tags:
+- "Mac OS X"
+- "How-To"
+- Erfahrungsbericht
+- Weltverbesserung
+---
 Ich bin vor einem Jahr sehr pragmatisch in die Apple-Welt gewechselt. Ich war in der Windows Welt nie wirklich *un*zufrieden. Ich hatte funktionierende Workflows und sehr viel Erfahrung mit dem System (kann ich doch von Win 3.11 hin bis zu Windows 7 auf einige Jahre und sogar einige Monate als Systemadministrator zurückblicken). Doch mit Windows 8 wollte ich mich nicht anfreunden und so dachte ich mir: Wenn so viele Entwickler auf OSX setzen: Warum nicht ich auch?
 
 Und so musste ich innerhalb kürzester Zeit feststellen: Ja, es lässt sich auch auf der Mac-Plattform super arbeiten/entwickeln. Und es gibt super Programme, die einige bisherige Workflows noch einfacher abbilden lassen. Welche das sind, möchte ich hier näher auflisten.
