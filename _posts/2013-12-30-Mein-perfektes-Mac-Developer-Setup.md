@@ -95,6 +95,10 @@ Vor allem sinnvoll bei Laptops, aber meiner Meinung nach auch für Desktops rele
 
 Alles in allem ist das Setup, vor allem durch das Auslagern vieler Dependencies in die Vagrant Machine, sehr kurz gehalten. Das Neuinstallieren meines Computers vor wenigen Tagen hat mich somit nur 1,5h gekostet. Sehr überschaubar, für die vielen Möglichkeiten, die mir das Setup bietet.
 
+### Bonus: Code in die Dropbox legen
+
+Persönlich benutze ich zwei Geräte. Das Synchronisieren der Dateien erledigt Dropbox. Das ist nichts spezielles. Zusätzlich lege ich aber meine lokalen Git-Repositories ebenfalls in die Dropbox. Vorteil: Auch wenn am Ende eines Arbeitstages alle Code-Änderungen auf Github hochgeladen wird, kann ich direkt zuhause im gewohnten Setup weiterarbeiten, ohne dass ich wieder alle Feature-Branches händisch auschecke.
+
 ### Ergänzungen?
 
 Was sind eure Ergänzungen? Wobei verwendet ihr andere Tools? Was findet ihr furchtbar? :) Wenn ihr wollt, könnt ihr diesen Blog-Post einfach forken und um Korrekturen oder weitere Tipps ergänzen! Wie? Einfach hier [https://github.com/johannesnagl/johannesnagl.github.io/blob/master/_posts/2013-12-30-Mein-perfektes-Mac-Developer-Setup.md](https://github.com/johannesnagl/johannesnagl.github.io/blob/master/_posts/2013-12-30-Mein-perfektes-Mac-Developer-Setup.md) auf editieren klicken!
