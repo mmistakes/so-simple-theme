@@ -1,20 +1,10 @@
----
-comments: true
-layout: post
-title: "Mein perfektes (Mac) Developer Setup"
-tags:
-- "Mac OS X"
-- "How-To"
-- Erfahrungsbericht
-- Weltverbesserung
----
 Ich bin vor einem Jahr sehr pragmatisch in die Apple-Welt gewechselt. Ich war in der Windows Welt nie wirklich *un*zufrieden. Ich hatte funktionierende Workflows und sehr viel Erfahrung mit dem System (kann ich doch von Win 3.11 hin bis zu Windows 7 auf einige Jahre und sogar einige Monate als Systemadministrator zurückblicken). Doch mit Windows 8 wollte ich mich nicht anfreunden und so dachte ich mir: Wenn so viele Entwickler auf OSX setzen: Warum nicht ich auch?
 
 Und so musste ich innerhalb kürzester Zeit feststellen: Ja, es lässt sich auch auf der Mac-Plattform super arbeiten/entwickeln. Und es gibt super Programme, die einige bisherige Workflows noch einfacher abbilden lassen. Welche das sind, möchte ich hier näher auflisten.
 
 **Disclaimer:** Die genannten Programme/Abläufe beschreiben die Arbeitsweise einer Person, die im kleinen Team an kleinen bis mittelgroßeren Webprojekten arbeitet. Für Einzelpersonen können durchaus andere Abläufe besser funktionieren.
 
-Hier also die Auflistung meines Setups, die hauptsächlich dazu dienen soll, dass ich beim nächsten Update selbst wieder alle Programme/Einstellungen/Links finde. Zusätzlich hat mich Klaus Breyer heute durch das Teilen seines [Geld-Setups](http://klaus-breyer.de/in-eigener-sache/wie-ich-mit-geld-umgehe/234) dazu animiet/inspiriert, auch etwas mit euch zu teilen:
+Hier also die Auflistung meines Setups, die hauptsächlich dazu dienen soll, dass ich beim nächsten Update selbst wieder alle Programme/Einstellungen/Links finde. Zusätzlich hat mich Klaus Breyer heute durch das Teilen seines [Geld-Setups](http://klaus-breyer.de/in-eigener-sache/wie-ich-mit-geld-umgehe/234) dazu animiert/inspiriert, auch etwas mit euch zu teilen:
 
 ### Development Environment: [Vagrant](http://www.vagrantup.com/) (gratis)
 
@@ -97,6 +87,9 @@ Hier meine aktuell verwendeten Plugins/Einstellungen:
 
 Bevor man die Plugins installieren kann, benötigt man den sehr bekannten Package Manager "[Package Control](https://sublime.wbond.net/installation)". Alles super flott installiert und schon steigt die Party!
 
+### Security: FileVault aktivieren
+
+Vor allem sinnvoll bei Laptops, aber meiner Meinung nach auch für Desktops relevant: Das Verschlüsseln der Festplatte! Unter *System Preferences* > *Security & Privacy* > Tab *FileVault* > *Turn on FileVault* klicken und zurücklehnen.
 
 ### Fazit
 
