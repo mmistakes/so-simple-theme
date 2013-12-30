@@ -1,30 +1,30 @@
-title:            Site Title
-description:      Describe your website here.
+title:            How is that even possible?
+description:      My rants about Objective-C and Life.
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://krisso.net
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name: 'Kristijan Šimić'
+  avatar: bio-photo.png
+  email: you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter: Kr1sso
+  facebook:  
+  github: Kr1sso     
   stackexchange:  
   linkedin:       
-  instagram:      
-  flickr:         
+  instagram: krisso   
+  flickr: 95980392@N07
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-23787542-2
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -36,14 +36,12 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Berlin
 future:      true
 pygments:    true
 markdown:    kramdown
