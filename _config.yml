@@ -32,10 +32,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
   - title: Articles
     url: /articles
+  - title: About
+    url: /about
 #  - title: Made Mistakes
 #    url: http://mademistakes.com
 #    external: true
