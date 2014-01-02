@@ -37,8 +37,10 @@ description:      Site description for the metas.
 logo:             site-logo.png
 disqus_shortname: shortname
 search:           true
-#Comment out url when working locally to resolve base urls correctly
-url:              http://whatever.com
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -120,8 +122,7 @@ so-simple-theme/
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url`[^1] or else you will get a bunch of broken links because they are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
-
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`, so remember to properly set `url`[^1] and use `http://localhost:4000` when developing locally or else the theme's stylesheet and scripts won't load.
 #### Disqus Comments
 
 Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its front matter:
@@ -260,8 +261,8 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs. 
 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
 
-[^1]: Used to generate absolute urls in *sitemap.xml*, *feed.xml*, and for canonical urls in *head.html*. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally remove or comment out this line so local CSS, JS, and image assets are used.
+[^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `head.html`. Don't include a trailing `/` in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever server you're using to properly load the theme's stylesheet, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing home.
