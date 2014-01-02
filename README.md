@@ -51,8 +51,10 @@ description:      Site description for the metas.
 logo:             site-logo.png
 disqus_shortname: shortname
 search:           true
-#Comment out url when working locally to resolve base urls correctly
-url:              http://whatever.com
+# Your site's domain goes here. When working locally use localhost server leave blank
+# PS. If you set this wrong stylesheets and scripts won't load and most links will break.
+# PPS. If you leave it blank for local testing home links won't work, they'll be fine for live domains though.
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
@@ -144,6 +146,6 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+This theme is free and open source software, distributed under the [GNU General Public License](LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs. 
 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
