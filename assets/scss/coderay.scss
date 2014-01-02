@@ -1,9 +1,9 @@
 .CodeRay {
-  font-family: @code-font;
-  .font(12);
+  font-family: $code-font;
+  @include font(12);
   color: #333332;
   margin-bottom: 1.5em;
-  border: 1px solid darken(@body-color, 5);
+  border: 1px solid darken($body-color, 5);
 }
 
 .CodeRay code {

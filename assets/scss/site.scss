@@ -1,15 +1,15 @@
 // Selection
 // --------------------------------------------------
 
-::-moz-selection { 
-	background-color: lighten(@base-color, 65%); 
-	color: @base-color; 
-	text-shadow: none; 
-}  	
-::selection { 
-	background-color: lighten(@base-color, 65%); 
-	color: @base-color; 
-	text-shadow: none; 
+::-moz-selection {
+	background-color: lighten($base-color, 65%);
+	color: $base-color;
+	text-shadow: none;
+}
+::selection {
+	background-color: lighten($base-color, 65%);
+	color: $base-color;
+	text-shadow: none;
 }
 
 // Webkit Custom Scrollbar
@@ -20,7 +20,7 @@
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px fade(@black,30); 
+    -webkit-box-shadow: inset 0 0 6px fade($black,30);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -28,10 +28,10 @@
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.5); 
+    background: rgba(0,0,0,0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(0,0,0,0.2); 
+	background: rgba(0,0,0,0.2);
 }
 
 // Global Classes
@@ -62,5 +62,5 @@
 // ---------------------------------------------------
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
-	.transition(all .2s ease);
+	@include transition(all .2s ease);
 }
