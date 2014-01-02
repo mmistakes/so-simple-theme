@@ -3,7 +3,7 @@ description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
-#Change url to your domain. Leave localhost server or blank when working locally.
+# Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
 # Owner/author information
