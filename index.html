@@ -8,19 +8,16 @@ image:
 ---
 
 <p>I've been in a lover's quarrel with <span>technology</span> ever since I saw an Apple ][ in a second grade classroom. I brought home the <a href="https://www.youtube.com/watch?v=UK9VU1aJvTI">wonder computer of the 1980s</a> a few years later.</p>
-<p>You can find me at the intersection of people and technology, advocating for elegant, simple solutions to gnarly problems. Most recently, I was privileged to serve as the director of user experience for Obama for America. I am the CEO of <a href="https://publicgoodsoftware.com/">Public Good Software</a>, an adjunct at the <a href="http://www.starterschool.com/">Starter School</a>, a mentor at <a href="http://theimpactengine.com/">Impact Engine</a>, and an advisor at the <a href="http://admci.org/">ADMCi</a> and <a href="http://www.ux4good.com/">UX for Good</a>.</p>
+<p>You can find me at the intersection of people and technology, advocating for elegant, simple solutions to gnarly problems. I am the CEO of <a href="https://publicgoodsoftware.com/">Public Good Software</a>, an adjunct at the <a href="http://www.starterschool.com/">Starter School</a>, a mentor at <a href="http://theimpactengine.com/">Impact Engine</a>, and an advisor at the <a href="http://admci.org/">ADMCi</a> and <a href="http://www.ux4good.com/">UX for Good</a>.</p>
 
 <p>My resolution for 2014 is to complete as many of the <a href="http://www.hks.harvard.edu/programs/saguaro/about-social-capital/what-you-can-do">144 social capital building tasks</a> described by Harvard’s Kennedy School and blog about it here.</p>
 
-<!-- <p>I'm more outgoing than Salinger, less evil than Boss Hogg, making me a decent JD.</p> -->
-
-<h2>My writing</h2>
+<h2>Latest posts</h2>
 
 <ul class="post-list">
 {% for post in site.posts limit:5 %} 
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
 {% endfor %}
 </ul>
-<p><a href="{{ site.url }}/blog">Check out the blog</a> to see all my posts from 1/1/2014 on.</p>
 
 <p>I'm <a href="https://twitter.com/jdkunesh">over here</a> on Twitter. Thanks for stopping by!</p>
