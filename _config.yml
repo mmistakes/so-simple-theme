@@ -1,5 +1,5 @@
-title:            Site Title
-description:      Describe your website here.
+title:            jdkunesh.com
+description:      Awesome! You've found the personal web site of Jason Kunesh.
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
@@ -8,23 +8,24 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Jason Kunesh
+  avatar:         jdkunesh-headshot-2013-200x200.jpg
+  email:          jdkunesh@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
+  twitter:        jdkunesh
+  facebook:       jdkunesh
+  github:         jdkunesh
   stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
+  linkedin:       jdkunesh
+  instagram:      jdkunesh
+  flickr:         jdkunesh
   tumblr:         
+
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:    https://plus.google.com/+JasonKuneshIsAmazing?rel=author
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-22378986-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
@@ -32,18 +33,15 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Home
+    url: /
+  - title: About
+    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Chicago
 future:      true
 pygments:    true
 markdown:    kramdown
