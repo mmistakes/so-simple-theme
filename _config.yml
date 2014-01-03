@@ -4,7 +4,7 @@ logo:             logo.png
 disqus_shortname: jdkunesh
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://jdkunesh.com
 
 # Owner/author information
 owner:
