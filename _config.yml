@@ -1,7 +1,7 @@
 title:            jdkunesh.com
 description:      Awesome! You've found the personal web site of Jason Kunesh.
 logo:             logo.png
-disqus_shortname: 
+disqus_shortname: jdkunesh
 search:           true
 #Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
