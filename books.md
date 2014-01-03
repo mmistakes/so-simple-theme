@@ -1,10 +1,15 @@
 ---
 layout: page
+permalink: /books/index.html
 title: "A Reading List for Startups"
 description: "This is a list of books I've found helpful in thinking about how to make a software business."
 tags: [reading list, books, writing]
+image:
+  feature: water-lily-pads.jpg
+  feature: no-diving.jpg
 comments: true  
 ---
+
 
 # A Reading List for Startups
 

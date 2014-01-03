@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /about/index.html
-title: About Jason Kunesh
+permalink: /colophon/index.html
+title: About JDKunesh.com
 tags: [Jekyll, So Simple, Subliminal, code, write, design]
 modified: 2013-09-13
 image:
-  feature: big-chicken.jpg
+  feature: water-lily-pads.jpg
 ---
 
 <p>This website is brought to you by Jason Kunesh with design help from <a href="http://aaronsalmon.com/">Aaron Salmon</a>. It is powered by the lightweight content management system <a href="http://jekyllrb.com">Jekyll</a> and uses a modified version of the <a href="http://mademistakes.com/">So Simple Theme</a> to provide visual treatments. In an alternative universe I would have used <a href="http://wordpress.com/">WordPress</a> because <a href="http://ma.tt/">Matt Mullenweg</a> is an amazing human being.</p>
