@@ -33,12 +33,12 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Colophon
-    url: /colophon
   - title: Articles
     url: /articles
   - title: Bio
     url: /bio
+  - title: Colophon
+    url: /colophon
   - title: Home
     url: /
 
