@@ -33,12 +33,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Colophon
+    url: /colophon
   - title: Articles
     url: /articles
+  - title: Bio
+    url: /bio
   - title: Home
     url: /
-  - title: About
-    url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago

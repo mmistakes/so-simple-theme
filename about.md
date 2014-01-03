@@ -6,7 +6,6 @@ tags: [Jekyll, theme, simple, minimal, minimalism, responsive]
 modified: 2013-09-13
 image:
   feature: big-chicken.jpg
-  credit: Jason Kunesh
 ---
 
 
