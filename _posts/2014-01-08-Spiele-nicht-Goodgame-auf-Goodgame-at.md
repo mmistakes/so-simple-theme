@@ -6,8 +6,6 @@ tags:
 - "Goodgame"
 - Erfahrungsbericht
 ---
-Spiele (nicht) Goodgame auf Goodgame.at
-
 Seit Monaten sehen wir im Fernsehen die Werbung für diverse Goodgame Spiele. Bei uns ist es schon ein Running Gag, die kühn/mutig/tapfere Stimme des Sprechers zu immitieren.
 
 ### Zum Ersten
