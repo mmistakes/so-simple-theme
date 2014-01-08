@@ -47,7 +47,7 @@ Und dann? Einen Tag später erhielt ich folgende Antwort von Peter, seines Zeich
 
 Gut, Namen des Spiels sollten sie eigentlich schon wissen - schließlich kommt die Mail direkt vom Goodgame Empire Support Team. Die Homepage des Spiels sollte auch klar sein (schließlich wird diese ja auch im Fernsehen kommuniziert :)). Meinen Accountnamen hatte ich schon verraten. Die Spielewelt habe ich bis zum heutigen Tage immer noch nicht feststellen können. Ich hab gesucht und geschaut - aber nichts gefunden. Tut auch nichts zur Sache, denn …
 
-… Mein Passwort werde ich ihnen sicher nicht verraten. Nur damit sie es dann mit dem Passwort in ihrer Datenbank, das anscheinend PLAINTEXT/KLARTEXT mäßig gespeichert wird, abgleichen können. Und damit Peter dann gleich auch Zugriff auf meine Mails/Twitter/Facebook Accounts hat. (Natürlich nicht. Ich verwende überall verschiedene Passwörter).
+… Mein Passwort werde ich ihnen sicher nicht verraten. Nur damit sie es dann mit dem Passwort in ihrer Datenbank abgleichen können und, spätestens dann, in Klartext vorliegen haben?[1] Und damit Peter dann gleich auch Zugriff auf meine Mails/Twitter/Facebook Accounts hat. (Natürlich nicht. Ich verwende überall verschiedene Passwörter).
 
 ### Enttäuschung
 
@@ -58,3 +58,5 @@ Gut: Alles erschien mir sympathisch und ich habe mich darüber gefreut, dass Wac
 ### Fazit
 
 Man ist natürlich selber schuld, wenn man solche Spiele spielt bzw. sich registriert. Aber: Aus Usersicht ist es dennoch nervig. Nie wieder Good Game (*einloggen, mein Account besteht ja weiterhin*)!
+
+[1] Es ist nicht klar, ob Goodgame mein Passwort bereits bei der Registrierung auch in Klartext speichert, was ein sehr hohes Risiko darstellen würde. Letztlich ist die Übermittlung meines Passworts an den Customer Support jedenfalls komplett unüblich und nicht zielführend. Denn spätestens mit dem E-Mail kann der Support-Mitarbeiter das Passwort weiterverwenden.
