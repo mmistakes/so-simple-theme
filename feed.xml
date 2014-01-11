@@ -18,7 +18,7 @@ layout: none
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link>{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}</link>
+  <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"/>
   <id>{{ site.url }}{{ post.id }}</id>
   {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
   <published>{{ post.date | date_to_xmlschema }}</published>
