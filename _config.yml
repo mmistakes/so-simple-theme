@@ -10,7 +10,7 @@ search:           true
 owner:
   name: 'Kristijan Šimić'
   avatar: bio-photo.png
-  email: you@email.com
+  email: kristijan.simic@googlemail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: Kr1sso
   facebook:  
@@ -21,7 +21,7 @@ owner:
   flickr: 95980392@N07
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus: https://plus.google.com/+KristijanŠimić83?rel=author
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-23787542-2
