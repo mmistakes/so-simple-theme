@@ -5,7 +5,7 @@ description: "Custom written post descriptions are the way to go... if you're no
 category: articles
 tags: [sample post, video]
 comments: true
-#published: false
+published: false
 
 ---
 
