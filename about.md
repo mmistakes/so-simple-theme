@@ -9,7 +9,7 @@ modified: 2014-01-12
 
 **Hello** --- I'm Kristijan &#138;imi&#263;, a developer in love with Apple technologies, currently based in Berlin, Germany. I'm working with the lovely folks at [6Wunderkinder](http://www.6wunderkinder.com) creating **Wunderlist** for [**Mac**](https://itunes.apple.com/us/app/wunderlist-to-do-task-list/id410628904?mt=12) and [**iOS**](https://itunes.apple.com/us/app/wunderlist-to-do-task-list/id406644151?mt=8). 
 
-Besides being a beatifully designed task management app with over *6 million* users and a joy yo use, Wunderlist also got the *'App of the Year 2013'* award on the Mac App Store, which I'm unbelievably thankful for. 
+Besides being a beatifully designed task management app with over *6 million* users and a joy to use, Wunderlist also got the *'App of the Year 2013'* award on the Mac App Store, which I'm unbelievably thankful for. 
 
 <figure>
 	<a href="https://www.wunderlist.com/blog/thanks-for-making-wunderlist-app-of-the-year-2013"><img src="https://pbs.twimg.com/media/Bbq7uxeIMAAIG4e.png:large"></a>
