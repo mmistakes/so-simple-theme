@@ -10,7 +10,7 @@ Seit einigen Wochen verwende ich jetzt [Jekyll](http://jekyllrb.com/)/[GitHub Pa
 
 ### Backend?
 
-Wie verfasst man aber jetzt seine neuen Posts überhaupt? Ehrlich gesagt: Ich weiß es nicht so recht. Ich verwende selbst keine [Markdown](http://daringfireball.net/projects/markdown/) Editoren (obwohl ich weiß, dass es eine Vielzahl davon gibt).
+Wie verfasst man aber jetzt seine neuen Posts überhaupt? Das kann sich jeder selbst aussuchen, denn es gibt kein fertiges Backend für Jekyll. Man kann also seinen Texteditor seiner Wahl verwenden, direkt auf GitHub seine neuen Posts anlegen, aber ehrlich gesagt: Ich weiß es nicht so recht, was am sinnvollsten ist. "Das Problem" ist nämlich immer das gleiche: Um neue Posts verfassen zu können, sollte man der [Markdown](http://daringfireball.net/projects/markdown/)-Syntax mächtig sein. Ich verwende jedoch selbst Markdown eigentlich gar nicht, bzw. habe auch keine Erfahrung mit sinnvollen Markdown-Editoren (,obwohl ich weiß, dass es eine Vielzahl davon gibt).
 
 ### Markdown
 
