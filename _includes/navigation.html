@@ -1,5 +1,5 @@
 <div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated drop" itemscope itemtype="http://schema.org/SiteNavigationElement">
+	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
 	        {% for link in site.links %}
 			<li>
@@ -26,14 +26,14 @@
 	</div><!-- /.search-form -->
 </div><!-- ./search-wrapper -->{% endif %}
 
-{% if page.image.feature %}<header class="masthead" itemscope itemtype="http://schema.org/Organization">
+{% if page.image.feature %}<header class="masthead">
 	<div class="wrap">
-		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}" itemprop="url"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown" itemprop="logo"></a>
+		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated bounceInDown"></a>
 	</div>
 </header><!-- /.masthead -->
-{% else %}<header class="masthead" itemscope itemtype="http://schema.org/Organization">
+{% else %}<header class="masthead">
 	<div class="wrap">
-		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}" itemprop="url"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp" itemprop="logo"></a>
+		<a href="{{ site.url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInUp"></a>
 		<h1 class="site-title animated fadeIn"><a href="{{ site.url }}">{{ site.title }}</a></h1>
 		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
 	</div>
