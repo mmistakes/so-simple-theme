@@ -60,3 +60,7 @@ Gut: Alles erschien mir sympathisch und ich habe mich darüber gefreut, dass Wac
 Man ist natürlich selber schuld, wenn man solche Spiele spielt bzw. sich registriert. Aber: Aus Usersicht ist es dennoch nervig. Nie wieder Good Game (*einloggen, mein Account besteht ja weiterhin*)!
 
 [1] Es ist nicht klar, ob Goodgame mein Passwort bereits bei der Registrierung auch in Klartext speichert, was ein sehr hohes Risiko darstellen würde. Letztlich ist die Übermittlung meines Passworts an den Customer Support jedenfalls komplett unüblich und nicht zielführend. Denn spätestens mit dem E-Mail kann der Support-Mitarbeiter das Passwort weiterverwenden.
+
+### Update 1 (16.01.2014)
+
+Wie ein Mitspieler anmerkt, gibt es sehr wohl ein [Formular](http://support.goodgamestudios.com/), mit dem man seinen Account löschen kann. Leider muss man auch dort sein Passwort in Klartext eingeben.
