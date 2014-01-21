@@ -13,7 +13,7 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}">{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_encode }}" title="Pages tagged {{ tag }}">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}</span>
