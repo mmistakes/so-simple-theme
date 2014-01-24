@@ -10,7 +10,11 @@
 				{% endif %} 
 			</li>
 	        {% endfor %}
-	        <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+		{% if site.subscribe_rss %}
+			<li><a href="{{ site.subscribe_rss }}/" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+		{% else %}
+			<li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+		{% endif %} 
 	        {% if site.search %}<li class="dosearch"><i class="icon-search"></i> Search</li>{% endif %}
 	    </ul>
 	</nav>
