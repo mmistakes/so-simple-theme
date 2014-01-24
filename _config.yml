@@ -29,6 +29,10 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+# subscribe_rss: http://feeds.feedburner.com/yourfeed
+subscribe_rss: 
+
 # Links to include in top navigation
 # For external links add external: true
 links:
