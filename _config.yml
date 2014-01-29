@@ -1,8 +1,8 @@
-title:            nycmeshnet
-description:      "'cause we need better internet"
+title:            "#nycmeshnet"
+description:      "a better network"
 logo:
 disqus_shortname:
-search:           true
+search:           false
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
 
@@ -12,9 +12,10 @@ owner:
   avatar:         bio-photo.jpg
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  reddit: nycmeshnet
+  twitter: nycmeshnet
   facebook:
-  github:
+  github: nycmeshnet
   stackexchange:
   linkedin:
   instagram:
@@ -32,14 +33,12 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Articles
-    url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Map
+    url: http://nycmesh.net
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

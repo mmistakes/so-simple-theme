@@ -1,0 +1,32 @@
+/* Size */
+
+@media only screen and (min-width:62.5em) {
+  .entry-title {
+    max-width:800px;
+    font-size:52px;
+    font-size:3.25rem;
+  }
+}
+
+
+/* Positioning */
+
+.navigation-wrapper ul { margin-bottom: 30px; }
+
+@media only screen and (min-width:62.5em) {
+  .site-title { margin-top: 0; }
+}
+
+.footer-wrapper { margin: 0; }
+
+.masthead {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+
+/* Colors */
+
+body { background-color: #E4E4E4; }
+
+.navigation-wrapper a { color: #E4E4E4; }
