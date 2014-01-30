@@ -8,14 +8,14 @@ url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           "#nycmeshnet"
   avatar:         bio-photo.jpg
-  email:          you@email.com
+  email:          peter@someindividual.com
   # Social networking links used in footer. Update and remove as you like.
-  reddit: nycmeshnet
-  twitter: nycmeshnet
+  reddit:         nycmeshnet
+  twitter:        nycmeshnet
   facebook:
-  github: nycmeshnet
+  github:         nycmeshnet
   stackexchange:
   linkedin:
   instagram:
@@ -23,6 +23,13 @@ owner:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
+
+# To be used in posts to determine the author info
+authors:
+  peter:
+    name:   Peter
+    avatar: bio-photo.jpg
+    email:  peter@someindividual.com
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
