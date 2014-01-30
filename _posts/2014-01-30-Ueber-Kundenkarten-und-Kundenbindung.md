@@ -37,7 +37,7 @@ Ich bin gespannt, ob sich Personen finden, die an dem Test des innovativen Produ
 
 Es nervt! Der Einkaufswahn vor Weihnachten, Millionen unnötiger Produkte und eine fehlende Nachhaltigkeit: Konsum in seiner heutigen Form ist etwas, was mir zusehends aufstößt. Ich kann mich damit nicht identifizieren. Die Sättigung ist teilweise so groß, dass ich mich einfach ausklinken möchte. Dabei denke ich öfter an Verwandte und Bekannte, die das Leben aus einem anderen Blickwinkel betrachten und viele Dinge ganz anders kennen - weil sie ein wenig älter sind als ich: Sie kennen keine übergroßen Supermärkte, sie zerbrechen sich nicht über Kundenkarten oder Rabatte den Kopf. Sie überlegen, welches Gemüse sie im eigenen Beet anbauen möchten. Sie betreuen ihr eigenes Essen, anstatt fremde Produkte, scheinheilig, in den Himmel zu loben. Auch wenn es veraltet klingen mag, ist es nicht die viel klügere Sicht auf viele Dinge?
 
-All das - wofür? Vielleicht für ein einfacheres, streßfreieres, bewußteres Leben. Oder, was meint ihr?
+All das - wofür? Vielleicht für ein einfacheres, stressfreieres, bewussteres Leben. Oder, was meint ihr?
 
 
 *) Seht ihr, ich bin ja insgeheim auch ein Brand Ambassador der Sonderklasse!
