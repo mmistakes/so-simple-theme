@@ -33,7 +33,7 @@ Um Personen zeigen zu können, worauf sie sich tatsächlich einlassen, habe ich 
 Ich bin gespannt, ob sich Personen finden, die an dem Test des innovativen Produkts "3 x 1 EUR Münze" teilnehmen möchten. Ich halte euch diesbezüglich am laufenden.
 
 
-### Über Sättigung, die [68er Generation](http://de.wikipedia.org/wiki/68er-Generation#68er-Generation), eigene Gemüsebeete und dem einfachen Leben ###
+### Über Sättigung, die [68er Generation](http://de.wikipedia.org/wiki/68er-Generation#68er-Generation), eigene Gemüsebeete und das einfache Leben ###
 
 Es nervt! Der Einkaufswahn vor Weihnachten, Millionen unnötiger Produkte und eine fehlende Nachhaltigkeit: Konsum in seiner heutigen Form ist etwas, was mir zusehends aufstößt. Ich kann mich damit nicht identifizieren. Die Sättigung ist teilweise so groß, dass ich mich einfach ausklinken möchte. Dabei denke ich öfter an Verwandte und Bekannte, die das Leben aus einem anderen Blickwinkel betrachten und viele Dinge ganz anders kennen - weil sie ein wenig älter sind als ich: Sie kennen keine übergroßen Supermärkte, sie zerbrechen sich nicht über Kundenkarten oder Rabatte den Kopf. Sie überlegen, welches Gemüse sie im eigenen Beet anbauen möchten. Sie betreuen ihr eigenes Essen, anstatt fremde Produkte, scheinheilig, in den Himmel zu loben. Auch wenn es veraltet klingen mag, ist es nicht die viel klügere Sicht auf viele Dinge?
 
