@@ -45,7 +45,7 @@ links:
   - title: Blog
     url: /blog/
   - title: Map
-    url: http://nycmesh.net
+    url: http://nycmesh.net/map/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
