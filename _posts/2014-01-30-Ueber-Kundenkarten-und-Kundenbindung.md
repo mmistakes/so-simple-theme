@@ -23,7 +23,7 @@ Natürlich ist es nicht nur hip, dass man Kunden durch *attraktive* Prämiensyst
 
 Keine Frage: Es gibt Firmen, die ihre Anliegen sinnvoll dosieren. Die bereit sind über den [Tellerrand zu schauen um aus dem Alltagsbrei herauszustechen](http://johannes.nagl.name/2012/wenn-prinzenrolle-und-ovomaltine-twitter-machen/). Denen man ihre Aktivitäten abkauft. Aber durch einige negative Erlebnisse bin ich in den letzten Wochen sehr skeptisch geworden: Es verwundert mich nicht nur die Vorgehensweise der Firmen, sondern auch die (Neu-)gier der User. Wie weit möchte man für eine kostenlose Probe eines 3-Euro Produkts gehen? Wie viele Tweets, wie viele Blog Posts, wieviel "Noise" ist man bereit für diese 3-Euro zu opfern? Anscheinend, für meine Begriffe, unverhältnismäßig, viel. Wäre es nicht viel einfacher, einfach selbst diese 3-Euro in die Hand zu nehmen, um sich das beschriebene Produkt im Supermarkt zu holen? Ohne der vielen Verpflichtungen, die man hier eingeht und ohne die komplette Adresse an Firmen verraten zu müssen? Hier fällt mir das alte Sprichwort ein: "Man ist, was man isst". Bzw leicht adaptiert: "Man bekommt, was man braucht".
 
-### Ein Experiment ### 
+### Ein Experiment ###
 
 Um Personen zeigen zu können, worauf sie sich tatsächlich einlassen, habe ich folgenden Tweet abgeschickt: 
 
