@@ -7,7 +7,7 @@ tags:
 - Erfahrungsbericht
 - "Work-Life-Balance"
 ---
-Vor einem Jahr war es soweit. Das zweite Jahr, sprich 731 Tage Social Software Development bei den Socialisten waren vorbei. Und man glaubt es kaum: Jetzt ist schon wieder was passiert - nämlich wieder ein Jahr vergangen! Zeit, auch dieses wieder Revue passieren zu lassen. Ein Zwischenbericht.
+Vor einem Jahr war es soweit. Das zweite Jahr, sprich [731 Tage Social Software Development](http://johannes.nagl.name/2013/731-tage-social-software-development/) bei den Socialisten waren vorbei. Und man glaubt es kaum: Jetzt ist schon wieder was passiert - nämlich wieder ein Jahr vergangen! Zeit, auch dieses wieder Revue passieren zu lassen. Ein Zwischenbericht.
 
 ### Die externen Umstände ###
 
