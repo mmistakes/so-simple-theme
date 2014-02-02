@@ -48,4 +48,4 @@ Natürlich muss man die Mülltrennung auch in einen gewissen städtischen Kontex
 
 In den nächsten Wochen berichten wir noch detailierter über unsere ersten Erfahrungen zum Thema Mülltrennung und Reduktion.
 
-Wir haben auch schon weitere Projekte gestartet ("Glas statt Plastik") und Ideen (statt wunderschönen Fotos vom Essen eher nüchterne Fotos vom entstandenen Müll) zu machen. Wer Tipps für uns hat, seine Erfahrungen mit uns teilen, oder am laufenden bleiben möchte: Einfach Kommentare hinterlassen, Fragen stellen oder den Blog via [RSS-Feed](http://johannes.nagl.name/feed/) abonnieren.
+Wir haben auch schon weitere Projekte gestartet ("Glas statt Plastik") und Ideen (statt wunderschönen Fotos vom Essen eher nüchterne Fotos vom entstandenen Müll zu machen). Wer Tipps für uns hat, seine Erfahrungen mit uns teilen, oder am laufenden bleiben möchte: Einfach Kommentare hinterlassen, Fragen stellen oder den Blog via [RSS-Feed](http://johannes.nagl.name/feed/) abonnieren.
