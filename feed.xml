@@ -24,7 +24,7 @@ layout: none
   <published>{{ post.date | date_to_xmlschema }}</published>
   {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
-  {% assign author = site.authors[page.author] %}
+  {% assign author = site.authors[post.author] %}
   <author>
     <name>{{ author.name }}</name>
     <uri>{{ site.url }}</uri>

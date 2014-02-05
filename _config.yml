@@ -10,7 +10,7 @@ url:              http://localhost:4000
 owner:
   name:           "#nycmeshnet"
   avatar:         bio-photo.jpg
-  email:          peter@someindividual.com
+  email:          peter@nycmesh.net
   # Social networking links used in footer. Update and remove as you like.
   reddit:         nycmeshnet
   twitter:        nycmeshnet
