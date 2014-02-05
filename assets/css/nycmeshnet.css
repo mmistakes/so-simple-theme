@@ -24,9 +24,14 @@
   padding-top: 10px;
 }
 
+.entry-wrapper {
+  margin-bottom: 1em;
+}
+
 
 /* Colors */
 
 body { background-color: #E4E4E4; }
 
 .navigation-wrapper a { color: #E4E4E4; }
+.btn:hover { background-color: #A5A5A5; }
