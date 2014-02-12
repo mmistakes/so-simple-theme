@@ -31,7 +31,8 @@ General notes and suggestions for customizing So Simple Theme.
 4. Edit `_config.yml` to personalize your site.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
 6. Read the documentation below for further customization pointers and documentation.
-[Download the Theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip)
+
+[Demo the Theme](http://mmistakes.github.io/so-simple-theme/)
 
 **Pro-tip:** Remove the sample posts in `_posts` and the `gh-pages` branch after cloning. There is a bunch of garbage in the `gh-pages` branch used for the theme's demo site.
 
