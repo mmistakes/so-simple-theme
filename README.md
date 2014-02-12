@@ -25,17 +25,15 @@ General notes and suggestions for customizing So Simple Theme.
 
 ## Basic Setup for new Jekyll site
 
-1. [Install Jekyll](http://jekyllrb.com) and read through the documentation if you haven't already.
-2. [Install Jekyll Extra - Kramdown](http://jekyllrb.com/docs/extras/#kramdown)
-3. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork)
-4. Clone the repo you just forked.
-5. Edit `_config.yml` to personalize your site.
-6. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
-7. Read the documentation below for further customization pointers and documentation.
+1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
+2. Fork the [So Simple Theme repo](https://github.com/mmistakes/so-simple-theme/fork).
+3. Clone the repo you just forked and rename it.
+4. Edit `_config.yml` to personalize your site.
+5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
+6. Read the documentation below for further customization pointers and documentation.
+[Download the Theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip)
 
-[Download the Theme](http://mmistakes.github.io/so-simple-theme)
-
-**Pro-tip:** Delete the `gh-pages` branch after cloning and start fresh by branching off `master`. There is a bunch of garbage in `gh-pages` used for the theme's demo site that I'm guessing you don't want on your site.
+**Pro-tip:** Remove the sample posts in `_posts` and the `gh-pages` branch after cloning. There is a bunch of garbage in the `gh-pages` branch used for the theme's demo site.
 
 ---
 
