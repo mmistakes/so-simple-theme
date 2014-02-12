@@ -8,7 +8,7 @@ categories: ['blog']
 As mentioned in the last post, we will be having weekly meetings from now on. Drop by if you're at all interested in nycmeshnet!
 
 As of right now, we will be meeting at the same cafe in the Lower East Side. We are, however, in the process of looking for a better place to meet,
-so make sure to check this post for any updates!
+so make sure to check this post for any updates.
 
 __Also, please make sure to check the lower section of the cafe! There are stairs that go down behind where you order your coffee.__
 
