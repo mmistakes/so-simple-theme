@@ -5,7 +5,7 @@ author: peter
 categories: ['blog']
 ---
 
-The meeting this past Sunday was a short but concise. Sitting over some coffee, we went over some topics that we considered to be our priorities.
+The meeting this past Sunday was short and concise. Sitting over some coffee, we went over some topics that we considered to be our priorities.
 
 ## Building interest
 
