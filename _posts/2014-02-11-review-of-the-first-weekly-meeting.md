@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A review of our first meeting"
+title: "A review of our first weekly meeting"
 author: peter
 categories: ['blog']
 ---
