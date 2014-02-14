@@ -17,12 +17,12 @@ The clearest way to show that the meshnet is useful is to provide access to the 
 
 ## Web service alternatives
 
-Another approach would be to provide working (and hopefully more useful) alternatives to services that exist on Internet. The main benefit of this would be that the services would not require any access to the Internet, so that means completely free to use as long as you're connected to the meshnet.
+Another approach would be to provide working (and hopefully more useful) alternatives to services that exist on Internet. The main benefit of this would be that the services would not require any access to the Internet. This means it is completely free to use as long as you're connected to the meshnet.
 
 Several such services already exist on the network, including __Gitboria__ (a Git repository), __uppit.us__ (a reddit clone), and __socialno.de__ (a Twitter clone).
 
-It's important to note that having serices sit on the meshnet (as opposed to somewhere on the Internet) is the eventual goal of this project anyway. However, its also important to keep in mind that establishing useful and reliable services is a non-trivial task.
+It's important to note that having services sit on the meshnet (as opposed to somewhere on the Internet) is the eventual goal of this project anyway. However, keep in mind that establishing useful and reliable services is a non-trivial task.
 
 ## Future meetings
 
-In order to keep ourselves productive, we've decided to have weekly meetings. We plan to have these meetings on Sunday afternoons. A post will be put up for each meeting with the details, so keep an eye out!
+In order to keep ourselves productive, we've decided to have weekly meetings. We plan to have these meetings on Sunday afternoons. A post will be put up for each meeting with details, so keep an eye out!
