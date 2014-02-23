@@ -1,10 +1,10 @@
-title:            Site Title
+title:            MariaDB
 description:      Describe your website here.
 logo:             site-logo.png
 disqus_shortname: 
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://mariadb.github.io
 
 # Owner/author information
 owner:
