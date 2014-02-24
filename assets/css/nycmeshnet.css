@@ -33,9 +33,11 @@
 }
 
 
-/* Colors */
+/* Colors and others */
 
 body { background-color: #E4E4E4; }
 
 .navigation-wrapper a { color: #E4E4E4; }
 .btn:hover { background-color: #A5A5A5; }
+
+a { border-bottom: 1px dotted #a2a2a2; }
