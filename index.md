@@ -6,7 +6,7 @@ layout: page
 
 What if any computer in New York City could connect to any other computer, for free?
 
-![Radios! Internets!](/images/nanostation-nyc.jpg)
+![Radios! Internets!]({{ site.url }}/images/nanostation-nyc.jpg)
 
 The Internet is lovely and all, but it's designed in such a way that we have to pay Internet Service Providers for access each month. And that can get real expensive, real fast.
 
