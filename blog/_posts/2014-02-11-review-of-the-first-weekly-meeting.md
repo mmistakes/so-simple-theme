@@ -2,7 +2,6 @@
 layout: post
 title: "A review of our first weekly meeting"
 author: peter
-categories: ['blog']
 ---
 
 The meeting this past Sunday was short and concise. Sitting over some coffee, we went over some topics that we considered to be our priorities.

@@ -2,7 +2,6 @@
 layout: post
 title: "Meeting on Sunday, February 9th, 2014"
 author: peter
-categories: ['blog']
 ---
 
 Time for the first of our 2014 meetings! It will be an informal one at a cozy cafe in the Lower East Side.

@@ -2,7 +2,6 @@
 layout: post
 title: "Starting with the basics"
 author: peter
-categories: ['blog']
 ---
 
 The third weekly meeting was today and things are looking good. Now that it's clear that interest exists, we spent the meeting discussing how to move forward, both immediately and in the weeks to come.

@@ -2,7 +2,6 @@
 layout: post
 title: "Meeting on Sunday, February 16th, 2014"
 author: peter
-categories: ['blog']
 ---
 
 As mentioned in the last post, we will be having weekly meetings from now on. Drop by if you're at all interested in nycmeshnet!
