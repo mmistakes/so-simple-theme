@@ -7,7 +7,7 @@ tags:
 - Nachhaltigkeit
 - Rant
 ---
-Früher war alles ~~besser~~ aufregender. Olympische Spiele, Fußball-EM oder Fußball-WM. Waren endlich vier Jahre vorbei, konnte man sich 2-3 Wochen vor den Fernseher werfen und mitfiebern, wie Athleten um Medaillen oder Trophäen kämpften. Unvergessen sind hierbei einige Momente, wie [Roberto Baggio 1994](http://www.youtube.com/watch?v=voT5W9Doa-s), [Zinedine Zidane 2006](http://www.youtube.com/watch?v=ARI-Ezb81pM) oder [Hermann Maier 1998](http://www.youtube.com/watch?v=5OaM6m7SKOM).
+Früher war alles <del>besser</del> aufregender. Olympische Spiele, Fußball-EM oder Fußball-WM. Waren endlich vier Jahre vorbei, konnte man sich 2-3 Wochen vor den Fernseher werfen und mitfiebern, wie Athleten um Medaillen oder Trophäen kämpften. Unvergessen sind hierbei einige Momente, wie [Roberto Baggio 1994](http://www.youtube.com/watch?v=voT5W9Doa-s), [Zinedine Zidane 2006](http://www.youtube.com/watch?v=ARI-Ezb81pM) oder [Hermann Maier 1998](http://www.youtube.com/watch?v=5OaM6m7SKOM).
 
 Als Kind kam mir immer vor: Der Sport stand im Mittelpunkt solcher Großereignisse. Kaum wird man erwachsen, merkt man, dass dem nicht so ist. Nicht zuletzt seit [München 1972](http://de.wikipedia.org/wiki/Geiselnahme_von_M%C3%BCnchen) sind Großereignisse immer auch ein Politikum, bzw. abseits des Sports polarisierend.
 
