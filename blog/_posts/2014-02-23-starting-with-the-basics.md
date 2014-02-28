@@ -16,12 +16,16 @@ Setting up cjdns and communication over long distances can be accomplished in ma
 
 - __[Ubiquiti Nanostation M5](http://www.amazon.com/Ubiquiti-NSM5-NanoStation-M5/dp/B0049AVWAO)__ to communicate with the peers in your area (~$90)
 - __[Raspberry Pi Model B](http://www.amazon.com/RASPBERRY-MODEL-756-8308-Raspberry-Pi/dp/B009SQQF9C/)__ to run cjdns (~$40)
+- __[4GB SD Card](http://www.amazon.com/Kingston-Class-Memory-SD4-4GB/dp/B000MX48VM/)__ for the Raspberry Pi to use as storage (~$5)
+- __[5V Micro USB Power Supply](http://www.amazon.com/Kootek-Raspberry-Supply-Charger-Adapter/dp/B00FIFYQMA/)__ to power the Raspberry Pi (~$10)
 - __[USB to Ethernet adapter](http://www.amazon.com/Cable-Matters-Ethernet-Adapter-Black/dp/B00ET4KHJ2/)__ to connect a second Ethernet cable from your Raspberry Pi to your wireless router (~$10)
 - Two __Ethernet cables__*, one to connect your Nanostation to your Raspberry Pi, and the other to connect your Raspberry Pi to your home router (~$10/cable)
 
 \* The length of the Ethernet cables you need depends completely on your intended setup.
 
-This means that once we have some conveniently packaged software, getting connected to the network has a one-time cost of around $160. So if you're looking to get started right away, order away!
+This means that once we have some conveniently packaged software, getting connected to the network has a one-time cost of around $175. So if you're looking to get started right away, order away!
+
+(Note: Most modern Android phone chargers are 5V Micro USB power supplies, so you may not need to purchase one if you have a spare lying around.)
 
 ## The software
 
