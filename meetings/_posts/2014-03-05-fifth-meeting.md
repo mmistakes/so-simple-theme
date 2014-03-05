@@ -7,7 +7,7 @@ author: peter
 This week's meeting will happen at the same time and place.
 
 We are, however, currently looking into finding a new location (and possibly day and time) for future meetings.
-So if you plan to attend meetings, help us make an informed decision by filling out [this single-question poll](http://www.polljunkie.com/poll/zioiff/preferred-day-for-weekly-meetings).
+So if you plan to attend meetings, help us make an informed decision by filling out [this single-question poll](http://www.polljunkie.com/poll/zioiff/preferred-day-for-weekly-meetings) with the days you're availble.
 
 You can also sign up on our [mailing list](https://lists.projectmeshnet.org/cgi-bin/mailman/listinfo/nyc) to get any updates on meetings and the like.
 
