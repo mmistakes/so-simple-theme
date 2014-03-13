@@ -46,6 +46,8 @@ links:
     url: /blog/
   - title: Meetings
     url: /meetings/
+  - title: Resources
+    url: /resources/
   - title: Map
     url: http://map.nycmesh.net/
     external: true
