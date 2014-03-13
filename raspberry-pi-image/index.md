@@ -24,7 +24,7 @@ on it's Ethernet port.
 
 1. Flash the image to your SD card
   - _Windows:_ [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
-  - _Linux:_ with XXX as the SD card device name
+  - _BSD/UNIX/Linux:_ with XXX as the SD card device name
 `dd if=meshnetpi-2014-03-09.img of=/dev/XXX`
 2. Boot the Raspberry Pi with the freshly flashed SD card
 3. Connect the Pi to your wireless router via an Ethernet cable
