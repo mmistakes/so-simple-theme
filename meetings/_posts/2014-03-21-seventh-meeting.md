@@ -17,4 +17,4 @@ Hope to see you all at the new time and place!
 __[xCubicle](https://www.google.com/maps?q=xCubicle+~+Hybrid+Tech+%26+Skillshare+Hackerspace&hl=en&sll=40.7154746,-73.9898687&sspn=0.0062454,0.0109864&t=m&z=17&iwloc=A)__<br>
 25 Essex St<br>
 New York, NY 10002<br>
-Sunday, March 25th, 2014 at 7pm
+Tuesday, March 25th, 2014 at 7pm
