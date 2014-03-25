@@ -2,13 +2,13 @@
 layout: page
 ---
 
-# Meshnet Raspberry Pi image
+# Meshberry v0.2
 
 In an effort to make joining the mesh as simple as possible, a Raspberry Pi image with
 the necessary software has been created. The steps on this [wiki page](http://wiki.projectmeshnet.org/Install_on_Raspberry_Pi)
 were followed to create the image.
 
-Download it [here](https://www.dropbox.com/s/dld2fzkqm0o3g05/meshnetpi-2014-03-09.img) from Dropbox.
+Download the image [here](https://www.dropbox.com/s/evnm7mszbtw5uqs/meshberry-v0.2.img) from Dropbox.
 
 
 ## What's included
@@ -25,7 +25,7 @@ on it's Ethernet port.
 1. Flash the image to your SD card
   - _Windows:_ [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
   - _BSD/UNIX/Linux:_ with XXX as the SD card device name
-`dd if=meshnetpi-2014-03-09.img of=/dev/XXX`
+`dd if=meshberry-v0.2.img of=/dev/XXX`
 2. Boot the Raspberry Pi with the freshly flashed SD card
 3. Connect the Pi to your wireless router via an Ethernet cable
   connected to the Ethernet port
@@ -39,6 +39,10 @@ on it's Ethernet port.
 `sudo apt-get dist-upgrade && sudo apt-get upgrade`
 
 And done! Your Raspberry Pi is now ready to peer with other cjdns nodes.
+
+If you want to have your non-cjdns devices at home to be able to reach Hyperboria,
+you can run a script to enable this by SSHing into the Pi and running the following:<br>
+`./meshnet/enable_nat.sh`
 
 
 ### Misc. notes
