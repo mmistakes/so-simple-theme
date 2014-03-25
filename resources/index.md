@@ -9,4 +9,4 @@ __[Hyperboria](http://hyperboria.net/)__
 
 __[cjdns on GitHub](https://github.com/cjdelisle/cjdns)__
 
-__[Meshberry](/meshberry)__: Meshnet Raspberry Pi image
+__[Meshberry](/meshberry) -__ preconfigured Raspberry Pi image
