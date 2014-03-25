@@ -40,7 +40,7 @@ on it's Ethernet port.
 
 And done! Your Raspberry Pi is now ready to peer with other cjdns nodes.
 
-If you want to have your non-cjdns devices at home to be able to reach Hyperboria,
+If you want you want your Pi to route non-cjdns devices to your cjdns network,
 you can run a script to enable this by SSHing into the Pi and running the following:<br>
 `./meshnet/enable_nat.sh`
 
