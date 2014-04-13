@@ -5,7 +5,10 @@ author: peter
 ---
 
 Our next meeting will be on Tuesday, April 15th. [xCubicle](http://www.xcubicle.com/), the Lower East Side's
-own hackerspace, has kindly agreed to host a meeting for a second time.
+own hackerspace, has kindly agreed to host a meeting for a second time. If you plan to come, please RSVP on
+this [Uniiverse page](http://uv.rs/1g0SD4w). If you share the event on Facebook
+or Twitter, the $5 RSVP fee will be waived. (For those worried, you can target the appropriate 
+friends on Facebook before it gets shared.)
 
 If you want to come and see what we're up to or you're just curious about meshnets
 in general, stop by! We're a friendly bunch, I promise.
