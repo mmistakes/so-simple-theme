@@ -3,12 +3,12 @@ layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+{% assign add_protocol = false %}
 {% if site.url != '' and site.url | split: '/' | first != 'http:' and site.url | split: '/' | first != 'https:' %}
   {% assign site_url = site.url | prepend: 'http:' %}
-  {% assign post_content = post.content | xml_escape | replace:  site.url, url %}
+  {% assign add_protocol = true %}
 {% else %}
   {% assign site_url = site.url %}
-  {% assign post_content = post.content | xml_escape %}
 {% endif %}
 <title type="text">{{ site.title }}</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
@@ -37,7 +37,12 @@ layout: none
     <email>{{ site.owner.email }}</email>
   </author>
   {% for tag in post.tags %}<category scheme="{{ site_url }}/tags/#{{ tag | uri_escape }}" term="{{ tag }}" />{% endfor %}
-  <content type="html">{{ post_content }}
+  <content type="html">
+  {% if add_protocol %}
+    {{ post.content | xml_escape | replace: site.url, site_url }}
+  {% else %}
+    {{ post.content | xml_escape }}
+  {% endif %}
   &lt;p&gt;&lt;a href=&quot;{{ site_url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site_url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 {% endfor %}
