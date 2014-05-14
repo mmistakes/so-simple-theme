@@ -3,15 +3,12 @@ layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-{% if site.url != '' and
-   site.url | split: '/' | first != 'http:' and
-   site.url | split: '/' | first != 'https:'
-%}
+{% if site.url != '' and site.url | split: '/' | first != 'http:' and site.url | split: '/' | first != 'https:' %}
   {% assign site_url = site.url | prepend: 'http:' %}
-  {% post_content = post.content | xml_escape | replace:  site.url, url %}
+  {% assign post_content = post.content | xml_escape | replace:  site.url, url %}
 {% else %}
   {% assign site_url = site.url %}
-  {% post_content = post.content | xml_escape %}
+  {% assign post_content = post.content | xml_escape %}
 {% endif %}
 <title type="text">{{ site.title }}</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
