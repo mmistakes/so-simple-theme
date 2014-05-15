@@ -3,35 +3,48 @@ layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+{% assign add_protocol = false %}
+{% assign protocol = site.url | split: '/' | first %}
+{% if site.url != '' and protocol != 'http:' and protocol != 'https:' %}
+  {% assign site_url = site.url | prepend: 'http:' %}
+  {% assign add_protocol = true %}
+{% else %}
+  {% assign site_url = site.url %}
+{% endif %}
 <title type="text">{{ site.title }}</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
-<link rel="alternate" type="text/html" href="{{ site.url }}/" />
+<link rel="self" type="application/atom+xml" href="{{ site_url }}/feed.xml" />
+<link rel="alternate" type="text/html" href="{{ site_url }}/" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{ site.url }}/</id>
+<id>{{ site_url }}/</id>
 <author>
   <name>{{ site.owner.name }}</name>
-  <uri>{{ site.url }}/</uri>
+  <uri>{{ site_url }}/</uri>
   <email>{{ site.owner.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
 
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-  <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site.url }}{{ post.url }}{% endif %}"/>
-  <id>{{ site.url }}{{ post.id }}</id>
+  <link rel="alternate" type="text/html" href="{% if post.link %}{{ post.link }}{% else %}{{ site_url }}{{ post.url }}{% endif %}"/>
+  <id>{{ site_url }}{{ post.id }}</id>
   {% if post.modified %}<updated>{{ post.modified | to_xmlschema }}T00:00:00-00:00</updated>
   <published>{{ post.date | date_to_xmlschema }}</published>
   {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
   <author>
     <name>{{ site.owner.name }}</name>
-    <uri>{{ site.url }}</uri>
+    <uri>{{ site_url }}</uri>
     <email>{{ site.owner.email }}</email>
   </author>
-  {% for tag in post.tags %}<category scheme="{{ site.url }}/tags/#{{ tag | uri_escape }}" term="{{ tag }}" />{% endfor %}
-  <content type="html">{{ post.content | xml_escape }}
-  &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+  {% for tag in post.tags %}<category scheme="{{ site_url }}/tags/#{{ tag | uri_escape }}" term="{{ tag }}" />{% endfor %}
+  <content type="html">
+  {% if add_protocol %}
+    {{ post.content | xml_escape | replace: site.url, site_url }}
+  {% else %}
+    {{ post.content | xml_escape }}
+  {% endif %}
+  &lt;p&gt;&lt;a href=&quot;{{ site_url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ site.owner.name }} at &lt;a href=&quot;{{ site_url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
 </entry>
 {% endfor %}
 </feed>
