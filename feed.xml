@@ -4,7 +4,8 @@ layout: none
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 {% assign add_protocol = false %}
-{% if site.url != '' and site.url | split: '/' | first != 'http:' and site.url | split: '/' | first != 'https:' %}
+{% assign protocol = site.url | split: '/' | first %}
+{% if site.url != '' and protocol != 'http:' and protocol != 'https:' %}
   {% assign site_url = site.url | prepend: 'http:' %}
   {% assign add_protocol = true %}
 {% else %}
