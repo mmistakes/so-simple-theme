@@ -17,9 +17,9 @@ Traditionally you would assign a global author for the entire site and those att
 
 Let's say we have an author Billy Rick --- he wrote this post and we want his name and photo to appear on the page instead of whoever the default site author is. To do so we'd add the following YAML front matter.
 
-``` yaml
+{% highlight yaml %}
 author:
   name: Billy Rick
   avatar: billy-photo.jpg    #place in /images
   twitter: billyrick         #marked as a creator for Twitter Card links
-```
+{% endhighlight %}
