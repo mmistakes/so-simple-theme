@@ -54,4 +54,4 @@
   })();
 </script>
 {% endif %}
-{% if site.disqus_shortname %}{% if page.comments %}{% include disqus_comments.html %}{% endif %}{% endif %}
+{% if site.disqus_shortname and page.comments %}{% include disqus_comments.html %}{% endif %}
