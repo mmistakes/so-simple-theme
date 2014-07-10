@@ -25,10 +25,18 @@
       </header>
       <footer class="entry-meta">
         {% if page.author.name %}
+        {% if page.author.avatar %}
         <img src="{{ site.url }}/images/{{ page.author.avatar }}" alt="{{ page.author.name }} photo" class="author-photo">
+        {% else %}
+        <img src="{{ site.url }}/images/bio-photo-alt.jpg" alt="{{ page.author.name }} photo" class="author-photo">
+        {% endif %}
         <span class="author vcard">By <span class="fn">{{ page.author.name }}</span></span>
         {% else %}
+        {% if site.owner.avatar %}
         <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+        {% else %}
+        <img src="{{ site.url }}/images/bio-photo-alt.jpg" alt="{{ site.owner.name }} photo" class="author-photo">
+        {% endif %}
         <span class="author vcard">By <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
         {% endif %}
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
