@@ -13,6 +13,9 @@ body {
 // --------------------------------------------------
 .navigation-wrapper {
 	text-align: center;
+        width: 100%
+        position: fixed;
+        z-index: 1000;
 	.clearfix();
 	ul {
 		display: inline-block;
@@ -453,13 +456,4 @@ span + .entry-title {
 	}
 }
 
-// Google Adsense
-// --------------------------------------------------
-.google-ads {
-	@media @small {
-		display: none;
-	}
-	@media @large {
-		display: block;
-	}
-}
+

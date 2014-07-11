@@ -13,16 +13,16 @@ owner:
   avatar:         michael-rose-photo.jpg
   email:          kks32@cam.ac.uk
   # Social networking links used in footer. Update and remove as you like.
-  #twitter:        "mmistakes"
-  #facebook:       "michaelrose"
+  #twitter:        
+  #facebook:       
   github:         "kks32"
-  #linkedin:       "michaelrose"
-  #instagram:      "mmistakes"
-  #tumblr:         "mademistakes"
+  #linkedin:       
+  #instagram:      
+  #tumblr:         
   #stackexchange:
   #flickr:
   # For Google Authorship https://plus.google.com/authorship
-  #google_plus:    "http://plus.google.com/118238196859537351707"
+  #google_plus:    
 
 # Analytics and webmaster tools stuff goes here
 #google_analytics:   UA-2011187-2

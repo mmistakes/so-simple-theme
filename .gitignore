@@ -6,3 +6,4 @@ codekit-config.json
 node_modules
 Gemfile.lock
 *~*
+*#*
