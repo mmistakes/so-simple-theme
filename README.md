@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.org/kks32/jekyll.svg)](https://travis-ci.org/kks32/jekyll)
+[![License MIT](http://img.shields.io/badge/license-MIT-brightgreen.svg)](license.md)
+
 ## Basic Setup for new Jekyll site
 
 1. [Install Bundler](http://bundler.io) `gem install bundler` and then install [Jekyll](http://jekyllrb.com) and all dependencies `bundle install`.
