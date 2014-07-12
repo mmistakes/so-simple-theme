@@ -4,8 +4,8 @@ description:      A clean responsive Jekyll.
 #disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://kks32.github.io/jekyll
-#url:              http://localhost:4000
+#url:              http://kks32.github.io/jekyll
+url:              http://localhost:4000
 
 # Owner/author information
 owner:
