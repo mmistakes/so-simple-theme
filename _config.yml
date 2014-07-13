@@ -16,6 +16,8 @@ owner:
   #twitter:        
   #facebook:       
   github:         "kks32"
+  #github_project link will be used in fork me on github link
+  github_project:  https://github.com/kks32/jekyll
   #linkedin:       
   #instagram:      
   #tumblr:         
