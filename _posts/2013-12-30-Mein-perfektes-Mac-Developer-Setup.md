@@ -56,13 +56,14 @@ The Missing Package Manager for Mac OS X. Super angenehm, um Entwickler-relevant
 
 Wie man homebrew, node.js und grunt installiert, erfährt man hier sehr gut: [http://thechangelog.com/install-node-js-with-homebrew-on-os-x/](http://thechangelog.com/install-node-js-with-homebrew-on-os-x/)
 
-### JavaScript Task Runner: [Grunt](http://gruntjs.com/) (gratis)
+### JavaScript Task Runner: [Gulp](http://gulpjs.com) (gratis)
 
-Früher hatte ich einige Build-Tools direkt am Client in Verwendung. Es gab einzelne Plugins für Less, Jshint, Jsmin, Cssmin und Image Compress und die dazu notwendigen Konfigurationsdateien. Diese waren alle in den unterschiedlichen Programmen aufgeteilt und meine Kollegen hatten teilweise veraltete Versionen. Kurz um: Nervig. Mittels Grunt.js konnten wir in der Firma all die obgenannten Tasks sammeln und mittels [http://blog.nodejs.org/2012/02/27/managing-node-js-dependencies-with-shrinkwrap/](NPM Shrinkwrap) dafür sorgen, dass alle involvierten Teammitglieder immer die gleichen Versionen von den Dependencies nutzen können.
+Früher hatte ich einige Build-Tools direkt am Client in Verwendung. Es gab einzelne Plugins für Less, Jshint, Jsmin, Cssmin und Image Compress und die dazu notwendigen Konfigurationsdateien. Diese waren alle in den unterschiedlichen Programmen aufgeteilt und meine Kollegen hatten teilweise veraltete Versionen. Kurz um: Nervig. Mittels Gulp.js konnten wir in der Firma all die obgenannten Tasks sammeln und mittels [http://blog.nodejs.org/2012/02/27/managing-node-js-dependencies-with-shrinkwrap/](NPM Shrinkwrap) dafür sorgen, dass alle involvierten Teammitglieder immer die gleichen Versionen von den Dependencies nutzen können.
 
 * Aufwand zum Einlernen: Gering.
-* Alternative 1: [CodeKit](http://incident57.com/codekit/) (28 USD)
-* Alternative 2 (nur für Images): [ImageOptim](http://imageoptim.com/) (gratis)
+* Alternative 1: [Grunt](http://gruntjs.com/) (gratis)
+* Alternative 2: [CodeKit](http://incident57.com/codekit/) (28 USD)
+* Alternative 3 (nur für Images): [ImageOptim](http://imageoptim.com/) (gratis)
 
 ### FTP/SSH Zugang: Terminal/[Transmit](http://panic.com/transmit/) (34 USD)
 
