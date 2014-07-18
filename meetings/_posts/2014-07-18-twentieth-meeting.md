@@ -5,7 +5,7 @@ author: peter
 ---
 
 Same time and place for our weekly meeting. In light of the panel on meshnets at HOPE, we'll be discussing real ways
-to get people interested and on the meshnet.
+to get people interested and connected to the meshnet.
 
 __Please check the lower section of the cafe! There are stairs that go down behind the counter where you order your coffee.__
 
