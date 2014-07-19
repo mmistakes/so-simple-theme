@@ -3610,7 +3610,7 @@ span + .entry-title {
   margin-bottom: 30px;
   margin-left: auto;
   display: block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 14px;
   font-size: 0.875rem;
 }
