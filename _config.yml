@@ -1,33 +1,36 @@
-title:            So Simple Theme
-description:      A simple and clean responsive Jekyll theme for words and photos.
-logo:             site-logo.png
-disqus_shortname: sosimpletheme
+title:            A Jekyll template
+description:      A clean responsive Jekyll.
+#logo:             site-logo.png
+#disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/so-simple-theme
+url:              http://kks32.github.io/jekyll
+#url:              http://localhost:4000
 
 # Owner/author information
 owner:
-  name:           Michael Rose
-  avatar:         michael-rose-photo.jpg
-  email:          michael@mademistakes.com
+  name:           Krishna Kumar
+  #avatar:        
+  email:          kks32@cam.ac.uk
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "mmistakes"
-  facebook:       "michaelrose"
-  github:         "mmistakes"
-  linkedin:       "michaelrose"
-  instagram:      "mmistakes"
-  tumblr:         "mademistakes"
-  stackexchange:  
-  flickr:                 
+  #twitter:        
+  #facebook:       
+  github:         "kks32"
+  #github_project link will be used in fork me on github link
+  github_project:  https://github.com/kks32/jekyll
+  #linkedin:       
+  #instagram:      
+  #tumblr:         
+  #stackexchange:
+  #flickr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  #google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-2
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+#google_analytics:   UA-2011187-2
+#google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD
 
 # Links to include in top navigation
 # For external links add external: true
@@ -38,15 +41,16 @@ links:
     url: /articles/
   - title: Theme Setup
     url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  - title: Tags
+    url: /tags/
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
-pygments:    true
-#highlighter: pygments
+highlighter:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

@@ -10,6 +10,7 @@
 <body id="post">
 
 {% include navigation.html %}
+{% include ribbon.html %}
 
 <div id="main" role="main">
   <article class="hentry">
@@ -25,10 +26,10 @@
       </header>
       <footer class="entry-meta">
         {% if page.author.name %}
-        <img src="{{ site.url }}/images/{{ page.author.avatar }}" alt="{{ page.author.name }} photo" class="author-photo">
+       <!-- <img src="{{ site.url }}/images/{{ page.author.avatar }}" alt="{{ page.author.name }} photo" class="author-photo">-->
         <span class="author vcard">By <span class="fn">{{ page.author.name }}</span></span>
         {% else %}
-        <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+       <!-- <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">-->
         <span class="author vcard">By <span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
         {% endif %}
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
