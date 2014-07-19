@@ -3860,3 +3860,9 @@ span + .entry-title {
   background-color: #ffffff;
   color: #000000;
 }
+.ribbon img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  border: 0;
+}
