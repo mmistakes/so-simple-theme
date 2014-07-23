@@ -26,10 +26,14 @@ owner:
 
 # To be used in posts to determine the author info
 authors:
+  kurt:
+    name:   Kurt
+    avatar: bio-photo.jpg
+    email:  kurt@nycmesh.net
   peter:
     name:   Peter
     avatar: bio-photo.jpg
-    email:  peter@someindividual.com
+    email:  peter@nycmesh.net
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
