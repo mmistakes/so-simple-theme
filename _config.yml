@@ -34,11 +34,11 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Articles
+  - title: Artículos
     url: /articles/
   - title: Tienda
     url: /tienda/
-  - title: About
+  - title: Sobre nosotros
     url: /about/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
