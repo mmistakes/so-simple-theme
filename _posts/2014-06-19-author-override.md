@@ -5,7 +5,7 @@ description: "An article to test overriding the default site author."
 category: articles
 tags: [sample post, readability, test]
 author:
-  name: Billy Rick
+  name: Manuel Santos
   avatar: bio-photo-alt.jpg
 comments: true
 share: true
