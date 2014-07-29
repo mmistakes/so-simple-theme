@@ -3,7 +3,7 @@ layout: post
 title: "Override Author Byline Test Post"
 description: "An article to test overriding the default site author."
 category: articles
-tags: [sample post, readability, test]
+tags: [sample-post, readability, test]
 author:
   name: Billy Rick
   avatar: bio-photo-alt.jpg

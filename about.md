@@ -10,7 +10,7 @@ image:
   creditlink: http://mademistakes.com
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes).
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
 ## So Simple Theme is all about:
 
@@ -23,7 +23,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Simple and clear permalink structure[^1].
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience.
 * Vanilla [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/articles/so-simple-theme/code-highlighting-post/) to make your code examples look snazzy.
+* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/so-simple-theme/articles/code-highlighting-post/) to make your code examples look snazzy.
 * Simple search that overlays results based on post title.
 * [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
 * [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines

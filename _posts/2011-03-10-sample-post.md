@@ -4,7 +4,7 @@ title: Sample Post
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2013-05-31
 category: articles
-tags: [sample post]
+tags: [sample-post]
 image:
   feature: so-simple-sample-image-1.jpg
   credit: Michael Rose
@@ -93,4 +93,4 @@ Non Pygments code example
 
 Make any link standout more when applying the `.btn` class.
 
-<div markdown="0"><a href="#" class="btn">This is a button</a></div>
+<div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
