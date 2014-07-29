@@ -7,3 +7,7 @@ gem 'rake'
 gem 'thor'
 gem 'activesupport'
 gem 'stringex'
+
+group :test do
+  gem 'html-proofer'
+end
