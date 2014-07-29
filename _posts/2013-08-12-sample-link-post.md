@@ -3,7 +3,7 @@ layout: post
 title: "Sample Link Post"
 description: "Example and code for using link posts."
 category: articles
-tags: [sample-post, link-post]
+tags: [sample post, link post]
 comments: true
 link: http://mademistakes.com  
 ---
