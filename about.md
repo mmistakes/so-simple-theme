@@ -26,7 +26,6 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/so-simple-theme/articles/code-highlighting-post/) to make your code examples look snazzy.
 * Simple search that overlays results based on post title.
 * [Grunt build script]({{ site.url }}/theme-setup/index.html#theme-development) for easier theme development.
-* [Sitemap](https://github.com/mmistakes/so-simple-theme/blob/master/sitemap.xml) for search engines
 
 <a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
