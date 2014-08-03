@@ -35,7 +35,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Artículos
-    url: /articulos/
+    url: /articles/
   - title: Tienda
     url: /tienda/
   - title: Sobre nosotros
