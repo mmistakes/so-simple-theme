@@ -23,6 +23,7 @@ published: true
 
 **Acércate a conocernos en Viladomat 27, Barcelona**
 
+![IMG_5327.JPG](/IMG_5327.JPG)
 
 
 [^1]: Example: *domain.com/category-name/post-title*
