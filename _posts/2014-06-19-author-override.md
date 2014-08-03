@@ -1,14 +1,18 @@
 ---
 layout: post
-title: "Override Author Byline Test Post"
-description: "An article to test overriding the default site author."
+title: Override Author Byline Test Post
+description: An article to test overriding the default site author.
 category: articles
-tags: [sample post, readability, test]
-author:
+tags: 
+  - sample post
+  - readability
+  - test
+author: 
   name: Manuel Santos
-  avatar: bio-photo-alt.jpg
+  avatar: "bio-photo-alt.jpg"
 comments: true
 share: true
+published: true
 ---
 
 For those of you who may have content written by multiple authors on your site, here's a new feature I added to So Simple.
