@@ -1,4 +1,4 @@
-title:            "Galeri"
+title:           
 description:      Arte y cosas en Barcelona
 logo:             galeri-logo.png
 # disqus_shortname:
@@ -15,11 +15,11 @@ owner:
   
   # Social networking links used in footer. Update and remove as you like.
   twitter: galeribcn
-  facebook:
+  facebook: galeribcn
   github:
   stackexchange:
   linkedin:
-  instagram:
+  instagram:galeribcn
   flickr:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
