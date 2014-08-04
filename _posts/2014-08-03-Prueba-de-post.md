@@ -3,6 +3,7 @@ layout: post
 published: true
 ---
 
+![silla.jpg](/images/silla.jpg)
 ## Prueba de post
 
 Esto es una **Prueba de post**.
