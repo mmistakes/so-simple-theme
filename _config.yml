@@ -70,6 +70,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gem
 
 prose:
   media: "images"
+  siteurl: "http://http://galeri.github.io/so-simple-theme/"
   metadata:
     _posts:
       - name: "layout"
