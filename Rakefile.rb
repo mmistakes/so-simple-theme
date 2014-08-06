@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "securerandom"
 
 ## -- Config -- ##
 
@@ -39,6 +40,7 @@ task :new_post, :title do |t, args|
     post.puts "  creditlink: "
     post.puts "comments: "
     post.puts "share: "
+    post.puts "uuid: " + SecureRandom.uuid
     post.puts "---"
   end
 end
