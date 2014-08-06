@@ -147,7 +147,7 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License](LICENSE) version 2 or later. So feel free to to modify this theme to suit your needs.
+This theme is free and open source software, distributed under the MIT License. So feel free to to modify this theme to suit your needs.
 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@mmistakes](https://twitter.com/mmistakes), that would be pretty sweet.
 
