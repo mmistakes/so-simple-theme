@@ -2,6 +2,10 @@
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = '{{ site.disqus_shortname }}'; // required: replace example with your forum shortname
 
+    {% if page.uuid %}
+      var disqus_identifier = '{{ page.uuid }}';
+    {% endif %}
+
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
