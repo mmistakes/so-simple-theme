@@ -168,19 +168,6 @@ Explanations of the various `_layouts` included with the theme and when to use t
 
 These two layouts are very similar. Both have an author sidebar, allow for large feature images at the top, and optional Disqus comments. The only real difference is the post layout includes related posts at the end of the page.
 
-### Post Index Page
-
-A [sample index page]({{ site.url }}/posts/) listing all posts grouped by the year they were published has been provided. The name can be customized to your liking by editing a few references. For example, to change **Posts** to **Writing** update the following:
-
-* In `_config.yml` under `links:` rename the title and URL to the following:
-{% highlight yaml %}
-  links:
-  - title: Writing
-    url: /writing/
-{% endhighlight %}
-* Rename `posts/index.md` to `writing/index.md` and update the YAML front matter accordingly.
-* Update the **View all posts** link in the `post.html` layout found in `_layouts` to match title and URL set previously.
-
 ### Categories
 
 In the sample posts folder you may have noticed `categories: articles` in the YAML front matter. Categories can be used to group posts into sub-folders. If you decide to rename or add categories you will need to create new category index pages.
@@ -194,16 +181,6 @@ For example. Say you want to group all your posts under blog/ instead of article
 {% endhighlight %}
 
 If done correctly /blog/ should be a page index of only posts with a category of `blog`.
-
-#### Social Share Links
-
-To add Facebook, Twitter, and Google+ share links to a post add the following YAML front matter.
-
-{% highlight yaml %}
-share: true
-{% endhighlight %}
-
-Share links appear below author details in the sidebar.
 
 ### Feature Images
 
@@ -228,22 +205,21 @@ image:
   creditlink: http://mademistakes.com #url to their site or licensing
 {% endhighlight %}
 
-### Twitter Cards
+### Videos
 
-Feature and thumbnail images are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) as well. If you don't assign a thumbnail the site logo is used.
+Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
-Here's an example of a tweet with Twitter Cards enabled.
+Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
 
-![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+{% highlight html %}
+<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+{% endhighlight %}
 
-**Pro-Tip**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) before they will begin showing up when links to your site are shared.
-{:.notice}
+### Link Post Type
 
-#### Link Post Type
+So Simple Theme supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
 
-So Simple Theme now supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
-
-#### Author Override
+### Author Override
 
 By making use of data files you can assign different authors for each post.
 
@@ -278,7 +254,34 @@ To assign Billy Rick as an author for our post. We'd add the following YAML fron
 author: billy_rick
 {% endhighlight %}
 
-#### Simple Search
+---
+
+## Social Share Links
+
+To add Facebook, Twitter, and Google+ share links to a post add the following YAML front matter.
+
+{% highlight yaml %}
+share: true
+{% endhighlight %}
+
+Share links appear below author details in the sidebar.
+
+---
+
+## Twitter Cards
+
+Feature and thumbnail images are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) as well. If you don't assign a thumbnail the site logo is used.
+
+Here's an example of a tweet with Twitter Cards enabled.
+
+![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+
+**Pro-Tip**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) before they will begin showing up when links to your site are shared.
+{:.notice}
+
+---
+
+## Simple Search
 
 Adding `search: true` to your `_config.yml` enables search using Christian Fei's [Simple Jekyll jQuery plugin](https://github.com/christian-fei/Simple-Jekyll-Search). Clicking the search link in the navigation bar will overlay a Search box that searches on post titles using an auto generated JSON file.
 
@@ -286,16 +289,6 @@ Adding `search: true` to your `_config.yml` enables search using Christian Fei's
   <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
   <figcaption>Search your site by post title</figcaption>
 </figure>
-
-#### Videos
-
-Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
-
-Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
-
-{% highlight html %}
-<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
-{% endhighlight %}
 
 ---
 
