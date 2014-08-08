@@ -36,16 +36,16 @@ owner:
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
-  twitter:
-  facebook:
-  github:
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
+  twitter: #username
+  facebook: #username
+  github: #username
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
   google:
-    plus:
+    plus: #username
     analytics:
     verify:
     ad-client:
