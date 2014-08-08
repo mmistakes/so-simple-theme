@@ -16,7 +16,7 @@
   (function( $, window, undefined ) {
     
      var bs = {
-          close: $(".icon-remove-sign"),
+          close: $(".close-btn"),
           searchform: $(".search-form"),
           canvas: $("body"),
           dothis: $('.dosearch')
@@ -37,14 +37,14 @@
   })( jQuery, window );
 </script>
 {% endif %}
-{% if site.google_analytics %}
+{% if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
   var pluginUrl = 
  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
   _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-  _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+  _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -54,4 +54,7 @@
   })();
 </script>
 {% endif %}
-{% if site.disqus_shortname and page.comments %}{% include disqus_comments.html %}{% endif %}
+
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
