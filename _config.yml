@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: So Simple Theme
 locale: en_US
-description: Describe your website here.
+description: A simple and clean responsive Jekyll theme for words and photos.
 logo: site-logo.png
 search: true
-url: 
+url: http://mmistakes.github.io/so-simple-theme
 
 
 # Jekyll configuration
@@ -32,22 +32,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter:
-  facebook:
-  github:
+  name: Michael Rose
+  avatar: michael-rose-photo.jpg
+  email: michael@mademistakes.com
+  disqus-shortname: sosimpletheme
+  twitter: mmistakes
+  facebook: michaelrose
+  github: mmistakes
   stackexchange:
   linkedin:
-  instagram:
+  instagram: mmistakes
   flickr:
-  tumblr:
+  tumblr: mademistakes
   google:
-    plus:
-    analytics:
-    verify:
-    ad-client:
-    ad-slot: 
-  bing-verify:
+    plus: +MichaelRoseDesign
+    analytics: UA-2011187-2
+    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+    ad-client: ca-pub-7328585512091257
+    ad-slot: 7855747535
+  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
