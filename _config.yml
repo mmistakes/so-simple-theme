@@ -53,7 +53,7 @@ links:
   - title: Resources
     url: /resources/
   - title: Map
-    url: http://map.nycmesh.net/
+    url: https://map.nycmesh.net/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
