@@ -9,6 +9,6 @@ sitemap: false
 		  "url"        : "{{ site.url }}{{ post.url }}",
 		  "date"       : "{{ post.date }}",
 		  "shortdate"  : "{{ post.date | date: '%B %d, %Y' }}"
-		} {% if forloop.last %}{% else %},{% endif %}
+		} {% unless forloop.last %},{% endunless %}
 	{% endfor %}
 ]
