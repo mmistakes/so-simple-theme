@@ -5,10 +5,11 @@
 <!-- Jekyll Simple Search option -->
 <script>
   $(document).ready(function() {
-      $('.search-field').simpleJekyllSearch({
-          jsonFile : '{{ site.url }}/search.json',
-          searchResults : '.search-results',
-          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+      $('.search-field').jekyllSearch({
+          jsonFile: '{{ site.url }}/search.json',
+          searchResults: '.search-results',
+          template: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          fuzzy: true,
           noResults: '<p>Nothing found.</p>'
         });
   });
