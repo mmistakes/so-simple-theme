@@ -16,7 +16,9 @@ var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
 
 $('html').click(function() {
   //Hide the menus if visible
-  navigation.toggle();
+  if ($(navigation.wrapper).hasClass('opened')) {
+  	navigation.toggle();
+  }
 });
 
 $('#site-nav').click(function(event){
