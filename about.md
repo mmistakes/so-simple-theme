@@ -2,18 +2,7 @@
 layout: page
 permalink: /about/
 title: About us
-tags: 
-  - Jekyll
-  - theme
-  - simple
-  - minimal
-  - minimalism
-  - responsive
 modified: {}
-image: 
-  feature: "so-simple-sample-image-4.jpg"
-  credit: Michael Rose
-  creditlink: "http://mademistakes.com"
 published: true
 ---
 
