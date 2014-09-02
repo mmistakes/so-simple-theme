@@ -1,12 +1,10 @@
 ---
 layout: page
 permalink: /about/
-title: About us
+title: Sobre nosotros
 modified: {}
 published: true
 ---
-
-
 
 **[’galəri]** es un espacio de creadores fuera del mercado convencional. Escaparate y punto de venta de objetos de diseño, fotografía, mobiliario, artesanía.
 
