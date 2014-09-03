@@ -6,8 +6,6 @@ published: true
 
 
 **Labayru i González**    
-![1.Logo Labayru.JPG]({{ site.url }}/images/1.Logo Labayru.JPG)
-
 
 Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Masana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa Labayru i González.
 
