@@ -3,9 +3,10 @@ layout: post
 published: true
 ---
 
-## Our Furniture
+## Our furniture
 
-**Labayru i González**    ![1.Logo Labayru.JPG]({{ site.url }}/_posts/1.Logo Labayru.JPG)
+**Labayru i González**    ![1.Logo Labayru.JPG](/images/1.Logo Labayru.JPG)
+
 
 Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Masana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa Labayru i González.
 
@@ -15,6 +16,6 @@ Su colección de muebles hechos a mano incluye mesas, asientos, decoraciones y o
 Todos los artículos se fabrican a medida y están disponibles en tamaños y acabados personalizados.
 
 
-![PRESTATGERIA.jpg](/images/PRESTATGERIA.jpg)
+                  ![PRESTATGERIA.jpg](/images/PRESTATGERIA.jpg)
 
 
