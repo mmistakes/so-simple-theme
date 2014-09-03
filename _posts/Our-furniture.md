@@ -3,8 +3,6 @@ layout: post
 published: true
 ---
 
-
-
 **Labayru i González**    ![1.Logo Labayru.JPG](/images/1.Logo Labayru.JPG)
 
 
@@ -17,5 +15,3 @@ Todos los artículos se fabrican a medida y están disponibles en tamaños y aca
 
 
                   ![PRESTATGERIA.jpg](/images/PRESTATGERIA.jpg)
-
-
