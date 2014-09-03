@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Override Author Byline Test Post
+title: Our handbags
 description: An article to test overriding the default site author.
 category: articles
 tags: 
@@ -15,15 +15,21 @@ share: true
 published: true
 ---
 
-For those of you who may have content written by multiple authors on your site, here's a new feature I added to So Simple.
+![Logo.jpg](/images/Logo.jpg)
 
-Traditionally you would assign a global author for the entire site and those attributes would be used in all post bylines, social networking links in the footer, Twitter Cards, and Google Authorship. These `owner` variables still work the same way when set in your `config.yml`, but now if you add an author variable to a post's YAML front matter, you can override a post's author byline.
 
-Let's say we have an author Billy Rick --- he wrote this post and we want his name and photo to appear on the page instead of whoever the default site author is. To do so we'd add the following YAML front matter.
 
-{% highlight yaml %}
-author:
-  name: Billy Rick
-  avatar: billy-photo.jpg    #place in /images
-  twitter: billyrick         #marked as a creator for Twitter Card links
-{% endhighlight %}
+Design and manufacturing studio based in Barcelona and run by **Mónica Juvera**. With a free approach to luxury and industrial design, Loope explores non conventional geometries from objects, and new ways to use and build them.
+
+From the quiet and bohemian neighborhood of Gracia, they connect with skilled craftsmen from Italy and Spain to develop surprising products. Their inspiration comes from geometry, art, architecture, and the study of new systems and structures. All converge in their determination of finding new ways of thinking useful objects, from their manufacture until it’s used by people.
+
+Mónica Juvera is an enthusiast of design in all scales, from landscape to everyday object, from a building to a bag. She studied Architecture in México and Landscape Architecture in Barcelona. Besides Loope, she co-found MXSI, an architectural studio that has been consolidated by winning numerous prizes in international competitions.
+
+DESCRIPCIÓN
+Bolso de diseño innovador inspirado en la sencillez, realizada con materiales de primera calidad por artesanos expertos, tamaño fiesta.
+
+MATERIALES
+Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.
+
+MEDIDAS
+16 x 16 x 28 cm.
