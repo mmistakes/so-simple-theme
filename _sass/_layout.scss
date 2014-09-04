@@ -4,9 +4,6 @@ body {
 	width: 100%;
 	background-color: $body-color;
 	border-top: 5px solid $black;
-	@include media($medium) {
-		@include font-size(20);
-	}
 }
 
 
