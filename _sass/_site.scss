@@ -220,6 +220,7 @@ p,
 li { 
 	code {
 		@include font-size(14);
+		font-family: $code-font;
 		white-space: nowrap;
 		margin: 0 2px;
 		padding: 0 5px;
@@ -264,6 +265,6 @@ pre {
 // Global Transition
 // ---------------------------------------------------
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight {
 	@include transition(all .2s ease);
 }
