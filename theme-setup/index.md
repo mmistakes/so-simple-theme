@@ -65,12 +65,11 @@ so-simple-theme/
 ├── assets/
 |    ├── css/                    # compiled stylesheets
 |    ├── fonts/                  # webfonts
-|    ├── js/
-|    |   ├── _main.js            # main JavaScript file, plugin settings, etc
-|    |   ├── plugins/            # scripts and jQuery plugins to combine with _main.js
-|    |   ├── scripts.min.js      # concatenated and minified _main.js + plugin scripts
-|    |   └── vendor/             # vendor scripts to leave alone and load as is
-|    └── less/
+|    └── js/
+|        ├── _main.js            # main JavaScript file, plugin settings, etc
+|        ├── plugins/            # scripts and jQuery plugins to combine with _main.js
+|        ├── scripts.min.js      # concatenated and minified _main.js + plugin scripts
+|        └── vendor/             # vendor scripts to leave alone and load as is
 ├── blog/                        # sample blog category page
 ├── images/                      # images for posts and pages
 ├── 404.md                       # 404 page

@@ -13,15 +13,15 @@ sitemap: false
 
 // Partials
 @import "variables";
-@import "grid";
+@import "vendor/bourbon/bourbon";
+@import "grid-settings";
+@import "vendor/neat/neat";
 @import "mixins";
 @import "reset";
 @import "site";
-@import "typography";
 @import "pygments";
-@import "coderay";
 @import "elements";
 @import "forms";
-@import "page";
+@import "layout";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
