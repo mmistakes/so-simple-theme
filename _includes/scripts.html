@@ -19,21 +19,23 @@
      var bs = {
           close: $(".close-btn"),
           searchform: $(".search-form"),
-          canvas: $("body"),
+          canvas: $(".js-menu-screen"),
           dothis: $('.dosearch')
       };
     
     bs.dothis.on('click', function() {
       $('.search-wrapper').css({ display: "block" });
+      $('body').toggleClass('no-scroll');
       bs.searchform.toggleClass('active');
       bs.searchform.find('input').focus();
-      bs.canvas.toggleClass('search-overlay');
+      bs.canvas.toggleClass('is-visible');
     });
     
       bs.close.on('click', function() {
         $('.search-wrapper').removeAttr( 'style' );
+        $('body').toggleClass('no-scroll');
         bs.searchform.toggleClass('active');
-        bs.canvas.removeClass('search-overlay');
+        bs.canvas.removeClass('is-visible');
     });
   })( jQuery, window );
 </script>
