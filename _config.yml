@@ -77,3 +77,8 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          alterable: true
+       
