@@ -82,4 +82,7 @@ prose:
           element: "multiselect"
           label: "Tags"
           alterable: true
+          options:
+            - name: 'Muebles'
+              value: 'muebles'
        
