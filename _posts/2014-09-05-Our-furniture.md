@@ -1,6 +1,8 @@
 ---
 layout: post
 published: true
+tags: 
+  - Muebles
 ---
 
 **Labayru i González**    ![1.Logo Labayru.JPG](/images/1.Logo Labayru.JPG)
