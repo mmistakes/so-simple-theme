@@ -13,7 +13,7 @@ Su colección de muebles hechos a mano incluye mesas, asientos, decoraciones y o
 
 Todos los artículos se fabrican a medida y están disponibles en tamaños y acabados personalizados.
 
-<figure class="half">
+<figure>
 	<img src="/images/PRESTATGERIA.jpg">
-	<figcaption>Estanteria</figcaption>
+	<figcaption>Estantería</figcaption>
 </figure>
