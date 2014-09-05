@@ -15,11 +15,15 @@ body {
 	@include clearfix;
 	ul {
 		display: inline-block;
+		width: 100%;
 		vertical-align: top;
 		margin: 0 0 50px;
 		padding: 4px 20px;
 		background-color: $black;
-		@include rounded(0 0 10px 10px);
+		@include media($medium) {
+			width: auto;
+			@include rounded(0 0 10px 10px);
+		}
 		@include clearfix;
 	}
 	li {
@@ -27,16 +31,24 @@ body {
 		float: left;
 		list-style: none;
 		text-align: center;
-		@include font-size(14,no);
+		@include font-size(24,no);
 		text-transform: uppercase;
 		color: $white;
+		@include media($medium) {
+			@include font-size(14,no);
+		}
 		a:hover {
 			@include box-shadow($shadow: inset 0 0 1px $white);
 		}
 	}
 	a {
 		display: block;
-		padding: 6px 10px;
+		margin-bottom: 10px;
+		padding: 12px 20px;
+		@include media($medium) {
+			margin-bottom: 0;
+			padding: 6px 10px;
+		}
 		color: $white;
 		@include rounded(4px);
 		&:hover {
@@ -46,8 +58,8 @@ body {
 }
 // Responsive nav toggle stuff
 #site-nav {
-	z-index: 9000;
 	display: none;
+	z-index: 5;
 	@include media($medium) {
 		-webkit-animation-duration: 1s;
 		-moz-animation-duration: 1s;
@@ -74,7 +86,7 @@ body {
 	display: block;
 }	
 #nav-toggle { 
-	z-index: 9999;
+	z-index: 20;
 	display: block;
 	vertical-align: top;
 	margin: 0;
@@ -84,6 +96,22 @@ body {
 	@include rounded(0);
 	@include media($medium) {
 		display: none;
+	}
+}
+// menu overlay
+.menu-screen {
+	@include position(fixed, 0px 0px 0px 0px);
+	@include transition;
+	background: $black;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 10;
+	&.is-visible {
+		opacity: 1;
+		visibility: visible;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
 
