@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "_posts/2014-09-05-Our-photographers"
+title: Our photographers
 description: Example and code for using link posts.
 category: articles
 tags: 
