@@ -77,12 +77,4 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "tags"
-        field:          
-          element: "multiselect"
-          label: "Tags"
-          alterable: true
-          options:
-            - name: 'Muebles'
-              value: 'muebles'
        
