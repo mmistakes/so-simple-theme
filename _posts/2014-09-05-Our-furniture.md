@@ -17,5 +17,5 @@ Todos los artículos se fabrican a medida y están disponibles en tamaños y aca
 <figure>
 	<img src="/images/PRESTATGERIA.jpg">
 	<figcaption><a href="Estantería"
-    title="Estantería contracahapado 150x22,5x80cm.">Estantería contracahapado 150 x 22,5 x 80cm</a>.</figcaption>
+    title="Estantería contrachapado 150x22,5x80cm.">Estantería contracahapado 150 x 22,5 x 80cm</a>.</figcaption>
 </figure>
