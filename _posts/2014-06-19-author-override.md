@@ -25,8 +25,12 @@ From the quiet and bohemian neighborhood of Gracia, they connect with skilled cr
 
 Mónica Juvera is an enthusiast of design in all scales, from landscape to everyday object, from a building to a bag. She studied Architecture in México and Landscape Architecture in Barcelona. Besides Loope, she co-found MXSI, an architectural studio that has been consolidated by winning numerous prizes in international competitions.
 
-![CARTERA 1.jpg](/images/CARTERA 1.jpg)![/https://www.dropbox.com/lightbox/home/NEGO%C3%87I/manolo/HANDBAGS/LOOPE)]
+![CARTERA 1.jpg](/images/CARTERA 1.jpg)![)]
 
+<figure>
+	<img src="/images//https://www.dropbox.com/lightbox/home/NEGO%C3%87I/manolo/HANDBAGS/LOOPE">
+	<figcaption><a href="/https://www.dropbox.com/lightbox/home/NEGO%C3%87I/manolo/HANDBAGS/LOOPE".>/figcaption>  
+</figure>
 
 DESCRIPCIÓN
 Bolso de diseño innovador inspirado en la sencillez, realizada con materiales de primera calidad por artesanos expertos, tamaño fiesta.
