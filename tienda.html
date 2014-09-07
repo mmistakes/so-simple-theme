@@ -1,17 +1,11 @@
 ---
 layout: page
 permalink: /tienda/
-title: Nuestra tienda
-description: "Nuestra tienda en Barcelona"
+title: Tienda
 ---
 
-<center>
-<address>
-Carrer de Viladomat, 27
-<br>
-08015 Barcelona
-</address>
-</center>
-
-<iframe style="display: block; margin: auto" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11975.635251283762!2d2.1614642846557603!3d41.37606584414475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a26131b74e8b%3A0xfce5190844a92ac3!2sCarrer+de+Viladomat%2C+27%2C+08015+Barcelona%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1406475254771" width="400" height="300" frameborder="0" style="border:0"></iframe>
-
+<ul class="post-list">
+{% for articulo in site.articulos %} 
+  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+{% endfor %}
+</ul>
