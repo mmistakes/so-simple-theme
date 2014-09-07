@@ -1,18 +1,12 @@
 ---
-title: "Oh Fundas & Wallpaper"
+title: "Oh! Fundas"
 category: objetos
 layout: articulo
 published: true
 imagen: "oh-fundas/logo.jpg"
-"feature-image": "oh-fundas/logo.jpg"
-feature: 
-  image: "oh-fundas/logo.jpg"
-image: 
-  feature: "oh-fundas/logo.jpg"
 ---
 
-**Oh Fundas & Wallpaper: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.**
-
+**Oh! Fundas: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.**
 
 Diseños inspirados en los mosaicos hidráulicos de finales del siglo XIX.
 
