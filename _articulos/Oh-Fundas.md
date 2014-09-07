@@ -1,12 +1,10 @@
 ---
-title: Oh Fundas & Wallpaper
-category: articulos
+title: "Oh Fundas & Wallpaper"
+category: objetos
 layout: articulo
 published: true
 imagen: "oh-fundas/logo.jpg"
 ---
-
-
 
 **Oh Fundas & Wallpaper: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.**
 
@@ -26,9 +24,4 @@ Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfec
 	<figcaption>Fundas Caspe, Example, Panot, Patchwork, Pink Tulip y Tierra</figcaption>
 </figure>
 
-Fabricadas con PC en la base y laterales de TPU que protegen a tu móvil de las caídas más peligrosas. El TPU a diferencia del plástico rígido amortigua los golpes y no se parte. Además poseen un recubrimiento antimicrobiano, con lo que no solo proteges a tu Smartphone, si no que lo mimas. 
-
-
-
-
-
+Fabricadas con PC en la base y laterales de TPU que protegen a tu móvil de las caídas más peligrosas. El TPU a diferencia del plástico rígido amortigua los golpes y no se parte. Además poseen un recubrimiento antimicrobiano, con lo que no solo proteges a tu Smartphone, si no que lo mimas.
