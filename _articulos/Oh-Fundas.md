@@ -4,6 +4,7 @@ category: objetos
 layout: articulo
 published: true
 imagen: "oh-fundas/logo.jpg"
+"feature-image": "oh-fundas/logo.jpg"
 ---
 
 **Oh Fundas & Wallpaper: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.**
