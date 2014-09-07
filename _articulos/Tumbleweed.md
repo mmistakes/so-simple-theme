@@ -2,7 +2,7 @@
 layout: articulo
 title: Tumbleweed
 published: true
-imagen: "tumbleweed/logo marcel.JPG"
+imagen: tumbleweed/logo marcel.JPG
 ---
 
 Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
@@ -13,7 +13,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
 <figure>
 	<img src="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg" alt="image">
 	
-	<figcaption>Descripción:
+	<figcaption>
     Silla de despacho giratoria.
     Medidas:
     Ancho: 52 cm Profundo: 57 cm  Alto: 80 cm
