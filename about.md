@@ -8,7 +8,7 @@ published: true
 
 **[’galəri]** es un espacio de creadores fuera del mercado convencional. Escaparate y punto de venta de objetos de diseño, fotografía, mobiliario, artesanía y lo que encontremos por el camino.
 
-Puedes contactar con nosotros a través de [mailto:info@galeribcn.com]("email")
+Puedes contactar con nosotros a través de [nuestro email](mailto:info@galeribcn.com)
 
 **Acércate a conocernos en Viladomat 27, Barcelona**
 
