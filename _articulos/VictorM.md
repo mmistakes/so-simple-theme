@@ -2,11 +2,11 @@
 title: VictorM
 layout: articulo
 published: true
-imagen: victorm/logo.jpg
+imagen: null
 ---
 
-## VictorM
-Define su obra Fotográfica de marcado carácter urbano con las siguientes palabras: _EXPANSIÓN, VACIO, RUIDO, LINEAL, TECNOLOGIA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
+
+Define su obra fotográfica de marcado carácter urbano con las siguientes palabras: _EXPANSIÓN, VACIO, RUIDO, LINEAL, TECNOLOGIA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
 
 <figure class="third">
 	<img src="/images/victorm/FotVM01.jpg" alt="image">
