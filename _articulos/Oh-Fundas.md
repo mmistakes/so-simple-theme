@@ -10,7 +10,7 @@ imagen: "oh-fundas/logo.jpg"
 
 Diseños inspirados en los mosaicos hidráulicos de finales del siglo XIX.
 
-Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfección con tu dispositivo. Además están elegantemente acabadas, y son tan suaves al tacto como agradables a la vista. Y por si fuera poco, puedes descargar el fondo de escritorio a juego con la funda, cuidando así hasta el último detalle.
+Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfección con tu dispositivo. Además están elegantemente acabadas, y son tan suaves al tacto como agradables a la vista. Y por si fuera poco, puedes descargar en tu movil el fondo de escritorio a juego con la funda, cuidando así hasta el último detalle.
 
 <figure class="third">
 	<img src="/images/oh-fundas/caspe.jpg" alt="image">
@@ -20,7 +20,7 @@ Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfec
 	<img src="/images/oh-fundas/pink-tulip.jpg" alt="image">
 	<img src="/images/oh-fundas/tierra.jpg" alt="image">
 
-	<figcaption>Fundas Caspe, Example, Panot, Patchwork, Pink Tulip y Tierra</figcaption>
+	<figcaption>Funda Caspe (1), Funda Example (2), Funda Panot (3), Funda Patchwork (4), Funda Pink Tulip (5) y Funda Tierra (6)</figcaption>
 </figure>
 
 Fabricadas con PC en la base y laterales de TPU que protegen a tu móvil de las caídas más peligrosas. El TPU a diferencia del plástico rígido amortigua los golpes y no se parte. Además poseen un recubrimiento antimicrobiano, con lo que no solo proteges a tu Smartphone, si no que lo mimas.
