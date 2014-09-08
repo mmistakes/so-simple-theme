@@ -26,20 +26,10 @@ From the quiet and bohemian neighborhood of Gracia, they connect with skilled cr
 Mónica Juvera is an enthusiast of design in all scales, from landscape to everyday object, from a building to a bag. She studied Architecture in México and Landscape Architecture in Barcelona. Besides Loope, she co-found MXSI, an architectural studio that has been consolidated by winning numerous prizes in international competitions.
 
 <figure class="third">
-	<a href="![CARTERA 2.jpg](/images/CARTERA 2.jpg)"><img src="![CARTERA 2.jpg](/images/CARTERA 2.jpg)" alt="image"></a>
-	<a href="![CARTERA 2A.jpg](/images/CARTERA 2A.jpg)"><img src="![CARTERA 2A.jpg](/images/CARTERA 2A.jpg)" alt="image"></a>
-	<a href="![CARTERA 4a.jpg](/images/CARTERA 4a.jpg)"><img src="![CARTERA 4a.jpg](/images/CARTERA 4a.jpg)" alt="image"></a>
+![CARTERA 2.jpg](/images/CARTERA 2.jpg)
+![CARTERA 2A.jpg](/images/CARTERA 2A.jpg)
+![CARTERA 4a.jpg](/images/CARTERA 4a.jpg)
 </figure>
-
-
-<figure class="third">
-	<a href="CARTERA/2.jpg/ images/CARTERA/2.jpg"><img src="CARTERA/2.jpg/ images/CARTERA/2.jpg" alt="image"></a>
-	<a href="CARTERA/2A.jpg/ images/CARTERA/2A.jpg"><img src="CARTERA/2A.jpg/ images/CARTERA/2A.jpg)" alt="image"></a>
-	<a href="CARTERA/4a.jpg/ images/CARTERA/4a.jpg"><img src="CARTERA/4a.jpg/ images/CARTER/A4a.jpg" alt="image"></a>
-</figure>
-
-
-
 
 ![CARTERA 1.jpg](/images/CARTERA 1.jpg) 
 
