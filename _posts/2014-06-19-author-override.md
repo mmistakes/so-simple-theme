@@ -32,6 +32,7 @@ Mónica Juvera is an enthusiast of design in all scales, from landscape to every
 	
 </figure>
 
+![CARTERA 2.jpg](/images/CARTERA 2.jpg)
 
 
 
