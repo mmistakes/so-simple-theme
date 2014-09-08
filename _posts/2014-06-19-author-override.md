@@ -33,9 +33,9 @@ Mónica Juvera is an enthusiast of design in all scales, from landscape to every
 
 
 <figure class="third">
-	<a href="CARTERA2.jpg/images/CARTERA2.jpg"><img src="CARTERA2.jpg/images/CARTERA2.jpg" alt="image"></a>
-	<a href="CARTERA2A.jpg/images/CARTERA2A.jpg"><img src="CARTERA2A.jpg/images/CARTERA2A.jpg)" alt="image"></a>
-	<a href="CARTERA4a.jpg/images/CARTERA4a.jpg"><img src="CARTERA4a.jpg/images/CARTERA4a.jpg" alt="image"></a>
+	<a href="CARTERA/2.jpg/ images/CARTERA/2.jpg"><img src="CARTERA/2.jpg/ images/CARTERA/2.jpg" alt="image"></a>
+	<a href="CARTERA/2A.jpg/ images/CARTERA/2A.jpg"><img src="CARTERA/2A.jpg/ images/CARTERA/2A.jpg)" alt="image"></a>
+	<a href="CARTERA/4a.jpg/ images/CARTERA/4a.jpg"><img src="CARTERA/4a.jpg/ images/CARTER/A4a.jpg" alt="image"></a>
 </figure>
 
 
