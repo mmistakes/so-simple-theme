@@ -16,4 +16,8 @@ share: true
 published: true
 ---
 
- En construcción
+En construcción
+
+image:
+  feature: _posts/Feautured Image.jpg
+  credit: Laura Agustí
