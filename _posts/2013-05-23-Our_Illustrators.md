@@ -8,7 +8,7 @@ tags:
   - readability
 modified: {}
 image: 
-  feature: _posts/Feautured Image.jpg
+  feature: Feautured Image.jpg
   credit: Laura Agustí
   creditlink: "http://mademistakes.com"
 comments: true
