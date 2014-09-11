@@ -11,7 +11,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
 
 
 <figure>
-	<img src="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg" alt="image">
+	<a href="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg"><img src="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg" alt="image"></a>
 	
 	<figcaption>
     Silla de despacho giratoria.
@@ -23,7 +23,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
 </figure>
 
 <figure>
-	<img src="/images/tumbleweed/BUTACA-WEB.jpg" alt="image">
+	<a href="/images/tumbleweed/BUTACA-WEB.jpg"><img src="/images/tumbleweed/BUTACA-WEB.jpg" alt="image"></a>
 	
 	<figcaption>
     Butaca tapizada.
@@ -34,7 +34,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
 </figure>
 
 <figure>
-	<img src="/images/tumbleweed/SILLA GIRATORIA-WEB.jpg" alt="image">
+	<a href="/images/tumbleweed/SILLA GIRATORIA-WEB.jpg"><img src="/images/tumbleweed/SILLA GIRATORIA-WEB.jpg" alt="image"></a>
 
 	<figcaption>Taburete giratorio con respaldo.
     Medidas: 
