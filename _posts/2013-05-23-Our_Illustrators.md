@@ -10,7 +10,6 @@ modified: {}
 image: 
   feature: Feautured Image.jpg
   credit: Laura Agustí
-  creditlink: "http://mademistakes.com"
 comments: true
 share: true
 published: true
