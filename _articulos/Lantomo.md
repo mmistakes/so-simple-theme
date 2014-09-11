@@ -1,5 +1,5 @@
 ---
-title: "Lantomo"
+title: Lantomo
 category: objetos
 layout: articulo
 published: true
