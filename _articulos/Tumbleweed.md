@@ -5,8 +5,7 @@ published: true
 imagen: tumbleweed/logo marcel.JPG
 ---
 
-Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
-
+_Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
 Amb experència en el camp de la restauració, rescatem objectes en desús amb l'afany de seguir donant-los un ús ja sigui funcional o decoratiu._
 
 
