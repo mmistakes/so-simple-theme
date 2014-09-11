@@ -8,12 +8,13 @@ tags:
   - readability
 modified: {}
 image: 
-  feature: Feautured Image.jpg
+  feature: featured1.jpg
   credit: Laura Agustí
 comments: true
 share: true
 published: true
 ---
+
 
 En construcción
 
