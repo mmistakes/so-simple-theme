@@ -24,3 +24,5 @@ Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfec
 </figure>
 
 Fabricadas con PC en la base y laterales de TPU que protegen a tu móvil de las caídas más peligrosas. El TPU a diferencia del plástico rígido amortigua los golpes y no se parte. Además poseen un recubrimiento antimicrobiano, con lo que no solo proteges a tu Smartphone, si no que lo mimas.
+
+[Descarga de wallpaper para iPhone 4 y iPhone 5](http://www.ohfundas.com/galeribcn-wallpaper/)
