@@ -5,6 +5,8 @@ layout: articulo
 published: true
 ---
 
+![sello lantomo01.png](/_articulos/sello lantomo01.png)
+
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
 
 Autodidacta y con formación de arquitecto, se mueve entre Barcelona, Beijing y Roma realizando exposiciones y 
