@@ -10,6 +10,7 @@ published: true
   	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
 	{% endfor %}
 
+{{site.articulos | group_by: "category"}}
 
 {% for category in (site.articulos | group_by: "category") %} 
   	<li><b>{{ category }}</b></li>
