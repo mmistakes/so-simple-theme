@@ -6,7 +6,13 @@ modified: {}
 published: true
 ---
 
-**[’galəri]** es un espacio de creadores fuera del mercado convencional. Escaparate y punto de venta de objetos de diseño, fotografía, mobiliario, artesanía y lo que encontremos por el camino.
+
+**['galəri]** nace como plataforma comercial, showroom y punto de venta para creadores de Barcelona. Queremos abarcar un amplio espectro de creaciones, desde el diseño al arte, pasando por la artesanía y lo que podamos encontrar en medio.
+
+Nuestro leitmotiv es que detrás de cada objeto haya una persona, no una empresa, con producción limitada, local y en la mayor parte de los casos artesanal.
+
+Queremos proximidad, cariño y buen hacer. Cosas bonitas, originales y/o especiales.
+
 
 Puedes contactar con nosotros a través de [nuestro email](mailto:info@galeribcn.com)
 
