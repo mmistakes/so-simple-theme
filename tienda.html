@@ -10,8 +10,8 @@ published: true
   	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
 	{% endfor %}
 
-
-	{% for articulo in (site.articulos | sort) %} 
-  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+{% assign categories = site.articulos | group_by:"category" %}
+{% for category in categories %} 
+<li><article>C: {{category.name}}</article></li>
 	{% endfor %}
 </ul>
