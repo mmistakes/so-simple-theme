@@ -7,6 +7,14 @@ published: true
 
 <ul class="post-list">
   	{% for articulo in site.articulos %} 
-  		<li><article><a href="{{ site.url }}{{ articulo.url }}">		{{ articulo.title }}</span></a></article></li>
+  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+	{% endfor %}
+
+
+{% for category in site.articulos | group_by: "category" %} 
+  	<li><b>{{ category.name }}</b></li>
+  	{% for articulo in category.items %} 
+  	<li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+	{% endfor %}
 {% endfor %}
 </ul>
