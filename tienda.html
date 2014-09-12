@@ -6,12 +6,13 @@ published: true
 ---
 
 <ul class="post-list">
-  {% for articulo in (site.articulos | sort:date) %} 
-  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
-	{% endfor %}
+
 
 {% assign categories = site.articulos | group_by:"category" %}
 {% for category in categories %} 
-<li><article>C: {{category.name}}</article></li>
+	<li><article>C: {{category.name}}</article></li>
+    {% for articulo in category.title %} 
+  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
 	{% endfor %}
+{% endfor %}
 </ul>
