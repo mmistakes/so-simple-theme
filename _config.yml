@@ -77,10 +77,4 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gem
 prose:
   media: "images"
   siteurl: "http://www.galeribcn.com/"
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
        
