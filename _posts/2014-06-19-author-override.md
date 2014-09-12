@@ -12,7 +12,7 @@ author:
   avatar: "bio-photo-alt.jpg"
 comments: true
 share: true
-published: true
+published: false
 ---
 
 ![Logo.jpg](/images/Logo.jpg)
