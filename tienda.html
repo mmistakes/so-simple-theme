@@ -10,7 +10,7 @@ published: true
 
 {% assign categories = site.articulos | group_by:"category" %}
 {% for category in categories %} 
-	<h4>{{category.name}}</h4>
+	<h3>{{category.name}}</h3>
 	<ul class="post-list">	
       {% for articulo in category.items %} 
         <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
