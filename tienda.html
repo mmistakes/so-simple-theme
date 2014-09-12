@@ -6,7 +6,12 @@ published: true
 ---
 
 <ul class="post-list">
-  	{% for articulo in (site.articulos | sort) %} 
+  {% for articulo in (site.articulos | sort:date) %} 
+  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+	{% endfor %}
+
+
+	{% for articulo in (site.articulos | sort) %} 
   	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
 	{% endfor %}
 </ul>
