@@ -12,7 +12,7 @@ author:
   avatar: "bio-photo-alt.jpg"
 comments: true
 share: true
-published: true
+published: false
 ---
 
 ![Logo.jpg](/images/Logo.jpg)
@@ -42,8 +42,3 @@ Mónica Juvera is an enthusiast of design in all scales, from landscape to every
     16 x 16 x 28 cm.
 	</figcaption>
 </figure>
-
-
-
-
-
