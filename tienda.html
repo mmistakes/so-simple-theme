@@ -5,14 +5,15 @@ title: Tienda
 published: true
 ---
 
-<ul class="post-list">
+
 
 
 {% assign categories = site.articulos | group_by:"category" %}
 {% for category in categories %} 
-	<li><article>C: {{category.name}}</article></li>
-    {% for articulo in category.items %} 
-  	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
-	{% endfor %}
+	<h4>{{category.name}}</h4>
+	<ul class="post-list">	
+      {% for articulo in category.items %} 
+        <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+      {% endfor %}
+	</ul>
 {% endfor %}
-</ul>
