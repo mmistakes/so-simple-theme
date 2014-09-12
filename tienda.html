@@ -11,7 +11,7 @@ published: true
 	{% endfor %}
 
 
-{% for category in site.articulos | group_by: "category" %} 
+{% for category in (site.articulos | group_by: "category") %} 
   	<li><b>{{ category }}</b></li>
   	
 {% endfor %}
