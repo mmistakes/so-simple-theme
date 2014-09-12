@@ -9,11 +9,4 @@ published: true
   	{% for articulo in (site.articulos | sort) %} 
   	  <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
 	{% endfor %}
-
-
-
-{% for c in {{site.articulos | group_by: "category"}} %} 
-  	<li><b>{{ c.name }}</b></li>
-  	
-{% endfor %}
 </ul>
