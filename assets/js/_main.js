@@ -50,3 +50,17 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+// Instafeed
+$(document).ready(function() {
+    var feed = new Instafeed({
+        get: 'user',
+        //tagName: 'galeribcn',
+        limit: 16,
+        accessToken: '1208378955.e3d0322.197bb73e9dc5471190bed38b92614fed',
+        userId: 1208378955,
+        clientId: 'c888a43e19c949e89386710e5c64cadd'
+        
+    });
+    feed.run();
+});
