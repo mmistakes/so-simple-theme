@@ -1,6 +1,6 @@
 ---
 title: "Oh! Fundas"
-category: objetos
+category: Objetos
 layout: articulo
 published: true
 imagen: "oh-fundas/logo.jpg"
