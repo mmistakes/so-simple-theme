@@ -1,4 +1,5 @@
 ---
+category: Muebles
 layout: articulo
 title: Tumbleweed
 published: true
