@@ -1,10 +1,9 @@
 ---
 title: Lantomo
-category: objetos
+category: Ilustración
 layout: articulo
 published: true
 ---
-
 
 ![sello lantomo01.jpg](/images/sello lantomo01.jpg)
 
