@@ -1,5 +1,6 @@
 ---
 title: "[ri:’meik]"
+category: Muebles
 layout: articulo
 published: true
 ---
