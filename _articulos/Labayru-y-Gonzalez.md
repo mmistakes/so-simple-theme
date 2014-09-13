@@ -1,5 +1,6 @@
 ---
 category: Muebles
+layout: articulo
 imagen: 1.Logo Labayru.JPG
 ---
 
