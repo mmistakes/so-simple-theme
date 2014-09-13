@@ -1,5 +1,6 @@
 ---
 title: VictorM
+category: Fotografía
 layout: articulo
 published: true
 imagen: null
