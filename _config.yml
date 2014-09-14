@@ -77,7 +77,4 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gem
 gems:
   - jekyll-sitemap
   
-prose:
-  media: "images"
-  siteurl: "http://www.galeribcn.com/"
        
