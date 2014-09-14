@@ -9,9 +9,11 @@ published: true
 {% assign categories = site.articulos | group_by:"category" %}
 {% for category in categories %} 
 	<h3>{{category.name}}</h3>
-	<ul class="post-list">	
+	<ul>	
       {% for articulo in category.items %} 
-        <li><article><a href="{{ site.url }}{{ articulo.url }}">{{ articulo.title }}</span></a></article></li>
+        <li><a href="{{ site.url }}{{ articulo.url }}">
+            {{ articulo.title }}
+        </a></li>
       {% endfor %}
 	</ul>
 {% endfor %}
