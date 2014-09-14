@@ -6,8 +6,6 @@ published: true
 ---
 
 
-
-
 {% assign categories = site.articulos | group_by:"category" %}
 {% for category in categories %} 
 	<h3>{{category.name}}</h3>
