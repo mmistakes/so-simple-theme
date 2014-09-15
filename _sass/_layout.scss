@@ -298,6 +298,12 @@ span + .entry-title {
 		border-bottom-width: 0;
 	}
 }
+
+// with this you can center text in markdown by adding {:.center} in the line above the text
+.center{
+	text-align: center;
+	}
+
 // Disqus Comments
 #disqus_thread {
 	margin-top: 2em;
