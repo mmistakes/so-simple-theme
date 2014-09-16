@@ -1,6 +1,6 @@
 ---
 title: Labayru i González
-category: Muebles
+category: Mueble
 layout: articulo
 published: true
 imagen: Labayru_i_Gonzalez/Logo.jpg
