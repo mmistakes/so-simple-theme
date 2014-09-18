@@ -16,7 +16,7 @@ cosechando nuevas inspiraciones.
 
 	<figcaption><b>DRAGONFLY</b>
     Lápiz y acuarelas sobre papel 
-    Medidas: 56x75 cm, con marco: 70x100 cm</figcaption>
+    Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
 Su última producción evidencia una innegable influencia oriental, producto de su estadía en Beijing. Allí incorporó 
@@ -27,7 +27,7 @@ temas y conceptos vernaculares, y, aceptándolos como propios, enriqueció y pro
 
 	<figcaption><b>BELL TOWER</b> 
     Lápiz y pasteles de color sobre papel 
-    Medidas: 56x75 cm, con marco: 70x100 cm</figcaption>
+    Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
 Sus obras figurativas rozan el universo de la ilustración y toman distancia de él por su contenido personal. Las 
@@ -39,8 +39,8 @@ imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista
 
 	<figcaption><b>OCTOPUS (Díptico)</b> 
     Lápiz sobre papel 
-    Medidas: 44x52 cm x 2 unidades, con 
-    marco: 110x67 cm</figcaption>
+    Medidas: 44x52 cm x 2 unidades, 580€, con 
+    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
 A través de las caras que la rodean y rostros cruzados por un momento en la calle, Lantomo trata de desvelar secretos, 
@@ -51,8 +51,8 @@ gestos de sus personajes son vehículos que muestran lo que ocurre a escondida e
 	<a href="/images/Lantomo/HalfFullHalfEmpty.jpg"><img src="/images/Lantomo/HalfFullHalfEmpty.jpg" alt="image"></a>
 
 	<figcaption><b>HALF FULL/HALF EMPTY</b>
-    Impresión digital sobre papel alta calidad de 265 gr. 
-    Medidas: 32x45 cm</figcaption>
+    Impresión digital firmada sobre papel alta calidad de 265 gr. 
+    Medidas: 32x45 cm. 35€</figcaption>
 </figure>
 
 El dibujo es su herramienta de expresión, directo y descifrable. No hay una voluntad de escatimar esfuerzos en su 
@@ -64,5 +64,5 @@ vividas.
 
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING</b> 
     Impresión digital sobre papel alta calidad de 265 gr. 
-    Medidas: 32x45 cm</figcaption>
+    Medidas: 32x45 cm. 35€</figcaption>
 </figure>
