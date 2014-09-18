@@ -18,7 +18,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
     Medidas:
     Ancho: 52 cm Profundo: 57 cm  Alto: 80 cm
     Materiales: 
-    Base de acero y asiento y respaldo tapizados en polipiel color negro.
+    Base de acero y asiento y respaldo tapizados en polipiel color negro. 120€
     </figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
     Materiales: 
     Estructura metálica pintada. Asiento y respaldo tapizados.
     Medidas:
-    Ancho: 52 cm Profundo: 67 cm  Alto: 75 cm</figcaption>
+    Ancho: 52 cm Profundo: 67 cm  Alto: 75 cm. 330€</figcaption>
 </figure>
 
 <figure>
@@ -40,5 +40,5 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
     Medidas: 
     Ancho: 40 cm Profundo: 50 cm  Alto: 84 cm
     Materiales: 
-    Base metálica. Asiento y respaldo tapizado en lana color azul oscuro</figcaption>
+    Base metálica. Asiento y respaldo tapizado en lana color azul oscuro. 155€</figcaption>
 </figure>
