@@ -40,7 +40,7 @@ imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista
 	<figcaption><b>OCTOPUS (Díptico)</b> 
     Lápiz sobre papel 
     Medidas: 44x52 cm x 2 unidades, 580€, con 
-    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€</figcaption>
+    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
 </figure>
 
 A través de las caras que la rodean y rostros cruzados por un momento en la calle, Lantomo trata de desvelar secretos, 
