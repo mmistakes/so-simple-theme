@@ -20,7 +20,7 @@ Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfec
 	<a href="/images/oh-fundas/pink-tulip.jpg"><img src="/images/oh-fundas/pink-tulip.jpg" alt="image"></a>
 	<a href="/images/oh-fundas/tierra.jpg"><img src="/images/oh-fundas/tierra.jpg" alt="image"></a>
 
-	<figcaption>Funda Caspe (1), Funda Example (2), Funda Panot (3), Funda Patchwork (4), Funda Pink Tulip (5) y Funda Tierra (6)</figcaption>
+	<figcaption>Funda Caspe (1), Funda Example (2), Funda Panot (3), Funda Patchwork (4), Funda Pink Tulip (5) y Funda Tierra (6) 15€ c.u.</figcaption>
 </figure>
 
 Fabricadas con PC en la base y laterales de TPU que protegen a tu móvil de las caídas más peligrosas. El TPU a diferencia del plástico rígido amortigua los golpes y no se parte. Además poseen un recubrimiento antimicrobiano, con lo que no solo proteges a tu Smartphone, si no que lo mimas.
