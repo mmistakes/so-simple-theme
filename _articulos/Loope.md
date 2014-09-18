@@ -29,6 +29,6 @@ Mónica Juvera is an enthusiast of design in all scales, from landscape to every
     Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.
     
     MEDIDAS
-    16 x 16 x 28 cm.
+    16 x 16 x 28 cm. 225€
 	</figcaption>
 </figure>
