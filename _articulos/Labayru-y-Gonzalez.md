@@ -1,6 +1,6 @@
 ---
 title: Labayru i González
-category: Mueble
+category: Muebles
 layout: articulo
 published: true
 imagen: Labayru_i_Gonzalez/Logo.jpg
@@ -16,5 +16,5 @@ Todos los artículos se fabrican a medida y están disponibles en tamaños y aca
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"></a>
 	<figcaption><a href="Estantería"
-    title="Estantería contrachapado 150x22,5x80cm.">Estantería contrachapado 150 x 22,5 x 80cm</a>.</figcaption>
+    title="Estantería contrachapado 150x22,5x80cm. 380€">Estantería contrachapado 150 x 22,5 x 80cm</a>.</figcaption>
 </figure>
