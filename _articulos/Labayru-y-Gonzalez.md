@@ -19,8 +19,3 @@ Todos los artículos se fabrican a medida y están disponibles en tamaños y aca
     title="Estantería contrachapado 150x22,5x80cm. 380€">Estantería contrachapado 150 x 22,5 x 80cm. 380€</a>.</figcaption>
 </figure>
 
-<figure>
-	<a href="/images/Labayru_i_Gonzalez/img_5615.jpg"><img src="/images/Labayru_i_Gonzalez/img_5615"></a>
-	<figcaption><a href="Altavoces"
-    title="Altavoces en laminado de pino con tecnología alemana, 30W, 21,5 x 61 x27 cm. 300€">Altavoces en laminado de pino con tecnología alemana, 30W, 21,5 x 61 x27 cm. 300€</a>.</figcaption>
-</figure>
