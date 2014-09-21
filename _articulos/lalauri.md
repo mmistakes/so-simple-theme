@@ -1,9 +1,8 @@
 ---
-title: Laura Agustí
+title: "Laura Agustí"
 category: Ilustración
 layout: articulo
 published: true
-imagen: Laura-Agusti/Logo.jpg
 ---
 
 > ...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue, 
