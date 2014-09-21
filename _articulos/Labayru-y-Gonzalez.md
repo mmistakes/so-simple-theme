@@ -15,7 +15,20 @@ Todos los artículos se fabrican a medida y están disponibles en tamaños y aca
 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"></a>
-	<figcaption><a href="Estantería"
-    title="Estantería contrachapado 150x22,5x80cm. 380€">Estantería contrachapado 150 x 22,5 x 80cm. 380€</a>.</figcaption>
+	<figcaption>Estantería contrachapado 150 x 22,5 x 80cm. 380€</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg"></a>
+	<figcaption>
+        Altavoces en laminado de pino con tecnología alemana, 30W, 21,5 x 61 x27 cm. 300€
+    </figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg"></a>
+	<figcaption>
+	    Reloj-perro teckel  en laminado de roble, 56 x 24 cm. 30€
+	</figcaption>
 </figure>
 
