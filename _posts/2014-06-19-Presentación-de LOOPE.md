@@ -2,7 +2,7 @@
 layout: post
 title: Our handbags
 description: Presentación de LOOPE.
-category: articles
+category: blog
 tags: 
   - Bolsos
   - Handbags
