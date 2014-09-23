@@ -16,11 +16,11 @@ share: true
 published: true
 ---
 
-L O O P E
+##**L O O P E**
  
 se complace en invitaros a la presentación en Barcelona de
 
-T H E O N E P I E C E B A G
+**T H E O N E P I E C E B A G**
 
 sábado 4 de octubre de 6 a 9 pm en ['galəri] showroom - c/ Viladomat 27
 
