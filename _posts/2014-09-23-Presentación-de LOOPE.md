@@ -9,7 +9,7 @@ tags:
   - Design
   - Diseño
 author: 
-  name: ['galəri]
+  name: galeribcn
   avatar: "bio-photo-alt.jpg"
 comments: true
 share: true
