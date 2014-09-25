@@ -5,7 +5,7 @@ layout: articulo
 published: true
 ---
 
-Es nuestro diseñador marca de la casa. Arquitecto afincado en Barcelona, hace muebles y objetos explorando la expresividad de los materiales: madera, hormigón, acero, cuero y elementos recuperados.
+Arquitecto afincado en Barcelona, hace muebles y objetos explorando la expresividad de los materiales: madera, hormigón, acero, cuero y elementos recuperados.
 
 <figure>
 	<a href="/images/rimeik/IMG_5455.JPG"><img src="/images/rimeik/IMG_5455.JPG" alt="image"></a>
