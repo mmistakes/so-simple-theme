@@ -1,5 +1,5 @@
 ---
-title: "Laura Agustí"
+title: Laura Agustí
 category: Ilustración
 layout: articulo
 published: true
@@ -20,6 +20,7 @@ published: true
 En _galeri_ tenemos el gran placer de presentaros en primicia Barbudos, la 
 nueva serie limitada de Laura Agustí.
 
+<div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/mr.nuno.jpg"><img src="/images/Laura-Agusti/mr.nuno.jpg"></a>
 	<figcaption>
@@ -35,9 +36,11 @@ nueva serie limitada de Laura Agustí.
         50€
 	</figcaption>
 </figure>
+</div>
 
 Y también contamos con su ya célebre serie _Becoming animal_ 
 
+<div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
 	<figcaption>
@@ -61,3 +64,4 @@ Y también contamos con su ya célebre serie _Becoming animal_
         20,5x25cm. 60€
 	</figcaption>
 </figure>
+</div>
