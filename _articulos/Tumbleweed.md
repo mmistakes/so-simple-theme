@@ -16,8 +16,7 @@ imagen: tumbleweed/logo marcel.JPG
    	Materiales: 
     Base de acero y asiento y respaldo tapizados en polipiel color negro. 
     Medidas:
-   52 cm. ancho, 57 cm. profundo, 80 cm. alto. 120€
-    </figcaption>
+   52 cm. ancho, 57 cm. profundo, 80 cm. alto.   120€ </figcaption>
 </figure>
 
 <figure>
