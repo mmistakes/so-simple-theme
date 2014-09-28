@@ -5,7 +5,7 @@ layout: articulo
 published: true
 ---
 
-En ['galəri] tenemos el gran placer de presentaros en primicia Barbudos, la 
+En ['galəri] tenemos el gran placer de presentaros en primicia _Barbudos_, la 
 nueva serie limitada de Laura Agustí.
 
 <div class="figure-group">
