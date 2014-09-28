@@ -5,8 +5,6 @@ layout: articulo
 published: true
 ---
 
-Arquitecto afincado en Barcelona, hace muebles y objetos explorando la expresividad de los materiales: madera, hormigón, acero, cuero y elementos recuperados.
-
 <figure>
 	<a href="/images/rimeik/IMG_5455.JPG"><img src="/images/rimeik/IMG_5455.JPG" alt="image"></a>
 
@@ -15,6 +13,5 @@ Arquitecto afincado en Barcelona, hace muebles y objetos explorando la expresivi
     </figcaption>
 </figure>
 
-
-
+Arquitecto afincado en Barcelona, hace muebles y objetos explorando la expresividad de los materiales: madera, hormigón, acero, cuero y elementos recuperados.
 
