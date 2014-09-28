@@ -24,8 +24,7 @@ imagen: tumbleweed/logo marcel.JPG
 	
 	<figcaption>
     Butaca tapizada.
-    
-    Materiales: 
+    Materiales:
     Estructura metálica pintada. Asiento y respaldo tapizados.
     Medidas:
     52 cm. ancho, 67 cm. profundo y 75 cm. alto. 330€ </figcaption>
