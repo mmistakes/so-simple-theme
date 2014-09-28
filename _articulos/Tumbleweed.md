@@ -16,7 +16,7 @@ imagen: tumbleweed/logo marcel.JPG
    	Materiales: 
     Base de acero y asiento y respaldo tapizados en polipiel color negro. 
     Medidas:
-   52 cm. ancho, 57 cm. profundo, 80 cm. alto.   120€ </figcaption>
+   52 cm. ancho, 57 cm. profundo y 80 cm. alto. 120€ </figcaption>
 </figure>
 
 <figure>
@@ -28,7 +28,7 @@ imagen: tumbleweed/logo marcel.JPG
     Materiales: 
     Estructura metálica pintada. Asiento y respaldo tapizados.
     Medidas:
-    52 cm. ancho, 67 cm. profundo y 75 cm. alto.330€</figcaption>
+    52 cm. ancho, 67 cm. profundo y 75 cm. alto. 330€ </figcaption>
 </figure>
 
 <figure>
@@ -39,7 +39,7 @@ imagen: tumbleweed/logo marcel.JPG
  	Materiales: 
     Base metálica. Asiento y respaldo tapizado en lana color azul oscuro.
     Medidas: 
-    40 cm. ancho, 50 cm. profundo, 84 cm. alto.155€</figcaption>
+    40 cm. ancho, 50 cm. profundo y 84cm. alto. 155€ </figcaption>
 </figure>
 
 </div>
