@@ -24,6 +24,7 @@ imagen: tumbleweed/logo marcel.JPG
 	
 	<figcaption>
     Butaca tapizada.
+    
     Materiales:
     Estructura metálica pintada. Asiento y respaldo tapizados.
     Medidas:
