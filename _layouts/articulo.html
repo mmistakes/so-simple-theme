@@ -38,8 +38,26 @@
             <a href="https://twitter.com/intent/tweet?hashtags={{ page.categories | join: ',' }}&text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{site.owner.twitter}}" title="Share on Twitter" itemprop="Twitter"><i class="icon-twitter-sign"></i> Tweet</a></span>
         <span class="social-share-googleplus">
             <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus" itemprop="GooglePlus"><i class="icon-google-plus-sign"></i> +1</a></span>
-            <!-- /.social-share -->{% endif %}
+            <!-- /.social-share -->
+        {% endif %}
+            
+        <aside class="articles">
+            {% assign categories = site.articulos | group_by:"category" %}
+            {% for category in categories %} 
+            	<h4 class="category">{{category.name}}</h4>
+            	<ul class="article-list">	
+                  {% for articulo in category.items %} 
+                    <li><a href="{{ site.url }}{{ articulo.url }}">
+                        {{ articulo.title }}
+                    </a></li>
+                  {% endfor %}
+            	</ul>
+            {% endfor %}
+        </aside>
       </footer>
+      
+
+      
       <div class="entry-content">
         {{ content }}
         <div class="content-footer">

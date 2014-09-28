@@ -337,6 +337,39 @@ span + .entry-title {
 		}
 	}
 }
+
+.articles {
+    float: left;
+}
+
+
+// Post index layout
+.articles {
+    display: none;
+
+    @media only screen and (min-width: 62.5em) {
+        display: block;
+    }
+    
+    .category {
+        margin-bottom: 4px;
+        border-bottom: 1px solid #aaa;
+    }
+}
+
+.article-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	li {
+		padding: 4px 0;
+		.clearfix();
+	}
+	a > span {
+		float: right;
+	}
+}
+
 // Post index layout
 .post-list {
 	margin: 0;
