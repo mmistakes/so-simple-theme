@@ -25,7 +25,7 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="image"></a>
 
-	<figcaption><b>OCTOPUS (Díptico)</b> 
+	<figcaption><b>OCTOPUS I (Díptico)</b> 
     Lápiz sobre papel 
     Medidas: 44x52 cm x 2 unidades, 580€, con 
     marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
@@ -34,7 +34,7 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-II-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-II-RED.jpg" alt="image"></a>
 
-	<figcaption><b>OCTOPUS (Díptico)</b> 
+	<figcaption><b>OCTOPUS II (Díptico)</b> 
     Lápiz sobre papel 
     Medidas: 44x52 cm x 2 unidades, 580€, con 
     marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
