@@ -6,9 +6,6 @@ published: true
 imagen: tumbleweed/logo marcel.JPG
 ---
 
-_Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
-Amb experència en el camp de la restauració, rescatem objectes en desús amb l'afany de seguir donant-los un ús ja sigui funcional o decoratiu._
-
 <div class="figure-group">
 
 <figure>
@@ -45,3 +42,7 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
 </figure>
 
 </div>
+
+_Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
+Amb experència en el camp de la restauració, rescatem objectes en desús amb l'afany de seguir donant-los un ús ja sigui funcional o decoratiu._
+
