@@ -62,11 +62,31 @@ svg:not(:root) {
 }
 
 .figure-group {
+    margin-bottom: 15px;
+    
     figure {
-        width: 33%; 
+        width: 100%; 
         float: left; 
         padding: 4px; 
         box-sizing: border-box;
+        
+        @media @medium {
+    		width: 50%;
+    		&:nth-child(2n+1) {
+                clear: left;
+            }
+    	}
+    	
+    	@media @large {
+    		width: 33%;
+    		 &:nth-child(2n+1) {
+                clear: none;
+            }
+    		&:nth-child(3n+1) {
+                clear: left;
+            }
+           
+    	}
     }
     
     img {
@@ -74,24 +94,6 @@ svg:not(:root) {
     }
     .clearfix();
 }
-
-.figure-group-1 figure {
-    width: 100%;
-}
-
-.figure-group-2 figure {
-    width: 50%;
-}
-
-.figure-group-3 figure {
-    width: 33.33%;
-}
-
-.figure-group-4 figure {
-    width: 25%;
-}
-
-
 
 
 // Buttons
