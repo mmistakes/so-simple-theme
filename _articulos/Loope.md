@@ -15,13 +15,13 @@ published: true
 	<a href="/images/Loope/CARTERA 2A.jpg"><img src="/images/Loope/CARTERA 2A.jpg" alt="image"></a>
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="image"></a>
     <figcaption>
-    DESCRIPCIÓN
+    DESCRIPCIÓN:
     Bolso de diseño innovador inspirado en la sencillez, realizada con materiales de primera calidad por artesanos expertos, tamaño fiesta.
     
-    MATERIALES
+    MATERIALES:
     Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.
     
-    MEDIDAS
+    MEDIDAS:
     16 x 16 x 28 cm. 225€
 	</figcaption>
 </figure>
