@@ -9,6 +9,7 @@ imagen: tumbleweed/logo marcel.JPG
 _Som un grup d'artistes, provinent de diferents disciplines del disseny, apassionats pels mobles i objectes antics.
 Amb experència en el camp de la restauració, rescatem objectes en desús amb l'afany de seguir donant-los un ús ja sigui funcional o decoratiu._
 
+<div class="figure-group row-4">
 
 <figure>
 	<a href="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg"><img src="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg" alt="image"></a>
@@ -42,3 +43,5 @@ Amb experència en el camp de la restauració, rescatem objectes en desús amb l
     Materiales: 
     Base metálica. Asiento y respaldo tapizado en lana color azul oscuro. 155€</figcaption>
 </figure>
+
+</div>
