@@ -25,6 +25,9 @@ se complace en invitaros a la presentación en Barcelona de
 sábado 4 de octubre de 6 a 9 pm en ['galəri] showroom - c/ Viladomat 27
 
 durante el evento ofreceremos maridaje de cerveza Rosita y chocolate Bubó
- 
+<figure>
+	<a href="/images/Our handbags/Loope_invitación2.jpg"><img src="/images/Our handbags/Loope_invitación2.jpg" alt="image"></a>
+</figure>
+
 [LOOPEDESIGN.COM](http://www.loopedesign.com/)
 [@galeribcn](http://instagram.com/galeribcn) [galeribcn.com](www.galeribcn.com)
