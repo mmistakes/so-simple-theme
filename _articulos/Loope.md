@@ -1,8 +1,8 @@
 ---
-title: Loope
+title: LOOPE
 category: Objetos
 layout: articulo
-imagen: Loope/Logo.jpg
+imagen: null
 published: true
 ---
 
