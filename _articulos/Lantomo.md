@@ -27,8 +27,16 @@ cosechando nuevas inspiraciones.
     Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
-<figure class="half">
+<figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="image"></a>
+
+	<figcaption><b>OCTOPUS (Díptico)</b> 
+    Lápiz sobre papel 
+    Medidas: 44x52 cm x 2 unidades, 580€, con 
+    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
+</figure>
+
+<figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-II-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-II-RED.jpg" alt="image"></a>
 
 	<figcaption><b>OCTOPUS (Díptico)</b> 
