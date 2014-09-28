@@ -13,10 +13,10 @@ imagen: tumbleweed/logo marcel.JPG
 	
 	<figcaption>
     Silla de despacho giratoria.
+   	Materiales: 
+    Base de acero y asiento y respaldo tapizados en polipiel color negro. 
     Medidas:
-    Ancho: 52 cm Profundo: 57 cm  Alto: 80 cm
-    Materiales: 
-    Base de acero y asiento y respaldo tapizados en polipiel color negro. 120€
+   52 cm. ancho, 57 cm. profundo, 80 cm. ato 120€
     </figcaption>
 </figure>
 
@@ -28,17 +28,18 @@ imagen: tumbleweed/logo marcel.JPG
     Materiales: 
     Estructura metálica pintada. Asiento y respaldo tapizados.
     Medidas:
-    Ancho: 52 cm Profundo: 67 cm  Alto: 75 cm. 330€</figcaption>
+    52 cm. ancho, 67 cm. profundo y 75 cm. alto 330€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/tumbleweed/SILLA GIRATORIA-WEB.jpg"><img src="/images/tumbleweed/SILLA GIRATORIA-WEB.jpg" alt="image"></a>
 
-	<figcaption>Taburete giratorio con respaldo.
+	<figcaption>
+    Taburete giratorio con respaldo.
+ 	Materiales: 
+    Base metálica. Asiento y respaldo tapizado en lana color azul oscuro.
     Medidas: 
-    Ancho: 40 cm Profundo: 50 cm  Alto: 84 cm
-    Materiales: 
-    Base metálica. Asiento y respaldo tapizado en lana color azul oscuro. 155€</figcaption>
+    40 cm. ancho, 50 cm. profundo, 84 cm. alto 155€</figcaption>
 </figure>
 
 </div>
