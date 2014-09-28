@@ -11,16 +11,13 @@ imagen: Lantomo/logo.jpg
 Autodidacta y con formación de arquitecto, se mueve entre Barcelona, Beijing y Roma realizando exposiciones y 
 cosechando nuevas inspiraciones.
 
+<div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="image"></a>
-
 	<figcaption><b>DRAGONFLY</b>
     Lápiz y acuarelas sobre papel 
     Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
-
-Su última producción evidencia una innegable influencia oriental, producto de su estadía en Beijing. Allí incorporó 
-temas y conceptos vernaculares, y, aceptándolos como propios, enriqueció y profundizó su trabajo.
 
 <figure>
 	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="image"></a>
@@ -29,9 +26,6 @@ temas y conceptos vernaculares, y, aceptándolos como propios, enriqueció y pro
     Lápiz y pasteles de color sobre papel 
     Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
-
-Sus obras figurativas rozan el universo de la ilustración y toman distancia de él por su contenido personal. Las 
-imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista y efímero del lápiz.
 
 <figure class="half">
 	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="image"></a>
@@ -43,10 +37,6 @@ imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista
     marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
 </figure>
 
-A través de las caras que la rodean y rostros cruzados por un momento en la calle, Lantomo trata de desvelar secretos, 
-miedos y estupores ocultos en el alma, visibles sólo a quienes quieran prestar una atención absoluta. Los sutiles 
-gestos de sus personajes son vehículos que muestran lo que ocurre a escondida en su interior. 
-
 <figure>
 	<a href="/images/Lantomo/HalfFullHalfEmpty.jpg"><img src="/images/Lantomo/HalfFullHalfEmpty.jpg" alt="image"></a>
 
@@ -55,10 +45,6 @@ gestos de sus personajes son vehículos que muestran lo que ocurre a escondida e
     Medidas: 32x45 cm. 35€</figcaption>
 </figure>
 
-El dibujo es su herramienta de expresión, directo y descifrable. No hay una voluntad de escatimar esfuerzos en su 
-producción, todo lo contrario. Cada obra con sus detalles contiene una parte única e irrepetible de las experiencias 
-vividas.
-
 <figure>
 	<a href="/images/Lantomo/YOU-ARE-CRAZY-RED.jpg"><img src="/images/Lantomo/YOU-ARE-CRAZY-RED.jpg" alt="image"></a>
 
@@ -66,3 +52,18 @@ vividas.
     Impresión digital sobre papel alta calidad de 265 gr. 
     Medidas: 32x45 cm. 35€</figcaption>
 </figure>
+</div>
+
+Su última producción evidencia una innegable influencia oriental, producto de su estadía en Beijing. Allí incorporó 
+temas y conceptos vernaculares, y, aceptándolos como propios, enriqueció y profundizó su trabajo.
+
+Sus obras figurativas rozan el universo de la ilustración y toman distancia de él por su contenido personal. Las 
+imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista y efímero del lápiz.
+
+A través de las caras que la rodean y rostros cruzados por un momento en la calle, Lantomo trata de desvelar secretos, 
+miedos y estupores ocultos en el alma, visibles sólo a quienes quieran prestar una atención absoluta. Los sutiles 
+gestos de sus personajes son vehículos que muestran lo que ocurre a escondida en su interior. 
+
+El dibujo es su herramienta de expresión, directo y descifrable. No hay una voluntad de escatimar esfuerzos en su 
+producción, todo lo contrario. Cada obra con sus detalles contiene una parte única e irrepetible de las experiencias 
+vividas.
