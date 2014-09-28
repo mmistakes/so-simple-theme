@@ -9,7 +9,7 @@ imagen: Labayru_i_Gonzalez/Logo.jpg
 <div class="figure-group">
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"></a>
-	<figcaption>Estantería contrachapado 150 x 22,5 x 80cm. 380€</figcaption>
+	<figcaption>Estantería contrachapado, 150 x 22,5 x 80cm. 380€</figcaption>
 </figure>
 
 <figure>
