@@ -54,6 +54,7 @@ Y también contamos con su ya célebre serie _Becoming animal_
 </figure>
 </div>
 
+
 > ...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue, 
 > me especialicé en diseño gráfico y pintura. Disfruté cada minuto de 
 > mi formación universitaria y exploté mi creatividad al máximo. 
