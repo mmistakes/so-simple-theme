@@ -6,11 +6,6 @@ published: true
 imagen: Lantomo/logo.jpg
 ---
 
-<b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
-
-Autodidacta y con formación de arquitecto, se mueve entre Barcelona, Beijing y Roma realizando exposiciones y 
-cosechando nuevas inspiraciones.
-
 <div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="image"></a>
@@ -61,6 +56,10 @@ cosechando nuevas inspiraciones.
     Medidas: 32x45 cm. 35€</figcaption>
 </figure>
 </div>
+<b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
+
+Autodidacta y con formación de arquitecto, se mueve entre Barcelona, Beijing y Roma realizando exposiciones y 
+cosechando nuevas inspiraciones.
 
 Su última producción evidencia una innegable influencia oriental, producto de su estadía en Beijing. Allí incorporó 
 temas y conceptos vernaculares, y, aceptándolos como propios, enriqueció y profundizó su trabajo.
