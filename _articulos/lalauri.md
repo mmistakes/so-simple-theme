@@ -5,19 +5,7 @@ layout: articulo
 published: true
 ---
 
-> ...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue, 
-> me especialicé en diseño gráfico y pintura. Disfruté cada minuto de 
-> mi formación universitaria y exploté mi creatividad al máximo. 
->
-> En 2003 me trasladé a Barcelona y después de un tiempo, decidí 
-> estudiar Diseño de Interiores porque siempre me ha interesado, desde 
-> que era una niña cuando prefería diseñar y decorar las casas de 
-> muñecas en lugar de jugar con ellas (mis edificios favoritos eran las 
-> "sillas" con ascensores de "cajas de Cornflakes"). 
->
-> Toda mi vida he estado acompañada de pinceles y pintura. 
-
-En _galeri_ tenemos el gran placer de presentaros en primicia Barbudos, la 
+En ['galəri] tenemos el gran placer de presentaros en primicia Barbudos, la 
 nueva serie limitada de Laura Agustí.
 
 <div class="figure-group">
@@ -65,3 +53,16 @@ Y también contamos con su ya célebre serie _Becoming animal_
 	</figcaption>
 </figure>
 </div>
+
+> ...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue, 
+> me especialicé en diseño gráfico y pintura. Disfruté cada minuto de 
+> mi formación universitaria y exploté mi creatividad al máximo. 
+>
+> En 2003 me trasladé a Barcelona y después de un tiempo, decidí 
+> estudiar Diseño de Interiores porque siempre me ha interesado, desde 
+> que era una niña cuando prefería diseñar y decorar las casas de 
+> muñecas en lugar de jugar con ellas (mis edificios favoritos eran las 
+> "sillas" con ascensores de "cajas de Cornflakes"). 
+>
+> Toda mi vida he estado acompañada de pinceles y pintura. 
+
