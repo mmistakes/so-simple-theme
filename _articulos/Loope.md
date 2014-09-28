@@ -1,5 +1,5 @@
 ---
-title: LOOPE
+title: "****LOOPE****"
 category: Objetos
 layout: articulo
 imagen: null
