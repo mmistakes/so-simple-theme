@@ -26,5 +26,5 @@ sábado 4 de octubre de 6 a 9 pm en ['galəri] showroom - c/ Viladomat 27
 
 durante el evento ofreceremos maridaje de cerveza Rosita y chocolate Bubó
 
-
+[LOOPEDESIGN.COM](http://www.loopedesign.com/)
 [@galeribcn](http://instagram.com/galeribcn) [galeribcn.com](www.galeribcn.com)
