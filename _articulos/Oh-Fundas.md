@@ -16,7 +16,7 @@ imagen: "oh-fundas/logo.jpg"
 	<a href="/images/oh-fundas/pink-tulip.jpg"><img src="/images/oh-fundas/pink-tulip.jpg" alt="image"></a>
 	<a href="/images/oh-fundas/tierra.jpg"><img src="/images/oh-fundas/tierra.jpg" alt="image"></a>
 
-	<figcaption>Funda Caspe (1), Funda Example (2), Funda Panot (3), Funda Patchwork (4), Funda Pink Tulip (5) y Funda Tierra (6). 15€ c.u.</figcaption>
+	<figcaption>Funda Caspe (1), Funda Example (2), Funda Panot (3), Funda Patchwork (4), Funda Pink Tulip (5) y Funda Tierra (6). 18€ c.u.</figcaption>
 </figure>
 
 Diseños inspirados en los mosaicos hidráulicos de finales del siglo XIX.
