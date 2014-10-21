@@ -20,4 +20,6 @@ Moreover, routing and other technical details involved in running this kind of n
 
 Join us on IRC (#nycmeshnet on EFnet), or contact us via any of the social websites below.
 
+Come to our [meetings](http://www.meetup.com/nycmesh/).
+
 And don't forget to check the [blog]({{ site.url }}/blog/) for updates!

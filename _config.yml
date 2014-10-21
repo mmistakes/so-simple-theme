@@ -14,7 +14,7 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   reddit:         nycmeshnet
   twitter:        nycmeshnet
-  facebook:
+  facebook:       nycmeshnet
   github:         nycmeshnet
   stackexchange:
   linkedin:
@@ -34,6 +34,10 @@ authors:
     name:   Peter
     avatar: bio-photo.jpg
     email:  peter@nycmesh.net
+  brian:
+    name:   Brian
+    avatar: bio-photo.jpg
+    email:  brian@nycmesh.net
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
