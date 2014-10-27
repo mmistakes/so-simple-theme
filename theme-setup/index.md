@@ -23,7 +23,7 @@ If you are creating a new Jekyll site using So Simple follow these steps:
 1. Fork the [So Simple repo](http://github.com/mmistakes/so-simple-theme/fork).
 2. Clone the repo you just forked and rename it.
 3. [Install Bundler](http://bundler.io) `gem install bundler` and Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
-4. Update `config.yml`, add navigation, and replace demo posts and pages with your own. Full details below.
+4. Update `_config.yml`, add navigation, and replace demo posts and pages with your own. Full details below.
 
 If you want to use So Simple with an existing Jekyll site follow these steps:
 
