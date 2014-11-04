@@ -11,7 +11,7 @@ imagen: Lantomo/logo.jpg
 	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="image"></a>
 	<figcaption><b>DRAGONFLY</b>
     Lápiz y acuarelas sobre papel 
-    Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
+    Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
 <figure>
@@ -19,7 +19,7 @@ imagen: Lantomo/logo.jpg
 
 	<figcaption><b>BELL TOWER</b> 
     Lápiz y pasteles de color sobre papel 
-    Medidas: 56x75 cm. 320€, con marco: 70x100 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
+    Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
 </figure>
 
 <figure>
@@ -27,8 +27,8 @@ imagen: Lantomo/logo.jpg
 
 	<figcaption><b>OCTOPUS I (Díptico)</b> 
     Lápiz sobre papel 
-    Medidas: 44x52 cm x 2 unidades, 580€, con 
-    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
+    Medidas: 52x44 cm x 2 unidades, 580€, con 
+    marco: 67x110 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
 </figure>
 
 <figure>
@@ -36,8 +36,8 @@ imagen: Lantomo/logo.jpg
 
 	<figcaption><b>OCTOPUS II (Díptico)</b> 
     Lápiz sobre papel 
-    Medidas: 44x52 cm x 2 unidades, 580€, con 
-    marco: 110x67 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
+    Medidas: 52x44 cm x 2 unidades, 580€, con 
+    marco: 67x110 cm. 680€. También disponible en reproducción digital, 35€ c.u.</figcaption>
 </figure>
 
 <figure>
@@ -45,7 +45,7 @@ imagen: Lantomo/logo.jpg
 
 	<figcaption><b>HALF FULL/HALF EMPTY</b>
     Impresión digital firmada sobre papel alta calidad de 265 gr. 
-    Medidas: 32x45 cm. 35€</figcaption>
+    Medidas: 45x32 cm. 35€</figcaption>
 </figure>
 
 <figure>
@@ -53,7 +53,7 @@ imagen: Lantomo/logo.jpg
 
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING</b> 
     Impresión digital sobre papel alta calidad de 265 gr. 
-    Medidas: 32x45 cm. 35€</figcaption>
+    Medidas: 45x32 cm. 35€</figcaption>
 </figure>
 </div>
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
