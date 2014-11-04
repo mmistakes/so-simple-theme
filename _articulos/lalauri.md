@@ -12,7 +12,7 @@ nueva serie limitada de Laura Agustí.
 <figure>
 	<a href="/images/Laura-Agusti/mr.nuno.jpg"><img src="/images/Laura-Agusti/mr.nuno.jpg"></a>
 	<figcaption>
-	    MR. NUNO, reproducción seriada, 21x29,5 cm. 20 €, con marco 18,5x24,5 cm. 
+	    MR. NUNO, reproducción seriada, 29,5x21 cm. 20 €, con marco 24,5x18,5 cm. 
         50€
 	</figcaption>
 </figure>
@@ -20,7 +20,7 @@ nueva serie limitada de Laura Agustí.
 <figure>
 	<a href="/images/Laura-Agusti/mr.jes.jpg"><img src="/images/Laura-Agusti/mr.jes.jpg"></a>
 	<figcaption>
-	    MR. JES, reproducción seriada, 21x29,5 cm. 20 €, con marco 18,5x24,5 cm. 
+	    MR. JES, reproducción seriada, 29,5x21 cm. 20 €, con marco 24,5x18,5 cm. 
         50€
 	</figcaption>
 </figure>
@@ -32,24 +32,24 @@ Y también contamos con su ya célebre serie _Becoming animal_
 <figure>
 	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
 	<figcaption>
-	    MR.TIGERHULL, reproducción seriada, 21x29,5 cm. 20 €, con marco
-        20x35cm. 60€
+	    MR.TIGERHULL, reproducción seriada, 29,5x21 cm. 20 €, con marco
+        35x20cm. 60€
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg"></a>
 	<figcaption>
-	    MR. DEERWINTER, reproducción seriada, 21x29,5 cm. 20 €, con marco
-        29x35,5cm. 60€
+	    MR. DEERWINTER, reproducción seriada, 29,5x21 cm. 20 €, con marco
+        35,5x29cm. 60€
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg"></a>
 	<figcaption>
-	    MR. LIONPOINT, reproducción seriada, 21x29,5 cm. 20 €, con marco
-        20,5x25cm. 60€
+	    MR. LIONPOINT, reproducción seriada, 29,5x21 cm. 20 €, con marco
+        25x20,5cm. 60€
 	</figcaption>
 </figure>
 </div>
