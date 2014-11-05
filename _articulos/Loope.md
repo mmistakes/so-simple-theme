@@ -5,15 +5,15 @@ layout: articulo
 imagen: null
 published: true
 ---
-
+Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
 <figure>
-	<a href="/images/Loope/CARTERA 1.jpg"><img src="/images/Loope/CARTERA 1.jpg" alt="image"></a>
+	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
 </figure>
 
 <figure class="third">
-	<a href="/images/Loope/CARTERA 2.jpg"><img src="/images/Loope/CARTERA 2.jpg" alt="image"></a>
-	<a href="/images/Loope/CARTERA 2A.jpg"><img src="/images/Loope/CARTERA 2A.jpg" alt="image"></a>
-	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="image"></a>
+	<a href="/images/Loope/CARTERA 2.jpg"><img src="/images/Loope/CARTERA 2.jpg" alt="bolso de diseño"></a>
+	<a href="/images/Loope/CARTERA 2A.jpg"><img src="/images/Loope/CARTERA 2A.jpg" alt="bolso de diseño"></a>
+	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="bolso de diseño"></a>
     <figcaption>
     DESCRIPCIÓN:
     Bolso de diseño innovador inspirado en la sencillez, realizada con materiales de primera calidad por artesanos expertos, tamaño fiesta.
@@ -25,6 +25,38 @@ published: true
     16 x 16 x 28 cm. 225€
 	</figcaption>
 </figure>
+<div class="figure-group">
+<figure>
+	<a href="/images/Loope/CARAMEL MARKET.jpg"><img src="/images/Loope/CARAMEL MARKET.jpg" alt="bolso de diseño"></a>
+	<figcaption><b>CARAMEL MARKET</b>
+    Bolso Caramel Market 
+    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 50 x 46x 50cm. Colores disponibles: caramelo, chocolate y negro. 540€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/ Loope / BLACK CITI 2AM.jpg"><img src="/images/ Loope / BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
+
+	<figcaption><b> BLACK CITI 2AM </b> 
+Bolso Black City 2 A.M.
+    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/ Loope / CARAMEL CITY.jpg"><img src="/images/ Loope / CARAMEL CITY.jpg" alt="bolso de diseño"></a>
+
+	<figcaption><b> CARAMEL CITY</b> 
+Bolso Caramel City
+MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390€</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Loope/ BLACK COIN.jpg"><img src="/images/Loope/ BLACK COIN.jpg" alt="bolso de diseño"></a>
+
+	<figcaption><b> BLACK COIN</b> 
+    Black Coin
+MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.MEDIDAS:10x10x10cm.Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
+</figure>
+</div>
 
 Design and manufacturing studio based in Barcelona and run by **Mónica Juvera**. With a free approach to luxury and industrial design, Loope explores non conventional geometries from objects, and new ways to use and build them.
 
