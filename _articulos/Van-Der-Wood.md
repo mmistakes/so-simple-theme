@@ -1,13 +1,13 @@
-title: Van Der Wood
+title: "Van Der Wood"
 category: Muebles
 layout: articulo
 published: true
-imagen: Van_Der_Wood/LOGO Van.jpg
+imagen: "Van_Der_Wood/LOGO Van.jpg"
 
 Taburetes vintage trabajados e ilustrados completamente a mano
 <figure>
 	<a href="/images/Van_Der_Wood/Pinterest"><img src="/images/Van_Der_Wood/Pinterest" alt="Taburetes vintage"></a>
 
-	<figcaption> MEDIDAS: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 170€	
+	<figcaption> MEDIDAS: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€	
     </figcaption>
 </figure>
