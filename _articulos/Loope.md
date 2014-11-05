@@ -34,7 +34,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 </figure>
 
 <figure>
-	<a href="/images/ Loope / BLACK CITI 2AM.jpg"><img src="/images/ Loope / BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
+	<a href="/images/Loope/BLACK CITI 2AM.jpg"><img src="/images/Loope/BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
 
 	<figcaption><b> BLACK CITI 2AM </b> 
 Bolso Black City 2 A.M.
@@ -42,7 +42,7 @@ Bolso Black City 2 A.M.
 </figure>
 
 <figure>
-	<a href="/images/ Loope / CARAMEL CITY.jpg"><img src="/images/ Loope / CARAMEL CITY.jpg" alt="bolso de diseño"></a>
+	<a href="/images/Loope/CARAMEL CITY.jpg"><img src="/images/Loope/CARAMEL CITY.jpg" alt="bolso de diseño"></a>
 
 	<figcaption><b> CARAMEL CITY</b> 
 Bolso Caramel City
@@ -50,7 +50,7 @@ MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de met
 </figure>
 
 <figure>
-	<a href="/images/Loope/ BLACK COIN.jpg"><img src="/images/Loope/ BLACK COIN.jpg" alt="bolso de diseño"></a>
+	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="bolso de diseño"></a>
 
 	<figcaption><b> BLACK COIN</b> 
     Black Coin
