@@ -3,7 +3,7 @@ title: "Van Der Wood"
 category: Muebles
 layout: articulo
 published: true
-imagen: "Van-Der-Wood/LOGO Van.jpg"
+imagen: "Van-Der-Wood/LOGO.jpg"
 ---
 
 Taburetes vintage trabajados e ilustrados completamente a mano
