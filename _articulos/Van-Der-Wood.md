@@ -2,7 +2,7 @@
 title: "Van Der Wood"
 category: Muebles
 layout: articulo
-published: true
+published: false
 imagen: "Van_Der_Wood/LOGO.jpg"
 ---
 
