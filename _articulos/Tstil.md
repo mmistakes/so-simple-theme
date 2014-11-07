@@ -6,7 +6,9 @@ published: true
 imagen: Tstil/LogoTstil.JPG
 ---
 Neumáticos y cámaras de bicicleta reciclados y convertidos en piezas únicas en forma de cinturón.
+
 <div class="figure-group">
+
 <figure>
 	<a href="/images/Tstil/NEGRE VITTORIA2.JPG"><img src="/images/Tstil/NEGRE VITTORIA2.JPG" alt="image"></a>
 	<figcaption><b>NEGRE VITTORIA2</b>
