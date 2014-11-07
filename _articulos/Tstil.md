@@ -3,7 +3,7 @@ title: Tsil
 category: Objetos
 layout: articulo
 published: true
-imagen: Tstil/LogoTstil.JPG
+imagen: Tstil/Logotstil.JPG
 ---
 Neumáticos y cámaras de bicicleta reciclados y convertidos en piezas únicas en forma de cinturón.
 
