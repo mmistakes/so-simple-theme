@@ -24,7 +24,7 @@ Puedes contactar con nosotros a través de [nuestro email](mailto:info@galeribcn
 <address>
 Carrer de Viladomat, 27
 <br>
-08015 Barcelona
+08015 Barcelona 93 124 13 30
 </address>
 </center>
 
