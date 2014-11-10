@@ -3,20 +3,20 @@ title: Mr.Sis
 category: Ilustración 
 layout: articulo
 published: true
-imagen: "Mr.-Sis/mr sis.JPG"
+imagen: "Mr.Sis/mr sis.JPG"
 ---
 ['galəri] se complace en presentaros los dibujos originales de Mr. Sis
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.-Sis/LOCO POR TI.jpg"><img src="/images/Mr.-Sis/LOCO POR TI.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/LOCO POR TI.jpg"><img src="/images/Mr.Sis/LOCO POR TI.jpg" alt="image"></a>
 	<figcaption><b>LOCO POR TI</b>
 Rotulador, lápiz de color, acrílico y tinta china sobre papel. 29,7  x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.-Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.-Sis/MIERDA EN MI CABEZA.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg" alt="image"></a>
 	<figcaption><b>MIERDA EN MI CABEZA</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47€.</figcaption>
 </figure>
