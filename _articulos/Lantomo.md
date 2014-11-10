@@ -18,7 +18,7 @@ imagen: Lantomo/logo.jpg
 	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="image"></a>
 	<figcaption><b>BELL TOWER</b> 
     Lápiz y pasteles de color sobre papel 
-    Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€. También disponible en reproducción digital, 35€</figcaption>
+    Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
 </figure>
 </div>
 
