@@ -22,7 +22,7 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47
 </figure>
 
 <figure>
-	<a href="/images/Mr.-Sis/PAJOTE.jpg"><img src="/images/Mr.-Sis/PAJOTE.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/PAJOTE.jpg"><img src="/images/Mr.Sis/PAJOTE.jpg" alt="image"></a>
 	<figcaption><b>PAJOTE</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 21 x 14,8 cm. 42€.</figcaption>
 </figure>
@@ -30,14 +30,14 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel. 21 x 14,8 cm. 42
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.-Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.-Sis/ HOY NO ESTOY.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/ HOY NO ESTOY.jpg" alt="image"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.-Sis/UNA ABEJA.jpg"><img src="/images/Mr.-Sis/UNA ABEJA.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/UNA ABEJA.jpg"><img src="/images/Mr.Sis/UNA ABEJA.jpg" alt="image"></a>
 	<figcaption><b>UNA ABEJA</b> 
 Lápiz de color y acrílico sobre cartulina. 17,3  x 12,5 cm. Con marco 22 x 16,5 cm. 75€
 </figcaption>
@@ -46,14 +46,14 @@ Lápiz de color y acrílico sobre cartulina. 17,3  x 12,5 cm. Con marco 22 x 16,
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.-Sis/YO TE QUISE.jpg"><img src="/images/Mr.-Sis/YO TE QUISE.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/YO TE QUISE.jpg"><img src="/images/Mr.Sis/YO TE QUISE.jpg" alt="image"></a>
 	<figcaption><b>YO TE QUISE CUANDO NO TE QUERÍAS NI TÚ</b> 
 Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.-Sis/DESPUES DE TI.jpg"><img src="/images/Mr.-Sis/DESPUES DE TI.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/DESPUES DE TI.jpg"><img src="/images/Mr.Sis/DESPUES DE TI.jpg" alt="image"></a>
 	<figcaption><b>DESPUÉS DE TI</b> 
 Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€</figcaption>
 </figure>
@@ -62,7 +62,7 @@ Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€</figcaption>
 "Ilustrador, o eso dicen.
 Creador de obras, destructor de pinceles...
 
-Me llamo Siscu Romero (Mr. Sis), ilustrador desde que tengo uso de razón. 
+Me llamo Siscu Romero <b>*Mr. Sis*</b>, ilustrador desde que tengo uso de razón. 
 
 He trabajado ilustrando enciclopedias, libros; como retratista; para publicidad, y colaborando en diferentes proyectos multidisciplinares (escaparates, murales, editoriales...).
 
