@@ -10,14 +10,14 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="image"></a>
 	<figcaption><b>PULLOVER ATTACK</b>
-    Lápiz y lápiz de color sobre papel 
+    Lápiz y lápiz de color sobre papel. 
     Medidas: 60x44 cm. 320€, con marco: 100x70 cm. 350€. </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="image"></a>
 	<figcaption><b>BELL TOWER</b> 
-    Lápiz y pasteles de color sobre papel 
+    Lápiz y pasteles de color sobre papel. 
     Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
 </figure>
 </div>
@@ -26,7 +26,7 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="image"></a>
 	<figcaption><b>OCTOPUS DÍPTICO</b>
-    Lápiz sobre papel 
+    Lápiz sobre papel. 
     Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
 </figure>
 
