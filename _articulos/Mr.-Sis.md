@@ -3,25 +3,25 @@ title: Mr. Sis
 category: Ilustración 
 layout: articulo
 published: true
-imagen: Mr. Sis/mr sis.JPG
+imagen: Mr._Sis/mr sis.JPG
 ---
 ['galəri] se complace en presentaros los dibujos originales de Mr. Sis
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr. Sis/LOCO POR TI.jpg"><img src="/images/Mr. Sis/LOCO POR TI.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/LOCO POR TI.jpg"><img src="/images/Mr._Sis/LOCO POR TI.jpg" alt="image"></a>
 	<figcaption><b>LOCO POR TI</b>
 Rotulador, lápiz de color, acrílico y tinta china sobre papel. 29,7  x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr. Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr. Sis/MIERDA EN MI CABEZA.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr._Sis/MIERDA EN MI CABEZA.jpg" alt="image"></a>
 	<figcaption><b>MIERDA EN MI CABEZA</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr. Sis/PAJOTE.jpg"><img src="/images/Mr. Sis/PAJOTE.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/PAJOTE.jpg"><img src="/images/Mr._Sis/PAJOTE.jpg" alt="image"></a>
 	<figcaption><b>PAJOTE</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 21 x 14,8 cm. 42€.</figcaption>
 </figure>
@@ -29,14 +29,14 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel. 21 x 14,8 cm. 42
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr. Sis/HOY NO ESTOY.jpg"><img src="/images/Mr. Sis/ HOY NO ESTOY.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/HOY NO ESTOY.jpg"><img src="/images/Mr._Sis/ HOY NO ESTOY.jpg" alt="image"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr. Sis/UNA ABEJA.jpg"><img src="/images/Mr. Sis/UNA ABEJA.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/UNA ABEJA.jpg"><img src="/images/Mr._Sis/UNA ABEJA.jpg" alt="image"></a>
 	<figcaption><b>UNA ABEJA</b> 
 Lápiz de color y acrílico sobre cartulina. 17,3  x 12,5 cm. Con marco 22 x 16,5 cm. 75€
 </figcaption>
@@ -45,14 +45,14 @@ Lápiz de color y acrílico sobre cartulina. 17,3  x 12,5 cm. Con marco 22 x 16,
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr. Sis/YO TE QUISE.jpg"><img src="/images/Mr. Sis/YO TE QUISE.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/YO TE QUISE.jpg"><img src="/images/Mr._Sis/YO TE QUISE.jpg" alt="image"></a>
 	<figcaption><b>YO TE QUISE CUANDO NO TE QUERÍAS NI TÚ</b> 
 Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr. Sis/DESPUES DE TI.jpg"><img src="/images/Mr. Sis/DESPUES DE TI.jpg" alt="image"></a>
+	<a href="/images/Mr._Sis/DESPUES DE TI.jpg"><img src="/images/Mr._Sis/DESPUES DE TI.jpg" alt="image"></a>
 	<figcaption><b>DESPUÉS DE TI</b> 
 Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€</figcaption>
 </figure>
