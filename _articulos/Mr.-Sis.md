@@ -30,7 +30,7 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel. 21 x 14,8 cm. 42
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/ HOY NO ESTOY.jpg" alt="image"></a>
+	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/HOY NO ESTOY.jpg" alt="image"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel. 29,7 x 21 cm. 47€
 </figcaption>
