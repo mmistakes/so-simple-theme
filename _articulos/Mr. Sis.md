@@ -1,9 +1,9 @@
 ---
 title: Mr. Sis
-category: Ilustración - Dibujo
+category: Ilustración 
 layout: articulo
 published: true
-imagen: Mr.Sis/mr sis.JPG
+imagen: Mr. Sis/mr sis.JPG
 ---
 ['galəri] se complace en presentaros los dibujos originales de Mr. Sis
 <div class="figure-group">
