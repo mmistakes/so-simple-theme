@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: "Mr.Sis/mr sis.JPG"
 ---
-['galəri] se complace en presentaros los dibujos originales de Mr. Sis
+['galəri] se complace en presentaros los dibujos originales de <b>*Mr. Sis*</b>
 
 <div class="figure-group">
 <figure>
