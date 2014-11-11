@@ -55,6 +55,7 @@ nueva serie limitada de **Laura Agustí**.
 
 
 
+
 > ...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue, 
 > me especialicé en diseño gráfico y pintura. Disfruté cada minuto de 
 > mi formación universitaria y exploté mi creatividad al máximo. 
