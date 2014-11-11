@@ -11,7 +11,7 @@ imagen: Lantomo/logo.jpg
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="image"></a>
 	<figcaption><b>PULLOVER ATTACK</b>
     Lápiz grafito y lápiz de color sobre papel. 
-    Medidas: 60x44 cm. 320€, con marco: 100x70 cm. 350€. </figcaption>
+    Medidas: 60x44 cm. 350€, con marco: 70x50 cm. 380€. </figcaption>
 </figure>
 
 <figure>
