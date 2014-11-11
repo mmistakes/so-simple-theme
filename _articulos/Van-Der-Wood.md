@@ -14,6 +14,8 @@ Taburetes vintage trabajados e ilustrados completamente a mano
     </figcaption>
 </figure>
 
+
+
 >En **Van der Wood** confluyen diferentes pasiones, el diseño, la pintura, el trabajo de la madera y el arte.
 >
 >Somos inquietos.
