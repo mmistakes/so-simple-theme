@@ -4,5 +4,4 @@ _site
 *.sublime-workspace
 codekit-config.json
 node_modules
-Gemfile.lock
 .sass-cache
