@@ -17,7 +17,7 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="image"></a>
 	<figcaption><b>BELL TOWER</b> 
-    Lápiz grafito y pasteles de color sobre papel. 
+    Lápiz grafito y lápiz de color sobre papel. 
     Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
 </figure>
 </div>
