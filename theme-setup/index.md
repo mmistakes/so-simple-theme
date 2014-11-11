@@ -100,7 +100,7 @@ Your site's logo, appears in the header below the navigation bar and is used as 
 
 #### url
 
-Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*. [Protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/) are a nice option but there are a few caveats[^protocol].
 
 Examples:
 
@@ -108,8 +108,11 @@ Examples:
 url: http://mmistakes.github.io/so-simple-theme
 url: http://localhost:4000
 url: http://mademistakes.com
+url: //mademistakes.com
 url: 
 {% endhighlight %}
+
+[^protocol]: If you decide to use a protocol-relative URL know that it will most likely break sitemap.xml that the Jekyll-Sitemap gem creates. If a valid sitemap matters to you I'd suggest [creating your own sitemap.xml](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/) and apply some Liquid logic to prepend links to posts/pages with `https:`.
 
 #### Google Analytics and Webmaster Tools
 
