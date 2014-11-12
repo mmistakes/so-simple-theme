@@ -14,7 +14,11 @@ Taburetes vintage trabajados e ilustrados completamente a mano
     </figcaption>
 </figure>
 
-
+<figure>
+	![]/(Web2.jpg)
+	<figcaption>MEDIDAS: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€	
+    </figcaption>
+</figure>
 
 >En **Van der Wood** confluyen diferentes pasiones, el diseño, la pintura, el trabajo de la madera y el arte.
 >
