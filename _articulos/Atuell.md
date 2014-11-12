@@ -11,12 +11,14 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 <figure>
 	<a href="/images/Atuell/jerro2.jpg"><img src="/images/Atuell/jerro2.jpg" alt="image"></a>
 	<figcaption>Jarrón de cerámica. 
+
 	MEDIDAS: 17,5 x 9,5 cm. 35€ c.u.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="image"></a>
 	<figcaption>Maceta de cerámica. 
+
 	MEDIDAS: 12 x 14 cm. 28€ c.u.</figcaption>
 </figure>
 </div>
