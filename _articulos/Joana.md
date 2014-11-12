@@ -3,13 +3,14 @@ title: Joana Santamans
 category: Ilustración
 layout: articulo
 published: true
-imagen: "Joana Santamans /logo.jpg"
+imagen: "Joana/logo.jpg"
 
 ---
 
 **Joana Santamans** presenta en ['galəri] tres de sus últimas series. 
 
 Serie Hummingbirds (2014) 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Joana/humingbird love 01.jpg"><img src="/images/Joana/humingbird love 01.jpg"></a>
