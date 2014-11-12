@@ -13,7 +13,7 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 </figure>
 
 <figure>
-	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/ maceta.jpg" alt="image"></a>
+	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="image"></a>
 	<figcaption>Maceta de cerámica. MEDIDAS: 12 x 14 cm. 28€ c.u.</figcaption>
 </figure>
 
