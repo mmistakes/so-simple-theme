@@ -15,7 +15,7 @@ Taburetes vintage trabajados e ilustrados completamente a mano
 </figure>
 
 <figure>
-	![](/images/Web2.jpg)
+	![Web2.jpg](/images/Web2.jpg)
 	<figcaption>MEDIDAS: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€	
     </figcaption>
 </figure>
