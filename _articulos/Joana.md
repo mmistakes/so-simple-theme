@@ -121,7 +121,7 @@ Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
 <figure>
 	<a href="/images/Joana/llop.jpg"><img src="/images/Joana/llop.jpg"></a>
 	<figcaption><b>LLOP</b>
-	  Reproducción digital firmada, 32 x 45 cm. 30€</figcaption>
+	  Reproducción digital firmada, 45 x 32 cm. 30€</figcaption>
 </figure>
 </div>
 
