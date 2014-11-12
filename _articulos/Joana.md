@@ -3,7 +3,7 @@ title: Joana Santamans
 category: Ilustración
 layout: articulo
 published: true
-imagen: "Joana/logo.jpg"
+imagen: "Joana/logo.JPG"
 
 ---
 
@@ -33,6 +33,7 @@ Serie Hummingbirds (2014)
 </div>
 
 Serie Primavera (2014)
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Joana/fishies.jpg"><img src="/images/Joana/fishies.jpg"></a>
@@ -91,6 +92,7 @@ Serie Primavera (2014)
 </div>
 
 Serie New Hope (2013)
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Joana/peixos.jpg"><img src="/images/Joana/peixos.jpg"></a>
