@@ -66,5 +66,5 @@ _que era una niña cuando prefería diseñar y decorar las casas de_
 _muñecas en lugar de jugar con ellas (mis edificios favoritos eran las_ 
 _"sillas" con ascensores de "cajas de Cornflakes")._ 
 
-> Toda mi vida he estado acompañada de pinceles y pintura. 
+_Toda mi vida he estado acompañada de pinceles y pintura._
 
