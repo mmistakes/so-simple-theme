@@ -24,4 +24,4 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 
 **Atuell** es una búsqueda de la serenidad, del rescate de las piezas hechas una a una, dando visibilidad a la materia, a la irregularidad. Todo el proceso es un tránsito, un camino, hasta conseguir una cerámica plástica y funcional al mismo tiempo.
 
->Somos inquietos.
+_Somos inquietos._
