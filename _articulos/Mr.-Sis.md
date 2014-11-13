@@ -62,7 +62,7 @@ Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€.</figcaption>
 _Ilustrador, o eso dicen._
 _Creador de obras, destructor de pinceles..._
 
-_Me llamo Siscu Romero, *Mr. Sis*, ilustrador desde que tengo uso de razón._ 
+_Me llamo Siscu Romero, **Mr. Sis**, ilustrador desde que tengo uso de razón._ 
 
 _He trabajado ilustrando enciclopedias, libros; como retratista; para publicidad, y colaborando en diferentes proyectos multidisciplinares (escaparates, murales, editoriales...)._
 
