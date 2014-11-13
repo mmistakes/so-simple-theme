@@ -70,10 +70,10 @@ MEDIDAS:
 </figure>
 </div>
 
->Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación.
->
->Debido a nuestro trabajo en el mundo audiovisual pasábamos largas horas delante del ordenador y como terapia anti estrés, nos dedicábamos a restaurar muebles y objetos que nos encontrábamos. Así nos dimos cuenta que nos apasionaba trabajar con nuestras manos, tener contacto directo con el material y decidimos realizar nuestro propio proyecto.
->
->Producimos nuestras piezas artesanalmente, desde la selección del material hasta el montaje final. Incluso fabricamos o adaptamos las herramientas de nuestro taller para poder realizar cada uno de nuestros modelos.
+_Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación._
+
+_Debido a nuestro trabajo en el mundo audiovisual pasábamos largas horas delante del ordenador y como terapia anti estrés, nos dedicábamos a restaurar muebles y objetos que nos encontrábamos. Así nos dimos cuenta que nos apasionaba trabajar con nuestras manos, tener contacto directo con el material y decidimos realizar nuestro propio proyecto._
+
+_Producimos nuestras piezas artesanalmente, desde la selección del material hasta el montaje final. Incluso fabricamos o adaptamos las herramientas de nuestro taller para poder realizar cada uno de nuestros modelos._
 
 
