@@ -6,7 +6,7 @@ published: true
 imagen: "oh-fundas/logo.jpg"
 ---
 
-**Oh! Fundas: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.**
+**Oh! Fundas**: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.
 
 <figure class="third">
 	<a href="/images/oh-fundas/caspe.jpg"><img src="/images/oh-fundas/caspe.jpg" alt="image"></a>
