@@ -59,15 +59,15 @@ Lápiz grafito y lápiz de color sobre papel. 27,7  x 21 cm. 47€.</figcaption>
 </figure>
 </div>
 
-Ilustrador, o eso dicen.
-Creador de obras, destructor de pinceles...
+_Ilustrador, o eso dicen._
+_Creador de obras, destructor de pinceles..._
 
-Me llamo Siscu Romero, Mr. Sis, ilustrador desde que tengo uso de razón. 
+_Me llamo Siscu Romero, *Mr. Sis*, ilustrador desde que tengo uso de razón._ 
 
-He trabajado ilustrando enciclopedias, libros; como retratista; para publicidad, y colaborando en diferentes proyectos multidisciplinares (escaparates, murales, editoriales...).
+_He trabajado ilustrando enciclopedias, libros; como retratista; para publicidad, y colaborando en diferentes proyectos multidisciplinares (escaparates, murales, editoriales...)._
 
-Actualmente soy ilustrador freelance, con varios proyectos y exposiciones entre manos. Terminando mi primera novela gráfica con Edicions de Ponent.
+_Actualmente soy ilustrador freelance, con varios proyectos y exposiciones entre manos. Terminando mi primera novela gráfica con Edicions de Ponent._
 
-Nacido en Barcelona con muchas ganas de exportar mi trabajo por todo el mundo para crecer tanto personal como profesionalmente.
+_Nacido en Barcelona con muchas ganas de exportar mi trabajo por todo el mundo para crecer tanto personal como profesionalmente._
 
 
