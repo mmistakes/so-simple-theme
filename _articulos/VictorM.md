@@ -5,9 +5,7 @@ layout: articulo
 published: true
 imagen: null
 ---
-
-
-Define su obra fotográfica de marcado carácter urbano con las siguientes palabras: _EXPANSIÓN, VACIO, RUIDO, LINEAL, TECNOLOGIA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
+Fotografías urbanas de **VictorM**. Sobre papel mate, 52 x 41,5 cm y 41,5 x 52 cm. En exclusiva en ['galəri]!!
 
 <figure class="third">
 	<a href="/images/victorm/FotVM01.jpg"><img src="/images/victorm/FotVM01.jpg" alt="image"></a>
@@ -33,3 +31,5 @@ Define su obra fotográfica de marcado carácter urbano con las siguientes palab
 	<a href="/images/victorm/FotVM22.jpg"><img src="/images/victorm/FotVM22.jpg" alt="image"></a>
 	<a href="/images/victorm/FotVM23.jpg"><img src="/images/victorm/FotVM23.jpg" alt="image"></a>
 </figure>
+
+**VictorM** define su obra fotográfica de marcado carácter urbano con las siguientes palabras: _EXPANSIÓN, VACIO, RUIDO, LINEAL, TECNOLOGIA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
