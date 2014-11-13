@@ -9,7 +9,7 @@ imagen: "Joana/logo.JPG"
 
 **Joana Santamans** presenta en ['galəri] tres de sus últimas series. 
 
-Serie Hummingbirds (2014) 
+Serie _Hummingbirds_ (2014) 
 
 <div class="figure-group">
 <figure>
@@ -32,7 +32,7 @@ Serie Hummingbirds (2014)
 </figure>
 </div>
 
-Serie Primavera (2014)
+Serie _Primavera_ (2014)
 
 <div class="figure-group">
 <figure>
@@ -91,7 +91,7 @@ Serie Primavera (2014)
 </figure>
 </div>
 
-Serie New Hope (2013)
+Serie _New Hope_ (2013)
 
 <div class="figure-group">
 <figure>
