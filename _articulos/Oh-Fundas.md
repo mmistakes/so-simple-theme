@@ -17,7 +17,7 @@ imagen: "oh-fundas/logo.jpg"
 
 </figure>
 	<a href="/images/oh-fundas/example.jpg"><img src="/images/oh-fundas/example.jpg" alt="image"></a>
-	<figcaption><b>DISEÑO BALDOSA EXAMPLE 18,50€</b>
+	<figcaption><b>DISEÑO BALDOSA EIXAMPLE 18,50€</b>
 </figure>
 
 
@@ -25,8 +25,9 @@ imagen: "oh-fundas/logo.jpg"
 	<a href="/images/oh-fundas/Panot.jpg"><img src="/images/oh-fundas/Panot.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA PANOT 18,50€</b>
 </figure>
+</div>
 
-
+<div class="figure-group">
 </figure>
 	<a href="/images/oh-fundas/patchwork.jpg"><img src="/images/oh-fundas/patchwork.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA PATCHWORK 18,50€</b>
