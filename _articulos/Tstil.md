@@ -73,12 +73,12 @@ Cinturón Rojo Michelin2 con hebilla metálica regulable. Ancho 4cm. 37,50€</f
 
 </div>
 
-Darrere Tstil -el reciclatge fet creació- s'hi amaguen les mans de la Teresa Giralt (Calaf). Amb aquesta marca, s'inicia una nova etapa qualificada per ella com emprenedora i engrescadora dins la seva llarga vida vinculada al món de l'artesania.
+Darrere **Tstil -el reciclatge fet creació-** s'hi amaguen les mans de la Teresa Giralt (Calaf). Amb aquesta marca, s'inicia una nova etapa qualificada per ella com emprenedora i engrescadora dins la seva llarga vida vinculada al món de l'artesania.
 
-Ceramista de professió, després d'uns anys d'inactivitat va decidir un canvi de rumb tirant-se de cap al món del reciclatge. I és que Tstil converteix els materials més inimaginables amb creacions 100% portables al dia a dia.
+Ceramista de professió, després d'uns anys d'inactivitat va decidir un canvi de rumb tirant-se de cap al món del reciclatge. I és que **Tstil** converteix els materials més inimaginables amb creacions 100% portables al dia a dia.
 
 Les inquietuds artístiques, el cervell per dissenyar, les mans per crear, l'empenta, la idea, el caràcter i la seva personalitat; provoquen una explosió creativa d'on en surten peces úniques fetes amb materials tan insòlits com cambres de rodes de vehicles i pneumàtics de bicicleta.
 
-Tstil són complements realitzats amb materials que porten molts quilòmetres a sobre i, que amb aquesta segona vida que els donen en fan molts més convertits en cinturons, bosses, ronyoneres, braçalets, clauers i moneders.
+**TstiL** són complements realitzats amb materials que porten molts quilòmetres a sobre i, que amb aquesta segona vida que els donen en fan molts més convertits en cinturons, bosses, ronyoneres, braçalets, clauers i moneders.
 
-Tstil és reciclatge, disseny, creació i modernitat.
+**Tstil** és reciclatge, disseny, creació i modernitat.
