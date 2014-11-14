@@ -6,13 +6,10 @@ imagen: null
 published: true
 ---
 Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
-<figure>
-	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
-</figure>
 
-<figure class="third">
-	<a href="/images/Loope/CARTERA 2.jpg"><img src="/images/Loope/CARTERA 2.jpg" alt="bolso de diseño"></a>
-	<a href="/images/Loope/CARTERA 2A.jpg"><img src="/images/Loope/CARTERA 2A.jpg" alt="bolso de diseño"></a>
+
+<figure class="pair">
+	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="bolso de diseño"></a>
     <figcaption><b>CHOCOLATE PARTY</b>
     
