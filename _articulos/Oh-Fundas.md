@@ -1,3 +1,11 @@
+---
+title: "Oh! Fundas"
+category: Objetos
+layout: articulo
+published: true
+imagen: "oh-fundas/logo.jpg"
+---
+
 **Oh! Fundas**: Fundas originales para el móvil. Ediciones limitadas. From Barcelona with love.
 
 
