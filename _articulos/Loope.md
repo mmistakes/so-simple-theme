@@ -17,10 +17,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
     <figcaption><b>CHOCOLATE PARTY</b>
     
     MATERIALES:
-    Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.
-    
-    MEDIDAS:
-    16 x 16 x 28 cm. 225€
+    Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.Colores disponibles: caramelo, chocolate y negro. MEDIDAS: 16 x 16 x 28 cm. 225€
 	</figcaption>
 </figure>
 <div class="figure-group">
@@ -38,6 +35,9 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 
     MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
 </figure>
+</div>
+
+<div class="figure-group">
 
 <figure>
 	<a href="/images/Loope/CARAMEL CITY.jpg"><img src="/images/Loope/CARAMEL CITY.jpg" alt="bolso de diseño"></a>
