@@ -12,63 +12,63 @@ Neumáticos y cámaras de bicicleta reciclados y convertidos en piezas únicas e
 <figure>
 	<a href="/images/Tstil/NEGRE VITTORIA2.JPG"><img src="/images/Tstil/NEGRE VITTORIA2.JPG" alt="image"></a>
 	<figcaption><b>NEGRE VITTORIA2</b>
-Cinturón Negro Vittoria 2 negro con hebilla metálica regulable. Ancho 2,5 cm. 37,50€.</figcaption>
+Con hebilla metálica regulable. Ancho 2,5 cm. 37,50€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/GRIS VITTORIA.JPG"><img src="/images/Tstil/GRIS VITTORIA.JPG" alt="image"></a>
 
 	<figcaption><b>GRIS VITTORIA</b> 
-Cinturón Gris Vittoria con hebilla metálica regulable. Ancho 4 cm. 44€</figcaption>
+Con hebilla metálica regulable. Ancho 4 cm. 44€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/NEGRE SPORT.JPG"><img src="/images/Tstil/NEGRE SPORT.JPG" alt="image"></a>
 
 	<figcaption><b>NEGRE SPORT</b> 
-Cinturón Negro Sport con hebilla metálica regulable. Ancho 2,5 cm. 37,50€</figcaption>
+Con hebilla metálica regulable. Ancho 2,5 cm. 37,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/NEGRE AEREO.JPG"><img src="/images/Tstil/NEGRE AEREO.JPG" alt="image"></a>
 
 	<figcaption><b>NEGRE AEREO </b> 
-Cinturón Negro Aéreo con hebilla metálica regulable. Ancho 5 cm. 40€</figcaption>
+Con hebilla metálica regulable. Ancho 5 cm. 40€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/VERMELL HUTCHINSON.JPG"><img src="/images/Tstil/VERMELL HUTCHINSON.JPG" alt="image"></a>
 
 	<figcaption><b>VERMELL HUTCHINSON</b> 
-Cinturón Rojo Hutchinson con hebilla metálica regulable. Ancho 3 cm. 37,50€</figcaption>
+Con hebilla metálica regulable. Ancho 3 cm. 37,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/NEGRE CONTINENTAL1.JPG"><img src="/images/Tstil/NEGRE CONTINENTAL1.JPG" alt="image"></a>
 
 	<figcaption><b>NEGRE CONTINENTAL1</b> 
-Cinturón Negro Continental1 con hebilla metálica regulable. Ancho 3,5 cm. 37,50€</figcaption>
+Con hebilla metálica regulable. Ancho 3,5 cm. 37,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/BLANC BONTRAGER.JPG"><img src="/images/Tstil/BLANC BONTRAGER.JPG" alt="image"></a>
 
 	<figcaption><b>BLANC BONTRAGER</b> 
-Cinturón Blanco Bontrager con hebilla metálica regulable. Ancho 4 cm. 37,50€</figcaption>
+Con hebilla metálica regulable. Ancho 4 cm. 37,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/BLAU BONTRAGER.JPG "><img src="/images/Tstil/BLAU BONTRAGER.JPG" alt="image"></a>
 
 	<figcaption><b>BLAU BONTRAGER</b> 
-Cinturón Azul Bontrager con hebilla metálica regulable. Ancho 5 cm. 40€</figcaption>
+Con hebilla metálica regulable. Ancho 5 cm. 40€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Tstil/VERMELL MICHELIN2.JPG"><img src="/images/Tstil/VERMELL MICHELIN2.JPG" alt="image"></a>
 
 	<figcaption><b>VERMELL MICHELIN2</b> 
-Cinturón Rojo Michelin2 con hebilla metálica regulable. Ancho 4cm. 37,50€</figcaption>
+Con hebilla metálica regulable. Ancho 4cm. 37,50€</figcaption>
 </figure>
 
 </div>
