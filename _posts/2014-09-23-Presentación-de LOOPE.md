@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our handbags
+title: Presentación de LOOPE.
 description: Presentación de LOOPE.
 category: blog
 tags: 
