@@ -40,6 +40,7 @@ imagen: "oh-fundas/logo.jpg"
 </figure>
 </div>
 
+
 Diseños inspirados en los mosaicos hidráulicos de finales del siglo XIX.
 
 Son fundas para Smartphone diseñadas meticulosamente para ajustarse a la perfección con tu dispositivo. Además están elegantemente acabadas, y son tan suaves al tacto como agradables a la vista. Y por si fuera poco, puedes descargar en tu móvil el fondo de pantalla a juego con la funda, cuidando así hasta el último detalle.
