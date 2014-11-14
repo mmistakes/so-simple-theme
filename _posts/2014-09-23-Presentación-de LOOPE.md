@@ -23,7 +23,7 @@ se complace en invitaros a la presentación en Barcelona de
 **T H E O N E P I E C E B A G**
 
 <figure>
-	<a href="/images/Presentación de LOOPE/Loope_invitación.jpg"><img src="/images/Presentación de LOOPE/Loope_invitación.jpg" alt="image"></a>
+	<a href="/images/Loope_invitación.jpg"><img src="/images/Loope_invitación.jpg" alt="image"></a>
 </figure>
 
 sábado 4 de octubre de 6 a 9 pm en ['galəri] showroom - c/ Viladomat 27
