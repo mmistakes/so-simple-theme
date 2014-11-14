@@ -14,31 +14,25 @@ imagen: "oh-fundas/logo.jpg"
 	<figcaption><b>DISEÑO BALDOSA CASPE 18,50€</b>
 </figure>
 
-
 </figure>
 	<a href="/images/oh-fundas/example.jpg"><img src="/images/oh-fundas/example.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA EIXAMPLE 18,50€</b>
 </figure>
 
-
 </figure>	
 	<a href="/images/oh-fundas/Panot.jpg"><img src="/images/oh-fundas/Panot.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA PANOT 18,50€</b>
 </figure>
-</div>
 
-<div class="figure-group">
 </figure>
 	<a href="/images/oh-fundas/patchwork.jpg"><img src="/images/oh-fundas/patchwork.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA PATCHWORK 18,50€</b>
 </figure>
 
-
 </figure>
 	<a href="/images/oh-fundas/pink-tulip.jpg"><img src="/images/oh-fundas/pink-tulip.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA PINK TULIP 18,50€</b>
 </figure>
-
 
 </figure>
 	<a href="/images/oh-fundas/tierra.jpg"><img src="/images/oh-fundas/tierra.jpg" alt="image"></a>
