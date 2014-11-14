@@ -38,6 +38,7 @@ imagen: "oh-fundas/logo.jpg"
 	<a href="/images/oh-fundas/tierra.jpg"><img src="/images/oh-fundas/tierra.jpg" alt="image"></a>
 	<figcaption><b>DISEÑO BALDOSA TIERRA 18,50€</b>
 </figure>
+</div>
 
 Diseños inspirados en los mosaicos hidráulicos de finales del siglo XIX.
 
