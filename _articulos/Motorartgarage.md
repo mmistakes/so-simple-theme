@@ -1,5 +1,5 @@
 ---
-title: Motorartgarage
+title: MotorARTgarage
 category: Objetos
 layout: articulo
 published: true
@@ -49,7 +49,10 @@ ISETTA 300. 12 €</figcaption>
 	<figcaption><b> 
  	PORCHE 356. 12€</figcaption>
 </figure>
+</div>
 
+
+<div class="figure-group">
 <figure>
 	<a href="/images/Motorartgarage/CARAVANARANJA.jpg"><img src="/images/Motorartgarage/CARAVANARANJA.jpg"></a>
 	<figcaption>
