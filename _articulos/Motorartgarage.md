@@ -46,8 +46,8 @@ ISETTA 300. 12 €</figcaption>
 
 <figure>
 	<a href="/images/Motorartgarage/PORCHE 356.jpg"><img src="/images/Motorartgarage/PORCHE 356.jpg"></a>
-	<figcaption><b> 
- 	PORCHE 356. 12€</figcaption>
+	<figcaption>
+ PORCHE 356. 12€</figcaption>
 </figure>
 
 </div>
