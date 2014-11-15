@@ -70,4 +70,4 @@ EXPLORER. 12€</figcaption>
 </div>
 
 
-Primer cameo de ['galəri] con el mundo del cómic. La colección de mug cups de vehículos de cómic de **Motorartgarage**, arquitecto y dibujante catalan. 
+Primer cameo de ['galəri] con el mundo del cómic. La colección de mug cups de vehículos de cómic de **MotorARTgarage**, arquitecto y dibujante catalan. 
