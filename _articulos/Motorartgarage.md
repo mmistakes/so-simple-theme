@@ -52,25 +52,7 @@ ISETTA 300. 12 €</figcaption>
 </div>
 
 
-<div class="figure-group">
-<figure>
-	<a href="/images/Motorartgarage/CARAVANARANJA.jpg"><img src="/images/Motorartgarage/CARAVANARANJA.jpg"></a>
-	<figcaption>
-	   VOLKSWAGEN TRANSPORTER NARANJA. 12€</figcaption>
-</figure>
 
-<figure>
-	<a href="/images/Motorartgarage/CARAVANAVERDE.jpg"><img src="/images/Motorartgarage/CARAVANAVERDE.jpg"></a>
-	<figcaption>
-	   VOLKSWAGEN TRANSPORTER VERDE. 12€</figcaption>
-</figure>
-
-<figure>
-	<a href="/images/Motorartgarage/EXPLORER.jpg"><img src="/images/Motorartgarage/EXPLORER.jpg"></a>
-	<figcaption>
-	EXPLORER. 12€</figcaption>
-</figure>
-</div>
 
 
 Primer cameo de ['galəri] con el mundo del cómic. La colección de mug cups de vehículos de cómic de **Motorartgarage**, arquitecto y dibujante catalan. 
