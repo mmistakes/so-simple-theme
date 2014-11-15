@@ -3,10 +3,10 @@ title: Motorartgarage
 category: Objetos
 layout: articulo
 published: true
-imagen: "Motorartgarage/logo.JPG"
+imagen: "Motorartgarage/logo.jpg"
 ---
 <figure>
-<a href="/images/Motorartgarage/IMG_5570.jpg"><img src="/images/Motorartgarage/IMG_5570.jpg"></a>	
+<a href="/images/Motorartgarage/IMG_5570.JPG"><img src="/images/Motorartgarage/IMG_5570.JPG"></a>	
 </figure>
 ¿Con qué taza te quedas?
 
