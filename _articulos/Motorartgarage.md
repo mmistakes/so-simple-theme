@@ -5,9 +5,11 @@ layout: articulo
 published: true
 imagen: "Motorartgarage/logo.jpg"
 ---
+
 <figure>
 <a href="/images/Motorartgarage/IMG_5570.JPG"><img src="/images/Motorartgarage/IMG_5570.JPG"></a>	
 </figure>
+
 ¿Con qué taza te quedas?
 
 <div class="figure-group">
@@ -66,5 +68,6 @@ ISETTA 300. 12 €</figcaption>
 	EXPLORER. 12€</figcaption>
 </figure>
 </div>
+
 
 Primer cameo de ['galəri] con el mundo del cómic. La colección de mug cups de vehículos de cómic de **Motorartgarage**, arquitecto y dibujante catalan. 
