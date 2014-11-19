@@ -13,8 +13,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
 	
 	<figcaption><b>CHOCOLATE PARTY</b>
-    MATERIALES:
-    Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro.</figcaption>
+    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro.</figcaption>
     
 </figure>
 
