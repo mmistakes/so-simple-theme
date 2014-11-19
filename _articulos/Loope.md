@@ -8,7 +8,7 @@ published: true
 Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
 
 
-<figure class="pair">
+<figure class="couple">
 </figure>
 	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="bolso de diseño"></a>
