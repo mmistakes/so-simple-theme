@@ -17,7 +17,8 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 
 </figure>
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="bolso de diseño"></a>
-    <figcaption>MEDIDAS: 16 x 16 x 28 cm. 225€</figcaption>
+    <figcaption><b>CHOCOLATE PARTY</b>
+    MEDIDAS: 16 x 16 x 28 cm. 225€</figcaption>
 </figure>
 </div>
 
