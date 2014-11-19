@@ -20,9 +20,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
     <figcaption><b>CHOCOLATE PARTY</b>
     MEDIDAS: 16 x 16 x 28 cm. 225€</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Loope/CARAMEL MARKET.jpg"><img src="/images/Loope/CARAMEL MARKET.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>CARAMEL MARKET</b>
