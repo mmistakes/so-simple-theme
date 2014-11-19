@@ -8,14 +8,14 @@ published: true
 Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
 
 
-<figure class="couple">
+<figure class="pair">
 	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg" alt="bolso de diseño"></a>
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg" alt="bolso de diseño"></a>
     <figcaption><b>CHOCOLATE PARTY</b>
-    
     MATERIALES:
     Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro. MEDIDAS: 16 x 16 x 28 cm. 225€
 	</figcaption>
+
 </figure>
 <div class="figure-group">
 <figure>
