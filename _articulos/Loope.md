@@ -23,6 +23,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 	
     <figcaption>MEDIDAS: 16 x 16 x 28 cm. 225€</figcaption>
 </figure>
+</div>
 
 <div class="figure-group">
 <figure>
