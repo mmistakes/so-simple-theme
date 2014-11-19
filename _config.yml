@@ -1,8 +1,8 @@
 title:            "['galəri]"
 description:      Showroom 
 logo:             null
-image:
-  feature: "encabezado web.jpg"
+image: "encabezado web.jpg"
+ 
 # disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
