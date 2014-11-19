@@ -79,6 +79,6 @@ Ceramista de professió, després d'uns anys d'inactivitat va decidir un canvi d
 
 Les inquietuds artístiques, el cervell per dissenyar, les mans per crear, l'empenta, la idea, el caràcter i la seva personalitat; provoquen una explosió creativa d'on en surten peces úniques fetes amb materials tan insòlits com cambres de rodes de vehicles i pneumàtics de bicicleta.
 
-**TstiL** són complements realitzats amb materials que porten molts quilòmetres a sobre i, que amb aquesta segona vida que els donen en fan molts més convertits en cinturons, bosses, ronyoneres, braçalets, clauers i moneders.
+**Tstil** són complements realitzats amb materials que porten molts quilòmetres a sobre i, que amb aquesta segona vida que els donen en fan molts més convertits en cinturons, bosses, ronyoneres, braçalets, clauers i moneders.
 
 **Tstil** és reciclatge, disseny, creació i modernitat.
