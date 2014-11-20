@@ -127,7 +127,7 @@ Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
 
 Joana, positiva i emprenedora, entén la vida a través de l'art. La seva formació en disseny gràfic a l'Escola Eina i el posterior postgrau en Il·lustració Creativa l'ha portat a dedicar-se plenament a la pintura i il·lustració.
 
-Consolidada la seva carrera a la seva ciutat, Barcelona, després d'haver viscut a Londres i Nova York, en l'actualitat està centrada en projectar les seves obres a nivell internacional. Màlaga, València, Porto, San Francisco i Brussel•les són ciutats on ja ha exposat la seva feina.
+Consolidada la seva carrera a la seva ciutat, Barcelona, després d'haver viscut a Londres i Nova York, en l'actualitat està centrada en projectar les seves obres a nivell internacional. Màlaga, València, Porto, San Francisco i Brussel·les són ciutats on ja ha exposat la seva feina.
 
 La seva obra està en constant evolució, però la natura i una mirada pròpia és una constant en ella. Pinta sobre suports molt diversos, destacant la fusta i els seus murals en parets.
 
