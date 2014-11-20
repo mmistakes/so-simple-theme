@@ -59,7 +59,6 @@ Con hebilla metálica regulable. Ancho 4 cm. 37,50€</figcaption>
 
 <figure>
 	<a href="/images/Tstil/BLAU BONTRAGER.JPG "><img src="/images/Tstil/BLAU BONTRAGER.JPG" alt="image"></a>
-
 	<figcaption><b>BLAU BONTRAGER.</b> 
 Con hebilla metálica regulable. Ancho 5 cm. 40€</figcaption>
 </figure>
