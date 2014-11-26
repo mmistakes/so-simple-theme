@@ -1,5 +1,5 @@
 ---
-title: Raul del Sol
+title: Raúl del Sol
 category: Objetos
 layout: articulo
 published: true
