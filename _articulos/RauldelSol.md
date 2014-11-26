@@ -3,7 +3,7 @@ title: Raul del Sol
 category: Objetos
 layout: articulo
 published: true
-imagen: RauldelSol/logo.JPG
+imagen: RauldelSol/logo.jpg
 ---
 **Raúl del Sol** plasma el mundo del insecto, su metamorfosis y trasformación con un dibujo que combina de una manera perfecta lo preciosista, lo bello y, por qué no,  lo oscuro…
 
