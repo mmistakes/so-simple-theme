@@ -24,3 +24,8 @@ imagen: Lantomo/logo.jpg
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="image"></a>
 	<figcaption><b>OCTOPUS DÍPTICO</b>
+    Lápiz grafito sobre papel. 
+    Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
+</figure>
+</div>
+
