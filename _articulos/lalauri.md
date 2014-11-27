@@ -1,6 +1,6 @@
 ---
 title: Laura Agustí
-category: Ilustración
+category: Prints
 layout: articulo
 published: true
 ---
