@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: Magone/logo.jpg
 ---
-
+El graffiti de **Carlos MagOne**  pasa al papel en forma de explosiones geométricas de color. 
 
 <div class="figure-group">
 <figure>
@@ -22,8 +22,6 @@ Reproducción digital firmada sobre papel de 310 gr.
 Medidas: 21x28 cm. 25€, con marco: 31x41 cm. 70€.</figcaption>
 </figure>
 </div>
-
-El graffiti de **Carlos MagOne**  pasa al papel en forma de explosiones geométricas de color. 
 
 <div class="figure-group">
 
