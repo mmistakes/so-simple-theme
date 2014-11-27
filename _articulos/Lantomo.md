@@ -1,6 +1,6 @@
 ---
 title: Lantomo
-category: Ilustración
+category: Prints
 layout: articulo
 published: true
 imagen: Lantomo/logo.jpg
