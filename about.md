@@ -13,6 +13,7 @@ Nuestro leitmotiv es que detrás de cada objeto haya una persona, no una empresa
 
 Queremos proximidad, cariño y buen hacer. Cosas bonitas, originales y/o especiales.
 
+**['galəri]** también ofrece su espacio para la celebración de eventos y presentaciones.
 
 Puedes contactar con nosotros a través de [nuestro email](mailto:info@galeribcn.com)
 
