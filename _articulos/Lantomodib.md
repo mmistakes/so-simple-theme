@@ -20,6 +20,7 @@ imagen: Lantomo/logo.jpg
     Lápiz grafito y lápiz de color sobre papel. 
     Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
 </figure>
+</div>
 
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="image"></a>
@@ -27,5 +28,5 @@ imagen: Lantomo/logo.jpg
     Lápiz grafito sobre papel. 
     Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
 </figure>
-</div>
+
 
