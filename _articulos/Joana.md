@@ -1,6 +1,6 @@
 ---
 title: Joana Santamans
-category: Arte
+category: Ilustración
 layout: articulo
 published: true
 imagen: "Joana/logo.JPG"
