@@ -26,7 +26,7 @@ Medidas: 70x70 cm. 360€.</figcaption>
 	<a href="/images/McCALLUM/P1050544.jpg"><img src="/images/McCALLUM/P1050544.jpg" alt="image"></a>
 <figcaption><b>SYNTHESIS SILVER PURPLE YELLOW.</b> 
 Acrílico y spray sobre acetato y papel. 
-Medidas: 50 x 50 cm.220€.</figcaption>
+Medidas: 50 x 50 cm. 220€.</figcaption>
 </figure>
 </div>
 
