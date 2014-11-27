@@ -11,21 +11,21 @@ La trama, el pixel, lo macro y lo micro definen la obra de **Colin McCallum**.
 <figure>
 	<a href="/images/McCALLUM/P1040898.jpg"><img src="/images/McCALLUM/P1040898.jpg" alt="image"></a>
 	<figcaption><b>PRISM PURPLE ORANGE YELLOW.</b>
-Acrílico y spray sobre tela 
+Acrílico y spray sobre tela. 
 Medidas: 120 x 120 cm. 1.700€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/McCALLUM/S.jpg"><img src="/images/McCALLUM/S.jpg" alt="image"></a>
 <figcaption><b>AERIAL BLUE SILVER.</b> 
-Acrílico sobre tela 
+Acrílico sobre tela. 
 Medidas: 70x70 cm. 360€.</figcaption>	
 </figure>
 
 <figure>
 	<a href="/images/McCALLUM/P1050544.jpg"><img src="/images/McCALLUM/P1050544.jpg" alt="image"></a>
 <figcaption><b>SYNTHESIS SILVER PURPLE YELLOW.</b> 
-Acrílico y spray sobre acetato y papel 
+Acrílico y spray sobre acetato y papel. 
 Medidas: 50 x 50 cm.220€.</figcaption>
 </figure>
 </div>
