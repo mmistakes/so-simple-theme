@@ -1,0 +1,35 @@
+---
+title: Colin McCallum
+category: Pintura
+layout: articulo
+published: true
+imagen: McCallum/logo.jpg
+ ---
+La trama, el pixel, lo macro y lo micro definen la obra de ** Colin McCallum**. 
+
+<div class="figure-group">
+<figure>
+	<a href="/images/McCallum/P1040898.jpg"><img src="/images/McCallum/P1040898.jpg" alt="image"></a>
+	<figcaption><b>PRISM PURPLE ORANGE YELLOW.</b>
+Acrílico y spray sobre tela 
+Medidas: 120 x 120 cm. 1.700€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/McCallum/S.jpg"><img src="/images/McCallum/S.jpg" alt="image"></a>
+<figcaption><b>AERIAL BLUE SILVER.</b> 
+Acrílico sobre tela 
+Medidas: 70x70 cm. 360€.</figcaption>	
+</figure>
+
+<figure>
+	<a href="/images/McCallum/P1050544.jpg"><img src="/images/McCallum/P1050544.jpg" alt="image"></a>
+<figcaption><b>SYNTHESIS SILVER PURPLE YELLOW.</b> 
+Acrílico y spray sobre acetato y papel 
+Medidas: 50 x 50 cm.220€.</figcaption>
+</figure>
+</div>
+
+_Después de haber elegido vivir y trabajar en la urbe, mi arte se inspira en la experiencia colectiva de la vida contemporánea. La vida en la ciudad está llena de una serie de imágenes; desde el aeropuerto y la estación de tren con monitores digitales a las pantallas de televisión y ordenador pixelada en el hogar; pasillos de compras de supermercado y su gran variedad de envases, la iluminación y combinaciones aleatorias…_
+_A través de mis observaciones de estructuras y objetos hechos por el hombre, trato de ofrecer una realidad alternativa, justo debajo de la superficie de nuestras experiencias._
+Colin tiene su obra en colecciones privadas y públicas, repartidas entre Nueva York, Singapur, Estocolmo, Bruselas, París, Toronto, Reino Unido y España.
