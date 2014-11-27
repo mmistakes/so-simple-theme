@@ -6,29 +6,9 @@ published: true
 imagen: Lantomo/logo.jpg
 ---
 
-<div class="figure-group">
-<figure>
-	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="image"></a>
-	<figcaption><b>PULLOVER ATTACK</b>
-    Lápiz grafito y lápiz de color sobre papel. 
-    Medidas: 60x44 cm. 350€, con marco: 70x50 cm. 380€. </figcaption>
-</figure>
 
-<figure>
-	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="image"></a>
-	<figcaption><b>BELL TOWER</b> 
-    Lápiz grafito y lápiz de color sobre papel. 
-    Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
-</figure>
-</div>
 
 <div class="figure-group">
-<figure>
-	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="image"></a>
-	<figcaption><b>OCTOPUS DÍPTICO</b>
-    Lápiz grafito sobre papel. 
-    Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
-</figure>
 
 <figure>
 	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="image"></a>
@@ -36,9 +16,7 @@ imagen: Lantomo/logo.jpg
         Impresión digital firmada sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/YOU ARE CRAZY.jpg"><img src="/images/Lantomo/YOU ARE CRAZY.jpg" alt="image"></a>
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING</b> 
