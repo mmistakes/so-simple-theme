@@ -1,6 +1,6 @@
 ---
 title: Mr.Sis
-category: Ilustración 
+category: Dibujo 
 layout: articulo
 published: true
 imagen: "Mr.Sis/mr sis.JPG"
