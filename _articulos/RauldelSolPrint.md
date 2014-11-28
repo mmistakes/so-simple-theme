@@ -1,4 +1,4 @@
---
+---
 title: Raul del Sol
 category: Prints
 layout: articulo
