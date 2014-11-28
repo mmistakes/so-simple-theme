@@ -5,7 +5,7 @@ layout: articulo
 imagen: null
 published: true
 ---
-Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
+Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel italiana de curtido vegetal por artesanos expertos. 
 
 
 
@@ -16,7 +16,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg"></a>
   
     <figcaption><b>CHOCOLATE PARTY</b>
-    Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro. 16 x 16 x 28 cm. 225€.</figcaption>
+Colores disponibles: caramelo, chocolate y negro. 16x16x28 cm. 225€.</figcaption>
 </figure>
 
 
@@ -25,30 +25,31 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 	<a href="/images/Loope/CARAMEL MARKET.jpg"><img src="/images/Loope/CARAMEL MARKET.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>CARAMEL MARKET</b>
   
-    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 50 x 46x 50cm. Colores disponibles: caramelo, chocolate y negro. 540€.</figcaption>
+50x46x50cm. Colores disponibles: caramelo, chocolate y negro. 540€.</figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/Loope/BLACK CITI 2AM.jpg"><img src="/images/Loope/BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
-	<figcaption><b> BLACK CITY 2AM </b> 
+	<figcaption><b>BLACK CITY 2AM</b> 
 
-    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
+ 40x38x40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Loope/CARAMEL CITY.jpg"><img src="/images/Loope/CARAMEL CITY.jpg" alt="bolso de diseño"></a>
 
-	<figcaption><b> CARAMEL CITY</b> 
+	<figcaption><b>CARAMEL CITY</b> 
 
-MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390€</figcaption>
+40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390€</figcaption>
 </figure>
 </div>
 
 <figure>
 	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>BLACK COIN</b> 
-MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.MEDIDAS:10x10x10cm.Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
+	
+10x10x10cm.Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
 </figure>
 
 
