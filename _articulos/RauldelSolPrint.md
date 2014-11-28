@@ -17,8 +17,8 @@ Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16
 
 <figure class="half">
 <figure>
-	<a href="/images/RauldelSol/BLACK NATURE I.jpg"><img src="/images/RauldelSol/BLACK NATURE I.jpg" alt="image"></a>
-	<a href="/images/RauldelSol/BLACK NATURE II.jpg"><img src="/images/RauldelSol/BLACK NATURE II.jpg" alt="image"></a>
+	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="image"></a>
+	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="image"></a>
 	<figcaption><b>BLACK NATURE I . BLACK NATURE II.</b>
 Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16€./figcaption>
 </figure>
