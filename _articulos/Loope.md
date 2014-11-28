@@ -8,20 +8,20 @@ published: true
 Bolsos de diseños innovadores inspirados en la sencillez, realizados con materiales de primera calidad por artesanos expertos.
 
 
+{% highlight html %}
+<figure class="half">
+
+	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg"></a>
+
+	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg"></a>
+  
+    <figcaption><b>CHOCOLATE PARTY</b>
+    Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro. 16 x 16 x 28 cm. 225€.</figcaption>
+</figure>
+{% endhighlight %}
+
 <div class="figure-group">
 </figure>
-	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg"></a>
-	<figcaption><b>CHOCOLATE PARTY</b>
-    MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. Colores disponibles: caramelo, chocolate y negro.</figcaption>
-</figure>
-
-</figure>
-	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg"></a>
-    <figcaption><b>CHOCOLATE PARTY</b>
-    MEDIDAS: 16 x 16 x 28 cm. 225€</figcaption>
-</figure>
-
-<figure>
 	<a href="/images/Loope/CARAMEL MARKET.jpg"><img src="/images/Loope/CARAMEL MARKET.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>CARAMEL MARKET</b>
   
