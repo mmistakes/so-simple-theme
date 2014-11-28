@@ -3,7 +3,7 @@ title: Colin McCallum
 category: Pintura
 layout: articulo
 published: true
-imagen: McCallum/logo.JPG
+imagen: McCALLUM/logo.JPG
 ---
 La trama, el pixel, lo macro y lo micro definen la obra de **Colin McCallum**. 
 
