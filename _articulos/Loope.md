@@ -5,7 +5,7 @@ layout: articulo
 imagen: null
 published: true
 ---
-Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel italiana de curtido vegetal por artesanos expertos. 
+Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel italiana de curtido vegetal por expertos artesanos. 
 
 
 
