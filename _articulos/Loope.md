@@ -21,7 +21,6 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 
 
 <div class="figure-group">
-
 </figure>
 	<a href="/images/Loope/CARAMEL MARKET.jpg"><img src="/images/Loope/CARAMEL MARKET.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>CARAMEL MARKET</b>
@@ -29,9 +28,9 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
     MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 50 x 46x 50cm. Colores disponibles: caramelo, chocolate y negro. 540€.</figcaption>
 </figure>
 
+
 <figure>
 	<a href="/images/Loope/BLACK CITI 2AM.jpg"><img src="/images/Loope/BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
-
 	<figcaption><b> BLACK CITY 2AM </b> 
 
     MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
