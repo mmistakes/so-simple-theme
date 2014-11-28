@@ -43,15 +43,14 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con materi
 
 MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido. MEDIDAS: 40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390€</figcaption>
 </figure>
+</div>
 
 <figure>
 	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="bolso de diseño"></a>
-
 	<figcaption><b>BLACK COIN</b> 
- 
 MATERIALES: Piel italiana de curtido vegetal color chocolate y cremallera de metal pulido.MEDIDAS:10x10x10cm.Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
 </figure>
-</div>
+
 
 Design and manufacturing studio based in Barcelona and run by **Mónica Juvera**. With a free approach to luxury and industrial design, Loope explores non conventional geometries from objects, and new ways to use and build them.
 
