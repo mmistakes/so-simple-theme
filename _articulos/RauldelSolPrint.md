@@ -1,6 +1,6 @@
 --
 title: Raul del Sol
-category: Objetos
+category: Prints
 layout: articulo
 published: true
 imagen: RauldelSol/logo.JPG
