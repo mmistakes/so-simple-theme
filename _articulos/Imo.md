@@ -7,6 +7,7 @@ imagen: IMO/logo.jpg
 ---
 
 En lo simple y lo sencillo reside la belleza. **Imo** reutiliza herramientas de trabajo para darles otra nueva vida.
+
 <div class="figure-group">
 <figure>
 	<a href="/images/IMO/TABURETEHACHASROJO.jpg"><img src="/images/IMO/TABURETEHACHASROJO.jpg"></a>
