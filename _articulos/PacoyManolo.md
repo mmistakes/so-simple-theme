@@ -3,7 +3,7 @@ title: Paco y Manolo
 category: Fotografía
 layout: articulo
 published: true
-imagen:PacoyManolo/logo.JPG
+imagen: PacoyManolo/logo.JPG
 ---
 
 Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
