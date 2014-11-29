@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: null
 ---
-Fotografías urbanas de **VictorM**. Sobre papel mate, 52 x 41,5 cm y 41,5 x 52 cm. En exclusiva en ['galəri]!!
+Fotografías urbanas de **VictorM**. Sobre papel mate, 52 x 41,5 cm y 41,5 x 52 cm. En exclusiva en ['galəri]
 
 <figure class="third">
 	<a href="/images/victorm/FotVM01.jpg"><img src="/images/victorm/FotVM01.jpg" alt="image"></a>
