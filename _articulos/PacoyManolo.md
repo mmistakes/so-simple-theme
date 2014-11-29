@@ -29,7 +29,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 <figure>
 	a href="/images/PacoyManolo/Miguel.jpg"><img src="/images/PacoyManolo/Miguel.jpg"></a>
 	
-	<figcaption><b>MIGUEL#2.</b>
+	<figcaption><b>MIGUEL#2</b>
 	160€.</figcaption>
 </figure>
 </div>
@@ -89,7 +89,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK01.jpg"><img src="/images/PacoyManolo/E.E. KINK01.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK01.jpg"><img src="/images/PacoyManolo/E.E.KINK01.jpg"></a>
 	
 	<figcaption><b> KINK 01 + FOTO.</b>
 	100€.</figcaption>
@@ -97,7 +97,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK1.jpg"><img src="/images/PacoyManolo/E.E. KINK1.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK1.jpg"><img src="/images/PacoyManolo/E.E.KINK1.jpg"></a>
 	
 	<figcaption><b>KINK 01 + FOTO.</b>
 	100€.</figcaption>
@@ -105,7 +105,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK2.jpg"><img src="/images/PacoyManolo/E.E. KINK2.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK2.jpg"><img src="/images/PacoyManolo/E.E.KINK2.jpg"></a>
 	
 	<figcaption><b>KINK 02 + FOTO.</b>
 	65€.</figcaption>
@@ -115,7 +115,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK3.jpg"><img src="/images/PacoyManolo/E.E. KINK3.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK3.jpg"><img src="/images/PacoyManolo/E.E.KINK3.jpg"></a>
 	
 	<figcaption><b>KINK 03+ FOTO.</b>
 	65€.</figcaption>
@@ -123,7 +123,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK5.jpg"><img src="/images/PacoyManolo/E.E. KINK5.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK5.jpg"><img src="/images/PacoyManolo/E.E.KINK5.jpg"></a>
 	
 	<figcaption><b>KINK 05+ FOTO.</b>
 	65€.</figcaption>
@@ -131,7 +131,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	a href="/images/ PacoyManolo/E.E. KINK14.jpg"><img src="/images/PacoyManolo/E.E. KINK14.jpg"></a>
+	a href="/images/ PacoyManolo/E.E.KINK14.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg"></a>
 	
 	<figcaption><b>KINK 14+ FOTO.</b>
 	65€.</figcaption>
@@ -140,7 +140,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	a href="/images/PacoyManolo/E.E. KINK15.jpg"><img src="/images/PacoyManolo/E.E. KINK14.jpg"></a>
+	a href="/images/PacoyManolo/E.E.KINK15.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg"></a>
 	
 	<figcaption><b>KINK 15+ FOTO.</b>
 	65€.</figcaption>
