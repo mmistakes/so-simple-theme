@@ -1,12 +1,13 @@
 ---
-title: Paco y Manolo
+title:Paco y Manolo
 category: Fotografía
 layout: articulo
 published: true
 imagen: PacoyManolo/logo.JPG
 ---
 
-Polaroids, ediciones especiales con fotos numeradas y publicación periódica
+Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
+
 <div class="figure-group">
 <figure>
 <a href="/images/PacoyManolo/Francesc.jpg"><img src="/images/PacoyManolo/Francesc.jpg"></a>
