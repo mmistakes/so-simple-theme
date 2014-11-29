@@ -55,7 +55,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	a href="/images/PacoyManolo/Mara.jpg"><img src="/images/PacoyManolo/ Mara.jpg"></a>
+	a href="/images/PacoyManolo/Mara.jpg"><img src="/images/PacoyManolo/Mara.jpg"></a>
 	<figcaption><b>MARA EN MONTCADA#2.</b>
 	160€.</figcaption>
 </figure>
