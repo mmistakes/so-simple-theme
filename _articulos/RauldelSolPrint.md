@@ -5,6 +5,7 @@ layout: articulo
 published: true
 imagen: RauldelSol/logo.JPG
 ---
+
 **Raul del Sol** plasma el mundo del insecto, su metamorfosis y trasformación con un dibujo que combina de una manera perfecta lo preciosista, lo bello y, por qué no,  lo oscuro…
 
 <figure class="half">
@@ -23,6 +24,4 @@ Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16
 Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16€.</figcaption>
 </figure>
 
-
-
-_La frialdad, la distancia y la metamorfosis son rasgos que me fascinan  del insecto, la minuciosidad, el sentido de la observación y el culto al detalle son propios del entomólogo. La fusión de ambas es lo que intento plasmar en mi trabajo._
+__La frialdad, la distancia y la metamorfosis son rasgos que me fascinan  del insecto, la minuciosidad, el sentido de la observación y el culto al detalle son propios del entomólogo. La fusión de ambas es lo que intento plasmar en mi trabajo.__
