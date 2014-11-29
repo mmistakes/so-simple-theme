@@ -29,9 +29,10 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 <figure>
 	a href="/images/PacoyManolo/Miguel.jpg"><img src="/images/PacoyManolo/Miguel.jpg"></a>
 	
-	<figcaption><b>MIGUEL#2</b>
+	<figcaption><b>MIGUEL#2.</b>
 	160€.</figcaption>
 </figure>
+
 </div>
 
 
