@@ -44,3 +44,4 @@ Madera de roble y haya. MEDIDAS: Altura 36cm. / Ancho  24cm. 59€.</figcaption>
 
 **IMO** es el resultado de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos.
 
+
