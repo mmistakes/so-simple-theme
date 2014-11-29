@@ -12,7 +12,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 <figure>
 	<a href="/images/PacoyManolo/Francesc.jpg"><img src="/images/PacoyManolo/Francesc.jpg"></a>
 	<figcaption><b>FRANCESC C.#3.</b>
-	160€.</figcaption>
+	       160€.</figcaption>
 </figure>
 
 <figure>
