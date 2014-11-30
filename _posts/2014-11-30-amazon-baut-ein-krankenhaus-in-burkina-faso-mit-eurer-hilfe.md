@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: Bei Amazon kaufen und Geld für ein afrikanisches Krankenhaus spenden ohne etwas zu zahlen - mit nur einem Klick!
+title: Amazon baut ein Krankenhaus in Burkina Faso - mit eurer Hilfe!
 tags:
 - Weltverbesserung
 - Laafi
@@ -29,6 +29,8 @@ Amazon mag oft negativ in den Medien stehen. Arbeitsbedingungen, Ausbeute. All d
 
 Also, worauf noch warten? Jetzt gleich die [Erweiterung installieren](http://www.laafi.at/amazon/)! Hier noch Direktlinks für [Firefox](http://www.laafi.at/wp-content/uploads/2007/12/laafi-v1.0.4.xpi) und [Chrome](https://chrome.google.com/webstore/detail/laafi-amazon-spende/pdimjhdbcoijnkhfgilaanimjababehe)! 
 
-Tipp: Sobald ihr die Erweiterung installiert habt, seht ihr am Ende der Amazon URL immer "laafi-21". Das ist das Zeichen dafür, dass die Erweiterung aktiv ist und Einkäufe richtig zugeordnet werden können. 
+Tipp: Sobald ihr die Erweiterung installiert habt, seht ihr am Ende der Amazon URL immer "laafi-21". Das ist das Zeichen dafür, dass die Erweiterung aktiv ist und Einkäufe richtig zugeordnet werden können. (Beispiel: http://www.amazon.de/o/ASIN/B00PYH1U3K/ref=nosim/laafi-21)
 
-> Beispiel: http://www.amazon.de/o/ASIN/B00PYH1U3K/ref=nosim/laafi-21
+## Spenden ohne Amazon
+
+Jeder, der nicht bei Amazon kaufen möchte, aber trotzdem Geld an Laafi spenden möchte, kann dies natürlich auch gerne machen! Laafi besitzt das österreichische Spendengütesiegel und bürgt dafür, dass "100% der Spenden in die unterstützten Projekte fliesen. (Verwaltungs- und Reisekosten werden von den Mitgliedern privat getragen)" (vgl. [laafi.at](http://www.laafi.at/ueber-laafi/))
