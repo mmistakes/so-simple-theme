@@ -50,7 +50,8 @@ _I am an American artist, born and raised in the New England area. My work focus
 
 _Focusing primarily on the medium of printmaking I create limited edition prints with the intent to make fine art accessible for many. The tradition of printmaking has motivated me to look at the masters like Hiroshige, Dürer, Leonard Baskin, as well as contemporary figures such as Nicola Lopez and Logan Hicks. I aspires to become a master of my craft while simultaneously sharing my unique vision of the world, with the world._
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=8vSiMI72Adg" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="http://www.youtube.com/watch?v=8vSiMI72Adg" frameborder="0"> </iframe>
+
 <iframe width="560" height="315" src="http://www.youtube.com/watch?v=8vSiMI72Adg" frameborder="0">  </iframe>
 
 
