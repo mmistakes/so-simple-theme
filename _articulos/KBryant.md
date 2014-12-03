@@ -52,6 +52,6 @@ _Focusing primarily on the medium of printmaking I create limited edition prints
 
 <iframe width="560" height="315" src="http://www.youtube.com/watch?v=8vSiMI72Adg" frameborder="0"> </iframe>
 
-<iframe width="560" height="315" src="http://www.youtube.com/watch?v=8vSiMI72Adg" frameborder="0">  </iframe>
+
 
 
