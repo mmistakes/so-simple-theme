@@ -3,7 +3,7 @@ title: Kyle Bryant
 category: Prints
 layout: articulo
 published: true
-imagen: K.BRYANT/logo.JPG
+imagen: K.BRYANT/logo.jpg
 ---
 _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Barcelona. En esta nueva serie **Kyle Bryant** juega con combinaciones imposibles de carismáticas construcciones de Barcelona dentro de un estilo que él mismo denomina  _Surrealismo Presente_.
 
