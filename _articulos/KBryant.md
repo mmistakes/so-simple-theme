@@ -54,4 +54,4 @@ _Focusing primarily on the medium of printmaking I create limited edition prints
 <iframe width="560" height="315" src="http://player.vimeo.com/video/31196636?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
 
 
-<iframe src="//www.youtube.com/watch?v=8vSiMI72Adg" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src=""http://www.youtube.com/watch?v=8vSiMI72Adg" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>
