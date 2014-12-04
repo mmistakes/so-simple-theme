@@ -33,7 +33,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 	<a href="/images/Loope/BLACK CITI 2AM.jpg"><img src="/images/Loope/BLACK CITI 2AM.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>BLACK CITY 2AM.</b> 
 
- 40x38x40cm. Colores disponibles: caramelo, chocolate y negro. 450€</figcaption>
+ 40x38x40cm. Colores disponibles: caramelo, chocolate y negro. 450€.</figcaption>
 </figure>
 
 <figure>
@@ -41,7 +41,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 
 	<figcaption><b>CARAMEL CITY.</b> 
 
-40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390€</figcaption>
+40 x 38 x 40cm. Colores disponibles: caramelo, chocolate y negro. 390.</figcaption>
 </figure>
 </div>
 
@@ -49,7 +49,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>BLACK COIN.</b> 
 	
-10x10x10cm. Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
+10x10x10cm. Colores disponibles: caramelo, chocolate y negro. 170€.</figcaption>
 </figure>
 
 
