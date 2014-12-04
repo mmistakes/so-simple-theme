@@ -49,7 +49,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="bolso de diseño"></a>
 	<figcaption><b>BLACK COIN.</b> 
 	
-10x10x10cm.Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
+10x10x10cm. Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
 </figure>
 
 
