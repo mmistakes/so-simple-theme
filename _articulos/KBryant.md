@@ -9,21 +9,21 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 
 <div class="figure-group">
 <figure>
-	<a href="/images/K.BRYANT/BREATHING.jpg"><img src="/images/K.BRYANT/BREATHING.jpg"></a>
+	<a href="/images/K.BRYANT/BREATHING.jpg"><img src="/images/K.BRYANT/BREATHING.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Breathing Clearly Now.</b>
 	  Linografía  a dos colores sobre papel, 38 x 28 cm. 20 €.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/K.BRYANT/BURNING.jpg"><img src="/images/K.BRYANT/BURNING.jpg"></a>
+	<a href="/images/K.BRYANT/BURNING.jpg"><img src="/images/K.BRYANT/BURNING.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Burning Cannabis Nonchalantly.</b>
 	  Linografía  a dos colores sobre papel, 70 x 50 cm. 100€. 38 x 28 cm. 20 €.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg"></a>
+	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Boards Create Noise.</b>
 	  Linografía  a dos colores sobre papel, 70 x 50 cm. 100€. 38 x 28 cm. 20 €.
 	</figcaption>
@@ -32,14 +32,14 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 
 <div class="figure-group">
 <figure>
-	<a href="/images/K.BRYANT/BEFORE.jpg"><img src="/images/K.BRYANT/BEFORE.jpg"></a>
+	<a href="/images/K.BRYANT/BEFORE.jpg"><img src="/images/K.BRYANT/BEFORE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Before Coffee Nothing.</b>
 	  Linografía  a dos colores sobre papel, 38 x 28 cm. 20 €.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/K.BRYANT/BICYCLE .jpg"><img src="/images/K.BRYANT/BICYCLE.jpg"></a>
+	<a href="/images/K.BRYANT/BICYCLE .jpg"><img src="/images/K.BRYANT/BICYCLE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Bicycle Courier Nostalgia.</b>
 	  Linografía  a dos colores sobre papel, 38 x 28 cm. 20 €.
 	</figcaption>
@@ -52,4 +52,4 @@ _Focusing primarily on the medium of printmaking I create limited edition prints
 
 
 <iframe width="560" height="315" src="http://player.vimeo.com/video/31196636?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
-<iframe src="//www.youtube.com/watch?v=8vSiMI72Adg" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>
+<iframe src="//www.youtube.com/watch?v=8vSiMI72Adg" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
