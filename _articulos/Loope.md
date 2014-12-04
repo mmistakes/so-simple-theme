@@ -52,6 +52,7 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 10x10x10cm. Colores disponibles: caramelo, chocolate y negro. 170€</figcaption>
 </figure>
 
+
 <iframe src="//player.vimeo.com/video/102448891?title=0&amp;byline=0&amp;portrait=0" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 Design and manufacturing studio based in Barcelona and run by **Mónica Juvera**. With a free approach to luxury and industrial design, Loope explores non conventional geometries from objects, and new ways to use and build them.
