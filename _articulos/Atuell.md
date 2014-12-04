@@ -9,12 +9,12 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Atuell/jerro2.jpg"><img src="/images/Atuell/jerro2.jpg" alt="image"></a>
+	<a href="/images/Atuell/jerro2.jpg"><img src="/images/Atuell/jerro2.jpg" alt="cerámica hecha a mano"></a>
 	<figcaption>Jarrón de cerámica. 17,5 x 9,5 cm. 35€ c.u.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="image"></a>
+	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="cerámica hecha a mano"></a>
 	<figcaption>Maceta de cerámica. 12 x 14 cm. 28€ c.u.</figcaption>
 </figure>
 </div>
