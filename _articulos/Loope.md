@@ -11,9 +11,9 @@ Bolsos de diseños innovadores inspirados en la sencillez, realizados con piel i
 
 <figure class="half">
 
-	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg"></a>
+	<a href="/images/Loope/CARTERA.jpg"><img src="/images/Loope/CARTERA.jpg alt="bolso de diseño"></a>
 
-	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg"></a>
+	<a href="/images/Loope/CARTERA 4a.jpg"><img src="/images/Loope/CARTERA 4a.jpg alt="bolso de diseño"></a>
   
     <figcaption><b>CHOCOLATE PARTY.</b>
 16x16x28 cm. Colores disponibles: caramelo, chocolate y negro. 225€.</figcaption>
