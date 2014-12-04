@@ -44,50 +44,50 @@ Serie _Primavera_ (2014)
 <figure>
 	<a href="/images/Joana/gellifish.jpg"><img src="/images/Joana/gellifish.jpg" alt="Print Joana Santamans Medusa"></a>
 	<figcaption><b>GELLIFISH</b>
-	Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/lainvencion.jpg"><img src="/images/Joana/lainvencion.jpg" alt="Print Joana Santamans La Invención"></a>
 	<figcaption><b>LA INVENCIÓ</b>
-	Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/nencosmic.jpg"><img src="/images/Joana/nencosmic.jpg" alt="Print Joana Santamans Niño Cósmico"></a>
 	<figcaption><b>NEN COSMIC</b>
-	   Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	   Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/noia_fenix.jpg"><img src="/images/Joana/noia_fenix.jpg" alt="Print Joana Santamans Chica Fénix"></a>
 	<figcaption><b>NOIA FENIX</b>
-	Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/octopuscolor.jpg"><img src="/images/Joana/octopuscolor.jpg" alt="Print Joana Santamans Pulpo></a>
 	<figcaption><b>OCTOPUS</b>
-	Reproducción digital firmada, 32 x 45 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 45 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/peixcofre.jpg"><img src="/images/Joana/peixcofre.jpg" alt="Print Joana Santamans Pez Cofre></a>
 	<figcaption><b>PEIX COFRE</b>
-	Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/pink octopus.jpg"><img src="/images/Joana/pink octopus.jpg" alt="Print Joana Santamans Pulpo Rosa></a>
 	<figcaption><b>PINK OCTOPUS</b>
- Reproducción digital firmada, 32 x 45 cm. 30€</figcaption>
+ Reproducción digital firmada, 32 x 45 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/underwater.jpg"><img src="/images/Joana/underwater.jpg" alt="Print Joana Santamans Ballena></a>
 	<figcaption><b>UNDERWATER</b>
-	Reproducción digital firmada, 32 x 45 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 45 cm. 30€.</figcaption>
 </figure>
 </div>
 
@@ -97,31 +97,31 @@ Serie _New Hope_ (2013)
 <figure>
 	<a href="/images/Joana/peixos.jpg"><img src="/images/Joana/peixos.jpg" alt="Print Joana Santamans Peces></a>
 	<figcaption><b>PEIXOS</b>
-	Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+	Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 <figure>
 	<a href="/images/Joana/ocell.jpg"><img src="/images/Joana/ocell.jpg" alt="Print Joana Santamans Pájaro></a>
 	<figcaption><b>OCELL</b>
-Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 	
 
 <figure>
 	<a href="/images/Joana/oliva.jpg"><img src="/images/Joana/oliva.jpg" alt="Print Joana Santamans Buho></a>
 	<figcaption><b>OLIVA </b>
-Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Joana/nena.jpg"><img src="/images/Joana/nena.jpg" alt="Print Joana Santamans Niña></a>
 	<figcaption><b>NENA</b>
-Reproducción digital firmada, 32 x 32 cm. 30€</figcaption>
+Reproducción digital firmada, 32 x 32 cm. 30€.</figcaption>
 </figure>
 	
 <figure>
 	<a href="/images/Joana/llop.jpg"><img src="/images/Joana/llop.jpg" alt="Print Joana Santamans Lobo></a>
 	<figcaption><b>LLOP</b>
-	  Reproducción digital firmada, 45 x 32 cm. 30€</figcaption>
+	  Reproducción digital firmada, 45 x 32 cm. 30€.</figcaption>
 </figure>
 </div>
 
