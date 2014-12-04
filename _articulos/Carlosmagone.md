@@ -25,7 +25,7 @@ Medidas: 21x15 cm. 120€. </figcaption>
 <figure>
 	<a href="/images/Magone/TRÍPTICO3.jpg"><img src="/images/Magone/TRÍPTICO3.jpg" alt="Graffiti. Pintura al spray"></a>
 	<figcaption><b>1.</b>
-Pintura al spray sobre papel de 240gr
+Pintura al spray sobre papel de 240 gr.
 Medidas: 21x15cm. 120€.</figcaption>
 </figure>
 </div>
