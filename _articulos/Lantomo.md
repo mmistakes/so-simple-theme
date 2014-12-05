@@ -12,21 +12,21 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 
 <figure>
 	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="Print Lantomo Dragonfly"></a>
-	<figcaption><b>DRAGONFLY</b>
+	<figcaption><b>DRAGONFLY.</b>
         Impresión digital firmada sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Lantomo/YOU ARE CRAZY.jpg"><img src="/images/Lantomo/YOU ARE CRAZY.jpg" alt="Print Lantomo You are not..."></a>
-	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING</b> 
+	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING.</b> 
     Impresión digital sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Lantomo/HalfFullHalfEmpty.jpg"><img src="/images/Lantomo/HalfFullHalfEmpty.jpg" alt="Print Lantomo Half Full"></a>
-	<figcaption><b>HALF FULL/HALF EMPTY</b>
+	<figcaption><b>HALF FULL/HALF EMPTY.</b>
     Impresión digital firmada sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
@@ -35,14 +35,14 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="Print Lantomo Octopus I"></a>
-	<figcaption><b>OCTOPUS I (Díptico)</b> 
+	<figcaption><b>OCTOPUS I (Díptico).</b> 
     Impresión digital firmada sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-II-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-II-RED.jpg" alt="Print Lantomo Octopus II"></a>
-	<figcaption><b>OCTOPUS II (Díptico)</b> 
+	<figcaption><b>OCTOPUS II (Díptico).</b> 
         Impresión digital firmada sobre papel alta calidad de 265 gr. 
     Medidas: 45x32 cm. 35€.</figcaption>
 </figure>
