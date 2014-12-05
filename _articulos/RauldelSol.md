@@ -10,14 +10,14 @@ imagen: RauldelSol/logo.JPG
 <div class="figure-group">
 <figure>
 	<a href="/images/RauldelSol/METAMORFOSIS VI.jpg"><img src="/images/RauldelSol/METAMORFOSIS VI.jpg" alt="Matrioskas Raul del Sol"></a>
-	<figcaption><b>METAMORFOSIS VI</b>
+	<figcaption><b>METAMORFOSIS VI.</b>
 
 Matrioskas de madera de álamo, 7 unidades. Medida: 24 cm. 245€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RauldelSol/METAMORFOSIS V.jpg"><img src="/images/RauldelSol/METAMORFOSIS V.jpg" alt="Matrioskas Raul del Sol"></a>
-	<figcaption><b>METAMORFOSIS V</b>
+	<figcaption><b>METAMORFOSIS V.</b>
 
 Matrioskas de madera de álamo, 5 unidades. Medida: 16 cm. 195€</figcaption>
 </figure>
