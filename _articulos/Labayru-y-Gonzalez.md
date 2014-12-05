@@ -41,6 +41,4 @@ Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 par
 
 Sus diseños originales, caracterizados por una estética intemporal industrial, están elaborados en roble antiguo de vigas o cubas y de otras maderas sostenibles.
 
-Su colección de muebles hechos a mano incluye mesas, asientos, decoraciones y objetos de almacenamiento.
-
-Todos los artículos se fabrican a medida y están disponibles en tamaños y acabados personalizados.
+Su colección de muebles hechos a mano incluye mesas, asientos, decoraciones y objetos de almacenamiento, se fabrican a medida y están disponibles en tamaños y acabados personalizados.
