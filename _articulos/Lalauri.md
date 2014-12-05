@@ -9,25 +9,22 @@ published: true
 <div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
-	<figcaption>
-	    MR.TIGERHULL, reproducción seriada, 29,5x21 cm. 20 €, con marco
-        35x20cm. 60€
+	<figcaption><b>MR.TIGERHULL.</b> 
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35x20cm. 60€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg"></a>
-	<figcaption>
-	    MR. DEERWINTER, reproducción seriada, 29,5x21 cm. 20 €, con marco
-        35,5x29cm. 60€
+	<figcaption><b>MR. DEERWINTER.</b>
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35,5x29cm. 60€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg"></a>
-	<figcaption>
-	    MR. LIONPOINT, reproducción seriada, 29,5x21 cm. 20 €, con marco
-        25x20,5cm. 60€
+	<figcaption><b>MR. LIONPOINT.</b>
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 25x20,5cm. 60€.
 	</figcaption>
 </figure>
 </div>
@@ -38,17 +35,15 @@ nueva serie limitada de **Laura Agustí**.
 <div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/mr.nuno.jpg"><img src="/images/Laura-Agusti/mr.nuno.jpg"></a>
-	<figcaption>
-	    MR. NUNO, reproducción seriada, 29,5x21 cm. 20 €, con marco 24,5x18,5 cm. 
-        50€
+	<figcaption><b>MR. NUNO.</b>
+	Reproducción seriada. Medidas:29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.jes.jpg"><img src="/images/Laura-Agusti/mr.jes.jpg"></a>
-	<figcaption>
-	    MR. JES, reproducción seriada, 29,5x21 cm. 20 €, con marco 24,5x18,5 cm. 
-        50€
+	<figcaption><b>MR. JES.</b>
+	Reproducción seriada.Medidas:29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
 	</figcaption>
 </figure>
 </div>
