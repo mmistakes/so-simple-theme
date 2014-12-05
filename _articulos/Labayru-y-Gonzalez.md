@@ -10,13 +10,14 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <div class="figure-group">
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
-	<figcaption>Estantería contrachapado. Medidas: 150 x 22,5 x 80cm. 380€.</figcaption>
+	<figcaption><b>ESTANTERIA CONTRACHAPADO.</b>
+	Medidas: 150x22,5x80cm. 380€.</figcaption>
 </figure>
  
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru"></a>
-	<figcaption>
-        Altavoces en laminado de pino con tecnología alemana, 30W. Medidas: 21,5 x 61 x 27 cm. 300€.
+	<figcaption><b>ALTAVOCES.</b>
+	Laminado de pino con tecnología alemana, 30W. Medidas: 21,5x61x27 cm. 300€.
     </figcaption>
 </figure>
 </div>
@@ -24,15 +25,15 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <div class="figure-group">
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj-Perro hecho a mano Labayru"></a>
-	<figcaption>
-	    Reloj-perro teckel en laminado de roble. Medidas: 56 x 24 cm. 30€.
+	<figcaption><b>RELOJ-PERRO TECKEL.</b> 
+	Laminado de roble. Medidas: 56x24 cm. 30€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Ciervo.jpg"><img src="/images/Labayru_i_Gonzalez/Ciervo.jpg" alt="Reloj-Ciervo hecho a mano Labayru"></a>
-	<figcaption>
-	    Reloj-Ciervo en laminado de roble. Colores disponibles: madera natural y negro. Medidas: 56 x 24 cm. 35€.
+	<figcaption><b>RELOJ-CIERVO.</b> 
+	Laminado de roble. Colores disponibles: madera natural y negro. Medidas: 56x24 cm. 35€.
 	</figcaption>
 </figure>
 </div>
