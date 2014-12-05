@@ -7,63 +7,63 @@ imagen: "Motorartgarage/logo.jpg"
 ---
 
 <figure>
-<a href="/images/Motorartgarage/IMG_5570.JPG"><img src="/images/Motorartgarage/IMG_5570.JPG"></a>	
+<a href="/images/Motorartgarage/IMG_5570.JPG"><img src="/images/Motorartgarage/IMG_5570.JPG" alt="Tazas Motorartgarage"></a>	
 </figure>
 
 ¿Con qué taza te quedas?
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Motorartgarage/VESPA ROJA.jpg"><img src="/images/Motorartgarage/VESPA ROJA.jpg"></a>
+	<a href="/images/Motorartgarage/VESPA ROJA.jpg"><img src="/images/Motorartgarage/VESPA ROJA.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 	VESPA ROJA. 12€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/VESPA.jpg"><img src="/images/Motorartgarage/VESPA.jpg"></a>
+	<a href="/images/Motorartgarage/VESPA.jpg"><img src="/images/Motorartgarage/VESPA.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 	VESPA VERDE. 12€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/VESPA200.jpg"><img src="/images/Motorartgarage/VESPA200.jpg"></a>
+	<a href="/images/Motorartgarage/VESPA200.jpg"><img src="/images/Motorartgarage/VESPA200.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
   	VESPA200 . 12€.</figcaption>
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/MUSTANG GT500.jpg"><img src="/images/Motorartgarage/MUSTANG GT500.jpg"></a>
+	<a href="/images/Motorartgarage/MUSTANG GT500.jpg"><img src="/images/Motorartgarage/MUSTANG GT500.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption> 
 MUSTANG GT500. 12€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/ISETTA 300.jpg"><img src="/images/Motorartgarage/ISETTA 300.jpg"></a>
+	<a href="/images/Motorartgarage/ISETTA 300.jpg"><img src="/images/Motorartgarage/ISETTA 300.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 ISETTA 300. 12 €</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/PORCHE 356.jpg"><img src="/images/Motorartgarage/PORCHE 356.jpg"></a>
+	<a href="/images/Motorartgarage/PORCHE 356.jpg"><img src="/images/Motorartgarage/PORCHE 356.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
  PORCHE 356. 12€</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/CARAVANARANJA.jpg"><img src="/images/Motorartgarage/CARAVANARANJA.jpg"></a>
+	<a href="/images/Motorartgarage/CARAVANARANJA.jpg"><img src="/images/Motorartgarage/CARAVANARANJA.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 VOLKSWAGEN TRANSPORTER NARANJA. 12€</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/CARAVANAVERDE.jpg"><img src="/images/Motorartgarage/CARAVANAVERDE.jpg"></a>
+	<a href="/images/Motorartgarage/CARAVANAVERDE.jpg"><img src="/images/Motorartgarage/CARAVANAVERDE.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 VOLKSWAGEN TRANSPORTER VERDE. 12€</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Motorartgarage/EXPLORER.jpg"><img src="/images/Motorartgarage/EXPLORER.jpg"></a>
+	<a href="/images/Motorartgarage/EXPLORER.jpg"><img src="/images/Motorartgarage/EXPLORER.jpg" alt="Taza Motorartgarage"></a>
 	<figcaption>
 EXPLORER. 12€</figcaption>
 </figure>
