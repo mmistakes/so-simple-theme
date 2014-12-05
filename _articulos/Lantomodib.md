@@ -10,14 +10,14 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="Dibujo Lantomo Pullover attack"></a>
-	<figcaption><b>PULLOVER ATTACK</b>
+	<figcaption><b>PULLOVER ATTACK.</b>
     Lápiz grafito y lápiz de color sobre papel. 
     Medidas: 60x44 cm. 350€, con marco: 70x50 cm. 380€. </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Lantomo/BELL-TOWER-RED.jpg"><img src="/images/Lantomo/BELL-TOWER-RED.jpg" alt="Dibujo Lantomo Bell Tower"></a>
-	<figcaption><b>BELL TOWER</b> 
+	<figcaption><b>BELL TOWER.</b> 
     Lápiz grafito y lápiz de color sobre papel. 
     Medidas: 75x56 cm. 320€, con marco: 100x70 cm. 350€.</figcaption>
 </figure>
@@ -25,7 +25,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="Dibujo Lantomo Octopus"></a>
-	<figcaption><b>OCTOPUS DÍPTICO</b>
+	<figcaption><b>OCTOPUS DÍPTICO.</b>
     Lápiz grafito sobre papel. 
     Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
 </figure>
