@@ -10,20 +10,20 @@ imagen: "Woodamp/logo.JPG"
 <figure>
 	<a href="/images/Woodamp/FrustrumL.jpg"><img src="/images/Woodamp/FrustrumL.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>FRUSTRUM L.</b>
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø125mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
-Medidas:25cm. Ø12cm. 120€.</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø125mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
+Medidas: 25cm. Ø12cm. 120€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/FrustrumM.jpg"><img src="/images/Woodamp/FrustrumM.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>FRUSTRUM M.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 18cm. Ø12cm. 115€.</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 18cm. Ø12cm. 115€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/FrustrumS.jpg"><img src="/images/Woodamp/FrustrumS.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b> FRUSTRUM S.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 10cm. Ø12cm. 110€.</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 10cm. Ø12cm. 110€.</figcaption>
 </figure>
 </div>
 
@@ -31,15 +31,15 @@ Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con 
 <figure>
 	<a href="/images/Woodamp/Klotz01Azul.jpg"><img src="/images/Woodamp/Klotz01Azul.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>KLOTZ BLUE.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color azul. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
+Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color azul. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
 Medidas: 18cm.Ø12cm. 150€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/Klotz01Blanco.jpg"><img src="/images/Woodamp/Klotz01Blanco.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>KLOTZ WHITE.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color blanco. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
-Medidas: 18cm. Ø12cm. 150€</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color blanco. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
+Medidas: 18cm. Ø12cm. 150€.</figcaption>
 </figure>
 </div>
 
