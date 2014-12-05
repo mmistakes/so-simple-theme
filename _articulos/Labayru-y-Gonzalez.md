@@ -20,7 +20,7 @@ imagen: Labayru_i_Gonzalez/Logo.jpg
 </figure>
 
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg"alt="Reloj hecho a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj hecho a mano Labayru"></a>
 	<figcaption>
 	    Reloj-perro teckel  en laminado de roble, 56 x 24 cm. 30€
 	</figcaption>
