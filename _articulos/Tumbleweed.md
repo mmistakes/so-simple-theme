@@ -12,7 +12,7 @@ imagen: tumbleweed/logo marcel.JPG
 	<a href="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg"><img src="/images/tumbleweed/SILLA DE DESPACHO-WEB.jpg" alt="image"></a>
 	
 	<figcaption><b>SILLA DE DESPACHO GIRATORIA.</b>
-    Base de acero y asiento y respaldo tapizados en polipiel color negro. Medidas:52x80x57 cm. 120€.</figcaption>
+    Base de acero y asiento y respaldo tapizados en polipiel color negro. Medidas: 52x80x57 cm. 120€.</figcaption>
 </figure>
 
 <figure>
