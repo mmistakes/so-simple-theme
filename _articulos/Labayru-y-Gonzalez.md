@@ -18,13 +18,23 @@ imagen: Labayru_i_Gonzalez/Logo.jpg
         Altavoces en laminado de pino con tecnología alemana, 30W. Medidas: 21,5 x 61 x 27 cm. 300€.
     </figcaption>
 </figure>
+</div>
 
+<div class="figure-group">
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj hecho a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj-Perro hecho a mano Labayru"></a>
 	<figcaption>
-	    Reloj-perro teckel  en laminado de roble. Medidas: 56 x 24 cm. 30€.
+	    Reloj-perro teckel en laminado de roble. Medidas: 56 x 24 cm. 30€.
 	</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Labayru_i_Gonzalez/Ciervo.jpg"><img src="/images/Labayru_i_Gonzalez/Ciervo.jpg" alt="Reloj-Ciervo hecho a mano Labayru"></a>
+	<figcaption>
+	    Reloj-Ciervo en laminado de roble. Colores disponibles: madera natural y negro. Medidas: 56 x 24 cm. 35€.
+	</figcaption>
+</figure>
+
 </div>
 
 Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Massana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa Labayru i González.
