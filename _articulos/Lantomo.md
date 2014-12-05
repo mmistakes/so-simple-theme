@@ -1,5 +1,5 @@
 ---
-title: Lantomo
+title: <b>*Lantomo*</b>
 category: Prints
 layout: articulo
 published: true
