@@ -11,42 +11,42 @@ imagen: "oh-fundas/logo.jpg"
 <div class="figure-group">
 <figure>
 	<a href="/images/oh-fundas/caspe.jpg"><img src="/images/oh-fundas/caspe.jpg" alt="Funda Movil"></a>
-	<figcaption><b>MODELO CASPE</b>
+	<figcaption><b>MODELO CASPE.</b>
 18,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/oh-fundas/example.jpg"><img src="/images/oh-fundas/example.jpg" alt="Funda Movil"></a>
 
-	<figcaption><b>MODELO EIXAMPLE</b> 
+	<figcaption><b>MODELO EIXAMPLE.</b> 
 18,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/oh-fundas/Panot.jpg"><img src="/images/oh-fundas/Panot.jpg" alt="Funda Movil"></a>
 
-	<figcaption><b>MODELO PANOT</b> 
+	<figcaption><b>MODELO PANOT.</b> 
 18,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/oh-fundas/patchwork.jpg"><img src="/images/oh-fundas/patchwork.jpg" alt="Funda Movil"></a>
 
-	<figcaption><b>MODELO PATHWORK</b> 
+	<figcaption><b>MODELO PATHWORK.</b> 
 18,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/oh-fundas/pink-tulip.jpg"><img src="/images/oh-fundas/pink-tulip.jpg" alt="Funda Movil"></a>
 
-	<figcaption><b>MODELO PINK TULIP</b> 
+	<figcaption><b>MODELO PINK TULIP.</b> 
 18,50€</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/oh-fundas/tierra.jpg"><img src="/images/oh-fundas/tierra.jpg" alt="Funda Movil"></a>
 
-	<figcaption><b>MODELO TIERRA</b> 
+	<figcaption><b>MODELO TIERRA.</b> 
 18,50€</figcaption>
 </figure>
 
