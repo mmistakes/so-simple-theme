@@ -15,9 +15,9 @@ Queremos proximidad, cariño y buen hacer. Cosas bonitas, originales y/o especia
 
 **['galəri]** también ofrece su espacio para la celebración de eventos y presentaciones.
 
-Puedes contactar con nosotros a través de [nuestro email](mailto:info@galeribcn.com)
+Puedes contactar con nosotros a través de [nuestro email.](mailto:info@galeribcn.com)
 
-**Acércate a conocernos en Viladomat 27, Barcelona**
+**Acércate a conocernos en Viladomat 27, Barcelona.**
 
 ![](/IMG_5327.JPG)
 
