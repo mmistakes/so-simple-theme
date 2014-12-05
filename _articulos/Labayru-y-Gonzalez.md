@@ -9,20 +9,20 @@ imagen: Labayru_i_Gonzalez/Logo.jpg
 <div class="figure-group">
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
-	<figcaption>Estantería contrachapado, 150 x 22,5 x 80cm. 380€</figcaption>
+	<figcaption>Estantería contrachapado. Medidas: 150 x 22,5 x 80cm. 380€.</figcaption>
 </figure>
-
+ 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru"></a>
 	<figcaption>
-        Altavoces en laminado de pino con tecnología alemana, 30W, 21,5 x 61 x27 cm. 300€
+        Altavoces en laminado de pino con tecnología alemana, 30W. Medidas: 21,5 x 61 x 27 cm. 300€.
     </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj hecho a mano Labayru"></a>
 	<figcaption>
-	    Reloj-perro teckel  en laminado de roble, 56 x 24 cm. 30€
+	    Reloj-perro teckel  en laminado de roble. Medidas: 56 x 24 cm. 30€.
 	</figcaption>
 </figure>
 </div>
