@@ -8,9 +8,10 @@ imagen: "Van-Der-Wood/LOGOweb.jpg"
 
 Taburetes vintage trabajados e ilustrados completamente a mano
 <figure>
-	<a href="/images/Van-Der-Wood/Web2.jpg"><img src="/images/Van-Der-Wood/Web2.jpg" alt="image"></a>
+	<a href="/images/Van-Der-Wood/Web2.jpg"><img src="/images/Van-Der-Wood/Web2.jpg" alt="Taburete ilustrado"></a>
 
-	<figcaption>MEDIDAS: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€	
+	<figcaption><b>TABURETES ILUSTRADOS</b>
+	Medidas: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€	
     </figcaption>
 </figure>
 
