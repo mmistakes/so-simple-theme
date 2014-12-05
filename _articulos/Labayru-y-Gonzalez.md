@@ -5,6 +5,7 @@ layout: articulo
 published: true
 imagen: Labayru_i_Gonzalez/Logo.jpg
 ---
+Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen local con acabados a base de barnices ecológicos no tóxicos.
 
 <div class="figure-group">
 <figure>
