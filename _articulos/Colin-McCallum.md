@@ -30,7 +30,7 @@ Medidas: 50 x 50 cm. 220€.</figcaption>
 </figure>
 </div>
 
-_Después de haber elegido vivir y trabajar en la urbe, mi arte se inspira en la experiencia colectiva de la vida contemporánea. La vida en la ciudad está llena de imágenes: desde la del aeropuerto y la estación de tren con monitores digitales a la de las pantallas pixeladas de televisión y ordenador en el hogar o la de los pasillos de compras de supermercado y su gran variedad de envases, su iluminación y combinaciones aleatorias…_
+_Después de haber elegido vivir y trabajar en la urbe, mi arte se inspira en la experiencia colectiva de la vida contemporánea. La vida en la ciudad está llena de imágenes: desde la del aeropuerto y la estación de tren con monitores digitales a la de las pantallas pixeladas de televisión y ordenador en el hogar, o la de los pasillos de compras de supermercado y su gran variedad de envases, su iluminación y combinaciones aleatorias…_
 
 _A través de mis observaciones de estructuras y objetos hechos por el hombre, trato de ofrecer una realidad alternativa, justo debajo de la superficie de nuestras experiencias._
 
