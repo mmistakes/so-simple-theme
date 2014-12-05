@@ -69,5 +69,5 @@ EXPLORER. 12€</figcaption>
 </figure>
 </div>
 
-Detrás de **MotorARTgarage** está Jordi, arquitecto, dibujante de comic y friqui de la automoción. Fruto de todo ello ['galəri] presenta su colección de mug cups de vehículos con encanto y dibujados con todo detalle.
+Detrás de **MotorARTgarage** está Jordi, arquitecto, dibujante de cómic y friki de la automoción. Fruto de todo ello ['galəri] presenta su colección de mug cups de vehículos con encanto y dibujados con todo detalle.
 
