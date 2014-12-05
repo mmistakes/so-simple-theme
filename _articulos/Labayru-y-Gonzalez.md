@@ -34,7 +34,6 @@ imagen: Labayru_i_Gonzalez/Logo.jpg
 	    Reloj-Ciervo en laminado de roble. Colores disponibles: madera natural y negro. Medidas: 56 x 24 cm. 35€.
 	</figcaption>
 </figure>
-
 </div>
 
 Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Massana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa Labayru i González.
