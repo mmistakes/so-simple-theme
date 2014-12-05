@@ -10,18 +10,18 @@ imagen: RauldelSol/logo.JPG
 
 <figure class="half">
 <figure>
-	<a href="/images/RauldelSol/NADA ES VENENO I.jpg"><img src="/images/RauldelSol/NADA ES VENENO I.jpg" alt="image"></a>
-	<a href="/images/RauldelSol/NADA ES VENENO II.jpg"><img src="/images/RauldelSol/NADA ES VENENO II.jpg" alt="image"></a>
+	<a href="/images/RauldelSol/NADA ES VENENO I.jpg"><img src="/images/RauldelSol/NADA ES VENENO I.jpg" alt="Print Raul del Sol"></a>
+	<a href="/images/RauldelSol/NADA ES VENENO II.jpg"><img src="/images/RauldelSol/NADA ES VENENO II.jpg" alt="Print Raul del Sol"></a>
 <figcaption><b>NADA ES VENENO I. NADA ES VENENO II.</b>
-Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16€.</figcaption>
+Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. Medidas: 14,5x21,5 cm. 16€.</figcaption>
 </figure>
 
 <figure class="half">
 <figure>
-	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="image"></a>
-	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="image"></a>
+	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="Print Raul del Sol"></a>
+	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="Print Raul del Sol"></a>
 <figcaption><b>BLACK NATURE I. BLACK NATURE II.</b>
-Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 16€.</figcaption>
+Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. Medidas: 14,5x21,5 cm. 16€.</figcaption>
 </figure>
 
 
