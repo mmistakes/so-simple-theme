@@ -5,6 +5,7 @@ layout: articulo
 published: true
 imagen: "Woodamp/logo.JPG"
 ---
+La delicadeza que proporciona el trabajo artesanal de **Woodamp** se denota en cada una de sus piezas, únicas e irrepetibles.
 
 <div class="figure-group">
 <figure>
