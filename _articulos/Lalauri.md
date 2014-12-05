@@ -36,14 +36,14 @@ nueva serie limitada de **Laura Agustí**.
 <figure>
 	<a href="/images/Laura-Agusti/mr.nuno.jpg"><img src="/images/Laura-Agusti/mr.nuno.jpg"></a>
 	<figcaption><b>MR. NUNO.</b>
-	Reproducción seriada. Medidas:29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.jes.jpg"><img src="/images/Laura-Agusti/mr.jes.jpg"></a>
 	<figcaption><b>MR. JES.</b>
-	Reproducción seriada.Medidas:29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
 	</figcaption>
 </figure>
 </div>
