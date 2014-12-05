@@ -8,65 +8,56 @@ imagen: "Woodamp/logo.JPG"
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Woodamp/FrustrumL.jpg"><img src="/images/Woodamp/FrustrumL.jpg" alt="image"></a>
-	<figcaption><b>FRUSTRUM L</b>
+	<a href="/images/Woodamp/FrustrumL.jpg"><img src="/images/Woodamp/FrustrumL.jpg" alt="Lámpara Woodamp"></a>
+	<figcaption><b>FRUSTRUM L.</b>
 Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø125mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
 MEDIDAS:
 Altura 25cm. / Diámetro 12cm. 120€ </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Woodamp/FrustrumM.jpg"><img src="/images/Woodamp/FrustrumM.jpg" alt="image"></a>
-	<figcaption><b>FRUSTRUM M</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
-MEDIDAS:
-Altura 18cm. / Diámetro 12cm. 115€.</figcaption>
+	<a href="/images/Woodamp/FrustrumM.jpg"><img src="/images/Woodamp/FrustrumM.jpg" alt="Lámpara Woodamp"></a>
+	<figcaption><b>FRUSTRUM M.</b> 
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 18cm. Ø12cm. 115€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Woodamp/FrustrumS.jpg"><img src="/images/Woodamp/FrustrumS.jpg" alt="image"></a>
-	<figcaption><b> FRUSTRUM S</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
-MEDIDAS:
-Altura 10cm. / Diámetro 12cm. 110€.</figcaption>
+	<a href="/images/Woodamp/FrustrumS.jpg"><img src="/images/Woodamp/FrustrumS.jpg" alt="Lámpara Woodamp"></a>
+	<figcaption><b> FRUSTRUM S.</b> 
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 10cm. Ø12cm. 110€.</figcaption>
 </figure>
 </div>
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Woodamp/Klotz01Azul.jpg"><img src="/images/Woodamp/Klotz01Azul.jpg" alt="image"></a>
+	<a href="/images/Woodamp/Klotz01Azul.jpg"><img src="/images/Woodamp/Klotz01Azul.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>KLOTZ BLUE</b> 
 Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color azul. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
-MEDIDAS:
-Altura 18cm. / Diámetro 12cm. 150€</figcaption>
+Medidas: 18cm.Ø12cm. 150€</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Woodamp/Klotz01Blanco.jpg"><img src="/images/Woodamp/Klotz01Blanco.jpg" alt="image"></a>
-	<figcaption><b>KLOTZ WHITE</b> 
+	<a href="/images/Woodamp/Klotz01Blanco.jpg"><img src="/images/Woodamp/Klotz01Blanco.jpg" alt="Lámpara Woodamp"></a>
+	<figcaption><b>KLOTZ WHITE.</b> 
 Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm E27 60W, y cable redondo con doble aislamiento y funda textil de color blanco. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
-MEDIDAS:
-Altura 18cm. / Diámetro 12cm. 150€</figcaption>
+Medidas: 18cm. Ø12cm. 150€</figcaption>
 </figure>
 </div>
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Woodamp/MazettL.jpg"><img src="/images/Woodamp/MazettL.jpg" alt="image"></a>
-	<figcaption><b>MAZETT L</b> 
+	<a href="/images/Woodamp/MazettL.jpg"><img src="/images/Woodamp/MazettL.jpg" alt="Macetero Woodamp"></a>
+	<figcaption><b>MAZETT L.</b> 
 Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de cristal para la planta.
 Pintado con pintura blanca luminiscente.
-MEDIDAS:
-Ancho 15cm. / Largo 30cm. 49€</figcaption>
+Medidas: 30x15.cm. 49€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Woodamp/MazettS.jpg"><img src="/images/Woodamp/MazettS.jpg" alt="image"></a>
-	<figcaption><b>MAZETT S</b> 
+	<a href="/images/Woodamp/MazettS.jpg"><img src="/images/Woodamp/MazettS.jpg" alt="Macetero Woodamp"></a>
+	<figcaption><b>MAZETT S.</b> 
 Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de cristal para la planta.
-Pintado con pintura blanca luminiscente.
-MEDIDAS:
- Ancho 15cm. / Largo 15cm. 35€</figcaption>
+Pintado con pintura blanca luminiscente. Medidas: 15x15cm. 35€.</figcaption>
 </figure>
 </div>
 
