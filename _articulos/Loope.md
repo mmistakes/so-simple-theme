@@ -41,7 +41,7 @@ Colores disponibles: caramelo, chocolate y negro. Medidas: 40x38x40cm. 450€.</
 
 	<figcaption><b>CARAMEL CITY.</b> 
 
-Colores disponibles: caramelo, chocolate y negro. Medidas:40x38x40cm. 390.</figcaption>
+Colores disponibles: caramelo, chocolate y negro. Medidas:40x38x40cm. 390€.</figcaption>
 </figure>
 </div>
 
