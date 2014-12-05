@@ -12,7 +12,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="Dibujo Lantomo Pullover attack"></a>
 	<figcaption><b>PULLOVER ATTACK.</b>
     Lápiz grafito y lápiz de color sobre papel. 
-    Medidas: 60x44 cm. 350€, con marco: 70x50 cm. 380€. </figcaption>
+    Medidas: 60x44 cm. 350€, con marco: 70x50 cm. 380€.</figcaption>
 </figure>
 
 <figure>
@@ -27,7 +27,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="Dibujo Lantomo Octopus"></a>
 	<figcaption><b>OCTOPUS DÍPTICO.</b>
     Lápiz grafito sobre papel. 
-    Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€. </figcaption>
+    Medidas: 52x44 cm x 2 unidades, 580€, con marco: 67x110 cm. 680€.</figcaption>
 </figure>
 
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
