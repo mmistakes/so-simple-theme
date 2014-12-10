@@ -102,7 +102,7 @@ Reproducción digital firmada, 29x21,7 cm. 15€</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/OCHAGAVIA/PLANETA INGRAVIDO.jpg"><img src="/images/OCHAGAVIA /PLANETA INGRAVIDO.jpg" alt="Print Ochagavia"></a>
+	<a href="/images/OCHAGAVIA/PLANETA INGRAVIDO.jpg"><img src="/images/OCHAGAVIA/PLANETA INGRAVIDO.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>PLANETA INGRÁVIDO.</b>
 Reproducción digital firmada, 29x21,7 cm. 15€</figcaption>
 </figure>
