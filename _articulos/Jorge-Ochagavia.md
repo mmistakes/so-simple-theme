@@ -90,12 +90,6 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 </figure>
 
 <figure>
-	<a href="/images/OCHAGAVIA/ALADINO.jpg"><img src="/images/OCHAGAVIA/ALADINO.jpg" alt="Print Ochagavia"></a>
-	<figcaption><b>ALADINO.</b>
-Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
-</figure>
-
-<figure>
 	<a href="/images/OCHAGAVIA/ESCONDIDO.jpg"><img src="/images/OCHAGAVIA/ESCONDIDO.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>ESCONDIDO.</b>
 Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
@@ -106,6 +100,7 @@ Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 	<figcaption><b>PLANETA INGRÁVIDO.</b>
 Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 </figure>
+
 	
 <figure>
 	<a href="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg"><img src="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg" alt="Print Ochagavia"></a>
@@ -117,6 +112,12 @@ Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 	<a href="/images/OCHAGAVIA/SEMILLAS.jpg"><img src="/images/OCHAGAVIA/SEMILLAS.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>SEMILLAS.</b>
 	  Reproducción digital firmada, 28x29 cm. 20€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/OCHAGAVIA/ALADINO.jpg"><img src="/images/OCHAGAVIA/ALADINO.jpg" alt="Print Ochagavia"></a>
+	<figcaption><b>ALADINO.</b>
+Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
 <figure>
