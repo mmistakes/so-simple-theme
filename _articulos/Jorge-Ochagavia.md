@@ -3,7 +3,7 @@ title: Jorge Ochagavia
 category: Prints
 layout: articulo
 published: true
-imagen: "OCHAGAVIA/logo.JPG"
+imagen: "OCHAGAVIA/LOGO.jpg"
 ---
 
 **Jorge Ochagavia** ilustra todo un mundo onírico con fauna y flora propia .
