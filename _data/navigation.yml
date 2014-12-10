@@ -3,14 +3,14 @@
 - title: About
   url: /about/
 
-- title: Articles
-  url: /articles/
+- title: Archives
+  url: /archives/
 
-- title: Blog
-  url: /blog/
+- title: Categories
+  url: /categories/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Tags
+  url: /tags/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Subscribe
+  url: /feed.xml

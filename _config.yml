@@ -1,16 +1,20 @@
 # Site wide configuration
 
-title: Site Title
+title: Shounen Spirit
 locale: en_US
-description: Describe your website here.
+description: 少年スピリット
 logo: site-logo.png
 search: true
-url: 
+url: http://localhost
 
+port: 80
+host: 127.0.0.1
+
+feature: so-simple-sample-image-7.jpg
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   /:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
@@ -32,16 +36,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Terrell Broomer(テレル ブルーマ)
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
-  twitter: #username
+  twitter: domofactor
   facebook: #username
-  github: #username
+  github: terrellb
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
+  instagram: domofactor
   flickr: #username
   tumblr: #username
   google:
