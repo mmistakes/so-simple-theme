@@ -46,7 +46,7 @@ Madera de roble y haya. Medidas: Altura 36cm. / Ancho  24cm. 59€.</figcaption>
 <figure>
 	<a href="/images/IMO/PERCHERO1.jpg"><img src="/images/IMO/PERCHERO1.jpg"></a>
 	
-	<a href="/images/IMO/PERCHERO1A.jpg"><img src="/images/IMO/PERCHERO1.jpg"></a>
+	<a href="/images/IMO/PERCHERO1A.jpg"><img src="/images/IMO/PERCHERO1A.jpg"></a>
 	<figcaption><b>PERCHERO.</b>
 Colgadores realizados con ramas de árbol y acabado de barniz al agua. 35€.</figcaption>
 </figure>
@@ -54,6 +54,7 @@ Colgadores realizados con ramas de árbol y acabado de barniz al agua. 35€.</f
 
 
 **IMO** es el resultado de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos.
+
 
 
 <iframe width="500" height="333" src="https://player.vimeo.com/video/84877725?color=ffffff" frameborder="0" allowfullscreen></iframe>
