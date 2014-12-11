@@ -1,11 +1,11 @@
 ---
-title: Carlos MagOne
+title: Mag1
 category: Prints
 layout: articulo
 published: true
 imagen: Magone/logo.jpg
 ---
-El graffiti de **Carlos MagOne**  pasa al papel en forma de explosiones geométricas de color. 
+El graffiti de **Mag1**  pasa al papel en forma de explosiones geométricas de color. 
 
 <div class="figure-group">
 <figure>
