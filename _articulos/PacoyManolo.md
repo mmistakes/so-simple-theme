@@ -129,4 +129,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 </figure>
 
 
+**Paco y Manolo** se licenciaron en Bellas Artes en el año 1998, y al poco tiempo comenzaron a trabajar juntos como retratistas para diferentes medios impresos como aB, La Luna de El Mundo, El Pais, Neo2, Rock de Lux, Marie Claire, Tentaciones o Metal. En el año 2004 presentaron Common People en Iguapop Gallery, una serie de desnudos de gente anónima. A partir de ese momento, y progresivamente, dejaron de lado su trabajo para publicaciones, centrándose en proyectos más personales expuestos en diferentes galerías tanto nacionales como internacionales. Entre estos trabajos destacan Memento Mori, Preludio o Forgotten Dreams.
+
+En el año 2006 presentaron Kink Ediciones, editorial con la que publican Kink, una revista dedicada al desnudo masculino con distribución internacional.
 
