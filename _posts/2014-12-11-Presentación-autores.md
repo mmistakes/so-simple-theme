@@ -5,23 +5,16 @@ description: Presentación de autores.
 category: blog
 tags: 
   - Design
-  - Diseño
   - Dibujo
-  - Draw
-  - Fotografía
   - Photography
   - Pintura
-  - Painting
   - Prints
   - Muebles
-  - Furniture
   - Objects
   - Bolsos
-  - Handbags
   - Cerámica
   - Tshirts
   - Lámparas
-  - Lamps
 author: 
   name: galeribcn
   avatar: "bio-photo-alt.jpg"
