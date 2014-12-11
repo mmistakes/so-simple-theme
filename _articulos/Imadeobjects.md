@@ -53,7 +53,9 @@ Colgadores realizados con ramas de árbol y acabado de barniz al agua. 35€.</f
 
 
 
+
 **IMO** es el resultado de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos.
+
 
 
 
