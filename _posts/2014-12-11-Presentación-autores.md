@@ -19,7 +19,7 @@ tags:
   - Bolsos
   - Handbags
   - Cerámica
-  - T-Shirts
+  - Tshirts
   - Lámparas
   - Lamps
 author: 
