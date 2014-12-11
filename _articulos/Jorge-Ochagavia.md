@@ -30,7 +30,7 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 
 <figure>
 	<a href="/images/OCHAGAVIA/DIENTES.jpg"><img src="/images/OCHAGAVIA/DIENTES.jpg" alt="Print Ochagavia"></a>
-	<figcaption> <b>DIENTES.</b>
+	<figcaption><b>DIENTES.</b>
 	Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
