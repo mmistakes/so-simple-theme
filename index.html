@@ -4,6 +4,6 @@ title: Latest Posts
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   {% include post-grid.html %}
 {% endfor %}

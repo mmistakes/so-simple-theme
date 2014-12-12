@@ -6,11 +6,12 @@ description: 少年スピリット
 logo: site-logo.png
 search: true
 url: http://localhost
-
 port: 80
 host: 127.0.0.1
 
+# Post Configuration
 feature: so-simple-sample-image-7.jpg
+paginate: 8
 
 # Jekyll configuration
 
