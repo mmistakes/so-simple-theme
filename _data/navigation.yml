@@ -1,16 +1,16 @@
 # Site navigation links
 
 - title: About
-  url: /about/
+  url: /about
 
 - title: Archives
-  url: /archives/
+  url: /archives
 
 - title: Categories
-  url: /categories/
+  url: /categories
 
 - title: Tags
-  url: /tags/
+  url: /tags
 
 - title: Subscribe
   url: /feed.xml

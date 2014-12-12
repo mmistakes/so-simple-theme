@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Post Archives
+permalink: /archives/
 description: "An archive of posts."
 comments: false
 ---

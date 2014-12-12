@@ -36,16 +36,16 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Terrell Broomer(テレル ブルーマ)
+  name: Terrell Broomer
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
-  twitter: domofactor
+  twitter:
   facebook: #username
   github: terrellb
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: domofactor
+  instagram:
   flickr: #username
   tumblr: #username
   google:

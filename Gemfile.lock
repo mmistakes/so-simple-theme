@@ -48,7 +48,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
-    octopress (3.0.0.rc.18)
+    octopress (3.0.0.rc.20)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
       octopress-deploy
@@ -57,11 +57,11 @@ GEM
     octopress-deploy (1.0.0)
       colorator
       octopress-docs
-    octopress-docs (0.0.10)
+    octopress-docs (0.0.11)
       jekyll (~> 2.0)
       octopress-escape-code (~> 1.0)
       octopress-hooks (~> 2.0)
-    octopress-escape-code (1.0.2)
+    octopress-escape-code (1.0.3)
       octopress-hooks (~> 2.0)
     octopress-hooks (2.2.1)
       jekyll (~> 2.0)
@@ -74,7 +74,7 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    redcarpet (3.2.1)
+    redcarpet (3.2.2)
     ref (1.0.5)
     safe_yaml (1.0.4)
     sass (3.4.9)
