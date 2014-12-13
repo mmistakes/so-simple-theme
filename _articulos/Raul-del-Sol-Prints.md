@@ -24,5 +24,6 @@ Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. Me
 Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. Medidas: 14,5x21,5 cm. 16€.</figcaption>
 </figure>
 
+_La frialdad_
 
 _La frialdad, la distancia y la metamorfosis son rasgos que me fascinan  del insecto, la minuciosidad, el sentido de la observación y el culto al detalle son propios del entomólogo. La fusión de ambas es lo que intento plasmar en mi trabajo._
