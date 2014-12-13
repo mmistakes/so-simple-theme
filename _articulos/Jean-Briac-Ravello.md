@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: "RAVELLO/LOGO.JPG"
 ---
-Bandejas de mármol blanco Macael de ** Jean Briac Ravello **. La simplicidad dl buen gusto.
+Bandejas de mármol blanco Macael de **Jean Briac Ravello**. La simplicidad dl buen gusto.
 
 <figure>
 	<a href="/images/RAVELLO/BANDEJAS.jpg"><img src="/images/RAVELLO/BANDEJAS.jpg" alt="Bandeja de mármol"></a>
