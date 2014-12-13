@@ -10,7 +10,7 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <div class="figure-group">
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
-	<figcaption><b>ESTANTERIA.</b>
+	<figcaption><b>ESTANTERÍA CURVA.</b>
 	Contrachapado. Medidas: 150x22,5x80cm. 380€.</figcaption>
 </figure>
  
