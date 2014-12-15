@@ -30,7 +30,7 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 
 <figure>
 	<a href="/images/OCHAGAVIA/DIENTES.jpg"><img src="/images/OCHAGAVIA/DIENTES.jpg" alt="Print Ochagavia"></a>
-	<figcaption><b>DIENTES.</b>
+	<figcaption><b>DIENTES DE SABLE.</b>
 	Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 <figure>
 	<a href="/images/OCHAGAVIA/CIELO CUBICO.jpg"><img src="/images/OCHAGAVIA/CIELO CUBICO.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>CIELO CÚBICO.</b>
-	Reproducción digital firmada, 29,7x40 cm. 25€.</figcaption>
+	Reproducción digital firmada, 29,7x40 cm. 20€.</figcaption>
 	</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 <figure>
 	<a href="/images/OCHAGAVIA/DINOZOR.jpg"><img src="/images/OCHAGAVIA/DINOZOR.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>DINOZOR.</b>
-	Reproducción digital firmada, 29,7x42 cm.25€.</figcaption>
+	Reproducción digital firmada, 29,7x42 cm.20€.</figcaption>
 </figure>
 
 <figure>
@@ -111,7 +111,7 @@ Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 <figure>
 	<a href="/images/OCHAGAVIA/SEMILLAS.jpg"><img src="/images/OCHAGAVIA/SEMILLAS.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>SEMILLAS.</b>
-	  Reproducción digital firmada, 28x29 cm. 20€.</figcaption>
+	  Reproducción digital firmada, 21x21 cm. 15€.</figcaption>
 </figure>
 
 <figure>
