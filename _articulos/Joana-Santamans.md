@@ -38,7 +38,7 @@ Serie _Primavera_ (2014)
 <figure>
 	<a href="/images/Joana/fishies.jpg"><img src="/images/Joana/fishies.jpg" alt="Print Joana Santamans Peces"></a>
 	<figcaption> <b>FISHIES.</b>
-	Reproducción digital firmada. Medidas: 32x32 cm. 30€.</figcaption>
+	Reproducción digital firmada. Medidas: 45x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
@@ -123,8 +123,19 @@ Reproducción digital firmada. Medidas: 32x32cm. 30€.</figcaption>
 	<figcaption><b>LLOP.</b>
 	  Reproducción digital firmada. Medidas: 45x32 cm. 30€.</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Joana/REN.jpg"><img src="/images/Joana/REN.jpg" alt="Print Joana Santamans Reno"></a>
+	<figcaption><b>LLOP.</b>
+	  Reproducción digital firmada. Medidas: 45x32 cm. 30€.</figcaption>
+</figure>
 </div>
 
+<figure>
+	<a href="/images/Joana/CERVOL.jpg"><img src="/images/Joana/CERVOL.jpg" alt="Print Joana Santamans Ciervo"></a>
+	<figcaption><b>LLOP.</b>
+	  Reproducción digital firmada. Medidas: 32x32 cm. 30€.</figcaption>
+</figure>
 Joana, positiva i emprenedora, entén la vida a través de l'art. La seva formació en disseny gràfic a l'Escola Eina i el posterior postgrau en Il·lustració Creativa l'ha portat a dedicar-se plenament a la pintura i il·lustració.
 
 Consolidada la seva carrera a la seva ciutat, Barcelona, després d'haver viscut a Londres i Nova York, en l'actualitat està centrada en projectar les seves obres a nivell internacional. Màlaga, València, Porto, San Francisco i Brussel·les són ciutats on ja ha exposat la seva feina.
