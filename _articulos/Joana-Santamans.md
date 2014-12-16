@@ -126,14 +126,14 @@ Reproducción digital firmada. Medidas: 32x32cm. 30€.</figcaption>
 
 <figure>
 	<a href="/images/Joana/REN.jpg"><img src="/images/Joana/REN.jpg" alt="Print Joana Santamans Reno"></a>
-	<figcaption><b>LLOP.</b>
+	<figcaption><b>REN.</b>
 	  Reproducción digital firmada. Medidas: 45x32 cm. 30€.</figcaption>
 </figure>
 </div>
 
 <figure>
 	<a href="/images/Joana/CERVOL.jpg"><img src="/images/Joana/CERVOL.jpg" alt="Print Joana Santamans Ciervo"></a>
-	<figcaption><b>LLOP.</b>
+	<figcaption><b>CERVOL.</b>
 	  Reproducción digital firmada. Medidas: 32x32 cm. 30€.</figcaption>
 </figure>
 Joana, positiva i emprenedora, entén la vida a través de l'art. La seva formació en disseny gràfic a l'Escola Eina i el posterior postgrau en Il·lustració Creativa l'ha portat a dedicar-se plenament a la pintura i il·lustració.
