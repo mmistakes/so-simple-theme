@@ -11,13 +11,13 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
 	<figcaption><b>ESTANTERÍA CURVA.</b>
-	Contrachapado. Medidas: 150x22,5x80cm. 380€.</figcaption>
+	Contrachapado. Medidas: ancho 150, alto 80, largo 22,5 cm. 380€.</figcaption>
 </figure>
  
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru"></a>
 	<figcaption><b>ALTAVOCES.</b>
-	Laminado de pino con tecnología alemana, 30W. Medidas: 21,5x61x27 cm. 300€.
+	Laminado de pino con tecnología alemana, 30W. Medidas: ancho 21,5, alto 61, largo 27 cm. 300€.
     </figcaption>
 </figure>
 </div>
