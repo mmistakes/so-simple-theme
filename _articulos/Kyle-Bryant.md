@@ -22,24 +22,40 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	</figcaption>
 </figure>
 
-<figure>
-	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant"></a>
+figure>
+	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Boards Create Noise.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€.
+	Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€.
 	</figcaption>
 </figure>
 </div>
 
 <div class="figure-group">
 <figure>
+	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant"></a>
+	<figcaption><b>Boards Create Noise.</b>
+	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€.
+	</figcaption>
+</figure>
+
+<figure>
 	<a href="/images/K.BRYANT/BEFORE.jpg"><img src="/images/K.BRYANT/BEFORE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Before Coffee Nothing.</b>
 	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
 	</figcaption>
 </figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/K.BRYANT/BICYCLE.jpg"><img src="/images/K.BRYANT/BICYCLE.jpg" alt="Linografía Kyle Bryant"></a>
+	<figcaption><b>Bicycle Courier Nostalgia.</b>
+	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
+	</figcaption>
+</figure>
 
 <figure>
-	<a href="/images/K.BRYANT/BICYCLE .jpg"><img src="/images/K.BRYANT/BICYCLE.jpg" alt="Linografía Kyle Bryant"></a>
+	<a href="/images/K.BRYANT/BIBLIOGRAPHIC.jpg"><img src="/images/K.BRYANT/BIBLIOGRAPHIC.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Bicycle Courier Nostalgia.</b>
 	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
 	</figcaption>
