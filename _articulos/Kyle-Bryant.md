@@ -22,7 +22,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	</figcaption>
 </figure>
 
-figure>
+<figure>
 	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Boards Create Noise.</b>
 	Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€.
