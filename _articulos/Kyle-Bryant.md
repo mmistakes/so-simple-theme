@@ -55,7 +55,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 </figure>
 
 <figure>
-	<a href="/images/K.BRYANT/BIBLIOGRAPHIC.jpg"><img src="/images/K.BRYANT/BIBLIOGRAPHIC.jpg" alt="Linografía Kyle Bryant"></a>
+	<a href="/images/K.BRYANT/BIBLIO.jpg"><img src="/images/K.BRYANT/BIBLIO.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Bibliographic Citations Noted.</b>
 	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
 	</figcaption>
