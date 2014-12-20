@@ -24,7 +24,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 
 <figure>
 	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant"></a>
-	<figcaption><b>Boards Create Noise.</b>
+	<figcaption><b>Because of Christ’s Nativity.</b>
 	Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€.
 	</figcaption>
 </figure>
@@ -56,7 +56,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 
 <figure>
 	<a href="/images/K.BRYANT/BIBLIOGRAPHIC.jpg"><img src="/images/K.BRYANT/BIBLIOGRAPHIC.jpg" alt="Linografía Kyle Bryant"></a>
-	<figcaption><b>Bicycle Courier Nostalgia.</b>
+	<figcaption><b>Bibliographic Citations Noted.</b>
 	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
 	</figcaption>
 </figure>
