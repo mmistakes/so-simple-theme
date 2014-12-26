@@ -63,4 +63,14 @@ Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: 
 </div>
 
 
+Alza su vuelo cuando el inquietante realismo del grafito de Lucas Moraes le da alas al trazo digital de Oriol Panadès. De este mágico revoloteo nace **Fly to Più**.
+
+La fusión de las diferentes técnicas utilizadas y la sensibilidad de sus creadores, convierten cada prenda en una obra de arte. **Fly to Più** es poesía para la retina.
+
+Lucas Moraes: Tras su largo recorrido en diferentes áreas de la moda y de la mano de las grandes marcas, han llevado a Lucas Moraes a crear su propia moda, aportando fuerza, personalidad y alma a **Fly to Più** con sus ilustraciones.
+
+Oriol Panadés: Su esencia queda impregnada cuando hace una fotografía, en la dirección de arte de una campaña, también la podemos ver en sus ilustraciones. Un arte heredado y visceral que no te dejará indiferente. 
+
+
+
 
