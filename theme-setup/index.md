@@ -290,6 +290,26 @@ Share links appear below author details in the sidebar.
 
 ---
 
+## Disqus Comments
+
+To enable comments [signup for a Disqus account](https://disqus.com/admin/signup/?utm_source=New-Site) and create a shortname for your site. Then add it to your `_config.yml` under the site owner section like so:
+
+{% highlight yaml %}
+site:
+  owner:
+    disqus-shortname: shortname
+{% endhighlight %}
+
+If you would like comments to appear on every post or page that uses the `post.html` layout simply add the following line to your `_config.yml` and you're done.
+
+{% highlight yaml %}
+comments: true
+{% endhighlight %}
+
+To be more selective and granualar with which posts and pages Disqus comments appear on, add `comments: true` to the YAML Front Matter of each post or page instead.
+
+---
+
 ## Twitter Cards
 
 Feature and thumbnail images are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) as well. If you don't assign a thumbnail the site logo is used.
