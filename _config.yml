@@ -12,7 +12,7 @@ search: true
 #host: 127.0.0.1
 
 # Post Configuration
-feature: so-simple-sample-image-7.jpg
+feature: #default feature image for posts
 paginate: 8
 
 # Jekyll configuration
@@ -40,7 +40,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Terrell Broomer
-  avatar: bio-photo.jpg
+  avatar:
   email:
   disqus-shortname: seishunspirit
   twitter: seishunspirit
