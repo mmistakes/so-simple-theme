@@ -3,6 +3,7 @@ layout: page
 permalink: /categories/
 title: Categories Index
 description: "An index of categories."
+comments: false
 ---
 
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}

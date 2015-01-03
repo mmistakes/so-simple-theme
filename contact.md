@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+comments: false
 ---
 
 <form action="https://getsimpleform.com/messages?form_api_token=8f5fba27ef813157e5362c46336c2ac6" method="post">
