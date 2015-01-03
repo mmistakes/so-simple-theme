@@ -7,7 +7,6 @@ logo: site-logo.png
 search: true
 
 #for local testing only!
-#url: http://localhost
 #port: 80
 #host: 127.0.0.1
 
