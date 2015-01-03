@@ -52,7 +52,7 @@ Medidas: 29x42 cm. 300€.</figcaption>
 	<a href="/images/Magone/MAG2.jpg"><img src="/images/Magone/MAG2.jpg" alt="Graffiti. Pintura al spray CB1MAG1"></a>
 	<figcaption><b>S.T.</b>
 Pintura al spray sobre papel de 240gr.
-Medidas: 29x42 cm. 350€.</figcaption>
+Medidas: 29x42 cm. 350€. VENDIDO</figcaption>
 </figure>
 </div>
 
