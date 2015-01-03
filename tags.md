@@ -3,6 +3,8 @@ layout: page
 title: Tag Index
 permalink: /tags/
 excerpt: "An archive of posts sorted by tag."
+image:
+  feature: tags_feature.jpg
 comments: false
 ---
 

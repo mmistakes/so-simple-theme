@@ -3,6 +3,8 @@ layout: page
 title: Post Archives
 permalink: /archives/
 description: "An archive of posts."
+image:
+  feature: archives_feature.jpg
 comments: false
 ---
 

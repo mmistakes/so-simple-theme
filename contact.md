@@ -2,8 +2,6 @@
 layout: page
 title: Contact
 permalink: /contact/
-image:
-  feature: contact_feature.jpg
 comments: false
 ---
 

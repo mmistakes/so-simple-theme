@@ -3,6 +3,8 @@ layout: page
 permalink: /categories/
 title: Categories Index
 description: "An index of categories."
+image:
+  feature: categories_feature.jpg
 comments: false
 ---
 
