@@ -41,13 +41,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Terrell Broomer
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter:
-  facebook: #username
-  github: terrellb
+  email:
+  disqus-shortname: seishunspirit
+  twitter: seishunspirit
+  facebook: seishunspirit
+  github: 
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin:
   instagram:
   flickr: #username
   tumblr: #username
@@ -58,3 +58,6 @@ owner:
     ad-client:
     ad-slot: 
   bing-verify:
+
+# Comments
+comments: true
