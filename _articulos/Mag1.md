@@ -54,6 +54,13 @@ Medidas: 29x42 cm. 300€.</figcaption>
 Pintura al spray sobre papel de 240gr.
 Medidas: 29x42 cm. 350€. VENDIDO.</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Magone/MAG3.jpg"><img src="/images/Magone/MAG3.jpg" alt="Graffiti. Pintura al spray CB1MAG1"></a>
+	<figcaption><b>S.T.</b>
+Pintura al spray sobre papel de 240gr.
+Medidas: 29x42 cm. 350€.</figcaption>
+</figure>
 </div>
 
 Carlos Magone, also known as CB1MAG1, was born Lleida and began playing with spray paint around 1995, but it is not until 1997 that he starts taking graffiti more serious. 
