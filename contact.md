@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<form action="https://getsimpleform.com/messages?form_api_token=5b9e593db65741162d035bb288769583" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=8f5fba27ef813157e5362c46336c2ac6" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='{{ site.url }}/contact' />
   <!-- all your input fields here.... -->
