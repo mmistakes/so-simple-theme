@@ -51,8 +51,11 @@ Madera de roble y haya con acabado de barniz al agua. Medidas: Altura 36cm. / An
 Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada pieza es única. 35€.</figcaption>
 </figure>
 
+<figure class="half">
 <figure>
 	<a href="/images/IMO/anti.jpg"><img src="/images/IMO/anti.jpg" alt="Marco IMO"></a>
+	
+	<a href="/images/IMO/MARCO.jpg"><img src="/images/IMO/MARCO.jpg" alt="Marco IMO"></a>
 	<figcaption><b>ANTIMARCO FAR AWAY.</b>
 Madera de roble. Medidas: 41 x 49 cm. Cada pieza es única. 100€.</figcaption>
 </figure>
