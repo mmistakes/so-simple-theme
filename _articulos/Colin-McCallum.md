@@ -19,7 +19,7 @@ Medidas: 120 x 120 cm. 1.700€.</figcaption>
 	<a href="/images/McCALLUM/S.jpg"><img src="/images/McCALLUM/S.jpg" alt="Colin McCallum Aerial Blue Silver"></a>
 <figcaption><b>AERIAL BLUE SILVER.</b> 
 Acrílico sobre tela. 
-Medidas: 70x70 cm. 360€.</figcaption>	
+Medidas: 70 x 70 cm. 360€.</figcaption>	
 </figure>
 
 <figure>
@@ -27,6 +27,29 @@ Medidas: 70x70 cm. 360€.</figcaption>
 <figcaption><b>SYNTHESIS SILVER PURPLE YELLOW.</b> 
 Acrílico y spray sobre acetato y papel. 
 Medidas: 50 x 50 cm. 220€.</figcaption>
+</figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/McCALLUM/FOYER.jpg"><img src="/images/McCALLUM/FOYER.jpg" alt="Colin McCallum Foyer lines "></a>
+	<figcaption><b>FOYER LINES.</b>
+Acrílico sobre tela. 
+Medidas: 80 x 80 cm. 460€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/McCALLUM/interferency.jpg"><img src="/images/McCALLUM/interferency.jpg" alt="Colin McCallum Interference Study I"></a>
+<figcaption><b>INTERFERENCE STUDY I.</b> 
+Acrílico sobre tela. 
+Medidas: 65 x 54 cm. 360€.</figcaption>	
+</figure>
+
+<figure>
+	<a href="/images/McCALLUM/Prism.jpg"><img src="/images/McCALLUM/Prism.jpg" alt="Colin McCallum Prism Magenta Green Yellow"></a>
+<figcaption><b>PRISM MAGENTA GREEN YELLOW.</b> 
+Acrílico, spray y tinta sobre tela. 
+Medidas: 120 x 120  cm. 1.700€.</figcaption>
 </figure>
 </div>
 
