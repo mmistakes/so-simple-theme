@@ -8,14 +8,14 @@ published: true
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg"></a>
+	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MR. DEERWINTER.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35,5x29cm. 60€.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg"></a>
+	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MR. LIONPOINT.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 25x20,5cm. 60€.
 	</figcaption>
@@ -25,14 +25,14 @@ published: true
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
+	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MR.TIGERHULL.</b> 
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35x20cm. 60€.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"><img src="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"></a>
+	<a href="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"><img src="/images/Laura-Agusti/MISS.CATCARDIFF.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MISS. CATCARDIFF.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€.
 	</figcaption>
@@ -41,14 +41,14 @@ published: true
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"></a>
+	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
 	Reproducción seriada. Medidas: 21x29,5 cm. 20€.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg"></a>
+	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MISS. CATCARDIFF.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€
 	</figcaption>
