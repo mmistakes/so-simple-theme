@@ -8,13 +8,6 @@ published: true
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
-	<figcaption><b>MR.TIGERHULL.</b> 
-	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35x20cm. 60€.
-	</figcaption>
-</figure>
-
-<figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg"></a>
 	<figcaption><b>MR. DEERWINTER.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35,5x29cm. 60€.
@@ -29,26 +22,38 @@ published: true
 </figure>
 </div>
 
-En ['galəri] tenemos el gran placer de presentaros en primicia _Barbudos_, la 
-nueva serie limitada de **Laura Agustí**.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Laura-Agusti/mr.nuno.jpg"><img src="/images/Laura-Agusti/mr.nuno.jpg"></a>
-	<figcaption><b>MR. NUNO.</b>
-	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
+	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg"></a>
+	<figcaption><b>MR.TIGERHULL.</b> 
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 35x20cm. 60€.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Laura-Agusti/mr.jes.jpg"><img src="/images/Laura-Agusti/mr.jes.jpg"></a>
-	<figcaption><b>MR. JES.</b>
-	Reproducción seriada. Medidas: 29,5x21 cm. 20€, con marco 24,5x18,5 cm. 50€.
+	<a href="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"><img src="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"></a>
+	<figcaption><b>MISS. CATCARDIFF.</b>
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
 </div>
 
+<div class="figure-group">
+<figure>
+	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"></a>
+	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
+	Reproducción seriada. Medidas: 21x29,5 cm. 20€.
+	</figcaption>
+</figure>
 
+<figure>
+	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg"></a>
+	<figcaption><b>MISS. CATCARDIFF.</b>
+	Reproducción seriada. Medidas: 29,5x21 cm. 20€
+	</figcaption>
+</figure>
+</div>
 
 
 _...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue,_ 
