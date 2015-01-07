@@ -20,6 +20,8 @@ Las litografías de **Yembara** forman preciosos dibujos a partir de infinidad d
 </div>
 
 
-Enric Rodríguez (Caldes de Montbui, 1983) es **Yembara**
+Enric Rodríguez (Caldes de Montbui, 1983) es **Yembara**.
+
 Estudia en Elisava y la Llotja y trabaja como diseñador industrial y ilustrador.
+
 Ha expuesto sus ilustraciones en varias galerías de Barcelona.
