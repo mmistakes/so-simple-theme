@@ -10,12 +10,12 @@ Las litografías de **Yembara** forman preciosos dibujos a partir de infinidad d
 <div class="figure-group">
 <figure>
 	<a href="/images/YEMBARA/OSO.jpg"><img src="/images/YEMBARA/OSO.jpg" alt="Litografía Yembara"></a>
-	<figcaption><b>OSO.</b>Litografía sobre papel 180 gr. Medidas: 42 x 30 cm. 20€. Litografía sobre madera. Medidas: 29,7 x 24,7 cm. 35€.</figcaption>
+	<figcaption><b>OSO.</b> Litografía sobre papel 180 gr. Medidas: 42 x 30 cm. 20€. Litografía sobre madera. Medidas: 29,7 x 24,7 cm. 35€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/YEMBARA/ARMADILLO.jpg"><img src="/images/YEMBARA/ARMADILLO.jpg" alt="Litografía Yembara"></a>
-	<figcaption><b>ARMADILLO.</b>Litografía sobre papel 180 gr. Medidas: 42 x 30 cm. 20€. Litografía sobre madera. Medidas: 29,6 x 24,3 cm. 35€.</figcaption>
+	<figcaption><b>ARMADILLO.</b> Litografía sobre papel 180 gr. Medidas: 42 x 30 cm. 20€. Litografía sobre madera. Medidas: 29,6 x 24,3 cm. 35€.</figcaption>
 </figure>
 </div>
 
