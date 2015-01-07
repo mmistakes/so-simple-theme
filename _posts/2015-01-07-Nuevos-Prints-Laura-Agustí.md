@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nuevos Prints de Laura Agustí
+title: Nuevos prints de Laura Agustí
 description: Nuevos Prints de Laura Agustí
 category: blog
 tags: 
@@ -14,7 +14,7 @@ comments: true
 share: true
 published: true
 ---
-['galəri] presenta en primicia los nuevos prints de Laura Agustí
+['galəri] presenta en primicia los nuevos prints de **Laura Agustí**
 
 <div class="figure-group">
 <figure>
