@@ -49,7 +49,7 @@ published: true
 
 <figure>
 	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg" alt="Laura Agustí Ilustración"></a>
-	<figcaption><b>MISS. CATCARDIFF.</b>
+	<figcaption><b>FLOWERS.</b>
 	Reproducción seriada. Medidas: 29,5x21 cm. 20€
 	</figcaption>
 </figure>
