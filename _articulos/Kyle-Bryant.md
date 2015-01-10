@@ -11,21 +11,21 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BREATHING.jpg"><img src="/images/K.BRYANT/BREATHING.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Breathing Clearly Now.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €, con marco 40,5 x 30 cm. 65€. Serigrafía 15 x 10 cm. 6€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €, con marco 40,5x30 cm. 65€; serigrafía 15x10 cm. 6€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/K.BRYANT/BURNING.jpg"><img src="/images/K.BRYANT/BURNING.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Burning Cannabis Nonchalantly.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Serigrafía 15 x 10 cm. 6€. Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€, con marco 175€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Because of Christ’s Nativity.</b>
-	Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€, con marco 130€.
+	Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
 	</figcaption>
 </figure>
 </div>
@@ -34,14 +34,14 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Boards Create Noise.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Serigrafía 15 x 10 cm. 6€. Linografía sobre papel Rives 250 gr. Medidas: 70x50 cm. 100€, con marco 175€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/K.BRYANT/BEFORE.jpg"><img src="/images/K.BRYANT/BEFORE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Before Coffee Nothing.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Serigrafía 15 x 10 cm. 6€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€.
 	</figcaption>
 </figure>
 </div>
@@ -50,14 +50,14 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BICYCLE.jpg"><img src="/images/K.BRYANT/BICYCLE.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Bicycle Courier Nostalgia.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/K.BRYANT/BIBLIO.jpg"><img src="/images/K.BRYANT/BIBLIO.jpg" alt="Linografía Kyle Bryant"></a>
 	<figcaption><b>Bibliographic Citations Noted.</b>
-	  Serigrafía a dos colores sobre papel. Medidas: 38x28 cm. 20 €. Serigrafía 15 x 10 cm. 6€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€.
 	</figcaption>
 </figure>
 </div>
