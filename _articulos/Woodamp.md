@@ -12,19 +12,19 @@ La delicadeza que proporciona el trabajo artesanal de **Woodamp** se denota en c
 	<a href="/images/Woodamp/FrustrumL.jpg"><img src="/images/Woodamp/FrustrumL.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>FRUSTRUM L.</b>
 Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø125mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo.
-Medidas: 25cm. Ø12cm. 120€.</figcaption>
+Medidas: 18cm. Ø12cm. 120€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/FrustrumM.jpg"><img src="/images/Woodamp/FrustrumM.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b>FRUSTRUM M.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 18cm. Ø12cm. 115€.</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 14cm. Ø11cm. 115€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/FrustrumS.jpg"><img src="/images/Woodamp/FrustrumS.jpg" alt="Lámpara Woodamp"></a>
 	<figcaption><b> FRUSTRUM S.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 10cm. Ø12cm. 110€.</figcaption>
+Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color rojo. Medidas: 10cm. Ø10cm. 110€.</figcaption>
 </figure>
 </div>
 
