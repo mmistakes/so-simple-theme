@@ -72,7 +72,7 @@ Con hebilla metálica regulable. Ancho 4cm. 37,50€.</figcaption>
 
 </div>
 
-Darrere **Tstil -el reciclatge fet creació-** s'hi amaguen les mans de la Teresa Giralt (Calaf). Amb aquesta marca, s'inicia una nova etapa qualificada per ella com emprenedora i engrescadora dins la seva llarga vida vinculada al món de l'artesania.
+Darrere **Tstil** -el reciclatge fet creació- s'hi amaguen les mans de la Teresa Giralt (Calaf). Amb aquesta marca, s'inicia una nova etapa qualificada per ella com emprenedora i engrescadora dins la seva llarga vida vinculada al món de l'artesania.
 
 Ceramista de professió, després d'uns anys d'inactivitat va decidir un canvi de rumb tirant-se de cap al món del reciclatge. I és que **Tstil** converteix els materials més inimaginables amb creacions 100% portables al dia a dia.
 
