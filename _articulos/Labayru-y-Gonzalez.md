@@ -11,13 +11,13 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
 	<figcaption><b>ESTANTERÍA CURVA.</b>
-	Contrachapado. Medidas: ancho 150, alto 80, largo 22,5 cm. 380€.</figcaption>
+	Madera contrachapada, ancho 150, alto 80, largo 22,5 cm. 380€.</figcaption>
 </figure>
  
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru"></a>
 	<figcaption><b>ALTAVOCES.</b>
-	Laminado de pino con tecnología alemana, 30W. Medidas: ancho 21,5, alto 61, largo 27 cm. 300€.
+	Laminado de pino con tecnología alemana, 30W. Ancho 21,5, alto 61, largo 27 cm. 300€.
     </figcaption>
 </figure>
 </div>
@@ -26,19 +26,19 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj-Perro hecho a mano Labayru"></a>
 	<figcaption><b>RELOJ-PERRO TECKEL.</b> 
-	Laminado de roble. Medidas: 56x24 cm. 30€.
+	Disponible en varios colores, 28x54 cm. 30€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Labayru_i_Gonzalez/Ciervo.jpg"><img src="/images/Labayru_i_Gonzalez/Ciervo.jpg" alt="Reloj-Ciervo hecho a mano Labayru"></a>
 	<figcaption><b>RELOJ-CIERVO.</b> 
-	Laminado de roble. Colores disponibles: madera natural y negro. Medidas: 56x24 cm. 35€.
+	Laminado de roble. Disponible en varios colores, 52x42 cm. 35€.
 	</figcaption>
 </figure>
 </div>
 
-Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Massana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa Labayru i González.
+Angel Labayru González, nacido en Navarra en 1973, vino a Barcelona en 1992 para estudiar diseño industrial en la Escuela Massana. Tras años trabajando en el sector de diseño automocion, en el año 2012 decidió dedicarse a diseñar y fabricar muebles, formando su empresa **Labayru i González**.
 
 Sus diseños originales, caracterizados por una estética intemporal industrial, están elaborados en roble antiguo de vigas o cubas y de otras maderas sostenibles.
 
