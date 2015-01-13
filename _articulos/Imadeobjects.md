@@ -1,12 +1,12 @@
 ---
-title: Imo
+title: IMO
 category: Muebles
 layout: articulo
 published: true
 imagen: IMO/logo.JPG
 ---
 
-En lo simple y lo sencillo reside la belleza. **Imo** reutiliza herramientas de trabajo para darles otra nueva vida.
+En lo simple y lo sencillo reside la belleza. **IMO** reutiliza herramientas de trabajo para darles otra nueva vida.
 
 <div class="figure-group">
 <figure>
