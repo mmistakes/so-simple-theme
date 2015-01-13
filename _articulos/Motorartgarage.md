@@ -10,7 +10,7 @@ imagen: "Motorartgarage/logo.jpg"
 <a href="/images/Motorartgarage/IMG_5570.JPG"><img src="/images/Motorartgarage/IMG_5570.JPG" alt="Tazas Motorartgarage"></a>	
 </figure>
 
-¿Con qué taza te quedas?
+Colección de tazas de **MotorARTgarage** que recogen vehículos diseñados con un toque de cómic.
 
 <div class="figure-group">
 <figure>
