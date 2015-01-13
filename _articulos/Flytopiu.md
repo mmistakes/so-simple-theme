@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: FLYTOPIU/logo.JPG
 ---
-Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M y L.
+Diseños originales de **Fly to Più** de aves migratorias que hacen su parada por tierras de Cataluña. Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M y L.
 
 <div class="figure-group">
 
