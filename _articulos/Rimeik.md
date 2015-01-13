@@ -9,7 +9,7 @@ published: true
 	<a href="/images/rimeik/IMG_5455.JPG"><img src="/images/rimeik/IMG_5455.JPG" alt="image"></a>
 
 	<figcaption><b>BANCO DE MADERA DE ABETO.</b> 
-	Realizado con técnicas tradicionales recogiendo una imagen básica e imperfecta. Medidas: 110x34,5x22,5 cm. 170€.</figcaption>
+	Realizado con técnicas tradicionales recogiendo una imagen básica e imperfecta. 110x34,5x22,5 cm. 170€.</figcaption>
     
 </figure>
 
