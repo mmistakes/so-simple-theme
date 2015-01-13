@@ -57,11 +57,11 @@ Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada piez
 	
 	<a href="/images/IMO/MARCO.jpg"><img src="/images/IMO/MARCO.jpg" alt="Marco IMO"></a>
 	<figcaption><b>ANTIMARCO FAR AWAY.</b>
-Madera de roble, 41x49 cm. Cada pieza es única. 100€.</figcaption>
+Madera de cerezo, 41x49 cm. Cada pieza es única. 100€.</figcaption>
 </figure>
 
 
-IMO **resulta** de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. 
+IMO resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. 
 
 
 
