@@ -57,7 +57,7 @@ Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada piez
 	
 	<a href="/images/IMO/MARCO.jpg"><img src="/images/IMO/MARCO.jpg" alt="Marco IMO"></a>
 	<figcaption><b>ANTIMARCO FAR AWAY.</b>
-Madera de roble, 41 x 49 cm. Cada pieza es única. 100€.</figcaption>
+Madera de roble, 41x49 cm. Cada pieza es única. 100€.</figcaption>
 </figure>
 
 
