@@ -19,7 +19,7 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 </figure>
 
 <figure>
-	<a href="/images/Atuell/macetapeq.jpg"><img src="/images/Atuell/macetapeq.jpg" alt="cerámica hecha a mano"></a>
+	<a href="/images/Atuell/macetapeq.JPG"><img src="/images/Atuell/macetapeq.JPG" alt="cerámica hecha a mano"></a>
 	<figcaption>Maceta de cerámica. 9 x 9 cm. Cada pieza es única. 18€ c.u.</figcaption>
 </figure>
 </div>
