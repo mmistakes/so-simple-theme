@@ -61,7 +61,7 @@ Madera de roble, 41x49 cm. Cada pieza es única. 100€.</figcaption>
 </figure>
 
 
- **IMO** resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos.
+ **IMO** resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. **IMO**
 
 
 
