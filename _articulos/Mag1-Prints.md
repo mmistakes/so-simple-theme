@@ -11,15 +11,13 @@ El graffiti de **CB1MAG1**  pasa al papel en forma de explosiones geométricas d
 <figure>
 	<a href="/images/Magone/MAG1.jpg"><img src="/images/Magone/MAG1.jpg" alt="Print CB1MAG1"></a>
 	<figcaption><b>S.T.</b>
-Reproducción digital firmada sobre papel de 240gr.
-Medidas: 21x28 cm. 20€, con marco 31x41 cm. 65€.</figcaption>
+Reproducción digital seriada y firmada sobre papel de 240gr. 21x28 cm. 20€, con marco 31x41 cm. 65€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Magone/MAG2.jpg"><img src="/images/Magone/MAG2.jpg" alt="Print CB1MAG1"></a>
 	<figcaption><b>S.T.</b> 
-Reproducción digital firmada sobre papel de 310 gr.
-Medidas: 21x28 cm. 25€, con marco: 31x41 cm. 70€.</figcaption>
+Reproducción digital seriada y firmada sobre papel de 310 gr. 21x28 cm. 25€, con marco: 31x41 cm. 70€.</figcaption>
 </figure>
 </div>
 
