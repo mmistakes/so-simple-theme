@@ -74,19 +74,19 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 <figure>
 	<a href="/images/OCHAGAVIA/DINOZOR EN LA CIUDAD.jpg"><img src="/images/OCHAGAVIA/DINOZOR EN LA CIUDAD.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>DINOZOR EN LA CIUDAD.</b>
- Reproducción digital firmada, 32x32cm. 20€.</figcaption>
+ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/OCHAGAVIA/ROSA INGRAVIDO.jpg"><img src="/images/OCHAGAVIA/ROSA INGRAVIDO.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>ROSA INGRAVIDO.</b>
-	Reproducción digital firmada, 32x32cm. 20€.</figcaption>
+	Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/OCHAGAVIA/DINOZOR.jpg"><img src="/images/OCHAGAVIA/DINOZOR.jpg" alt="Print Ochagavia"></a>
 	<figcaption><b>DINOZOR.</b>
-	Reproducción digital firmada, 29,7x42 cm.20€.</figcaption>
+	Reproducción digital firmada, 42x29,7 cm.20€.</figcaption>
 </figure>
 
 <figure>
