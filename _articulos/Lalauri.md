@@ -34,7 +34,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <figure>
 	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>FLOWERS.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
 </div>
