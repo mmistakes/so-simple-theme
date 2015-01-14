@@ -11,20 +11,20 @@ imagen: "Mr.Sis/mr sis.JPG"
 <figure>
 	<a href="/images/Mr.Sis/LOCO POR TI.jpg"><img src="/images/Mr.Sis/LOCO POR TI.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>LOCO POR TI.</b>
-Rotulador, lápiz de color, acrílico y tinta china sobre papel. Medidas: 29,7x21 cm. 47€.
+Rotulador, lápiz de color, acrílico y tinta china sobre papel, 29,7x21 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>MIERDA EN MI CABEZA.</b> 
-Rotulador, lápiz de color, acuarela y tinta china sobre papel. Medidas: 29,7x21 cm. 47€.</figcaption>
+Rotulador, lápiz de color, acuarela y tinta china sobre papel, 29,7x21 cm. 47€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Mr.Sis/PAJOTE.jpg"><img src="/images/Mr.Sis/PAJOTE.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>PAJOTE.</b> 
-Rotulador, lápiz de color, acuarela y tinta china sobre papel. Medidas: 21x4,8 cm. VENDIDO.</figcaption>
+Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x4,8 cm. VENDIDO.</figcaption>
 </figure>
 </div>
 
@@ -32,14 +32,14 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel. Medidas: 21x4,8 
 <figure>
 	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/HOY NO ESTOY.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE.</b> 
-Rotulador, lápiz de color, acuarela y tinta china sobre papel. Medidas: 29,7x21 cm. 47€.
+Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x29,7 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Mr.Sis/UNA ABEJA.jpg"><img src="/images/Mr.Sis/UNA ABEJA.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>UNA ABEJA.</b> 
-Lápiz de color y acrílico sobre cartulina. Medidas: 17,3x12,5 cm. Con marco 22x16,5 cm. 75€.
+Lápiz de color y acrílico sobre cartulina,  17,3x12,5 cm. Con marco 22x16,5 cm. 75€.
 </figcaption>
 </figure>
 </div>
@@ -48,14 +48,14 @@ Lápiz de color y acrílico sobre cartulina. Medidas: 17,3x12,5 cm. Con marco 22
 <figure>
 	<a href="/images/Mr.Sis/YO TE QUISE.jpg"><img src="/images/Mr.Sis/YO TE QUISE.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>YO TE QUISE CUANDO NO TE QUERÍAS NI TÚ.</b> 
-Lápiz grafito y lápiz de color sobre papel. Medidas:27,7x21 cm. 47€.
+Lápiz grafito y lápiz de color sobre papel, 27,7x21 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Mr.Sis/DESPUES DE TI.jpg"><img src="/images/Mr.Sis/DESPUES DE TI.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>DESPUÉS DE TI.</b> 
-Lápiz grafito y lápiz de color sobre papel. Medidas:27,7x21 cm. 47€.</figcaption>
+Lápiz grafito y lápiz de color sobre papel, 27,7x21 cm. 47€.</figcaption>
 </figure>
 </div>
 
