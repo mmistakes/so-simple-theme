@@ -19,7 +19,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <figure>
 	<a href="/images/Lantomo/YOU ARE CRAZY.jpg"><img src="/images/Lantomo/YOU ARE CRAZY.jpg" alt="Print Lantomo You are not..."></a>
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING.</b> 
-    Impresión digital sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
+    Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
