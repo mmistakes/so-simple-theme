@@ -64,10 +64,10 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 <figcaption>Fotografías sobre papel mate, 40x30 cm. 30€, con marco 52x41,5 cm. 80€.  </figcaption>
 </figure>
 
-<figure class="third">	
+<figure class="half">
+<figure>	
 	<a href="/images/victorm/FotVM10.jpg"><img src="/images/victorm/FotVM10.jpg" alt="Foto urbana VictorM"></a>
 	<a href="/images/victorm/FotVM21.jpg"><img src="/images/victorm/FotVM21.jpg" alt="Foto urbana VictorM"></a>
-	<a href="/images/victorm/FotVM24.jpg"><img src="/images/victorm/FotVM24.jpg" alt="Foto urbana VictorM"></a>
 <figcaption>Fotografías sobre papel mate y sobre papel brillante, 40x30 cm. 40€.  </figcaption>
 </figure>
 
