@@ -344,6 +344,12 @@ span + .entry-title {
 			display: inline;
 		}
 	}
+	/* post excerpt */
+	.excerpt {
+		display: block;
+		float: none;
+		@include font-size(14, no, 16);
+	}
 }
 // Tag index
 .tag-box {

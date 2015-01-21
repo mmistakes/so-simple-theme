@@ -9,14 +9,11 @@
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
-        {% if site.search %}<li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>{% endif %}
 	    </ul>
 	</nav>
 </div><!-- /.navigation-wrapper -->
 
 {% include browser-upgrade.html %}
-
-{% if site.search %}{% include site-search.html %}{% endif %}
 
 {% if page.image.feature %}<header class="masthead">
 	{% if site.logo != null %}

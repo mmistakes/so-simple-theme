@@ -1,45 +1,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
-{% if site.search %}
-<!-- Jekyll Simple Search option -->
-<script>
-  $(document).ready(function() {
-      $('.search-field').jekyllSearch({
-          jsonFile: '{{ site.url }}/search.json',
-          searchResults: '.search-results',
-          template: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
-          fuzzy: true,
-          noResults: '<p>Nothing found.</p>'
-        });
-  });
 
-  (function( $, window, undefined ) {
-    
-     var bs = {
-          close: $(".close-btn"),
-          searchform: $(".search-form"),
-          canvas: $(".js-menu-screen"),
-          dothis: $('.dosearch')
-      };
-    
-    bs.dothis.on('click', function() {
-      $('.search-wrapper').css({ display: "block" });
-      $('body').toggleClass('no-scroll');
-      bs.searchform.toggleClass('active');
-      bs.searchform.find('input').focus();
-      bs.canvas.toggleClass('is-visible');
-    });
-    
-      bs.close.on('click', function() {
-        $('.search-wrapper').removeAttr( 'style' );
-        $('body').toggleClass('no-scroll');
-        bs.searchform.toggleClass('active');
-        bs.canvas.removeClass('is-visible');
-    });
-  })( jQuery, window );
-</script>
-{% endif %}
 {% if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>

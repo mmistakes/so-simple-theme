@@ -230,3 +230,24 @@ select:focus {
 	float : left;
 	margin-left : 0;
 	margin-right : 3px; }
+
+
+// Search
+// --------------------------------------------------
+
+.simple-search {
+	text-align: center;
+	label {
+		display: none;
+	}
+
+	/* input field */
+	#goog-wm-qt {
+		@include media($medium) {
+			width: 80%;
+		}
+	}
+
+	/* submit button */
+	#goog-wm-sb {}
+}

@@ -11,7 +11,7 @@ Looking for a simple, responsive, theme for your Jekyll powered blog? Well look 
 * Minimal embellishments and subtle animations.
 * Optional large feature images for posts and pages.
 * [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
+* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
 * Support for Disqus Comments
 
 ![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
