@@ -323,14 +323,11 @@ Here's an example of a tweet with Twitter Cards enabled.
 
 ---
 
-## Simple Search
+## Jekyll search
 
-Adding `search: true` to your `_config.yml` enables search using Christian Fei's [Simple Jekyll jQuery plugin](https://github.com/christian-fei/Simple-Jekyll-Search). Clicking the search link in the navigation bar will overlay a Search box that searches on post titles using an auto generated JSON file.
+This is a very basic attempt at [indexing a Jekyll site](https://github.com/mathaywarduk/jekyll-search) and returning search results with JSON --- Google this is not.
 
-<figure>
-  <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
-  <figcaption>Search your site by post title</figcaption>
-</figure>
+To exclude posts/pages from search results add `search_omit: true` to their YAML Front Matter.
 
 ---
 
