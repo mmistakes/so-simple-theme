@@ -325,7 +325,7 @@ Here's an example of a tweet with Twitter Cards enabled.
 
 ## Jekyll search
 
-This is a very basic attempt at [indexing a Jekyll site](https://github.com/mathaywarduk/jekyll-search) and returning search results with JSON --- Google this is not.
+This is a very basic attempt at [indexing a Jekyll site](https://github.com/mathaywarduk/jekyll-search) and returning search results with JSON --- Google quality results this is not.
 
 To exclude posts/pages from search results add `search_omit: true` to their YAML Front Matter.
 
