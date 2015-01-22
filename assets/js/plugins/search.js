@@ -96,7 +96,7 @@ function toggleLoadingClass() {
  * @return null
  */
 function getSearchResults(callbackFunction) {
-    $.get(jsonFeedUrl, callbackFunction, 'json');
+    $.get(BASE_URL + jsonFeedUrl, callbackFunction, 'json');
 }
 
 
