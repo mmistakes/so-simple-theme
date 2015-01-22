@@ -6,7 +6,6 @@ description: A simple and clean responsive Jekyll theme for words and photos.
 logo: site-logo.png
 url: //mmistakes.github.io/so-simple-theme
 
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/

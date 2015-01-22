@@ -41,7 +41,10 @@
       </footer>
       <div class="entry-content">
         {{ content }}
-        {% if (site.owner.disqus-shortname and page.comments) or site.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
+        {% if (site.owner.disqus-shortname and page.comments) or site.comments %}
+          <div id="disqus_thread"></div><!-- /#disqus_thread -->
+          {% include disqus_comments.html %}
+        {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
