@@ -43,7 +43,7 @@ Serie _Primavera_ (2014)
 
 <figure>
 	<a href="/images/Joana/gellifish.jpg"><img src="/images/Joana/gellifish.jpg" alt="Print Joana Santamans Medusa"></a>
-	<figcaption><b>GELLIFISH.</b>
+	<figcaption><b>JELLYFISH.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
