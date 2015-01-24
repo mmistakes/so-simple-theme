@@ -18,7 +18,7 @@ Rotulador, lápiz de color, acrílico y tinta china sobre papel, 29,7x21 cm. 47�
 <figure>
 	<a href="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg" alt="Dibujo Mr. Sis"></a>
 	<figcaption><b>MIERDA EN MI CABEZA.</b> 
-Rotulador, lápiz de color, acuarela y tinta china sobre papel, 29,7x21 cm. 47€.</figcaption>
+Rotulador, lápiz de color, acuarela y tinta china sobre papel, 29,7x21 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
