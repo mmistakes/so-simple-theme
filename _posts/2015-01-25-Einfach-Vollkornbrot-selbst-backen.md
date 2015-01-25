@@ -22,6 +22,7 @@ In der Praxis stellte sich dann heraus, dass das Rezept selbst zwar einfach, die
 
 ## Rezept: 
 
+0. Um die Spreu vom Weizen zu trennen, Das Vollkornmehl durch ein Sieb sieben um den Vollkornschrot abzutrennen
 1. Alle Zutaten miteinander vermischen. Das gute am Rezept: es ist kein Kneten notwendig. 
 2. Danach in der Schüssel für 18 Stunden ruhen lassen
 3. Kastenform einölen und bemehlen
