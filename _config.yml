@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: 
+title: 三石的个人网站
 locale: en_US
-description: 
+description: 有种 有趣  有料
 logo: site-logo.png
 url: http://localhost:4000
 
