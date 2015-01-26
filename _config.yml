@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: 三石
+title: 
 locale: en_US
-description: It is a new world
+description: 
 logo: site-logo.png
 url: http://localhost:4000
 
