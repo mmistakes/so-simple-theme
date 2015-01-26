@@ -1,6 +1,5 @@
 ---
 layout: page
-description: "搜索"
 date: 
 modified:
 excerpt:

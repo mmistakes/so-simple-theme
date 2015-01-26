@@ -5,13 +5,12 @@
 
 - title: 关于本站
   url: /aboutTheBlog/
-  
-- title: 我的文章
-  url: /articles/
 
 - title: 我的博客
   url: /blog/
 
-
+- title:  标签
+  url: /tags/
+  
 - title: 搜索
   url: /search/
