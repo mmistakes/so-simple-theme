@@ -3,6 +3,9 @@
 - title: 我是谁
   url: /about/
 
+- title: 关于本站
+  url: /aboutTheBlog/
+  
 - title: 我的文章
   url: /articles/
 
