@@ -32,10 +32,10 @@ To modify styling and highlight colors edit `/_sass/_pygments.scss`.
 {% raw %}
 <nav class="pagination" role="navigation">
     {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
     {% endif %}
     {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+        <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
 </nav><!-- /.pagination -->
 {% endraw %}
@@ -67,10 +67,10 @@ end
     {% raw %}
     <nav class="pagination" role="navigation">
         {% if page.previous %}
-            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+            <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
         {% endif %}
         {% if page.next %}
-            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+            <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
         {% endif %}
     </nav><!-- /.pagination -->
     {% endraw %}
@@ -91,10 +91,10 @@ To modify styling and highlight colors edit `/_sass/_coderay.scss`. Line numbers
 ~~~ html
 {% raw %}<nav class="pagination" role="navigation">
     {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+        <a href="{{ site.baseurl }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
     {% endif %}
     {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+        <a href="{{ site.baseurl }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
 </nav><!-- /.pagination -->{% endraw %}
 ~~~
