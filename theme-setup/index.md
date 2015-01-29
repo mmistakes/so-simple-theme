@@ -239,7 +239,7 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 ### Link Post Type
 
-So Simple Theme supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
+So Simple Theme supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.baseurl }}/articles/sample-link-post) if you need a visual.
 
 ### Author Override
 
@@ -316,7 +316,7 @@ Feature and thumbnail images are used by [Open Graph](https://developers.faceboo
 
 Here's an example of a tweet with Twitter Cards enabled.
 
-![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+![Twitter Card summary large image screenshot]({{ site.baseurl }}/images/twitter-card-summary-large-image.jpg)
 
 **Pro-Tip**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) before they will begin showing up when links to your site are shared.
 {:.notice}
