@@ -13,7 +13,7 @@ imagen: RauldelSol/logo.JPG
 	<a href="/images/RauldelSol/NADA ES VENENO I.jpg"><img src="/images/RauldelSol/NADA ES VENENO I.jpg" alt="Print Raul del Sol"></a>
 	<a href="/images/RauldelSol/NADA ES VENENO II.jpg"><img src="/images/RauldelSol/NADA ES VENENO II.jpg" alt="Print Raul del Sol"></a>
 <figcaption><b>NADA ES VENENO I. NADA ES VENENO II.</b>
-Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€.</figcaption>
+Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€, con marco 60€.</figcaption>
 </figure>
 
 <figure class="half">
@@ -21,6 +21,6 @@ Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21
 	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="Print Raul del Sol"></a>
 	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="Print Raul del Sol"></a>
 <figcaption><b>BLACK NATURE I. BLACK NATURE II.</b>
-Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€.</figcaption>
+Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€, con marco 60€.</figcaption>
 </figure>
 "La frialdad, la distancia y la metamorfosis son rasgos que me fascinan  del insecto, la minuciosidad, el sentido de la observación y el culto al detalle son propios del entomólogo. La fusión de ambas es lo que intento plasmar en mi trabajo."
