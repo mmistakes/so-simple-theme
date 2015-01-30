@@ -9,7 +9,7 @@ tags:
   - Furniture
   - Taburetes
   - Tamborets
-  - Stool
+  - Stools
 author: 
   name: galeribcn
   avatar: "bio-photo-alt.jpg"
