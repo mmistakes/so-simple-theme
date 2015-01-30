@@ -20,6 +20,6 @@ published: true
 A ['galəri] tenim una autèntica invasió de tamborets de Van der Wood. Amb qual et quedes?
 <figure class="half">
 <figure>
-	<a href="/images/ TamboretsIinvasion.jpg"><img src="/images/ TamboretsIinvasion.jpg" alt="Taburete Van der wood"></a>
-	<a href="/images/ TamburetsIG.jpg"><img src="/images/ TamburetsIG.jpg" alt="Print Raul del Sol"></a>
+	<a href="/images/TamboretsIinvasion.jpg"><img src="/images/TamboretsIinvasion.jpg" alt="Taburete Van der Wood"></a>
+	<a href="/images/TamburetsIG.jpg"><img src="/images/TamburetsIG.jpg" alt="Taburete Van der Wood"></a>
 </figure>
