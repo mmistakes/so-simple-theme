@@ -18,6 +18,7 @@ share: true
 published: true
 ---
 A ['galəri] tenim una autèntica invasió de tamborets de Van der Wood. Amb qual et quedes?
+
 <figure class="half">
 <figure>
 	<a href="/images/TamboretsIinvasion.jpg"><img src="/images/TamboretsIinvasion.jpg" alt="Taburete Van der Wood"></a>
