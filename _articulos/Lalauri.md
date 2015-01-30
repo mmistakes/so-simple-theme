@@ -27,7 +27,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <figure>
 	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
-	Reproducción seriada y firmada, 21x29,5 cm. 20€.
+	Reproducción seriada y firmada, 21x29,5 cm. 20€, con marco 30x24,5cm. 60€.
 	</figcaption>
 </figure>
 
@@ -43,14 +43,21 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MR. DEERWINTER.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 35,5x29cm. 60€.
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MR. LIONPOINT.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 25x20,5cm. 60€.
+	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 28x25cm. 60€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/treehouse.jpg"><img src="/images/Laura-Agusti/treehouse.jpg" alt="Laura Agustí Ilustración"></a>
+	<figcaption><b>TREEHOUSE.</b>
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
 </div>
