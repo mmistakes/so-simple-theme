@@ -24,7 +24,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="Dibujo Lantomo Octopus"></a>
 	<figcaption><b>OCTOPUS DÍPTICO.</b>
-    Lápiz grafito sobre papel, 52x44 cm x 2 unidades, 580€, con marco 67x110 cm. 680€.</figcaption>
+    Lápiz grafito sobre papel, 52x44 cm. x 2 unidades, 580€, con marco 67x110 cm. 680€.</figcaption>
 </figure>
 
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
