@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tamborets invasión a ['galəri]
-description: Nous tamborets de Van der Wood a ['galəri]
+title: Tamborets invasion a ['galəri]
+description: Nous tamborets de il·lustrats a ['galəri]
 category: blog
 tags: 
   - Muebles
@@ -17,7 +17,7 @@ comments: true
 share: true
 published: true
 ---
-A ['galəri] tenim una autèntica invasió de tamborets de Van der Wood. Amb qual et quedes?
+A ['galəri] tenim una autèntica invasió de tamborets il·lustrats. Amb qual et quedes?
 
 <figure class="half">
 <figure>
