@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ['galəri] se despide de Colin McCallum
-description:  ['galəri] se despide de Colin McCallum
+description: ['galəri] se despide de Colin McCallum
 category: blog
 tags: 
   - Pintura
@@ -16,11 +16,10 @@ share: true
 published: true
 ---
 
-['galəri] se despide de Colin McCallum. El mercado internacional lo reclama y para nosotros ha sido un verdadero placer tener sus obras durante este tiempo. Aún disponéis de 2 semanas para comprar sus obras en España. 
 
-<div class="content-footer">
-<p>Siempre en<a href="/articulos/Colin-McCallum/"><em>['galəri] Gracias Colin!.</em></a></p>
-</div>
+['galəri] se despide de Colin McCallum. El mercado internacional lo reclama y para nosotros ha sido un verdadero placer tener sus obras durante este tiempo. Aún disponéis de 2 semanas para comprar sus obras en España.<div class="content-footer">
+<p>Siempre en<a href="/articulos/Colin-McCallum/"><em>['galəri].</em></a></p>
+</div>  Gracias Colin!
 
 <figure>
 	<a href="/images/RinconSalaIG.jpg"><img src="/images/RinconSalaIG.jpg" alt="Colin McCallum"></a>
