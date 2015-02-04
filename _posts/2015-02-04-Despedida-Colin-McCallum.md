@@ -20,11 +20,7 @@ published: true
 
 ['galəri] se despide de Colin McCallum. El mercado internacional lo reclama y para nosotros ha sido un verdadero placer tener sus obras durante este tiempo. Aún disponéis de 2 semanas para comprar sus obras en España. 
 
-[['galəri]](http://www.galeribcn.com/articulos/Colin-McCallum.html "Siempre en ['galəri]")
-
-<div class="content-footer">
-<p>Siempre en <a href="/articulos/Colin-McCallum.html/"><em>['galəri].</em></a></p>
-</div> Gracias Colin!
+[Siempre en ['galəri]](http://www.galeribcn.com/articulos/Colin-McCallum.html "Siempre en ['galəri]") Gracias Colin!
 
 <figure>
 	<a href="/images/RinconSalaIG.jpg"><img src="/images/RinconSalaIG.jpg" alt="Colin McCallum"></a>
