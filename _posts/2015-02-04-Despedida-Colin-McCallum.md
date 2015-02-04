@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ['galəri] se despide de Colin McCallum
-description:  Despedida de Colin-McCallum
+description:  ['galəri] se despide de Colin McCallum
 category: blog
 tags: 
   - Pintura
