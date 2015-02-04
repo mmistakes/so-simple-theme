@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Colin McCallum se despide de ['galəri] 
+title: Colin McCallum se despide del ['galəri] 
 description: Colin McCallum se despide del ['galəri] 
 category: blog
 tags: 
