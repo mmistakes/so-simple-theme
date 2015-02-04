@@ -24,6 +24,7 @@ published: true
 	</figcaption>
 </figure>
 
+
 <figure>
 	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg" alt="Laura Agustí Ilustración"></a>
 	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
