@@ -3,7 +3,7 @@ title: DEBOSC
 category: Objetos
 layout: articulo
 published: true
-imagen: “DEBOSC/logo.jpg”
+imagen: DEBOSC/logo.jpg
 ---
 La filosofía de **DEBOSC** se basa en el respeto al medio ambiente, inspiración que les sirve para diseñar y fabricar a través de la madera, sencillos y elegantes productos que solucionan problemas cotidianos o simplemente dan satisfacción a las personas que los utilizan.
 
