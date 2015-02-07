@@ -51,7 +51,7 @@ Bandeja articulada formada por tiras de madera de roble fijadas a una tela, prod
 
 <figure class="half">
 	<a href="/images/DEBOSC/debridge.jpg"><img src="/images/DEBOSC/debridge.jpg" alt="Accesorio ordenador Debosc"></a>
-	<a href="/images/DEBOSC/debridge21.jpg"><img src="/images/DEBOSC/debridg21.jpg" alt="Accesorio ordenador Debosc"></a>
+	<a href="/images/DEBOSC/debri.jpg"><img src="/images/DEBOSC/debri.jpg" alt="Accesorio ordenador Debosc"></a>
     <figcaption><b>DEBRIDGE.</b>
 Eleva la pantalla del ordenador 5 cm. para situarlo a la altura de los ojos, evitando la tensión en el cuello, proporcionando además debajo un espacio adicional para colocar el teclado, mouse y otros accesorios manteniendo así el escritorio ordenado. Realizado con listones de madera de abedul encolados, 52x19x5 cm. 95€.</figcaption>
 </figure>
