@@ -1,4 +1,3 @@
-
 ---
 title: DEBOSC
 category: Objetos
@@ -62,8 +61,9 @@ Eleva la pantalla del ordenador 5 cm. para situarlo a la altura de los ojos, evi
     <figcaption><b>DEBRIDGE2.</b>
 Eleva la pantalla del ordenador 10 cm. para situarlo a la altura de los ojos, evitando la tensión en el cuello, proporcionando además debajo dos espacios adicionales para colocar el teclado, mouse y otros accesorios manteniendo así el escritorio ordenado. Realizado con listones de madera de abedul encolados, 52x19x10 cm, con ranura central de 3 x 37 cm. 115€.</figcaption>
 </figure>
+
 _La madera despierta los sentidos y nos permite disfrutar de un inmenso abanico de sensaciones agradables, sensaciones que nos trasladan a un mundo natural, cálido y acogedor._
 
-_La madera nos enamora y es por eso que cada producto es diferente por la propia característica de la madera de abedul, roble (betas, pequeños nudos, diferentes tonalidades, etc.).
+_La madera nos enamora y es por eso que cada producto es diferente por la propia característica de la madera de abedul, roble (betas, pequeños nudos, diferentes tonalidades, etc.)._
 
 _Todos nuestros artículos así como el embalaje están fabricados con materiales naturales, pensados para el máximo respeto al medio ambiente._
