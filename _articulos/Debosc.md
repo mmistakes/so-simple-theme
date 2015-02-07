@@ -39,7 +39,7 @@ Es el soporte universal utilizado en los productos DEBOSC, pero también se pued
 	<a href="/images/DEBOSC/debeam.jpg"><img src="/images/DEBOSC/debeam.jpg" alt="Soporte portatil Debosc"></a>
 	<a href="/images/DEBOSC/debeam2.jpg"><img src="/images/DEBOSC/debeam2.jpg" alt="Soporte portatil Debosc"></a>
     <figcaption><b>DEBEAM.</b>
-Soporte para portátil que eleva la pantalla reduciendo la tensión sobre cuello, hombros y ojos. Diseñado en forma de curva con topes frontales para evitar la caída del portátil,permitiendo una correcta ventilación del aparato, 30x29x8 cm. 30€.</figcaption>
+Soporte para portátil que eleva la pantalla reduciendo la tensión sobre cuello, hombros y ojos. Diseñado en forma de curva con topes frontales para evitar la caída del portátil, permitiendo una correcta ventilación del aparato, 30x29x8 cm. 30€.</figcaption>
 </figure>
 
 <figure class="half">
