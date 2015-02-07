@@ -11,7 +11,7 @@ La filosofía de **DEBOSC** se basa en el respeto al medio ambiente, inspiració
 	<a href="/images/DEBOSC/DEHOOK.jpg"><img src="/images/DEBOSC/DEHOOK.jpg" alt="Soporte móvil Debosc"></a>
 	<a href="/images/DEBOSC/DEHOOK2.jpg"><img src="/images/DEBOSC/DEHOOK2.jpg" alt= "Soporte móvil Debosc"></a>
     <figcaption><b>DEHOOK.</b>
-Es el soporte universal utilizado en los productos **DEBOSC**, pero también se puede utilizar por separado, como soporte para móviles o tablets de espesores inferiores a 9 mm, y como guardacables para el cargador, auriculares, etc. Realizado en tablero de madera de abedul, por su tamaño (11x3x0,9 cm.), cabe fácilmente en cualquier bolsillo. 4€.</figcaption>
+Es el soporte universal utilizado en los productos DEBOSC, pero también se puede utilizar por separado, como soporte para móviles o tablets de espesores inferiores a 9 mm, y como guardacables para el cargador, auriculares, etc. Realizado en tablero de madera de abedul, por su tamaño (11x3x0,9 cm.), cabe fácilmente en cualquier bolsillo. 4€.</figcaption>
 </figure>
 
 <figure class="half">
