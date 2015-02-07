@@ -3,10 +3,10 @@
 title: DEBOSC
 category: Objetos
 layout: articulo
-imagen: “DEBOSC/LOGODEBOSC.JPG”
 published: true
+imagen: “DEBOSC/LOGODEBOSC.JPG”
 ---
-La filosofía  de **DEBOSC** se basa en el respeto al medio ambiente, inspiración que les sirve para diseñar y fabricar a través de la madera, sencillos y elegantes productos que solucionan problemas cotidianos o simplemente dan satisfacción a las personas que los utilizan.
+La filosofía de **DEBOSC** se basa en el respeto al medio ambiente, inspiración que les sirve para diseñar y fabricar a través de la madera, sencillos y elegantes productos que solucionan problemas cotidianos o simplemente dan satisfacción a las personas que los utilizan.
 <figure class="half">
 	<a href="/images/DEBOSC/DEHOOK.jpg"><img src="/images/DEBOSC/DEHOOK.jpg" alt="Soporte móvil Debosc"></a>
 	<a href="/images/DEBOSC/DEHOOK2.jpg"><img src="/images/DEBOSC/DEHOOK2.jpg" alt= "Soporte móvil Debosc"></a>
