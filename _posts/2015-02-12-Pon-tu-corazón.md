@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #PONTUCORAZON
+title: Pon tu corazón
 description: Proclama tu amor
 category: blog
 tags: 
@@ -11,6 +11,7 @@ tags:
   - Amor
   - Cor
   - Escaparate
+  - Pontucorazon
   - Design
 author: 
   name: galeribcn
