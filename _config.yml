@@ -4,7 +4,7 @@ logo:             site-logo.png
 disqus_shortname: ochronuscom
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://ochronus.com.s3-website-us-east-1.amazonaws.com
+#url:              http://ochronus.com.s3-website-us-east-1.amazonaws.com
 
 comments: true
 
