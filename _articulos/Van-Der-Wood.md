@@ -23,27 +23,19 @@ Taburetes vintage trabajados e ilustrados completamente a mano.
 
 _En **Van der Wood** confluyen diferentes pasiones, el diseño, la pintura, el trabajo de la madera y el arte._
 
-
 _Somos inquietos._
-
 
 _Nos motiva el movimiento, la experimentación de las texturas, materiales y estampas con el fin de crear objetos útiles y auténticos._
 
-
 _Como punto de partida para volcar toda nuestra ebullición interna, elegimos el taburete._
-
 
 _La mínima expresión del asiento, sin brazos ni respaldo, es también el más versátil. Icono decorativo que se destaca en su entorno._
 
-
 _Atravesado por el estilo vintage, cada objeto Van der Wood, es trabajado, estampado y pintado completamente a mano._
-
 
 _Cada uno es único._
 
-
 _Irrepetible._
-
 
 _Cada uno tiene, madera de autor._
 
