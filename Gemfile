@@ -6,3 +6,7 @@ gem 'coderay'
 gem 'rake'
 gem 'thor'
 gem 'activesupport'
+
+# deployment
+
+gem 's3_website'
