@@ -4,12 +4,10 @@ logo:             site-logo.png
 disqus_shortname: ochronuscom
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://ochronus.com.s3-website-us-east-1.amazonaws.com
 
-comments :
-  provider : disqus
-  disqus :
-    short_name : ochronuscom
+comments: true
+
 # Owner/author information
 owner:
   name:           Csaba Okrona
@@ -49,7 +47,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Budapest
 future:      true
-pygments:    true
+highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks

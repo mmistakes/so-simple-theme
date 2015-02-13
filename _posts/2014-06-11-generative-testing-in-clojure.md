@@ -2,8 +2,8 @@
 layout: post
 title: "Generative testing in Clojure"
 category: posts
-featured_image: /images/warning-challenges-ahead.jpg
-cover_image: /images/macbookpro.jpg
+image:
+  feature: macbookpro.jpg
 description: "Introduction to generative testing in Clojure using test.check"
 keywords:
 - clojure
@@ -11,6 +11,8 @@ keywords:
 - unit test
 - generative testing
 - learn clojure
+comments: true
+share: true
 ---
 
 <img src="/images/warning-challenges-ahead.jpg" align="left" width="192" height="250" alt="clojure generative testing" title="clojure generative testing" style="margin-right: 10px; margin-bottom: 5px; margin-top: 15px;" />  
