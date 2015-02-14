@@ -54,7 +54,7 @@ window.onload = function () {
     var d=document.createElement('div'), p=document.createElement('script'), pp=document.createElement('script'), incl; 
     incl = function() { 
         d.id="prezi_player_ufnrer-swszq"; 
-        pp.innerHTML="var player = new PreziPlayer('"+d.id+"', {preziId: 'ufnrer-swszq', width: '1050', height: '550'});"; 
+        pp.innerHTML="var player = new PreziPlayer('"+d.id+"', {preziId: 'ufnrer-swszq', width: '640', height: '450'});"; 
         $('#prezi-container').append(d); 
         $('#prezi-container').append(pp); 
     }; 
