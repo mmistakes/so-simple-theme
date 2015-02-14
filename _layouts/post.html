@@ -61,6 +61,6 @@
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}	        
-
+{% if page.disable_comments %}{% else %}{% include disqus_comments.html %}{% endif %}
 </body>
 </html>
