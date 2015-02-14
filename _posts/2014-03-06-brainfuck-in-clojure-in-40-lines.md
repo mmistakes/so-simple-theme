@@ -10,15 +10,19 @@ keywords:
 - interpreter
 - clojure tutorial
 - learn clojure
+comments: true
+share: true
+image:
+  social: HJMKLBFAPJ.jpg
+  social_thumb: 
 ---
-
-<img src="/images/brainfuck_small.jpg" align="left" width="150" height="150" alt="git tips" title="brainfuck" style="margin-right: 10px; margin-bottom: 5px; margin-top: -5px;" />  
 
 [Brainfuck](http://en.wikipedia.org/wiki/Brainfuck) is a cool crazy little language, perfect to write interpreters for. It's rules and syntax are very simple and straightforward, there are only 8 instructions plus an instruction pointer. Several brainfuck compilers have been made smaller than 200 bytes. One compiler of 100 bytes is known to exist. Clojure and Brainfuck have their simplicity in common, so let's implement a BF interpreter in Clojure for fun - for that, we need to look at the syntax and instructions of Brainfuck first.
 
 # No habla Brainfuck? No problemo.
 
 Let's get to know the instruction set we're working with. The 8 instructions are:
+
 <table cellpadding="7" style="background-color: #eee; border: 1px solid black; border-collapse:collapse;">
 <tr><td style="border: 1px solid black; border-collapse:collapse;">&gt;</td><td style="border: 1px solid black; border-collapse:collapse;">increment the data pointer (to point to the next cell to the right).</td></tr>
 <tr><td style="border: 1px solid black; border-collapse:collapse;">&lt;</td><td style="border: 1px solid black; border-collapse:collapse;">decrement the data pointer (to point to the next cell to the left).</td></tr>

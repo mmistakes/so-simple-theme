@@ -7,6 +7,11 @@ description: Using git bisect to help debugging - find breaking commits
 keywords:
 - git bisect
 - bug fixing
+comments: true
+share: true
+image:
+  social: 1DMG58KRJ8.jpg
+  social_thumb: 
 ---
 # The setting
 

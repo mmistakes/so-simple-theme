@@ -4,9 +4,13 @@ title: "How to create a Chrome extension"
 description: "Skip the introductory tutorials and learn how to make a practical Chrome extension in JavaScript."
 category: articles
 tags: [programming, chrome]
+image:
+  social: create-chrome-extension.jpg
+  social_thumb: 
 modified: 2015-02-26
 comments: true
 share: true
+permalink: how-to-create-a-chrome-extension/
 ---
 
 Google Chrome is probably the best browser nowdays and part of its success is due to the excellent extensions available. It's quite easy to get started with creating extensions but the [official guide](https://developer.chrome.com/extensions/overview) can be overwhelming at first, in my experience it's better used as a reference when you already know what you're looking for.
@@ -40,13 +44,13 @@ Well our shiny new extension doesn't do much apart from _being_ but still let's 
 
 Navigate to [chrome://extensions/](chrome://extensions/) (or open Settings/Extensions)
 Tick 'developer mode' 
-{<1>}![](https://cdn.ochronus.com/images/chrome-extension-developer-mode.jpg)
+![](/images/chrome-extension-developer-mode.jpg){: .center-image }
 Then click 'Load unpacked extension' and open your folder.
-{<2>}![](https://cdn.ochronus.com/images/chrome-extensions-load-unpacked.jpg)
+![](/images/chrome-extensions-load-unpacked.jpg){: .center-image }
 Your icon should appear in chrome in the extension icon bar right next to the url bar.
 
 During development you can simply reload your extension after you've made changes to it:
-{<3>}![](https://cdn.ochronus.com/images/chrome-reload-extension.jpg)
+![](/images/chrome-reload-extension.jpg){: .center-image }
 
 ## Types of extensions
 There are many ways an extension can interact with Chrome, e.g. it can change the rendered page's content, it can show an action icon on specific pages, it can show an ever-present icon next to the url bar (this is how our code currently behaves), the context menu can be extended or the extension can remain totally 'silent'. For a complete reference see the [official developer guide](https://developer.chrome.com/extensions/devguide).

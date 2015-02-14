@@ -10,6 +10,11 @@ keywords:
 - facebook
 - security
 - arp spoofing
+comments: true
+share: true
+image:
+  social: 2E087549C4.jpg
+  social_thumb: 
 ---
 How to hack cookie based authentication - a.k.a why you should use HTTPS for all sites you have an account on.
 

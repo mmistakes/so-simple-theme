@@ -12,6 +12,11 @@ keywords:
 - comparison
 - programming
 - languages
+comments: true
+share: true
+image:
+  social: 55AE5461CD.jpg
+  social_thumb: 
 ---
 I'm quite a long-term Ruby developer, I've been actively using the lanuage for 6 years now. I love its style, elegance and metaprogramming abilities... to me it just feels warm and fuzzy to be coding in Ruby. 
 

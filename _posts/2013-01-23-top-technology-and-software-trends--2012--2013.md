@@ -8,6 +8,11 @@ description: "Top technology and software trends in 2012 and 2013 - advices for 
 keywords:
 - it trends
 - technology trends
+comments: true
+share: true
+image:
+  social:
+  social_thumb: 
 ---
 Here’s the list of new technology trends to follow based on my experience and prediction:
 

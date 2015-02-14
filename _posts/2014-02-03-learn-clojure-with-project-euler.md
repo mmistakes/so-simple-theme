@@ -10,14 +10,14 @@ keywords:
 - mathematics
 - clojure tutorial
 - learn clojure
+comments: true
+share: true
+image:
+  social: 80RYZDJ8UE.jpg
+  social_thumb: 
 ---
 
-<img src="/images/clojure-small.png" align="left" width="150" height="155" alt="git tips" title="clojure project euler" style="margin-right: 10px; margin-bottom: 5px;" />  
 
-
-
-
-  
 Whenever I start learning a new programming language I feel the urge to try someting practical in it - but usually I lack the knowledge in the beginning and get frustrated. Using [Project Euler](http://projecteuler.net/) problems as small projects bridges the gap though, because they are usually can be solved with simple language basics yet you can rewrite them in more and more elegant ways as you advance. Also as literally hundreds of solutions are available on the net in various languages you can compare your new language-to-learn's capabilities and style with other languages you already know. I won't get into the description of Clojure as this post is focused on solving Project Euler problems but from time to time I will pause and explain small tidbits about the language I find interesting, exceptional or uncommon.
 
 ### _Warning_ - this post contains spoilers for Project Euler problems.
@@ -26,7 +26,7 @@ Whenever I start learning a new programming language I feel the urge to try some
 > If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
 
 A straightforward solution using apply and filter:
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (apply + (filter #(zero? (min (mod % 3) (mod % 5))) (range 1000)))
 {% endhighlight %}
 One trick here is the min function which will return 0 if a number is divisible by either 3 or 5 (because at least one modulus will be 0 then)
@@ -39,7 +39,7 @@ Language features used:
 
 Or we can use reduce (Clojure's foldl) and filter:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (reduce + (filter #(or (zero? (mod % 3))
                        (zero? (mod % 5)))
                   (range 1000)))
@@ -53,7 +53,7 @@ Notice how both these solutions use the shorthand for anonymous function declara
 
 We can use another trick, Clojure's range accepts a third parameter, step, using which we can generate 3 and 5 multiples as a sequence instead of filtering by divisibility:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (reduce + (set (concat (range 0 1000 3) (range 0 1000 5))))
 {% endhighlight %}
 by using a set, we only include each number once. This is my favorite solution by the way as it's the closest to the original definition of the problem.
@@ -67,7 +67,7 @@ Summary: we've seen two approaches: the first two solutions used filtering, the 
 
 Let's define the Fibonacci sequence first:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (def fibo (lazy-cat [0 1]
                     (map + fibo (rest fibo))))
 {% endhighlight %}
@@ -82,7 +82,7 @@ This is exactly what we need as the Fibonacci sequence is infinite so we surely 
 
 Now we need to add up the even items of the lazy sequence until we reach 4m:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (reduce + (take-while (partial >= 4000000)
                       (filter even? fibo)))
 {% endhighlight %}
@@ -97,7 +97,7 @@ Language features:
 
 The first, naive implementation:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (defn get-largest-prime-factor [num]
   (let [q (long (Math/sqrt num))                ; we don't need to check further than this
         factor? (fn [a b] (zero? (rem a b)))]   ; utility helper fn
@@ -118,7 +118,7 @@ Language features:
 
 I admit it's quite messy and not really functional Let's rewrite it:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (defn get-max-prime-factor [num cur]
   (if (= num cur)
     num
@@ -130,7 +130,7 @@ I admit it's quite messy and not really functional Let's rewrite it:
 {% endhighlight %}
 Much cleaner but a bit less effective and we need to specify the initial iteration (2). Let's rewrite and wrap it in another function.
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (defn get-max-prime-factor [num cur limit]
   (if (> cur limit)
     num
@@ -153,7 +153,7 @@ Much cleaner but a bit less effective and we need to specify the initial iterati
 
 We can reuse all we know so far with a simple extra:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (defn palindrome? [s]
   (= (reverse (str s) ) (seq (str s))))
 
@@ -174,7 +174,7 @@ Language features used:
 
 Well, let's dust our high school math skills:
 
-{% highlight clojure linenos=table %}
+{% highlight clojure %}
 (defn gcd [a b] (if (zero? b) a (recur b (mod a b))))  ; greatest common divisor
 (defn lcm [a b] (/ (* a b) (gcd a b)))                 ; lowest common multiple 
 (reduce #(lcm %1 %2) (range 1 21))

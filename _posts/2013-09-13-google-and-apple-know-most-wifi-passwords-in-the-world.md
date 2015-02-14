@@ -16,6 +16,11 @@ keywords:
 - ipad
 - security
 - privacy
+comments: true
+share: true
+image:
+  social: GHQYJ2VECX.jpg
+  social_thumb: 
 ---
 And if they know, NSA can know. If you use your smartphone to log on to WiFi networks there's a high probability that you're unconsciously sending its password to Google or Apple. The keyword is 'backup'.
 

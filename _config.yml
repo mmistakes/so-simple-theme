@@ -1,35 +1,35 @@
 title:            Ochronus
-description:      Describe your website here.
+description:      where the rising ape meets the falling angel
 logo:             site-logo.png
 disqus_shortname: ochronuscom
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-#url:              http://ochronus.com.s3-website-us-east-1.amazonaws.com
+url:              https://ochronus.com
 
 comments: true
 
 # Owner/author information
 owner:
   name:           Csaba Okrona
-  avatar:         bio-photo.jpg
+  avatar:         ochronus-circle.png
   email:          "ochronus [AT] ochronus.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ochronus
-  facebook:       
-  github:         
+  facebook:       ochronus
+  github:         ochronus
   stackexchange:  
-  linkedin:       
+  linkedin:       ochronus
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:    https://plus.google.com/u/0/+CsabaOkrona/posts
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:  UA-33353382-1 
-google_verify:      
+google_verify:     9rcRF2guZHSgtq3o_C9lkulGCIHdTCeekvJKiiBuIfA
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:       7FE552865D114792B8C79A8ADC679151
 
 # Links to include in top navigation
 # For external links add external: true
@@ -38,10 +38,8 @@ links:
     url: /about/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
+  - title: Prezi
+    url: https://prezi.com/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -51,7 +49,7 @@ highlighter: pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:title
+permalink:   /:title/
 
 kramdown:
   auto_ids: true

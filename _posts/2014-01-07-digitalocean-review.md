@@ -17,6 +17,11 @@ keywords:
  - ssd
  - disk
  - speed
+comments: true
+share: true
+image:
+  social: UHEDRVOEQN.jpg
+  social_thumb: 
 ---
 
 ## The setting

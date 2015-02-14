@@ -14,6 +14,11 @@ keywords:
 - development environment
 - devops
 - dev env
+comments: true
+share: true
+image:
+  social: docker.jpg
+  social_thumb: 
 ---
 Let's create a docker container and run a basic Django app - step by step.  
 

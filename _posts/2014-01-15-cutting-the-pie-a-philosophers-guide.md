@@ -3,7 +3,7 @@ layout: post
 title: "Cutting the pie - a philosopher's guide"
 category: posts
 permalink: "cutting-the-pie"
-featured_image: /images/pie-slice.jpg
+image: /images/pie-slice.jpg
 description: "An intro to envy-free division."
 keywords:
 - cut
@@ -16,9 +16,13 @@ keywords:
 - procedure
 - Selfridge–Conway
 - Brams–Taylor
+comments: true
+share: true
+image:
+  social: 88003DB258.jpg
+  social_thumb: 
 ---
 
-<img src="/images/pie-slice.jpg" align="left" width="316" height="290" alt="pie slice" title="pie slice" style="margin-top: 5px; margin-right: 10px; margin-bottom: 5px;" />
 Suppose you have a nice pie you want to share with your friend. Is there a method by which you can do the division in a way both of you will be satisfied, meaning neither of you would feel deceived? Sure there is, you cut the pie in half as perfectly as you can and then you let your friend choose.
 
 That was _easy as a pie_, right? Now, is there a simple procedure for _three_ friends? It turns out to be a classical question in game theory and the family of procedures which present a satisfying answer is called [_envy-free fair division algorithms_](https://en.wikipedia.org/wiki/Envy-free). There's another set of algorithms which are a bit weaker, called [_proportional fair division algorithms_](https://en.wikipedia.org/wiki/Proportional_(fair_division)).

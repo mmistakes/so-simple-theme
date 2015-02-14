@@ -5,6 +5,11 @@ description: "Let’s meet HTTP GET's little brother"
 permalink: "http-head-request-good-uses"
 featured_image: /images/http-request.png
 category: posts
+comments: true
+share: true
+image:
+  social: 
+  social_thumb: 
 ---
 ## Let’s meet HTTP GET ‘s little brother  
 

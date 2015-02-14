@@ -10,6 +10,11 @@ keywords:
 - security
 - etag
 - if-none-match
+comments: true
+share: true
+image:
+  social: 8AAE528F08.jpg
+  social_thumb: 
 ---
 
 # Demo

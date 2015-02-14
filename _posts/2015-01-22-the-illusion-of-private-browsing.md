@@ -6,13 +6,13 @@ category: articles
 tags: [privacy, security]
 modified: 2015-01-22
 image:
-  feature: wire-84483_1280.jpg
+    social: wire-84483_1280.jpg
 comments: true
 share: true
 ---
 
 # Have you tried browsing in incognito mode? Did you feel safe?
-![](https://cdn.ochronus.com/images/incognito-mode.png)
+![](/images/incognito-mode.png){: .center-image }
 Did you read the bold part? Well it's fair enough but there are some details missing from that. 
 
 ## Any searches performed while signed into a Google account will be saved as part of the account's web history - even in incognito mode.
@@ -44,4 +44,4 @@ If you really care, use a [private VPN](http://lifehacker.com/5935863/five-best-
 
 In the end it's all about being conscious online. You make your choices about what level of privacy you want, the important thing is to have a clear picture.
 
-![](https://cdn.ochronus.com/images/you-cant-see-me-i-am-a-flower.jpg)
+![](/images/you-cant-see-me-i-am-a-flower.jpg){: .center-image }

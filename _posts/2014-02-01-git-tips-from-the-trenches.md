@@ -12,10 +12,12 @@ keywords:
 - git howto
 - git branch
 - git diff
+comments: true
+share: true
+image:
+  social: D6BZSQ2NM2.jpg
+  social_thumb: 
 ---
-
-<img src="/images/git-beginner.jpg" align="left" width="300" height="225" alt="git tips" title="git tips" style="margin-right: 10px; margin-bottom: 5px;" />
-
 
 
 ##After a few years with git everyone has their own bag o' tricks - a collection of bash aliases, one liners and habits that make his daily work easier. 

@@ -9,6 +9,11 @@ description: "In this ever-changing world of software development it's extremely
 keywords:
 - it trends
 - technology trends
+comments: true
+share: true
+image:
+  social: 
+  social_thumb: 
 ---
 
 In this ever-changing world of software development it’s extremely important to keep up with current technologies, methodologies and trends. 

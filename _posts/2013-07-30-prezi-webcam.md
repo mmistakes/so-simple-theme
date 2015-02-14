@@ -4,6 +4,11 @@ title: "Prezi webcam controller test"
 category: posts
 featured_image: /images/prezi.png
 description: Control your prezi steps using gestures with your webcam
+comments: true
+share: true
+image:
+  social: prezi.png
+  social_thumb: 
 ---
 
 

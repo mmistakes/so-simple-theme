@@ -9,9 +9,13 @@ keywords:
 - learning
 - physics
 - virus
+comments: true
+share: true
+image:
+  social: 7IMNZ3WFWP.jpg
+  social_thumb: 
 ---
 
-<img src="/images/phrenology.jpg" align="left" width="300" height="351" alt="knowledge learning" title="knowledge learning" style="margin-right: 10px; margin-bottom: 5px;" />
 #### knowledge junkie 
 > An individual who is a knowledge addict. An artist who simply loves "learning", ultimately expanding one's brain capacity. In other words, it can also be referred to as "the art of knowing."  
 

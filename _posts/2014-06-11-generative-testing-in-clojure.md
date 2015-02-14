@@ -2,8 +2,6 @@
 layout: post
 title: "Generative testing in Clojure"
 category: posts
-image:
-  feature: macbookpro.jpg
 description: "Introduction to generative testing in Clojure using test.check"
 keywords:
 - clojure
@@ -13,9 +11,10 @@ keywords:
 - learn clojure
 comments: true
 share: true
+image:
+  social: EAOCZEFTBS.jpg
+  social_thumb: 
 ---
-
-<img src="/images/warning-challenges-ahead.jpg" align="left" width="192" height="250" alt="clojure generative testing" title="clojure generative testing" style="margin-right: 10px; margin-bottom: 5px; margin-top: 15px;" />  
 
 Why not automate the manual work involved in writing individual test cases? Why not make them more robust by applying a much wider coverage of the input domain compared to picking edge cases by hand? Why not separate input domain definition from validation? Generative testing addresses these problems by testing random_(ish)_ly generated inputs against the expected _properties_ of output instead of expected _values_. Traditional unit tests are usually written by hand-picking cleverly chosen edge cases and testing them, encapsulating input and validation in (typically) single functions/methods.  
 <div>&nbsp;</div>
