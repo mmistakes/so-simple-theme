@@ -1,5 +1,6 @@
 ---
 title: Atuell
+description: Cerámica de diseño Barcelona
 category: Objetos
 layout: articulo
 published: true
@@ -9,17 +10,17 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Atuell/jerro2.jpg"><img src="/images/Atuell/jerro2.jpg" alt="cerámica hecha a mano"></a>
+	<a href="/images/Atuell/jerro2.jpg"><img src="/images/Atuell/jerro2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a>
 	<figcaption>Jarrón de cerámica. 17,5 x 9,5 cm. Cada pieza es única. 35€ c.u.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="cerámica hecha a mano"></a>
+	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="cerámica hecha a mano diseño Barcelona"></a>
 	<figcaption>Maceta de cerámica. 14 x 14 cm. Cada pieza es única. 28€ c.u.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Atuell/macetapeq.JPG"><img src="/images/Atuell/macetapeq.JPG" alt="cerámica hecha a mano"></a>
+	<a href="/images/Atuell/macetapeq.JPG"><img src="/images/Atuell/macetapeq.JPG" alt="cerámica hecha a mano diseño Barcelona"></a>
 	<figcaption>Maceta de cerámica. 9 x 9 cm. Cada pieza es única. 18€ c.u.</figcaption>
 </figure>
 </div>
