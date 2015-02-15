@@ -131,7 +131,7 @@ It's also very easy to integrate test.check's generative tests into clojure.test
 
 Here's an example of test.check in action:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/hLqar6VCBGg" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hLqar6VCBGg" frameborder="0"> </iframe>
 
 Here's a very nice example of why generative testing rocks: [Testing a mastermind scoring function](http://www.infoq.com/presentations/Clojure-Generative-Testing)  
 
