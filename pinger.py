@@ -4,8 +4,8 @@ from requests.exceptions import HTTPError
 PING_LIST = ['http://rpc.pingomatic.com/',
     'http://blogsearch.google.com/ping/RPC2']
 
-GET_LIST = ['http://www.bing.com/webmaster/ping.aspx?siteMap=http%3A%2F%2Fochronus.com%2Fsitemap.txt',
-    'http://www.google.com/webmasters/sitemaps/ping?sitemap=http%3A%2F%2Fochronus.com%2Fsitemap.txt']
+GET_LIST = ['http://www.bing.com/webmaster/ping.aspx?siteMap=https%3A%2F%2Fochronus.com%2Fsitemap.xml',
+    'http://www.google.com/webmasters/sitemaps/ping?sitemap=https%3A%2F%2Fochronus.com%2Fsitemap.xml']
 
 
 def ping_all(name, url, change, feed, tags):
@@ -48,4 +48,4 @@ def ping_with_weblogsapi(endpoint, name, url, change, feed, tags):
         raise Exception, reply['message']
     else:
         return reply['message']
-ping_all('Ochronus', 'http://ochronus.com/', '', 'http://feeds.feedburner.com/ochronus_online', '')
+ping_all('Ochronus', 'https://ochronus.com/', '', 'http://feeds.feedburner.com/ochronus_online', '')
