@@ -70,43 +70,6 @@ ins {
 }
 
 
-// Tables
-table {
-	border-collapse: collapse;
-	margin: ((0px + $doc-line-height) / 2) 0;
-	margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
-	width: 100%;
-}
-tbody {
-	tr:hover > td, tr:hover > th {
-		background-color: $table-hover-color;
-	}
-}
-thead {
-	tr:first-child td {
-		border-bottom: 2px solid $table-border-color;
-	}
-}
-th {
-	padding: (0px + $doc-line-height) / 2;
-	padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-	font-family: $alt-font;
-	font-weight: bold;
-	text-align: left;
-	background-color: $table-header-color;
-	border-bottom: 1px solid darken($border-color, 15%);
-}
-td {
-	border-bottom: 1px solid $border-color;
-	padding: (0px + $doc-line-height) / 2;
-	padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
-	@include font-size(18);
-}
-tr, td, th {
-	vertical-align: middle;
-}
-
-
 // Links
 // --------------------------------------------------
 
