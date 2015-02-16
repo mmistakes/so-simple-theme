@@ -4,7 +4,7 @@ logo:             site-logo.png
 disqus_shortname: ochronuscom
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
-#url:              https://ochronus.com
+url:              https://ochronus.com
 
 comments: true
 
