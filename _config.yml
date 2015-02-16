@@ -10,7 +10,7 @@ url: //mmistakes.github.io/so-simple-theme
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: rouge
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
