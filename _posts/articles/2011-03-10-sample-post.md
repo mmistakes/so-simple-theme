@@ -68,12 +68,12 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
 |=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
+| Foot1   | Foot2   | Foot3   |
+{: .table}
 
 ## Code Snippets
 
-Syntax highlighting via Pygments
+Syntax highlighting via Pygments and Rouge
 
 {% highlight css %}
 #container {
@@ -83,7 +83,7 @@ Syntax highlighting via Pygments
 }
 {% endhighlight %}
 
-Non Pygments code example
+Non Pygments/Rouge code example
 
     <div id="awesome">
         <p>This is great isn't it?</p>

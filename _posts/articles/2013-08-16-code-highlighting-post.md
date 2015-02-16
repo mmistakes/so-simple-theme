@@ -16,15 +16,15 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-### Pygments Code Blocks
+### Pygments or Rouge Code Blocks
 
-To modify styling and highlight colors edit `/_sass/_pygments.scss`.
+To modify styling and highlight colors edit `/_sass/_syntax.scss`.
 
 {% highlight css %}
 #container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
 }
 {% endhighlight %}
 
