@@ -10,20 +10,20 @@ Diseños originales de **Fly to Più** de aves migratorias que hacen su parada p
 <div class="figure-group">
 
 <figure>
-	<a href="/images/FLYTOPIU/king-fisher.jpg"><img src="/images/FLYTOPIU/king-fisher.jpg" alt="Camiseta pájaro Martín Pescador"></a>
+	<a href="/images/FLYTOPIU/king-fisher.jpg"><img src="/images/FLYTOPIU/king-fisher.jpg" alt="Camiseta pájaro Martín Pescador Fly to più Diseño Barcelona"></a>
 	<figcaption><b>KING FISHER.</b>
 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/FLYTOPIU/easy-broken.jpg"><img src="/images/FLYTOPIU/easy-broken.jpg" alt="Camiseta pájaro Garza"></a>
+	<a href="/images/FLYTOPIU/easy-broken.jpg"><img src="/images/FLYTOPIU/easy-broken.jpg" alt="Camiseta pájaro Garza Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>EASY BROKEN.</b> 
 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/FLYTOPIU/black-plumage.jpg"><img src="/images/FLYTOPIU/black-plumage.jpg" alt="Camiseta pájaro Cisne Negro"></a>
+	<a href="/images/FLYTOPIU/black-plumage.jpg"><img src="/images/FLYTOPIU/black-plumage.jpg" alt="Camiseta pájaro Cisne Negro Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>BLACK PLUMAGE.</b> 
 35€.</figcaption>
@@ -32,14 +32,14 @@ Diseños originales de **Fly to Più** de aves migratorias que hacen su parada p
 
 <div class="figure-group">
 <figure>
-	<a href="/images/FLYTOPIU/blue-bird.jpg"><img src="/images/FLYTOPIU/blue-bird.jpg" alt="Camiseta Pájaro Azul"></a>
+	<a href="/images/FLYTOPIU/blue-bird.jpg"><img src="/images/FLYTOPIU/blue-bird.jpg" alt="Camiseta Pájaro Azul Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>BLUE BIRD.</b> 
 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/FLYTOPIU/collective-power.jpg"><img src="/images/FLYTOPIU/collective-power.jpg" alt="Camiseta Pájaro Estornin "></a>
+	<a href="/images/FLYTOPIU/collective-power.jpg"><img src="/images/FLYTOPIU/collective-power.jpg" alt="Camiseta Pájaro Estornino Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>COLLECTIVE POWER.</b> 
 35€.</figcaption>
@@ -48,14 +48,14 @@ Diseños originales de **Fly to Più** de aves migratorias que hacen su parada p
 
 <div class="figure-group">
 <figure>
-	<a href="/images/FLYTOPIU/purple-wings.jpg"><img src="/images/FLYTOPIU/purple-wings.jpg" alt="Camiseta Pájaro Flamenco"></a>
+	<a href="/images/FLYTOPIU/purple-wings.jpg"><img src="/images/FLYTOPIU/purple-wings.jpg" alt="Camiseta Pájaro Flamenco Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>PURPLE WINGS.</b> 
 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/FLYTOPIU/sea-floor.jpg"><img src="/images/FLYTOPIU/sea-floor.jpg" alt="Camiseta Pájaro Cormorán"></a>
+	<a href="/images/FLYTOPIU/sea-floor.jpg"><img src="/images/FLYTOPIU/sea-floor.jpg" alt="Camiseta Pájaro Cormorán Fly to più Diseño Barcelona"></a>
 
 	<figcaption><b>SEA FLOOR.</b> 
 35€.</figcaption>
