@@ -1,5 +1,6 @@
 ---
 title: FLYTOPIU
+description: Camisetas Fly to più Diseño Barcelona
 category: Objetos
 layout: articulo
 published: true
