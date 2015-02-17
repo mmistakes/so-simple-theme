@@ -6,3 +6,5 @@ codekit-config.json
 node_modules
 Gemfile.lock
 env.sh
+.jekyll-assets-cache
+

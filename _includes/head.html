@@ -5,7 +5,7 @@
 
 {% if site.owner.twitter %}<!-- Twitter Cards -->
 {% if page.image.social %}<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.social }}">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image.social | asset_path }}">
 {% else %}<meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="{% if page.image.social_thumb %}{{ site.url }}/images/{{ page.image.social_thumb }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">{% endif %}
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -18,7 +18,7 @@
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.image.social %}<meta property="og:image" content="{{ site.url }}/images/{{ page.image.social }}">{% endif %}
-<meta property="og:url" content="{{ site.url }}{{ page.url }}/">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ site.title }}">
 
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
@@ -35,14 +35,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.min.css">
+{% stylesheet main.min.css %}
 <!-- Webfonts -->
 <script src="//use.edgefonts.net/lora:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
 
 <meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->
-<script src="{{ site.url }}/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+{% javascript modernizr-2.6.2.custom.min.js %}
 
 <!-- Icons -->
 <!-- 16x16 -->

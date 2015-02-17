@@ -1,12 +1,21 @@
 title:            Ochronus
 description:      where the rising ape meets the falling angel
-logo:             site-logo.png
+logo:             site-logo.86f39bd8cec37231383c98b55fdcfeec.png
 disqus_shortname: ochronuscom
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 url:              https://ochronus.com
 
 comments: true
+assets:
+  cache: true
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - assets/js
+    - assets/js/vendor
+    - assets/css
+    - images
 
 # Owner/author information
 owner:

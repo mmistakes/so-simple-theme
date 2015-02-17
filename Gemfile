@@ -6,6 +6,7 @@ gem 'coderay'
 gem 'rake'
 gem 'thor'
 gem 'activesupport'
+gem 'jekyll-assets'
 
 # deployment
 
