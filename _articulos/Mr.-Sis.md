@@ -1,5 +1,6 @@
 ---
 title: Mr.Sis
+description: Originales Mr.Sis diseño Barcelona
 category: Dibujo 
 layout: articulo
 published: true
@@ -9,20 +10,20 @@ imagen: "Mr.Sis/mr sis.JPG"
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.Sis/LOCO POR TI.jpg"><img src="/images/Mr.Sis/LOCO POR TI.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/LOCO POR TI.jpg"><img src="/images/Mr.Sis/LOCO POR TI.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>LOCO POR TI.</b>
 Rotulador, lápiz de color, acrílico y tinta china sobre papel, 29,7x21 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg"><img src="/images/Mr.Sis/MIERDA EN MI CABEZA.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>MIERDA EN MI CABEZA.</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel, 29,7x21 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.Sis/PAJOTE.jpg"><img src="/images/Mr.Sis/PAJOTE.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/PAJOTE.jpg"><img src="/images/Mr.Sis/PAJOTE.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>PAJOTE.</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x4,8 cm. VENDIDO.</figcaption>
 </figure>
@@ -30,14 +31,14 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x4,8 cm. VENDI
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/HOY NO ESTOY.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/HOY NO ESTOY.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE.</b> 
 Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x29,7 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.Sis/UNA ABEJA.jpg"><img src="/images/Mr.Sis/UNA ABEJA.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/UNA ABEJA.jpg"><img src="/images/Mr.Sis/UNA ABEJA.jpg" alt="Dibujo Original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>UNA ABEJA.</b> 
 Lápiz de color y acrílico sobre cartulina,  17,3x12,5 cm. Con marco 22x16,5 cm. 75€.
 </figcaption>
@@ -46,14 +47,14 @@ Lápiz de color y acrílico sobre cartulina,  17,3x12,5 cm. Con marco 22x16,5 cm
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Mr.Sis/YO TE QUISE.jpg"><img src="/images/Mr.Sis/YO TE QUISE.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/YO TE QUISE.jpg"><img src="/images/Mr.Sis/YO TE QUISE.jpg" alt="Dibujo Original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>YO TE QUISE CUANDO NO TE QUERÍAS NI TÚ.</b> 
 Lápiz grafito y lápiz de color sobre papel, 27,7x21 cm. 47€.
 </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Mr.Sis/DESPUES DE TI.jpg"><img src="/images/Mr.Sis/DESPUES DE TI.jpg" alt="Dibujo Mr. Sis"></a>
+	<a href="/images/Mr.Sis/DESPUES DE TI.jpg"><img src="/images/Mr.Sis/DESPUES DE TI.jpg" alt="Dibujo Original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>DESPUÉS DE TI.</b> 
 Lápiz grafito y lápiz de color sobre papel, 27,7x21 cm. 47€.</figcaption>
 </figure>
