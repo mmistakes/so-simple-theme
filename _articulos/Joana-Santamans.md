@@ -1,5 +1,6 @@
 ---
 title: Joana Santamans
+description: Prints Joana Santamans diseño Barcelona
 category: Prints
 layout: articulo
 published: true
@@ -13,19 +14,19 @@ Serie _Hummingbirds_ (2014)
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Joana/humingbird love 01.jpg"><img src="/images/Joana/humingbird love 01.jpg" alt="Print Joana Santamans Colibrí"></a>
+	<a href="/images/Joana/humingbird love 01.jpg"><img src="/images/Joana/humingbird love 01.jpg" alt="Print Joana Santamans Colibrí diseño Barcelona"></a>
 	<figcaption>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/humingbird love 02.jpg"><img src="/images/Joana/humingbird love 02.jpg" alt="Print Joana Santamans Colibrí"></a>
+	<a href="/images/Joana/humingbird love 02.jpg"><img src="/images/Joana/humingbird love 02.jpg" alt="Print Joana Santamans Colibrí diseño Barcelona"></a>
 	<figcaption>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/humingbird love 04.jpg"><img src="/images/Joana/humingbird love 04.jpg" alt="Print Joana Santamans Colibrí"></a>
+	<a href="/images/Joana/humingbird love 04.jpg"><img src="/images/Joana/humingbird love 04.jpg" alt="Print Joana Santamans Colibrí diseño Barcelona"></a>
 	<figcaption>
   Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 	</figcaption>
@@ -36,56 +37,56 @@ Serie _Primavera_ (2014)
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Joana/fishies.jpg"><img src="/images/Joana/fishies.jpg" alt="Print Joana Santamans Peces"></a>
+	<a href="/images/Joana/fishies.jpg"><img src="/images/Joana/fishies.jpg" alt="Print Joana Santamans Peces diseño Barcelona"></a>
 	<figcaption> <b>FISHIES.</b>
 	Reproducción digital firmada, 45x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/gellifish.jpg"><img src="/images/Joana/gellifish.jpg" alt="Print Joana Santamans Medusa"></a>
+	<a href="/images/Joana/gellifish.jpg"><img src="/images/Joana/gellifish.jpg" alt="Print Joana Santamans Medusa diseño Barcelona"></a>
 	<figcaption><b>JELLYFISH.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/lainvencion.jpg"><img src="/images/Joana/lainvencion.jpg" alt="Print Joana Santamans La Invención"></a>
+	<a href="/images/Joana/lainvencion.jpg"><img src="/images/Joana/lainvencion.jpg" alt="Print Joana Santamans La Invención diseño Barcelona"></a>
 	<figcaption><b>LA INVENCIÓ.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/nencosmic.jpg"><img src="/images/Joana/nencosmic.jpg" alt="Print Joana Santamans Niño Cósmico"></a>
+	<a href="/images/Joana/nencosmic.jpg"><img src="/images/Joana/nencosmic.jpg" alt="Print Joana Santamans Niño Cósmico diseño Barcelona"></a>
 	<figcaption><b>NEN COSMIC.</b>
 	   Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/noia_fenix.jpg"><img src="/images/Joana/noia_fenix.jpg" alt="Print Joana Santamans Chica Fénix"></a>
+	<a href="/images/Joana/noia_fenix.jpg"><img src="/images/Joana/noia_fenix.jpg" alt="Print Joana Santamans Chica Fénix diseño Barcelona"></a>
 	<figcaption><b>NOIA FENIX.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/octopuscolor.jpg"><img src="/images/Joana/octopuscolor.jpg" alt="Print Joana Santamans Pulpo"></a>
+	<a href="/images/Joana/octopuscolor.jpg"><img src="/images/Joana/octopuscolor.jpg" alt="Print Joana Santamans Pulpo diseño Barcelona"></a>
 	<figcaption><b>OCTOPUS.</b>
 	Reproducción digital firmada, 32x45 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/peixcofre.jpg"><img src="/images/Joana/peixcofre.jpg" alt="Print Joana Santamans Pez Cofre"></a>
+	<a href="/images/Joana/peixcofre.jpg"><img src="/images/Joana/peixcofre.jpg" alt="Print Joana Santamans Pez Cofre diseño Barcelona"></a>
 	<figcaption><b>PEIX COFRE.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/pink octopus.jpg"><img src="/images/Joana/pink octopus.jpg" alt="Print Joana Santamans Pulpo Rosa"></a>
+	<a href="/images/Joana/pink octopus.jpg"><img src="/images/Joana/pink octopus.jpg" alt="Print Joana Santamans Pulpo Rosa diseño Barcelona"></a>
 	<figcaption><b>PINK OCTOPUS.</b>
  Reproducción digital firmada, 32x45 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/underwater.jpg"><img src="/images/Joana/underwater.jpg" alt="Print Joana Santamans Ballena"></a>
+	<a href="/images/Joana/underwater.jpg"><img src="/images/Joana/underwater.jpg" alt="Print Joana Santamans Ballena diseño Barcelona"></a>
 	<figcaption><b>UNDERWATER.</b>
 	Reproducción digital firmada, 32x45 cm. 30€.</figcaption>
 </figure>
@@ -95,44 +96,44 @@ Serie _New Hope_ (2013)
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Joana/peixos.jpg"><img src="/images/Joana/peixos.jpg" alt="Print Joana Santamans Peces"></a>
+	<a href="/images/Joana/peixos.jpg"><img src="/images/Joana/peixos.jpg" alt="Print Joana Santamans Peces diseño Barcelona"></a>
 	<figcaption><b>PEIXOS.</b>
 	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 <figure>
-	<a href="/images/Joana/ocell.jpg"><img src="/images/Joana/ocell.jpg" alt="Print Joana Santamans Pájaro"></a>
+	<a href="/images/Joana/ocell.jpg"><img src="/images/Joana/ocell.jpg" alt="Print Joana Santamans Pájaro diseño Barcelona"></a>
 	<figcaption><b>OCELL.</b>
 Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 	
 
 <figure>
-	<a href="/images/Joana/oliva.jpg"><img src="/images/Joana/oliva.jpg" alt="Print Joana Santamans Buho"></a>
+	<a href="/images/Joana/oliva.jpg"><img src="/images/Joana/oliva.jpg" alt="Print Joana Santamans Buho diseño Barcelona"></a>
 	<figcaption><b>OLIVA.</b>
 Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/nena.jpg"><img src="/images/Joana/nena.jpg" alt="Print Joana Santamans Niña"></a>
+	<a href="/images/Joana/nena.jpg"><img src="/images/Joana/nena.jpg" alt="Print Joana Santamans Niña diseño Barcelona"></a>
 	<figcaption><b>NENA.</b>
 Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 	
 <figure>
-	<a href="/images/Joana/llop.jpg"><img src="/images/Joana/llop.jpg" alt="Print Joana Santamans Lobo"></a>
+	<a href="/images/Joana/llop.jpg"><img src="/images/Joana/llop.jpg" alt="Print Joana Santamans Lobo diseño Barcelona"></a>
 	<figcaption><b>LLOP.</b>
 	  Reproducción digital firmada, 45x32 cm. 30€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Joana/REN.jpg"><img src="/images/Joana/REN.jpg" alt="Print Joana Santamans Reno"></a>
+	<a href="/images/Joana/REN.jpg"><img src="/images/Joana/REN.jpg" alt="Print Joana Santamans Reno diseño Barcelona"></a>
 	<figcaption><b>REN.</b>
 	  Reproducción digital firmada, 45x32 cm. 30€.</figcaption>
 </figure>
 </div>
 
 <figure>
-	<a href="/images/Joana/CERVOL.jpg"><img src="/images/Joana/CERVOL.jpg" alt="Print Joana Santamans Ciervo"></a>
+	<a href="/images/Joana/CERVOL.jpg"><img src="/images/Joana/CERVOL.jpg" alt="Print Joana Santamans Ciervo diseño Barcelona"></a>
 	<figcaption><b>CERVOL.</b>
 	  Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
