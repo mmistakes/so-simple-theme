@@ -1,5 +1,6 @@
 ---
 title: Labayru i González
+description: Muebles ecológicos diseño Barcelona
 category: Muebles
 layout: articulo
 published: true
@@ -9,13 +10,13 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/Prestatgeria.jpg"><img src="/images/Labayru_i_Gonzalez/Prestatgeria.jpg" alt="Estantería hecha a mano Labayru Mueble ecológico diseño Barcelona"></a>
 	<figcaption><b>ESTANTERÍA CURVA.</b>
 	Madera contrachapada, ancho 150, alto 80, largo 22,5 cm. 380€.</figcaption>
 </figure>
  
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/altavoces.jpg"><img src="/images/Labayru_i_Gonzalez/altavoces.jpg" alt="Altavoces hechos a mano Labayru Mueble ecológico diseño Barcelona"></a>
 	<figcaption><b>ALTAVOCES.</b>
 	Laminado de pino con tecnología alemana, 30W. Ancho 21,5, alto 61, largo 27 cm. 300€.
     </figcaption>
@@ -24,14 +25,14 @@ Para sus diseños **Labayru i Gozález** utilizan maderas sostenibles de origen 
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj-Perro hecho a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/perrete.jpg"><img src="/images/Labayru_i_Gonzalez/perrete.jpg" alt="Reloj-Perro hecho a mano Labayru diseño Barcelona"></a>
 	<figcaption><b>RELOJ-PERRO TECKEL.</b> 
 	Disponible en varios colores, 28x54 cm. 30€.
 	</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Labayru_i_Gonzalez/Ciervo.jpg"><img src="/images/Labayru_i_Gonzalez/Ciervo.jpg" alt="Reloj-Ciervo hecho a mano Labayru"></a>
+	<a href="/images/Labayru_i_Gonzalez/Ciervo.jpg"><img src="/images/Labayru_i_Gonzalez/Ciervo.jpg" alt="Reloj-Ciervo hecho a mano Labayru diseño Barcelona"></a>
 	<figcaption><b>RELOJ-CIERVO.</b> 
 	Laminado de roble. Disponible en varios colores, 52x42 cm. 35€.
 	</figcaption>
