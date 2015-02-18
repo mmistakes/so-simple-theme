@@ -1,5 +1,6 @@
 ---
 title: Paco y Manolo
+description: Fotografías Paco y Manolo arte y diseño Barcelona
 category: Fotografía
 layout: articulo
 published: true
@@ -10,20 +11,20 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/PacoyManolo/Francesc.jpg"><img src="/images/PacoyManolo/Francesc.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Francesc.jpg"><img src="/images/PacoyManolo/Francesc.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>FRANCESC C.#3.-</b>
 	       160€. Con marco de madera, 37x27 cm. 205€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/PacoyManolo/azohia.jpg"><img src="/images/PacoyManolo/azohia.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/azohia.jpg"><img src="/images/PacoyManolo/azohia.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>LA AZOHIA#2.-</b>	
 	160€. Con marco de madera, 37x27 cm. 205€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/Miguel.jpg"><img src="/images/PacoyManolo/Miguel.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Miguel.jpg"><img src="/images/PacoyManolo/Miguel.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>MIGUEL#2.-</b>
 	160€. Con marco de madera, 37x27 cm. 205€.</figcaption>
 </figure>
@@ -32,21 +33,21 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/PacoyManolo/Gioia.jpg"><img src="/images/PacoyManolo/Gioia.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Gioia.jpg"><img src="/images/PacoyManolo/Gioia.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>GIOIA#2.-</b>
 	160€. Con marco de madera, 37x27 cm. 205€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/Arthur.jpg"><img src="/images/PacoyManolo/Arthur.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Arthur.jpg"><img src="/images/PacoyManolo/Arthur.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>ARTHUR EN LA CALA DEL MUERTO#3.-</b>
 	160€. Con marco de acero, 34,5x24,5 cm. 215€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/Sabina.jpg"><img src="/images/PacoyManolo/Sabina.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Sabina.jpg"><img src="/images/PacoyManolo/Sabina.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>SABINA#1.-</b>
 	160€. Con marco de acero, 34,5x24,5 cm. 215€.</figcaption>
 </figure>
@@ -55,21 +56,21 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/PacoyManolo/Mara.jpg"><img src="/images/PacoyManolo/Mara.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Mara.jpg"><img src="/images/PacoyManolo/Mara.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>MARA EN MONTCADA#2.-</b>
 	160€. Con marco de acero, 34,5x24,5 cm. 215€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/Chateau.jpg"><img src="/images/PacoyManolo/Chateau.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Chateau.jpg"><img src="/images/PacoyManolo/Chateau.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>CHATEAU DE LA CHASSE#1.-</b>
 	160€. Con marco de acero, 34,5x24,5 cm. 215€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/Kink_21.jpg"><img src="/images/PacoyManolo/Kink_21.jpg" alt="Polaroid Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/Kink_21.jpg"><img src="/images/PacoyManolo/Kink_21.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>KINK 21 + CUADERNO 02.-</b>
 	15€.</figcaption>
 </figure>
@@ -78,21 +79,21 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK01.jpg"><img src="/images/PacoyManolo/E.E.KINK01.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK01.jpg"><img src="/images/PacoyManolo/E.E.KINK01.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b> EDICIÓN ESPECIAL KINK 01 + FOTO.-</b>
 	65€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK1.jpg"><img src="/images/PacoyManolo/E.E.KINK1.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK1.jpg"><img src="/images/PacoyManolo/E.E.KINK1.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 01 + FOTO.-</b>
 	65€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK2.jpg"><img src="/images/PacoyManolo/E.E.KINK2.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK2.jpg"><img src="/images/PacoyManolo/E.E.KINK2.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 02 + FOTO.-</b>
 	65€.</figcaption>
 </figure>
@@ -101,21 +102,21 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 <div class="figure-group">
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK3.jpg"><img src="/images/PacoyManolo/E.E.KINK3.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK3.jpg"><img src="/images/PacoyManolo/E.E.KINK3.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 03+ FOTO.-</b>
 	65€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK5.jpg"><img src="/images/PacoyManolo/E.E.KINK5.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK5.jpg"><img src="/images/PacoyManolo/E.E.KINK5.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 05+ FOTO.-</b>
 	65€.</figcaption>
 </figure>
 
 
 <figure>
-	<a href="/images/ PacoyManolo/E.E.KINK14.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/ PacoyManolo/E.E.KINK14.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 14+ FOTO.-</b>
 	100€.</figcaption>
 </figure>
@@ -123,7 +124,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 
 
 <figure>
-	<a href="/images/PacoyManolo/E.E.KINK15.jpg"><img src="/images/PacoyManolo/E.E.KINK15.jpg" alt="Kink Paco y Manolo"></a>
+	<a href="/images/PacoyManolo/E.E.KINK15.jpg"><img src="/images/PacoyManolo/E.E.KINK15.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 15+ FOTO.-</b>
 	100€.</figcaption>
 </figure>
