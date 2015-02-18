@@ -1,12 +1,13 @@
 ---
 title: "[ri:’meik]"
+description: Muebles hechos a mano diseño Barcelona
 category: Muebles
 layout: articulo
 published: true
 ---
 
 <figure>
-	<a href="/images/rimeik/IMG_5455.JPG"><img src="/images/rimeik/IMG_5455.JPG" alt="image"></a>
+	<a href="/images/rimeik/IMG_5455.JPG"><img src="/images/rimeik/IMG_5455.JPG" alt="Muebles hechos a mano diseño Barcelona"></a>
 
 	<figcaption><b>BANCO DE MADERA DE ABETO.</b> 
 	Realizado con técnicas tradicionales recogiendo una imagen básica e imperfecta. 110x34,5x22,5 cm. 170€.</figcaption>
