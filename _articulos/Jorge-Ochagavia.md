@@ -1,6 +1,6 @@
 ---
 title: Jorge Ochagavia
-description: Prints Ochagavia diseño Barcelona
+description: Prints Jorge Ochagavia diseño Barcelona
 category: Prints
 layout: articulo
 published: true
