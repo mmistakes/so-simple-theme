@@ -1,5 +1,6 @@
 ---
 title: Raul del Sol
+description:  Prints Raul del Sol arte y diseño Barcelona
 category: Prints
 layout: articulo
 published: true
@@ -10,16 +11,16 @@ imagen: RauldelSol/logo.JPG
 
 <figure class="half">
 <figure>
-	<a href="/images/RauldelSol/NADA ES VENENO I.jpg"><img src="/images/RauldelSol/NADA ES VENENO I.jpg" alt="Print Raul del Sol"></a>
-	<a href="/images/RauldelSol/NADA ES VENENO II.jpg"><img src="/images/RauldelSol/NADA ES VENENO II.jpg" alt="Print Raul del Sol"></a>
+	<a href="/images/RauldelSol/NADA ES VENENO I.jpg"><img src="/images/RauldelSol/NADA ES VENENO I.jpg" alt="Print Raul del Sol arte y diseño Barcelona"></a>
+	<a href="/images/RauldelSol/NADA ES VENENO II.jpg"><img src="/images/RauldelSol/NADA ES VENENO II.jpg" alt="Print Raul del Sol arte y diseño Barcelona"></a>
 <figcaption><b>NADA ES VENENO I. NADA ES VENENO II.</b>
 Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€, con marco 60€.</figcaption>
 </figure>
 
 <figure class="half">
 <figure>
-	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="Print Raul del Sol"></a>
-	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="Print Raul del Sol"></a>
+	<a href="/images/RauldelSol/black Nature I.jpg"><img src="/images/RauldelSol/black Nature I.jpg" alt="Print Raul del Sol arte y diseño Barcelona"></a>
+	<a href="/images/RauldelSol/black Nature II.jpg"><img src="/images/RauldelSol/black Nature II.jpg" alt="Print Raul del Sol arte y diseño Barcelona"></a>
 <figcaption><b>BLACK NATURE I. BLACK NATURE II.</b>
 Reproducción digital firmada y seriada sobre papel corolla pentagram 300 gr. 21,5x14,5 cm. 16€, con marco 60€.</figcaption>
 </figure>
