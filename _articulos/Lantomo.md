@@ -1,5 +1,6 @@
 ---
 title: Lantomo
+description: Prints Lantomo diseño Barcelona
 category: Prints
 layout: articulo
 published: true
@@ -11,19 +12,19 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <div class="figure-group">
 
 <figure>
-	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="Print Lantomo Dragonfly"></a>
+	<a href="/images/Lantomo/DRAGONFLY-RED.jpg"><img src="/images/Lantomo/DRAGONFLY-RED.jpg" alt="Print Lantomo Dragonfly diseño Barcelona"></a>
 	<figcaption><b>DRAGONFLY.</b>
         Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Lantomo/YOU ARE CRAZY.jpg"><img src="/images/Lantomo/YOU ARE CRAZY.jpg" alt="Print Lantomo You are not..."></a>
+	<a href="/images/Lantomo/YOU ARE CRAZY.jpg"><img src="/images/Lantomo/YOU ARE CRAZY.jpg" alt="Print Lantomo You are not... diseño Barcelona"></a>
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING.</b> 
     Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Lantomo/HalfFullHalfEmpty.jpg"><img src="/images/Lantomo/HalfFullHalfEmpty.jpg" alt="Print Lantomo Half Full"></a>
+	<a href="/images/Lantomo/HalfFullHalfEmpty.jpg"><img src="/images/Lantomo/HalfFullHalfEmpty.jpg" alt="Print Lantomo Half Full diseño Barcelona"></a>
 	<figcaption><b>HALF FULL/HALF EMPTY.</b>
     Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
@@ -31,13 +32,13 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="Print Lantomo Octopus I"></a>
+	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="Print Lantomo Octopus I diseño Barcelona"></a>
 	<figcaption><b>OCTOPUS I (Díptico).</b> 
     Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Lantomo/OCTOPUS-PART-II-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-II-RED.jpg" alt="Print Lantomo Octopus II"></a>
+	<a href="/images/Lantomo/OCTOPUS-PART-II-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-II-RED.jpg" alt="Print Lantomo Octopus II diseño Barcelona"></a>
 	<figcaption><b>OCTOPUS II (Díptico).</b> 
         Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
