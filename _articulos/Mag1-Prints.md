@@ -1,5 +1,6 @@
 ---
 title: CB1MAG1
+description: Prints CB1MAG1 arte urbano diseño Barcelona
 category: Prints
 layout: articulo
 published: true
@@ -9,13 +10,13 @@ El graffiti de **CB1MAG1**  pasa al papel en forma de explosiones geométricas d
 
 <div class="figure-group">
 <figure>
-	<a href="/images/Magone/MAG1.jpg"><img src="/images/Magone/MAG1.jpg" alt="Print CB1MAG1"></a>
+	<a href="/images/Magone/MAG1.jpg"><img src="/images/Magone/MAG1.jpg" alt="Print CB1MAG1 arte urbano diseño Barcelona"></a>
 	<figcaption><b>S.T.</b>
 Reproducción digital seriada y firmada sobre papel de 240gr. 21x28 cm. 20€, con marco 31x41 cm. 65€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/Magone/MAG2.jpg"><img src="/images/Magone/MAG2.jpg" alt="Print CB1MAG1"></a>
+	<a href="/images/Magone/MAG2.jpg"><img src="/images/Magone/MAG2.jpg" alt="Print CB1MAG1 arte urbano diseño Barcelona"></a>
 	<figcaption><b>S.T.</b> 
 Reproducción digital seriada y firmada sobre papel de 310 gr. 21x28 cm. 25€, con marco: 31x41 cm. 70€.</figcaption>
 </figure>
