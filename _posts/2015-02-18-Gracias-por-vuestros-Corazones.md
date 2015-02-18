@@ -11,7 +11,7 @@ tags:
   - Amor
   - Cor
   - Escaparate
-  - PontuCorazon
+  - GraciasportuCorazon
   - Design
 author: 
   name: galeribcn
