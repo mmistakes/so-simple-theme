@@ -1,5 +1,6 @@
 ---
 title: Jean Briac Ravello
+description: Bandejas decorativas hecho a mano diseño Barcelona
 category: Objetos
 layout: articulo
 published: true
@@ -8,7 +9,7 @@ imagen: "RAVELLO/LOGO.JPG"
 Bandejas de mármol blanco Macael de **Jean Briac Ravello**. La simplicidad del buen gusto.
 
 <figure>
-	<a href="/images/RAVELLO/BANDEJAS.jpg"><img src="/images/RAVELLO/BANDEJAS.jpg" alt="Bandeja de mármol"></a>
+	<a href="/images/RAVELLO/BANDEJAS.jpg"><img src="/images/RAVELLO/BANDEJAS.jpg" alt="Bandeja de mármol diseño Barcelona"></a>
 
 	<figcaption><b>BANDEJAS.</b>
 	Bandeja grande: 15x23,5 cm. 500 gr. 140€. Bandeja pequeña: 12x18,5 cm. 350 gr. 100€.	
