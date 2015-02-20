@@ -19,7 +19,7 @@ share: true
 published: true
 ---
 
-Estamos dando los últimos toques del montaje para la presentación de los bolsos de LOOPE. Esta tarde de 18.00 a 21.00 en ['galəri] con maridaje de cerveza Rosita y chocolate Bub
+Estamos dando los últimos toques del montaje para la presentación de los bolsos de LOOPE. Esta tarde de 18.00 a 21.00 en ['galəri] con maridaje de cerveza Rosita y chocolate Bubó.
 
 <figure>
 	<a href="/images/loope.jpg"><img src="/images/loope.jpg" alt="Evento en galeribcn"></a>
