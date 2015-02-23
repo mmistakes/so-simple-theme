@@ -194,7 +194,7 @@ These two layouts are very similar. Both have an author sidebar, allow for large
 
 In the sample posts folder you may have noticed `categories: articles` in the YAML front matter. Categories can be used to group posts into sub-folders. If you decide to rename or add categories you will need to create new category index pages.
 
-For example. Say you want to group all your posts under blog/ instead of articles/. In your post add `category: blog` to the YAML front matter, rename or duplicate articles/index.md to blog/index.md and update the *for loop* to limit posts to just the blog category.
+For example. Say you want to group all your posts under blog/ instead of articles/. In your post add `categories: blog` to the YAML front matter, rename or duplicate articles/index.md to blog/index.md and update the *for loop* to limit posts to just the blog category.
 
 {% highlight text %}
 {% raw %}
