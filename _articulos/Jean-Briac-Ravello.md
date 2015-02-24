@@ -12,7 +12,7 @@ Bandejas de mármol blanco Macael de **Jean Briac Ravello**. La simplicidad del 
 	<a href="/images/RAVELLO/BANDEJAS.jpg"><img src="/images/RAVELLO/BANDEJAS.jpg" alt="Bandeja de mármol diseño Barcelona"></a>
 
 	<figcaption><b>BANDEJAS.</b>
-	Bandeja grande: 15x23,5 cm. 500 gr. 140€. Bandeja pequeña: 12x18,5 cm. 350 gr. 100€.	
+	Bandeja grande: 15x23,5 cm. 500 gr. 140€. Bandeja pequeña: 12x18,5 cm. 350 gr. 110€.	
     </figcaption>
 </figure>
 
