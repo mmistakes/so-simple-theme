@@ -5,13 +5,13 @@ layout: articulo
 published: true
 imagen: null
 ---
-Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de piano y otros elementos, reflejan una visión mágica del mundo.
+Los espejos convexos de **Alejandro de la Torre** acoplados a moldes de fundición, piezas de piano y otros elementos, reflejan una visión mágica del mundo.
 
 <div class="figure-group">
 <figure>
 <a href="/images/Alejandro/9.jpg"><img src="/images/Alejandro/9.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 40 cm. Ø, enmarcado en un teclado de piano. 114x114x12 cm. 1800€.</figcaption>
+Espejo convexo de 40 cm. Ø, enmarcado en un teclado de piano. 114x114x12 cm. 1.800€.</figcaption>
 </figure>
 
 <figure>
