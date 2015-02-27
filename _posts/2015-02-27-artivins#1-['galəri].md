@@ -20,7 +20,7 @@ share: true
 published: true
 ---
 <figure>
-	<a href="/images/ artivins1Mychel.jpg"><img src="/images/ artivins1Mychel.jpg" alt="Colin McCallum"></a>
+	<a href="/images/artivins1Mychel.jpg"><img src="/images/artivins1Mychel.jpg" alt="artivins#1 galeribcn"></a>
 </figure>
 
 El proper dissabte 28 de febrer presentem la col•lecció de miralls d’[Alejandro de la Torre](http://www.galeribcn.com/articulos/Alejandro-de-la-Torre.html "Alejandro de la Torre") i us convidem a un tast de vi Clot d’encís blanc 2013 DO Terra Alta en [artivins#1](http://www.timeout.cat/barcelona/ca/que-fer/artivins-1 "artivins#1").
