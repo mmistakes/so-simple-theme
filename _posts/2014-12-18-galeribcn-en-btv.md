@@ -19,6 +19,6 @@ share: true
 published: true
 ---
 
-Btv nos dedica un precioso reportaje. Esperamos que os guste
+Btv nos dedica un precioso reportaje. Esperamos que os guste:
 
-<iframe width="500" height="333" src=" http://www.btv.cat/alacarta/connexio-barcelona/35945?color=ffffff" frameborder="0" allowfullscreen></iframe>
+<iframe width="576" height="432" src=" http://www.btv.cat/alacarta/connexio-barcelona/35945?color=ffffff" frameborder="0" allowfullscreen></iframe>
