@@ -12,7 +12,7 @@ imagen: "Mr.Sis/mr sis.JPG"
 <figure>
 	<a href="/images/Mr.Sis/LOCO POR TI.jpg"><img src="/images/Mr.Sis/LOCO POR TI.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>LOCO POR TI.</b>
-Rotulador, lápiz de color, acrílico y tinta china sobre papel, 29,7x21 cm. 47€.
+Rotulador, lápiz de color, acrílico y tinta china sobre papel, 29,7x21 cm. 47€. VENDIDO.
 </figcaption>
 </figure>
 
