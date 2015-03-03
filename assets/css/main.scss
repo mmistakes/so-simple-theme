@@ -11,18 +11,45 @@ sitemap: false
  *
 */
 
-// Partials
 @import "variables";
-@import "vendor/bourbon/bourbon";
-@import "grid-settings";
-@import "vendor/neat/neat";
+
+/*
+   Vendor
+   ========================================================================== */
+
+@import "vendor/bourbon/bourbon"; /* Bourbon mixins (bourbon.io) */
+@import "grid-settings"; /* Bourbon Neat settings */
+@import "vendor/neat/neat"; /* Bourbon Neat grid mixins (neat.bourbon.io) */
+@import "vendor/font-awesome/font-awesome"; /* Font Awesome icons */
+@import "vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
+
+/*
+   Global
+   ========================================================================== */
+
 @import "mixins";
 @import "reset";
-@import "site";
+@import "base";
+
+/*
+   Components
+   ========================================================================== */
+
+@import "helpers";
+@import "buttons";
+@import "wells";
 @import "syntax";
-@import "coderay";
-@import "elements";
 @import "forms";
-@import "layout";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
+@import "notices"; /* notices and alerts */
+@import "animations";
+@import "masthead";
+@import "navigation";
+@import "search";
+@import "footer";
+
+/*
+   Page specific
+   ========================================================================== */
+
+@import "page"; /* layout and styles that apply to posts and pages */
+@import "archives"; /* archive pages (post/tag lists, etc) */
