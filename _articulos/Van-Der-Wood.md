@@ -15,7 +15,7 @@ Taburetes vintage trabajados e ilustrados completamente a mano.
 	<a href="/images/Van-Der-Wood/Web2.jpg"><img src="/images/Van-Der-Wood/Web2.jpg" alt="Taburete ilustrado Van der Wood diseño Barcelona"></a>
 	<a href="/images/Van-Der-Wood/TamburetsIG.jpg"><img src="/images/Van-Der-Wood/TamburetsIG.jpg" alt="Taburete ilustrado Van der Wood diseño Barcelona"></a>
 <figcaption><b>TABURETES ILUSTRADOS.</b>
-	Medidas: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 59€.	
+	Medidas: Alto 48 cm. Ancho asiento 25 cm. Ancho patas 29 cm. 64€.	
     </figcaption>
 </figure>
 
