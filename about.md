@@ -5,6 +5,7 @@ title: Sobre nosotros
 modified: {}
 published: true
 ---
+**['galəri]** es el showroom de creadores del barrio de Sant Antoni de Barcelona. Exponemos y vendemos producciones de artistas, diseñadores y artesanos locales, abarcando un amplio abanico de productos, desde los muebles de autor, objetos de diseño, hasta la fotografía, ilustración, arte...
 
 <figure class="third">	
 	<a href="/images/IMG_9345.jpg"><img src="/images/IMG_9345.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
@@ -22,7 +23,8 @@ published: true
 </figure>
 
 
-**['galəri]** es el showroom de creadores del barrio de Sant Antoni de Barcelona. Exponemos y vendemos producciones de artistas, diseñadores y artesanos locales, abarcando un amplio abanico de productos, desde los muebles de autor, objetos de diseño, hasta la fotografía, ilustración, arte...
+
+
 
 El leitmotiv de **['galəri]** es que detrás de cada objeto haya una persona, no una empresa, con producción limitada, local y en la mayor parte de los casos artesanal. La filosofía es llegar a una gran parte del público a través de un formato cercano, entre un comercio y una galería de arte. 
 
