@@ -23,9 +23,6 @@ published: true
 </figure>
 
 
-**Acércate a conocernos en Viladomat 27, Barcelona.**
-
-
 <center>
 <address>
 Carrer de Viladomat, 27
