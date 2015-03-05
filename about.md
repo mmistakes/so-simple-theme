@@ -25,9 +25,9 @@ published: true
 
 <center>
 <address>
-Carrer de Viladomat, 27
+                                  Carrer de Viladomat, 27
 <br>
-08015 Barcelona  93 124 13 30
+				08015 Barcelona  93 124 13 30
 </address>
 </center>
 
