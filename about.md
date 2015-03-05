@@ -5,15 +5,25 @@ title: Sobre nosotros
 modified: {}
 published: true
 ---
+<figure class="third">	
+	<a href="/images/IMG_9345.jpg"><img src="/images/IMG_9345.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
+	<a href="/images/IMG_9364.jpg"><img src="/images/IMG_9364.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
+	<a href="/images/IMG_9395.jpg"><img src="/images/IMG_9395.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
+<figcaption>La tienda de ['galəri]. © Sandra Rojo. </figcaption>
+</figure>
 
+<figure class="half">
+<figure>
+	<a href="/images/IMG_9321.jpg"><img src="/images/IMG_9321.jpg" alt="La SalaPetita galeribcn diseño Barcelona"></a>
+	<a href="/images/IMG_9237.jpg"><img src="/images/IMG_9237.jpg" alt="La SalaPolivalente galeribcn diseño Barcelona"></a>
+<figcaption>La SalaPetita y la sala polivalente de ['galəri]. © Sandra Rojo.</figcaption>
+</figure>
 
-**['galəri]** nace como plataforma comercial, showroom y punto de venta para creadores de Barcelona. Queremos abarcar un amplio espectro de creaciones, desde el diseño al arte, pasando por la artesanía y lo que podamos encontrar en medio.
+**['galəri]** es el showroom de creadores del barrio de Sant Antoni de Barcelona. Exponemos y vendemos producciones de artistas, diseñadores y artesanos locales, abarcando un amplio abanico de productos, desde los muebles de autor, objetos de diseño, hasta la fotografía, ilustración, arte...
 
-Nuestro leitmotiv es que detrás de cada objeto haya una persona, no una empresa, con producción limitada, local y en la mayor parte de los casos artesanal.
+El leitmotiv de **['galəri]** es que detrás de cada objeto haya una persona, no una empresa, con producción limitada, local y en la mayor parte de los casos artesanal. La filosofía es llegar a una gran parte del público a través de un formato cercano, entre un comercio y una galería de arte. 
 
-Queremos proximidad, cariño y buen hacer. Cosas bonitas, originales y/o especiales.
-
-**['galəri]** también ofrece su espacio para la celebración de eventos y presentaciones.
+**['galəri]**es un contenedor con personalidad propia formado por pequeños espacios: la tienda, la SalaPetita, la sala polivalente y el jardí secret, con una gran versatilidad para celebrar presentaciones y eventos o cederlos a terceros.
 
 Puedes contactar con nosotros a través de [nuestro email.](mailto:info@galeribcn.com)
 
