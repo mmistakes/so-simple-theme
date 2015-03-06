@@ -2,7 +2,7 @@
 category: Muebles
 layout: articulo
 title: Tumbleweed
-published: null
+published: false
 imagen: tumbleweed/logo marcel.JPG
 ---
 **Tumbleweed** da una nueva vida a muebles vintage con encanto.
