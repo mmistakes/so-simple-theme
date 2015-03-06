@@ -24,7 +24,7 @@ imagen: "CONI/logoconi.jpg"
 <figure>
 	<a href="/images/CONI/Every day is Valentine.jpg"><img src="/images/CONI/Every day is Valentine.jpg" alt="Print coniLab Every day is Valentine galeribcn diseño Barcelona"></a>
 	<figcaption> <b>EVERY DAY IS VALENTINE.</b>
-Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€</figcaption>
+Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 	</figcaption>
 </figure>
 </div>
@@ -33,7 +33,7 @@ Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm
 <figure>
 	<a href="/images/CONI/This is my year.jpg"><img src="/images/CONI/This is my year.jpg" alt=" Print coniLab This is my year galeribcn diseño Barcelona"></a>
 	<figcaption> <b>THIS IS MY YEAR.</b>
-Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€</figcaption>
+Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 
 </figure>
 
@@ -46,14 +46,14 @@ Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm
 <figure>
 	<a href="/images/CONI/OOPS.jpg"><img src="/images/CONI/OOPS.jpg" alt="Print coniLab OOPS Love galeribcn diseño Barcelona"></a>
 	<figcaption> <b>OOPS.</b>
-	Serigrafía en color neón sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€</figcaption>
+	Serigrafía en color neón sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 
 </figure>
 
 <figure>
 	<a href="/images/CONI/Somos un equipo. 4.jpg"><img src="/images/CONI/Somos un equipo. 4.jpg" alt="Print coniLab Somos un equipo  galeribcn diseño Barcelona"></a>
 	<figcaption> <b>SOMOS UN EQUIPO.</b>
-Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€</figcaption>
+Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 
 </figure>
 
@@ -64,7 +64,7 @@ Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 30 x 21 c
 </figure>
 
 <figure>
-	<a href="/images/CONI/AEI love U.jpg"><img src="/images/CONI/AEI love U.jpg" alt="Print coniLab AEI love U galeribcn diseño Barcelona" >
+	<a href="/images/CONI/AEI love U.jpg"><img src="/images/CONI/AEI love U.jpg" alt="Print coniLab AEI love U galeribcn diseño Barcelona"></a>
 	<figcaption> <b>AEI love U.</b>
 Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 30 x 21 cm. 25€.</figcaption>
 </figure>
@@ -85,7 +85,7 @@ Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 30 x 21 cm
 <figure>
 	<a href="/images/CONI/Somos un equipo.3r.jpg"><img src="/images/CONI/Somos un equipo.3.jpg" alt="Print coniLab Somos un equipo galeribcn diseño Barcelona "></a>
 	<figcaption><b> SOMOS UN EQUIPO. </b>
-Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€</figcaption>
+Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 
 </figure>
 </div>
