@@ -83,7 +83,7 @@ Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 30 x 21 cm
 
 
 <figure>
-	<a href="/images/CONI/Somos un equipo.3r.jpg"><img src="/images/CONI/Somos un equipo.3.jpg" alt="Print coniLab Somos un equipo galeribcn diseño Barcelona "></a>
+	<a href="/images/CONI/Somos un equipo.3.jpg"><img src="/images/CONI/Somos un equipo.3.jpg" alt="Print coniLab Somos un equipo galeribcn diseño Barcelona "></a>
 	<figcaption><b> SOMOS UN EQUIPO. </b>
 Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 
@@ -96,4 +96,4 @@ Ha colaborado con diversos estudios y diseñadores destacando su actividad en el
 
 A partir del 2010 se desempeña como diseñadora gráfica independiente y en 2011 crea coniLab, su laboratorio de ideas donde realiza serigrafías artesanales.
 
-Estas serigrafías, al estar hechas a mano, son únicas y originales y debido a esto las piezas podrían diferir ligeramente de las fotografías que semuestran en esta web.
+Estas serigrafías, al estar hechas a mano, son únicas y originales y debido a esto las piezas podrían diferir ligeramente de las fotografías que se muestran en esta web.
