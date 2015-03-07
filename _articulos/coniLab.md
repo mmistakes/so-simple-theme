@@ -96,4 +96,4 @@ Ha colaborado con diversos estudios y diseñadores destacando su actividad en el
 
 A partir del 2010 se desempeña como diseñadora gráfica independiente y en 2011 crea coniLab, su laboratorio de ideas donde realiza serigrafías artesanales.
 
-Estas serigrafías, al estar hechas a mano, son únicas y originales y debido a esto las piezas podrían diferir ligeramente de las fotografías que se muestran en esta web.
+Estas serigrafías, al estar hechas a mano, son únicas y originales, debido a esto las piezas podrían diferir ligeramente de las fotografías que se muestran en esta web.
