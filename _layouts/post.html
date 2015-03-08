@@ -24,27 +24,28 @@
         {% endif %}
       </header>
       <footer class="entry-meta">
-         {% if page.authors %}
-        {% for author in page.authors %}
-        {% assign author = site.data.authors[author] %}
+
+    {% if page.author %}
+        {% assign authors = page.author %}
+    
+     {% for name in page.author %}
+        {% assign author = site.data.authors[name] %}
         {% if author.avatar contains 'http' %}
-        <img src="{{ site.data.authors[author].avatar }}" class="bio-photo" alt="{{ site.data.authors[author].name }} bio photo"></a>
+        <img src={{ author.avatar }} class="bio-photo" alt="{{ author.name }} bio photo"></a>
             {% else %}
-            <img src="{{ site.url }}/images/{{ site.data.authors[author].avatar }}" class="bio-photo" alt="{{ site.data.authors[author].name }} bio photo"></a>
+            <img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
             {% endif %}
-                <span class="author vcard">By <span class="fn">{{ site.data.authors[author].name }}</span></span>
-        {% endfor %}
-    {%else%}
-        {% if page.author %}
-            {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-        {% endif %}
-        {% if author.avatar contains 'http' %}
-            <img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
-         {% else %}
-           <img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
-           {% endif %}
+        <span class="author vcard">By <span class="fn">{{ author.name }}</span></span>
+    {% endfor %}
+        {%else%}
+            {% assign authors = site.owner  %}
+            {% if author.avatar contains 'http' %}
+            <img src={{ author.avatar }} class="bio-photo" alt="{{ author.name }} bio photo"></a>
+                {% else %}
+                <img src="{{ site.url }}/images/{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"></a>
+                    {% endif %}
                     <span class="author vcard">By <span class="fn">{{ author.name }}</span></span>
-          {%endif%}
+        {%endif%}
        
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
