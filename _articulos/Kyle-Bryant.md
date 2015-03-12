@@ -62,12 +62,6 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	</figcaption>
 </figure>
 
-<figure>
-	<a href="/images/K.BRYANT/birds-circling-nearby.jpg"><img src="/images/K.BRYANT/birds-circling-nearby.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
-	<figcaption><b>Birds Circling Nearby.</b>
-	 Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
-	</figcaption>
-</figure>
 </div>
 
 <iframe width="560" height="315" src="http://player.vimeo.com/video/31196636?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
