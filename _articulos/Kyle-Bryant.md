@@ -1,6 +1,5 @@
 ---
 title: Kyle Bryant
-
 category: Prints
 description: Linografía Serigrafía Kyle Bryant diseño Barcelona
 layout: articulo
@@ -60,6 +59,13 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	<a href="/images/K.BRYANT/BIBLIO.jpg"><img src="/images/K.BRYANT/BIBLIO.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Bibliographic Citations Noted.</b>
 	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/K.BRYANT/birds-circling-nearby.jpg"><img src="/images/K.BRYANT/birds-circling-nearby.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
+	<figcaption><b>Birds Circling Nearby.</b>
+	 Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
 	</figcaption>
 </figure>
 </div>
