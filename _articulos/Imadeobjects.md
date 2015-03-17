@@ -13,19 +13,19 @@ En lo simple y lo sencillo reside la belleza. **IMO** reutiliza herramientas de 
 <figure>
 	<a href="/images/IMO/TABURETEHACHASROJO.jpg"><img src="/images/IMO/TABURETEHACHASROJO.jpg" alt="Taburete hecho a mano IMO diseño Barcelona"></a>
 	<figcaption><b>TABURETE METAL.</b>
-Asiento de hierro y patas de hachas reutilizadas. Altura 36 cm./Ø 26 cm. 175€.</figcaption>
+Asiento de hierro y patas de hachas reutilizadas. Altura 36 cm./Ø 26 cm. 190€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/IMO/TABURETEHACHASBLANCO.jpg"><img src="/images/IMO/TABURETEHACHASBLANCO.jpg" alt="Taburete hecho a mano IMO diseño Barcelona"></a>
 	<figcaption><b>TABURETE BLANCO.</b>
-Asiento de haya o encina (+ por encargo) y patas de eucalipto con acabado de barniz al agua. Altura 39cm./Ø26cm. 125€.</figcaption>
+Asiento de haya o encina (+ por encargo) y patas de eucalipto con acabado de barniz al agua. Altura 39cm./Ø26cm. 135€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/IMO/TABURETEHACHASLISO.jpg"><img src="/images/IMO/TABURETEHACHASLISO.jpg" alt="Taburete hecho a mano IMO diseño Barcelona"></a>
 	<figcaption><b>TABURETE.</b>
-Asiento de haya  o encina (+ por encargo) y patas de eucalipto con acabado de barniz al agua. Altura 39cm./Ø26cm. 100€.</figcaption>
+Asiento de haya  o encina (+ por encargo) y patas de eucalipto con acabado de barniz al agua. Altura 39cm./Ø26cm. 110€.</figcaption>
 </figure>
 </div>
 
@@ -33,13 +33,13 @@ Asiento de haya  o encina (+ por encargo) y patas de eucalipto con acabado de ba
 <figure>
 	<a href="/images/IMO/MESAMANGOS.jpg"><img src="/images/IMO/MESAMANGOS.jpg" alt="Mesita hecha a mano IMO diseño Barcelona"></a>
 	<figcaption><b>MESITA AUXILIAR.</b>
-Madera de haya o encina con acabado de barniz al agua. Altura 49cm./Ø42cm. 135€.</figcaption>
+Madera de haya o encina con acabado de barniz al agua. Altura 49cm./Ø42cm. 145€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/IMO/TABURETETACO.jpg"><img src="/images/IMO/TABURETETACO.jpg" alt="Taburete hecho a mano IMO diseño Barcelona"></a>
 	<figcaption><b>TABURETE DE TACO.</b>
-Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada pieza es única. 75€.</figcaption>
+Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada pieza es única. 82€.</figcaption>
 </figure>
 </div>
 
@@ -49,7 +49,7 @@ Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada 
 	
 	<a href="/images/IMO/PERCHERO1A.jpg"><img src="/images/IMO/PERCHERO1A.jpg" alt="Perchero IMO diseño Barcelona"></a>
 	<figcaption><b>PERCHERO.</b>
-Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada pieza es única. 35€.</figcaption>
+Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada pieza es única. 37€.</figcaption>
 </figure>
 
 <figure class="half">
