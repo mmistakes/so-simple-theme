@@ -24,7 +24,7 @@ imagen: "CONI/logoconi.jpg"
 <figure>
 	<a href="/images/CONI/Every day is Valentine.jpg"><img src="/images/CONI/Every day is Valentine.jpg" alt="Print coniLab Every day is Valentine galeribcn diseño Barcelona"></a>
 	<figcaption> <b>EVERY DAY IS VALENTINE.</b>
-Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. PRÓXIMAMENTE.</figcaption>
+Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 	</figcaption>
 </figure>
 </div>
