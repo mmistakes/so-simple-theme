@@ -10,7 +10,7 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 
 <figure class="half">
 <figure>
-	<a href="/images/victorm/FotVM01.jpg"><img src="/images/victorm/FotVM01.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
+	<a href="/images/victorm/FotVM001.jpg"><img src="/images/victorm/FotVM001.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM02.jpg"><img src="/images/victorm/FotVM02.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías color y B/N sobre papel mate, 30x40 cm. 40€, con marco 41,5x52 cm. 80€. </figcaption>
 </figure>
