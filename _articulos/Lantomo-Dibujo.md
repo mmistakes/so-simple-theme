@@ -41,7 +41,7 @@ imágenes quedan suspendidas entre realismo y visión, gracias al uso detallista
 
 A través de las caras que la rodean y rostros cruzados por un momento en la calle, Lantomo trata de desvelar secretos, 
 miedos y estupores ocultos en el alma, visibles sólo a quienes quieran prestar una atención absoluta. Los sutiles 
-gestos de sus personajes son vehículos que muestran lo que ocurre a escondida en su interior. 
+gestos de sus personajes son vehículos que muestran lo que ocurre a escondidas en su interior. 
 
 El dibujo es su herramienta de expresión, directo y descifrable. No hay una voluntad de escatimar esfuerzos en su 
 producción, todo lo contrario. Cada obra con sus detalles contiene una parte única e irrepetible de las experiencias 
