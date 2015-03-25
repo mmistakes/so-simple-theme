@@ -35,7 +35,7 @@ Collage y acrílico sobre madera, 49x60 cm. 330€.</figcaption>
 </figure>
 
 <figure>
-	<a href="/images/RAL/smile.jpg"><img src="/images/RAL/smile.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
+	<a href="images/RAL/smile.jpg"><img src="images/RAL/smile.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>SMILE.</b> 
 Collage y acrílico sobre papel, 29,7x21 cm. 130€</figcaption>
 </figure>
