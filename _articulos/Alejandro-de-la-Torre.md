@@ -116,10 +116,7 @@ Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 55x42x15 
 
 
 
-**Alejandro de la Torre**. Bilbao, 1953. 
-
+**Alejandro de la Torre**. Bilbao, en 1953. 
 _Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como_
-
-_objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de `homo_
-
+_objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de `homo
 _recolectus._ 
