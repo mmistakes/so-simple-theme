@@ -5,7 +5,15 @@ layout: articulo
 published: true
 imagen: null
 ---
-Los espejos convexos de **Alejandro de la Torre** acoplados a moldes de fundición, piezas de piano y otros elementos, reflejan una visión mágica del mundo.
+
+<figure class="half">
+<figure>
+	<a href="/images/Alejandro/DSC_0007.jpg "><img src="/images/Alejandro/DSC_0007.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
+	<a href="/images/Alejandro/DSC_0008.jpg "><img src="/images/Alejandro/DSC_0008.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
+<figcaption>
+Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de piano y otros elementos, reflejan una visión mágica del mundo.</figcaption>
+</figure>
+
 
 <div class="figure-group">
 <figure>
@@ -31,7 +39,7 @@ Espejo convexo de 20 cm. Ø realizado con molde industrial de madera. 27x27x19 c
 <figure>
 	<a href="/images/Alejandro/3.jpg"><img src="/images/Alejandro/3.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 38x38x24 cm. 460€.</figcaption>
+Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 38x38x24 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
