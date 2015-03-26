@@ -6,6 +6,7 @@ published: true
 imagen: RAL/logoral2.JPG
 ---
 Los retratos de **RAL** son una explosión de color que escapa hacia la abstracción con una mezclando el collage con la textura del acrílico.
+
 <div class="figure-group">
 <figure>
 	<a href="/images/RAL/maternity.jpg"><img src="/images/RAL/maternity.jpg" alt="Print RAL Maternity diseño Barcelona galeribcn"></a>
