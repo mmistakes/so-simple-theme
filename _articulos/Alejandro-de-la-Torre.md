@@ -116,9 +116,19 @@ Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 55x42x15 
 
 **Alejandro de la Torre**. Bilbao, 1953. 
 
-_Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como_ _objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de `homo_ _recolectus._ 
+_Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como_
 
-_Describiría mi actividad vital. Vital en el sentido de que mi vida está definida por esta permanente actitud personal, en_ _una suerte de “ENCUENTRA Y PEGA”. No reciclo, recojo objetos olvidados, abandonados, para transformarlos en nuevos objetos_ _con alma. No me considero artista, tampoco artesano, sino más bien un apasionado por todas las formas que salen a mi paso y_ _despiertan cariño en mí._
+_objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de `homo_
+
+_recolectus._ 
+
+_Describiría mi actividad vital. Vital en el sentido de que mi vida está definida por esta permanente actitud personal, en_
+
+_una suerte de “ENCUENTRA Y PEGA”. No reciclo, recojo objetos olvidados, abandonados, para transformarlos en nuevos objetos_
+
+_con alma. No me considero artista, tampoco artesano, sino más bien un apasionado por todas las formas que salen a mi paso y_
+
+_despiertan cariño en mí._
 
 _Desde pequeño he sido un apasionado de los espejos convexos. En mi propuesta creativa mi intención es retomarlos como_ _objetos mágicos por la visión en tercera persona que aportan. Y por la belleza decorativa que proporciona su presencia._
 
