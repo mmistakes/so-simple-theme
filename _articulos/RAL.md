@@ -11,19 +11,19 @@ Los retratos de **RAL** son una explosión de color que escapa hacia la abstracc
 <figure>
 	<a href="/images/RAL/brainstorm.jpg"><img src="/images/RAL/brainstorm.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 	<figcaption><b>BRAINSTORM.</b>
-Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/fascinate.jpg"><img src="/images/RAL/fascinate.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>FASCINATE.</b> 
-Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 40x30 cm. 190€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/concentrate.jpg"><img src="/images/RAL/concentrate.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>CONCENTRATE.</b> 
-Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
 </figure>
 </div>
 
@@ -31,19 +31,19 @@ Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
 <figure>
 	<a href="/images/RAL/sexy.jpg"><img src="/images/RAL/sexy.jpg" alt="RAL Collage y acrílico sobre madera diseño Barcelona galeribcn"></a>
 	<figcaption><b>SEXY.</b>
-Collage y acrílico sobre madera, 49x60 cm. 330€.</figcaption>
+Collage y acrílico sobre madera, 60x49 cm. 330€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/smile.jpg"><img src="/images/RAL/smile.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>SMILE.</b> 
-Collage y acrílico sobre papel, 29,7x21 cm. 130€</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 40x30 cm. 190€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/say no.jpg"><img src="/images/RAL/say no.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>SAY NO!.</b> 
-Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
 </figure>
 </div>
 
@@ -51,19 +51,19 @@ Collage y acrílico sobre papel, 29,7x21 cm. 130€.</figcaption>
 <figure>
 	<a href="/images/RAL/memories.jpg"><img src="/images/RAL/memories.jpg" alt="RAL Collage y acrílico sobre plancha de magnesio diseño Barcelona galeribcn"></a>
 	<figcaption><b>MEMORIES.</b>
-Collage y acrílico sobre plancha de magnesio, 24x46,5 cm. 220€.</figcaption>
+Collage y acrílico sobre plancha de magnesio, con marco 49x27 cm. 220€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/look.jpg"><img src="/images/RAL/look.jpg" alt="RAL Collage y acrílico sobre madera diseño Barcelona galeribcn"></a>
 <figcaption><b>LOOK!.</b> 
-Collage y acrílico sobre madera, 24x35cm. 190€.</figcaption>
+Collage y acrílico sobre madera, con marco 38x27cm. 190€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/pure.jpg"><img src="/images/RAL/pure.jpg" alt="RAL Collage y acrílico sobre madera diseño Barcelona galeribcn"></a>
 <figcaption><b>PURE.</b> 
-Collage y acrílico sobre madera, 25x40 cm. 210€.</figcaption>
+Collage y acrílico sobre madera, con marco 49,5x36 cm. 210€.</figcaption>
 </figure>
 </div>
 
