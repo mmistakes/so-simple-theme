@@ -73,7 +73,5 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 </figure>
 
 
-**VictorM** define su obra fotográfica de marcado carácter urbano con las siguientes palabras:
-
- _EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
+VictorM define su obra fotográfica de marcado carácter urbano con las siguientes palabras: EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD
 
