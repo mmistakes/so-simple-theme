@@ -4,7 +4,7 @@ description: Fotografía urbana de VictorM diseño Barcelona
 category: Fotografía
 layout: articulo
 published: true
-imagen: null
+
 ---
 Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 
@@ -72,5 +72,7 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 <figcaption>Fotografías B/N sobre papel mate, 40x30 cm. 40€.  </figcaption>
 </figure>
 
- **VictorM** define su obra fotográfica de marcado carácter urbano con las siguientes palabras: _EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
+**VictorM** define su obra fotográfica de marcado carácter urbano con las siguientes palabras:
+
+ _EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
 
