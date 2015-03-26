@@ -26,6 +26,7 @@ El leitmotiv de ['galəri] es que detrás de cada objeto haya una persona, no un
 
 ['galəri] es un contenedor con personalidad propia formado por pequeños espacios: la tienda, la SalaPetita, la sala polivalente y el jardí secret, con una gran versatilidad para celebrar presentaciones y eventos o cederlos a terceros.
 
+
 Puedes contactar con nosotros a través de [nuestro email.](mailto:info@galeribcn.com)
 
 
