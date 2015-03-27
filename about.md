@@ -21,16 +21,13 @@ published: true
 <figcaption>La SalaPetita y la sala polivalente de ['galəri]. © Sandra Rojo.</figcaption>
 </figure>
 
-Puedes contactar con nosotros a través de [nuestro email.](mailto:info@galeribcn.com)
-
-
 ['galəri] es el showroom de creadores del barrio de Sant Antoni de Barcelona. Exponemos y vendemos producciones de artistas, diseñadores y artesanos locales, abarcando un amplio abanico de productos, desde los muebles de autor, objetos de diseño, hasta la fotografía, ilustración, arte...
 
 El leitmotiv de ['galəri] es que detrás de cada objeto haya una persona, no una empresa, con producción limitada, local y en la mayor parte de los casos artesanal. La filosofía es llegar a una gran parte del público a través de un formato cercano, entre un comercio y una galería de arte. 
 
 ['galəri] es un contenedor con personalidad propia formado por pequeños espacios: la tienda, la SalaPetita, la sala polivalente y el jardí secret, con una gran versatilidad para celebrar presentaciones y eventos o cederlos a terceros.
 
-
+Puedes contactar con nosotros a través de nuestro email :info@galeribcn.com
 
 
 
