@@ -43,8 +43,7 @@ links:
     url: /blog/
   - title: Sobre nosotros
     url: /about/
-  - title: Lo que dicen de nosotros  
-    url: /prensa/
+  
 collections:
   articulos:
     output: true
