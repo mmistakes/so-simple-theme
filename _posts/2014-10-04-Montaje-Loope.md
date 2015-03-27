@@ -24,3 +24,8 @@ Estamos dando los últimos toques del montaje para la presentación de los bolso
 <figure>
 	<a href="/images/loope.jpg"><img src="/images/loope.jpg" alt="Evento en galeribcn"></a>
 </figure>
+
+[TimeOutBarcelona](http://www.timeout.cat/barcelona/ca/compres/galeri "TimeOutBarcelona") Octubre 2014
+[BCNLastCall](http://bcnlastcall.com/2014/11/30/gal%C9%99ri-showroom-i-punt-de-venta-per-a-creadors-de-barcelona-sant-antoni/ "BCNLastCall") Diciembre 1014
+[enjoy!bcn](http://www.enjoybcn.net/art/galleries/galeri-bcn/ "enjoy!bcn") Febrero 2015
+[TimeOutBarcelona Artivins](http://www.timeout.cat/barcelona/ca/compres/galeri "TimeOutBarcelona Artivins") Febrero 2015
