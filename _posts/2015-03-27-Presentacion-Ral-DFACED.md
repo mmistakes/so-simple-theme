@@ -28,4 +28,4 @@ Presentamos nuestra próxima exposición: _DFACED_ del artista emergente **RAL**
 
 Presentem la nostra propera exposició: _DFACED_ de l'artista emergent **RAL** que inaugurarem el proper dissabte 28/03/2015 de 12.00 a 15.00 h. a la **SalaPetita ['galəri]**. L'esdeveniment estarà amenitzat per la música del deejay Mychel Castro amb el seu projecte SwingJazz Calling i la col•laboració de Moritz.
 
-<iframe width="576" height="432" src="https://www.youtube.com/watch?v=cYb1w79GvqM" frameborder="0" allowfullscreen></iframe>
+<iframe width="576" height="432" src="https://www.youtube.com/watch?v=cYb1w79GvqM" frameborder="0"> </iframe>
