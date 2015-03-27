@@ -18,12 +18,13 @@ comments: true
 share: true
 published: true
 ---
+
 <figure>
 	<a href="/images/RALdefinitivo.jpg"><img src="/images/RALdefinitivo.jpg" alt="Presentación Exposición Ral DFACED
  galeribcn"></a>
 </figure>
 
-Presentamos nuestra próxima exposición: DFACED del artista emergente RAL que inauguraremos el próximo sábado 28/03/2015 de 12.00 a 15.00 h. en la SalaPetita ['galəri]. El evento estará amenizado por la música del deejay Mychel Castro con su proyecto SwingJazz Calling y la colaboración de Moritz.
+Presentamos nuestra próxima exposición: _DFACED_ del artista emergente RAL que inauguraremos el próximo sábado 28/03/2015 de 12.00 a 15.00 h. en la SalaPetita ['galəri]. El evento estará amenizado por la música del deejay Mychel Castro con su proyecto SwingJazz Calling y la colaboración de Moritz.
 
 Presentem la nostra propera exposició: DFACED de l'artista emergent RAL que inaugurarem el proper dissabte 28/03/2015 de 12.00 a 15.00 h. a la SalaPetita ['galəri]. L'esdeveniment estarà amenitzat per la música del deejay Mychel Castro amb el seu projecte SwingJazz Calling i la col•laboració de Moritz.
 
