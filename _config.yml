@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+title: Tom Molloy's Blog
+locale: en_IE
+description: Blog of Software Design Engineer Tom Molloy
+logo: 
 search: true
 url: http://localhost:4000
 
@@ -31,15 +31,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Tom Molloy
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: tom.molloy4@mail.dcu.ie
   disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
+  twitter: tickintom
+  facebook: theojmoll
+  github: mantisMolloy
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: tom.molloy4@mail.dcu.ie
   instagram: #username
   flickr: #username
   tumblr: #username

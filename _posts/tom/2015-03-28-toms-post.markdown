@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Tom's Post"
+modified:
+categories: tom
+excerpt:
+tags: []
+image:
+  feature:
+date: 2015-03-28T19:34:35+00:00
+---
+
