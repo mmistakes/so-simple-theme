@@ -6,5 +6,8 @@
 - title: Search
   url: /search/
 
-- title: Personal Homepage
+- title: Search By Tag
+  url: /tags/
+
+- title: Homepage
   url: http://www.tommoll.com

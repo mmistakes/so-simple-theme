@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Tom Molloy's Blog
+title: tommoll blog
 locale: en_IE
-description: Blog of Software Design Engineer Tom Molloy
+description: two things - best practices, hacks, and off by one errors 
 logo: 
 search: true
 url: http://localhost:4000
@@ -36,10 +36,10 @@ owner:
   email: tom.molloy4@mail.dcu.ie
   disqus-shortname:
   twitter: tickintom
-  facebook: theojmoll
-  github: mantisMolloy
+  facebook: theojmol
+  github: #mantisMolloy
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: tom.molloy4@mail.dcu.ie
+  linkedin: tom-molloy
   instagram: #username
   flickr: #username
   tumblr: #username
