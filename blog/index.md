@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Blog
-excerpt: "An archive of blog posts sorted by date."
+title: Blog Posts
+excerpt: "Tom Molloys Blog Posts"
+tags: [Tom, Molloy, Ireland, Dublin, Blog, Software Engineer]
 search_omit: true
 ---
 

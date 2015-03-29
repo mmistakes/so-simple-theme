@@ -1,14 +1,12 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
+tom_molloy:
+  name: Tom Molloy
+  web: http://www.tommoll.com
+  email: tom.molloy4@mail.dcu.ie
+  bio: "Am I a philosopher?"
+  avatar: bio-photo.jpg
+
 
 cornelius_fiddlebone:
   name: Cornelius Fiddlebone
