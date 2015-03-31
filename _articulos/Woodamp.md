@@ -45,22 +45,35 @@ Medidas: 18cm. Ø12cm. 150€.</figcaption>
 </figure>
 </div>
 
-<div class="figure-group">
+<figure class="half">
+<figure>
+	<a href="/images/Woodamp/MazettXL-dia.jpg"><img src="/images/Woodamp/MazettXL-dia.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
+	<a href="/images/Woodamp/MazettXL-Noche.jpg"><img src="/images/Woodamp/MazettXL-Noche.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
+<figcaption><b>MAZETT XL.</b> 
+Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente metálico para la planta.
+Pintado con pintura blanca luminiscente y disponible en varios colores.
+Medidas: 25x20x16.cm. 72€.</figcaption>
+</figure>
+
+<figure class="half">
 <figure>
 	<a href="/images/Woodamp/MazettL.jpg"><img src="/images/Woodamp/MazettL.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
-	<figcaption><b>MAZETT L.</b> 
+	<a href="/images/Woodamp/MazettL-night.jpg"><img src="/images/Woodamp/MazettL-night.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
+<figcaption><b>MAZETT L.</b> 
 Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de cristal para la planta.
 Pintado con pintura blanca luminiscente.
-Medidas: 30x15.cm. 49€.</figcaption>
+Medidas: 30x10x15.cm. 49€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Woodamp/MazettS.jpg"><img src="/images/Woodamp/MazettS.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
-	<figcaption><b>MAZETT S.</b> 
+	<a href="/images/Woodamp/MazettS02.jpg"><img src="/images/Woodamp/MazettS02.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
+<figcaption><b>MAZETT S.</b> 
 Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de cristal para la planta.
-Pintado con pintura blanca luminiscente. Medidas: 15x15cm. 35€.</figcaption>
+Pintado con pintura blanca luminiscente.
+Medidas: 15x9x15.cm. 35€.</figcaption>
 </figure>
-</div>
+
 
 _Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación._
 
