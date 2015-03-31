@@ -73,7 +73,7 @@ Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de c
 Pintado con pintura blanca luminiscente.
 Medidas: 15x9x15.cm. 35€.</figcaption>
 </figure>
-
+</div>
 
 _Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación._
 
