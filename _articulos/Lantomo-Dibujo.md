@@ -12,7 +12,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 <figure>
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="Dibujo original Lantomo Pullover attack diseño Barcelona"></a>
 	<figcaption><b>PULLOVER ATTACK.</b>
-    Lápiz grafito y lápiz de color sobre papel, 60x44 cm. 350€, con marco 70x50 cm. 380€.</figcaption>
+    Lápiz grafito y lápiz de color sobre papel, 60x44 cm., con marco 70x50 cm. VENDIDO€.</figcaption>
 </figure>
 
 <figure>
