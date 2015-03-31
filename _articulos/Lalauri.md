@@ -17,8 +17,8 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 </figure>
 
 <figure>
-	<a href="/images/Laura-Agusti/MISS.CATCARDIFF.jpg"><img src="/images/Laura-Agusti/MISS.CATCARDIFF.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
-	<figcaption><b>MISS. CATCARDIFF.</b>
+	<a href="/images/Laura-Agusti/miss catmond.jpg"><img src="/images/Laura-Agusti/miss catmond.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MISS.CATMOND.</b>
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
@@ -36,6 +36,13 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>FLOWERS.</b>
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/MR.-FOXLUTTON-VS-MISS-2CATSTROUD.jpg"><img src="/images/Laura-Agusti/MR.-FOXLUTTON-VS-MISS-2CATSTROUD.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MR. FOXLUTTON VS. MISS CATSTROUD.</b> 
+	Reproducción seriada y firmada, 21x29,5 cm. 20€, con marco 24x30cm. 60€.
 	</figcaption>
 </figure>
 </div>
