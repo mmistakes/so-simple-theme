@@ -5,7 +5,7 @@ layout: articulo
 published: true
 imagen: RAL/logoral2.JPG
 ---
-Los retratos de **RAL** son una explosión de color que escapa hacia la abstracción mezclando el collage con la textura del acrílico.
+Los retratos de **RAL** son una explosión de color que escapan hacia la abstracción mezclando el collage con la textura del acrílico.
 
 <div class="figure-group">
 <figure>
