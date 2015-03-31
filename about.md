@@ -6,8 +6,6 @@ modified: {}
 published: true
 ---
 
-Para adquirir cualquiera de nuestros artículos contáctanos a través de [nuestro email.](mailto:info@galeribcn.com)
-
 <figure class="third">	
 	<a href="/images/IMG_9345.jpg"><img src="/images/IMG_9345.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
 	<a href="/images/IMG_9364.jpg"><img src="/images/IMG_9364.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
