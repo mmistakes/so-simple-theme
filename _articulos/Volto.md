@@ -7,7 +7,7 @@ published: true
 imagen: "VOLTO/LOGOweb.jpg"
 ---
 
-**Volto** no es un simple utensilio de mesa para sazonar alimentos. Es un objeto de diseño de líneas simples y cuidadas que  hacen de él un objeto bello y funcional. 
+**Volto** no es un simple utensilio de mesa para sazonar alimentos. Es un objeto de diseño de líneas simples y cuidadas que  hacen de él algo bello y funcional. 
 
 <figure class="half">
 <figure>
