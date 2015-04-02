@@ -18,5 +18,5 @@ Materiales: Corcho, vidrio y amor. Medidas: 150mm. x ø30mm. Peso: 45gr. Capacid
     </figcaption>
 </figure>
 
-Diseñado por Mireia Rius, **Volto** integra el concepto dos en uno, gracias a la división del recipiente, apto para sal, pimienta o cualquier especie en polvo. Su característico tapón al bies permite la salida del condimento con un simple giro, siendo un objeto ergonómico y agradable de usar, y sus estudiadas proporciones aseguran una perfecta estabilidad. El uso del vidrio y el corcho, materiales naturales y tradicionales, le dan un aire mediterráneo, siendo además reciclables y aptos para el contacto con alimentos.
+Diseñado por Mireia Rius, Volto integra el concepto dos en uno, gracias a la división del recipiente, apto para sal, pimienta o cualquier especie en polvo. Su característico tapón al bies permite la salida del condimento con un simple giro, siendo un objeto ergonómico y agradable de usar, y sus estudiadas proporciones aseguran una perfecta estabilidad. El uso del vidrio y el corcho, materiales naturales y tradicionales, le dan un aire mediterráneo, siendo además reciclables y aptos para el contacto con alimentos.
 
