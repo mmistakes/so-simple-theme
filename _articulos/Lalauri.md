@@ -22,6 +22,13 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/THREEBEAR.jpg"><img src="/images/Laura-Agusti/THREEBEAR.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>THREE BEARS.</b>
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	</figcaption>
+</figure>
 </div>
 
 <div class="figure-group">
@@ -65,6 +72,22 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <figure>
 	<a href="/images/Laura-Agusti/treehouse.jpg"><img src="/images/Laura-Agusti/treehouse.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>TREEHOUSE.</b>
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	</figcaption>
+</figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/Laura-Agusti/FOREST.jpg"><img src="/images/Laura-Agusti/FOREST.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>FOREST.</b> 
+	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 24x30cm. 60€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/THREEWOLVES.jpg"><img src="/images/Laura-Agusti/THREEWOLVES.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>THREE WOLVES.</b>
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
