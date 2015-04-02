@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DFACED 28/3/2015
-description: Presentación exposición de Ral: DFACED
+description: Presentación exposición de Ral DFACED
 category: blog
 tags: 
   - Evento
@@ -19,6 +19,7 @@ comments: true
 share: true
 published: true
 ---
+
 Mil gracias a todos por asistir y compartir con [RAL](http://www.galeribcn.com/articulos/RAL.html "RAL") y [['galəri]]( http://www.galeribcn.com/about/ "['galəri] ") estos momentos
 
 <figure class="third">	
