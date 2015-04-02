@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DFACED 28/3/2015
+title: DFACED de RAL 28/3/2015
 description: Presentación exposición de Ral DFACED
 category: blog
 tags: 
