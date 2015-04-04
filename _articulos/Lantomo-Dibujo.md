@@ -20,13 +20,13 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 	<figcaption><b>BELL TOWER.</b> 
     Lápiz grafito y lápiz de color sobre papel, 75x56 cm. 320€, con marco 100x70 cm. 350€.</figcaption>
 </figure>
-</div>
 
 <figure>
 	<a href="/images/Lantomo/octopus díptico.jpg"><img src="/images/Lantomo/octopus díptico.jpg" alt="Dibujo original Lantomo Octopus diseño Barcelona"></a>
 	<figcaption><b>OCTOPUS DÍPTICO.</b>
     Lápiz grafito sobre papel, 52x44 cm. x 2 unidades, 580€, con marco 67x110 cm. 680€.</figcaption>
 </figure>
+</div>
 
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
 
