@@ -92,8 +92,6 @@ Serigrafía en tres colores sobre papel artístico de 170 gr. Medidas: 42 x 30 c
 
 Coni Della Vedova es licenciada en diseño gráfico por la Universidad de Buenos Aires, afincada en Barcelona.
 
-Ha colaborado con diversos estudios y diseñadores destacando su actividad en el estudio Peret & Espeus entre 2003 y 2009.
-
-A partir del 2010 se desempeña como diseñadora gráfica independiente y en 2011 crea coniLab, su laboratorio de ideas donde realiza serigrafías artesanales.
+Ha colaborado con diversos estudios y diseñadores destacando su actividad en el estudio Peret & Espeus entre 2003 y 2009. A partir del 2010 se desempeña como diseñadora gráfica independiente y en 2011 crea **coniLab**, su laboratorio de ideas donde realiza serigrafías artesanales.
 
 Estas serigrafías, al estar hechas a mano, son únicas y originales, debido a esto las piezas podrían diferir ligeramente de las fotografías que se muestran en esta web.
