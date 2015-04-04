@@ -45,6 +45,13 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€.
 	</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/K.BRYANT/birds-circling-nearby.jpg"><img src="/images/K.BRYANT/birds-circling-nearby.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
+	<figcaption><b>Birds Circling Nearby.</b>
+	  Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco de acero 175€.
+	</figcaption>
+</figure>
 </div>
 
 <div class="figure-group">
