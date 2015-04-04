@@ -18,7 +18,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 
 <figure>
 	<a href="/images/Laura-Agusti/miss catmond.jpg"><img src="/images/Laura-Agusti/miss catmond.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
-	<figcaption><b>MISS.CATMOND.</b>
+	<figcaption><b>MISS CATMOND.</b>
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
