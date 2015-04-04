@@ -130,13 +130,14 @@ Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 	<figcaption><b>REN.</b>
 	  Reproducción digital firmada, 45x32 cm. 30€.</figcaption>
 </figure>
-</div>
 
 <figure>
 	<a href="/images/Joana/CERVOL.jpg"><img src="/images/Joana/CERVOL.jpg" alt="Print Joana Santamans Ciervo diseño Barcelona"></a>
 	<figcaption><b>CERVOL.</b>
 	  Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
+</div>
+
 Joana, positiva i emprenedora, entén la vida a través de l'art. La seva formació en disseny gràfic a l'Escola Eina i el posterior postgrau en Il·lustració Creativa l'ha portat a dedicar-se plenament a la pintura i il·lustració.
 
 Consolidada la seva carrera a la seva ciutat, Barcelona, després d'haver viscut a Londres i Nova York, en l'actualitat està centrada en projectar les seves obres a nivell internacional. Màlaga, València, Porto, San Francisco i Brussel·les són ciutats on ja ha exposat la seva feina.
