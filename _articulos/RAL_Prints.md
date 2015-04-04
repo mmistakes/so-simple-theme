@@ -19,6 +19,12 @@ Reproducción digital seriada, firmada y con certificado de autenticidad incluid
 <figcaption><b>CONFIDENT.</b> 
 Reproducción digital seriada, firmada y con certificado de autenticidad incluido, 40x30 cm. 28€, con marco 41x31 cm. 48€.</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/RAL/Sin título-1.jpg"><img src="/images/RAL/Sin título-1.jpg" alt="Print RAL Calavera diseño Barcelona galeribcn "></a>
+<figcaption><b>S.T.</b> 
+Obra realizada en colaboración con BALU. Reproducción digital seriada, firmada y con certificado de autenticidad incluido, 44x31 cm. 90€, con marco 115€.</figcaption>
+</figure>
 </div>
 
 Raul Huerta es **RAL**,  artista y diseñador gráfico de Montornès del Vallès (Barcelona), que interesado por las técnicas pictóricas y el “handmade” fue indagando hacia el collage, lo que le sirvió como medio para expresar sus primeras ideas, en un comienzo con temas más duros y una paleta de color más gris, para más tarde y poco a poco ir introduciendo colores, los cuales son representativos para definir su línea argumental.
