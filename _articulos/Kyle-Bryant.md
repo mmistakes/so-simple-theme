@@ -19,14 +19,14 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BURNING.jpg"><img src="/images/K.BRYANT/BURNING.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Burning Cannabis Nonchalantly.</b>
-	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía seriada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Because of Christ’s Nativity.</b>
-	Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
+	Linografía seriada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
 	</figcaption>
 </figure>
 </div>
@@ -35,7 +35,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Boards Create Noise.</b>
-	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
+	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€; linografía seriada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 175€.
 	</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/birds-circling-nearby.jpg"><img src="/images/K.BRYANT/birds-circling-nearby.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Birds Circling Nearby.</b>
-	  Linografía sobre papel Rives 250 gr. 70x50 cm. 100€, con marco de acero 175€.
+	  Linografía seriada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco de acero 175€.
 	</figcaption>
 </figure>
 </div>
