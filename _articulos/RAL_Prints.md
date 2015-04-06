@@ -11,13 +11,13 @@ Los retratos de **RAL** son una explosión de color que escapan hacia la abstrac
 <figure>
 	<a href="/images/RAL/maternity.jpg"><img src="/images/RAL/maternity.jpg" alt="Print RAL Maternity diseño Barcelona galeribcn"></a>
 	<figcaption><b>MATERNITY.</b>
-Reproducción digital seriada, firmada y con certificado de autenticidad incluido, 40x30 cm.28€, con marco 41x31 cm. 48€.</figcaption>
+Reproducción digital seriada y firmada, 40x30 cm.28€, con marco 41x31 cm. 48€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/confident.jpg"><img src="/images/RAL/confident.jpg" alt="Print RAL Confident diseño Barcelona galeribcn "></a>
 <figcaption><b>CONFIDENT.</b> 
-Reproducción digital seriada, firmada y con certificado de autenticidad incluido, 40x30 cm. 28€, con marco 41x31 cm. 48€.</figcaption>
+Reproducción digital seriada y firmada, 40x30 cm. 28€, con marco 41x31 cm. 48€.</figcaption>
 </figure>
 
 <figure>
