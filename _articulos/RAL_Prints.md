@@ -23,7 +23,7 @@ Reproducción digital seriada y firmada, 40x30 cm. 28€, con marco 41x31 cm. 48
 <figure>
 	<a href="/images/RAL/Sin título-1.jpg"><img src="/images/RAL/Sin título-1.jpg" alt="Print RAL Calavera diseño Barcelona galeribcn "></a>
 <figcaption><b>S.T.</b> 
-Obra realizada en colaboración con BALU. Reproducción digital seriada, firmada y con certificado de autenticidad incluido, 44x31 cm. 90€, con marco 115€.</figcaption>
+Obra realizada en colaboración con BALU. Reproducción digital seriada y firmada, 44x31 cm. 90€, con marco 115€.</figcaption>
 </figure>
 </div>
 
