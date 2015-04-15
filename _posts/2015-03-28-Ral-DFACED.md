@@ -37,7 +37,7 @@ Mil gracias a todos por asistir y compartir con [RAL](http://www.galeribcn.com/a
 	<a href="/images/EVENTO3.jpg"><img src="/images/EVENTO3.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
 	<figcaption>©Sara Escribano</figcaption>
 </figure>
-
+</div>
 
 <figure class="third">	
 	<a href="/images/EVENTO4.jpg"><img src="/images/EVENTO4.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
