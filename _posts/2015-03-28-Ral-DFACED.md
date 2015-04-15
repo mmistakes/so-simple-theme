@@ -22,11 +22,18 @@ published: true
 
 Mil gracias a todos por asistir y compartir con [RAL](http://www.galeribcn.com/articulos/RAL.html "RAL") y [['galəri]]( http://www.galeribcn.com/about/ "['galəri] ") estos momentos y gracias a [Le Cool Barcelona](http://barcelona.lecool.com/event/dfaced-ral/ "Le Cool Barcelona") por su preciosa crítica
 
-<figure class="third">	
+<div class="figure-group">
+	<figure>
 	<a href="/images/EVENTO1.jpg"><img src="/images/EVENTO1.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
 	<figcaption>©Sara Escribano</figcaption>
+	</figure>
+	
+	<figure>
 	<a href="/images/EVENTO2.jpg"><img src="/images/EVENTO2.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
 	<figcaption>©Sara Escribano</figcaption>
+	</figure>
+	
+	<figure>
 	<a href="/images/EVENTO3.jpg"><img src="/images/EVENTO3.jpg" alt="Tienda galeribcn diseño Barcelona"></a>
 	<figcaption>©Sara Escribano</figcaption>
 </figure>
