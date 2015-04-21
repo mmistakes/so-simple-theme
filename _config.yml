@@ -44,10 +44,11 @@ owner:
   flickr: #username
   tumblr: #username
   pinterest: #username
+  weibo: #userid
   google:
     plus: #username
     analytics:
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:
