@@ -66,9 +66,9 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 </figure>
 
 <figure>
-	<a href="/images/OCHAGAVIA/CIELO CUBICO.jpg"><img src="/images/OCHAGAVIA/CIELO CUBICO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
-	<figcaption><b>CIELO CÚBICO.</b>
-	Reproducción digital firmada, 29,7x40 cm. 20€.</figcaption>
+	<a href="/images/OCHAGAVIA/murcielago.jpg"><img src="/images/OCHAGAVIA/murcielago.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>MURCIÉLAGO.</b>
+	Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	</figcaption>
 </figure>
 
@@ -170,6 +170,42 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	<a href="/images/OCHAGAVIA/FAKIR.jpg"><img src="/images/OCHAGAVIA/FAKIR.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>FAKIR.</b>
 	  Reproducción digital firmada, 21,7x29 cm. 15€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/OCHAGAVIA/buho.jpg"><img src="/images/OCHAGAVIA/buho.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>BUHO.</b>
+	  Reproducción digital firmada, 21x21 cm. 15€.</figcaption>
+</figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/OCHAGAVIA/CIELO CUBICO.jpg"><img src="/images/OCHAGAVIA/CIELO CUBICO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>CIELO CÚBICO.</b>
+	Reproducción digital firmada, 29,7x42 cm. 20€.</figcaption>
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/OCHAGAVIA/Presentador.jpg"><img src="/images/OCHAGAVIA/Presentador.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>PRESENTADOR Y TIGRE.</b>
+	  Reproducción digital firmada, 21,7x29 cm. 15€.</figcaption>
+</figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/OCHAGAVIA/elefantes.jpg"><img src="/images/OCHAGAVIA/elefantes.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>ELEFANTES EQUILIBRISTAS.</b>
+	Reproducción digital firmada, 29,7x21 cm. 15€.</figcaption>
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/OCHAGAVIA/totem.jpg"><img src="/images/OCHAGAVIA/totem.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
+	<figcaption><b>COMPOSICIÓN TOTEM.</b>
+	  Reproducción digital firmada, 42x30 cm. 20€.</figcaption>
 </figure>
 </div>
 
