@@ -13,7 +13,10 @@ share: true
 permalink: react-reflux-example/
 ---
 
-Continuing my [previous post](/react-what-the-flux/) about ReactJS and the Flux architecture I'm now creating a very simple example using the [Reflux](https://github.com/spoike/refluxjs). 
+I've stated in my [previous post](/react-what-the-flux/) about React that his is how I felt every time I had to code JS:
+![](/images/hamster_reverse_wheel.gif){: .center-image }
+
+Then I came ecross ReactJS and the Flux architecture. I'm now creating a very simple example using the [Reflux](https://github.com/spoike/refluxjs). 
 
 ## What is Flux, again?
 
@@ -21,7 +24,7 @@ Continuing my [previous post](/react-what-the-flux/) about ReactJS and the Flux 
 
 The point of Flux is to be more of a functional programming style and do something better than MVC. Flux eschews MVC in favor of a unidirectional data flow. When a user interacts with a React view, the view propagates an action through a central dispatcher, to the various stores that hold the application's data and business logic, which updates all of the views that are affected. This works especially well with React's declarative programming style, which allows the store to send updates without specifying how to transition views between states.
 
-http://asset-2.soup.io/asset/11663/6158_29bd.gif
+
 
 {% highlight javascript %}
 var HelloMessage = React.createClass({
