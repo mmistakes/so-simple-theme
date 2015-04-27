@@ -14,9 +14,12 @@ permalink: react-reflux-example/
 ---
 
 I've stated in my [previous post](/react-what-the-flux/) about React that his is how I felt every time I had to code JS:
-![](/images/hamster_reverse_wheel.gif){: .center-image }
+<figure>
+    <img src="/images/hamster_reverse_wheel.gif" alt="Coding in vanilla JS">
+    <figcaption>Kinda works, but something's not as it's supposed to be.</figcaption>
+</figure>
 
-Then I came ecross ReactJS and the Flux architecture. I'm now creating a very simple example using the [Reflux](https://github.com/spoike/refluxjs). 
+Then I came across ReactJS and the Flux architecture. I'm now creating a very simple example using the [Reflux](https://github.com/spoike/refluxjs). 
 
 ## What is Flux, again?
 
