@@ -17,7 +17,7 @@ UI on the web has always been a special kind of hell for me. That is the part of
 
 ## Let there be light
 
-Part of the pain is the same as on the backend - we're managing state in a wrong way. I strongly believe that state management should be explicit and conscious. To make things worse we're trying to flow state back and fort between the backend and the frontend with an inherently stateless protocol called [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session_state).
+Part of the pain is the same as on the backend - we're managing state in a wrong way. I strongly believe that state management should be explicit and conscious. To make things worse we're trying to flow state back and forth between the backend and the frontend with an inherently stateless protocol called [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session_state).
 
 ## State of the art art of the state management
 
