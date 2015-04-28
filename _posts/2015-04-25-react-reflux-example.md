@@ -17,6 +17,8 @@ comments: true
 share: true
 permalink: react-reflux-example/
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react-with-addons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/JSXTransformer.js"></script>
 
 I've told you in my [previous post about React](/react-what-the-flux/) that his is how I felt every time I had to code JS:
 <figure>
@@ -27,6 +29,93 @@ I've told you in my [previous post about React](/react-what-the-flux/) that his 
 Then I came across ReactJS and the Flux architecture. I wouldn't say it's our salvation but I really like the direction it's going towards.
 
 I'm now creating a very simple example app using the [Reflux](https://github.com/spoike/refluxjs) library.
+
+# A React primer
+
+#### 1. Simple rendering (JSX):
+
+{% highlight html %}
+<div id="react-code-1"></div>
+<script type="text/jsx">
+    React.render(<h4>Hello World</h4>, document.getElementById('react-code-1'));
+</script>
+{% endhighlight %}
+The result:
+
+<div style="border: 1px dashed black; padding:10px; margin-left:10px;" id="react-code-1"></div>
+<script type="text/jsx">
+    React.render(<h4>Hello World</h4>, document.getElementById('react-code-1'));
+</script>
+
+Go and check out [JSX](https://facebook.github.io/jsx/)
+<hr/>
+#### 2. Simple component properties
+
+{% highlight html %}
+<div id="react-code-2"></div>
+var Hello = React.createClass({
+    render: function() {
+        return <div>Hello {this.props.name}</div>;
+    }
+});
+ 
+React.render(<Hello name="World" />, document.getElementById('react-code-2'));
+{% endhighlight %}
+The result:
+
+<div style="border: 1px dashed black; padding:10px; margin-left:10px;" id="react-code-2"></div>
+<script type="text/jsx">
+var Hello = React.createClass({
+    render: function() {
+        return <div>Hello {this.props.name}</div>;
+    }
+});
+ 
+React.render(<Hello name="World" />, document.getElementById('react-code-2'));
+</script>
+So you can pass properties to components upon instantiation. These initial properties are later accessible via this.props.
+<hr/>
+#### 3. Simple state
+
+{% highlight html %}
+<div id="react-code-3"></div>
+var Counter = React.createClass({
+    getInitialState: function() {
+        return {presscount: 0};
+    },
+    handleClick: function() {
+      this.setState({presscount: this.state.presscount + 1});
+    },
+    render: function() {
+        return <div>Pressed {this.state.presscount} times
+            <div><button className="btn btn-small btn-primary" onClick={this.handleClick}>Press me</button></div>
+        </div>
+    }
+});
+ 
+React.render(<Counter />, document.getElementById('react-code-3'));
+{% endhighlight %}
+The result:
+
+<div style="border: 1px dashed black; padding:10px; margin-left:10px;" id="react-code-3"></div>
+<script type="text/jsx">
+var Counter = React.createClass({
+    getInitialState: function() {
+        return {presscount: 0};
+    },
+    handleClick: function() {
+      this.setState({presscount: this.state.presscount + 1});
+    },
+    render: function() {
+        return <div>Pressed {this.state.presscount} times
+            <div><button className="btn btn-small btn-primary" onClick={this.handleClick}>Press me</button></div>
+        </div>
+    }
+});
+ 
+React.render(<Counter />, document.getElementById('react-code-3'));
+</script>
+What's important to see here is that the DOM event handler (handleClick) does NOT propagate any events or does not call any other handler! It simply updates the component's local state which results in a re-render. We could say that it's React's job to keep the view (rendered components) in sync with their state. 
 
 # What is Flux, again?
 > Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidirectional data flow. It's more of a pattern rather than a formal framework
