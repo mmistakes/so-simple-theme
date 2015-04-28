@@ -11,13 +11,13 @@ Los retratos de **RAL** son una explosión de color que escapan hacia la abstrac
 <figure>
 	<a href="/images/RAL/brainstorm.jpg"><img src="/images/RAL/brainstorm.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 	<figcaption><b>BRAINSTORM.</b>
-Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm., con marco 34x24 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/RAL/fascinate.jpg"><img src="/images/RAL/fascinate.jpg" alt="RAL Collage y acrílico sobre papel diseño Barcelona galeribcn"></a>
 <figcaption><b>FASCINATE.</b> 
-Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 40x30 cm. 190€.</figcaption>
+Collage y acrílico sobre papel, 29,7x21 cm., con marco 40x30 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
