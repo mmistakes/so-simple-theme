@@ -67,6 +67,50 @@ Let's create a very simple application: an image grid which periodically fetches
 
 I've used [this yeoman generator](https://github.com/TFaga/generator-react-reflux) to kick off the basic structure of the project.
 
-{% highlight javascript %} var HelloMessage = React.createClass({   render: function () {     return <h1>Hello {this.props.message}!</h1>;   } });
+Under app/scripts three folders are created: components, actions and stores. We know about actions and stores from the previous section and we also know that dispatching is moved to actions+stores in Reflux. There's also an app.js and a Router.jsx which serve as the application's entry point. I won't talk about react-router now, it's not relevant for this article, let's just accept that it helps with client-side routing (with the location hash), for now the default route (/) is enough.
 
-React.render(<HelloMessage message="World" />, document.body); {% endhighlight %}
+The 'components' folder contains our React components. There's a simple hierachy here, if you check out routing Layout contains Home, a specific page. Home itself uses ImageGrid to display the actual image grid.
+
+Actions is pretty simple:
+
+{% highlight javascript %} var ImageActions = Reflux.createActions([   'fetchList' ]); {% endhighlight %}
+
+This means there's only one action for the image list: fetching it. Looking at stores/imagestore.js:
+
+{% highlight javascript %}
+
+var Reflux = require('reflux');
+var $ = require('jquery');
+var ImageActions = require('../actions/imageactions');
+
+var ImageStore = Reflux.createStore({
+    listenables: [ImageActions],
+    imagelist: [],
+    sourceUrl: 'https://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=cats,memes',
+
+    init: function() {
+        this.fetchList();
+    },
+
+    fetchList: function() {
+        $.ajax({
+            url: this.sourceUrl,
+            dataType: 'jsonp',
+            jsonpCallback: 'jsonFlickrFeed',
+            cache: false,
+            context: this,
+            success: function(data) {
+                console.log('fetch complete');
+                this.imagelist = data.items;
+                this.trigger(this.imagelist);
+            }
+        });
+    }
+});
+
+module.exports = ImageStore;
+{% endhighlight %}
+
+_listenables_ is the special thing here: it autoconnects actions with stores. Here we specified that ImageStore should be notified if any ImageActions action occur. Remember, there's only one for now: 'fetchList'. An automatic function invocation is done then, the function with the same name or one with the 'on' prefix is getting invoked on the Store. So, in our case it's either 'fetchList()' or 'onfetchList()' - I used the former.
+
+So at this point whenever the action 'fetchList' is invoked, the 'fetchList()' function of ImageStore gets called.  
