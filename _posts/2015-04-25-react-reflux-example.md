@@ -155,6 +155,9 @@ There's a [blog post](http://spoike.ghost.io/deconstructing-reactjss-flux/) abou
 - Action creators are not needed because RefluxJS actions are functions that will pass on the payload they receive to anyone listening to them
 
 # Let's start
+
+![](/images/yeoman-logo.png){: .center-image }
+
 Let's create a very simple application: an image grid which periodically fetches the latest public photos from Flickr and also add a button to be able to trigger the refresh. You can see it working at [https://reflux-sample.ochronus.com/](https://reflux-sample.ochronus.com/). You can find the sources on [Github](https://github.com/ochronus/reflux-example)
 
 I've used [this yeoman generator](https://github.com/TFaga/generator-react-reflux) to kick off the basic structure of the project.
@@ -226,7 +229,7 @@ later in this file:
 if (this.state.imagestore) {
 {% endhighlight %}
 
-With specifying *mixins* we state that we'd like to connect this component's state with the ImageStore. What this means is that whenever the store reacts to the action (in our case the single fetchList() function) the component's state will be updated somehow. In fetchList() there's a line 'this.trigger(this.imagelist);' - this is the one responsible for updating all subscribed component's states. This state is then accessible in the component through this.state.whatever (whatever == what we specified at the mixin definition).
+With specifying *mixins* we say that we'd like to connect this component's state with the ImageStore. What this means is that whenever the store reacts to the action (in our case the single fetchList() function) the component's state will be updated somehow. In fetchList() there's a line 'this.trigger(this.imagelist);' - this is the one responsible for updating all subscribed component's states. This state is then accessible in the component through this.state.whatever (whatever == what we specified at the mixin definition).
 
 # Recap
 So, long story short: we define actions, state which stores should be notified for them and then connect components with stores through compontent state. 
@@ -256,4 +259,3 @@ setInterval(function() {
 {% endhighlight %}
 
 I hope this simple project helps you get started with React and Flux, stay tuned for a ClojureScript version, coming soon!
-
