@@ -10,6 +10,21 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 
 <div class="figure-group">
 <figure>
+	<a href="/images/Lantomo/VICOLO.jpg"><img src="/images/Lantomo/VICOLO.jpg" alt="Dibujo original Lantomo Vicolo Cieco diseño Barcelona"></a>
+	<figcaption><b>VICOLO CIECO.</b>
+    Lápiz, lápiz grafito y acuarela  sobre papel, 100x70 cm. 420€, con marco 103x73 cm. 450€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Lantomo/YELLOWPINK.jpg"><img src="/images/Lantomo/YELLOWPINK.jpg" alt="Dibujo original Lantomo Yellow Pink diseño Barcelona"></a>
+	<figcaption><b>YELLOWPINK.</b> 
+    Acuarela, lápiz y pastel sobre papel, 70x50 cm. 350€, con marco 100x70 cm. 380€.</figcaption>
+</figure>
+</div>
+
+
+<div class="figure-group">
+<figure>
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="Dibujo original Lantomo Pullover attack diseño Barcelona"></a>
 	<figcaption><b>PULLOVER ATTACK.</b>
     Lápiz grafito y lápiz de color sobre papel, 60x44 cm., con marco 70x50 cm. VENDIDO.</figcaption>
