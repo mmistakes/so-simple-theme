@@ -60,7 +60,7 @@ Vidrio con orificio e hilo de cáñamo. Bordes pulidos. Altura: 14cm, Ø7,5cm. E
 </figure>
 
 <figure>
-	<a href="/images/FLOATING/banana.jpg"><img src="/images/banana.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
+	<a href="/images/FLOATING/banana.jpg"><img src="/images/FLOATING/banana.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>BANANA.</b> 
 Spray amarillo mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
