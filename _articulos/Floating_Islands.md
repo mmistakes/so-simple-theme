@@ -47,7 +47,7 @@ La esencia de Floating Islands. Vidrio con hilo de cáñamo y bordes pulidos. Al
 	<a href="/images/FLOATING/jellyfish.jpg"><img src="/images/FLOATING/jellyfish.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>JELLYFISH.</b> 
-Floating para plantas acuáticas. Con fácil recambio de agua gracias a sus dos piezas. Para colocar sobre una superficie o colgar. Ideal para personas que olvidan regar las plantas.  Vidrio con hilo de cáñamo grueso de cáñamo pulido y bordes pulidos. Altura: 21,5cm, Ø7,5cm. 24,50€.</figcaption>
+Floating para plantas acuáticas. Con fácil recambio de agua gracias a sus dos piezas. Para colocar sobre una superficie o colgar. Vidrio con hilo de cáñamo grueso de cáñamo pulido y bordes pulidos. Altura: 21,5cm, Ø7,5cm. 24,50€.</figcaption>
 </figure>
 
 <figure>
@@ -71,6 +71,7 @@ Spray amarillo mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. B
 Spray blanco mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
 </figure>
 </div>
+
 
 
 _Después de años bebiendo vino y más vino, me planté delante del espejo y pensé: ¿y ahora qué? al ver esa montaña de botellas detrás de ese individuo de 28 años llamado Albert, supe que era el momento de hacer un cambio, un cambio en el que debía unir mis capacidades y pensamientos en un solo producto. Y aquí, en Barcelona, fue donde nació **Floating Islands**._
