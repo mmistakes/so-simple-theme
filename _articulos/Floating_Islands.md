@@ -15,8 +15,8 @@ imagen: FLOATING/FLOATING.JPG
 
 <div class="figure-group">
 <figure>
-	<a href="/images/FLOATING/strangled.jpg"><img src="/images/FLOATING/ strangled.jpg" alt=" Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
-	<figcaption><b> STRANGLED.</b>
+	<a href="/images/FLOATING/strangled.jpg"><img src="/images/FLOATING/strangled.jpg" alt=" Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
+	<figcaption><b>STRANGLED.</b>
 Vidrio con hilo de cáñamo alrededor del cuello. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.
 </figure>
 
@@ -36,9 +36,9 @@ Sprai verde menta mate sobre vidrio transparente. Hilo grueso de cáñamo pulido
 </figure>
 
 <figure>
-	<a href="/images/FLOATING/ HEART.jpg"><img src="/images/FLOATING/ HEART.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
+	<a href="/images/FLOATING/HEART.jpg"><img src="/images/FLOATING/HEART.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
-	<figcaption><b> HEART.</b> 
+	<figcaption><b>HEART.</b> 
 La esencia de Floating Islands. Vidrio con hilo de cáñamo y bordes pulidos. Altura: 15cm, Ø7,5cm. En vidrio transparente, verde y ocre. Incluye clavo, gancho, taco y piedras blancas. 20,50€.
 </figcaption>
 </figure>
