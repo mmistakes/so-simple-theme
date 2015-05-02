@@ -15,7 +15,8 @@ imagen: FLOATING/FLOATING.JPG
 
 <div class="figure-group">
 <figure>
-	<a href="/images/FLOATING/strangled.jpg"><img src="/images/FLOATING/strangled.jpg" alt=" Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
+	<a href="/images/FLOATING/strangled.jpg"><img src="/images/FLOATING/strangled.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
+	
 	<figcaption><b>STRANGLED.</b>
 Vidrio con hilo de cáñamo alrededor del cuello. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.
 </figure>
