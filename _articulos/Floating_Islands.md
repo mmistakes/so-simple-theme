@@ -64,7 +64,6 @@ Vidrio con orificio e hilo de cáñamo. Bordes pulidos. Altura: 14cm, Ø7,5cm. E
 
 	<figcaption><b>BANANA.</b> 
 Spray amarillo mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
- .</figcaption>
 </figure>
 
 <figure>
