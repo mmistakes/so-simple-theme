@@ -13,12 +13,13 @@ imagen: FLOATING/FLOATING.JPG
 	<a href="/images/FLOATING/strangled2.jpg"><img src="/images/FLOATING/strangled2.jpg" alt="image"></a>  
 </figure>
 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/FLOATING/strangled.jpg"><img src="/images/FLOATING/strangled.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 	
 	<figcaption><b>STRANGLED.</b>
-Vidrio con hilo de cáñamo alrededor del cuello. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.
+Vidrio con hilo de cáñamo alrededor del cuello. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
 </figure>
 
 <figure>
@@ -32,24 +33,21 @@ Spray amarillo mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. B
 	<a href="/images/FLOATING/peacock.jpg"><img src="/images/FLOATING/peacock.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>PEACOCK.</b> 
-Sprai verde menta mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.
-</figcaption>
+Sprai verde menta mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/FLOATING/HEART.jpg"><img src="/images/FLOATING/HEART.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>HEART.</b> 
-La esencia de Floating Islands. Vidrio con hilo de cáñamo y bordes pulidos. Altura: 15cm, Ø7,5cm. En vidrio transparente, verde y ocre. Incluye clavo, gancho, taco y piedras blancas. 20,50€.
-</figcaption>
+La esencia de Floating Islands. Vidrio con hilo de cáñamo y bordes pulidos. Altura: 15cm, Ø7,5cm. En vidrio transparente, verde y ocre. Incluye clavo, gancho, taco y piedras blancas. 20,50€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/FLOATING/jellyfish.jpg"><img src="/images/FLOATING/jellyfish.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>JELLYFISH.</b> 
-Floating para plantas acuáticas. Con fácil recambio de agua gracias a sus dos piezas. Para colocar sobre una superficie o colgar. Ideal para personas que olvidan regar las plantas.  Vidrio con hilo de cáñamo grueso de cáñamo pulido y bordes pulidos. Altura: 21,5cm, Ø7,5cm. 24,50€.
-</figcaption>
+Floating para plantas acuáticas. Con fácil recambio de agua gracias a sus dos piezas. Para colocar sobre una superficie o colgar. Ideal para personas que olvidan regar las plantas.  Vidrio con hilo de cáñamo grueso de cáñamo pulido y bordes pulidos. Altura: 21,5cm, Ø7,5cm. 24,50€.</figcaption>
 </figure>
 
 <figure>
