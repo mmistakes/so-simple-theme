@@ -33,7 +33,7 @@ Spray amarillo mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. B
 	<a href="/images/FLOATING/peacock.jpg"><img src="/images/FLOATING/peacock.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>PEACOCK.</b> 
-Sprai verde menta mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
+Spray verde menta mate sobre vidrio transparente. Hilo grueso de cáñamo pulido. Bordes pulidos. Altura: 15cm, Ø7,5cm. Incluye clavo, gancho, taco y piedras blancas. 22,50€.</figcaption>
 </figure>
 
 <figure>
