@@ -78,7 +78,7 @@ Espejo convexo de 20 cm. Ø, realizado con nacar y dos tipos de coral. 40x40x5 c
 <figure>
 	<a href="/images/Alejandro/8.jpg"><img src="/images/Alejandro/8.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 30 cm. Ø, acoplado a otro espejo reutilizado. 98x87x4,5 cm. 650€.</figcaption>
+Espejo convexo de 30 cm. Ø, acoplado a otro espejo reutilizado. 98x87x4,5 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
