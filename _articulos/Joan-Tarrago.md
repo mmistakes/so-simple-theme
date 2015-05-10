@@ -37,13 +37,13 @@ En su particular mundo de animales y personajes fantásticos, encontramos escena
 <figure>
 	<a href="/images/TARRAGO/THE-FUTURE.jpg"><img src="/images/TARRAGO/THE-FUTURE.jpg" alt="Print Joan Tarragó"></a>
 	<figcaption><b>THE FUTURE.</b>
-	  Reproducción digital seriada y firmada, 45x32,5 cm. 20€.</figcaption>
+	  Reproducción digital seriada y firmada, 32,5x45 cm. 20€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/TARRAGO/wolf.jpg"><img src="/images/TARRAGO/wolf.jpg" alt="Print Joan Tarragó"></a>
 	<figcaption><b>WOLF.</b>
-	    Reproducción digital seriada y firmada, 45x32,5 cm.20€.</figcaption>
+	    Reproducción digital seriada y firmada, 45x32,5 cm. 20€.</figcaption>
 </figure>
 
 <figure>
