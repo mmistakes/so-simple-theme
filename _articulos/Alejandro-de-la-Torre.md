@@ -17,13 +17,13 @@ Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de pi
 <figure>
 <a href="/images/Alejandro/21.jpg"><img src="/images/Alejandro/21.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 40 cm. Ø, acoplado a otro espejo reutilizado. 100x100x7 cm. VENDIDO.</figcaption>
+Espejo convexo de 40 cm. Ø, acoplado a otro espejo reutilizado. 100x100x7 cm. 980€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Alejandro/22.jpg"><img src="/images/Alejandro/22.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo 30 cm. Ø, enmarcado en un teclado de piano. 118x118x12 cm. 280€.</figcaption>
+Espejo convexo 30 cm. Ø, enmarcado en un teclado de piano. 118x118x12 cm. 1500€.</figcaption>
 </figure>
 
 <figure>
