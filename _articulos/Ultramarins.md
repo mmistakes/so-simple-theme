@@ -38,9 +38,10 @@ Graduado en Dirección de arte en IDEP, Edu J. Montoya trabaja de diseñador gr�
 	<a href="/images/Ultramarins/Polak.jpg"><img src="/images/Ultramarins/Polak.jpg" alt="Totebags Lado B Ilustración diseño Barcelona "></a>
 	<a href="/images/Ultramarins/2-Bossa-Detall-Jaume.jpg"><img src="/images/Ultramarins/2-Bossa-Detall-Jaume.jpg" alt="Totebags Jaume Mercant Ilustración diseño Barcelona"></a>
 <figcaption><b> HARD KNOCK LIFE de JAUME MERCANT.</b>
-Polak es el alter ego de Jaume Mercant, un mallorquín más que vive en Barcelona y ha decidido ganarse la vida con las artes aplicadas. Actualmente es ilustrador y dibujante de cómics a la vez que estudia diseño gráfico. La vida es dura y Jay-Z. Desde la infancia sobrevivimos día a día en el equilibrio que supone la elección entre el amor y el odio. Bolsa de algodón de 40x38 cm. 16€./figcaption>
+Polak es el alter ego de Jaume Mercant, un mallorquín más que vive en Barcelona y ha decidido ganarse la vida con las artes aplicadas. Actualmente es ilustrador y dibujante de cómics a la vez que estudia diseño gráfico. La vida es dura y Jay-Z. Desde la infancia sobrevivimos día a día en el equilibrio que supone la elección entre el amor y el odio. Bolsa de algodón de 40x38 cm. 16€.</figcaption>
 </figure>
 </div>
+
 
 
 **Ultramarins** es el resultado de un proyecto que nació una tarde de 2014 en Barcelona. Este proyecto quiere ser un punto de encuentro entre artistas y amantes del arte y la moda, donde los artistas se den a conocer en un ambiente y formato totalmente diferente a lo conocido: bolsas de tela. Las piezas creadas, se venden como obras de arte de edición limitada, y a la vez, funcionales.
