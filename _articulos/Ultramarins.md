@@ -8,7 +8,7 @@ imagen: Ultramarins/logo.JPG
 ---
 
 
-**Ultramarins** es el resultado de un proyecto que nació una tarde de 2014 en Barcelona. Este proyecto quiere ser un punto de encuentro entre artistas y amantes del arte y la moda, donde los artistas se den a conocer en un ambiente y formato totalmente diferente a lo conocido : bolsas de tela. Las piezas creadas, se venden como obras de arte de edición limitada, y a la vez, funcionales.
+**Ultramarins** es el resultado de un proyecto que nació una tarde de 2014 en Barcelona. Este proyecto quiere ser un punto de encuentro entre artistas y amantes del arte y la moda, donde los artistas se den a conocer en un ambiente y formato totalmente diferente a lo conocido: bolsas de tela. Las piezas creadas, se venden como obras de arte de edición limitada, y a la vez, funcionales.
 
 El objetivo es hacer llegar el arte a la calle y a todo el mundo, de manera que cualquier persona pueda disfrutar de una obra de arte a un precio razonable. 
 
