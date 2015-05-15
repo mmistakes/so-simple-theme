@@ -1,7 +1,7 @@
 ---
 title: Totebags Ultramarins
 description:  Bolsas Totebags Ilustración diseño Barcelona
-category: Objects
+category: Objectos
 layout: articulo
 published: true
 imagen: Ultramarins/logo.JPG
