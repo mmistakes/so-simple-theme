@@ -43,6 +43,26 @@ Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada 
 </figure>
 </div>
 
+<div class="figure-group">
+<figure>
+	<a href="/images/IMO/AntimarcoBarcelona.jpg"><img src="/images/IMO/AntimarcoBarcelona.jpg" alt="Marco IMO diseño Barcelona"></a>
+	<figcaption><b>ANTIMARCO BARCELONETA.</b>
+Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/IMO/AntimarcoSert.jpg"><img src="/images/IMO/AntimarcoSert.jpg" alt="Marco IMO diseño Barcelona"></a>
+	<figcaption><b>ANTIMARCO FUNDACIÓ MIRO.</b>
+Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/IMO/AntimarcoPaisaje.jpg"><img src="/images/IMO/AntimarcoPaisaje.jpg" alt="Marco IMO diseño Barcelona"></a>
+	<figcaption><b>ANTIMARCO PAISAJE.</b>
+Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+</figure>
+</div>
+
 <figure class="half">
 <figure>
 	<a href="/images/IMO/PERCHERO1.jpg"><img src="/images/IMO/PERCHERO1.jpg" alt="Perchero IMO diseño Barcelona"></a>
