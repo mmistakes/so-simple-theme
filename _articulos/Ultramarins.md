@@ -15,6 +15,7 @@ imagen: Ultramarins/logo.JPG
 Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 </figure>
 
+
 <figure class="half">
 <figure>
 	<a href="/images/Ultramarins/LADOB.jpg"><img src="/images/Ultramarins/LADOB.jpg" alt="Totebags Lado B Ilustración diseño Barcelona"></a>
@@ -22,6 +23,7 @@ Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 <figcaption><b>LA NEVERA de LADO B. CARO GONZALEZ PINI.</b>
 Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 </figure>
+
 </div>
 
 
@@ -41,8 +43,9 @@ Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 <figcaption><b> HARD KNOCK LIFE de JAUME MERCANT.</b>
 Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 </figure>
-</div>
 
+
+</div>
 
 
 
