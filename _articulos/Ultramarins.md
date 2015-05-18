@@ -12,7 +12,7 @@ imagen: Ultramarins/logo.JPG
 	<a href="/images/Ultramarins/LOGOS.jpg"><img src="/images/Ultramarins/LOGOS.jpg" alt="Totebags Lado B Ilustración diseño Barcelona "></a>
 	<a href="/images/Ultramarins/2-Bossa-Detall-Pablo.jpg"><img src="/images/Ultramarins/2-Bossa-Detall-Pablo.jpg" alt="Totebags Pablo Gerschuni Ilustración diseño Barcelona"></a>
 <figcaption><b> LOGOS  de PABLO GERSCHUNI.</b>
-Pablo Gerschuni es traductor audiovisual. Junto a dos colegas ha creado el colectivo de traductores TIGERBEE. Los logos siempre nos traen recuerdos, nos transportan a sensaciones y momentos que hemos vivido en algún instante de nuestras vidas.  La persona debe apropiarse del logo impreso y transmutarlo en su memoria, para luego sentir la bolsa y  hacer uso de ella,  de la misma forma en que lo hacía la antigua bolsa de tela con publicidad gratuita, cuyo objetivo final era funcional. Bolsa de algodón de edición limitada de 40x38 cm. 16€./figcaption>
+Pablo Gerschuni es traductor audiovisual. Junto a dos colegas ha creado el colectivo de traductores TIGERBEE. Los logos siempre nos traen recuerdos, nos transportan a sensaciones y momentos que hemos vivido en algún instante de nuestras vidas.  La persona debe apropiarse del logo impreso y transmutarlo en su memoria, para luego sentir la bolsa y  hacer uso de ella,  de la misma forma en que lo hacía la antigua bolsa de tela con publicidad gratuita, cuyo objetivo final era funcional. Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 </figure>
 
 <figure class="half">
@@ -23,6 +23,7 @@ Pablo Gerschuni es traductor audiovisual. Junto a dos colegas ha creado el colec
 El Lado B intenta reírse de uno mismo ya que es la mejor manera de ser feliz y aceptarse tal como uno realmente es. La Nevera refleja el loop en el que a veces entramos: Salimos de casa con la promesa de que tenemos que ir al super y llegamos a casa, abrimos la nevera y encontramos la nada misma. Al día siguiente prometemos ir al super... Bolsa de algodón de edición limitada de 40x38 cm. 16€.</figcaption>
 </figure>
 </div>
+
 
 <figure class="half">
 <figure>
