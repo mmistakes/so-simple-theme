@@ -10,6 +10,32 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realis
 
 <div class="figure-group">
 <figure>
+	<a href="/images/Lantomo/GRID.jpg"><img src="/images/Lantomo/GRID.jpg" alt="Dibujo original Lantomo GRID diseño Barcelona"></a>
+	<figcaption><b>GRID.</b>
+   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. 190€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Lantomo/DECO.jpg"><img src="/images/Lantomo/DECO.jpg" alt="Dibujo original Lantomo DECO diseño Barcelona"></a>
+	<figcaption><b>DECO.</b> 
+   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. 190€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Lantomo/PEZ.jpg"><img src="/images/Lantomo/PEZ.jpg" alt="Dibujo original Lantomo PEZ diseño Barcelona"></a>
+	<figcaption><b>PEZ.</b> 
+   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. 190€.</figcaption>
+</figure>
+</div>
+
+<div class="figure-group">
+<figure>
+	<a href="/images/Lantomo/TAT.jpg"><img src="/images/Lantomo/TAT.jpg" alt="Dibujo original Lantomo TAT diseño Barcelona"></a>
+	<figcaption><b>TAT.</b> 
+   Lápiz, grafito y acuarela sobre papel, 70x50 cm. 350€, con marco 100x70 cm. 380€.</figcaption>
+</figure>
+
+<figure>
 	<a href="/images/Lantomo/VICOLO.jpg"><img src="/images/Lantomo/VICOLO.jpg" alt="Dibujo original Lantomo Vicolo Cieco diseño Barcelona"></a>
 	<figcaption><b>VICOLO CIECO.</b>
     Lápiz, lápiz grafito y acuarela  sobre papel, 100x70 cm. 420€, con marco 103x73 cm. 450€.</figcaption>
