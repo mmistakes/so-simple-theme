@@ -53,6 +53,15 @@ En su particular mundo de animales y personajes fantásticos, encontramos escena
 </figure>
 </div>
 
+<figure>
+	<a href="/images/TARRAGO/CAMISETA.jpg"><img src="/images/TARRAGO/CAMISETA.jpg" alt="CAMISETA Joan Tarragó"></a>
+
+	<figcaption><b>WYNWOOD EYE T-SHIRT.</b> 
+	Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M y L.
+	27€.</figcaption>
+</figure>
+
+
 **Joan Tarragó**, 1981, Barcelona
 
 Comienza su carrera como ilustrador hace 10 años cuando se traslada a Atenas para realizar unas prácticas. Desde entonces se convierte en un nómada moderno, siempre en movimiento entre Barcelona, Berlín, París y Biarritz.
