@@ -46,7 +46,7 @@ Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada 
 <div class="figure-group">
 <figure>
 	<a href="/images/IMO/AntimarcoBarcelona.jpg"><img src="/images/IMO/AntimarcoBarcelona.jpg" alt="Marco IMO diseño Barcelona"></a>
-	<figcaption><b>ANTIMARCO BARCELONETA.</b>
+	<figcaption><b>ANTIMARCO VILLA OLIMPICA BARCELONA.</b>
 Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 
