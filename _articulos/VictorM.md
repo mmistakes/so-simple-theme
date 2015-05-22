@@ -1,6 +1,6 @@
 ---
 title: VictorM
-description: Fotografía urbana de VictorM diseño Barcelona
+description: Fotografía urbana de VictorM Barcelona art design 
 category: Fotografía
 layout: articulo
 published: true
