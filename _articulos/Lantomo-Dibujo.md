@@ -1,6 +1,6 @@
 ---
 title: Lantomo
-description: Dibujos originales Lantomo diseño Barcelona
+description: Dibujos originales Lantomo Barcelona art design
 category: Dibujo
 layout: articulo
 published: true
