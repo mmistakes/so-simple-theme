@@ -1,6 +1,6 @@
 ---
 title: Atuell
-description: Cerámica de diseño Barcelona
+description: Cerámica Barcelona art design
 category: Objetos
 layout: articulo
 published: true
