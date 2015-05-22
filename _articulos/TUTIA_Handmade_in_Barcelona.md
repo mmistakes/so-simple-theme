@@ -6,7 +6,7 @@ layout: articulo
 published: true
 imagen: TUTIA/logo.jpg
 ---
-**Tutía** es una iniciativa unipersonal que explora la convergencia de la tecnología digital y la artesanía tradicional.
+**Tutía** explora la convergencia de la tecnología digital y la artesanía tradicional.
 
 <figure class="third">
 	<a href="/images/TUTIA/acacia.jpg"><img src="/images/TUTIA/acacia.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
@@ -117,7 +117,7 @@ Chapas de aluminio serigrafiada colección personajes. 15,50€ c/u.</figcaption
 	<a href="/images/TUTIA/brochebombilla.jpg"><img src="/images/TUTIA/brochebombilla.jpg" alt="Broche porcelana TUTIA Barcelona art design"></a>
 <a href="/images/TUTIA/brochecalavera.jpg"><img src="/images/TUTIA/brochecalavera.jpg" alt="Broche porcelana TUTIA Barcelona art design"></a>
     <figcaption>
-Broches porcelana serigrafiada. 5cm. 14,50€ c/u.</figcaption>
+Broches de porcelana serigrafiada. 5cm. 14,50€ c/u.</figcaption>
 </figure>
 
 
@@ -126,7 +126,7 @@ Broches porcelana serigrafiada. 5cm. 14,50€ c/u.</figcaption>
 	<a href="/images/TUTIA/manolobo.jpg"><img src="/images/TUTIA/manolobo.jpg" alt="Broche porcelana TUTIA Barcelona art design"></a>
 <a href="/images/TUTIA/manopaloma.jpg"><img src="/images/TUTIA/manopaloma.jpg" alt="Broche porcelana TUTIA Barcelona art design"></a>
     <figcaption>
-Broches porcelana serigrafiada. 5cm. 14,50€ c/u.</figcaption>
+Broches de porcelana serigrafiada. 5cm. 14,50€ c/u.</figcaption>
 </figure>
 
 
