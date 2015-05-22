@@ -1,6 +1,6 @@
 ---
 title: MotorARTgarage
-description: Motorartgarage Mugcup vehículos diseño Barcelona
+description: Motorartgarage Mugcup vehículos Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
