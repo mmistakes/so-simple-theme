@@ -1,5 +1,6 @@
 ---
 title: Colin McCallum
+description: Barcelona art design 
 category: Pintura
 layout: articulo
 published: true
