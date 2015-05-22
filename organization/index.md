@@ -2,10 +2,9 @@
 layout: page
 title: Organization
 excerpt: "OpenStreetMap Belgium as part of Open Knowledge Belgium"
-modified: 2014-08-08T20:04:41.231140-04:00
 ---
 
-**OpenStreetMap Belgium** is part of **Open Knowledge Belgium**.
+OpenStreetMap Belgium is part of **Open Knowledge Belgium**.
 
 * Table of Contents
 {:toc}
