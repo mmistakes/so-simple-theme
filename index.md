@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+title: OpenStreetMap - The editable map of the world!
+excerpt: "OpenStreetMap - The editable map of the world!"
 search_omit: true
 ---
 
