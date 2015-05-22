@@ -1,6 +1,6 @@
 ---
 title: DEBOSC
-description: Diseño Barcelona soporte tablet, smartphone y portátiles
+description: soportes tablet, smartphone y portátiles Barcelona design 
 category: Objetos
 layout: articulo
 published: true
