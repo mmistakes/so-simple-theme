@@ -1,6 +1,6 @@
 ---
 title: Laura Agustí
-descrption:  Prints Laura Agustí diseño Barcelona
+descrption:  Prints Barcelona art design 
 category: Prints
 layout: articulo
 published: true
