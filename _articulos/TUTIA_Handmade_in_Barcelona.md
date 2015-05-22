@@ -1,6 +1,6 @@
 ---
 title: TUTÍA 
-description: baldosas-salvamanteles, broches y collares diseño Barcelona
+description: baldosas-salvamanteles, broches y collares Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
