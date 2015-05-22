@@ -1,5 +1,6 @@
 ---
 title: Joan Tarragó
+description: Prints Barcelona art design 
 category: Prints
 layout: articulo
 published: true
