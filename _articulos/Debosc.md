@@ -68,14 +68,14 @@ Eleva la pantalla del ordenador 10 cm. para situarlo a la altura de los ojos, ev
 	<a href="/images/DEBOSC/Deround1.jpg"><img src="/images/DEBOSC/Deround1.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
 	<a href="/images/DEBOSC/Deround2.jpg"><img src="/images/DEBOSC/Deround2.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
     <figcaption><b>DEROUND.</b>
-Percha individual de diseño minimalista, fabricado con madera de abedul sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
+Percha de diseño minimalista, fabricado con madera de abedul sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
 </figure>
 
 <figure class="half">
 	<a href="/images/DEBOSC/Desquare1.jpg"><img src="/images/DEBOSC/Desquare1.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
 	<a href="/images/DEBOSC/Desquare2.jpg"><img src="/images/DEBOSC/Desquare2.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
-    <figcaption><b>DEROUND.</b>
-Percha individual de diseño minimalista, fabricado con madera de abedul sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
+    <figcaption><b>DESQUARE.</b>
+Percha de diseño minimalista, fabricado con madera de abedul sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
 </figure>
 
 _La madera despierta los sentidos y nos permite disfrutar de un inmenso abanico de sensaciones agradables, sensaciones que nos trasladan a un mundo natural, cálido y acogedor._
