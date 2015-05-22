@@ -1,5 +1,6 @@
 ---
 title: RAL
+description: Prints RAL Barcelona art design 
 category: Prints
 layout: articulo
 published: true
