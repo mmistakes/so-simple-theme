@@ -1,6 +1,6 @@
 ---
 title: CB1MAG1
-description: Prints CB1MAG1 arte urbano diseño Barcelona
+description: Prints Barcelona urban art design 
 category: Prints
 layout: articulo
 published: true
