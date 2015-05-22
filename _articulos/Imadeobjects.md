@@ -1,6 +1,6 @@
 ---
 title: IMO
-description: Muebles IMO hechos a mano diseño Barcelona
+description: Muebles IMO hechos a mano Barcelona design 
 category: Muebles
 layout: articulo
 published: true
