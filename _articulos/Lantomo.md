@@ -1,6 +1,6 @@
 ---
 title: Lantomo
-description: Prints Lantomo diseño Barcelona
+description: Prints Barcelona art design 
 category: Prints
 layout: articulo
 published: true
