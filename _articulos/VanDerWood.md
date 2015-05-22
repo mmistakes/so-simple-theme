@@ -1,6 +1,6 @@
 ---
 title: "Van Der Wood"
-description: Taburetes ilustrados Van der Wood diseño Barcelona
+description: Taburetes ilustrados Van der Wood Barcelona art design 
 category: Muebles
 layout: articulo
 published: true
