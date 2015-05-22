@@ -64,6 +64,20 @@ Eleva la pantalla del ordenador 5 cm. para situarlo a la altura de los ojos, evi
 Eleva la pantalla del ordenador 10 cm. para situarlo a la altura de los ojos, evitando la tensión en el cuello, proporcionando además debajo dos espacios adicionales para colocar el teclado, mouse y otros accesorios manteniendo así el escritorio ordenado. Realizado con listones de madera de abedul encolados, 52x19x10 cm., con ranura central de 3x37 cm. 115€.</figcaption>
 </figure>
 
+<figure class="half">
+	<a href="/images/DEBOSC/Deround1.jpg"><img src="/images/DEBOSC/Deround1.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
+	<a href="/images/DEBOSC/Deround2.jpg"><img src="/images/DEBOSC/Deround2.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
+    <figcaption><b>DEROUND.</b>
+Percha individual de diseño minimalista, fabricado con madera de abedul totalmemte natural sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
+</figure>
+
+<figure class="half">
+	<a href="/images/DEBOSC/Desquare1.jpg"><img src="/images/DEBOSC/Desquare1.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
+	<a href="/images/DEBOSC/Desquare2.jpg"><img src="/images/DEBOSC/Desquare2.jpg" alt="Colgador Debosc Diseño Barcelona"></a>
+    <figcaption><b>DEROUND.</b>
+Percha individual de diseño minimalista, fabricado con madera de abedul totalmemte natural sin ningún componente adicional y adaptable a cualquier espacio. Incluye taco y tornillo para su instalación. 10x10x4 cm. 15€.</figcaption>
+</figure>
+
 _La madera despierta los sentidos y nos permite disfrutar de un inmenso abanico de sensaciones agradables, sensaciones que nos trasladan a un mundo natural, cálido y acogedor._
 
 _La madera nos enamora y es por eso que cada producto es diferente por la propia característica de la madera de abedul, roble (betas, pequeños nudos, diferentes tonalidades, etc.)._
