@@ -1,6 +1,6 @@
 ---
 title: Yembara
-description: Litografías de Yembara diseño Barcelona
+description: Litografías Yembara Barcelona art design 
 category: Prints
 layout: articulo
 published: true
