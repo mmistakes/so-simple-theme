@@ -1,6 +1,6 @@
 ---
 title: Mr.Sis
-description: Originales Mr.Sis diseño Barcelona
+description: Originales Mr.Sis Barcelona art design 
 category: Dibujo 
 layout: articulo
 published: true
