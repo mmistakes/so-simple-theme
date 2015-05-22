@@ -1,6 +1,6 @@
 ---
 title: Raul del Sol
-description:  Prints Raul del Sol arte y diseño Barcelona
+description:  Prints Raul del Sol Barcelona art design 
 category: Prints
 layout: articulo
 published: true
