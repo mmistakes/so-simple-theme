@@ -1,5 +1,6 @@
 ---
 title: Floating Islands
+description: Macetas Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
