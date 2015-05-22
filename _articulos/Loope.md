@@ -1,5 +1,6 @@
 ---
 title: LOOPE
+description: Bolsos Barcelona art design 
 category: Objetos
 layout: articulo
 imagen: null
