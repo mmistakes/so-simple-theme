@@ -1,6 +1,6 @@
 ---
 title: Tstil
-description: cinturones neumático de bicicleta reciclados diseño Barcelona
+description: cinturones neumático de bicicleta reciclados Barcelona design 
 category: Objetos
 layout: articulo
 published: true
