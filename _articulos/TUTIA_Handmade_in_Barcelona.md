@@ -27,9 +27,9 @@ imagen: TUTIA/logo.jpg
 
 
 <figure class="third">
-	<a href="/images/TUTIA/murciélago.jpg"><img src="/images/TUTIA/murciélago.jpg " alt="Baldosa-Salvamanteles TUTIA Barcelona art design "></a>
-	<a href="/images/ TUTIA /erizo1.jpg"><img src="/images/ TUTIA /erizo1.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design "></a>
-	<a href="/images/ TUTIA /erizo2.jpg"><img src="/images/ TUTIA /erizo2.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design "></a>
+	<a href="/images/TUTIA/murciélago.jpg"><img src="/images/TUTIA/murciélago.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
+	<a href="/images/TUTIA/erizo1.jpg"><img src="/images/TUTIA/erizo1.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
+	<a href="/images/TUTIA/erizo2.jpg"><img src="/images/TUTIA/erizo2.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
     Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
 </figure>
