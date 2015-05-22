@@ -1,6 +1,6 @@
 ---
 title: Volto
-description: Salpimentero Volto galeribcn diseño Barcelona
+description: Salpimentero Volto galeribcn Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
