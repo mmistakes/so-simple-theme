@@ -47,19 +47,19 @@ Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada 
 <figure>
 	<a href="/images/IMO/AntimarcoBarcelona.jpg"><img src="/images/IMO/AntimarcoBarcelona.jpg" alt="Marco IMO diseño Barcelona"></a>
 	<figcaption><b>ANTIMARCO VILLA OLIMPICA BARCELONA.</b>
-Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/IMO/AntimarcoSert.jpg"><img src="/images/IMO/AntimarcoSert.jpg" alt="Marco IMO diseño Barcelona"></a>
 	<figcaption><b>ANTIMARCO FUNDACIÓ MIRO.</b>
-Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/IMO/AntimarcoPaisaje.jpg"><img src="/images/IMO/AntimarcoPaisaje.jpg" alt="Marco IMO diseño Barcelona"></a>
 	<figcaption><b>ANTIMARCO PAISAJE.</b>
-Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
+Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 </div>
 
