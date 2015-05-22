@@ -1,6 +1,6 @@
 ---
 title: Ultramarins
-description:  Bolsas Totebags Ilustración diseño Barcelona
+description:  Bolsas Totebags Ilustración Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
