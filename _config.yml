@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: OpenStreetMap Belgium/België/Belgique
+title: OpenStreetMap Belgium
 locale: en_US
-description: OpenStreetMap Belgium/België/Belgique.
+description: The OpenStreetMap community in Belgium.
 logo: site-logo.png
 search: true
 url: //osmbe.github.io
