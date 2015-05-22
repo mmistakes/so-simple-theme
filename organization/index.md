@@ -1,15 +1,11 @@
----
+﻿---
 layout: page
-title: Theme Setup
-excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
+title: Organization
+excerpt: "OpenStreetMap Belgium as part of Open Knowledge Belgium"
 modified: 2014-08-08T20:04:41.231140-04:00
-image:
-  feature: so-simple-sample-image-6.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-General notes and suggestions for customizing **So Simple Theme**.
+**OpenStreetMap Belgium** is part of **Open Knowledge Belgium**.
 
 * Table of Contents
 {:toc}
