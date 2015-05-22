@@ -1,6 +1,6 @@
 ---
 title: Raul del Sol
-description: Matrioskas Raul del Sol Arte Diseño Barcelona
+description: Matrioskas Raul del Sol Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
