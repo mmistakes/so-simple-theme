@@ -1,5 +1,6 @@
 ---
 title: coniLab
+description: Prints Barcelona art design 
 category: Prints
 layout: articulo
 published: true
