@@ -8,9 +8,9 @@ imagen: TUTIA/logo.jpg
 ---
 **Tutía** es una iniciativa unipersonal que explora la convergencia de la tecnología digital y la artesanía tradicional.
 
-**tutía. _no haber tutía.** Locución verbal coloquial usada para dar a entender a alguien que no debe tener esperanza de conseguir lo que desea o de evitar lo que teme._
+**tutía. no haber tutía.** _Locución verbal coloquial usada para dar a entender a alguien que no debe tener esperanza de conseguir lo que desea o de evitar lo que teme._
 
-_Sin embargo, el término tutía procede del árabe _tutiya_, y se trata de un remedio utilizado antiguamente para aliviar los enfermedades de los ojos. En tiempos de Cervantes se utilizaba _tutía _con el significado de _remedio_ o _medicina_, en positivo._ 
+_Sin embargo, el término tutía procede del árabe "tutiya", y se trata de un remedio utilizado antiguamente para aliviar los enfermedades de los ojos. En tiempos de Cervantes se utilizaba "tutía" con el significado de "remedio" o "medicina", en positivo._ 
 
 _La palabra no tiene nada que ver con tu tía, pero lo parece, aunque la mía se escribe junto. Y a esta tía le fascinó el potencial de la impresión digital. El proyecto de **Tutía Handmade** empezó aprendiendo cómo imprimir fotos sobre telas, en casa._
 
