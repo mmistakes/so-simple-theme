@@ -1,6 +1,6 @@
 ---
 title: Labayru i González
-description: Muebles ecológicos diseño Barcelona
+description: Muebles ecológicos Barcelona design 
 category: Muebles
 layout: articulo
 published: true
