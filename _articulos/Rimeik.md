@@ -1,6 +1,6 @@
 ---
 title: "[ri:’meik]"
-description: Muebles hechos a mano diseño Barcelona
+description: Muebles hechos a mano Barcelona  design 
 category: Muebles
 layout: articulo
 published: true
