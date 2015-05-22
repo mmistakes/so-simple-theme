@@ -1,7 +1,7 @@
 ---
 title: Kyle Bryant
 category: Prints
-description: Linografía Serigrafía Kyle Bryant diseño Barcelona
+description: Linografía Serigrafía Barcelona art design 
 layout: articulo
 published: true
 imagen: K.BRYANT/logo.jpg
