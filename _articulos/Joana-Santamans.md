@@ -1,6 +1,6 @@
 ---
 title: Joana Santamans
-description: Prints Joana Santamans diseño Barcelona
+description: Prints Joana Santamans Barcelona art design 
 category: Prints
 layout: articulo
 published: true
