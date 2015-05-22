@@ -1,5 +1,6 @@
 ---
 title: Alejandro de la Torre
+description: Espejos convexos Barcelona art design
 category: Muebles
 layout: articulo
 published: true
