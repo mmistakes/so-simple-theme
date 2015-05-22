@@ -1,6 +1,7 @@
 ---
 title: Paco y Manolo
 description: Fotografías Paco y Manolo Barcelona art design 
+category: Fotografía
 layout: articulo
 published: true
 imagen: PacoyManolo/logo.JPG
