@@ -1,5 +1,6 @@
 ---
 title: RAL
+description: Originales RAL Barcelona art design 
 category: Pintura
 layout: articulo
 published: true
