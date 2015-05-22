@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: OpenStreetMap Belgium/België/Belgique
 locale: en_US
-description: Describe your website here.
+description: OpenStreetMap Belgium/België/Belgique.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: //osmbe.github.io
 
 # Jekyll configuration
 
