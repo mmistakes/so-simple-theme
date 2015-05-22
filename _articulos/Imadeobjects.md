@@ -72,14 +72,7 @@ Madera de cerezo, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada pieza es única. 37€.</figcaption>
 </figure>
 
-<figure class="half">
-<figure>
-	<a href="/images/IMO/anti.jpg"><img src="/images/IMO/anti.jpg" alt="Marco IMO diseño Barcelona"></a>
-	
-	<a href="/images/IMO/MARCO.jpg"><img src="/images/IMO/MARCO.jpg" alt="Marco IMO diseño Barcelona"></a>
-	<figcaption><b>ANTIMARCO FAR AWAY.</b>
-Madera de cerezo, 41x49 cm. Cada pieza es única. VENDIDO.</figcaption>
-</figure>
+
 
 
 IMO resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. 
