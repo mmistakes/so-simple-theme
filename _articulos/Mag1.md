@@ -1,6 +1,6 @@
 ---
 title: CB1MAG1
-description:  Originales CB1MAG1 arte urbano diseño Barcelona
+description:  Originales CB1MAG1 Barcelona urban art design 
 category: Pintura
 layout: articulo
 published: true
