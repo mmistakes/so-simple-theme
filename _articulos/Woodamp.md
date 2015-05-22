@@ -1,6 +1,6 @@
 ---
 title: Woodamp
-description: Lámparas y macetas Woodamp diseño Barcelona
+description: Lámparas y macetas Woodamp Barcelona design 
 category: Objetos
 layout: articulo
 published: true
