@@ -7,7 +7,7 @@ published: true
 imagen: Lantomo/logo.jpg
 ---
 
-El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el realismo de sus retratos con lo onírico de las situaciones reflejadas.
+El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperrealismo de sus retratos con lo onírico de las situaciones reflejadas.
 
 <div class="figure-group">
 
