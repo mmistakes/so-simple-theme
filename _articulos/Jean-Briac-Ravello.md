@@ -1,6 +1,6 @@
 ---
 title: Jean Briac Ravello
-description: Bandejas decorativas hecho a mano diseño Barcelona
+description: Bandejas decorativas hecho a mano Barcelona art design 
 category: Objetos
 layout: articulo
 published: true
