@@ -13,7 +13,7 @@ De un pinchazo a una pajarita, siendo cada una de ellas una pieza única #madein
 	<a href="/images/Cyclotie/Cyclist1.jpg"><img src="/images/Cyclotie/Cyclist1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/cyclist2.jpg"><img src="/images/Cyclotie/cyclist2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>CYCLIST CLASSIC.</b>
-Pajarita y ribete hechos  a mano a partir de cámara de bicicleta combinada con cinta de manillar, ambos reciclados. Medidas: 11x6 cm. Cinta regulable. Serie limitada, edición 1/25, 49€.</figcaption>
+Pajarita y ribete hechos a mano a partir de cámara y cinta de manillar de bicicleta recicladas. Medidas: 11x6 cm. Cinta regulable. Serie limitada, edición 1/25, 49€.</figcaption>
 </figure>
 
 <figure class="half">
