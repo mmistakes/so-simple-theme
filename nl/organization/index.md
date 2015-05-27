@@ -1,7 +1,7 @@
----
+ï»¿---
 layout: nl-page
 title: OpenStreetMap Werkgroep
-excerpt: "OpenStreetMap België is deel van as a working group at Open Knowledge Belgium."
+excerpt: "OpenStreetMap Belgie is deel van as a working group at Open Knowledge Belgium."
 modified: 2014-08-08T19:44:38.564948-04:00
 ---
 
