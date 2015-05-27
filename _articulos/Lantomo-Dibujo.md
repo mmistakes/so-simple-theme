@@ -12,7 +12,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 <figure>
 	<a href="/images/Lantomo/GRID.jpg"><img src="/images/Lantomo/GRID.jpg" alt="Dibujo original Lantomo GRID diseño Barcelona"></a>
 	<figcaption><b>GRID.</b>
-   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. 190€.</figcaption>
+   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
@@ -24,7 +24,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 <figure>
 	<a href="/images/Lantomo/PEZ.jpg"><img src="/images/Lantomo/PEZ.jpg" alt="Dibujo original Lantomo PEZ diseño Barcelona"></a>
 	<figcaption><b>PEZ.</b> 
-   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. 190€.</figcaption>
+   Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. VENDIDO.</figcaption>
 </figure>
 </div>
 
