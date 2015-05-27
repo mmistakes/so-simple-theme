@@ -8,6 +8,7 @@ imagen: Cyclotie/LOGO.JPG
 ---
 De un pinchazo a una pajarita, siendo cada una de ellas una pieza única #madeinbarcelona, hecha  a mano con cámaras de bicicleta recicladas, portadora de su propia historia.  
 
+
 <figure class="half">
 <figure>
 	<a href="/images/Cyclotie/Cyclist1.jpg"><img src="/images/Cyclotie/Cyclist1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
@@ -39,6 +40,7 @@ Pajarita hecha a mano a partir de cámara de bicicleta y corbata reciclada. Medi
 <figcaption><b>VIOLET PAISLEY TANDEM.</b>
 Doble pajarita confeccionada con cámara de bicicleta que combina un ribete hecho de corbata estampada y con un reverso hecho de la misma corbata que el ribete. Cinta regulable. Medidas aprox. 11x6,5 cm. Serie limitada, edición 1/1, 64€.</figcaption>
 </figure>
+
 
 
 **Cyclotie**  confecciona pajaritas a través de cámaras recicladas. Cada pajarita es una pieza única  con miles de historia y kilómetros recorridos. Un proyecto artesanal, 100% barcelonés, comprometido con el diseño y el desarrollo sostenible.
