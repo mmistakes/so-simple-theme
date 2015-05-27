@@ -1,5 +1,5 @@
----
-layout: page
+﻿---
+layout: nl-page
 title: "Search"
 date: 
 modified:

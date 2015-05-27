@@ -1,5 +1,5 @@
 ---
-layout: en-page
+layout: nl-page
 title: Blog
 excerpt: "An archive of blog posts sorted by date."
 search_omit: true
