@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: en-page
 title: OpenStreetMap - The editable map of the world!
 excerpt: "OpenStreetMap - The editable map of the world!"
 search_omit: true
@@ -22,6 +22,8 @@ Secondly, who decides what to map? The government? Big companies? Navigation sof
 
 <ul class="post-list">
 {% for post in site.categories.blog %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
+	{% if post.categories contains 'en' %}
+		<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
+	{% endif %}
 {% endfor %}
 </ul>
