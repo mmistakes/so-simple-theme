@@ -1,7 +1,7 @@
----
+ï»¿---
 layout: nl-page
-title: OpenStreetMap - Dé editeerbare online kaart!
-excerpt: "OpenStreetMap - Dé editeerbare online kaart!
+title: OpenStreetMap - De editeerbare online kaart!
+excerpt: "OpenStreetMap - De editeerbare online kaart!
 search_omit: true
 ---
 OpenStreetMap (OSM) is een collaboratief project 
