@@ -11,7 +11,7 @@ De un pinchazo a una pajarita, siendo cada una de ellas una pieza única #madein
 <figure class="half">
 <figure>
 	<a href="/images/Cyclotie/Cyclist1.jpg"><img src="/images/Cyclotie/Cyclist1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
-	<a href="/images/Cyclotie/Cyclist2.jpg"><img src="/images/Cyclotie/Cyclist2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
+	<a href="/images/Cyclotie/cyclist2.jpg"><img src="/images/Cyclotie/cyclist2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>CYCLIST CLASSIC.</b>
 Pajarita y ribete hechos  a mano a partir de cámara de bicicleta combinada con cinta de manillar, ambos reciclados. Medidas: 11x6 cm. Cinta regulable. Serie limitada, edición 1/25, 49€.</figcaption>
 </figure>
@@ -26,8 +26,8 @@ Pajarita clásica y elegante, hecha a mano a partir de cámara lisa de bicicleta
 
 <figure class="half">
 <figure>
-	<a href="/images/Cyclotie/Aquarelle1.jpg"><img src="/images/Cyclotie/Aquarelle1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas  Barcelona art design"></a>
-	<a href="/images/Cyclotie /Aquarelle2.jpg"><img src="/images/Cyclotie/ Aquarelle2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas  Barcelona art design"></a>
+	<a href="/images/Cyclotie/Aquarelle1.jpg"><img src="/images/Cyclotie/Aquarelle1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
+	<a href="/images/Cyclotie/Aquarelle2.jpg"><img src="/images/Cyclotie/Aquarelle2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas  Barcelona art design"></a>
 <figcaption><b> AQUARELLE FABRIC.</b>
 Pajarita hecha a mano a partir de cámara de bicicleta y corbata reciclada. Medidas aprox. 11x4,5 cm. Cinta regulable. Serie limitada, edición 1/5, 44€.</figcaption>
 </figure>
