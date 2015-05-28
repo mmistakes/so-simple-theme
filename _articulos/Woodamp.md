@@ -29,6 +29,7 @@ Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con 
 </figure>
 </div>
 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Woodamp/Klotz01Azul.jpg"><img src="/images/Woodamp/Klotz01Azul.jpg" alt="Lámpara Woodamp diseño Barcelona"></a>
@@ -45,8 +46,8 @@ Medidas: 18cm. Ø12cm. 150€.</figcaption>
 </figure>
 </div>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/Woodamp/MazettXL-dia.jpg"><img src="/images/Woodamp/MazettXL-dia.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 	<a href="/images/Woodamp/MazettXL-Noche.jpg"><img src="/images/Woodamp/MazettXL-Noche.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 <figcaption><b>MAZETT XL.</b> 
@@ -55,8 +56,8 @@ Pintado con pintura blanca luminiscente y disponible en varios colores.
 Medidas: 25x20x16.cm. 72€.</figcaption>
 </figure>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/Woodamp/MazettL.jpg"><img src="/images/Woodamp/MazettL.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 	<a href="/images/Woodamp/MazettL-night.jpg"><img src="/images/Woodamp/MazettL-night.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 <figcaption><b>MAZETT L.</b> 
@@ -65,7 +66,8 @@ Pintado con pintura blanca luminiscente.
 Medidas: 30x10x15.cm. 49€.</figcaption>
 </figure>
 
-<figure>
+
+<figure class="half">
 	<a href="/images/Woodamp/MazettS.jpg"><img src="/images/Woodamp/MazettS.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 	<a href="/images/Woodamp/MazettS02.jpg"><img src="/images/Woodamp/MazettS02.jpg" alt="Macetero Woodamp diseño Barcelona"></a>
 <figcaption><b>MAZETT S.</b> 
@@ -73,12 +75,12 @@ Macetero artesanal de madera maciza de pino rojo del Pirineo con recipiente de c
 Pintado con pintura blanca luminiscente.
 Medidas: 15x9x15.cm. 35€.</figcaption>
 </figure>
-</div>
 
-"Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación.
 
-Debido a nuestro trabajo en el mundo audiovisual pasábamos largas horas delante del ordenador y como terapia anti estrés, nos dedicábamos a restaurar muebles y objetos que nos encontrábamos. Así nos dimos cuenta que nos apasionaba trabajar con nuestras manos, tener contacto directo con el material y decidimos realizar nuestro propio proyecto.
+_Hacemos objetos de decoración en madera de forma totalmente artesanal, siempre enfocados al ámbito de la iluminación._
 
-Producimos nuestras piezas artesanalmente, desde la selección del material hasta el montaje final. Incluso fabricamos o adaptamos las herramientas de nuestro taller para poder realizar cada uno de nuestros modelos."
+_Debido a nuestro trabajo en el mundo audiovisual pasábamos largas horas delante del ordenador y como terapia anti estrés, nos dedicábamos a restaurar muebles y objetos que nos encontrábamos. Así nos dimos cuenta que nos apasionaba trabajar con nuestras manos, tener contacto directo con el material y decidimos realizar nuestro propio proyecto._
+
+_Producimos nuestras piezas artesanalmente, desde la selección del material hasta el montaje final. Incluso fabricamos o adaptamos las herramientas de nuestro taller para poder realizar cada uno de nuestros modelos._
 
 
