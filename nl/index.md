@@ -1,6 +1,6 @@
 ---
 layout: en-page
-title: OpenStreetMap - The editable map of the world!
+title: OpenStreetMap - Dé editeerbaare!
 excerpt: "OpenStreetMap - The editable map of the world!"
 search_omit: true
 ---
