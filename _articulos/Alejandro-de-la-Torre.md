@@ -7,7 +7,6 @@ published: true
 ---
 
 <figure class="half">
-<figure>
 	<a href="/images/Alejandro/DSC_0007.jpg "><img src="/images/Alejandro/DSC_0007.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
 	<a href="/images/Alejandro/DSC_0008.jpg "><img src="/images/Alejandro/DSC_0008.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
 <figcaption>
@@ -15,7 +14,6 @@ Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de pi
 </figure>
 
 <div class="figure-group">
-<figure>
 <a href="/images/Alejandro/21.jpg"><img src="/images/Alejandro/21.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
 Espejo convexo de 40 cm. Ø, acoplado a otro espejo reutilizado. 100x100x7 cm. 980€.</figcaption>
@@ -33,6 +31,7 @@ Espejo convexo 30 cm. Ø, enmarcado en un teclado de piano. 118x118x12 cm. 1500�
 Espejo convexo de 20 cm. Ø acoplado a otro espejo reutilizado. 65x65x7 cm. 450€.</figcaption>
 </figure>
 </div>
+
 
 <div class="figure-group">
 <figure>
@@ -54,6 +53,7 @@ Espejo convexo de 20 cm. Ø realizado con molde industrial de madera. 27x27x19 c
 </figure>
 </div>
 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/3.jpg"><img src="/images/Alejandro/3.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
@@ -73,6 +73,7 @@ Espejo convexo 20 cm. Ø, realizado con molde industrial de madera. 49x49x19 cm.
 Espejo convexo de 20 cm. Ø, realizado con molde industrial de madera. 49x49x13 cm. 390€.</figcaption>
 </figure>
 </div>
+
 
 <div class="figure-group">
 <figure>
@@ -94,6 +95,7 @@ Espejo convexo de 20 cm. Ø, realizado con nacar y dos tipos de coral. 40x40x5 c
 </figure>
 </div>
 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/8.jpg"><img src="/images/Alejandro/8.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
@@ -113,6 +115,7 @@ Espejo convexo de 25 cm. Ø realizado con molde industrial de madera. 38x38x25 c
 Espejo convexo de 25 cm Ø, realizado con molde industrial de madera. 35x35x11 cm. 340€.</figcaption>
 </figure>
 </div>
+
 
 <div class="figure-group">
 <figure>
@@ -147,7 +150,8 @@ Espejo convexo de 13 cm. Ø, realizado con molde industrial de madera. 30x20x17 
 </div>
 
 
-Alejandro de la Torre: "Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de homo recolectus.
+
+**Alejandro de la Torre**: "Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de homo recolectus.
 
 
 Describiría mi actividad vital. Vital en el sentido de que mi vida está definida por esta permanente actitud personal, en una suerte de “ENCUENTRA Y PEGA”. No reciclo, recojo objetos olvidados, abandonados, para transformarlos en nuevos objetos con alma. No me considero artista, tampoco artesano, sino más bien un apasionado por todas las formas que salen a mi paso y despiertan cariño en mí.
