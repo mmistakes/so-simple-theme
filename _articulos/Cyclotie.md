@@ -47,6 +47,7 @@ Doble pajarita confeccionada con cámara de bicicleta que combina un ribete hech
 
 
 
+
 **Cyclotie**  confecciona pajaritas a través de cámaras recicladas. Cada pajarita es una pieza única  con miles de historias y kilómetros recorridos. Un proyecto artesanal, 100% barcelonés, comprometido con el diseño y el desarrollo sostenible.
 
 
