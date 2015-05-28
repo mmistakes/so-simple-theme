@@ -29,6 +29,7 @@ Asiento de haya  o encina (+ por encargo) y patas de eucalipto con acabado de ba
 </figure>
 </div>
 
+
 <div class="figure-group">
 <figure>
 	<a href="/images/IMO/MESAMANGOS.jpg"><img src="/images/IMO/MESAMANGOS.jpg" alt="Mesita hecha a mano IMO diseño Barcelona"></a>
@@ -42,6 +43,7 @@ Madera de haya o encina con acabado de barniz al agua. Altura 49cm./Ø42cm. 145�
 Madera de roble y haya con acabado de barniz al agua. Altura 36cm./Ø24cm. Cada pieza es única. 82€.</figcaption>
 </figure>
 </div>
+
 
 <div class="figure-group">
 <figure>
@@ -63,8 +65,8 @@ Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 </div>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/IMO/PERCHERO1.jpg"><img src="/images/IMO/PERCHERO1.jpg" alt="Perchero IMO diseño Barcelona"></a>
 	
 	<a href="/images/IMO/PERCHERO1A.jpg"><img src="/images/IMO/PERCHERO1A.jpg" alt="Perchero IMO diseño Barcelona"></a>
@@ -74,8 +76,7 @@ Colgadores realizados con ramas de árbol y acabado de barniz al agua. Cada piez
 
 
 
-
-IMO resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. 
+**IMO** resulta de una enseñanza estética, del placer de observar, del querer recordar y un sentimiento de añoranza de lo antiguo, lo sencillo y del intento de unión entre ellos. 
 
 
 
