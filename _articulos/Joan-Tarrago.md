@@ -63,9 +63,7 @@ En su particular mundo de animales y personajes fantásticos, encontramos escena
 </figure>
 
 
-**Joan Tarragó**, 1981, Barcelona
-
-Comienza su carrera como ilustrador hace 10 años cuando se traslada a Atenas para realizar unas prácticas. Desde entonces se convierte en un nómada moderno, siempre en movimiento entre Barcelona, Berlín, París y Biarritz.
+**Joan Tarragó**, 1981, Barcelona, comienza su carrera como ilustrador hace 10 años cuando se traslada a Atenas para realizar unas prácticas. Desde entonces se convierte en un nómada moderno, siempre en movimiento entre Barcelona, Berlín, París y Biarritz.
 
 Su trabajo se encuentra en un viaje interdisciplinar entre la ilustración y el diseño gráfico, de dos y tres dimensiones. A través de sus proyectos pretende construir puentes entre el arte y el diseño, donde la ilustración y la pintura juegan un papel importante. Una atmosfera ritual que se funde con la tipografía y un sinfín de trazos de líneas orgánicas que crecen en fantasía. 
 
