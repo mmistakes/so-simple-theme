@@ -9,14 +9,13 @@ published: true
 Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 
 <figure class="half">
-<figure>
 	<a href="/images/victorm/FotVM01.jpg"><img src="/images/victorm/FotVM01.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM02.jpg"><img src="/images/victorm/FotVM02.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías color y B/N sobre papel mate, 30x40 cm. 40€, con marco 41,5x52 cm. 80€. </figcaption>
 </figure>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/victorm/FotVM03.jpg"><img src="/images/victorm/FotVM03.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM04.jpg"><img src="/images/victorm/FotVM04.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografía B/N sobre papel mate, 30x40 cm. 40€, con marco 41,5x52 cm. 80€. </figcaption>
@@ -30,12 +29,14 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 <figcaption>Fotografías B/N sobre papel mate, 30x40 cm. 40€.  </figcaption>
 </figure>
 
+
 <figure class="third">	
 	<a href="/images/victorm/FotVM17.jpg"><img src="/images/victorm/FotVM17.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM09.jpg"><img src="/images/victorm/FotVM09.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM14.jpg"><img src="/images/victorm/FotVM14.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías color y B/N sobre papel mate, 30x40 cm. 40€.  </figcaption>
 </figure>
+
 
 <figure class="third">	
 	<a href="/images/victorm/FotVM16.jpg"><img src="/images/victorm/FotVM16.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
@@ -44,6 +45,7 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 <figcaption>Fotografías B/N sobre papel mate, 30x40 cm. 40€. </figcaption>
 </figure>
 
+
 <figure class="third">	
 	<a href="/images/victorm/FotVM23.jpg"><img src="/images/victorm/FotVM23.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM20.jpg"><img src="/images/victorm/FotVM20.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
@@ -51,30 +53,28 @@ Fotografías urbanas de **VictorM**. En exclusiva en ['galəri].
 <figcaption>Fotografías B/N sobre papel mate, 30x40 cm. y 40x30 cm. 40€. </figcaption>
 </figure>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/victorm/FotVM05.jpg"><img src="/images/victorm/FotVM05.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM06.jpg"><img src="/images/victorm/FotVM06.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías B/N sobre papel mate, 40x30 cm. 40€, con marco 52x41,5 cm. 80€.  </figcaption>
 </figure>
 
+
 <figure class="half">
-<figure>
 	<a href="/images/victorm/FotVM07.jpg"><img src="/images/victorm/FotVM07.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM08.jpg"><img src="/images/victorm/FotVM08.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías B/N sobre papel mate, 40x30 cm. 40€, con marco 52x41,5 cm. 80€.  </figcaption>
 </figure>
 
+
 <figure class="half">
-<figure>	
 	<a href="/images/victorm/FotVM10.jpg"><img src="/images/victorm/FotVM10.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 	<a href="/images/victorm/FotVM21.jpg"><img src="/images/victorm/FotVM21.jpg" alt="Foto urbana VictorM diseño Barcelona"></a>
 <figcaption>Fotografías B/N sobre papel mate, 40x30 cm. 40€.  </figcaption>
 </figure>
 
 
-VictorM define su obra fotográfica de marcado carácter urbano:
-
- EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD
+VictorM define así obra fotográfica de marcado carácter urbano: _EXPANSIÓN, VACÍO, RUIDO, LINEAL, TECNOLOGÍA, OPACIDAD, PROFUNDIDAD, SOLEDAD, INMENSIDAD, INTENSIDAD, AUSTERIDAD, LUMINOSIDAD, DINAMISMO, AUTOMATISMO, SENTIDO DE LA UBICACIÓN, CONEXIÓN, OSCURIDAD_
 
 
