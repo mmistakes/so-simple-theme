@@ -151,13 +151,13 @@ Espejo convexo de 13 cm. Ø, realizado con molde industrial de madera. 30x20x17 
 
 
 
-**Alejandro de la Torre**: "Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de homo recolectus.
+_Estudié Biología en Barcelona. Mi interés en piedras, animales, plantas y formas, unido al sentido de su consideración como objetos de arte desembocaron en un apego a la atención y búsqueda de piezas que me hacen actuar a la manera de homo recolectus._
 
 
-Describiría mi actividad vital. Vital en el sentido de que mi vida está definida por esta permanente actitud personal, en una suerte de “ENCUENTRA Y PEGA”. No reciclo, recojo objetos olvidados, abandonados, para transformarlos en nuevos objetos con alma. No me considero artista, tampoco artesano, sino más bien un apasionado por todas las formas que salen a mi paso y despiertan cariño en mí.
+_Describiría mi actividad vital. Vital en el sentido de que mi vida está definida por esta permanente actitud personal, en una suerte de “ENCUENTRA Y PEGA”. No reciclo, recojo objetos olvidados, abandonados, para transformarlos en nuevos objetos con alma. No me considero artista, tampoco artesano, sino más bien un apasionado por todas las formas que salen a mi paso y despiertan cariño en mí._
 
 
-Desde pequeño he sido un apasionado de los espejos convexos. En mi propuesta creativa mi intención es retomarlos como objetos mágicos por la visión en tercera persona que aportan. Y por la belleza decorativa que proporciona su presencia.
+_Desde pequeño he sido un apasionado de los espejos convexos. En mi propuesta creativa mi intención es retomarlos como objetos mágicos por la visión en tercera persona que aportan. Y por la belleza decorativa que proporciona su presencia._
 
 
-Mi trabajo se centra en la reconversión de moldes de madera utilizados en la fundición de piezas de hierro industriales. Los acoplo para encontrar un nuevo objeto mágico que sobre todo, aunque no sólo, ofrecen una visión especial, diferente del lugar en el que se insertan. Prefiero las piezas de gran tamaño que me recuerdan el pasado industrial de Bilbao natal. Mis trabajos con pianos inservibles, desahuciados, que encuentran una nueva vida son ejemplos de mis últimos pasos en la creación de diferentes soluciones para la recuperación del espejo convexo en la vida cotidiana de interiores.”
+_Mi trabajo se centra en la reconversión de moldes de madera utilizados en la fundición de piezas de hierro industriales. Los acoplo para encontrar un nuevo objeto mágico que sobre todo, aunque no sólo, ofrecen una visión especial, diferente del lugar en el que se insertan. Prefiero las piezas de gran tamaño que me recuerdan el pasado industrial de Bilbao natal. Mis trabajos con pianos inservibles, desahuciados, que encuentran una nueva vida son ejemplos de mis últimos pasos en la creación de diferentes soluciones para la recuperación del espejo convexo en la vida cotidiana de interiores._
