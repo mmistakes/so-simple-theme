@@ -1,13 +1,14 @@
 # Site wide configuration
 
 en-title: OpenStreetMap Belgium
-nl-title: OpenStreetMap Belgie
+nl-title: OpenStreetMap België
 locale: en_US
 en-description: The OpenStreetMap community in Belgium.
-nl-description: De OpenStreetMap community in Belgie.
+nl-description: De OpenStreetMap community in België.
 logo: site-logo.png
 search: true
-url: //localhost:4000
+# url: //localhost:4000
+url: //osmbe.github.io
 
 # Jekyll configuration
 
