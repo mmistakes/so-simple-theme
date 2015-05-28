@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Dev Des
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: New Site, yall
+logo: Jessica-LogoYell.png
 search: true
-url: http://localhost:4000
+url: //jessjeanjo.github.io/devy/
 
 # Jekyll configuration
 
@@ -28,19 +28,21 @@ kramdown:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+comments: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jessica Joseph
+
   avatar: bio-photo.jpg
   email: you@email.com
   disqus-shortname:
-  twitter: #username
+  twitter: Jessjeanjo
   facebook: #username
-  github: #username
+  github: Jessjeanjo
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
-  instagram: #username
+  instagram: Jessjeanjo
   flickr: #username
   tumblr: #username
   pinterest: #username
