@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: en-page
 title: OpenStreetMap Working Group
 excerpt: "OpenStreetMap Belgium as a working group at Open Knowledge Belgium."
 modified: 2014-08-08T19:44:38.564948-04:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: en-post
 title: "Hello World"
 modified:
 categories: blog

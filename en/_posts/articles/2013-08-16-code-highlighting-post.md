@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: en-post
 title: Syntax Highlighting Post
 excerpt: "Demo post displaying the various ways of highlighting code in Markdown."
 categories: articles

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: en-page
 title: "Search"
 date: 
 modified:

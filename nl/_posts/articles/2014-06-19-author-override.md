@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: nl-post
 title: "Override Author Byline Test Post"
 excerpt: "An article to test overriding the default site author."
 categories: articles

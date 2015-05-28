@@ -5,13 +5,14 @@ locale: en_US
 description: The OpenStreetMap community in Belgium.
 logo: site-logo.png
 search: true
-url: //osmbe.github.io
+url: //localhost:4000
 
 # Jekyll configuration
 
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
+encoding:    UTF-8
 sass:
   sass_dir: _sass
   style: compressed
