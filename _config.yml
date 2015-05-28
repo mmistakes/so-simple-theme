@@ -1,8 +1,10 @@
 # Site wide configuration
 
-title: OpenStreetMap Belgium
+en-title: OpenStreetMap Belgium
+nl-title: OpenStreetMap Belgie
 locale: en_US
-description: The OpenStreetMap community in Belgium.
+en-description: The OpenStreetMap community in Belgium.
+nl-description: De OpenStreetMap community in Belgie.
 logo: site-logo.png
 search: true
 url: //localhost:4000

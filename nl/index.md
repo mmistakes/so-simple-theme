@@ -1,5 +1,5 @@
 ---
-layout: en-page
+layout: nl-page
 title: OpenStreetMap - Dé editeerbaare!
 excerpt: "OpenStreetMap - The editable map of the world!"
 search_omit: true
