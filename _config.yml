@@ -4,7 +4,7 @@ title: Dev Des
 locale: en_US
 description: A small description, yall
 logo: https://lh3.googleusercontent.com/-C0V-nB6tk2I/VV8pX23zDAI/AAAAAAAAAR4/8nC6GVTvY7c/w426-h551/Jessica%2BLogo.fw.png
-url: //devdes.me
+url: http://devdes.me
 
 # Jekyll configuration
 
@@ -31,16 +31,16 @@ comments: true
 
 # Site owner
 owner:
-  name: Michael Rose
+  name: Jessica Joseph
   avatar: michael-rose-photo.jpg
-  email: michael@mademistakes.com
+  email: jjj331@nyu.edu
   disqus-shortname: sosimpletheme
-  twitter: mmistakes
+  twitter: Jessjeanjo
   facebook: michaelrose
-  github: mmistakes
+  github: Jessjeanjo
   stackexchange:
   linkedin:
-  instagram: mmistakes
+  instagram: Jessjeanjo
   flickr:
   tumblr: mademistakes
   pinterest:
