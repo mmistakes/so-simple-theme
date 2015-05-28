@@ -2,9 +2,10 @@
 
 title: Dev Des
 locale: en_US
-description: A small description, yall
-logo: https://lh3.googleusercontent.com/-CfXvp-F_D_k/VUoULmxCXBI/AAAAAAAAANo/zsNiespz6GQ/s426/15%2B-%2B1
-url: http://jessjeanjo.github.io/so-simple-theme/
+description: New Site, yall
+logo: Jessica-LogoYell.png
+search: true
+url: //jessjeanjo.github.io/devy/
 
 # Jekyll configuration
 
@@ -32,23 +33,24 @@ comments: true
 # Site owner
 owner:
   name: Jessica Joseph
-  avatar: michael-rose-photo.jpg
-  email: jjj331@nyu.edu
-  disqus-shortname: sosimpletheme
+
+  avatar: bio-photo.jpg
+  email: you@email.com
+  disqus-shortname:
   twitter: Jessjeanjo
-  facebook: michaelrose
+  facebook: #username
   github: Jessjeanjo
-  stackexchange:
-  linkedin:
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
   instagram: Jessjeanjo
-  flickr:
-  tumblr: mademistakes
-  pinterest:
-  weibo:
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
   google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-2
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
