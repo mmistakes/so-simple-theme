@@ -37,10 +37,10 @@ Pajarita hecha a mano a partir de cámara de bicicleta y corbata reciclada. Medi
 </figure>
 
 
-<figure class="half">
-<figure>
+<figure class="third">
 	<a href="/images/Cyclotie/Tandem_TropicalBlue1.jpg"><img src="/images/Cyclotie/Tandem_TropicalBlue1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/Tandem_TropicalBlue3.jpg"><img src="/images/Cyclotie/Tandem_TropicalBlue3.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
+	<a href="/images/Cyclotie/Tandem_TropicalBlue2.jpg"><img src="/images/Cyclotie/Tandem_TropicalBlue2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>VIOLET PAISLEY TANDEM.</b>
 Doble pajarita confeccionada con cámara de bicicleta que combina un ribete hecho de corbata estampada y con un reverso hecho de la misma corbata que el ribete. Cinta regulable. Medidas aprox. 11x6,5 cm. Serie limitada, edición 1/1, 64€.</figcaption>
 </figure>
@@ -60,5 +60,5 @@ Las cámaras de bicicleta, convertidas en residuo reviven con **Cyclotie**. Desp
 
 
 
-Es la primera vez que sus creadores, el creativo Albert Soler y la científica María Garrido, se atreven con el diseño de producto. Después de desarrollar varios prototipos, lanzan la primera colección de **Cyclotie**   en la que, además de utilizar cámaras de bicicleta con mucha personalidad, también han jugado con otros materiales como cintas de manillar y corbatas recicladas.
+Es la primera vez que sus creadores, el creativo Albert Soler y la científica María Garrido, se atreven con el diseño de producto. Después de desarrollar varios prototipos, lanzan la primera colección de **Cyclotie** en la que, además de utilizar cámaras de bicicleta con mucha personalidad, también han jugado con otros materiales como cintas de manillar y corbatas recicladas.
  
