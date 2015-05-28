@@ -11,7 +11,6 @@ De un pinchazo a una pajarita, siendo cada una de ellas piezas únicas #madeinba
 
 
 <figure class="half">
-<figure>
 	<a href="/images/Cyclotie/Cyclist1.jpg"><img src="/images/Cyclotie/Cyclist1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/cyclist2.jpg"><img src="/images/Cyclotie/cyclist2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>CYCLIST CLASSIC.</b>
@@ -20,7 +19,6 @@ Pajarita y ribete hechos a mano a partir de cámara y cinta de manillar de bicic
 
 
 <figure class="half">
-<figure>
 	<a href="/images/Cyclotie/PenguinL1.jpg"><img src="/images/Cyclotie/PenguinL1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/PenguinL2.jpg"><img src="/images/Cyclotie/PenguinL2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>PENGUIN L.</b>
@@ -29,7 +27,6 @@ Pajarita clásica y elegante, hecha a mano a partir de cámara lisa de bicicleta
 
 
 <figure class="half">
-<figure>
 	<a href="/images/Cyclotie/Aquarelle1.jpg"><img src="/images/Cyclotie/Aquarelle1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/Aquarelle2.jpg"><img src="/images/Cyclotie/Aquarelle2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas  Barcelona art design"></a>
 <figcaption><b> AQUARELLE FABRIC.</b>
