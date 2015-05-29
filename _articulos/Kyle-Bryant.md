@@ -29,9 +29,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	Linografía seriada y firmada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/K.BRYANT/BOARDS.jpg"><img src="/images/K.BRYANT/BOARDS.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Boards Create Noise.</b>
@@ -52,9 +50,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	  Linografía seriada y firmada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco de acero 175€.
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/K.BRYANT/BICYCLE.jpg"><img src="/images/K.BRYANT/BICYCLE.jpg" alt="Serigrafía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Bicycle Courier Nostalgia.</b>
@@ -68,7 +64,6 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 	  Serigrafía a dos colores sobre papel 38x28 cm. 20 €; serigrafía 15x10 cm. 6€.
 	</figcaption>
 </figure>
-
 </div>
 
 <iframe width="560" height="315" src="http://player.vimeo.com/video/31196636?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
