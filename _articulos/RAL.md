@@ -26,9 +26,7 @@ Collage y acrílico sobre papel, 29,7x21 cm., con marco 40x30 cm. VENDIDO.</figc
 <figcaption><b>CONCENTRATE.</b> 
 Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/RAL/sexy.jpg"><img src="/images/RAL/sexy.jpg" alt="RAL Collage y acrílico sobre madera diseño Barcelona galeribcn"></a>
 	<figcaption><b>SEXY.</b>
@@ -46,9 +44,7 @@ Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 40x30 cm. 190€.
 <figcaption><b>SAY NO!.</b> 
 Collage y acrílico sobre papel, 29,7x21 cm. 130€, con marco 34x24 cm. 185€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/RAL/memories.jpg"><img src="/images/RAL/memories.jpg" alt="RAL Collage y acrílico sobre plancha de magnesio diseño Barcelona galeribcn"></a>
 	<figcaption><b>MEMORIES.</b>
@@ -68,10 +64,10 @@ Collage y acrílico sobre madera, con marco 49,5x36 cm. 210€.</figcaption>
 </figure>
 </div>
 
-Raul Huerta es **RAL**,  artista y diseñador gráfico de Montornès del Vallès (Barcelona), que interesado por las técnicas pictóricas y el “handmade” fue indagando hacia el collage, lo que le sirvió como medio para expresar sus primeras ideas, en un comienzo con temas más duros y una paleta de color más gris, para más tarde y poco a poco ir introduciendo colores, los cuales son representativos para definir su línea argumental.
+Raul Huerta es **RAL**, artista y diseñador gráfico de Montornès del Vallès (Barcelona), que interesado por las técnicas pictóricas y el “handmade” fue indagando hacia el collage, lo que le sirvió como medio para expresar sus primeras ideas, en un comienzo con temas más duros y una paleta de color más gris, para más tarde y poco a poco ir introduciendo colores, los cuales son representativos para definir su línea argumental.
 
 Su trabajo actual se basa en el retrato desde un punto de vista más sentimental y emotivo, intentando representar una belleza etérea entre manchas de color y trazos poco definidos. Pedazos de papel descoordinados, que reconstruyen una faz evocadora que no es real.
 
-Influenciado sobre todo por la cultura urbana y la música, la técnica  es una mezcla de collage y acrílico sobre soportes como madera o metal, y  ahora como primicia para ['galəri], **RAL** introduce el papel, dando con sus retratos un paso más hacia la abstracción.
+Influenciado sobre todo por la cultura urbana y la música, la técnica es una mezcla de collage y acrílico sobre soportes como madera o metal, y ahora como primicia para ['galəri], **RAL** introduce el papel, dando con sus retratos un paso más hacia la abstracción.
 
 
