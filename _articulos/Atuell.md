@@ -16,7 +16,7 @@ En cada objeto de **Atuell**  reside un detalle que le otorga identidad propia y
 
 <figure>
 	<a href="/images/Atuell/maceta.jpg"><img src="/images/Atuell/maceta.jpg" alt="cerámica hecha a mano diseño Barcelona"></a>
-	<figcaption>Maceta de cerámica. 14 x 14 cm. Cada pieza es única. 28€ c.u.</figcaption>
+	<figcaption>Maceta de cerámica. 14 x 14 cm. Cada pieza es única. 28€.</figcaption>
 </figure>
 
 <figure>
