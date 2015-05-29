@@ -9,7 +9,6 @@ imagen: FLYTOPIU/logo.JPG
 Diseños originales de **Fly to Più** de aves migratorias que hacen su parada por tierras de Cataluña. Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M y L.
 
 <div class="figure-group">
-
 <figure>
 	<a href="/images/FLYTOPIU/king-fisher.jpg"><img src="/images/FLYTOPIU/king-fisher.jpg" alt="Camiseta pájaro Martín Pescador Fly to più Diseño Barcelona"></a>
 	<figcaption><b>KING FISHER.</b>
@@ -29,9 +28,7 @@ Diseños originales de **Fly to Più** de aves migratorias que hacen su parada p
 	<figcaption><b>BLACK PLUMAGE.</b> 
 35€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/FLYTOPIU/blue-bird.jpg"><img src="/images/FLYTOPIU/blue-bird.jpg" alt="Camiseta Pájaro Azul Fly to più Diseño Barcelona"></a>
 
@@ -45,9 +42,7 @@ Diseños originales de **Fly to Più** de aves migratorias que hacen su parada p
 	<figcaption><b>COLLECTIVE POWER.</b> 
 35€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/FLYTOPIU/purple-wings.jpg"><img src="/images/FLYTOPIU/purple-wings.jpg" alt="Camiseta Pájaro Flamenco Fly to più Diseño Barcelona"></a>
 
