@@ -59,8 +59,14 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 </figure>
 
 <figure>
-	<a href="/images/PacoyManolo/Kink_21.jpg"><img src="/images/PacoyManolo/Kink_21.jpg" alt="Polaroid Paco y Manolo arte y diseño Barcelona"></a>
+	<a href="/images/PacoyManolo/Kink_21.jpg"><img src="/images/PacoyManolo/Kink_21.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>KINK 21 + CUADERNO 02.-</b>
+	15€.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/PacoyManolo/Kink_22.jpg"><img src="/images/PacoyManolo/Kink_22.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
+	<figcaption><b>KINK 22 + CUADERNO 03.-</b>
 	15€.</figcaption>
 </figure>
 
@@ -69,6 +75,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 	<figcaption><b> EDICIÓN ESPECIAL KINK 01 + FOTO.-</b>
 	65€.</figcaption>
 </figure>
+
 
 <figure>
 	<a href="/images/PacoyManolo/E.E.KINK1.jpg"><img src="/images/PacoyManolo/E.E.KINK1.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
