@@ -28,9 +28,7 @@ imagen: "CONI/logoconi.jpg"
 Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 42 x 30 cm. 37€.</figcaption>
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/CONI/This is my year.jpg"><img src="/images/CONI/This is my year.jpg" alt=" Print coniLab This is my year galeribcn diseño Barcelona"></a>
 	<figcaption> <b>THIS IS MY YEAR.</b>
@@ -81,7 +79,6 @@ Serigrafía en dos colores sobre papel artístico de 170 gr. Medidas: 30 x 21 cm
 	<figcaption> <b>LOVE (OR CHANGE).</b>
 	Serigrafía en dos colores sobre papel crema  artístico de 170 gr. Medidas: 30 x 21 cm. 25€.</figcaption>
 </figure>
-
 
 <figure>
 	<a href="/images/CONI/Somos un equipo.3.jpg"><img src="/images/CONI/Somos un equipo.3.jpg" alt="Print coniLab Somos un equipo galeribcn diseño Barcelona "></a>
