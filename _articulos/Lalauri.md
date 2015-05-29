@@ -29,9 +29,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
@@ -52,9 +50,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	Reproducción seriada y firmada, 21x29,5 cm. 20€, con marco 24x30cm. 60€.
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR. DEERWINTER.</b>
@@ -75,9 +71,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Laura-Agusti/FOREST.jpg"><img src="/images/Laura-Agusti/FOREST.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>FOREST.</b> 
@@ -93,15 +87,9 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 </figure>
 </div>
 
-_...A los 8 años sabía que acabaría estudiando Bellas Artes...y así fue,_ 
-_me especialicé en diseño gráfico y pintura. Disfruté cada minuto de_ 
-_mi formación universitaria y exploté mi creatividad al máximo._ 
+_...A los 8 años sabía que acabaría estudiando Bellas Artes... y así fue, me especialicé en diseño gráfico y pintura. Disfruté cada minuto de mi formación universitaria y exploté mi creatividad al máximo._ 
 
-_En 2003 me trasladé a Barcelona y después de un tiempo, decidí_ 
-_estudiar Diseño de Interiores porque siempre me ha interesado, desde_ 
-_que era una niña cuando prefería diseñar y decorar las casas de_ 
-_muñecas en lugar de jugar con ellas (mis edificios favoritos eran las_ 
-_"sillas" con ascensores de "cajas de Cornflakes")._ 
+_En 2003 me trasladé a Barcelona y después de un tiempo, decidí estudiar Diseño de Interiores porque siempre me ha interesado, desde que era una niña cuando prefería diseñar y decorar las casas de muñecas en lugar de jugar con ellas (mis edificios favoritos eran las "sillas" con ascensores de "cajas de Cornflakes")._ 
 
 _Toda mi vida he estado acompañada de pinceles y pintura._
 
