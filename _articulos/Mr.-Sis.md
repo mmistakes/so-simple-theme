@@ -33,7 +33,7 @@ Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x4,8 cm. VENDI
 <figure>
 	<a href="/images/Mr.Sis/HOY NO ESTOY.jpg"><img src="/images/Mr.Sis/HOY NO ESTOY.jpg" alt="Dibujo original Mr. Sis diseño Barcelona"></a>
 	<figcaption><b>HOY NO ESTOY PARA NADIE.</b> 
-Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x29,7 cm. 47€.
+Rotulador, lápiz de color, acuarela y tinta china sobre papel, 21x29,7 cm. VENDIDO.
 </figcaption>
 </figure>
 
