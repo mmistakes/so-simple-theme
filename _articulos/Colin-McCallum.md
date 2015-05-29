@@ -26,9 +26,7 @@ Acrílico sobre tela, 70x70 cm. 360€.</figcaption>
 <figcaption><b>SYNTHESIS SILVER PURPLE YELLOW.</b> 
 Acrílico y spray sobre acetato y papel, 50x50 cm. 220€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/McCALLUM/FOYER.jpg"><img src="/images/McCALLUM/FOYER.jpg" alt="Colin McCallum Foyer lines "></a>
 	<figcaption><b>FOYER LINES.</b>
