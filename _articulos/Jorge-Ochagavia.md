@@ -102,7 +102,6 @@ Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 </figure>
 
-	
 <figure>
 	<a href="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg"><img src="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>CERDITO INGRÁVIDO.</b>
@@ -139,7 +138,6 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	  Reproducción digital firmada, 29,7x42 cm. 20€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/OCHAGAVIA/TRAPECIO MORTAL.jpg"><img src="/images/OCHAGAVIA/TRAPECIO MORTAL.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>TRAPECIO MORTAL.</b>
@@ -157,9 +155,7 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	<figcaption><b>MONOCICLO ALPINO.</b>
 	  Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/OCHAGAVIA/PAYASO FUNAMBULISTA.jpg"><img src="/images/OCHAGAVIA/PAYASO FUNAMBULISTA.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>PAYASO FUNAMBULISTA.</b>
@@ -177,9 +173,7 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	<figcaption><b>BUHO.</b>
 	  Reproducción digital firmada, 21x21 cm. 15€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/OCHAGAVIA/CIELO CUBICO.jpg"><img src="/images/OCHAGAVIA/CIELO CUBICO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>CIELO CÚBICO.</b>
@@ -192,9 +186,7 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	<figcaption><b>PRESENTADOR Y TIGRE.</b>
 	  Reproducción digital firmada, 21,7x29 cm. 15€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/OCHAGAVIA/elefantes.jpg"><img src="/images/OCHAGAVIA/elefantes.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>ELEFANTES EQUILIBRISTAS.</b>
