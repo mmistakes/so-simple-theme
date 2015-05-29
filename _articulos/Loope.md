@@ -44,7 +44,7 @@ Colores disponibles: caramelo, chocolate y negro. Medidas: 40x38x40cm. 450€.</
 
 Colores disponibles: caramelo, chocolate y negro. Medidas:40x38x40cm. 390€.</figcaption>
 </figure>
-</div>
+
 
 <figure>
 	<a href="/images/Loope/BLACK COIN.jpg"><img src="/images/Loope/BLACK COIN.jpg" alt="Bolso de diseño"></a>
@@ -52,7 +52,7 @@ Colores disponibles: caramelo, chocolate y negro. Medidas:40x38x40cm. 390€.</f
 	
 10x10x10cm. Colores disponibles: caramelo, chocolate y negro. 170€.</figcaption>
 </figure>
-
+</div>
 
 <iframe src="//player.vimeo.com/video/102448891?title=0&amp;byline=0&amp;portrait=0" width="880" height="495" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
