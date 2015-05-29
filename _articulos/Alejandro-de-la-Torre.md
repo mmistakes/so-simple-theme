@@ -153,7 +153,7 @@ Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 55x52x10 
 	<figcaption>
 Espejo convexo de 13 cm. Ø, realizado con molde industrial de madera. 30x20x17 cm. 225€.</figcaption>
 </figure>
-
+</div>
 
 
 
