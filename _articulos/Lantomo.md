@@ -10,7 +10,6 @@ imagen: Lantomo/logo.jpg
 El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperrealismo de sus retratos con lo onírico de las situaciones reflejadas.
 
 <div class="figure-group">
-
 <figure>
 	<a href="/images/Lantomo/NOIR.jpg"><img src="/images/Lantomo/NOIR.jpg" alt="Print Lantomo Noir diseño Barcelona"></a>
 	<figcaption><b>NOIR.</b>
@@ -28,9 +27,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 	<figcaption><b>YOU ARE NOT CRAZY... YOU ARE JUST A CONTRADDICTORY BEING.</b> 
     Impresión digital firmada sobre papel alta calidad de 265 gr. 45x32 cm. 35€.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/OCTOPUS-PART-I-RED.jpg"><img src="/images/Lantomo/OCTOPUS-PART-I-RED.jpg" alt="Print Lantomo Octopus I diseño Barcelona"></a>
 	<figcaption><b>OCTOPUS I (Díptico).</b> 
