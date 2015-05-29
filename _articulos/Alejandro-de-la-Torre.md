@@ -31,10 +31,7 @@ Espejo convexo 30 cm. Ø, enmarcado en un teclado de piano. 118x118x12 cm. 1500�
 	<figcaption>
 Espejo convexo de 20 cm. Ø acoplado a otro espejo reutilizado. 65x65x7 cm. 450€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 <a href="/images/Alejandro/9.jpg"><img src="/images/Alejandro/9.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
@@ -52,10 +49,7 @@ Espejo convexo 14 cm. Ø, realizado con molde industrial de madera. 38x38x7,5 cm
 	<figcaption>
 Espejo convexo de 20 cm. Ø realizado con molde industrial de madera. 27x27x19 cm. 340€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/3.jpg"><img src="/images/Alejandro/3.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
@@ -73,10 +67,7 @@ Espejo convexo 20 cm. Ø, realizado con molde industrial de madera. 49x49x19 cm.
 	<figcaption>
 Espejo convexo de 20 cm. Ø, realizado con molde industrial de madera. 49x49x13 cm. 390€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/4.jpg"><img src="/images/Alejandro/4.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
@@ -94,10 +85,7 @@ Espejo convexo de 20 cm. Ø, realizado con pasta de piedra en blanco y negro, 40
 	<figcaption>
 Espejo convexo de 20 cm. Ø, realizado con nacar y dos tipos de coral. 40x40x5 cm. 280€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/8.jpg"><img src="/images/Alejandro/8.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
@@ -115,10 +103,7 @@ Espejo convexo de 25 cm. Ø realizado con molde industrial de madera. 38x38x25 c
 	<figcaption>
 Espejo convexo de 25 cm Ø, realizado con molde industrial de madera. 35x35x11 cm. 340€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 	<a href="/images/Alejandro/13.jpg"><img src="/images/Alejandro/13.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
@@ -148,7 +133,7 @@ Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 55x52x10 
 	<figcaption>
 Espejo convexo de 13 cm. Ø, realizado con molde industrial de madera. 30x20x17 cm. 225€.</figcaption>
 </figure>
-</div>
+
 
 
 
