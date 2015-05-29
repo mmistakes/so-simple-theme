@@ -26,9 +26,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 	<figcaption><b>PEZ.</b> 
    Lápiz, grafito, pastel y bolígrafo bic sobre papel, 21x30 cm. 165€, con marco 31x41 cm. VENDIDO.</figcaption>
 </figure>
-</div>
 
-<div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/TAT.jpg"><img src="/images/Lantomo/TAT.jpg" alt="Dibujo original Lantomo TAT diseño Barcelona"></a>
 	<figcaption><b>TAT.</b> 
@@ -46,10 +44,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 	<figcaption><b>YELLOWPINK.</b> 
     Acuarela, lápiz y pastel sobre papel, 70x50 cm. 350€, con marco 100x70 cm. 380€.</figcaption>
 </figure>
-</div>
 
-
-<div class="figure-group">
 <figure>
 	<a href="/images/Lantomo/pullover-attak.jpg"><img src="/images/Lantomo/pullover-attak.jpg" alt="Dibujo original Lantomo Pullover attack diseño Barcelona"></a>
 	<figcaption><b>PULLOVER ATTACK.</b>
