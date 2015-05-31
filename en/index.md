@@ -14,7 +14,7 @@ Our community is about collecting data and contributing it to OpenStreetMap. Mos
 
 **Community**
 
-Good maps aren't always available. Even big companies like Google get things wrong sometimes. Compare with an encyclopedia that just a few can edit and wikipedia, that has an whole community contributing articles! OpenStreetMap works in much the same way.
+Good maps aren't always available. Even big companies like Google get things wrong sometimes. [Compare](http://tools.geofabrik.de/mc/#15/51.0894/4.3809&num=2&mt0=mapnik&mt1=google-map) with an encyclopedia that just a few can edit and wikipedia, that has an whole community contributing articles! OpenStreetMap works in much the same way.
 
 **What to map?**
 
