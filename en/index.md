@@ -18,11 +18,11 @@ Good maps aren't always available. Even big companies like Google get things wro
 
 **What to map?**
 
-Who decides what to map? The government? Big companies? Navigation software companies? Those maps would be pretty boring, they would just contain either 'official' data, just the roads or whatever is profitable to collect. Our community does so much more and creates a much richer dataset. Just have a look at all the cyclists that use OpenStreetMap.
+Who decides what to map? The government? Big companies? Navigation software companies? Those maps would be pretty boring, they would just contain either 'official' data, just the roads or whatever is profitable to collect. Our community does so much more and creates a [much richer dataset](http://tools.geofabrik.de/mc/#15/50.8636/4.6825&num=2&mt0=mapnik&mt1=google-map). Just have a look at all the cyclists that use OpenStreetMap.
 
 **Open!**
 
-... and last but not least, we're open. Everybody can download OpenStreetMap data and start experimenting with it. We believe a collaberative mapping project has to be open and publish it's data freely to be successful in the long run. Why would anyone contribute to a project that's just going to keep all your work for themselves?
+... and last but not least, we're open. Everybody can [download OpenStreetMap data](http://download.geofabrik.de) and start experimenting with it. We believe a collaberative mapping project has to be open and publish it's data freely to be successful in the long run. Why would anyone contribute to a project that's just going to keep all your work for themselves?
 
 # Blog
 
