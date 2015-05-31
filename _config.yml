@@ -2,13 +2,15 @@
 
 en-title: OpenStreetMap Belgium
 nl-title: OpenStreetMap België
+fr-title: OpenStreetMap Belgique
 locale: en_US
 en-description: The OpenStreetMap community in Belgium.
 nl-description: De OpenStreetMap community in België.
+fr-description: La communauté OpenStreetMap en Belgique.
 logo: site-logo.png
 search: true
-# url: //localhost:4000
-url: //osmbe.github.io
+url: //localhost:4000
+# url: //osmbe.github.io
 
 # Jekyll configuration
 
