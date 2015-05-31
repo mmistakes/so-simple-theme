@@ -9,8 +9,8 @@ nl-description: De OpenStreetMap community in België.
 fr-description: La communauté OpenStreetMap en Belgique.
 logo: site-logo.png
 search: true
-url: //localhost:4000
-# url: //osmbe.github.io
+# url: //localhost:4000
+url: //osmbe.github.io
 
 # Jekyll configuration
 
