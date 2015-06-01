@@ -16,6 +16,24 @@ permalink: /curriculum-vitae/publikationen/index.html
     <li><span class="title"><a href="http://garage.socialisten.at/2014/04/lifehack-pay-facebook-to-serve-facebook-ads-to-facebook-devs-to-fix-facebook-bugs/">"LifeHack: Pay Facebook to serve Facebook ads to Facebook devs to fix Facebook bugs"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 17.04.2014
     </li>
   </ul>
+
+  <h2>Zweitausenddreizehn</h2>
+  <ul>
+    <li><span class="title"><a href="http://allfacebook.de/gastbeitrag/funf-schritte-um-das-eigene-developer-setup-sicherer-zu-machen">"Fünf Schritte, um das eigene Developer Setup sicherer zu machen"</a></span><br>Blog Post, allfacebook.de, Erscheinungsdatum: 03.06.2013
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2013/05/5-steps-to-dramatically-increase-the-security-of-your-facebook-development-setup/">"5 Steps to Dramatically increase the Security of Your Facebook Development Setup"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 21.05.2013
+    </li>
+    <li><span class="title"><a href="http://allfacebook.de/features/open-graph-apps-fur-die-massen-die-anderungen-der-letzten-wochen-im-uberblick">"Open Graph Frühjahrsputz – Die Änderungen der letzten Wochen im Überblick"</a></span><br>Blog Post, allfacebook.de, Erscheinungsdatum: 12.04.2013
+    </li>
+    <li><span class="title"><a href="http://allfacebook.de/features/facebook-tabs-im-news-feed-richtig-verlinken-und-fur-mobile-nutzer-zur-verfugung-stellen">"Facebook Tabs im News Feed richtig verlinken und für mobile Nutzer zur Verfügung stellen"</a></span><br>Blog Post, allfacebook.de, Erscheinungsdatum: 08.02.2013
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2013/01/how-to-link-to-your-facebook-tab-app/">"How to Link to Your Facebook Tab App"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 30.01.2013
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2013/01/why-web-developers-should-start-forgetting-ie/">"Why Web Developers Should Start Forgetting About IE"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 10.01.2013
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2013/01/the-truth-about-mobile-usage-of-facebook-apps/">"The Truth About Mobile Usage of Facebook Apps"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 04.01.2013
+    </li>
+  </ul>
   
   <h2>Zweitausendacht</h2>
   <ul>
