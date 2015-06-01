@@ -34,6 +34,18 @@ permalink: /curriculum-vitae/publikationen/index.html
     <li><span class="title"><a href="http://garage.socialisten.at/2013/01/the-truth-about-mobile-usage-of-facebook-apps/">The Truth About Mobile Usage of Facebook Apps</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 04.01.2013
     </li>
   </ul>
+
+  <h2>Zweitausendzwölf</h2>
+  <ul>
+    <li><span class="title"><a href="http://garage.socialisten.at/2012/11/how-to-accelerate-your-open-graph-approval/">How to Accelerate Your Facebook Open Graph Approval</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 27.11.2012
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2012/08/tweetsheets-twitter-directly-from-within-google-docs/">Tweetsheets – Twitter Directly From Within Google Docs</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 09.08.2012
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2012/07/behind-the-scenes-timeline-based-emails-for-improving-internal-communication/">Behind the Scenes: Timeline-based Emails for Improving Internal Communication</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 09.08.2012
+    </li>
+    <li><span class="title"><a href="http://garage.socialisten.at/2012/05/beyond-kampagnen-apps-sichtbarkeit-von-anwendungen-erhoehen-mit-facebook-achievements/">Beyond Kampagnen-Apps: Sichtbarkeit von Anwendungen erhöhen mit Facebook</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 08.05.2012
+    </li>
+  </ul>
   
   <h2>Zweitausendacht</h2>
   <ul>
