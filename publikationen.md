@@ -10,6 +10,12 @@ permalink: /curriculum-vitae/publikationen/index.html
     <li><span class="title"><a href="https://www.bugtrackers.io/interview-swatio-johannes-nagl">"Technology is always meant to be a silent butler."</a></span><br>Interview, bugtrackers.io, Erscheinungsdatum: 08.05.2015
     </li>
   </ul>
+
+  <h2>Zweitausendvierzehn</h2>
+  <ul>
+    <li><span class="title"><a href="http://garage.socialisten.at/2014/04/lifehack-pay-facebook-to-serve-facebook-ads-to-facebook-devs-to-fix-facebook-bugs/">"LifeHack: Pay Facebook to serve Facebook ads to Facebook devs to fix Facebook bugs"</a></span><br>Blog Post, garage.socialisten.at, Erscheinungsdatum: 17.04.2014
+    </li>
+  </ul>
   
   <h2>Zweitausendacht</h2>
   <ul>
