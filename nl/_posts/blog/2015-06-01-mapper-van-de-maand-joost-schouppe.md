@@ -54,6 +54,6 @@ Het grootste probleem van OpenStreetMap lijkt mij dat de data compleet onderbenu
 
 Er zijn veel kanalen, en het zijn dikwijls eigen werelden. De mailinglijsten volgen krijg ik niet gebolwerkt, behalve dan de gemeenschappelijke van Latijns Amerika. Op het Forum is er dan weer te weinig beweging. Op dat forum wordt te weinig melding gemaakt van Help, terwijl die fantastisch is voor specifiekere vragen. Help heb ik geloof ik zelfs via Google ontdekt. En dan is er nog OSMweekly, de dagboeken en de Reddit groep. Mij lijkt het dat dit beter kan. Wat dat  betreft vind ik Reddit geweldig: alle lezers dragen bij aan de evaluatie van elke nieuwe post, en elke nieuwe commentaar. Automatisch komt zo het belangrijkste bovendrijven. Het ware geweldig moesten alle nieuwskanalen over OpenStreetMap op zo’n manier samengevoegd worden.
 
-**Heb je contact met andere mappers? **
+**Heb je contact met andere mappers?**
 
 Lokaal heb ik vooral Ben en Jorieke al vaak gezien,  dankzij de Meetups die ze in Gent organiseerden. Ik was vorig jaar regelmatig bij die meetups en heb zo een heel aantal andere mappers leren kennen. Ik heb ook een vrij intens contact met Marco Antonio, dé Openstreetmapper van Bolivia.
