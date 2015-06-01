@@ -9,6 +9,8 @@ image:
   feature:
 date: 2015-06-01T23:43:00-00:00
 ---
+![joost]({{ site.url }}/images/mapper-of-the-month/joost_schouppe.jpg)
+{: .pull-right}
 Joost Schouppe is socioloog van opleiding (omdat dit volgens hem het minst gespecialiseerde is dat je kan doen!) en werkt op een studiedienst die zeer diverse thema’s behandelt. Hij doet er werk dat meestal op het snijvlak van statistiek en geografie zit, daar waar de  databases van de administratie omgezet worden in kennis. Joost kreeg daar de kans om zich te verdiepen in dataverwerking: in SPSS ( (Statistical Package for the Social Sciences) en in de wondere wereld van ArcGIS. Veel van wat ze op de studiedienst doen wordt online geplaatst op de buurtmonitor van Antwerpen, die draait op het geostatistisch platform Swing. Daarnaast is Joost ook natuurliefhebber en fan van atlassen, encyclopedieën en reisgidsen; bij voorkeur, maar niet enkel, open en digitaal.
 
 **Hoe leerde je OpenStreetMap kennen?**  
