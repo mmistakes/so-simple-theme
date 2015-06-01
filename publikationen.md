@@ -6,7 +6,7 @@ permalink: /curriculum-vitae/publikationen/index.html
   </p>
   <h2>Zweitausendacht</h2>
   <ul>
-    <li><span class="title"><a rel="Download" onclick="javascript: _gaq.push(['_trackPageview', '/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf']);" href="/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf">Datenschutz und Informationssicherheit in Social Communities</a></span><br>Diplomarbeit, 134 Seiten, 1.259 kb., Erscheinungsdatum: 16.06.2008
+    <li><span class="title"><a download href="/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf">Datenschutz und Informationssicherheit in Social Communities</a></span><br>Diplomarbeit, 134 Seiten, 1.259 kb., Erscheinungsdatum: 16.06.2008
 <p><strong>Zitierregel (lt. Harvard Citing Guidelines):</strong><br />NAGL, J. 2008. <em>Datenschutz und Informationssicherheit in Social Communities.</em> Thesis (MSc). FH Technikum Wien.</p>
       <p>
         Die vorliegende Diplomarbeit beschreibt das Spannungsfeld zwischen Datenschutz, Informationssicherheit und Social Communities. Der Wert eines sozialen Netzwerks steigt mit dessen Informationsgehalt und der Benutzeranzahl. Dadurch verstärken sich jedoch ebenfalls die datenschutzrechtlichen Probleme.
@@ -19,7 +19,7 @@ permalink: /curriculum-vitae/publikationen/index.html
   </ul>
   <h2>Zweitausendsieben</h2>
   <ul>
-    <li style="padding-bottom: 40px;"><span class="title"><a rel="Download" onclick="javascript: _gaq.push(['_trackPageview', '/publications/2007/KonvergenzenWeb20SemanticWeb.pdf']);" href="/publications/2007/KonvergenzenWeb20SemanticWeb.pdf" title="Konvergenzen zwischen Web2.0 und Semantic Web am Beispiel einer Tourismusplattform">Konvergenzen zwischen Web2.0 und Semantic Web am Beispiel einer Tourismusplattform</a></span><br>Bachelorarbeit, 40 Seiten, Dateigröße: 909 kb., Erscheinungsdatum: 06.08.2007
+    <li style="padding-bottom: 40px;"><span class="title"><a download href="/publications/2007/KonvergenzenWeb20SemanticWeb.pdf" title="Konvergenzen zwischen Web2.0 und Semantic Web am Beispiel einer Tourismusplattform">Konvergenzen zwischen Web2.0 und Semantic Web am Beispiel einer Tourismusplattform</a></span><br>Bachelorarbeit, 40 Seiten, Dateigröße: 909 kb., Erscheinungsdatum: 06.08.2007
       <p><strong>Zitierregel (lt. Harvard Citing Guidelines):</strong><br />
       NAGL, J. 2007. <em>Konvergenzen zwischen Web2.0 und Semantic Web am Beispiel einer Tourismusplattform.</em> Thesis (BSc). FH Technikum Wien.</p>
       <p>
@@ -28,8 +28,7 @@ permalink: /curriculum-vitae/publikationen/index.html
        <strong>Information:</strong> Die Webseite touristinformr.net, die in der Arbeit beschrieben wird, wurde als Beispiel einer Konvergenzapplikation verwendet und war nicht Teil der Arbeit. Der Autor wollte die Applikation nach Beendigung seines Studiums umsetzen, andere Projekte wie die Web2.0 Voting-Plattform <a href="http://frische.ideen.sind.gerade.in/">gerade.in</a> hinderten den Autor bisher an einer tatsächlichen Umsetzung.
       </p>
     </li>
-
-    <li><span class="title"><a rel="Download" onclick="javascript: _gaq.push(['_trackPageview', '/publications/2007/AuswirkungenVonWeb20AufDasWWW.pdf']);" href="/publications/2007/AuswirkungenVonWeb20AufDasWWW.pdf" title="Auswirkungen von Web 2.0 auf das WWW">Auswirkungen von Web2.0 auf das World Wide Web</a></span><br />Bachelorarbeit, 35 Seiten, Dateigröße: 429 kb., Erscheinungsdatum: 11.01.2007
+    <li><span class="title"><a download href="/publications/2007/AuswirkungenVonWeb20AufDasWWW.pdf" title="Auswirkungen von Web 2.0 auf das WWW">Auswirkungen von Web2.0 auf das World Wide Web</a></span><br />Bachelorarbeit, 35 Seiten, Dateigröße: 429 kb., Erscheinungsdatum: 11.01.2007
       <p>
         <strong>Zitierregel (lt. Harvard Citing Guidelines):</strong><br />
         NAGL, J. 2007. <em>Auswirkungen von Web2.0 auf das World Wide Web.</em> Thesis (BSc). FH Technikum Wien.
@@ -43,7 +42,7 @@ permalink: /curriculum-vitae/publikationen/index.html
   </ul>
   <h2>Zweitausendfünf</h2>
   <ul>
-    <li><span class="title"><a rel="Download" onclick="javascript: _gaq.push(['_trackPageview', '/publications/2005/SemanticWebAktuelleUmsetzungen.pdf']);" href="/publications/2005/SemanticWebAktuelleUmsetzungen.pdf" title="Semantic Web - Aktuelle Umsetzungen">Semantic Web - Aktuelle Umsetzungen</a></span><br />Seminararbeit, 14 Seiten, Dateigröße: 104 kb., Erscheinungsdatum: 13.11.2005
+    <li><span class="title"><a download href="/publications/2005/SemanticWebAktuelleUmsetzungen.pdf" title="Semantic Web - Aktuelle Umsetzungen">Semantic Web - Aktuelle Umsetzungen</a></span><br />Seminararbeit, 14 Seiten, Dateigröße: 104 kb., Erscheinungsdatum: 13.11.2005
       <p>
         <strong>Zitierregel (lt. Harvard Citing Guidelines):</strong><br />
         NAGL, J. 2005. Semantic Web - Aktuelle Umsetzungen. [online]. Verfügbar bei: http://johannes.nagl.name/publications/2005/SemanticWebAktuelleUmsetzungen.pdf [Zugriff am: <em>heutiges Datum</em>]
