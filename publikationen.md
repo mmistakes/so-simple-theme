@@ -4,6 +4,13 @@ permalink: /curriculum-vitae/publikationen/index.html
 ---
   <p>Im Laufe der Zeit (schulische Laufbahn, Studium, Berufsleben) fallen viele Texte an, die an dieser Stelle, chronologisch, zur Verfügung gestellt werden sollen. Das Copyright an allen bereitgestellten Dateien liegt bei Johannes Nagl. Eine Veröffentlichung mit Quellenangabe ist erlaubt. Um die Dokumente korrekt anzeigen zu können, benötigen Sie den Adobe Acrobat Reader, den Sie auf adobe.com downloaden können.
   </p>
+  
+  <h2>Zweitausendfünfzehn</h2>
+  <ul>
+    <li><span class="title"><a href="https://www.bugtrackers.io/interview-swatio-johannes-nagl">"Technology is always meant to be a silent butler."</a></span><br>Interview, bugtrackers.io, Erscheinungsdatum: 08.05.2015
+    </li>
+  </ul>
+  
   <h2>Zweitausendacht</h2>
   <ul>
     <li><span class="title"><a download href="/publications/2008/DatenschutzInformationssicherheitSocialCommunities.pdf">Datenschutz und Informationssicherheit in Social Communities</a></span><br>Diplomarbeit, 134 Seiten, 1.259 kb., Erscheinungsdatum: 16.06.2008
