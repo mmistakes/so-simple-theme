@@ -14,7 +14,7 @@ De un pinchazo a una pajarita, siendo cada una de ellas piezas únicas #madeinba
 	<a href="/images/Cyclotie/Cyclist1.jpg"><img src="/images/Cyclotie/Cyclist1.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 	<a href="/images/Cyclotie/cyclist2.jpg"><img src="/images/Cyclotie/cyclist2.jpg" alt="Pajaritas a partir de cámaras de bicicleta recicladas Barcelona art design"></a>
 <figcaption><b>CYCLIST CLASSIC.</b>
-Pajarita y ribete hechos a mano a partir de cámara y cinta de manillar de bicicleta recicladas. Medidas: 11x6 cm. Cinta regulable. Serie limitada, edición 1/25, 49€.</figcaption>
+Pajarita y ribete hechos a mano a partir de cámara de bicicleta reciclada y cinta de manillar. Medidas: 11x6 cm. Cinta regulable. Serie limitada, edición 1/25, 49€.</figcaption>
 </figure>
 
 
@@ -57,5 +57,5 @@ Las cámaras de bicicleta, convertidas en residuo reviven con **Cyclotie**. Desp
 
 
 
-Es la primera vez que sus creadores, el creativo Albert Soler y la científica María Garrido, se atreven con el diseño de producto. Después de desarrollar varios prototipos, lanzan la primera colección de **Cyclotie** en la que, además de utilizar cámaras de bicicleta con mucha personalidad, también han jugado con otros materiales como cintas de manillar y corbatas recicladas.
+Es la primera vez que sus creadores, el creativo Albert Soler y la científica Maria Garrido, se atreven con el diseño de producto. Después de desarrollar varios prototipos, lanzan la primera colección de **Cyclotie** en la que, además de utilizar cámaras de bicicleta con mucha personalidad, también han jugado con otros materiales como cintas de manillar y corbatas recicladas.
  
