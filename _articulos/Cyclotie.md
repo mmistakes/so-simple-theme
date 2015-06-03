@@ -49,7 +49,7 @@ Doble pajarita confeccionada con cámara de bicicleta que combina un ribete hech
 
 
 
-**Cyclotie**  es un proyecto 100% local de producción km0. Las cámaras de bicicleta se recogen en el taller de Rebiciclem en el barrio de Poblenou y se convierten en pajaritas en DelTravés, situado en el Raval. El centro de operaciones de la marca se encuentra ene el barrio de Sant Antoni.
+**Cyclotie**  es un proyecto 100% local de producción km0. Las cámaras de bicicleta se recogen en el taller de Rebiciclem en el barrio de Poblenou y se convierten en pajaritas en DelTravés, situado en el Raval. El centro de operaciones de la marca se encuentra en el barrio de Sant Antoni.
 
 
 
