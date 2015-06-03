@@ -8,7 +8,7 @@ imagen: FLOATING/FLOATING.JPG
 ---
 
 
-**Floating Islands** son unas macetas colgantes hechas a partir de botellas de vidrio reciclado. En el proceso de la creación de estos productos artesanales los pocos residuos que se generan se reciclan, ya que valores como ecología y sostenibilidad son los pilares de este proyecto. 
+**Floating Islands** son macetas colgantes hechas a partir de botellas de vidrio reciclado. En el proceso de la creación de estos productos artesanales los pocos residuos que se generan se reciclan, ya que valores como ecología y sostenibilidad son los pilares de este proyecto. 
 
 <figure>
 	<a href="/images/FLOATING/strangled2.jpg"><img src="/images/FLOATING/strangled2.jpg" alt="image"></a>  
