@@ -27,6 +27,6 @@ published: true
 
 
 <figure>
-	<a href="/images/trend1.jpg "><img src="/images/trend1.jpg" alt="Trends Style revista belga de tendencias galeribcn Barcelona"></a>
+	<a href="/images/trend1.jpg"><img src="/images/trend1.jpg" alt="Trends Style revista belga de tendencias galeribcn Barcelona"></a>
 </figure>
 
