@@ -25,9 +25,7 @@ published: true
 ---
 [Trends Style](http://www.roulartamedia.be/en/print/trends-style/Products-4000027160893-RM.html?p=1184697813311 "Trends Style") es una revista belga de tendencias que informa a sus lectores de “las próximas grandes cosas que se van a llevar, hacer y tener", y han elaborado una guía de Barcelona con los 50 lugares más interesantes a visitar y somos el número 39!
 
-<figure class="half">
-	<a href="/images/trend1.jpg "><img src="/images/trend1.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
-	<a href="/images/trend2.jpg "><img src="/images/trend2.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
-	
+<figure>
+	<a href="/images/trend1.jpg "><img src="/images/trend1.jpg" alt="Trends Style revista belga de tendencias galeribcn Barcelona"></a>
 </figure>
 
