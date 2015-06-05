@@ -28,5 +28,6 @@ published: true
 <figure class="half">
 	<a href="/images/trend1.jpg "><img src="/images/trend1.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
 	<a href="/images/trend2.jpg "><img src="/images/trend2.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
+	
 </figure>
 
