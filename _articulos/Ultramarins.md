@@ -11,7 +11,7 @@ imagen: Ultramarins/logo.JPG
 	<a href="/images/Ultramarins/LOGOS.jpg"><img src="/images/Ultramarins/LOGOS.jpg" alt="Totebags Lado B Ilustración diseño Barcelona "></a>
 	<a href="/images/Ultramarins/2-Bossa-Detall-Pablo.jpg"><img src="/images/Ultramarins/2-Bossa-Detall-Pablo.jpg" alt="Totebags Pablo Gerschuni Ilustración diseño Barcelona"></a>
 <figcaption><b> LOGOS  de PABLO GERSCHUNI.</b>
-Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcaption>
+Bolsa de algodón de edición limitada a 50 unidades. Medidas: 40x38 cm. 16€.</figcaption>
 </figure>
 
 
@@ -19,7 +19,7 @@ Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcapti
 	<a href="/images/Ultramarins/LADOB.jpg"><img src="/images/Ultramarins/LADOB.jpg" alt="Totebags Lado B Ilustración diseño Barcelona"></a>
 	<a href="/images/Ultramarins/1-Bossa-Caro.jpg"><img src="/images/Ultramarins/1-Bossa-Caro.jpg" alt="Totebags Lado B Ilustración diseño Barcelona"></a>
 <figcaption><b>LA NEVERA de LADO B. CARO GONZALEZ PINI.</b>
-Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcaption>
+Bolsa de algodón de edición limitada a 50 unidades. Medidas: 40x38 cm. 16€.</figcaption>
 </figure>
 
 
@@ -27,7 +27,7 @@ Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcapti
 	<a href="/images/Ultramarins/SIDERAL.jpg"><img src="/images/Ultramarins/SIDERAL.jpg" alt="Totebags Edu J. Montoya Ilustración diseño Barcelona"></a>
 	<a href="/images/Ultramarins/Bossa-Detall-2-Edu.jpg"><img src="/images/Ultramarins/Bossa-Detall-2-Edu.jpg" alt="Totebags Edu J. Montoya Ilustración diseño Barcelona"></a>
 <figcaption><b>SIDERAL de EDU J.MONTOYA.</b>
-Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcaption>
+Bolsa de algodón de edición limitada a 50 unidades. Medidas: 40x38 cm. 16€.</figcaption>
 </figure>
 
 
@@ -35,7 +35,7 @@ Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcapti
 	<a href="/images/Ultramarins/Polak.jpg"><img src="/images/Ultramarins/Polak.jpg" alt="Totebags Lado B Ilustración diseño Barcelona "></a>
 	<a href="/images/Ultramarins/2-Bossa-Detall-Jaume.jpg"><img src="/images/Ultramarins/2-Bossa-Detall-Jaume.jpg" alt="Totebags Jaume Mercant Ilustración diseño Barcelona"></a>
 <figcaption><b> HARD KNOCK LIFE de JAUME MERCANT.</b>
-Bolsa de algodón de edición limitada 1/50. Medidas: 40x38 cm. 16€.</figcaption>
+Bolsa de algodón de edición limitada a 50 unidades. Medidas: 40x38 cm. 16€.</figcaption>
 </figure>
 
 
