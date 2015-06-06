@@ -30,21 +30,12 @@ Lámpara decorativa en pino rojo del Pirineo, con bombilla globo de carbono con 
 </div>
 
 
-<div class="figure-group">
-<figure>
+<figure class="half">
 	<a href="/images/Woodamp/Klotz01Azul.jpg"><img src="/images/Woodamp/Klotz01Azul.jpg" alt="Lámpara Woodamp diseño Barcelona"></a>
-	<figcaption><b>KLOTZ BLUE.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color azul. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
+	<a href="/images/Woodamp/Klotz01Blanco.jpg"><img src="/images/Woodamp/Klotz01Blanco.jpg" alt="Lámpara Woodamp diseño Barcelona"></a><figcaption>
+Lámpara decorativa varios colores en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil del color correspondiente. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
 Medidas: 18cm.Ø12cm. 150€.</figcaption>
 </figure>
-
-<figure>
-	<a href="/images/Woodamp/Klotz01Blanco.jpg"><img src="/images/Woodamp/Klotz01Blanco.jpg" alt="Lámpara Woodamp diseño Barcelona"></a>
-	<figcaption><b>KLOTZ WHITE.</b> 
-Lámpara decorativa en pino rojo del Pirineo, con bombilla espejo de carbono con Ø90mm. E27 60W, y cable redondo con doble aislamiento y funda textil de color blanco. El diseño de la lámpara incluye una apertura para poder dejar el móvil.
-Medidas: 18cm. Ø12cm. 150€.</figcaption>
-</figure>
-</div>
 
 
 <figure class="half">
