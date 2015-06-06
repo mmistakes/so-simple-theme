@@ -32,6 +32,6 @@ Esteu tots convidats el proper dissabte 13 de juny, de 12:00 a 15:00 h. a la pre
 
 L'esdeveniment estarà dins el programa OFF BDW ([Barcelona Design Week](http://www.barcelonadesignweek.com/ca/programa/84/ "Barcelona Design Week") 2015).
 
-You are all invited the next Saturday, June 13 (12:00 to 15:00h.), to attend the presentation of  the joint exhibition of the two urban [CB1MAG1](https://www.facebook.com/CB1MAG1 "CB1MAG1") (Carlos Baulas) y [Bàlu Naiz](https://www.facebook.com/balunaiz?pnref=story "Bàlu Naiz") with a Live Painting Show in the wall outside of **['galəri]’s JardíSecret**, the showroom's newest and latter expositive space. The music will fire in charge of **dj Bemfis** presenting its project Gandaia. Sponsor: Moritz.
+You are all invited the next Saturday, June 13 (12:00 to 15:00h.), to attend the presentation of  the joint exhibition of the two street artist [CB1MAG1](https://www.facebook.com/CB1MAG1 "CB1MAG1") (Carlos Baulas) y [Bàlu Naiz](https://www.facebook.com/balunaiz?pnref=story "Bàlu Naiz") with a Live Painting Show in the wall outside of **['galəri]’s JardíSecret**, the showroom's newest and latter expositive space. The music will fire in charge of **dj Bemfis** presenting its project Gandaia. Sponsor: Moritz.
 
 The event will be within the program OFF BDW ([Barcelona Design Week](http://www.barcelonadesignweek.com/en/programme/84/ "Barcelona Design Week ") 2015).
