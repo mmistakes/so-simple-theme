@@ -7,10 +7,10 @@ tags:
   - Live Painting
   - Arte
   - Painting
-  - Collage
-  - Acrylic
+  - Graffiti
+  - Tags
+  - Stencils
   - ArtPrints
-  - Ral
   - Exposición
 author: 
   name: galeribcn
