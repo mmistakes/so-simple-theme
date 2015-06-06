@@ -24,7 +24,7 @@ share: true
 published: true
 ---
 
-[Trends Style](http://www.roulartamedia.be/en/print/trends-style/Products-4000027160893-RM.html?p=1184697813311 "Trends Style") es una revista belga de tendencias que informa a sus lectores de “las próximas grandes cosas que se van a llevar, hacer y tener", y han elaborado una guía de Barcelona con los 50 lugares más interesantes a visitar y somos el número 39!
+[Trends Style](http://www.roulartamedia.be/en/print/trends-style/Products-4000027160893-RM.html?p=1184697813311 "Trends Style") es una revista belga de tendencias que informa a sus lectores de “las próximas grandes cosas que se van a llevar, hacer y tener". Han elaborado una guía de Barcelona con los 50 lugares más interesantes a visitar y somos el número 39!
 
 
 <figure>
