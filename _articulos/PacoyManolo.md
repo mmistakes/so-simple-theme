@@ -102,7 +102,7 @@ Polaroids, ediciones especiales con fotos numeradas y publicación periódica.
 </figure>
 
 <figure>
-	<a href="/images/ PacoyManolo/E.E.KINK14.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
+	<a href="/images/PacoyManolo/E.E.KINK14.jpg"><img src="/images/PacoyManolo/E.E.KINK14.jpg" alt="Kink Paco y Manolo arte y diseño Barcelona"></a>
 	<figcaption><b>EDICIÓN ESPECIAL KINK 14+ FOTO.-</b>
 	100€.</figcaption>
 </figure>
