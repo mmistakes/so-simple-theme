@@ -7,8 +7,8 @@ published: true
 ---
 
 <figure class="half">
-	<a href="/images/Alejandro/DSC_0007.jpg "><img src="/images/Alejandro/DSC_0007.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
-	<a href="/images/Alejandro/DSC_0008.jpg "><img src="/images/Alejandro/DSC_0008.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
+	<a href="/images/Alejandro/DSC_0007.jpg"><img src="/images/Alejandro/DSC_0007.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
+	<a href="/images/Alejandro/DSC_0008.jpg"><img src="/images/Alejandro/DSC_0008.jpg" alt="Espejos convexos Alejandro de la Torre diseño Barcelona"></a>
 <figcaption>
 Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de piano y otros elementos, reflejan una visión mágica del mundo.</figcaption>
 </figure>
