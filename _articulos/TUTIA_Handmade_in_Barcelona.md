@@ -105,7 +105,7 @@ Chapas de aluminio serigrafiada colección personajes. 15,50€ c/u.</figcaption
 
 
 <figure class="third">
-	<a href="/images/TUTIA /judy.jpg"><img src="/images/TUTIA/judy.jpg" alt="Chapa-collar metálico TUTIA Barcelona art design"></a>
+	<a href="/images/TUTIA/judy.jpg"><img src="/images/TUTIA/judy.jpg" alt="Chapa-collar metálico TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/liza.jpg"><img src="/images/TUTIA/liza.jpg" alt="Chapa-collar metálico TUTIA Barcelona art design"></a>
 <a href="/images/TUTIA/madonna.jpg"><img src="/images/TUTIA/madonna.jpg" alt="Chapa-collar metálico TUTIA Barcelona art design"></a>
     <figcaption>
