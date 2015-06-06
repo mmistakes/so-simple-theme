@@ -85,6 +85,13 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 	Reproducción seriada y firmada, 29,5x21 cm. 20€.
 	</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/MISS CATBLETON.jpg"><img src="/images/Laura-Agusti/MISS CATBLETON.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MISS CATBLETON.</b>
+	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	</figcaption>
+</figure>
 </div>
 
 _...A los 8 años sabía que acabaría estudiando Bellas Artes... y así fue, me especialicé en diseño gráfico y pintura. Disfruté cada minuto de mi formación universitaria y exploté mi creatividad al máximo._ 
