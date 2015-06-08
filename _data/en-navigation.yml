@@ -1,0 +1,10 @@
+# Site navigation links
+
+- title: Home
+  url: /en/
+
+- title: Blog
+  url: /en/blog/
+  
+- title: Open Knowledge Belgium
+  url: http://www.openknowledge.be/
