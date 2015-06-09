@@ -13,7 +13,7 @@ imagen: TUTIA/logo.jpg
 	<a href="/images/TUTIA/fuchsiaregia.jpg"><img src="/images/TUTIA/fuchsiaregia.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/cannabis.jpg"><img src="/images/TUTIA/cannabis.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
-    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
+    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 13,50€ c/u.</figcaption>
 </figure>
 
 
@@ -22,7 +22,7 @@ imagen: TUTIA/logo.jpg
 	<a href="/images/TUTIA/rosaíndica.jpg"><img src="/images/TUTIA/rosaíndica.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/cactus.jpg"><img src="/images/TUTIA/cactus.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
-    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
+    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 13,50€ c/u.</figcaption>
 </figure>
 
 
@@ -31,7 +31,7 @@ imagen: TUTIA/logo.jpg
 	<a href="/images/TUTIA/erizo1.jpg"><img src="/images/TUTIA/erizo1.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/erizo2.jpg"><img src="/images/TUTIA/erizo2.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
-    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
+    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 13,50€ c/u.</figcaption>
 </figure>
 
 
@@ -40,7 +40,7 @@ imagen: TUTIA/logo.jpg
 	<a href="/images/TUTIA/erizo4.jpg"><img src="/images/TUTIA/erizo4.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/ojobuey.jpg"><img src="/images/TUTIA/ojobuey.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
-    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
+    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 13,50€ c/u.</figcaption>
 </figure>
 
 
@@ -49,7 +49,7 @@ imagen: TUTIA/logo.jpg
 	<a href="/images/TUTIA/brújula.jpg"><img src="/images/TUTIA/brújula.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<a href="/images/TUTIA/flotador.jpg"><img src="/images/TUTIA/flotador.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
     <figcaption>
-    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 10,50€ c/u.</figcaption>
+    Baldosas de cerámica con reverso en goma negra. 10x10 cm. 13,50€ c/u.</figcaption>
 </figure>
 
 
