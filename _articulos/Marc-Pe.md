@@ -4,7 +4,7 @@ description: Prints Marc Pe Barcelona art design
 category: Prints
 layout: articulo
 published: true
-imagen: MARCPE/LOGO.JPG
+imagen: MARCPE/LOGO.jpg
 ---
 
 Sus dibujos vectoriales se transforman en iconos que cuentan historias que atrapan.
