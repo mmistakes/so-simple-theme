@@ -81,7 +81,7 @@ De izquierda a derecha: Penguins, Sailor y Camper,14€.c/u.</figcaption>
 </figure>
 
 
-Marc Peñarroya aka **Marc Pe**, es un ilustrador barcelonés. Vive en Donostia desde 2010 y es allí donde decidió recuperar, en gran parte de manera autodidacta, la mano de dibujante que años atrás dejó, allá por Sabadell. 
+Marc Peñarroya alias **Marc Pe**, es un ilustrador barcelonés. Vive en Donostia desde 2010 y es allí donde decidió recuperar, en gran parte de manera autodidacta, la mano de dibujante que años atrás dejó, allá por Sabadell. 
 
 Fue con _Viva la Vida_, marca de ropa donostiarra, cuando se dedicó de lleno al diseño gráfico e ilustración. De esta etapa es cuando nace su interés por dibujar de manera digital/vectorial, dibujando todas las colecciones desde 2012 hasta la actualidad.
 
