@@ -6,6 +6,7 @@ layout: articulo
 published: true
 imagen: MARCPE/LOGO.JPG
 ---
+
 Sus dibujos vectoriales se transforman en iconos que cuentan historias que atrapan.
 
 <div class="figure-group">
@@ -15,13 +16,11 @@ Sus dibujos vectoriales se transforman en iconos que cuentan historias que atrap
 	  	Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/MARCPE/Leaves.jpg"><img src="/images/MARCPE/Leaves.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>LEAVES.</b>
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
-
 
 <figure>
 	<a href="/images/MARCPE/EuriUra.jpg"><img src="/images/MARCPE/EuriUra.jpg" alt="Print Marc Pe Barcelona art design"></a>
@@ -29,13 +28,11 @@ Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edi
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/MARCPE/CityPencils.jpg"><img src="/images/MARCPE/CityPencils.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>CITY PENCILS.</b>
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
-
 
 <figure>
 	<a href="/images/MARCPE/flamingo.jpg"><img src="/images/MARCPE/flamingo.jpg" alt="Print Marc Pe Barcelona art design"></a>
@@ -43,13 +40,11 @@ Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edi
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/MARCPE/Bearded.jpg"><img src="/images/MARCPE/Bearded.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>BEARDED.</b>
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 30€.</figcaption>
 </figure>
-
 
 <figure>
 	<a href="/images/MARCPE/LeChienAndalou jpg"><img src="/images/MARCPE/LeChienAndalou.jpg" alt="Print Marc Pe Barcelona art design"></a>
@@ -57,13 +52,11 @@ Reproducción digital sobre papel texturado Hahnemüle de 300gr. 40x30cm. En edi
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 30x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 27€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/MARCPE/PenguinLove.jpg"><img src="/images/MARCPE/PenguinLove.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>PENGUINLOVE.</b> 
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 30x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 27€.</figcaption>
 </figure>
-
 
 <figure>
 	<a href="/images/MARCPE/amona.jpg"><img src="/images/MARCPE/amona.jpg" alt="Print Marc Pe Barcelona art design"></a>
@@ -71,14 +64,12 @@ Reproducción digital sobre papel texturado Hahnemüle de 300gr. 30x30cm. En edi
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 25x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 25€.</figcaption>
 </figure>
 
-
 <figure>
 	<a href="/images/MARCPE/turban.jpg"><img src="/images/MARCPE/turban.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>TURBAN.</b> 
 Reproducción digital sobre papel texturado Hahnemüle de 300gr. 25x30cm. En edición limitada de 50 obras. Firmada  y con certificado de autenticidad incluido. 25€.</figcaption>
 </figure>
 </div>
-
 
 <figure>
 	<a href="/images/MARCPE/MUGS.jpg"><img src="/images/MARCPE/MUGS.jpg" alt="Print Marc Pe Barcelona art design"></a>
