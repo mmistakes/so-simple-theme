@@ -54,7 +54,7 @@ Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 
 <figure>
 	<a href="/images/IMO/AntimarcoSert.jpg"><img src="/images/IMO/AntimarcoSert.jpg" alt="Marco IMO diseño Barcelona"></a>
-	<figcaption><b>ANTIMARCO FUNDACIÓ MIRO.</b>
+	<figcaption><b>ANTIMARCO FUNDACIÓ MIRÓ.</b>
 Madera de haya, 20x22 cm. Cada pieza es única. 95€.</figcaption>
 </figure>
 
