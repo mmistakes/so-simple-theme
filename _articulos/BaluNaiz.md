@@ -6,7 +6,7 @@ layout: articulo
 published: true
 imagen: BALU/LOGO.jpg
 ---
-Artista urbano cuya arma es el stencil (plantilla), técnica con la que representa un mundo de personajes de la cultura pop que pueden aparecer en cualquier paraje urbano.
+Artista urbano cuya arma es el _stencil_ (plantilla), técnica con la que representa un mundo de personajes de la cultura pop que pueden aparecer en cualquier paraje urbano.
 
 <div class="figure-group">
 <figure>
