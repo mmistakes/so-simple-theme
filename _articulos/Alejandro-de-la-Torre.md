@@ -16,6 +16,25 @@ Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de pi
 
 <div class="figure-group">
 <figure>
+<a href="/images/Alejandro/25.jpg"><img src="/images/Alejandro/25.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
+	<figcaption>
+Espejo convexo de 30 cm. Ø, enmarcado en un mecanismo de piano. 77x77x10 cm. 650€.</figcaption>
+</figure>
+
+<figure>
+<a href="/images/Alejandro/26.jpg"><img src="/images/Alejandro/26.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
+	<figcaption>
+Espejo convexo de 30 cm. Ø, Sobre paellera recortada, soldada y dorada, con aro de coral. 42x42x14 cm. 440€.</figcaption>
+</figure>
+
+<figure>
+<a href="/images/Alejandro/27.jpg"><img src="/images/Alejandro/27.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
+	<figcaption>
+Espejo convexo de 40 cm. Ø, enmarcado en un teclado de piano. 124x124x12 cm. 1800€.</figcaption>
+</figure>
+
+
+<figure>
 <a href="/images/Alejandro/21.jpg"><img src="/images/Alejandro/21.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
 Espejo convexo de 40 cm. Ø, acoplado a otro espejo reutilizado. 100x100x7 cm. 980€.</figcaption>
@@ -67,7 +86,7 @@ Espejo convexo de 30 cm. Ø, realizado con molde industrial de madera. 38x38x24 
 <figure>
 	<a href="/images/Alejandro/2.jpg"><img src="/images/Alejandro/2.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo 20 cm. Ø, realizado con molde industrial de madera. 49x49x19 cm.  440€.</figcaption>
+Espejo convexo 20 cm. Ø, realizado con molde industrial de madera. 49x49x19 cm. 440€.</figcaption>
 </figure>
 
 
@@ -158,7 +177,7 @@ Espejo convexo de 13 cm. Ø, realizado con molde industrial de madera. 30x20x17 
 <figure>
 	<a href="/images/Alejandro/24.jpg"><img src="/images/Alejandro/24.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 25 cm. Ø sobre cristal negro, enmarcado en espejo antiguo. 85x65x10 cm. VENDIDO</figcaption>
+Espejo convexo de 25 cm. Ø sobre cristal negro, enmarcado en espejo antiguo. 85x65x10 cm. VENDIDO.</figcaption>
 </figure>
 </div>
 
