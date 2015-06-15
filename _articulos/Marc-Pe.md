@@ -71,7 +71,7 @@ Sus dibujos vectoriales se transforman en iconos narradores de historias que atr
 </figure>
 </div>
 
-Impresiones digitales sobre papel de alta calidad texturado Hahnemüle de 300gr. 100% alfa-celulosa, libre de ácidos y ph neutro.  En edición limitada de 50 obras. Firmadas  y con certificado de autenticidad incluido. 
+Impresiones digitales sobre papel de alta calidad texturado Hahnemüle de 300gr. 100% alfa-celulosa, libre de ácidos y pH neutro. En edición limitada de 50 obras. Firmadas y con certificado de autenticidad incluido. 
 
 
 <figure>
