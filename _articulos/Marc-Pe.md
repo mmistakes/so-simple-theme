@@ -48,7 +48,7 @@ Sus dibujos vectoriales se transforman en iconos narradores de historias que atr
 
 <figure>
 	<a href="/images/MARCPE/LeChienAndalou jpg"><img src="/images/MARCPE/LeChienAndalou.jpg" alt="Print Marc Pe Barcelona art design"></a>
-	<figcaption><b>LEC HIEN ANDALOU.</b> 
+	<figcaption><b>LE CHIEN ANDALOU.</b> 
 30x30cm. 27€.</figcaption>
 </figure>
 
