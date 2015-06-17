@@ -30,7 +30,7 @@ published: true
 </figure>
 
 <figure>
-	<a href="/images/3.jpg"><img src="/images/3.jpg" alt="Graffiti MAG 1 y Bàlu Naiz JardiSecret galeribcn"></a>
+	<a href="/images/3 (2).jpg"><img src="/images/3 (2).jpg" alt="Graffiti MAG 1 y Bàlu Naiz JardiSecret galeribcn"></a>
 </figure>
 
 <figure>
@@ -39,6 +39,6 @@ published: true
 </div>
 
 
-Así quedó de espectacular el muro del **JardíSecret** de **['galəri]**, obra de los dos artistas urbanos [**CB1MAG1**](http://www.galeribcn.com/articulos/Mag1.html "CB1MAG1") (Carlos Baulas) y [**Bàlu Naiz**](http://www.galeribcn.com/articulos/BaluNaiz.html "Bàlu Naiz") 
+Así quedó de espectacular el muro del **JardíSecret** de **['galəri]**, obra de los dos artistas urbanos [**CB1MAG1**](http://www.galeribcn.com/articulos/Mag1.html "CB1MAG1") (Carlos Baulas) y [**Bàlu Naiz**](http://www.galeribcn.com/articulos/BaluNaiz.html "Bàlu Naiz"). 
 
-Venir a verlo de cerca así como su exposición conjunta en **['galəri]**
+Venir a verlo de cerca así como su exposición conjunta, en **['galəri]**
