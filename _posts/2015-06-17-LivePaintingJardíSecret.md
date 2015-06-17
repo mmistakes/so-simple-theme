@@ -41,4 +41,4 @@ published: true
 
 Así quedó de espectacular el muro del **JardíSecret** de **['galəri]**, obra de los dos artistas urbanos [**CB1MAG1**](http://www.galeribcn.com/articulos/Mag1.html "CB1MAG1") (Carlos Baulas) y [**Bàlu Naiz**](http://www.galeribcn.com/articulos/BaluNaiz.html "Bàlu Naiz"). 
 
-Venir a verlo de cerca así como su exposición conjunta, en **['galəri]**
+Venir a verlo de cerca así como su exposición conjunta, en **['galəri]**.
