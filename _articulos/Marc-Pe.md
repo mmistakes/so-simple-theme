@@ -61,13 +61,13 @@ Sus dibujos vectoriales se transforman en iconos narradores de historias que atr
 <figure>
 	<a href="/images/MARCPE/amona.jpg"><img src="/images/MARCPE/amona.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>AMONA.</b> 
-25x30cm. 25€.</figcaption>
+30x25cm. 25€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/MARCPE/turban.jpg"><img src="/images/MARCPE/turban.jpg" alt="Print Marc Pe Barcelona art design"></a>
 	<figcaption><b>TURBAN.</b> 
-25x30cm. 25€.</figcaption>
+30x25cm. 25€.</figcaption>
 </figure>
 </div>
 
