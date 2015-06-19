@@ -24,7 +24,7 @@ imagen: "OCHAGAVIA/LOGO.jpg"
 
 <figure>
 	<a href="/images/OCHAGAVIA/JABALI AZUL.jpg"><img src="/images/OCHAGAVIA/JABALI AZUL.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
-	<figcaption><b>JABALÍ AZUL .</b>
+	<figcaption><b>JABALÍ AZUL.</b>
   Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 	</figcaption>
 </figure>
@@ -105,7 +105,7 @@ Reproducción digital firmada, 29x21,7 cm. 15€.</figcaption>
 <figure>
 	<a href="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg"><img src="/images/OCHAGAVIA/CERDITO INGRAVIDO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>CERDITO INGRÁVIDO.</b>
-	  Reproducción digital firmada, 28x29 cm. 20€.</figcaption>
+	  Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 </figure>
 
 <figure>
