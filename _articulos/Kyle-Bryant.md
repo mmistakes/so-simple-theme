@@ -26,7 +26,7 @@ _**B**ryant’s **C**ultural **N**arrative_ es un claro guiño a la ciudad de Ba
 <figure>
 	<a href="/images/K.BRYANT/BECAUSE.jpg"><img src="/images/K.BRYANT/BECAUSE.jpg" alt="Linografía Kyle Bryant diseño Barcelona"></a>
 	<figcaption><b>Because of Christ’s Nativity.</b>
-	Linografía seriada y firmada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€.
+	Linografía seriada y firmada sobre papel Rives 250 gr. 70x50 cm. 100€, con marco 130€. Serigrafía a dos colores sobre papel 38x28 cm. 20 €
 	</figcaption>
 </figure>
 
