@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Rubyherzelein
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: processing..
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 search: true
-url: http://localhost:4000
+url: rubyherzelein.github.io
 
 # Jekyll configuration
 
@@ -31,13 +31,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Nynne & Franzi
+  avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GJL-fft-herz.svg/120px-GJL-fft-herz.svg.png
+  email: rubyherzlein@email.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: rubyherzelein
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -47,7 +47,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-64307120-1
     verify:
     ad-client:
     ad-slot:
