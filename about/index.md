@@ -1,14 +1,16 @@
 ---
 layout: page
-title: James Golick 
+title: about us.. 
 excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: james.jpg
+  feature:
   credit: #name of the person or site you want to credit
   creditlink: #url to their site or licensing
 ---
 
-James Golick was a developer who was passionate about promoting diversity in the tech industry. Before his much too early passing in 2014, James showed a strong commitment to supporting women in tech, taking particular interest in mentoring and encouraging female programmers. We sadly never had the chance to meet James, but we are proud to honor his memory and to celebrate his ideas and visions for a more diverse tech industry. We highly support The James Golick Grant for Women in Computology, a wonderful grants program that funds education for women in tech, such as the Rails Girls Summer of Code program that we are participating in this summer.
+Hi there - we are Franzi and Nynne! The Rubyherzlein blog is documenting our adventures as we learn to program with Ruby on Rails. This summer we are participating in the Rails Girls Summer of Code. Our team 'Rubyherzlein' will be focusing on developing the SoundDrop app! (Rubyherzlein is German for 'little Ruby heart').
 
-James is an inspiration to all of us and we are happy to celebrate his lifes' work as we hone our skills and discover our enthusiasm for programming. If you'd like to celebrate James Golick's vision for a more diverse tech industry, please consider making a donation to the The James Golick Grant for Women in Computology  <3.
+So -what is Rails Girls Summer of Code, you ask? In 2010 Finish developers Linda Liukas and Karri Saarinen  started the first Rails Girls workshops, which taught Ruby on Rails to women. Since then, the Rails Girls movement has spread to most continents. Rails Girls Summer of Code (RGSoC), is a three month program that supports women who are learning Ruby on Rails, initiated by the Rails Girls community. 
+
+Want to know more about Ruby on Rails? You've come to the right place! Over the course of the next 4 months, we will document everything we learn and share it on the blog. 
