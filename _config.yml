@@ -33,7 +33,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Nynne & Franzi
   avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GJL-fft-herz.svg/120px-GJL-fft-herz.svg.png
-  email:rubyherzlein@email.com
+  email: rubyherzlein@email.com
   disqus-shortname:
   twitter: #username
   facebook: #username
