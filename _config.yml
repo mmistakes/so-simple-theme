@@ -31,7 +31,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Nynne & Franzi
+  name: Ruby♥lein - Nynne & Franzi
   avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GJL-fft-herz.svg/120px-GJL-fft-herz.svg.png
   email: rubyherzlein@gmail.com
   disqus-shortname:
