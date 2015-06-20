@@ -1,19 +1,13 @@
 # Site navigation links
 
-- title: About
+- title: ABOUT
   url: /about/
 
-- title: Articles
-  url: /articles/
-
-- title: Blog
+- title: BLOG
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: JAMES GOLICK FOUNDATION
+  url: /golick/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
-
-- title: Search
-  url: /search/
+- title: LINKS
+  url: /links/

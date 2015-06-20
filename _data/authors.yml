@@ -1,7 +1,7 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
+Nynne:
+  name: Nynne
   web: http://thewhip.com
   email: billy@rick.com
   bio: "What do you want, jewels? I am a very extravagant man."
@@ -10,11 +10,11 @@ billy_rick:
   google:
     plus: BillyRick
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
+Franzi:
+  name: Franzi
   email: cornelius@thewhip.com
   bio: "I ordered what?"
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
+  twitter: fwittled
   google:
     plus: CorneliusFiddlebone

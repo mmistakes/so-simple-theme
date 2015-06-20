@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Rubyherzelein
+title: Rubyherzlein
 locale: en_US
-description: processing..
+description: Developers-to-be
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 search: true
-url: rubyherzelein.github.io
+url: http://localhost:4000
 
 # Jekyll configuration
 

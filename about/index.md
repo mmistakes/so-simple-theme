@@ -9,18 +9,6 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+James Golick was a developer who was passionate about promoting diversity in the tech industry. Before his much too early passing in 2014, James showed a strong commitment to supporting women in tech, taking particular interest in mentoring and encouraging female programmers. We sadly never had the chance to meet James, but we are proud to honor his memory and to celebrate his ideas and visions for a more diverse tech industry. We highly support The James Golick Grant for Women in Computology, a wonderful grants program that funds education for women in tech, such as the Rails Girls Summer of Code program that we are participating in this summer.
 
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
-
-[^1]: Example: *domain.com/category-name/post-title*
+James is an inspiration to all of us and we are happy to celebrate his lifes' work as we hone our skills and discover our enthusiasm for programming. If you'd like to celebrate James Golick's vision for a more diverse tech industry, please consider making a donation to the The James Golick Grant for Women in Computology  <3.
