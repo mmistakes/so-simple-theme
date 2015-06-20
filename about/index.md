@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: James Golick 
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: so-simple-sample-image-4.jpg
+  feature: james.jpg
   credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  creditlink: 
 ---
 
 James Golick was a developer who was passionate about promoting diversity in the tech industry. Before his much too early passing in 2014, James showed a strong commitment to supporting women in tech, taking particular interest in mentoring and encouraging female programmers. We sadly never had the chance to meet James, but we are proud to honor his memory and to celebrate his ideas and visions for a more diverse tech industry. We highly support The James Golick Grant for Women in Computology, a wonderful grants program that funds education for women in tech, such as the Rails Girls Summer of Code program that we are participating in this summer.
