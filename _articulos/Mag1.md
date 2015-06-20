@@ -69,7 +69,7 @@ Pintura al spray sobre papel de 240gr. 29x42 cm. 350€.</figcaption>
 <figure>
 	<a href="/images/Magone/OPTIC.jpg"><img src="/images/Magone/OPTIC.jpg" alt="Graffiti. Pintura al spray CB1MAG1 arte urbano diseño Barcelona"></a>
 	<figcaption><b>OPTIC NERVE.</b>
-Spray sobre papel de 310 gr. 57 cm .Ø 860€. Con marco 70x70 cm. 990 €.</figcaption>
+Spray sobre papel de 310 gr. 57 cm.Ø 860€. Con marco 70x70 cm. 990€.</figcaption>
 </figure>
 </div>
 
@@ -78,7 +78,7 @@ Spray sobre papel de 310 gr. 57 cm .Ø 860€. Con marco 70x70 cm. 990 €.</fig
 <figure>
 	<a href="/images/Magone/MEDICINE.jpg"><img src="/images/Magone/MEDICINE.jpg" alt="Graffiti. Pintura al spray CB1MAG1 arte urbano diseño Barcelona"></a>
 	<figcaption><b>MEDICINE MAGONE.</b>
-Pintura al spray sobre papel hecho a mano naranja. 64x49 cm. 770 €. Con marco 117x97 cm. 1.120 €.</figcaption>
+Pintura al spray sobre papel hecho a mano naranja. 64x49 cm. 770€. Con marco 117x97 cm. 1.120€.</figcaption>
 </figure>
 
 <figure>
