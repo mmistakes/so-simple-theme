@@ -16,3 +16,5 @@ __James Golick__ was a developer who was passionate about promoting diversity in
 
 
 James is an inspiration to all of us and we are happy to celebrate his lifes' work as we hone our skills and discover our enthusiasm for programming. If you'd like to celebrate James Golick's vision for a more diverse tech industry, please consider making a [donation](https://jamesgolick.bitmakerlabs.com/) to the The James Golick Grant for Women in Computology  <3.
+
+![James](/images/jamesherz.png)
