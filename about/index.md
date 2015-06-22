@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: ABOUT
 excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:

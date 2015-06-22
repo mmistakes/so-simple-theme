@@ -1,6 +1,6 @@
 ---
 layout: page
-title: random notions
+title: NOTIONS 
 excerpt: "An archive of articles sorted by date."
 search_omit: true
 ---
