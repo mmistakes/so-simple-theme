@@ -5,7 +5,7 @@ locale: en_US
 description:    
 logo: rubyherz.png
 search: true
-baseurl: '/rubyherzelein.github.io
+url: rubyherzelein.github.io
 
 # Jekyll configuration
 
