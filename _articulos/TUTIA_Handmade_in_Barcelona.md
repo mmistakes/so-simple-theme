@@ -75,7 +75,7 @@ imagen: TUTIA/logo.jpg
 <figure>
 	<a href="/images/TUTIA/BCN.jpg"><img src="/images/TUTIA/BCN.jpg" alt="Baldosa-Salvamanteles TUTIA Barcelona art design"></a>
 	<figcaption>
-Baldosa de cerámica con reverso en goma negra. 20x30 cm. 33€.</figcaption>
+Baldosa de cerámica con reverso en goma negra. 30x20 cm. 33€.</figcaption>
 </figure>
 
 <figure>
