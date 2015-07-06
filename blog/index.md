@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 
-excerpt: "An archive of blog posts sorted by date."
+excerpt: 
 search_omit: true
 image:
   feature: PhotoBlog.png
