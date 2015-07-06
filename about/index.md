@@ -4,9 +4,7 @@ title: ABOUT
 excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: /images/PhotoBlog.png
-  credit: toRubyherzleinBAM
-  creditlink: 
+  feature: PhotoBlog.png
 ---
 
 __Developers-to-be__ - we are Franzi and Nynne! The Rubyherzlein blog is documenting our adventures as we learn to program with Ruby on Rails. This summer we are participating in the Rails Girls Summer of Code. Our team 'Rubyherzlein' will be focusing on developing the SoundDrop app! (Rubyherzlein is German for 'little Ruby heart').

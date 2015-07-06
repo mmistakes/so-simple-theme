@@ -4,9 +4,7 @@ title: LINKS
 excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: /images/PhotoBlog.png
-  credit: toRubyherzleinBAM
-  creditlink: 
+  feature: PhotoBlog.png
 ---
 
 Learning to program is hard! On this page we will compile a list of our favourite online (and mostly free) tools for learning :)
