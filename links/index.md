@@ -1,8 +1,8 @@
 ---
 layout: page
 title: LINKS
-excerpt: #no idea what this is for
-modified: 2014-08-08T19:44:38.564948-04:00
+excerpt: #links
+modified: 2015-06-07T19:44:38.564948-04:00
 image:
   feature: PhotoBlog.png
 ---
