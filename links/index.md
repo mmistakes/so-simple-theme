@@ -4,9 +4,9 @@ title: LINKS
 excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: 
-  credit: #name of the person or site you want to credit
-  creditlink: #url to their site or licensing
+  feature: /images/PhotoBlog.png
+  credit: toRubyherzleinBAM
+  creditlink: 
 ---
 
 Learning to program is hard! On this page we will compile a list of our favourite online (and mostly free) tools for learning :)

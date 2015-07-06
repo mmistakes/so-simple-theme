@@ -4,7 +4,7 @@ title:
 excerpt: "An archive of blog posts sorted by date."
 search_omit: true
 image:
-  feature: PhotoBlog.png
+  feature: /images/PhotoBlog.png
   credit: toRubyherzleinBAM
   creditlink: 
 ---
