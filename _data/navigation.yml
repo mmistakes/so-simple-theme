@@ -1,16 +1,15 @@
 # Site navigation links
 
-- title: ABOUT
-  url: /about/
-
 - title: BLOG
   url: /blog/
 
-- title: NOTIONS
-  url: /notions/
+- title: LINKS
+  url: /links/
+
+- title: ABOUT
+  url: /about/
 
 - title: JAMES GOLICK FOUNDATION
   url: /golick/
 
-- title: LINKS
-  url: /links/
+
