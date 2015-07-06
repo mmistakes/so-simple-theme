@@ -15,3 +15,6 @@ So -what is Rails Girls Summer of Code, you ask? In 2010 Finish developers [Lind
 
 Want to know more about Ruby on Rails? You've come to the right place! Over the course of the next 4 months, we will document everything we learn and share it on the blog. 
 
+
+contact us - rubyherzlein@gmail.com
+
