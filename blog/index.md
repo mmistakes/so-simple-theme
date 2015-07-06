@@ -1,8 +1,12 @@
 ---
 layout: page
-title: BLOG
+title: 
 excerpt: "An archive of blog posts sorted by date."
 search_omit: true
+image:
+  feature: PhotoBlog.png
+  credit: toRubyherzleinBAM
+  creditlink: 
 ---
 
 <ul class="post-list">
