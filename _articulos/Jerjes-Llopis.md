@@ -5,7 +5,7 @@ category: Prints
 layout: articulo
 published: true
 ---
-En su obra **Sinestesias Botánicas** convive el lenguaje visual y el lenguaje escrito de forma indivisible tomando un sentido único.
+Un cumulo de sensaciones se agolpan en la mente cuando uno se pone frente a la obra de **Jerjes Llopis**. En **Sinestesias Botánicas** convive el lenguaje visual y el lenguaje escrito de forma indivisible tomando un sentido único.
 
 
 <div class="figure-group">
