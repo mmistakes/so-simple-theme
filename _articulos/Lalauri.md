@@ -12,84 +12,84 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <figure>
 	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR.TIGERHULL.</b> 
-	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 35x20cm. 60€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/miss catmond.jpg"><img src="/images/Laura-Agusti/miss catmond.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MISS CATMOND.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm. en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/THREEBEAR.jpg"><img src="/images/Laura-Agusti/THREEBEAR.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>THREE BEARS.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg"><img src="/images/Laura-Agusti/MISS CATSELBY & MISS CATTYNE.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MISS CATSELBY & MISS CATTYNE.</b> 
-	Reproducción seriada y firmada, 21x29,5 cm. 20€, con marco 24x30cm. 60€.
+	Reproducción sobre papel Opale de 250 gr., 21 x 29,5 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/FLOWERS.jpg"><img src="/images/Laura-Agusti/FLOWERS.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>FLOWERS.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/MR.-FOXLUTTON-VS-MISS-2CATSTROUD.jpg"><img src="/images/Laura-Agusti/MR.-FOXLUTTON-VS-MISS-2CATSTROUD.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR. FOXLUTTON VS. MISS CATSTROUD.</b> 
-	Reproducción seriada y firmada, 21x29,5 cm. 20€, con marco 24x30cm. 60€.
+	Reproducción sobre papel Opale de 250 gr., 21 x 29,5 cm., en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.deerwinter.jpg"><img src="/images/Laura-Agusti/mr.deerwinter.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR. DEERWINTER.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm. en edición limitada de 100 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/mr.lionpoint.jpg"><img src="/images/Laura-Agusti/mr.lionpoint.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR. LIONPOINT.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 28x25cm. 60€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/treehouse.jpg"><img src="/images/Laura-Agusti/treehouse.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>TREEHOUSE.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/FOREST.jpg"><img src="/images/Laura-Agusti/FOREST.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>FOREST.</b> 
-	Reproducción seriada y firmada, 29,5x21 cm. 20€, con marco 24x30cm. 60€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/THREEWOLVES.jpg"><img src="/images/Laura-Agusti/THREEWOLVES.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>THREE WOLVES.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/Laura-Agusti/MISS CATBLETON.jpg"><img src="/images/Laura-Agusti/MISS CATBLETON.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MISS CATBLETON.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 20€.
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm. en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
 	</figcaption>
 </figure>
 </div>
