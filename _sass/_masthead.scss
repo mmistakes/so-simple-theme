@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  margin-top: 40px;
+  margin-top: -25px;
   @include clearfix;
   @include media($medium) {
     margin-top: 0;
@@ -13,6 +13,7 @@
     max-width: em(440);
     padding-right: 20px;
     padding-left: 20px;
+    margin-top: 40px;
     @include media($medium) {
       max-width: em(728);
       padding-right: 60px;
@@ -48,6 +49,14 @@
     }
   }
 }
+
+  .site-logo img {
+   width: 390px;
+   height: 150px;
+   margin-top: 50px;
+   margin-right: -8px;
+    }
+
 
 /*
    Site title/name

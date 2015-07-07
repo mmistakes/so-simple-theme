@@ -1,26 +1,18 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+title: 
+excerpt: #no idea what this is for
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: so-simple-sample-image-4.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: PhotoBlog.png
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+__Developers-to-be__ - we are Franzi and Nynne! The Rubyherzlein blog is documenting our adventures as we learn to program with Ruby on Rails. This summer we are participating in the Rails Girls Summer of Code. Our team 'Rubyherzlein' will be focusing on developing the SoundDrop app! (Rubyherzlein is German for 'little Ruby heart').
 
-## So Simple Theme is all about:
+So -what is Rails Girls Summer of Code, you ask? In 2010 Finish developers [Linda Liukas](http://signaltower.co/linda-liukas/) and [Karri Saarinen](http://karrisaarinen.com/) started the first Rails Girls workshops, which taught Ruby on Rails to women. Since then, the Rails Girls movement has spread to most continents. [Rails Girls Summer of Code](http://railsgirlssummerofcode.org/) (RGSoC), is a three month program that supports women who are learning Ruby on Rails, initiated by the [Rails Girls community](http://railsgirls.com/).
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+Want to know more about Ruby on Rails? You've come to the right place! Over the course of the next 4 months, we will document everything we learn and share it on the blog. 
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
 
-[^1]: Example: *domain.com/category-name/post-title*
+contact us - rubyherzlein@gmail.com
+

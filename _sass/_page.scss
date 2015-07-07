@@ -15,18 +15,19 @@
 	@include clearfix;
 	border-bottom: 1px solid lighten($black,80);
 	border-bottom: 1px solid rgba($black,.10);
+	text-align: center;
 }
 
 /* feature image */
 
 .entry-feature-image {
 	margin: 20px 0 0;
-	width: 100%;
+	width: 1150px;
 	@include media($medium) {
 		margin-top: -75px; /* move up to be overlapped by site logo */
 	}
 	@include media($large) {
-		margin-top: -145px; /* move up further to be overlapped by site logo */
+		margin-top: -175px; /* move up further to be overlapped by site logo */
 	}
 }
 

@@ -1,12 +1,33 @@
 ---
 layout: page
-title: Blog
-excerpt: "An archive of blog posts sorted by date."
+title: 
+excerpt: 
 search_omit: true
+image:
+  feature: PhotoBlog.png
+
 ---
 
-<ul class="post-list">
-{% for post in site.categories.blog %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
+---
+<!-- Start of the section post-loop-->
+<section class="post-loop container-fluid">
+    {% for post in site.posts %}
+    <div class="row single-post">
+        <div>
+            <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+            <div class="post-details">
+                <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            </div>
+
+            <p class="post-excerpt">
+                {{post.excerpt | length: 800 }}
+            </p>
+
+            <a class="post-button pi-big pi-retro pi-flat" href="{{ post.url }}">More</a>
+
+        </div>
+    </div>
+    {% endfor %}
+</section>

@@ -5,7 +5,7 @@ date:
 modified:
 excerpt:
 image:
-  feature:
+  feature: PhotoBlog.png
 search_omit: true
 sitemap: false
 ---
