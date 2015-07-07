@@ -12,35 +12,35 @@ Un cumulo de sensaciones se agolpan en la mente cuando uno se pone frente a la o
 <figure>
 	<a href="/images/JERJES/9crimes.jpg"><img src="/images/JERJES/9crimes.jpg" alt="Jerjes Llopis Ilustración"></a>
 	<figcaption><b>9 CRIMES.</b> 
-	Reproducción seriada y firmada, 29,5x21 cm. 25€.
+	Reproducción sobre papel Super Alfa de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 25€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/JERJES/s.t.jpg"><img src="/images/JERJES/s.t.jpg" alt="Jerjes Llopis Ilustración"></a>
 	<figcaption><b>S.T.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 25€.
+	Reproducción sobre papel Super Alfa de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 25€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/JERJES/i lost.jpg"><img src="/images/JERJES/i lost.jpg" alt="Jerjes Llopis Ilustración"></a>
 	<figcaption><b>I LOST MY BODY WEIGHT IN THE FOREST.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 25€.
+	Reproducción sobre papel Super Alfa de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 25€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/JERJES/small.jpg"><img src="/images/JERJES/small.jpg" alt="Jerjes Llopis Ilustración"></a>
 	<figcaption><b>SMALL MOUNTAIN.</b> 
-	Reproducción seriada y firmada, 29,5x21 cm. 25€.
+	Reproducción sobre papel Super Alfa de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 25€.
 	</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/JERJES/when.jpg"><img src="/images/JERJES/when.jpg" alt="Jerjes Llopis Ilustración"></a>
 	<figcaption><b>WHEN WINTER´S OVER.</b>
-	Reproducción seriada y firmada, 29,5x21 cm. 25€.
+	Reproducción sobre papel Super Alfa de 250 gr., 29,5 x 21 cm. en edición limitada de 20 obras, firmada y con certificado de autenticidad incluido. 25€.
 	</figcaption>
 </figure>
 </div>
