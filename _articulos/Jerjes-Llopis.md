@@ -4,6 +4,7 @@ description:  Art Prints Jerjes Llopis
 category: Prints
 layout: articulo
 published: true
+imagen: "JERJES/Captura.JPG"
 ---
 Un cumulo de sensaciones se agolpan en la mente cuando uno se pone frente a la obra de **Jerjes Llopis**. En **Sinestesias Botánicas** convive el lenguaje visual y el lenguaje escrito de forma indivisible tomando un sentido único.
 
