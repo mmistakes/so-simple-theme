@@ -13,7 +13,7 @@ imagen: "VOLTO/LOGOweb.jpg"
 	<a href="/images/VOLTO/horitzontal.jpg"><img src="/images/VOLTO/horitzontal.jpg" alt="Salpimentero Volto galeribcn diseño Barcelona"></a>
 	<a href="/images/VOLTO/ambient1.jpg"><img src="/images/VOLTO/ambient1.jpg" alt="Salpimentero Volto galeribcn diseño Barcelona"></a>
 <figcaption><b>VOLTO.</b>
-Materiales: Corcho, vidrio y amor. Medidas: 150mm. x ø30mm. Peso: 45gr. Capacidad: 50ml.
+Materiales: Corcho, vidrio y amor. Medidas: 150mm. x ø30mm. Peso: 45gr. Capacidad: 50ml. 29€.
     </figcaption>
 </figure>
 
