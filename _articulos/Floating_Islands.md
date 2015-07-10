@@ -55,7 +55,7 @@ Floating para plantas acuáticas. Con fácil recambio de agua gracias a sus dos 
 	<a href="/images/FLOATING/hook.jpg"><img src="/images/FLOATING/hook.jpg" alt="Maceta Botella FLOATING ISLANDS galeribcn design Barcelona"></a>
 
 	<figcaption><b>HOOK.</b> 
-Vidrio con orificio e hilo de cáñamo. Bordes pulidos. Altura: 14cm, Ø7,5cm. En vidrio transparente, verde y ocre. Incluye clavo, gancho, taco y piedras blancas. 13,50€.</figcaption>
+Vidrio con orificio para poder colgarlo a la pared. Bordes pulidos. Altura: 14cm, Ø7,5cm. En vidrio transparente, verde y ocre. Incluye clavo, gancho, taco y piedras blancas. 13,50€.</figcaption>
 </figure>
 
 <figure>
