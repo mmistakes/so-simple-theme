@@ -4,7 +4,7 @@ description: Cerámica Barcelona art design
 category: Objetos
 layout: articulo
 published: true
-imagen: " KRASZNAI/logo.jpg"
+imagen: "KRASZNAI/logo.JPG"
 ---
 Cada pieza de la serie **ARMS&CRAFTS** parece que dice _Llévame contigo_.
 
