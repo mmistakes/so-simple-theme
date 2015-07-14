@@ -42,7 +42,7 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 <figure>
 	<a href="/images/Lantomo/YELLOWPINK.jpg"><img src="/images/Lantomo/YELLOWPINK.jpg" alt="Dibujo original Lantomo Yellow Pink diseño Barcelona"></a>
 	<figcaption><b>YELLOWPINK.</b> 
-    Acuarela, lápiz y pastel sobre papel, 70x50 cm. 350€, con marco 100x70 cm. 380€.</figcaption>
+    Acuarela, lápiz y pastel sobre papel, 70x50 cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
