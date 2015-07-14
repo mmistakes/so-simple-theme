@@ -6,7 +6,7 @@ layout: articulo
 published: true
 imagen: "KRASZNAI/logo.JPG"
 ---
-Cada pieza de la serie **ARMS&CRAFTS** parece que dice _Llévame contigo_.
+Cada pieza de la serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 <div class="figure-group">
 <figure>
