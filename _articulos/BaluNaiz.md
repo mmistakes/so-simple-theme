@@ -12,7 +12,7 @@ Artista urbano cuya arma es el _stencil_ (plantilla), técnica con la que repres
 <figure>
 	<a href="/images/BALU/BRONX.jpg"><img src="/images/BALU/BRONX.jpg" alt="Obra Original Bàlu Naiz arte urbano diseño Barcelona"></a>
 	<figcaption><b>BRONX.</b>
-Técnica mixta sobre tela. 63x97cm. 450 €.</figcaption>
+Técnica mixta sobre tela. 63x97cm. VENDIDO.</figcaption>
 </figure>
 
 <figure>
