@@ -11,52 +11,52 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 <div class="figure-group">
 <figure>
 	<a href="/images/KRASZNAI/ARMSIN.jpg"><img src="/images/KRASZNAI/ARMSIN.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a>
-	<figcaption> <b>BOWL ARMS IN.</b> Bol de cerámica esmaltada. 16x16x10 cm. aprox. Cada pieza es única. 29€.</figcaption>
+	<figcaption> <b>BOWL ARMS IN.</b> Bol de cerámica esmaltada, 16x16x10 cm. aprox. Cada pieza es única. 29€.</figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/KRASZNAI/ARMSOUT.jpg"><img src="/images/KRASZNAI/ARMSOUT.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a>
-	<figcaption> <b>BOWL ARMS OUT.</b> Bol de cerámica esmaltada. 23x15x10 cm. aprox. Cada pieza es única. 29€.</figcaption>
+	<figcaption> <b>BOWL ARMS OUT.</b> Bol de cerámica esmaltada, 23x15x10 cm. aprox. Cada pieza es única. 29€.</figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/KRASZNAI/ARMSANDLEGS.jpg"><img src="/images/KRASZNAI/ARMSANDLEGS.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b> BOWL ARMS AND LEGS.</b> Bol de cerámica esmaltada. 25x23x8 cm. aprox. Cada pieza es única. 34€. </figcaption>
+	<figcaption> <b> BOWL ARMS AND LEGS.</b> Bol de cerámica esmaltada, 25x23x8 cm. aprox. Cada pieza es única. 34€. </figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/KRASZNAI/MUG.jpg"><img src="/images/KRASZNAI/MUG.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>MUG.</b> Mug de cerámica esmaltada. 16x13x13 cm. aprox. Cada pieza es única. 24€. </figcaption>
+	<figcaption> <b>MUG.</b> Mug de cerámica esmaltada, 16x13x13 cm. aprox. Cada pieza es única. 24€. </figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/KRASZNAI/MILK.jpg"><img src="/images/KRASZNAI/MILK.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>MILK.</b> Cerámica esmaltada. 15x22x11 cm. aprox. Cada pieza es única. 44€.</figcaption>
+	<figcaption> <b>MILK.</b> Cerámica esmaltada, 15x22x11 cm. aprox. Cada pieza es única. 44€.</figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/KRASZNAI/BAKING.jpg"><img src="/images/KRASZNAI/BAKING.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>BAKING TIN.</b> Molde de cerámica esmaltada. 25x9x25 cm. aprox. Cada pieza es única. 44€. </figcaption>
+	<figcaption> <b>BAKING TIN.</b> Molde de cerámica esmaltada, 25x9x25 cm. aprox. Cada pieza es única. 44€. </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/KRASZNAI/PLATELEGS.jpg"><img src="/images/KRASZNAI/PLATELEGS.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>PLATE LEGS.</b> Plato de cerámica esmaltada. 29x29x7 cm. aprox. Cada pieza es única. 37€.</figcaption>
+	<figcaption> <b>PLATE LEGS.</b> Plato de cerámica esmaltada, 29x29x7 cm. aprox. Cada pieza es única. 37€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/KRASZNAI/SMALLVASE.jpg"><img src="/images/KRASZNAI/SMALLVASE.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>MALL VASE.</b> Jarrón de cerámica esmaltada. 15x10x14 cm. aprox. Cada pieza es única. 30€. </figcaption>
+	<figcaption> <b>SMALL VASE.</b> Jarrón de cerámica esmaltada, 15x10x14 cm. aprox. Cada pieza es única. 30€. </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/KRASZNAI/OPENVASE.jpg"><img src="/images/KRASZNAI/OPENVASE.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>OPEN VASE.</b> Jarrón de cerámica esmaltada. 23x17x28 cm. aprox. Cada pieza es única. 65€. </figcaption>
+	<figcaption> <b>OPEN VASE.</b> Jarrón de cerámica esmaltada, 23x17x28 cm. aprox. Cada pieza es única. 65€. </figcaption>
 </figure>
 </div>
 
