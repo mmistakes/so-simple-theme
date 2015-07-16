@@ -22,7 +22,10 @@ imagen: "JIL/logo.JPG"
 <b>PSYCHO PARROT.</b> Skateboard personalizada. Acrílico sobre tabla. Medidas: 82x20cm. 300€.</figcaption>
 </figure>
 
+
+
 <iframe width="560" height="315" src="http://player.vimeo.com/video/132708228?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
+
 
 
 El concepto de la colección está basado en la cultura Surf/Skate tropical clásica de los años setenta con algunos toques mafiosos ambientados en la Miami Beach y California _Old School_. Cada tabla es única con una propia historia que contar.
