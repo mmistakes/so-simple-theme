@@ -116,7 +116,11 @@ Las ilustraciones de **Jorge Gallardo** son gritos de rabia hechos imágenes.
 
 
 **Jorge Gallardo**. Ilustrador de catástrofes.
+
 _Empecé a ilustrar a raíz de una situación personal exasperante, poco a poco veía como todo se desmoronaba alrededor de mi, veía y sentía cosas difíciles de digerir, hasta que un día sentí que debía contar lo que sentía al mundo. Eso forjó dentro de mí una forma de ver las cosas desde un punto de vista catastrófico y crítico._
+
 _Poco a poco empecé a encontrar a gente en el camino que admiraba la forma en la que describía tales catástrofes, que le fascinaba y atormentaba la forma en la que yo veía el mundo…. Y es que realmente no busco otra cosa más que sorprender y ser el punto de inflexión para la conciencia de las personas._
+
 _Cada diseño, cada ilustración, cada trazo tiene su momento y su lugar en mi vida y la mayor honra que puede haber en mi corta vida es empatizar hasta punto tal de marcar, cautivar y enamorar a las personas que contemplen esa parte tan frágil de mi._
+
 _Este camino me ha traído varios logros y experiencias inolvidables, pero esto es solo el comienzo de la hecatombe._
