@@ -50,6 +50,18 @@ El virtuosismo del lápiz de <b>*Lantomo*</b> combina a la perfección el hiperr
 	<figcaption><b>PULLOVER ATTACK.</b>
     Lápiz grafito y lápiz de color sobre papel, 60x44 cm., con marco 70x50 cm. VENDIDO.</figcaption>
 </figure>
+
+<figure>
+	<a href="/images/Lantomo/SeeI.jpg"><img src="/images/Lantomo/SeeI.jpg" alt="Dibujo original Lantomo See through I     diseño Barcelona"></a>
+	<figcaption><b>SEE THROUGH I.</b>
+    Técnica mixta sobre papel vegetal, con marco 30x42 cm. 220 €.</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Lantomo/SeeII.jpg"><img src="/images/Lantomo/SeeII.jpg" alt="Dibujo original Lantomo See through I      diseño Barcelona"></a>
+	<figcaption><b>SEE THROUGH II.</b>
+    Técnica mixta sobre papel vegetal, con marco 30x42 cm. 220 €.</figcaption>
+</figure>
 </div>
 
 <b>*Lantomo*</b>, alias artístico de Antonella Montes, es una artista e ilustradora italiana residente en Barcelona.
