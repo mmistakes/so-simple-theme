@@ -12,14 +12,14 @@ imagen: "JIL/logo.JPG"
 <figure class="half">
 	<a href="/images/JIL/1A.jpg"><img src="/images/JIL/1A.jpg" alt="Jil-Laura Skateboard Barcelona art design"></a>
 	<a href="/images/JIL/1B.jpg"><img src="/images/JIL/1B.jpg" alt="Jil-LauraSkateboard Barcelona art design"></a><figcaption>
-<b>TROPIC AVANTGARDE.</b> Skateboard personalizada. Acrílico y base de spray sobre tabla. Medidas: 82x20cm. 300€.</figcaption>
+<b>TROPIC AVANTGARDE.</b> Skateboard personalizada. Acrílico y base de spray sobre tabla, 82 x 20 cm. 300€.</figcaption>
 </figure>
 
 
 <figure class="half">
 	<a href="/images/JIL/2A.jpg"><img src="/images/JIL/2A.jpg" alt="Jil-Laura Skateboard Barcelona art design"></a>
 	<a href="/images/JIL/2B.jpg"><img src="/images/JIL/2B.jpg" alt="Jil-Laura Skateboard Barcelona art design"></a><figcaption>
-<b>PSYCHO PARROT.</b> Skateboard personalizada. Acrílico sobre tabla. Medidas: 82x20cm. 300€.</figcaption>
+<b>PSYCHO PARROT.</b> Skateboard personalizada. Acrílico sobre tabla, 82 x 20 cm. 300€.</figcaption>
 </figure>
 
 
