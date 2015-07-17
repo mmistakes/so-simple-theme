@@ -23,6 +23,12 @@ imagen: "JIL/logo.JPG"
 </figure>
 
 
+<figure class="half">
+	<a href="/images/JIL/1.jpg"><img src="/images/JIL/1.jpg" alt="Jil-Laura Skateboard Barcelona art design"></a>
+	<a href="/images/JIL/2.jpg"><img src="/images/JIL/2.jpg" alt="Jil-Laura Skateboard Barcelona art design"></a><figcaption>
+<b>BAD LOVE JOURNEY.</b> Skateboard personalizada. Acrílico y spray sobre tabla, 82 x 20 cm. 300€.</figcaption>
+</figure>
+
 
 <iframe width="560" height="315" src="http://player.vimeo.com/video/132708228?title=0&byline=0&portrait=0" frameborder="0"> </iframe>
 
