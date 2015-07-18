@@ -35,8 +35,8 @@ La obra de **RAL** en colaboración con **Bàlu Naiz** ahora en camiseta.
 </figure>
 
 
-**Old Skull Riot** nace en 2015 en Barcelona. El camino principal que seguimos a la hora de abordar nuestros diseños es simple y directo, unimos nuestros patrones con la magia de nuestros artistas siendo ellos los principales protagonistas. Damos a conocer al cliente la historia de cada obra del artista y de las intervenciones artísticas que realiza en el espacio público y su respectiva localización en las diferentes ciudades del mundo.
+_**Old Skull Riot** nace en 2015 en Barcelona. El camino principal que seguimos a la hora de abordar nuestros diseños es simple y directo, unimos nuestros patrones con la magia de nuestros artistas siendo ellos los principales protagonistas. Damos a conocer al cliente la historia de cada obra del artista y de las intervenciones artísticas que realiza en el espacio público y su respectiva localización en las diferentes ciudades del mundo._
 
-Defendemos el comercio local por lo que fabricamos desde cero todo en nuestra ciudad, Barcelona. 
+_Defendemos el comercio local por lo que fabricamos desde cero todo en nuestra ciudad, Barcelona._ 
 
-Nuestro objetivo es dar a conocer artistas locales más allá de nuestra marca, siendo estos nuestra principal fuente de inspiración.
+_Nuestro objetivo es dar a conocer artistas locales más allá de nuestra marca, siendo estos nuestra principal fuente de inspiración._
