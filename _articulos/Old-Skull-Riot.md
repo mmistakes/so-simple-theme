@@ -4,7 +4,7 @@ description: Camisetas Old Skull Riot Diseño Barcelona
 category: Objetos
 layout: articulo
 published: true
-imagen: "SKULL/logo.JPG"
+imagen: "SKULL/logo.jpg"
 ---
 La obra de **RAL** en colaboración con **Bàlu Naiz** ahora en camiseta. 
 
