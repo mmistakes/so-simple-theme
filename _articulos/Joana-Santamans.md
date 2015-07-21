@@ -83,6 +83,7 @@ Serie _I et despertes mentre les papallones filen_ (2015)
 
 
 Serie _Summer 15_ (2015)
+
 <div class="figure-group">
 <figure>
 	<a href="/images/Joana/calamar.jpg"><img src="/images/Joana/calamar.jpg" alt="Print Joana Santamans Calamar diseño Barcelona"></a>
