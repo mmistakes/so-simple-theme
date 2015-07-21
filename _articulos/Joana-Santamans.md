@@ -75,7 +75,7 @@ Serie _I et despertes mentre les papallones filen_ (2015)
 </figure>
 
 <figure>
-<a href="/images/Joana/ pluma.jpg"><img src="/images/Joana/ pluma.jpg" alt="Print Joana Santamans Rosabella diseño Barcelona"></a>
+<a href="/images/Joana/pluma.jpg"><img src="/images/Joana/pluma.jpg" alt="Print Joana Santamans Rosabella diseño Barcelona"></a>
 	<figcaption><b>PLOMA NEGRA.</b>
   Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
