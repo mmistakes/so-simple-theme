@@ -8,7 +8,7 @@ imagen: "Joana/logo.JPG"
 
 ---
 
-**Joana Santamans** presenta en ['galəri] tres de sus últimas series. 
+Los personajes de **Joana Santamans** habitan un universo naturalmente irreal. 
 
 Serie _Hummingbirds_ (2014) 
 
