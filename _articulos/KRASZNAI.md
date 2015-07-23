@@ -60,8 +60,8 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 </figure>
 
 <figure>
-	<a href="/images/KRASZNAI/TIESTO.jpg"><img src="/images/KRASZNAI/TIESTO.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption> <b>TIESTO.</b> Bol de cerámica esmaltada. 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
+	<a href="/images/KRASZNAI/TIESTO.jpg"><img src="/images/KRASZNAI/TIESTO.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>TIESTO.</b>Tiesto de cerámica esmaltada. 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
 </figure>
 </div>
 
@@ -98,8 +98,8 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 **GNOME REVOLUTION**. Un perfecto contenedor para ocultar todas las pequeñas cosas que tienes en casa.
 
 <figure>
-	<a href="/images/KRASZNAI/GNOME.jpg"><img src="/images/GNOME/CARTERA 1.jpg" alt="image"></a>
-<figcaption><b>URBAN GNOME YELLOW WHITE.</b> Cerámica esmaltada. 20x20x45 cm. aprox. Cada pieza es única. 55€. </figcaption>
+	<a href="/images/KRASZNAI/GNOME.jpg"><img src="/images/KRASZNAI/GNOME.jpg" alt="image"></a>
+<figcaption><b>URBAN GNOME YELLOW WHITE.</b>Cerámica esmaltada. 20x20x45 cm. aprox. Cada pieza es única. 55€. </figcaption>
 </figure>
 
 
