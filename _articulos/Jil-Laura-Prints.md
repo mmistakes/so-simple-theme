@@ -1,6 +1,6 @@
 ---
 title: Jil-Laura
-description: Skateboards Barcelona art design
+description: Art Print Barcelona art design
 category: Prints
 layout: articulo
 published: true
@@ -9,7 +9,7 @@ imagen: "JIL/logo.JPG"
 
 <figure>
 	<a href="/images/JIL/BCN.jpg"><img src="/images/JIL/BCN.jpg" alt="Jil-Laura Art Prints design Barcelona"></a>
-<figcaption><b>BARCELONA SEA VIEW.</b> Reproducción digital firmada  en papel Nettuno Artico 280 gr., 15€.</figcaption> 
+<figcaption><b>BARCELONA SEA VIEW.</b> Reproducción digital firmada en papel Nettuno Artico 280 gr. 29,5 x 21 cm, 15€.</figcaption> 
 </figure>
 
 

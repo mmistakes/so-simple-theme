@@ -46,7 +46,7 @@ Un cumulo de sensaciones se agolpan en la mente cuando uno se pone frente a la o
 </figure>
 </div>
 
-**Jerjes Llopis**,1978 Valencia. Licenciado en Bellas Artes por la universidad Miguel Hernández de Altea con la especialidad de pintura. 
-Actualmente trabaja como docente en la Escuela de Arte y Superior de Diseño de Alcoi impartiendo clases de dibujo en diferentes ámbitos del diseño. De forma puntual realiza trabajos de diseño gráfico pero con una marcada debilidad por la ilustración, entendiendo que cualquier tipología de soporte es susceptible de ser enriquecido por medio de la aplicación de una narración de carácter visual.
+**Jerjes Llopis**, 1978 Valencia. Licenciado en Bellas Artes por la universidad Miguel Hernández de Altea con la especialidad de pintura. 
+Actualmente trabaja como docente en la Escuela Superior de Arte y Diseño de Alcoi impartiendo clases de dibujo en diferentes ámbitos del diseño. De forma puntual realiza trabajos de diseño gráfico pero con una marcada debilidad por la ilustración, entendiendo que cualquier tipología de soporte es susceptible de ser enriquecido por medio de la aplicación de una narración de carácter visual.
 
 En **Sinestesias Botánicas** se sustituyen ciertos sentidos por el concepto botánico, apoyándose en colores primarios para resaltarlos, a modo de acento. El trazo se organiza en una línea gruesa siempre para los contornos dejando líneas finas para trabajar las sombras y los volúmenes interiores. Se trata de composiciones exentas, carentes de fondo, lo que les dota de cierta atemporalidad. 
