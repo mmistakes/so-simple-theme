@@ -58,7 +58,50 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 	<a href="/images/KRASZNAI/OPENVASE.jpg"><img src="/images/KRASZNAI/OPENVASE.jpg" alt="cerámica KRASZNAI hecha a mano diseño Barcelona"></a> 
 	<figcaption> <b>OPEN VASE.</b> Jarrón de cerámica esmaltada, 23x17x28 cm. aprox. Cada pieza es única. 65€. </figcaption>
 </figure>
+
+<figure>
+	<a href="/images/KRASZNAI/TIESTO.jpg"><img src="/images/KRASZNAI/TIESTO.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption> <b>TIESTO.</b> Bol de cerámica esmaltada. 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
+</figure>
 </div>
+
+**TALQUAL VASES COLLECTION**. Ganadora del  premio “mejor regalo” en la Top Drawer 2012 de Londres, cada jarrón Talqual es único, salido directamente de los moldes de Arms&Crafts, logrando la belleza que solo lo imperfecto alcanza.
+
+<figure>
+	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="image"></a>
+</figure>
+
+
+<div class="figure-group">
+<figure>
+	<a href="/images/KRASZNAI/SMALLVASE2.jpg"><img src="/images/KRASZNAI/SMALLVASE2.jpg "alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>SMALL VASE.</b> Jarrón de cerámica esmaltada. 10x10x17 cm. aprox. Cada pieza es única. 29€. </figcaption>
+</figure>
+
+<figure>
+	<a href="/images/KRASZNAI/SMALLVASE3.jpg"><img src="/images/KRASZNAI/SMALLVASE3.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>SMALL VASE.jpg.</b> Jarrón de cerámica esmaltada. 10x10x21 cm. aprox. Cada pieza es única. 29€. </figcaption>
+</figure>
+
+<figure>
+	<a href="/images/KRASZNAI/MEDIUMVASE.jpg"><img src="/images/KRASZNAI/MEDIUMVASE.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>MEDIUM VASE.</b> Jarrón de cerámica esmaltada. 10x28x11 cm. aprox. Cada pieza es única. 46€. </figcaption>
+</figure>
+
+<figure>
+	<a href="/images/KRASZNAI/OPENVASE2.jpg"><img src="/images/KRASZNAI/OPENVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>OPEN VASE.</b> Jarrón de cerámica esmaltada. 15x31x16 cm. aprox. Cada pieza es única. 65€. </figcaption>
+</figure>
+</div>
+
+
+**GNOME REVOLUTION**. Un perfecto contenedor para ocultar todas las pequeñas cosas que tienes en casa.
+
+<figure>
+	<a href="/images/KRASZNAI/GNOME.jpg"><img src="/images/GNOME/CARTERA 1.jpg" alt="image"></a>
+<figcaption><b>URBAN GNOME YELLOW WHITE.</b> Cerámica esmaltada. 20x20x45 cm. aprox. Cada pieza es única. 55€. </figcaption>
+</figure>
+
 
 **Roger KRASZNAI** spent several years working in sculpture, ceramics and technical architecture before establishing his own studio and workshop in Badalona (Barcelona). There is where everything is designed and produced, always handmade. **KRASZNAI** strives to make people appreciate handmade ceramics objects and believes that working in ceramics is a captivating form of artisanship with potential to unleash creativity.
 
