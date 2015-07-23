@@ -67,14 +67,9 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 **TALQUAL VASES COLLECTION**. Ganadora del  premio “mejor regalo” en la Top Drawer 2012 de Londres, cada jarrón Talqual es único, salido directamente de los moldes de Arms&Crafts, logrando la belleza que solo lo imperfecto alcanza.
 
-<figure>
-	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="image"></a>
-</figure>
-
-
 <div class="figure-group">
 <figure>
-	<a href="/images/KRASZNAI/SMALLVASE2.jpg"><img src="/images/KRASZNAI/SMALLVASE2.jpg "alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<a href="/images/KRASZNAI/SMALLVASE2.jpg"><img src="/images/KRASZNAI/SMALLVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
 	<figcaption><b>SMALL VASE.</b> Jarrón de cerámica esmaltada. 10x10x17 cm. aprox. Cada pieza es única. 29€. </figcaption>
 </figure>
 
@@ -93,6 +88,10 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 	<figcaption><b>OPEN VASE.</b> Jarrón de cerámica esmaltada. 15x31x16 cm. aprox. Cada pieza es única. 65€. </figcaption>
 </figure>
 </div>
+
+<figure>
+	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="image"></a>
+</figure>
 
 
 **GNOME REVOLUTION**. Un perfecto contenedor para ocultar todas las pequeñas cosas que tienes en casa.
