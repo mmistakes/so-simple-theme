@@ -119,7 +119,7 @@ Espejo convexo de 20 cm. Ø, realizado con pasta de piedra en blanco y negro, 40
 <figure>
 	<a href="/images/Alejandro/10.jpg"><img src="/images/Alejandro/10.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 20 cm. Ø, realizado con nacar y dos tipos de coral. 40x40x5 cm. 280€.</figcaption>
+Espejo convexo de 20 cm. Ø, realizado con nácar y dos tipos de coral. 40x40x5 cm. 280€.</figcaption>
 </figure>
 
 
