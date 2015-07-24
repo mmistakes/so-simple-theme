@@ -16,6 +16,11 @@ Los espejos convexos de Alejandro acoplados a moldes de fundición, piezas de pi
 
 <div class="figure-group">
 <figure>
+<a href="/images/Alejandro/28.jpg"><img src="/images/Alejandro/28.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
+	<figcaption>Espejo convexo de 30 cm. Ø, realizado con conchas de balano. 70x65x14 cm. 670€.</figcaption>
+</figure>
+
+<figure>
 <a href="/images/Alejandro/25.jpg"><img src="/images/Alejandro/25.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
 Espejo convexo de 30 cm. Ø, enmarcado en un mecanismo de piano. 77x77x10 cm. 650€.</figcaption>
@@ -24,7 +29,7 @@ Espejo convexo de 30 cm. Ø, enmarcado en un mecanismo de piano. 77x77x10 cm. 65
 <figure>
 <a href="/images/Alejandro/26.jpg"><img src="/images/Alejandro/26.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 30 cm. Ø, Sobre paellera recortada, soldada y dorada, con aro de coral. 42x42x14 cm. 440€.</figcaption>
+Espejo convexo de 30 cm. Ø, realizado conn metal dorado y collar de coral. 42x42x14 cm. 440€.</figcaption>
 </figure>
 
 <figure>
