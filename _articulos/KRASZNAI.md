@@ -87,20 +87,21 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 	<a href="/images/KRASZNAI/OPENVASE2.jpg"><img src="/images/KRASZNAI/OPENVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
 	<figcaption><b>OPEN VASE.</b> Jarrón de cerámica esmaltada. 15x31x16 cm. aprox. Cada pieza es única. 65€. </figcaption>
 </figure>
-</div>
 
 <figure>
 	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="image"></a>
 </figure>
+</div>
 
 
 **GNOME REVOLUTION**. Un perfecto contenedor para ocultar todas las pequeñas cosas que tienes en casa.
 
+<div class="figure-group">
 <figure>
 	<a href="/images/KRASZNAI/GNOME.jpg"><img src="/images/KRASZNAI/GNOME.jpg" alt="image"></a>
 <figcaption><b>URBAN GNOME YELLOW WHITE.</b>Cerámica esmaltada. 20x20x45 cm. aprox. Cada pieza es única. 55€. </figcaption>
 </figure>
-
+</div>
 
 **Roger KRASZNAI** spent several years working in sculpture, ceramics and technical architecture before establishing his own studio and workshop in Badalona (Barcelona). There is where everything is designed and produced, always handmade. **KRASZNAI** strives to make people appreciate handmade ceramics objects and believes that working in ceramics is a captivating form of artisanship with potential to unleash creativity.
 
