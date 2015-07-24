@@ -7,7 +7,7 @@ published: true
 imagen: "GALLARDO/logo.jpg"
 ---
 
-Las ilustraciones de **Jorge Gallardo** son gritos de rabia hechos imágenes.
+Las ilustraciones de **Jorge Gallardo** son gritos de rabia en forma de imágenes y poesía.
 
 <div class="figure-group">
 <figure>
