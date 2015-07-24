@@ -19,7 +19,7 @@ La obra de **RAL** en colaboración con **Bàlu Naiz** ahora en camiseta.
 	<a href="/images/SKULL/80.jpg"><img src="/images/SKULL/80.jpg" alt="Camiseta 80 Old Skull RioDiseño Barcelona"></a>
 
 	<figcaption><b>80’.</b> Camiseta en algodón/poliviscosa y estampación sublimada. Disponible en S, M y L.
-30€.</figcaption>
+35€.</figcaption>
 </figure>
 
 <figure>
