@@ -61,7 +61,7 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 <figure>
 	<a href="/images/KRASZNAI/TIESTO.jpg"><img src="/images/KRASZNAI/TIESTO.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>TIESTO.</b>Tiesto de cerámica esmaltada. 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
+	<figcaption><b>TIESTO.</b>Tiesto de cerámica esmaltada, 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
 </figure>
 </div>
 
@@ -69,31 +69,31 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 <div class="figure-group">
 <figure>
-	<a href="/images/KRASZNAI/SMALLVASE2.jpg"><img src="/images/KRASZNAI/SMALLVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>SMALL VASE.</b> Jarrón de cerámica esmaltada. 10x10x17 cm. aprox. Cada pieza es única. 29€. </figcaption>
-</figure>
-
-<figure>
-	<a href="/images/KRASZNAI/SMALLVASE3.jpg"><img src="/images/KRASZNAI/SMALLVASE3.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>SMALL VASE.jpg.</b> Jarrón de cerámica esmaltada. 10x10x21 cm. aprox. Cada pieza es única. 29€. </figcaption>
+	<a href="/images/KRASZNAI/OPENVASE2.jpg"><img src="/images/KRASZNAI/OPENVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>OPEN VASE.</b> Jarrón de cerámica esmaltada, 15x31x16 cm. aprox. Cada pieza es única. 65€. </figcaption>
 </figure>
 
 <figure>
 	<a href="/images/KRASZNAI/MEDIUMVASE.jpg"><img src="/images/KRASZNAI/MEDIUMVASE.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>MEDIUM VASE.</b> Jarrón de cerámica esmaltada. 10x28x11 cm. aprox. Cada pieza es única. 46€. </figcaption>
+	<figcaption><b>MEDIUM VASE.</b> Jarrón de cerámica esmaltada, 10x28x11 cm. aprox. Cada pieza es única. 46€. </figcaption>
 </figure>
 
 <figure>
-	<a href="/images/KRASZNAI/OPENVASE2.jpg"><img src="/images/KRASZNAI/OPENVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>OPEN VASE.</b> Jarrón de cerámica esmaltada. 15x31x16 cm. aprox. Cada pieza es única. 65€. </figcaption>
+	<a href="/images/KRASZNAI/SMALLVASE3.jpg"><img src="/images/KRASZNAI/SMALLVASE3.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>SMALL VASE.jpg.</b> Jarrón de cerámica esmaltada, 10x10x21 cm. aprox. Cada pieza es única. 29€. </figcaption>
 </figure>
 
+<figure>
+	<a href="/images/KRASZNAI/SMALLVASE2.jpg"><img src="/images/KRASZNAI/SMALLVASE2.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
+	<figcaption><b>SMALL VASE.</b> Jarrón de cerámica esmaltada, 10x10x17 cm. aprox. Cada pieza es única. 29€. </figcaption>
+</figure>
 <figure>
 	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="TALQUAL VASES COLLECTION KRASZNAI"></a>
 	<figcaption><b>TALQUAL VASES COLLECTION.</b> 
 </figcaption>
 </figure>
 </div>
+
 
 
 **GNOME REVOLUTION**. Un perfecto contenedor para ocultar todas las pequeñas cosas que tienes en casa.
