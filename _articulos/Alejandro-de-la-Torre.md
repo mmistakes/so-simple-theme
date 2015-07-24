@@ -29,7 +29,7 @@ Espejo convexo de 30 cm. Ø, enmarcado en un mecanismo de piano. 77x77x10 cm. 65
 <figure>
 <a href="/images/Alejandro/26.jpg"><img src="/images/Alejandro/26.jpg" alt="Espejo convexo Alejandro de la Torre diseño Barcelona"></a>
 	<figcaption>
-Espejo convexo de 30 cm. Ø, realizado conn metal dorado y collar de coral. 42x42x14 cm. 440€.</figcaption>
+Espejo convexo de 30 cm. Ø, realizado con metal dorado y collar de coral. 42x42x14 cm. 440€.</figcaption>
 </figure>
 
 <figure>
