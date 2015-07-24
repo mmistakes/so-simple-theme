@@ -89,7 +89,9 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 </figure>
 
 <figure>
-	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="image"></a>
+	<a href="/images/KRASZNAI/TALQUAL.jpg"><img src="/images/KRASZNAI/TALQUAL.jpg" alt="TALQUAL VASES COLLECTION KRASZNAI"></a>
+	<figcaption><b>TALQUAL VASES COLLECTION.</b> 
+</figcaption>
 </figure>
 </div>
 
