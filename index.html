@@ -1,12 +1,69 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+title:
+excerpt:
 search_omit: true
+image:
+  feature: feature/wide_ensemble.png
 ---
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
-{% endfor %}
+<p>Stan is a probabilistic programming language implementing
+full Bayesian statistical inference with</p>
+
+<ul>
+<li> MCMC sampling <span class="note">(NUTS, HMC)</span></li>
 </ul>
+
+<p> and penalized maximum likelihood estimation with</p>
+
+<ul>
+<li> Optimization <span class="note">(L-BFGS)</span></li>
+</ul>
+
+<p>Stan is coded in C++ and runs on all major platforms <span class="note">(Linux,
+Mac, Windows)</span>.</p>
+
+<p>Stan is freedom-respecting, open-source software <span class="note">(new BSD core,
+GPLv3 interfaces)</span>.</p>
+<h2>Interfaces</h2>
+
+<p>
+  Download and getting started instructions, organized by interface:
+</p>
+
+<ul>
+  <li><a href="rstan.html" class="internal">RStan v2.6.0</a>
+  <span class="note">(R)</span></li>
+
+  <li><a href="pystan.html" class="internal">PyStan v2.6.0</a>
+  <span class="note">(Python)</span></li>
+
+  <li><a href="cmdstan.html" class="internal">CmdStan v2.6.2</a>
+  <span class="note">(shell, command-line terminal)</span></li>
+
+  <li><a href="matlab-stan.html" class="internal">MatlabStan</a>
+  <span class="note">(MATLAB)</span></li>
+
+  <li><a href="julia-stan.html" class="internal">Stan.jl</a>
+  <span class="note">(Julia)</span></li>
+</ul>
+
+
+<h2>Manual &amp; Examples</h2>
+
+<p>Models are portable across interfaces, so these are cross-platform:</p>
+
+<ul>
+  <li><a href="manual.html" class="internal">Modeling Language
+  Manual</a></li>
+
+  <li><a href="examples.html" class="internal">Example Models</a></li>
+</ul>
+
+<h2>More Info</h2>
+
+<p>Follow the links on the navigation bar (on the right) for
+tutorials, information about users and developers discussion
+groups, bug and feature issue trackers, how to cite Stan and
+citations of Stan, how to contribute code, the development
+team, and the source repositories. </p>

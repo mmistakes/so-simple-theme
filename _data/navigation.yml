@@ -1,19 +1,22 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Interfaces
+  url: /interfaces/
 
-- title: Articles
-  url: /articles/
+- title: Documentation
+  url: /documentation/
 
-- title: Blog
-  url: /blog/
+- title: Contact
+  url: /contact/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Development
+  url: /development/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Citations
+  url: /citations/
 
-- title: Search
-  url: /search/
+- title: Team
+  url: /team/
+
+- title: Shop
+  url: /shop/
