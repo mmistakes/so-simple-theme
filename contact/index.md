@@ -10,7 +10,7 @@ image:
 ---
 
 Mailing Lists
--------------
+=============
 
 Because the Stan developers and users are distributed
 geographically, almost all of the discussions of Stan takes place on
@@ -18,10 +18,10 @@ our group mailing lists.  We prefer to communicate to a wide
 audience via the users group than to individuals via e-mail.
 
 Users Group
-===========
+-----------
 
-The users group is for general discussion of Stan, including
-modeling and installation issues:
+The Users Group is for general discussion of Stan, including
+modeling and installation issues.
 
 * [Stan Users Group](https://groups.google.com/forum/?fromgroups#!forum/stan-users)
   <span class="note">(on Google Groups)</span>
@@ -29,10 +29,10 @@ modeling and installation issues:
 Everyone who joins the users group has posting privileges.
 
 Developers Group
-================
+----------------
 
 The developers group is for the [development team](/team/)
-to discuss Stan's code:
+to discuss Stan's code.
 
 * [Stan Developers Group](https://groups.google.com/forum/?fromgroups#!forum/stan-dev)
   <span class="note">(on Google Groups)</span>
@@ -42,23 +42,24 @@ is restricted to Stan developers; see the [contribution page](/contribute/)
 contribution page if you are interested in contributing code.
 
 Announcement Group
-==================
-This group is only used to announce new releases:
+------------------
+
+This group is only used to announce new releases.
 
 * [Stan Announcement Group](https://groups.google.com/forum/?fromgroups#!forum/stan-announce)
   <span class="note">(on Google Groups)</span>
 
 Buildbot Group
-==============
+--------------
 
-Stan follows a continuous integration process. To receive mail
-about integration test failures, sign up for:
+Stan follows a continuous integration process. Mail regarding
+integration test failures is sent to this groups.
 
 * [Stan Buildbot Group](https://groups.google.com/forum/?fromgroups#!forum/stan-buildbot)
   <span class="note">(on Google Groups)</span>
 
-Reporting Bugs and issues
--------------------------
+Reporting Bugs and Issues
+=========================
 
 Stan uses an issue tracker for reporting and monitoring progress
 on bug fixes and feature requests.  Bugs include bugs in Stan, its
@@ -73,7 +74,7 @@ Users can report bugs or request features by:
 The issue trackers for Stan and its interfaces are linked below.
 
 How to Report Bugs
-===================
+------------------
 
 The rest of this page explains how to report bugs or request
 features to make it easy for the development team to respond.  We
@@ -122,7 +123,7 @@ Most importantly, it is almost impossible to diagnose a bug without the
 * full model file and data that produces the bug.
 
 How to Request Features
-=======================
+-----------------------
 
 The Stan developers are happy to field feature requests from
 users.  Feature requests can be for new functions to support, new
@@ -133,18 +134,18 @@ Feature requests should be made either on the users group or
 using the issue tracker.
 
 Issue Trackers
-==============
+--------------
 
 For issues with Stan itself, including bugs in functions, the
 modeling language, the modeling language manual, or the behavior of
-sampling, optimization, or diagnosis, use:
+sampling, optimization, or diagnosis, use the Stan issue tracker.
 
 * [Stan Issue Tracker](https://github.com/stan-dev/stan/issues)
   <span class="note">(Stan GitHub)</span>
 
 For issues that are limited to RStan, PyStan, CmdStan,
 MatlabStan, Stan.jl, or shinyStan, including installation issues,
-use one of:
+use the individual interface issue trackers.
 
 * [RStan Issue Tracker](https://github.com/stan-dev/rstan/issues)
   <span class="note">(RStan GitHub)</span>

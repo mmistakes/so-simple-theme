@@ -19,17 +19,17 @@ the <a class="internal" href="groups.html">users group</a>.
 How to Cite the Manual
 ======================
 
-Stan Development Team. 2014. *Stan Modeling Language Users Guide
-and Reference Manual, Version 2.5.0.*
-<pre>
-@manual{stan-manual:2014,
-  author = {{Stan Development Team}},
-  year = {2014},
-  title = {Stan Modeling Language Users Guide and Reference Manual,
-           Version 2.5.0},
-  url = {http://mc-stan.org/}
-}
-</pre>
+Stan Development Team. 2015. *Stan Modeling Language Users Guide
+and Reference Manual, Version 2.7.0.*
+
+    @manual{stan-manual:2015,
+      author = {{Stan Development Team}},
+      year = {2015},
+      title = {Stan Modeling Language Users Guide and Reference Manual,
+               Version 2.7.0},
+      url = {http://mc-stan.org/}
+    }
+
 
 How to Cite the Software
 ========================
@@ -37,114 +37,87 @@ How to Cite the Software
 C++ Software Library
 --------------------
 
-Stan Development Team. 2014. Stan: A C++ Library for Probability and
-Sampling, Version 2.5.0.
-&nbsp; http://mc-stan.org.
+Stan Development Team. 2015. *Stan: A C++ Library for Probability and
+Sampling, Version 2.7.0.*
 
-<pre>
-@misc{stan-software:2014,
-  author = {{Stan Development Team}},
-  year = {2014},
-  title = {Stan: A C++ Library for Probability and Sampling,
-           Version 2.5.0},
-  url = {http://mc-stan.org/}
-}
-</pre>
+    @misc{stan-software:2015,
+      author = {{Stan Development Team}},
+      year = {2015},
+      title = {Stan: A C++ Library for Probability and Sampling,
+               Version 2.7.0},
+      url = {http://mc-stan.org/}
+    }
 
 RStan
 =====
 
-<p>
-Stan Development Team. 2014. RStan: the R interface to Stan,
-Version 2.5.
-&nbsp; http://mc-stan.org/rstan.html.
-</p>
+Stan Development Team. 2015. *RStan: the R interface to Stan,
+Version 2.7.0* http://mc-stan.org/rstan.html.
 
-<pre>
-@misc{rstan-software:2014,
-  author = {{Stan Development Team}},
-  year = {2014},
-  title = {RStan: the R interface to Stan,
-           Version 2.5.0},
-  url = {http://mc-stan.org/rstan.html}
-}
-</pre>
+    @misc{rstan-software:2015,
+      author = {{Stan Development Team}},
+      year = {2015},
+      title = {RStan: the R interface to Stan,
+               Version 2.7.0},
+      url = {http://mc-stan.org/rstan.html}
+    }
 
 PyStan
 ======
 
-<p>
-Stan Development Team. 2014. PyStan: the Python interface to Stan,
-Version 2.5.0.
-&nbsp; http://mc-stan.org/pystan.html.
-</p>
+Stan Development Team. 2015. *PyStan: the Python interface to Stan,
+Version 2.7.0.* http://mc-stan.org/pystan.html.
 
-<pre>
-@misc{pystan-software:2014,
-  author = {{Stan Development Team}},
-  year = {2014},
-  title = {PyStan: the Python interface to Stan,
-           Version 2.5.0},
-  url = {http://mc-stan.org/pystan.html}
-}
-</pre>
+    @misc{pystan-software:2015,
+      author = {{Stan Development Team}},
+      year = {2015},
+      title = {PyStan: the Python interface to Stan,
+               Version 2.7.0},
+      url = {http://mc-stan.org/pystan.html}
+    }
 
-
-<CmdStan
+CmdStan
 ========
 
-<p>
-Stan Development Team. 2014. CmdStan: the command-line interface to Stan,
-Version 2.5.0.
-&nbsp; http://mc-stan.org/cmdstan.html.
-</p>
+Stan Development Team. 2015. *CmdStan: the command-line interface to Stan,
+Version 2.7.0.* http://mc-stan.org/cmdstan.html.
 
-<pre>
-@misc{cmdstan-software:2014,
-  author = {{Stan Development Team}},
-  year = {2014},
-  title = {CmdStan: the command-line interface to Stan,
-           Version 2.5.0},
-  url = {http://mc-stan.org/cmdstan.html}
-}
-</pre>
+    @misc{cmdstan-software:2015,
+      author = {{Stan Development Team}},
+      year = {2015},
+      title = {CmdStan: the command-line interface to Stan,
+               Version 2.7.0},
+      url = {http://mc-stan.org/cmdstan.html}
+    }
 
 MatlabStan
 ==========
 
-<p>
-Brian Lau. 2014. MatlabStan: the MATLAB interface to Stan.
-&nbsp; http://mc-stan.org/matlab-stan.html.
-</p>
+Brian Lau. 2015. *MatlabStan: the MATLAB interface to Stan.*
+http://mc-stan.org/matlab-stan.html.
 
-<pre>
-@misc{matlabstan-software:2014,
-  author = {Brian Lau},
-  year = {2014},
-  title = {MatlabStan: the MATLAB interface to Stan},
-  url = {http://mc-stan.org/matlab-stan.html}
-}
-</pre>
+    @misc{matlabstan-software:2015,
+      author = {Brian Lau},
+      year = {2015},
+      title = {MatlabStan: the MATLAB interface to Stan},
+      url = {http://mc-stan.org/matlab-stan.html}
+    }
 
 Stan.jl
 =======
 
-<p>
-Rob Goedman. 2014. Stan.jl: the Julia interface to Stan.
-&nbsp; http://mc-stan.org/julia-stan.html.
-</p>
+Rob Goedman. 2015. *Stan.jl: the Julia interface to Stan.*
+http://mc-stan.org/julia-stan.html.
 
-<pre>
-@misc{juliastan-software:2014,
-  author = {Rob Goedman},
-  year = {2014},
-  title = {Stan.jl: the Julia interface to Stan},
-  url = {http://mc-stan.org/julia-stan.html}
-}
-</pre>
+    @misc{juliastan-software:2015,
+      author = {Rob Goedman},
+      year = {2015},
+      title = {Stan.jl: the Julia interface to Stan},
+      url = {http://mc-stan.org/julia-stan.html}
+    }
 
 Papers about Stan
------------------
+=================
 
 <pre>
 @article{Hoffman-Gelman:2011,
@@ -185,7 +158,7 @@ Papers about Stan
 </pre>
 
 Papers Using Stan
----------------------
+=================
 
 <pre>
 @article{bigorgne2015chromosomal,
@@ -500,7 +473,7 @@ Papers Using Stan
 </pre>
 
 Software using Stan
------------------------
+===================
 
 <pre>
 @manual{McElreath:2014,
@@ -512,7 +485,8 @@ Software using Stan
 </pre>
 
 Theses using Stan
------------------
+=================
+
 <!-- Cavanaugh, Grant, "Direct Climate Markets: the Prospects for Trading Teleconnection Risk" (2013). Theses and Dissertations - - Agricultural Economics.Paper 16. -->
 <pre>
 @PhDThesis{
@@ -541,8 +515,8 @@ Theses using Stan
 </pre>
 
 Papers Citing Stan
-------------------
-<br />
+==================
+
 <pre>
 @article{PST:PST1595,
   author = {Natanegara, Fanni and Neuenschwander, Beat
@@ -620,8 +594,9 @@ Papers Citing Stan
 }
 </pre>
 
-<Papers using NUTS
-------------------
+Papers using NUTS
+=================
+
 <pre>
 @inproceedings{Goodwin:2015,
   author = {Nigel Goodwin},
@@ -630,4 +605,3 @@ Papers Citing Stan
     Uncertainty Quantification Using Advanced Proxy Based Methods},
   booktitle = {Society of Petroleum Engineers Reservoir Simulation
                Symposium}
-}

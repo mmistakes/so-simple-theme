@@ -10,7 +10,8 @@ image:
 ---
 
 
-<h1 name="manual">Manual</h1>
+Manual
+======
 
 Stan is based on a probabilistic programming language for
 specifying models in terms of probability distributions.  Stan's
@@ -26,9 +27,10 @@ in Stan with example models, a reference manual for the language
 itself, and a reference guide to the built-in special functions and
 probability functions.
 
-* [Modeling Language User's Guide and Reference Manual, v2.6.2](https://github.com/stan-dev/stan/releases/download/v2.6.2/stan-reference-2.6.2.pdf)
+* [Modeling Language User's Guide and Reference Manual, v2.7.0](https://github.com/stan-dev/stan/releases/download/v2.7.0/stan-reference-2.7.0.pdf)
 
-<h1 name="examples">Examples</h1>
+Examples
+========
 
 The quick start guides for each [interface](/interfaces/) contain some
 example models that illustrate how to run Stan.
@@ -43,88 +45,71 @@ multilevel regression book are available:
 * [Example Models](https://github.com/stan-dev/example-models/wiki)
   <span class="note">(on Stan GitHub Wiki)</span>
 
-<h1 name="tutorials">Tutorials</h1>
+Tutorials
+=========
 
 Here we've compiled a partial list of tutorials for Stan, its interfaces,
 and its underlying technologies, in addition to our manual and examples.  
 If you find more tutorials, let us know and we'll list them.
 
 Video
-=====
+-----
 
 * <a class="external"
     href="https://www.youtube.com/watch?v=tLprFqSWS1w">Stan
-    for the beginners [Bayesian inference] in 6 mins (close captioned)</a><img
-    class="external" src="external-link.png" alt="external link
-    marker"/>
+    for the beginners [Bayesian inference] in 6 mins (close captioned)</a>
     <span class="note">(YouTube)</span>
-    <br /> Ehsan Karim (2015)
+    <br />
+    Ehsan Karim (2015)
 
 * <a class="external"
     href="https://www.youtube.com/watch?v=X31xqNHcvQs">shinyStan
-    for beginners [Bayesian inference] in 2 mins (close captioned)</a><img
-    class="external" src="external-link.png" alt="external link
-    marker"/>
-    <span class="note">(YouTube)</span>
-    <br /> Ehsan Karim (2015)
-
-*  <a class="external"
-    href="https://www.youtube.com/watch?v=pHsuIaPbNbY">Efficient Bayesian
-    inference with Hamiltonian Monte Carlo</a><img
-    class="external" src="external-link.png" alt="external link
-    marker"/>
+    for beginners [Bayesian inference] in 2 mins (close captioned)</a>
     <span class="note">(YouTube)</span>
     <br />
-    Michael Betancourt (2014) Machine Learning Summer School, Reykjavik <br />
+    Ehsan Karim (2015)
 
-*  <a class="external"
-    href="https://www.youtube.com/watch?v=xWQpEAyI5s8">The Stan
-    modeling language</a><img
-    class="external" src="external-link.png" alt="external link
-    marker"/>
+*  [Efficient Bayesian inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=pHsuIaPbNbY)
+  <span class="note">(YouTube)</span>
+  <br />
+  Michael Betancourt (2014) Machine Learning Summer School, Reykjavik
+
+*  [The Stan modeling language](https://www.youtube.com/watch?v=xWQpEAyI5s8)
     <span class="note">(YouTube)</span>
     <br />
-    Michael Betancourt (2014) Machine Learning Summer School, Reykjavik <br />
+    Michael Betancourt (2014) Machine Learning Summer School, Reykjavik
 
-  Papers
-  ======
+Papers
+------
 
-*  <a class="external"
-    href="http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html">
-    A tutorial on fitting Bayesian linear mixed models using Stan.</a>
-    <img
-    class="external" src="external-link.png" alt="external link
-    marker"/>
+* [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf)
+  <span class="note">(stat.columbia.edu)</span>
+
+* [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf)
+  <span class="note">(stat.columbia.edu)</span>
+
+* [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/pdf/1507.04544v1.pdf)
+  <span class="note">(arxiv.org)</span>
+
+*  [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html)
     <span class="note">(ling.uni-postdam.de)</span>
     <br />
     Tanner Sorensen and Shravan Vasishth (2014).  
 
-  Books
-  =====
+Books
+------
 
-* <a class="external"
-    href="http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884">Doing
-    Bayesian Data Analysis, Second Edition:  A Tutorial with R, JAGS,
-    and Stan.</a></i><img
-    class="external" src="external-link.png" alt="external link
-    marker"/><span class="note">(amazon.com)</span>
-    <br />
-    John Kruschke (2014) Academic Press.
+* [Doing Bayesian Data Analysis, Second Edition:  A Tutorial with R, JAGS, and Stan](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884)
+  <span class="note">(amazon.com)</span>
+  <br />
+  John Kruschke (2014) Academic Press.
 
-* <i><a class="external"
-    href="http://www.amazon.com/gp/product/1439840954">Bayesian Data
-  Analysis, Third Edition.</a></i><img
-    class="external" src="external-link.png" alt="external link
-    marker"/> <span
-  class="note">(amazon.com)</span>
-    <br />
-    <a
-  href="http://www.stat.columbia.edu/~gelman/book/software.pdf">Appendix
-  C: Computation in R and Stan</a><img
-    class="external" src="external-link.png" alt="external link
-    marker"/> <span
+* [Bayesian Data Analysis, Third Edition](http://www.amazon.com/gp/product/1439840954)
+  <span class="note">(amazon.com)</span>
+  <br />
+  [Appendix C: Computation in R and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
   class="note">(stat.columbia.edu)</span>
-    <br />
-    Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson,
-    Aki Vehtari, and Donald B. Rubin  (2013)
-    Chapman &amp; Hall/CRC.
+  <br />
+  Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson,
+  Aki Vehtari, and Donald B. Rubin  (2013)
+  Chapman &amp; Hall/CRC.

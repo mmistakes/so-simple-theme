@@ -24,7 +24,7 @@ Contribute Code Patches
 
 If you'd like to contribute code, please submit it through a Git
 pull request.  The developer process for creating a Git pull request
-is described on:
+is described on the Stan Wiki.
 
 * [Developer Process Wiki](https://github.com/stan-dev/stan/wiki/Developer-Process)
   <span class="note">(on GitHub)</span>
@@ -59,7 +59,7 @@ developer process followed by Stan, are listed in various places on:
   <span class="note">(on GitHub)</span>
 
 There is a top-level list that is in the process of being moved
-over to the issue tracker
+over to the issue tracker.
 
 * [To-Do List Wiki](https://github.com/stan-dev/stan/wiki/To-Do-List)
   <span class="note">(on GitHub)</span>
@@ -73,12 +73,11 @@ willing to get their hands dirty with C++, R, or Python design,
 coding, documentation, testing, and maintenance.
 
 The current list of bugs and feature requests we would like to
-implement is available on the <a class="internal"
-href="issues.html">issue tracker</a>.
+implement is available on the [issue tracker](/development/).
 
 If you'd like to join the development team and gain push access
 to the Stan code repository, please let us know by first requesting
-to join the <a class="internal" href="groups.html">developers group</a>.
+to join the [developers group](/contact/).
 Please include a brief description of your programming background
 and what you'd like to contribute.
 

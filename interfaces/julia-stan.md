@@ -4,16 +4,14 @@ title: Stan.jl
 excerpt: ""
 modified:
 image:
-  feature:
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
 
 Stan.jl is the [Julia](http://julialang.org) interface to Stan.
-
-Stan.jl runs under Windows, Mac OS X, and Linux.
-
-Stan.jl is open source licensed under the MIT License.
+It runs under Windows, Mac OS X, and Linux, and is open source
+licensed under the MIT License.
 
 Download and Get Started
 ========================
@@ -28,14 +26,15 @@ Modeling Language Manual
 ========================
 
 Stan's modeling language is platform independent, with
-separate documentation:
+separate documentation.
 
-* [Modeling Language Manual](/manual/)
+* [Modeling Language Manual](/documentation/)
 
 Example Models
 ==============
 
 Stan.jl's GitHub repository includes examples;
-  there are many more available:
+many more available in the Stan example models
+repository.
 
-* [Example Models](/examples)
+* [Example Models](/documentation/)

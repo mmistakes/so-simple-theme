@@ -38,31 +38,31 @@ in order of joining:
          alt="{{ member.name }} bio photo">
   {% endif %}
   {{ member.name }}<br>
-  {{ member.affiliation }}<br>
+  {{ member.affiliation }}
 
-  <div class="social-icons">
+  <div>
     {% if member.web %}
 	    <a href="{{member.web}}" target="_blank">
-      <i class="fa fa-home fa-2x"></i></a>
+      <i class="fa fa-home"></i></a>
     {% endif %}
 
     {% if member.email %}
       <a href="mailto:{{member.email}}" target="_blank">
-      <i class="fa fa-envelope-square fa-2x"></i></a>
+      <i class="fa fa-envelope-square"></i></a>
     {% endif %}
 
     {% if member.linkedin %}
       <a href="https://twitter.com/{{member.twitter}}" target="_blank">
-      <i class="fa fa-linkedin-square fa-2x"></i></a>
+      <i class="fa fa-linkedin-square"></i></a>
     {% endif %}
 
     {% if member.twitter %}
       <a href="https://twitter.com/{{member.twitter}}" target="_blank">
-      <i class="fa fa-twitter-square fa-2x"></i></a>
+      <i class="fa fa-twitter-square"></i></a>
     {% endif %}
   </div>
 
-  </div><br>
+  </div>
 
 {% endfor %}
 </ul>
@@ -86,28 +86,52 @@ Join the Development Team
 For more info on how join the the development team, read about
 [how to contribute to Stan](/contribute/).
 
-Funding Acknowledgments
-=======================
+Logo
+----
+
+Stan logo copyright Michael Betancourt, with special thanks to
+[Stephanie Mannhein](http://www.stephaniemannheim.com/)
+for critical refinements. <span class="note">(CC-BY ND 4.0 license)</span>
+
+Funding
+-------
 
 Without the following generous funding from our sponsors,
 Stan would not exist.
 
-Stan is currently funded in part by the following grants:</p>
+Stan is currently funded in part by the following grants:
+
+* Alfred P. Sloan Foundation
+  <br />
+  <span class="note">(G-2015-13987: <i>Stan Community and Continuity</i>)</span>
+
+* U. S. Office of Naval Research
+  <br />
+  <span class="note">(<i>Informative Priors for Bayesian Inference
+  and Regularization</i>)</span>
+
+* U. S. Institute of Education Sciences
+  <br />
+  <span class="note">(Statistical and Research Methodology:
+  <i>Solving Difficult Bayesian Computation Problems in Education
+  Research Using Stan</i>)</span>
+
+
+Stan was previously funded in part by the following grants:
 
 * U. S. National Science Foundation
-  <br /><span class="note">(CNS-1205516: <i>Stan: Scalable Software for Bayesian Modeling</i>)</span>
+  <br />
+  <span class="note">(CNS-1205516: <i>Stan: Scalable Software for Bayesian Modeling</i>)</span>
 
-* U. S. Institute for Education Sciences
-  <br /><span class="note">(Statistical and Research Methodology: <i>Solving Difficult Bayesian Computation Problems in Education Research Using Stan</i>)</span>
+* U. S. Department of Energy
+  <br />
+  <span class="note">(DE-SC0002099 <i>Petascale Computing</i>)</span>
 
-
-The original development of Stan was funded in part by
-the following grants:
-
-* U. S. Department of Energy <br /><span class="note">(DE-SC0002099)</span>
 * U. S. National Science Foundation
-  <br /><span class="note">(ATM-0934516: <i>Reconstructing Climate from Tree Ring Data</i>).</span>
-* U. S. Department of Education Institute of Education Sciences
+  <br />
+  <span class="note">(ATM-0934516: <i>Reconstructing Climate from Tree Ring Data</i>).</span>
+
+* U. S. Institute of Education Sciences
   <br />
   <span class="note">(ED-GRANTS-032309-005:
   <i>Practical Tools for Multilevel Hierarchical Modeling in Education
