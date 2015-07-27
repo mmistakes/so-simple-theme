@@ -1,84 +1,80 @@
+#- name:
+#  affiliation:
+#  web:
+#  email:
+#  linkedin:
+#  twitter:
+#  avatar:
+
 - name: Andrew Gelman
-  web: http://www.stat.columbia.edu/~gelman/
   affiliation: Columbia University
+  web: http://www.stat.columbia.edu/~gelman/
   avatar: andrew_gelman.gif
 
 - name: Bob Carpenter
-  web: http://bob-carpenter.github.io
   affiliation: Columbia University
-  avatar:
+  web: http://bob-carpenter.github.io
+  avatar: bob_carpenter.jpg
 
 - name: Matt Hoffman
-  web: http://www.cs.princeton.edu/~mdhoffma/
   affiliation: Adobe Creative Technologies Lab
+  web: http://www.cs.princeton.edu/~mdhoffma/
   avatar:
 
 - name: Daniel Lee
-  web: http://linkd.in/12xLZYK
   affiliation: Columbia University
-  avatar:
+  linkedin: http://linkd.in/12xLZYK
 
 - name: Ben Goodrich
-  web: http://www.columbia.edu/~bg2382/
   affiliation: Columbia University
-  avatar:
+  web: http://www.columbia.edu/~bg2382/
 
 - name: Michael Betancourt
-  web: http://betanalpha.github.io
   affiliation: University of Warwick
+  web: http://betanalpha.github.io
   email: betanalpha@gmail.com
   twitter: betanalpha
-  avatar: michael_betancourt.png
+  avatar: michael_betancourt.jpg
 
 - name: Marcus Brubaker
-  web: http://www.cs.toronto.edu/~mbrubake/
   affiliation: University of Toronto, Scarborough
-  avatar:
+  web: http://www.cs.toronto.edu/~mbrubake/
 
 - name: Jiqiang Guo
-  web: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
   affiliation: NPD Group
-  avatar:
+  linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
 
 - name: Peter Li
-  web: http://www.linkedin.com/in/peterli2
   affiliation: Columbia University
-  avatar:
+  linkedin: http://www.linkedin.com/in/peterli2
 
 - name: Allen Riddell
-  web: http://ariddell.org/
   affiliation: Dartmouth College
-  avatar:
+  web: http://ariddell.org/
 
 - name: Marco Inacio
-  email: marcoigarapava@gmail.com
   affiliation: University of São Paulo
-  avatar:
+  email: marcoigarapava@gmail.com
 
 - name: Jeffrey Arnold
-  web: http://www.jrnold.me/about.html
   affiliation: University of Washington
-  avatar:
+  web: http://www.jrnold.me/about.html
 
 - name: Mitzi Morris
-  web: http://www.panix.com/~mitzi/index.html
   affiliation: Lucidworks
-  avatar:
+  web: http://www.panix.com/~mitzi/index.html
 
 - name: Rob Trangucci
-  web: https://www.linkedin.com/pub/rob-trangucci/5/839/349
   affiliation: Columbia University
-  avatar:
+  linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
 
 - name: Rob J. Goedman
-  web: https://www.linkedin.com/in/robgoedman
   affiliation: Consultant, San Diego, California
-  avatar:
+  web: https://www.linkedin.com/in/robgoedman
 
 - name: Brian Lau
-  web: http://research.icm-institute.org/team/29435/homepage
   affiliation: CNRS, Paris
-  avatar:
+  web: http://research.icm-institute.org/team/29435/homepage
 
 - name: Jonah Sol Gabry
   affiliation: Columbia University

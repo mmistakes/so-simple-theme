@@ -43,12 +43,17 @@ in order of joining:
   <div class="social-icons">
     {% if member.web %}
 	    <a href="{{member.web}}" target="_blank">
-      <i class="fa fa-twitter-square fa-2x"></i></a>
+      <i class="fa fa-home fa-2x"></i></a>
     {% endif %}
 
     {% if member.email %}
       <a href="mailto:{{member.email}}" target="_blank">
-      <i class="fa fa-twitter-square fa-2x"></i></a>
+      <i class="fa fa-envelope-square fa-2x"></i></a>
+    {% endif %}
+
+    {% if member.linkedin %}
+      <a href="https://twitter.com/{{member.twitter}}" target="_blank">
+      <i class="fa fa-linkedin-square fa-2x"></i></a>
     {% endif %}
 
     {% if member.twitter %}
