@@ -14,12 +14,12 @@
 - name: Bob Carpenter
   affiliation: Columbia University
   web: http://bob-carpenter.github.io
+  email: carp@alias-i.com
   avatar: bob_carpenter.jpg
 
 - name: Matt Hoffman
   affiliation: Adobe Creative Technologies Lab
   web: http://www.cs.princeton.edu/~mdhoffma/
-  avatar:
 
 - name: Daniel Lee
   affiliation: Columbia University
@@ -28,6 +28,8 @@
 - name: Ben Goodrich
   affiliation: Columbia University
   web: http://www.columbia.edu/~bg2382/
+  email: benjamin.goodrich@columbia.edu
+  avatar: ben_goodrich.jpg
 
 - name: Michael Betancourt
   affiliation: University of Warwick
@@ -51,6 +53,8 @@
 - name: Allen Riddell
   affiliation: Dartmouth College
   web: http://ariddell.org/
+  twitter: ariddell
+  avatar: allen_riddell.jpg
 
 - name: Marco Inacio
   affiliation: University of São Paulo
@@ -70,7 +74,7 @@
 
 - name: Rob J. Goedman
   affiliation: Consultant, San Diego, California
-  web: https://www.linkedin.com/in/robgoedman
+  linkedin: https://www.linkedin.com/in/robgoedman
 
 - name: Brian Lau
   affiliation: CNRS, Paris
@@ -79,11 +83,15 @@
 - name: Jonah Sol Gabry
   affiliation: Columbia University
   web: http://jgabry.github.io
-
+  email: jsg2201@columbia.edu
+  linkedin: https://www.linkedin.com/in/jonahgabry
+  avatar: jonah_sol_gabry.png
 
 - name: Alp Kucukelbir
   affiliation: Columbia University
   web: http://www.proditus.com
+  email: alp@cs.columbia.edu
+  avatar: alp_kucukelbir.jpg
 
 - name: Robert L. Grant
   affiliation: St. George's, University of London &amp; Kingston University

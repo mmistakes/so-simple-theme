@@ -52,7 +52,7 @@ in order of joining:
     {% endif %}
 
     {% if member.linkedin %}
-      <a href="https://twitter.com/{{member.twitter}}" target="_blank">
+      <a href="{{member.linkedin}}" target="_blank">
       <i class="fa fa-linkedin-square"></i></a>
     {% endif %}
 
