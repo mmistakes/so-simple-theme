@@ -5,8 +5,9 @@ locale: en_US
 description:
 logo: stan_logo.png
 search: false
+url:
 #url: http://stan-dev.github.io/
-url: http://localhost:4000
+#url: http://localhost:4000
 
 # Jekyll configuration
 
