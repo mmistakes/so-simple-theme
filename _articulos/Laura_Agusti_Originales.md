@@ -11,7 +11,7 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 <a href="/images/Laura-Agusti/MISS_CATSOLER.jpg"><img src="/images/Laura-Agusti/MISS_CATSOLER.jpg" alt="image"></a> 
 
 <figcaption><b> MISS CATSOLER.</b>
-  Rotring y lápiz sobre papel, 42 x 29,7 cm., con marco 47 x 35 cm. cm. 350€.</figcaption>
+  Rotring y lápiz sobre papel, 42 x 29,7 cm., con marco 47 x 35 cm. 350€.</figcaption>
 </figure>
 
 _...A los 8 años sabía que acabaría estudiando Bellas Artes... y así fue, me especialicé en diseño gráfico y pintura. Disfruté cada minuto de mi formación universitaria y exploté mi creatividad al máximo._ 
