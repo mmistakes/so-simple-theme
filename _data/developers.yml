@@ -23,7 +23,9 @@
 
 - name: Daniel Lee
   affiliation: Columbia University
-  linkedin: http://linkd.in/12xLZYK
+  email: bearlee@alum.mit.edu
+  linkedin: https://www.linkedin.com/in/syclik
+  twitter: djsyclik
 
 - name: Ben Goodrich
   affiliation: Columbia University
@@ -44,6 +46,7 @@
 
 - name: Jiqiang Guo
   affiliation: NPD Group
+  email: guojq28@gmail.com
   linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
 
 - name: Peter Li
@@ -62,7 +65,10 @@
 
 - name: Jeffrey Arnold
   affiliation: University of Washington
-  web: http://www.jrnold.me/about.html
+  web: http://jrnold.me
+  email: jeffrey.arnold@gmail.com
+  linkedin: https://www.linkedin.com/in/jrnold
+  twitter: jrnld
 
 - name: Mitzi Morris
   affiliation: Lucidworks
@@ -72,9 +78,11 @@
   affiliation: Columbia University
   linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
 
-- name: Rob J. Goedman
-  affiliation: Consultant, San Diego, California
-  linkedin: https://www.linkedin.com/in/robgoedman
+- name: Rob Goedman
+  affiliation: Consultant, La Jolla, California
+  web: https://github.com/goedman
+  email: goedman@icloud.com
+  avatar: rob_goedman.jpg
 
 - name: Brian Lau
   affiliation: CNRS, Paris
@@ -100,3 +108,6 @@
 - name: Dustin Tran
   affiliation: Harvard University
   web: http://dustintran.com
+  email: dtran@g.harvard.edu
+  twitter: dustinvtran
+  avatar: dustin_tran.png
