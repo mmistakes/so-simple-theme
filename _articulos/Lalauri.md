@@ -10,6 +10,55 @@ El rotring de **Laura Agustí** exprime toda la elegancia del blanco y negro.
 
 <div class="figure-group">
 <figure>
+	<a href="/images/Laura-Agusti/CATCLARE.jpg"><img src="/images/Laura-Agusti/CATCLARE.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MISS  CATCLARE.</b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/DACHBOLTON.jpg"><img src="/images/Laura-Agusti/DACHBOLTON.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MR. DACHBOLTON.</b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/BIGHORNDE.jpg"><img src="/images/Laura-Agusti/BIGHORNDE.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MR. BIGHORNDE </b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/TIGERCAVAN.jpg"><img src="/images/Laura-Agusti/TIGERCAVAN.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MR. TIGERCAVAN</b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/MISS-FOXPLYMOUTH.jpg"><img src="/images/Laura-Agusti/MISS-FOXPLYMOUTH.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MISS FOXPLYMOUTH</b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/MISSMR-NORWICH.jpg"><img src="/images/Laura-Agusti/MISSMR-NORWICH.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>MISS & MR. NORWICH</b> 
+	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 100 obras, firmada y con certificado de autenticidad incluido. 20€.
+	</figcaption>
+</figure>
+
+<figure>
+	<a href="/images/Laura-Agusti/SYMBIOSIS.jpg"><img src="/images/Laura-Agusti/SYMBIOSIS.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
+	<figcaption><b>SYMBIOSIS</b> 
+	Reproducción en colaboración con Albert Soloviev  sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 50 obras, firmada y con certificado de autenticidad incluido. 25€.
+	</figcaption>
+</figure>
+
+<figure>
 	<a href="/images/Laura-Agusti/mr.tigerhull.jpg"><img src="/images/Laura-Agusti/mr.tigerhull.jpg" alt="Laura Agustí Ilustración diseño Barcelona"></a>
 	<figcaption><b>MR.TIGERHULL.</b> 
 	Reproducción sobre papel Opale de 250 gr., 29,5 x 21 cm., en edición limitada de 200 obras, firmada y con certificado de autenticidad incluido. 20€.
