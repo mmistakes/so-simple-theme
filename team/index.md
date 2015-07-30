@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 
-Stan is a team effort that could not be carried out with external
+Stan is a team effort that could not be carried out without external
   grant funding.
 
 Development Team
