@@ -14,15 +14,15 @@ $border-radius: 3px;
 // set-up the body font-size / line-height
 body {
   margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;  
+  font-size: 0px + $doc-font-size;
 }
 
 
 // COLORS =====================================================
 $body-color         : #fff;
 $text-color         : #222;
-$base-color         : #343434;    
-$comp-color         : spin($base-color, 180); 
+$base-color         : #343434;
+$comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
@@ -44,3 +44,17 @@ $small            : "only screen and (min-width: 37.5em)";
 $medium           : "only screen and (min-width: 48em)";
 $large            : "only screen and (min-width: 62em)";
 $x-large          : "only screen and (min-width: 86.375em)";
+
+// STAN STYLING ==============================================
+
+span.note {
+    font-size: 90%;
+    margin: 0 0 0 0.25em;
+    color: #888;
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}

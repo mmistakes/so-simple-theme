@@ -1,0 +1,113 @@
+#- name:
+#  affiliation:
+#  web:
+#  email:
+#  linkedin:
+#  twitter:
+#  avatar:
+
+- name: Andrew Gelman
+  affiliation: Columbia University
+  web: http://www.stat.columbia.edu/~gelman/
+  avatar: andrew_gelman.gif
+
+- name: Bob Carpenter
+  affiliation: Columbia University
+  web: http://bob-carpenter.github.io
+  email: carp@alias-i.com
+  avatar: bob_carpenter.jpg
+
+- name: Matt Hoffman
+  affiliation: Adobe Creative Technologies Lab
+  web: http://www.cs.princeton.edu/~mdhoffma/
+
+- name: Daniel Lee
+  affiliation: Columbia University
+  email: bearlee@alum.mit.edu
+  linkedin: https://www.linkedin.com/in/syclik
+  twitter: djsyclik
+
+- name: Ben Goodrich
+  affiliation: Columbia University
+  web: http://www.columbia.edu/~bg2382/
+  email: benjamin.goodrich@columbia.edu
+  avatar: ben_goodrich.jpg
+
+- name: Michael Betancourt
+  affiliation: University of Warwick
+  web: http://betanalpha.github.io
+  email: betanalpha@gmail.com
+  twitter: betanalpha
+  avatar: michael_betancourt.jpg
+
+- name: Marcus Brubaker
+  affiliation: University of Toronto, Scarborough
+  web: http://www.cs.toronto.edu/~mbrubake/
+
+- name: Jiqiang Guo
+  affiliation: NPD Group
+  email: guojq28@gmail.com
+  linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
+
+- name: Peter Li
+  affiliation: Columbia University
+  linkedin: http://www.linkedin.com/in/peterli2
+
+- name: Allen Riddell
+  affiliation: Dartmouth College
+  web: http://ariddell.org/
+  twitter: ariddell
+  avatar: allen_riddell.jpg
+
+- name: Marco Inacio
+  affiliation: University of São Paulo
+  email: marcoigarapava@gmail.com
+
+- name: Jeffrey Arnold
+  affiliation: University of Washington
+  web: http://jrnold.me
+  email: jeffrey.arnold@gmail.com
+  linkedin: https://www.linkedin.com/in/jrnold
+  twitter: jrnld
+
+- name: Mitzi Morris
+  affiliation: Lucidworks
+  web: http://www.panix.com/~mitzi/index.html
+
+- name: Rob Trangucci
+  affiliation: Columbia University
+  linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
+
+- name: Rob Goedman
+  affiliation: Consultant, La Jolla, California
+  web: https://github.com/goedman
+  email: goedman@icloud.com
+  avatar: rob_goedman.jpg
+
+- name: Brian Lau
+  affiliation: CNRS, Paris
+  web: http://research.icm-institute.org/team/29435/homepage
+
+- name: Jonah Sol Gabry
+  affiliation: Columbia University
+  web: http://jgabry.github.io
+  email: jsg2201@columbia.edu
+  linkedin: https://www.linkedin.com/in/jonahgabry
+  avatar: jonah_sol_gabry.png
+
+- name: Alp Kucukelbir
+  affiliation: Columbia University
+  web: http://www.proditus.com
+  email: alp@cs.columbia.edu
+  avatar: alp_kucukelbir.jpg
+
+- name: Robert L. Grant
+  affiliation: St. George's, University of London &amp; Kingston University
+  web: http://www.robertgrantstats.co.uk/
+
+- name: Dustin Tran
+  affiliation: Harvard University
+  web: http://dustintran.com
+  email: dtran@g.harvard.edu
+  twitter: dustinvtran
+  avatar: dustin_tran.png

@@ -1,11 +1,10 @@
 # Site wide configuration
 
-title: Site Title
+title:
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
-search: true
-url: http://localhost:4000
+description:
+logo: stan_logo.png
+search: false
 
 # Jekyll configuration
 
@@ -31,13 +30,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Stan Development Team
+  avatar: ulam-fermiac.pdf
+  email: stan@mc-stan.org
   disqus-shortname:
-  twitter: #username
+  twitter: mcmc_stan
   facebook: #username
-  github: #username
+  github: stan-dev
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -47,7 +46,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-65151620-1
     verify:
     ad-client:
     ad-slot:

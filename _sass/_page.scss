@@ -26,7 +26,8 @@
 		margin-top: -75px; /* move up to be overlapped by site logo */
 	}
 	@include media($large) {
-		margin-top: -145px; /* move up further to be overlapped by site logo */
+		/*margin-top: -145px; /* move up further to be overlapped by site logo */
+		margin-top: -160px;
 	}
 }
 
@@ -71,6 +72,7 @@ span + .entry-title {
 	}
 	@include media($large) {
 		@include font-size(68,yes,72);
+		margin-top: -0px;
 	}
 }
 
@@ -122,6 +124,21 @@ span + .entry-title {
 	}
 }
 
+/* small dev avatar (circular) */
+
+.dev-bio-photo {
+	display: none;
+	@include media($large) {
+		display: block;
+		width: 75px;
+		height: 75px;
+		margin-right: 25px;
+		margin-bottom: 10px;
+		@include rounded(150px);
+		@include clearfix;
+    float: left;
+	}
+}
 
 /* feature image credit */
 
