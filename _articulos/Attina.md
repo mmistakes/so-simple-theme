@@ -12,13 +12,13 @@ Cada gota de pintura crea hermosas figuras impredecibles, que hacen que cada pie
 <figure>
 	<a href="/images/ATTINA/Ergoesfera.jpg"><img src="/images/ATTINA/Ergoesfera.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
 	<figcaption><b>ERGOESFERA.</b>
-Marmoleado con acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
+Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
 </figure>
 
 <figure>
 	<a href="/images/ATTINA/isla.jpg"><img src="/images/ATTINA/isla.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
 	<figcaption><b>ISLA.</b>
-Marmoleado con acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
+Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
 </figure>
 </div>
 
