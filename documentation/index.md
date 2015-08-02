@@ -108,7 +108,7 @@ Books
   <span class="note">(amazon.com)</span>
   <br />
   [Appendix C: Computation in R and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
-  class="note">(stat.columbia.edu)</span>
+  <span class="note">(stat.columbia.edu)</span>
   <br />
   Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson,
   Aki Vehtari, and Donald B. Rubin  (2013)
