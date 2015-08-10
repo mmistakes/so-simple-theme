@@ -119,10 +119,10 @@ The CmdStan interface is hosted at:
 * [CmdStan Source Repository](https://github.com/stan-dev/cmdstan)
   <span class="note">(GitHub)</span>
 
-shinyStan
+ShinyStan
 ---------
 
-The shinyStan interface is hosted at:
+The ShinyStan interface is hosted at:
 
-* [shinyStan Source Repository](https://github.com/stan-dev/shinystan)
+* [ShinyStan Source Repository](https://github.com/stan-dev/shinystan)
   <span class="note">(GitHub)</span>
