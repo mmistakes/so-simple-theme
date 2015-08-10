@@ -62,13 +62,6 @@ Video
     <br />
     Ehsan Karim (2015)
 
-* <a class="external"
-    href="https://www.youtube.com/watch?v=X31xqNHcvQs">shinyStan
-    for beginners [Bayesian inference] in 2 mins (close captioned)</a>
-    <span class="note">(YouTube)</span>
-    <br />
-    Ehsan Karim (2015)
-
 *  [Efficient Bayesian inference with Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=pHsuIaPbNbY)
   <span class="note">(YouTube)</span>
   <br />
