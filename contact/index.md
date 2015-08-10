@@ -144,7 +144,7 @@ sampling, optimization, or diagnosis, use the Stan issue tracker.
   <span class="note">(Stan GitHub)</span>
 
 For issues that are limited to RStan, PyStan, CmdStan,
-MatlabStan, Stan.jl, or shinyStan, including installation issues,
+MatlabStan, Stan.jl, or ShinyStan, including installation issues,
 use the individual interface issue trackers.
 
 * [RStan Issue Tracker](https://github.com/stan-dev/rstan/issues)
@@ -162,5 +162,5 @@ use the individual interface issue trackers.
 * [Stan.jl Issue Tracker](https://github.com/goedman/Stan.jl/issues)
   <span class="note">(Stan.jl GitHub)</span>
 
-* [shinyStan Issue Tracker](https://github.com/stan-dev/shinystan/issues)
-  <span class="note">(shinyStan GitHub)</span>
+* [ShinyStan Issue Tracker](https://github.com/stan-dev/shinystan/issues)
+  <span class="note">(ShinyStan GitHub)</span>
