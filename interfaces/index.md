@@ -27,8 +27,8 @@ image:
 * [StataStan](/interfaces/stata-stan.html)
   <span class="note">(Stata)</span>
 
-Additionally, shinyStan provides interactive visual summaries
+Additionally, ShinyStan provides interactive visual summaries
 and analysis of MCMC output,
 
-* [shinyStan](/interfaces/shinystan.html)
+* [ShinyStan](/interfaces/shinystan.html)
   <span class="note">(R)</span>
