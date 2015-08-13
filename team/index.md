@@ -84,7 +84,7 @@ Join the Development Team
 -------------------------
 
 For more info on how join the the development team, read about
-[how to contribute to Stan](/contribute/).
+[how to contribute to Stan](/development/).
 
 Logo
 ----
