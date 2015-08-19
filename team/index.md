@@ -99,6 +99,12 @@ Funding
 Without the following generous funding from our sponsors,
 Stan would not exist.
 
+Stan is currently funded in part by the following corporations:
+
+* [YouGov](https://today.yougov.com/#/)
+* [Novartis](https://www.novartis.com)
+* [Alcon](http://www.alcon.com)
+
 Stan is currently funded in part by the following grants:
 
 * Alfred P. Sloan Foundation
