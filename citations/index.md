@@ -161,6 +161,18 @@ Papers Using Stan
 =================
 
 <pre>
+@inproceedings{SmylZhang:2015,
+  author = {Slawek Smyl and Qinqin Zhang},
+  year = {2015},
+  title = {Fitting and Extending Exponential Smoothing Models
+           with {S}tan},
+  booktitle = {Proceedings of the 35th International
+               Symposium on Forecasting (ISF 2015)},
+  location = {Riverside, California}
+}
+</pre>
+
+<pre>
 @article{bigorgne2015chromosomal,
   title={Chromosomal damage and {EROD} induction in tree swallows
          (\textit{Tachycineta bicolor}) along the {U}pper
