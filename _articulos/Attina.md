@@ -15,11 +15,13 @@ Cada gota de pintura crea hermosas figuras impredecibles, que hacen que cada pie
 Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
 </figure>
 
+
 <figure>
 	<a href="/images/ATTINA/FaunaRosa.jpg"><img src="/images/ATTINA/FaunaRosa.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
 	<figcaption><b>FAUNA ROSA.</b>
 Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
 </figure>
+
 
 <figure>
 	<a href="/images/ATTINA/isla.jpg"><img src="/images/ATTINA/isla.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
