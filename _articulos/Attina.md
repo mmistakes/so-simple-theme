@@ -16,6 +16,12 @@ Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido.
 </figure>
 
 <figure>
+	<a href="/images/ATTINA/FaunaRosa.jpg"><img src="/images/ATTINA/FaunaRosa.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
+	<figcaption><b>FAUNA ROSA.</b>
+Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
+</figure>
+
+<figure>
 	<a href="/images/ATTINA/isla.jpg"><img src="/images/ATTINA/isla.jpg" alt="Marmoleado sobre papel arte y diseño Barcelona"></a>
 	<figcaption><b>ISLA.</b>
 Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido. 120€.</figcaption>
@@ -24,8 +30,8 @@ Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido.
 
 
 
-**Attina**, diseñadora y artista oriunda de Venezuela, sus inicios artísticos fueron en Barcelona, ciudad en la que vivió por más de 6 años. Actualmente reside en Berlín, donde durante los últimos 3 años se ha dedicado a explorar y experimentar con la técnica patrón de mármol.
+**Attina**, diseñadora y artista oriunda de Venezuela, inició su carrera artística en Barcelona, ciudad en la que vivió por más de 6 años y de la que se mudó recientemente a Berlín, ciudad donde reside actualmente Durante los últimos 3 años se ha dedicado a explorar y experimentar con la técnica patrón de mármol, haciendo de su estilo una mezcla entre lo tradicional y lo moderno.
+Con la técnica del marmoleado se crean patrones similares a los encontrados en las piedras de mármol. Cada gota de pintura crea figuras impredecibles y hermosas, es un experimento divertido de colores, transformación, formas y movimiento, que hace que cada pieza sea algo único e irrepetible.
 
-Con la técnica del marmoleado se crean patrones similares a los encontrados en las piedras de mármol. Cada gota de pintura es un experimento divertido de colores, transformación, formas y movimiento, que hace que cada pieza sea única e irrepetible.
+**Atina** experimenta con las diferentes variables del marmoleado en búsqueda de nuevos resultados, entre ellas el _Suminagashi_,  versión japonesa que dio origen a esta modalidad artística con más de 800 años de antigüedad, jugando también con la técnica europea, un poco más reciente que la versión nipona, siendo ésta muy popular en una época para decorar contra portadas de libros. 
 
-Funciona sobre líquido espeso o agua, y los patrones son creados por la pintura y el movimiento de los diferentes pigmentos que flotan en la superficie. Esta técnica tiene diferentes variables con las que se experimenta en búsqueda de nuevos resultados. El _Suminagashi_ es la versión japonesa y el origen de la técnica, con más de 800 años de antigüedad, siendo la europea un poco más reciente. 
