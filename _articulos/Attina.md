@@ -32,7 +32,7 @@ Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido.
 
 
 
-**Attina**, diseñadora y artista oriunda de Venezuela, inició su carrera artística en Barcelona, ciudad en la que vivió por más de 6 años y de la que se mudó recientemente a Berlín, ciudad donde reside actualmente Durante los últimos 3 años se ha dedicado a explorar y experimentar con la técnica patrón de mármol, haciendo de su estilo una mezcla entre lo tradicional y lo moderno.
+**Attina**, diseñadora y artista oriunda de Venezuela, inició su carrera artística en Barcelona, ciudad en la que vivió por más de 6 años y de la que se mudó recientemente a Berlín donde reside actualmente. Durante los últimos 3 años se ha dedicado a explorar y experimentar con la técnica patrón de mármol, haciendo de su estilo una mezcla entre lo tradicional y lo moderno.
 
 Con la técnica del marmoleado se crean patrones similares a los encontrados en las piedras de mármol. Cada gota de pintura crea figuras impredecibles y hermosas en un experimento divertido de colores, transformación, formas y movimiento.
 
