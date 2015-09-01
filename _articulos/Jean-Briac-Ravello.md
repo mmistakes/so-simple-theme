@@ -3,7 +3,7 @@ title: Jean Briac Ravello
 description: Bandejas decorativas hecho a mano Barcelona art design 
 category: Objetos
 layout: articulo
-published: true
+published: false
 imagen: "RAVELLO/LOGO.JPG"
 ---
 Bandejas de mármol blanco Macael de **Jean Briac Ravello**. En la simplicidad reside el buen gusto.
