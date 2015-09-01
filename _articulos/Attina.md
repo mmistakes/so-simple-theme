@@ -36,5 +36,5 @@ Acrílico sobre papel. 48,5 x 62,5 cm. Con certificado de autenticidad incluido.
 
 Con la técnica del marmoleado se crean patrones similares a los encontrados en las piedras de mármol. Cada gota de pintura crea figuras impredecibles y hermosas en un experimento divertido de colores, transformación, formas y movimiento.
 
-**Atina** experimenta con las diferentes variables del marmoleado en búsqueda de nuevos resultados, entre ellas el _Suminagashi_, versión japonesa que dio origen a esta modalidad artística con más de 800 años de antigüedad, jugando también con la técnica europea, un poco más reciente que la versión nipona, siendo ésta muy popular en una época para decorar contra portadas de libros. 
+**Attina** experimenta con las diferentes variables del marmoleado en búsqueda de nuevos resultados, entre ellas el _Suminagashi_, versión japonesa que dio origen a esta modalidad artística con más de 800 años de antigüedad, jugando también con la técnica europea, un poco más reciente que la versión nipona, siendo ésta muy popular en una época para decorar contra portadas de libros. 
 
