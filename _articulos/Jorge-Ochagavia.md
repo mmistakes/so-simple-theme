@@ -135,7 +135,7 @@ Reproducción digital firmada, 32x32 cm. 20€.</figcaption>
 <figure>
 	<a href="/images/OCHAGAVIA/CIRCO ALPINO.jpg"><img src="/images/OCHAGAVIA/CIRCO ALPINO.jpg" alt="Print Jorge Ochagavia diseño Barcelona"></a>
 	<figcaption><b>CIRCO ALPINO.</b>
-	  Reproducción digital firmada, 29,7x42 cm. 20€.</figcaption>
+	  Reproducción digital firmada, 21,7x29 cm. 15€.</figcaption>
 </figure>
 
 <figure>
