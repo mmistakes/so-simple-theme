@@ -109,14 +109,14 @@ Serie _Summer 15_ (2015)
 <figure>
 	<a href="/images/Joana/pajaro.jpg"><img src="/images/Joana/pajaro.jpg" alt="Print Joana Santamans Ocell diseño Barcelona"></a>
 	<figcaption><b>OCELL.</b>
-	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>.
+	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
 
 <figure>
 	<a href="/images/Joana/medusa.jpg"><img src="/images/Joana/medusa.jpg" alt="Print Joana Santamans medusa diseño Barcelona"></a>
 	<figcaption><b>MEDUSSA.</b>
-	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>.
+	Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 </div>
 
@@ -241,7 +241,7 @@ Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 
 <figure>
 	<a href="/images/Joana/oliva.jpg"><img src="/images/Joana/oliva.jpg" alt="Print Joana Santamans Buho diseño Barcelona"></a>
-	<figcaption><b>OLIBA.</b>
+	<figcaption><b>ÒLIBA.</b>
 Reproducción digital firmada, 32x32 cm. 30€.</figcaption>
 </figure>
 
