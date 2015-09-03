@@ -24,7 +24,7 @@ Técnica mixta sobre tela. 55x65 cm. 350 €.</figcaption>
 <figure>
 	<a href="/images/BALU/FREEDOM.jpg"><img src="/images/BALU/FREEDOM.jpg" alt="Obra Original Bàlu Naiz arte urbano diseño Barcelona"></a>
 	<figcaption><b>FREEDOM.</b>
-Técnica mixta sobre tela. 50x60 cm. 400 €. </figcaption>
+Técnica mixta sobre tela. 50x60 cm. VENDIDO. </figcaption>
 </figure>
 
 <figure>
