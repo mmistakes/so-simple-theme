@@ -80,7 +80,7 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 <figure>
 	<a href="/images/KRASZNAI/SMALLVASE3.jpg"><img src="/images/KRASZNAI/SMALLVASE3.jpg " alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>SMALL VASE.jpg.</b> Jarrón de cerámica esmaltada, 10x10x21 cm. aprox. Cada pieza es única. 29€. </figcaption>
+	<figcaption><b>SMALL VASE.</b> Jarrón de cerámica esmaltada, 10x10x21 cm. aprox. Cada pieza es única. 29€. </figcaption>
 </figure>
 
 <figure>
