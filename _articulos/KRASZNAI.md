@@ -61,7 +61,7 @@ Cada pieza de su serie **ARMS&CRAFTS** parece que dice "Llévame contigo".
 
 <figure>
 	<a href="/images/KRASZNAI/TIESTO.jpg"><img src="/images/KRASZNAI/TIESTO.jpg" alt="cerámica hecha a mano diseño Barcelona"></a> 
-	<figcaption><b>TIESTO.</b>Tiesto de cerámica esmaltada, 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
+	<figcaption><b>TEST.</b>Tiesto de cerámica esmaltada, 19’5x17’5x28cm. aprox. Cada pieza es única. 37€. </figcaption>
 </figure>
 </div>
 
