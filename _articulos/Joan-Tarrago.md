@@ -58,7 +58,7 @@ En su particular mundo de animales y personajes fantásticos, encontramos escena
 	<a href="/images/TARRAGO/CAMISETA.jpg"><img src="/images/TARRAGO/CAMISETA.jpg" alt="CAMISETA Joan Tarragó"></a>
 
 	<figcaption><b>WYNWOOD EYE T-SHIRT.</b> 
-	Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M y L.
+	Camisetas 100% algodón estampadas con serigrafía digital. Tallas disponibles: S, M, L y XL.
 	27€.</figcaption>
 </figure>
 
