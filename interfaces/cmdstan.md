@@ -31,7 +31,7 @@ After downloading and unpacking, the CmdStan interface guide and
 the Stan modeling language manual can be found in the top-level directory
 `doc`.  The guide for CmdStan can also be downloaded separately.
 
-* [CmdStan Interface User's Guide, v2.6.2](https://github.com/stan-dev/cmdstan/releases/download/v2.7.0/cmdstan-guide-2.7.0.pdf)
+* [CmdStan Interface User's Guide, v2.7.0](https://github.com/stan-dev/cmdstan/releases/download/v2.7.0/cmdstan-guide-2.7.0.pdf)
   <span class="note">(GitHub)</span>
 
 It contains a getting-started guide, including install

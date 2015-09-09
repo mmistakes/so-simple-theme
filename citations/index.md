@@ -20,13 +20,13 @@ How to Cite the Manual
 ======================
 
 Stan Development Team. 2015. *Stan Modeling Language Users Guide
-and Reference Manual, Version 2.7.0.*
+and Reference Manual, Version 2.8.0.*
 
     @manual{stan-manual:2015,
       author = {{Stan Development Team}},
       year = {2015},
       title = {Stan Modeling Language Users Guide and Reference Manual,
-               Version 2.7.0},
+               Version 2.8.0},
       url = {http://mc-stan.org/}
     }
 
@@ -38,13 +38,13 @@ C++ Software Library
 --------------------
 
 Stan Development Team. 2015. *Stan: A C++ Library for Probability and
-Sampling, Version 2.7.0.*
+Sampling, Version 2.8.0.*
 
     @misc{stan-software:2015,
       author = {{Stan Development Team}},
       year = {2015},
       title = {Stan: A C++ Library for Probability and Sampling,
-               Version 2.7.0},
+               Version 2.8.0},
       url = {http://mc-stan.org/}
     }
 
