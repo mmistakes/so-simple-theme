@@ -7,12 +7,4 @@ image:
   feature: feature/wide_ensemble.png
 ---
 
-| directory |
-_____________
-| [birds](workshops/birds/) |
-| [icl_epi](workshops/icl_epi/) |
-| [meetup](workshops/meetup/) |
-| [nyc](workshops/nyc/) |
-| [ub_tisi](workshops/ub_tisi	/) |
-
-
+test
