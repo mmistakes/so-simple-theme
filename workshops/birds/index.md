@@ -8,7 +8,7 @@ image:
 ---
 
 
-- [hier.data](workshops/birds/hier.data) 
-- [poisson.data](workshops/birds/poisson.data)
-- [vote.data.R](workshops/birds/vote.data.R)
-- [vote.inter.data.R](workshops/birds/vote.inter.data.R)
+- [hier.data](/workshops/birds/hier.data) 
+- [poisson.data](/workshops/birds/poisson.data)
+- [vote.data.R](/workshops/birds/vote.data.R)
+- [vote.inter.data.R](/workshops/birds/vote.inter.data.R)

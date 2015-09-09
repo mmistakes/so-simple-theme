@@ -8,8 +8,8 @@ image:
 ---
 
 
-- [birds](workshops/birds/) 
-- [icl_epi](workshops/icl_epi/)
-- [meetup](workshops/meetup/)
-- [nyc](workshops/nyc/)
-- [ub_tisi](workshops/ub_tisi/) 
+- [birds](/workshops/birds/) 
+- [icl_epi](/workshops/icl_epi/)
+- [meetup](/workshops/meetup/)
+- [nyc](/workshops/nyc/)
+- [ub_tisi](/workshops/ub_tisi/) 
