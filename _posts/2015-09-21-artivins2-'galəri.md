@@ -18,7 +18,7 @@ share: true
 published: true
 ---
 <figure>
-	<a href="/images/Artivins#2.jpg"><img src="/images/Artivins#2.jpg" alt="artivins#2 galeribcn"></a>
+	<a href="/images/Artivins2.jpg"><img src="/images/Artivins2.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
 
 **artivins#2: NATURALISMÆ/ ['galəri]**
@@ -30,12 +30,16 @@ _Naturalismæ_ nace de la idea de una obra en evolución, huesos, elementos muer
 
 artivins es una iniciativa de ['galəri] en la que presentamos en paralelo la obra de nuestros artistas y un vino seleccionado en cada ocasión, que podréis degustar.
  
+ 
+ 
 
 **['galəri]** presenta **artivins#2** amb _**Naturalismæ**_, una col•lecció de Benoit Peleran i us convida a degustar un tast del vi blanc **Afortunado**, DO Rueda, amb la música de **Mychel Castro dj**.
 
 _Naturalismæ_ neix de la idea d'una obra en evolució, ossos, elements morts o articles obsolets que recobren vida.
 
 artivins és una iniciativa de ['galəri] en la que presentem en paral•lel l’obra dels nostres artistes i un vi seleccionat en cada ocasió, que podreu degustar.
+
+
 
 
 **['galəri]** presents **artivins#2** with _**Naturalismæ**_, a collection of Benoit Peleran and invites you to taste the white wine **Afortunado**, DO Rueda, with **Mychel Castro dj**.
