@@ -17,6 +17,7 @@ comments: true
 share: true
 published: true
 ---
+
 <figure>
 	<a href="/images/Artivins2.jpg"><img src="/images/Artivins2.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
