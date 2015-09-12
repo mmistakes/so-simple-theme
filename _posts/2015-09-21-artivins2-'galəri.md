@@ -43,3 +43,4 @@ artivins és una iniciativa de ['galəri] en la que presentem en paral•lel l�
 _Naturalismæ_ comes from the idea of a work in progress, bones, dead elements or obsolete items that come alive.
 
 artivins is an initiative of ['galəri] to present in parallel the work of our artists and a wine selected for each occasion, that you can taste.
+
