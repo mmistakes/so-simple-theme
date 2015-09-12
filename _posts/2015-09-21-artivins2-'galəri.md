@@ -18,7 +18,7 @@ share: true
 published: true
 ---
 <figure>
-	<a href="/images/Artivins#2Naturalismæ 100ppp.jpg"><img src="/images/Artivins#2Naturalismæ 100ppp.jpg" alt="artivins#2 galeribcn"></a>
+	<a href="/images/Artivins#2Naturalismæ100ppp.jpg"><img src="/images/Artivins#2Naturalismæ100ppp.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
 
 **artivins#2: NATURALISMÆ/ ['galəri]**
