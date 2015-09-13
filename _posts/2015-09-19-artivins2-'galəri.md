@@ -23,6 +23,7 @@ published: true
 
 
 
+
 **artivins#2: NATURALISMÆ/ ['galəri]**
 **19 setiembre 13.00h.-15.00h.  Barcelona, C/ Viladomat 27**
 
