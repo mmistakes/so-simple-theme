@@ -15,6 +15,11 @@ Colección de tazas de **MotorARTgarage** que recogen vehículos diseñados con 
 
 <div class="figure-group">
 <figure>
+	<a href="/images/Motorartgarage/Art100.jpg"><img src="/images/Motorartgarage/Art100.jpg" alt="Taza Motorartgarage Vespa Mugcup diseño Barcelona"></a>
+	<figcaption>
+	VESPA ROJA. 12€.</figcaption>
+</figure>
+<figure>
 	<a href="/images/Motorartgarage/VESPA ROJA.jpg"><img src="/images/Motorartgarage/VESPA ROJA.jpg" alt="Taza Motorartgarage Vespa Mugcup diseño Barcelona"></a>
 	<figcaption>
 	VESPA ROJA. 12€.</figcaption>
