@@ -17,6 +17,10 @@ comments: true
 share: true
 published: true
 ---
+<figure>
+	<a href="/images/artivins1Mychel.jpg"><img src="/images/artivins1Mychel.jpg" alt="artivins#1 galeribcn"></a>
+</figure>
+
 
 <figure>
 	<a href="/images/Artivins.jpg"><img src="/images/Artivins.jpg" alt="artivins galeribcn"></a>
