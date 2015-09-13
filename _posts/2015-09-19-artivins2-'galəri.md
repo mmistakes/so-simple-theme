@@ -17,10 +17,12 @@ comments: true
 share: true
 published: true
 ---
-<figure>
-	<a href="/images/Art100.jpg"><img src="/images/Art100.jpg" alt="artivins#2 galeribcn"></a>
-</figure>
 
+<figure>
+
+	<a href="/images/Art100.jpg"><img src="/images/Art100.jpg" alt="artivins#2 galeribcn"></a>
+	
+</figure>
 
 
 
