@@ -19,7 +19,7 @@ published: true
 ---
 
 <figure>
-	<a href="/images/artivins1Mychel.jpg"><img src="/images/artivins1Mychel.jpg" alt="artivins#2 galeribcn"></a>
+	<a href="/images/otraprueba.jpg"><img src="/images/otraprueba.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
 
 
