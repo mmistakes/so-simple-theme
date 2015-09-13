@@ -19,8 +19,9 @@ published: true
 ---
 
 <figure>
-	<a href="/images/Artivins2.jpg"><img src="/images/Artivins2.jpg" alt="artivins#2 galeribcn"></a>
+	<a href="/images/Artivins.jpg"><img src="/images/Artivins.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
+
 
 **artivins#2: NATURALISMÆ/ ['galəri]**
 **19 setiembre 13.00h.-15.00h.  Barcelona, C/ Viladomat 27**
