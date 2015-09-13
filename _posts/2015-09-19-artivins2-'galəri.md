@@ -18,13 +18,9 @@ share: true
 published: true
 ---
 <figure>
-	<a href="/images/artivins1Mychel.jpg"><img src="/images/artivins1Mychel.jpg" alt="artivins#1 galeribcn"></a>
+	<a href="/images/Artivins.jpg"><img src="/images/Artivins.jpg" alt="artivins#2 galeribcn"></a>
 </figure>
 
-
-<figure>
-	<a href="/images/Artivins.jpg"><img src="/images/Artivins.jpg" alt="artivins galeribcn"></a>
-</figure>
 
 
 **artivins#2: NATURALISMÆ/ ['galəri]**
