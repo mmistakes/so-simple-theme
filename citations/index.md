@@ -80,13 +80,13 @@ CmdStan
 ========
 
 Stan Development Team. 2015. *CmdStan: the command-line interface to Stan,
-Version 2.7.0.* http://mc-stan.org/cmdstan.html.
+Version 2.8.0.* http://mc-stan.org/cmdstan.html.
 
     @misc{cmdstan-software:2015,
       author = {{Stan Development Team}},
       year = {2015},
       title = {CmdStan: the command-line interface to Stan,
-               Version 2.7.0},
+               Version 2.8.0},
       url = {http://mc-stan.org/cmdstan.html}
     }
 
