@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 
-* [RStan v2.7.0](/interfaces/rstan.html)
+* [RStan v2.8.0](/interfaces/rstan.html)
   <span class="note">(R)</span>
 
 * [PyStan v2.7.0](/interfaces/pystan.html)
