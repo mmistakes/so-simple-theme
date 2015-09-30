@@ -73,6 +73,9 @@
 - name: Mitzi Morris
   affiliation: Lucidworks
   web: http://www.panix.com/~mitzi/index.html
+  email: mitzi@panix.com
+  linkedin: https://www.linkedin.com/pub/mitzi-morris/65/39/785
+  twitter: searchbooster
 
 - name: Rob Trangucci
   affiliation: Columbia University
@@ -111,3 +114,10 @@
   email: dtran@g.harvard.edu
   twitter: dustinvtran
   avatar: dustin_tran.png
+
+- name: Krzysztof Sakrejda
+  affiliation: University of Massachusetts, Amherst
+  web: http://reichlab.github.io/index.html
+  email: sakrejda@umass.edu
+  linkedin: https://www.linkedin.com/in/sakrejda
+  avatar: krzysztof_sakrejda.jpg
