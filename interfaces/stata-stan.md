@@ -28,7 +28,7 @@ Modeling Language Manual
 Stan's modeling language is platform independent, with
 separate documentation:
 
-* [Modeling Language Manual](/documentation/manual/)
+* [Modeling Language Manual](/documentation/)
 
 Example Models
 ==============
@@ -36,4 +36,4 @@ Example Models
 StataStan's GitHub repository includes examples;
 there are many more available:
 
-* [Example Models](/documentation/examples)
+* [Example Models](/documentation/)

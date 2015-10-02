@@ -12,7 +12,7 @@ image:
 * [RStan v2.8.0](/interfaces/rstan.html)
   <span class="note">(R)</span>
 
-* [PyStan v2.7.0](/interfaces/pystan.html)
+* [PyStan v2.8.0](/interfaces/pystan.html)
   <span class="note">(Python)</span>
 
 * [CmdStan v2.8.0](/interfaces/cmdstan.html)

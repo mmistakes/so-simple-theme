@@ -75,34 +75,34 @@ Video
 Papers
 ------
 
-* [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf)
-  <span class="note">(stat.columbia.edu)</span>
+* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddell (2015) In press for <i>Journal of Statistical Software</i>. [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf).
 
-* [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf)
-  <span class="note">(stat.columbia.edu)</span>
+* Andrew Gelman, Daniel Lee, and Jiqiang Guo (2015) [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf). In press, <i>Journal of Educational and Behavior Science</i>.
 
-* [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/pdf/1507.04544v1.pdf)
-  <span class="note">(arxiv.org)</span>
+* Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee, Peter Li, and Michael Betancourt (2015) [The Stan Math Library: Reverse-Mode Automatic Differentiation in C++](http://arxiv.org/abs/1509.07164).  <i>arXiv</i>: 1509.07164
 
-*  [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html)
-    <span class="note">(ling.uni-postdam.de)</span>
-    <br />
-    Tanner Sorensen and Shravan Vasishth (2014).  
+*  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/abs/1507.04544). <i>arXiv</i>: 1507.04544.
+
+* Tanner Sorensen and Shravan Vasishth. (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
 
 Books
 ------
 
-* [Doing Bayesian Data Analysis, Second Edition:  A Tutorial with R, JAGS, and Stan](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884)
-  <span class="note">(amazon.com)</span>
-  <br />
-  John Kruschke (2014) Academic Press.
+* Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
+  Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian Data
+  Analysis in Ecology Using Linear Models with R, BUGS, and
+  Stan</i>](http://www.amazon.com/Bayesian-Analysis-Ecology-Linear-Models-ebook/dp/B00W18O078).
+  Academic Press.
 
-* [Bayesian Data Analysis, Third Edition](http://www.amazon.com/gp/product/1439840954)
-  <span class="note">(amazon.com)</span>
-  <br />
-  [Appendix C: Computation in R and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
-  <span class="note">(stat.columbia.edu)</span>
-  <br />
-  Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson,
-  Aki Vehtari, and Donald B. Rubin  (2013)
-  Chapman &amp; Hall/CRC.
+* John Kruschke (2015) [<i>Doing Bayesian Data Analysis, Second Edition:
+  A Tutorial with R, JAGS, and
+  Stan</i>](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884).
+  Academic Press.
+
+* Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki
+  Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis, Third
+  Edition</i>](http://www.amazon.com/gp/product/1439840954).  Chapman
+  &amp; Hall/CRC. 					  
+  <br /> free online: [Appendix C: Computation in R
+  and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
+

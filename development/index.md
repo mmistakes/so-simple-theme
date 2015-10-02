@@ -61,7 +61,7 @@ developer process followed by Stan, are listed in various places on:
 There is a top-level list that is in the process of being moved
 over to the issue tracker.
 
-* [To-Do List Wiki](https://github.com/stan-dev/stan/wiki/To-Do-List)
+* [To-Do List Wiki](https://github.com/stan-dev/stan/wiki/Longer-Term-To-Do-List)
   <span class="note">(on GitHub)</span>
 
 
@@ -87,7 +87,16 @@ Source Repositories
 Stan's source is managed through the [Git](http://git-scm.com)
 version control system and hosted by [GitHub](https://github.com).
 
-C++ API
+
+Stan Math Library (C++)
+------
+
+Underlying C++ math library, including all special functions, probability functions, linear algebra, and derivatives.
+
+* [Stan Math Library]((https://github.com/stan-dev/math)
+  <span class="note">(GitHub)</span>
+
+Stan Core API (C++)
 -------
 
 The core C++ application programmer's interface (API) is hosted at:
