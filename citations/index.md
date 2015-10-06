@@ -161,6 +161,17 @@ Papers Using Stan
 =================
 
 <pre>
+@article{Smits:2015,
+  author = {Peter D.\ Smits},
+  year = {2015},  
+  title = {Expected time-invariant effects of biological traits     
+           on mammal species duration},
+  journal = {PNAS},
+  doi = {10.1073/pnas.1510482112}
+}
+<pre>
+
+<pre>
 @inproceedings{SmylZhang:2015,
   author = {Slawek Smyl and Qinqin Zhang},
   year = {2015},
