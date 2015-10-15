@@ -93,7 +93,7 @@ Stan Math Library (C++)
 
 Underlying C++ math library, including all special functions, probability functions, linear algebra, and derivatives.
 
-* [Stan Math Library]((https://github.com/stan-dev/math)
+* [Stan Math Library](https://github.com/stan-dev/math)
   <span class="note">(GitHub)</span>
 
 Stan Core API (C++)
