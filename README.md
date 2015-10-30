@@ -2,11 +2,10 @@
 
 Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
-**Jekyll 3 Update:** A version of So Simple compatible with Jekyll 3 can be found in the [`jekyll3` branch](https://github.com/mmistakes/so-simple-theme/tree/jekyll3). GitHub Pages is [locked at version 2.4](https://pages.github.com/versions/) so some keep that in mind if you're trying to use 3.0 features that aren't supported there yet.
+## Notable features:
 
-## So Simple Theme is all about:
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Compatible with Jekyll 3 and GitHub Pages.
+* Responsive templates. Looks good on mobile, tablet, and desktop devices.
 * Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
 * Minimal embellishments and subtle animations.
 * Optional large feature images for posts and pages.

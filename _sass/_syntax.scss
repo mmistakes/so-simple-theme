@@ -2,7 +2,11 @@
    Syntax highlighting and formatting
    ========================================================================== */
 
-/* 
+pre.highlight {
+  padding: 1em;
+}
+
+/*
    Pygments.rb and Rouge
    ========================================================================== */
 
@@ -81,7 +85,7 @@
 	.il { color: #009999 } /* Literal.Number.Integer.Long */
 }
 
-/* 
+/*
    Coderay
    ========================================================================== */
 
@@ -112,7 +116,7 @@ ol.CodeRay li { white-space: pre }
 
 .CodeRay {
 
-	.line-numbers, 
+	.line-numbers,
 	.no {
 	  background-color: #ececec;
 	  color: #aaa;
@@ -178,7 +182,7 @@ ol.CodeRay li { white-space: pre }
 	.preprocessor { color: #579; }
 	.pseudo-class { color: #00c; font-weight: bold }
 	.predefined-type { color: #074; font-weight: bold }
-	.reserved, 
+	.reserved,
 	.keyword { color: #000; font-weight: bold }
 
 	.key { color: #808; }
