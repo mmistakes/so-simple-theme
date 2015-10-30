@@ -16,7 +16,7 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
-### Pygments or Rouge Code Blocks
+### Highlighted Code Blocks
 
 To modify styling and highlight colors edit `/_sass/_syntax.scss`.
 
@@ -77,8 +77,6 @@ end
 
 
 ### Fenced Code Blocks
-
-To modify styling and highlight colors edit `/_sass/_coderay.scss`. Line numbers and a few other things can be modified in `_config.yml`. Consult [Jekyll's documentation](http://jekyllrb.com/docs/configuration/) for more information.
 
 ~~~ css
 #container {
