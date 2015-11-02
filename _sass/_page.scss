@@ -39,14 +39,30 @@
 /* tag listing in page header */
 
 .entry-tags {
-	display: block;
-	margin-top: 2em;
+	margin: 2em 0 0;
+  padding: 0;
 	text-transform: uppercase;
 	@include font-size(16);
 	font-weight: 600;
-	a {
-		color: $text-color;
-	}
+  a {
+    color: $text-color;
+    padding: 0 5px;
+  }
+  li {
+    display: inline-block;
+    margin-bottom: 0;
+    &:before {
+      content: "\2022";
+    }
+    &:first-child {
+      &:before {
+        content: "";
+      }
+      a {
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 /* page title */
