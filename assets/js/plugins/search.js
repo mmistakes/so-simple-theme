@@ -12,7 +12,7 @@
     ========================================================================== */
 
 var q, jsonFeedUrl = "/search.json",
-    $searchForm = $("[data-search-form]"),
+    $searchForm = $(".simple-search"),
     $searchInput = $("[data-search-input]"),
     $resultTemplate = $("#search-result"),
     $resultsPlaceholder = $("[data-search-results]"),
