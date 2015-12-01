@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops: ub_tisi
+title: "Workshops: ub_tisi"
 excerpt:
 search_omit: true
 image:

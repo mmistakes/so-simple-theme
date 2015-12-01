@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops: icl_epi
+title: "Workshops: icl_epi"
 excerpt:
 search_omit: true
 image:
