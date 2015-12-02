@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops: Birds
+title: "Workshops: Birds"
 excerpt:
 search_omit: true
 image:

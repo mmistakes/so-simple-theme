@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops: NYC
+title: "Workshops: NYC"
 excerpt:
 search_omit: true
 image:
