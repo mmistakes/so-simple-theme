@@ -14,7 +14,7 @@ or let us know about any cool projects involving Stan and you
 might even score a free sticker!
 
 Stan 2.9.0 is out! [(Release Notes)](https://github.com/stan-dev/stan/releases/tag/v2.9.0)
-See [instructions below](#instructions).
+See the installation [instructions below](#installation).
 
 Conference
 ======
@@ -78,7 +78,14 @@ Saturday 12 December
 Installation
 ============
 
-Test
+#### CmdStan
+
+CmdStan 2.9.0 is released and ready to 
+[download](http://mc-stan.org/interfaces/cmdstan.html).
+
+### RStan 
+
+asdf
 
 
 
