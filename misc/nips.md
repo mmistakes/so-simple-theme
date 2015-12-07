@@ -96,9 +96,26 @@ To install RStan 2.8.2, first follow the instructions
 Then use the following commands to start using the `develop` branch:
 
     if(!require(devtools)) install.packages("devtools")
-    devtools::install_git("git://github.com/stan-dev/rstan", subdir = "StanHeaders")
-    devtools::install_github("stan-dev/rstan", subdir = "rstan/rstan", ref = "develop")
+    if(!require(devtools)) install.packages("git2r")
+    
+    path_rstan <- tempfile(pattern = "git2r-")
+    dir.create(path_rstan) # requires recent version of R; may work without this line
+    git2r::clone("http://github.com/stan-dev/rstan", path_rstan, branch = "develop")
+    git2r::clone("http://github.com/stan-dev/stan", 
+                 file.path(path_rstan, "StanHeaders", "inst", "include", "upstream"), 
+                 branch = "master")
+    git2r::clone("http://github.com/stan-dev/math", 
+                 file.path(path_rstan, "StanHeaders", "inst", "include", "mathlib"), 
+                 branch = "master")
+    devtools::install(file.path(path_rstan, "StanHeaders"))
+    devtools::install(file.path(path_rstan, "rstan", "rstan"))
+    
+    library(rstan)
+    args(vb)
+    
     devtools::install_github("stan-dev/rstanarm", local = FALSE)
+    library(rstanarm)
+    args(stan_glmer)
 
 
 #### PyStan
