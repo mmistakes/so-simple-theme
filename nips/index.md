@@ -87,10 +87,10 @@ CmdStan 2.9.0 is released and ready to
 
 The `develop` branch of RStan is up to date with Stan 2.9.0.
 
-To install, follow the instructions 
+To install RStan 2.8.2, first follow the instructions 
 [here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started).
 
-Then input the following commands:
+Then use the following commands to start using the `develop` branch:
 
     if(!require(devtools)) install.packages("devtools")
     devtools::install_git("git://github.com/stan-dev/rstan", subdir = "StanHeaders")
