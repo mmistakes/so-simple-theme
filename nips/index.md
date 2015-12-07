@@ -83,6 +83,9 @@ Installation
 CmdStan 2.9.0 is released and ready to 
 [download](http://mc-stan.org/interfaces/cmdstan.html).
 
+ADVI data subsampling lives in an unsupported/untested branch. 
+See instructions [here](https://github.com/stan-dev/stan/blob/adsvi/how_to_ADSVI.md).
+
 #### RStan 
 
 The `develop` branch of RStan is up to date with Stan 2.9.0.
