@@ -106,7 +106,7 @@ Then use the following commands to start using the `develop` branch:
 _Stay tuned!_
 
 
-#### Stan.jl, MatlabStan, StataStan, and ShinyStan
+#### Stan.jl, MatlabStan, and StataStan
 
 See the [interfaces](interfaces) page for more details!
 
