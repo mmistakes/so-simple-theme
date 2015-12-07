@@ -27,7 +27,7 @@ in Stan with example models, a reference manual for the language
 itself, and a reference guide to the built-in special functions and
 probability functions.
 
-* [Modeling Language User's Guide and Reference Manual, v2.8.0](https://github.com/stan-dev/stan/releases/download/v2.8.0/stan-reference-2.8.0.pdf)
+* [Modeling Language User's Guide and Reference Manual, v2.9.0](https://github.com/stan-dev/stan/releases/download/v2.9.0/stan-reference-2.9.0.pdf)
 
 Examples
 ========

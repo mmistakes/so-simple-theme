@@ -15,7 +15,7 @@ image:
 * [PyStan v2.8.0](/interfaces/pystan.html)
   <span class="note">(Python)</span>
 
-* [CmdStan v2.8.0](/interfaces/cmdstan.html)
+* [CmdStan v2.9.0](/interfaces/cmdstan.html)
   <span class="note">(shell, command-line terminal)</span>
 
 * [MatlabStan](/interfaces/matlab-stan.html)

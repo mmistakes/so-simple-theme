@@ -18,10 +18,10 @@ Download Source (with documentation)
 
 The CmdStan distribution includes the complete source and documentation.
 
-* [CmdStan 2.8.0](https://github.com/stan-dev/cmdstan/releases/download/v2.8.0/cmdstan-2.8.0.tar.gz)
+* [CmdStan 2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.tar.gz)
   <span class="note">(tar.gz, GitHub)</span>
 
-* [CmdStan 2.8.0](https://github.com/stan-dev/cmdstan/releases/download/v2.8.0/cmdstan-2.8.0.zip)
+* [CmdStan 2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.zip)
    <span class="note">(zip, GitHub)</span>
 
 Get Started
@@ -31,7 +31,7 @@ After downloading and unpacking, the CmdStan interface guide and
 the Stan modeling language manual can be found in the top-level directory
 `doc`.  The guide for CmdStan can also be downloaded separately.
 
-* [CmdStan Interface User's Guide, v2.8.0](https://github.com/stan-dev/cmdstan/releases/download/v2.8.0/cmdstan-guide-2.8.0.pdf)
+* [CmdStan Interface User's Guide, v2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-guide-2.9.0.pdf)
   <span class="note">(GitHub)</span>
 
 It contains a getting-started guide, including install
