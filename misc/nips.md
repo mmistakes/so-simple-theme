@@ -11,10 +11,10 @@ image:
 
 Stan will be well-represented at NIPS2015.  Come see a talk
 or let us know about any cool projects involving Stan and you
-might even score a free sticker.
+might even score a free sticker!
 
-![LogoSticker](/images/logo_stickers.jpg){: .center-image }
-
+Stan 2.9.0 is out! [(Release Notes)](https://github.com/stan-dev/stan/releases/tag/v2.9.0)
+See [instructions below](#instructions).
 
 Conference
 ======
@@ -75,7 +75,10 @@ Saturday 12 December
 **Dustin** will speak about recent advances in variational inference.
 
 
+Installation
+============
 
+Test
 
 
 
