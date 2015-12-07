@@ -83,11 +83,27 @@ Installation
 CmdStan 2.9.0 is released and ready to 
 [download](http://mc-stan.org/interfaces/cmdstan.html).
 
-### RStan 
+#### RStan 
 
-asdf
+The `develop` branch of RStan is up to date with Stan 2.9.0.
+
+To install, follow the instructions 
+[here](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started).
+
+Then input the following commands:
+
+```R
+if(!require(devtools)) install.packages("devtools")
+# get 2.8.9 versions, which are essentially 2.9.0
+devtools::install_git("git://github.com/stan-dev/rstan", subdir = "StanHeaders")
+devtools::install_github("stan-dev/rstan", subdir = "rstan/rstan", branch = "develop")
+devtools::install_github("stan-dev/rstanarm", local = FALSE)
+```
 
 
+#### PyStan
+
+_Stay tuned!_
 
 
 
