@@ -93,14 +93,9 @@ To install, follow the instructions
 Then input the following commands:
 
 ```
-if(!require(devtools)) install.packages("devtools")
-
-# get 2.8.9 versions, which are essentially 2.9.0
-
-devtools::install_git("git://github.com/stan-dev/rstan", subdir = "StanHeaders")
-
-devtools::install_github("stan-dev/rstan", subdir = "rstan/rstan", branch = "develop")
-
+if(!require(devtools)) install.packages("devtools")  
+devtools::install_git("git://github.com/stan-dev/rstan", subdir = "StanHeaders")  
+devtools::install_github("stan-dev/rstan", subdir = "rstan/rstan", branch = "develop")  
 devtools::install_github("stan-dev/rstanarm", local = FALSE)
 ```
 
