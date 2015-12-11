@@ -7,6 +7,8 @@ permalink: /curriculum-vitae/publikationen/index.html
   
   <h2>Zweitausendfünfzehn</h2>
   <ul>
+    <li><span class="title"><a href="https://www.blossom.co/blog/development-workflow-by-example-swat-io-walls-io">Development Workflow by Example: Swat.io & Walls.io</a></span><br>Interview, blossom.co, Erscheinungsdatum: 11.12.2015
+    </li>
     <li><span class="title"><a href="https://www.bugtrackers.io/interview-swatio-johannes-nagl">Technology is always meant to be a silent butler</a></span><br>Interview, bugtrackers.io, Erscheinungsdatum: 08.05.2015
     </li>
   </ul>
