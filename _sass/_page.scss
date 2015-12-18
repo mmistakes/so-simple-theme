@@ -26,7 +26,7 @@
 		margin-top: -75px; /* move up to be overlapped by site logo */
 	}
 	@include media($large) {
-		margin-top: -145px; /* move up further to be overlapped by site logo */
+		margin-top: -294px; /* move up further to be overlapped by site logo  ### image on line with top, Philipp */
 	}
 }
 
@@ -86,7 +86,7 @@ span + .entry-title {
 		@include font-size(52,yes,54);
 	}
 	@include media($large) {
-		@include font-size(68,yes,72);
+		@include font-size(50,yes,40); /* Philipp */
 	}
 }
 
