@@ -55,6 +55,12 @@ If you find more tutorials, let us know and we'll list them.
 Video
 -----
 
+*  <a class="external"
+    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials (5 hours)</a>
+    <span class="note">(YouTube)</span>
+    <br />
+    Mike Lawrence (2015)
+
 * <a class="external"
     href="https://www.youtube.com/watch?v=tLprFqSWS1w">Stan
     for the beginners [Bayesian inference] in 6 mins (close captioned)</a>
