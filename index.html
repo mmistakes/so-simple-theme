@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+title: Projects
+excerpt: "Performances to video and a project investigating pixel colouring permutations."
 search_omit: true
 ---
 
 <ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</span>{% endif %}</a></article></li>
-{% endfor %}
+    <li><article><a href="http://static.matthewvickery.org/mcdonalds">McDonald’s Performances <span class="entry-date"><time datetime="{{ '2001-11-24' | date_to_xmlschema }}">{{ '2001-11-24' | date: "%d %B %Y" }}</time></span></a></article></li>
+    <li><article><a href="http://static.matthewvickery.org/crates">Plastic Crate Performances <span class="entry-date"><time datetime="{{ '2001-04-19' | date_to_xmlschema }}">{{ '2001-04-19' | date: "%d %B %Y" }}</time></span></a></article></li>
+    <li><article><a href="http://static.matthewvickery.org/pixels">Every Pixel Project <span class="entry-date"><time datetime="{{ '2000-03-06' | date_to_xmlschema }}">{{ '2000-03-06' | date: "%d %B %Y" }}</time></span></a></article></li>
 </ul>
