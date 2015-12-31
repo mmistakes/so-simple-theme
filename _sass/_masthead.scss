@@ -5,9 +5,6 @@
 .masthead {
   margin-top: 40px;
   @include clearfix;
-  @include media($medium) {
-    margin-top: 0;
-  }
   .wrap {
     text-align: center;
     max-width: em(440);
