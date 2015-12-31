@@ -1,18 +1,3 @@
-<div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated drop">
-	    <ul>
-      {% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
-		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
-	    </ul>
-	</nav>
-</div><!-- /.navigation-wrapper -->
-
 {% include browser-upgrade.html %}
 
 {% if page.image.feature %}<header class="masthead">
