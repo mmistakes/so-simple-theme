@@ -16,7 +16,7 @@ Freifunk ist ein Projekt, das versucht ein lokales Datennetz auf Basis von WLAN-
 # Aufbau Freifunk Westerwald
 
 
-Seit ende 2015 sind wir als lose organisierte Gruppe Freifunker aktiv. Zur zeit betreiben wir keine eigene Infrastruktur sondern nutzen die Infrastruktur von Freifunk Mayen Koblenz mit. 
+Seit Ende 2015 sind wir als lose organisierte Gruppe Freifunker aktiv. Zur Zeit betreiben wir keine eigene Infrastruktur sondern nutzen die Infrastruktur von Freifunk Mayen Koblenz mit. 
 
 Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim Aufbau eines Freifunk-Netzes im Westerwald unterstützen. Wie du das am besten tust, findest du unter Mitmachen.
 
