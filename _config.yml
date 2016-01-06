@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
+title: Freifunk Westerwald 
+locale: de_DE
+description: Freifunk. Verbindet. Menschen.
 logo: site-logo.png
 search: true
 url: http://localhost:4000
