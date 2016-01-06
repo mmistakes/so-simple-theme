@@ -2,6 +2,9 @@
 layout: post
 title: Bericht OpenRheinRuhr 2015
 modified:
+author: justelex
+share: true
+comment: true
 categories: blog 
 excerpt:
 tags: []
