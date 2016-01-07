@@ -1,5 +1,5 @@
 ---
-layout: page 
+layout: page
 modified:
 categories:  
 excerpt:
@@ -21,7 +21,7 @@ Oftmals stellt sich die Frage wie es um den rechtlichen Rahmen bestellt ist, wen
 
 Auf unseren Treffen kannst du dir meist einen fertig eingerichteten Router abholen. Ein Treffen bietet dir auch die Möglichkeit, bei einem kühlen oder heißen Getränk nützliche Tipps zum optimalen Freifunk-Betrieb zu erhalten, Fragen zu zu klären und zu stellen. Dabei kannst du auch direkt die Community hinter dem Freifunk Westerwald kennen lernen und neue Kontakte knüpfen. Die Termine dazu findest du auf dieser Website. Zwecks besserer Planbarkeit wäre es vorteilhaft, wenn du uns vorher mitteilst, dass du an einem Treffen teilnimmst.
 
-## Freifunk-Router selber machen
+## Freifunk-Router selbst machen
 
 Natürlich kannst du auch zu Hause deinen eigenen Freifunkknoten basteln: Einfach ein unterstütztes Router-Modell aussuchen, beim Online-Händler deiner Wahl bestellen und innerhalb von zehn Minuten mit unserer Firmware zu einem Freifunkknoten umrüsten.
 
@@ -30,7 +30,3 @@ Unsere Firmware findest du unter <https://images.freifunk-westerwald.de/> . Eine
 ## Mailingliste
 
 Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art großer E-Mail-Verteiler. Um dich für die Mailingliste zu registrieren, sende eine Mail an general-subscribe @ freifunk-westerwald .de du erhälst dann eine Bestätigungsmail. Auf diese musst du durch klicken auf „Antworten“ mit einer leeren Mail antworten. Ab dann erhälst du alle E-Mails auf der Mailingliste. Wenn du eine neue E-Mail an alle schreiben möchtest, kannst du die Adresse general @ freifunk-westerwald .de benutzen - möchtest du jemandem antworten verwende die Funktion „Liste antworten“ oder „Allen antworten“.
-
-
-
-
