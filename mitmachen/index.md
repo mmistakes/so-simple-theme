@@ -13,23 +13,23 @@ date: 2015-11-12T19:53:06+01:00
 Es gibt viele Wege wie du uns und die Freifunkidee unterstützen kannst.
 
 # Freifunkrouter Aufstellen
-Um Teil des Freifunknetzes zu werden, benötigst du lediglich einen günstigen Freifunkrouter und ein wenig Platz um diesen aufzustellen. Dieser Router verbinden sich mit anderen Routern in deiner Nähe und unseren Servern und bildet so ein freies Netzwerk im westerwald. Jeder kann Freifunk nutzen und mitmachen. Die Kosten für einen eigenen Freifunk-Router betragen je nach Routermodell 15 bis 40 EUR (einmalig), hinzu kommen die jährlichen Stromkosten (In der Regel <5 Euro/Jahr).
+Um Teil des Freifunknetzes zu werden, benötigst du lediglich einen günstigen Freifunkrouter und ein wenig Platz um diesen aufzustellen. Dieser Router verbindet sich mit anderen Routern in deiner Nähe und unseren Servern. Jeder Router stellt einen Netzwerkknoten dar. Dadurch entsteht ein öffentlich und anonym zugängliches Netzwerk. Jeder ist dazu eingeladen Freifunk zu nutzen und zu unterstützen. Natürlich können sich auch Nicht-Techniker aktiv in der Gestaltung des Freifunk Westerwald beteiligen. Die Kosten für einen eigenen Freifunk-Router betragen je nach Routermodell 15 bis 40 EUR (einmalig), hinzu kommen die jährlichen Stromkosten (in der Regel weniger als fünf Euro pro Jahr).
 
-Die erste Frage die sich jedem stellt, wenn er seinen Internetanschluss in Deutschland zur Verfügung stellt, ist die der Störerhaftung. Um dieses Problem zu lösen nutzen wir ein Konzept, welches schon seit Langem erfolgreich in anderen Freifunk-Communitys eingesetzt wird. Wir leiten die Daten von Router an einen unserer Server. Da alle Verbindungen über einen gemeinsamen Austrittspunkt geleitet werden, ist es nicht möglich Rückschlüsse auf den Router oder gar den User zu ziehen. Der Weg bis zu diesem Austrittspunkt ist verschlüsselt und somit nicht einsehbar.
+Oftmals stellt sich die Frage wie es um den rechtlichen Rahmen bestellt ist, wenn man einen Internetanschluss in Deutschland zur Verfügung stellt. Der entscheidende Punkt bei der Bereitstellung eines offenen WLAN ist die Störerhaftung. Die Störerhaftung besagt, dass z.B. bei Urheberrechtsverletzungen, welche durch Gäste verursacht werden können, der Betreiber eines WLAN verschuldungsunabhängig haftbar gemacht werden kann. Um dieses Problem zu umgehen, nutzen wir ein Konzept, welches schon seit Langem erfolgreich in anderen Freifunk-Communitys eingesetzt wird. Wir leiten die Daten von den Freifunk Routern an unsere Server. Da alle Verbindungen über einen gemeinsamen Austrittspunkt geleitet werden, ist es nicht möglich Rückschlüsse auf den Router oder gar den User zu ziehen. Der Weg bis zu diesem Austrittspunkt ist verschlüsselt und somit nicht einsehbar. Nutzerdaten werden nicht rückwirkend gespeichert.
 
 ## Freifunk-Router Abholen (empfohlen)
 
-Auf unseren Treffen kannst du dir meist einen fertig eingerichteten Router abholen. Es bietet dir auch die Möglichkeit, bei einem kühlen oder heißen Getränk im Plausch nützliche Tipps zum optimalen Freifunk-Betrieb zu erhalten, Fragen zu klären und die Community hinter Freifunk Westerwald kennen zu lernen. Die Termine dazu findest du auf dieser Website. Es wäre schön wenn du uns vorher mitteilst das du kommst, damit wir auch genügend Sitzplätze haben. Wenn du es aber vergessen hast, ist das auch kein Problem.
+Auf unseren Treffen kannst du dir meist einen fertig eingerichteten Router abholen. Ein Treffen bietet dir auch die Möglichkeit, bei einem kühlen oder heißen Getränk nützliche Tipps zum optimalen Freifunk-Betrieb zu erhalten, Fragen zu zu klären und zu stellen. Dabei kannst du auch direkt die Community hinter dem Freifunk Westerwald kennen lernen und neue Kontakte knüpfen. Die Termine dazu findest du auf dieser Website. Zwecks besserer Planbarkeit wäre es vorteilhaft, wenn du uns vorher mitteilst, dass du an einem Treffen teilnimmst.
 
-## Freifunk-Router selbermachen
+## Freifunk-Router selber machen
 
-Natürlich kannst du auch bequem zu Hause deinen eigenen Freifunkknoten basteln: Einfach ein unterstütztes Router-Modell aussuchen, beim Online-Händler deiner Wahl bestellen und in unter 10 Minuten mit unserer Firmware zu einem Freifunkknoten umrüsten.
+Natürlich kannst du auch zu Hause deinen eigenen Freifunkknoten basteln: Einfach ein unterstütztes Router-Modell aussuchen, beim Online-Händler deiner Wahl bestellen und innerhalb von zehn Minuten mit unserer Firmware zu einem Freifunkknoten umrüsten.
 
-Unsere Firmware findest du unter images.freifunk-westerwald.de . Eine Anleitung zum Installieren der Firmware findest du bei der Community Ruhrgebiet.
+Unsere Firmware findest du unter <https://images.freifunk-westerwald.de/> . Eine Anleitung zum Installieren der Firmware findest du bei der Community Ruhrgebiet.
 
 ## Mailingliste
 
-Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art großer E-Mail-Verteiler. Um dich für die Mailingliste zu registrieren, sende eine Mail an general-subscribe @ freifunk-westerwald .de Du erhälst dann eine Bestätigungsmail. Auf diese musst du durch klicken auf „Antworten“ mit einer leeren Mail antworten. Ab jetzt erhälst du alle E-Mails auf der Mailingliste. Wenn du eine neue E-Mail an Alle schreiben möchtest nutze die Adresse general @ freifunk-westerwald .de - möchtest du jemandem antworten verwende die Funktion „Liste Antworten“ oder „Allen antworten“.
+Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art großer E-Mail-Verteiler. Um dich für die Mailingliste zu registrieren, sende eine Mail an general-subscribe @ freifunk-westerwald .de du erhälst dann eine Bestätigungsmail. Auf diese musst du durch klicken auf „Antworten“ mit einer leeren Mail antworten. Ab dann erhälst du alle E-Mails auf der Mailingliste. Wenn du eine neue E-Mail an alle schreiben möchtest, kannst du die Adresse general @ freifunk-westerwald .de benutzen - möchtest du jemandem antworten verwende die Funktion „Liste antworten“ oder „Allen antworten“.
 
 
 
