@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Freifunk Westerwald 
+title: Freifunk Westerwald
 locale: de_DE
 description: Freifunk. Verbindet. Menschen.
 logo: site-logo.png
@@ -33,24 +33,10 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+  name: Freifunk Westerwald
+  avatar: bio-photo-alt.jpg
+  email: kontakt@freifunk-westerwald.de
+  disqus-shortname: freifunkww
+  twitter: freifunkww
+  facebook: FreifunkWesterwald
+  github: FreifunkWesterwald

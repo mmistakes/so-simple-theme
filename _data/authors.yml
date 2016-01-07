@@ -10,11 +10,9 @@ justelex:
   google:
     plus: MaikNauheim
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
+cernota:
+  name: Fabian Cernota
+  web: http://freifunk-westerwald.de
+  email: fabian@freifunk-westerwald.de
+  avatar: bio-photo-alt.jpg
+  twitter: FabianCernota
