@@ -5,3 +5,5 @@ _site
 codekit-config.json
 node_modules
 .sass-cache
+
+messages.pot
