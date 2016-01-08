@@ -8,7 +8,8 @@ sitemap: false
     {% if forloop.index > 1 %},{% endif %}{
       "title"			: {{ post.title | jsonify }},
       "link"			: "{{ site.url }}{{ post.url }}",
-      "excerpt"		: "{{ post.excerpt }}"
+      "excerpt"	         	: "{{ post.excerpt }}",
+      "content"                 : "{{ post.content | strip_html | strip_newlines }}"
     }
   {% endif %}
 {% endfor %}
@@ -18,7 +19,9 @@ sitemap: false
     {% if forloop.index > 1 %},{% endif %}{
       "title"			: {{ page.title | jsonify }},
       "link"			: "{{ site.url }}{{ page.url | replace: 'index.html', '' }}",
-      "excerpt"		: "{{ page.excerpt }}"
+      "excerpt"		: "{{ page.excerpt }}",
+      "content"                 : "{{ page.content | strip_html | strip_newlines }}"
+
     }
   {%endif%}
 {% endfor %}
