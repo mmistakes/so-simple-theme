@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenRheinruhr 2015
+title: OpenRheinRuhr 2015
 author: justelex
 share: true
 comments: true
