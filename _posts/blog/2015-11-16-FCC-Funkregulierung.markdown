@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Neue Funkregulierung
 author: justelex
@@ -18,7 +18,7 @@ Speziell scheint es der FCC darum zu gehen ein Senden auf falschen Frequenzen od
 Eine Möglichkeit wäre, dass der Router nur signierte, also quasi unterschriebene, Firmwares akzeptiert. Für das Freifunkprojekt wäre das die ungünstigste Variante. Ähnlich wie bei Smartphones werden wohl auch diese Signaturen nicht lange sicher sein. Wer will schon eine potentiell illegale Aktion begehen um Software auf Router zu flashen? Vom Aufwand her mal ganz zu schweigen.
 Was bleibt ist eine eigene länderspezifische Hardwareversion, welche die entsprechenden Parameter des jeweiligen Landes sicherstellt. Dabei stellt sich allerdings auch die Frage ob die Hersteller das beim Erlass einer entsprechenden Regelung auch zeitnah umsetzen können. Uns ist bisher kein WLAN-Chipsatz bekannt der entsprechende Funktionen enthält. Entsprechende Chipsätze müssten erst produziert werden. Die Software für diese Funktionen müsste vermutlich auch noch entwickelt werden. Es ist leider unwahrscheinlich, dass Hersteller diesen Weg gehen, wenn sich elektronische Signaturen mit einer Firmware quasi zum Nulltarif umsetzen lassen.
 
-All diese Möglichkeiten haben gemein, das sie (wahrscheinlich) bewusste Fehleinstellungen oder Konfigurationen des Benutzers verhindern sollen. Wer bewusst hohe Sendeleitungen oder andere Frequenzbereiche nutzen möchte, wird das erreichen. 
+All diese Möglichkeiten haben gemein, das sie (wahrscheinlich) bewusste Fehleinstellungen oder Konfigurationen des Benutzers verhindern sollen. Wer bewusst hohe Sendeleitungen oder andere Frequenzbereiche nutzen möchte, wird das erreichen.
 
 Für den Freifunk bedeutet das: Der aktuelle Status bedeutet weder Alarmstufe Rot noch eine Entwarnung. Wir müssen diese Entwicklung auch weiter im Auge behalten und rechtzeitig mit entsprechender Lobbyarbeit aktiv werden.
 

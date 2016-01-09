@@ -1,0 +1,11 @@
+<span class="reading-time" title="Estimated read time">
+  <icon class="fa fa-clock-o fa"></icon>
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    1 Minute
+  {% else %}
+    {{ words | divided_by:180 }} Minuten
+  {% endif %}
+  Lesezeit
+
+</span>

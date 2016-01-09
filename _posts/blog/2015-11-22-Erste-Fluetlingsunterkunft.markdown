@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Erste Flüchtlingsunterkunft angeschlossen
 author: justelex

@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
 title: Bericht OpenRheinRuhr 2015
 modified:
 author: justelex
 share: true
 comment: true
-categories: blog 
+categories: blog
 excerpt:
 tags: []
 image:
@@ -25,4 +25,3 @@ Zur Veranstaltung und dem Vortragsprogramm braucht man eigentlich nicht viel sag
 
 Alles in allem war es ein tolles Wochenende.
 Daher ist eines schon mal sicher: Wir sind nächstes Jahr wieder dabei.
-

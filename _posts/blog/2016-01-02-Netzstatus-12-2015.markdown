@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Netzstatus 12/2015
 author: justelex

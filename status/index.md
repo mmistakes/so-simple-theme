@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: Netzstatus
 excerpt: "Unser Netzstatus"
@@ -11,8 +11,8 @@ image:
 
 Zur Zeit betreiben wir keine eigene Infrastruktur, sondern nutzen die Infrastruktur von Freifunk-MYK mit. Dennoch können wir hier einen kleinen Einblick in unser Netz geben.
 
-# Karte 
-Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie einige Informationen zu deren Auslastung. Erreichen könnt ihr sie unter 
+# Karte
+Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie einige Informationen zu deren Auslastung. Erreichen könnt ihr sie unter
 
 [https://map.freifunk-westerwald.de/](https://map.freifunk-westerwald.de/)
 
@@ -20,5 +20,3 @@ Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie e
 Da es ab und an geplante oder ungeplante Ausfälle unserer Infrastruktur geben kann, steht eine Statuspage für unsere Dienste zur Verfügung. Hier werden auch Wartungsarbeiten angekündigt.
 
 [https://status.freifunk-westerwald.de/](https://status.freifunk-westerwald.de/)
-
-

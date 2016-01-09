@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Erste Knoten in einer öffentlichen Einrichtung
 author: justelex

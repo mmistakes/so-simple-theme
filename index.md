@@ -8,7 +8,7 @@ search_omit: true
 # Willkommen bei Freifunk Westerwald
 
 
-Freifunk ist ein Projekt, das versucht ein lokales Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Region und, mithilfe von Peerings zu anderen Freifunk-Communitys, auch überregional ermöglichen. Um dies zu erreichen, werden Freifunkknoten, das sind die Router mit modifizierter Software, von freiwilligen an vielen Orten betrieben. Jedes WLAN-fähige Gerät, beispielsweise ein Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung. 
+Freifunk ist ein Projekt, das versucht ein lokales Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Region und, mithilfe von Peerings zu anderen Freifunk-Communitys, auch überregional ermöglichen. Um dies zu erreichen, werden Freifunkknoten, das sind die Router mit modifizierter Software, von freiwilligen an vielen Orten betrieben. Jedes WLAN-fähige Gerät, beispielsweise ein Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
 
 
 <iframe src="//player.vimeo.com/video/64814620" height="240" width="425" class="vshare__center" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
@@ -24,7 +24,4 @@ Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim Auf
 # Unterstützung von Flüchtlingsunterkünften
 
 
-Natürlich geht die aktuelle Flüchtlingssituation auch an uns im Westerwald nicht vorbei. Wir haben bereits mehrer Unterkünfte an unser Netz angeschlossen und stellen damit dort einen Internetzugang bereit. Sollten Sie zuständig für eine Flüchtlingsunterkunft sein oder in der Nähe von einer wohnen und ihren Internetanschluss teilen wollen, melden Sie sich bei uns. Vorab vielen dank.
-
-
-
+Natürlich geht die aktuelle Flüchtlingssituation auch an uns im Westerwald nicht vorbei. Wir haben bereits mehrere Unterkünfte an unser Netz angeschlossen und stellen damit dort einen Internetzugang bereit. Sollten Sie zuständig für eine Flüchtlingsunterkunft sein oder in der Nähe von einer wohnen und ihren Internetanschluss teilen wollen, melden Sie sich bei uns. Vorab vielen dank.

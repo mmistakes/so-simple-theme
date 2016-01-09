@@ -14,21 +14,21 @@ $border-radius: 3px;
 // set-up the body font-size / line-height
 body {
   margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;  
+  font-size: 0px + $doc-font-size;
 }
 
 
 // COLORS =====================================================
 $body-color         : #fff;
 $text-color         : #222;
-$base-color         : #343434;    
-$comp-color         : spin($base-color, 180); 
+$base-color         : #343434;
+$comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
 $accent-color       : $black;
 $link-color         : #222;
-
+$freifunk-magenta   : #dc0067;
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
 $table-background             : $body-color;
