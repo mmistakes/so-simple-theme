@@ -5,7 +5,8 @@ categories:
 excerpt:
 tags: []
 image:
-  feature:
+  feature: mitmachen.jpg
+  credit: Boris Niehaus
 date: 2015-11-12T19:53:06+01:00
 ---
 
