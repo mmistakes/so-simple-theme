@@ -24,4 +24,4 @@ Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim Auf
 # Unterstützung von Flüchtlingsunterkünften
 
 
-Die aktuelle Flüchtlingssituation geht auch uns im Westerwald nicht spurlos vorbei. Wir haben bereits mehrere Unterkünfte an unser Netz angeschlossen und stellen damit einen unkomplizierten und freien Internetzugang für die Bewohner bereit. Solltest du zuständig für eine Flüchtlingsunterkunft sein, jemanden kennen der eine betreut oder in der Nähe wohnen, melde dich bitte bei uns. Vorab vielen Dank.
+Die aktuelle Flüchtlingssituation geht auch an uns im Westerwald nicht spurlos vorbei. Wir haben bereits mehrere Unterkünfte an unser Netz angeschlossen und stellen damit einen unkomplizierten und freien Internetzugang für die Bewohner bereit. Solltest du zuständig für eine Flüchtlingsunterkunft sein, jemanden kennen der eine betreut oder in der Nähe wohnen, melde dich bitte bei uns. Vorab vielen Dank.
