@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Netzstatus 12/2015
 author: justelex
@@ -15,17 +15,17 @@ date: 2015-12-12T17:42:36+01:00
 
 Ein Blick hinter die Kulissen - Netzstatusbericht 12/2015
 
-Seit fast einem Monat, erfassen wir einige statistische Daten über die Nutzung unserer Infrastruktur. Grund genug euch mal einen kurzen Einblick in unsere Infrastruktur zu geben und euch zu zeigen, was bei uns so alles passiert.
+Seit fast einem Monat erfassen wir einige statistische Daten über die Nutzung der Infrastruktur. Grund genug euch mal einen kurzen Einblick in die vom Freifunk Westerwald genutzte Infrastruktur zu geben.
 
-Die Anzahl der Router ist deutlich gestiegen. Waren es zu beginn noch 15 Router, hat sich die Anzahl der Router im laufe des Monats auf 22 erhöht. Damit wurden rund 1,1 Terrabyte an Daten über unser Netz bewegt. Leider haben wir hier keine Vergleichswerte zum Vormonat.
+Die Anzahl der Router ist deutlich gestiegen. Waren es zu beginn noch 15 Router, hat sich die Anzahl der Router im laufe des Monats auf 22 erhöht. Damit wurden rund 1,1 Terabyte an Daten über unser Netz bewegt. Leider haben wir hier keine Vergleichswerte zum Vormonat.
 
-In der Spitze waren bis zu 52 Endgeräte gleichzeitig mit unserem Netz verbunden. Im Monatsmittel sind 28 Geräte online. Um abschätzen zu können wie stark das Netz genutzt wird zählen wir die Anzahl der Einbuchungsminuten. Ein Gerät, das eine Minute online ist Zählt eine Minute. Insgesammt hatten wir 208552 Einbuchungsminuten im Dezember 2015. Auch hier liegen uns keine Daten des Vormonats vor. Wir sind aber gespannt, wie sich das Ganze weiter entwickelt.
+In der Spitze waren bis zu 52 Endgeräte gleichzeitig mit unserem Netz verbunden. Im Monatsmittel sind 28 Geräte online. Um abschätzen zu können wie stark das Netz genutzt wird, zählen wir die Anzahl der Einbuchungsminuten. Ein Gerät, das eine Minute online ist zählt eine Minute. Insgesamt hatten wir 208552 Einbuchungsminuten im Dezember 2015. Auch hier liegen uns keine Daten des Vormonats vor. Wir sind aber gespannt, wie sich das Ganze weiter entwickelt.
 
-Da wir weder MAC Adressen noch andere benutzer- oder gerätebezogene Daten aufzeichnen, können wir nicht sagen wieviele verschiedene Geräte insgesamt bei uns eingeloggt waren.
+Da wir weder MAC Adressen noch andere benutzer- oder gerätebezogene Daten aufzeichnen, können wir nicht sagen wie viele verschiedene Geräte insgesamt bei uns eingeloggt waren.
 
-Als kleines Fazit bleibt zu sagen, das wir mit der Entwicklung des Netzes sehr zufrieden sind und uns über den Wachstum und die zunehmende Nutzung freuen. Da wir zur Zeit die Infrastruktur von Freifunk-MYK mitnutzen stellen sich durch die steigende Router- und Nutzerzahl aber auch die Frage nach eigener Infrastruktur.
-Die ersten Schritte und Experimente in diese Richtung sind unternommen und wir werden euch natürlich hier, auf der Website und auf unserem Twitteraccount auf dem Laufenden halten.
+Als kleines Fazit bleibt zu sagen, das wir mit der Entwicklung des Netzes sehr zufrieden sind und uns über das Wachstum und die zunehmende Nutzung freuen. Da wir derzeit die Infrastruktur von Freifunk-MYK mit nutzen, stellen sich durch die steigende Router- und Nutzerzahl aber auch die Frage nach einer separaten Infrastruktur.
+Die ersten Schritte und Experimente in diese Richtung sind unternommen. Wir werden euch natürlich hier und auf unserem Twitteraccount auf dem Laufenden halten.
 
 Wir danken allen Unterstützern, Routeraufstellern, Aktiven für die geleistete Arbeit in den letzten Monaten.
 
-Besonders möchten wir uns bei Freifunk-MYK für die zur Verfügungstellung der Infrastruktur bedanken.
+Besonders möchten wir uns bei Freifunk-MYK für die Bereitstellung der Infrastruktur bedanken.
