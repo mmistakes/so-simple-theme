@@ -22,7 +22,7 @@ Dazu zählen:
     Nutzerzahlen
     Technischer Zustand des Routers (Auslastung, Speicherplatz, Softwareversionen usw.)
 
-Da das Freifunknetz auch mit dem Internet verbunden ist, bestehen hier mindestens die gleichen Gefahren wie bei der regulären Internetnutzung. Da die Nutzung eines Freifunkknotens genauso wie die Nutzung eines kommerziellen WLAN-Hotspots mit gewissen Risiken verbunden ist, empfehlen wir die Nutzung von zusätzlichen Schutzmaßnahmen. Hinweise zur Sicherheit in Öffentlichen Netzwerken finden sie unter XXXXX
+Da das Freifunknetz auch mit dem Internet verbunden ist, bestehen hier mindestens die gleichen Gefahren wie bei der regulären Internetnutzung. Da die Nutzung eines Freifunkknotens genauso wie die Nutzung eines kommerziellen WLAN-Hotspots mit gewissen Risiken verbunden ist, empfehlen wir die Nutzung von zusätzlichen Schutzmaßnahmen. Hinweise zur Sicherheit in Öffentlichen Netzwerken finden sie unter [Sicherheit](/sicherheit)
 
 Sollten wir aufgrund von gesetzlichen Vorgaben bzw. durch Ermittlungsbehörden dazu aufgefordert werden, behalten wir uns das Recht vor weitere Daten zu erfassen und ggf. an diese weiterzuleiten. 
 
