@@ -19,7 +19,7 @@ sitemap: false
 
 <!-- Search results placeholder -->
 <h6 data-search-found>
-  <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+  <span data-search-found-count></span> Ergebnisse für &ldquo;<span data-search-found-term></span>&rdquo; gefunden.
 </h6>
 <ul class="post-list" data-search-results></ul>
 

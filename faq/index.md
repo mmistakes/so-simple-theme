@@ -1,4 +1,4 @@
----
+﻿---
 layout: page 
 modified:
 categories:  
@@ -19,5 +19,5 @@ Der Aufbau eines Freifunkknotens lohnt sich immer. Wir haben schon häufig festg
 
 ### Wie rechtfertigt ihr Urheberrechtsverletzungen, welche über das Freifunk Netz begangen werden können? 
 
-Gar nicht. Wir sind nicht besonders davon angetan, wenn Freifunk für kriminelle Zwecke missbraucht wird. Allerdings ist es wie mit so vielen Dingen im Leben. Etwas das für gute Sachen genutzt werden kann, kann ebenso auch für schlechte Sachen genutzt werden. Es erscheint weit hergeholt, wenn man beispielsweise scharfe Messer verbieten würde, weil man damit Menschen schädigen kann. Würden wir alle Technologien verbieten, mit denen man einem Menschen Schaden zufügen könnte, wären wir immernoch am Anfang der Steinzeit. Daher stehen wir für eine freie und ungehinderte Verbreitung von Wissen und Ressourcen. Wir möchten Technologien nicht für gesellschaftliche Probleme verantwortlich machen.
+Gar nicht. Wir sind nicht davon angetan, wenn Freifunk für kriminelle Zwecke missbraucht wird. Allerdings ist es, wie mit so vielen Dingen im Leben, etwas das für gute Sachen genutzt werden kann, kann ebenso auch für schlechte Sachen genutzt werden. Es erscheint weit hergeholt, dass man beispielsweise scharfe Messer verbieten würde, weil man damit Menschen schädigen kann. Würden wir alle Technologien verbieten, mit denen man einem Menschen Schaden zufügen könnte, wären wir immer noch am Anfang der Steinzeit. Wir stehen für eine freie und ungehinderte Verbreitung von Wissen und Ressourcen. Wir möchten Technologien nicht für gesellschaftliche Probleme verantwortlich machen.
 
