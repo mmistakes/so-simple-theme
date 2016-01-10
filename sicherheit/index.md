@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 excerpt: "Sicherheit im Freifunknetz"
 search_omit: true

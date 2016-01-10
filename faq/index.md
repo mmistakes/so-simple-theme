@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page 
 modified:
-categories:  
+categories:
 excerpt:
 tags: []
 image:

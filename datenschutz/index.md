@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 excerpt: "Datenschutz"
 search_omit: true
