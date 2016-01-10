@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: OpenRheinRuhr 2015
 author: justelex
@@ -20,4 +20,4 @@ Auch wenn ihr Freifunk und uns schon kennt, lohnt sich ein Besuch auf der OpenRh
 Die Veranstaltung findet in der tollen Kulisse des Rheinischen Industriemuseums statt und kostet nur 5 Euro Eintritt.
 Wir freuen uns, euch kennenzulernen.
 
-Weitere Informationen sowie das Programm findet ihr auf [https://www.openrheinruhr.de/](https://www.openrheinruhr.de)
+Weitere Informationen sowie das Programm findet man auf [https://www.openrheinruhr.de/](https://www.openrheinruhr.de).
