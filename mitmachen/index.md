@@ -31,3 +31,13 @@ Unsere Firmware findest du unter <https://images.freifunk-westerwald.de/> . Eine
 ## Mailingliste
 
 Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art großer E-Mail-Verteiler. Um dich für die Mailingliste zu registrieren, sende eine Mail an general-subscribe @ freifunk-westerwald .de du erhälst dann eine Bestätigungsmail. Auf diese musst du durch klicken auf „Antworten“ mit einer leeren Mail antworten. Ab dann erhältst du alle E-Mails auf der Mailingliste. Wenn du eine neue E-Mail an alle schreiben möchtest, kannst du die Adresse general @ freifunk-westerwald .de benutzen - möchtest du jemandem antworten verwende die Funktion „Liste antworten“ oder „Allen antworten“.
+
+## Rede mit anderen
+
+Die Freifunkidee kann sich nur verbreiten wenn darüber geredet wird. Sprich Freunde und Bekannte an und erzähle ihnen von Freifunk. Jeder aufgestellte Router ist ein Schritt in Richtung eines unabhängigen Netzes. 
+
+## Noch Mehr tun?
+
+Du hast die Mailingliste abonniert und einen Router aufgestellt, möchtest aber noch mehr tun? Super. Wir suchen immer Leute die bei uns mitmachen. Was es bei uns zu tun gibt? Recht viel und gerade abseits vom technischen haben wir viele Baustellen. Neben der Arbeit an unseren Systemen oder der Anpassung unserer Software müssen auch Texte für die Website verfasst und korrekturgelesen, Flyer erstell oder Supportanfragen bearbeitet werden. Auch wenn da jetzt nichts dabei ist, was dich direkt anspricht, komm zu einem unserer Treffen. Wir würden dich gerne kennenlernen und finden dann auch etwas, das zu dir und deinen Fähigkeiten passt. 
+
+
