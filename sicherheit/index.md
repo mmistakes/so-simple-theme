@@ -3,6 +3,10 @@ layout: page
 excerpt: "Sicherheit im Freifunknetz"
 title: Sicherheit im Netz
 search_omit: false
+image:
+  feature: background_security.jpg
+  credit: CC-BY Yuri Samoilov
+  creditlink: https://www.flickr.com/photos/yusamoilov/13334048894
 ---
 
 Das Freifunknetz ist prinzipbedingt weder sicherer noch unsicherer als jeder andere öffentlich nutzbare Internetzugang. Trotzdem möchten wir dir hier einige Tipps und Ratschläge geben, die du auch beim Surfen über fremde Internetzugänge beherzigen solltest.

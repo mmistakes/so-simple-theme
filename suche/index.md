@@ -4,10 +4,13 @@ title: "Suche"
 date: 
 modified:
 excerpt:
-image:
-  feature:
 search_omit: true
 sitemap: false
+image:
+  feature: background_search.jpg
+  credit: CC-BY  www.gotcredit.com
+  creditlink: https://www.flickr.com/photos/jakerust/16226034713/
+
 ---
   
 <!-- Search form -->
