@@ -11,12 +11,12 @@ Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die
 ## Lokale Installation
 #### Abhängigkeiten
 Um die Website bei sich lokal zum laufen zu bringen werden folgende Programme benötigt:
-- [jekyll](https://jekyllrb.com/)
-- ruby
-- [bower](http://bower.io)
-- [nodejs](https://nodejs.org)
 - git
+- ruby
+- [jekyll](https://jekyllrb.com/)
 - [bundler](http://bundler.io/)
+- [nodejs](https://nodejs.org)
+- [bower](http://bower.io)
 
 Falls nicht vorhanden, können diese z.B. unter Arch-Linux folgendermaßen installiert werden. Bei andern Systemen müssen statt pacman die individuellen Paketmanager verwendet werden, bzw. unter Windows die Programme einzeln von den Hersteller-Seiten geladen werden.
 ```bash
