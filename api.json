@@ -1,0 +1,65 @@
+{
+  "name": "Freifunk Westerwald",
+  "url": "https://freifunk-westerwald.de",
+  "location": {
+    "city": "Westerwald",
+    "country": "DE",
+    "lat": 50.436079,
+    "lon": 7.830505
+  },
+  "contact": {
+    "email": "support@freifunk-westerwald.de",
+    "ml": "general@freifunk-westerwald.de",
+    "facebook": "https://facebook.com/FreifunkWesterwald",
+    "twitter": "@FreifunkWW"
+  },
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-01-10T14:02:20.646Z"
+  },
+  "feeds": [
+    {
+      "name": "Webseite",
+      "category": "blog",
+      "type": "rss",
+      "url": "https://freifunk-westerwald.de/feed.xml"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-westerwald.de",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
+  "socialprojects": {
+    "number": 3,
+    "contact": "fabian@freifunk-westerwald.de"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "GLUON",
+      "url": "https://images.freifunk-westerwald.de",
+      "vpnaccess": "fwimage",
+      "registrationurl": "http://register.freifunk-myk.de/"
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.11"
+}
