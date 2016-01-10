@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tag Index
-excerpt: "An archive of posts sorted by tag."
+excerpt: "Ein nach Tags sortiertes Post Archive"
 search_omit: true
 ---
 
