@@ -1,7 +1,8 @@
 ---
 layout: page
-excerpt: "Datenschutz"
-search_omit: true
+excerpt: "Datenschutz fü Netz und Website"
+title: Datenschutz
+search_omit: false
 ---
 
 #Datenschutz im Freifunknetz

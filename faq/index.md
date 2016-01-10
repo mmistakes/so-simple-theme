@@ -2,7 +2,8 @@
 layout: page 
 modified:
 categories:
-excerpt:
+excerpt: "Die FAQ rund um uns und unser Netz"
+omit_search: false
 tags: []
 image:
   feature:

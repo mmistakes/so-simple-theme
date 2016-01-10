@@ -2,6 +2,8 @@
 layout: page
 modified:
 categories:
+title: Mitmachen
+search_omit:false
 excerpt:
 tags: []
 image:

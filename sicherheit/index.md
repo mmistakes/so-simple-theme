@@ -1,7 +1,8 @@
 ---
 layout: page
 excerpt: "Sicherheit im Freifunknetz"
-search_omit: true
+title: Sicherheit im Netz
+search_omit: false
 ---
 
 #Sicherheit im Freifunknetz
