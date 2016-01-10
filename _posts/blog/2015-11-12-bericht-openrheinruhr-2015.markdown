@@ -25,3 +25,4 @@ Zur Veranstaltung und dem Vortragsprogramm braucht man eigentlich nicht viel sag
 
 Alles in allem war es ein tolles Wochenende.
 Daher ist eines schon mal sicher: Wir sind nächstes Jahr wieder dabei.
+
