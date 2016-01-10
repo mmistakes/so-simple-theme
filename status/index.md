@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: Netzstatus
 excerpt: "Unser Netzstatus"
@@ -8,7 +8,7 @@ image:
   credit: Ein Blick ins Statistiksystem
   creditlink: http://www.freifunk-westerwald.de
 ---
-Zur Zeit betreiben wir keine eigene Infrastruktur, sondern nutzen die Infrastruktur von Freifunk Mayen-Koblenz mit. Dennoch können wir hier einen kleinen Einblick in unser Netz geben. Im Blog findest du ab und an einen aktellen Bericht zu einigen Netzkennzahlen.
+Zur Zeit betreiben wir keine eigene Infrastruktur, sondern nutzen die Infrastruktur von Freifunk Mayen-Koblenz mit. Dennoch können wir hier einen kleinen Einblick in unser Netz geben. Im Blog findest du ab und an einen aktuellen Bericht zu einigen Netzkennzahlen.
 
 # Karte
 Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie einige Informationen zu deren Auslastung. Erreichen kannst du sie unter
