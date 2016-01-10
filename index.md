@@ -2,7 +2,7 @@
 layout: page
 excerpt: "Willkommen bei Freifunk Westerwald"
 search_omit: false
-title: Startseite
+
 ---
 
 
