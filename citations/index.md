@@ -14,7 +14,7 @@ Submit Citations
 =================
 
 To have your paper or project citing Stan listed here, send a note
-the <a class="internal" href="groups.html">users group</a>.
+to the <a class="internal" href="groups.html">users group</a>.
 
 How to Cite the Manual
 ======================
