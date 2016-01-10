@@ -25,8 +25,6 @@ kramdown:
   toc_levels: 1..2
   enable_coderay: false
 
-mathjax: true
-
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
@@ -34,7 +32,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Freifunk Westerwald
-  avatar: bio-photo-alt.jpg
+  avatar: site-logo.png
   email: kontakt@freifunk-westerwald.de
   disqus-shortname: freifunkww
   twitter: freifunkww
