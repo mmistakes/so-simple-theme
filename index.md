@@ -18,10 +18,10 @@ Freifunk ist ein Projekt, das versucht ein lokales Datennetz auf Basis von WLAN-
 
 Seit Ende 2015 sind wir als lose organisierte Gruppe als Freifunker aktiv. Zur Zeit betreiben wir keine komplett eigene Infrastruktur sondern nutzen die Infrastruktur von Freifunk Mayen Koblenz mit. Aktuell arbeiten wir auch an dem Aufbau einer eigenen Infrastruktur und werden diese vorraussichtlich im ersten Quartal 2016 in Betrieb nehmen.
 
-Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim Aufbau eines Freifunk-Netzes im Westerwald unterstützen. Wie du das am besten tust, findest du unter Mitmachen.
+Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim Aufbau eines Freifunk-Netzes im Westerwald unterstützen. Wie du das am besten tust, findest du [hier](/mitmachen).
 
 
 # Unterstützung von Flüchtlingsunterkünften
 
 
-Die aktuelle Flüchtlingssituation geht auch an uns im Westerwald nicht spurlos vorbei. Wir haben bereits mehrere Unterkünfte an unser Netz angeschlossen und stellen damit einen unkomplizierten und freien Internetzugang für die Bewohner bereit. Solltest du zuständig für eine Flüchtlingsunterkunft sein, jemanden kennen der eine betreut oder in der Nähe wohnen, melde dich bitte bei uns. Vorab vielen Dank.
+Die aktuelle Flüchtlingssituation geht auch an uns im Westerwald nicht spurlos vorbei. Wir haben bereits mehrere Unterkünfte an unser Netz angeschlossen und stellen damit einen unkomplizierten und freien Internetzugang für die Bewohner bereit. Solltest du zuständig für eine Flüchtlingsunterkunft sein, jemanden kennen der eine betreut oder in der Nähe wohnen, melde dich bitte bei uns, damit wir solche Projekte weiter vorantreiben können. Vorab vielen Dank.

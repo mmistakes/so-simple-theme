@@ -11,7 +11,7 @@ image:
 Zur Zeit betreiben wir keine eigene Infrastruktur, sondern nutzen die Infrastruktur von Freifunk Mayen-Koblenz mit. Dennoch können wir hier einen kleinen Einblick in unser Netz geben. Im Blog findest du ab und an einen aktellen Bericht zu einigen Netzkennzahlen.
 
 # Karte
-Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie einige Informationen zu deren Auslastung. Erreichen könnt ihr sie unter
+Die Freifunkkarte zeigt die Standorte der meisten Router in unserem Netz sowie einige Informationen zu deren Auslastung. Erreichen kannst du sie unter
 
 [https://map.freifunk-westerwald.de/](https://map.freifunk-westerwald.de/)
 
