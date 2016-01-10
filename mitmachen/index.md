@@ -3,7 +3,7 @@ layout: page
 modified:
 categories:
 title: Mitmachen
-search_omit:false
+search_omit: false
 excerpt:
 tags: []
 image:
