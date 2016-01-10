@@ -1,0 +1,27 @@
+{
+  "name": "FFWW-Jekyll-Website",
+  "description": "Website for Freifunk Westerwald",
+  "main": "",
+  "authors": [
+    "general@freifunk-westerwald.de"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Website",
+    "Freifunk",
+    "Westerwald"
+  ],
+  "homepage": "https://github.com/FreifunkWesterwald/Jekyll-Website",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

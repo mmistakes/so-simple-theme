@@ -1,11 +1,23 @@
-tmp
-Gemfile.lock
+#build dir
 _site
-.DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-node_modules
+
+#temporary
+tmp
 .sass-cache
 
+.DS_Store
+
+#sublime text
+*.sublime-project
+*.sublime-workspace
+
+codekit-config.json
+
+#ruby stuff
+Gemfile.lock
 messages.pot
+
+node_modules
+
+#Bower
+/assets/bower_components
