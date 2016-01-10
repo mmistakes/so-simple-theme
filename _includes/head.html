@@ -1,19 +1,40 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+{% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html }}">
+{% endif %}
+
+{% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+{% endif %}
+
+
 {% if page.author %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
 {% endif %}
 
 {% include open-graph.html %}
 
-{% if site.owner.google.verify %}<!-- Webmaster Tools verfication -->
-<meta name="google-site-verification" content="{{ site.owner.google.verify }}">{% endif %}
-{% if site.owner.bing-verify %}<meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">{% endif %}
+<!-- Webmaster Tools verfication -->
+{% if site.owner.google.verify %}
+    <meta name="google-site-verification" content="{{ site.owner.google.verify }}">
+{% endif %}
 
-{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+{% if site.owner.bing-verify %}
+    <meta name="msvalidate.01" content="{{ site.owner.bing-verify }}">
+{% endif %}
+
+{% capture canonical %}
+    {{ site.url }}
+    {% if site.permalink contains '.html' %}
+        {{ page.url }}
+    {% else %}
+        {{ page.url | remove:'index.html' | strip_slash }}
+    {% endif %}
+{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
+
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -23,8 +44,6 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-<!-- Webfonts -->
-<!--<script src="https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>-->
 
 <meta http-equiv="cleartype" content="on">
 
@@ -37,12 +56,7 @@
 <!-- Modernizr -->
 <script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+<!-- apple-touch-icons -->
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
 <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/images/apple-touch-icon-precomposed.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
@@ -52,14 +66,16 @@
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144-precomposed.png">
 
-
-<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-196x196.png" sizes="196x196" />
-<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-32x32.png" sizes="32x32" />
+<!-- favicons -->
+<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+<link rel="shortcut icon" href="{{ site.url }}/favicon.png">
 <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-16x16.png" sizes="16x16" />
-<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-128.png" sizes="128x128" />
+<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-128x128.png" sizes="128x128" />
+<link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-196x196.png" sizes="196x196" />
 
-
+<!-- msapplication -->
 <meta name="application-name" content="{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}"/>
 <meta name="msapplication-TileColor" content="#DC0067" />
 <meta name="msapplication-TileImage" content="{{ site.url }}/images/mstile-144x144.png" />
