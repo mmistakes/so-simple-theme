@@ -3,6 +3,11 @@ layout: page
 title: Blog
 excerpt: "An archive of blog posts sorted by date."
 search_omit: true
+image:
+  feature: background_blog.jpg
+  credit: CC-BY NOGRAN s.r.o.
+  creditlink: https://www.flickr.com/photos/128629824@N06/15604441651
+
 ---
 
 <ul class="post-list">

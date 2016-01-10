@@ -3,6 +3,12 @@ layout: page
 excerpt: "Willkommen bei Freifunk Westerwald"
 search_omit: false
 title: Willkommen
+image:
+  feature: background_home.jpg
+  credit: CC-BY Lukas Ruge
+  creditlink: https://www.flickr.com/photos/tvluke/21359964616/
+
+
 ---
 
 
