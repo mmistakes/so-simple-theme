@@ -1,6 +1,6 @@
 ---
 layout: page
-excerpt: "Datenschutz fü Netz und Website"
+excerpt: "Datenschutz für Netz und Website"
 title: Datenschutz
 search_omit: false
 ---
