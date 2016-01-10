@@ -5,8 +5,6 @@ title: Sicherheit im Netz
 search_omit: false
 ---
 
-#Sicherheit im Freifunknetz
-
 Das Freifunknetz ist prinzipbedingt weder sicherer noch unsicherer als jeder andere öffentlich nutzbare Internetzugang. Trotzdem möchten wir dir hier einige Tipps und Ratschläge geben, die du auch beim Surfen über fremde Internetzugänge beherzigen solltest.
 
 Du bewegst dich beim Surfen in einem Freifunknetz in einem WLAN, zu dem viele Teilnehmer Zugang haben. Theoretisch ist es diesen, ebenso wie uns, möglich deine übertragenen Daten mit zuschneiden oder gar zu manipulieren. Bitte verwende daher wo immer möglich die HTTPS Verschlüsselung. Dies tust du durch die Eingabe von "https://" anstelle von "http://". Das kleine grüne Schloss in deiner Browserleiste zeigt eine verschlüsselte Verbindung an. Zur Unterstützung gibt es die Erweiterung "HTTPS Everywhere" der Electronic Frontier Foundation für [Chrome](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp) und [Firefox](https://addons.mozilla.org/de-DE/firefox/addon/https-everywhere/). Die Erweiterung  ersetzt automatisch HTTP-Anfragen durch HTTPS-Anfragen, wenn der Server HTTPS unterstützt.
