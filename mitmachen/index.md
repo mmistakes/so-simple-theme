@@ -15,14 +15,14 @@ date: 2015-11-12T19:53:06+01:00
 
 Es gibt viele Wege wie du uns und die Freifunkidee unterstützen kannst.
 
-# Freifunkrouter Aufstellen
-Um Teil des Freifunknetzes zu werden, benötigst du lediglich einen günstigen Freifunkrouter und ein wenig Platz um diesen aufzustellen. Dieser Router verbindet sich mit anderen Routern in deiner Nähe und unseren Servern. Jeder Router stellt einen Netzwerkknoten dar. Dadurch entsteht ein öffentlich und anonym zugängliches Netzwerk. Jeder ist dazu eingeladen Freifunk zu nutzen und zu unterstützen. Natürlich können sich auch Nicht-Techniker aktiv in der Gestaltung des Freifunk Westerwald beteiligen. Die Kosten für einen eigenen Freifunk-Router betragen je nach Routermodell einmalig 15 bis 40 EUR. Hinzu kommen die jährlichen Stromkosten  die in der Regel weniger als fünf Euro pro Jahr betragen.
+# Freifunkrouter aufstellen
+Um Teil des Freifunknetzes zu werden, benötigst du lediglich einen günstigen Freifunkrouter und ein wenig Platz um diesen aufzustellen. Dieser Router verbindet sich mit anderen Routern in deiner Nähe und unseren Servern. Jeder Router stellt einen Netzwerkknoten dar. Dadurch entsteht ein öffentlich und anonym zugängliches Netzwerk. Jeder ist dazu eingeladen Freifunk zu nutzen und zu unterstützen. Natürlich können sich auch Nicht-Techniker aktiv in der Gestaltung des Freifunknetzes im Westerwald beteiligen. Die Kosten für einen eigenen Freifunk-Router betragen, je nach Routermodel einmalig 15 bis 40 EUR. Hinzu kommen die jährlichen Stromkosten  die in der Regel weniger als fünf Euro pro Jahr betragen.
 
-Oftmals stellt sich die Frage wie es um den rechtlichen Rahmen bestellt ist, wenn man einen Internetanschluss in Deutschland zur Verfügung stellt. Der entscheidende Punkt bei der Bereitstellung eines offenen WLAN ist die Störerhaftung. Die Störerhaftung besagt, dass z.B. bei Urheberrechtsverletzungen, welche durch Gäste verursacht werden können, der Betreiber eines WLAN verschuldungsunabhängig haftbar gemacht werden kann. Um dieses Problem zu umgehen, nutzen wir ein Konzept, welches schon seit Langem erfolgreich in anderen Freifunk-Communitys eingesetzt wird. Wir leiten die Daten von den Freifunk Routern an unsere Server. Da alle Verbindungen über einen gemeinsamen Austrittspunkt geleitet werden, ist es nicht möglich Rückschlüsse auf den Router oder gar den User zu ziehen. Der Weg bis zu diesem Austrittspunkt ist verschlüsselt und somit nicht einsehbar. Nutzerdaten werden von uns nicht gespeichert, mehr dazu erfährst du in unseren Hinweisen zum [Datenschutz](/datenschutz).
+Oftmals stellt sich die Frage wie es um den rechtlichen Rahmen bestellt ist, wenn man einen Internetanschluss in Deutschland zur Verfügung stellt. Der entscheidende Punkt bei der Bereitstellung eines offenen WLAN ist die Störerhaftung. Die Störerhaftung besagt, dass z.B. bei Urheberrechtsverletzungen, welche durch Gäste verursacht werden können, der Betreiber eines WLAN verschuldensunabhängig haftbar gemacht werden kann. Um dieses Problem zu umgehen, nutzen wir ein Konzept, welches schon seit Langem erfolgreich in anderen Freifunk-Communities eingesetzt wird. Wir leiten die Daten von den Freifunk Routern an unsere Server. Da alle Verbindungen über einen gemeinsamen Austrittspunkt geleitet werden, ist es nicht möglich Rückschlüsse auf den Router oder gar den User zu ziehen. Der Weg bis zu diesem Austrittspunkt ist verschlüsselt und somit nicht einsehbar. Nutzerdaten werden von uns nicht gespeichert, mehr dazu erfährst du in unseren Hinweisen zum [Datenschutz](/datenschutz).
 
 ## Freifunk-Router Abholen (empfohlen)
 
-Auf unseren Treffen haben wir meist Router aus einer Sammelbestellung zu bekommen. Ein Treffen bietet dir auch die Möglichkeit, bei einem kühlen oder heißen Getränk nützliche Tipps zum optimalen Freifunk-Betrieb zu erhalten, Fragen zu zu klären und zu stellen. Dabei kannst du auch direkt die Community hinter dem Freifunk Westerwald kennen lernen und neue Kontakte knüpfen. Die Termine dazu findest du [hier](/termine). Zwecks erleichterter Planung wäre es vorteilhaft, wenn du uns vorher mitteilst, dass du an einem Treffen teilnimmst.
+Auf unseren Treffen haben wir meist Router aus einer Sammelbestellung zu bekommen. Ein Treffen bietet dir auch die Möglichkeit, bei einem kühlen oder heißen Getränk nützliche Tipps zum optimalen Freifunk-Betrieb zu erhalten oder offene Fragen zu klären. Dabei kannst du auch direkt die Community hinter Freifunk Westerwald kennen lernen und neue Kontakte knüpfen. Die Termine dazu findest du [hier](/termine). Zwecks erleichterter Planung wäre es vorteilhaft, wenn du uns vorher mitteilst, dass du an einem Treffen teilnimmst.
 
 ## Freifunk-Router selbst machen
 
@@ -36,7 +36,7 @@ Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art gro
 
 ## Rede mit anderen
 
-Die Freifunkidee kann sich nur verbreiten wenn darüber geredet wird. Sprich Freunde und Bekannte an und erzähle ihnen von Freifunk. Jeder aufgestellte Router ist ein Schritt in Richtung eines unabhängigen Netzes. 
+Die Freifunkidee kann sich nur verbreiten, wenn darüber geredet wird. Sprich Freunde und Bekannte an und erzähle ihnen von Freifunk. Jeder aufgestellte Router ist ein Schritt in Richtung eines unabhängigen Netzes. 
 
 ## Du willst noch mehr machen?
 
