@@ -55,6 +55,7 @@
 
 #site-nav {
   display: none;
+  position: relative;
   z-index: 5;
   @include media($medium) {
     -webkit-animation-duration: 1s;
