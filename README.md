@@ -6,13 +6,13 @@ Jeder Commit in diesem Repository von Travis überprüft.
 Jeder ist herzlich eingeladen Informationen hinzuzufügen oder Fehler zu korrigieren.
 Um die Texte auf der Seite zu ändern müssen nur die dazu gehörigen [Markdown](http://markdown.de/) Dateien angepasst werden.  
 Das kann man z.B. machen in dem man einfach direkt in GitHub auf bearbeiten klickt. Wenn man noch nicht im Team ist, wird dann wird ein Pull-Request erzeugt und jemand aus dem Team muss die Änderungen noch bestätigen.
-Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die Seite [lokal einzurichten](#lokale-installation).   
+Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die Seite [lokal einzurichten](#lokale-installation).
 
 ## Lokale Installation
 #### Abhängigkeiten
 Um die Website bei sich lokal zum laufen zu bringen werden folgende Programme benötigt:
-- git
-- ruby
+- [git](https://git-scm.com/)
+- [ruby](https://www.ruby-lang.org/de/)
 - [jekyll](https://jekyllrb.com/)
 - [bundler](http://bundler.io/)
 - [nodejs](https://nodejs.org)
