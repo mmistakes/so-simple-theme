@@ -11,25 +11,37 @@ image:
 ---
 
 <ul class="post-list">
-{% for post in site.categories.blog %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">
-{% assign m = post.date | date: "%-m" %}
-{{ post.date | date: "%-d" }}.
-{% case m %}
-  {% when '1' %}Januar
-  {% when '2' %}Februar
-  {% when '3' %}M&auml;rz
-  {% when '4' %}April
-  {% when '5' %}Mai
-  {% when '6' %}Juni
-  {% when '7' %}Juli
-  {% when '8' %}August
-  {% when '9' %}September
-  {% when '10' %}Oktober
-  {% when '11' %}November
-  {% when '12' %}Dezember
-{% endcase %}
-{{ post.date | date: "%Y" }}
-</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
-{% endfor %}
+    {% for post in site.categories.blog %}
+        <li>
+            <article>
+                <a href="{{ site.url }}{{ post.url }}">
+                    {{ post.title }}
+                    <span class="entry-date">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">
+                            {% assign m = post.date | date: "%-m" %}
+                            {{ post.date | date: "%-d" }}.
+                            {% case m %}
+                                {% when '1' %}Januar
+                                {% when '2' %}Februar
+                                {% when '3' %}M&auml;rz
+                                {% when '4' %}April
+                                {% when '5' %}Mai
+                                {% when '6' %}Juni
+                                {% when '7' %}Juli
+                                {% when '8' %}August
+                                {% when '9' %}September
+                                {% when '10' %}Oktober
+                                {% when '11' %}November
+                                {% when '12' %}Dezember
+                            {% endcase %}
+                            {{ post.date | date: "%Y" }}
+                        </time>
+                    </span>
+                    {% if post.excerpt %}
+                        <span class="excerpt">{{ post.excerpt }}</span>
+                    {% endif %}
+                </a>
+            </article>
+        </li>
+    {% endfor %}
 </ul>
