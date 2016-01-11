@@ -7,7 +7,7 @@ search_omit: false
 excerpt:
 tags: []
 image:
-  feature: mitmachen.jpg
+  feature: background_mitmachen.jpg
   credit: Boris Niehaus
 date: 2015-11-12T19:53:06+01:00
 ---
@@ -36,10 +36,8 @@ Die Kommunikation läuft hauptsächlich über unsere Mailingliste - eine Art gro
 
 ## Rede mit anderen
 
-Die Freifunkidee kann sich nur verbreiten, wenn darüber geredet wird. Sprich Freunde und Bekannte an und erzähle ihnen von Freifunk. Jeder aufgestellte Router ist ein Schritt in Richtung eines unabhängigen Netzes. 
+Die Freifunkidee kann sich nur verbreiten, wenn darüber geredet wird. Sprich Freunde und Bekannte an und erzähle ihnen von Freifunk. Jeder aufgestellte Router ist ein Schritt in Richtung eines unabhängigen Netzes.
 
 ## Du willst noch mehr machen?
 
-Du hast die Mailingliste abonniert und einen Router aufgestellt, möchtest aber noch mehr machen? Super. Wir suchen immer Leute die uns helfen. Was es bei uns zu tun gibt? Recht viel und gerade abseits vom technischen haben wir viele Baustellen. Neben der Arbeit an unseren Systemen oder der Anpassung unserer Software müssen auch Texte für die Webseite verfasst und korrigiert werden, Flyer erstellt oder Support-Anfragen bearbeitet werden. Auch wenn da jetzt nichts dabei ist, was dich direkt anspricht, komm einfach zu einem unserer Treffen. Wir würden dich gerne kennenlernen und finden dann auch etwas, das zu dir und deinen Fähigkeiten passt. 
-
-
+Du hast die Mailingliste abonniert und einen Router aufgestellt, möchtest aber noch mehr machen? Super. Wir suchen immer Leute die uns helfen. Was es bei uns zu tun gibt? Recht viel und gerade abseits vom technischen haben wir viele Baustellen. Neben der Arbeit an unseren Systemen oder der Anpassung unserer Software müssen auch Texte für die Webseite verfasst und korrigiert werden, Flyer erstellt oder Support-Anfragen bearbeitet werden. Auch wenn da jetzt nichts dabei ist, was dich direkt anspricht, komm einfach zu einem unserer Treffen. Wir würden dich gerne kennenlernen und finden dann auch etwas, das zu dir und deinen Fähigkeiten passt.
