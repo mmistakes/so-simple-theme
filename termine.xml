@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<monthly>
+
+    <event>
+        <id>1</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-01-05</startdate>
+        <enddate>2016-01-05</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>2</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-01-21</startdate>
+        <enddate>2016-01-21</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>3</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-02-02</startdate>
+        <enddate>2016-02-02</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+
+</monthly>

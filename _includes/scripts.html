@@ -4,3 +4,12 @@
 
 <script src="{{ site.url }}/assets/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/vendor/monthly.js"></script>
+<script type="text/javascript">
+     $(window).load( function() {
+     $('#mycalendar').monthly({
+		mode: 'event',
+	    	xmlUrl: '{{ site.url }}/termine.xml'
+	});
+     });
+</script>
