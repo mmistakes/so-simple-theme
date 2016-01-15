@@ -1,13 +1,16 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "name": "Jekyll-Website",
+  "author": "Freifunk Westerwald <general@freifunk-westerwald.de> (https://freifunk-westerwald.de)",
+  "contributors": [
+      "MoritzKn <moritz@freifunk-westerwald.de>"
+  ],
+  "homepage": "https://freifunk-westerwald.de",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/so-simple-theme.git"
+    "url": "git://github.com/FreifunkWesterwald/Jekyll-Website.git"
   },
   "bugs": {
-    "url": "https://github.com/mmistakes/so-simple-theme/issues"
+    "url": "https://github.com/FreifunkWesterwald/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
