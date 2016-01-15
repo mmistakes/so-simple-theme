@@ -33,17 +33,19 @@ Programme benötigt:
 - [bundler](http://bundler.io/)
 - [nodejs](https://nodejs.org)
 - [bower](http://bower.io)
+- [grunt](http://gruntjs.com/) (nur für Anpassungen am Source Code)
 
 Falls nicht vorhanden, können diese z.B. unter Arch-Linux folgendermaßen installiert werden. Bei andern Systemen müssen statt pacman die individuellen Paketmanager verwendet werden, bzw. unter Windows die Programme einzeln von den Hersteller-Seiten geladen werden.
 
 ```bash
 sudo pacman -S git
-sudo pacman -S nodejs
-sudo pacman -S npm
 sudo pacman -S ruby
 gem install bundler
 gam install jekyll
+sudo pacman -S nodejs
+sudo pacman -S npm #Wird bei anderen Paketmanagern oft mit node installiert
 sudo npm install -g bower
+sudo npm install -g grunt-cli
 ```
 
 #### Herunterladen
@@ -55,17 +57,25 @@ cd Jekyll-Website
 ```
 #### Erstellen der Seite
 
-```bash
-bundle update
+### Installation der Abhängigkeiten
+```sh
+npm install
 bower install
-#jekyll build kann übersprungen werden wenn später der Server verwendet wird
+bundle update
+```
+
+### Erstellen der Seite
+```bash
+#grunt kann übersprungen werden, wenn später 'grunt watch' werdenet wird
+grunt
+#jekyll build kann übersprungen werden, wenn später der Server verwendet wird
 bundle exec jekyll build
 ```
 
 ### Server starten und auf Änderungen warten
 
 ```bash
-bundle exec jekyll serve --watch
+bundle exec jekyll serve --watch & grunt watch
 ```
 
 Die Seite kann dann im browser unter http://localhost:4000/ aufgerufen werden.
