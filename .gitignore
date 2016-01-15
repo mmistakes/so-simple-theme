@@ -7,17 +7,18 @@ tmp
 
 .DS_Store
 
-#sublime text
+#editors text
 *.sublime-project
 *.sublime-workspace
-
 codekit-config.json
 
 #ruby stuff
 Gemfile.lock
 messages.pot
 
+#npm
 node_modules
+npm-debug.log
 
 #Bower
 /assets/bower_components
