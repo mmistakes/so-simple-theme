@@ -20,6 +20,9 @@ erzeugt und jemand aus dem Team muss die Änderungen noch bestätigen.
 Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die Seite [lokal einzurichten](#lokale-installation).
 
 
+## Wo gibts was zu tun?
+Alle Aufgaben werden [hier](https://github.com/FreifunkWesterwald/issues/issues) verwaltet.
+
 ## Lokale Installation
 #### Voraussetzungen
 Um die Website bei sich lokal zum laufen zu bringen werden folgende
