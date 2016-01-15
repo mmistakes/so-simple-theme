@@ -94,7 +94,7 @@ Papers
 Books
 ------
 
-* Richard McElreath (2015) [<i>Statistical Rethinking: A Bayesian
+* Richard McElreath (2016) [<i>Statistical Rethinking: A Bayesian
   Course with Examples in R and
   Stan</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
   &amp; Hall/CRC Press.    <br /> free online: Chapters 1 and 12; code examples; video tutorials
