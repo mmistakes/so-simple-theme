@@ -94,6 +94,13 @@ Papers
 Books
 ------
 
+* Richard McElreath (2015) [<i>Statistical Rethinking: A Bayesian
+  Course with Examples in R and
+  Stan</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
+  &amp; Hall/CRC Press.  
+  <br /> free online: Chapters 1 and 12; code examples; video tutorials
+  (follow title link above)
+
 * Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
   Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian Data
   Analysis in Ecology Using Linear Models with R, BUGS, and
@@ -108,7 +115,7 @@ Books
 * Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki
   Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis, Third
   Edition</i>](http://www.amazon.com/gp/product/1439840954).  Chapman
-  &amp; Hall/CRC. 					  
+  &amp; Hall/CRC Press. 					  
   <br /> free online: [Appendix C: Computation in R
   and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
 
