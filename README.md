@@ -17,14 +17,15 @@ gehörigen [Markdown](http://markdown.de/) Dateien angepasst werden.
 Das kann man z.B. machen in dem man einfach direkt in GitHub auf bearbeiten klickt.
 Wenn man noch nicht im Team ist, wird dann wird ein Pull-Request
 erzeugt und jemand aus dem Team muss die Änderungen noch bestätigen.
-Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die Seite [lokal einzurichten](#lokale-installation).
+Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die
+Seite [lokal einzurichten](#lokale-installation).
 
 
 ## Wo gibts was zu tun?
 Alle Aufgaben werden [hier](https://github.com/FreifunkWesterwald/issues/issues) verwaltet.
 
 ## Lokale Installation
-#### Voraussetzungen
+### Voraussetzungen
 Um die Website bei sich lokal zum laufen zu bringen werden folgende
 Programme benötigt:
 - [git](https://git-scm.com/)
@@ -35,7 +36,10 @@ Programme benötigt:
 - [bower](http://bower.io)
 - [grunt](http://gruntjs.com/) (nur für Anpassungen am Source Code)
 
-Falls nicht vorhanden, können diese z.B. unter Arch-Linux folgendermaßen installiert werden. Bei andern Systemen müssen statt pacman die individuellen Paketmanager verwendet werden, bzw. unter Windows die Programme einzeln von den Hersteller-Seiten geladen werden.
+Falls nicht vorhanden, können diese z.B. unter Arch-Linux folgendermaßen
+installiert werden. Bei andern Systemen müssen statt pacman die individuellen
+Paketmanager verwendet werden, bzw. unter Windows die Programme einzeln von
+den Hersteller-Seiten geladen werden.
 
 ```bash
 sudo pacman -S git
@@ -48,14 +52,14 @@ sudo npm install -g bower
 sudo npm install -g grunt-cli
 ```
 
-#### Herunterladen
-Um später die Änderungen auch wieder hochzuladen ist sehr zu empfehlen git zu verwenden
+### Herunterladen
+Um später die Änderungen auch wieder hochladen zu können, ist es sehr zu
+empfehlen git zu verwenden.
 
 ```bash
 git clone https://github.com/FreifunkWesterwald/Jekyll-Website.git
 cd Jekyll-Website
 ```
-#### Erstellen der Seite
 
 ### Installation der Abhängigkeiten
 ```sh
@@ -78,4 +82,4 @@ bundle exec jekyll build
 bundle exec jekyll serve --watch & grunt watch
 ```
 
-Die Seite kann dann im browser unter http://localhost:4000/ aufgerufen werden.
+Die Seite kann dann im browser unter [http://localhost:4000/](http://localhost:4000/) aufgerufen werden.
