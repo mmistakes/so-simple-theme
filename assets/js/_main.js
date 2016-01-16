@@ -1,5 +1,22 @@
-/*! Plugin options and other jQuery stuff */
 
+function videoWrapper( element, videoUrl, event ) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    element.outerHTML = "<iframe "
+        +"src=\"" + videoUrl + "\" "
+        +"height=\"240\" "
+        +"width=\"425\" "
+        +"class=\"vshare__center\" "
+        +"frameborder=\"0\" "
+        +"scrolling=\"no\" "
+        +"allowfullscreen "
+    +"></iframe>"
+
+    $("article").fitVids();
+}
+
+/*! Plugin options and other jQuery stuff */
 // Responsive Nav
 var navigation = responsiveNav("#site-nav", { // Selector: The ID of the wrapper
   animate: false, // Boolean: Use CSS3 transitions, true or false
