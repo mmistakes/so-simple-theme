@@ -24,6 +24,7 @@
     "grunt-contrib-watch": "~0.5.2",
     "grunt-gulp": "^0.1.0",
     "grunt-svgmin": "~0.2.0",
+    "gulp": "^3.9.0",
     "gulp-hypher": "^1.0.2",
     "hyphenation.de": "^0.2.1"
   }
