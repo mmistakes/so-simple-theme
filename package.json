@@ -2,7 +2,7 @@
   "name": "Jekyll-Website",
   "author": "Freifunk Westerwald <general@freifunk-westerwald.de> (https://freifunk-westerwald.de)",
   "contributors": [
-      "MoritzKn <moritz@freifunk-westerwald.de>"
+    "MoritzKn <moritz@freifunk-westerwald.de>"
   ],
   "homepage": "https://freifunk-westerwald.de",
   "repository": {
@@ -18,10 +18,13 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-imagemin": "~0.2.0",
     "grunt-contrib-jshint": "~0.6.3",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "grunt-gulp": "^0.1.0",
+    "grunt-svgmin": "~0.2.0",
+    "gulp-hypher": "^1.0.2",
+    "hyphenation.de": "^0.2.1"
   }
 }

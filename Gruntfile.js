@@ -1,4 +1,9 @@
 'use strict';
+
+var gulp = require('gulp');
+var hypher = require('gulp-hypher');
+var hypher_de = require('hyphenation.de')
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -47,12 +52,25 @@ module.exports = function(grunt) {
         }]
       }
     },
+    gulp: {
+      hypher: function() {
+        return gulp.src(['_site/*/*.html', '_site/*.html'])
+		  .pipe(hypher(hypher_de))
+		  .pipe(gulp.dest('_site'));
+      },
+    },
     watch: {
       js: {
         files: [
           '<%= jshint.all %>'
         ],
         tasks: ['uglify']
+      },
+      html: {
+        files: [
+          '_site/*.html'
+        ],
+        tasks: ['gulp']
       }
     },
     clean: {
@@ -69,13 +87,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-gulp');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
     'uglify',
     'imagemin',
-    'svgmin'
+    'svgmin',
+    'gulp',
   ]);
   grunt.registerTask('dev', [
     'watch'
