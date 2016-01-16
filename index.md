@@ -19,7 +19,7 @@ Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz
 verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins
 Internet steht meistens zur Verfügung.
 
-<a class="video-wrapper" target="blank_" webkitallowfullscreen mozallowfullscreen allowfullscreen
+<a class="video-wrapper" target="blank_"
     onclick="videoWrapper( this, '//player.vimeo.com/video/64814620?autoplay=1', event ); return false;"
     href="https://vimeo.com/64814620">
     <img src="/images/freifunk-verbindet-video-vorschaubild.jpg" alt="Video Vorschaubild"/>
