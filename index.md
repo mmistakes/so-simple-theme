@@ -19,7 +19,16 @@ Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz
 verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins
 Internet steht meistens zur Verfügung.
 
-<iframe src="//player.vimeo.com/video/64814620" height="240" width="425" class="vshare__center" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+<a class="video-wrapper" target="blank_" webkitallowfullscreen mozallowfullscreen allowfullscreen
+    onclick="videoWrapper( this, '//player.vimeo.com/video/64814620?autoplay=1', event ); return false;"
+    href="https://vimeo.com/64814620">
+    <img src="/images/freifunk-verbindet-video-vorschaubild.jpg" alt="Video Vorschaubild"/>
+    <span class="overlay">
+        <i class="fa fa-play-circle"></i>
+        <span class="action">Video Starten</span>
+        <span class="hint">(Wird von vimeo.com gestreamt)</span>
+    </span>
+</a>
 
 # Aufbau Freifunk Westerwald
 
