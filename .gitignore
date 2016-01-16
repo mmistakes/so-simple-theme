@@ -13,7 +13,6 @@ tmp
 codekit-config.json
 
 #ruby stuff
-Gemfile.lock
 messages.pot
 
 #npm
