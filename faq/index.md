@@ -33,6 +33,7 @@ Gar nicht. Wir sind nicht davon angetan, wenn Freifunk für kriminelle Zwecke mi
 <style>
     h3 {
         position: relative;
+        cursor: pointer;
     }
     h3 > i {
         position: absolute;
