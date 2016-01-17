@@ -60,19 +60,19 @@ h1 {
 	@include font-size(36);
 }
 h2 {
-	@include font-size(32);
+	@include font-size(30);
 }
 h3 {
-	@include font-size(28);
-}
-h4 {
 	@include font-size(24);
 }
-h5 {
+h4 {
 	@include font-size(20);
 }
+h5 {
+	@include font-size(16);
+}
 h6 {
-	@include font-size(18);
+	@include font-size(14);
 }
 
 /* underlined text */
