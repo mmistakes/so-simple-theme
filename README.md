@@ -72,9 +72,9 @@ bundle update
 ```bash
 #grunt kann übersprungen werden, wenn später 'grunt watch' werdenet wird
 grunt
-grunt gulp:hypher #Sollte eigentlich auch schon mit grunt ausgeführt werden, macht es aber nicht immer
 #jekyll build kann übersprungen werden, wenn später der Server verwendet wird
 bundle exec jekyll build
+grunt gulp:hypher
 ```
 
 ### Server starten und auf Änderungen warten
