@@ -81,6 +81,7 @@ grunt gulp:hypher
 
 ```bash
 bundle exec jekyll serve --watch & grunt watch
+#Der jekyll Server wird dabei im Hintergrund gestartet, zum beenden muss der Prozess einzeln beendet werden
 ```
 
 Die Seite kann dann im browser unter [http://localhost:4000/](http://localhost:4000/) aufgerufen werden.
