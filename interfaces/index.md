@@ -9,13 +9,13 @@ image:
   creditlink:
 ---
 
-* [RStan v2.8.0](/interfaces/rstan.html)
+* [RStan](/interfaces/rstan.html)
   <span class="note">(R)</span>
 
-* [PyStan v2.8.0](/interfaces/pystan.html)
+* [PyStan](/interfaces/pystan.html)
   <span class="note">(Python)</span>
 
-* [CmdStan v2.9.0](/interfaces/cmdstan.html)
+* [CmdStan](/interfaces/cmdstan.html)
   <span class="note">(shell, command-line terminal)</span>
 
 * [MatlabStan](/interfaces/matlab-stan.html)

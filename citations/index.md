@@ -52,13 +52,13 @@ RStan
 =====
 
 Stan Development Team. 2015. *RStan: the R interface to Stan,
-Version 2.8.0* http://mc-stan.org/rstan.html.
+Version 2.9.0* http://mc-stan.org/rstan.html.
 
     @misc{rstan-software:2015,
       author = {{Stan Development Team}},
       year = {2015},
       title = {RStan: the R interface to Stan,
-               Version 2.8.0},
+               Version 2.9.0},
       url = {http://mc-stan.org/rstan.html}
     }
 
