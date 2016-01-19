@@ -161,6 +161,32 @@ Papers Using Stan
 =================
 
 <pre>
+@Article{charpentier2016,
+  author = {Charpentier, Emmanuel and Looten, Vincent
+            and Fahlgren, Bj{\"o}rn and Barna, Alexandre
+            and Guillevin, Lo{\"i}c},
+  title = {Meta-analytic estimation of measurement variability  
+           and assessment of its impact on decision-making:
+           the case of perioperative haemoglobin concentration monitoring",
+  journal = {BMC Medical Research Methodology},
+  year = {2016},
+  volume= {16},
+  number= {1},
+  pages= {1--14}
+}
+
+@article{fawcett2016,
+  author = {Jonathan M. Fawcett and Michael A. Lawrence and Tracy L. Taylor},
+  title = {The representational consequences of intentional forgetting: 
+           {Impairments} to both the probability and fidelity of
+           long-term memory},
+  journal = {Journal Of Experimental Psychology: General},
+  volume = {145},
+  number = {1},
+  pages = {56-81},
+  year = {2016},
+}
+
 @article{Smits:2015,
   author = {Peter D.\ Smits},
   year = {2015},  
