@@ -2,7 +2,7 @@
 layout: page
 title: Theme Setup
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
-modified: 2014-08-08T20:04:41.231140-04:00
+modified: 2016-01-19
 image:
   feature: so-simple-sample-image-6.jpg
   credit: WeGraphics
@@ -153,7 +153,7 @@ To set what links appear in the top navigation edit `_data/navigation.yml`. Use 
 While completely optional, I've included Octopress and some starter templates to automate the creation of new posts and pages. To take advantage of it start by installing the [Octopress](https://github.com/octopress/octopress) gem if it isn't already.
 
 {% highlight bash %}
-$ gem install octopress --pre
+$ gem install octopress
 {% endhighlight %}
 
 ### New Post
@@ -167,7 +167,7 @@ $ octopress new post "Post Title"
 Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
 
 {% highlight bash %}
-$ octopress new post "New Post Title" --dir posts
+$ octopress new post "New Article Title" --dir articles
 {% endhighlight %}
 
 ### New Page
