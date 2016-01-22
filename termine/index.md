@@ -3,6 +3,7 @@ layout: page
 excerpt: "Termine, Treffen, Techniktreffen, Kalender, Stammtisch"
 search_omit: false
 title: Unsere Termine
+calendar: true
 image:
   feature: background_calendar.jpg
   credit: CC-BY Dafne Chloet
