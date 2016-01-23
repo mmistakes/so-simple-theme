@@ -14,9 +14,7 @@ Zur Erstellung der Html Seiten wird der 'static site generator'
 Jeder ist herzlich eingeladen Informationen hinzuzufügen oder Fehler zu korrigieren.
 Um die Texte auf der Seite zu ändern müssen nur die dazu
 gehörigen [Markdown](http://markdown.de/) Dateien angepasst werden.  
-Das kann man z.B. machen in dem man einfach direkt in GitHub auf bearbeiten klickt.
-Wenn man noch nicht im Team ist, wird dann wird ein Pull-Request
-erzeugt und jemand aus dem Team muss die Änderungen noch bestätigen.
+Das kann man z.B. machen in dem man einfach direkt in GitHub auf bearbeiten klickt, dann wird ein Pull-Request erzeugt und jemand aus dem Team muss die Änderungen noch bestätigen.
 Wenn man die Änderungen direkt in der Seite sehen möchte empfiehlt es sich die
 Seite [lokal einzurichten](#lokale-installation).
 
@@ -26,7 +24,7 @@ Alle Aufgaben werden [hier](https://github.com/FreifunkWesterwald/issues/issues)
 
 ## Lokale Installation
 ### Voraussetzungen
-Um die Website bei sich lokal zum laufen zu bringen werden folgende
+Um die Website bei sich lokal zum laufen zu bringen, werden folgende
 Programme benötigt:
 - [git](https://git-scm.com/)
 - [ruby](https://www.ruby-lang.org/de/)
@@ -65,7 +63,7 @@ cd Jekyll-Website
 ```sh
 npm install
 bower install
-bundle update
+bundle install
 ```
 
 ### Erstellen der Seite
@@ -84,4 +82,4 @@ bundle exec jekyll serve --watch & grunt watch
 #Der jekyll Server wird dabei im Hintergrund gestartet, zum beenden muss der Prozess einzeln beendet werden
 ```
 
-Die Seite kann dann im browser unter [http://localhost:4000/](http://localhost:4000/) aufgerufen werden.
+Die Seite kann dann im browser unter [localhost:4000](http://localhost:4000/) aufgerufen werden.
