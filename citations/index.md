@@ -209,7 +209,6 @@ Papers Using Stan
   title = {Expected time-invariant effects of biological traits     
            on mammal species duration},
   journal = {PNAS},
-  doi = {10.1073/pnas.1510482112}
 }
 </pre>
 <pre>
@@ -252,12 +251,12 @@ Papers Using Stan
 <pre>
 @article{FrankEtAl2015,
   author = {Stefan L. Frank and Thijs Trompenaars and Shravan Vasishth},
+  year = {2015},
   title = {Cross-linguistic differences in processing double-embedded
            relative clauses: {W}orking-memory constraints or language
            statistics?},
-  year = {2015},
-  pages = {to appear},
   journal = {Cognitive Science},
+  pages = {to appear}
 }
 </pre>
 <pre>
@@ -271,7 +270,7 @@ Papers Using Stan
           Representations in Memory},
   volume = {5},
   number = {1237},
-  pages = {n/a},
+  pages = {n/a}
 }
 </pre>
 <pre>
@@ -283,8 +282,7 @@ Papers Using Stan
   journal = {Canadian Journal of Fisheries and Aquatic Sciences},
   volume = {71},
   number = {7},
-  pages = {973--983},
-  doi = {10.1139/cjfas-2013-0645}
+  pages = {973--983}
 }
 </pre>
 <pre>
@@ -314,20 +312,17 @@ Papers Using Stan
 </pre>
 <pre>
 @article{AuthierEtAl:2014,
-  author={Authier, Matthieu and Peltier, Hélène
+  author = {Authier, Matthieu and Peltier, Hélène
           and Dorémus, Ghislain and Dabin, Willy
           and Van Canneyt, Olivier and Ridoux, Vincent},
-  year={2014},
-  title={How much are stranding records affected by variation in
+  year = {2014},
+  title = {How much are stranding records affected by variation in
     reporting rates? A case study of small delphinids in the
     {B}ay of {B}iscay},
-  journal={Biodiversity and Conservation},
-  volume={23},
-  number={10},
-  pages={2591-2612},
-  doi={10.1007/s10531-014-0741-3},
-  url={http://dx.doi.org/10.1007/s10531-014-0741-3},
-  keywords={Monitoring; Marine mammal; Strandings},
+  journal = {Biodiversity and Conservation},
+  volume = {23},
+  number = {10},
+  pages = {2591--2612}
 }
 </pre>
 <pre>
@@ -340,9 +335,7 @@ Papers Using Stan
   booktitle = {Proceedings of the Eleventh {UAI} {B}ayesian Modeling
       Applications Workshop, {CEUR} Workshop Proceedings},
   volume = {1218},
-  pages = {79--88},
-  url = {http://ceur-ws.org/Vol-1218/bmaw2014_paper_8.pdf},
-  note = {code at http://becs.aalto.fi/en/research/bayes/diabcvd/}
+  pages = {79--88}
 }
 </pre>
 <pre>
@@ -355,21 +348,19 @@ Papers Using Stan
            protracted abstinence: evidence from computational
            modeling with pure users.}
   journal =  {Frontiers in Psychology},
-  volume = {5}, number= {849},
-  doi = {10.3389/fpsyg.2014.00849},
-  url = {http://journal.frontiersin.org/Journal/10.3389/fpsyg.2014.00849/abstract}
+  volume = {5},   
+  number= {849}
 }
 </pre>
 <pre>
 @article{husain2014strong,
-  title={Strong Expectations Cancel Locality Effects: {Evidence from Hindi}},
   author={Husain, Samar and Vasishth, Shravan and Srinivasan, Narayanan},
+  year={2014},
+  title={Strong Expectations Cancel Locality Effects: {Evidence from Hindi}},
   journal={PLoS ONE},
   volume={9},
   number={7},
-  pages={e100986},
-  year={2014},
-  publisher={Public Library of Science}
+  pages={e100986}
 }
 </pre>
 <pre>
@@ -381,8 +372,7 @@ Papers Using Stan
   title = {Rapid changes in growth, condition, size and age of
            small pelagic fish in the {M}editerranean},
   journal = {Mar. Biol.},
-  pages = {1--14},
-  doi = {10.1007/s00227-014-2463-1}
+  pages = {1--14}
 }
 </pre>
 <pre>
@@ -393,8 +383,7 @@ Papers Using Stan
   title = {Ecoinformatics Reveals Effects of Crop Rotational Histories on Cotton Yield},
   year = {2014},
   month = {01},
-  volume = {9},
-  url = {http://dx.doi.org/10.1371%2Fjournal.pone.0085710}
+  volume = {9}
 }
 </pre>
 <pre>
@@ -493,18 +482,16 @@ Papers Using Stan
 </pre>
 <pre>
 @inproceedings{Sutherland:2013:ALS:2487575.2487627,
- author = {Sutherland, Dougal J. and P\'{o}czos, Barnab\'{a}s
-           and Schneider, Jeff},
- year = {2013},
- title = {Active learning and search on low-rank matrices},
- booktitle = {Proceedings of the 19th ACM SIGKDD International
-              Conference on Knowledge Discovery and Data Mining},
- series = {KDD '13},
- location = {Chicago, Illinois, USA},
- pages = {212--220},
- numpages = {9},
- url = {http://doi.acm.org/10.1145/2487575.2487627},
- publisher = {ACM}
+  author = {Sutherland, Dougal J. and P\'{o}czos, Barnab\'{a}s
+            and Schneider, Jeff},
+  year = {2013},
+  title = {Active learning and search on low-rank matrices},
+  booktitle = {Proceedings of the 19th ACM SIGKDD International
+               Conference on Knowledge Discovery and Data Mining},
+  series = {KDD '13},
+  pages = {212--220},
+  publisher = {ACM},
+  location = {Chicago, Illinois, USA}
 }
 </pre>
 <pre>
@@ -529,8 +516,6 @@ Papers Using Stan
          {R}hodophtya) from geographically separated locations
          of {J}apan},
   journal={Journal of Applied Phycology},
-  url={http://dx.doi.org/10.1007/s10811-013-0030-7},
-  publisher={Springer Netherlands},
   pages={1-10}
 }
 </pre>
@@ -550,16 +535,15 @@ Software using Stan
 Theses using Stan
 =================
 
-<!-- Cavanaugh, Grant, "Direct Climate Markets: the Prospects for Trading Teleconnection Risk" (2013). Theses and Dissertations - - Agricultural Economics.Paper 16. -->
 <pre>
 @PhDThesis{
   author = {Grant Cavanaugh},
   year = {2013},
-  title = {Direct Climate Markets: the Prospects for Trading Teleconnection Risk},
+  title = {Direct Climate Markets: the Prospects for Trading
+           Teleconnection Risk},
   note = {Theses and Dissertations --- Agricultural Economics, Paper 16},
   school = {University of Kentucky},
-  type = {Ph.D.},
-  url = {http://uknowledge.uky.edu/agecon_etds/16}
+  type = {Ph.D.}
 }
 </pre>
 <pre>
@@ -570,10 +554,8 @@ Theses using Stan
            iz psiholingvisti\v{c}kih eksperimenata (Robustness of
            methods for estimating regression parameters: Case of
            psycholinguistics data)},
-    school = {Univerzitet u Novom Sadu},
-    type = {Master rad},
-    address = {Srbija, Serbia},
-    url = {http://stat.uns.ac.rs/masterThesis/NemanjaVaci_MasterRad.pdf}
+   school = {Univerzitet u Novom Sadu},
+   type = {Master rad}
 }
 </pre>
 
@@ -590,8 +572,7 @@ Papers Citing Stan
   title = {The current state of {B}ayesian methods in medical
            product development: survey results and recommendations
            from the {DIA Bayesian Scientific Working Group}},
-  journal = {Pharmaceutical Statistics},
-  url = {http://dx.doi.org/10.1002/pst.1595},
+  journal = {Pharmaceutical Statistics}
 }
 </pre>
 <pre>
@@ -642,7 +623,6 @@ Papers Citing Stan
   journal = {Methods in Ecology and Evolution},
   volume = {4},
   number = {6},
-  url = {http://dx.doi.org/10.1111/2041-210X.12044},
   pages = {501--512}
 }
 </pre>
