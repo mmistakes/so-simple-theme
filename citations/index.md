@@ -120,7 +120,7 @@ Papers about Stan
 =================
 
 <pre>
-@article{Hoffman-Gelman:2011,
+@article{hoffman-gelman:2011,
     author = {Matthew D. Hoffman and Andrew Gelman},
     year = {2011}
     title = {The No-{U}-Turn Sampler: Adaptively Setting Path Lengths
@@ -161,7 +161,7 @@ Papers Using Stan
 =================
 
 <pre>
-@Article{charpentier2016,
+@Article{charpentier:2016,
   author = {Charpentier, Emmanuel and Looten, Vincent
             and Fahlgren, Bj{\"o}rn and Barna, Alexandre
             and Guillevin, Lo{\"i}c},
@@ -176,7 +176,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{fawcett2016,
+@article{fawcett:2016,
   author = {Jonathan M. Fawcett and Michael A. Lawrence and Tracy L. Taylor},
   year = {2016},
   title = {The representational consequences of intentional forgetting: 
@@ -189,7 +189,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@Article{coffeng2015,
+@Article{coffeng:2015,
   author = {Coffeng, Luc and Bakker, Roel and Montresor, Antonio
             and de Vlas, Sake},
   year = {2015},
@@ -203,7 +203,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{Smits:2015,
+@article{smits:2015,
   author = {Peter D.\ Smits},
   year = {2015},  
   title = {Expected time-invariant effects of biological traits     
@@ -212,7 +212,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@inproceedings{SmylZhang:2015,
+@inproceedings{smyl-zhang:2015,
   author = {Slawek Smyl and Qinqin Zhang},
   year = {2015},
   title = {Fitting and Extending Exponential Smoothing Models
@@ -223,7 +223,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{bigorgne2015chromosomal,
+@article{bigorgne-etal:2015,
   title={Chromosomal damage and {EROD} induction in tree swallows
          (\textit{Tachycineta bicolor}) along the {U}pper
          {M}ississippi {R}iver, {M}innesota, {U}SA},
@@ -237,7 +237,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{SteinschneiderLall:2015,
+@article{steinschneider-lall:2015,
   author = {Scott Steinschneider
             and Upmanu Lall},
   year = {2015},
@@ -249,7 +249,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{FrankEtAl2015,
+@article{frank-etal:2015,
   author = {Stefan L. Frank and Thijs Trompenaars and Shravan Vasishth},
   year = {2015},
   title = {Cross-linguistic differences in processing double-embedded
@@ -260,7 +260,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{HofmeisterVasishth2014,
+@article{hofmeister-vasishth:2014,
   author = {Philip Hofmeister and Shravan Vasishth},
   year = {2014},
   title = {Distinctiveness and encoding effects in online sentence
@@ -274,7 +274,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{thorson2014,
+@article{thorson-etal:2014,
   author = {Thorson, James T. and Jensen, Olaf P. and Zipkin, Elise F.},
   year = {2014},
   title = {How variable is recruitment for exploited marine fishes?
@@ -286,7 +286,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{BeheimEtAl:2014,
+@article{beheim-etal:2014,
   author = {Bret A Beheim and Calvin Thigpen and Richard McElreath},
   Title = {Strategic Social Learning And The Population Dynamics Of
            Human Behavior: The Game Of {G}o},
@@ -297,21 +297,20 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{WeberEtAl:2014,
+@article{weber-etal:2014,
   author={Weber, Sebastian and Carpenter, Bob
           and Lee, Daniel and Bois, Frederic Y.
           and Gelman, Andrew and Racine, Amy},
   year = {2014},
-  title={Drug Disease Model with applications for incorporating
-    longitudinal data summaries from publications},
+  title = {Drug Disease Model with applications for incorporating
+           longitudinal data summaries from publications},
   journal = {PAGE --- Abstracts of the Annual Meeting of the Population
              Approach Group in Europe},
-  volume = {23},
-  url = {http://www.page-meeting.org/?abstract=3200}
+  volume = {23}
 }
 </pre>
 <pre>
-@article{AuthierEtAl:2014,
+@article{authier-etal:2014,
   author = {Authier, Matthieu and Peltier, Hélène
           and Dorémus, Ghislain and Dabin, Willy
           and Van Canneyt, Olivier and Ridoux, Vincent},
@@ -326,7 +325,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@{Petola-EtaAl:2014,
+@inbook{peltola-etal:2014,
   author = {Peltola and Havulinna and Salomaa and Vehtari},
   year = {2014},
   title = {Hierarchical {B}ayesian Survival Analysis and Projective
@@ -339,7 +338,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{AhnEtAl:2014,
+@article{ahn-etal:2014,
   author = {W.~Y. Ahn and G. Vasilev and S.~H. Lee
             and J.~R. Busemeyer and J.~K. Kruschke
             and A. Bechara and J. Vassileva},
@@ -353,7 +352,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{husain2014strong,
+@article{husain-etal-2014,
   author={Husain, Samar and Vasishth, Shravan and Srinivasan, Narayanan},
   year={2014},
   title={Strong Expectations Cancel Locality Effects: {Evidence from Hindi}},
@@ -364,7 +363,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{
+@article{vanbeveren-etal:2014,
   author = {Van Beveren, E. and Bonhommeau, S. and Fromentin, J.-M.
             and Bigot, J.-L. and Bourdeix, J.-H. and Brosset, P.
             and Roos D. and Saraux, C.},
@@ -376,7 +375,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{10.1371/journal.pone.0085710,
+@article{meisner-rosenheim:2014,
   author = {Meisner, Matthew H. and Rosenheim, Jay A.},
   journal = {PLoS ONE},
   publisher = {Public Library of Science},
@@ -387,7 +386,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@inproceedings{ferraro-2013-lda-ppl,
+@inproceedings{ferraro-etal:2013
   author = {Francis Ferraro, Benjamin Van Durme and Yanif Ahmad},
   title = {Evaluating Progress in Probabilistic Programming through
            Topic Models},
@@ -396,7 +395,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{Wallisetal:2014,
+@article{wallisetal-etal:2014,
   author = {Thomas S.A. Wallis
             and Christopher Patrick Taylor
             and Jennifer Wallis
@@ -412,7 +411,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{cowling2012preliminary,
+@article{cowling-etal-2012,
   author={Cowling, BJ and Freeman, G and Wong, JY and Wu, P
           and Liao, Q and Lau, EH and Wu, JT and Fielding, R
           and Leung, GM},
@@ -427,7 +426,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{SchroederetalPNAS2013,
+@article{schroeder-etal:2013,
   author = {Kari B Schroeder and Richard McElreath and Daniel Nettle},
   year = {2013},
   title = {Variants at serotonin transporter and {2A}
@@ -440,7 +439,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{HouseetalPNAS2013,
+@article{houseetal-etal:2013,
   author = {Bailey R House and Joan B Silk and Joseph Henrich
             and H Clark Barrett and Brooke Scelza and Adam Boyette
             and Barry Hewlett and Richard McElreath
@@ -451,7 +450,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{McElreathKosterHumanNature2012,
+@article{mcelreath-etal:2012,
   author = {Richard McElreath and Jeremy Koster},
   year = {2013},
   title = {Using Multilevel Models to Estimate Variation in Foraging
@@ -462,7 +461,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{sipillaigelman2013,
+@article{si-etal:2013,
   author = {Yajuan Si and Natesh Pillai and Andrew Gelman},
   year = {2013},
   title = {Bayesian nonparametric weighted sampling inference},
@@ -471,7 +470,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@inproceedings{taylor2013selection,
+@inproceedings{taylor-etal:2013,
   author={Taylor, Sean J and Bakshy, Eytan and Aral, Sinan},
   year={2013},
   title={Selection effects in online sharing: consequences  
@@ -481,7 +480,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@inproceedings{Sutherland:2013:ALS:2487575.2487627,
+@inproceedings{sutherland-etal:2013,
   author = {Sutherland, Dougal J. and P\'{o}czos, Barnab\'{a}s
             and Schneider, Jeff},
   year = {2013},
@@ -508,7 +507,7 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{
+@article{terada-etal:2013,
   author={Terada, Ryuta and Inoue, Shingo and Nishihara, Gregory N.},
   year={2013},
   title={The effect of light and temperature on the growth and
@@ -524,7 +523,7 @@ Software using Stan
 ===================
 
 <pre>
-@manual{McElreath:2014,
+@manual{mcelreath:2014,
     author = {Richard McElreath},
     year = {2014},
     title = {rethinking: Statistical Rethinking book package},
@@ -536,7 +535,7 @@ Theses using Stan
 =================
 
 <pre>
-@PhDThesis{
+@PhDThesis{cavanaugh:2013,
   author = {Grant Cavanaugh},
   year = {2013},
   title = {Direct Climate Markets: the Prospects for Trading
@@ -547,7 +546,7 @@ Theses using Stan
 }
 </pre>
 <pre>
-@MastersThesis{
+@MastersThesis{vaci:2013,
   author = {Nemanja Vaci},
   year = {2013},
   title = {Poe{\dj}enje metoda ocenjivanja parametara na podacima
@@ -563,7 +562,7 @@ Papers Citing Stan
 ==================
 
 <pre>
-@article{PST:PST1595,
+@article{natanegara-etal:2013,
   author = {Natanegara, Fanni and Neuenschwander, Beat
             and Seaman, John W. and Kinnersley, Nelson
             and Heilmann, Cory R. and Ohlssen, David
@@ -576,7 +575,7 @@ Papers Citing Stan
 }
 </pre>
 <pre>
-@article{2013arXiv1306.0202K,
+@article{kronberger:2013,
   author = {Kronberger, G.},
   year = {2013},
   title = {Declarative Modeling and {B}ayesian Inference of Dark Matter
@@ -587,7 +586,7 @@ Papers Citing Stan
 }
 </pre>
 <pre>
-@article{2013arXiv1306.3277M,
+@article{murray:2013,
   author = {Murray, L.~M.},
   year = {2013},
   title = {Bayesian State-Space Modelling on High-Performance Hardware
@@ -598,7 +597,7 @@ Papers Citing Stan
 }
 </pre>
 <pre>
-@article{2013arXiv1301.6064B,
+@article{byrne-girolami:2013,
   author = {Byrne, S. and Girolami, M.},
   year = 2013,
   title = {Geodesic {M}onte {C}arlo on Embedded Manifolds},
@@ -608,7 +607,7 @@ Papers Citing Stan
 }
 </pre>
 <pre>
-@article {MEE3:MEE312044,
+@article {bolker-et-al:2013,
   author = {Bolker, Benjamin M. and Gardner, Beth and Maunder, Mark
             and Berg, Casper W. and Brooks, Mollie and Comita, Liza
             and Crone, Elizabeth and Cubaynes, Sarah and Davies, Trevor
@@ -627,7 +626,7 @@ Papers Citing Stan
 }
 </pre>
 <pre>
-@article{2012arXiv1210.7477N,
+@article{nishihara:2012,
   author = {Nishihara, R. and Murray, I. and Adams, R.~P.},
   year = 2012,
   title = {Parallel MCMC with Generalized Elliptical Slice Sampling},
@@ -641,7 +640,7 @@ Papers using NUTS
 =================
 
 <pre>
-@inproceedings{Goodwin:2015,
+@inproceedings{goodwin:2015,
   author = {Nigel Goodwin},
   year = {2015},
   title = {Bridging the Gap Between Deterministic and Probabilistic
