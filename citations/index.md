@@ -165,28 +165,44 @@ Papers Using Stan
   author = {Charpentier, Emmanuel and Looten, Vincent
             and Fahlgren, Bj{\"o}rn and Barna, Alexandre
             and Guillevin, Lo{\"i}c},
+  year = {2016},
   title = {Meta-analytic estimation of measurement variability  
            and assessment of its impact on decision-making:
            the case of perioperative haemoglobin concentration monitoring",
   journal = {BMC Medical Research Methodology},
-  year = {2016},
   volume= {16},
   number= {1},
   pages= {1--14}
 }
-
+</pre>
+<pre>
 @article{fawcett2016,
   author = {Jonathan M. Fawcett and Michael A. Lawrence and Tracy L. Taylor},
+  year = {2016},
   title = {The representational consequences of intentional forgetting: 
            {Impairments} to both the probability and fidelity of
            long-term memory},
   journal = {Journal Of Experimental Psychology: General},
   volume = {145},
   number = {1},
-  pages = {56-81},
-  year = {2016},
+  pages = {56-81}
 }
-
+</pre>
+<pre>
+@Article{coffeng2015,
+  author = {Coffeng, Luc and Bakker, Roel and Montresor, Antonio
+            and de Vlas, Sake},
+  year = {2015},
+  title = {Feasibility of controlling hookworm infection through preventive 
+           chemotherapy: a simulation study using the individual-based
+          {WORMSIM} modelling framework},
+  journal = {Parasites & Vectors},
+  volume = {8},
+  number = {1},
+  pages = {541}
+}
+</pre>
+<pre>
 @article{Smits:2015,
   author = {Peter D.\ Smits},
   year = {2015},  
@@ -195,8 +211,7 @@ Papers Using Stan
   journal = {PNAS},
   doi = {10.1073/pnas.1510482112}
 }
-<pre>
-
+</pre>
 <pre>
 @inproceedings{SmylZhang:2015,
   author = {Slawek Smyl and Qinqin Zhang},
@@ -208,7 +223,6 @@ Papers Using Stan
   location = {Riverside, California}
 }
 </pre>
-
 <pre>
 @article{bigorgne2015chromosomal,
   title={Chromosomal damage and {EROD} induction in tree swallows
@@ -250,15 +264,14 @@ Papers Using Stan
 @article{HofmeisterVasishth2014,
   author = {Philip Hofmeister and Shravan Vasishth},
   year = {2014},
-  title = {Distinctiveness and encoding effects in online sentence comprehension},
+  title = {Distinctiveness and encoding effects in online sentence
+           comprehension},
   journal = {Frontiers in Psychology},
   note = {Special issue on Encoding and Navigating Linguistic
           Representations in Memory},
   volume = {5},
   number = {1237},
   pages = {n/a},
-  doi = {10.3389/fpsyg.2014.01237},
-  url = {http://journal.frontiersin.org/Journal/10.3389/fpsyg.2014.01237/abstract}
 }
 </pre>
 <pre>
@@ -387,7 +400,8 @@ Papers Using Stan
 <pre>
 @inproceedings{ferraro-2013-lda-ppl,
   author = {Francis Ferraro, Benjamin Van Durme and Yanif Ahmad},
-  title = {Evaluating Progress in Probabilistic Programming through Topic Models},
+  title = {Evaluating Progress in Probabilistic Programming through
+           Topic Models},
   booktitle = {Proceedings of the NIPS Workshop on Topic Models},
   year = {2013}
 }
@@ -415,7 +429,7 @@ Papers Using Stan
           and Leung, GM},
   year={2012},
   title={Preliminary inferences on the age-specific seriousness of
-         human disease caused by avian influenza A (H7N9) infections
+         human disease caused by avian influenza {A (H7N9)} infections
          in China, March to April 2013},
   journal={Euro surveillance: bulletin Europeen sur les maladies
            transmissibles= European communicable disease bulletin},
