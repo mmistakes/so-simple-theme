@@ -161,6 +161,41 @@ Papers Using Stan
 =================
 
 <pre>
+@article{shantz-etal:2016,
+  author = {Shantz, Andrew A and Lemoine, Nathan P and Burkepile, Deron E}, 
+  year = {2016},
+  title = {Nutrient loading alters the performance of key nutrient
+           exchange mutualisms},
+  journal = {Ecology Letters},
+  volume = {19},
+  number = {1},
+  pages = {20--28}
+}
+</pre>
+<pre>
+@article{lemoine-etal:2015,
+  author = {Lemoine, Nathan P and Shue, Jessica and Verrico, Brittany 
+            and Erickson, David and Kress, W John and Parker, John D},
+  year = {2015},
+  title = {Phylogenetic relatedness and leaf functional traits, 
+           not introduced status, influence community assembly},
+  journal = {Ecology},
+  volume = {96},
+  number = {10},
+  pages = {2605--2612}
+}
+</pre>
+<pre>
+@article{lemoine-etal:2014,
+  author = {Lemoine, Nathan P and Burkepile, Deron E and Parker, John D},
+  year = {2014},
+  title = {Variable effects of temperature on insect herbivory},
+  journal = {PeerJ},
+  volume = {2},
+  pages = {e376}
+}
+</pre>
+<pre>
 @Article{charpentier:2016,
   author = {Charpentier, Emmanuel and Looten, Vincent
             and Fahlgren, Bj{\"o}rn and Barna, Alexandre
@@ -535,7 +570,17 @@ Theses using Stan
 =================
 
 <pre>
-@PhDThesis{cavanaugh:2013,
+@mastersthesis{starszyk:2016,
+  author = {Peter Starszyk},
+  year = {2016},
+  title = {Inferring Chemical Reaction Rates from a Sequence
+           of Infrared Spectra},
+  school = {University of Waterloo, Deptartment of Mathematics},
+  type = {MS}
+}
+</pre>
+<pre>
+@phdthesis{cavanaugh:2013,
   author = {Grant Cavanaugh},
   year = {2013},
   title = {Direct Climate Markets: the Prospects for Trading
@@ -546,15 +591,15 @@ Theses using Stan
 }
 </pre>
 <pre>
-@MastersThesis{vaci:2013,
+@mastersthesis{vaci:2013,
   author = {Nemanja Vaci},
   year = {2013},
   title = {Poe{\dj}enje metoda ocenjivanja parametara na podacima
            iz psiholingvisti\v{c}kih eksperimenata (Robustness of
            methods for estimating regression parameters: Case of
            psycholinguistics data)},
-   school = {Univerzitet u Novom Sadu},
-   type = {Master rad}
+  school = {Univerzitet u Novom Sadu},
+  type = {Master rad}
 }
 </pre>
 
