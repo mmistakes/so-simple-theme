@@ -12,4 +12,16 @@
         <url>techniktreffen</url> <!-- optional -->
     </event>
 
+    <event>
+        <id>4</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-02-19</startdate>
+        <enddate>2016-02-19</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+
+
 </monthly>
