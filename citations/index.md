@@ -173,29 +173,6 @@ Papers Using Stan
 }
 </pre>
 <pre>
-@article{lemoine-etal:2015,
-  author = {Lemoine, Nathan P and Shue, Jessica and Verrico, Brittany 
-            and Erickson, David and Kress, W John and Parker, John D},
-  year = {2015},
-  title = {Phylogenetic relatedness and leaf functional traits, 
-           not introduced status, influence community assembly},
-  journal = {Ecology},
-  volume = {96},
-  number = {10},
-  pages = {2605--2612}
-}
-</pre>
-<pre>
-@article{lemoine-etal:2014,
-  author = {Lemoine, Nathan P and Burkepile, Deron E and Parker, John D},
-  year = {2014},
-  title = {Variable effects of temperature on insect herbivory},
-  journal = {PeerJ},
-  volume = {2},
-  pages = {e376}
-}
-</pre>
-<pre>
 @Article{charpentier:2016,
   author = {Charpentier, Emmanuel and Looten, Vincent
             and Fahlgren, Bj{\"o}rn and Barna, Alexandre
@@ -235,6 +212,19 @@ Papers Using Stan
   volume = {8},
   number = {1},
   pages = {541}
+}
+</pre>
+<pre>
+@article{lemoine-etal:2015,
+  author = {Lemoine, Nathan P and Shue, Jessica and Verrico, Brittany 
+            and Erickson, David and Kress, W John and Parker, John D},
+  year = {2015},
+  title = {Phylogenetic relatedness and leaf functional traits, 
+           not introduced status, influence community assembly},
+  journal = {Ecology},
+  volume = {96},
+  number = {10},
+  pages = {2605--2612}
 }
 </pre>
 <pre>
@@ -292,6 +282,16 @@ Papers Using Stan
            statistics?},
   journal = {Cognitive Science},
   pages = {to appear}
+}
+</pre>
+<pre>
+@article{lemoine-etal:2014,
+  author = {Lemoine, Nathan P and Burkepile, Deron E and Parker, John D},
+  year = {2014},
+  title = {Variable effects of temperature on insect herbivory},
+  journal = {PeerJ},
+  volume = {2},
+  pages = {e376}
 }
 </pre>
 <pre>
