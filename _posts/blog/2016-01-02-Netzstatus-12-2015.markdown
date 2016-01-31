@@ -10,7 +10,7 @@ excerpt:
 tags: []
 image:
   feature:
-date: 2015-12-12T17:42:36+01:00
+date: 2016-01-01T17:42:36+01:00
 ---
 
 Ein Blick hinter die Kulissen - Netzstatusbericht 12/2015
