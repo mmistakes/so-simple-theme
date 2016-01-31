@@ -16,13 +16,13 @@ date: 2016-01-31T15:42:36+01:00
 
 Der Monat neigt sich dem Ende zu und es ist wieder Zeit euch einen Einblick in unsere Statistiken zu geben. 
 
-Die Anzahl der Router ist, auf den ersten Blick diesen monat nur sehr leicht gestiegen. Stand heute sind 24 Knoten in unserem Netz aktiv. Der nur geringe Zuwachs liegt aber auch in der Tatsache begriffen, das drei Router aus diesem Netz zum testen im eigenen Netz verwendet werden und daher zurzeit hier nichtmehr erfasst werden.
+Die Anzahl der Router ist, auf den ersten Blick diesen Monat nur sehr leicht gestiegen. Stand heute sind 24 Knoten in unserem Netz aktiv. Der nur geringe Zuwachs liegt aber auch in der Tatsache begriffen, das wir drei Router aus den bestehenden Netz, zum testen in unser neues Netz umgezogen haben und diese daher zurzeit hier nichtmehr erfasst werden.
 
 Der Traffic im Netz hat sich deutlich erhöht, hatten wir im letzten Monat rund 1,1 Terabyte Datenvolumen, haben wir in diesem Monat die 1,5 Terabyte Marke geknackt. 
 
 Auch einen neuen Einbuchungsrekord konnen wir verzeichnen. Nachdem wir im Vormonat erstmals die 50 Nutzer Marke gebrochen haben, konnten wir diesmal mit 67 gleichzeitigen Nutzern direkt nocheinmal ordentlich nachlegen. Im Monatsmittel waren 36 Geräte online, das sind 8 Geräte mehr als im Vormonat. Die Anzahl der Einbuchngsminuten lag mit 235951 ca. 15% über dem Ergebniss des Vormonats.
 
-Zum ersten mal gab es diesen Monat leider auch einen Server- bzw. Netzausfall überer mehrer Stunden, da im Netz von Freifunk-MYK zwei Server weggebrochen sind. Das tut uns leid, aber leider können wir solche Ausfälle, auch in unserem im Aufbau befindlichen eigenen Netz, natürlich nie komplett ausschließen. Wir sind keine Dienstleister, die eine Hundertprozentige Verfügbarkeit garantieren können. Dennoch versuchen wir natürlich einen möglichst sörungsfreien Betrieb für alle sicherzustellen. 
+Zum ersten mal gab es diesen Monat leider auch einen Server- bzw. Netzausfall über mehrere Stunden, da im Netz von Freifunk-MYK zwei Server weggebrochen sind. Das tut uns leid, aber leider können wir solche Ausfälle, auch in unserem im Aufbau befindlichen eigenen Netz, natürlich nie komplett ausschließen. Wir sind keine Dienstleister, die eine hundertprozentige Verfügbarkeit garantieren können. Dennoch versuchen wir natürlich einen möglichst störungsfreien Betrieb für alle sicherzustellen. 
 
 Wir danken allen Unterstützern, Routeraufstellern, Aktiven für die geleistete Arbeit in den letzten Monaten.
 
