@@ -27,4 +27,4 @@ Und seit einigen Monaten durfte ich in eine neue Rolle schlupfen: Weg von den Th
 
 > Ein Hoch auf uns
 
-Danke beim gesamten Team für wunderbare 5 Jahre und an Verena (juhu, wir heiraten! ❤️🎉) für viel Verständnis, Unterstützung und Ablenkung. Ich freu mich auf die nächsten 366 Tage und gemeinsamen Fortschritt!
+Danke beim gesamten Team für wunderbare 5 Jahre und an Verena (juhu, wir heiraten! 🎉) für viel Verständnis, Unterstützung und Ablenkung. Ich freu mich auf die nächsten 366 Tage und gemeinsamen Fortschritt!
