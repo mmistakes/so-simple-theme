@@ -7,7 +7,7 @@ permalink: /curriculum-vitae/publikationen/index.html
   
   <h2>Zweitausendsechzehn</h2>
   <ul>
-    <li><span class="title"><a href="https://medium.com/@sharifsbeat/lessons-learned-from-swat-io-b7e1d1f111">Lessons Learned From Swat.io: Transitioning from an agency to a product company</a></span><br>Interview mit <a href="https://twitter.com/sharifsbeat">Ali Sharif</a>, Erscheinungsdatum: 02.02.2016
+    <li><span class="title"><a href="https://medium.com/@sharifsbeat/lessons-learned-from-swat-io-b7e1d1f111f">Lessons Learned From Swat.io: Transitioning from an agency to a product company</a></span><br>Interview mit <a href="https://twitter.com/sharifsbeat">Ali Sharif</a>, Erscheinungsdatum: 02.02.2016
     </li>
   </ul>
   
