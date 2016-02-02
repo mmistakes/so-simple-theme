@@ -5,6 +5,13 @@ permalink: /curriculum-vitae/publikationen/index.html
   <p>Im Laufe der Zeit (schulische Laufbahn, Studium, Berufsleben) fallen viele Texte an, die an dieser Stelle, chronologisch, zur Verfügung gestellt werden sollen. Das Copyright an allen bereitgestellten Dateien liegt bei Johannes Nagl. Eine Veröffentlichung mit Quellenangabe ist erlaubt. Um die Dokumente korrekt anzeigen zu können, benötigen Sie den Adobe Acrobat Reader, den Sie auf adobe.com downloaden können.
   </p>
   
+  <h2>Zweitausendsechzehn</h2>
+  <ul>
+    <li><span class="title"><a href="https://medium.com/@sharifsbeat/lessons-learned-from-swat-io-b7e1d1f111">Lessons Learned From Swat.io: Transitioning from an agency to a product company</a></span><br>Interview mit <a href="https://twitter.com/sharifsbeat">Ali Sharif</a>, Erscheinungsdatum: 02.02.2016
+    </li>
+  </ul>
+  
+  
   <h2>Zweitausendfünfzehn</h2>
   <ul>
     <li><span class="title"><a href="https://www.blossom.co/blog/development-workflow-by-example-swat-io-walls-io">Development Workflow by Example: Swat.io & Walls.io</a></span><br>Interview, blossom.co, Erscheinungsdatum: 11.12.2015
