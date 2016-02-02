@@ -1,10 +1,9 @@
 <script type="text/javascript">
   var BASE_URL = '{{ site.url }}';
 </script>
-<!-- Modernizr -->
-<script async src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
-<script async src="{{ site.url }}/assets/bower_components/jquery/dist/jquery.min.js"></script>
-<script async src="{{ site.url }}/assets/js/scripts.min.js"></script>
+
+<script src="{{ site.url }}/assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 {% if page.calendar %}
     <script type="text/javascript" src="{{ site.url }}/assets/js/vendor/monthly.js"></script>
     <script type="text/javascript">
@@ -22,3 +21,6 @@
   <script src="{{ site.url }}/assets/js/vendor/html5shiv.min.js"></script>
   <script src="{{ site.url }}/assets/js/vendor/respond.min.js"></script>
 <![endif]-->
+
+<!-- Modernizr -->
+<script src="{{ site.url }}/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
