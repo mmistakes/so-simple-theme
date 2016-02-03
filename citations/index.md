@@ -347,6 +347,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Nishihara, R. and Murray, I. and Adams, R. P.  2012.  Parallel MCMC
   with Generalized Elliptical Slice Sampling, *arXiv* 1210.7477.
 
+
 # Papers using NUTS
 
 * <big>Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
@@ -354,10 +355,12 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Methods.  *Proceedings of the Society of Petroleum Engineers
   Reservoir Simulation Symposium*.</big>
 
+
 # Software using Stan
 
 * <big>Richard McElreath.  2016.  *rethinking: Statistical Rethinking book
   package*, version 1.58.  GitHub project rmcelreath/rethinking.</big>
+
 
 # Software using NUTS
 
