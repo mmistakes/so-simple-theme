@@ -57,6 +57,44 @@ Version 2.9.0.
 * Stan Development Team. 2016. *Stan.jl: the Julia interface to Stan*.
 
 
+# Books about Stan
+
+* Richard McElreath. 2016. *Statistical Rethinking: A Bayesian Course
+  with Examples in R and Stan*. Chapman & Hall/CRC Press.
+
+* John K. Kruschke. 2015. *Doing Bayesian Data Analysis, Second Edition:
+  A Tutorial with R, JAGS, and Stan*.  Academic Press. [chapter on Stan]
+
+* Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
+  Guélat, Bettina Almasi, and Pius Korner-Nievergelt. 2015. *Bayesian Data
+  Analysis in Ecology Using Linear Models with R, BUGS, and
+  Stan*. Academic Press. [chapter on Stan]
+
+* Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A.,
+  and Rubin, D. B. 2013. *Bayesian Data Analysis*, 3rd Edition. Chapman
+  & Hall/CRC Press, London. [appendix on Stan]
+
+
+
+# Books with Examples Translated to Stan
+
+Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
+
+* Lunn, D., Jackson, C., Best, N., Thomas, A., and Spiegelhalter,
+  D. 2013. *The BUGS Book: A Practical Introduction to Bayesian
+  Analysis*. Chapman & Hall/CRC Press.
+
+* Eric-Jan Wagenmakers and Michael D. Lee. 2014. *Bayesian Cognitive
+  Modeling: A Practical Course*.  Cambridge Univesity Press.
+
+* Marc Kéry and Michael Schaub. 2011.  *Bayesian Population Analysis using
+  WinBUGS: A hierarchical perspective*. Academic Press.  [chapters
+  3--8]
+
+* Andrew Gelman and Jennifer Hill. 2009.  *Data Analysis Using Regression and
+  Multilevel/Hierarchical Models*.  Cambridge University Press.
+
+
 # Papers about Stan
 
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
@@ -280,12 +318,6 @@ Version 2.9.0.
   psycholinguistics data). Univerzitet u Novom Sadu.  Master rad.
 
 
-# Software using Stan
-
-* Richard McElreath.  2014.  *rethinking: Statistical Rethinking book
-  package*, version 1.42.
-
-
 # Papers Citing Stan
 
 * Natanegara, Fanni, Neuenschwander, Beat, Seaman, John W.,
@@ -320,4 +352,14 @@ Version 2.9.0.
 * Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
   Probabilistic Uncertainty Quantification Using Advanced Proxy Based
   Methods.  *Proceedings of the Society of Petroleum Engineers
-  Reservoir Simulation Symposium*. &nbsp;
+  Reservoir Simulation Symposium*.
+
+# Software using Stan
+
+* Richard McElreath.  2016.  *rethinking: Statistical Rethinking book
+  package*, version 1.58.  GitHub project rmcelreath/rethinking.
+
+# Software using NUTS
+
+* PyMC Developers. 2016. *PyMC3: Probabilistic programming in
+  Python*. version beta.  GitHub project pymc-devs/pymc3.
