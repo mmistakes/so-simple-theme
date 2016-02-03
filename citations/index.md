@@ -361,6 +361,5 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Software using NUTS
 
-
 * <big>PyMC Developers. 2016. *PyMC3: Probabilistic programming in
-  Python*. version beta.  GitHub project pymc-devs/pymc3.</big>
+  Python*. Version beta.  GitHub project pymc-devs/pymc3.</big>
