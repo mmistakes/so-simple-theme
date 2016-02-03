@@ -244,7 +244,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   through Topic Models. *Proceedings of the NIPS Workshop on Topic
   Models*
 
-* Thomas S.A. Wallis, Christopher Patrick Taylor, Jennifer Wallis,
+* Thomas S. A. Wallis, Christopher Patrick Taylor, Jennifer Wallis,
   Mary Lou Jackson, and Peter J Bex. 2014. Characterization of field
   loss based on microperimetry is predictive of face recognition
   difficulties, *Investigative Ophthalmology &amp; Visual Science*.
@@ -349,17 +349,18 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers using NUTS
 
-* Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
+* <big>Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
   Probabilistic Uncertainty Quantification Using Advanced Proxy Based
   Methods.  *Proceedings of the Society of Petroleum Engineers
-  Reservoir Simulation Symposium*.
+  Reservoir Simulation Symposium*.</big>
 
 # Software using Stan
 
-* Richard McElreath.  2016.  *rethinking: Statistical Rethinking book
-  package*, version 1.58.  GitHub project rmcelreath/rethinking.
+* <big>Richard McElreath.  2016.  *rethinking: Statistical Rethinking book
+  package*, version 1.58.  GitHub project rmcelreath/rethinking.</big>
 
 # Software using NUTS
 
-* PyMC Developers. 2016. *PyMC3: Probabilistic programming in
-  Python*. version beta.  GitHub project pymc-devs/pymc3.
+
+* <big>PyMC Developers. 2016. *PyMC3: Probabilistic programming in
+  Python*. version beta.  GitHub project pymc-devs/pymc3.</big>
