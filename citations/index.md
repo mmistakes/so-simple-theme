@@ -18,43 +18,43 @@ to the <a class="internal" href="groups.html">users group</a>.
 # How to Cite the Manual
 
 * Stan Development Team. 2016. *Stan Modeling Language Users Guide and
-  Reference Manual, Version 2.9.0.*
+  Reference Manual*, Version 2.9.0.
 
 
 # How to Cite the Software
 
 ##### Stan Math Library
 
-* Stan Development Team. 2016.  *The Stan Math Library*.  Version
-  2.9.0*.
+* Stan Development Team. 2016.  *The Stan Math Library*,  Version
+  2.9.0.
 
 ##### Stan
 
-* Stan Development Team. 2016. *Stan*. Version 2.9.0.
+* Stan Development Team. 2016. *Stan*, Version 2.9.0.
 
 ##### RStan 
 
-* Stan Development Team. 2016. *RStan: the R interface to Stan*.
+* Stan Development Team. 2016. *RStan: the R interface to Stan*,
 Version 2.9.0.
 
 ##### PyStan 
 
-* Stan Development Team. 2016. *PyStan: the Python interface to Stan*.
-Version 2.9.0
+* Stan Development Team. 2016. *PyStan: the Python interface to Stan*,
+Version 2.9.0.
 
 ##### CmdStan
 
-* Stan Development Team. 2016. *CmdStan: the command-line interface to Stan*.
+* Stan Development Team. 2016. *CmdStan: the command-line interface to Stan*,
 Version 2.9.0.
 
 ##### MatlabStan
 
 * Stan Development Team. 2016. *MatlabStan: the MATLAB interface to
-  Stan.*
+  Stan*.
 
 #### Stan.jl
 
-* Stan Development Team. 2016. *Stan.jl: the Julia interface to Stan.*
+* Stan Development Team. 2016. *Stan.jl: the Julia interface to Stan*.
 
 
 # Papers about Stan
@@ -107,6 +107,9 @@ Version 2.9.0.
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
 
+* Maxwell B. Joseph, William E. Stutz, and Pieter T. J. Johnson. 2015.
+  Multilevel models for the distribution of hosts and symbionts.
+  *PeerJ PrePrints* 3:e1876.
 
 * Coffeng, Luc and Bakker, Roel and Montresor, Antonio and de Vlas,
   Sake.  2015.  Feasibility of controlling hookworm infection through
@@ -144,7 +147,7 @@ Version 2.9.0.
   *Cognitive Science*.
 
 * Lemoine, Nathan P and Burkepile, Deron E and Parker, John D.  2014.
-  Variable effects of temperature on insect herbivory.  *PeerJ* 2:e376
+  Variable effects of temperature on insect herbivory.  *PeerJ* 2:e376.
 
 * Philip Hofmeister and Shravan Vasishth. 2014.  Distinctiveness and
   encoding effects in online sentence comprehension.  *Frontiers in
