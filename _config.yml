@@ -6,11 +6,11 @@ description:
 logo: stan_logo.png
 search: false
 
-# Jekyll configuration
+# Jekyll configuration  (want pygments highlighter, but not supported)
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
