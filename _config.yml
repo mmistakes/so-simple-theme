@@ -17,6 +17,10 @@ sass:
 gems:
   - jekyll-sitemap
 
+collections:
+  interfaces:
+    permalink: /:categories/:title.html
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
