@@ -8,7 +8,7 @@ search: false
 
 # Jekyll configuration  (want pygments highlighter, but not supported)
 
-permalink:   /:categories/:title/
+permalink:   /:categories/:title.html
 markdown:    kramdown
 highlighter: rouge
 sass:
@@ -16,10 +16,6 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
-
-collections:
-  interfaces:
-    permalink: /:categories/:title.html
 
 kramdown:
   auto_ids: true
