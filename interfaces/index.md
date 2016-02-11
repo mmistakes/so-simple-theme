@@ -9,6 +9,9 @@ image:
   creditlink:
 ---
 
+Stan's modeling language and inference is available through the
+following interfaces:
+
 * [RStan](/interfaces/rstan.html)
   <span class="note">(R)</span>
 
@@ -27,8 +30,14 @@ image:
 * [StataStan](/interfaces/stata-stan.html)
   <span class="note">(Stata)</span>
 
-Additionally, ShinyStan provides interactive visual summaries
-and analysis of MCMC output,
+RStanArm provides an R formula interface for Bayesian regression
+modeling:
+
+* [RStanArm](/interfaces/rstanarm.html)
+  <span class="note">(R)</span>
+
+ShinyStan provides interactive visual summaries and analysis of MCMC
+output:
 
 * [ShinyStan](/interfaces/shinystan.html)
   <span class="note">(R)</span>

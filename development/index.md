@@ -128,6 +128,12 @@ The CmdStan interface is hosted at:
 * [CmdStan Source Repository](https://github.com/stan-dev/cmdstan)
   <span class="note">(GitHub)</span>
 
+RStanARM
+--------
+
+* [RStanARM Source Repository](https://github.com/stan-dev/rstanarm)
+  <span class="note">(GitHub)</span>
+
 ShinyStan
 ---------
 
