@@ -38,12 +38,22 @@ example models that illustrate how to run Stan.
 The modeling language manual contains other examples of model to
 illustrate coding techniques in Stan.
 
-A larger set of example models translating the BUGS examples
-(Volumes 1 through 3) and the models described in Gelman and Hill's
-multilevel regression book are available:
+A larger set of example models translating the BUGS examples (Volumes
+1 through 3) and the models from several Bayesian textbooks are also
+available:
 
 * [Example Models](https://github.com/stan-dev/example-models/wiki)
   <span class="note">(on Stan GitHub Wiki)</span>
+
+Case Studies
+============
+
+There are a number of longer, tutorial case studies for particular
+applications, models, and methodologies.  These can be found on their
+own page:
+
+* [Case Studies](case-studies.html)
+
 
 Tutorials
 =========
