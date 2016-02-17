@@ -56,6 +56,7 @@
 - name: Peter Li
   affiliation: Columbia University
   linkedin: http://www.linkedin.com/in/peterli2
+  avatar: peter_li.jpg
 
 - name: Allen Riddell
   affiliation: Dartmouth College
@@ -84,8 +85,9 @@
   avatar: mitzi_morris.jpg
 
 - name: Rob Trangucci
-  affiliation: Columbia University
+  affiliation: iSENTIUM
   linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
+  avatar: rob_trangucci.jpg
 
 - name: Rob Goedman
   affiliation: Consultant, La Jolla, California
@@ -96,6 +98,7 @@
 - name: Brian Lau
   affiliation: CNRS, Paris
   web: http://research.icm-institute.org/team/29435/homepage
+  avatar: brian_lau.png
 
 - name: Jonah Sol Gabry
   affiliation: Columbia University
@@ -113,6 +116,7 @@
 - name: Robert L. Grant
   affiliation: St. George's, University of London &amp; Kingston University
   web: http://www.robertgrantstats.co.uk/
+  avatar: robert_l_grant.jpg
 
 - name: Dustin Tran
   affiliation: Harvard University
