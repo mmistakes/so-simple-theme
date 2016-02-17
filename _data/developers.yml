@@ -20,12 +20,14 @@
 - name: Matt Hoffman
   affiliation: Adobe Creative Technologies Lab
   web: http://www.cs.princeton.edu/~mdhoffma/
+  avatar: matt_hoffman.jpg
 
 - name: Daniel Lee
   affiliation: Columbia University
   email: bearlee@alum.mit.edu
   linkedin: https://www.linkedin.com/in/syclik
   twitter: djsyclik
+  avatar: syclik.jpg
 
 - name: Ben Goodrich
   affiliation: Columbia University
@@ -43,11 +45,13 @@
 - name: Marcus Brubaker
   affiliation: University of Toronto, Scarborough
   web: http://www.cs.toronto.edu/~mbrubake/
+  avatar: marcus_brubaker.jpg
 
 - name: Jiqiang Guo
   affiliation: NPD Group
   email: guojq28@gmail.com
   linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
+  avatar: jiqiang_guo.png
 
 - name: Peter Li
   affiliation: Columbia University
@@ -69,6 +73,7 @@
   email: jeffrey.arnold@gmail.com
   linkedin: https://www.linkedin.com/in/jrnold
   twitter: jrnld
+  avatar: jeffrey_arnold.jpg
 
 - name: Mitzi Morris
   affiliation: Lucidworks
@@ -76,6 +81,7 @@
   email: mitzi@panix.com
   linkedin: https://www.linkedin.com/pub/mitzi-morris/65/39/785
   twitter: searchbooster
+  avatar: mitzi_morris.jpg
 
 - name: Rob Trangucci
   affiliation: Columbia University

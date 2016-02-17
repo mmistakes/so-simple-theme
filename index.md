@@ -146,9 +146,9 @@ document.getElementById("fc-myFrame").style.display="none";
 border-radius:5px 5px 5px 5px; box-shadow:0 0 8px rgba(0, 0, 0, 0.5);" scrolling="no" src=""></iframe></div>
 </div>
 
-Stan’s is associated with [NumFOCUS](http://numfocus.org). 
+Stan is associated with [NumFOCUS](http://numfocus.org) <span class="note">(501(c)3 nonprofit)</span>. 
 
-<div style="background:#ccc; border-radius:0px 0px 0px 0px;font-weight:normal; font-family:Arial, Helvetica, sans-serif;border:none;box-shadow:none;left: 50%; margin-left:-72.5px;clear: both;display: block; width:145px;height:45px; line-height:2.8; position:relative; font-size:16px;text-align:center; cursor:pointer;color:#fff;text-decoration: none; z-index:1" onclick="open_window('NTU3Ng==')">Donate Now</div>
+<div style="background:#ccc; border-radius:0px 0px 0px 0px;font-weight:normal; font-family:Arial, Helvetica, sans-serif;border:none;box-shadow:none;left: 50%; margin-left:-72.5px;clear: both;display: block; width:145px;height:45px; line-height:2.8; position:relative; font-size:16px;text-align:center; cursor:pointer;color:#fff;text-decoration: none; z-index:1" onclick="open_window('NTU3Ng==')">Donate to Stan</div>
 
 <!-- Could use direct URL:  https://www.flipcause.com/widget/give_now/NTU3Ng== -->
 

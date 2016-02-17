@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stan Interfaces
+title: Interfaces
 excerpt: ""
 modified:
 image:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Stan Development Team
+title: Developers &amp; Funding
 excerpt: ""
 modified:
 image:
