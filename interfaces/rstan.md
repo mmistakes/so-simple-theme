@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 
-RStan is the [R Project]("http://www.r-project.org")
+RStan is the [R Project](http://www.r-project.org)
 interface to Stan.  It runs under Windows, Mac OS X, and Linux,
 and is open source licensed under the GNU Public License,
 version 3 (GPLv3).
