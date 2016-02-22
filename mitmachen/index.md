@@ -28,7 +28,7 @@ Auf unseren Treffen haben wir meist Router aus einer Sammelbestellung zu bekomme
 
 Natürlich kannst du auch zu Hause deinen eigenen Freifunkknoten basteln: Einfach ein unterstütztes Router-Modell aussuchen, beim Online-Händler deiner Wahl bestellen und innerhalb von zehn Minuten mit unserer Firmware zu einem Freifunkknoten umrüsten. Wenn du dabei Probleme hast, kannst du natürlich gerne auch mit deinem Router auf eines unserer Treffen kommen oder uns eine E-Mail schreiben. Wir helfen dir gerne dabei.
 
-Unsere Firmware findest du unter <https://images.freifunk-westerwald.de/> . Eine Anleitung zum Installieren der Firmware findest du bei Ruhrgebiet Community unter <http://freifunk-ruhrgebiet.de/anleitung/>.
+Unsere Firmware findest du unter <https://images.freifunk-westerwald.de/> . Eine Anleitung zum Installieren der Firmware findest du [hier](../anleitung/).
 
 ## Mailingliste
 
