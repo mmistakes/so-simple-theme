@@ -16,7 +16,7 @@ image:
 
 * Ein passendes Firmwareimage für dein Router. Du kannst es dir unter [http://images.freifunk-westerwald.de/](http://images.freifunk-westerwald.de/) herunterladen, wir erklären das nachher noch genauer.
 
-* Ein Router der kompatible mit unserer Firmware ist. Eine Liste mit Router die Du verwenden kannst findest Du in der Download Seite der Images. (siehe Image finden und herrunterladen)
+* Ein Router der kompatible mit unserer Firmware ist. Eine Liste mit Router die du verwenden kannst findest du in der Download Seite der Images. (siehe Image finden und herrunterladen)
 
 Wenn du ein neuen Router kaufen möchtest, empfehlen wir folgende Modelle :
 
@@ -28,15 +28,15 @@ Wenn du ein neuen Router kaufen möchtest, empfehlen wir folgende Modelle :
 
 
 
-> Achtung: Beachte bitte beim Kauf das es auch von einem Routermodell mehre Versionen geben kann. Im Einzelhandel kannst Du das meist am Aufdruck auf dem Karton die genaue Version erkennen. Bei Online-Händler musst Du auf „gut Glück“ Bestellen oder die Version dort erfragen. 
+> Achtung: Beachte bitte beim Kauf das es auch von einem Routermodell mehre Versionen geben kann. Im Einzelhandel kannst du das meist am Aufdruck auf dem Karton die genaue Version erkennen. Bei Online-Händler musst du auf „gut Glück“ Bestellen oder die Version dort erfragen. 
 
 #Image finden und Herunterladen
 
 Link : [http://images.freifunk-westerwald.de/](http://images.freifunk-westerwald.de/)
 
-Du siehst zunächst die Regionen für die wir Firmwares anbieten. Wähle deine Region aus und wähle danach den Ordner „stable“. Als nächstes findest Du zwei Unterordner. Der Ordner „factory“ ist für das erste mal wenn Du ein neuen Router Installieren möchtet. Also von der original Firmware Version deines Router zur Freifunk. Der Ordner „sysupgrade“ ist für ein Router der schon Freifunkrouter ist. Diese sind für ein Update der Freifunk Firmware. Öffne nun zuerst den Ordner „factory“
+Du siehst zunächst die Regionen für die wir Firmwares anbieten. Wähle deine Region aus und wähle danach den Ordner „stable“. Als nächstes findest du zwei Unterordner. Der Ordner „factory“ ist für das erste mal wenn du ein neuen Router Installieren möchtet. Also von der original Firmware Version deines Router zur Freifunk. Der Ordner „sysupgrade“ ist für ein Router der schon Freifunkrouter ist. Diese sind für ein Update der Freifunk Firmware. Öffne nun zuerst den Ordner „factory“
 
-Wenn Du auf unserem Server eine Liste mit Images gefunden hast sollte das in etwa so aussehen :
+Wenn du auf unserem Server eine Liste mit Images gefunden hast sollte das in etwa so aussehen :
 
 ![Firmware](../images/anleitung/firmware.jpg)
 
@@ -44,22 +44,22 @@ Die Dateinamen sind immer entsprechender Syntax aufgebaut :
 
 Gluon - ffww - 1.0 - Hersteller – Routertyp – Version .bin
 
-Dateiendung ist in der Regel immer .bin. In der Liste siehst Du noch das Dateidatum und die Dateigröße in MB. Hast du das passende Image für ein Router gefunden, dann lade dieses runter.
+Dateiendung ist in der Regel immer .bin. In der Liste siehst du noch das Dateidatum und die Dateigröße in MB. Hast du das passende Image für ein Router gefunden, dann lade dieses runter.
 
 
-Hier findest Du alle Freifunk MYK Images. Wenn Du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen). Wir versuchen dann eine Lösung zu finden.
+Hier findest du alle Freifunk unsere Images. Wenn du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen). Wir versuchen dann eine Lösung zu finden.
 
 #Image Installieren „Flashen“
 
-Jetzt musst Du das Image auf dein Freifunk Router Installieren. Als erstes, trenne bitte alle Netzwerkkabel, und schalte dein WLAN an deinem PC/Notebook aus. Verbinde jetzt dein Router mit deinem PC über das Netzkabel. Am Router ist das ein beliebiger Netzwerkanschluss (meist gelbe Anschlüsse) aber nicht der WAN Port.(meist blau) Starte den Router und warte einige Sekunden bis der gestartet ist. Du erkennst das dran das einige Kontroll-LED anfangen zu leuchten und zu flackern.
+Jetzt musst du das Image auf dein Freifunk Router Installieren. Als erstes, trenne bitte alle Netzwerkkabel, und schalte dein WLAN an deinem PC/Notebook aus. Verbinde jetzt dein Router mit deinem PC über das Netzkabel. Am Router ist das ein beliebiger Netzwerkanschluss (meist gelbe Anschlüsse) aber nicht der WAN Port.(meist blau) Starte den Router und warte einige Sekunden bis der gestartet ist. Du erkennst das dran das einige Kontroll-LED anfangen zu leuchten und zu flackern.
 
-Öffne dann deinen Browser und rufe die Konfigurations-Seite des Routers auf. Die Adresse findest Du in der Anleitung zu deinem Router. Meist ist das [http://192.168.0.1](http://192.168.0.1) oder [http://192.168.1.1](http://192.168.1.1)
+Öffne dann deinen Browser und rufe die Konfigurations-Seite des Routers auf. Die Adresse findest du in der Anleitung zu deinem Router. Meist ist das [http://192.168.0.1](http://192.168.0.1) oder [http://192.168.1.1](http://192.168.1.1)
 
-Du wirst dann nach einem Benutzer und Passwort gefragt. Auch diese Daten findest Du im Handbuch deines Routers. Bei den TP-Link Geräten ist der Standard-Benutzer admin und das Passwort admin. Suche nun nach dem Menü-Punkt „Firmware Update“. Den findest du im Menü „System-Tools“
+Du wirst dann nach einem Benutzer und Passwort gefragt. Auch diese Daten findest du im Handbuch deines Routers. Bei den TP-Link Geräten ist der Standard-Benutzer admin und das Passwort admin. Suche nun nach dem Menü-Punkt „Firmware Update“. Den findest du im Menü „System-Tools“
 
 ![flash](../images/anleitung/flash.jpg)
 
-Klicke auf den Button „Browse“ und wähle die Freifunkfirmware aus die Du vorher heruntergeladen hast. Jetzt klicke auf Upgrade. Nun wir aus deinem Router ein Freifunk Router.
+Klicke auf den Button „Browse“ und wähle die Freifunkfirmware aus die du vorher heruntergeladen hast. Jetzt klicke auf Upgrade. Nun wir aus deinem Router ein Freifunk Router.
 
 >ACHTUNG Bitte beachte dass wärmend des Updates nichts am Router ausgesteckt oder gewackelt wird! Der Vorgang muss ohne Unterbrechung abgeschlossen werden. Hier ist etwas Geduld angesagt. Sollte er zum Beispiel vom Netz getrennt werden ist er meistens Defekt, wenn dir soetwas passiert, können wir ihn unter Umständen wieder herstellen. Schreib uns am besten eine Mail, da das ganze etwas aufwendiger ist.
 
@@ -67,16 +67,16 @@ Klicke auf den Button „Browse“ und wähle die Freifunkfirmware aus die Du vo
 
 Nach einem Neustart des Routers ist er nun fertig eingerichtet. Was du dir schon mal überlegen solltest:
 
-Wie soll der Router heißen? Der Name sollte so gewählt sein das Du den Router wiedererkennst. Zum Beispiel Straßenname oder Namens-Kürzel
+Wie soll der Router heißen? Der Name sollte so gewählt sein das du den Router wiedererkennst. Zum Beispiel Straßenname oder Namens-Kürzel
 
-Soll der Router auf der Freifunk Karte sichtbar werden? Du kannst entscheiden ob dein Router auf der Karte sichtbar wird. Das kann anderen Menschen helfen ein Freifunk in seiner Nähe zu finden. Wenn Du dein Router auf der Karte anzeigen möchtest aber die Koordinaten nicht kennst, öffne open street maps oder google maps. Dort kannst Du dann den Standort suchen und dir die genauen Koordinaten anzeigen lassen.
+Soll der Router auf der Freifunk Karte sichtbar werden? Du kannst entscheiden ob dein Router auf der Karte sichtbar wird. Das kann anderen Menschen helfen ein Freifunk in seiner Nähe zu finden. Wenn du dein Router auf der Karte anzeigen möchtest aber die Koordinaten nicht kennst, öffne open street maps oder google maps. Dort kannst du dann den Standort suchen und dir die genauen Koordinaten anzeigen lassen.
 
 öffne jetzt im Browser die Seite [http://192.168.1.1](http://192.168.1.1) auf und stelle alles so ein, wie du es haben möchtest.
 
 ![luci](../images/anleitung/luci.jpg)
 
 
-Nach klicken auf „Fertig“ hast Du dein Router fertig eingerichtet. Du kommst jetzt noch ein VPN Key. Diesen brauchst du um dein Router zu registrieren. Dazu gleich mehr. Kopieren am besten den Key in eine Textdatei.
+Nach klicken auf „Fertig“ hast du dein Router fertig eingerichtet. Du kommst jetzt noch ein VPN Key. Diesen brauchst du um dein Router zu registrieren. Dazu gleich mehr. Kopieren am besten den Key in eine Textdatei.
 
 
 
@@ -98,19 +98,19 @@ Damit die Community deinen Router kennt muss dieser über ein Formular registrie
 ![knoten](../images/anleitung/knoten.jpg)
 
 
-Melde dich nun bitte an und füge deinen Router über die Funktion "neuen Konten hinzufügen" in die Knotenliste ein. Hier kannst Du dann auch später Daten zu deinem Router ändern.
+Melde dich nun bitte an und füge deinen Router über die Funktion "neuen Konten hinzufügen" in die Knotenliste ein. Hier kannst du dann auch später Daten zu deinem Router ändern.
 Ändern der Daten im Router
 
 
 #Config Mode
 
-Möchtest Du die Daten, wie zum Beispiel die Koordinaten, ändern musst Du zuerst dein Router in den „Config Mode“ versetzten. Das geht ganz einfach.
+Möchtest du die Daten, wie zum Beispiel die Koordinaten, ändern musst du zuerst dein Router in den „Config Mode“ versetzten. Das geht ganz einfach.
 
 Starte dein Router falls der nicht an ist. Warte bis der Router betriebsbereit ist. Trenne alle Netzkabel.
 Drücke auf der Rückseite (er befindet sich meistens in der Nähe der LAN Ports) den Reset Knopf für ca. 5 Sekunden. Der Router startet dann nach einigen Sekunden neu. Warte bis der Router neu gestartet ist.
 
 Verbinde jetzt dein PC mit einem LAN Port (gelb). Warte einige Sekunden. Öffne dann dein Browser und rufe die Seite [http://192.168.1.1](http://192.168.1.1) auf. Es sollte dann die Konfiguration aufgerufen werden.
-Jetzt kannst Du die Daten ändern. Nach dem Speichern startet der Router wieder in den normalen Modus. Verbinde jetzt wieder alle Kabel wie vorher.
+Jetzt kannst du die Daten ändern. Nach dem Speichern startet der Router wieder in den normalen Modus. Verbinde jetzt wieder alle Kabel wie vorher.
 Du kannst diesen Vorgang immer wieder wiederholen.
 
 
