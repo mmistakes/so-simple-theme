@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title: Funkregulierung
-author: cernota
+author: justelex
 share: true
 comments: true
 modified:
