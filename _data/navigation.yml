@@ -3,20 +3,25 @@
 - title: Interfaces
   url: /interfaces/
 
-- title: Documentation
+- title: Docs
   url: /documentation/
 
-- title: Contact
-  url: /contact/
+- title: Issues
+  url: /issues/
 
-- title: Development
-  url: /development/
+- title: Community
+  url: /community/
 
-- title: Citations
+- title: Cite
   url: /citations/
 
 - title: Team
   url: /team/
 
+- title: Develop
+  url: /development/
 - title: Shop
   url: /shop/
+
+- title: Support
+  url: /support/

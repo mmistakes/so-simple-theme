@@ -9,28 +9,25 @@ image:
   creditlink:
 ---
 
+{:.center-txt}
+learn to use Stan
 
-Manual
-======
+# Language Manual
 
-Stan is based on a probabilistic programming language for
-specifying models in terms of probability distributions.  Stan's
-modeling language is is portable across all interfaces (PyStan,
-RStan, CmdStan).
+The modeling language manual contains a guide to programming in Stan
+with example models, a reference manual for the language itself, and a
+reference guide to the built-in special functions and probability
+functions.  Stan's modeling language is portable across all
+interfaces.
 
-The modeling language manual is released under the most
-accomodating of the Creative Commons licenses,
-[CC BY (v3)](http://creativecommons.org/licenses/by/3.0/).
+* <p>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.9.0/stan-reference-2.9.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.9.0</a>
+  <br />
+  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+  </p>
 
-The modeling language manual contains a guide to programming
-in Stan with example models, a reference manual for the language
-itself, and a reference guide to the built-in special functions and
-probability functions.
 
-* [Modeling Language User's Guide and Reference Manual, v2.9.0](https://github.com/stan-dev/stan/releases/download/v2.9.0/stan-reference-2.9.0.pdf)
-
-Examples
-========
+# Examples
 
 The quick start guides for each [interface](/interfaces/) contain some
 example models that illustrate how to run Stan.
@@ -42,28 +39,41 @@ A larger set of example models translating the BUGS examples (Volumes
 1 through 3) and the models from several Bayesian textbooks are also
 available:
 
-* [Example Models](https://github.com/stan-dev/example-models/wiki)
-  <span class="note">(on Stan GitHub Wiki)</span>
+* <p>
+  <a href="https://github.com/stan-dev/example-models/wiki">Example Models</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
 
-Case Studies
-============
+
+# Case Studies
+
 
 There are a number of longer, tutorial case studies for particular
 applications, models, and methodologies.  These can be found on their
 own page:
 
-* [Case Studies](case-studies.html)
+* <p>
+  <a href="case-studies.html">Case Studies</a>
+  </p>
+
+# Tutorials
+
+Here we've compiled a partial list of tutorials for Stan, its
+interfaces, and its underlying technologies, in addition to our manual
+and examples.  If you find more tutorials, let us know and we'll list
+them.
+
+## Print
+
+* Michael Clark. (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](http://www3.nd.edu/~mclark19/learn/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
+
+* Tanner Sorensen and Shravan Vasishth. (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
+
+*  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/abs/1507.04544). <i>arXiv</i>: 1507.04544.
 
 
-Tutorials
-=========
 
-Here we've compiled a partial list of tutorials for Stan, its interfaces,
-and its underlying technologies, in addition to our manual and examples.  
-If you find more tutorials, let us know and we'll list them.
-
-Video
------
+## Video
 
 *  <a class="external"
     href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials (5 hours)</a>
@@ -88,8 +98,8 @@ Video
     <br />
     Michael Betancourt (2014) Machine Learning Summer School, Reykjavik
 
-Papers
-------
+
+# Papers
 
 * Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddell (2015) In press for <i>Journal of Statistical Software</i>. [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf).
 
@@ -97,12 +107,10 @@ Papers
 
 * Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee, Peter Li, and Michael Betancourt (2015) [The Stan Math Library: Reverse-Mode Automatic Differentiation in C++](http://arxiv.org/abs/1509.07164).  <i>arXiv</i>: 1509.07164
 
-*  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/abs/1507.04544). <i>arXiv</i>: 1507.04544.
 
-* Tanner Sorensen and Shravan Vasishth. (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
 
-Books
-------
+
+# Books
 
 * Richard McElreath (2016) [<i>Statistical Rethinking: A Bayesian
   Course with Examples in R and

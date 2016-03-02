@@ -9,11 +9,15 @@ image:
   creditlink:
 ---
 
-Stan's modeling language and inference is available through the
-following interfaces:
+{:.center-txt}
+ways to run Stan
 
-* [RStan](/interfaces/rstan.html)
-  <span class="note">(R)</span>
+# Stan Language Interfaces
+
+To perform inference and posterior analysis for Stan language
+programs, choose an interface:
+
+* [RStan](/interfaces/rstan.html) <span class="note">(R)</span>
 
 * [PyStan](/interfaces/pystan.html)
   <span class="note">(Python)</span>
@@ -30,14 +34,42 @@ following interfaces:
 * [StataStan](/interfaces/stata-stan.html)
   <span class="note">(Stata)</span>
 
+Stan programs are portable across interfaces.
+
+# Higher-Level Interfaces
+
 RStanArm provides an R formula interface for Bayesian regression
-modeling:
+modeling.
 
-* [RStanArm](/interfaces/rstanarm.html)
+* <p>  
+  <a href="/interfaces/rstanarm.html">RStanArm</a>
   <span class="note">(R)</span>
+  </p>
 
-ShinyStan provides interactive visual summaries and analysis of MCMC
-output:
+# Lower-Level Interfaces
 
-* [ShinyStan](/interfaces/shinystan.html)
+The Stan Math Library provides differentiable special functions,
+probability functions, and linear algebra.
+
+* <p> 
+  <a href="/interfaces/math.html">Stan Math Library</a>
+  <span class="note">(C++)</span>
+  </p>
+
+The Stan C++ package includes the language source-to-source compiler,
+I/O, inference algorithms, and posterior analysis algorithms.
+
+* <p><a href="/interfaces/stan.html">Stan</a>
+  <span class="note">(C++)</span>
+  </p>
+
+
+# Useful Tools
+
+ShinyStan provides interactive visual summaries and advanced posterior
+analysis of MCMC output.
+
+* <p>
+  <a href="/interfaces/shinystan.html">ShinyStan</a>
   <span class="note">(R)</span>
+  </p>

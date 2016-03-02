@@ -9,49 +9,63 @@ image:
   creditlink:
 ---
 
-RStan is the [R Project](http://www.r-project.org)
-interface to Stan.  It runs under Windows, Mac OS X, and Linux,
-and is open source licensed under the GNU Public License,
-version 3 (GPLv3).
+{:.center-txt}
+the R interface to Stan
 
-Download and Get Started
-========================
 
-The RStan Quick Start Guide provides instructions on downloading, installing,
-and getting started with RStan on all platforms.
+# Download and Get Started
 
-* [RStan Quick Start Guide](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)
-  <span class="note">(RStan GitHub Wiki)</span>
+Instructions for downloading, installing, and getting started with
+RStan on all platforms.
 
-RStan Manual and Vignette
-=========================
+* <p>
+  <a href="https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started">RStan Quick Start Guide</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-RStan's manual and vignette are available along with the source snapshot
-from CRAN (the comprehensive R archive network).
 
-* [RStan Distribution Page](https://cran.r-project.org/web/packages/rstan/rstan.pdf)
+# Documentation 
+
+RStan's documentation is available from the comprehensive R archive
+network.
+
+* <p>
+  <a href="https://cran.r-project.org/web/packages/rstan">RStan
+    Manual and Vignettes</a>
   <span class="note">(CRAN)</span>
+  </p>
 
-Modeling Language Manual
-========================
+Stan's modeling language documentation is platform independent.
 
-Stan's modeling language is platform independent, with
-separate documentation.
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
 
-* [Modeling Language Manual](/documentation/)
 
-Example Models
-==============
+# Source Code and Issue Tracker
 
-RStan's quick start guide includes examples;
-many more available in the Stan example models
-repository.
+RStan's source code and issue tracker are hosted by GitHub.
 
-* [Example Models](/documentation/)
+* <p>
+  <a href="https://github.com/stan-dev/rstan">stan-dev/rstan</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-Source Code
-===========
 
-Source code for RStan and Stan is available on GitHub.
+# License
 
-* [Source Repos](/development/)
+RStan is open-source licensed under the 
+
+* <p>
+  <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public License, version 3</a>
+  <span class="note">(Gnu)</span>.
+  </p>
+
+
+
+
+
+
+
+
+

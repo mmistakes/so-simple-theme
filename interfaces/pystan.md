@@ -9,40 +9,53 @@ image:
   creditlink:
 ---
 
-PyStan is the [Python](http://www.python.org) interface to Stan.
-It runs under Windows, Mac OS X, and Linux, and is open source
-licensed under the GNU Public License, version 3 (GPLv3).
+{:.center-txt}
+the Python interface to Stan
 
-Download and Get Started
-========================
 
-The PyStan documentation includes a quick start guide to
-downloading, installing, and getting started with PyStan on all
-platforms.
+# Download and Get Started
 
-* [PyStan Getting Started](https://pystan.readthedocs.org/en/latest/getting_started.html)
-  <span class="note">(part of the online PyStan doc)</span>
+Instructions for downloading, installing, and getting started with
+PyStan on all platforms.
 
-  Modeling Language Manual
-  ========================
+* <p>
+  <a href="https://pystan.readthedocs.org/en/latest/getting_started.html">PyStan     Getting Started</a>
+  <span class="note">(readthedocs.org)</span>
+  </p>
 
-  Stan's modeling language is platform independent, with
-  separate documentation.
 
-  * [Modeling Language Manual](/documentation/)
+# Documentation
 
-  Example Models
-  ==============
+PyStan's API documentation is available from readthedocs.org.
 
-  PyStan's quick start guide includes examples;
-  many more available in the Stan example models
-  repository.
+* <p>
+  <a href="https://pystan.readthedocs.org/en/latest/api.html">PyStan
+    API Documentation</a>
+  <span class="note">(readthedocs.org)</span>
+  </p>
 
-  * [Example Models](/documentation/)
+Stan's modeling language documentation is platform independent.
 
-  Source Code
-  ===========
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
 
-  Source code for PyStan and Stan is available on GitHub.
 
-  * [Source Repos](/development/)
+# Source Code and Issue Tracker
+
+PyStan's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/stan-dev/pystan">stan-dev/pystan</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+RStan is open-source licensed under the 
+
+* <p>
+  <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public License, version 3</a>
+  <span class="note">(Gnu)</span>.
+  </p>

@@ -43,7 +43,9 @@ body {
 }
 
 p {
-	@include font-size(18,yes,28);
+  @include font-size(18,yes,28);
+  padding: 0;
+  margin: 0.75em 0 0.75em 0;
 }
 
 li {
@@ -53,26 +55,32 @@ li {
 /* headings */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font;
-	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+  font-family: $heading-font;
 }
 h1 {
-	@include font-size(36);
+  @include font-size(30, no);
+  margin: 1.1em 0 0 0;
+  padding: 0;
+  color: #444;
+  font-weight: 400;
 }
-h2 {
-	@include font-size(32);
+h2 { 
+  @include font-size(22, no);
+  margin: 1em 0 0 0;
+  color: #333;
+  font-weight: 400;
 }
 h3 {
-	@include font-size(28);
+  @include font-size(18);
 }
 h4 {
-	@include font-size(24);
+  @include font-size(18);
 }
 h5 {
-	@include font-size(20);
+  @include font-size(18);
 }
 h6 {
-	@include font-size(18);
+  @include font-size(18);
 }
 
 /* underlined text */
@@ -83,6 +91,15 @@ ins {
 	border-bottom: 1px solid $text-color;
 }
 
+dt {
+  margin: 0.35em 0 0 0;
+  font-style: italic;
+  font-size: 0.95em;
+}
+dd {
+  margin: 0 0 0 1em;
+  font-size: 0.9em;
+}
 /*
    Links
    ========================================================================== */
@@ -178,7 +195,7 @@ blockquote {
 	font-style: italic;
 	@include font-size(16);
 	padding-left: 20px;
-	border-left: 8px solid $black;
+	border-left: 8px solid #CCC;
 }
 
 
@@ -197,8 +214,8 @@ li {
 		@include font-size(14);
 		font-family: $code-font;
 		white-space: nowrap;
-		margin: 0 2px;
-		padding: 0 5px;
+		margin: 0 2px 0 0;
+		padding: 0 5px 0 0;
 		border: 1px solid lighten($black, 90);
 		background-color: lighten($black, 95);
 		@include rounded(3px);

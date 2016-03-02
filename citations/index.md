@@ -9,53 +9,89 @@ image:
   creditlink:
 ---
 
+{:.center-txt}
+cite &amp; be cited
 
-# Submit Citations
+Let us know if you write a paper citing Stan and we can cite it here.
 
-To have your paper or project citing Stan listed here, send a note
-to the <a class="internal" href="groups.html">users group</a>.
+# How to Cite Stan
 
-# How to Cite the Manual
-
-* Stan Development Team. 2016. *Stan Modeling Language Users Guide and
-  Reference Manual*, Version 2.9.0.
+We appreciate citations for the Stan software because it lets us find
+out what people have been doing with Stan and motivate further grant
+funding.
 
 
-# How to Cite the Software
+## Stan System Paper
 
-##### Stan Math Library
+* <p>Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich,
+  Michael Betancourt, Michael A. Brubaker, Jiqiang Guo, Peter Li, and
+  Allen Riddell.  2016.  Stan: A probabilistic programming language.
+  <i>Journal of Statistical Software</i> (in press).
+  </p>
 
-* Stan Development Team. 2016.  *The Stan Math Library*,  Version
-  2.9.0.
+## Language Manual
 
-##### Stan
+* <p>Stan Development Team. 2016. <i>Stan Modeling Language Users Guide and
+  Reference Manual</i>, Version 2.9.0. 
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
-* Stan Development Team. 2016. *Stan*, Version 2.9.0.
 
-##### RStan 
+## Stan Math Library
 
-* Stan Development Team. 2016. *RStan: the R interface to Stan*,
-Version 2.9.0.
+* <p>Stan Development Team. 2016.  *The Stan Math Library*,  Version
+  2.9.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
-##### PyStan 
 
-* Stan Development Team. 2016. *PyStan: the Python interface to Stan*,
-Version 2.9.0.
+## Stan C++ Library
 
-##### CmdStan
+* <p>Stan Development Team. 2016. <i>The Stan C++ Library</i>, Version 2.9.0.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
-* Stan Development Team. 2016. *CmdStan: the command-line interface to Stan*,
-Version 2.9.0.
 
-##### MatlabStan
+## RStan 
 
-* Stan Development Team. 2016. *MatlabStan: the MATLAB interface to
-  Stan*.
+* <p>Stan Development Team. 2016. </i>RStan: the R interface to Stan</i>,
+  Version 2.9.0.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
-#### Stan.jl
+## PyStan 
 
-* Stan Development Team. 2016. *Stan.jl: the Julia interface to Stan*.
+* <p>Stan Development Team. 2016. <i>PyStan: the Python interface to Stan</i>,
+  Version 2.9.0.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
+
+## CmdStan
+
+* <p>Stan Development Team. 2016. <i>CmdStan: the command-line 
+  interface to Stan</i>, Version 2.9.0.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
+
+## MatlabStan
+
+* <p>Stan Development Team. 2016. <i>MatlabStan: the MATLAB interface to
+  Stan</i>. 
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
+
+## Stan.jl
+
+* <p>Stan Development Team. 2016. <i>Stan.jl: the Julia interface to Stan</i>.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
+
+## StataStan
+
+* <p>Stan Development Team. 2016. <i>StataStan: the Stata interface to Stan</i>.
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  </p>
 
 # Books about Stan
 
@@ -75,7 +111,6 @@ Version 2.9.0.
   & Hall/CRC Press, London. [appendix on Stan]
 
 
-
 # Books with Examples Translated to Stan
 
 Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
@@ -89,13 +124,19 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Marc Kéry and Michael Schaub. 2011.  *Bayesian Population Analysis using
   WinBUGS: A hierarchical perspective*. Academic Press.  [chapters
-  3--8]
+  3--10]
 
 * Andrew Gelman and Jennifer Hill. 2009.  *Data Analysis Using Regression and
   Multilevel/Hierarchical Models*.  Cambridge University Press.
 
 
+
 # Papers about Stan
+
+* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich,
+  Michael Betancourt, Michael A. Brubaker, Jiqiang Guo, Peter Li, and
+  Allen Riddell.  2016.  Stan: A probabilistic programming language.
+  <i>Journal of Statistical Software</i> (in press).
 
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
   Gelman. 2016. Fitting Bayesian item response models in Stata and
