@@ -13,3 +13,4 @@ image:
 - [meetup](/workshops/meetup/)
 - [nyc](/workshops/nyc/)
 - [ub_tisi](/workshops/ub_tisi/) 
+- [newcastle](/workshops/newcastle/) 
