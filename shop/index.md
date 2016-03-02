@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Stan Shop
+title: Shop
 excerpt: ""
 modified:
 image:
@@ -9,11 +9,19 @@ image:
   creditlink:
 ---
 
-If you're looking to infer in style then stop by our
-[American](http://mc-stan.spreadshirt.com/)
-or [British](http://mc-stan.spreadshirt.co.uk/) shops
-for Stan t-shirts and mugs.  
+{:.center-txt}
+for your Stan swag
 
-Don't hesitate to [let us know](/contact/) if there
-are other Stan products you'd be interested in purchasing
-that are not yet on the shops.
+
+If you're looking to infer in style, stop by one of our shops for Stan
+t-shirts and mugs.
+
+* [Stan Shop [US]](http://mc-stan.spreadshirt.com/)
+  &nbsp; <span class="note">(Spreadshirt US)</span>
+
+* [Stan Shop [UK]](http://mc-stan.spreadshirt.co.uk/)
+  &nbsp; <span class="note">(Spreadshirt UK)</span>
+
+Don't hesitate to [let us know](/community/) if there are other Stan
+products you'd be interested in purchasing that are not yet in the
+shops.

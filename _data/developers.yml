@@ -87,6 +87,7 @@
 - name: Rob Trangucci
   affiliation: iSENTIUM
   linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
+  twitter: Trangucc
   avatar: rob_trangucci.jpg
 
 - name: Rob Goedman
@@ -138,3 +139,8 @@
   email: Aki.Vehtari@aalto.fi
   twitter: avehtari
   avatar: aki_vehtari.jpg
+
+- name: Rayleigh Lei
+  affiliation: Columbia University
+  email: rxl2102@columbia.edu
+  avatar: rayleigh_lei.jpg

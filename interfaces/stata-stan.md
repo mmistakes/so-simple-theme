@@ -9,31 +9,56 @@ image:
   creditlink:
 ---
 
-StataStan is the [Stata](http://www.stata.com) interface to Stan.
-It runs under Windows, Mac OS X, and Linux, and is open source
-licensed under the new BSD License.
+{:.center-txt}
+the Stata interface to Stan
 
-Download and Get Started
-========================
 
-The StataStan GitHub home page provides instructions on downloading, installing,
-and getting started with StataStan.
+# Download and Get Started
 
-* [StataStan Home Page](https://github.com/stan-dev/statastan)
-  <span class="note">(on StataStan GitHub)</span>
+Instructions for downloading, installing, and getting started with
+StataStan on all platforms.
 
-Modeling Language Manual
-========================
+* <p>
+  <a href="https://github.com/stan-dev/statastan">StataStan Home Page</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-Stan's modeling language is platform independent, with
-separate documentation:
 
-* [Modeling Language Manual](/documentation/)
+# Documentation
 
-Example Models
-==============
+StataStan's API documentation is available from within Stata using the
+Stata command <tt>help stan</tt>.
 
-StataStan's GitHub repository includes examples;
-there are many more available:
+There are Stata-specifc examples in the file
 
-* [Example Models](/documentation/)
+* <p>
+  <a href="https://github.com/stan-dev/statastan/blob/master/stan-example.do"><tt>stan-example.do</tt></a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+Stan's modeling language documentation is platform independent.
+
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
+
+
+# Source Code and Issue Tracker
+
+StataStan's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/stan-dev/statastan">stan-dev/statastan</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+StataStan is open-source licensed under the 
+
+* <p>
+  <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
+  <span class="note">(Open Source Initiative)</span>.
+  </p>
+

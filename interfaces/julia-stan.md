@@ -9,32 +9,51 @@ image:
   creditlink:
 ---
 
-Stan.jl is the [Julia](http://julialang.org) interface to Stan.
-It runs under Windows, Mac OS X, and Linux, and is open source
-licensed under the MIT License.
+{:.center-txt}
+the Julia interface to Stan
 
-Download and Get Started
-========================
+# Download and Get Started
 
-The guide to downloading, installing, and getting started with
-Stan.jl can be found, along with the source, on the GitHub home page:
+A guide to downloading, installing, and getting started with
+Stan.jl on all platforms is available from its GitHub page.
 
-* [Stan.jl Home page](https://github.com/goedman/Stan.jl)
-  <span class="note">(on Stan.jl GitHub)</span>
+* <p>
+  <a href="https://github.com/goedman/Stan.jl">Stan.jl Home</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-Modeling Language Manual
-========================
+# Documentation 
 
-Stan's modeling language is platform independent, with
-separate documentation.
+Stan.jl's example-based documentation is also on its GitHub page.
 
-* [Modeling Language Manual](/documentation/)
+* <p>
+  <a href="https://github.com/goedman/Stan.jl/blob/master/README.md">Stan.jl
+    README</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-Example Models
-==============
+Stan's modeling language documentation is platform independent.
 
-Stan.jl's GitHub repository includes examples;
-many more available in the Stan example models
-repository.
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
 
-* [Example Models](/documentation/)
+
+# Source Code and Issue Tracker
+
+Stan.jl's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/goedman/Stan.jl">goedman/Stan.jl</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+Stan.jl is open-source licensed under the
+
+* <p>
+  <a href="https://opensource.org/licenses/MIT">MIT License</a>
+  <span class="note">(Open Source Initiative)</span>.
+  </p>

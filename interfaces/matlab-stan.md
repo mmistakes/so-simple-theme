@@ -9,39 +9,54 @@ image:
   creditlink:
 ---
 
-MatlabStan is the [MATLAB](http://www.mathworks.com/products/matlab/)
-interface to Stan.  It runs under Windows, Mac OS X, and Linux, and
-is open source licensed under the BSD License.
+{:.center-txt}
+the MATLAB interface to Stan
 
-Download and Get Started
-========================
 
-The MatlabStan Wiki provides instructions on downloading, installing,
-and getting started with MatlabStan.
+# Download and Get Started
 
-* [MatlabStan Wiki](https://github.com/brian-lau/MatlabStan/wiki)
-  <span class="note">(MatlabStan GitHub)</span>
+Instructions for downloading, installing, and getting started with
+MatlabStan on all platforms.
 
-Source Code
-===========
+* <p>
+  <a href="https://github.com/brian-lau/MatlabStan/wiki">MatlabStan
+    Wiki</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-Source code for the MatlabStan interface is available on GibHub.
 
-* [MatlabStan GitHub](https://github.com/brian-lau/MatlabStan)
+# Documentation 
 
-Modeling Language Manual
-========================
+MatlabStan's documentation is also on the wiki.
 
-Stan's modeling language is platform independent, with
-separate documentation.
+* <p>
+  <a href="https://github.com/brian-lau/MatlabStan/wiki">MatlabStan
+    Wiki</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-* [Modeling Language Manual](/documentation/)
+Stan's modeling language documentation is platform independent.
 
-Example Models
-==============
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
 
-MatlabStan's quick start guide includes examples;
-many more available in the Stan example models
-repository.
 
-* [Example Models](/documentation/)
+# Source Code and Issue Tracker
+
+MatlabStan's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/brian-lau/MatlabStan/">brian-lau/MatlabStan</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+MatlabStan is open-source licensed under the 
+
+* <p>
+  <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
+  <span class="note">(Open Source Initiative)</span>.
+  </p>

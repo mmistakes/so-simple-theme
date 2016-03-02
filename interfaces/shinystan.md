@@ -9,42 +9,55 @@ image:
   creditlink:
 ---
 
-ShinyStan provides immediate, informative, customizable visual
-and numerical summaries of model parameters and convergence
-diagnostics for MCMC simulations. It runs under Windows, Mac OS X,
-and Linux and is open source licensed under the GNU Public License,
-version 3 (GPLv3).
+{:.center-txt}
+analysis &amp; visualization GUI for MCMC
 
-Applicability
-=============
 
-ShinyStan can be used to explore the output of any MCMC program
-written in any programming language, including but not limited to
-Stan, JAGS, BUGS, MCMCPack, NIMBLE, emcee, and SAS.
+ShinyStan provides visual and numerical summaries of model parameters
+and convergence diagnostics for MCMC simulations.
+
+ShinyStan can be used to explore the output of any MCMC program <span
+class="note">(including but not limited to Stan, JAGS, BUGS, MCMCPack,
+NIMBLE, emcee, and SAS)</span>.
 
 ShinyStan is coded in R using the [Shiny web application framework](http://shiny.rstudio.com)
-<span class="note">(RStudio)</span>, and has extended functionality
-for [RStan](/interfaces/rstan.html/).
+<span class="note">(RStudio)</span>.
 
-Download and Get Started
-========================
+# Download and Get Started
 
-The ShinyStan interface is available through the shinystan R package. 
-Instructions for installing the shinystan package on all platforms can be found 
-on the ShinyStan Wiki.
+Instructions for installing ShinyStan on all platforms.
 
-* [Installing ShinyStan](https://github.com/stan-dev/shinystan/wiki/Installing-the-R-package)
-  <span class="note">(GitHub Wiki)</span>
+* <p>
+  <a href="https://github.com/stan-dev/shinystan/wiki/Installing-the-R-package">Installing
+    ShinyStan</a>
+  <span class="note">(GitHub)</span>
+  </p>
 
-ShinyStan's Wiki pages also provide information for getting started using the 
-R package.
+Documentation and instructions for getting started with ShinyStan.
 
-* [ShinyStan Wiki](https://github.com/stan-dev/shinystan/wiki)
-  <span class="note">(GitHub Wiki)</span></li>
+* <p>
+  <a href="https://github.com/stan-dev/shinystan/wiki">ShinyStan Wiki</a>
+  <span class="note">(GitHub)</span></li>
+  </p>
 
-Source Code
-===========
 
-Source code for ShinyStan is available on GitHub.
+# Source Code and Issue Tracker
 
-* [Source Repos](/development/)
+ShinyStan's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/stan-dev/shinystan">stan-dev/shinystan</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+ShinyStan is open-source licensed under the 
+
+* <p>
+  <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public License, version 3</a>
+  <span class="note">(Gnu)</span>.
+  </p>
+
+

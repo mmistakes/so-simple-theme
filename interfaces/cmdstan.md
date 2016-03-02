@@ -9,53 +9,72 @@ image:
   creditlink:
 ---
 
-CmdStan is the shell (command-line / terminal) interface to Stan.
-It runs under Windows (DOS, Cygwin), Mac OS X, and Linux, and
-is open source licensed under the 3-clause BSD license (new BSD).
+{:.center-txt}
+the shell interface to Stan
 
-Download Source (with documentation)
-====================================
 
-The CmdStan distribution includes the complete source and documentation.
+# Download and Get Started
 
-* [CmdStan 2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.tar.gz)
-  <span class="note">(tar.gz, GitHub)</span>
+The CmdStan distribution includes the complete source and
+documentation for all platforms.
 
-* [CmdStan 2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.zip)
-   <span class="note">(zip, GitHub)</span>
-
-Get Started
-===========
-
-After downloading and unpacking, the CmdStan interface guide and
-the Stan modeling language manual can be found in the top-level directory
-`doc`.  The guide for CmdStan can also be downloaded separately.
-
-* [CmdStan Interface User's Guide, v2.9.0](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-guide-2.9.0.pdf)
+* [CmdStan 2.9.0 [tar.gz]](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.tar.gz)
   <span class="note">(GitHub)</span>
 
-It contains a getting-started guide, including install
-instructions for all platforms.
+* [CmdStan 2.9.0 [zip]](https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-2.9.0.zip)
+   <span class="note">(GitHub)</span>
 
-Modeling Language Manual
-========================
+Unpack the distribution and consult the user's guide <span class="note">(in directory
+<tt>doc/</tt>)</span> for installation and getting started instructions.
 
-Stan's modeling language is platform independent, with
-separate documentation.
 
-* [Modeling Language Manual](/documentation/)
 
-Example Models
-==============
+# Documentation
 
-CmdStan's quick start guide includes examples;
-many more available in the Stan example models
-repository.
+The CmdStan documentation is also available directly.
 
-* [Example Models](/documentation/)
+* <p>
+  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.9.0/cmdstan-guide-2.9.0.pdf"><i>CmdStan
+    Interface User's Guide, v2.9.0</i></a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
 
-Older Releases
-==============
-For older CmdStan releases, see:
 
-* [Older CmdStan Versions](https://github.com/stan-dev/cmdstan/releases)
+Stan's modeling language documentation is platform independent.
+
+* <p>
+  <a href="/documentation/">Stan Documentation</a>
+  </p>
+
+
+# Previous Releases
+
+All previous releases are available.
+
+* <p>
+  <a href="https://github.com/stan-dev/cmdstan/releases">CmdStan [previous
+    versions]</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+
+# Source Code and Issue Tracker
+
+CmdStan's source code and issue tracker are hosted by GitHub.
+
+* <p>
+  <a href="https://github.com/stan-dev/cmdstan">stan-dev/cmdstan</a>
+  <span class="note">(GitHub)</span>
+  </p>
+
+
+# License
+
+CmdStan is open-source licensed under the 
+
+* <p>
+  <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
+  <span class="note">(Open Source Initiative)</span>.
+  </p>
+
+
