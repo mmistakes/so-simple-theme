@@ -68,6 +68,48 @@ View
 : [HTML](case-studies/pool-binary-trials.html)
 
 
+## Two-Parameter Logistic Item Response Model
+
+<small>This tutorial introduces the R package edstan for estimating two-parameter logistic item response models using Stan without knowing the Stan language. Subsequently, the tutorial explains how the model can be expressed in the Stan language and fit using the rstan package. Specification of prior distributions and assessment of convergence are discussed. Using the Stan language directly has the advantage that it becomes quite easy to extend the model, and this is demonstrated by adding a latent regression and differential item functioning to the model. Posterior predictive model checking is also demonstrated.</small>
+
+Keywords
+: education, item response theory, two-parameter logistic model
+
+Source Repository
+: [example-models/education/tutorial_twopl](https://github.com/stan-dev/example-models/education/tutorial_twopl)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, reshape2, ggplot2, gridExtra, devtools, edstan</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+View
+: [HTML](case-studies/tutorial_twopl.html)
+
+
+## Two-Parameter Logistic Model with Latent Regression
+
+<small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
+
+Keywords
+: education, item response theory, two-parameter logistic model
+
+Source Repository
+: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/education/2pl_latent_reg)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+View
+: [HTML](case-studies/2pl_latent_reg.html)
+
+
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
