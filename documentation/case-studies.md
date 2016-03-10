@@ -33,8 +33,6 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
-
-
 ## Two-Parameter Logistic Item Response Model
 
 <small>This tutorial introduces the R package edstan for estimating
@@ -55,7 +53,7 @@ Keywords
 : education, item response theory, two-parameter logistic model
 
 Source Repository
-: [example-models/education/tutorial_twopl](https://github.com/stan-dev/example-models/education/tutorial_twopl)
+: [example-models/education/tutorial_twopl](https://github.com/stan-dev/example-models/tree/master/education/tutorial_twopl)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
@@ -80,7 +78,7 @@ Keywords
 : education, item response theory, two-parameter logistic model
 
 Source Repository
-: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/education/2pl_latent_reg)
+: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/2pl_latent_reg)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
