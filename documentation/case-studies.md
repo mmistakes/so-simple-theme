@@ -32,6 +32,67 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+
+
+
+## Two-Parameter Logistic Item Response Model
+
+<small>This tutorial introduces the R package edstan for estimating
+two-parameter logistic item response models using Stan without knowing
+the Stan language. Subsequently, the tutorial explains how the model
+can be expressed in the Stan language and fit using the rstan
+package. Specification of prior distributions and assessment of
+convergence are discussed. Using the Stan language directly has the
+advantage that it becomes quite easy to extend the model, and this is
+demonstrated by adding a latent regression and differential item
+functioning to the model. Posterior predictive model checking is also
+demonstrated.</small>
+
+Author
+: Daniel C. Furr
+
+Keywords
+: education, item response theory, two-parameter logistic model
+
+Source Repository
+: [example-models/education/tutorial_twopl](https://github.com/stan-dev/example-models/education/tutorial_twopl)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, reshape2, ggplot2,
+ gridExtra, devtools, edstan</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+View
+: [HTML](case-studies/tutorial_twopl.html)
+
+
+## Two-Parameter Logistic Model with Latent Regression
+
+<small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
+
+Author
+: Daniel C. Furr
+
+Keywords
+: education, item response theory, two-parameter logistic model
+
+Source Repository
+: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/education/2pl_latent_reg)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+View
+: [HTML](case-studies/2pl_latent_reg.html)
+
+
 ## Pooling with Hierarchical Models for Repeated Binary Trials
 
 <small>This note illustrates the effects on posterior inference of pooling
@@ -51,6 +112,9 @@ predictions on held-out data, (iv) rank items by chance of success,
 new data for posterior p-values, and (vii) perform graphical posterior
 predictive checks.</small>
 
+Author
+: Bob Carpenter
+
 Keywords
 : binary trials, pooling, hierarchical models, baseball, epidemiology, prediction, posterior predictive checks
 
@@ -68,48 +132,6 @@ View
 : [HTML](case-studies/pool-binary-trials.html)
 
 
-## Two-Parameter Logistic Item Response Model
-
-<small>This tutorial introduces the R package edstan for estimating two-parameter logistic item response models using Stan without knowing the Stan language. Subsequently, the tutorial explains how the model can be expressed in the Stan language and fit using the rstan package. Specification of prior distributions and assessment of convergence are discussed. Using the Stan language directly has the advantage that it becomes quite easy to extend the model, and this is demonstrated by adding a latent regression and differential item functioning to the model. Posterior predictive model checking is also demonstrated.</small>
-
-Keywords
-: education, item response theory, two-parameter logistic model
-
-Source Repository
-: [example-models/education/tutorial_twopl](https://github.com/stan-dev/example-models/education/tutorial_twopl)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan, reshape2, ggplot2, gridExtra, devtools, edstan</tt>
-
-License
-:  BSD (3 clause), CC-BY
-
-View
-: [HTML](case-studies/tutorial_twopl.html)
-
-
-## Two-Parameter Logistic Model with Latent Regression
-
-<small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
-
-Keywords
-: education, item response theory, two-parameter logistic model
-
-Source Repository
-: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/education/2pl_latent_reg)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
-
-License
-:  BSD (3 clause), CC-BY
-
-View
-: [HTML](case-studies/2pl_latent_reg.html)
-
-
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
@@ -123,6 +145,9 @@ Dorazio et al. (2006) noisy-measurement occupancy model for multiple
 species abundance of butterflies.  Going beyond the paper, the
 supercommunity assumptions are tested to show they are invariant to
 sizing, and posterior predictive checks are provided.</small>
+
+Author
+: Bob Carpenter
 
 Keywords
 : ecology, occupancy, species abundance, supercommunity,
@@ -155,6 +180,9 @@ compartment models of soil carbon flux, with experimental data fitted
 with unknown initial compartment balance and noisy CO<sub>2</sub>
 measurements.  Results form Sierra and Müller’s (2014) soilR package
 are replicated.</small>
+
+Author
+: Bob Carpenter
 
 Keywords
 : biogeochemistry, compartment ODE, soil carbon
