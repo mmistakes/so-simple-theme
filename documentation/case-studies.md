@@ -47,7 +47,7 @@ functioning to the model. Posterior predictive model checking is also
 demonstrated.</small>
 
 Author
-: Daniel C. Furr
+: Daniel C. Furr, Seung Yeon Lee, Joon-Ho Lee, and Sophia Rabe-Hesketh
 
 Keywords
 : education, item response theory, two-parameter logistic model
@@ -72,7 +72,7 @@ View
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
 Authors
-: Daniel C. Furr, Seung Yeon Lee, Joon-Ho Lee, and Sophia Rabe-Hesketh
+: Daniel C. Furr
 
 Keywords
 : education, item response theory, two-parameter logistic model
