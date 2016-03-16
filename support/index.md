@@ -78,8 +78,6 @@ corporations.
 
 * [Google](http://google.com)
 
-* [Chapman &amp; Hall/CRC Press](https://www.crcpress.com/statistics)
-
 
 # Research and Development Grants
 
