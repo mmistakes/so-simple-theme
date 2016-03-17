@@ -30,12 +30,6 @@ development, you may contact us directly or just follow the link:&nbsp;
   </span>
 
 
-<!-- 
-10% of all donations go to support NumFOCUS and the rest goes directly
-to support Stan development;  there is an additional 2.2% processing
-fee from FlipCause. 
--->
-
 ## Why Support Stan?
 
 Stan is a worthy cause: our software is free and, as users can attest,
@@ -77,8 +71,6 @@ We gratefully acknowledge unrestricted donations from the following
 corporations.
 
 * [Google](http://google.com)
-
-* [Chapman &amp; Hall/CRC Press](https://www.crcpress.com/statistics)
 
 
 # Research and Development Grants
@@ -151,7 +143,7 @@ the following corporations.
 
 * [Alcon](http://www.alcon.com)
 
-Stan was previoulsy funded in part through consulting arrangements
+Stan was previously funded in part through consulting arrangements
 with the following corporations.
 
 * <p>

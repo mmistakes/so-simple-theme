@@ -93,6 +93,20 @@ funding.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
+## RStanArm
+
+* <p>Stan Development Team. 2016. <i>RStanArm: Bayesian applied
+  regression modeling via Stan</i>.  &nbsp; <tt style="font-size:
+  95%">http://mc-stan.org</tt> </p>
+
+## ShinyStan
+
+* <p>Stan Development Team. 2016. <i>ShinyStan: Interactive Visual and
+  Numerical Diagnostics and Posterior Analysis for Bayesian
+  Models</i>.  &nbsp; <tt style="font-size:
+  95%">http://mc-stan.org</tt> </p>
+
+
 # Books about Stan
 
 * Richard McElreath. 2016. *Statistical Rethinking: A Bayesian Course
@@ -169,12 +183,24 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
+  MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
+  between risk perception and danger mitigation.  *Journal of
+  Experimental Psychology: Learning, Memory, and Cognition". ePub.
+
+* Nicenboim, Bruno, Pavel Logačev, Carolina Gattei, and Shravan
+  Vasishth. 2016. When high-capacity readers slow down and
+  low-capacity readers speed up: Working memory differences in
+  unbounded dependencies.  *Frontiers in Psychology, Special Issue on
+  Encoding and Navigating Linguistic Representations in Memory* (in
+  press).
+
 * Shantz, Andrew A., Lemoine, Nathan P., and Burkepile, Deron E. 2016.
   Nutrient loading alters the performance of key nutrient exchange
   mutualisms.  *Ecology Letters* 19(1):20--28.
 
-* Charpentier, Emmanuel and Looten, Vincent and Fahlgren, Bj\"orn and
-  Barna, Alexandre and Guillevin, Lo\"ic.  2016.  Meta-analytic
+* Charpentier, Emmanuel and Looten, Vincent and Fahlgren, Björn and
+  Barna, Alexandre and Guillevin, Loïc.  2016.  Meta-analytic
   estimation of measurement variability and assessment of its impact
   on decision-making: the case of perioperative haemoglobin
   concentration monitoring.  *BMC Medical Research Methodology*.
@@ -325,7 +351,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   effects in online sharing: consequences for peer adoption.  *ACM
   Conference on Electronic Commerce* 821--836.
 
-* Sutherland, Dougal J. and P\'oczos, Barnab\'as and Schneider,
+* Sutherland, Dougal J. and Póczos, Barnabás and Schneider,
   Jeff. 2013. Active learning and search on low-rank matrices.
   *Proceedings of the 19th ACM SIGKDD International Conference on
   Knowledge Discovery and Data Mining* 212--220.
@@ -353,8 +379,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Dissertations---Agricultural Economics*, Paper 16.  University of
   Kentucky. Ph.D. Dissertation.
 
-* Nemanja Vaci.  2013.  Poe\djenje metoda ocenjivanja parametara na
-  podacima iz psiholingvisti\vckih eksperimenata (Robustness of
+* Nemanja Vaci.  2013.  Poređenje metoda ocenjivanja parametara na
+  podacima iz psiholingvističkih eksperimenata (Robustness of
   methods for estimating regression parameters: Case of
   psycholinguistics data). Univerzitet u Novom Sadu.  Master rad.
 
