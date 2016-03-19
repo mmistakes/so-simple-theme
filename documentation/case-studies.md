@@ -37,6 +37,8 @@ clause)</span>; authors retain all rights, including copyright.
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with hierarchical priors. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
+[**View** (HTML)](case-studies/hierarchical_2pl.html)
+
 Authors
 : Daniel C. Furr
 
@@ -53,13 +55,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/hierarchical_2pl.html)
-
 
 ## Generalized Rating Scale Model with Latent Regression
 
 <small>This case study documents a Stan model for the generalized rating scale model (GRSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GRSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
+
+[**View** (HTML)](case-studies/grsm_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -77,13 +78,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/grsm_latent_reg.html)
-
 
 ## Generalized Partial Credit Model with Latent Regression
 
 <small>This case study documents a Stan model for the generalized partial credit model (GPCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GPCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided</small>
+
+[**View** (HTML)](case-studies/gpcm_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -101,13 +101,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/gpcm_latent_reg.html)
-
 
 ## Rating Scale Model with Latent Regression
 
 <small>This case study documents a Stan model for the rating scale model (RSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard RSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
+
+[**View** (HTML)](case-studies/rsm_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -125,13 +124,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/rsm_latent_reg.html)
-
 
 ## Partial Credit Model with Latent Regression
 
 <small>This case study documents a Stan model for the partial credit model (PCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard PCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided.</small>
+
+[**View** (HTML)](case-studies/pcm_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -149,13 +147,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/pcm_latent_reg.html)
-
 
 ## Rasch Model with Latent Regression
 
 <small>This case study documents a Stan model for the Rasch model with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard Rasch model. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
+
+[**View** (HTML)](case-studies/rasch_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -173,8 +170,6 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/rasch_latent_reg.html)
 
 
 ## Two-Parameter Logistic Item Response Model
@@ -189,6 +184,8 @@ advantage that it becomes quite easy to extend the model, and this is
 demonstrated by adding a latent regression and differential item
 functioning to the model. Posterior predictive model checking is also
 demonstrated.</small>
+
+[**View** (HTML)](case-studies/tutorial_twopl.html)
 
 Author
 : Daniel C. Furr, Seung Yeon Lee, Joon-Ho Lee, and Sophia Rabe-Hesketh
@@ -207,13 +204,12 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/tutorial_twopl.html)
-
 
 ## Two-Parameter Logistic Model with Latent Regression
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
+
+[**View** (HTML)](case-studies/2pl_latent_reg.html)
 
 Authors
 : Daniel C. Furr
@@ -230,9 +226,6 @@ R Package Dependencies
 
 License
 :  BSD (3 clause), CC-BY
-
-View
-: [HTML](case-studies/2pl_latent_reg.html)
 
 
 ## Pooling with Hierarchical Models for Repeated Binary Trials
@@ -254,6 +247,8 @@ predictions on held-out data, (iv) rank items by chance of success,
 new data for posterior p-values, and (vii) perform graphical posterior
 predictive checks.</small>
 
+[**View** (HTML)](case-studies/pool-binary-trials.html)
+
 Author
 : Bob Carpenter
 
@@ -270,8 +265,6 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
-View
-: [HTML](case-studies/pool-binary-trials.html)
 
 
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)
@@ -287,6 +280,8 @@ Dorazio et al. (2006) noisy-measurement occupancy model for multiple
 species abundance of butterflies.  Going beyond the paper, the
 supercommunity assumptions are tested to show they are invariant to
 sizing, and posterior predictive checks are provided.</small>
+
+[**View** (HTML)](case-studies/dorazio-royle-occupancy.html)
 
 Author
 : Bob Carpenter
@@ -305,9 +300,6 @@ License
 R Package Dependencies
 : <tt style="font-size: 90%">rstan, ggplot2, rmarkdown</tt>
 
-View
-: [HTML](case-studies/dorazio-royle-occupancy.html)
-
 
 # *Stan Case Studies*, &nbsp; Volume 1 &nbsp; (2014)
 
@@ -322,6 +314,9 @@ compartment models of soil carbon flux, with experimental data fitted
 with unknown initial compartment balance and noisy CO<sub>2</sub>
 measurements.  Results form Sierra and Müller’s (2014) soilR package
 are replicated.</small>
+
+[**View** (HTML)](case-studies/soil-knit.html)
+
 
 Author
 : Bob Carpenter
@@ -339,7 +334,3 @@ License
 
 R Package Dependencies
 : <tt style="font-size: 90%">rstan, ggplot2, rmarkdown</tt>
-
-View
-: [HTML](case-studies/soil-knit.html)
-<span class="note">(GitHub)</span>
