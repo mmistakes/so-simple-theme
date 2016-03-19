@@ -47,7 +47,7 @@ Gluon - ffww - 1.0 - Hersteller – Routertyp – Version .bin
 Dateiendung ist in der Regel immer .bin. In der Liste siehst du noch das Dateidatum und die Dateigröße in MB. Hast du das passende Image für ein Router gefunden, dann lade dieses runter.
 
 
-Hier findest du alle Freifunk unsere Images. Wenn du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen). Wir versuchen dann eine Lösung zu finden.
+Hier findest du alle Freifunk unsere Images. Wenn du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen)). Wir versuchen dann eine Lösung zu finden.
 
 #Image Installieren „Flashen“
 
@@ -76,11 +76,10 @@ Soll der Router auf der Freifunk Karte sichtbar werden? Du kannst entscheiden ob
 ![luci](../images/anleitung/luci.jpg)
 
 
-Nach klicken auf „Fertig“ hast du dein Router fertig eingerichtet. Du kommst jetzt noch ein VPN Key. Diesen brauchst du um dein Router zu registrieren. Dazu gleich mehr. Kopieren am besten den Key in eine Textdatei.
+Nach klicken auf „Fertig“ hast du dein Router fertig eingerichtet.
 
+Wir bitten dich in deinem Router deine E-Mailadresse zu hinterlegen. Das erleichtert es uns, dich zu kontaktieren falls es Probleme mit deinem Router gibt. Bitte beachte, das diese E-Mailadresse öffentlich einsehbar ist. Wenn du das nicht möchtest, kannst du dich auch auf unserer Mailingliste (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen))  registrieren. Dort ist deine E-Mailadresse nicht öffentlich einsehbar.
 
-
-Wir bitten dich in deinem Router deine E-Mailadresse zu hinterlegen. Das erleichtert es uns, dich zu kontaktieren falls es Probleme mit deinem Router gibt. Bitte beachte, das diese E-Mailadresse öffentlich einsehbar ist. 
 
 >ACHTUNG: Wir empfehlen ausdrücklich kein SSH Passwort auf deinem Router zu verwenden. Der Router ist aus dem Internet erreichbar und Passwörter sind nicht sicher, da die ein Angreifer sehr viel Zeit zum ausproboieren hat. 
 Wenn du dich per SSH auf deinem Router einloggen möchtest, verwende einen SSH Key. Wir werden den Login per Passwort in einer der nächsten Firmware versionen entfernen. 
@@ -91,18 +90,7 @@ Wenn du dich per SSH auf deinem Router einloggen möchtest, verwende einen SSH K
 Zu Abschluss kannst du jetzt deinen neuen Freifnkrouter an deinem Internet Anschluss installieren. Stecke einfach ein Netzkabel von deinem Internetanschluss auf den blauen WAN Anschluss des Freifunkrouters. Damit ist die Installation fertig!
 
 
-#Freifunkrouter registrieren
-
-Damit die Community deinen Router kennt muss dieser über ein Formular registriert werden. Ohne Registrierung kann dein Router sich nur per Funk zu anderen Routern verbinden, nicht aber über das Internet. Rufe dazu die Seite : [http://register.freifunk-myk.de/ ](http://register.freifunk-myk.de/ ) auf und melde dich dort an. Solltest du noch kein Account haben, erstell dir bitte zuerst ein.
-
-![knoten](../images/anleitung/knoten.jpg)
-
-
-Melde dich nun bitte an und füge deinen Router über die Funktion "neuen Konten hinzufügen" in die Knotenliste ein. Hier kannst du dann auch später Daten zu deinem Router ändern.
-Ändern der Daten im Router
-
-
-#Config Mode
+#Ändern der Daten im Router - Config Mode
 
 Möchtest du die Daten, wie zum Beispiel die Koordinaten, ändern musst du zuerst dein Router in den „Config Mode“ versetzten. Das geht ganz einfach.
 
