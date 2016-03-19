@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
 <monthly>
-
-    <event>
-        <id>5</id>
+     <event>
+        <id>11</id>
         <name>Techniktreffen</name>
-        <startdate>2016-03-01</startdate>
-        <enddate>2016-03-01</enddate> <!-- optional -->
+        <startdate>2016-03-29</startdate>
+        <enddate>2016-03-29</enddate> <!-- optional -->
         <starttime>19:00</starttime> <!-- optional -->
         <endtime>22:00</endtime> <!-- optional -->
         <color>#444444</color> <!-- optional -->
@@ -13,15 +12,108 @@
     </event>
 
     <event>
-        <id>4</id>
+        <id>6</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-04-26</startdate>
+        <enddate>2016-04-26</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>7</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-05-24</startdate>
+        <enddate>2016-05-24</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+
+    <event>
+        <id>8</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-06-21</startdate>
+        <enddate>2016-06-21</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+
+    <event>
+        <id>9</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-07-19</startdate>
+        <enddate>2016-07-19</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>10</id>
+        <name>Techniktreffen</name>
+        <startdate>2016-08-16</startdate>
+        <enddate>2016-08-16</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#444444</color> <!-- optional -->
+        <url>techniktreffen</url> <!-- optional -->
+    </event>
+
+
+    <event>
+        <id>1</id>
         <name>Communitytreffen</name>
-        <startdate>2016-02-18</startdate>
-        <enddate>2016-02-18</enddate> <!-- optional -->
+        <startdate>2016-04-14</startdate>
+        <enddate>2016-04-14</enddate> <!-- optional -->
         <starttime>19:00</starttime> <!-- optional -->
         <endtime>22:00</endtime> <!-- optional -->
         <color>#ffb128</color> <!-- optional -->
         <url>communitytreffen</url> <!-- optional -->
     </event>
-
-
+    <event>
+        <id>2</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-05-12</startdate>
+        <enddate>2016-05-12</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>3</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-06-09</startdate>
+        <enddate>2016-06-09</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>4</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-07-07</startdate>
+        <enddate>2016-07-07</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+    <event>
+        <id>5</id>
+        <name>Communitytreffen</name>
+        <startdate>2016-08-04</startdate>
+        <enddate>2016-08-04</enddate> <!-- optional -->
+        <starttime>19:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>#ffb128</color> <!-- optional -->
+        <url>communitytreffen</url> <!-- optional -->
+    </event>
+   
 </monthly>
