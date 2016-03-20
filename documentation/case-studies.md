@@ -33,11 +33,11 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
-## Hierarchical Two-Parameter Logistic Item Response Model
+## Hierarchical Two-Parameter Logistic Item Response Model 
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with hierarchical priors. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
-[**View** (HTML)](case-studies/hierarchical_2pl.html)
+[View](case-studies/hierarchical_2pl.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -60,7 +60,7 @@ License
 
 <small>This case study documents a Stan model for the generalized rating scale model (GRSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GRSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
 
-[**View** (HTML)](case-studies/grsm_latent_reg.html)
+[View](case-studies/grsm_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -83,7 +83,7 @@ License
 
 <small>This case study documents a Stan model for the generalized partial credit model (GPCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GPCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided</small>
 
-[**View** (HTML)](case-studies/gpcm_latent_reg.html)
+[View](case-studies/gpcm_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -106,7 +106,7 @@ License
 
 <small>This case study documents a Stan model for the rating scale model (RSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard RSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
 
-[**View** (HTML)](case-studies/rsm_latent_reg.html)
+[View](case-studies/rsm_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -129,7 +129,7 @@ License
 
 <small>This case study documents a Stan model for the partial credit model (PCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard PCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided.</small>
 
-[**View** (HTML)](case-studies/pcm_latent_reg.html)
+[View](case-studies/pcm_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -152,7 +152,7 @@ License
 
 <small>This case study documents a Stan model for the Rasch model with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard Rasch model. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
-[**View** (HTML)](case-studies/rasch_latent_reg.html)
+[View](case-studies/rasch_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -185,7 +185,7 @@ demonstrated by adding a latent regression and differential item
 functioning to the model. Posterior predictive model checking is also
 demonstrated.</small>
 
-[**View** (HTML)](case-studies/tutorial_twopl.html)
+[View](case-studies/tutorial_twopl.html) <span class="note">(HTML)</span>
 
 Author
 : Daniel C. Furr, Seung Yeon Lee, Joon-Ho Lee, and Sophia Rabe-Hesketh
@@ -209,7 +209,7 @@ License
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
-[**View** (HTML)](case-studies/2pl_latent_reg.html)
+[View](case-studies/2pl_latent_reg.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
@@ -230,12 +230,12 @@ License
 
 ## Pooling with Hierarchical Models for Repeated Binary Trials
 
-<small>This note illustrates the effects on posterior inference of pooling
-data (aka sharing strength) across items for repeated binary trial
-data.  It provides Stan models and R code to fit and check predictive
-models for three situations: (a) complete pooling, which assumes each
-item is the same, (b) no pooling, which assumes the items are
-unrelated, and (c) partial pooling, where the similarity among the
+<small>This note illustrates the effects on posterior inference of
+pooling data (aka sharing strength) across items for repeated binary
+trial data.  It provides Stan models and R code to fit and check
+predictive models for three situations: (a) complete pooling, which
+assumes each item is the same, (b) no pooling, which assumes the items
+are unrelated, and (c) partial pooling, where the similarity among the
 items is estimated.  We consider two hierarchical models to estimate
 the partial pooling, one with a beta prior on chance of success and
 another with a normal prior on the log odds of success.  The note
@@ -247,7 +247,7 @@ predictions on held-out data, (iv) rank items by chance of success,
 new data for posterior p-values, and (vii) perform graphical posterior
 predictive checks.</small>
 
-[**View** (HTML)](case-studies/pool-binary-trials.html)
+[View](case-studies/pool-binary-trials.html) <span class="note">(HTML)</span>
 
 Author
 : Bob Carpenter
@@ -281,7 +281,7 @@ species abundance of butterflies.  Going beyond the paper, the
 supercommunity assumptions are tested to show they are invariant to
 sizing, and posterior predictive checks are provided.</small>
 
-[**View** (HTML)](case-studies/dorazio-royle-occupancy.html)
+[View](case-studies/dorazio-royle-occupancy.html) <span class="note">(HTML)</span>
 
 Author
 : Bob Carpenter
@@ -315,8 +315,7 @@ with unknown initial compartment balance and noisy CO<sub>2</sub>
 measurements.  Results form Sierra and Müller’s (2014) soilR package
 are replicated.</small>
 
-[**View** (HTML)](case-studies/soil-knit.html)
-
+[View](case-studies/soil-knit.html) <span class="note">(HTML)</span>
 
 Author
 : Bob Carpenter
