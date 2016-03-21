@@ -27,7 +27,7 @@ development, you may contact us directly or just follow the link:&nbsp;
   <a href="https://www.flipcause.com/widget/give_now/NTU3Ng==">Contribute
   to Stan</a> &nbsp;
   <span class="note">(FlipCause payment processing)</span>
-  </span>
+  </span> </p>
 
 
 ## Why Support Stan?
