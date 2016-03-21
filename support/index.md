@@ -143,10 +143,5 @@ the following corporations.
 
 * [Alcon](http://www.alcon.com)
 
-Stan was previously funded in part through consulting arrangements
-with the following corporations.
-
-* <p>
-  <a href="https://yougov.com/">YouGov</a>
-  </p>
+* [YouGov](https://yougov.com)
 
