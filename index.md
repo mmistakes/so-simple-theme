@@ -24,7 +24,7 @@ class="note">(ADVI)</span>
 class="note">(L-BFGS)</span>
 
 Stan's math library provides differentiable probability functions &amp;
-linear algebra <span class="note">(C++ autodiff)</span>.
+linear algebra <span class="note">(C++ autodiff)</span>.  Additional R packages provide expression-based linear modeling, posterior visualization, and leave-one-out cross-validation.
 
 # Get Started
 

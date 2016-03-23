@@ -67,9 +67,17 @@ I/O, inference algorithms, and posterior analysis algorithms.
 # Useful Tools
 
 ShinyStan provides interactive visual summaries and advanced posterior
-analysis of MCMC output.
+analysis of MCMC output. 
 
 * <p>
   <a href="/interfaces/shinystan.html">ShinyStan</a>
   <span class="note">(R)</span>
   </p>
+
+The loo package provides efficient leave-one-out cross-validation and WAIC calculations.
+
+* <p>
+  <a href="/interfaces/loo.html">loo</a>
+  <span class="note">(R)</span>
+  </p>
+
