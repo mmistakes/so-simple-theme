@@ -1,0 +1,31 @@
+{
+  "name": "Neuwied",
+  "url": "http://freifunk-neuwied.de",
+  "location": {
+    "city": "Neuwied",
+    "country": "DE",
+    "lat": 50.4308323,
+    "lon": 7.4656407
+  },
+  "contact": {
+    "email": "info@freifunk-neuwied.de",
+    "ml": "general@freifunk-westerwald.de"
+  },
+  "metacommunity": "Westerwald",
+  "state": {
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-03-24T14:52:26.741Z"
+  },
+  "api": "0.4.12",
+  "techDetails": {
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  }
+}
