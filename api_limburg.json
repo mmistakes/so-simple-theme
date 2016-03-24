@@ -1,0 +1,23 @@
+{
+  "name": "Freifunk Limburg",
+  "url": "http://freifunk-limburg.de",
+  "location": {
+    "city": "Limburg",
+    "country": "DE",
+    "lat": 50.38763,
+    "lon": 8.06362
+  },
+  "contact": {
+    "email": "info@freifunk-limburg.de"
+  },
+  "state": {
+    "lastchange": "2016-02-18T10:35:04.197Z",
+    "focus": []
+  },
+  "api": "0.4.11",
+  "techDetails": {
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  }
+}
