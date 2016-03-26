@@ -66,7 +66,9 @@ npm install
 
 ### Erstellen der Seite
 ```sh
-npm build
+grunt
+bundle exec jekyll build
+grunt gulp:hypher
 ```
 
 ### Server starten und auf Änderungen warten
