@@ -22,7 +22,9 @@
 .entry-feature-image {
 	margin: 20px 0 0;
 	width: 100%;
+	display: none;
 	@include media($medium) {
+		display: inline-block;
 		margin-top: -75px; /* move up to be overlapped by site logo */
 	}
 	@include media($large) {
@@ -142,6 +144,7 @@ span + .entry-title {
 /* feature image credit */
 
 .image-credit {
+	display: none;
   margin: 0 auto;
   max-width: 440px;
   padding-top: 5px;
@@ -152,16 +155,19 @@ span + .entry-title {
   line-height: 1.3;
   color: lighten($text-color, 30);
   @include clearfix();
-  @include media($medium) {
+
+	@include media($medium) {
+		display: block;
     max-width: 760px;
     padding-right: 60px;
     padding-left: 60px;
-    @include font-size(14, no);
+		@include font-size(14, no);
   }
   @include media($large) {
     max-width: 960px;
   }
-  a {
+
+	a {
     color: lighten($text-color, 30);
   }
 }
