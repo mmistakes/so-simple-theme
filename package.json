@@ -9,6 +9,11 @@
     "type": "git",
     "url": "git://github.com/FreifunkWesterwald/Jekyll-Website.git"
   },
+  "scripts": {
+    "start": "bundle exec jekyll serve --watch",
+    "build": "grunt && bundle exec jekyll build && grunt gulp:hypher",
+    "postinstall": "bower install && bundle install"
+  },
   "bugs": {
     "url": "https://github.com/FreifunkWesterwald/issues"
   },

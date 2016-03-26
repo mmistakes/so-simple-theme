@@ -39,7 +39,7 @@ installiert werden. Bei andern Systemen müssen statt pacman die individuellen
 Paketmanager verwendet werden, bzw. unter Windows die Programme einzeln von
 den Hersteller-Seiten geladen werden.
 
-```bash
+```sh
 sudo pacman -S git
 sudo pacman -S ruby
 gem install bundler
@@ -54,7 +54,7 @@ sudo npm install -g grunt-cli
 Um später die Änderungen auch wieder hochladen zu können, ist es sehr zu
 empfehlen git zu verwenden.
 
-```bash
+```sh
 git clone https://github.com/FreifunkWesterwald/Jekyll-Website.git
 cd Jekyll-Website
 ```
@@ -62,24 +62,17 @@ cd Jekyll-Website
 ### Installation der Abhängigkeiten
 ```sh
 npm install
-bower install
-bundle install
 ```
 
 ### Erstellen der Seite
-```bash
-#grunt kann übersprungen werden, wenn später 'grunt watch' werdenet wird
-grunt
-#jekyll build kann übersprungen werden, wenn später der Server verwendet wird
-bundle exec jekyll build
-grunt gulp:hypher
+```sh
+npm build
 ```
 
 ### Server starten und auf Änderungen warten
 
-```bash
-bundle exec jekyll serve --watch & grunt watch
-#Der jekyll Server wird dabei im Hintergrund gestartet, zum beenden muss der Prozess einzeln beendet werden
+```sh
+npm start
 ```
 
 Die Seite kann dann im browser unter [localhost:4000](http://localhost:4000/) aufgerufen werden.
