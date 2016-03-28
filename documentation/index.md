@@ -65,7 +65,7 @@ them.
 
 ## Print
 
-* Michael Clark. (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](http://www3.nd.edu/~mclark19/learn/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
+* Michael Clark. (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](https://sites.google.com/a/umich.edu/micl/miscfiles/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
 
 * Tanner Sorensen and Shravan Vasishth. (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
 
