@@ -73,7 +73,7 @@ Details
 
 
 
-# *June 2016*
+# **June 2016**
 
 ## Getting Started with PK/PD Modeling using Stan
 
@@ -121,7 +121,7 @@ Details
 
 
 
-# October 2016
+# **October 2016**
 
 ## Getting Started with PK/PD Modeling using Stan
 
