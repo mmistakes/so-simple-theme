@@ -150,6 +150,22 @@ Venue
 Details
 : [View](http://www.corsiecongressi.com/isba2016/corso.asp)
 
+## An Introduction to Bayesian Inference using R Interfaces to Stan
+
+Instructor
+: Ben Goodrich
+
+Date
+: 27 June 2016 <span class="note">(Monday)</span>
+
+Location:
+: Stanford, California <span class="note">(USA)</span>
+
+Venue
+: [useR 2016](http://user2016.org/)
+
+Details
+: Forthcoming
 
 
 
