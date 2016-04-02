@@ -167,6 +167,22 @@ Venue
 Details
 : Forthcoming
 
+# **July 2016**
+
+Instructors
+: Ben Goodrich and Daniel Furr
+
+Date
+: 11 July 2016 <span class="note">(Monday)</span>
+
+Location:
+: Asheville, North Carolina <span class="note">(USA)</span>
+
+Venue
+: [International Meeting of the Psychometric Society](https://www.psychometricsociety.org/content/imps-2016)
+
+Details
+: [Accepted proposal](https://www.psychometricsociety.org/sites/default/files/IMPS_stan.pdf)
 
 
 <!-- SEPT - BOB DANIEL IN PARIS -->
