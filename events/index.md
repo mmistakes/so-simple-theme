@@ -91,7 +91,25 @@ Venue
 Details
 : [View](http://www.meetup.com/bda-group/events/228381496/)
 
+# **April 2016**
 
+## Introduction to Stan Talk
+
+Instructor
+: Eric Novik
+
+Date
+: Sometime 20 -- 22 May 2016 <span class="note">(Weekend)</span>
+
+Location
+: Boston, Massachusetts <span class="note">(USA)</span>
+
+Venue
+:  [Open Data Science Conference
+(ODSC)](http://www.odsc.com/boston/)
+
+Details
+: Forthcoming when day and time are set
 
 # **June 2016**
 
