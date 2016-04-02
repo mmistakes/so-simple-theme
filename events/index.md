@@ -203,6 +203,25 @@ Venue
 Details
 : Forthcoming
 
+# **August 2016**
+
+## An Introduction to Econometric Modeling using Stan
+
+Instructor
+: Ben Goodrich
+
+Date
+: 01 -- 03 August 2016 <span class="note">(Sometime)</span>
+
+Location:
+: Boston, Massachusetts <span class="note">(USA)</span>
+
+Venue
+: [Applied and Agricultural Economics Association](http://www.aaea.org/meetings/2016-aaea-annual-meeting)
+
+Details
+: Forthcoming
+
 
 <!-- SEPT - BOB DANIEL IN PARIS -->
 <!-- SEPT/OCT - BOB IN HELSKINKI -->
