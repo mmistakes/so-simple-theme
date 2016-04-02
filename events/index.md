@@ -18,6 +18,26 @@ or in many presentations at meetups and other venues.
 
 # **April 2016**
 
+## Stan Demo
+
+Instructor
+: Jonah Gabry
+
+Date
+: 06 April 2016 <span class="note">(Wednesday)</span>
+
+Location
+: New York, New York <span class="note">(USA)</span>
+
+Time
+: 2:00 PM to 4:30 PM
+
+Venue
+: Columbia University, Lerner Hall
+
+Details
+: [Buy tickets](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
+
 ## Bayes/Stan Short Course
 
 Instructor
