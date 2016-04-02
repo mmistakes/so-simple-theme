@@ -169,6 +169,8 @@ Details
 
 # **July 2016**
 
+## Bayesian Modeling Using Stan
+
 Instructors
 : Ben Goodrich and Daniel Furr
 
@@ -183,6 +185,23 @@ Venue
 
 Details
 : [Accepted proposal](https://www.psychometricsociety.org/sites/default/files/IMPS_stan.pdf)
+
+## An Introduction to Stan
+
+Instructors
+: Ben Goodrich and Eric Novik
+
+Date
+: 30 July 2016 <span class="note">(Saturday)</span>
+
+Location:
+: Chicago, Illinois <span class="note">(USA)</span>
+
+Venue
+: [Joint Statistical Meetings](https://www.amstat.org/meetings/jsm/2016/)
+
+Details
+: Forthcoming
 
 
 <!-- SEPT - BOB DANIEL IN PARIS -->
