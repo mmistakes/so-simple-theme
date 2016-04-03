@@ -36,6 +36,7 @@ Venue
 : Columbia University, Lerner Hall
 
 Details
+: [Abstract](https://datasciencedaycolumbia2016.sched.org/event/6gQg/demo-d1-an-introduction-to-stan)
 : [Buy tickets](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
 
 ## Bayes/Stan Short Course
