@@ -14,3 +14,4 @@ image:
 - [nyc](/workshops/nyc/)
 - [ub_tisi](/workshops/ub_tisi/) 
 - [newcastle](/workshops/newcastle/) 
+- [bristol](/workshops/bristol/)
