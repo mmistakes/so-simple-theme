@@ -6,3 +6,7 @@ codekit-config.json
 node_modules
 .sass-cache
 .jekyll-metadata
+
+#ignore emacs files
+*~
+*#
