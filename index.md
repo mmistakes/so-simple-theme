@@ -43,4 +43,7 @@ is associated with NumFOCUS, a 501(c)(3) nonprofit supporting open code
 and reproducible science, through which you can [help support
 Stan](/support/).
 
+<center style="padding: 1em 0 0 0">
+<a href="http://numfocus.org"><img width="200" src="images/numfocus.png" /></a>
+</center>
 
