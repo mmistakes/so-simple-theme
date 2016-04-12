@@ -10,34 +10,13 @@ image:
 ---
 
 {:.center-txt}
-meetups &amp; courses
+meetups, talks &amp; courses
 
 
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.  
 
 # **April 2016**
-
-## Stan Demo
-
-Instructor
-: Jonah Gabry
-
-Date
-: 06 April 2016 <span class="note">(Wednesday)</span>
-
-Location
-: New York, New York <span class="note">(USA)</span>
-
-Time
-: 2:00 PM to 4:30 PM
-
-Venue
-: Columbia University, Lerner Hall
-
-Details
-: [Abstract](https://datasciencedaycolumbia2016.sched.org/event/6gQg/demo-d1-an-introduction-to-stan)
-: [Buy tickets](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
 
 ## Bayes/Stan Short Course
 
@@ -248,3 +227,28 @@ Venue
 
 Details
 : [View](http://metrumrg.com/events/2016/10/23/bayesianpkpd.html)
+
+
+# **Past** 
+
+## Stan Demo
+
+Instructor
+: Jonah Gabry
+
+Date
+: 06 April 2016 <span class="note">(Wednesday)</span>
+
+Location
+: New York, New York <span class="note">(USA)</span>
+
+Time
+: 2:00 PM to 4:30 PM
+
+Venue
+: Columbia University, Lerner Hall
+
+Details
+: [Abstract](https://datasciencedaycolumbia2016.sched.org/event/6gQg/demo-d1-an-introduction-to-stan)
+: [Buy tickets](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
+

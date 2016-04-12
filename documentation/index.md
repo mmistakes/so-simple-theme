@@ -75,8 +75,18 @@ them.
 
 ## Video
 
+* <a class="external" href="https://youtu.be/95bpsWr1lJ8">ADVI --- 10
+  Minute Presentation</a>  <span class="note">(YouTube)</span>
+  <br />
+  Alp Kucukelbir (2015)
+
+* <a class="external" href="https://vimeo.com/132156595">Probabilistic
+  Modeling and Inference Made Easy</a> (60 minutes) <span class="note">(Vimeo)</span>.
+  <br />
+  Bob Carpenter (2015)
+
 *  <a class="external"
-    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials (5 hours)</a>
+    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials</a> (5 hours)
     <span class="note">(YouTube)</span>
     <br />
     Mike Lawrence (2015)
