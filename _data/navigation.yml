@@ -1,8 +1,5 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Articles
   url: /articles/
 
@@ -11,6 +8,9 @@
 
 - title: Blog
   url: /blog/
+
+- title: About Me
+  url: /about/
 
 - title: Search
   url: /search/
