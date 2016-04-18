@@ -19,10 +19,6 @@ He is also a financial analyst, who is passionate in analyzing finance problem b
 
 His goal is to combine what he have learned in statistics and finance and to put them to practices. Creating great things that will benefit the general public is my dream. And he also keep on improving myself.
 
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
-
 <a markdown="0" href="{{ site.url }}/research" class="btn">Find more research.</a>
 
 [^1]: Example: *domain.com/category-name/post-title*

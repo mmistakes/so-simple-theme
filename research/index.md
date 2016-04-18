@@ -19,8 +19,8 @@ Languages: R, Python, SAS.
 
 ### Creative Perfomance in Online Education Environment.
 
-* 
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
+* Under construction! 
+* 敬请期待
 
 
 ### Adaptive Quasi-Maximum Likelihood Estimation
