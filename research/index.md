@@ -21,7 +21,7 @@ Languages: R, Python, SAS.
 
 * 
 * [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
+
 
 ### Adaptive Quasi-Maximum Likelihood Estimation
 
