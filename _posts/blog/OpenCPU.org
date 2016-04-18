@@ -1,0 +1,16 @@
+#+BLOG: Blog
+#+POSTID: 367
+#+DATE: [2013-11-15 Fri 14:42]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: R language
+#+TAGS: OpenCPU, R
+#+DESCRIPTION:
+#+TITLE: It's time to run everything with R: OpenCPU
+有用的事情已经有人做出来了。
+* OpenCPU
+一级棒：OpenCPU http://t.cn/8DFMN8g 还有：[[http://t.cn/8DFMN8e]] 看来短期
+之内R的实力会极大的爆发了。有了云处理的支持，我相信所有程序员都希望转到
+R平台上来，不只是免费，而是大数据的要求以及需要重复操作，改进的方法
+* Details
+具体如何使用，版本要求，package要求都在这：
+https://public.opencpu.org/faq.html

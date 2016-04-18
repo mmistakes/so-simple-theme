@@ -1,0 +1,47 @@
+#+BLOG: Blog
+#+POSTID: 283
+#+DATE: [2013-08-13 Tue 23:41]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: emacs, org-mode, latex
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Perfect for Orgmode to export PDF with XeLaTeX
+终于全面调好了用orgmode写文章，然后写好之后直接导出成为pdf，并且
+用了传说中的xelatex来实现方便的中文输出，一切都搞定了，以后不倒腾
+就这么用了。
+* 1.就orgmode配置
+这个不用说了，就是下载安装orgmode，然后require就行
+* 2.导出的Option设置
+我比较喜欢目录是红色方框，多方测试终于发现只要用如下头部文件就能
+实现：
+#+BEGIN_SRC org
+#+LaTeX_CLASS_OPTIONS: [colorlinks]
+#+END_SRC
+* 3.改成用xelatex编译
+这个真是折腾了好久好久，最后发现还是得看原始文档，看变量描述
+
+PS：C-h v 可以看变量描述，正是看了这个之后我找到了如何改成xelatex
+编译orgmode下的org->tex->pdf
+
+.emacs文件设置如下：
+#+BEGIN_SRC emacs-lisp
+
+;; latex mode 下设置xelatex编译方法
+
+(add-hook 'LaTeX-mode-hook (lambda()
+       (add-to-list 'TeX-command-list '("XeLaTeX"
+       "%`xelatex%(mode)%' %t" TeX-run-TeX nil t))
+       (setq TeX-command-default "XeLaTeX")
+       (setq TeX-save-query  nil )
+       (setq TeX-show-compilation t)
+       ))
+
+;; 设置默认使用xelatex一步生成PDF,org>8.0没有那个to
+;; 设置在orgmode下自动用xelatex编译输出pdf
+(setq org-latex-pdf-process
+'("xelatex -interaction nonstopmode %b"
+"xelatex -interaction nonstopmode %b"))
+
+#+END_SRC
+
+就这样了，继续学英语。<2013-08-13 Tue>

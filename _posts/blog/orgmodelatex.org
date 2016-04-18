@@ -1,0 +1,10 @@
+#+BLOG: Blog
+#+POSTID: 375
+#+DATE: [2013-12-07 Sat 17:57]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: emacs, Org-mode, latex
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Org mode 中插入公式
+
+http://forum.ubuntu.org.cn/viewtopic.php?f=68&t=343290

@@ -1,0 +1,44 @@
+#+BLOG: Blog
+#+POSTID: 146
+#+DATE: [2013-07-08 周一 13:47]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: WordPress, Learning
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: (转载）WordPress 博客首页、存档页显示摘要，RSS 输出全文的完美解决方案总结
+
+* 自己博客应该是具有这个功能的
+- 原因由于英文的几篇文章是按照简单显示了的。可以发现应该是按照分段数以
+  及空格来自动生成摘要的，中文博客由于没有空格就全部一股脑的变成摘要了！
+
+#+<!-more-> 
+
+[[http://myfairland.net/wordpress-excerpt/][小骆驼商队博客]] 有如下描述：
+修改主题的模板文件，在 index.php 里找到
+
+<?php the_content(); ?>
+   
+改成
+
+#+BEGIN_HTML 
+<pre lang="html" line="1">
+  ?php
+  if (is_single() or is_page())
+  {the_content();}
+  else
+  {the_excerpt();}
+  ?
+</pre>
+#+END_HTML 
+  
+- 上面代码用HTML输出有问题，其中<>总是被认为是HTML的函数导致不能输出不
+  知为何
+ 
+- 这样改的作用是加一个判断，如果是单篇日志页或静态页面，则输出全文，否
+  则输出摘要。看上去很美，但wordpress默认的摘要输出算法是根据西文来的，
+  以空格判断字数，而中文里基本没空格，所以它算完了之后输出的“摘要”其
+  实还是全文……因此，对中文博客而言，此法必须和其他办法协同使用。
+   
+* 故应该是有这个功能的。
+* 其他方法过于复杂，本着这个博客只是作为一个记录以及分享功能，就不再深入研究了，抓紧时间看书，写论文学英语。
+

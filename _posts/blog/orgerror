@@ -1,0 +1,21 @@
+#+BLOG: Blog
+#+POSTID: 270
+#+DATE: [2013-07-21 Sun 12:16]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: emacs, org2blog, org-mode
+#+TAGS:emacs, org2blog, org-mode
+#+DESCRIPTION:
+#+TITLE: Org-mode 报错问题排除
+* 先说出处
++ [[http://www.mastermindcn.com/2012/02/org_mode_quite_a_life/][ *来自用Org-mode实践《奇特的一生》* ]]
+* 实实在在开始使用Org-mode进行时间管理
++ 遇到问题，每次输入空格都显示org-list-allow-alphabatica, 排除这
+  个又出来了那个，不断出问题，从错误提示看就是出现按键冲突，但是
+  又不会改，最后发现是org头部的一句导致的
+#+BEGIN_SRC emacs-lisp
+#+PROPERTY: CLOCK_INTO_DRAWER t
+#+END_SRC
++ 删掉就好了
+
+<2013-07-21 Sun 12:25>
+From Emacs24 org2blog

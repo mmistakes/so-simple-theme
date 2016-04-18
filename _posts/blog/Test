@@ -1,0 +1,26 @@
+#+BLOG: Blog
+#+POSTID: 87
+#+DATE: [2013-07-05 ÷‹ŒÂ 12:10]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org2blog, emacs
+#+TAGS: org2blog, emacs
+#+DESCRIPTION:
+#+TITLE: Test for the Html 
+#+NAME:<>
+#+BEGIN_SRC <html> <switches> <header arguments>
+(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
+ (require 'org2blog-autoloads)
+#+END_SRC
+
+#+BEGIN_HTML
+<pre lang="html" line="1">
+(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
+(require 'org2blog-autoloads)
+</pre>
+#+END_HTML
+
+#+BEGIN_HTML
+<pre lang="lisp"&gt>
+     code here
+</pre&gt>
+#+END_HTML

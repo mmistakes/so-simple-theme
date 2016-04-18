@@ -1,0 +1,70 @@
+#+BLOG: Blog
+#+POSTID: 339
+#+DATE: [2013-09-24 Tue 18:34]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: statistics
+#+TAGS: C.R.Rao, statistician
+#+DESCRIPTION:
+#+TITLE: 著名统计学家简介以及语录 C.R.Rao
+#+BEGIN_QUOTE
+Knowledge is what we know
+Also, what we know we do not know.
+We discover what we do not know
+Essentially by what we know
+
+Thus knowledge expands.
+
+With more knowledge we come to know
+More of what we do not know.
+
+Thus knowledge expands endlessly.
+
+...
+
+All knowledge is, in final analysis, history.
+All sciences are, in the abstract, mathematics.
+All judgements are, in their rationale, statistics.
+
+----C Radhakrishna Rao 
+<STATISTICS AND TRUTH Putting Chance to Work>
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+在终极的分析中，一切知识都是历史；
+在抽象的意义下，一切科学都是数学；
+在理性的世界里，所有的判断都是统计学。
+---C.R.Rao
+#+END_QUOTE
+
+美国科学院院士，英国皇家统计学会会员， 当今仍健在的国际上最伟大的
+统计学家之一，他于1920 年9 月10 日出生于印度的一个贵族家庭， 1940
+年获印度安德拉大学数学学士学位，1943年在印度统计研究所取得统计学硕
+士学位，随后赴英国剑桥大学师从现代统计学的奠基人R.A.费歇(Fisher)教
+授，并于1948年获得剑桥大学博士学位。
+
+在青年时期就取得了许多成就，如著名的科拉姆-劳信息不等式
+(Cramer-Rao)是他1943 年完成、1945 年正式发表的。迄今，C.R. 劳教授
+已著书14 部，发表学术论文350 余篇，共获得包括英国、印度、俄罗斯、
+希腊、美国、秘鲁、芬兰、菲律宾、瑞士、波兰、斯洛维亚、德国、西班牙
+以及加拿大等16 个国家的大学以及研究机构的荣誉博士学位27 个，先后被
+选为美国科学院、英国皇家学会等31 个国际著名的科学和统计学研究机构
+的院士、理事或荣誉院士，是第三世界科学院的奠基人之一。
+
+C.R. 劳教授已经获得包括美国统计协会、英国皇家统计学会以及印度科学
+院的10 余项重大统计学大奖。2002 年C.R. 劳教授又获得美国总统科学大
+奖，表彰他在“统计学理论的建立，多元统计分析方法及其应用方面所做的
+开拓性贡献，其丰富了物理学，生物学，数学，经济学和工程科学的发展”。
+
+C.R. 劳教授对统计学发展的杰出贡献主要表现在估计理论、渐进推断、多
+元分析、概率分布的设定、组合分析等等诸多方面。为改进并推进费歇的一
+项工作，
+
+C.R. 劳教授1945 年在他的一篇文章中提出了二阶效的概念，其奠定了27
+年后将微分几何学引入统计学中的这一重要分支的基础。
+
+现已近92岁高龄的C.R. 劳教授仍担任美国宾州州立大学统计系多元分析研
+究中心主任、Eberly 统计学首席教授，从事研究生的教学与指导。同时
+C.R. 劳教授也仍积极活跃于国际统计学的学术交流，尽可能参加世界各地
+举行的学术研讨活动。
+
+http://hb2012.quanyuan.teacher.com.cn/GuoPeiAdmin/UserLog/UserLogView.aspx?UserlogID=808357

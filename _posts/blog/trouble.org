@@ -1,0 +1,71 @@
+#+BLOG: Blog
+#+POSTID: 242
+#+DATE: [2013-07-17 Wed 21:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org2blog, latex, emacs, org-mode
+#+TAGS: org-mode, emacs, latex, org2blog, 文件编码
+#+DESCRIPTION: 郁闷
+#+TITLE: 不得不黑一次Emacs，顺便也黑我自己
+总结一下今天的得失：
+* 感触
+*不要轻易做Geek,浪费时间不说，其实普通人不会有突破的*
+
+在用org-mode记录笔记，做听力的同时不断的不满足于对emacs，LaTeX的使用，不断的想寻找更全的功能，更完美的输出形式，更便捷的
+导出方法。我不愿意用org先生成tex然后手动改tex来实现pdf的完美格式。我也不愿意用org生成html文件后用Ctrl+p来打印保存成pdf。
+捣鼓了一下午发现，这些自己动手，丰衣足食的思想完全是没有必要的，完全是狗尾续貂。
+
+什么意思，就是我在使用Emacs是为了能够让我的输入更快捷，让我能够更好的记录思想，书写文档，本来很好的初衷由于对表面形式的
+轻浮追求而坠入深渊。我就是很好的例子，我浪费了几倍于学习的时间来琢磨上面的几个问题，如何看起来完美，如何使用footnotes，
+如何插入代码，还曾试图让blog发布的代码像本地一样高亮……还好我及时打住，才不至于又陷入困境。
+* 悲剧
+一个重大悲剧就发生在倒腾org-mode的中文导出pdf上，我一开始用下文将要介绍的方法已经可以实现文章主题的中文显示，但是由于标
+题还不能显示中文，所以把org7倒腾到了org8，试图在org8下面用xeCJK包来实现全文的中文显示，我感觉这确实是可以实现的，因为在
+xeCJK包下org文件生成的tex文件头部用了xeCJK包，这样避免了在中途调用CJK包导致的部分中文问题，但是，编码问题随之而来，当我
+并未注意Emacs的提问是否要改变编码时，我这个非计算机科学专业人士随意的按下了回车。
+
+悲剧并未马上显现。
+
+当我再次打开一个中文文档时，我的天，全是乱码，我并不知道为什么，也不知道当时选了哪种编码，所以我就悲了个剧了，改不回来了，
+现在很难受，查了很久试了很多都为成功全部改回来，我只好继续输入新的中文文档，废弃掉之前的。还好之前的中文文档我并未全部打
+开，不然都要报废。
+
+说了这么多，我就是想说：
+
+ *切记不要舍本逐末，文本编辑是你的初衷，格式，主题……全都是浮云* 
+
+* 收获
+** 能够顺利使用org-mode来实现笔记的记录，并能够顺利转化成pdf格式
+这需要讲解一下：
++ 首先是org-mode的使用就不做赘述，下载org，然后更改.emacs文档加入如下语句,其中的路径自己根据保存org的路径进行更改。
+#+begin_html
+<pre lang="html" line="1">
+(setq load-path (cons "~/.emacs.d/org-7.8.11/lisp/" load-path))
+(add-hook 'org-mode-hook
+(lambda () (setq truncate-lines nil)))
+(require 'org-install)
+(require 'org-latex)
+(unless (boundp 'org-export-latex-classes)
+  (setq org-export-latex-classes nil))
+</pre>
+#+end_html
++ 做上面的配置之后还需要在书写org文件的时候加上一定的options
+#+begin_html
+<pre lang="html" line="1">
+#+TITLE:org-mode:The best editor in the world. Not any better. 
+#+AUTHOR:Xiaorui.Zhu
+#+EMAIL: zhuxiaorui1989@gmail.com
+#+KEYWORDS: emacs, org-mode
+#+OPTIONS: H:4 toc:t LaTeX
+#+LATEX_CLASS: article
+#+LaTeX_HEADER: \usepackage{CJK}  
+#+LaTeX: \begin{CJK*}{GBK}{song}  
+</pre>
+#+end_html
++ 做上述的LaTeX_HEADER设置是为了让latex调用CJK包来编译中文字符，选用的中文字符为GBK形式，utf-8试过在我的LaTeX下不能编译，所以就用了GBK，宋体song。个人喜好还可以自己设置。
++ 存在一个问题，标题不能够包含中文，因为使用的CJK包在org文件C-c\C-e p编译成tex文件的时候可以打开tex文件看到#+LaTeX：\begin部分会自动包含在begin{document}内部，所以很自然的并不能够对title进行操作。至少我是不会。
+** *实现org导出为pdf形式* 
+只要C-c\C-e d 就能实现，这是在我的org7.8.11版本下，在org8版本下有些不同，也有博客说org8能够支持中文的pdf导出，我反正是没
+试出来，还浪费了很多时间，有空再尝试了。先到这里。
+
+<2013-07-17 Wed>
+

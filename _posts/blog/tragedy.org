@@ -1,0 +1,9 @@
+#+BLOG: Blog
+#+POSTID: 278
+#+DATE: [2013-07-27 Sat 18:17]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: 确实出问题了
+出问题改不了了，真悲剧

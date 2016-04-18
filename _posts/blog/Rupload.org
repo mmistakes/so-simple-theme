@@ -1,0 +1,36 @@
+#+BLOG: Blog
+#+POSTID: 362
+#+DATE: [2013-11-05 Tue 22:02]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: emacs, R language
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: 升级R版本后，更新Package (转载）
+
+http://blog.sina.com.cn/s/blog_5dd17a390100wo9h.html
+
+级R版本后，若重新安装所有的package将非常麻烦，可以尝试运行一下程序：
+ 
+1）在旧版本中的R中运行
+
+#--run in the old version of R
+
+setwd("C:/Temp/")  #注意要在C盘中新建Temp文件夹
+
+packages <- installed.packages()[,"Package"]
+
+save(packages, file="Rpackages")
+
+2）在新版本中的R运行
+
+#--run in the new version 
+
+setwd("C:/Temp/") 
+
+load("Rpackages") 
+
+for (p in setdiff(packages, installed.packages()[,"Package"])) 
+
+install.packages(p) 
+
+运行新版本将发现所有原有Package可以在新版中运行
