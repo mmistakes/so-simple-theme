@@ -7,7 +7,7 @@ excerpt: "Sample selction is also called as incidental truncation. Simply say, i
 tags: [statistics]
 image:
 feature:
-date: 2016-04-18 Mon 13:37
+date: 2016-04-18 Mon 22:27
 comments: true
 share: ture
 ---
