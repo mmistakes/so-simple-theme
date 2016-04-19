@@ -33,21 +33,23 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
-## Maximum Likelihood, Bayesian Posteriors, and Reparameterization
+## Reparameterization: MLE vs. Bayes
 
-<small>When changing variables, a Jacobian adjustment needs to be
-provided to preserve the probability distributions of quantities of
-interest, incuding Bayesian posteriors. With appropriate Jacobians,
-Bayesian inference is invariant to the parameterization. In contrast,
-applying the appropriate Jacobian adjustment leads to different
-maximum likelihood estimates, whereas skipping the Jacobians leaves
-them unchanged. In this note, we contrast three simple repeated binary
-trial models, varying only by parameterization: (a) direct probability
-parameterization, (b) log odds parameterization without Jacobian
-adjustment, (c) log odds parameterization with Jacobian
-adjustment. Models (a) and (b) provide the same MLE, whereas model (c)
-has a different MLE. In contrast, models (a) and (c) provide the same
-Bayesian posterior, whereas model (b) differs.</small>
+<small>
+When changing variables, a Jacobian adjustment needs to be provided to
+account for the rate of change of the transform.  Applying the
+adjustment preserves the probability distributions of quantities of
+interest, thus making Bayesian inference invariant to
+reparameterizations.  In contrast, the maximum likelihood estimate
+(posterior mode) is changed when the distribution-preserving Jacobian
+adjustment is included for a parameter.  In this note, we use Stan to
+code a repeated binary trial model parameterized by chance of success,
+along with its reparameterization in terms of log odds in order to
+demonstrate the effect of the Jacobian adjustment on the Bayesian
+posterior and maximum likelihood estimate.  Along the way, we derive
+the logistic distribution by transforming a uniformly distributed
+variable.
+</small>
 
 [View](case-studies/mle-params.html) <span class="note">(HTML)</span>
 
