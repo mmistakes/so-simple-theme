@@ -1,0 +1,29 @@
+#+DATE: [2013-07-18 Thu 10:52]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org-mode, latex, emacs, org2blog
+#+TAGS:pdf, emacs, latex
+#+DESCRIPTION:
+#+TITLE: Org-mode 转pdf，发博客，记笔记一路通！
+
+Org mode supports insertion of empty structural elements (like #+BEGIN_SRC and #+END_SRC pairs) with just a few key strokes. This is achieved through a native template expansion mechanism. Note that Emacs has several other template mechanisms which could be used in a similar way, for example yasnippet.
+
+To insert a structural element, type a ‘<’, followed by a template selector and <TAB>. Completion takes effect only when the above keystrokes are typed on a line by itself.
+
+The following template selectors are currently supported.
+
+| s | #+BEGIN_SRC ... #+END_SRC       |
+| v | #+BEGIN_VERSE ... #+END_VERSE   |
+| c | #+BEGIN_CENTER ... #+END_CENTER |
+| l | #+BEGIN_LaTeX ... #+END_LaTeX   |
+| L | #+LaTeX:                        |
+| h | #+BEGIN_HTML ... #+END_HTML     |
+| H | #+HTML:                         |
+| a | #+BEGIN_ASCII ... #+END_ASCII   |
+| A | #+ASCII:                        |
+| i | #+INDEX: line                   |
+| I | #+INCLUDE: line                 |
+
+For example, on an empty line, typing "<e" and then pressing TAB, will expand into a complete EXAMPLE template.
+
+You can install additional templates by customizing the variable org-structure-template-alist. See the docstring of the variable for additional details.
+

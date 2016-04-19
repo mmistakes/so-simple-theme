@@ -1,0 +1,47 @@
+#+BLOG: Blog
+#+POSTID: 233
+#+DATE: [2013-07-16 周二 11:04]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: learning, r-language, stat, statistics
+#+TAGS:Statistics, R language, IAAStat.tk
+#+DESCRIPTION:
+#+TITLE: 用R处理大数据集
+* R会把所有的对象读存入虚拟内存中。对我们大多数用户来说，这种设计可以提高与R相互的速度，但是当分析大数据集时，这种设计会降低程序运行速度有时还会产生跟内存相关的错误。
+内存限制主要取决于R的build版（32位还是64位），而在32位的windows下，取决于操作系统的版本。以cannot allocate vectoe of size开头的出错信息表示无法分配充足的连续内存，而以cannot allocate vector of length开头的出错信息表示超越了地址限制（address limit）。在处理大数据集时，应尽量使用64位版的R。对于各种build版，向量中的元素个数最大为2147483647（请自行?Memory）。
+* 在处理大数据集时有三方面应该考虑：（a）提高程序的效率，保证执行速度；（b）把数据储存在外部，以解决内存限制问题；（c）使用专门的统计方法来有效处理大数据量的问题。
+下面将分别讨论。
+
+* 高效编程下面几条编程技巧来可以提高处理大数据集时的效率
+- 尽量向量化运算。使用R内置的函数来处理向量、矩阵和list（例如函数sapply，lapply和mapply），尽量避免使用循环（for和while）;
+- 使用矩阵，必要时才使用数据框，因为矩阵的开销更少；
+- 使用read.table()函数族把外部数据导入数据框时，尽量显式设定colClasses和nrows选项，设定comment.char = ""，把不需要的列设置成NULL。这样可以减少占用的内存，同时加快处理速度。将外部数据导入矩阵时，使用scan()函数；
+- 在处理全部数据前，用数据的子集测试程序，来优化程序，去掉bug；
+- 删除临时对象和不再用的对象。调用rm(list=ls())可以删除内存中的所有对象。删除指定的对象可以用rm(object)；
+- 在Jeromy Anglim的博客文章“R的内存管理：一些小窍门和技巧”(原文Memory Management in R: A Few Tips and Tricks ，被墙)中提到，使用函数.ls.objects()列出工作区内的对象占用的内存大小。这个函数会帮助你找到吃内存的大家伙。
+- profile你的程序，看看在每个函数中花的时间。你可以用Rprof()和summaryRprof()函数完成这项工作。system.time()函数也可以帮助你。profr 和 prooftools 包提供了若干函数来帮助分析profile的输出。
+- Rcpp包可以把R对象转成C++函数（原文是The Rcpp package can be used to transfer R objects to C++ functions and back when more optimized subroutines are needed. 后半句不知怎么翻译）
+
+处理大数据集，提高代码效率只能解决一部分问题。你也可以把数据存在外部存储并使用专门的统计分析方法。
+
+*把数据存储在内存之外* 有几种包可以实现在内存之外存储数据。解决之道是
+把数据保存在外部数据库或者硬盘里的二进制文件中，然后在需要的时候部分地
+读取。下表描述了几种有用的包：
+#+CAPTION:R中大数据处理包
+| *包*                                       | *描述*                                                                                                |
+| ff                                         | 提供了一种数据结构，保存在硬盘中，但是操作起来就如同在内存中一样                                      |
+| bigmemory                                  | 支持大规模矩阵的创建、储存、读取和操作。矩阵被分配到共享内存或内存映射的文件中（memory-mapped files） |
+| filehash                                   | 实现了简单的key-value数据库，在其中特征字符串key与存储在硬盘中的数据value相关联。                     |
+| ncdf,ncdf4                                 | Provides an interface to Unidata netCDF data files.                                                   |
+| RODBC, RMySQL,ROracle, RPostgreSQL,RSQLite | 可以用这些包读取外部关系数据库管理系统的数据                                                          |
+
+上面的包可以帮助客服R的内存限制。除此以外，当需要在有限时间内分析大数据集时，使用专门方法也是必须的。一些有用的方法将在下面介绍。
+*分析大数据集的包* R提供了几种分析大数据集的包：
+- biglm 和 speedglm 包可以针对大数据集有效地拟合线性和广义线性模型。在处理大规模数据集时，这两个包提供了类似lm()和glm()的功能。
+- 由 bigmemory 包可产生大规模矩阵，一些包可以提供分析这些大规模矩阵的函数。bigannalytics 包提供了k-means聚类、行统计量（column statistics）和一个对biglm()的封装。bigtabulate 包提供了table()、split()和tapply()的功能，bigalgebra 包提供了高等线性代数的函数。
+- biglars 包提供了最小角回归（least-angle regression）、lasso以及针对大数据集的逐步回归，数据集因太大而不能读入到内存中，这时候要配合 ff 包使用。
+- Brobdingnag 包可以用来处理大数字（大于2^1024）
+
+处理从GB到TB级的数据对于任何数据都是极大的挑战。如果想查看R的更多方法，
+请看CRAN task View: High-Performance and Parallel Computing with R
+
+（http://cran.r-project.org/web/view）。

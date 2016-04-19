@@ -1,0 +1,53 @@
+#+BLOG: Blog
+#+POSTID: 80
+#+DATE: [2013-07-05 周五 11:39]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org2blog, emacs
+#+TAGS:
+#+DESCRIPTION: 用org2blog发送第二篇源代码的试试看
+#+TITLE: 用Eamcs的org2blog发表WordPress博客(注明是转载，原因是为了测试源代码的博客书写）
+
+* 前提
+1. 安装 org-mode ,在 [[http://orgmode.org/][这里]] 下载;
+1. 安装 xml-rpc.el ,在[[http://www.emacswiki.org/emacs-en/xml-rpc.el][ 这里]] 下载,否则用org2blog中的命令登录博客是会出现"beval-buffer: Cannot open load file: xml-rp"错误提示;
+1. 安装 metaweblog.el ,在 [[https://github.com/punchagan/metaweblog.el][这里]] 下载,否则用org2blog中的命令登录博客是会出现"eval-buffer: Cannot open load file: metaweblog"错误提示;
+* 安装org2blog
+1. " git clone http://github.com/punchagan/org2blog.git"
+1. 在 .emacs 中添加如下两行：
+
+#+BEGIN_HTML
+<pre lang="html" line="1">
+(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
+(require 'org2blog-autoloads)
+</pre>
+#+END_HTML
+* 使用
+***** 定义要创建的博客
+在 .emacs 中加入如下代码
+#+BEGIN_HTML
+<pre lang="html" line="1">
+        (setq org2blog/wp-blog-alist '(("wordpress"
+          :url "http://username.wordpress.com/xmlrpc.php"
+          :username "username"
+          :default-title "Hello World"
+          :default-categories ("org2blog" "emacs")
+          :tags-as-categories nil)
+         ("my-blog"
+          :url "http://username.server.com/xmlrpc.php"
+          :username "admin")))
+</pre>
+#+END_HTML
+***** 用org2blog写一个博客
+1. M-x org2blog/wp-login - 登录到博客。
+1. M-x org2blog/wp-new-post - 创建一个新的博文。
+1. 写文章
+1. C-x C-s : 保存修改
+1. C-c d : 相当与命令 org2blog/wp-post-buffer ，他使用来提交到草稿箱的，可以去博客进行预览。
+1. 预览的时候可以按 'y' 在浏览器中查看
+1. 继续修改，直到完成。
+1. C-c p : 发布博文，让所有人都能看到。
+* 参考连接
+1. https://github.com/punchagan/org2blog/blob/master/README.org#readme
+1. http://www.pablumfication.co.uk/2012/01/15/blog-posting-with-emacs-using-org2blog/
+1. http://blog.gabrielsaldana.org/post-to-wordpress-blogs-with-emacs-org-mode/
+

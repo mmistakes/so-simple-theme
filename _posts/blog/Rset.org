@@ -1,0 +1,65 @@
+#+BLOG: Blog
+#+POSTID: 292
+#+DATE: [2013-09-09 Mon 00:22]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: R language, 统计分析
+#+TAGS: R language, 统计分析
+#+DESCRIPTION:
+#+TITLE: R 搜集
+* *Set Operations in R*
+
+R can perform different operations in sets, such as union, intersection, asymmetric difference of two sets, etc. Specifically, the following operations are available in R for set operations.
+
+| Operator   | Usage               | Definition                                                             |
+| union      | union(x, y)         | Union of sets x and y                                                  |
+| intersect  | intersect(x, y)     | Intersection of sets x and y                                           |
+| setdiff    | setdiff(x, y)       | Asymmetric difference between sets x andy (Elements in x but not in y) |
+| setequal   | setequal(x, y)      | If sets x and y have the same elements                                 |
+| is.element | is.element(el, set) | If el is an element of set                                             |
+
+* Examples:
+
+> x <- c(sort(sample(1:20, 9)),NA)
+> y <- c(sort(sample(3:23, 7)),NA)
+> x
+[1]  1  3  5  8 11 17 18 19 20 NA
+> y
+[1]  7 11 15 16 17 19 22 NA
+> union(x, y)
+[1]  1  3  5  8 11 17 18 19 20 NA  7 15 16 22
+> intersect(x, y)
+[1] 11 17 19 NA
+> setdiff(x, y)
+[1]  1  3  5  8 18 20
+> setdiff(y, x)
+[1]  7 15 16 22
+> setequal(x, y)
+[1] FALSE
+
+Note that each of union, intersect, setdiff and setequal will discard any duplicated values in the arguments. Look at the following example:
+
+> x
+[1]  1  3  5  8 11 17 18 19 20 NA
+> x2 <- c(x, 1, 3, 5, 8)
+> x2
+[1]  1  3  5  8 11 17 18 19 20 NA  1  3  5  8
+> setdiff(x, y)
+[1]  1  3  5  8 18 20
+> setdiff(x2, y)
+[1]  1  3  5  8 18 20
+> setequal(x, x2)
+[1] TRUE
+
+Although x and x2 have different length, they have the same UNIQUE elements sosetequal(x, x2) returns a TRUE value.
+
+is.element(x, y) is identical to x %in% y. The return value of is.element is a vector of TRUE and FALSE with the same length as x, which indicates whether each element of x is an element of y or not.
+> is.element(x, y)  # vector of length 10
+[1] FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE  TRUE FALSE  TRUE
+> is.element(y, x)  # vector of length 8
+[1] FALSE  TRUE FALSE FALSE  TRUE  TRUE FALSE  TRUE
+* 逻辑运算符
+1. R 逻辑运算符是 <，<=，>，>=
+2. 以及判断严格相等的 == 和 判断不等的 !=。
+3. 此外，如果 c1 和 c2 是逻辑不等式，那么 c1 & c2 是它们的交集运算 (“与”)，c1 | c2 是并集运算 (“或”)，!c1 是 c1 的非运算。
+4. 在常规的算术运算中采用逻辑变量，它们将会被 强制转换成数值变量， FALSE 变成 0 ，TRUE 变成 1。
+5. 但是有些情况下，逻辑向量和它们强制转换的数值向量不等价，具体的例子可以看下一小节

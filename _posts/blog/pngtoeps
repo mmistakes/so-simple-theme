@@ -1,0 +1,33 @@
+#+BLOG: Blog
+#+POSTID: 116
+#+DATE: [2013-07-05 周五 22:42]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: latex, Emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: jpg/png格式图片转eps格式的方法总结
+* 图片转换方式总结
+1. 有网络情况可通过在线转换网站
+   [[http://www.tlhiv.org/rast2vec/][http://www.tlhiv.org/rast2vec/]]
+
+1. 无网络情况只能好好学学本地方法了：
+
+** 使用命令 bmeps转换
+
+1. 打开dos
+
+1. 使用前，建议你使用 bmeps -h 命令查看bmeps的帮助信息，如下：
+（图片未能显示
+[[http://ww1.sinaimg.cn/mw600/a6ddb022jw1dss2eb18t6j.jpg]图片]])
+注意其中的 -c 参数，默认 -g 是进行无彩色转换，所以如果你想要转换成彩色的，需要使用该选项。
+
+其中的-t 参数是用来指定输入文件的类型，也可以不设置，程序会根据输入文件后缀自动识别。
+
+具体命令如下：
+#+BEGIN_HTML
+<pre lang="html" line="1">
+bmeps -c example.jpg example.eps
+</pre>
+#+END_HTML
+
+使用这种方法转换得到的eps分辨率较高，推荐采用该方法。

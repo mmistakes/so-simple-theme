@@ -1,0 +1,17 @@
+#+BLOG: Blog
+#+POSTID: 127
+#+DATE: [2013-07-06 周六 22:03]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: learning, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Emacs org mode来记学习笔记
+* 这是连接，需要接下来学习！
+- [[http://emacser.com/org-mode.htm#sec-2][http://emacser.com/org-mode.htm#sec-2]]
+* 还有一个链接如下
+- 使用org-mode来GTD（2）— 日程表导入到Google日历
+1. 博主：易飞扬
+1. 原文链接 : http://www.yifeiyang.net/using-the-org-mode-for-gtd-2-agenda-view-import-google-calendar/
+*  任务管理功能org-mode
+- Emacs学习笔记(10):Org-mode,最强的任务管理利器，没有之一
+- http://www.cnblogs.com/holbrook/archive/2012/04/14/2447754.html

@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Jeremy Zhu 朱浚铭
 locale: en_US
-description: Describe your website here.
+description: Only the paranoid survive! Here are my research, interests and life.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: https://xiaoruizhu.github.io
 
 # Jekyll configuration
 
@@ -48,22 +48,22 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jeremy Zhu
   avatar: bio-photo.jpg
-  email: you@email.com
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  email: zhuxiaorui1989@gmail.com
+  disqus-shortname: jeremyzhu
+  twitter: dale_zhu
+  facebook: xiaor.zhu
+  github: xiaoruizhu
+  stackexchange: http://stackoverflow.com/users/6088044/xiaorui-zhu
+  linkedin: jeremychu89
   instagram: #username
   flickr: #username
   tumblr: #username
   pinterest: #username
-  weibo: #userid
+  weibo: 1246701103
   google:
-    plus: #username
+    plus: 118415573512961148625
     analytics:
     verify:
     ad-client:

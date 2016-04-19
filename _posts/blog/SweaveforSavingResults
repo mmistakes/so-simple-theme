@@ -1,0 +1,97 @@
+#+BLOG: Blog
+#+POSTID: 193
+#+DATE: [2013-07-09 周二 17:35]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: R languge, statistics, latex
+#+TAGS: R languge, statistics, Sweave, latex
+#+DESCRIPTION:
+#+TITLE: Sweave in R?如何保存数据分析结果
+Sweave in R? 如何保存数据分析结果到Latex中去。
+-------
+* Sweave in R?
+Sweave是R中的一个函数，用来生成统计报告的。如果你希望将R的代码和LaTeX的代码整合到一个文件中，可以用Sweave函数生成.tex文件，利用安装好的LaTeX编译TeX文件就能生成包含相应计算结果的pdf文件。
+Sweave处理的是.Snw文件，其格式几乎与.TeX文件相同，不同的是，其中的R代码包含在<<>>= 和 @ 之间，其中<<>>内部可以放置Sweave处理时的参数。
+下面是一个简单的.Rnw文件的内容：
+
+#+begin_html 
+<pre lang="php" line="1">
+\documentclass[a4paper]{article}
+\title{How to use Sweave? }
+\author{Jinlong Zhang}
+\begin{document}
+\maketitle
+In this example we use hclust() in R to perform a cluster analysis into a \LaTeX{} document:
+"<<>>=
+x<-c(1,2,6,8,11) 
+dim(x)<-c(5,1) 
+d<-dist(x) 
+d
+hc<-hclust(d, "single") 
+dend<-as.dendrogram(hc) 
+@
+the dendrograms are also included:
+\begin{center}
+"<<fig=TRUE,echo=FALSE>>=
+par(mfrow = c(2, 2),mar = c(4,3,1,2)) 
+plot(dend) 
+plot(dend, nodePar=list(pch = c(1,NA), cex=0.8, lab.cex=0.8), type = "t", center=TRUE) 
+plot(dend, edgePar=list(col = 1:2, lty = 2:3), dLeaf=1, edge.root = TRUE) 
+plot(dend, nodePar=list(pch = 2:1, cex=.4*2:1, col=2:3), horiz=TRUE) 
+@
+\end{center}
+\end{document}
+</pre>
+#+end_html
+
+
+将以上代码粘贴到记事本中，另存为test.Rnw文件，放置到R的工作目录，运行Sweave("test.Rnw")即可生成.TeX文件和相应的图形文件。eps图形文件等将在变异TeX文档时引用图形时用到。
+由于显示问题，其中"符号后面的代码分别为"<<>>="和"<<fig=TRUE,echo=FALSE>>="
+下面的代码页类似！注意粘贴后修改，不需要",这里只是为了标识。
+
+可以看到，其中包含了两块R代码[fn:1]：
+
+第一部分为 
+#+begin_html 
+<pre lang="html" line="1">
+
+"<<>>=
+x<-c(1,2,6,8,11) 
+dim(x)<-c(5,1) 
+d<-dist(x) 
+hc<-hclust(d, "single") 
+dend<-as.dendrogram(hc) 
+@
+</pre>
+#+end_html
+
+第二部分为
+
+#+begin_html 
+<pre lang="html" line="1">
+"<<fig=TRUE,echo=FALSE>>=
+par(mfrow = c(2, 2),mar = c(4,3,1,2)) 
+plot(dend) 
+plot(dend, nodePar=list(pch = c(1,NA), cex=0.8, lab.cex=0.8), type = "t", center=TRUE) 
+plot(dend, edgePar=list(col = 1:2, lty = 2:3), dLeaf=1, edge.root = TRUE) 
+plot(dend, nodePar=list(pch = 2:1, cex=.4*2:1, col=2:3), horiz=TRUE) 
+@
+
+</pre>
+#+end_html
+如果想要生成相应的pdf，只需用LaTeX变异相应的TeX文件即可。
+
+注意：编译的时候，LaTeX会可能会提示找不到Sweave.sty文件，该文件可在C:\Program Files\R\R-2.9.0\share\texmf目录下找到，拷贝到TeX文件所在的目录下即可。
+
+提供几个进一步学习的链接：
+Sweave函数的作者Friedrich Leisch的主页：
+http://www.stat.uni-muenchen.de/~leisch/Sweave/ 
+www.stat.umn.edu/~charlie/Sweave 
+http://stat.epfl.ch/webdav/site/stat/shared/Regression/EPFL-Sweave-powerdot.pdf 
+http://biosun1.harvard.edu/courses/individual/bio271/lectures/L7/Sweave-manual-20021007.pdf
+
+* Footnotes
+
+[fn:1] 
+
+
+

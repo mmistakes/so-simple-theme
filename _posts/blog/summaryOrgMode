@@ -1,0 +1,51 @@
+#+BLOG: Blog
+#+POSTID: 254
+#+DATE: [2013-07-18 Thu 14:05]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: latex, emacs, org-mode, org2blog
+#+TAGS:latex, emacs, org-mode, org2blog, pdf
+#+DESCRIPTION:
+#+TITLE: Org-mode.8 以上的更新及 Org2blog 总结
+* Emacs：在 org-mode 中插入源代码块
+** 亲测可以实现
++ 其中的emacs-lisp代码和R代码的高亮显示貌似是一样的，暂时先
+  这样用吧。
++ 其中的快捷键设置有问题，C-c s i不能实现，只能在C-c之后按一
+  个键，不会设置了，暂时不管。
++ [[http://wenshanren.org/?p=327][插入源代码地址]]
+* Org-mode以上的使用
++ 一开始是为了使用中文的org所以装了8以上的版本，但是由于死活
+  XeTeX不能使用，也就导致xeCJK宏包编译时候过不去所以还是不用
+  了，就返回用7.8，但是机缘巧合还是用着8.0.6，之后突然发现对
+  于CJK宏包仍然是支持的，那就用吧。只是如果要编译成pdf仍然需
+  要做一些改变
++ 首先是要在头部加入如下
+#+begin_SRC emacs-lisp
+  (setq load-path (cons "~/.emacs.d/org-8.0.6/lisp/" load-path))
+  (add-hook 'org-mode-hook
+ (lambda () (setq truncate-lines nil)))
+ (require 'org-install)
+ (require 'org-latex)
+;; (add-to-list 'org-export-latex-classes
+;;              '("article"
+;;                "\\documentclass{article}"
+;;                ("\\section{%s}" . "\\section*{%s}")))
+#+end_SRC
++ 其中被注释掉的部分没有作用，也可以试一试，反正是个思路，对
+  于自动生成LaTeX的头部文件很有用。
++ 最后就是编译生成pdf了，在org7.8里面是C-c C-e d，在org8.0里
+  变成了两层选择菜单，C-c C-e l o，建议先C-c C-e l p尝试生成
+  看是否报错。不然生成过一次pdf的话即使报错也会打开上一次存
+  在的pdf。
+* org2blog的使用
+** org2blog来推送写博客
++ 使用org2blog发博客很方面，但是需要metaweblog，上网随便搜一
+  下就会有详细设置。很快的通过M-x org2blog
+  可以参考这里：
+  [[http://chen-shan.net/%E7%94%A8eamcs%E7%9A%84org2blog%E5%8F%91%E8%A1%A8wordpress%E5%8D%9A%E5%AE%A2/][ *教程地址* ]]
++ 有个需要注意的，当你org-mode更新到8之后会发现org2blog发送
+  不了博客，会出现 Symbol's function definition is void:
+  org-export-as-html 这样的警告。我解决了，下载老外哥们重新
+  写的org2blog文件
+  [[https://github.com/ptrv/org2blog/tree/org-8-support][ *新版org2blog文件下载地址，适合org8以上* ]]
++ 覆盖到原来的文件夹就可以。
