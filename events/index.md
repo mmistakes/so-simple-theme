@@ -71,7 +71,26 @@ Venue
 Details
 : [View](http://www.meetup.com/bda-group/events/228381496/)
 
-# **April 2016**
+# **May 2016**
+
+## Fitting and Diagnosing Models with RStan and ShinyStan
+
+Presenter
+: Jonah Gabry
+
+Date
+: 11 May 2016 <span class="note">(Wednesday)</span>
+
+Location
+: Cambridge, Massachusetts <span class="note">(USA)</span>
+
+Venue
+: [Stan Users - Boston/Camberville meetup](http://www.meetup.com/Stan-Users-Boston-Camberville/events/230396340/)
+
+Details
+: Harvard University Herbaria <br>
+22 Divinity Ave ([map](https://goo.gl/maps/4HMeYymHqwk)) <br>
+6:00 PM
 
 ## Introduction to Stan Talk
 
