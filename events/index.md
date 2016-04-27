@@ -89,7 +89,7 @@ Venue
 
 Details
 : Harvard University Herbaria <br>
-22 Divinity Ave ([map](https://goo.gl/maps/4HMeYymHqwk)) <br>
+22 Divinity Ave <span class="note">([map](https://goo.gl/maps/4HMeYymHqwk))</span> <br>
 6:00 PM
 
 ## Introduction to Stan Talk
