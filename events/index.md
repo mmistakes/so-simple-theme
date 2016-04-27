@@ -56,7 +56,7 @@ Details
 
 ##  A Probability Model for Golf Putting
 
-Presenter
+Instructor
 : Daniel Lee
 
 Date
@@ -75,7 +75,7 @@ Details
 
 ## Fitting and Diagnosing Models with RStan and ShinyStan
 
-Presenter
+Instructor
 : Jonah Gabry
 
 Date
@@ -268,6 +268,6 @@ Venue
 : Columbia University, Lerner Hall
 
 Details
+: [Columbia Data Science Day (Buy tickets)](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
 : [Abstract](https://datasciencedaycolumbia2016.sched.org/event/6gQg/demo-d1-an-introduction-to-stan)
-: [Buy tickets](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
 
