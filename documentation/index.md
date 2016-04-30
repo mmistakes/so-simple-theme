@@ -58,16 +58,16 @@ own page:
 
 # Tutorials
 
-Here we've compiled a partial list of tutorials for Stan, its
-interfaces, and its underlying technologies, in addition to our manual
-and examples.  If you find more tutorials, let us know and we'll list
-them.
+Getting-started material for Stan, its interfaces, and underlying
+technology.
 
-## Print
+## Text
 
-* Michael Clark. (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](https://sites.google.com/a/umich.edu/micl/miscfiles/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
+* Jim Savage (2016) [A quick-start introduction to Stan for economists](http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb).  A [QuantEcon Notebook](http://quantecon.org/notebooks.html).
 
-* Tanner Sorensen and Shravan Vasishth. (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
+* Michael Clark (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](https://sites.google.com/a/umich.edu/micl/miscfiles/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
+
+* Tanner Sorensen and Shravan Vasishth (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
 
 *  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/abs/1507.04544). <i>arXiv</i>: 1507.04544.
 

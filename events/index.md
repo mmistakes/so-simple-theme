@@ -18,42 +18,6 @@ or in many presentations at meetups and other venues.
 
 # **April 2016**
 
-## Bayes/Stan Short Course
-
-Instructor
-: Andrew Gelman
-
-Date
-: 21 April 2016 <span class="note">(Thursday)</span>
-
-Location
-: Mountain View, California <span class="note">(USA)</span>
-
-Venue
-: Google
-
-Details
-: Google employees only.
-
-
-## Introduction to Bayesian Modeling with Stan in R
-
-Instructors
-: Bob Carpenter, Krzysztof Sakrejda
-
-Date
-: 22 April 2016 <span class="note">(Friday)</span>
-
-Location
-: New Haven, Connecticut <span class="note">(USA)</span>
-
-Venue
-: [New England Statistics Symposium (NESS)](http://www.cvent.com/events/new-england-statistics-symposium-ness-/event-summary-45289b8858574d3d963d25f6e46ac801.aspx)
-
-Details
-: [View](http://www.cvent.com/events/new-england-statistics-symposium-ness-/agenda-45289b8858574d3d963d25f6e46ac801.aspx)
-
-
 ##  A Probability Model for Golf Putting
 
 Instructor
@@ -249,6 +213,41 @@ Details
 
 
 # **Past** 
+
+## Bayes/Stan Short Course
+
+Instructor
+: Andrew Gelman
+
+Date
+: 21 April 2016 <span class="note">(Thursday)</span>
+
+Location
+: Mountain View, California <span class="note">(USA)</span>
+
+Venue
+: Google
+
+Details
+: Google employees only.
+
+
+## Introduction to Bayesian Modeling with Stan in R
+
+Instructors
+: Bob Carpenter, Krzysztof Sakrejda
+
+Date
+: 22 April 2016 <span class="note">(Friday)</span>
+
+Location
+: New Haven, Connecticut <span class="note">(USA)</span>
+
+Venue
+: [New England Statistics Symposium (NESS)](http://www.cvent.com/events/new-england-statistics-symposium-ness-/event-summary-45289b8858574d3d963d25f6e46ac801.aspx)
+
+Details
+: [View](http://www.cvent.com/events/new-england-statistics-symposium-ness-/agenda-45289b8858574d3d963d25f6e46ac801.aspx)
 
 ## Stan Demo
 
