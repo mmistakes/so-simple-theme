@@ -16,25 +16,6 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.  
 
-# **April 2016**
-
-##  A Probability Model for Golf Putting
-
-Instructor
-: Daniel Lee
-
-Date
-: 25 April 2016 <span class="note">(Monday)</span>
-
-Location
-: New York <span class="note">(USA)</span>
-
-Venue
-: [Bayesian Data Analysis Meetup](http://www.meetup.com/bda-group/)
-
-Details
-: [View](http://www.meetup.com/bda-group/events/228381496/)
-
 # **May 2016**
 
 ## Fitting and Diagnosing Models with RStan and ShinyStan
@@ -213,6 +194,25 @@ Details
 
 
 # **Past** 
+
+##  A Probability Model for Golf Putting
+
+Instructor
+: Daniel Lee
+
+Date
+: 25 April 2016 <span class="note">(Monday)</span>
+
+Location
+: New York <span class="note">(USA)</span>
+
+Venue
+: [Bayesian Data Analysis Meetup](http://www.meetup.com/bda-group/)
+
+Details
+: [View](http://www.meetup.com/bda-group/events/228381496/)
+
+
 
 ## Bayes/Stan Short Course
 
