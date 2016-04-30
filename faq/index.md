@@ -6,10 +6,6 @@ excerpt: "Die FAQ rund um uns und unser Netz"
 title: FAQ
 omit_search: false
 tags: []
-image:
-  feature: background_faq.jpg
-  credit: CC-BY-ND  Dennis Skley
-  creditlink: https://www.flickr.com/photos/dskley
 
 date: 2015-11-12T19:53:06+01:00
 ---
