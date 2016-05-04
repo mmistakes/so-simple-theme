@@ -27,7 +27,7 @@ development, you may contact us directly or just follow the link:&nbsp;
   <a href="https://www.flipcause.com/widget/give_now/NTU3Ng==">Contribute
   to Stan</a> &nbsp;
   <span class="note">(FlipCause payment processing)</span>
-  </span>
+  </span> </p>
 
 
 ## Why Support Stan?
@@ -143,10 +143,5 @@ the following corporations.
 
 * [Alcon](http://www.alcon.com)
 
-Stan was previously funded in part through consulting arrangements
-with the following corporations.
-
-* <p>
-  <a href="https://yougov.com/">YouGov</a>
-  </p>
+* [YouGov](https://yougov.com)
 

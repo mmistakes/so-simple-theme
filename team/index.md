@@ -63,6 +63,11 @@ volunteer developers.
       <a href="https://twitter.com/{{member.twitter}}" target="_blank">
       <i class="fa fa-twitter-square"></i></a>
     {% endif %}
+    {% if member.github %}
+      <a href="https://github.com/{{member.github}}" target="_blank">
+      <i class="fa fa-github-square"></i></a>
+    {% endif %}
+
   </div>
 
   </div>
