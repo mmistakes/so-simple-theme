@@ -183,17 +183,14 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
-  MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
-  between risk perception and danger mitigation.  *Journal of
-  Experimental Psychology: Learning, Memory, and Cognition". ePub.
+* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann. 
+  2016.  Testing models of peripheral encoding using metamerism in an
+  oddity paradigm.  *Journal of Vision* 16(2).
 
 * Nicenboim, Bruno, Pavel Logačev, Carolina Gattei, and Shravan
   Vasishth. 2016. When high-capacity readers slow down and
   low-capacity readers speed up: Working memory differences in
-  unbounded dependencies.  *Frontiers in Psychology, Special Issue on
-  Encoding and Navigating Linguistic Representations in Memory* (in
-  press).
+  unbounded dependencies.  *Frontiers in Psychology* 7(280).
 
 * Shantz, Andrew A., Lemoine, Nathan P., and Burkepile, Deron E. 2016.
   Nutrient loading alters the performance of key nutrient exchange
@@ -211,6 +208,20 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   forgetting: Impairments to both the probability and fidelity of
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
+
+* Logačev, Pavel and Sharavn Vasishth. 2015.  Understanding
+  underspecification: A comparison of two computational
+  implementations. *Quarterly Journal of Experimental Psychology*
+  69(5):996-1012.
+
+* Wallis, Thomas S. A., Michael Dorr and Peter J. Bex.  2015.
+  Sensitivity to gaze-contingent contrast increments in naturalistic
+  movies.  *Journal of Vision* 15(8).
+
+* Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
+  MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
+  between risk perception and danger mitigation.  *Journal of
+  Experimental Psychology: Learning, Memory, and Cognition". ePub.
 
 * Maxwell B. Joseph, William E. Stutz, and Pieter T. J. Johnson. 2015.
   Multilevel models for the distribution of hosts and symbionts.
@@ -387,11 +398,13 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Citing Stan
 
+
 * Natanegara, Fanni, Neuenschwander, Beat, Seaman, John W.,
   Kinnersley, Nelson, Heilmann, Cory R., Ohlssen, David, Rochester,
   George. 2013. The current state of Bayesian methods in medical
-  product development: survey results and recommendations from the DIA
-  Bayesian Scientific Working Group. *Pharmaceutical Statistics*.
+  product development: survey results and recommendations from the
+  DIA Bayesian Scientific Working Group. *Pharmaceutical
+  Statistics*.
 
 * Kronberger, G.  2013.  Declarative Modeling and Bayesian Inference
   of Dark Matter Halos.  *arXiv* 1306.0202.
