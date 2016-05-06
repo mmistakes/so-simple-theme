@@ -145,7 +145,7 @@ Venue
 : [Joint Statistical Meetings](https://www.amstat.org/meetings/jsm/2016/)
 
 Details
-: Forthcoming
+: [Session information](https://www.amstat.org/meetings/jsm/2016/onlineprogram/ActivityDetails.cfm?SessionID=213234)
 
 # **August 2016**
 
@@ -155,7 +155,7 @@ Instructor
 : Ben Goodrich
 
 Date
-: 01 -- 03 August 2016 <span class="note">(Sometime)</span>
+: 02 August 2016
 
 Location:
 : Boston, Massachusetts <span class="note">(USA)</span>
