@@ -109,7 +109,7 @@ Venue
 : [useR 2016](http://user2016.org/)
 
 Details
-: Forthcoming
+: [abstract](http://user2016.org/tutorials/15.html)
 
 # **July 2016**
 
