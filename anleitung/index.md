@@ -47,7 +47,7 @@ Gluon - ffww - 1.0 - Hersteller – Routertyp – Version .bin
 Dateiendung ist in der Regel immer .bin. In der Liste siehst du noch das Dateidatum und die Dateigröße in MB. Hast du das passende Image für ein Router gefunden, dann lade dieses runter.
 
 
-Hier findest du alle Freifunk unsere Images. Wenn du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [http://images.freifunk-westerwald.de/mitmachen](http://images.freifunk-westerwald.de/mitmachen)). Wir versuchen dann eine Lösung zu finden.
+Hier findest du alle Freifunk unsere Images. Wenn du unter folgenden Links immer noch kein passendes Image gefunden hast, schreib uns einfach an unter Support@freifunk-westerwald.de an oder noch besser registriere dich direkt auf unserer Mailingliste und schreibe uns dort (siehe [https://www.freifunk-westerwald.de/mitmachen](http://www.freifunk-westerwald.de/mitmachen)). Wir versuchen dann eine Lösung zu finden.
 
 #Image Installieren „Flashen“
 
