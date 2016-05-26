@@ -92,7 +92,7 @@ Venue
 (ISBA)](http://www.corsiecongressi.com/isba2016/index.asp)
 
 Details
-: [View](http://www.corsiecongressi.com/isba2016/corso.asp)
+: [View](/workshops/isba2016/)
 
 ## An Introduction to Bayesian Inference using R Interfaces to Stan
 
@@ -174,6 +174,22 @@ Details
 
 
 # **October 2016**
+
+## ASA Webinar: Introduction to Stan - From Logistic Regression to PK/PD ODE Models
+
+Instructor
+: Sebastian Weber
+
+Date
+: 06 October 2016
+
+Location
+: Webinar
+
+Details
+: [View](http://www.amstat.org/education/weblectures/#ISFLR)
+
+
 
 ## Getting Started with PK/PD Modeling using Stan
 
