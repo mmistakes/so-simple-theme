@@ -32,10 +32,12 @@ be presented using examples of increasing complexity. The tutorial will
 include an interactive session with hands-on exercises.
 
 **Participants are encouraged to bring their fully charged laptop and
-install before the course the latest Stan.** We highly recommend the
-use of *RStan* which will be used for the demonstrations. The example
-data set for the exercises can be downloaded below. A more advanced
-example, which we will discuss, will be shared here before the course.
+install before the course the latest Stan, ideally download the
+excellent [Stan reference manual](/documentation/) along with it.** We
+highly recommend the use of *RStan* which will be used for the
+demonstrations. The example data set for the exercises can be
+downloaded below. A more advanced example, which we will discuss, will
+be shared here before the course.
 
 
 - Ulcerative Colitis [1]: [colitis_data.R](/workshops/isba2016/colitis_data.R)
