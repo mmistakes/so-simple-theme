@@ -122,26 +122,33 @@ technology.
 
 # Books
 
+* Julian J. Faraway (2016)[<i>Extending the Linear Model with R:
+  Generalized Linear, Mixed Effects and Nonparametric Regression
+  Models, Second
+  Edition</i>](http://www.maths.bath.ac.uk/~jjf23/ELM/index.html). Chapman
+  &amp; Hall/CRC Press.
+
 * Richard McElreath (2016) [<i>Statistical Rethinking: A Bayesian
   Course with Examples in R and
   Stan</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
-  &amp; Hall/CRC Press.    <br /> free online: Chapters 1 and 12; code examples; video tutorials
-  (follow title link above)
+  &amp; Hall/CRC Press.  <br /> free online: Chapters 1 and 12; code
+  examples; video tutorials (follow title link above)
 
 * Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
-  Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian Data
-  Analysis in Ecology Using Linear Models with R, BUGS, and
+  Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian
+  Data Analysis in Ecology Using Linear Models with R, BUGS, and
   Stan</i>](http://www.amazon.com/Bayesian-Analysis-Ecology-Linear-Models-ebook/dp/B00W18O078).
   Academic Press.
 
-* John Kruschke (2015) [<i>Doing Bayesian Data Analysis, Second Edition:
-  A Tutorial with R, JAGS, and
+* John Kruschke (2015) [<i>Doing Bayesian Data Analysis, Second
+  Edition: A Tutorial with R, JAGS, and
   Stan</i>](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884).
   Academic Press.
 
 * Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki
-  Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis, Third
-  Edition</i>](http://www.amazon.com/gp/product/1439840954).  Chapman
-  &amp; Hall/CRC Press. <br /> free online: [Appendix C: Computation in R
-  and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
+  Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis,
+  Third Edition</i>](http://www.amazon.com/gp/product/1439840954).
+  Chapman &amp; Hall/CRC Press. <br /> free online: [Appendix C:
+  Computation in R and
+  Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
 
