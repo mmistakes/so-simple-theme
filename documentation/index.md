@@ -122,7 +122,7 @@ technology.
 
 # Books
 
-* Julian J. Faraway (2016)[<i>Extending the Linear Model with R:
+* Julian J. Faraway (2016) [<i>Extending the Linear Model with R:
   Generalized Linear, Mixed Effects and Nonparametric Regression
   Models, Second
   Edition</i>](http://www.maths.bath.ac.uk/~jjf23/ELM/index.html). Chapman
