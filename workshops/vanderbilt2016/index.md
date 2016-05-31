@@ -14,3 +14,4 @@ image:
 - [bernoulli.stan](/workshops/vanderbilt2016/bernoulli.stan)
 - [linear_model.stan](/workshops/vanderbilt2016/linear_model.stan)
 - [roaches.data.R](/workshops/vanderbilt2016/roaches.data.R)
+- [poisson.data.R](/workshops/vanderbilt2016/poisson.data.R)
