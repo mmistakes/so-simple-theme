@@ -8,7 +8,7 @@ image:
 ---
 
 - [carp-1.pdf](/workshops/vanderbilt2016/carp-1.pdf)
-- [carp-1.pdf](/workshops/vanderbilt2016/carp-2.pdf)
+- [carp-2.pdf](/workshops/vanderbilt2016/carp-2.pdf)
 - [lee-1.pdf](/workshops/vanderbilt2016/lee-1.pdf)
 - [bernoulli.stan](/workshops/vanderbilt2016/bernoulli.stan)
 - [linear_model.stan](/workshops/vanderbilt2016/linear_model.stan)
