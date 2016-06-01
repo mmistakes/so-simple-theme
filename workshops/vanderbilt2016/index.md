@@ -18,3 +18,8 @@ image:
 - [linear_model.stan](/workshops/vanderbilt2016/linear_model.stan)
 - [roaches.data.R](/workshops/vanderbilt2016/roaches.data.R)
 - [poisson.data.R](/workshops/vanderbilt2016/poisson.data.R)
+- Hamiltonian Simulations
+    - [ham-sim-stepsize-just-right.gif](/workshops/vanderbilt2016/ham-sim-stepsize-just-right.gif)
+    - [ham-sim-stepsize-too-big.gif](/workshops/vanderbilt2016/ham-sim-stepsize-too-big.gif)
+    - [ham-sim-stepsize-too-small.gif](/workshops/vanderbilt2016/ham-sim-stepsize-too-small.gif)
+    - [ham-sim.R](/workshops/vanderbilt2016/ham-sim.R)
