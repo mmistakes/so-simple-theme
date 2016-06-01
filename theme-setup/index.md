@@ -47,11 +47,11 @@ The preferred method for running Jekyll is with `bundle exec`, but if you're wil
 >
 >However, this is unreliable and is the source of considerable pain. Even if it looks like it works, it may not work in the future or on another machine.
 
-{% highlight text %}
+```bash
 bundle exec jekyll build
 
 bundle exec jekyll serve
-{% endhighlight %}
+```
 
 ---
 
@@ -59,7 +59,7 @@ bundle exec jekyll serve
 
 How So Simple is organized and what the various files are. All posts, layouts, includes, stylesheets, assets, and whatever else is grouped nicely under the root folder. The compiled Jekyll site outputs to `_site/`.
 
-{% highlight text %}
+```bash
 so-simple-theme/
 ├── _includes/
 |    ├── browser-upgrade.html    # prompt to install a modern browser for < IE9
@@ -91,7 +91,7 @@ so-simple-theme/
 ├── feed.xml                     # Atom feed template
 ├── index.md                     # sample homepage. lists 5 latest posts 
 └── theme-setup/                 # theme setup page. safe to remove
-{% endhighlight %}
+```
 
 ---
 
@@ -115,19 +115,16 @@ Your site's logo, appears in the header below the navigation bar and is used as 
 
 #### url
 
-Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*. [Protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/) are a nice option but there are a few caveats[^protocol].
+Used to generate absolute URLs for sitemaps, feeds and for generating canonical URLs in a page's `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
 
 Examples:
 
-{% highlight yaml %}
-url: http://mmistakes.github.io/so-simple-theme
+```yaml
+url: https://mmistakes.github.io/so-simple-theme
 url: http://localhost:4000
-url: http://mademistakes.com
-url: //mademistakes.com
+url: http://yourdomain.com
 url: 
-{% endhighlight %}
-
-[^protocol]: If you decide to use a protocol-relative URL know that it will most likely break sitemap.xml that the Jekyll-Sitemap gem creates. If a valid sitemap matters to you I'd suggest [creating your own sitemap.xml](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/) and apply some Liquid logic to prepend links to posts/pages with `https:`.
+```
 
 #### Google Analytics and Webmaster Tools
 
@@ -137,13 +134,13 @@ Google Analytics UA and Webmaster Tool verification tags can be entered under `o
 
 To set what links appear in the top navigation edit `_data/navigation.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window.*
 
-{% highlight yaml %}
+```yaml
 - title: Portfolio
   url: /portfolio/
 
 - title: Made Mistakes
   url: http://mademistakes.com  
-{% endhighlight %}
+```
 
 ---
 
@@ -169,11 +166,11 @@ In the sample posts folder you may have noticed `categories: articles` in the YA
 
 For example. Say you want to group all your posts under blog/ instead of articles/. In your post add `categories: blog` to the YAML front matter, rename or duplicate articles/index.md to blog/index.md and update the *for loop* to limit posts to just the blog category.
 
-{% highlight text %}
+```liquid
 {% raw %}
 {% for post in site.categories.blog %}
 {% endraw %}
-{% endhighlight %}
+```
 
 If done correctly /blog/ should be a page index of only posts with a category of `blog`.
 
@@ -185,20 +182,20 @@ A good rule of thumb is to keep feature images nice and wide so you don't push t
 
 The post and page layouts make the assumption that the feature images live in the `images/` folder. To add a feature image to a post or page just include the filename in the front matter like so.
 
-{% highlight yaml %}
+```yaml
 image:
   feature: feature-image-filename.jpg
   thumb: thumbnail-image.jpg #keep it square 200x200 px is good
-{% endhighlight %}
+```
 
 To add attribution to a feature image use the following YAML front matter on posts or pages. Image credits appear directly below the feature image with a link back to the original source if supplied.
 
-{% highlight yaml %}
+```yaml
 image:
   feature: feature-image-filename.jpg
   credit: Michael Rose #name of the person or site you want to credit
   creditlink: http://mademistakes.com #url to their site or licensing
-{% endhighlight %}
+```
 
 ### Videos
 
@@ -206,9 +203,9 @@ Video embeds are responsive and scale with the width of the main content block w
 
 Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
 
-{% highlight html %}
+```html
 <iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
-{% endhighlight %}
+```
 
 ### Link Post Type
 
@@ -220,7 +217,7 @@ By making use of data files you can assign different authors for each post.
 
 Start by modifying `authors.yml` file in the `_data` folder and add your authors using the following format.
 
-{% highlight yaml %}
+```yaml
 # Authors
 
 billy_rick:
@@ -241,13 +238,13 @@ cornelius_fiddlebone:
   twitter: rhymeswithsackit
   google:
     plus: +CorneliusFiddlebone
-{% endhighlight %}
+```
 
 To assign Billy Rick as an author for our post. We'd add the following YAML front matter to a post:
 
-{% highlight yaml %}
+```yaml
 author: billy_rick
-{% endhighlight %}
+```
 
 ---
 
@@ -255,9 +252,9 @@ author: billy_rick
 
 To add Facebook, Twitter, and Google+ share links to a post add the following YAML front matter.
 
-{% highlight yaml %}
+```yaml
 share: true
-{% endhighlight %}
+```
 
 Share links appear below author details in the sidebar.
 
@@ -267,17 +264,17 @@ Share links appear below author details in the sidebar.
 
 To enable comments [signup for a Disqus account](https://disqus.com/admin/signup/?utm_source=New-Site) and create a shortname for your site. Then add it to your `_config.yml` under the site owner section like so:
 
-{% highlight yaml %}
+```yaml
 site:
   owner:
     disqus-shortname: shortname
-{% endhighlight %}
+```
 
 If you would like comments to appear on every post or page that uses the `post.html` layout simply add the following line to your `_config.yml` and you're done.
 
-{% highlight yaml %}
+```yaml
 comments: true
-{% endhighlight %}
+```
 
 To be more selective and granualar with which posts and pages Disqus comments appear on, add `comments: true` to the YAML Front Matter of each post or page instead.
 
@@ -312,9 +309,9 @@ For example if you wanted a red background instead of white you'd change `$body-
 
 To modify the site's JavaScript files I setup a Grunt build script to lint/concatenate/minify all scripts into `scripts.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
 
-{% highlight bash %}
+```bash
 npm install
-{% endhighlight %}
+```
 
 From the theme's root, run `grunt` to concatenate JavaScript files, and optimize all .jpg, .png, and .svg files in the `images/` folder. You can also use `grunt dev` in combination with `jekyll build --watch` to watch for updates JS files that Grunt will then automatically re-build as you write your code which will in turn auto-generate your Jekyll site when developing locally.
 
