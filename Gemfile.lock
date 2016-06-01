@@ -32,31 +32,15 @@ GEM
     multipart-post (2.0.0)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
-    octopress (3.0.11)
-      jekyll (>= 2.0)
-      mercenary (~> 0.3.2)
-      octopress-deploy
-      octopress-escape-code (~> 2.0)
-      octopress-hooks (~> 2.0)
-      redcarpet (~> 3.0)
-      titlecase
-    octopress-deploy (1.3.0)
-      colorator
-    octopress-escape-code (2.1.1)
-      jekyll (~> 3.0)
-    octopress-hooks (2.6.1)
-      jekyll (>= 2.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    redcarpet (3.3.4)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    titlecase (0.1.1)
 
 PLATFORMS
   ruby
@@ -66,7 +50,6 @@ DEPENDENCIES
   jekyll
   jekyll-gist
   jekyll-sitemap
-  octopress
 
 BUNDLED WITH
    1.12.5
