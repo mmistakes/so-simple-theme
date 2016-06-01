@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.0"
+gem "jekyll"
 gem "jekyll-sitemap"
 gem "jekyll-gist"
-gem "octopress"
+gem "jekyll-feed"

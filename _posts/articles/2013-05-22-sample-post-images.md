@@ -6,6 +6,7 @@ categories: articles
 tags: [sample-post, images, test]
 comments: true
 share: true
+modified: 2016-06-01T14:17:50-04:00
 ---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
@@ -23,13 +24,13 @@ Here are some examples of what a post with images might look like. If you want t
 
 Apply the `half` class like so to display two images side by side that share the same caption.
 
-{% highlight html %}
+```html
 <figure class="half">
 	<img src="/images/image-filename-1.jpg" alt="image">
 	<img src="/images/image-filename-2.jpg" alt="image">
 	<figcaption>Caption describing these two images.</figcaption>
 </figure>
-{% endhighlight %}
+```
 
 And you'll get something that looks like this:
 
@@ -45,14 +46,14 @@ And you'll get something that looks like this:
 
 Apply the `third` class like so to display three images side by side that share the same caption.
 
-{% highlight html %}
+```html
 <figure class="third">
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
 	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
 	<figcaption>Caption describing these three images.</figcaption>
 </figure>
-{% endhighlight %}
+```
 
 And you'll get something that looks like this:
 
