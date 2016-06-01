@@ -2,7 +2,7 @@
 layout: page
 title: Theme Setup
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
-modified: 2016-01-19
+modified: 2016-06-01T14:07:07-04:00
 image:
   feature: so-simple-sample-image-6.jpg
   credit: WeGraphics
@@ -22,14 +22,14 @@ If you are creating a new Jekyll site using So Simple follow these steps:
 
 1. Fork the [So Simple repo](http://github.com/mmistakes/so-simple-theme/fork).
 2. Clone the repo you just forked and rename it.
-3. [Install Bundler](http://bundler.io) `gem install bundler` and Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
+3. [Install Bundler](http://bundler.io) `gem install bundler` and Run `bundle install` to install Jekyll and all dependencies.
 4. Update `_config.yml`, add navigation, and replace demo posts and pages with your own. Full details below.
 
 If you want to use So Simple with an existing Jekyll site follow these steps:
 
 1. [Download So Simple](https://github.com/mmistakes/so-simple-theme/archive/master.zip) and unzip.
 2. Rename `so-simple-theme-master` to something meaningful ie: `new-site`
-3. Run `bundle install` to install all dependencies (Jekyll, [Jekyll-Sitemap](https://github.com/jekyll/jekyll-sitemap), [Octopress](https://github.com/octopress/octopress), etc)
+3. Run `bundle install` to install Jekyll and all dependencies.
 4. Remove demo posts/pages and replace with your own posts, pages, and any other content you want to move over.
 5. Update posts' and pages' YAML to match variables used by So Simple. Full details below.
 6. Update `_config.yml` and add navigation links and additional author data if applicable. Full details below. 
@@ -62,20 +62,19 @@ How So Simple is organized and what the various files are. All posts, layouts, i
 {% highlight text %}
 so-simple-theme/
 ├── _includes/
-|    ├── browser-upgrade.html   # prompt to install a modern browser for < IE9
-|    ├── disqus-comments.html   # Disqus comments script
-|    ├── feed-footer.html       # post footers in feed
-|    ├── footer.html            # site footer
-|    ├── head.html              # site head
-|    ├── navigation.html        # site top navigation
-|    ├── open-graph.html        # meta data for Open Graph and Twitter cards
-|    └── scripts.html           # site scripts
+|    ├── browser-upgrade.html    # prompt to install a modern browser for < IE9
+|    ├── disqus-comments.html    # Disqus comments script
+|    ├── feed-footer.html        # post footers in feed
+|    ├── footer.html             # site footer
+|    ├── head.html               # site head
+|    ├── navigation.html         # site top navigation
+|    ├── open-graph.html         # meta data for Open Graph and Twitter cards
+|    └── scripts.html            # site scripts
 ├── _layouts/
 |    ├── page.html               # single column page layout
 |    └── post.html               # main content with sidebar for author/post details
 ├── _posts/                      # MarkDown formatted posts
 ├── _sass/                       # Sass stylesheets
-├── _templates/                  # used by Octopress to define YAML variables for new posts/pages
 ├── about/                       # sample about page
 ├── articles/                    # sample articles category page
 ├── assets/
@@ -148,37 +147,11 @@ To set what links appear in the top navigation edit `_data/navigation.yml`. Use 
 
 ---
 
-## Adding New Content with Octopress
+## Adding New Content
 
-While completely optional, I've included Octopress and some starter templates to automate the creation of new posts and pages. To take advantage of it start by installing the [Octopress](https://github.com/octopress/octopress) gem if it isn't already.
+Posts are stored in the `_posts` directory and named according to the `YEAR-MONTH-DAY-title.MARKUP` format as per [the usual](https://jekyllrb.com/docs/posts/).
 
-{% highlight bash %}
-$ gem install octopress
-{% endhighlight %}
-
-### New Post
-
-Default command for creating a new post.
-
-{% highlight bash %}
-$ octopress new post "Post Title"
-{% endhighlight %}
-
-Default works great if you want all your posts in one directory, but if you're like me and want to group them into subfolders like `/posts`, `/portfolio`, etc. Then this is the command for you. By specifying the DIR it will create a new post in that folder and populate the `categories:` YAML with the same value.
-
-{% highlight bash %}
-$ octopress new post "New Article Title" --dir articles
-{% endhighlight %}
-
-### New Page
-
-To create a new page use the following command.
-
-{% highlight bash %}
-$ octopress new page new-page/
-{% endhighlight %}
-
-This will create a page at `/new-page/index.md`
+To streamline the creation of posts and pages, [Jekyll::Compose](https://github.com/jekyll/jekyll-compose) and [Octopress](https://github.com/octopress/octopress) are great plugins you can install to automate this process.
 
 ---
 
