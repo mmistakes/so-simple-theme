@@ -7,6 +7,7 @@ tags: [sample-post, readability, test]
 author: billy_rick
 comments: true
 share: true
+modified: 2016-06-01T14:18:57-04:00
 image:
   feature: so-simple-sample-image-7.jpg
   credit: WeGraphics
@@ -19,7 +20,7 @@ Previously the theme used a global author for the entire site and those attribut
 
 Start by modifying or creating a new `authors.yml` file in the `_data` folder and add your authors using the following format.
 
-{% highlight yaml %}
+```yaml
 # Authors
 
 billy_rick:
@@ -40,10 +41,10 @@ cornelius_fiddlebone:
   twitter: rhymeswithsackit
   google:
     plus: CorneliusFiddlebone
-{% endhighlight %}
+```
 
 To assign Billy Rick as an author for our post. You'd add the following YAML front matter to a post:
 
-{% highlight yaml %}
+```yaml
 author: billy_rick
-{% endhighlight %}
+```
