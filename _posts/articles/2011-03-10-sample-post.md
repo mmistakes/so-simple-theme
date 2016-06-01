@@ -2,7 +2,7 @@
 layout: post
 title: Sample Post
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2013-05-31
+modified: 2016-06-01T14:17:25-04:00
 categories: articles
 tags: [sample-post]
 image:
@@ -73,17 +73,17 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 ## Code Snippets
 
-Syntax highlighting via Pygments and Rouge
+Syntax highlighting via Rouge
 
-{% highlight css %}
+```css
 #container {
   float: left;
   margin: 0 -240px 0 0;
   width: 100%;
 }
-{% endhighlight %}
+```
 
-Non Pygments/Rouge code example
+Non Rouge code example
 
     <div id="awesome">
         <p>This is great isn't it?</p>
@@ -93,4 +93,4 @@ Non Pygments/Rouge code example
 
 Make any link standout more when applying the `.btn` class.
 
-<div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
+<div markdown="0"><a href="#" class="btn">This is a button</a></div>
