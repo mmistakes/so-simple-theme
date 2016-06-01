@@ -18,6 +18,7 @@ sass:
 gems:
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
 
 kramdown:
   input: GFM
