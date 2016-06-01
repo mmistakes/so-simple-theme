@@ -1,4 +1,4 @@
-o---
+---
 layout: page
 title: "Workshops: Vanderbilt 2016"
 excerpt:
