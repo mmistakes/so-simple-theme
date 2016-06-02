@@ -116,4 +116,15 @@
         <url>communitytreffen</url> <!-- optional -->
     </event>
    
+   
+   <event>
+        <id>11</id>
+        <name>Westwoodlabs Gründungsversammlung</name>
+        <startdate>2016-06-11</startdate>
+        <enddate>2016-06-11</enddate> <!-- optional -->
+        <starttime>17:00</starttime> <!-- optional -->
+        <endtime>22:00</endtime> <!-- optional -->
+        <color>blue</color> <!-- optional -->
+        <url>https://westwoodlabs.de/2016/05/22/einladung_zur_gr%C3%BCndungsversammlung/</url> <!-- optional -->
+    </event>
 </monthly>
