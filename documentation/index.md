@@ -63,6 +63,8 @@ technology.
 
 ## Text
 
+* Thomas P. Harte and R. Michael Weylandt (2016) [Modern Bayesian Tools for Time Series Analysis](http://tharte.github.io/mbt/). 2016. R in Finance Conference, Chicago, IL.
+
 * Jim Savage (2016) [A quick-start introduction to Stan for economists](http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb).  A [QuantEcon Notebook](http://quantecon.org/notebooks.html).
 
 * Michael Clark (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](https://sites.google.com/a/umich.edu/micl/miscfiles/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
