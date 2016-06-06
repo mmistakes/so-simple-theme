@@ -33,6 +33,37 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
+## A Primer on Bayesian Multilevel Modeling using PyStan
+
+<small>
+This case study replicates the analysis of home radon levels using
+hierarchical models of [Lin, Gelman, Price, and Kurtz
+(1999)](http://www.stat.columbia.edu/~radon/credits.html).  It
+illustrates how to generalize linear regressions to hierarchical models with
+group-level predictors and how to compare predictive inferences and
+evaluate model fits. Along the way it shows how to get data into Stan
+using pandas, how to sample using PyStan, and how to visualize the results
+using seaborn.
+</small>
+
+[View](case-studies/radon.html) <span class="note">(HTML)</span>
+
+Author
+: Chris Fonnesbeck
+
+Keywords
+: hierararchical/multilevel modeling, linear regression, model comparison, predictive inference, radon
+
+Source Repository
+: [fonnesbeck/stan_workshop_2016](https://github.com/fonnesbeck/stan_workshop_2016)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90%">pystan, numpy, pandas, matplotlib, seaborn</tt>
+
+License
+: Apache 2.0 (code), CC-BY 3 (text)
+
 ## Reparameterization: MLE vs. Bayes
 
 <small>
