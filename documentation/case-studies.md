@@ -282,7 +282,7 @@ the results in R using ggplot2, (ii) estimate event probabilities,
 predictions on held-out data, (iv) rank items by chance of success,
 (v) perform multiple comparisons in several settings, (vi) replicate
 new data for posterior p-values, and (vii) perform graphical posterior
-predictive checks.</small>
+predictive checks. </small>
 
 [View](case-studies/pool-binary-trials.html) <span class="note">(HTML)</span>
 
@@ -302,6 +302,18 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
+
+#### RStanARM version
+
+<small>There is also a version of this case study in which all models are fit using the 
+RStanARM interface. Many of the visualizations are also created using RStanARM's plotting
+functions.
+</small>
+
+[View RStanARM version](case-studies/pool-binary-trials-rstanarm.html) <span class="note">(HTML)</span>
+
+Author
+: Bob Carpenter, Jonah Gabry, Ben Goodrich
 
 
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)
