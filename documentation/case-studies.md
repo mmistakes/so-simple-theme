@@ -43,7 +43,7 @@ illustrates how to generalize linear regressions to hierarchical models with
 group-level predictors and how to compare predictive inferences and
 evaluate model fits. Along the way it shows how to get data into Stan
 using pandas, how to sample using PyStan, and how to visualize the results
-using seaborn.
+using Seaborn.
 </small>
 
 [View](case-studies/radon.html) <span class="note">(HTML)</span>
