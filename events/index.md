@@ -20,7 +20,7 @@ or in many presentations at meetups and other venues.
 # **June 2016**
 
 
-## Stan Workshop: Life is precious: fix your sampling problems
+## Life Is Precious: Fix Your Sampling Problems
 
 Instructor
 : Jonah Gabry
