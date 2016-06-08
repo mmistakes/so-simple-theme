@@ -10,7 +10,7 @@ image:
 
 - [birds](/workshops/birds/) 
 - [icl_epi](/workshops/icl_epi/)
-- [meetup](/workshops/meetup/)
+- [meetup 2015](/workshops/meetup/)
 - [nyc](/workshops/nyc/)
 - [ub_tisi](/workshops/ub_tisi/) 
 - [newcastle](/workshops/newcastle/) 
