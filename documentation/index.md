@@ -87,6 +87,8 @@ technology.
   <br />
   Bob Carpenter (2015)
 
+* <a class="external" href="https://www.youtube.com/watch?v=qQFF4tPgeWI">Bayesian Inference and MCMC</a> (3 hours) <span class="note">(YouTube)</span>. <br /> Bob Carpenter (2015)
+
 *  <a class="external"
     href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials</a> (5 hours)
     <span class="note">(YouTube)</span>
