@@ -16,15 +16,15 @@ date: 2015-08-10T08:08:50-04:00
 
 To enable MathJax support be sure Kramdown is your Markdown flavor of choice and MathJax is set to true in your `_config.yml` file.
 
-~~~
+```yaml
 markdown: kramdown
 mathjax: true
-~~~
+```
 
-~~~
+```
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
 \\[ \frac{1}{n^{2}} \\]
-~~~
+```
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
 \\[ \frac{1}{n^{2}} \\]
