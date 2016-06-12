@@ -42,6 +42,13 @@ be shared here before the course.
 
 - Ulcerative Colitis [1]: [colitis_data.R](/workshops/isba2016/colitis_data.R)
 
+## Handouts
+
+- [Slides intro](/workshops/isba2016/stan_training_isba_intro.pdf)
+- [Slides hands-on](/workshops/isba2016/stan_training_isba.pdf)
+- [Logistic example (pooled, hierarchical, mixture)](/workshops/isba2016/logistic.zip)
+- [Warfarin pharmacokinetics (non-linear, ODE, expose_stan_functions)](/workshops/isba2016/warfarin.zip)
+
 [1] Neuenschwander B, Capkun-Niggli G, Branson M, Spiegelhalter DJ.
     Summarizing historical information on controls in clinical trials.
     _Clin Trials_. 2010; 7(1):5-18
