@@ -33,6 +33,37 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
+## A Primer on Bayesian Multilevel Modeling using PyStan
+
+<small>
+This case study replicates the analysis of home radon levels using
+hierarchical models of [Lin, Gelman, Price, and Kurtz
+(1999)](http://www.stat.columbia.edu/~radon/credits.html).  It
+illustrates how to generalize linear regressions to hierarchical models with
+group-level predictors and how to compare predictive inferences and
+evaluate model fits. Along the way it shows how to get data into Stan
+using pandas, how to sample using PyStan, and how to visualize the results
+using Seaborn.
+</small>
+
+[View](case-studies/radon.html) <span class="note">(HTML)</span>
+
+Author
+: Chris Fonnesbeck
+
+Keywords
+: hierararchical/multilevel modeling, linear regression, model comparison, predictive inference, radon
+
+Source Repository
+: [fonnesbeck/stan_workshop_2016](https://github.com/fonnesbeck/stan_workshop_2016)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90%">pystan, numpy, pandas, matplotlib, seaborn</tt>
+
+License
+: Apache 2.0 (code), CC-BY 3 (text)
+
 ## Reparameterization: MLE vs. Bayes
 
 <small>
@@ -282,7 +313,7 @@ the results in R using ggplot2, (ii) estimate event probabilities,
 predictions on held-out data, (iv) rank items by chance of success,
 (v) perform multiple comparisons in several settings, (vi) replicate
 new data for posterior p-values, and (vii) perform graphical posterior
-predictive checks.</small>
+predictive checks. </small>
 
 [View](case-studies/pool-binary-trials.html) <span class="note">(HTML)</span>
 
@@ -302,6 +333,18 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
+
+#### RStanARM version
+
+<small>There is also a version of this case study in which all models are fit using the 
+RStanARM interface. Many of the visualizations are also created using RStanARM's plotting
+functions.
+</small>
+
+[View RStanARM version](case-studies/pool-binary-trials-rstanarm.html) <span class="note">(HTML)</span>
+
+Author
+: Bob Carpenter, Jonah Gabry, Ben Goodrich
 
 
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)

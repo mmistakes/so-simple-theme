@@ -63,6 +63,8 @@ technology.
 
 ## Text
 
+* Thomas P. Harte and R. Michael Weylandt (2016) [Modern Bayesian Tools for Time Series Analysis](http://tharte.github.io/mbt/). 2016. R in Finance Conference, Chicago, IL.
+
 * Jim Savage (2016) [A quick-start introduction to Stan for economists](http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb).  A [QuantEcon Notebook](http://quantecon.org/notebooks.html).
 
 * Michael Clark (2015) [Bayesian Basics: A Conceptual Introduction with Application in R and Stan](https://sites.google.com/a/umich.edu/micl/miscfiles/IntroBayes.pdf).  Center for Statistical Consultation and Research, University of Michigan.
@@ -84,6 +86,8 @@ technology.
   Modeling and Inference Made Easy</a> (60 minutes) <span class="note">(Vimeo)</span>.
   <br />
   Bob Carpenter (2015)
+
+* <a class="external" href="https://www.youtube.com/watch?v=qQFF4tPgeWI">Bayesian Inference and MCMC</a> (3 hours) <span class="note">(YouTube)</span>. <br /> Bob Carpenter (2015)
 
 *  <a class="external"
     href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials</a> (5 hours)
@@ -122,26 +126,33 @@ technology.
 
 # Books
 
+* Julian J. Faraway (2016) [<i>Extending the Linear Model with R:
+  Generalized Linear, Mixed Effects and Nonparametric Regression
+  Models, Second
+  Edition</i>](http://www.maths.bath.ac.uk/~jjf23/ELM/index.html). Chapman
+  &amp; Hall/CRC Press.
+
 * Richard McElreath (2016) [<i>Statistical Rethinking: A Bayesian
   Course with Examples in R and
   Stan</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
-  &amp; Hall/CRC Press.    <br /> free online: Chapters 1 and 12; code examples; video tutorials
-  (follow title link above)
+  &amp; Hall/CRC Press.  <br /> free online: Chapters 1 and 12; code
+  examples; video tutorials (follow title link above)
 
 * Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
-  Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian Data
-  Analysis in Ecology Using Linear Models with R, BUGS, and
+  Guélat, Bettina Almasi, Pius Korner-Nievergelt (2015) [<i>Bayesian
+  Data Analysis in Ecology Using Linear Models with R, BUGS, and
   Stan</i>](http://www.amazon.com/Bayesian-Analysis-Ecology-Linear-Models-ebook/dp/B00W18O078).
   Academic Press.
 
-* John Kruschke (2015) [<i>Doing Bayesian Data Analysis, Second Edition:
-  A Tutorial with R, JAGS, and
+* John Kruschke (2015) [<i>Doing Bayesian Data Analysis, Second
+  Edition: A Tutorial with R, JAGS, and
   Stan</i>](http://www.amazon.com/Doing-Bayesian-Data-Analysis-Second/dp/0124058884).
   Academic Press.
 
 * Andrew Gelman, John B. Carlin, Hal S. Stern, David B. Dunson, Aki
-  Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis, Third
-  Edition</i>](http://www.amazon.com/gp/product/1439840954).  Chapman
-  &amp; Hall/CRC Press. <br /> free online: [Appendix C: Computation in R
-  and Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
+  Vehtari, and Donald B. Rubin (2013) [<i>Bayesian Data Analysis,
+  Third Edition</i>](http://www.amazon.com/gp/product/1439840954).
+  Chapman &amp; Hall/CRC Press. <br /> free online: [Appendix C:
+  Computation in R and
+  Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
 

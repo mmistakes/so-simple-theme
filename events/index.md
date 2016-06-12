@@ -16,46 +16,26 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.  
 
-# **May 2016**
 
-## Fitting and Diagnosing Models with RStan and ShinyStan
+# **June 2016**
+
+
+## Life Is Precious: Fix Your Sampling Problems
 
 Instructor
 : Jonah Gabry
 
 Date
-: 11 May 2016 <span class="note">(Wednesday)</span>
+: 9 June 2016 <span class="note">(Thursday)</span>
 
 Location
-: Cambridge, Massachusetts <span class="note">(USA)</span>
+: New York <span class="note">(USA)</span>
 
 Venue
-: [Stan Users - Boston/Camberville meetup](http://www.meetup.com/Stan-Users-Boston-Camberville/events/230396340/)
+: [Bayesian Data Analysis Meetup](http://www.meetup.com/bda-group/)
 
 Details
-: Harvard University Herbaria <br>
-22 Divinity Ave <span class="note">([map](https://goo.gl/maps/4HMeYymHqwk))</span> <br>
-6:00 PM
-
-## Introduction to Stan Talk
-
-Instructor
-: Eric Novik
-
-Date
-: Sometime 20 -- 22 May 2016 <span class="note">(Weekend)</span>
-
-Location
-: Boston, Massachusetts <span class="note">(USA)</span>
-
-Venue
-:  [Open Data Science Conference
-(ODSC)](http://www.odsc.com/boston/)
-
-Details
-: Forthcoming when day and time are set
-
-# **June 2016**
+: [View](http://www.meetup.com/bda-group/events/231650672/)
 
 ## Getting Started with PK/PD Modeling using Stan
 
@@ -210,6 +190,43 @@ Details
 
 
 # **Past** 
+
+## Fitting and Diagnosing Models with RStan and ShinyStan
+
+Instructor
+: Jonah Gabry
+
+Date
+: 11 May 2016 <span class="note">(Wednesday)</span>
+
+Location
+: Cambridge, Massachusetts <span class="note">(USA)</span>
+
+Venue
+: [Stan Users - Boston/Camberville meetup](http://www.meetup.com/Stan-Users-Boston-Camberville/events/230396340/)
+
+Details
+: Harvard University Herbaria <br>
+22 Divinity Ave <span class="note">([map](https://goo.gl/maps/4HMeYymHqwk))</span> <br>
+6:00 PM
+
+## Introduction to Stan Talk
+
+Instructor
+: Eric Novik
+
+Date
+: Sometime 20 -- 22 May 2016 <span class="note">(Weekend)</span>
+
+Location
+: Boston, Massachusetts <span class="note">(USA)</span>
+
+Venue
+:  [Open Data Science Conference
+(ODSC)](http://www.odsc.com/boston/)
+
+Details
+: Forthcoming when day and time are set
 
 ##  A Probability Model for Golf Putting
 
