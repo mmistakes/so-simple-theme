@@ -74,6 +74,20 @@ Venue
 Details
 : [View](/workshops/isba2016/)
 
+## Introduction to Bayesian Inference using Stan with Applications to Cancer Genomics
+
+Instructors
+: Jacki Buros, Ben Goodrich, and Eric Novik
+
+Date
+: 26 June 2016 <span class="note">(Monday)</span>
+
+Location:
+: Stanford, California <span class="note">(USA)</span>
+
+Venue
+: [Bioconductor 2016](https://www.bioconductor.org/help/course-materials/2016/BioC2016/#workshop-abstracts)
+
 ## An Introduction to Bayesian Inference using R Interfaces to Stan
 
 Instructor
