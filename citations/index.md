@@ -39,7 +39,7 @@ funding.
 
 ## Stan Math Library
 
-* <p>Stan Development Team. 2016.  *The Stan Math Library*,  Version
+* <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
   2.9.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
@@ -54,7 +54,7 @@ funding.
 
 ## RStan 
 
-* <p>Stan Development Team. 2016. </i>RStan: the R interface to Stan</i>,
+* <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>,
   Version 2.9.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
