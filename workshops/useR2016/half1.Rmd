@@ -1,0 +1,131 @@
+---
+title: An Introduction to Bayesian Inference using R Interfaces to Stan, Part I
+author: Ben Goodrich
+date: June 27, 2016
+autosize: true
+output: 
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r, setup, include = FALSE}
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(rstanarm))
+opts_chunk$set(dev.args = list(pointsize = 18), 
+               warning = FALSE, message = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
+## Obligatory Disclosure
+
+* I am an employee of Columbia University, which has received several research grants to develop Stan
+* I am a cofounder of Stan Group (http://stan.fit), which provides support, consulting, etc. for businesses 
+  using Stan
+* According to Columbia University policy, any such employee who has any equity stake, a title such as officer 
+  or director, or is expected to earn at least $\$5,000.00$ per year from a company that is not Columbia 
+  University is required to disclose these facts in presentations
+
+## What Was the Probability of Brexit?
+
+* If I were to have asked you (a week ago), what do you think is the probability that the British would vote
+  to leave the European Union, what would you have said?
+* If everyone could have supplied an answer to that question (a week ago), where did these beliefs about the
+  probability of an event come from?
+  
+
+## Different Perspectives on Probability
+
+Paradigm      | What is fixed?                  | What is random?      | What proportion is calculated?    | What is the conclusion?
+------------- | --------------------------------| -------------------- | ----------------------------------| -----------------------
+Randomization | ${y_1, y_2, \dots, y_N}$        | Treatment assignment | $p$-value for null: ATE $= 0$     | ATE $\neq 0$
+Frequentist   | $Y$, $\boldsymbol{\theta}$, $N$ | Sample inclusion     | $\theta \in$ confidence intervals | Something basically Bayesian
+Supervised    | ${y_1, y_2, \dots, y_N}$        | Training / testing inclusion   | Correctly classified outcomes in testing data | Some procedure predicts best
+Bayesian      | ${y_1, y_2, \dots, y_N}$, $\boldsymbol{\theta}$ | Beliefs about $\boldsymbol{\theta}$ | Posterior draws of $\theta  \in \left(a,b\right)$ | Decision or action
+
+## Two Justifications for Bayes Rule
+
+1. $f\left(\mathbf{y}\right) \times f\left(\boldsymbol{\theta} | \mathbf{y}\right) = f\left(\boldsymbol{\theta}, \mathbf{y}\right) = f\left(\boldsymbol{\theta}\right) \times f\left(\mathbf{y} | \boldsymbol{\theta}\right) \implies f\left(\boldsymbol{\theta} | \mathbf{y}\right) = \frac{f\left(\boldsymbol{\theta}\right) \times f\left(\mathbf{y} | \boldsymbol{\theta}\right)}{f\left(\mathbf{y}\right)}$ where $\mathbf{y} = \{y_1, y_2, \dots, y_N\}$, $f\left(x\right) \geq 0$, and $\int f\left(x\right)dx = 1$
+    * $f\left(\boldsymbol{\theta}\right)$ represents what someone __believes__ about $\boldsymbol{\theta}$ prior to observing $\mathbf{y}$ 
+    * $f\left(\boldsymbol{\theta} | \mathbf{y}\right)$ represents what someone __believes__ about $\boldsymbol{\theta}$ after observing $\mathbf{y}$
+    * $f\left(\mathbf{y} | \boldsymbol{\theta}\right)$ is the likelihood function, a function of 
+      $\boldsymbol{\theta}$ for an observed $\mathbf{y}$
+    * $f\left(\mathbf{y}\right) = \int \cdots \int \int f\left(\boldsymbol{\theta}\right) f\left(\mathbf{y} | \boldsymbol{\theta}\right) d\theta_1 d\theta_2 \dots d\theta_K = \mathbb{E}_{\boldsymbol{\theta}}\left[f\left(\mathbf{y} | \boldsymbol{\theta}\right)\right]$
+2. $f\left(\boldsymbol{\theta} | \mathbf{y}\right)$ is the unique function that minimizes the sum of
+    * Penalty: Kullback-Leibler divergence to $f\left(\boldsymbol{\theta}\right)$
+    * Expected misfit: $\mathbb{E}_{\boldsymbol{\theta}}\left[-\ln f\left(\mathbf{y} | \boldsymbol{\theta}\right)\right]$
+* Supervised learning minimizes the sum of _some_ penalty and misfit functions
+
+## Why Doesn't Everyone Use Bayesian Methods?
+
+* $f\left(\mathbf{y}\right) = \int \cdots \int \int f\left(\boldsymbol{\theta}\right) f\left(\mathbf{y} | \boldsymbol{\theta}\right) d\theta_1 d\theta_2 \dots d\theta_K$ is typically intractable
+    * Can draw randomly from a posterior distribution without knowing $f\left(\mathbf{y}\right)$
+* Traditional commercial software business model does not work for Bayesians:
+    * Can't let 1 programmer write generic code that all paying researchers use
+    * Posterior distribution depends not just on the researcher's data but on the prior beliefs of the 
+      researcher, which must be encoded somehow
+* To express your prior beliefs using probability distributions, you need to know the functional characteristics of lots of 
+  probability distributions
+* Drawing from an entire probability distribution is a much more ambitious task than finding a optimal point and 
+  takes a lot longer
+* Many researchers were frustrated by the BUGS family of software
+* Harder to publish a Bayesian analysis in an applied journal
+
+## What is Stan and How Does It Help?
+
+* Includes a probabalistic programming language
+    * The __rstanarm__, __brms__, and __rethinking__ R packages provide generic code to specify statistical models --- with
+      a limited choice of prior distributions --- that can be mapped into the Stan language
+* Includes new Hamiltonian Monte Carlo (HMC) algorithms
+    * HMC is to MCMC as BFGS is to optimization
+    * HMC is aided by the gradient of the posterior distribution wrt $\boldsymbol{\theta}$
+* Includes a matrix and scalar math library that supports autodifferentiation
+* Includes interfaces from R and other high-level software
+* Includes (not Stan specific) post-estimation R functions of MCMC output
+* Includes a large community of users and many developers
+
+## Breaking the Trilemma
+
+* Historically, a Bayesian algorithm can only achieve 2 out of the following 3:
+    1. Exact representation of the posterior distribution
+    2. Independent draws
+    3. Fast to execute
+
+* Independent and fast but not exact
+    * Approximate Bayesian Computation (ABC)
+    * ML followed by drawing from the estimated sampling distribution
+* Exact and fast but not independent
+    * Gibbs, Metropolis-Hastings samplers, and HMC too but with Stan the dependence is minimal
+
+## Murder
+
+```{r}
+state.x77 <- within(as.data.frame(state.x77), { # choose reasonable units
+  Density <- Population / Area
+  Income <- Income / 1000
+  Frost <- Frost / 100
+})
+library(rstanarm)
+options(mc.cores = parallel::detectCores())
+```
+```{r, eval = FALSE}
+post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
+                data = state.x77, prior = R2(stop("put a number here")))
+```
+```{r, include = FALSE}
+post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
+                data = state.x77, prior = R2(0.25, what = "median"))
+```
+
+```{r}
+df <- as.data.frame(post)
+mean(df$Density < 0)
+```
+
+```{r}
+round(posterior_interval(post, prob = 0.5), digits = 3)
+```
+
+```{r, eval = FALSE}
+launch_shinystan(post)
+```
+
