@@ -17,3 +17,4 @@ image:
 - [bristol](/workshops/bristol/)
 - [NESS 2016](/workshops/ness2016/)
 - [Vanderbilt 2016](/workshops/vanderbilt2016/)
+- [useR 2016](/workshops/useR2016/)
