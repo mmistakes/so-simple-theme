@@ -26,7 +26,7 @@ interfaces.
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
   </p>
-* **If you are using RStan/PyStan v2.9.0 (the current version), download this manual:** 
+* **If you are using RStan/PyStan v2.9.0 (the current version), download this manual:**
   <p>
   <a href="https://github.com/stan-dev/stan/releases/download/v2.9.0/stan-reference-2.9.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.9.0</a>
   <br />
@@ -82,6 +82,16 @@ technology.
 
 
 ## Video
+
+* <a class="external" href="https://www.youtube.com/watch?v=uSjsJg8fcwY">Some Bayesian
+  Modeling Techniques in Stan (100 minutes) </a> <span class="note">(YouTube)</span>
+  <br />
+  Michael Betancourt (2016)
+
+* <a class="external" href="https://www.youtube.com/watch?v=VnNdhsm0rJQ">Scalable Bayesian
+  Inference with Hamiltonian Monte Carlo (60 minutes) </a> <span class="note">(YouTube)</span>
+  <br />
+  Michael Betancourt (2016)
 
 * <a class="external" href="https://youtu.be/95bpsWr1lJ8">ADVI --- 10
   Minute Presentation</a>  <span class="note">(YouTube)</span>
@@ -161,4 +171,3 @@ technology.
   Chapman &amp; Hall/CRC Press. <br /> free online: [Appendix C:
   Computation in R and
   Stan](http://www.stat.columbia.edu/~gelman/book/software.pdf)
-
