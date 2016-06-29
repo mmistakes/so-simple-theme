@@ -55,7 +55,7 @@ funding.
 ## RStan 
 
 * <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>,
-  Version 2.9.0.
+  Version 2.10.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
