@@ -16,95 +16,6 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.  
 
-
-# **June 2016**
-
-
-## Life Is Precious: Fix Your Sampling Problems
-
-Instructor
-: Jonah Gabry
-
-Date
-: 9 June 2016 <span class="note">(Thursday)</span>
-
-Location
-: New York <span class="note">(USA)</span>
-
-Venue
-: [Bayesian Data Analysis Meetup](http://www.meetup.com/bda-group/)
-
-Details
-: [View](http://www.meetup.com/bda-group/events/231650672/)
-
-## Getting Started with PK/PD Modeling using Stan
-
-Instructor
-: Bill Gillespie
-
-Date
-: 10 June 2016 <span class="note">(Friday)</span>
-
-Location
-: Lisbon <span class="note">(Portugal)</span>
-
-Venue
-:  [Population Approach Group Europe
-(PAGE)](http://page-meeting.org/default.asp?id=40&keuze=meeting)
-
-Details
-: [View](http://metrumrg.com/events/2016/06/10/page_bayesian.html)
-
-
-## Introduction to Stan
-
-Instructor
-: Sebastian Weber
-
-Date
-: 12 June 2016 <span class="note">(Sunday)</span>
-
-Location:
-: Santa Margherita di Pula, Sardina <span class="note">(Italy)</span>
-
-Venue
-: [International Society for Bayesian Analysis
-(ISBA)](http://www.corsiecongressi.com/isba2016/index.asp)
-
-Details
-: [View](/workshops/isba2016/)
-
-## Introduction to Bayesian Inference using Stan with Applications to Cancer Genomics
-
-Instructors
-: Jacki Buros, Ben Goodrich, and Eric Novik
-
-Date
-: 26 June 2016 <span class="note">(Monday)</span>
-
-Location:
-: Stanford, California <span class="note">(USA)</span>
-
-Venue
-: [Bioconductor 2016](https://www.bioconductor.org/help/course-materials/2016/BioC2016/#workshop-abstracts)
-
-## An Introduction to Bayesian Inference using R Interfaces to Stan
-
-Instructor
-: Ben Goodrich
-
-Date
-: 27 June 2016 <span class="note">(Monday)</span>
-
-Location:
-: Stanford, California <span class="note">(USA)</span>
-
-Venue
-: [useR 2016](http://user2016.org/)
-
-Details
-: [abstract](http://user2016.org/tutorials/15.html)
-
 # **July 2016**
 
 ## Bayesian Modeling Using Stan
@@ -197,13 +108,98 @@ Location
 : Seattle <span class="note">(USA)</span>
 
 Venue
-: [American Conference on Pharmacometrics (ACoP)](http://www.acop7.org/)
+: [American Conference on Pharmacometrics (ACoP)](http/:/www.acop7.org/)
 
 Details
 : [View](http://metrumrg.com/events/2016/10/23/bayesianpkpd.html)
 
 
 # **Past** 
+
+## An Introduction to Bayesian Inference using R Interfaces to Stan
+
+Instructor
+: Ben Goodrich
+
+Date
+: 27 June 2016 <span class="note">(Monday)</span>
+
+Location:
+: Stanford, California <span class="note">(USA)</span>
+
+Venue
+: [useR 2016](http://user2016.org/)
+
+Details
+: [abstract](http://mc-stan.org/workshops/useR2016/)
+
+## Introduction to Bayesian Inference using Stan with Applications to Cancer Genomics
+
+Instructors
+: Jacki Buros, Ben Goodrich, and Eric Novik
+
+Date
+: 26 June 2016 <span class="note">(Monday)</span>
+
+Location:
+: Stanford, California <span class="note">(USA)</span>
+
+Venue
+: [Bioconductor 2016](https://github.com/jburos/biostan)
+
+
+## Introduction to Stan
+
+Instructor
+: Sebastian Weber
+
+Date
+: 12 June 2016 <span class="note">(Sunday)</span>
+
+Location:
+: Santa Margherita di Pula, Sardina <span class="note">(Italy)</span>
+
+Venue
+: [International Society for Bayesian Analysis
+(ISBA)](http://www.corsiecongressi.com/isba2016/index.asp)
+
+Details
+: [View](/workshops/isba2016/)
+
+## Getting Started with PK/PD Modeling using Stan
+
+Instructor
+: Bill Gillespie
+
+Date
+: 10 June 2016 <span class="note">(Friday)</span>
+
+Location
+: Lisbon <span class="note">(Portugal)</span>
+
+Venue
+:  [Population Approach Group Europe
+(PAGE)](http://page-meeting.org/default.asp?id=40&keuze=meeting)
+
+Details
+: [View](http://metrumrg.com/events/2016/06/10/page_bayesian.html)
+
+## Life Is Precious: Fix Your Sampling Problems
+
+Instructor
+: Jonah Gabry
+
+Date
+: 9 June 2016 <span class="note">(Thursday)</span>
+
+Location
+: New York <span class="note">(USA)</span>
+
+Venue
+: [Bayesian Data Analysis Meetup](http://www.meetup.com/bda-group/)
+
+Details
+: [View](http://www.meetup.com/bda-group/events/231650672/)
 
 ## Fitting and Diagnosing Models with RStan and ShinyStan
 
