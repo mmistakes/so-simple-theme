@@ -5,9 +5,9 @@ excerpt: Ruby on Rails를 이용한 블로그관리
 categories: blog
 tags: [Ruby, Rails, Git]
 image:
-  feature: so-simple-sample-image-5.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: /sub01/so-background-image-rubyonrails.jpg
+  credit: 
+  creditlink: 
 comments: true
 share: true
 ---
