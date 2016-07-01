@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 딸아이 캐나다 비자신청 승인소식을 듣고
+title: 딸아이 캐나다 비자승인
 excerpt: 딸아이의 캐나다 워킹비자 승인소식을 접하면서...
 categories: blog
 tags: [비자, 캐나다, 딸램]
