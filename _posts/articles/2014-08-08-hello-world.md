@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Hello World"
-modified:
+excerpt: 
 categories: articles
-excerpt:
 tags: []
 image:
-  feature:
-date: 2014-08-08T15:39:55-04:00
+  feature: 
+  credit: 
+  creditlink: 
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
