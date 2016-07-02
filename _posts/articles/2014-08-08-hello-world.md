@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World"
-excerpt: 
+excerpt: "Sample Hello World"
 categories: articles
 tags: []
 image:
