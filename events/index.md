@@ -76,7 +76,21 @@ Details
 <!-- SEPT/OCT - BOB IN HELSKINKI -->
 
 
+# **September 2016**
 
+## Bayesian Inference with Stan for Pharmacometrics
+
+Instructors
+: Michael Betancourt, Daniel Lee, Bob Carpenter
+
+Dates
+: 19--21 September 2016
+
+Location:
+: Paris <span class="note">(France)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/bayesian-inference-with-stan-for-pharmacometrics-3-day-course-tickets-25910314448)
 
 # **October 2016**
 
