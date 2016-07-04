@@ -35,6 +35,22 @@ Venue
 Details
 : [Accepted proposal](https://www.psychometricsociety.org/sites/default/files/IMPS_stan.pdf)
 
+
+## Learn Bayes, MCMC, and Stan
+
+Instructors
+: Andrew Gelman, Jonah Gabry, Vince Dorie
+
+Dates
+: 18--20 July 2016
+
+Location
+: New York City <span class="note">(USA)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-with-andrew-gelman-jonah-gabry-vince-dorie-tickets-25554757969)
+
+
 ## An Introduction to Stan
 
 Instructors
@@ -51,6 +67,7 @@ Venue
 
 Details
 : [Session information](https://www.amstat.org/meetings/jsm/2016/onlineprogram/ActivityDetails.cfm?SessionID=213234)
+
 
 # **August 2016**
 
@@ -70,10 +87,6 @@ Venue
 
 Details
 : Forthcoming
-
-
-<!-- SEPT - BOB DANIEL IN PARIS -->
-<!-- SEPT/OCT - BOB IN HELSKINKI -->
 
 
 # **September 2016**
