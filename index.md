@@ -33,10 +33,8 @@ Internet steht meistens zur Verfügung.
 # Aufbau Freifunk Westerwald
 
 Seit Ende 2015 sind wir als lose organisierte Gruppe als Freifunker aktiv.
-Zur Zeit betreiben wir keine komplett eigene Infrastruktur, sondern nutzen
-die Infrastruktur von Freifunk Mayen Koblenz mit. Aktuell arbeiten wir auch
-an dem Aufbau einer eigenen Infrastruktur und werden diese voraussichtlich
-im ersten Quartal 2016 in Betrieb nehmen.
+Zu erst betrieben wir keine komplett eigene Infrastruktur, sondern nutzten
+die Infrastruktur von Freifunk Mayen Koblenz mit. Mittlerweile sind wir aber auf eine eigene Server umgezogen. Firmware bieten wir für die KReise Altenkirchen, Limburg, Neuwied und den Westerwaldkreis an.
 
 Wenn du möchtest, kannst du dich unserem Vorhaben anschließen und uns beim
 Aufbau eines Freifunk-Netzes im Westerwald unterstützen. Wie du das am besten
