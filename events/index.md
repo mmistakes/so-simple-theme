@@ -71,6 +71,24 @@ Details
 
 # **August 2016**
 
+## Introduction to Stan
+
+Speaker
+: Ben Goodrich
+
+Date
+: 1 August 2016
+
+Location
+: IBM Cambridge <span class="note">(Boston, USA)</span>
+
+Venue
+: [Greater Boston useR Group](http://www.meetup.com/Boston-useR/)
+
+Details
+: [View](http://www.meetup.com/Boston-useR/events/232259941/)
+
+
 ## An Introduction to Econometric Modeling using Stan
 
 Instructor
