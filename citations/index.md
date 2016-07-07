@@ -197,8 +197,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   memory-based accounts. *Frontiers in Psychology* 7 (Special Issue on Encoding and Navigating
   Linguistic Representations in Memory)
 
-* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann. 
-  2016.  Testing models of peripheral encoding using metamerism in an
+* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann.  2016.
+  Testing models of peripheral encoding using metamerism in an
   oddity paradigm.  *Journal of Vision* 16(2).
 
 * Nicenboim, Bruno, Pavel Logačev, Carolina Gattei, and Shravan
