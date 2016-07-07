@@ -233,8 +233,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for linguistics research:
   Foundational Ideas---Part II. *arXiv* 1602.00245.
 
-* Douglas Bates, Reinhold Kliegl, Shravan Vasishth, and Harald Baayen.
-  2015. Parsimonious mixed models. *arXiv* 1506.04967.
+* Douglas Bates, Reinhold Kliegl, Shravan Vasishth, and Harald
+  Baayen. 2015. Parsimonious mixed models. *arXiv* 1506.04967.
 
 * Logačev, Pavel and Sharavn Vasishth. 2015.  Understanding
   underspecification: A comparison of two computational
@@ -248,7 +248,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
   MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
   between risk perception and danger mitigation.  *Journal of
-  Experimental Psychology: Learning, Memory, and Cognition". ePub.
+  Experimental Psychology: Learning, Memory, and Cognition*. ePub.
 
 * Maxwell B. Joseph, William E. Stutz, and Pieter T. J. Johnson. 2015.
   Multilevel models for the distribution of hosts and symbionts.
@@ -396,8 +396,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Schmettow, M. and Havinga, J.  2013.  Are users more diverse than
   designs? Testing and extending a 25 years old claim.  C. Bowers and
-  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of Things
-  XXVII*.
+  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of 
+  Things XXVII*.
 
 * Terada, Ryuta and Inoue, Shingo and Nishihara, Gregory N.  2013.
   The effect of light and temperature on the growth and photosynthesis
