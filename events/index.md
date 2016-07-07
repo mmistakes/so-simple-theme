@@ -71,10 +71,10 @@ Details
 
 # **August 2016**
 
-## Introduction to Stan
+## Introduction to Stan with Climate Change Example
 
 Speaker
-: Ben Goodrich
+: Ben Goodrich and Dan Flynn
 
 Date
 : 1 August 2016
