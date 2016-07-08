@@ -1,0 +1,261 @@
+---
+title: An Introduction to Bayesian Inference using R Interfaces to Stan, Part I
+author: Ben Goodrich and Eric Novik
+date: July 30, 2016
+autosize: true
+output: 
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r, setup, include = FALSE}
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(rstanarm))
+opts_chunk$set(dev.args = list(pointsize = 18), 
+               warning = FALSE, message = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
+## Installation
+
+* If you have not installed the __rstan__ R package yet, please follow the steps at
+  https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+  because you need Xcode on a Mac, RTools on Windows, or build-essential on Linux
+* If you have installed the __rstan__ R package, please make sure `packageVersion("rstan")` is 2.10.2.
+* In either case, please verify that a Stan program compiles and runs with
+```{r, eval = FALSE}
+example("stan_model", package = "rstan", run.dontrun = TRUE)
+```
+* Also, verify that `packageVersion("rstanarm")` is 2.10.2; otherwise execute
+```{r, eval = FALSE}
+install.packages("rstanarm", repos = "https://cloud.r-project.org", dependencies = TRUE)
+```
+
+## Outline
+
+1. Probability background, Markov Chain Monte Carlo, rstanarm example
+2. 10 minute break
+3. Hierarchical model example, Stan language, writing Stan programs
+4. 10 minute break
+5. Case study with optimal pricing
+
+## Obligatory Disclosure
+
+* Ben is an employee of Columbia University, which has received several research grants to develop Stan
+* Ben is also a cofounder of Stan Group (http://stan.fit), which provides support, consulting, etc. for 
+  businesses using Stan
+* According to Columbia University policy, any such employee who has any equity stake in, a title (such as 
+  officer or director) with, or is expected to earn at least $\$5,000.00$ per year from a 
+  private company is required to disclose these facts in presentations
+* Eric is also a cofounder of Stan Group but not a Columbia employee and hence is not implicated by the above
+
+## What Was the Probability of Brexit?
+
+* If I were to have asked you (a month ago), what is the probability that the British would vote
+  to leave the European Union, what would you have said?
+* If everyone could have supplied an answer to that question (a month ago), where did these beliefs about the
+  probability of this event come from?
+  
+
+## Different Perspectives on Probability
+
+What is the paradigm?      | What is fixed?                  | What is random?      | What proportion is important?    | What is the conclusion?
+------------- | --------------------------------| -------------------- | ----------------------------------| -----------------------
+Randomization | ${y_1, y_2, \dots, y_N}$        | Treatment assignment | $p$-value for null: ATE $= 0$?     | ATE $\neq 0$
+Frequentist   | $Y$, $\boldsymbol{\theta}$, $N$ | Sample inclusion     | $\theta \in$ confidence intervals (plural) | Something basically Bayesian
+Supervised learning    | ${y_1, y_2, \dots, y_N}$        | Training / testing inclusion   | Correctly classified outcomes in testing data | Some procedure predicts best
+Bayesian      | ${y_1, y_2, \dots, y_N}$, $\boldsymbol{\theta}$ | Beliefs about $\boldsymbol{\theta}$ | Posterior draws of $\theta  \in \left(a,b\right)$ | Decision or action
+
+## Two Justifications for Bayes Rule
+
+1. $f\left(\mathbf{y}\right) \times f\left(\boldsymbol{\theta} | \mathbf{y}\right) = f\left(\boldsymbol{\theta}, \mathbf{y}\right) = f\left(\boldsymbol{\theta}\right) \times f\left(\mathbf{y} | \boldsymbol{\theta}\right) \implies f\left(\boldsymbol{\theta} | \mathbf{y}\right) = \frac{f\left(\boldsymbol{\theta}\right) \times f\left(\mathbf{y} | \boldsymbol{\theta}\right)}{f\left(\mathbf{y}\right)}$ where $\mathbf{y} = \{y_1, y_2 \dots y_N\}$ and 
+$f\left(\cdot\right)$ is a PDF so $f\left(\cdot\right) \geq 0$ & $\int f\left(u\right)du = 1$
+    * $f\left(\boldsymbol{\theta}\right)$ represents what someone __believes__ about $\boldsymbol{\theta}$ prior to observing $\mathbf{y}$ 
+    * $f\left(\boldsymbol{\theta} | \mathbf{y}\right)$ represents what someone __believes__ about $\boldsymbol{\theta}$ after observing $\mathbf{y}$
+    * $f\left(\mathbf{y} | \boldsymbol{\theta}\right)$ is the likelihood function, a function of 
+      $\boldsymbol{\theta}$ for an observed $\mathbf{y}$
+    * $f\left(\mathbf{y}\right) = \int \cdots \int \int f\left(\boldsymbol{\theta}\right) f\left(\mathbf{y} | \boldsymbol{\theta}\right) d\theta_1 d\theta_2 \dots d\theta_K = \mathbb{E}_{\boldsymbol{\theta}}f\left(\mathbf{y} | \boldsymbol{\theta}\right)$
+2. $f\left(\boldsymbol{\theta} | \mathbf{y}\right)$ is the unique function that minimizes the sum of
+    * Penalty: Kullback-Leibler divergence to $f\left(\boldsymbol{\theta}\right)$
+    * Expected misfit: $\mathbb{E}_{\boldsymbol{\theta}}\left[-\ln f\left(\mathbf{y} | \boldsymbol{\theta}\right)\right]$
+
+## Markov Chain Monte Carlo
+
+* Even if $f\left(\mathbf{y}\right)$ could be calculated, you would have to do _another_ K-dimensional
+  integral to obtain something like $\mathbb{E}\left[\theta_k | \mathbf{y}\right]$
+* So we draw randomly $S$ times from the posterior distribution --- which does not require knowing 
+  $f\left(\mathbf{y}\right)$ --- and estimate $\mathbb{E}\left[\theta_k | \mathbf{y}\right]$ with 
+  $\frac{1}{S}\sum_{s=1}^S{\tilde{\theta}_k^{[s]}}$
+* There is no way to draw independently from most posterior distributions
+* The price to be paid for relying on Markov Chain Monte Carlo (MCMC) to draw from
+  a posterior distribution is that the draws are __not__ independent
+* The degree of dependence in a MCMC algorithm governs how badly 
+  $\frac{1}{S}\sum_{s=1}^S{g\left(\widetilde{\boldsymbol{\theta}}^{[s]}\right)}$ estimates $\mathbb{E}g\left(\boldsymbol{\theta}\right) | \mathbf{y}$
+  for finite $S$
+* Effective Sample Size is a concept like that in complex survey design and
+  is defined as the number of _independent_ draws that would estimate a posterior mean with the same
+  precision as the $S$ _dependent_ draws you do have
+  
+## A Markov Process with Severe Dependence
+
+```{r, AR1, cache = TRUE}
+par(mar = c(4,4,1,1) + .1, las = 1, bg = "lightgrey")
+x <- sapply(1:6, FUN = function(i) arima.sim(model = list(ar = 0.9999999), n = 10^6))
+matplot(x, type = "l", col = 1:6, lty = 1)
+for (j in 1:ncol(x)) abline(h = mean(x[,j]), col = j, lty = 2)
+```
+
+## Why Doesn't Everyone Use Bayesian Methods?
+
+* There are very few useful analytical results
+* Traditional commercial software business model does not work for Bayesians:
+    * Can't let 1 programmer write generic code that all paying researchers use
+    * Posterior distribution depends not just on the researcher's data but on the prior beliefs of the 
+      researcher, which must be encoded somehow
+* To express your prior beliefs using probability distributions, you need to know the functional 
+  characteristics of lots of probability distributions
+* Drawing from an entire probability distribution is a much more ambitious task than finding a optimal point 
+  and takes a lot longer
+* Many researchers were frustrated by the BUGS family of software
+* Harder to publish a Bayesian analysis in an applied journal
+
+## What is Stan and How Does It Help?
+
+* Includes a probabalistic programming language
+    * The __rstanarm__, __brms__, and __rethinking__ R packages provide code to specify some statistical 
+      models --- with a limited choice of prior distributions --- that can be mapped into the Stan language
+* Includes new Hamiltonian Monte Carlo (HMC) algorithms
+    * HMC is to MCMC as BFGS is to optimization
+    * HMC is aided by the gradient of the posterior distribution wrt $\boldsymbol{\theta}$
+    * Dependence between consecutive draws is minimal
+* Includes a matrix and scalar math library that supports autodifferentiation
+* Includes interfaces from R and other high-level software
+* Includes (not Stan specific) post-estimation R functions of MCMC output
+* Includes a large community of users and many developers
+
+## Overview of Hamiltonian Monte Carlo
+
+* Since the early 1990s, most MCMC uses Gibbs updates when feasible and falls back to something more general
+  otherwise
+    * Gibbs entails drawing $\theta_k$ from its "full-conditional distribution": 
+      $\theta_k | \boldsymbol{\theta}_{-k}, \mathbf{y}$
+    * "Something more general" includes slice sampling, Metropolis-Hastings, etc., which is needed when the
+      full-conditional distribution of $\theta_k$ is not known in closed form
+* If Gibbs updates are feasible, they are easy to code and fast to execute but are _statistically_ inefficient
+  because the dependence between draws is high
+* HMC differs from Gibbs in that all elements of $\boldsymbol{\theta}$ are updated simultaneously
+* H stands for Hamiltonian, which is a physics framework for how a particle $\left(\boldsymbol{\theta}\right)$
+  moves through an unbounded frictionless space
+
+## Example of Drawing from a Multivariate Normal
+
+* $\mathbf{y} \thicksim \mathcal{N}_{250}\left(\mathbf{0}, \boldsymbol{\Sigma}\right)$ where 
+  $\boldsymbol{\Sigma}$ is ill-conditioned but focus on just two dimensions
+* Do 1 million draws w/ Random Walk Metropolis & Gibbs, thinning by $1000$
+* Do 1000 draws with the NUTS algorithm in Stan and 1000 independent draws
+
+![Comparison of MCMC Samplers][id]
+
+[id]: comparison.jpeg "Comparison"
+  
+## Details of Hamiltonian Monte Carlo
+  
+* HMC augments the parameter space with a momentum vector $\left(\boldsymbol{\phi}\right)$ of size $K$
+* $\boldsymbol{\phi}$ does not enter the likelihood for $\mathbf{y}$, so its marginal
+  posterior distribution is the same as its prior distribution, which is multivariate normal with
+  mean vector zero and a covariance matrix that is tuned during the warmup phase
+* Given a draw of $\boldsymbol{\phi}$ from this multivariate normal distribution, the
+  Hamiltonian equations tell us where $\boldsymbol{\theta}$ would move to in $t$ periods, 
+  depending on the posterior kernel in log-units 
+  $\ln f\left(\boldsymbol{\theta}\right) + \ln f\left(\mathbf{y} | \boldsymbol{\theta}\right)$
+* We approximate the solution to the Hamiltonian equations numerically assuming discrete time
+* Draw from the footprints of the discrete Hamiltonian path with a categorical distribution whose 
+  probabilities are proportional to the posterior kernel
+* Stepsize and momentum are automatically tuned but can be adjusted by you
+* Essentially, the _only_ thing that can go wrong is numerical instability
+
+## A Model for State-level Murder Rates in 1977
+
+```{r}
+state.x77 <- within(as.data.frame(state.x77), { # choose reasonable units
+  Density <- Population / Area
+  Income <- Income / 1000
+  Frost <- Frost / 100
+})
+library(rstanarm)
+options(mc.cores = parallel::detectCores())
+```
+```{r, eval = FALSE}
+post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
+                data = state.x77, prior = R2(stop("put a number here")))
+```
+```{r, include = FALSE}
+post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
+                data = state.x77, prior = R2(0.25, what = "median"))
+```
+```{r, eval = FALSE}
+print(post, digits = 2)
+```
+
+## Results
+
+```{r, echo = FALSE}
+print(post, digits = 2)
+```
+
+## You Can Do Anything with the Draws
+
+```{r}
+mean(as.data.frame(post)$Density < 0) # Pr(beta_{Density} < 0)
+```
+
+```{r}
+round(posterior_interval(post, prob = 0.5), digits = 3) # endpoints of the IQRs
+```
+
+```{r, eval = FALSE}
+launch_shinystan(post)
+```
+
+## Model Comparison
+
+* The most important insight of supervised learning is that you will choose a model that _overfits_ if you
+  evaluate the models on the same data that you estimate the models with
+* Thus, supervised learning people partition "the" data (often randomly) into a training dataset (that is used
+  to "train a model") and a testing dataset (that is used to evaluate how well models predict)
+* Nothing prevents you from doing that in a Bayesian context but holding out data makes your posterior 
+  distribution more diffuse
+* Bayesians usually condition on _all_ the data and evaluate how well a model is _expected_ to predict out of
+  sample using "information criteria", which are all intended to select the model with the highest expected
+  log predictive density (ELPD) for new data
+* This is easy to do with __rstanarm__ using the `loo` and `compare` functions under the verifiable assumption
+  that each observation _could_ be omitted without having a drastic effect on the posterior distribution
+  
+## Using the `loo` Function
+
+```{r}
+(loo_1 <- loo(post))
+```
+
+```{r, results = "hide"}
+post2 <- stan_glm(Murder ~ Density + Income + Illiteracy, data = state.x77, family = gaussian, 
+                  prior = normal(0, 5), prior_intercept = student_t(df = 2))
+```
+
+```{r}
+compare(loo_1, loo(post2))
+```
+
+## Summary
+
+* Using the model-fitting functions in the __rstanarm__ package is easy
+* `stan_lm`, `stan_aov`, `stan_glm`, `stan_glm.nb`, and `stan_polr` all have the same syntax and same 
+  likelihood as their frequentist counterparts
+* Developers can add models to __rstanarm__ or copy the build process of __rstanarm__ into their own
+  R packages to use Stan to estimate particular models
+* The __brms__ (on CRAN) and __rethinking__ (on GitHub) packages are a bit different than 
+  __rstanarm__ but permit estimation of an overlapping set of models w/ Stan
+* Using Stan for Bayesian inference is sufficiently easy for most basic and some not-so-basic models
+  that there should rarely be a reason to use frequentist tools to make Bayesian inferences
+* After the break we will talk about hierarchical models and the Stan language
+  
