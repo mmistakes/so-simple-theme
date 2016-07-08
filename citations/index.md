@@ -183,8 +183,22 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann. 
-  2016.  Testing models of peripheral encoding using metamerism in an
+* Hélène Peltier, Matthieu Authier, Rob Deaville, Willy Dabin, Paul D. Jepson, Olivier van Canneyt,
+  Pierre Daniel, Vincent Ridoux.  2016.  Small cetacean bycatch as estimated from stranding schemes:
+  The common dolphin case in the northeast Atlantic.  *Environmental Science &amp; Policy*
+  63:7--18.
+
+* Gerrit Kentner and Shravan Vasishth. 2016. Prosodic focus marking in
+  silent reading: Effects of discourse context and rhythm. 7(319).  
+  *Frontiers in Psychology*.
+
+* Molood Sadat Safavi, Samar Husain, and Shravan Vasishth. 2016. Dependency resolution difficulty
+  increases with distance in Persian separable complex predicates: Implications for expectation and 
+  memory-based accounts. *Frontiers in Psychology* 7 (Special Issue on Encoding and Navigating
+  Linguistic Representations in Memory)
+
+* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann.  2016.
+  Testing models of peripheral encoding using metamerism in an
   oddity paradigm.  *Journal of Vision* 16(2).
 
 * Nicenboim, Bruno, Pavel Logačev, Carolina Gattei, and Shravan
@@ -209,6 +223,19 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
 
+* Samar Husain, Shravan Vasishth, and Narayanan Srinivasan. 2015. Integration and prediction difficulty
+  in Hindi sentence comprehension: Evidence from an eye-tracking corpus. *Journal of Eye Movement
+  Research* 8(2):1--12.
+
+* Dario Paape and Shravan Vasishth. 2015. Local coherence and preemptive digging-in effects 
+  in German. *Language and Speech*.
+
+* Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for linguistics research:
+  Foundational Ideas---Part II. *arXiv* 1602.00245.
+
+* Douglas Bates, Reinhold Kliegl, Shravan Vasishth, and Harald
+  Baayen. 2015. Parsimonious mixed models. *arXiv* 1506.04967.
+
 * Logačev, Pavel and Sharavn Vasishth. 2015.  Understanding
   underspecification: A comparison of two computational
   implementations. *Quarterly Journal of Experimental Psychology*
@@ -221,7 +248,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
   MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
   between risk perception and danger mitigation.  *Journal of
-  Experimental Psychology: Learning, Memory, and Cognition". ePub.
+  Experimental Psychology: Learning, Memory, and Cognition*. ePub.
 
 * Maxwell B. Joseph, William E. Stutz, and Pieter T. J. Johnson. 2015.
   Multilevel models for the distribution of hosts and symbionts.
@@ -369,8 +396,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Schmettow, M. and Havinga, J.  2013.  Are users more diverse than
   designs? Testing and extending a 25 years old claim.  C. Bowers and
-  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of Things
-  XXVII*.
+  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of 
+  Things XXVII*.
 
 * Terada, Ryuta and Inoue, Shingo and Nishihara, Gregory N.  2013.
   The effect of light and temperature on the growth and photosynthesis
