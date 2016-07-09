@@ -11,6 +11,9 @@ output:
 ```{r, setup, include = FALSE}
 suppressPackageStartupMessages(library(knitr))
 suppressPackageStartupMessages(library(rstanarm))
+suppressPackageStartupMessages(library(png))
+suppressPackageStartupMessages(library(grid))
+
 opts_chunk$set(dev.args = list(pointsize = 18), 
                warning = FALSE, message = TRUE)
 options(mc.cores = parallel::detectCores())
@@ -33,6 +36,7 @@ install.packages("rstanarm", repos = "https://cloud.r-project.org", dependencies
 
 ## Outline
 
+0. Who is Using Stan
 1. Probability background, Markov Chain Monte Carlo, rstanarm example
 2. 10 minute break
 3. Hierarchical model example, Stan language, writing Stan programs
@@ -48,6 +52,26 @@ install.packages("rstanarm", repos = "https://cloud.r-project.org", dependencies
   officer or director) with, or is expected to earn at least $\$5,000.00$ per year from a 
   private company is required to disclose these facts in presentations
 * Eric is also a cofounder of Stan Group but not a Columbia employee and hence is not implicated by the above
+
+## Who Is Using Stan?
+
+* Stan is used in academia, business, and government
+* Over 1,000 mailing list registrations
+* ~ 10,000+ manual downloads with a new release
+* Stan is used for fitting climate models, clinical drug trials, genomics and cancer biology, population dynamics, psycholinguistics, social networks, finance and econometrics, professional sports, publishing, recommender systems, educational testing, and many more.
+
+## Stan in Pharmacometrics
+```{r fig.width=10, fig.height=5.3, echo=FALSE}
+img <- readPNG("novartis.png")
+ grid.raster(img)
+```
+
+## How Birth Year Influences Political Views
+From the New York Times: A new model of presidential voting suggests President Obama’s approval rating — currently in the low 40s — will inform not only the 2016 election, but also the election in 2076. The model, by researchers at Catalist, the Democratic data firm, and Columbia University, uses hundreds of thousands of survey responses and new statistical software to estimate how people’s preferences change at different stages of their lives.
+```{r fig.width=10, fig.height=4.5, echo=FALSE}
+img <- readPNG("nytimes.png")
+ grid.raster(img)
+```
 
 ## What Was the Probability of Brexit?
 
@@ -78,6 +102,12 @@ $f\left(\cdot\right)$ is a PDF so $f\left(\cdot\right) \geq 0$ & $\int f\left(u\
 2. $f\left(\boldsymbol{\theta} | \mathbf{y}\right)$ is the unique function that minimizes the sum of
     * Penalty: Kullback-Leibler divergence to $f\left(\boldsymbol{\theta}\right)$
     * Expected misfit: $\mathbb{E}_{\boldsymbol{\theta}}\left[-\ln f\left(\mathbf{y} | \boldsymbol{\theta}\right)\right]$
+
+## Baysian Workflow
+```{r fig.width=10, fig.height=5.3, echo=FALSE}
+img <- readPNG("bayesian_workflow.png")
+ grid.raster(img)
+```
 
 ## Markov Chain Monte Carlo
 
@@ -147,6 +177,25 @@ for (j in 1:ncol(x)) abline(h = mean(x[,j]), col = j, lty = 2)
 * H stands for Hamiltonian, which is a physics framework for how a particle $\left(\boldsymbol{\theta}\right)$
   moves through an unbounded frictionless space
 
+## Hamiltonian Simulation, Small Step Size
+
+![Hamiltonian Simulation][hs1]
+
+[hs1]: ham-sim-stepsize-too-small.gif "Too Small"
+
+## Hamiltonian Simulation, Large Step Size
+
+![Hamiltonian Simulation][hs2]
+
+[hs2]: ham-sim-stepsize-too-big.gif "Too Big"
+
+## Hamiltonian Simulation, Right Step Size
+
+![Hamiltonian Simulation][hs3]
+
+[hs3]: ham-sim-stepsize-just-right.gif "Just Right"
+
+
 ## Example of Drawing from a Multivariate Normal
 
 * $\mathbf{y} \thicksim \mathcal{N}_{250}\left(\mathbf{0}, \boldsymbol{\Sigma}\right)$ where 
@@ -189,7 +238,7 @@ options(mc.cores = parallel::detectCores())
 post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
                 data = state.x77, prior = R2(stop("put a number here")))
 ```
-```{r, include = FALSE}
+```{r, include = FALSE, cache=TRUE}
 post <- stan_lm(Murder ~ Density + Income + Illiteracy + Frost, 
                 data = state.x77, prior = R2(0.25, what = "median"))
 ```
@@ -237,7 +286,7 @@ launch_shinystan(post)
 (loo_1 <- loo(post))
 ```
 
-```{r, results = "hide"}
+```{r, results = "hide", cache=TRUE}
 post2 <- stan_glm(Murder ~ Density + Income + Illiteracy, data = state.x77, family = gaussian, 
                   prior = normal(0, 5), prior_intercept = student_t(df = 2))
 ```
