@@ -1,0 +1,1079 @@
+---
+title: "IRT with Stan"
+author: "Daniel C. Furr"
+date: "July 11, 2016"
+output:
+  ioslides_presentation
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(dev.args = list(pointsize = 18), warning = FALSE)
+
+print_blocks <- function(stan_file, blocks = c()) {
+  
+  lines <- readLines(stan_file)
+  
+  if(is.null(blocks)) {
+    
+    cat(lines, sep = "\n")
+    
+  } else {
+    
+    starts <- grep("^[[:alpha:]].*\\{", lines)
+    ends <- sapply(starts, function(x) grep("^}", lines[-(1:x)])[1] + x)
+    abbrev <- ! sapply(lines[starts], function(x) x %in% paste(blocks, "{"))
+    
+    to_print <- list()
+    for(i in 1:length(starts)) {
+      if(abbrev[i]) {
+        to_print[[i]] <- paste(lines[starts[i]], "... }")
+      } else {
+        to_print[[i]] <- lines[starts[i]:ends[i]]
+      }
+    }
+    
+    cat(unlist(to_print), sep = "\n")
+    
+  }
+}
+```
+
+
+## Outline
+
+1. IRT with **edstan**
+2. Constructing basic IRT models with **Stan**
+3. Extending IRT models with **Stan**
+
+<div class="notes">
+- It can contain markdown
+- like this list
+</div>
+
+
+## Part 1
+
+1. **IRT with edstan**
+
+    + Overview of **edstan**
+    + Example analysis with the Rasch model
+    + Fitting other **edstan** models
+    
+2. Constructing basic IRT models with **Stan**
+3. Extending IRT models with **Stan**
+
+
+## The purpose of **edstan**
+
+The purpose is lower the start up costs of doing IRT with **Stan**.
+
+**edstan** assists by providing
+
+- *.stan* files for several common models
+- **R** functions to help fit and interpret the models
+
+<!-- Further, edstan can help in learning to use **Stan** more generally. -->
+
+
+## Installing and loading **edstan**
+
+**rstan** should be installed first. Then **edstan** can be installed from Github. 
+
+```{r, eval=FALSE}
+install.packages("devtools")
+devtools::install_github("danielcfurr/edstan")
+```
+
+Then both should be loaded.
+
+```{r, message=FALSE, warning=FALSE}
+# Load rstan and edstan
+library(rstan)
+library(edstan)
+rstan_options(auto_write = TRUE) # Optional
+options(mc.cores = parallel::detectCores()) # Optional
+```
+
+
+## **edstan** models
+
+| Model | **Stan** file |
+|--------------------------------------------------------------------------------------------------|-------------------------|
+| [Rasch](http://mc-stan.org/documentation/case-studies/rasch_latent_reg.html)                     | *rasch_latent_reg.stan* |
+| [Partial credit](http://mc-stan.org/documentation/case-studies/pcm_latent_reg.html)             | *pcm_latent_reg.stan*   |
+| [Rating scale](http://mc-stan.org/documentation/case-studies/2pl_latent_reg.html)                | *rsm_latent_reg.stan*   |
+| [Two-parameter logistic](http://mc-stan.org/documentation/case-studies/rsm_latent_reg.html)        | *2pl_latent_reg.stan*   |
+| [Generalized partial credit](http://mc-stan.org/documentation/case-studies/gpcm_latent_reg.html) | *gpcm_latent_reg.stan*  |
+| [Generalized rating scale](http://mc-stan.org/documentation/case-studies/grsm_latent_reg.html)   | *grsm_latent_reg.stan*  |
+
+<div class="notes">
+- These *.stan* files are packaged with edstan.
+- Each incorporates an optional latent regression.
+- Each is documented as a case study on the Stan website (follow links).
+</div>
+
+
+## **edstan** functions (1/5)
+
+| Function             | Purpose                                |
+|----------------------|----------------------------------------|
+| `irt_data()`         | Prepares data for fitting              |
+| `labelled_integer()` | Create vector of consecutive integers  |
+| `irt_stan()`         | Wrapper for running MCMC               |
+| `print_irt_stan()`   | Show table of output                   |
+
+
+## **edstan** functions (2/5)
+
+`irt_data()` returns a data list in the correct format for the **edstan** models.
+
+For wide-form data, it is used as follows:
+
+`irt_data(response_matrix, W)`
+
+- `response_matrix` is a matrix of scored responses.
+- `W` (optional) is a matrix of person covariates.
+
+For long-form data, it is used as follows:
+
+`irt_data(y, ii, jj, W)`
+
+- `y` is the scored response vector.
+- `ii` is an index for items.
+- `jj` is an index for persons.
+
+<div class="notes">
+- `response_matrix` and `W` both contain one row per person.
+- `W` should include an intercept term.
+- `NA` is permitted in `response_matrix`
+- `y`, `ii`, and `jj` are each $N$ elements long, minus missing responses
+- `NA` is permitted in `y`, `ii`, and `jj`, but elements in vectors may be omitted
+</div>
+
+
+## **edstan** functions (3/5)
+
+`labelled_integer()` returns a vector of consecutive integers. It helps in creating indices like `ii` and `jj`.
+
+It is used as follows:
+
+`labelled_integer(x)`
+
+- `x` is a vector of identifiers.
+
+`x` can be a numeric, character, or factor variable.
+
+The elements of the returned vector are labelled with their original values.
+
+<div class="notes">
+- Useful because ID variables in **Stan**/**edstan** must be consecutive integers.
+- Because the original values are stored as labels, we can easily see the link between the original and modified values.
+</div>
+
+
+## **edstan** functions (4/5)
+
+`irt_stan()` is a wrapper for `stan()` and returns a `stanfit` object.
+
+It is used as follows:
+
+`irt_stan(data_list, model, ...)`
+
+- `data_list` is the result of `irt_data()`.
+- `model` (optional) is the file name for one of the edstan models.
+- `...` allows arguments to be passed to `stan()`, such as:
+    - `chains`: the number of MCMC chains.
+    - `iter`: the number of iterations per chain.
+
+<div class="notes">
+- Function will choose a model if not provided.
+- Mostly helps by finding the location of the installed **edstan** files.
+</div>
+
+
+## **edstan** functions (5/5)
+
+`print_irt_stan()` provides summaries of parameter posteriors. It is an alternative to `print()` for `stanfit` objects.
+
+It is used as follows:
+
+`print_irt_stan(fit, data_list, probs)`
+
+- `fit` is the fitted model from `irt_stan()`.
+- `data_list` is the formatted data list from `irt_stan()`.
+- `probs` (optional) are the quantiles to include for the posteriors.
+
+<div class="notes">
+- A replacement for the **rstan** `print()` method suitable for the **edstan** models.
+- Organizes parameter summaries by item.
+</div>
+
+
+## Example dataset: Verbal agression (1/3)
+
+24 items, for example:
+
+- "A bus fails to stop for me. I would want to curse."
+- "I miss a train because a clerk gave me faulty information. I would scold."
+- "The grocery store closes just as I am about to enter. I would shout."
+
+Polytomous responses:
+
+- 2 = "Yes"
+- 1 = "Perhaps"
+- 0 = "No"
+
+
+## Example dataset: Verbal agression (2/3)
+
+24 items, for example:
+
+- "A bus fails to stop for me. I would want to curse."
+- "I miss a train because a clerk gave me faulty information. I would scold."
+- "The grocery store closes just as I am about to enter. I would shout."
+
+Uses a $3 \times 2 \times 2$ item design:
+
+- Behavior: *curse* versus *scold* versus *shout*.
+- Mode: *do* versus *want*.
+- Blame: *other* versus *self*.
+
+
+
+## Example dataset: Verbal agression (3/3)
+
+- $I = 24$ items and $J = 316$ persons.
+- Original and dichotomized responses (`poly`, `dich`).
+- Two person covariates (`anger`, `male`).
+- Four item covariates (`do`, `other`, `scold`, `shout`).
+
+```{r}
+# View first few rows
+head(aggression)
+```
+
+
+<!-- ## Rasch model (1/4) -->
+
+<!-- $$  -->
+<!-- \Pr(y_{ij} = 1 | \theta_j, \beta_i) =  -->
+<!-- \mathrm{logit}^{-1} [ \theta_j - \beta_i ] -->
+<!-- $$ -->
+<!-- $$ -->
+<!-- \theta_j \sim \mathrm{N}(\lambda, \sigma^2) -->
+<!-- $$ -->
+
+<!-- - $i = 1 \ldots I$ indexes items. -->
+<!-- - $j = 1 \ldots J$ indexes persons. -->
+<!-- - $\beta_i$ is the difficulty for item $i$, and $\beta_I$ is constrained. -->
+<!-- - $\theta_j$ is the ability for person $j$. -->
+<!-- - $\lambda$ is the mean of the ability distribution. -->
+<!-- - $\sigma^2$ is the variance for the ability distribution. -->
+
+
+<!-- ## Rasch model (2/4) -->
+
+<!-- The dataset is in long form, and so the `y`, `ii`, and `jj` options are passed to `irt_data()`. -->
+
+<!-- Then the data list is provided to `irt_stan()`. -->
+
+<!-- ```{r fit_rasch, cache=TRUE, result="hide", message = FALSE} -->
+<!-- # Make the data list -->
+<!-- data_dich <- irt_data(y = aggression$dich,  -->
+<!--                       ii = labelled_integer(aggression$description),  -->
+<!--                       jj = aggression$person) -->
+
+<!-- # Fit the Rasch model -->
+<!-- fit_rasch <- irt_stan(data_dich, model = "rasch_latent_reg.stan", -->
+<!--                       iter = 200, chains = 4) -->
+<!-- ``` -->
+
+<!-- <div class="notes"> -->
+<!-- - The point of edstan is to make it this easy to fit a basic IRT model. -->
+<!-- - Could have used `item` rather than `description`, but I wanted to show how `labelled_integer()` works. -->
+<!-- - Also, output will now be labelled with the the contents of `description`. -->
+<!-- </div> -->
+
+
+<!-- ## Rasch model (3/4) -->
+
+<!-- ```{r} -->
+<!-- # View summary of parameter posteriors -->
+<!-- print_irt_stan(fit_rasch, data_dich, probs = c(.025, .975)) -->
+<!-- ``` -->
+
+<!-- <div class="notes"> -->
+<!-- - Don't need to specify `probs` option. I just did that so the output would fit on the slide. -->
+<!-- - Output is organized by item, which is more useful when there are multiple parameters per item. -->
+<!-- </div> -->
+
+<!-- ---- -->
+
+<!-- ... -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- out <- capture.output( -->
+<!--     print_irt_stan(fit_rasch, data_dich, probs = c(.025, .975)) -->
+<!--   ) -->
+<!-- cat(out[84:101], sep = "\n") -->
+<!-- ``` -->
+
+
+<!-- ## Rasch model (4/4) -->
+
+<!-- Check all parameters for convergence. -->
+
+<!-- ```{r, message=FALSE, warning=FALSE, fig.height=4} -->
+<!-- # Check convergence (rhat) -->
+<!-- stan_rhat(fit_rasch) -->
+<!-- ``` -->
+
+
+## Latent regression Rasch model (1/5)
+
+$$ 
+\Pr(y_{ij} = 1 | \theta_j, \beta_i) =
+\mathrm{logit}^{-1} [ \theta_j - \beta_i ]
+$$
+$$
+\theta_j | w_j \sim \mathrm{N}(w_j' \lambda, \sigma^2)
+$$
+
+- $y_{ij} = 1$ if person $j$ responded to item $i$ correctly.
+- $w_{j}$ is the vector of covariates for person $j$.
+- $\beta_i$ is the difficulty for item $i$.
+- $\theta_j$ is the ability for person $j$.
+- $\lambda$ is the vector of latent regression coefficients.
+- $\sigma^2$ is the variance for the ability distribution.
+
+
+## Latent regression Rasch model (2/5)
+
+A latent regression may be included (or not) with any of the **edstan** models. To do this, create a matrix of covariates and pass it to `irt_data()`.
+
+```{r}
+# Assemble matrix of person covariates
+covars <- aggression[, c("person", "anger", "male")]
+covars <- unique(covars)
+covars <- covars[order(covars$person), ]
+W <- cbind(intercept = 1, covars[, -1])
+head(W)
+```
+
+<div class="notes">
+Summary of R code:
+
+1. Select ID variable and person-related covariates.
+2. Reduce to one row per person (because dataset is long-form).
+3. Sort on person ID (ID = row number).
+4. Remove ID variable and add intercept.
+</div>
+
+
+## Latent regression Rasch model (3/5)
+
+The data list is assembled and then the model is fit.
+
+```{r fit_rasch, cache=TRUE, result="hide", message = FALSE}
+# Make the data list
+data_dich <- irt_data(y = aggression$dich, 
+                      ii = labelled_integer(aggression$description), 
+                      jj = aggression$person, 
+                      W = W)
+
+# Fit the latent regression Rasch model
+fit_rasch <- irt_stan(data_dich, model = "rasch_latent_reg.stan",
+                      iter = 200, chains = 4)
+```
+
+
+## Latent regression Rasch model (4/5)
+
+```{r}
+# View summary of parameter posteriors
+print_irt_stan(fit_rasch, data_dich, probs = c(.025, .975))
+```
+
+----
+
+...
+
+```{r, echo=FALSE}
+out <- capture.output(
+    print_irt_stan(fit_rasch, data_dich, probs = c(.025, .975))
+  )
+cat(out[84:103], sep = "\n")
+```
+
+
+## Latent regression Rasch model (5/5)
+
+Check all parameters for convergence.
+
+```{r, message=FALSE, warning=FALSE, fig.height=4}
+# Check convergence (rhat)
+stan_rhat(fit_rasch)
+```
+
+
+## Two-parameter logistic model
+
+The 2PL may be fit by requesting a different **Stan** model.
+
+```{r, eval=FALSE}
+# Fit the latent regression 2PL model
+fit_2pl <- irt_stan(data_dich, model = "2pl_latent_reg.stan",
+                    iter = 200, chains = 4)
+```
+
+The latent regression may be omitted by excluding `W` when using `irt_data()`.
+
+```{r, eval=FALSE}
+# Make the data list without poviding W
+data_noreg <- irt_data(y = aggression$dich, 
+                       ii = labelled_integer(aggression$description), 
+                       jj = aggression$person)
+
+# Fit the 2PL without latent regression
+fit_noreg <- irt_stan(data_noreg, model = "2pl_latent_reg.stan",
+                      iter = 200, chains = 4)
+```
+
+
+## Polytomous models (1/2)
+
+To fit the polytomous models, assemble the data list using the original responses.
+
+```{r, eval=FALSE}
+data_poly <- irt_data(y = aggression$poly, 
+                      ii = labelled_integer(aggression$description), 
+                      jj = aggression$person, 
+                      W = W)
+```
+
+
+## Polytomous models (2/2)
+
+Then pass the new data list to `irt_stan()` and specify the desired model.
+
+```{r, eval=FALSE}
+fit_rsm <- irt_stan(data_poly, model = "rsm_latent_reg.stan",
+                    iter = 300, chains = 4)
+
+fit_pcm <- irt_stan(data_poly, model = "pcm_latent_reg.stan",
+                    iter = 300, chains = 4)
+
+fit_gpcm <- irt_stan(data_poly, model = "gpcm_latent_reg.stan",
+                    iter = 300, chains = 4)
+
+fit_grsm <- irt_stan(data_poly, model = "grsm_latent_reg.stan",
+                    iter = 300, chains = 4)
+```
+
+
+<!-- ## Generalized partial credit model (1/4) -->
+
+<!-- $$ -->
+<!-- \Pr(Y_{ij} = y | y>0, \theta_j, \alpha_i, \beta_i, \lambda) = \\ -->
+<!-- \frac{\exp \sum_{s=1}^y \alpha_i  (\theta_j + w_{j}' \lambda - \beta_{is})} -->
+<!--      {1 + \sum_{k=1}^{m_i} \exp \sum_{s=1}^k  -->
+<!--        \alpha_i (\theta_j + w_{j}' \lambda - \beta_{is})} -->
+<!-- $$ -->
+
+<!-- $$ -->
+<!-- \Pr(Y_{ij} = 0 | \theta_j, \alpha_i, \beta_i, \lambda) = \\ -->
+<!-- \frac{1} -->
+<!--      {1 + \sum_{k=1}^{m_i} \exp \sum_{s=1}^k  -->
+<!--        \alpha_i (\theta_j + w_{j}' \lambda - \beta_{is})} -->
+<!-- $$ -->
+
+<!-- $$ -->
+<!-- \theta_j \sim \mathrm{N}(0, 1) -->
+<!-- $$ -->
+
+<!-- - $Y_{ij} \in \{0, 1 \cdots m_i \}$ is the response for person $j$ to item $i$ -->
+<!-- - $w_{j}$ is the vector of covariates for person $j$. -->
+<!-- - $\alpha_i$ is the discrimination for item $i$. -->
+<!-- - $\beta_{is}$ is the $s$-th step difficulty for item $i$, and $\beta_{IS}$ is contrained. -->
+
+
+<!-- ## Partial credit model (1/4) {.smaller} -->
+
+<!-- $$ -->
+<!-- \Pr(Y_{ij} = 0 | \theta_j,  \beta_i) = -->
+<!-- \frac{1} -->
+<!--      {1 + \sum_{k=1}^{m_i} \exp \sum_{s=1}^k  -->
+<!--        (\theta_j - \beta_{is})} -->
+<!-- $$ -->
+
+<!-- $$ -->
+<!-- \Pr(Y_{ij} = y | y>0, \theta_j, \beta_i) = -->
+<!-- \frac{\exp \sum_{s=1}^y (\theta_j - \beta_{is})} -->
+<!--      {1 + \sum_{k=1}^{m_i} \exp \sum_{s=1}^k  -->
+<!--        (\theta_j - \beta_{is})} -->
+<!-- $$ -->
+
+<!-- $$ -->
+<!-- \theta_j | w_{j}' \sim \mathrm{N}(w_{j}' \lambda, \sigma^2) -->
+<!-- $$ -->
+
+<!-- - $Y_{ij} \in \{0, 1 \cdots m_i \}$ is the response for person $j$ to item $i$ -->
+<!-- - $w_{j}$ is the vector of covariates for person $j$. -->
+<!-- - $\beta_{is}$ is the $s$-th step difficulty for item $i$. -->
+<!-- - $\theta_j$ is the ability for person $j$. -->
+<!-- - $\lambda$ is the vector of latent regression parameters. -->
+
+
+<!-- ## Partial credit model (1/4) -->
+
+<!-- $$ -->
+<!-- \Pr(y_{ij} = s | y_{ij} = s~\mathrm{or}~y_{ij} = s - 1, \theta_j, \beta_{is}) =  -->
+<!-- \\ -->
+<!-- \mathrm{logit}^{-1} [ \theta_j - \beta_{is} ] -->
+<!-- $$ -->
+
+<!-- $$ -->
+<!-- \theta_j | w_{j}' \sim \mathrm{N}(w_{j}' \lambda, \sigma^2) -->
+<!-- $$ -->
+
+<!-- - $y_{ij} \in \{0, 1 \cdots m_i \}$ is the response for person $j$ to item $i$ -->
+<!-- - $w_{j}$ is the vector of covariates for person $j$. -->
+<!-- - $\beta_{is}$ is the $s$-th step difficulty for item $i$. -->
+<!-- - $\theta_j$ is the ability for person $j$. -->
+<!-- - $\lambda$ is the vector of latent regression parameters. -->
+
+<!-- ## Generalized partial credit model (1/4) -->
+
+<!-- $$ -->
+<!-- \Pr(y_{ij} = s | y_{ij} = s~\mathrm{or}~y_{ij} = s - 1, \theta_j, \alpha_i, \beta_i) = \\ -->
+<!-- \mathrm{logit}^{-1} [ \alpha_i (\theta_j + w_{j}' \lambda - \beta_{is}) ] -->
+<!-- $$ -->
+<!-- $$ -->
+<!-- \theta_j \sim \mathrm{N}(0, 1) -->
+<!-- $$ -->
+
+<!-- - $y_{ij} \in \{0, 1 \cdots m_i \}$ is the response for person $j$ to item $i$ -->
+<!-- - $w_{j}$ is the vector of covariates for person $j$. -->
+<!-- - $\alpha_i$ is the discrimination for item $i$. -->
+<!-- - $\beta_{is}$ is the $s$-th step difficulty for item $i$, and $\beta_{IS}$ is contrained. -->
+<!-- - $\theta_j$ is the ability for person $j$. -->
+<!-- - $\lambda$ is the vector of latent regression parameters. -->
+
+
+<!-- ## Partial credit model (2/4) -->
+
+<!-- Now the polytomous response is supplied to `irt_data()`. -->
+
+<!-- ```{r pcm_fit, cache=TRUE, result="hide", message = FALSE} -->
+<!-- # Make the data list -->
+<!-- data_poly <- irt_data(y = aggression$poly,  -->
+<!--                       ii = labelled_integer(aggression$description),  -->
+<!--                       jj = aggression$person,  -->
+<!--                       W = W) -->
+
+<!-- # Fit the latent regression GPCM -->
+<!-- fit_pcm <- irt_stan(data_poly, model = "pcm_latent_reg.stan", -->
+<!--                     iter = 300, chains = 4) -->
+<!-- ``` -->
+
+
+<!-- ## Partial credit model (3/4) -->
+
+<!-- ```{r} -->
+<!-- # View summary of parameter posteriors -->
+<!-- print_irt_stan(fit_pcm, data_poly, probs = c(.025, .975)) -->
+<!-- ``` -->
+
+
+<!-- ---- -->
+
+<!-- ... -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- out <- capture.output( -->
+<!--     print_irt_stan(fit_pcm, data_poly, probs = c(.025, .975)) -->
+<!--   ) -->
+<!-- cat(out[110:127], sep = "\n") -->
+<!-- ``` -->
+
+
+<!-- ## Partial credit model (4/4) -->
+
+<!-- ```{r, message=FALSE, warning=FALSE} -->
+<!-- # Check convergence (rhat) -->
+<!-- stan_rhat(fit_pcm) -->
+<!-- ``` -->
+
+
+<!-- ## Other edstan models -->
+
+<!-- The behavior of edstan is controlled by the data list and the choice of model given to `irt_stan()`. -->
+
+<!-- ```{r, eval=FALSE} -->
+<!-- # Two parameter logistic model -->
+<!-- twopl_fit <- irt_stan(data_dich, model = "2pl_latent_reg.stan", -->
+<!--                       iter = 200, chains = 4) -->
+
+<!-- # Rating scale model -->
+<!-- grsm_fit <- irt_stan(data_poly, model = "grsm_latent_reg.stan", -->
+<!--                     iter = 300, chains = 4) -->
+
+<!-- # Generalized rating scale model -->
+<!-- gpcm_fit <- irt_stan(data_poly, model = "gpcm_latent_reg.stan", -->
+<!--                      iter = 300, chains = 4) -->
+<!-- ``` -->
+
+<!-- <div class="notes"> -->
+<!-- The behavior of edstan is controlled by -->
+
+<!-- - the choice of `W`  -->
+
+<!--     - intercept only versus latent regression -->
+
+<!-- - the choice of *.stan* model -->
+
+<!--     - discrimination or not -->
+<!--     - rating scale versus partial credit -->
+<!-- </div> -->
+
+
+## Part 2
+
+1. IRT with **edstan**
+2. **Constructing basic IRT models with Stan**
+
+    - Simple Rasch model
+    - Latent regression Rasch model
+    - Latent regression 2PL model
+
+3. Extending IRT models with **Stan**
+
+
+<!-- ## Using **Stan** directly -->
+
+<!-- A useful approach in writing complex **Stan** models is to start with a simpler model and then expand it. -->
+
+<!-- The Rasch and 2PL models with latent regression, as coded in **edstan**, may be constructed in this way. -->
+
+
+<!-- ## The data list -->
+
+<!-- In the first part, we created `data_latreg` with `irt_data()`. -->
+
+<!-- ```{r} -->
+<!-- # Get a summary of the data list -->
+<!-- str(data_latreg) -->
+<!-- ``` -->
+
+<!-- <div class="notes"> -->
+<!-- - An R list object, which is read by **Stan**. -->
+<!-- - `N`, `I`, `J` are scalars -->
+<!-- - Structured with vectors `y`, `ii`, and `jj` to allow to missing responses. -->
+<!-- - `K` is number of columns in `W`. -->
+<!-- - `W` is always included, but may be only an intercept. -->
+<!-- </div> -->
+
+
+<!-- ## Simple Rasch model in **Stan** (1/2) -->
+
+<!-- $$  -->
+<!-- \Pr(y_{ij} = 1 | \theta_j, \beta_i) =  -->
+<!-- \mathrm{logit}^{-1} [ \theta_j - \beta_i ] -->
+<!-- $$ -->
+<!-- $$ -->
+<!-- \theta_j \sim \mathrm{N}(0, \sigma^2) -->
+<!-- $$ -->
+
+<!-- Priors: -->
+
+<!-- $$\beta_i \sim \mathrm{unif}(-\infty, \infty)$$ -->
+<!-- $$\sigma \sim \mathrm{unif}(0, \infty)$$ -->
+
+<!-- <div class="notes"> -->
+<!-- - No constraint on item difficulties. -->
+<!-- - Ability distribution mean is zero. -->
+<!-- - No latent regression. -->
+<!-- </div> -->
+
+<!-- ## Simple Rasch model in **Stan** (2/2) -->
+
+<!-- ```{r, echo=FALSE, comment=""} -->
+<!-- print_blocks("rasch_simple.stan") -->
+<!-- ``` -->
+
+<!-- <div class="notes"> -->
+<!-- - Data block matches content of the data list. -->
+<!-- - Extra elements in the data list are ignored. -->
+<!-- - Sigma is forced to be non-negative in declaration. -->
+<!-- - Uniform priors are assumed when priors are unspecified. -->
+<!-- </div> -->
+
+
+## Simple Rasch model (1/3)
+
+$$ 
+\Pr(y_{ij} = 1 | \theta_j, \beta_i) = 
+\mathrm{logit}^{-1} [ \theta_j - \beta_i ]
+$$
+$$
+\theta_j \sim \mathrm{N}(0, \sigma^2)
+$$
+
+Priors:
+
+$$\beta_i \sim \mathrm{N}(0, 25)$$
+$$\sigma \sim \mathrm{Exp}(.1)$$
+
+
+## Simple Rasch model (2/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("rasch_priors.stan", c("data"))
+```
+
+
+## Simple Rasch model (3/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("rasch_priors.stan", c("parameters", "model"))
+```
+
+
+
+## Adding latent regression (1/3)
+
+$$ 
+\Pr(y_{ij} = 1 | \theta_j, \beta_i) =
+\mathrm{logit}^{-1} [ \theta_j - \beta_i ]
+$$
+$$
+\theta_j | w_j \sim \mathrm{N}(w_j' \lambda, \sigma^2)
+$$
+
+Priors:
+
+$$\beta_1 \cdots \beta_{(I-1)} \sim \mathrm{N}(0, 25)$$
+$$\sigma \sim \mathrm{Exp}(.1)$$
+$$\lambda \sim \mathrm{unif}(-\infty, \infty)$$
+
+Constraint: 
+
+$$\beta_I = -\sum_{i=1}^{(I-1)} \beta_i$$
+
+<div class="notes">
+- This is the model used in edstan.
+- $W$ can include only an intercept, so is a generalization of the Rasch model.
+- Item difficulties are constrained to have a mean of zero.
+- Priors on $\lambda$ are uniform because the range for regression coefficients will vary greatly between applications.
+</div>
+
+
+## Adding latent regression (2/3)
+
+**edstan** file: *rasch_latent_reg.stan*
+
+```{r, echo=FALSE, comment=""}
+rasch_file <- file.path(system.file("extdata", package = "edstan"), 
+                        "rasch_latent_reg.stan")
+print_blocks(rasch_file, c("data"))
+```
+
+<div class="notes">
+- Data block now includes `W` and `K`, previously ignored.
+</div>
+
+
+## Adding latent regression (3/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks(rasch_file, c("parameters", "transformed parameters", "model"))
+```
+
+<div class="notes">
+- `beta_free` is made up of the unconstrained betas.
+- `beta` is `beta_free` with the last, constrained beta tacked on the end.
+- Priors are placed on `beta_free`, while the likelihood is calculated on `beta`.
+</div>
+
+
+## 2PL with latent regression (1/3)
+
+$$ 
+\Pr(y_{ij} = 1 | \theta_j, \alpha_i, \beta_i) =
+\mathrm{logit}^{-1} [ \alpha_i (\theta_j + w_j'\lambda - \beta_i) ]
+$$
+$$
+\theta_j \sim \mathrm{N}(0, 1)
+$$
+
+Priors:
+
+$$\beta_1 \cdots \beta_{(I-1)} \sim \mathrm{N}(0, 25)$$
+$$\alpha_i \sim \mathrm{log~N}(1, 1)$$
+$$\lambda \sim \mathrm{unif}(-\infty, \infty)$$
+
+Constraint: 
+
+$$\beta_I = -\sum_{i=1}^{(I-1)} \beta_i$$
+
+<div class="notes">
+- Uses the non-centered characterization for ability, which I have found to work better with 2PL.
+- Otherwise, we are just adding in $\alpha_i$ and its prior.
+</div>
+
+
+## 2PL with latent regression (2/3)
+
+**edstan** file: *2pl_latent_reg.stan*
+
+```{r, echo=FALSE, comment=""}
+twopl_file <- file.path(system.file("extdata", package = "edstan"), 
+                        "2PL_latent_reg.stan")
+print_blocks(twopl_file, c("data"))
+```
+
+<div class="notes">
+- Data block is the same as for the previous model.
+</div>
+
+
+## 2PL with latent regression (3/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks(twopl_file, c("parameters", "transformed parameters", "model"))
+```
+
+<div class="notes">
+- Lower bound for `alpha` is set to zero.
+- `beta` and `beta_free` are set up the same way as before.
+- `mu` is created in the model block to allow for indexing `mu[jj]`.
+- `.*` in the likelihood performs element-wise rather than vector multiplication.
+</div>
+
+
+## Fit the models directly with **rstan**
+
+The Rasch and 2PL models may be fit with `stan()` rather than `irt_stan()`, yielding equivalent results.
+
+```{r, eval = FALSE}
+# Assuming the .stan files are in the working directory:
+# Fit Rasch latent reg model
+rasch_fit <- stan("rasch_latent_reg.stan", data = data_dich,
+                  iter = 200, chains = 4)
+
+# Fit 2PL latent reg model
+twopl_fit <- stan("2pl_latent_reg.stan", data = data_dich,
+                  iter = 200, chains = 4)
+```
+
+
+## 2PL tutorial
+
+See also an in-depth
+[tutorial](http://mc-stan.org/documentation/case-studies/tutorial_twopl.html)
+for the 2PL model.
+
+
+## Part 3
+
+1. IRT with **edstan**
+2. Constructing basic IRT models with **Stan**
+3. **Extending IRT models with Stan**
+
+    - Multilevel Rasch model
+    - Random item Rasch model
+    - Linear logistic test model with error
+    
+    
+<!-- ## Review: Simple Rasch model (1/2) -->
+
+<!-- $$  -->
+<!-- \Pr(y_{ij} = 1 | \theta_j, \beta_i) =  -->
+<!-- \mathrm{logit}^{-1} [ \theta_j - \beta_i ] -->
+<!-- $$ -->
+<!-- $$ -->
+<!-- \theta_j \sim \mathrm{N}(0, \sigma^2) -->
+<!-- $$ -->
+
+
+<!-- ## Review: Simple Rasch model (2/2) -->
+
+<!-- ```{r, echo=FALSE, comment=""} -->
+<!-- print_blocks("rasch_simple.stan") -->
+<!-- ``` -->
+
+
+## Multilevel Rasch model (1/3)
+
+$$ 
+\Pr(y_{ij} = 1 | \xi_s, \zeta_{sj}, \beta_i) = 
+\mathrm{logit}^{-1} [ \xi_s + \zeta_{sj} - \beta_i ]
+$$
+$$
+\zeta_{sj} \sim \mathrm{N}(0, \sigma_1^2)
+$$
+$$
+\xi_s \sim \mathrm{N}(0, \sigma_2^2)
+$$
+
+- $\xi_s$ is the school-level ability for school $s$.
+- $\zeta_{sj}$ is the person-level ability for person $j$ in school $s$.
+
+
+## Multilevel Rasch model (2/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("multilevel_rasch_simple.stan", c("data"))
+```
+
+
+## Multilevel Rasch model (3/3)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("multilevel_rasch_simple.stan", c("parameters", "model"))
+```
+
+
+## Random item Rasch model (1/4)
+
+$$
+\Pr(y_{ij} = 1 | \theta_j, \beta_i) =
+\mathrm{logit}^{-1} [ \theta_{j} - \beta_i ]
+$$
+$$
+\theta_j \sim \mathrm{N}(\mu, \sigma^2)
+$$
+$$
+\beta_i \sim \mathrm{N}(0, \tau^2)
+$$
+
+
+## Random item Rasch model (2/4)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("random_item.stan", c("data"))
+```
+
+
+## Random item Rasch model (3/4)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("random_item.stan", c("parameters", "model"))
+```
+
+
+## Random item Rasch model (4/4)
+
+See also a
+[case study](http://mc-stan.org/documentation/case-studies/hierarchical_2pl.html)
+for a 2PL random item model that includes a correlation between the discrimination and difficulty parameters.
+
+
+## LLTM-E (1/9)
+
+Linear logistic test model with error:
+
+$$ 
+\Pr(y_{ij} = 1 | \theta_j, \delta_i) = 
+\mathrm{logit}^{-1} [ \theta_{j} - \delta_i ]
+$$
+$$
+\delta_i \equiv x_i'\beta + \epsilon_i
+$$
+$$
+\theta_j \sim \mathrm{N}(0, \sigma^2)
+$$
+$$
+\epsilon_i \sim \mathrm{N}(0, \tau^2)
+$$
+
+- $x_i$ is a row from item covariate matrix $X$.
+- $\beta$ is a vector of regression coefficients.
+- $\epsilon_i$ is the residual item difficulty.
+- $\delta_i$ is the composite item difficulty.
+
+
+## LLTM-E (2/9)
+
+**Stan** file: *lltme.stan*
+
+```{r, echo=FALSE, comment=""}
+print_blocks("lltme.stan", c("data"))
+```
+
+
+## LLTM-E (3/9)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("lltme.stan", 
+             c("parameters", "transformed parameters", "model"))
+```
+
+
+## LLTM-E (4/9)
+
+```{r, echo=FALSE, comment=""}
+print_blocks("lltme.stan", c("generated quantities"))
+```
+
+
+## LLTM-E (5/9)
+
+Let's revisit the verbal aggression data.
+
+```{r}
+# View first few rows
+head(aggression)
+```
+
+
+## LLTM-E (6/9)
+
+Make $X$, the matrix of item covariates.
+
+```{r}
+# Assemble a matrix of item covariates
+item_covars <- aggression[, c("item", "do", "other", "scold", "shout")]
+item_covars <- unique(item_covars)
+item_covars <- item_covars[order(item_covars$item), ]
+X <- cbind(intercept = 1, item_covars[, -1])
+head(X)
+```
+
+
+## LLTM-E (7/9)
+
+Make the full data list and fit the model.
+
+```{r lltme_fit, cache=TRUE, result="hide", message = FALSE}
+# Make the data list
+data_lltme <- list(I = max(aggression$item),
+                   J = max(aggression$person),
+                   N = nrow(aggression),
+                   ii = aggression$item,
+                   jj = aggression$person,
+                   y = aggression$dich,
+                   K = ncol(X),
+                   X = X)
+
+# Fit the LLTM-E with Stan
+fit_lltme <- stan("lltme.stan", data = data_lltme, 
+                  iter = 200, chains = 4)
+```
+
+
+## LLTM-E (8/9)
+
+```{r lltm_converge, cache=TRUE, message=FALSE, warning=FALSE}
+# Check convergence (rhat)
+stan_rhat(fit_lltme)
+```
+
+
+## LLTM-E (9/9)
+
+```{r lltm_print, cache=TRUE, message=FALSE, warning=FALSE}
+# View a summary of parameter posteriors
+print(fit_lltme, pars = c("beta", "tau", "rsq", "sigma"))
+```
