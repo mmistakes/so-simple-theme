@@ -12,6 +12,7 @@ search_omit: true
 - [half2.Rmd](/workshops/IMPS2016/half2.Rmd)
 - [cumprod.stan](/workshops/IMPS2016/cumprod.stan)
 - [regression.stan](/workshops/IMPS2016/regression.stan)
+- [irt_with_stan.html](/workshops/IMPS2016/irt_with_stan.html)
 
 
 
