@@ -140,7 +140,7 @@
 <pre class = 'prettyprint lang-r'>install.packages(&quot;devtools&quot;)
 devtools::install_github(&quot;danielcfurr/edstan&quot;)</pre>
 
-<p>Then both should be loaded loaded.</p>
+<p>Then both should be loaded.</p>
 
 <pre class = 'prettyprint lang-r'># Load rstan and edstan
 library(rstan)
@@ -1232,7 +1232,8 @@ model {
   target += lognormal_lpdf(alpha | 1, 1);
   target += normal_lpdf(beta_free | 0, 5);
   target += normal_lpdf(theta | 0, 1);
-  target += bernoulli_logit_lpmf(y | theta[jj] + mu[jj] - beta[ii]);
+  target += bernoulli_logit_lpmf(y |
+              alpha[ii].*(theta[jj] + mu[jj] - beta[ii]));
 }</pre>
 
 <aside class='note'><section><ul>
