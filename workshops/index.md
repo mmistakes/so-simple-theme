@@ -19,3 +19,4 @@ image:
 - [Vanderbilt 2016](/workshops/vanderbilt2016/)
 - [useR 2016](/workshops/useR2016/)
 - [BCAM](/workshops/bcam/)
+- [IMPS 2016](/workshops/IMPS2016/)
