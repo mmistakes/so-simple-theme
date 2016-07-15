@@ -18,24 +18,6 @@ or in many presentations at meetups and other venues.
 
 # **July 2016**
 
-## Bayesian Modeling Using Stan
-
-Instructors
-: Ben Goodrich and Daniel Furr
-
-Date
-: 11 July 2016 <span class="note">(Monday)</span>
-
-Location:
-: Asheville, North Carolina <span class="note">(USA)</span>
-
-Venue
-: [International Meeting of the Psychometric Society](https://www.psychometricsociety.org/content/imps-2016)
-
-Details
-: [Accepted proposal](https://www.psychometricsociety.org/sites/default/files/IMPS_stan.pdf)
-
-
 ## Learn Bayes, MCMC, and Stan
 
 Instructors
@@ -49,6 +31,23 @@ Location
 
 Details
 : [View](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-with-andrew-gelman-jonah-gabry-vince-dorie-tickets-25554757969)
+
+## Surival Models with Stan
+
+Instructors
+: Jacki Buros
+
+Date
+: 28 July 2016 <span class="note">(Thursday)</span>
+
+Location:
+: New York, New York <span class="note">(USA)</span>
+
+Venue:
+: Google office
+
+Details
+: [Meetup](http://www.meetup.com/bda-group/events/232452134/)
 
 
 ## An Introduction to Stan
@@ -160,6 +159,23 @@ Details
 
 
 # **Past** 
+
+## Bayesian Modeling Using Stan
+
+Instructors
+: Ben Goodrich and Daniel Furr
+
+Date
+: 11 July 2016 <span class="note">(Monday)</span>
+
+Location:
+: Asheville, North Carolina <span class="note">(USA)</span>
+
+Venue
+: [International Meeting of the Psychometric Society](https://www.psychometricsociety.org/content/imps-2016)
+
+Details
+: [Accepted proposal](https://www.psychometricsociety.org/sites/default/files/IMPS_stan.pdf)
 
 ## An Introduction to Bayesian Inference using R Interfaces to Stan
 
