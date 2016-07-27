@@ -22,16 +22,11 @@ interfaces.
 
 
 * <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.10.0/stan-reference-2.10.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.10.0</a>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.11.0/stan-reference-2.11.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.11.0</a>
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
   </p>
-* **If you are using PyStan v2.9.0 (the current version), download this manual:**
-  <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.9.0/stan-reference-2.9.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.9.0</a>
-  <br />
-  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-  </p>
+
 
 # Examples
 
