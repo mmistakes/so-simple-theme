@@ -16,28 +16,34 @@ Stan emits a lot of warning messages. In this document we go over why this
 happens, explain some of the most common warnings, and provide some tips about
 how to proceed depending on the particular warnings you're seeing.
 
+While reading this document it is important to keep in mind that _there is no 
+statistical algorithm that is guaranteed to get the right results on all 
+models_. Markov chain Monte Carlo is no exception. Although it is often 
+advertised as being "unbiased", this is _not_ a guarantee unless the Markov
+chains are infinitely long. Whether or not MCMC yields good values in finite
+time is a much more challenging problem.
+
 
 ### Why does Stan give so many warnings?
 
-Stan throws a lot of warnings because the warnings are important. This 
-does not mean that _every_ time you see a warning you can't trust your estimates, 
-but when you see warnings it does mean that you shouldn't blindly trust 
-your estimates without first understanding what the warnings mean and which 
-ones require action on your part. 
+Stan throws a lot of warnings because the warnings are important. This does not
+mean that _every_ time you see a warning you can't trust your estimates, but
+when you see warnings it does mean that you shouldn't blindly trust your
+estimates without first understanding what the warnings mean and which ones
+require action on your part.
 
-_There is no statistical algorithm used to estimate complex models that is 
-guaranteed to get the right results on all models_. You might not be used to 
-seeing so many warnings from other software you use, but that _does not mean_ 
-that Stan has more problems than that other software. The Stan Development Team 
-places a high priority on notifying users about any issue that could potentially
-be important and Stan will always tell you about problems it encounters instead 
-of hiding them from you. Warning messages do not indicate that something is 
-wrong with Stan but rather that Stan is doing its job and warning you when it 
-finds problems (or possible problems) with what it was told to do. Furthermore,
-a huge advantage of the algorithms used by Stan is that they permit certain
-unique diagnostics (e.g. the divergences discussed below) that are unavailable
-when using other algorithms. This leads to more warnings from Stan, but we
-cannot emphasize enough that this is a _feature_ rather than a drawback.
+You might not be used to seeing so many warnings from other software you use,
+but that _does not mean_ that Stan has more problems than that other software.
+The Stan Development Team places a high priority on notifying users about any
+issue that could potentially be important and Stan will always tell you about
+problems it encounters instead of hiding them from you. Warning messages do not
+indicate that something is wrong with Stan but rather that Stan is doing its job
+and warning you when it finds problems (or possible problems) with what it was
+told to do. Furthermore, a huge advantage of the algorithms used by Stan is that
+they permit certain unique diagnostics (e.g. the divergences discussed below)
+that are unavailable when using other algorithms. This leads to more warnings
+from Stan, but we cannot emphasize enough that this is a _feature_ rather than a
+drawback.
 
 
 ### Common warnings
@@ -50,25 +56,24 @@ cannot emphasize enough that this is a _feature_ rather than a drawback.
 There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
 ```
 
-Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution 
---- the posterior defined by a Stan program + data --- by simulating the 
-evolution of a [Hamiltonian system](https://en.wikipedia.org/wiki/Hamiltonian_system). In order to 
-approximate the exact solution of the Hamiltonian dynamics we need
-to choose a step size governing how far we move each time we evolve 
-the system forward. That is, the _step size
-controls the resolution of the sampler_. 
+Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution ---
+the posterior defined by a Stan program + data --- by simulating the evolution
+of a [Hamiltonian system](https://en.wikipedia.org/wiki/Hamiltonian_system). In
+order to approximate the exact solution of the Hamiltonian dynamics we need to
+choose a step size governing how far we move each time we evolve the system
+forward. That is, the _step size controls the resolution of the sampler_.
 
 Unfortunately, for particularly hard problems there are features of the target 
 distribution that are too small for this resolution. Consequently the sampler 
 misses those features and returns biased estimates. Fortunately, this mismatch 
 of scales manifests as _divergences_ which provide a practical diagnostic.
 
-For some intuition, imagine walking down a steep mountain. If you take too
-big of a step you will fall, but if you can take very tiny steps you might 
-be able to make your way down the mountain, albeit very slowly. Similarly, 
-we can tell Stan to take smaller steps around the posterior distribution, 
-which (in some but not all cases) can help avoid these divergences. 
-  
+For some intuition, imagine walking down a steep mountain. If you take too big
+of a step you will fall, but if you can take very tiny steps you might be able
+to make your way down the mountain, albeit very slowly. Similarly, we can tell
+Stan to take smaller steps around the posterior distribution, which (in some but
+not all cases) can help avoid these divergences.
+
 If the number of divergences is small --- i.e., on the order of 1% of the 
 post-warmup sample size--- then the first thing we recommend trying is 
 increasing the value of the `adapt_delta` parameter (see below for example 
