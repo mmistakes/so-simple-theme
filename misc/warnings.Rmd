@@ -1,0 +1,159 @@
+---
+title: "A Brief Guide to Stan's Warnings"
+author: ""
+date: "July 26, 2016"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Stan emits a lot of warning messages. In this document we go over why this
+happens, explain some of the most common warnings, and provide some tips about
+how to proceed depending on the particular warnings you're seeing.
+
+
+### Why does Stan give so many warnings?
+
+Stan throws a lot of warnings because the warnings are important. This 
+does not mean that _every_ time you see a warning you can't trust your estimates, 
+but when you see warnings it does mean that you shouldn't blindly trust 
+your estimates without first understanding what the warnings mean and which 
+ones require action on your part. 
+
+_This is true of all software used to estimate complex statistical models_. You 
+might not be used to seeing so many warnings from other software you use, but 
+that _does not mean_ that Stan has more problems than that other software. The 
+Stan Development Team places a high priority on notifying users about any issue 
+that could potentially be important and Stan will always tell you about problems
+it encounters instead of hiding them from you. Warning messages do not indicate 
+that something is wrong with Stan but rather that Stan is doing its job and 
+warning you when it finds problems (or possible problems) with what it was told
+to do.
+
+
+
+### Common warnings
+
+#### Divergent transitions after warmup
+
+**Example:**
+
+```r
+There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
+```
+
+Hamiltonian Monte Carlo (HMC) works by simulating the evolution of a [Hamiltonian 
+system](https://en.wikipedia.org/wiki/Hamiltonian_system). Intuitively, 
+you can think of simulating the movement of a partical, in our case a partical
+that is exploring the high-dimensional posterior distribution defined by 
+a Stan program + data. 
+
+However, in order to approximate the exact solution of the Hamiltonian dynamics 
+we need to choose 
+a step size governing how far we move each time we evolve the system forward. 
+When the step size is too large relative to the curvature of the log posterior 
+this approximation can _diverge_ and threaten the validity of the sampler.
+
+For some intuition, imagine walking down a steep mountain. If you take too
+big of a step you will fall, but if you can take very tiny steps you might 
+be able to make your way down the mountain, albeit very slowly. Similarly, 
+we can tell Stan to take smaller steps around the posterior distribution, 
+which (in some but not all cases) can help avoid these divergences. 
+  
+If the number of divergences is small then the first thing we recommend trying 
+is increasing the value of the `adapt_delta` parameter (see below for example
+code). This is the target average proposal acceptance probability during Stan's
+adaptation period, and increasing it will force Stan to take smaller steps. The
+downside is that sampling will tend to be slower because a smaller step size
+means that more steps are required. **Since the validity of the estimates is not
+guaranteed if there are post-warmup divergences, the slower sampling is a minor
+cost.**
+
+Unfortunately, for some models simply lowering the step size is not sufficient. 
+Sometimes the geometry of the posterior distribution is such that only by 
+reparameterizing the model will we be able to get valid estimates. That is, we
+have to find a different way to write the model that is equivalent statistically
+but that simplifies the geometry of the posterior distribution. This problem 
+occurs frequently with hierarchical models and one of the simplest examples is 
+Neal's Funnel, which is discussed in the *Optimizing Stan Code* chapter of the
+[Stan manual](http://mc-stan.org/documentation/).
+
+**Recommendations:**
+
+* Increase the target acceptance rate `adapt_delta`. In RStan, `adapt_delta` is 
+one of the parameters that you can include in the optional `control` list passed
+to the `stan` or `sampling` functions. For example, to set `adapt_delta`
+to 0.99 (the default is 0.8) you would do this:
+
+```{r, eval=FALSE}
+stan(..., control = list(adapt_delta = 0.99))
+```
+
+* Reparameterize your model. See the _Reparameterization_ section of the 
+_Optimizing Stan Code_ chapter in the [Stan 
+manual](http://mc-stan.org/documentation/), in particular the discussion of
+hierarhical models and non-centered parameterizations.
+
+<br>
+
+#### Exception ... metropolis proposal rejected
+
+**Example:**
+
+```r
+Exception thrown at line 24: normal_log: Scale parameter is 0, but must be positive! 
+```
+
+This warning indicates that the standard deviation (scale parameter) of the 
+normal distribution (at line 24 in the Stan program) is 0, but it must be
+positive for Stan to compute the value of density function. It is not uncommon
+to get this type of warning if your model has bounded parameters. A message like
+this does not necessarily indicate that something is wrong with your model, as
+it's possible that even in a correctly specified and well-behaved model the
+value of the scale parameter can be 0 (or numerically indistinguishable from 0)
+occasionally during sampling.
+
+However, this warning should _not_ be ignored if it occurs many times. 
+Informally, if the number of times this happens is large then something in the
+model or data (or the combination of the model and data) is consistently forcing
+the constrained parameter to its boundary and this should be investigated.
+
+**Recommendations:** 
+
+* Ignore if very sporadic.
+* Simulate data and fit the same model to check whether the same problem occurs
+using different data.
+* Use priors that place less weight on values near the boundary.
+
+
+<br>
+
+#### Maximum treedepth exceeded
+
+Warnings about hitting the maximum treedepth are not as serious as warnings 
+about divergent transitions. While divergent transitions are a _validity_
+concern, hitting the maximum treedepth is an _efficiency_ concern. Configuring
+the No-U-Turn-Sampler (the variant of HMC used by Stan) involves putting a cap
+on the depth of the trees that it evaluates during each iteration (for details
+on this see the *Hamiltonian Monte Carlo Sampling* chapter in the [Stan 
+manual](http://mc-stan.org/documentation/)). This is controlled through a 
+maximum depth parameter `max_treedepth`. When the maximum allowed tree depth is 
+reached it indicates that NUTS is terminating prematurely to avoid excessively 
+long execution time.
+
+**Recommendations:** 
+
+* Increase the maximum allowed treedepth. In RStan, `max_treedepth` is one
+of the parameters that you can include in the optional `control` list passed
+to the `stan` or `sampling` functions. For example, to set `max_treedepth`
+to 15 (the default is 10) you would do this:
+
+```{r, eval=FALSE}
+stan(..., control = list(max_treedepth = 15))
+```
+
