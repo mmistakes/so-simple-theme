@@ -1,7 +1,7 @@
 ---
 title: "Brief Guide to Stan's Warnings"
 author: "Stan Development Team"
-date: "July 26, 2016"
+date: "July 27, 2016"
 output: 
   html_document:
     toc: true
