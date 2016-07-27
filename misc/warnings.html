@@ -159,6 +159,7 @@ $(document).ready(function () {
 <li><a href="#exception-metropolis-proposal-rejected">Exception … metropolis proposal rejected</a></li>
 <li><a href="#maximum-treedepth-exceeded">Maximum treedepth exceeded</a></li>
 </ul></li>
+<li><a href="#getting-help">Getting help</a></li>
 </ul>
 </div>
 
@@ -166,7 +167,7 @@ $(document).ready(function () {
 <div id="why-does-stan-give-so-many-warnings" class="section level3">
 <h3>Why does Stan give so many warnings?</h3>
 <p>Stan throws a lot of warnings because the warnings are important. This does not mean that <em>every</em> time you see a warning you can’t trust your estimates, but when you see warnings it does mean that you shouldn’t blindly trust your estimates without first understanding what the warnings mean and which ones require action on your part.</p>
-<p><em>This is true of all software used to estimate complex statistical models</em>. You might not be used to seeing so many warnings from other software you use, but that <em>does not mean</em> that Stan has more problems than that other software. The Stan Development Team places a high priority on notifying users about any issue that could potentially be important and Stan will always tell you about problems it encounters instead of hiding them from you. Warning messages do not indicate that something is wrong with Stan but rather that Stan is doing its job and warning you when it finds problems (or possible problems) with what it was told to do.</p>
+<p><em>There is no statistical algorithm used to estimate complex models that is guaranteed to get the right results on all models</em>. You might not be used to seeing so many warnings from other software you use, but that <em>does not mean</em> that Stan has more problems than that other software. The Stan Development Team places a high priority on notifying users about any issue that could potentially be important and Stan will always tell you about problems it encounters instead of hiding them from you. Warning messages do not indicate that something is wrong with Stan but rather that Stan is doing its job and warning you when it finds problems (or possible problems) with what it was told to do. Furthermore, a huge advantage of the algorithms used by Stan is that they permit certain unique diagnostics (e.g. the divergences discussed below) that are unavailable when using other algorithms. This leads to more warnings from Stan, but we cannot emphasize enough that this is a <em>feature</em> rather than a drawback.</p>
 </div>
 <div id="common-warnings" class="section level3">
 <h3>Common warnings</h3>
@@ -174,11 +175,11 @@ $(document).ready(function () {
 <h4>Divergent transitions after warmup</h4>
 <p><strong>Example:</strong></p>
 <pre class="r"><code>There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. </code></pre>
-<p>Hamiltonian Monte Carlo (HMC) works by simulating the evolution of a <a href="https://en.wikipedia.org/wiki/Hamiltonian_system">Hamiltonian system</a>. Intuitively, you can think of simulating the movement of a partical, in our case a partical that is exploring the high-dimensional posterior distribution defined by a Stan program + data.</p>
-<p>However, in order to approximate the exact solution of the Hamiltonian dynamics we need to choose a step size governing how far we move each time we evolve the system forward. When the step size is too large relative to the curvature of the log posterior this approximation can <em>diverge</em> and threaten the validity of the sampler.</p>
+<p>Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution — the posterior defined by a Stan program + data — by simulating the evolution of a <a href="https://en.wikipedia.org/wiki/Hamiltonian_system">Hamiltonian system</a>. In order to approximate the exact solution of the Hamiltonian dynamics we need to choose a step size governing how far we move each time we evolve the system forward. That is, the <em>step size controls the resolution of the sampler</em>.</p>
+<p>Unfortunately, for particularly hard problems there are features of the target distribution that are too small for this resolution. Consequently the sampler misses those features and returns biased estimates. Fortunately, this mismatch of scales manifests as <em>divergences</em> which provide a practical diagnostic.</p>
 <p>For some intuition, imagine walking down a steep mountain. If you take too big of a step you will fall, but if you can take very tiny steps you might be able to make your way down the mountain, albeit very slowly. Similarly, we can tell Stan to take smaller steps around the posterior distribution, which (in some but not all cases) can help avoid these divergences.</p>
-<p>If the number of divergences is small then the first thing we recommend trying is increasing the value of the <code>adapt_delta</code> parameter (see below for example code). This is the target average proposal acceptance probability during Stan’s adaptation period, and increasing it will force Stan to take smaller steps. The downside is that sampling will tend to be slower because a smaller step size means that more steps are required. <strong>Since the validity of the estimates is not guaranteed if there are post-warmup divergences, the slower sampling is a minor cost.</strong></p>
-<p>Unfortunately, for some models simply lowering the step size is not sufficient. Sometimes the geometry of the posterior distribution is such that only by reparameterizing the model will we be able to get valid estimates. That is, we have to find a different way to write the model that is equivalent statistically but that simplifies the geometry of the posterior distribution. This problem occurs frequently with hierarchical models and one of the simplest examples is Neal’s Funnel, which is discussed in the <em>Optimizing Stan Code</em> chapter of the <a href="http://mc-stan.org/documentation/">Stan manual</a>.</p>
+<p>If the number of divergences is small — i.e., on the order of 1% of the post-warmup sample size— then the first thing we recommend trying is increasing the value of the <code>adapt_delta</code> parameter (see below for example code). This is the target average proposal acceptance probability during Stan’s adaptation period, and increasing it will force Stan to take smaller steps. The downside is that sampling will tend to be slower because a smaller step size means that more steps are required. <strong>Since the validity of the estimates is not guaranteed if there are post-warmup divergences, the slower sampling is a minor cost.</strong></p>
+<p>However, if there are a lot of divergences then either the model is wrong or a serious reparameterization is needed. For some models simply lowering the step size via <code>adapt_delta</code> is not sufficient as the geometry of the posterior distribution is such that only by reparameterizing the model will we be able to get valid estimates. That is, we have to find a different way to write the model that is equivalent statistically but that simplifies the geometry of the posterior distribution. This problem occurs frequently with hierarchical models and one of the simplest examples is Neal’s Funnel, which is discussed in the <em>Optimizing Stan Code</em> chapter of the <a href="http://mc-stan.org/documentation/">Stan manual</a>.</p>
 <p><strong>Recommendations:</strong></p>
 <ul>
 <li>Increase the target acceptance rate <code>adapt_delta</code>. In RStan, <code>adapt_delta</code> is one of the parameters that you can include in the optional <code>control</code> list passed to the <code>stan</code> or <code>sampling</code> functions. For example, to set <code>adapt_delta</code> to 0.99 (the default is 0.8) you would do this:</li>
@@ -197,9 +198,11 @@ $(document).ready(function () {
 <p>However, this warning should <em>not</em> be ignored if it occurs many times. Informally, if the number of times this happens is large then something in the model or data (or the combination of the model and data) is consistently forcing the constrained parameter to its boundary and this should be investigated.</p>
 <p><strong>Recommendations:</strong></p>
 <ul>
-<li>Ignore if very sporadic.</li>
+<li>Verify that the support of the parameters matches the distributions used in the model. In the example above this means making sure that <code>sigma</code> is declared with a <code>&lt;lower=0&gt;</code> constraint.</li>
+<li>If all parameters are declared with the appropriate constraints, you can ignore this warning if it’s very sporadic.</li>
 <li>Simulate data and fit the same model to check whether the same problem occurs using different data.</li>
 <li>Use priors that place less weight on values near the boundary.</li>
+<li>Use numerically stable expressions. This includes always performing calculations on the log-scale when possible and making use of Stan’s special composed functions. For example, <code>log_sum_exp(x)</code> is more robust numerically than <code>log(sum(exp(x))</code>. Other examples like this include <code>log1m(x)</code> instead of <code>log(1-x)</code>, <code>log1p_exp(x)</code> instead of <code>log(1 + exp(x))</code>, and many others. See the <em>Composed Functions</em> subsection of the <em>Real-Valued Basic Functions</em> chapter of the Stan manual for a complete listing.</li>
 </ul>
 <p><br></p>
 </div>
@@ -212,6 +215,17 @@ $(document).ready(function () {
 </ul>
 <pre class="r"><code>stan(..., control = list(max_treedepth = 15))</code></pre>
 </div>
+</div>
+<div id="getting-help" class="section level3">
+<h3>Getting help</h3>
+<p>The <a href="https://groups.google.com/forum/#!forum/stan-users">Stan users mailing list</a> is the best place to get help from Stan developers and users if you have difficulties fitting a model. In order to both reduce the amount of help you need and allow us to give the best help when you do need it, it is essential that you follow these recommendations:</p>
+<ul>
+<li><p>Always put Stan programs in a stand-alone file with a <code>.stan</code> extension. Even though some Stan interfaces allows specifying the model as a string, the line numbers in warning and error messages are only meaningul if you use a separate file.</p></li>
+<li><p>Maintain reproducibility by saving the model and initial values in files and the RStan (other other Stan interface) commands in scripts.</p></li>
+<li><p>Use version control (e.g. git) on your files and scripts so that you have a history of the changes you’ve made.</p></li>
+<li><p>Start simple! Build your model in stages, and check for good fits at each stage, only adding complexity if there are no red flags. If you start by writing a very complicated model it will be much more difficult to figure out where things are going wrong.</p></li>
+<li><p>Keep an eye on the diagnostics, in particular divergences and Rhat values. For RStan users, you will be warned about divergences and you can view Rhats using the <code>print</code> or <code>summary</code> methods for stanfit objects. All important diagnostics can also be found in our <a href="http://mc-stan.org/interfaces/shinystan">ShinyStan</a> GUI.</p></li>
+</ul>
 </div>
 
 
