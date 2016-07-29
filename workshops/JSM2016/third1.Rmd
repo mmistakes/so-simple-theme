@@ -66,6 +66,12 @@ img <- readPNG("novartis.png")
  grid.raster(img)
 ```
 
+## Stan in Books Publishing
+```{r fig.width=10, fig.height=5.3, echo=FALSE}
+img <- readPNG("books.png")
+ grid.raster(img)
+```
+
 ## How Birth Year Influences Political Views
 From the New York Times: A new model of presidential voting suggests President Obama’s approval rating — currently in the low 40s — will inform not only the 2016 election, but also the election in 2076. The model, by researchers at Catalist, the Democratic data firm, and Columbia University, uses hundreds of thousands of survey responses and new statistical software to estimate how people’s preferences change at different stages of their lives.
 ```{r fig.width=10, fig.height=4.5, echo=FALSE}
