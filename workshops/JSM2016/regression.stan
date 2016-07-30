@@ -3,7 +3,7 @@ data {
   int<lower=1> K; // number of predictors
   matrix[N, K] X; // design matrix
   vector[N]    y; // outcomes
-  real<lower=0> prior_scale; // hyperparameter
+  real<lower=0> prior_mean; // hyperparameter
 }
 transformed data {
   vector[N] log_y;
@@ -15,7 +15,7 @@ parameters {
 }
 transformed parameters {
   real<lower=0> sigma;
-  sigma = sigma_unscaled * prior_scale;
+  sigma = sigma_unscaled * prior_mean;
 }
 model {
   vector[N] eta;

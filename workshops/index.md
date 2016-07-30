@@ -20,3 +20,5 @@ image:
 - [useR 2016](/workshops/useR2016/)
 - [BCAM](/workshops/bcam/)
 - [IMPS 2016](/workshops/IMPS2016/)
+- [JSM 2016](/workshops/JSM2016/)
+
