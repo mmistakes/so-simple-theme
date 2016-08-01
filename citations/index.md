@@ -183,8 +183,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* V.K. Jirsa,, T. Proix, D. Perdikis, M.M. Woodman, H. Wang,
-  J. Gonzalez-Martinez, C. Bernard, C. Bénar, M. Guyed,
+* V. K. Jirsa, T. Proix, D. Perdikis, M. M. Woodman, H. Wang,
+  J. Gonzalez-Martinez, C. Bernard, C. Bénar, M. Guye,
   P. Chauvel, F. Bartolomei.  2016.  The virtual epileptic patient:
   individualized whole-brain models of epilepsy spread. *NeuroImage*.
 
