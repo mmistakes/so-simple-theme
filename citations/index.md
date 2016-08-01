@@ -183,19 +183,35 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* Hélène Peltier, Matthieu Authier, Rob Deaville, Willy Dabin, Paul D. Jepson, Olivier van Canneyt,
-  Pierre Daniel, Vincent Ridoux.  2016.  Small cetacean bycatch as estimated from stranding schemes:
-  The common dolphin case in the northeast Atlantic.  *Environmental Science &amp; Policy*
-  63:7--18.
+* V.K. Jirsa,, T. Proix, D. Perdikis, M.M. Woodman, H. Wang,
+  J. Gonzalez-Martinez, C. Bernard, C. Bénar, M. Guyed,
+  P. Chauvel, F. Bartolomei.  2016.  The virtual epileptic patient:
+  individualized whole-brain models of epilepsy spread. *NeuroImage*.
+
+* Burchfield, Emily K., and Jonathan M. Gilligan.  2016. Dynamics of
+  individual and collective agricultural adaptation to water scarcity.
+  *Proceedings of the 2016 Winter Simulation Conference*.  IEEE Press.
+
+* Nay, John J., Martin Van der Linden, and Jonathan M. Gilligan. 
+  Betting and belief: prediction markets and attribution of climate
+  change. *Proceedings of the 2016 Winter Simulation Conference*.
+  IEEE Press.  Also available as *arXiv* 1603.08961.
+
+* Hélène Peltier, Matthieu Authier, Rob Deaville, Willy Dabin, Paul D. Jepson,
+  Olivier van Canneyt, Pierre Daniel, Vincent Ridoux.  2016.
+  Small cetacean bycatch as estimated from stranding schemes:
+  The common dolphin case in the northeast Atlantic.  *Environmental
+  Science &amp; Policy* 63:7--18.
 
 * Gerrit Kentner and Shravan Vasishth. 2016. Prosodic focus marking in
   silent reading: Effects of discourse context and rhythm. 7(319).  
   *Frontiers in Psychology*.
 
-* Molood Sadat Safavi, Samar Husain, and Shravan Vasishth. 2016. Dependency resolution difficulty
-  increases with distance in Persian separable complex predicates: Implications for expectation and 
-  memory-based accounts. *Frontiers in Psychology* 7 (Special Issue on Encoding and Navigating
-  Linguistic Representations in Memory)
+* Molood Sadat Safavi, Samar Husain, and Shravan Vasishth. 2016. Dependency
+  resolution difficulty increases with distance in Persian separable
+  complex predicates: Implications for expectation and memory-based
+  accounts. *Frontiers in Psychology* 7 (Special Issue on Encoding
+  and Navigating Linguistic Representations in Memory)
 
 * Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann.  2016.
   Testing models of peripheral encoding using metamerism in an
