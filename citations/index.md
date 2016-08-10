@@ -239,15 +239,18 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
 
-* Samar Husain, Shravan Vasishth, and Narayanan Srinivasan. 2015. Integration and prediction difficulty
-  in Hindi sentence comprehension: Evidence from an eye-tracking corpus. *Journal of Eye Movement
-  Research* 8(2):1--12.
+* Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for
+  linguistics research: Foundational Ideas---Part II. *arXiv* 1602.00245.
 
-* Dario Paape and Shravan Vasishth. 2015. Local coherence and preemptive digging-in effects 
-  in German. *Language and Speech*.
+* Adler, Avraham. 2015. Estimating the parameter risk of a loss ratio
+  distribution---revisited. *Variance* 9(1):114--139.
 
-* Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for linguistics research:
-  Foundational Ideas---Part II. *arXiv* 1602.00245.
+* Samar Husain, Shravan Vasishth, and Narayanan Srinivasan. 2015. Integration
+  and prediction difficulty in Hindi sentence comprehension: Evidence from
+  an eye-tracking corpus. *Journal of Eye Movement Research* 8(2):1--12.
+
+* Dario Paape and Shravan Vasishth. 2015. Local coherence and preemptive
+  digging-in effects in German. *Language and Speech*.
 
 * Douglas Bates, Reinhold Kliegl, Shravan Vasishth, and Harald
   Baayen. 2015. Parsimonious mixed models. *arXiv* 1506.04967.
