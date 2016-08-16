@@ -114,6 +114,7 @@
 - name: Brian Lau
   affiliation: CNRS, Paris
   web: http://research.icm-institute.org/team/29435/homepage
+  github: brian-lau
   avatar: brian_lau.png
 
 - name: Jonah Sol Gabry
@@ -134,6 +135,7 @@
 - name: Robert L. Grant
   affiliation: St. George's, University of London &amp; Kingston University
   web: http://www.robertgrantstats.co.uk/
+  github: robertgrant
   avatar: robert_l_grant.jpg
 
 - name: Dustin Tran
