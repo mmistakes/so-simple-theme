@@ -37,7 +37,6 @@ Details
 : [View](https://s01.123signup.com/servlet/SignUpMember?PG=1533922182300&P=15339221911420546800&Info)
 
 
-
 # **September 2016**
 
 ## Bayesian Inference with Stan for Pharmacometrics
@@ -53,6 +52,18 @@ Location:
 
 Details
 : [View](https://www.eventbrite.com/e/bayesian-inference-with-stan-for-pharmacometrics-3-day-course-tickets-25910314448)
+
+
+## Stan for Pharmacometrics Day (Free Workshop)
+
+Date
+: 22 September 2016
+
+Location:
+: Paris <span class="note">(France)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/stan-for-pharmacometrics-day-tickets-25399716235)
 
 # **October 2016**
 
