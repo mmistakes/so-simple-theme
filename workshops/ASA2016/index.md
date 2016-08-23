@@ -5,8 +5,9 @@ excerpt:
 search_omit: true
 ---
 
-- [eight_schools.stan](/workshops/ASM/eight_schools.stan)
-- [eight_schools.data.R](/workshops/ASM/eight_schools.data.R)
+- [day-1.pdf](/workshops/ASA2016/day-1.pdf)
+- [eight_schools.stan](/workshops/ASA2016/eight_schools.stan)
+- [eight_schools.data.R](/workshops/ASA2016/eight_schools.data.R)
 
 
 
