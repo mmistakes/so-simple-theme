@@ -244,7 +244,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * P. Almaraz. 2015. Bordeaux wine quality and climate fluctuations
   during the last century: changing temperatures and changing
-  industry. *Climate Resesearch* 64:187--199.
+  industry. *Climate Research* 64:187--199.
 
 * Adler, Avraham. 2015. Estimating the parameter risk of a loss ratio
   distribution---revisited. *Variance* 9(1):114--139.
