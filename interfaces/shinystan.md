@@ -37,7 +37,7 @@ Documentation and instructions for getting started with ShinyStan.
 
 * <p>
   <a href="https://github.com/stan-dev/shinystan/wiki">ShinyStan Wiki</a>
-  <span class="note">(GitHub)</span></li>
+  <span class="note">(GitHub)</span>
   </p>
 
 
