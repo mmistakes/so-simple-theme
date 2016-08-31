@@ -435,6 +435,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Sequence of Infrared Spectra.  University of Waterloo, Deptartment
   of Mathematics.  MS Thesis.
 
+* Craig Wang. 2015. Bayesian Hierarchical Modelling of Zero-Inflated
+  Faecal Egg Counts. ETH Zurich, Deptartment of Mathematics. Master
+  Thesis.
+
 * Grant Cavanaugh.  2013.  Direct Climate Markets: the Prospects for
   Trading Teleconnection Risk., *Theses and
   Dissertations---Agricultural Economics*, Paper 16.  University of
