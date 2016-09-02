@@ -38,7 +38,7 @@ clause)</span>; authors retain all rights, including copyright.
 This document details sparse exact conditional autoregressive (CAR) models in Stan as an extension of previous work on approximate sparse CAR models in Stan. Sparse representations seem to give order of magnitude efficiency gains, scaling better for large spatial data sets.
 </small>
 
-[View](case-studies/mbjoseph-CARstan.html) <span class="note">(HTML)</span>
+[View](case-studies/mbjoseph-CARStan.html) <span class="note">(HTML)</span>
 
 Author
 : Max Joseph
