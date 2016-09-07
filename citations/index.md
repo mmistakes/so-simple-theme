@@ -70,7 +70,7 @@ funding.
 ## CmdStan
 
 * <p>Stan Development Team. 2016. <i>CmdStan: the command-line 
-  interface to Stan</i>, Version 2.11.0.
+  interface to Stan</i>, Version 2.12.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
