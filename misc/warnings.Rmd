@@ -1,7 +1,7 @@
 ---
 title: "Brief Guide to Stan's Warnings"
 author: "Stan Development Team"
-date: "July 27, 2016"
+date: "September 10, 2016"
 output: 
   html_document:
     toc: true
@@ -113,7 +113,7 @@ hierarhical models and non-centered parameterizations.
 
 <br>
 
-#### Exception ... metropolis proposal rejected
+#### Exception ... Hamiltonian proposal rejected
 
 **Example:**
 
