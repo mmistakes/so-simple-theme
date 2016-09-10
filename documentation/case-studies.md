@@ -32,6 +32,29 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Exact Sparse CAR Models in Stan
+
+<small>
+This document details sparse exact conditional autoregressive (CAR) models in Stan as an extension of previous work on approximate sparse CAR models in Stan. Sparse representations seem to give order of magnitude efficiency gains, scaling better for large spatial data sets.
+</small>
+
+[View](case-studies/mbjoseph-CARStan.html) <span class="note">(HTML)</span>
+
+Author
+: Max Joseph
+
+Keywords
+: conditional autorgressive (CAR), independent autoregressive (IAR), sparsity, spatial random effects, maps
+
+Source Repository
+: [mbjoseph/CARstan](https://github.com/mbjoseph/CARstan) <span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">shapefiles</tt>, <tt style="font-size: 90%">CARBayesdata</tt>, <tt style="font-size: 90%">CARBayes</tt>, <tt style="font-size: 90%">spdep</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">dplyr</tt>, <tt style="font-size: 90%">ggplot2</tt>.
+
+License
+: BSD (3 clause), CC-BY
+
 
 ## A Primer on Bayesian Multilevel Modeling using PyStan
 

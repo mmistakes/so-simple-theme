@@ -16,94 +16,25 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.  
 
-# **July 2016**
-
-## Learn Bayes, MCMC, and Stan
-
-Instructors
-: Andrew Gelman, Jonah Gabry, Vince Dorie
-
-Dates
-: 18--20 July 2016
-
-Location
-: New York City <span class="note">(USA)</span>
-
-Details
-: [View](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-with-andrew-gelman-jonah-gabry-vince-dorie-tickets-25554757969)
-
-## Surival Models with Stan
-
-Instructors
-: Jacki Buros
-
-Date
-: 28 July 2016 <span class="note">(Thursday)</span>
-
-Location:
-: New York, New York <span class="note">(USA)</span>
-
-Venue:
-: Google office
-
-Details
-: [Meetup](http://www.meetup.com/bda-group/events/232452134/)
-
-
-## An Introduction to Stan
-
-Instructors
-: Ben Goodrich and Eric Novik
-
-Date
-: 30 July 2016 <span class="note">(Saturday)</span>
-
-Location:
-: Chicago, Illinois <span class="note">(USA)</span>
-
-Venue
-: [Joint Statistical Meetings](https://www.amstat.org/meetings/jsm/2016/)
-
-Details
-: [Session information](https://www.amstat.org/meetings/jsm/2016/onlineprogram/ActivityDetails.cfm?SessionID=213234)
-
 
 # **August 2016**
 
-## Introduction to Stan with Climate Change Example
-
-Speaker
-: Ben Goodrich and Dan Flynn
-
-Date
-: 1 August 2016
-
-Location
-: IBM Cambridge <span class="note">(Boston, USA)</span>
-
-Venue
-: [Greater Boston useR Group](http://www.meetup.com/Boston-useR/)
-
-Details
-: [View](http://www.meetup.com/Boston-useR/events/232259941/)
-
-
-## An Introduction to Econometric Modeling using Stan
+## Bayesian Inference in Stan
 
 Instructor
-: Ben Goodrich
+: Daniel Lee
 
 Date
-: 02 August 2016
+: 23--24 August 2016
 
 Location:
-: Boston, Massachusetts <span class="note">(USA)</span>
+: Anchorage, Alaska <span class="note">(USA)</span>
 
 Venue
-: [Applied and Agricultural Economics Association](http://www.aaea.org/meetings/2016-aaea-annual-meeting)
+: [Alaska Science Center](http://alaska.usgs.gov/)
 
 Details
-: Forthcoming
+: [View](https://s01.123signup.com/servlet/SignUpMember?PG=1533922182300&P=15339221911420546800&Info)
 
 
 # **September 2016**
@@ -121,6 +52,18 @@ Location:
 
 Details
 : [View](https://www.eventbrite.com/e/bayesian-inference-with-stan-for-pharmacometrics-3-day-course-tickets-25910314448)
+
+
+## Stan for Pharmacometrics Day (Free Workshop)
+
+Date
+: 22 September 2016
+
+Location:
+: Paris <span class="note">(France)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/stan-for-pharmacometrics-day-tickets-25399716235)
 
 # **October 2016**
 
@@ -159,6 +102,93 @@ Details
 
 
 # **Past** 
+
+## An Introduction to Econometric Modeling using Stan
+
+Instructor
+: Ben Goodrich
+
+Date
+: 02 August 2016
+
+Location:
+: Boston, Massachusetts <span class="note">(USA)</span>
+
+Venue
+: [Applied and Agricultural Economics Association](http://www.aaea.org/meetings/2016-aaea-annual-meeting)
+
+Details
+: Forthcoming
+
+
+## Introduction to Stan with Climate Change Example
+
+Speaker
+: Ben Goodrich and Dan Flynn
+
+Date
+: 1 August 2016
+
+Location
+: IBM Cambridge <span class="note">(Boston, USA)</span>
+
+Venue
+: [Greater Boston useR Group](http://www.meetup.com/Boston-useR/)
+
+Details
+: [View](http://www.meetup.com/Boston-useR/events/232259941/)
+
+
+
+## An Introduction to Stan
+
+Instructors
+: Ben Goodrich and Eric Novik
+
+Date
+: 30 July 2016 <span class="note">(Saturday)</span>
+
+Location:
+: Chicago, Illinois <span class="note">(USA)</span>
+
+Venue
+: [Joint Statistical Meetings](https://www.amstat.org/meetings/jsm/2016/)
+
+Details
+: [Session information](https://www.amstat.org/meetings/jsm/2016/onlineprogram/ActivityDetails.cfm?SessionID=213234)
+
+
+## Learn Bayes, MCMC, and Stan
+
+Instructors
+: Andrew Gelman, Jonah Gabry, Vince Dorie
+
+Dates
+: 18--20 July 2016
+
+Location
+: New York City <span class="note">(USA)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-with-andrew-gelman-jonah-gabry-vince-dorie-tickets-25554757969)
+
+## Surival Models with Stan
+
+Instructors
+: Jacki Buros
+
+Date
+: 28 July 2016 <span class="note">(Thursday)</span>
+
+Location:
+: New York, New York <span class="note">(USA)</span>
+
+Venue:
+: Google office
+
+Details
+: [Meetup](http://www.meetup.com/bda-group/events/232452134/)
+
 
 ## Bayesian Modeling Using Stan
 

@@ -22,10 +22,16 @@ interfaces.
 
 
 * <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.11.0/stan-reference-2.11.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.11.0</a>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.12.0/stan-reference-2.12.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.12.0</a>
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
   </p>
+* <p> For the current RStan and PyStan versions: <br>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.12.0/stan-reference-2.11.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.11.0</a>
+  <br />
+  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+  </p>
+
 
 
 # Examples
@@ -77,6 +83,12 @@ technology.
 
 
 ## Video
+
+* <a class="external" href="https://icerm.brown.edu/video_archive/#/play/1107">Scalable
+  Bayesian Inference with Hamiltonian Monte Carlo (40 minutes) </a> <span class="note">
+  (ICERM Video Archive)</span>
+<br />
+Michael Betancourt (2016)
 
 * <a class="external" href="https://www.youtube.com/watch?v=uSjsJg8fcwY">Some Bayesian
   Modeling Techniques in Stan (100 minutes) </a> <span class="note">(YouTube)</span>

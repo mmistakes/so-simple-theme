@@ -9,17 +9,20 @@
 - name: Andrew Gelman
   affiliation: Columbia University
   web: http://www.stat.columbia.edu/~gelman/
+  github: andrewgelman
   avatar: andrew_gelman.gif
 
 - name: Bob Carpenter
   affiliation: Columbia University
   web: http://bob-carpenter.github.io
   email: carp@alias-i.com
+  github: bob-carpenter
   avatar: bob_carpenter.jpg
 
 - name: Matt Hoffman
   affiliation: Adobe Creative Technologies Lab
   web: http://www.cs.princeton.edu/~mdhoffma/
+  github: heywhoah
   avatar: matt_hoffman.jpg
 
 - name: Daniel Lee
@@ -28,12 +31,14 @@
   email: bearlee@alum.mit.edu
   linkedin: https://www.linkedin.com/in/syclik
   twitter: djsyclik
+  github: syclik
   avatar: syclik.jpg
 
 - name: Ben Goodrich
   affiliation: Columbia University
   web: http://www.columbia.edu/~bg2382/
   email: benjamin.goodrich@columbia.edu
+  github: bgoodri
   avatar: ben_goodrich.jpg
 
 - name: Michael Betancourt
@@ -41,31 +46,37 @@
   web: http://betanalpha.github.io
   email: betanalpha@gmail.com
   twitter: betanalpha
+  github: betanalpha
   avatar: michael_betancourt.jpg
 
 - name: Marcus Brubaker
   affiliation: University of Toronto, Scarborough
   web: http://www.cs.toronto.edu/~mbrubake/
+  github: mrbrubake
   avatar: marcus_brubaker.jpg
 
 - name: Jiqiang Guo
   affiliation: NPD Group
   email: guojq28@gmail.com
+  github: maverickg
   linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
 
 - name: Peter Li
   affiliation: Columbia University
   linkedin: http://www.linkedin.com/in/peterli2
+  github: PeterLi2016
   avatar: peter_li.jpg
 
 - name: Allen Riddell
   affiliation: Dartmouth College
   web: http://ariddell.org/
   twitter: ariddell
+  github: ariddell
   avatar: allen_riddell.jpg
 
 - name: Marco Inacio
   affiliation: University of São Paulo/UFSCar
+  github: randommm
   email: marcoigarapava@gmail.com
 
 - name: Jeffrey Arnold
@@ -74,6 +85,7 @@
   email: jeffrey.arnold@gmail.com
   linkedin: https://www.linkedin.com/in/jrnold
   twitter: jrnld
+  github: jrnold
   avatar: jeffrey_arnold.jpg
 
 - name: Mitzi Morris
@@ -82,23 +94,27 @@
   email: mitzi@panix.com
   linkedin: https://www.linkedin.com/pub/mitzi-morris/65/39/785
   twitter: searchbooster
+  github: mitzimorris
   avatar: mitzi_morris.jpg
 
 - name: Rob Trangucci
-  affiliation: iSENTIUM
+  affiliation: Stan Group, Columbia University
   linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
   twitter: Trangucc
+  github: rtrangucci
   avatar: rob_trangucci.jpg
 
 - name: Rob Goedman
   affiliation: Consultant, La Jolla, California
   web: https://github.com/goedman
   email: goedman@icloud.com
+  github: goedman
   avatar: rob_goedman.jpg
 
 - name: Brian Lau
   affiliation: CNRS, Paris
   web: http://research.icm-institute.org/team/29435/homepage
+  github: brian-lau
   avatar: brian_lau.png
 
 - name: Jonah Sol Gabry
@@ -106,24 +122,28 @@
   web: http://jgabry.github.io
   email: jsg2201@columbia.edu
   linkedin: https://www.linkedin.com/in/jonahgabry
+  github: jgabry
   avatar: jonah_sol_gabry.png
 
 - name: Alp Kucukelbir
   affiliation: Columbia University
   web: http://www.proditus.com
   email: alp@cs.columbia.edu
+  github: akucukelbir
   avatar: alp_kucukelbir.jpg
 
 - name: Robert L. Grant
   affiliation: St. George's, University of London &amp; Kingston University
   web: http://www.robertgrantstats.co.uk/
+  github: robertgrant
   avatar: robert_l_grant.jpg
 
 - name: Dustin Tran
-  affiliation: Harvard University
+  affiliation: Columbia University
   web: http://dustintran.com
-  email: dtran@g.harvard.edu
+  email: dustin@cs.columbia.edu 
   twitter: dustinvtran
+  github: dustinvtrain
   avatar: dustin_tran.png
 
 - name: Krzysztof Sakrejda
@@ -131,6 +151,7 @@
   web: http://reichlab.github.io/index.html
   email: sakrejda@umass.edu
   linkedin: https://www.linkedin.com/in/sakrejda
+  github: sakrejda
   avatar: krzysztof_sakrejda.jpg
 
 - name: Aki Vehtari
@@ -138,14 +159,23 @@
   web: http://users.aalto.fi/~ave/
   email: Aki.Vehtari@aalto.fi
   twitter: avehtari
+  github: avehtari
   avatar: aki_vehtari.jpg
 
 - name: Rayleigh Lei
-  affiliation: Columbia University
-  email: rxl2102@columbia.edu
+  affiliation: University of Michigan
+  email: rayleigh@umich.edu
+  github: rayleigh
   avatar: rayleigh_lei.jpg
 
 - name: Sebastian Weber
   affiliation: Novartis Pharma
   email: sebastian.weber@novartis.com
   github: wds15
+
+- name: Charles Margossian
+  affiliation: Metrum Research Group, LLC
+  email: charlesm@metrumrg.com
+  linkedin: https://www.linkedin.com/in/charles-margossian-3428935b
+  github: charlesm93
+  avatar: charles_margossian.jpg

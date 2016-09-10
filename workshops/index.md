@@ -21,4 +21,5 @@ image:
 - [BCAM](/workshops/bcam/)
 - [IMPS 2016](/workshops/IMPS2016/)
 - [JSM 2016](/workshops/JSM2016/)
-
+- [Bath](/workshops/bath/)
+- [ASA 2016](/workshops/ASA2016/)
