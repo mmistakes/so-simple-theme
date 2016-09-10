@@ -124,8 +124,11 @@ $(document).ready(function () {
 
 <div id="TOC">
 <ul>
-<li><a href="#why-does-stan-give-so-many-warnings">Why does Stan give so many warnings?</a></li>
-<li><a href="#common-warnings">Common warnings</a><ul>
+<li><a href="#preruntime-warnings">Preruntime warnings</a><ul>
+<li><a href="#parser-warnings">Parser warnings</a></li>
+<li><a href="#compiler-warnings">Compiler warnings</a></li>
+</ul></li>
+<li><a href="#runtime-warnings">Runtime warnings</a><ul>
 <li><a href="#divergent-transitions-after-warmup">Divergent transitions after warmup</a></li>
 <li><a href="#exception-hamiltonian-proposal-rejected">Exception … Hamiltonian proposal rejected</a></li>
 <li><a href="#maximum-treedepth-exceeded">Maximum treedepth exceeded</a></li>
@@ -134,24 +137,62 @@ $(document).ready(function () {
 </ul>
 </div>
 
-<p>Stan emits a lot of warning messages. In this document we go over why this happens, explain some of the most common warnings, and provide some tips about how to proceed depending on the particular warnings you’re seeing.</p>
+<p>Stan emits a lot of messages, some of which are warnings. In this document we go over why this happens, explain some of the most common warnings, and provide some tips about how to proceed depending on the particular warnings you’re seeing.</p>
 <p>While reading this document it is important to keep in mind that <em>there is no statistical algorithm that is guaranteed to get the right results on all models</em>. Markov chain Monte Carlo is no exception. Although it is often advertised as being “unbiased”, this is <em>not</em> a guarantee unless the Markov chains are infinitely long. Whether or not MCMC yields good values in finite time is a much more challenging problem.</p>
-<div id="why-does-stan-give-so-many-warnings" class="section level3">
-<h3>Why does Stan give so many warnings?</h3>
-<p>Stan throws a lot of warnings because the warnings are important. This does not mean that <em>every</em> time you see a warning you can’t trust your estimates, but when you see warnings it does mean that you shouldn’t blindly trust your estimates without first understanding what the warnings mean and which ones require action on your part.</p>
-<p>You might not be used to seeing so many warnings from other software you use, but that <em>does not mean</em> that Stan has more problems than that other software. The Stan Development Team places a high priority on notifying users about any issue that could potentially be important and Stan will always tell you about problems it encounters instead of hiding them from you. Warning messages do not indicate that something is wrong with Stan but rather that Stan is doing its job and warning you when it finds problems (or possible problems) with what it was told to do. Furthermore, a huge advantage of the algorithms used by Stan is that they permit certain unique diagnostics (e.g. the divergences discussed below) that are unavailable when using other algorithms. This leads to more warnings from Stan, but we cannot emphasize enough that this is a <em>feature</em> rather than a drawback.</p>
+<div id="preruntime-warnings" class="section level2">
+<h2>Preruntime warnings</h2>
+<p>Preruntime warnings occur before any estimation is performed, although if you call <code>stan</code> these preruntime warnings may only appear slightly before the estimation.</p>
+<div id="parser-warnings" class="section level3">
+<h3>Parser warnings</h3>
+<p>Parser warnings occur when you call <code>stanc</code> directly, or indirectly by calling <code>stan</code> with either its <code>file</code> or <code>model_code</code> argument specified. Parser warnings take two forms</p>
+<ol style="list-style-type: decimal">
+<li>Deprecation warnings</li>
+<li>Jacobian warnings</li>
+</ol>
+<p>Deprecation warnings may look something like</p>
+<blockquote>
+<p>DIAGNOSTIC(S) FROM PARSER: Warning (non-fatal): increment_log_prob(…); is deprecated and will be removed in the future. Use target += …; instead. Warning: Deprecated function ‘normal_log’; please replace suffix ’_log’ with ’_lpdf’ for density functions or ’_lpmf’ for mass functions</p>
+</blockquote>
+<p>These warnings indicate that, although your Stan syntax is valid, some construction(s) you are using will be removed in a future version of Stan. Thus, you should update your Stan program to the suggested syntax in order to better ensure that your Stan program will continue to run in the future.</p>
+<p>Jacobian warnings may look something like</p>
+<blockquote>
+<p>DIAGNOSTIC(S) FROM PARSER: Warning (non-fatal): Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable. If so, you need to call target += with the log absolute determinant of the Jacobian of the transform. Left-hand-side of sampling statement: sqrt(y) ~ gamma(…)</p>
+</blockquote>
+<p>If you fail to heed this warning, the posterior distribution Stan will sample from is not the posterior distribution that you have in mind. The only situation in which you can ignore this warning is when you are sure that the determinant of the Jacobian matrix of the transformation depends only on constants. For example, <code>target += exponential(y - 1 | 1);</code> does not require a Jacobian adjustment because if <span class="math inline">\(z = y - 1\)</span>, then <span class="math inline">\(y = z + 1\)</span> and <span class="math inline">\(\frac{\partial y}{\partial z} = 1\)</span> is a constant.</p>
 </div>
-<div id="common-warnings" class="section level3">
-<h3>Common warnings</h3>
-<div id="divergent-transitions-after-warmup" class="section level4">
-<h4>Divergent transitions after warmup</h4>
+<div id="compiler-warnings" class="section level3">
+<h3>Compiler warnings</h3>
+<p>There is one category of warnings that are essentially useless: compiler warnings. Compiler warnings occur when you call <code>stan_model</code> directly or indirectly by calling <code>stan</code> with its <code>file</code> or <code>model_code</code> argument specified. They may look something like</p>
+<blockquote>
+<p>In file included from /usr/local/lib/R/site-library/BH/include/boost/multi_array/base.hpp:28:0, from /usr/local/lib/R/site-library/BH/include/boost/multi_array.hpp:21, from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint/util/multi_array_adaption.hpp:29, from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint.hpp:61, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/arr/functor/integrate_ode_rk45.hpp:13, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/arr.hpp:36, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/mat.hpp:235, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:9, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4, from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4, from file3d155eade6dd.cpp:8: /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp: In static member function ‘static void boost::multi_array_concepts::detail::idgen_helper<N>::call(Array&amp;, const IdxGen&amp;, Call_Type)’: /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:42:43: warning: typedef ‘index_range’ locally defined but not used [-Wunused-local-typedefs] typedef typename Array::index_range index_range; ^ /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:43:37: warning: typedef ‘index’ locally defined but not used [-Wunused-local-typedefs] typedef typename Array::index index; ^ /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp: In static member function ‘static void boost::multi_array_concepts::detail::idgen_helper&lt;0ul&gt;::call(Array&amp;, const IdxGen&amp;, Call_Type)’: /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:53:43: warning: typedef ‘index_range’ locally defined but not used [-Wunused-local-typedefs] typedef typename Array::index_range index_range; ^ /usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:54:37: warning: typedef ‘index’ locally defined but not used [-Wunused-local-typedefs] typedef typename Array::index index; ^ In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/operator_unary_plus.hpp:7:0, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core.hpp:34, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:4, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4, from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4, from file3d155eade6dd.cpp:8: /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/scal/fun/constants.hpp: At global scope: /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/scal/fun/constants.hpp:65:18: warning: ‘stan::math::NEGATIVE_EPSILON’ defined but not used [-Wunused-variable] const double NEGATIVE_EPSILON ^ In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core.hpp:42:0, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:4, from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4, from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4, from file3d155eade6dd.cpp:8: /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/set_zero_all_adjoints.hpp:14:17: warning: ‘void stan::math::set_zero_all_adjoints()’ defined but not used [-Wunused-function] static void set_zero_all_adjoints() {</p>
+</blockquote>
+<p>These simply say there is some part of the Stan library that is being compiled but not used; it has nothing to do with your model specifically. Thus, you could just ignore them.</p>
+<p>If you want to suppress such warnings, you need to open the file whose path is the output of</p>
+<pre class="r"><code>normalizePath(&quot;~/.R/Makevars&quot;)</code></pre>
+<p>and add (or add on to) a line that starts with <code>CXXFLAGS =</code>. Copy the part(s) inside the square brackets from the compiler warning message and paste them onto the line that starts with <code>CXXFLAGS =</code> but add the two-character string <code>no</code> after the starting string <code>-W</code>. Thus, in this case the line that starts with <code>CXXFLAGS =</code> would become</p>
+<pre><code>CXXFLAGS = ... -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs</code></pre>
+<p>where <code>...</code> stands for what was already there, such as <code>-O3</code>.</p>
+</div>
+</div>
+<div id="runtime-warnings" class="section level2">
+<h2>Runtime warnings</h2>
+<p>Runtime warnings occur during the estimation. Stan throws a lot of runtime warnings because they may be important. This does not mean that <em>every</em> time you see a warning you can’t trust your estimates, but when you see warnings it does mean that you shouldn’t blindly trust your estimates without first understanding what the warnings mean and which ones require action on your part.</p>
+<p>You might not be used to seeing so many warnings from other software you use, but that <em>does not mean</em> that Stan has more problems than that other software. The Stan Development Team places a high priority on notifying users about any issue that could potentially be important and Stan will always tell you about problems it encounters instead of hiding them from you. Warning messages do not indicate that something is wrong with Stan but rather that Stan is doing its job and warning you when it finds problems (or possible problems) with what it was told to do. Furthermore, a huge advantage of the algorithms used by Stan is that they permit certain unique diagnostics (e.g. the divergences discussed below) that are unavailable when using other algorithms. This leads to more warnings from Stan, but we cannot emphasize enough that this is a <em>feature</em> rather than a drawback.</p>
+<div id="divergent-transitions-after-warmup" class="section level3">
+<h3>Divergent transitions after warmup</h3>
 <p><strong>Example:</strong></p>
-<pre class="r"><code>There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. </code></pre>
+<pre class="r"><code>1: There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
+2: Examine the pairs() plot to diagnose sampling problems</code></pre>
 <p>Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution — the posterior defined by a Stan program + data — by simulating the evolution of a <a href="https://en.wikipedia.org/wiki/Hamiltonian_system">Hamiltonian system</a>. In order to approximate the exact solution of the Hamiltonian dynamics we need to choose a step size governing how far we move each time we evolve the system forward. That is, the <em>step size controls the resolution of the sampler</em>.</p>
 <p>Unfortunately, for particularly hard problems there are features of the target distribution that are too small for this resolution. Consequently the sampler misses those features and returns biased estimates. Fortunately, this mismatch of scales manifests as <em>divergences</em> which provide a practical diagnostic.</p>
 <p>For some intuition, imagine walking down a steep mountain. If you take too big of a step you will fall, but if you can take very tiny steps you might be able to make your way down the mountain, albeit very slowly. Similarly, we can tell Stan to take smaller steps around the posterior distribution, which (in some but not all cases) can help avoid these divergences.</p>
-<p>If the number of divergences is small — i.e., on the order of 1% of the post-warmup sample size— then the first thing we recommend trying is increasing the value of the <code>adapt_delta</code> parameter (see below for example code). This is the target average proposal acceptance probability during Stan’s adaptation period, and increasing it will force Stan to take smaller steps. The downside is that sampling will tend to be slower because a smaller step size means that more steps are required. <strong>Since the validity of the estimates is not guaranteed if there are post-warmup divergences, the slower sampling is a minor cost.</strong></p>
-<p>However, if there are a lot of divergences then either the model is wrong or a serious reparameterization is needed. For some models simply lowering the step size via <code>adapt_delta</code> is not sufficient as the geometry of the posterior distribution is such that only by reparameterizing the model will we be able to get valid estimates. That is, we have to find a different way to write the model that is equivalent statistically but that simplifies the geometry of the posterior distribution. This problem occurs frequently with hierarchical models and one of the simplest examples is Neal’s Funnel, which is discussed in the <em>Optimizing Stan Code</em> chapter of the <a href="http://mc-stan.org/documentation/">Stan manual</a>.</p>
+<p>As the warning message says, you should call <code>pairs()</code> on the resulting object. Red points indicate divergent transitions. In our experience, divergent transitions that occur <strong>above</strong> the diagonal of the <code>pairs()</code> plot — meaning that the amount of numerical error was above the median over the iterations — can often be eliminated simply by increasing the value of the <code>adapt_delta</code> parameter (see below for example code). This is the target average proposal acceptance probability during Stan’s adaptation period, and increasing it will force Stan to take smaller steps. The downside is that sampling will tend to be slower because a smaller step size means that more steps are required. <strong>Since the validity of the estimates is not guaranteed if there are post-warmup divergences, the slower sampling is a minor cost.</strong></p>
+<p>If you have many unknowns in your Stan program, then the <code>pairs()</code> plot may be illegible. There is a <code>pars</code> argument to the <code>pairs()</code> function that allows you to specify a subset of parameters. Also, there is an <code>include</code> argument that can be set to <code>FALSE</code> that will result in the complement of the <code>pars</code> argument being included in the <code>pairs()</code> plot. You should definitely include variance (or standard deviation, etc.) parameters, since they illustrate the funnel phenomenon most often. In addition, you should include at least some lower-level parameters in hierarchical models.</p>
+<p>Conversely, divergent transitions that occur <strong>below</strong> the diagonal of the <code>pairs()</code> plot — meaning that the amount of numerical error was below the median over the iterations — often cannot be eliminated simply by increasing the value of the <code>adapt_delta</code> parameter, although it does not hurt to try and it might actually work if the number of divergent transitions is small. If the divergent transitions cannot be eliminated by increasing the <code>adapt_delta</code> parameter, we have to find a different way to write the model that is logically equivalent but simplifies the geometry of the posterior distribution. This problem occurs frequently with hierarchical models and one of the simplest examples is Neal’s Funnel, which is discussed in the <em>Optimizing Stan Code</em> chapter of the <a href="http://mc-stan.org/documentation/">Stan manual</a> and can be performed by calling</p>
+<pre class="r"><code>library(rstan)
+funnel &lt;- stan_demo(&quot;funnel&quot;, seed = 12345)   # has 5 divergent transitions
+pairs(funnel, pars = c(&quot;y&quot;, &quot;x[1]&quot;, &quot;lp__&quot;), las = 1) # below the diagonal
+funnel_reparam &lt;- stan_demo(&quot;funnel_reparam&quot;) # has no divergent transitions</code></pre>
 <p><strong>Recommendations:</strong></p>
 <ul>
 <li>Increase the target acceptance rate <code>adapt_delta</code>. In RStan, <code>adapt_delta</code> is one of the parameters that you can include in the optional <code>control</code> list passed to the <code>stan</code> or <code>sampling</code> functions. For example, to set <code>adapt_delta</code> to 0.99 (the default is 0.8) you would do this:</li>
@@ -162,8 +203,8 @@ $(document).ready(function () {
 </ul>
 <p><br></p>
 </div>
-<div id="exception-hamiltonian-proposal-rejected" class="section level4">
-<h4>Exception … Hamiltonian proposal rejected</h4>
+<div id="exception-hamiltonian-proposal-rejected" class="section level3">
+<h3>Exception … Hamiltonian proposal rejected</h3>
 <p><strong>Example:</strong></p>
 <pre class="r"><code>Exception thrown at line 24: normal_log: Scale parameter is 0, but must be positive! </code></pre>
 <p>This warning indicates that the standard deviation (scale parameter) of the normal distribution (at line 24 in the Stan program) is 0, but it must be positive for Stan to compute the value of density function. It is not uncommon to get this type of warning if your model has bounded parameters. A message like this does not necessarily indicate that something is wrong with your model, as it’s possible that even in a correctly specified and well-behaved model the value of the scale parameter can be 0 (or numerically indistinguishable from 0) occasionally during sampling.</p>
@@ -178,9 +219,10 @@ $(document).ready(function () {
 </ul>
 <p><br></p>
 </div>
-<div id="maximum-treedepth-exceeded" class="section level4">
-<h4>Maximum treedepth exceeded</h4>
+<div id="maximum-treedepth-exceeded" class="section level3">
+<h3>Maximum treedepth exceeded</h3>
 <p>Warnings about hitting the maximum treedepth are not as serious as warnings about divergent transitions. While divergent transitions are a <em>validity</em> concern, hitting the maximum treedepth is an <em>efficiency</em> concern. Configuring the No-U-Turn-Sampler (the variant of HMC used by Stan) involves putting a cap on the depth of the trees that it evaluates during each iteration (for details on this see the <em>Hamiltonian Monte Carlo Sampling</em> chapter in the <a href="http://mc-stan.org/documentation/">Stan manual</a>). This is controlled through a maximum depth parameter <code>max_treedepth</code>. When the maximum allowed tree depth is reached it indicates that NUTS is terminating prematurely to avoid excessively long execution time.</p>
+<p>Transitions that hit the maximum treedepth are plotted in yellow in the <code>pairs()</code> plot.</p>
 <p><strong>Recommendations:</strong></p>
 <ul>
 <li>Increase the maximum allowed treedepth. In RStan, <code>max_treedepth</code> is one of the parameters that you can include in the optional <code>control</code> list passed to the <code>stan</code> or <code>sampling</code> functions. For example, to set <code>max_treedepth</code> to 15 (the default is 10) you would do this:</li>
@@ -188,8 +230,8 @@ $(document).ready(function () {
 <pre class="r"><code>stan(..., control = list(max_treedepth = 15))</code></pre>
 </div>
 </div>
-<div id="getting-help" class="section level3">
-<h3>Getting help</h3>
+<div id="getting-help" class="section level2">
+<h2>Getting help</h2>
 <p>The <a href="https://groups.google.com/forum/#!forum/stan-users">Stan users mailing list</a> is the best place to get help from Stan developers and users if you have difficulties fitting a model. In order to both reduce the amount of help you need and allow us to give the best help when you do need it, it is essential that you follow these recommendations:</p>
 <ul>
 <li><p>Always put Stan programs in a stand-alone file with a <code>.stan</code> extension. Even though some Stan interfaces allows specifying the model as a string, the line numbers in warning and error messages are only meaningul if you use a separate file.</p></li>
