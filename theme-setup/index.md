@@ -2,7 +2,7 @@
 layout: page
 title: Theme Setup
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
-modified: 2016-06-01T14:07:07-04:00
+modified: 2016-09-12T08:42:37-04:00
 image:
   feature: so-simple-sample-image-6.jpg
   credit: WeGraphics
@@ -288,8 +288,6 @@ Here's an example of a tweet with Twitter Cards enabled.
 
 ![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
 
-**Pro-Tip**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) before they will begin showing up when links to your site are shared.
-{:.notice}
 
 ---
 
