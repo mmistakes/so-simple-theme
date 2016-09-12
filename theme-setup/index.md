@@ -288,8 +288,6 @@ Here's an example of a tweet with Twitter Cards enabled.
 
 ![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
 
-**Pro-Tip**: You need to [apply for Twitter Cards](https://dev.twitter.com/docs/cards) before they will begin showing up when links to your site are shared.
-{:.notice}
 
 ---
 
