@@ -183,6 +183,13 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Matthew B. Espe, Kenneth G. Cassman, Haishun Yang, Nicolas Guilpart,
+  Patricio Grassini, Justin Van Wart, Merle Anders, Donn Beighley,
+  Dustin Harrell, Steve Linscombe, Kent McKenzie, Randall Mutters,
+  Lloyd T. Wilson, and Bruce A. Linquist. 2016. Yield gap analysis of
+  US rice production systems shows opportunities for
+  improvement. *Field Crops Research* 196:276--283.
+
 * V. K. Jirsa, T. Proix, D. Perdikis, M. M. Woodman, H. Wang,
   J. Gonzalez-Martinez, C. Bernard, C. Bénar, M. Guye,
   P. Chauvel, F. Bartolomei.  2016.  The virtual epileptic patient:
