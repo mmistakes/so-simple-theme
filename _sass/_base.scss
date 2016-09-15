@@ -56,21 +56,27 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
 	text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
+
 h1 {
 	@include font-size(36);
 }
+
 h2 {
 	@include font-size(32);
 }
+
 h3 {
 	@include font-size(28);
 }
+
 h4 {
 	@include font-size(24);
 }
+
 h5 {
 	@include font-size(20);
 }
+
 h6 {
 	@include font-size(18);
 }
@@ -90,16 +96,20 @@ ins {
 a {
 	text-decoration: none;
 	color: $link-color;
+
 	&:visited {
 		color: lighten($link-color, 20);
 	}
+
 	&:hover {
 		color: darken($link-color, 20);
 	}
+
 	&:focus {
 		outline: thin dotted;
 		color: darken($link-color, 20);
 	}
+
 	&:hover,
 	&:active {
 		outline: 0;
@@ -111,13 +121,13 @@ a {
    ========================================================================== */
 
 hr {
-    display: block;
-    margin: 1em 0;
-    padding: 0;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #fff;
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
 }
 
 /*
@@ -129,16 +139,20 @@ figure {
   padding-top: 10px;
   padding-bottom: 10px;
   @include clearfix;
+
   img {
     margin-bottom: 10px;
   }
+
   a {
+
     img {
       @include transform(translateY(0));
       -webkit-transition-duration: 0.25s;
       -moz-transition-duration: 0.25s;
       -o-transition-duration: 0.25s;
       opacity: 0.7;
+
       &:hover {
         @include transform(translateY(-5px));
         @include box-shadow(0 0 10px rgba($black, .20));
@@ -162,9 +176,9 @@ figcaption {
 }
 
 
-
 // Tables
 // --------------------------------------------------
+
 table {
   width: 100%;
 }
@@ -182,17 +196,16 @@ blockquote {
 }
 
 
-
-
-
 // Code
 // --------------------------------------------------
 
 tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
+
 p,
 li {
+
 	code {
 		@include font-size(14);
 		font-family: $code-font;
@@ -204,18 +217,16 @@ li {
 		@include rounded(3px);
 	}
 }
+
 pre {
 	@include font-size(14);
 	overflow-x: auto;
 }
 
 
-
-
-
 // Global Transition
 // ---------------------------------------------------
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, .highlight {
-	@include transition(all .2s ease);
+	@include transition(all 0.2s ease);
 }
