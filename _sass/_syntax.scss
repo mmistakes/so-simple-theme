@@ -16,11 +16,13 @@ pre.highlight {
 	color: #333332;
 	margin-bottom: 1.5em;
 	@include rounded($border-radius);
+
 	pre {
 		position: relative;
 		margin: 0;
 		padding: 1em;
 	}
+
 	.lineno { padding-right: 24px; color: lighten(#333332,50);}
 	.hll { background-color: #ffffcc }
 	.c { color: #999988; font-style: italic } /* Comment */
@@ -96,13 +98,14 @@ pre.highlight {
   color: #333332;
   margin-bottom: 1.5em;
   @include rounded(4px);
+
   pre {
     margin: 0px;
     padding: 1em;
   }
 }
 
-div.CodeRay { }
+div.CodeRay {}
 span.CodeRay { white-space: pre; border: 0px; padding: 2px }
 
 table.CodeRay { border-collapse: collapse; width: 100%; padding: 2px }

@@ -10,6 +10,7 @@
   @include font-size(14);
   font-style: italic;
   color: lighten($text-color,20);
+
   a {
     color: lighten($text-color,20);
   }
@@ -21,8 +22,10 @@
 
 .social-icons {
   margin: 1em 0 2em;
+
   a {
     padding: 4px 8px;
+
     &:hover {
       color: $black;
     }
