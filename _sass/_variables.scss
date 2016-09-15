@@ -14,15 +14,15 @@ $border-radius: 3px;
 // set-up the body font-size / line-height
 body {
   margin-top: 0px + $doc-line-height;
-  font-size: 0px + $doc-font-size;  
+  font-size: 0px + $doc-font-size;
 }
 
 
 // COLORS =====================================================
 $body-color         : #fff;
 $text-color         : #222;
-$base-color         : #343434;    
-$comp-color         : spin($base-color, 180); 
+$base-color         : #343434;
+$comp-color         : adjust-hue($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
