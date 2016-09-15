@@ -35,6 +35,7 @@
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+
   li {
     list-style-type: none;
   }
@@ -67,13 +68,16 @@ figure {
   /* 2 images in a row. should be of equal height/width to maintain layout */
 
   &.half {
+
     @include media($large) {
+
       img {
         width: 47.5%;
         float: left;
         margin-right: 2.5%;
         margin-bottom: 2.5%;
       }
+
       figcaption {
         clear: left;
       }
@@ -83,13 +87,16 @@ figure {
   /* 3 images in a row. should be of equal height/width to maintain layout */
 
   &.third {
+
     @include media($large) {
+
       img {
         width: 30.8%;
         float: left;
         margin-right: 2.5%;
         margin-bottom: 2.5%;
       }
+
       figcaption {
         clear: left;
       }
