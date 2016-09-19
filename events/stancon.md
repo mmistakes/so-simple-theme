@@ -72,3 +72,14 @@ The contributed talks at StanCon will be based on interactive, self-contained no
 
 We are looking for some sponsorship to either defer costs or provide travel assistance. Please email stancon@mc-stan.org for more information.
 
+
+## Organizers
+
+- Michael Betancourt (Columbia University)
+- Tamara Broderick (MIT)
+- Jonah Gabry (Columbia University)
+- Andrew Gelman (Columbia University)
+- Ben Goodrich (Columbia University)
+- Daniel Lee (Columbia University)
+- Eric Novik (Stan Group Inc)
+- Lizze Wolkovich (Harvard University)
