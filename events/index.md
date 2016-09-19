@@ -14,7 +14,21 @@ meetups, talks &amp; courses
 
 
 You can learn about Stan through introductory and specialized courses,
-or in many presentations at meetups and other venues.  
+or in many presentations at meetups and other venues.
+
+# **StanCon: Saturday January 21, 2017**
+
+Date
+: 21 January 2017
+
+Location:
+: New York, NY <span class="note">(USA)</span>
+
+Venue
+: [Columbia University, Davis Auditorium](http://apam.columbia.edu/directions-davis-auditorium-cepsr)
+
+Details
+: [View](/events/stancon.html)
 
 
 # **August 2016**
