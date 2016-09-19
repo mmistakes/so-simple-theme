@@ -13,13 +13,17 @@ image:
 ## When:
 
 Saturday, January 21, 2017
+
 9 am - 5 pm
 
 ## Where:
 
 Davis Auditorium, Columbia University
+
 530 West 120th Street
+
 4th floor (campus level), room 412
+
 New York, NY 10027
 
 ## Registration:
