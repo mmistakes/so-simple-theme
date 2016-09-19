@@ -47,7 +47,7 @@ We're looking for contributed talks. We will start accepting submissions at the 
 
 The contributed talks at StanCon will be based on interactive, self-contained notebooks, such as knitr or Jupyter, that will also take the place of proceedings.  For example, you might demonstrate a novel modeling technique or a simplified version of a novel application. Each submission should include the notebook and separate files containing the Stan program, data, initializations if used, and a permissive license for everything such as CC BY 4.0.
 
-#Tentative Schedule:
+## Tentative Schedule:
 
 8:00 - 9:00 Registration / Coffee / Breakfast
 
