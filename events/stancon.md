@@ -25,7 +25,8 @@ New York, NY 10027
 ## Registration:
 
 Registration will open at the end of September.
-Early registration (on or before December 20, 2016):
+
+### Early registration (on or before December 20, 2016):
 
 - Student: $50
 - Academic: $100
@@ -33,7 +34,7 @@ Early registration (on or before December 20, 2016):
 
 This will include coffee, lunch, and some swag.
 
-Late Registration (December 21, 2016 and on):
+### Late Registration (December 21, 2016 and on):
 
 - Student: $75
 - Academic: $150
