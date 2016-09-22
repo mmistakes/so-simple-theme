@@ -151,6 +151,9 @@ Michael Betancourt (2016)
 
 # Books
 
+* Kentarou Matsuura (2016) [<i>Bayesian Statistical Modeling Using
+  Stan and R</i>](https://www.amazon.co.jp/gp/product/4320112423/ref=pd_sim_14_1). Kyoritsu Shuppan Co., Ltd.
+
 * Julian J. Faraway (2016) [<i>Extending the Linear Model with R:
   Generalized Linear, Mixed Effects and Nonparametric Regression
   Models, Second
