@@ -18,7 +18,7 @@ in Bayesian methodology and Stan programming.
 # Contributing Case Studies
 
 To contribute a case study, please contact us through the [users
-group](/community/).  We require 
+group](/community/).  We require
 
 * a documented, reproducible example with narrative documentation
 <span class="note">(preferably coded using knitr or Jupyter)</span> and
@@ -50,7 +50,7 @@ Source Repository
 : [mbjoseph/CARstan](https://github.com/mbjoseph/CARstan) <span class="note">(GitHub)</span>
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">shapefiles</tt>, <tt style="font-size: 90%">CARBayesdata</tt>, <tt style="font-size: 90%">CARBayes</tt>, <tt style="font-size: 90%">spdep</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">dplyr</tt>, <tt style="font-size: 90%">ggplot2</tt>.
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">dplyr</tt>, <tt style="font-size: 90%">ggmcmc</tt>, <tt style="font-size: 90%">knitr</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">rgeos</tt>, <tt style="font-size: 90%">spdep</tt>.
 
 License
 : BSD (3 clause), CC-BY
@@ -124,7 +124,7 @@ License
 : BSD (3 clause), CC-BY
 
 
-## Hierarchical Two-Parameter Logistic Item Response Model 
+## Hierarchical Two-Parameter Logistic Item Response Model
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with hierarchical priors. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
@@ -359,7 +359,7 @@ License
 
 #### RStanARM version
 
-<small>There is also a version of this case study in which all models are fit using the 
+<small>There is also a version of this case study in which all models are fit using the
 RStanARM interface. Many of the visualizations are also created using RStanARM's plotting
 functions.
 </small>
