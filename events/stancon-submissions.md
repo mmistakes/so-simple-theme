@@ -43,4 +43,4 @@ Please email all submissions and questions about submissions to
 
 * <stanconsubmissions@mc-stan.org>
 
-as a zip archive, tar archive, or link to a public repository.
+Submission should be sent as a zip archive, tar archive, or link to a public repository.
