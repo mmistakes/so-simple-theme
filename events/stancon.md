@@ -10,13 +10,13 @@ image:
 ---
 
 
-## When:
+# When:
 
 Saturday, January 21, 2017
 
 9 am - 5 pm
 
-## Where:
+# Where:
 
 Davis Auditorium, Columbia University
 
@@ -26,11 +26,11 @@ Davis Auditorium, Columbia University
 
 New York, NY 10027
 
-## Registration:
+# Registration:
 
 [**Register now**](https://stancon2017.eventbrite.com)
 
-### Early registration (on or before December 20, 2016):
+# Early registration (on or before December 20, 2016):
 
 - Student: $50
 - Academic: $100
@@ -38,7 +38,7 @@ New York, NY 10027
 
 This will include coffee, lunch, and some swag.
 
-### Late Registration (December 21, 2016 and on):
+# Late Registration (December 21, 2016 and on):
 
 - Student: $75
 - Academic: $150
@@ -46,14 +46,14 @@ This will include coffee, lunch, and some swag.
 
 This will include coffee and lunch. Probably won't get swag.
 
-## Contributed talks:
+# Contributed talks:
 
 We're looking for contributed talks. The contributed talks at StanCon will be based on interactive, self-contained notebooks, 
 such as knitr or Jupyter, and will take the place of proceedings. 
 
 For details on submissions see the [StanCon Submissions](/events/stancon-submissions.html) page.
 
-## Tentative Schedule:
+# Tentative Schedule:
 
 8:00 - 9:00 Registration / Coffee / Breakfast
 
@@ -73,12 +73,12 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
 
 3:45 - 5:00 Session 4
 
-## Sponsorship:
+# Sponsorship:
 
 We are looking for some sponsorship to either defer costs or provide travel assistance. Please email stancon@mc-stan.org for more information.
 
 
-## Organizers
+# Organizers
 
 - Michael Betancourt (Columbia University)
 - Tamara Broderick (MIT)
