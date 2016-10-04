@@ -16,7 +16,7 @@ example, you might demonstrate a novel modeling technique, or a (possibly
 simplified version of a) novel application, etc. There is no minimum or maximum
 length.
 
-Submissions will be peer reviewed by the Stan Development Team and all accepted
+Submissions will be peer reviewed by the StanCon organizers and all accepted
 notebooks will be published in an official StanCon repository. If your
 submission is accepted we may ask you to present during one of the StanCon
 sessions. Some presentations will be short (in the 10-20 minute range) and one
