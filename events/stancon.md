@@ -28,7 +28,7 @@ New York, NY 10027
 
 ## Registration:
 
-Registration will open at the end of September.
+[**Register now**](https://stancon2017.eventbrite.com)
 
 ### Early registration (on or before December 20, 2016):
 
