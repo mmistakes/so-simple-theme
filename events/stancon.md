@@ -51,7 +51,7 @@ This will include coffee and lunch. Probably won't get swag.
 We're looking for contributed talks. The contributed talks at StanCon will be based on interactive, self-contained notebooks, 
 such as knitr or Jupyter, and will take the place of proceedings. 
 
-For details on submissions see the [StanCon Summissions](/events/stancon-submissions.html) page.
+For details on submissions see the [StanCon Submissions](/events/stancon-submissions.html) page.
 
 ## Tentative Schedule:
 
