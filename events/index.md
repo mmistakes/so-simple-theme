@@ -118,7 +118,7 @@ Details
 : [View](http://metrumrg.com/events/2016/10/23/bayesianpkpd.html)
 
 
-# **Past** 
+# **Past**
 
 ## An Introduction to Econometric Modeling using Stan
 
@@ -420,4 +420,3 @@ Venue
 Details
 : [Columbia Data Science Day (Buy tickets)](https://www.eventbrite.com/e/data-science-day-columbia-university-tickets-20922724432)
 : [Abstract](https://datasciencedaycolumbia2016.sched.org/event/6gQg/demo-d1-an-introduction-to-stan)
-

@@ -48,8 +48,8 @@ This will include coffee and lunch. Probably won't get swag.
 
 # Contributed talks:
 
-We're looking for contributed talks. The contributed talks at StanCon will be based on interactive, self-contained notebooks, 
-such as knitr or Jupyter, and will take the place of proceedings. 
+We're looking for contributed talks. The contributed talks at StanCon will be based on interactive, self-contained notebooks,
+such as knitr or Jupyter, and will take the place of proceedings.
 
 For details on submissions see the [StanCon Submissions](/events/stancon-submissions.html) page.
 
@@ -77,8 +77,12 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
 
 We are looking for some sponsorship to either defer costs or provide travel assistance. Please email stancon@mc-stan.org for more information.
 
+# Code of Conduct:
 
-# Organizers
+StanCon has a [code of conduct](/events/stancon-code_of_conduct.html) to ensure
+a safe and welcoming environment to all in attendance.
+
+# Organizers:
 
 - Michael Betancourt (Columbia University)
 - Tamara Broderick (MIT)
