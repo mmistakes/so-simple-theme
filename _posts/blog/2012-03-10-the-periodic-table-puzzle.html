@@ -1,0 +1,18 @@
+---
+layout: post
+title: The Periodic Table Puzzle
+date: '2012-03-10T16:07:38-05:00'
+tags: []
+tumblr_url: http://timothymorton.com/post/19076773391/the-periodic-table-puzzle
+---
+<p>In a recent job interview, I got the following puzzle/algorithm question:</p>
+<blockquote>
+<p>You have the standard periodic table of the elements, and a list of words (ie the OSX spell-check dictionary).  How can we find the longest word that appears in the table?  For example, &ldquo;NO&rdquo; starting at #7.</p>
+</blockquote>
+<p><img src="http://66.media.tumblr.com/tumblr_m0oqcqsNSm1qb93ek.png"/></p>
+<p>After a bit of thought, I started sketching out an algorithm based on iterating through the table.  At each cell, we start trying to build words that start at that cell.  For example, at #1 we consider &ldquo;H&rdquo;, then &ldquo;HLi&rdquo;, etc.  For each candidate word, we consult the dictionary: is this a word?  (if so, we can consider it for the &ldquo;longest word&rdquo; prize).  Then we ask a related question: is this a prefix for a word?  That is, does any word start with this character sequence?  If not, then we can abandon this direction, and return to the current starting cell.  After considering each direction from that cell, we can move on to the next one.</p>
+<p>It turns out, the interviewer was thinking of a different algorithm.  First, sort the dictionary by word length.  Starting at the longest word, search through the table for an occurrence of that word.  Stop when we&rsquo;ve found a word. </p>
+<p>What followed in the interview was a lot of hand-waving about algorithmic complexity and sketched pseudocode.  Running through the table for every single word in the dictionary (until a match is found) seemed very slow to me.  With my algorithm, I can consider each candidate word in O(log n) on the size of the dictionary, by binary searching on a sorted dictionary.  With his, we&rsquo;re considering each candidate word against one dictionary word at a time, but doing this for each word in the dictionary.  That algorithm will end up something like O(n) on the size of the dictionary.  I&rsquo;m sure there are optimizations possible to both approaches, but sitting in a conference room with a whiteboard and some notebook paper, I was pretty sure that my approach was correct. </p>
+<h2>Math is hard, let&rsquo;s go coding</h2>
+<p>A few weeks later, I was still curious about the question: was my approach really faster?  To answer the question, I whipped up a <a href="https://github.com/tmorton/word_search">prototype implementation</a> in ruby.  </p>
+<p>Short answer: I was right.  Solving the puzzle with his algorithm took ~26 seconds on my machine.  My algorithm runs 1000 times in just 5.6 seconds.  Neither version is well-optimized, but I think I&rsquo;ve fairly represented the guts of the slower algorithm.  </p>

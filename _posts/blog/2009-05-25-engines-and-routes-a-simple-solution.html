@@ -1,0 +1,16 @@
+---
+layout: post
+title: Engines and routes - a simple solution
+date: '2009-05-25T00:00:00-04:00'
+tags: []
+tumblr_url: http://timothymorton.com/post/479724714/engines-and-routes-a-simple-solution
+---
+<p>So the new Engines feature in Rails 2.3 is great, but there&rsquo;s one big problem with the way it handles routes. The routes in all of your engines are loaded before your application routes. This is a big problem if your engines have a catch-all default route for a CMS-type thing.</p>
+<p>The Thoughtbot guys have <a title="one solution" href="http://robots.thoughtbot.com/post/159805560/tips-for-writing-your-own-rails-engine">one solution</a> which involves alias_method_chain and the ActionController internals. Fortunately, there&rsquo;s a much simpler way.</p>
+<ul><li>In your engine, rename routes.rb to my_routes.rb.</li>
+<li>At the end of your application routes.rb file, add this line:
+<pre>ActionController::Routing::Routes.add_configuration_file(</pre>
+<pre>  "#{RAILS_ROOT}/vendor/plugins/cms/config/my_routes.rb")</pre>
+(&ldquo;cms&rdquo; is the engine name, replace it with your own)</li>
+<li>That line goes <strong>outside</strong> the block that covers the rest of the routes.rb file.</li>
+</ul>
