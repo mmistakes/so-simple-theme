@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contact Me
 ---
 
 Hi!  Feel free to reach out, I'm friendly.  Email is usually best, but dog pictures on twitter are always welcome.
