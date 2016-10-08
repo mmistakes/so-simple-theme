@@ -3,7 +3,7 @@
 title: Tim Morton
 locale: en_US
 description: Developer & Human
-logo: site-logo.png
+logo: tim-morton-200.jpg
 search: true
 url: http://localhost:4000
 
@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Tim
-  avatar: bio-photo.jpg
+  avatar: tim-morton-200.jpg
   email: tim@timothymorton.com
   disqus-shortname:
   twitter: tmorton
