@@ -36,7 +36,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Tim
+  name: Tim Morton
   avatar: tim-morton-200.jpg
   email: tim@timothymorton.com
   disqus-shortname:
