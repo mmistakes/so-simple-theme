@@ -1,0 +1,15 @@
+---
+layout: post
+title: Weird things you cannot do
+date: '2012-02-10T11:52:00-05:00'
+tags:
+- ruby
+- rails
+- code
+- tips
+tumblr_url: http://timothymorton.com/post/17375820864/weird-things-you-cannot-do
+---
+<p>Don&rsquo;t name a capistrano namespace &ldquo;rake&rdquo;.  This breaks the db:migrate task, or any other built-in task that tries to run a rake command.  You&rsquo;ll get a message like this:</p>
+
+<pre>executing "cd (your deployment directory) &amp;&amp; #&lt;Capistrano::Configuration::Namespaces::Namespace:0x107e01908&gt; RAILS_ENV=production  db:migrate"</pre>
+<p>This error occurs with Capistrano 2.9, but does not occur with 2.5 - I&rsquo;m not going to bother tracking down the exact version that introduced this issue.</p>
