@@ -183,6 +183,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Smyl, S. and K. Kuber. 2016. Data preprocessing and augmentation for multiple
+  short time series forecasting with recurrent neural networks.  *36th
+  International Symposium on Forecasting*.  Santander.
+
 * Matthew B. Espe, Kenneth G. Cassman, Haishun Yang, Nicolas Guilpart,
   Patricio Grassini, Justin Van Wart, Merle Anders, Donn Beighley,
   Dustin Harrell, Steve Linscombe, Kent McKenzie, Randall Mutters,
