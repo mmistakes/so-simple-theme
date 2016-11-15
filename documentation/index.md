@@ -134,7 +134,10 @@ Michael Betancourt (2016)
 
 # Papers
 
-* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddell (2015) In press for <i>Journal of Statistical Software</i>. [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf).
+* Cole C. Monnahan, James T. Thorson, and Trevor A. Branch (2016)
+[Faster estimation of Bayesian models in ecology using Hamiltonian Monte Carlo](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12681/full).  *Methods in Ecology and Evolution*.
+
+* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddell (2016) In press for <i>Journal of Statistical Software</i>. [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf).
 
 * Andrew Gelman, Daniel Lee, and Jiqiang Guo (2015) [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf). In press, <i>Journal of Educational and Behavior Science</i>.
 
