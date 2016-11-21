@@ -1,20 +1,15 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
-
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
+scott_bouloutian:
+  name: Scott Bouloutian
+  web: https://www.ScottBouloutian.com
+  email: ScottBouloutian@gmail.com
+  bio: "Author of this site."
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
+
+pasha_cat:
+  name: Pasha the Cat
+  web: https://www.ScottBouloutian.com
+  email: ScottBouloutian@gmail.com
+  bio: "Meow meow."
+  avatar: bio-photo-2.jpg
