@@ -239,24 +239,24 @@ License
 :  BSD (3 clause), CC-BY
 
 
-## Rasch Model with Latent Regression
+## Rasch and Two-Parameter Logistic Item Response Models with Latent Regression
 
-<small>This case study documents a Stan model for the Rasch model with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard Rasch model. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
+<small>This case study documents Stan models for the Rasch and two-parameter logistic models with latent regression. The latent regression portion of the models may be restricted to an intercept only, yielding standard versions of the models. Simulations indicate that the two models successfully recover generating parameters. An example using a grade 12 science assessment is provided.</small>
 
-[View](case-studies/rasch_latent_reg.html) <span class="note">(HTML)</span>
+[View](case-studies/rasch_and_2pl.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
 
 Keywords
-: education, item response theory, rasch model
+: education, item response theory, rasch model, two-parameter logistic model
 
 Source Repository
-: [example-models/education/rasch_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/rasch_latent_reg)
+: [example-models/education/rasch_and_2pl.html](https://github.com/stan-dev/example-models/tree/master/education/rasch_and_2pl.html)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
+: <tt style="font-size: 90%">edstan, rstan, ggplot2, TAM</tt>
 
 License
 :  BSD (3 clause), CC-BY
@@ -291,29 +291,6 @@ Source Repository
 R Package Dependencies
 : <tt style="font-size: 90%">rstan, reshape2, ggplot2,
  gridExtra, devtools, edstan</tt>
-
-License
-:  BSD (3 clause), CC-BY
-
-
-## Two-Parameter Logistic Model with Latent Regression
-
-<small>This case study documents a Stan model for the two-parameter logistic model (2PL) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard 2PL. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
-
-[View](case-studies/2pl_latent_reg.html) <span class="note">(HTML)</span>
-
-Authors
-: Daniel C. Furr
-
-Keywords
-: education, item response theory, two-parameter logistic model
-
-Source Repository
-: [example-models/education/2pl_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/2pl_latent_reg)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
 
 License
 :  BSD (3 clause), CC-BY
