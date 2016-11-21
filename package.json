@@ -1,10 +1,13 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/so-simple-theme/",
+  "name": "website",
+  "author": "Scott Bouloutian",
+  "homepage": "https://www.ScottBouloutian.com",
+  "scripts": {
+      "start": "bundle exec jekyll serve"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/so-simple-theme.git"
+    "url": "git://github.com/scottbouloutian/website.git"
   },
   "bugs": {
     "url": "https://github.com/mmistakes/so-simple-theme/issues"
