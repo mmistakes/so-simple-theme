@@ -64,10 +64,23 @@ site at a url of the form `https://username.github.io/repo`. If you are happy wi
 
 ### 5. Register your domain
 I chose to use Amazon Route 53 to register this site's domain name. Most services offer a
-single domain name for a low yearly cost of around ten dollars.
+single dot com domain name for a low yearly cost of around twelve dollars.
 
 ### 6. Wire up the domain
-TODO
+While registering a domain with Amazon Route 53, a Hosted Zone will be created for you.
+By default this hosted zone will have `NS` and `SOA` record sets. The first thing you will
+want to do is create an `A` record set pointing to the following IP addresses:
+```
+192.30.252.153
+192.30.252.154
+```
+Lastly, you will want to create a `CNAME` record set pointing to your GitHub Pages URL of the
+form `username.github.io/repo`.
+
+### 7. Enjoy
+Congratulations, you now have a fully functional Jekyll site hosted on GitHub with a custom
+domain. Iterating on this site or adding additional content is as simple as pushing up new
+commits!
 
 [jekyll]:       http://jekyllrb.com
 [github]:       https://github.com
