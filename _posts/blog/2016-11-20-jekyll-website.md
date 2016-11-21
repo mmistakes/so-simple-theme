@@ -9,6 +9,7 @@ image:
   feature:
 date: 2016-11-20T17:24:23-05:00
 modified: 2016-11-20T17:24:23-05:00
+share: true
 ---
 
 Greetings traveler, this post will show you how to create a beautiful static website (like this one)
@@ -38,6 +39,7 @@ theme itself may include instructions on how to set it up. However, in general y
 want to do the following:
 ```
 git clone git@github.com:username/repo.git
+cd repo
 ```
 If no Gemfile exists you will want to create one that looks like the following:
 ```
