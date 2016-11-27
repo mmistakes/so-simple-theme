@@ -11,7 +11,7 @@
 
 <meta name="author" content="Stan Development Team" />
 
-<meta name="date" content="2016-09-10" />
+<meta name="date" content="2016-11-27" />
 
 <title>Brief Guide to Stan’s Warnings</title>
 
@@ -95,6 +95,7 @@ button.code-folding-btn:focus {
 </style>
 
 
+
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
@@ -118,7 +119,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Brief Guide to Stan’s Warnings</h1>
 <h4 class="author"><em>Stan Development Team</em></h4>
-<h4 class="date"><em>September 10, 2016</em></h4>
+<h4 class="date"><em>November 27, 2016</em></h4>
 
 </div>
 
@@ -132,6 +133,7 @@ $(document).ready(function () {
 <li><a href="#divergent-transitions-after-warmup">Divergent transitions after warmup</a></li>
 <li><a href="#exception-hamiltonian-proposal-rejected">Exception … Hamiltonian proposal rejected</a></li>
 <li><a href="#maximum-treedepth-exceeded">Maximum treedepth exceeded</a></li>
+<li><a href="#bfmi-low">BFMI low</a></li>
 </ul></li>
 <li><a href="#getting-help">Getting help</a></li>
 </ul>
@@ -228,6 +230,17 @@ funnel_reparam &lt;- stan_demo(&quot;funnel_reparam&quot;) # has no divergent tr
 <li>Increase the maximum allowed treedepth. In RStan, <code>max_treedepth</code> is one of the parameters that you can include in the optional <code>control</code> list passed to the <code>stan</code> or <code>sampling</code> functions. For example, to set <code>max_treedepth</code> to 15 (the default is 10) you would do this:</li>
 </ul>
 <pre class="r"><code>stan(..., control = list(max_treedepth = 15))</code></pre>
+<p><br></p>
+</div>
+<div id="bfmi-low" class="section level3">
+<h3>BFMI low</h3>
+<p>You may see a warning that says some number of chains had an estimated Bayesian Fraction of Missing Information (BFMI) that was too low. This implies that the adaptation phase of the Markov Chains did not turn out well and those chains likely did not explore the posterior distribution efficiently. For more details on this diagnostic, see <a href="https://arxiv.org/abs/1604.00695" class="uri">https://arxiv.org/abs/1604.00695</a>.</p>
+<p><strong>Recommendations:</strong></p>
+<ul>
+<li>Look at the <code>pairs</code> plot to see which primitive parameters are correlated with the <code>energy__</code> margin. There should be a negative relationship between <code>lp__</code> and <code>energy__</code> in the <code>pairs</code> plot, which is not a concern because <code>lp__</code> is the logarithm of the posterior kernel rather than a primitive parameter.</li>
+<li>Reparameterize your model. The primitive parameters that are correlated with the <code>energy__</code> margin in the <code>pairs</code> plot are a good place to start thinking about reparameterizations.</li>
+<li>You might try setting a higher value for the <code>iter</code> and / or <code>warmup</code> arguments. By default <code>warmup</code> is half of <code>iter</code> and <code>iter</code> is <span class="math inline">\(2000\)</span> by default.</li>
+</ul>
 </div>
 </div>
 <div id="getting-help" class="section level2">
@@ -253,6 +266,7 @@ funnel_reparam &lt;- stan_demo(&quot;funnel_reparam&quot;) # has no divergent tr
 $(document).ready(function () {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 });
+
 
 </script>
 

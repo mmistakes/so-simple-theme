@@ -1,7 +1,7 @@
 ---
 title: "Brief Guide to Stan's Warnings"
 author: "Stan Development Team"
-date: "September 10, 2016"
+date: "November 27, 2016"
 output: 
   html_document:
     toc: true
@@ -310,6 +310,27 @@ to 15 (the default is 10) you would do this:
 stan(..., control = list(max_treedepth = 15))
 ```
 
+<br>
+
+### BFMI low
+
+You may see a warning that says some number of chains had an estimated Bayesian
+Fraction of Missing Information (BFMI) that was too low. This implies that the
+adaptation phase of the Markov Chains did not turn out well and those chains
+likely did not explore the posterior distribution efficiently. For more details
+on this diagnostic, see https://arxiv.org/abs/1604.00695.
+
+**Recommendations:** 
+
+* Look at the `pairs` plot to see which primitive parameters are correlated with
+  the `energy__` margin. There should be a negative relationship between `lp__`
+  and `energy__` in the `pairs` plot, which is not a concern because `lp__` is 
+  the logarithm of the posterior kernel rather than a primitive parameter. 
+* Reparameterize your model. The primitive parameters that are correlated with
+  the `energy__` margin in the `pairs` plot are a good place to start thinking
+  about reparameterizations.
+* You might try setting a higher value for the `iter` and / or `warmup` arguments.
+  By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
 ## Getting help
 
