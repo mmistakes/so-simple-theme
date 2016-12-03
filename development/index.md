@@ -30,7 +30,7 @@ pull request.  The developer process for creating a Git pull request
 is described on the Stan Wiki.
 
 * <p>
-  <a href="https://github.com/stan-dev/stan/wiki/Developer-Process">Developer
+  <a href="https://github.com/stan-dev/stan/wiki/Developer-process-overview">Developer
     Process Wiki</a>
   <span class="note">(on GitHub)</span>
   </p>
