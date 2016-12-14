@@ -1,13 +1,16 @@
 ---
 layout: page
-title:
-excerpt:
+title: 
+excerpt: ""
+modified:
 search_omit: true
 image:
   feature: feature/wide_ensemble.png
+  credit:
+  creditlink:
 ---
 
-<center style="margin: -0.6em 0 0 0; font-size:600%; letter-spacing: -5px; font-style: italic; font-family:'volkhov', serif">Stan</center> 
+<center style="margin: -0.6em 0 0 0; font-size:600%; letter-spacing: -5px; font-style: italic; font-family:'volkhov', serif">Stan</center>
 
 Thousands of users rely on Stan for statistical modeling, data
 analysis, and prediction in the social, biological, and physical
