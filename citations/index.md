@@ -18,21 +18,14 @@ Let us know if you write a paper citing Stan and we can cite it here.
 
 We appreciate citations for the Stan software because it lets us find
 out what people have been doing with Stan and motivate further grant
-funding.
+funding.  Here are citations for the manual, the core libraries, and
+the interfaces.
 
-
-## Stan System Paper
-
-* <p>Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich,
-  Michael Betancourt, Michael A. Brubaker, Jiqiang Guo, Peter Li, and
-  Allen Riddell.  2016.  Stan: A probabilistic programming language.
-  <i>Journal of Statistical Software</i> (in press).
-  </p>
 
 ## Language Manual
 
 * <p>Stan Development Team. 2016. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.12.0. 
+  Reference Manual</i>, Version 2.12.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -52,14 +45,14 @@ funding.
   </p>
 
 
-## RStan 
+## RStan
 
 * <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>,
   Version 2.10.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
-## PyStan 
+## PyStan
 
 * <p>Stan Development Team. 2016. <i>PyStan: the Python interface to Stan</i>,
   Version 2.9.0.
@@ -69,7 +62,7 @@ funding.
 
 ## CmdStan
 
-* <p>Stan Development Team. 2016. <i>CmdStan: the command-line 
+* <p>Stan Development Team. 2016. <i>CmdStan: the command-line
   interface to Stan</i>, Version 2.13.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
@@ -77,7 +70,7 @@ funding.
 ## MatlabStan
 
 * <p>Stan Development Team. 2016. <i>MatlabStan: the MATLAB interface to
-  Stan</i>. 
+  Stan</i>.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -203,7 +196,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   individual and collective agricultural adaptation to water scarcity.
   *Proceedings of the 2016 Winter Simulation Conference*.  IEEE Press.
 
-* Nay, John J., Martin Van der Linden, and Jonathan M. Gilligan. 
+* Nay, John J., Martin Van der Linden, and Jonathan M. Gilligan.
   Betting and belief: prediction markets and attribution of climate
   change. *Proceedings of the 2016 Winter Simulation Conference*.
   IEEE Press.  Also available as *arXiv* 1603.08961.
@@ -215,7 +208,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Science &amp; Policy* 63:7--18.
 
 * Gerrit Kentner and Shravan Vasishth. 2016. Prosodic focus marking in
-  silent reading: Effects of discourse context and rhythm. 7(319).  
+  silent reading: Effects of discourse context and rhythm. 7(319).
   *Frontiers in Psychology*.
 
 * Molood Sadat Safavi, Samar Husain, and Shravan Vasishth. 2016. Dependency
@@ -312,7 +305,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   W., 2015.  Chromosomal damage and EROD induction in tree swallows
   (*Tachycineta bicolor*) along the Upper Mississippi River,
   Minnesota, USA, *Ecotoxicology* 1--12.
-  
+
 * Scott Steinschneider and Upmanu Lall.  2015.  A hierarchical
   Bayesian regional model for nonstationary precipitation extremes in
   Northern California conditioned on tropical moisture exports.
@@ -430,7 +423,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Schmettow, M. and Havinga, J.  2013.  Are users more diverse than
   designs? Testing and extending a 25 years old claim.  C. Bowers and
-  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of 
+  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of
   Things XXVII*.
 
 * Terada, Ryuta and Inoue, Shingo and Nishihara, Gregory N.  2013.
