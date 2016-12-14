@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: ""
 excerpt: ""
 modified:
 search_omit: true
