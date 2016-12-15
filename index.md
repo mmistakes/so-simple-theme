@@ -33,7 +33,7 @@ Stan's math library provides differentiable probability functions
 Additional R packages provide expression-based linear modeling,
 posterior visualization, and leave-one-out cross-validation.
 
-# Get Started
+## Get Started
 
 Stan interfaces with the most popular data analysis languages <span
 class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
@@ -42,7 +42,7 @@ Windows)</span>.
 
 To get started,&nbsp; [select a Stan interface](/interfaces/).
 
-# Open Code &amp; Reproducible Science
+## Open Code &amp; Reproducible Science
 
 Stan is freedom-respecting, open-source software <span
 class="note">(new BSD core, some interfaces GPLv3)</span>.&nbsp; Stan

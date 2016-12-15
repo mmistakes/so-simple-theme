@@ -152,6 +152,11 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Michael J. Betancourt. 2016.  Identifying the Optimal Integration
   Time in Hamiltonian Monte Carlo. *arXiv* 1601.00225.
 
+* Andrew Gelman, Daniel Lee, and Jiqiang Guo.  2015.  Stan:
+  A probabilistic programming language for Bayesian inference
+  and optimization.  *Journal of Education and Behavioral
+  Statistics*. 40(5):530--543.
+
 * Alp Kucukelbir, Rajesh Ranganath, Andrew Gelman and David
   M. Blei. 2015. Automatic Variational Inference in Stan, *NIPS*.
 
