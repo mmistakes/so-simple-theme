@@ -46,8 +46,8 @@ the interfaces.
 
 ## RStan
 
-* <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>,
-  Version 2.10.1.
+* <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>.
+  R package version 2.12.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -88,14 +88,15 @@ the interfaces.
 ## RStanArm
 
 * <p>Stan Development Team. 2016. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>.  &nbsp; <tt style="font-size:
+  regression modeling via Stan</i>. R package version 2.13.1.  
+  &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
 ## ShinyStan
 
 * <p>Stan Development Team. 2016. <i>ShinyStan: Interactive Visual and
   Numerical Diagnostics and Posterior Analysis for Bayesian
-  Models</i>.  &nbsp; <tt style="font-size:
+  Models</i>. R package version 2.2.1.  &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
 
