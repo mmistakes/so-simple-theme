@@ -243,8 +243,9 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
 
-* Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for
-  linguistics research: Foundational Ideas---Part II. *arXiv* 1602.00245.
+* Nicenboim, Bruno and Vasishth, Shravan. 2016. Statistical methods for
+  linguistics research: Foundational Ideas---Part II. 
+  *Language and Linguistics Compass* 10(11):591--613.
 
 * P. Almaraz. 2015. Bordeaux wine quality and climate fluctuations
   during the last century: changing temperatures and changing
