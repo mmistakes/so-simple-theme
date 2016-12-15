@@ -28,18 +28,20 @@ hearing from you and try very hard to be helpful.
 
 # Developers Group
 
-The developers group is for the [development team](/team/) to discuss
+The developers forum is for the [development team](/team/) to discuss
 Stan's code.
 
-* <a href="https://groups.google.com/forum/?fromgroups#!forum/stan-dev">Stan Developers Group</a>
-  <span class="note">(Google)</span>
+* <a href="http://discourse.mc-stan.org/">Stan Developers Forum</a>
+  <span class="note">(Discourse)</span>
 
-The developers group is open for everyone to read, but posting is
+The developers forum is open for everyone to read, but posting is
 restricted to Stan developers.
 
-If you would like to get posting priveleges on the developers group,
-please post a query on the users group first or send the developers
-email.
+Discussions prior to 2016 are archived and public on the 
+<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-dev">Stan Developers Google Group</a>.
+
+If you would like to get posting priveleges on the developers forum,
+please post a query on the users group first.
 
 
 # Bug Reports and Feature Requests
