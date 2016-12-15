@@ -35,7 +35,6 @@ the interfaces.
 * <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
   2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
 
 
 ## Stan C++ Library
@@ -244,7 +243,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   145(1):56--81.
 
 * Nicenboim, Bruno and Vasishth, Shravan. 2016. Statistical methods for
-  linguistics research: Foundational Ideas---Part II. 
+  linguistics research: Foundational Ideas---Part II.
   *Language and Linguistics Compass* 10(11):591--613.
 
 * P. Almaraz. 2015. Bordeaux wine quality and climate fluctuations
