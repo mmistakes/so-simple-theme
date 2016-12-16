@@ -33,8 +33,7 @@ the interfaces.
 ## Stan Math Library
 
 * <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
-  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt>
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt></p>
+  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
 
 
 ## Stan C++ Library
