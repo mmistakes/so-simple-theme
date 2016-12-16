@@ -33,8 +33,8 @@ the interfaces.
 ## Stan Math Library
 
 * <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
-  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
+  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt>
+  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt></p>
 
 
 ## Stan C++ Library
@@ -88,7 +88,7 @@ the interfaces.
 ## RStanArm
 
 * <p>Stan Development Team. 2016. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>. R package version 2.13.1.  
+  regression modeling via Stan</i>. R package version 2.13.1.
   &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
