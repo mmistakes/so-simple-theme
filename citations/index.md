@@ -53,7 +53,7 @@ the interfaces.
 ## PyStan
 
 * <p>Stan Development Team. 2016. <i>PyStan: the Python interface to Stan</i>,
-  Version 2.9.0.
+  Version 2.12.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
