@@ -73,9 +73,20 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
 
 3:45 - 5:00 Session 4
 
+# Sponsors:
+
+Thanks to our wonderful sponsors for making StanCon 2017 happen!
+
+<center><a href="http://datascience.columbia.edu" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/columbia_data_science_logo.png" alt="Columbia University Data Science Institute" style="width: 45%; min-width: 150px;" /></a></center>
+
+<center><a href="http://metrumrg.com" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/metrum_logo.png" alt="Metrum Research Group" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
+
+<center><a href="http://stan.fit" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/stangroup_logo.png" alt="Stan Group Inc" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
+
+
 # Sponsorship:
 
-We are looking for some sponsorship to either defer costs or provide travel assistance. Please email stancon@mc-stan.org for more information.
+We are still looking for additional sponsorship for StanCon! Please email stancon@mc-stan.org for details or [sign up directly](https://stancon2017.eventbrite.com/?discount=sponsor#tickets).
 
 # Code of Conduct:
 
