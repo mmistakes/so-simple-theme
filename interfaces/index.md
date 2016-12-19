@@ -77,6 +77,22 @@ analysis of MCMC output.
   <span class="note">(R)</span>
   </p>
 
+The bayesplot package is a ggplot2-based plotting library for graphing 
+parameter estimates, MCMC diagnostics, and posterior predictive checks.
+
+* <p>
+  <a href="/interfaces/bayesplot.html">bayesplot</a>
+  <span class="note">(R)</span>
+  </p>
+  
+The rstantools package provides various tools for developers of R packages interfacing 
+with Stan.
+
+* <p>
+  <a href="/interfaces/rstantools.html">rstantools</a>
+  <span class="note">(R)</span>
+  </p>
+  
 The loo package provides efficient leave-one-out cross-validation and WAIC calculations.
 
 * <p>
