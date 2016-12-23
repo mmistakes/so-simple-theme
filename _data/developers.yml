@@ -52,8 +52,8 @@
   avatar: michael_betancourt.jpg
 
 - name: Marcus Brubaker
-  affiliation: University of Toronto, Scarborough
-  web: http://www.cs.toronto.edu/~mbrubake/
+  affiliation: York University
+  web: http://www.eecs.yorku.ca/~mab/
   github: mrbrubake
   avatar: marcus_brubaker.jpg
 
@@ -137,7 +137,7 @@
 - name: Dustin Tran
   affiliation: Columbia University
   web: http://dustintran.com
-  email: dustin@cs.columbia.edu 
+  email: dustin@cs.columbia.edu
   twitter: dustinvtran
   github: dustinvtrain
   avatar: dustin_tran.png
