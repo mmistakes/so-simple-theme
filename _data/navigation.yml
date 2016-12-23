@@ -1,17 +1,30 @@
 # Site navigation links
 
-- title: Interfaces & Getting Started
+- title: Interfaces
   url: /interfaces/
 
-- title: Documentation & Examples
+- title: Docs
   url: /documentation/
 
-- title: Users & Contributors
+- title: Issues
   url: /issues/
 
-- title: Report Bugs & Suggest Features
+- title: Events
   url: /events/
 
-- title: Source Code
+- title: Community
   url: /community/
 
+- title: Cite
+  url: /citations/
+
+- title: Team
+  url: /team/
+
+- title: Develop
+  url: /development/
+- title: Shop
+  url: /shop/
+
+- title: Support
+  url: /support/
