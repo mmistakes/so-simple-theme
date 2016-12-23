@@ -10,6 +10,12 @@
 <body id="post">
 
 {% include navigation.html %}
+{% capture page_mod_ymd %}{{ page.modified | date: "%Y-%m-%d" }}{% endcapture %}
+{% capture page_date_ymd %}{{ page.date | date: "%Y-%m-%d" }}{% endcapture %}
+{% for post in site.posts contains page.category %}{% if post.categories contains page.category %}
+{% capture others_in_category %}{{ others_in_category }}|{% if post.title != page.title %}<a href="{{ post.url }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}{% endcapture %}
+{% endif %}{% endfor %}
+{% assign others_in_category = others_in_category|split:'|' %}
 
 <div id="main" role="main">
   <article class="hentry">
@@ -42,6 +48,8 @@
         {% if page.ads == true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
       </footer>
       <div class="entry-content">
+        {% if page_mod_ymd != page_date_ymd and page.hideupdated != true %}<p class="notice">This page was last updated on <strong>{{ page.modified | date: "%B %d, %Y" }}</strong></p>{% endif %}
+        {% if page.showseries and others_in_category %}<div class="notice">This page is part of a series:<ul>{% for other_html in others_in_category offset:1 %}<li>{{ other_html }}</li>{% endfor %}</ul></div>{% endif %}
         {{ content }}
         {% if site.owner.disqus-shortname and page.comments or site.comments %}
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
