@@ -1,11 +1,21 @@
+
+
+- name: Matt Hoffman
+  affiliation: Columbia University;&nbsp; Adobe Creative Technologies Lab
+  web: http://matthewdhoffman.com
+  github: matthewdhoffman
+  avatar: matt_hoffman.jpg
+
 - name: Michael Malecki
   web: http://www.linkedin.com/pub/michael-malecki/15/a16/84a
-  affiliation: YouGov plc, Crunch.io
+  affiliation: Columbia University;&nbsp; YouGov plc;&nbsp; Crunch.io
+  github: malecki
 
 - name: Yuanjun Gao
-  web: http://www.linkedin.com/pub/yuanjun-gao/47/407/a86
+  web: http://stat.columbia.edu/~ygao/
   affiliation: Columbia University
-  
+
 - name: Peter Li
   web: http://www.linkedin.com/in/peterli2
   affiliation: Columbia University
+  github: PeterLi2016
