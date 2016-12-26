@@ -42,13 +42,13 @@ Documentation and instructions for getting started with ShinyStan.
 
 Screenshots.
 
-* <a href="https://github.com/stan-dev/shinystan/blob/master/images/home.png">
+* <a href="/assets/img/shinystan/home.png">
 <img src="/assets/img/shinystan/home.png" style="width: 27%;"/>
 </a>
-<a href="https://github.com/stan-dev/shinystan/blob/master/images/explore.png">
+<a href="/assets/img/shinystan/explore.png">
 <img src="/assets/img/shinystan/explore.png" style="width: 35%;"/>
 </a>
-<a href="https://github.com/stan-dev/shinystan/blob/master/images/diagnose.png">
+<a href="/assets/img/shinystan/diagnose.png">
 <img src="/assets/img/shinystan/diagnose.png" style="width: 35%;"/>
 </a>
 
