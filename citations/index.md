@@ -25,7 +25,7 @@ the interfaces.
 ## Language Manual
 
 * <p>Stan Development Team. 2016. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.12.0.
+  Reference Manual</i>, Version 2.14.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -33,12 +33,12 @@ the interfaces.
 ## Stan Math Library
 
 * <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
-  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
+  2.14.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
 
 
 ## Stan C++ Library
 
-* <p>Stan Development Team. 2016. <i>The Stan C++ Library</i>, Version 2.12.0.
+* <p>Stan Development Team. 2016. <i>The Stan C++ Library</i>, Version 2.14.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -61,7 +61,7 @@ the interfaces.
 ## CmdStan
 
 * <p>Stan Development Team. 2016. <i>CmdStan: the command-line
-  interface to Stan</i>, Version 2.13.1.
+  interface to Stan</i>, Version 2.14.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 

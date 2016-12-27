@@ -22,6 +22,12 @@ interfaces.
 
 
 * <p>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.14.0</a>
+  <br />
+  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+  </p>
+* **If you are using RStan/PyStan v2.13, download this manual:**
+  <p>
   <a href="https://github.com/stan-dev/stan/releases/download/v2.13.1/stan-reference-2.13.1.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.13.1</a>
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
