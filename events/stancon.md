@@ -53,25 +53,24 @@ such as knitr or Jupyter, and will take the place of proceedings.
 
 For details on submissions see the [StanCon Submissions](/events/stancon-submissions.html) page.
 
-# Tentative Schedule:
+# Schedule:
 
-8:00 - 9:00 Registration / Coffee / Breakfast
+| Time | What |
+|-------|----------|
+| 7:30 AM - 8:45 AM | Registration and breakfast |
+| 8:45 AM - 9:00 AM | Opening statements |
+| 9:00 AM - 10:00 AM | Dev talk: Andrew Gelman |
+| 10:00 AM - 10:30 AM | Coffee |
+| 10:30 AM - 12:00 PM | Contributed talks (5 talks) |
+| 12:00 PM - 1:15 PM | Lunch |
+| 1:15 PM - 2:15 PM | Dev talk: Michael Betancourt |
+| 2:15 PM - 2:30 PM | Stretch break |
+| 2:30 PM - 3:45 PM | Contributed talks (4 talks) |
+| 3:45 PM - 4:45 PM | Mingling and coffee |
+| 4:45 PM - 5:45 PM | Q&A Panel |
+| 5:45 PM - 6:00 PM | Closing remarks |
 
-9:00 - 9:20 Opening remarks
-
-9:20 - 10:30 Session 1
-
-10:30 - 11:00 Coffee break
-
-11:00 - 12:30 Session 2
-
-12:30 - 2:00 Lunch
-
-2:00 - 3:15 Session 3
-
-3:15 - 3:45 Coffee break
-
-3:45 - 5:00 Session 4
+For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.
 
 # Sponsors:
 
