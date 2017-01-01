@@ -46,7 +46,7 @@ the interfaces.
 ## RStan
 
 * <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>.
-  R package version 2.12.1.
+  R package version 2.14.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 

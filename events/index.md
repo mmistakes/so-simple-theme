@@ -34,71 +34,10 @@ Submissions
 : [View](/events/stancon-submissions.html)
 
 
-# **August 2016**
 
-## Bayesian Inference in Stan
+<!-- # **January 2017** -->
 
-Instructor
-: Daniel Lee
-
-Date
-: 23--24 August 2016
-
-Location:
-: Anchorage, Alaska <span class="note">(USA)</span>
-
-Venue
-: [Alaska Science Center](http://alaska.usgs.gov/)
-
-Details
-: [View](https://s01.123signup.com/servlet/SignUpMember?PG=1533922182300&P=15339221911420546800&Info)
-
-
-# **September 2016**
-
-## Bayesian Inference with Stan for Pharmacometrics
-
-Instructors
-: Michael Betancourt, Daniel Lee, Bob Carpenter
-
-Dates
-: 19--21 September 2016
-
-Location:
-: Paris <span class="note">(France)</span>
-
-Details
-: [View](https://www.eventbrite.com/e/bayesian-inference-with-stan-for-pharmacometrics-3-day-course-tickets-25910314448)
-
-
-## Stan for Pharmacometrics Day (Free Workshop)
-
-Date
-: 22 September 2016
-
-Location:
-: Paris <span class="note">(France)</span>
-
-Details
-: [View](https://www.eventbrite.com/e/stan-for-pharmacometrics-day-tickets-25399716235)
-
-# **October 2016**
-
-## ASA Webinar: Introduction to Stan - From Logistic Regression to PK/PD ODE Models
-
-Instructor
-: Sebastian Weber
-
-Date
-: 06 October 2016
-
-Location
-: Webinar
-
-Details
-: [View](http://www.amstat.org/education/weblectures/#ISFLR)
-
-
+# **Past**
 
 ## Getting Started with PK/PD Modeling using Stan
 
@@ -118,7 +57,65 @@ Details
 : [View](http://metrumrg.com/events/2016/10/23/bayesianpkpd.html)
 
 
-# **Past**
+## ASA Webinar: Introduction to Stan - From Logistic Regression to PK/PD ODE Models
+
+Instructor
+: Sebastian Weber
+
+Date
+: 06 October 2016
+
+Location
+: Webinar
+
+Details
+: [View](http://www.amstat.org/education/weblectures/#ISFLR)
+
+## Stan for Pharmacometrics Day (Free Workshop)
+
+Date
+: 22 September 2016
+
+Location:
+: Paris <span class="note">(France)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/stan-for-pharmacometrics-day-tickets-25399716235)
+
+
+## Bayesian Inference with Stan for Pharmacometrics
+
+Instructors
+: Michael Betancourt, Daniel Lee, Bob Carpenter
+
+Dates
+: 19--21 September 2016
+
+Location:
+: Paris <span class="note">(France)</span>
+
+Details
+: [View](https://www.eventbrite.com/e/bayesian-inference-with-stan-for-pharmacometrics-3-day-course-tickets-25910314448)
+
+
+## Bayesian Inference in Stan
+
+Instructor
+: Daniel Lee
+
+Date
+: 23--24 August 2016
+
+Location:
+: Anchorage, Alaska <span class="note">(USA)</span>
+
+Venue
+: [Alaska Science Center](http://alaska.usgs.gov/)
+
+Details
+: [View](https://s01.123signup.com/servlet/SignUpMember?PG=1533922182300&P=15339221911420546800&Info)
+
+
 
 ## An Introduction to Econometric Modeling using Stan
 
