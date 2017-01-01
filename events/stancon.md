@@ -55,21 +55,67 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
 
 # Schedule:
 
-| Time | What |
-|-------|----------|
-| 7:30 AM - 8:45 AM | Registration and breakfast |
-| 8:45 AM - 9:00 AM | Opening statements |
-| 9:00 AM - 10:00 AM | Dev talk: Andrew Gelman |
-| 10:00 AM - 10:30 AM | Coffee |
-| 10:30 AM - 12:00 PM | Contributed talks (5 talks) |
-| 12:00 PM - 1:15 PM | Lunch |
-| 1:15 PM - 2:15 PM | Dev talk: Michael Betancourt |
-| 2:15 PM - 2:30 PM | Stretch break |
-| 2:30 PM - 3:45 PM | Contributed talks (4 talks) |
-| 3:45 PM - 4:45 PM | Mingling and coffee |
-| 4:45 PM - 5:45 PM | Q&A Panel |
-| 5:45 PM - 6:00 PM | Closing remarks |
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-baqh">Time</th>
+    <th class="tg-baqh">What</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7:30 AM - 8:45 AM</td>
+    <td class="tg-yw4l">Registration and breakfast</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">8:45 AM - 9:00 AM</td>
+    <td class="tg-yw4l">Opening statements</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">9:00 AM - 10:00 AM</td>
+    <td class="tg-yw4l">Dev talk: Andrew Gelman</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">10:00 AM - 10:30 AM</td>
+    <td class="tg-yw4l">Coffee</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
+    <td class="tg-yw4l">Contributed talks (5 talks)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">12:00 PM - 1:15 PM</td>
+    <td class="tg-yw4l">Lunch</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1:15 PM - 2:15 PM</td>
+    <td class="tg-yw4l">Dev talk: Michael Betancourt</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">2:15 PM - 2:30 PM</td>
+    <td class="tg-yw4l">Stretch break</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">2:30 PM - 3:45 PM</td>
+    <td class="tg-yw4l">Contributed talks (4 talks)</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3:45 PM - 4:45 PM</td>
+    <td class="tg-yw4l">Mingling and coffee</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">4:45 PM - 5:45 PM</td>
+    <td class="tg-yw4l">Q&amp;A Panel</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">5:45 PM - 6:00 PM</td>
+    <td class="tg-yw4l">Closing remarks</td>
+  </tr>
+</table>
 For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.
 
 # Sponsors:
