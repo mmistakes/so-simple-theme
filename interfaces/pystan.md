@@ -19,7 +19,7 @@ Instructions for downloading, installing, and getting started with
 PyStan on all platforms.
 
 * <p>
-  <a href="https://pystan.readthedocs.org/en/latest/getting_started.html">PyStan     Getting Started</a>
+  <a href="https://pystan.readthedocs.org/en/latest/getting_started.html">PyStan Getting Started</a>
   <span class="note">(readthedocs.org)</span>
   </p>
 
