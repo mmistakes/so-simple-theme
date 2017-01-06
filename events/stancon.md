@@ -32,11 +32,7 @@ New York, NY 10027
 
 ## Early registration (on or before December 20, 2016):
 
-- Student: $50
-- Academic: $100
-- Industry: $200
-
-This will include coffee, lunch, and some swag.
+This includes light breakfast, coffee, lunch, and some swag.
 
 ## Late Registration (December 21, 2016 and on):
 
@@ -44,7 +40,16 @@ This will include coffee, lunch, and some swag.
 - Academic: $150
 - Industry: $300
 
-This will include coffee and lunch. Probably won't get swag.
+This includes light breakfast, coffee, and lunch. Probably won't get swag.
+
+## On-site Registration (on January 21, 2017; cash or through Eventbrite)
+
+If StanCon isn't sold out:
+
+- $400
+
+This includes light breakfast, coffee, and lunch. No swag.
+
 
 # Contributed talks:
 
