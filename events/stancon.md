@@ -53,10 +53,7 @@ This includes light breakfast, coffee, and lunch. No swag.
 
 # Contributed talks:
 
-We're looking for contributed talks. The contributed talks at StanCon will be based on interactive, self-contained notebooks,
-such as knitr or Jupyter, and will take the place of proceedings.
-
-For details on submissions see the [StanCon Submissions](/events/stancon-submissions.html) page.
+The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings. These will be made available after StanCon.
 
 # Schedule:
 
@@ -82,7 +79,8 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
   </tr>
   <tr>
     <td class="tg-yw4l">9:00 AM - 10:00 AM</td>
-    <td class="tg-yw4l">Dev talk: Andrew Gelman</td>
+    <td class="tg-yw4l">**Dev talk:**</br>
+      Andrew Gelman: "10 Things I Hate About Stan"</td>
   </tr>
   <tr>
     <td class="tg-yw4l">10:00 AM - 10:30 AM</td>
@@ -90,7 +88,19 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
   </tr>
   <tr>
     <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
-    <td class="tg-yw4l">Contributed talks (5 talks)</td>
+    <td class="tg-yw4l">**Contributed talks:**</br>
+      <ol>
+      <li>Jonathan Auerbach, Rob Trangucci:</br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
+      <li>Milad Kharratzadeh:</br>
+      "Hierarchical Bayesian Modeling of the English Premier League"</li>
+      <li>Victor Lei, Nathan Sanders, Abigail Dawson:</br>
+      "Advertising Attribution Modeling in the Movie Industry"</li>
+      <li>Woo-Young Ahn, Nate Haines, Lei Zhang:</br>
+      "hBayesDM: Hierarchical Bayesian modeling of decision-making tasks"</li>
+      <li>Charles Margossian, Bill Gillespie:</br>
+      "Differential Equation Based Models in Stan"</li>
+      </ol>
+    </td>
   </tr>
   <tr>
     <td class="tg-yw4l">12:00 PM - 1:15 PM</td>
@@ -98,7 +108,9 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
   </tr>
   <tr>
     <td class="tg-yw4l">1:15 PM - 2:15 PM</td>
-    <td class="tg-yw4l">Dev talk: Michael Betancourt</td>
+    <td class="tg-yw4l">**Dev talk:**</br>
+    Michael Betancourt: "Everything You Should Have Learned About Markov Chain Monte Carlo”
+</td>
   </tr>
   <tr>
     <td class="tg-yw4l">2:15 PM - 2:30 PM</td>
@@ -106,7 +118,17 @@ For details on submissions see the [StanCon Submissions](/events/stancon-submiss
   </tr>
   <tr>
     <td class="tg-yw4l">2:30 PM - 3:45 PM</td>
-    <td class="tg-yw4l">Contributed talks (4 talks)</td>
+    <td class="tg-yw4l">**Contributed talks:**</br>
+      <ol>
+        <li>Teddy Groves:</br>
+        "How to Test IRT Models Using Simulated Data"</li>
+        <li> Bruno Nicenboim, Shravan Vasishth:</br>
+        "Models of Retrieval in Sentence Comprehension"</li>
+        <li>Rob Trangucci:</br>
+        "Hierarchical Gaussian Processes in Stan"</li>
+        <li>Nathan Sanders, Victor Lei:</br>
+        "Annualized Rate of Mass Shootings"</li>
+      </ol></td>
   </tr>
   <tr>
     <td class="tg-yw4l">3:45 PM - 4:45 PM</td>
