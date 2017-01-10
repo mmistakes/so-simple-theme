@@ -63,6 +63,8 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-yw4l{vertical-align:top}
+.tg ol{margin: 0px 0;}
+.tg li{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;margin: 5px 0;}
 </style>
 <table class="tg">
   <tr>
@@ -80,7 +82,8 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">9:00 AM - 10:00 AM</td>
     <td class="tg-yw4l"><b>Dev talk:</b><br>
-      Andrew Gelman: "10 Things I Hate About Stan"</td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andrew Gelman:<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"10 Things I Hate About Stan"</td>
   </tr>
   <tr>
     <td class="tg-yw4l">10:00 AM - 10:30 AM</td>
@@ -89,7 +92,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
-      <ol class="tg-yw4l">
+      <ol>
       <li>Jonathan Auerbach, Rob Trangucci:<br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
       <li>Milad Kharratzadeh:<br>
       "Hierarchical Bayesian Modeling of the English Premier League"</li>
@@ -109,7 +112,8 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">1:15 PM - 2:15 PM</td>
     <td class="tg-yw4l"><b>Dev talk:</b><br>
-    Michael Betancourt: "Everything You Should Have Learned About Markov Chain Monte Carlo”
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Betancourt:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Everything You Should Have Learned About Markov Chain Monte Carlo”
 </td>
   </tr>
   <tr>
@@ -119,7 +123,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">2:30 PM - 3:45 PM</td>
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
-      <ol class="tg-yw4l">
+      <ol>
         <li>Teddy Groves:<br>
         "How to Test IRT Models Using Simulated Data"</li>
         <li> Bruno Nicenboim, Shravan Vasishth:<br>
