@@ -153,6 +153,8 @@ Thanks to our wonderful sponsors for making StanCon 2017 happen!
 
 <center><a href="http://metrumrg.com" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/metrum_logo.png" alt="Metrum Research Group" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
+<center><a href=" https://www.rcanalytics.com/" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/real_capital_analytics.jpg" alt="Real Capital Analytics" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
+
 <center><a href="http://stan.fit" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/stangroup_logo.png" alt="Stan Group Inc" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
 
