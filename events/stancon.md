@@ -79,7 +79,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   </tr>
   <tr>
     <td class="tg-yw4l">9:00 AM - 10:00 AM</td>
-    <td class="tg-yw4l">**Dev talk:**</br>
+    <td class="tg-yw4l"><b>Dev talk:</b><br>
       Andrew Gelman: "10 Things I Hate About Stan"</td>
   </tr>
   <tr>
@@ -88,16 +88,16 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   </tr>
   <tr>
     <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
-    <td class="tg-yw4l">**Contributed talks:**</br>
+    <td class="tg-yw4l"><b>Contributed talks:</b><br>
       <ol>
-      <li>Jonathan Auerbach, Rob Trangucci:</br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
-      <li>Milad Kharratzadeh:</br>
+      <li>Jonathan Auerbach, Rob Trangucci:<br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
+      <li>Milad Kharratzadeh:<br>
       "Hierarchical Bayesian Modeling of the English Premier League"</li>
-      <li>Victor Lei, Nathan Sanders, Abigail Dawson:</br>
+      <li>Victor Lei, Nathan Sanders, Abigail Dawson:<br>
       "Advertising Attribution Modeling in the Movie Industry"</li>
-      <li>Woo-Young Ahn, Nate Haines, Lei Zhang:</br>
+      <li>Woo-Young Ahn, Nate Haines, Lei Zhang:<br>
       "hBayesDM: Hierarchical Bayesian modeling of decision-making tasks"</li>
-      <li>Charles Margossian, Bill Gillespie:</br>
+      <li>Charles Margossian, Bill Gillespie:<br>
       "Differential Equation Based Models in Stan"</li>
       </ol>
     </td>
@@ -108,7 +108,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   </tr>
   <tr>
     <td class="tg-yw4l">1:15 PM - 2:15 PM</td>
-    <td class="tg-yw4l">**Dev talk:**</br>
+    <td class="tg-yw4l"><b>Dev talk:</b><br>
     Michael Betancourt: "Everything You Should Have Learned About Markov Chain Monte Carlo”
 </td>
   </tr>
@@ -118,15 +118,15 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   </tr>
   <tr>
     <td class="tg-yw4l">2:30 PM - 3:45 PM</td>
-    <td class="tg-yw4l">**Contributed talks:**</br>
+    <td class="tg-yw4l"><b>Contributed talks:</b><br>
       <ol>
-        <li>Teddy Groves:</br>
+        <li>Teddy Groves:<br>
         "How to Test IRT Models Using Simulated Data"</li>
-        <li> Bruno Nicenboim, Shravan Vasishth:</br>
+        <li> Bruno Nicenboim, Shravan Vasishth:<br>
         "Models of Retrieval in Sentence Comprehension"</li>
-        <li>Rob Trangucci:</br>
+        <li>Rob Trangucci:<br>
         "Hierarchical Gaussian Processes in Stan"</li>
-        <li>Nathan Sanders, Victor Lei:</br>
+        <li>Nathan Sanders, Victor Lei:<br>
         "Annualized Rate of Mass Shootings"</li>
       </ol></td>
   </tr>
@@ -153,7 +153,7 @@ Thanks to our wonderful sponsors for making StanCon 2017 happen!
 
 <center><a href="http://metrumrg.com" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/metrum_logo.png" alt="Metrum Research Group" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
-<center><a href=" https://www.rcanalytics.com/" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/real_capital_analytics.jpg" alt="Real Capital Analytics" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
+<center><a href=" https://www.rcanalytics.com/" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/real_capital_analytics_logo.jpg" alt="Real Capital Analytics" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
 <center><a href="http://stan.fit" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/stangroup_logo.png" alt="Stan Group Inc" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
