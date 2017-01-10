@@ -89,7 +89,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
-      <ol>
+      <ol class="tg-yw4l">
       <li>Jonathan Auerbach, Rob Trangucci:<br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
       <li>Milad Kharratzadeh:<br>
       "Hierarchical Bayesian Modeling of the English Premier League"</li>
@@ -119,7 +119,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   <tr>
     <td class="tg-yw4l">2:30 PM - 3:45 PM</td>
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
-      <ol>
+      <ol class="tg-yw4l">
         <li>Teddy Groves:<br>
         "How to Test IRT Models Using Simulated Data"</li>
         <li> Bruno Nicenboim, Shravan Vasishth:<br>
