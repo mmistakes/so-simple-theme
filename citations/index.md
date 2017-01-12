@@ -139,10 +139,11 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers about Stan
 
-* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich,
-  Michael Betancourt, Michael A. Brubaker, Jiqiang Guo, Peter Li, and
-  Allen Riddell.  2016.  Stan: A probabilistic programming language.
-  <i>Journal of Statistical Software</i> (in press).
+* Bob Carpenter, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben
+  Goodrich, Michael Betancourt, Marcus Brubaker, Jiqiang Guo,
+  Peter Li, and Allen Riddell.  2017.  Stan: A probabilistic
+  programming language.  *Journal of Statistical Software* 76(1). 
+  DOI <a href="http://dx.doi.org/10.18637/jss.v076.i01">10.18637/jss.v076.i01</a>
 
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
   Gelman. 2016. Fitting Bayesian item response models in Stata and
