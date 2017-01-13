@@ -142,7 +142,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Bob Carpenter, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben
   Goodrich, Michael Betancourt, Marcus Brubaker, Jiqiang Guo,
   Peter Li, and Allen Riddell.  2017.  Stan: A probabilistic
-  programming language.  *Journal of Statistical Software* 76(1). 
+  programming language.  *Journal of Statistical Software* 76(1).
   DOI <a href="http://dx.doi.org/10.18637/jss.v076.i01">10.18637/jss.v076.i01</a>
 
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
@@ -180,6 +180,11 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 
 # Papers Using Stan
+
+* Luc E. Coffeng , Cornelus C. Hermsen, Robert W. Sauerwein,
+  Sake J. de Vlas. 2017. The Power of Malaria Vaccine Trials
+  Using Controlled Human Malaria
+  Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
 * Smyl, S. and K. Kuber. 2016. Data preprocessing and augmentation for multiple
   short time series forecasting with recurrent neural networks.  *36th
