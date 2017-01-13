@@ -131,7 +131,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
         <li>Rob Trangucci:<br>
         "Hierarchical Gaussian Processes in Stan"</li>
         <li>Nathan Sanders, Victor Lei:<br>
-        "Annualized Rate of Mass Shootings"</li>
+        "Modeling the Rate of Public Mass Shootings with Gaussian Processes"</li>
       </ol></td>
   </tr>
   <tr>
