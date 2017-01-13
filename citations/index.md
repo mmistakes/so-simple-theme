@@ -145,12 +145,15 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   programming language.  *Journal of Statistical Software* 76(1).
   DOI <a href="http://dx.doi.org/10.18637/jss.v076.i01">10.18637/jss.v076.i01</a>
 
+* Michael Betancourt. 2017. A Conceptual Introduction to
+  Hamiltonian Monte Carlo.  *arXiv*:1701.02434.
+
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
   Gelman. 2016. Fitting Bayesian item response models in Stata and
   Stan. *arXiv* 1601.03443.
 
 * Michael J. Betancourt. 2016.  Identifying the Optimal Integration
-  Time in Hamiltonian Monte Carlo. *arXiv* 1601.00225.
+  Time in Hamiltonian Monte Carlo. *arXiv*:1601.00225.
 
 * Andrew Gelman, Daniel Lee, and Jiqiang Guo.  2015.  Stan:
   A probabilistic programming language for Bayesian inference
