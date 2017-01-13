@@ -145,10 +145,10 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
   </tr>
   <tr>
     <td class="tg-yw4l">5:40 PM - 6:00 PM</td>
-    <td class="tg-yw4l"><b>Closing remarks:</b><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bob Carpenter:<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Where is Stan Going Next?”
-    </td>
+    <td class="tg-yw4l"><b>Closing remarks:</b>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bob Carpenter:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Where is Stan Going Next?"
+                        </td>
   </tr>
 </table>
 For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.

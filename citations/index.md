@@ -139,17 +139,25 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers about Stan
 
-* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich,
-  Michael Betancourt, Michael A. Brubaker, Jiqiang Guo, Peter Li, and
-  Allen Riddell.  2016.  Stan: A probabilistic programming language.
-  <i>Journal of Statistical Software</i> (in press).
+* Bob Carpenter, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben
+  Goodrich, Michael Betancourt, Marcus Brubaker, Jiqiang Guo,
+  Peter Li, and Allen Riddell.  2017.  Stan: A probabilistic
+  programming language.  *Journal of Statistical Software* 76(1).
+  DOI <a href="http://dx.doi.org/10.18637/jss.v076.i01">10.18637/jss.v076.i01</a>
+
+* Michael Betancourt. 2017. A Conceptual Introduction to
+  Hamiltonian Monte Carlo.  *arXiv*:1701.02434.
+
+* Cole C. Monnahan, James T. Thorson, and Trevor A. Branch. 2016.
+  Faster estimation of Bayesian models in ecology using
+  Hamiltonian Monte Carlo. *Methods in Ecology and Evolution*.
 
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
   Gelman. 2016. Fitting Bayesian item response models in Stata and
   Stan. *arXiv* 1601.03443.
 
 * Michael J. Betancourt. 2016.  Identifying the Optimal Integration
-  Time in Hamiltonian Monte Carlo. *arXiv* 1601.00225.
+  Time in Hamiltonian Monte Carlo. *arXiv*:1601.00225.
 
 * Andrew Gelman, Daniel Lee, and Jiqiang Guo.  2015.  Stan:
   A probabilistic programming language for Bayesian inference
@@ -179,6 +187,16 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 
 # Papers Using Stan
+
+* Luc E. Coffeng , Cornelus C. Hermsen, Robert W. Sauerwein,
+  Sake J. de Vlas. 2017. The Power of Malaria Vaccine Trials
+  Using Controlled Human Malaria
+  Infection.  *PLoS Computational Biology* 13(1): e1005255.
+
+* Mahar, R. K., Carlin, J. B., Ranganathan, S., Ponsonby, A. L.,
+  Vuillermin, P., & Vukcevic, D. 2016. Bayesian modelling of
+  repeated measures lung function data from multiple-breath washout
+  tests. *arXiv*:1612.08617.
 
 * Smyl, S. and K. Kuber. 2016. Data preprocessing and augmentation for multiple
   short time series forecasting with recurrent neural networks.  *36th
@@ -461,7 +479,6 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Citing Stan
 
-
 * Natanegara, Fanni, Neuenschwander, Beat, Seaman, John W.,
   Kinnersley, Nelson, Heilmann, Cory R., Ohlssen, David, Rochester,
   George. 2013. The current state of Bayesian methods in medical
@@ -493,11 +510,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers using NUTS
 
-* <big>Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
+* Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
   Probabilistic Uncertainty Quantification Using Advanced Proxy Based
   Methods.  *Proceedings of the Society of Petroleum Engineers
-  Reservoir Simulation Symposium*.</big>
-
+  Reservoir Simulation Symposium*.
 
 # Software using Stan
 

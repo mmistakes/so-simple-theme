@@ -73,7 +73,7 @@ technology.
 
 * Tanner Sorensen and Shravan Vasishth (2015) [A tutorial on fitting Bayesian linear mixed models using Stan](http://www.ling.uni-potsdam.de/~vasishth/statistics/BayesLMMs.html). 2015.  University of Postdam.  Earlier draft, <i>arXiv</i>: 1506.06201.
 
-*  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Efficient implementation of leave-one-out cross-validation and WAIC for evaluating fitted Bayesian models](http://arxiv.org/abs/1507.04544). <i>arXiv</i>: 1507.04544.
+*  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC](http://dx.doi.org/10.1007/s11222-016-9696-4). In <i>Statistics and Computing</i>, Online first doi:10.1007/s11222-016-9696-4. [<i>arXiv</i>: 1507.04544](http://arxiv.org/abs/1507.04544).
 
 
 
