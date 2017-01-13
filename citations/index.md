@@ -148,6 +148,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 * Michael Betancourt. 2017. A Conceptual Introduction to
   Hamiltonian Monte Carlo.  *arXiv*:1701.02434.
 
+* Cole C. Monnahan, James T. Thorson, and Trevor A. Branch. 2016.
+  Faster estimation of Bayesian models in ecology using
+  Hamiltonian Monte Carlo. *Methods in Ecology and Evolution*.
+
 * Robert L. Grant, Daniel C. Furr, Bob Carpenter, and Andrew
   Gelman. 2016. Fitting Bayesian item response models in Stata and
   Stan. *arXiv* 1601.03443.
@@ -475,7 +479,6 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Citing Stan
 
-
 * Natanegara, Fanni, Neuenschwander, Beat, Seaman, John W.,
   Kinnersley, Nelson, Heilmann, Cory R., Ohlssen, David, Rochester,
   George. 2013. The current state of Bayesian methods in medical
@@ -507,11 +510,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers using NUTS
 
-* <big>Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
+* Nigel Goodwin. 2015.  Bridging the Gap Between Deterministic and
   Probabilistic Uncertainty Quantification Using Advanced Proxy Based
   Methods.  *Proceedings of the Society of Petroleum Engineers
-  Reservoir Simulation Symposium*.</big>
-
+  Reservoir Simulation Symposium*.
 
 # Software using Stan
 
