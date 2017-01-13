@@ -14,17 +14,18 @@ image:
 
 Saturday, January 21, 2017
 
-9 am - 5 pm
+8:45 am - 6 pm
 
 # Where:
 
 Davis Auditorium, Columbia University
-
 530 West 120th Street
-
 4th floor (campus level), room 412
-
 New York, NY 10027
+
+We recommend that you enter at W 116th St and Broadway through the main Columbia University gates.
+
+[More details] including parking information.
 
 # Registration:
 
@@ -131,7 +132,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
         <li>Rob Trangucci:<br>
         "Hierarchical Gaussian Processes in Stan"</li>
         <li>Nathan Sanders, Victor Lei:<br>
-        "Annualized Rate of Mass Shootings"</li>
+        "Modeling the Rate of Public Mass Shootings with Gaussian Processes"</li>
       </ol></td>
   </tr>
   <tr>
@@ -139,12 +140,15 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l">Mingling and coffee</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">4:45 PM - 5:45 PM</td>
+    <td class="tg-yw4l">4:45 PM - 5:40 PM</td>
     <td class="tg-yw4l">Q&amp;A Panel</td>
   </tr>
   <tr>
-    <td class="tg-yw4l">5:45 PM - 6:00 PM</td>
-    <td class="tg-yw4l">Closing remarks</td>
+    <td class="tg-yw4l">5:40 PM - 6:00 PM</td>
+    <td class="tg-yw4l"><b>Closing remarks:</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bob Carpenter:<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Where is Stan Going Next?”
+    </td>
   </tr>
 </table>
 For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.
@@ -153,7 +157,9 @@ For anyone interested, we will be heading to a bar / restaurant immediately afte
 
 Thanks to our wonderful sponsors for making StanCon 2017 happen!
 
-<center><a href="http://datascience.columbia.edu" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/columbia_data_science_logo.png" alt="Columbia University Data Science Institute" style="width: 45%; min-width: 150px;" /></a></center>
+<center><a href="http://datascience.columbia.edu" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/columbia_data_science_logo.png" alt="Columbia University Data Science Institute" style="width: 45%; min-width: 150px;"/></a></center>
+
+<center><a href="https://research.fb.com/" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/facebook_logo.jpg" alt="facebook research" style="width: 40%; min-width: 150px;"/></a></center>
 
 <center><a href="http://metrumrg.com" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/metrum_logo.png" alt="Metrum Research Group" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
