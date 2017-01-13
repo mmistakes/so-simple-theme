@@ -186,6 +186,11 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Using Controlled Human Malaria
   Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
+* Mahar, R. K., Carlin, J. B., Ranganathan, S., Ponsonby, A. L.,
+  Vuillermin, P., & Vukcevic, D. 2016. Bayesian modelling of
+  repeated measures lung function data from multiple-breath washout
+  tests. *arXiv*:1612.08617.
+
 * Smyl, S. and K. Kuber. 2016. Data preprocessing and augmentation for multiple
   short time series forecasting with recurrent neural networks.  *36th
   International Symposium on Forecasting*.  Santander.
