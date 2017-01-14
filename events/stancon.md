@@ -18,14 +18,14 @@ Saturday, January 21, 2017
 
 # Where:
 
-Davis Auditorium, Columbia University
-530 West 120th Street
-4th floor (campus level), room 412
-New York, NY 10027
+Davis Auditorium   
+Columbia University   
+530 West 120th Street   
+Room 412 (4th floor, campus level)   
+New York, NY 10027    
+[(Directions and parking info)](http://apam.columbia.edu/directions-davis-auditorium-cepsr)
 
-We recommend that you enter at W 116th St and Broadway through the main Columbia University gates.
-
-[More details] including parking information.
+We recommend that you enter at W 116th St and Broadway through the main Columbia University gates. 
 
 # Registration:
 
