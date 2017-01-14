@@ -25,7 +25,7 @@ New York, NY 10027
 
 We recommend that you enter at W 116th St and Broadway through the main Columbia University gates.
 
-[More details] including parking information.
+[More details](http://apam.columbia.edu/directions-davis-auditorium-cepsr) including directions and parking information.
 
 # Registration:
 
