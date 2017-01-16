@@ -27,6 +27,6 @@ image:
 
 <a href="http://www.ling.uni-potsdam.de/~nicenboim/"> **Bruno Nicenboim**</a> is a PhD candidate at the Department of Linguistics of the University of Potsdam, Germany. His research focus is on cognitive models that link memory processes with sentence comprehension, taking into account individual differences.  He currently teaches graduate and undergraduate level courses at the University of Potsdam.
 
-<a href="https://github.com/rtrangucci"> **Rob Trangucci**</a> still needs to send a bio.
+<a href="https://github.com/rtrangucci"> **Rob Trangucci**</a> is a statistician in NYC working with the Stan team.
 
 <a href="https://github.com/nesanders"> **Nathan Sanders**</a> is the Senior Director of Quantitative Analytics at Legendary Entertainment and has used Stan to model systems in astronomy, film, environmental policy, public health, and more.  
