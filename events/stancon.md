@@ -69,10 +69,6 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-baqh">Time</th>
-    <th class="tg-baqh">What</th>
-  </tr>
-  <tr>
     <td class="tg-yw4l">7:30 AM - 8:45 AM</td>
     <td class="tg-yw4l">Registration and breakfast</td>
   </tr>
@@ -104,6 +100,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
       <li>Charles Margossian, Bill Gillespie:<br>
       "Differential Equation Based Models in Stan"</li>
       </ol>
+      <a href="/events/stancon-presenter-bios.html#morning-session"><u>Presenter Bios</u></a>
     </td>
   </tr>
   <tr>
@@ -133,7 +130,9 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
         "Hierarchical Gaussian Processes in Stan"</li>
         <li>Nathan Sanders, Victor Lei:<br>
         "Modeling the Rate of Public Mass Shootings with Gaussian Processes"</li>
-      </ol></td>
+      </ol>
+      <a href="/events/stancon-presenter-bios.html#afternoon-session"><u>Presenter Bios</u></a>
+     </td>
   </tr>
   <tr>
     <td class="tg-yw4l">3:45 PM - 4:45 PM</td>
