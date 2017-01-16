@@ -40,7 +40,7 @@ restricted to Stan developers.
 Discussions prior to 2016 are archived and public on the 
 <a href="https://groups.google.com/forum/?fromgroups#!forum/stan-dev">Stan Developers Google Group</a>.
 
-If you would like to get posting priveleges on the developers forum,
+If you would like to get posting privileges on the developers forum,
 please post a query on the users group first.
 
 
