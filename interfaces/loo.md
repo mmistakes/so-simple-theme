@@ -14,9 +14,9 @@ estimate predictive error
 
 The loo package <span class="note">(R)</span> provides efficient
 approximate leave-one-out cross-validation <span
-class="note">(LOO)</span>, approximate standard errors predictive
-errors <span class="note">(including comparisons)</span>, and the
-widely applicable information criterion <span
+class="note">(LOO)</span>, approximate standard errors for estimated 
+predictive errors <span class="note">(including comparisons)</span>, 
+and the widely applicable information criterion <span
 class="note">(WAIC)</span>.
 
 The loo package can be used to estimate predictive error of any MCMC
