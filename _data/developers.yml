@@ -4,6 +4,7 @@
 #  email:
 #  linkedin:
 #  twitter:
+#  github:
 #  avatar:
 
 - name: Andrew Gelman
@@ -181,3 +182,11 @@
   twitter: PicaudV
   linkedin: https://www.linkedin.com/in/vincent-picaud-a5087275
   avatar: vincent_picaud.png
+
+- name: Imad Ali
+  affiliation: Columbia University
+  web: http://imadali.net
+  email: imad.ali@columbia.edu
+  linkedin: https://www.linkedin.com/in/imadmali
+  github: imadmali
+  avatar: imad_ali.png
