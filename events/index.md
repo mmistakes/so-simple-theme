@@ -21,7 +21,7 @@ or in many presentations at meetups and other venues.
 Date
 : 21 January 2017
 
-Location:
+Location
 : New York, NY <span class="note">(USA)</span>
 
 Venue

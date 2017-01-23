@@ -1,6 +1,6 @@
 ---
 layout: page
-title: StanCon Presenter Bios
+title: StanCon 2017 Presenter Bios
 excerpt: ""
 modified:
 image:

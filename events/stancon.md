@@ -73,7 +73,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
       <a href="stancon2017-notebooks/stancon2017-margossian-gillespie-ode.html">Differential Equation Based Models in Stan</a>
       </li>
       </ol>
-      <a href="/events/stancon-presenter-bios.html#morning-session"><u>Presenter Bios</u></a>
+      <a href="/events/stancon2017-presenter-bios.html#morning-session"><u>Presenter Bios</u></a>
     </td>
   </tr>
   <tr>
@@ -108,7 +108,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
       <a href="stancon2017-notebooks/stancon2017-sanders-lei-mass-shootings.html">Modeling the Rate of Public Mass Shootings with Gaussian Processes</a>
         </li>
       </ol>
-      <a href="/events/stancon-presenter-bios.html#afternoon-session"><u>Presenter Bios</u></a>
+      <a href="/events/stancon2017-presenter-bios.html#afternoon-session"><u>Presenter Bios</u></a>
      </td>
   </tr>
   <tr>
