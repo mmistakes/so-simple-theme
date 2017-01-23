@@ -21,7 +21,7 @@ New York, NY 10027
 
 The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings.
 
-* [StanCon 2017 Contributed Talks](https://github.com/stan-dev/stancon_talks) <span class="note">(notebooks, supplementary materials, slides)</span>
+* [StanCon Contributed Talks Respository](https://github.com/stan-dev/stancon_talks) <span class="note">(notebooks, supplementary materials, slides)</span>
 
 # Schedule:
 
