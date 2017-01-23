@@ -295,6 +295,29 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
+## Cognitive Diagnosis Model: DINA model with independent attributes
+
+<small>This case study documents a Stan model for the DINA model with independent attributes. A Simulation indicates that the Stan model successfully recovers the generating parameters and predicts respondents' attribute mastery. A Stan model with no structure of the attributes is also discussed and applied to the simulated data. An example using a subset of the fraction subtraction data is provided. </small>
+
+[View](case-studies/dina_independent.html) <span class="note">(HTML)</span>
+
+Author
+: Seung Yeon Lee
+
+Keywords
+: education, cognitive diagnosis model, diagnostic classification model, attribute mastery, DINA
+
+Source Repository
+: [example-models/education/dina_independent](https://github.com/stan-dev/example-models/tree/master/education/dina_independent)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, ggplot2, CDM</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
 
 ## Pooling with Hierarchical Models for Repeated Binary Trials
 
