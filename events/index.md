@@ -30,9 +30,6 @@ Venue
 Details
 : [View](/events/stancon.html)
 
-Published materials
-: [View](https://github.com/stan-dev/stancon_talks)
-
 
 
 <!-- # **January 2017** -->
