@@ -1,6 +1,6 @@
 ---
 layout: page
-title: StanCon
+title: StanCon 2017
 excerpt: ""
 modified:
 image:
@@ -10,51 +10,18 @@ image:
 ---
 
 
-# When:
-
 Saturday, January 21, 2017
 
-8:45 am - 6 pm
-
-# Where:
-
 Davis Auditorium   
-Columbia University   
-530 West 120th Street   
-Room 412 (4th floor, campus level)   
+Columbia University    
 New York, NY 10027    
-[(Directions and parking info)](http://apam.columbia.edu/directions-davis-auditorium-cepsr)
-
-We recommend that you enter at W 116th St and Broadway through the main Columbia University gates. 
-
-# Registration:
-
-[**Register now**](https://stancon2017.eventbrite.com)
-
-## Early registration (on or before December 20, 2016):
-
-This includes light breakfast, coffee, lunch, and some swag.
-
-## Late Registration (December 21, 2016 and on):
-
-- Student: $75
-- Academic: $150
-- Industry: $300
-
-This includes light breakfast, coffee, and lunch. Probably won't get swag.
-
-## On-site Registration (on January 21, 2017; cash or through Eventbrite)
-
-If StanCon isn't sold out:
-
-- $400
-
-This includes light breakfast, coffee, and lunch. No swag.
 
 
 # Contributed talks:
 
-The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings. These will be made available after StanCon.
+The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings.
+
+* [StanCon 2017 Contributed Talks](https://github.com/stan-dev/stancon_talks) <span class="note">(notebooks, supplementary materials, slides)</span>
 
 # Schedule:
 
@@ -150,7 +117,6 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
                         </td>
   </tr>
 </table>
-For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.
 
 # Sponsors:
 
@@ -165,11 +131,6 @@ Thanks to our wonderful sponsors for making StanCon 2017 happen!
 <center><a href=" https://www.rcanalytics.com/" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/real_capital_analytics_logo.jpg" alt="Real Capital Analytics" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
 <center><a href="http://stan.fit" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/stangroup_logo.png" alt="Stan Group Inc" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
-
-
-# Sponsorship:
-
-We are still looking for additional sponsorship for StanCon! Please email stancon@mc-stan.org for details or [sign up directly](https://stancon2017.eventbrite.com/?discount=sponsor#tickets).
 
 # Code of Conduct:
 

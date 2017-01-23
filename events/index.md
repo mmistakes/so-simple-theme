@@ -30,9 +30,6 @@ Venue
 Details
 : [View](/events/stancon.html)
 
-Submissions
-: [View](/events/stancon-submissions.html)
-
 
 
 <!-- # **January 2017** -->
