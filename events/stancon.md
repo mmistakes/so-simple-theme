@@ -1,6 +1,6 @@
 ---
 layout: page
-title: StanCon
+title: StanCon 2017
 excerpt: ""
 modified:
 image:
@@ -10,51 +10,18 @@ image:
 ---
 
 
-# When:
-
 Saturday, January 21, 2017
 
-8:45 am - 6 pm
-
-# Where:
-
 Davis Auditorium   
-Columbia University   
-530 West 120th Street   
-Room 412 (4th floor, campus level)   
+Columbia University    
 New York, NY 10027    
-[(Directions and parking info)](http://apam.columbia.edu/directions-davis-auditorium-cepsr)
-
-We recommend that you enter at W 116th St and Broadway through the main Columbia University gates. 
-
-# Registration:
-
-[**Register now**](https://stancon2017.eventbrite.com)
-
-## Early registration (on or before December 20, 2016):
-
-This includes light breakfast, coffee, lunch, and some swag.
-
-## Late Registration (December 21, 2016 and on):
-
-- Student: $75
-- Academic: $150
-- Industry: $300
-
-This includes light breakfast, coffee, and lunch. Probably won't get swag.
-
-## On-site Registration (on January 21, 2017; cash or through Eventbrite)
-
-If StanCon isn't sold out:
-
-- $400
-
-This includes light breakfast, coffee, and lunch. No swag.
 
 
 # Contributed talks:
 
-The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings. These will be made available after StanCon.
+The contributed talks at StanCon are based on interactive, self-contained notebooks, such as knitr or Jupyter, and will take the place of proceedings. Clicking on the title of a talk in the schedule below will take you to the generated PDF or HTML file for the corresponding notebook. The source code for the notebooks, supplementary materials, and the slides presented at the conference are also available in a separate repository on GitHub:
+
+* [StanCon Contributed Talks Respository](https://github.com/stan-dev/stancon_talks) <span class="note">(notebooks with source code, supplementary materials, slides)</span>
 
 # Schedule:
 
@@ -90,17 +57,23 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l">10:30 AM - 12:00 PM</td>
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
       <ol>
-      <li>Jonathan Auerbach, Rob Trangucci:<br>"Twelve Cities: Does lowering speed limits save pedestrian lives?"</li>
+      <li>Jonathan Auerbach, Rob Trangucci:<br>
+      <a href="stancon2017-notebooks/stancon2017-auerbach-trangucci-twelve-cities.pdf">Twelve Cities: Does lowering speed limits save pedestrian lives?</a>
+      </li>
       <li>Milad Kharratzadeh:<br>
-      "Hierarchical Bayesian Modeling of the English Premier League"</li>
+      <a href="stancon2017-notebooks/stancon2017-kharratzadeh-epl.pdf">Hierarchical Bayesian Modeling of the English Premier League</a>
+      </li>
       <li>Victor Lei, Nathan Sanders, Abigail Dawson:<br>
-      "Advertising Attribution Modeling in the Movie Industry"</li>
+      <a href="stancon2017-notebooks/stancon2017-lei-sanders-dawson-ad-attribution.html">Advertising Attribution Modeling in the Movie Industry</a>
+      </li>
       <li>Woo-Young Ahn, Nate Haines, Lei Zhang:<br>
-      "hBayesDM: Hierarchical Bayesian modeling of decision-making tasks"</li>
+      <a href="stancon2017-notebooks/stancon2017-ahn-haines-zhang-hBayesDM.html">hBayesDM: Hierarchical Bayesian modeling of decision-making tasks</a>
+      </li>
       <li>Charles Margossian, Bill Gillespie:<br>
-      "Differential Equation Based Models in Stan"</li>
+      <a href="stancon2017-notebooks/stancon2017-margossian-gillespie-ode.html">Differential Equation Based Models in Stan</a>
+      </li>
       </ol>
-      <a href="/events/stancon-presenter-bios.html#morning-session"><u>Presenter Bios</u></a>
+      <a href="/events/stancon2017-presenter-bios.html#morning-session"><u>Presenter Bios</u></a>
     </td>
   </tr>
   <tr>
@@ -123,15 +96,19 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l"><b>Contributed talks:</b><br>
       <ol>
         <li>Teddy Groves:<br>
-        "How to Test IRT Models Using Simulated Data"</li>
+      <a href="stancon2017-notebooks/stancon2017-groves-irt.html">How to Test IRT Models Using Simulated Data</a>
+        </li>
         <li> Bruno Nicenboim, Shravan Vasishth:<br>
-        "Models of Retrieval in Sentence Comprehension"</li>
+      <a href="stancon2017-notebooks/stancon2017-nicenboim-vasishth-retrieval-models.html">Models of Retrieval in Sentence Comprehension</a>
+        </li>
         <li>Rob Trangucci:<br>
-        "Hierarchical Gaussian Processes in Stan"</li>
+      <a href="stancon2017-notebooks/stancon2017-trangucci-hierarchical-gps.pdf">Hierarchical Gaussian Processes in Stan</a>
+        </li>
         <li>Nathan Sanders, Victor Lei:<br>
-        "Modeling the Rate of Public Mass Shootings with Gaussian Processes"</li>
+      <a href="stancon2017-notebooks/stancon2017-sanders-lei-mass-shootings.html">Modeling the Rate of Public Mass Shootings with Gaussian Processes</a>
+        </li>
       </ol>
-      <a href="/events/stancon-presenter-bios.html#afternoon-session"><u>Presenter Bios</u></a>
+      <a href="/events/stancon2017-presenter-bios.html#afternoon-session"><u>Presenter Bios</u></a>
      </td>
   </tr>
   <tr>
@@ -150,7 +127,6 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
                         </td>
   </tr>
 </table>
-For anyone interested, we will be heading to a bar / restaurant immediately after StanCon.
 
 # Sponsors:
 
@@ -166,15 +142,6 @@ Thanks to our wonderful sponsors for making StanCon 2017 happen!
 
 <center><a href="http://stan.fit" style="text-decoration: none"><img src="{{site.url}}/images/stancon2017/stangroup_logo.png" alt="Stan Group Inc" style="width: 40%; min-width: 150px;" vspace="20" /></a></center>
 
-
-# Sponsorship:
-
-We are still looking for additional sponsorship for StanCon! Please email stancon@mc-stan.org for details or [sign up directly](https://stancon2017.eventbrite.com/?discount=sponsor#tickets).
-
-# Code of Conduct:
-
-StanCon has a [code of conduct](/events/stancon-code_of_conduct.html) to ensure
-a safe and welcoming environment to all in attendance.
 
 # Organizers:
 
