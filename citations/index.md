@@ -193,6 +193,11 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Using Controlled Human Malaria
   Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
+* Tanner Sorensen, Sven Hohenstein, and Shravan Vasishth. 2016.
+  Bayesian linear mixed models using Stan: A tutorial for psychologists,
+  linguists, and cognitive scientists. *Quantitative Methods for
+  Psychology* 12(3):175--200.
+
 * Mahar, R. K., Carlin, J. B., Ranganathan, S., Ponsonby, A. L.,
   Vuillermin, P., & Vukcevic, D. 2016. Bayesian modelling of
   repeated measures lung function data from multiple-breath washout
