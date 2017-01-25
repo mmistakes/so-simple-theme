@@ -47,7 +47,9 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l">9:00 AM - 10:00 AM</td>
     <td class="tg-yw4l"><b>Dev talk:</b><br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andrew Gelman:<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"10 Things I Hate About Stan"</td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"untitled"
+      <span class="note">(<a href="https://youtu.be/DJ0c7Bm5Djk?t=22m57s">watch video</a>)</span>  
+      </td>
   </tr>
   <tr>
     <td class="tg-yw4l">10:00 AM - 10:30 AM</td>
@@ -90,6 +92,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l"><b>Dev talk:</b><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Betancourt:<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Everything You Should Have Learned About Markov Chain Monte Carlo”
+          <span class="note">(<a href="https://youtu.be/DJ0c7Bm5Djk?t=4h40m9s">watch video</a>)</span>
 </td>
   </tr>
   <tr>
