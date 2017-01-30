@@ -77,8 +77,10 @@ corporations.
 
 ## Foundation Grants
 
-We gratefully acknowledge support from the following foundation.
+We gratefully acknowledge support from the following foundations.
 
+* Max Planck Institute for Evolutionary Anthropology (Leipzig)
+  
 * Alfred P. Sloan Foundation
   <br />
   <span class="note">(G-2015-13987: <i>Stan Community and Continuity</i>)</span>
