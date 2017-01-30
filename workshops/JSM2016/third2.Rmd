@@ -1,0 +1,276 @@
+---
+title: An Introduction to Bayesian Inference using R Interfaces to Stan, Part II
+author: Ben Goodrich and Eric Novik
+date: July 30, 2016
+autosize: true
+output: 
+  ioslides_presentation:
+    widescreen: true
+---
+
+```{r, setup, include = FALSE}
+suppressPackageStartupMessages(library(knitr))
+suppressPackageStartupMessages(library(rstanarm))
+opts_chunk$set(dev.args = list(pointsize = 18), 
+               warning = FALSE, message = TRUE)
+options(mc.cores = parallel::detectCores())
+```
+
+# Writing Stan Programs
+
+## Workflow for Stan via the __rstan__ R Pakcage
+
+1. You write the program in a (text) .stan file in the Stan language
+2. Stan's parser, `stanc`, does two things:
+    * checks that program is syntactically valid and tells you if not
+    * writes a conceptually equivalent C++ source file to disk
+3. C++ compiler creates a binary file from the C++ source
+4. C++ is used due to operator overloading and templating
+    * C++ also facilitates autodifferentiation
+5. You execute the binary from R (can be concurrent with 2 -- 4)
+6. You analyze the resulting draws from the posterior
+
+## Primitive Object Types in Stan
+
+* In Stan / C++, variables must first be declared with types
+* In Stan / C++, statements are terminated with semi-colons
+* Primitive scalar declarations: `real x;` or `int K;`
+    * Unknowns cannot be int. No derivatives and hence no HMC
+    * Can condition on integer data. No derivatives are needed
+* Real declarations: `vector[K] z;`, `row_vector[K] zt;`, `matrix[N,K] X;`
+* Arrays are just holders of any other _homogenous_ objects, like an R list where are elements
+  are restricted to be the same type and shape
+* Vectors and matrices cannot contain _genuinely_ integer data so use integer array declarations:
+  `int y[N];` or `int Y[N,P]`;
+
+## Builtin Functions in Stan
+
+* __rstan__ has a function called `lookup`
+* Input the name of an R functionto find an analagous Stan function
+* Input a regular expression to find all matching Stan functions
+```{r}
+suppressPackageStartupMessages(library(rstan))
+lookup("besselK")
+```
+
+## Optional `functions` Block of a Stan Program
+  
+* Stan permits users to define and use their own functions
+* If used, must be defined in a leading `functions` block
+* Can only validate constraints inside user-defined functions
+* Very useful for several reasons
+    1. Easier to reuse across different .stan programs
+    2. Makes subsequent chunks of code more readable
+    3. Enables likelihoods with Ordinary Differential Equations
+    4. Can be exported to R via `expose_stan_functions`
+* All functions, whether user-defined or build-in, must be called by
+  argument position rather than by argument name, and there are no default arguments
+* See cumprod.stan file
+
+## Constrained Object Declarations in Stan
+
+* Any primitive object can have lower and / or upper bounds if declared in the `data`, `transformed data`,
+  `parameters`, or `transformed parameters` blocks
+* `int<lower=1> K; real<lower=-1,upper=1> rho;`
+* `vector<lower=0>[K] alpha;` and similarly for a `matrix`
+* Alternatively, a `vector` can be specialized as
+    1. `unit_vector[K] x;` implies $\sum_{k=1}^K{x_k^2} = 1$
+    2. `simplex[K] x;` implies $x_k \geq 0 \forall k$ and $\sum_{k=1}^K{x_k} = 1$
+    3. `ordered[K] x;` implies $x_i \leq x_j \forall i<j$
+    4. `positive_ordered[K] x;` implies also $0 \leq x_1$
+* Alternatively, a `matrix` can be specialized as
+    1. `cov_matrix[K] Sigma` or better `cholesky_factor_cov[K,K] L;`
+    2. `corr_matrix[K] Lambda` or better `cholesky_factor_corr[K] L;`
+
+## Required `data` Block of a Stan Program
+
+* Contains declarations for _everything_ being conditioned on in Bayes Rule
+* Each such object needs to be passed from R as a named list
+* Can have comments in C++ style (`// comment` or `/* comment */`)
+* Whitespace is essentially irrelevant
+```
+data {
+  int<lower=1> N; // number of observations
+  int<lower=1> K; // number of predictors
+  matrix[N, K] X; // design matrix
+  vector[N]    y; // outcomes
+  real<lower=0> prior_mean; // hyperparameter
+}
+```
+
+## Optional `transformed data` Block
+
+* Is executed only once before the iterations start
+* Used to calculate needed deterministic functions of objects in the `data` block
+* Can use it to check that data was passed correctly from R
+* All declarations must come directly after the opening {
+```
+transformed data {
+  vector[N] log_y;
+  log_y = log(y);
+}
+```
+
+## Required `parameters` Block of a Stan Program
+
+* Declare everything whose posterior distribution is sought
+* Cannot declare `int` parameters
+* Cannot do assignments within the `parameters` block
+* _Must_ specify the sample space of the parameters but lower and upper
+  bounds are implicitly $\pm\infty$ if unspecified
+```
+parameters {
+  vector[K] beta;
+  real<lower=0> sigma_unscaled; // Jacobian handled automatically here
+}
+```
+
+## Optional `transformed parameters` Block
+
+* Like `transformed data` but involves objects declared in the `parameters` block and is evaluated each 
+  leapfrog step
+* Constraints are validated and draws are stored
+```
+transformed parameters {
+  real<lower=0> sigma;
+  sigma = sigma_unscaled * prior_mean;
+}
+```
+
+## Required `model` Block of a Stan Program
+
+* Builds up a evaluation of the log-kernel function with the `target` keyword
+* Can declare local objects at the top of the `model` block and then assign to them but draws are not stored
+```
+model {
+  vector[N] eta;
+  eta = X * beta;
+  target += normal_lpdf(log_y | eta, sigma);      // likelihood of log(y)
+  target += normal_lpdf(beta | 0, 5);             // prior for each beta_k
+  target += exponential_lpdf(sigma_unscaled | 1); // prior for sigma_unscaled
+}
+```
+* Can increment `target` with user-defined functions or arbitrary expressions
+
+## Optional `generated quantities` Block
+
+* Only evaluated once per iteration
+* Useful to declare and define objects of interest that do not go into the likelihood function
+* Can reference any object declared in `data`, `transformed data`, `parameters`, or `transformed parameters`
+  blocks
+* Can use pseduo-random number generation
+```
+generated quantities {
+  vector[N] y_rep; // posterior beliefs about each y[n]
+  for (n in 1:N) y_rep[n] = normal_rng(X[n,] * beta, sigma);
+}
+```
+
+## Calling a Stan Program
+
+```{r, regression, results = "hide", cache = FALSE}
+state.x77 <- within(as.data.frame(state.x77), { # choose reasonable units
+  Density <- Population / Area
+  Income <- Income / 1000
+  Frost <- Frost / 100
+})
+X <- model.matrix(Murder ~ Density + Income + Illiteracy + Frost, data = state.x77)
+y <- state.x77$Murder
+data_block <- list(N = nrow(X), K = ncol(X), X = X, y = y, prior_mean = 5)
+options(mc.cores = parallel::detectCores())
+post <- stan("regression.stan", data = data_block)
+```
+
+## Results {.smaller}
+
+```{r}
+print(post, pars = 'y_rep', include = FALSE, digits = 2, probs = c(.25, .75))
+```
+
+## Diagnostics
+
+```{r}
+CA_rep <- extract(post, pars = 'y_rep')[[1]][,which(rownames(state.x77) == "California")]
+hist(state.x77["California", "Murder"] - exp(CA_rep), prob = TRUE,
+     main = "Errors for California", las = 1)
+```
+
+# Hierarchical Models
+
+## Bayesian Perspective on Hierarchical Models
+
+* Hierchical models are essentially models with interaction terms between predictors and group-indicators with
+  the additional provisions that:
+    * Group deviations are from a common mean rather than a baseline
+    * Include distributional assumptions for how the groups deviate
+* Suppose there are $J$ groups and $N_j$ observations in the $j$-th group and
+$$y_{ij} \thicksim \mathcal{N}\left(\mu_{ij},\sigma\right) \forall i,j$$
+$$\mu_{ij} = \left(\alpha + a_j\right) + \left(\beta + b_j\right)x_{ij} = 
+\alpha + \beta x_{ij} + a_j + b_j x_{ij} \forall i,j$$
+$$\begin{bmatrix}a_j\\
+b_j
+\end{bmatrix} \thicksim \mathcal{N}_{2}\left(\begin{bmatrix} 0 \\
+                                                     0
+                                      \end{bmatrix},
+                                      \begin{bmatrix} \sigma_a^2 & \rho \sigma_a \sigma_b \\
+                                                      \rho \sigma_a \sigma_b & \sigma_b^2
+                                      \end{bmatrix}\right) \forall j$$
+* Bayesians put priors on the _common_ parameters $\sigma$, $\alpha$, $\beta$, $\rho$, $\sigma_a$, and  $\sigma_b$
+
+## Frequentist Perspective on Hierarchical Models
+
+* For frequentists, $a_j + b_j x_{ij}$ is part of the error term; thus
+    * Observations within group $j$ aren't conditionally independent given $\alpha$ & $\beta$
+    * Frequentists are willing to make distributional assumptions about $a_j$ and $b_j$ 
+      (invariably bivariate normal). Let 
+      $\boldsymbol{\Sigma} = \begin{bmatrix} \sigma_a^2 & \rho \sigma_a \sigma_b \\
+                                              \rho \sigma_a \sigma_b & \sigma_b^2 \end{bmatrix}$ and
+      
+      $$z_{ij} = \int\limits _{-\infty}^{\infty} \int\limits _{-\infty}^{\infty} {
+      \frac{1}{\sigma \sqrt{2 \pi}}{
+      e^{-0.5 \left(\frac{y_{ij} - \alpha - \beta x_{ij} - a_j - b_j x_{ij}}{\sigma} \right)^2}}
+      \frac{1}{\left|\boldsymbol{\Sigma}\right|}e^{-0.5 \begin{bmatrix} a_j \\ 
+      b_j 
+      \end{bmatrix}^\top
+      \boldsymbol{\Sigma}^{-1} \begin{bmatrix} a_j \\ 
+      b_j
+      \end{bmatrix}} \ da_j db_j}$$
+* This particular integral happens to have a closed-form solution and one can choose $\sigma$, $\alpha$, 
+  $\beta$, $\rho$, $\sigma_a$, and  $\sigma_b$ to maximize $\sum_{j=1}^J \sum_{i=1}^{N_j} \ln z_{ij}$
+* But maximum likelihood is not a great estimator here so people penalize
+
+## Limitations of Frequentist Perspective
+
+* For frequentists, $a_j$ and $b_j$ are not parameters and thus cannot be _estimated_
+* $a_j$ and $b_j$ can be _predicted_ from group $j$'s residuals implied by 
+  $\widehat{\alpha}$ and $\widehat{\beta}$
+* Since $a_j$ and $b_j$ are not _estimated_, you cannot construct standard errors
+* Thus, you cannot make frequentist inferences about $a_j$ and / or $b_j$
+* You can conceptualize standard errors for the estimator of the common parameters $\sigma$, $\alpha$, $\beta$, 
+  $\rho$, $\sigma_a$, and  $\sigma_b$ but they are hard to calculate unless you treat the predictions of
+  $a_j$ and $b_j$ as given
+* To obtain a closed-form likelihood function to maximize, you have to assume normality both for the
+  outcome (conditional on $x_{ij}$) and for $a_j, b_j$. Otherwise, you get all of the computational difficulty
+  with intractable integrals that Bayesians avoid with MCMC and none of the benefit in interpretation.
+* The optimization process is not nearly as routine as it is for flat GLMs, and you often get corner solutions
+  where $\widehat{\boldsymbol{\Sigma}}$ is not positive definite
+
+## The `stan_glmer` Function
+
+* The `[g]lmer` functions in the __lme4__ R package are very popular because people want to quickly estimate 
+  hierarchical models with a convenient syntax and interpret the results as if they were Bayesian
+* But you can slowly estimate hierarchical models using the same convenient syntax by using the `stan_glmer` 
+  function in the __rstanarm__ R package and interpret the results in a genuinely Bayesian fashion
+* Eric will show an example of this
+
+## Summary
+
+* You can write almost any posterior log-kernel (whose parameters are continuous) in the Stan language
+* Whether Stan samples efficiently depends on how numerically stable your Stan program is
+    * But Stan will have no problem with a multivariate normal
+    * Stan has no problem with a lot of non-normal posteriors
+    * If Stan has problems, you can usually work around them
+    * If you cannot get around those problems, other software will usually suffer from them too without
+      being as easy to diagnose
+* Easy to include particular Stan program(s) in a package like __rstanarm__ does; see the
+  `rstan.package.skeleton` function in the __rstan__ package

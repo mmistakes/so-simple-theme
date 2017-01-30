@@ -34,6 +34,9 @@ programs, choose an interface:
 * [StataStan](/interfaces/stata-stan.html)
   <span class="note">(Stata)</span>
 
+* [MathematicaStan](/interfaces/mathematica-stan.html)
+  <span class="note">(Mathematica)</span>
+
 Stan programs are portable across interfaces.
 
 # Higher-Level Interfaces

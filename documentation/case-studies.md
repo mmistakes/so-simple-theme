@@ -18,7 +18,7 @@ in Bayesian methodology and Stan programming.
 # Contributing Case Studies
 
 To contribute a case study, please contact us through the [users
-group](/community/).  We require 
+group](/community/).  We require
 
 * a documented, reproducible example with narrative documentation
 <span class="note">(preferably coded using knitr or Jupyter)</span> and
@@ -32,6 +32,60 @@ clause)</span>; authors retain all rights, including copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Exact Sparse CAR Models in Stan
+
+<small>
+This document details sparse exact conditional autoregressive (CAR) models in Stan as an extension of previous work on approximate sparse CAR models in Stan. Sparse representations seem to give order of magnitude efficiency gains, scaling better for large spatial data sets.
+</small>
+
+[View](case-studies/mbjoseph-CARStan.html) <span class="note">(HTML)</span>
+
+Author
+: Max Joseph
+
+Keywords
+: conditional autorgressive (CAR), independent autoregressive (IAR), sparsity, spatial random effects, maps
+
+Source Repository
+: [mbjoseph/CARstan](https://github.com/mbjoseph/CARstan) <span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">dplyr</tt>, <tt style="font-size: 90%">ggmcmc</tt>, <tt style="font-size: 90%">knitr</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">rgeos</tt>, <tt style="font-size: 90%">spdep</tt>.
+
+License
+: BSD (3 clause), CC-BY
+
+
+## A Primer on Bayesian Multilevel Modeling using PyStan
+
+<small>
+This case study replicates the analysis of home radon levels using
+hierarchical models of [Lin, Gelman, Price, and Kurtz
+(1999)](http://www.stat.columbia.edu/~radon/credits.html).  It
+illustrates how to generalize linear regressions to hierarchical models with
+group-level predictors and how to compare predictive inferences and
+evaluate model fits. Along the way it shows how to get data into Stan
+using pandas, how to sample using PyStan, and how to visualize the results
+using Seaborn.
+</small>
+
+[View](case-studies/radon.html) <span class="note">(HTML)</span>
+
+Author
+: Chris Fonnesbeck
+
+Keywords
+: hierararchical/multilevel modeling, linear regression, model comparison, predictive inference, radon
+
+Source Repository
+: [fonnesbeck/stan_workshop_2016](https://github.com/fonnesbeck/stan_workshop_2016)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90%">pystan, numpy, pandas, matplotlib, seaborn</tt>
+
+License
+: Apache 2.0 (code), CC-BY 3 (text)
 
 ## Reparameterization: MLE vs. Bayes
 
@@ -70,7 +124,7 @@ License
 : BSD (3 clause), CC-BY
 
 
-## Hierarchical Two-Parameter Logistic Item Response Model 
+## Hierarchical Two-Parameter Logistic Item Response Model
 
 <small>This case study documents a Stan model for the two-parameter logistic model (2PL) with hierarchical priors. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a grade 12 science assessment is provided.</small>
 
@@ -259,7 +313,7 @@ the results in R using ggplot2, (ii) estimate event probabilities,
 predictions on held-out data, (iv) rank items by chance of success,
 (v) perform multiple comparisons in several settings, (vi) replicate
 new data for posterior p-values, and (vii) perform graphical posterior
-predictive checks.</small>
+predictive checks. </small>
 
 [View](case-studies/pool-binary-trials.html) <span class="note">(HTML)</span>
 
@@ -279,6 +333,18 @@ R Package Dependencies
 License
 :  BSD (3 clause), CC-BY
 
+
+#### RStanARM version
+
+<small>There is also a version of this case study in which all models are fit using the
+RStanARM interface. Many of the visualizations are also created using RStanARM's plotting
+functions.
+</small>
+
+[View RStanARM version](case-studies/pool-binary-trials-rstanarm.html) <span class="note">(HTML)</span>
+
+Author
+: Bob Carpenter, Jonah Gabry, Ben Goodrich
 
 
 # *Stan Case Studies*, &nbsp; Volume 2 &nbsp; (2015)

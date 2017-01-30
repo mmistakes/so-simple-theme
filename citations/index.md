@@ -32,30 +32,30 @@ funding.
 ## Language Manual
 
 * <p>Stan Development Team. 2016. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.9.0. 
+  Reference Manual</i>, Version 2.12.0. 
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 
 ## Stan Math Library
 
-* <p>Stan Development Team. 2016.  *The Stan Math Library*,  Version
-  2.9.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
+* <p>Stan Development Team. 2016.  <i>The Stan Math Library</i>,  Version
+  2.12.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 
 ## Stan C++ Library
 
-* <p>Stan Development Team. 2016. <i>The Stan C++ Library</i>, Version 2.9.0.
+* <p>Stan Development Team. 2016. <i>The Stan C++ Library</i>, Version 2.12.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 
 ## RStan 
 
-* <p>Stan Development Team. 2016. </i>RStan: the R interface to Stan</i>,
-  Version 2.9.0.
+* <p>Stan Development Team. 2016. <i>RStan: the R interface to Stan</i>,
+  Version 2.10.1.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -70,7 +70,7 @@ funding.
 ## CmdStan
 
 * <p>Stan Development Team. 2016. <i>CmdStan: the command-line 
-  interface to Stan</i>, Version 2.9.0.
+  interface to Stan</i>, Version 2.12.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -183,17 +183,55 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
-  MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
-  between risk perception and danger mitigation.  *Journal of
-  Experimental Psychology: Learning, Memory, and Cognition". ePub.
+* Smyl, S. and K. Kuber. 2016. Data preprocessing and augmentation for multiple
+  short time series forecasting with recurrent neural networks.  *36th
+  International Symposium on Forecasting*.  Santander.
+
+* Matthew B. Espe, Kenneth G. Cassman, Haishun Yang, Nicolas Guilpart,
+  Patricio Grassini, Justin Van Wart, Merle Anders, Donn Beighley,
+  Dustin Harrell, Steve Linscombe, Kent McKenzie, Randall Mutters,
+  Lloyd T. Wilson, and Bruce A. Linquist. 2016. Yield gap analysis of
+  US rice production systems shows opportunities for
+  improvement. *Field Crops Research* 196:276--283.
+
+* V. K. Jirsa, T. Proix, D. Perdikis, M. M. Woodman, H. Wang,
+  J. Gonzalez-Martinez, C. Bernard, C. Bénar, M. Guye,
+  P. Chauvel, F. Bartolomei.  2016.  The virtual epileptic patient:
+  individualized whole-brain models of epilepsy spread. *NeuroImage*.
+
+* Burchfield, Emily K., and Jonathan M. Gilligan.  2016. Dynamics of
+  individual and collective agricultural adaptation to water scarcity.
+  *Proceedings of the 2016 Winter Simulation Conference*.  IEEE Press.
+
+* Nay, John J., Martin Van der Linden, and Jonathan M. Gilligan. 
+  Betting and belief: prediction markets and attribution of climate
+  change. *Proceedings of the 2016 Winter Simulation Conference*.
+  IEEE Press.  Also available as *arXiv* 1603.08961.
+
+* Hélène Peltier, Matthieu Authier, Rob Deaville, Willy Dabin, Paul D. Jepson,
+  Olivier van Canneyt, Pierre Daniel, Vincent Ridoux.  2016.
+  Small cetacean bycatch as estimated from stranding schemes:
+  The common dolphin case in the northeast Atlantic.  *Environmental
+  Science &amp; Policy* 63:7--18.
+
+* Gerrit Kentner and Shravan Vasishth. 2016. Prosodic focus marking in
+  silent reading: Effects of discourse context and rhythm. 7(319).  
+  *Frontiers in Psychology*.
+
+* Molood Sadat Safavi, Samar Husain, and Shravan Vasishth. 2016. Dependency
+  resolution difficulty increases with distance in Persian separable
+  complex predicates: Implications for expectation and memory-based
+  accounts. *Frontiers in Psychology* 7 (Special Issue on Encoding
+  and Navigating Linguistic Representations in Memory)
+
+* Wallis, Thomas S. A., Matthias Bethge, and Felix A. Wichmann.  2016.
+  Testing models of peripheral encoding using metamerism in an
+  oddity paradigm.  *Journal of Vision* 16(2).
 
 * Nicenboim, Bruno, Pavel Logačev, Carolina Gattei, and Shravan
   Vasishth. 2016. When high-capacity readers slow down and
   low-capacity readers speed up: Working memory differences in
-  unbounded dependencies.  *Frontiers in Psychology, Special Issue on
-  Encoding and Navigating Linguistic Representations in Memory* (in
-  press).
+  unbounded dependencies.  *Frontiers in Psychology* 7(280).
 
 * Shantz, Andrew A., Lemoine, Nathan P., and Burkepile, Deron E. 2016.
   Nutrient loading alters the performance of key nutrient exchange
@@ -211,6 +249,40 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   forgetting: Impairments to both the probability and fidelity of
   long-term memory.  *Journal Of Experimental Psychology: General*
   145(1):56--81.
+
+* Bruno Nicenboim and Shravan Vasishth. 2016. Statistical methods for
+  linguistics research: Foundational Ideas---Part II. *arXiv* 1602.00245.
+
+* P. Almaraz. 2015. Bordeaux wine quality and climate fluctuations
+  during the last century: changing temperatures and changing
+  industry. *Climate Research* 64:187--199.
+
+* Adler, Avraham. 2015. Estimating the parameter risk of a loss ratio
+  distribution---revisited. *Variance* 9(1):114--139.
+
+* Samar Husain, Shravan Vasishth, and Narayanan Srinivasan. 2015. Integration
+  and prediction difficulty in Hindi sentence comprehension: Evidence from
+  an eye-tracking corpus. *Journal of Eye Movement Research* 8(2):1--12.
+
+* Dario Paape and Shravan Vasishth. 2015. Local coherence and preemptive
+  digging-in effects in German. *Language and Speech*.
+
+* Douglas Bates, Reinhold Kliegl, Shravan Vasishth, and Harald
+  Baayen. 2015. Parsimonious mixed models. *arXiv* 1506.04967.
+
+* Logačev, Pavel and Sharavn Vasishth. 2015.  Understanding
+  underspecification: A comparison of two computational
+  implementations. *Quarterly Journal of Experimental Psychology*
+  69(5):996-1012.
+
+* Wallis, Thomas S. A., Michael Dorr and Peter J. Bex.  2015.
+  Sensitivity to gaze-contingent contrast increments in naturalistic
+  movies.  *Journal of Vision* 15(8).
+
+* Notebaert, Lies and Stijn Masschelein, Bridget Wright, and Colin
+  MacLeod. 2015.  To risk or not to risk: anxiety and the calibration
+  between risk perception and danger mitigation.  *Journal of
+  Experimental Psychology: Learning, Memory, and Cognition*. ePub.
 
 * Maxwell B. Joseph, William E. Stutz, and Pieter T. J. Johnson. 2015.
   Multilevel models for the distribution of hosts and symbionts.
@@ -358,8 +430,8 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Schmettow, M. and Havinga, J.  2013.  Are users more diverse than
   designs? Testing and extending a 25 years old claim.  C. Bowers and
-  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of Things
-  XXVII*.
+  B. Cowan, ed., *Proceedings of BCS HCI 2013---The Internet of 
+  Things XXVII*.
 
 * Terada, Ryuta and Inoue, Shingo and Nishihara, Gregory N.  2013.
   The effect of light and temperature on the growth and photosynthesis
@@ -374,6 +446,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Sequence of Infrared Spectra.  University of Waterloo, Deptartment
   of Mathematics.  MS Thesis.
 
+* Craig Wang. 2015. Bayesian Hierarchical Modelling of Zero-Inflated
+  Faecal Egg Counts. ETH Zurich, Deptartment of Mathematics. Master
+  Thesis.
+
 * Grant Cavanaugh.  2013.  Direct Climate Markets: the Prospects for
   Trading Teleconnection Risk., *Theses and
   Dissertations---Agricultural Economics*, Paper 16.  University of
@@ -387,11 +463,13 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Citing Stan
 
+
 * Natanegara, Fanni, Neuenschwander, Beat, Seaman, John W.,
   Kinnersley, Nelson, Heilmann, Cory R., Ohlssen, David, Rochester,
   George. 2013. The current state of Bayesian methods in medical
-  product development: survey results and recommendations from the DIA
-  Bayesian Scientific Working Group. *Pharmaceutical Statistics*.
+  product development: survey results and recommendations from the
+  DIA Bayesian Scientific Working Group. *Pharmaceutical
+  Statistics*.
 
 * Kronberger, G.  2013.  Declarative Modeling and Bayesian Inference
   of Dark Matter Halos.  *arXiv* 1306.0202.

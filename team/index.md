@@ -77,7 +77,7 @@ volunteer developers.
 
 # Development Team Alumni
 
-Developers who contributed to earlier versions of Stan:
+Developers who have made important contributions in the past, but are no longer contributing actively:
 
 <ul>
 {% for member in site.data.alumni_developers %}
