@@ -23,8 +23,8 @@ group](/community/).  We require
 * a documented, reproducible example with narrative documentation
 <span class="note">(e.g., knitr or Jupyter with software/compiler versions noted and seeds fixed)</span> and
 
-* an open-source license <span class="note">(preferably BSD 3
-clause)</span>; authors retain all rights, including copyright.
+* an open-source code license <span class="note">(preferably BSD or GPL
+for code, Creative Commons for text)</span>; authors retain all copyright.
 
 
 # *Stan Case Studies*, &nbsp; Volume 3 &nbsp; (2016)
