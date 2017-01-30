@@ -188,6 +188,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Camac, J. S., Williams, R. J., Wahren, C.-H., Hoffmann, A. A.
+  and Vesk, P. A. 2017. Climatic warming strengthens a positive feedback
+  between alpine shrubs and fire. *Global Change Biology*. doi:10.1111/gcb.13614
+
 * Luc E. Coffeng , Cornelus C. Hermsen, Robert W. Sauerwein,
   Sake J. de Vlas. 2017. The Power of Malaria Vaccine Trials
   Using Controlled Human Malaria
