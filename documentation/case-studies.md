@@ -147,93 +147,47 @@ License
 :  BSD (3 clause), CC-BY
 
 
-## Generalized Rating Scale Model with Latent Regression
+## Rating Scale and Generalized Rating Scale Models with Latent Regression
 
-<small>This case study documents a Stan model for the generalized rating scale model (GRSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GRSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
+<small>This case study documents a Stan model for the rating scale model (RSM) and the generalized rating scale model (GRSM) with latent regression. The latent regression portion of the models may be restricted to an intercept only, yielding a standard RSM or GRSM. A brief simulation indicates that the Stan models successfully recover the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
 
-[View](case-studies/grsm_latent_reg.html) <span class="note">(HTML)</span>
+[View](case-studies/rsm_and_grsm.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
 
 Keywords
-: education, item response theory, generalized rating scale model
+: education, item response theory, rating scale model, generalized rating scale model
 
 Source Repository
-: [example-models/education/grsm_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/grsm_latent_reg)
+: [example-models/education/rsm_and_grsm](https://github.com/stan-dev/example-models/tree/master/education/rsm_and_grsm)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, ltm</tt>
+: <tt style="font-size: 90%">rstan, edstan, ggplot2, ltm</tt>
 
 License
 :  BSD (3 clause), CC-BY
 
 
-## Generalized Partial Credit Model with Latent Regression
+## Partial Credit and Generalized Partial Credit Models with Latent Regression
 
-<small>This case study documents a Stan model for the generalized partial credit model (GPCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard GPCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided</small>
+<small>This case study documents a Stan model for the partial credit model (PCM) and the generalized partial credit model (GPCM) with latent regression. The latent regression portion of the models may be restricted to an intercept only, yielding a standard PCM or GPCM. A brief simulation indicates that the Stan models successfully recover the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided</small>
 
-[View](case-studies/gpcm_latent_reg.html) <span class="note">(HTML)</span>
-
-Authors
-: Daniel C. Furr
-
-Keywords
-: education, item response theory, generalized partial credit model
-
-Source Repository
-: [example-models/education/gpcm_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/gpcm_latent_reg)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
-
-License
-:  BSD (3 clause), CC-BY
-
-
-## Rating Scale Model with Latent Regression
-
-<small>This case study documents a Stan model for the rating scale model (RSM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard RSM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using a survey of public perceptions of science and technology is provided.</small>
-
-[View](case-studies/rsm_latent_reg.html) <span class="note">(HTML)</span>
+[View](case-studies/pcm_and_gpcm.html) <span class="note">(HTML)</span>
 
 Authors
 : Daniel C. Furr
 
 Keywords
-: education, item response theory, rating scale model
+: education, item response theory, partial credit model, generalized partial credit model
 
 Source Repository
-: [example-models/education/rsm_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/rsm_latent_reg)
+: [example-models/education/pcm_and_gpcm](https://github.com/stan-dev/example-models/tree/master/education/pcm_and_gpcm)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, ltm</tt>
-
-License
-:  BSD (3 clause), CC-BY
-
-
-## Partial Credit Model with Latent Regression
-
-<small>This case study documents a Stan model for the partial credit model (PCM) with latent regression. The latent regression portion of the model may be restricted to an intercept only, yielding a standard PCM. A brief simulation indicates that the Stan model successfully recovers the generating parameters. An example using the TIMSS 2011 mathematics assessment is provided.</small>
-
-[View](case-studies/pcm_latent_reg.html) <span class="note">(HTML)</span>
-
-Authors
-: Daniel C. Furr
-
-Keywords
-: education, item response theory, partial credit model
-
-Source Repository
-: [example-models/education/pcm_latent_reg](https://github.com/stan-dev/example-models/tree/master/education/pcm_latent_reg)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan, ggplot2, TAM</tt>
+: <tt style="font-size: 90%">rstan, edstan, ggplot2, TAM</tt>
 
 License
 :  BSD (3 clause), CC-BY
@@ -256,7 +210,7 @@ Source Repository
 <span class="note">(GitHub)</span>
 
 R Package Dependencies
-: <tt style="font-size: 90%">edstan, rstan, ggplot2, TAM</tt>
+: <tt style="font-size: 90%">rstan, edstan, ggplot2, TAM</tt>
 
 License
 :  BSD (3 clause), CC-BY
