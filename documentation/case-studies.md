@@ -21,7 +21,7 @@ To contribute a case study, please contact us through the [users
 group](/community/).  We require
 
 * a documented, reproducible example with narrative documentation
-<span class="note">(preferably coded using knitr or Jupyter with inclusion of software and compiler versions)</span> and
+<span class="note">(e.g., knitr or Jupyter with software/compiler versions noted and seeds fixed)</span> and
 
 * an open-source license <span class="note">(preferably BSD 3
 clause)</span>; authors retain all rights, including copyright.
