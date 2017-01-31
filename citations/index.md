@@ -86,8 +86,8 @@ the interfaces.
 
 ## RStanArm
 
-* <p>Stan Development Team. 2016. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>. R package version 2.13.1.
+* <p>Stan Development Team. 2017. <i>RStanArm: Bayesian applied
+  regression modeling via Stan</i>. R package version 2.14.1.
   &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
