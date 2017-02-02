@@ -93,9 +93,9 @@ the interfaces.
 
 ## ShinyStan
 
-* <p>Stan Development Team. 2016. <i>ShinyStan: Interactive Visual and
+* <p>Stan Development Team. 2017. <i>ShinyStan: Interactive Visual and
   Numerical Diagnostics and Posterior Analysis for Bayesian
-  Models</i>. R package version 2.2.1.  &nbsp; <tt style="font-size:
+  Models</i>. R package version 2.3.0.  &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
 
