@@ -205,6 +205,16 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Using Controlled Human Malaria
   Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
+* S.A. Akenhead, J.R. Irvine, K.D. Hyatt, S.C. Johnson, and S.C.H. Grant. 2016.
+  Stock-recruit analyses of Fraser River sockeye
+  salmon. *NPAFC Bull.* 6:363--390. doi:10.23849/npafcb6/363.390.
+
+* S.A. Akenhead, J.R. Irvine, K.D. Hyatt, S.C. Johnson,
+  C.G.J. Michielsens, and S.C.H. Grant. 2016.
+  Habitat manipulations confound the interpretation of sockeye
+  salmon recruitment patterns at Chilko Lake,
+  British Columbia *NPAFC Bull.* 6: 391--414. doi:10.23849/npafcb6/391.414
+
 * Tanner Sorensen, Sven Hohenstein, and Shravan Vasishth. 2016.
   Bayesian linear mixed models using Stan: A tutorial for psychologists,
   linguists, and cognitive scientists. *Quantitative Methods for
