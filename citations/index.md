@@ -188,6 +188,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Scelo G., Li P., Chanudet E., Muller D.C. 2017. Variability of Sex 
+  Disparities in Cancer Incidence over 30 Years: The Striking Case of 
+  Kidney Cancer. *European Urology Focus*. doi:10.1016/j.euf.2017.01.006
+
 * Camac, J. S., Williams, R. J., Wahren, C.-H., Hoffmann, A. A.
   and Vesk, P. A. 2017. Climatic warming strengthens a positive feedback
   between alpine shrubs and fire. *Global Change Biology*. doi:10.1111/gcb.13614
