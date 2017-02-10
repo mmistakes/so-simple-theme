@@ -188,8 +188,12 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
-* Scelo G., Li P., Chanudet E., Muller D.C. 2017. Variability of Sex 
-  Disparities in Cancer Incidence over 30 Years: The Striking Case of 
+* Julien Riou, Chiara Poletto, and Pierre-Yves Boëlle. 2017.
+  A comparative analysis of Chikungunya and Zika
+  transmission. *Epidemics*.  doi:10.1016/j.epidem.2017.01.001
+
+* Scelo G., Li P., Chanudet E., Muller D.C. 2017. Variability of Sex
+  Disparities in Cancer Incidence over 30 Years: The Striking Case of
   Kidney Cancer. *European Urology Focus*. doi:10.1016/j.euf.2017.01.006
 
 * Camac, J. S., Williams, R. J., Wahren, C.-H., Hoffmann, A. A.
