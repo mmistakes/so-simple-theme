@@ -1,16 +1,10 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Pendant
+  url: /pendant/
 
-- title: Articles
-  url: /articles/
+#- title: Research
+#  url: /research/
 
-- title: Blog
-  url: /blog/
-
-- title: Theme Setup
-  url: /theme-setup/
-
-- title: Search
-  url: /search/
+- title: Contact
+  url: /contact/

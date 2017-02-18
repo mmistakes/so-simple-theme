@@ -1,9 +1,9 @@
 # Site wide configuration
 
-title: Site Title
+title: 
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: Inspired by nature. Driven with mathematics.
+logo: site-logo-star.png
 search: true
 url: http://localhost:4000
 
@@ -36,15 +36,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Martin Cowell
+  avatar: rocket_portrait.jpg
+  email: martin.cowell@berkeley.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: martincowell
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: martin-cowell
   instagram: #username
   flickr: #username
   tumblr: #username
