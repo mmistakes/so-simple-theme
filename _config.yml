@@ -1,10 +1,10 @@
 # Site wide configuration
 
-title: So Simple Theme
+title: エンジニア雑学
 locale: en_US
-description: A simple and clean responsive Jekyll theme for words and photos.
+description: 個人的な勉強のためのブログ.
 logo: site-logo.png
-url: https://mmistakes.github.io/so-simple-theme
+url: https://hakkyoonjung31.github.io
 
 # Jekyll configuration
 
@@ -36,9 +36,9 @@ comments: true
 
 # Site owner
 owner:
-  name: Michael Rose
+  name: Hakkyoon Jung
   avatar: michael-rose-photo.jpg
-  email: michael@mademistakes.com
+  email: kyoony2000@gmail.com
   disqus-shortname: sosimpletheme
   twitter: mmistakes
   facebook: michaelrose
