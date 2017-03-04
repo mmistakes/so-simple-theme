@@ -87,22 +87,22 @@ Python Package Dependencies
 License
 : Apache 2.0 (code), CC-BY 3 (text)
 
-## Reparameterization: MLE vs. Bayes
 
-<small>
-When changing variables, a Jacobian adjustment needs to be provided to
-account for the rate of change of the transform.  Applying the
-adjustment preserves the probability distributions of quantities of
-interest, thus making Bayesian inference invariant to
-reparameterizations.  In contrast, the maximum likelihood estimate
-(posterior mode) is changed when the distribution-preserving Jacobian
-adjustment is included for a parameter.  In this note, we use Stan to
-code a repeated binary trial model parameterized by chance of success,
-along with its reparameterization in terms of log odds in order to
-demonstrate the effect of the Jacobian adjustment on the Bayesian
-posterior and maximum likelihood estimate.  Along the way, we derive
-the logistic distribution by transforming a uniformly distributed
-variable.
+## The Impact of Reparameterization on Point Estimates
+
+<small> When changing variables, a Jacobian adjustment needs to be
+provided to account for the rate of change of the transform. Applying
+the adjustment ensures that inferences that are based on expectations
+over the posterior are invariant under reparameterizations. In
+contrast, the posterior mode changes as a result of the
+reparameterization. In this note, we use Stan to code a repeated
+binary trial model parameterized by chance of success, along with its
+reparameterization in terms of log odds in order to demonstrate the
+effect of the Jacobian adjustment on the Bayesian posterior and the
+posterior mode. We contrast the posterior mode to the maximum
+likelihood estimate, which, like the Bayesian estimates, is invariant
+under reparameterization. Along the way, we derive the logistic
+distribution by transforming a uniformly distributed variable.
 </small>
 
 [View](case-studies/mle-params.html) <span class="note">(HTML)</span>
