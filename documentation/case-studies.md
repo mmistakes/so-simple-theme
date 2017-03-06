@@ -26,6 +26,92 @@ group](/community/).  We require
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+# *Stan Case Studies*, &nbsp; Volume 4 &nbsp; (2017)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Diagnosing Biased Inference with Divergences
+
+<small>
+This case study discusses the subtleties of accurate Markov chain Monte Carlo
+estimation and how divergences can be used to identify biased estimation in
+practice.
+</small>
+
+[View](case-studies/divergences_and_bias.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, Hamiltonian Monte Carlo, divergences, RStan
+
+Source Repository
+: [betanalpha/knitr_case_studies/divergences_and_bias](https://github.com/betanalpha/knitr_case_studies/tree/master/divergences_and_bias)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+## Identifying Bayesian Mixture Models
+
+<small>
+This case study discusses the common pathologies of Bayesian mixture models as
+well as some strategies for identifying and overcoming them.
+</small>
+
+[View](case-studies/identifying_mixture_models.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, Hamiltonian Monte Carlo, mixture models,
+multimodal models, RStan
+
+Source Repository
+: [betanalpha/knitr_case_studies/identifying_mixture_models](https://github.com/betanalpha/knitr_case_studies/tree/master/identifying_mixture_models)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+## How the Shape of a Weakly Informative Prior Affects Inferences
+
+<small>
+This case study reviews the basics of weakly-informative priors and how the
+choice of a specific shape of such a prior affects the resulting posterior
+distribution.
+</small>
+
+[View](case-studies/weakly_informative_shapes.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, Hamiltonian Monte Carlo, priors,
+weakly-informative priors, RStan
+
+Source Repository
+: [betanalpha/knitr_case_studies/weakly_informative_shapes](https://github.com/betanalpha/knitr_case_studies/tree/master/weakly_informative_shapes) 
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 
 # *Stan Case Studies*, &nbsp; Volume 3 &nbsp; (2016)
 
