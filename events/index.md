@@ -16,6 +16,24 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.
 
+
+# Advanced use of Stan, rstan and Torsten for pharmacometric applications
+
+Date
+: 10 June 2017, 08:00--17:00
+
+Location
+: Budapest
+
+Venue
+: PAGE 2017
+
+Details
+: [View](http://metrumrg.com/events/index.html)
+
+
+# **Past**
+
 # **StanCon: Saturday January 21, 2017**
 
 Date
@@ -30,11 +48,6 @@ Venue
 Details
 : [View](/events/stancon.html)
 
-
-
-<!-- # **January 2017** -->
-
-# **Past**
 
 ## Getting Started with PK/PD Modeling using Stan
 
