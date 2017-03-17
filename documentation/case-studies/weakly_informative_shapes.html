@@ -229,7 +229,7 @@ plot(params$alpha, params$beta, col=c_dark, pch=16, cex=0.8,
 <p>Next we need to identify a reasonable default for our model and modify the initial parameterization such that this default is at zero. For example, this modification might require inverting the individual parameters if in the initial parameterization infinity is a more natural default than zero. Identifying an appropriate default in the first place follows similar logic to constructing a null hypothesis in frequentist methodologies. The parameterization of our linear regression is again already well-suited as a vanishing intercept, slope, or measurement variability corresponds to a trivial system with no income or weather interactions.</p>
 <p>Once we have identified an appropriate parameterization we can determine the scales coherent with our prior knowledge of the system. Each scale partitions the parameters into extreme values above and reasonable values below. Perhaps the most straightforward way to reason about scales is to identify the units that one would use to describe the system of interest before the measurement. If we are building an experiment to study nanoscale effects then we wouldn’t use kiloscale units, right? Well we also wouldn’t want to put any significant prior probability on kiloscale effect sizes. In practice it is easier to make one last reparameterization into these natural units so that all of our scales are of order unity.</p>
 <p>Finally we complete the specification of a weakly informative prior by complementing the scales with a shape to determine an explicit probability distribution. If we define the scale as <span class="math inline">\(\delta\)</span>, then we could for example, take a uniform distribution, <span class="math display">\[\theta \sim U (-\delta, \delta).\]</span> Such an extreme cutoff, however, removes not only extreme values far above the scale but also the relatively reasonable values just above the scale. What we really want is a shape that softly concentrates below the scale, such as a normal distribution, <span class="math display">\[\theta \sim \mathcal{N}(0, \delta),\]</span> a Cauchy distribution, <span class="math display">\[\theta \sim \mathrm{Cauchy}(0, \delta),\]</span> or even a Student-t distribution interpolating between the two. If the parameter of interest is positive then we can truncate these distributions at zero.</p>
-<p>If we have chosen appropriate units then the scales reduce to unity and all of our weakly informative priors take a form like <span class="math inline">\(\theta \sim \mathcal{N}(0, 1)\)</span> or <span class="math inline">\(\theta \sim \mathrm{Cauchy}(0, 1)\)</span>. It is important to note however, that these unit-scale priors alone do specify a weakly informative prior! <em>They are weakly informative only when our parameters have appropriate units.</em></p>
+<p>If we have chosen appropriate units then the scales reduce to unity and all of our weakly informative priors take a form like <span class="math inline">\(\theta \sim \mathcal{N}(0, 1)\)</span> or <span class="math inline">\(\theta \sim \mathrm{Cauchy}(0, 1)\)</span>. It is important to note however, that these unit-scale priors alone do not specify a weakly informative prior! <em>They are weakly informative only when our parameters have appropriate units.</em></p>
 <p>In any case, all of these distributions strongly favor values within a few factors of the scale while disfavoring those values much further away. Although there is recent work being done to develop formal criteria for selecting the exact shape of the prior distribution, here we will consider only how the exact shape of a weakly informative prior qualitatively affects the resulting inferences.</p>
 </div>
 <div id="weakly-informative-priors-under-well-chosen-scales" class="section level1">
@@ -494,7 +494,7 @@ legend(&quot;topright&quot;, c(&quot;Posterior&quot;, &quot;Prior&quot;), fill=c
 </div>
 <div id="acknowledgements" class="section level1">
 <h1>Acknowledgements</h1>
-<p>I thank Bob Carpenter for careful readings of earlier drafts of this case study and many helpful comments.</p>
+<p>I thank Bob Carpenter many helpful comments.</p>
 </div>
 <div id="original-computing-environment" class="section level1">
 <h1>Original Computing Environment</h1>
@@ -512,7 +512,7 @@ CXX=clang++ -arch x86_64 -ftemplate-depth-256</code></pre>
  language (EN)                        
  collate  en_US.UTF-8                 
  tz       America/New_York            
- date     2017-03-02                  </code></pre>
+ date     2017-03-16                  </code></pre>
 <pre><code>Packages ------------------------------------------------------------------</code></pre>
 <pre><code> package      * version   date       source        
  assertthat     0.1       2013-12-06 CRAN (R 3.3.0)

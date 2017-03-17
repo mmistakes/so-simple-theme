@@ -143,7 +143,7 @@ $(document).ready(function () {
 \]</span> then the assignments follow a multinomial distribution, <span class="math display">\[
 \pi (z \mid \boldsymbol{\theta} )
 =
-\theta_{k}^{z},
+\theta_{z},
 \]</span> and the joint likelihood over the measurement and its assignment is given by <span class="math display">\[
 \pi (y, z \mid \boldsymbol{\alpha}, \boldsymbol{\theta})
 =
@@ -1015,6 +1015,26 @@ y &lt;- rnorm(N, mu[z], sigma[z]);
 
 stan_rdump(c(&quot;N&quot;, &quot;y&quot;), file=&quot;collapse_mix.data.R&quot;)</code></pre>
 <p>Before fitting the joint model over the component parameters and the mixture weights, let’s try to fit conditioned on a single mixture weight. Note that we will be using just a single chain in this section as the posteriors will all be unimodal, but in practice one should always multiple chains as we will not have such a guarantee.</p>
+<pre class="r"><code>writeLines(readLines(&quot;gauss_mix_given_theta.stan&quot;))</code></pre>
+<pre><code>data {
+ int&lt;lower = 0&gt; N;
+ vector[N] y;
+ real&lt;lower=0, upper=1&gt; theta;
+}
+
+parameters {
+  vector[2] mu;
+  real&lt;lower=0&gt; sigma[2];
+}
+
+model {
+ sigma ~ normal(0, 2);
+ mu ~ normal(0, 2);
+ for (n in 1:N)
+   target += log_mix(theta,
+                     normal_lpdf(y[n] | mu[1], sigma[1]),
+                     normal_lpdf(y[n] | mu[2], sigma[2]));
+}</code></pre>
 <pre class="r"><code>theta &lt;- 0.25
 stan_rdump(c(&quot;N&quot;, &quot;y&quot;, &quot;theta&quot;), file=&quot;collapse_mix.data.R&quot;)
 
@@ -1029,9 +1049,9 @@ SAMPLING FOR MODEL 'gauss_mix_given_theta' NOW (CHAIN 1).
 Chain 1, Iteration:     1 / 11000 [  0%]  (Warmup)
 Chain 1, Iteration:  1001 / 11000 [  9%]  (Sampling)
 Chain 1, Iteration: 11000 / 11000 [100%]  (Sampling)
- Elapsed Time: 2.41716 seconds (Warm-up)
-               40.8484 seconds (Sampling)
-               43.2656 seconds (Total)</code></pre>
+ Elapsed Time: 2.41239 seconds (Warm-up)
+               40.2729 seconds (Sampling)
+               42.6853 seconds (Total)</code></pre>
 <pre><code>The following numerical problems occured the indicated number of times on chain 1</code></pre>
 <pre><code>                                                                                count
 Exception thrown at line 16: normal_log: Scale parameter is 0, but must be &gt; 0!     2</code></pre>
@@ -1067,9 +1087,9 @@ SAMPLING FOR MODEL 'gauss_mix_given_theta' NOW (CHAIN 1).
 Chain 1, Iteration:     1 / 11000 [  0%]  (Warmup)
 Chain 1, Iteration:  1001 / 11000 [  9%]  (Sampling)
 Chain 1, Iteration: 11000 / 11000 [100%]  (Sampling)
- Elapsed Time: 2.28199 seconds (Warm-up)
-               20.4278 seconds (Sampling)
-               22.7098 seconds (Total)</code></pre>
+ Elapsed Time: 2.35405 seconds (Warm-up)
+               20.4307 seconds (Sampling)
+               22.7848 seconds (Total)</code></pre>
 <pre><code>The following numerical problems occured the indicated number of times on chain 1</code></pre>
 <pre><code>                                                                                count
 Exception thrown at line 16: normal_log: Scale parameter is 0, but must be &gt; 0!     3</code></pre>
@@ -1091,9 +1111,9 @@ SAMPLING FOR MODEL 'gauss_mix_given_theta' NOW (CHAIN 1).
 Chain 1, Iteration:     1 / 11000 [  0%]  (Warmup)
 Chain 1, Iteration:  1001 / 11000 [  9%]  (Sampling)
 Chain 1, Iteration: 11000 / 11000 [100%]  (Sampling)
- Elapsed Time: 1.71089 seconds (Warm-up)
-               16.3343 seconds (Sampling)
-               18.0452 seconds (Total)</code></pre>
+ Elapsed Time: 1.69313 seconds (Warm-up)
+               15.4523 seconds (Sampling)
+               17.1454 seconds (Total)</code></pre>
 <pre><code>The following numerical problems occured the indicated number of times on chain 1</code></pre>
 <pre><code>                                                                                count
 Exception thrown at line 16: normal_log: Scale parameter is 0, but must be &gt; 0!     2</code></pre>
@@ -1122,9 +1142,9 @@ SAMPLING FOR MODEL 'gauss_mix' NOW (CHAIN 1).
 Chain 1, Iteration:     1 / 11000 [  0%]  (Warmup)
 Chain 1, Iteration:  1001 / 11000 [  9%]  (Sampling)
 Chain 1, Iteration: 11000 / 11000 [100%]  (Sampling)
- Elapsed Time: 4.20405 seconds (Warm-up)
-               45.8559 seconds (Sampling)
-               50.0599 seconds (Total)</code></pre>
+ Elapsed Time: 4.04861 seconds (Warm-up)
+               45.3196 seconds (Sampling)
+               49.3682 seconds (Total)</code></pre>
 <pre><code>The following numerical problems occured the indicated number of times on chain 1</code></pre>
 <pre><code>                                                                                count
 Exception thrown at line 17: normal_log: Scale parameter is 0, but must be &gt; 0!     3</code></pre>
@@ -1172,7 +1192,7 @@ sigma[2]     1.30    47 1.02
 theta        0.82    84 1.01
 lp__     -1669.07  2257 1.00
 
-Samples were drawn using NUTS(diag_e) at Thu Mar  2 15:39:10 2017.
+Samples were drawn using NUTS(diag_e) at Thu Mar 16 22:16:28 2017.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -1190,9 +1210,9 @@ SAMPLING FOR MODEL 'gauss_mix_ordered_prior' NOW (CHAIN 1).
 Chain 1, Iteration:     1 / 11000 [  0%]  (Warmup)
 Chain 1, Iteration:  1001 / 11000 [  9%]  (Sampling)
 Chain 1, Iteration: 11000 / 11000 [100%]  (Sampling)
- Elapsed Time: 5.01766 seconds (Warm-up)
-               57.4718 seconds (Sampling)
-               62.4895 seconds (Total)</code></pre>
+ Elapsed Time: 4.8613 seconds (Warm-up)
+               58.0077 seconds (Sampling)
+               62.869 seconds (Total)</code></pre>
 <pre><code>The following numerical problems occured the indicated number of times on chain 1</code></pre>
 <pre><code>                                                                                count
 Exception thrown at line 17: normal_log: Scale parameter is 0, but must be &gt; 0!     3</code></pre>
@@ -1235,7 +1255,7 @@ CXX=clang++ -arch x86_64 -ftemplate-depth-256</code></pre>
  language (EN)                        
  collate  en_US.UTF-8                 
  tz       America/New_York            
- date     2017-03-03                  </code></pre>
+ date     2017-03-16                  </code></pre>
 <pre><code>Packages ------------------------------------------------------------------</code></pre>
 <pre><code> package      * version   date       source        
  assertthat     0.1       2013-12-06 CRAN (R 3.3.0)
