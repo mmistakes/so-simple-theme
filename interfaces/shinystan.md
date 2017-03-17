@@ -13,6 +13,17 @@ image:
 analysis &amp; visualization GUI for MCMC
 
 
+<a href="/assets/img/shinystan/home.png">
+<img src="/assets/img/shinystan/home.png" style="width: 27%;"/>
+</a>
+<a href="/assets/img/shinystan/explore.png">
+<img src="/assets/img/shinystan/explore.png" style="width: 35%;"/>
+</a>
+<a href="/assets/img/shinystan/diagnose.png">
+<img src="/assets/img/shinystan/diagnose.png" style="width: 35%;"/>
+</a>
+
+<br>
 ShinyStan provides visual and numerical summaries of model parameters
 and convergence diagnostics for MCMC simulations.
 
@@ -25,33 +36,17 @@ ShinyStan is coded in R using the [Shiny web application framework](http://shiny
 
 # Download and Get Started
 
-Instructions for installing ShinyStan on all platforms.
+The shinystan R package, documentation, and examples are available from CRAN.
 
 * <p>
-  <a href="https://github.com/stan-dev/shinystan/wiki/Installing-the-R-package">Installing
-    ShinyStan</a>
-  <span class="note">(GitHub)</span>
+  <a href="https://CRAN.R-project.org/package=shinystan">shinystan
+  package</a>
+  <span class="note">(CRAN)</span>
   </p>
 
-Documentation and instructions for getting started with ShinyStan.
-
-* <p>
-  <a href="https://github.com/stan-dev/shinystan/wiki">ShinyStan Wiki</a>
-  <span class="note">(GitHub)</span>
-  </p>
-
-Screenshots.
-
-* <a href="/assets/img/shinystan/home.png">
-<img src="/assets/img/shinystan/home.png" style="width: 27%;"/>
-</a>
-<a href="/assets/img/shinystan/explore.png">
-<img src="/assets/img/shinystan/explore.png" style="width: 35%;"/>
-</a>
-<a href="/assets/img/shinystan/diagnose.png">
-<img src="/assets/img/shinystan/diagnose.png" style="width: 35%;"/>
-</a>
-
+```
+install.packages("shinystan")
+```
 
 # Source Code and Issue Tracker
 
