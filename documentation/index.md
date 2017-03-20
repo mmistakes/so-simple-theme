@@ -79,11 +79,17 @@ technology.
 
 ## Video
 
+* <a class="external" href="https://www.youtube.com/watch?v=s-9itaL1v-o">Combining 
+  the Power of R with Stan to Extend Analysis Functionality (60 minutes) </a> <span class="note">
+  (Southern New England UseR Meetup via YouTube)</span>
+  <br />
+  Ben Goodrich (2017)
+
 * <a class="external" href="https://icerm.brown.edu/video_archive/#/play/1107">Scalable
   Bayesian Inference with Hamiltonian Monte Carlo (40 minutes) </a> <span class="note">
   (ICERM Video Archive)</span>
-<br />
-Michael Betancourt (2016)
+  <br />
+  Michael Betancourt (2016)
 
 * <a class="external" href="https://www.youtube.com/watch?v=uSjsJg8fcwY">Some Bayesian
   Modeling Techniques in Stan (100 minutes) </a> <span class="note">(YouTube)</span>
