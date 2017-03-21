@@ -422,22 +422,22 @@ fit &lt;- stan(model_code=stan_program, data=c(&quot;x&quot;, &quot;n&quot;, &qu
 ## #define BOOST_NO_CXX11_RVALUE_REFERENCES 1
 ##         ^
 ## 1 warning generated.
-## 
+##
 ##  Elapsed Time: 59.992 seconds (Warm-up)
 ##                53.5034 seconds (Sampling)
 ##                113.495 seconds (Total)
-## 
-## 
+##
+##
 ##  Elapsed Time: 71.6769 seconds (Warm-up)
 ##                47.7704 seconds (Sampling)
 ##                119.447 seconds (Total)
-## 
-## 
+##
+##
 ##  Elapsed Time: 75.2507 seconds (Warm-up)
 ##                65.9798 seconds (Sampling)
 ##                141.23 seconds (Total)
-## 
-## 
+##
+##
 ##  Elapsed Time: 69.1103 seconds (Warm-up)
 ##                52.7265 seconds (Sampling)
 ##                121.837 seconds (Total)</code></pre>
@@ -454,9 +454,9 @@ fit &lt;- stan(model_code=stan_program, data=c(&quot;x&quot;, &quot;n&quot;, &qu
 <pre class="r"><code>options(width=&quot;120&quot;)
 print(fit, c(&quot;alpha&quot;, &quot;beta&quot;, &quot;Omega&quot;, &quot;sigma_uv&quot;, &quot;rho_uv&quot;, &quot;E_N&quot;, &quot;E_N_2&quot;, &quot;lp__&quot;));</code></pre>
 <pre><code>## Inference for Stan model: ff975a7e121ef7b489369ef2eb311654.
-## 4 chains, each with iter=5000; warmup=2500; thin=1; 
+## 4 chains, each with iter=5000; warmup=2500; thin=1;
 ## post-warmup draws per chain=2500, total post-warmup draws=10000.
-## 
+##
 ##                 mean se_mean    sd     2.5%      25%      50%      75%    97.5% n_eff Rhat
 ## alpha           1.24    0.01  0.29     0.66     1.06     1.24     1.42     1.81  1986 1.00
 ## beta           -1.88    0.01  0.25    -2.42    -2.03    -1.87    -1.71    -1.40  1141 1.00
@@ -467,10 +467,10 @@ print(fit, c(&quot;alpha&quot;, &quot;beta&quot;, &quot;Omega&quot;, &quot;sigma
 ## E_N            28.19    0.03  3.42    21.54    25.92    28.19    30.50    34.90 10000 1.00
 ## E_N_2          28.50    0.02  0.93    28.00    28.00    28.00    29.00    31.00  2100 1.00
 ## lp__        -1157.10    1.10 20.65 -1194.89 -1171.27 -1158.16 -1143.99 -1112.97   355 1.01
-## 
+##
 ## Samples were drawn using NUTS(diag_e) at Tue Mar 21 15:55:30 2017.
 ## For each parameter, n_eff is a crude measure of effective sample size,
-## and Rhat is the potential scale reduction factor on split chains (at 
+## and Rhat is the potential scale reduction factor on split chains (at
 ## convergence, Rhat=1).</code></pre>
 <p>An explicit list of parameters to print is provided to suppress the printing of the parameters <code>u</code> and <code>v</code> and the transformed parameters <code>logit_psi</code> and <code>logit_theta</code>.</p>
 </div>
@@ -633,7 +633,7 @@ plot(psi_theta_sim_scatter_plot);</code></pre>
 </div>
 <div id="acknowledgements" class="section level2">
 <h2>Acknowledgements</h2>
-<p>Thanks for Mike Meredith for terminological and mathematical adjustments to the first version.</p>
+<p>Thanks to Mike Meredith for terminological and mathematical adjustments to the first version.</p>
 </div>
 <div id="licensing" class="section level2">
 <h2>Licensing</h2>
