@@ -2,7 +2,7 @@
 
 title: Rodrigo's Blog
 locale: en_US
-description: Eu sou Rodrigo Pinheiro, Engenheiro de Software. Eu adoro assuntos que envolvem tecnologias, Ciência da computação e/ou Matemática. Contate-me em rpinheiroalmeida@gmail.com.
+description: He's a dedicated Software Engineer passionte for technologies, movies, series and mainly Pugs. Contact me rpinheiroalmeida@gmail.com.
 
 #I'm Chris Turner, a Software Engineer.
 #I love all things computer science and maths.
@@ -13,7 +13,8 @@ description: Eu sou Rodrigo Pinheiro, Engenheiro de Software. Eu adoro assuntos 
 
 logo: rodrigo-pinheiro-photo.jpeg
 search: true
-url: https://rpinheiroalmeida.github.io/
+# url: https://rpinheiroalmeida.github.io/
+url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
