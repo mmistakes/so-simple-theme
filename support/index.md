@@ -49,6 +49,7 @@ Leadership Body for NumFOCUS:
 * Tamara Broderick <span class="note">(Massachusetts Institute of Technology)</span>
 * Bob Carpenter <span class="note">(Columbia University)</span>
 * Andrew Gelman <span class="note">(Columbia University)</span>
+* Dan Simpson <span class="note">(University of Bath)</span>
 * Elizabeth Wolkovich <span class="note">(Harvard University)</span>
 
 
@@ -80,7 +81,7 @@ corporations.
 We gratefully acknowledge support from the following foundations.
 
 * Max Planck Institute for Evolutionary Anthropology (Leipzig)
-  
+
 * Alfred P. Sloan Foundation
   <br />
   <span class="note">(G-2015-13987: <i>Stan Community and Continuity</i>)</span>
