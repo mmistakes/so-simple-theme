@@ -45,6 +45,7 @@ science and helping your own work as well as others'.
 All financial decisions related to NumFOCUS are made by Stan's
 Leadership Body for NumFOCUS:
 
+* Julie Bertrand  <span class="note">(INSERM)</span>
 * Michael Betancourt <span class="note">(Columbia University)</span>
 * Tamara Broderick <span class="note">(Massachusetts Institute of Technology)</span>
 * Bob Carpenter <span class="note">(Columbia University)</span>
