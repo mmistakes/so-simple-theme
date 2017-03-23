@@ -13,8 +13,8 @@ description: He's a dedicated Software Engineer passionte for technologies, movi
 
 logo: rodrigo-pinheiro-photo.jpeg
 search: true
-# url: https://rpinheiroalmeida.github.io/
-url: http://127.0.0.1:4000
+url: https://rpinheiroalmeida.github.io/
+# url: http://127.0.0.1:4000
 
 # Jekyll configuration
 
@@ -46,7 +46,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Rodrigo Pinheiro
-  avatar: bio-photo.jpg
+  avatar: rodrigo-pinheiro-photo.jpeg
   email: rpinheiroalmeida@gmail.com
   disqus-shortname:
   twitter: #username
