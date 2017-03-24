@@ -14,8 +14,8 @@ comments: true
 share: true
 ---
 
-De acordo com Sam Newman ([Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358/ref=s9_simh_gw_g14_i5_r?_encoding=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=67VPD6EW255AWZT0BMBQ&pf_rd_t=36701&pf_rd_p=a6aaf593-1ba4-4f4e-bdcc-0febe090b8ed&pf_rd_i=desktop)) microservices são pequenos e
-autônomos serviços trabalhando juntos.
+De acordo com Sam Newman ([Building Microservices](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358/ref=s9_simh_gw_g14_i5_r?_encoding=UTF8&fpl=fresh&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=&pf_rd_r=67VPD6EW255AWZT0BMBQ&pf_rd_t=36701&pf_rd_p=a6aaf593-1ba4-4f4e-bdcc-0febe090b8ed&pf_rd_i=desktop))
+microservices são pequenos e autônomos serviços trabalhando juntos.
 
 Contudo, o quanto pequeno pode ser um serviço? Pelo número de linhas de código é
 problemático, uma vez que algumas linguagens de programação são mais expressivas

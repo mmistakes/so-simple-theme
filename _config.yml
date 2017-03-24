@@ -16,6 +16,9 @@ search: true
 url: https://rpinheiroalmeida.github.io/
 # url: http://127.0.0.1:4000
 
+# bundle exec jekyll build
+# bundle exec jekyll serve
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
