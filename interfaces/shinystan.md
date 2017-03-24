@@ -23,7 +23,6 @@ analysis &amp; visualization GUI for MCMC
 <img src="/assets/img/shinystan/diagnose.png" style="width: 35%;"/>
 </a>
 
-<br>
 ShinyStan provides visual and numerical summaries of model parameters
 and convergence diagnostics for MCMC simulations.
 
