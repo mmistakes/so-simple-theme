@@ -205,6 +205,15 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Using Controlled Human Malaria
   Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
+* Andreae DA, Hanna MG, Magid MS, Malerba S, Andreae MH, Bagiella E, Chehade M. 2016. 
+  Swallowed Fluticasone Propionate Is an Effective Long-Term Maintenance Therapy for 
+  Children With Eosinophilic Esophagitis. *American Journal of Gastroenterology* 
+  111(8):1187-97. doi:10.1038/ajg.2016.238. Epub 2016 Jun 21. PubMed PMID: 27325220.
+  
+* Aki Vehtari, Andrew Gelman, and Jonah Gabry. 2016. 
+  Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC.
+  *Statistics and Computing*. doi:10.1007/s11222-016-9696-4.
+
 * S.A. Akenhead, J.R. Irvine, K.D. Hyatt, S.C. Johnson, and S.C.H. Grant. 2016.
   Stock-recruit analyses of Fraser River sockeye
   salmon. *NPAFC Bull.* 6:363--390. doi:10.23849/npafcb6/363.390.
