@@ -45,7 +45,7 @@ available:
   </p>
 
 
-# Case Studies
+# Case Studies and Notebooks
 
 
 There are a number of longer, tutorial case studies for particular
@@ -55,6 +55,11 @@ own page:
 * <p>
   <a href="case-studies.html">Case Studies</a>
   </p>
+
+* <p>
+  <a href="https://github.com/stan-dev/stancon_talks">StanCon 2017 Case Studies</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span>
+  </p>
+
 
 # Tutorials
 
@@ -79,7 +84,7 @@ technology.
 
 ## Video
 
-* <a class="external" href="https://www.youtube.com/watch?v=s-9itaL1v-o">Combining 
+* <a class="external" href="https://www.youtube.com/watch?v=s-9itaL1v-o">Combining
   the Power of R with Stan to Extend Analysis Functionality (60 minutes) </a> <span class="note">
   (Southern New England UseR Meetup via YouTube)</span>
   <br />
