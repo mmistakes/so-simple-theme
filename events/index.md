@@ -17,6 +17,21 @@ You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.
 
 
+# Stan: A Software Ecosystem for Modern Bayesian Inference
+
+Date
+: 28 April 2017, 1:30--2:30pm
+
+Location
+: St. Louis, MO
+
+Venue
+: Neuroinformatics Research Group (Washington University in St. Louis)
+
+Details
+: [View](http://nrg.wustl.edu/events/niac-seminar-series-lecture-jonah-sol-gabry-columbia-university/)
+
+
 # Advanced use of Stan, rstan and Torsten for pharmacometric applications
 
 Date
