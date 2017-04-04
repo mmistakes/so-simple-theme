@@ -19,6 +19,9 @@ or in many presentations at meetups and other venues.
 
 # Stan: A Software Ecosystem for Modern Bayesian Inference
 
+Speaker
+: Jonah Gabry
+
 Date
 : 28 April 2017, 1:30--2:30pm
 
