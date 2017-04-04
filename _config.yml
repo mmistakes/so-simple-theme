@@ -1,11 +1,22 @@
 # Site wide configuration
 
-title: Site Title
+title: Rodrigo's Blog
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: He's a dedicated Software Engineer passionte for technologies, movies, series and mainly Pugs. Contact me rpinheiroalmeida@gmail.com.
+
+#I'm Chris Turner, a Software Engineer.
+#I love all things computer science and maths.
+#Have a look at some of my working projects.
+#For more check out my academic & professional Resume.
+#Contact me at @username or by email.
+
+logo: rodrigo-pinheiro-photo.jpeg
 search: true
-url: http://localhost:4000
+url: https://rpinheiroalmeida.github.io/
+# url: http://127.0.0.1:4000
+
+# bundle exec jekyll build
+# bundle exec jekyll serve
 
 # Jekyll configuration
 
@@ -36,15 +47,15 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Rodrigo Pinheiro
+  avatar: rodrigo-pinheiro-photo.jpeg
+  email: rpinheiroalmeida@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: https://github.com/rpinheiroalmeida
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: https://br.linkedin.com/in/rpinheiroalmeida
   instagram: #username
   flickr: #username
   tumblr: #username
