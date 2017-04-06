@@ -494,6 +494,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Theses using Stan
 
+* Marco Inacio. 2017. Comparing two populations using Bayesian Fourier
+  series density estimation. University of São Paulo and UFSCar. Masters
+  Dissertation.
+
 * Peter Starszyk.  2016.  Inferring Chemical Reaction Rates from a
   Sequence of Infrared Spectra.  University of Waterloo, Deptartment
   of Mathematics.  MS Thesis.
