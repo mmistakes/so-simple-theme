@@ -33,24 +33,15 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 
 ## Typical Sets and the Curse of Dimensionality
 
-<small>
-This case study illustrates the so-called “curse of dimensionality,”
-starting from scratch and using simple examples based on simulation.
-Simulating data at random from hypercubes shows that almost all of the
-volume is in the corners; simulating from a multivariate normal shows
-that almost all of the probability mass is concentrated away from the
-mode.  The information-theoretic concept of a typical set for a
-distribution is roughly defined as the central log density band into
-which almost all random draws from that distribution will fall.  This
-is illustrated with both discrete and continuous densities, where we
-see that the key to reasoning probabilistically is to concentrate on
-probabilty mass (roughly volume times density in continuous settings
-or count times mass in discrete ones), not on density.  Along the way,
-diversions include the introduction of Monte Carlo methods for
-calculating simple integrals, the use of Euclidean distance to relate
-multivariate normal and chi-square distributions, and a discussion of
-how distance relates maximum likelihood estimates, least squares, and
-the mean.
+<small> This case study illustrates the so-called “curse of
+dimensionality” using simple examples based on simulation to show that
+all points are far away in high dimensions and that the mode is an
+atypical draw from a multivariate normal.  The information-theoretic
+concept of typical set is illustrated with both discrete and
+continuous cases, which show that probability mass is a product of
+volume and density (or count and mass in the discrete case).  It also
+illustrates Monte Carlo methods and relates distance to the log
+density of the normal distribution and the chi-squared distribution.
 </small>
 
 [View](case-studies/curse-dims.html)
