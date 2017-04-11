@@ -188,6 +188,12 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Matthew B. Espe, Jim E. Hill, Robert J. Hijmans, Kent McKenzie, Randall
+  Mutters, Luis A. Espino, Michelle Leinfelder-Miles, Chris van Kessel
+  and Bruce A. Linquist. 2017.  Point stresses during reproductive stage
+  rather than warming seasonal temperature determines yield in temperate
+  rice. *Global Change Biology*.  DOI 10.1111/gcb.13719.
+
 * Julien Riou, Chiara Poletto, and Pierre-Yves Boëlle. 2017.
   A comparative analysis of Chikungunya and Zika
   transmission. *Epidemics*.  doi:10.1016/j.epidem.2017.01.001
