@@ -44,7 +44,7 @@ illustrates Monte Carlo methods and relates distance to the log
 density of the normal distribution and the chi-squared distribution.
 </small>
 
-[View](case-studies/curse-dims.html)
+[View](case-studies/curse-dims.html)  <span class="note">(HTML)</span>
 
 Author
 : Bob Carpenter
