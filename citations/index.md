@@ -190,7 +190,7 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 * Yong Luo, Hong Jiao. 2017. Using the Stan Program for Bayesian Item
   Response Theory.  *Educational and Psychological Measurement*.
-  DOI: https://doi.org/10.1177/0013164417693666.
+  DOI: 10.1177/0013164417693666.
 
 * Matthew B. Espe, Jim E. Hill, Robert J. Hijmans, Kent McKenzie, Randall
   Mutters, Luis A. Espino, Michelle Leinfelder-Miles, Chris van Kessel
