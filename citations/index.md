@@ -188,6 +188,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Yong Luo, Hong Jiao. 2017. Using the Stan Program for Bayesian Item
+  Response Theory.  *Educational and Psychological Measurement*.
+  DOI: https://doi.org/10.1177/0013164417693666.
+
 * Matthew B. Espe, Jim E. Hill, Robert J. Hijmans, Kent McKenzie, Randall
   Mutters, Luis A. Espino, Michelle Leinfelder-Miles, Chris van Kessel
   and Bruce A. Linquist. 2017.  Point stresses during reproductive stage
@@ -211,12 +215,12 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Using Controlled Human Malaria
   Infection.  *PLoS Computational Biology* 13(1): e1005255.
 
-* Andreae DA, Hanna MG, Magid MS, Malerba S, Andreae MH, Bagiella E, Chehade M. 2016. 
-  Swallowed Fluticasone Propionate Is an Effective Long-Term Maintenance Therapy for 
-  Children With Eosinophilic Esophagitis. *American Journal of Gastroenterology* 
+* Andreae DA, Hanna MG, Magid MS, Malerba S, Andreae MH, Bagiella E, Chehade M. 2016.
+  Swallowed Fluticasone Propionate Is an Effective Long-Term Maintenance Therapy for
+  Children With Eosinophilic Esophagitis. *American Journal of Gastroenterology*
   111(8):1187-97. doi:10.1038/ajg.2016.238. Epub 2016 Jun 21. PubMed PMID: 27325220.
-  
-* Aki Vehtari, Andrew Gelman, and Jonah Gabry. 2016. 
+
+* Aki Vehtari, Andrew Gelman, and Jonah Gabry. 2016.
   Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC.
   *Statistics and Computing*. doi:10.1007/s11222-016-9696-4.
 
