@@ -512,6 +512,16 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
   Sequence of Infrared Spectra.  University of Waterloo, Deptartment
   of Mathematics.  MS Thesis.
 
+* Jared K. Harpole. 2015. A Bayesian MIMIC Model for Testing
+  Non-Uniform DIF in Two and Three Groups. University of Kansas,
+  Deptartment of Psychology. Doctoral Dissertation.
+  URI: http://hdl.handle.net/1808/21697
+
+* Terrence D. Jorgensen. 2015. Selecting an Optimal Measurement Model and
+  Detecting Differential Item Functioning Using Bayesian Confirmatory Factor
+  Analysis. University of Kansas, Deptartment of Psychology. Doctoral
+  Dissertation. URI: http://hdl.handle.net/1808/19054
+
 * Craig Wang. 2015. Bayesian Hierarchical Modelling of Zero-Inflated
   Faecal Egg Counts. ETH Zurich, Deptartment of Mathematics. Master
   Thesis.
