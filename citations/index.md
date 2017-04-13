@@ -188,6 +188,10 @@ Code at: [Stan example models repo](https://github.com/stan-dev/example-models)
 
 # Papers Using Stan
 
+* Gale J, Ooms A, Grant RL, Paget K, Marks-Maran D. 2016.  Student
+  nurse selection and predictability of academic success: The Multiple
+  Mini Interview project. *Nurse Education Today* 40:123--127.
+
 * Yong Luo, Hong Jiao. 2017. Using the Stan Program for Bayesian Item
   Response Theory.  *Educational and Psychological Measurement*.
   DOI: 10.1177/0013164417693666.
