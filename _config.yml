@@ -5,7 +5,7 @@ locale: en_US
 description: Updates from Kirstie's lab at the Turing Institute.
 logo: site-logo.png
 search: true
-url: http://whitakerlab.github.io
+url: https://whitakerlab.github.io
 
 # Jekyll configuration
 
