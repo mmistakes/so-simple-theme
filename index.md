@@ -5,7 +5,7 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
 
-### I am a 1st level header
+# I am a 1st level header
 
 This website is a work in progress but should give you a sense of the work that Kirstie Whitaker and her collaborators are conducting at the Alan Turing Institute.
 
@@ -17,7 +17,7 @@ I am some text.
 
 This is some text
 
-#### I am a 1st level header
+#### I am a 4th level header
 
 lalaland
 
