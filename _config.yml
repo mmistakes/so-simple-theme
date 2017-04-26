@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Whitaker Lab
 locale: en_US
-description: Describe your website here.
+description: Updates from Kirstie's lab at the Turing Institute.
 logo: site-logo.png
 search: true
 url: http://localhost:4000
