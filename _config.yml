@@ -5,7 +5,7 @@ locale: en_US
 description: Updates from Kirstie's lab at the Turing Institute.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: https://WhitakerLab.github.io
 
 # Jekyll configuration
 
@@ -36,11 +36,11 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Kirstie Whitaker
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: kwhitaker@turing.ac.uk
   disqus-shortname:
-  twitter: #username
+  twitter: Whitaker_Lab
   facebook: #username
   github: #username
   stackexchange: #http://stackoverflow.com/users/123456/username
