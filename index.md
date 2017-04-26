@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Latest Posts
+title: Whitaker Lab
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
