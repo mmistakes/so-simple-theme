@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Kirstie Whitaker
-  avatar: bio-photo.jpg
+  avatar: KW_OpenCon2016_Square.jpg
   email: kwhitaker@turing.ac.uk
   disqus-shortname:
   twitter: Whitaker_Lab
