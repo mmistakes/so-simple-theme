@@ -5,13 +5,17 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: true
 ---
 
-# Oh wait
+# Welcome
 
-## Is there where I put the information
+This website is a work in progress but should give you a sense of the work that Kirstie Whitaker and her collaborators are conducting at the Alan Turing Institute.
 
-* I can type things here!
+## Committed to Open Science
 
-And then here too!
+## Reproducible research
+
+## Questions about mental health and adolescent brain development
+
+
 
 <ul class="post-list">
 {% for post in site.posts limit:10 %}
