@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-On this page you can find Kirstie's answers from her (successful!) application to become a Mozilla Fellow for Science in 2016.
+On this page you can find the answers from my (successful!) application to become a Mozilla Fellow for Science in 2016.
 
 The application was submitted on Jul 15th at 11:33pm (swoosh, just before the deadline).
 
@@ -17,64 +17,64 @@ The application was submitted on Jul 15th at 11:33pm (swoosh, just before the de
 
 # Application Essays
 
-## What research fields are you in?
+#### What research fields are you in?
 
 *(25 words)*
 
 Longitudinal neuroimaging, brain development, adolescent psychopathology, MRI physics, network analysis, cognitive neuroscience
 
-## What is your research focus?
+#### What is your research focus?
 
 *(50 words)*
 
 I aim to integrate multiple neuroimaging techniques of brain development during childhood and adolescence to predict individual differences in susceptibility to mental health problems and response to interventions. I use graph theory to investigate changes in MRI measures of brain structure and function, and the biological mechanisms underlying brain networks.
 
-## Describe to us your current research team
+#### Describe to us your current research team
 
 *(50 words)*
 
 The Neuroscience in Psychiatry Network is a collaboration between the University of Cambridge and University College London, funded by a £5 million Wellcome Trust Strategy Award. The team comprises 5 principal investigators, 2 project managers, 25 postdoctoral researchers, 8 graduate students, and 26 administrative staff situated across 7 geographic locations.
 
-## Describe to us how open science advances your research
+#### Describe to us how open science advances your research
 
 *(100 words)*
 
 Psychiatric disorders are responsible for 184 million disability-adjusted life years worldwide (Whiteford et al, 2013) and there is strong evidence that environmental and genetic effects affect the structure and function of the developing brain, which in turn leads to individual differences in each person’s susceptibility to mental health disorders. However, neuroimaging studies are often underpowered and are always expensive and statistically noisy. When these data sets are published alongside their findings everyone benefits: researchers investigating similar questions may validate their findings in an independent cohort, computational modellers may test new methods, and analytic errors can be caught and corrected.
 
 
-## Are you leading any projects related to open science?
+#### Are you leading any projects related to open science?
 
 *(100 words)*
 
 I lead the Brains For Publication project that provides command line and browser based tools to reproducibly create beautiful and informative figures for neuroimaging publications (https://github.com/KirstieJane/BrainsForPublication). It is particularly aimed at people with beginner level coding skills and has a high focus on documentation and usability. I lead the development of the STEMM Role Models database that promotes members of under-represented groups in science, technology, engineering, mathematics and medicine (https://github.com/KirstieJane/STEMMRoleModels). Data and analysis code for my recent publication on changes in brain structure during adolescence is available on GitHub (https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016). All are released under open licenses (MIT).
 
-## How do you see Mozilla advancing your work?
+#### How do you see Mozilla advancing your work?
 
 *(50 words)*
 
 Mozilla brings together a global community of open advocates to build a better world. I will ensure that the field of human neuroimaging harnesses the expertise, creativity and passion of this diverse network to develop more effective ways to understand the developing brain and the emergence of mental health disorders.
 
 
-## What do you see as the opportunities for impact around open research at your university? Could you leverage this opportunity in a potential project?
+#### What do you see as the opportunities for impact around open research at your university? Could you leverage this opportunity in a potential project?
 
 *(50 words)*
 
 In sharing data from the multi-disciplinary Neuroscience in Psychiatry Network I will build connections between the different research areas at the University of Cambridge, increase the impact of our work on the development of mental health disorders, and serve as a flagship example of best practise in open science.
 
-## What do you think needs to change most immediately in scientific research?
+#### What do you think needs to change most immediately in scientific research?
 
 *(100 words)*
 
 We must incentivise the measurement of the reproducibility and replicability of scientific findings. We should preregister our analyses, publish null results and ensure that researchers are rewarded for rigour rather than novelty. The scientific method is defined by the constant testing, updating and integration of previously acquired knowledge and it is essential we return to that philosophy. At a minimum, raw data, analysis code and instructions to recreate figures need to be made available to reviewers with all submitted journal articles. More extensively, we must better reward the people who build, develop and document tools to facilitate this process.
 
 
-## What project in the field do you find most inspiring to further science and the web?
+#### What project in the field do you find most inspiring to further science and the web?
 
 *(50 words)*
 
 I am most inspired by the Neurosynth project (www.neurosynth.org): an online platform for large-scale meta-analyses of functional MRI data through text mining published articles. You can explore associations between regional brain activations and each of over 3000 terms, or decode your own results in real time by reversing the process.
 
-## Why is the open web important to you?
+#### Why is the open web important to you?
 
 *(25 words)*
 
