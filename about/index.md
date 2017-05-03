@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About the Whitaker Lab
 excerpt: "Members of the Whitaker lab and their research interests."
 image:
