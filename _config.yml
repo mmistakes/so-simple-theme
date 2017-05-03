@@ -19,6 +19,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
 
 kramdown:
   input: GFM
