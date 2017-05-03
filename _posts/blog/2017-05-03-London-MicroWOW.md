@@ -1,0 +1,48 @@
+---
+layout: post
+title: "London MicroWOW"
+categories: blog
+excerpt:
+tags: [MozWOW, mozilla, mozfellows, git-github, trainings]
+image:
+  feature:
+date: 2017-03-05T15:39:55-04:00
+modified:
+---
+
+# Learning to work openly using git and GitHub
+
+On Friday 28th April the wonderful [Bruno Vieira](https://github.com/bmpvieira), my fellow Mozilla Fellow for Science was in London and we decided to run a micro Working Open Workshop (`#microWOW`!)
+
+This is in contrast to a full WOW which is a two day extravaganza and a mini WOW which is a one day event. We only had one evening but we tried to fit as much of what we knew about working open and collaborating using git and GitHub as possible.
+
+Here's how we described it at our eventbrite invitation:
+
+> The Working Open Workshop (or WOW) is a set of trainings created by Mozilla Science Lab to help up-and-coming leaders of open science and open research projects make the most effective open projects possible, and build active communities of contributors around them. For this micro event, we will focus on teaching how you can use Git/GitHub for collaborative work and share some best practices tips on how to build a community around your project!
+
+We held the event in the School of Biological and Chemical Sciences of Queen Mary University of London. **Thank you for hosting us QMUL!** :sparkles: :sparkles:
+
+
+## Friendly GitHub Intro
+
+We based our evening around the [Friendly GitHub Intro](https://mozfellows-hack.github.io/friendly-github-intro) that [Joey Lee](https://github.com/joeyklee) originally developed in 2016.
+
+We covered two exercises: [building your first repository](https://mozfellows-hack.github.io/friendly-github-intro/exercises/my-first-repo/), and submitting and merging your [first pull request](https://mozfellows-hack.github.io/friendly-github-intro/exercises/my-first-pullrequest/). The second in particular was great fun because everyone had to pair up and be both the owner of the repository, and therefore the gatekeeper who chose whether or not to merge the request, and the contributor who wanted to suggest a new addition.
+
+## Don't push your pull request
+
+In this very quick introduction to working open we talked about the importance of the README welcome mat, a CODE_OF_CONDUCT, the LICENSE so others know how they can use your work, and the CONTRIBUTING file that gives guidelines to the folk who are sharing their work with you.
+
+I want to recommend [this blog post](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/) to anyone who is thinking about submitting some work to be merged into an open source project.
+
+Building up communities around your projects is one of the most challenging and rewarding parts of building an open source project. Whether you're the project owner or a first time contributor, remember that there are real human people working hard on the other end of that online conversation. Sending them a little love and appreciation, and communicating clearly makes all the difference :heart:.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/bmpvieira">@bmpvieira</a> Then showing us that he&#39;s starred 1,300+ repositories!! YOU GET A STAR, YOU GET A STAR ;) <a href="https://twitter.com/hashtag/MicroWOW?src=hash">#MicroWOW</a> 2/n <a href="https://t.co/Kac672VooL">pic.twitter.com/Kac672VooL</a></p>&mdash; Kirstie Whitaker (@kirstie_j) <a href="https://twitter.com/kirstie_j/status/858068921659863045">April 28, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Great fun
+
+I had such a wonderful time on Friday. I learned so much from Bruno and the way he runs [Bionode](http://www.bionode.io/). Check it out and feel free to use any of the materials I've listed here! They're all openly licensed :smile:.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Aaaaah! We had so much fun at our <a href="https://twitter.com/hashtag/MicroWOW?src=hash">#MicroWOW</a>! Thank you to everyone who attended - such an inspiring evening 🙌🤗😍<a href="https://twitter.com/bmpvieira">@bmpvieira</a> <a href="https://t.co/vYmzyX0W8n">pic.twitter.com/vYmzyX0W8n</a></p>&mdash; Kirstie Whitaker (@kirstie_j) <a href="https://twitter.com/kirstie_j/status/858060250364211201">April 28, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
