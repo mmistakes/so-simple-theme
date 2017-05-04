@@ -22,7 +22,7 @@ interfaces.
 
 
 * <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.14.0</a>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.15.0/stan-reference-2.15.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.15.0</a>
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
   </p>
