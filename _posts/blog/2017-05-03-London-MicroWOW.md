@@ -2,12 +2,15 @@
 layout: post
 title: "London MicroWOW"
 categories: blog
-excerpt:
-tags: [MozWOW, mozilla, mozfellows, git-github, trainings]
+excerpt: Evening workshop on git and github with fellow Mozilla fellow Bruno
+tags: [MozWOW, mozilla, mozfellows, git-github, trainings, open-science]
 image:
   feature:
-date: 2017-03-05T15:39:55-04:00
+link:
+date: 2017-04-28
 modified:
+share: true
+author: kirstie_whitaker
 ---
 
 # Learning to work openly using git and GitHub
