@@ -21,4 +21,4 @@ In 2015 he obtained a master's degree by the University of Brasilia . Where he c
 
 He and his wife loves dogs, specially his two Pugs. When he is not working nor with wife, he loves read about technologies and scientific fiction.
 
-Following my [CV]({{ site.url }}/pdfs/Resume_Rodrigo_Pinheiro.pdf){:target="_blank"}.
+Following my [CV]({{ site.url }}pdfs/Resume_Rodrigo_Pinheiro.pdf){:target="_blank"}.
