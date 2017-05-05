@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como modelar micro service?
+title: Como modelar microservice?
 excerpt: "Recentemente tive a experiência de construir um microserviço. E
 gostaria de falar como foi essa experiência, quais as lições aprendidas."
 modified: 2017-03-22T22:49:00-00:00
