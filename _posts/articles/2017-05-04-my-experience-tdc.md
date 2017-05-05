@@ -19,6 +19,10 @@ Inicialmente confesso que estava muito nervoso e algumas coisa sairam meio
 atropeladas. Contudo,com o tempo fui me acalmando e as palavras foram saindo
 mais naturalmente.
 
+<h1>An embedded video</h1>
+{{ oembed http://www.youtube.com/watch?v=Sv5iEK-IEzw }}
+
+
 A nossa apresentação (Marcos Brizeno e eu) foi sobre um *case* relacionado a
 microservices, os problemas ocasionados ao implementar essa arquitetura de forma
 errada. E como a cultura da empresa pode provocar efeitos danosos.
