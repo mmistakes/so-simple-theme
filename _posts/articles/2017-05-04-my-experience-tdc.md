@@ -14,22 +14,19 @@ comments: true
 share: true
 ---
 
-Recentemente tive a excelente experiência de apresentar no TDC ([The Developer Conference - 2017](http://www.thedevelopersconference.com.br/tdc/2017/index.html)). Inicialmente
-confesso que estava muito nervoso e algumas coisa sairam meio atropeladas. Contudo,
-com o tempo fui me acalmando e as palavras foram saindo mais naturalmente.
+Recentemente tive a excelente experiência de apresentar no TDC ([The Developer Conference - 2017](http://www.thedevelopersconference.com.br/tdc/2017/index.html)).
+Inicialmente confesso que estava muito nervoso e algumas coisa sairam meio
+atropeladas. Contudo,com o tempo fui me acalmando e as palavras foram saindo
+mais naturalmente.
 
-A apresentação foi sobre um case relacionado a microservices, os problemas
-ocasionados ao adotar microservices de forma errada. Como a cultura da empresa
-pode provocar efeitos danosos na arquitetura.
-
-<style>
-.responsive-wrap iframe{ max-width: 100%;}
-</style>
-<div class="responsive-wrap">
-<!-- this is the embed code provided by Google -->
-  <iframe src="http://www.slideshare.net/marcosbrizeno/desventuras-em-serie-adotando-microservicos?qid=6c753929-0410-4838-b949-9d9c60f4f892&v=&b=&from_search=1" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-<!-- Google embed ends -->
-</div>
+<h1>An embedded video</h1>
+{{ oembed http://www.youtube.com/watch?v=Sv5iEK-IEzw }}
 
 
-<iframe width="560" height="315" src="//https://www.slideshare.net/marcosbrizeno/desventuras-em-serie-adotando-microservicos?qid=6c753929-0410-4838-b949-9d9c60f4f892&v=&b=&from_search=1" frameborder="0"> </iframe>
+A nossa apresentação (Marcos Brizeno e eu) foi sobre um *case* relacionado a
+microservices, os problemas ocasionados ao implementar essa arquitetura de forma
+errada. E como a cultura da empresa pode provocar efeitos danosos.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/lNin0u9EEYyY5h" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px">
+<strong>
+<a href="//www.slideshare.net/rodrigoalmeida9216778/desventuras-em-serie-adotando-microservicos-75694266" title="Desventuras em série adotando microserviços" target="_blank">Desventuras em série adotando microserviços</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/rodrigoalmeida9216778">Rodrigo Pinheiro</a></strong> </div>
