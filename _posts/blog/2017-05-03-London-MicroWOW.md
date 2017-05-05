@@ -60,9 +60,9 @@ We asked our participants at the end of the workshop what they thought. You can 
 
 <figure>
 	<a href="https://docs.google.com/forms/d/1NaF0aknFSIAMngLonwu6BZ8FQjUXn0kYWrTc4k4ePOg/viewanalytics">
-      <img src="{{ site.url }}/images/microWOW-recommend.png"
-           alt="100% of participants would recommend this course!">
-    </a>
+    <img src="/images/microWOW-recommend.PNG"
+         alt="100% of participants would recommend this course!">
+  </a>
 </figure>
 
 And, as one participant wrote:
