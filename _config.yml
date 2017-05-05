@@ -12,8 +12,8 @@ description: He's a dedicated Software Engineer passionte for technologies, movi
 
 logo: rodrigo-pinheiro-photo.jpeg
 search: true
-url: https://rpinheiroalmeida.github.io/
-# url: http://127.0.0.1:4000
+#url: https://rpinheiroalmeida.github.io/
+url: http://127.0.0.1:4000
 
 # bundle exec jekyll build
 # bundle exec jekyll serve
@@ -53,7 +53,7 @@ owner:
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: https://github.com/rpinheiroalmeida
+  github: rpinheiroalmeida
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: https://br.linkedin.com/in/rpinheiroalmeida
   instagram: #username
