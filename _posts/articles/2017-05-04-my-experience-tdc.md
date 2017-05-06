@@ -5,7 +5,7 @@ excerpt: "Quero descrever aqui como foi a minha experiência de apresentação n
 TDC."
 modified: 2017-05-04T21:49:00-00:00
 categories: articles
-tags: [microservices]
+tags: [TDC, microservices, presentation]
 image:
   feature: so-simple-sample-image-1.jpg
   credit: WeGraphics
