@@ -12,17 +12,17 @@ modified:
 share: true
 ---
 
-> tl;dr: [Apply today](https://science.mozilla.org/programs/fellowships). It will change your life  (even if you aren't selected!)
+> **tl;dr**: [Apply today](https://science.mozilla.org/programs/fellowships). It will change your life  (even if you aren't selected!)
 >
 > **Deadline: 14th May**
 
 I first heard about the Mozilla fellows for science program in 2015. My first, and only, response was "This was made for me"!
 
-When I finished my PhD in Neuroscience from the University of California at Berkeley, I was so frustrated with the academic reward system. Specifically, I had found many null results during the five years of my PhD, and I had also failed to replicate some already published findings.
+When I finished my PhD in Neuroscience from the University of California at Berkeley, I was so frustrated with the academic reward system. Specifically, I had found many null results during the five years of my PhD, and I had also failed to replicate some already published findings. I knew others had had the same experience, but we weren't writing up our efforts, we kept going back to the drawing board to find sufficiently *novel* and *significant* results so we could graduate.
 
 I didn't want to give up on doing science for a career though. A good day in science - where you get to talk with super smart and thoughtful people about how the brain works, develops, learns and evolves, is one of the very best ways to spend your time. The problem is simply that so many of these smart people leave academia to a) be paid more, b) maintain a better work-life balance, and c) have clearer goals and expectations.
 
-The Mozilla fellows for science program is an investment in the future of science. It has brought me hope and inspiration to support the next generation of scientists. People who collaborate rather than compete, who accept that we make mistakes and that our theories evolve, and who believe that by sharing our work we can build something so much better that we each could create along.
+The [Mozilla fellows for science](https://science.mozilla.org/programs/fellowships) program is an investment in the future of science. It has brought me hope and inspiration to support the next generation of scientists. People who collaborate rather than compete, who accept that we make mistakes and that our theories evolve, and who believe that by sharing our work we can build something so much better that we each could create along.
 
 In this blog post I'm going to talk you through my application journey. Please reach out (I'm [@kirstie_j](https://twitter.com/kirstie_j) on twitter) if you have any questions or comments.
 
@@ -127,7 +127,6 @@ This blog post is so close to this year's deadline (**14th May**) because I find
 * I've laughed
 * I've cried
 * I've felt overwhelmed
-
 * **I've felt inspired**
 
 ***We can do this.***
@@ -141,4 +140,4 @@ Be the change you want to see in the world, and let all the wonderful folk at th
 
 > Applications close on 14th May 2017.
 >
-> You can find details at https://science.mozilla.org/programs/fellowships
+> You can find all the details you need to apply at [https://science.mozilla.org/programs/fellowships](https://science.mozilla.org/programs/fellowships)
