@@ -37,7 +37,7 @@ I got through to the final round in 2015. That meant I had interviews with [Kait
 
 I didn't end up being chosen, but I was still really inspired to join a community I felt were able to make a difference in the lives of early career researchers around the world.
 
-This is my answer to the question "Why is the open web important to you?", from my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/),
+This is my answer to the question "Why is the open web important to you?", from my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/):
 
 > The open web is the great equaliser. It doesn’t matter where you come from, your gender, sexual orientation or race: the open web allows you to meet peers, mentors, role models and friends. Academia is competitive and, sometimes, dangerously isolating. The mental health challenges for highly educated “trainees” is often not appreciated by those in power and the “crushing self-doubt” of the imposter complex pervades our halls. The open web allows science to advance by sharing our deeper understandings (rather than only the novel or unexpected results) and by supporting the real human beings who undertake those analyses every day.
 
