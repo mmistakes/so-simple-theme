@@ -30,8 +30,11 @@ In this blog post I'm going to talk you through my application journey. Please r
 
 I submitted my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/) while I was on holiday in Edinburgh with friends. Hiking up Arthur's Seat the following (very windy) day felt really great.
 
-![](../../images/kirstie-edinburgh-windy.jpg)
-*Celebrating my first Mozilla fellowship application with a windy hike in Edinburgh*
+<figure>
+  <img src="/images/kirstie-edinburgh-windy.jpg"
+       alt="Kirstie on a hike in Edinburgh">
+  <figcaption>Celebrating my first Mozilla fellowship application with a windy hike in Edinburgh</figcaption>
+</figure>
 
 I got through to the final round in 2015. That meant I had interviews with [Kaitlin Thaney](https://twitter.com/kaythaney), [Zannah Marsh](https://twitter.com/zannahlou), [Abby Cabunoc Mayes](https://twitter.com/abbycabs), and [Arliss Collins](https://twitter.com/arlissc99). They were all *so amazing* I left every conversation desperate to work with them.
 
@@ -49,8 +52,11 @@ Fortunately, it was easy. The atmosphere at MozFest was enthusiastic and friendl
 
 My fortune cookie even supported my life view that file organisation is ***super freaking important***!
 
-![](../../images/mozfest2015-fortune.jpg)
-*My MozFest 2015 fortune*
+<figure>
+  <img src="/images/mozfest2015-fortune.jpg"
+       alt="My MozFest 2015 fortune">
+  <figcaption>My MozFest 2015 fortune</figcaption>
+</figure>
 
 The workshops in the Open Science space were amazing. My favourite was Pull Request bingo lead by [Mu-An Chiou](https://twitter.com/muanchiou). (That was my very first experience with collaborating via GitHub!)
 
@@ -77,8 +83,11 @@ We spent three days talking about our hopes and dreams for MozFest. We were comp
 
 I'd never seen so many postit notes before that retreat, but I have since! I'm completely sold on the benefits of staying up above the nitty-gritty and thinking big. Focusing on our shared goals let us develop the biggest MozFest to date, and I've tried to bring some of the meeting management techniques from the retreat to project meetings for my other collaborations.
 
-![](../../images/mozretreat-berlin.jpg)
-*Our postit board from discussions at the MozFest retreat in Berlin*
+<figure>
+  <img src="/images/mozretreat-berlin.jpg"
+       alt="MozFest retreat postit notes">
+  <figcaption>Our postit board from discussions at the MozFest retreat in Berlin</figcaption>
+</figure>
 
 ### My second - successful :tada: - MozFellows application
 
@@ -90,8 +99,11 @@ Here's my answer to the question "What do you think needs to change most immedia
 
 I again had three sets of interviews, and my supervisor was even interviewed to check that he was supportive of spending my time as a Mozilla fellow for science. Everyone was really great (again) and I was over the moon when I received an email from Aurelia with the subject line: **2016 Mozilla Fellowships for Science: Congratulations!**
 
-![](../../images/congratulations-cupcake.jpg)
-*The congratulations cupcake that my lovely boyfriend bought for me when I was selected to be Mozilla fellow for science in August 2016*
+<figure>
+  <img src="/images/congratulations-cupcake.jpg"
+       alt="Congratulations cupcake">
+  <figcaption>The congratulations cupcake that my lovely boyfriend bought for me when I was selected to be Mozilla fellow for science in August 2016</figcaption>
+</figure>
 
 ### The whirlwind that has been the last 9 months
 
@@ -135,8 +147,12 @@ We are the future of science. **You** are the future of science. Don't let anyon
 
 Be the change you want to see in the world, and let all the wonderful folk at the Mozilla Science lab help you on that journey!
 
-![](https://cdn-images-1.medium.com/max/2000/0*--4UImSIbRt2ZXk4.jpg)
-*2016 Mozilla fellows for science and open web fellows at their onboarding in Toronto. Picture stolen from Aurelia's post [Seeking Open Science Fellows](https://medium.com/read-write-participate/seeking-open-science-fellows-d0cf1dd6fbf0) on Medium*
+<figure>
+  <img src='https://cdn-images-1.medium.com/max/2000/0*--4UImSIbRt2ZXk4.jpg'
+       alt="Mozfellows in Toronto">
+  <figcaption>2016 Mozilla fellows for science and open web fellows at their onboarding in Toronto. Picture stolen from Aurelia's post <a href="https://medium.com/read-write-participate/seeking-open-science-fellows-d0cf1dd6fbf0">Seeking Open Science Fellows</a> on Medium</figcaption>
+</figure>
+
 
 > Applications close on 14th May 2017.
 >
