@@ -22,7 +22,7 @@ When I finished my PhD in Neuroscience from the University of California at Berk
 
 I didn't want to give up on doing science for a career though. A good day in science - where you get to talk with super smart and thoughtful people about how the brain works, develops, learns and evolves, is one of the very best ways to spend your time. The problem is simply that so many of these smart people leave academia to a) be paid more, b) maintain a better work-life balance, and c) have clearer goals and expectations.
 
-The [Mozilla fellows for science](https://science.mozilla.org/programs/fellowships) program is an investment in the future of science. It has brought me hope and inspiration to support the next generation of scientists. People who collaborate rather than compete, who accept that we make mistakes and that our theories evolve, and who believe that by sharing our work we can build something so much better that we each could create along.
+The [Mozilla fellows for science](https://science.mozilla.org/programs/fellowships) program is an investment in the future of science. It has brought me hope and inspiration to support the next generation of scientists. People who collaborate rather than compete, who accept that we make mistakes and that our theories evolve, and who believe that by sharing our work we can build something so much better that we each could create alone.
 
 In this blog post I'm going to talk you through my application journey. Please reach out (I'm [@kirstie_j](https://twitter.com/kirstie_j) on twitter) if you have any questions or comments.
 
@@ -30,7 +30,7 @@ In this blog post I'm going to talk you through my application journey. Please r
 
 I submitted my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/) while I was on holiday in Edinburgh with friends. Hiking up Arthur's Seat the following (very windy) day felt really great.
 
-![](../../images/kirstie-edinburgh-windy.JPG)
+![](../../images/kirstie-edinburgh-windy.jpg)
 *Celebrating my first Mozilla fellowship application with a windy hike in Edinburgh*
 
 I got through to the final round in 2015. That meant I had interviews with [Kaitlin Thaney](https://twitter.com/kaythaney), [Zannah Marsh](https://twitter.com/zannahlou), [Abby Cabunoc Mayes](https://twitter.com/abbycabs), and [Arliss Collins](https://twitter.com/arlissc99). They were all *so amazing* I left every conversation desperate to work with them.
@@ -82,7 +82,7 @@ I'd never seen so many postit notes before that retreat, but I have since! I'm c
 
 ### My second - successful :tada: - MozFellows application
 
-One year later, here I was, ready to submit a second [Mozilla Fellowship application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2016/). I had built up some incredible experiences and I had a project that showed my dedication to working open. That didn't mean I was a sure thing by any sense, but I knew that there was no downside to trying again.
+One year later, here I was, ready to submit a second [Mozilla Fellowship application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2016/). I had built up some incredible experiences and I had a project that showed my dedication to working open. That didn't mean I was a sure thing by any means, but I knew that there was no downside to trying again.
 
 Here's my answer to the question "What do you think needs to change most immediately in scientific research?":
 
