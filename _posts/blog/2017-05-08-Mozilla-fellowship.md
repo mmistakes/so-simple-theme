@@ -12,7 +12,8 @@ modified:
 share: true
 ---
 
-> tl;dr: [Apply today](https://science.mozilla.org/programs/fellowships). It will change your life  (even if you aren't selected!) **Deadline: 14th May**
+> tl;dr: [Apply today](https://science.mozilla.org/programs/fellowships). It will change your life  (even if you aren't selected!)
+> **Deadline: 14th May**
 
 I first heard about the Mozilla fellows for science program in 2015. My first, and only, response was "This was made for me"!
 
@@ -34,21 +35,21 @@ I got through to the final round in 2015. That meant I had interviews with [Kait
 
 I didn't end up being chosen, but I was still really inspired to join a community I felt were able to make a difference in the lives of early career researchers around the world.
 
-From my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/), in answer to the question "Why is the open web important to you?"
+This is my answer to the question "Why is the open web important to you?", from my [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/),
 
 > The open web is the great equaliser. It doesn’t matter where you come from, your gender, sexual orientation or race: the open web allows you to meet peers, mentors, role models and friends. Academia is competitive and, sometimes, dangerously isolating. The mental health challenges for highly educated “trainees” is often not appreciated by those in power and the “crushing self-doubt” of the imposter complex pervades our halls. The open web allows science to advance by sharing our deeper understandings (rather than only the novel or unexpected results) and by supporting the real human beings who undertake those analyses every day.
 
 ### MozFest 2015
 
-I'm not going to lie, I was pretty nervous heading to MozFest in November 2015. I knew I should go - I don't live far from London and it was going to be an excellent weekend event - but I was also going to have to be brave and meet the four successful fellows without appearing too jealous! :unamused:
+I'm not going to lie, I was pretty nervous heading to [MozFest](https://www.theguardian.com/info/developer-blog/live/2015/nov/07/live-from-mozfest-2015) in November 2015. I knew I should go - I don't live far from London and it was going to be an excellent weekend event - but I was also going to have to be brave and meet the four successful fellows without appearing too jealous! :unamused:
 
-Fortunately, it was easy. The atmosphere at MozFest was enthusiastic and friendly. I partly blended in with the crowd and partly chatted with lovely people.
+Fortunately, it was easy. The atmosphere at MozFest was enthusiastic and friendly. I partly blended in with the crowd and partly chatted with lovely people. I immediately felt like I'd joined a community of like-minded friends.
 
 My fortune cookie even supported my life view that file organisation is ***super freaking important***!
 
 ![](../../images/mozfest2015-fortune.jpg)
 
-I even submitted my very first pull request during the Pull Request bingo session lead by [Mu-An Chiou](https://twitter.com/muanchiou).
+The workshops in the Open Science space were amazing. My favourite was Pull Request bingo lead by [Mu-An Chiou](https://twitter.com/muanchiou). (That was my very first experience with collaborating via GitHub!)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">OMG <a href="https://twitter.com/hashtag/pullrequestbingo?src=hash">#pullrequestbingo</a> went swimmingly at <a href="https://twitter.com/hashtag/mozfest?src=hash">#mozfest</a>, check out this glorious list of PRs! 💥 <a href="https://t.co/gOT6rzNHHC">https://t.co/gOT6rzNHHC</a> <a href="https://t.co/evVL2JIdKq">pic.twitter.com/evVL2JIdKq</a></p>&mdash; muan @ berlin too (@muanchiou) <a href="https://twitter.com/muanchiou/status/662961534088388608">November 7, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -63,15 +64,15 @@ It was outstanding. I met the other 30 members of the Open Leadership Cohort and
 
 At the Berlin WOW I build up our project's GitHub repository. We learned about the importance of welcoming people to your project (the almighty [README.md](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/README) welcome mat), giving clear guidelines on how to contribute ([CONTRIBUTING](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/CONTRIBUTING.md)) and on community norms ([CODE_OF_CONDUCT](https://github.com/KirstieJane/STEMMRoleModels/blob/gh-pages/CODE_OF_CONDUCT.md)).
 
-After I came home from Berlin I had fortnightly meetings with Abby and [Aurelia](https://twitter.com/auremoser) - my Mozilla Science lab mentors - who held my hand and supported me all the way through to the Global Sprint....where the STEMM Role Models team of contributors made our very first [website](http://stemmrolemodels.com/) and database! Meeeep!
+After I came home from Berlin I had fortnightly meetings with Abby and [Aurelia](https://twitter.com/auremoser) - my Mozilla Science lab mentors - who held my hand and supported me all the way through to the Global Sprint....where the STEMM Role Models team of contributors made our very first [website](http://stemmrolemodels.com/) and database! Meeeep! :tada: :heart_eyes: :sparkles:
 
 ### MozFest Retreat in Berlin, May 2016
 
 In May 2016 I was invited to help out organising (wrangling) the Open Science space at MozFest 2016. The three day retreat in Berlin with Arliss, Joey and Richard, along with the other Mozilla space wranglers was exceptional.
 
-We spent three days talking about our hopes and dreams for MozFest. How we were going to build an event that was going to bring together advocates for the open web, and support Mozilla's mission to ensure that everyone has access to this incredible resource.
+We spent three days talking about our hopes and dreams for MozFest. We were completely focused on building an event that could bring together advocates for the open web, and support Mozilla's mission to ensure that everyone has access to this incredible resource.
 
-I'd never seen so many postit notes, but I have since! I'm completely sold on the benefits of staying up above the nitty-gritty and thinking big. Focusing on our shared goals let us develop the biggest MozFest to date.
+I'd never seen so many postit notes before that retreat, but I have since! I'm completely sold on the benefits of staying up above the nitty-gritty and thinking big. Focusing on our shared goals let us develop the biggest MozFest to date, and I've tried to bring some of the meeting management techniques from the retreat to project meetings for my other collaborations.
 
 ![](../../images/mozretreat-berlin.jpg)
 
@@ -83,7 +84,7 @@ Here's my answer to the question "What do you think needs to change most immedia
 
 > We must incentivise the measurement of the reproducibility and replicability of scientific findings. We should preregister our analyses, publish null results and ensure that researchers are rewarded for rigour rather than novelty. The scientific method is defined by the constant testing, updating and integration of previously acquired knowledge and it is essential we return to that philosophy. At a minimum, raw data, analysis code and instructions to recreate figures need to be made available to reviewers with all submitted journal articles. More extensively, we must better reward the people who build, develop and document tools to facilitate this process.
 
-I again had three sets of interviews, and my supervisor was even interviewed to check that he was supportive of spending my time as a Mozilla fellow for science. Everyone was really great (again) and when I received an email from Aurelia with the subject line: **2016 Mozilla Fellowships for Science: Congratulations!**
+I again had three sets of interviews, and my supervisor was even interviewed to check that he was supportive of spending my time as a Mozilla fellow for science. Everyone was really great (again) and I was over the moon when I received an email from Aurelia with the subject line: **2016 Mozilla Fellowships for Science: Congratulations!**
 
 Here's a picture of the congratulations cupcake that my lovely boyfriend bought for me:
 
@@ -111,9 +112,9 @@ This post is already too long, so I'm just going to bullet point *some* of the a
 * Fellows offboarding in Cape Town
 * miniWOW at OHBM Hackathon in Vancouver
 
-### Take homes
+### Take home message:
 
-Oh my goodness, please [apply](https://science.mozilla.org/programs/fellowships).
+***Oh my goodness, please [apply](https://science.mozilla.org/programs/fellowships).***
 
 This blog post is so close to the deadline because I find it so hard to put into words how much my membership of the Mozilla Science community has changed my life.
 
@@ -121,8 +122,9 @@ I've made friends, I've been mentored, I've mentored others, I've laughed, I've 
 
 ***We can do this.***
 
-We are the future of science, **you** are the future of science. Don't let anyone tell you that there are games you have to play because "that's the way it works".
+We are the future of science. **You** are the future of science. Don't let anyone tell you that there are games you have to play because "that's the way it works".
 
 Be the change you want to see in the world, and let all the wonderful folk at the Mozilla Science lab help you on that journey!
 
-> Applications close on 14th May 2017. You can find the application details at https://science.mozilla.org/programs/fellowships
+> Applications close on 14th May 2017.
+> You can find details at https://science.mozilla.org/programs/fellowships
