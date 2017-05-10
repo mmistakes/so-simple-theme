@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Mozilla Fellowship Journey
+title: How I became a Mozilla Fellow for Science
 categories: blog
 excerpt: How I got to be a 2016/17 mozilla fellow for science
 tags: [mozilla, mozfellows, applications]
@@ -12,14 +12,17 @@ modified:
 share: true
 ---
 
-I wrote a blog post for the Mozilla Science Lab to encourage everyone to [apply for the 2017 Mozilla fellows for science](https://science.mozilla.org/programs/fellowships) cohort.
+## My Mozilla Fellowship journey
 
-You can check out the whole post at the [Mozilla Science Lab blog](https://science.mozilla.org/blog/kirsties-mozilla-fellowship-journey/) but here are a couple of key links:
+I wrote a [blog post](https://science.mozilla.org/blog/kirsties-mozilla-fellowship-journey/) for the Mozilla Science Lab to encourage everyone to [apply for the 2017 Mozilla fellows for science](https://science.mozilla.org/programs/fellowships) cohort.
 
-* I've put my applications online in the resources section of this website if you want to see what I wrote:
-  * [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/)
-  * [2016 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2016/)
-* Here's where you can [find out more information](https://science.mozilla.org/programs/fellowships) and apply!
+You can check out the whole post at the [Mozilla Science Lab blog](https://science.mozilla.org/blog/kirsties-mozilla-fellowship-journey/) but here are a couple of key links.
+
+I've put my applications online in the resources section of this website if you want to see what I wrote:
+  * My unsuccessful [2015 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2015/)
+  * My successful [2016 application](https://whitakerlab.github.io/resources/Mozilla-Science-Fellowship-Application-2016/)
+
+Here's where you can [find out more information](https://science.mozilla.org/programs/fellowships) and apply!
 
 > **tl;dr**: [Apply today](https://science.mozilla.org/programs/fellowships). It will change your life  (even if you aren't selected!)
 >
