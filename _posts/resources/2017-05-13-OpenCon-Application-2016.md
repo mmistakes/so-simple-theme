@@ -28,7 +28,7 @@ Postdoctoral fellow studying adolescent brain development and the emergence of m
 
 #### Why are you interested in Open Access, Open Education and/or Open Data and how does it relate to your work? If you are already involved in these issues, tell us how.
 
-*Maximum 1600 characters (~250 words). There are many reasons why Open is important. This question is asking specifically why Open is important to *\**you*\**. Please use your own words to describe your perspective and experience.*
+*Maximum 1600 characters (~250 words). There are many reasons why Open is important. This question is asking specifically why Open is important to **you**. Please use your own words to describe your perspective and experience.*
 
 I am a member of the Neuroscience in Psychiatry Network (NSPN), a collaboration of around 60 researchers at the University of Cambridge and University College London. Funded by a £5 million Wellcome Trust Strategic Award in 2012, we have collected neuroimaging data from more than 350 adolescents between the ages of 14 and 24 at multiple time points. My recent work on the mechanisms of adolescent brain development of particularly well connected brain regions (network "hubs") integrated MRI measures of cortical thickness and myelination with human gene expression data openly released by the Allen Institute for Brain Science.
 
