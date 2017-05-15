@@ -31,6 +31,12 @@ Coming soon.
 
 <!--# Sponsors:-->
 
+# Code of Conduct
+
+In order to faciliate a welcoming environment for all attendees, StanCon 2018
+will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.html).
+
+
 # Organizers:
 
 - Michael Betancourt (Columbia University)
