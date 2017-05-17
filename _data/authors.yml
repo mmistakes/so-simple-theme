@@ -6,7 +6,16 @@ kirstie_whitaker:
   bio: "Research fellow at Alan Turing Institute interested in reproducible research, open science and brain development."
   avatar: KW_OpenCon2016_Square.jpg
   twitter: kirstie_j
-  
+
+isla_staden:
+  name: Isla Staden
+  email: istaden@turing.ac.uk
+  bio: "Placement Research Assistant at the Alan Turing Institute. Interested in data-science, brain networks and topology" # Add a few words about yourself within the quotation marks.
+  avatar: IS_whitakerblogprofile.jpg # Please add a picture to the images folder (ok to be an avatar rather than a picture of you if you'd prefer)
+  twitter: # Ok to leave blank
+
+#=============================================
+# Template info, these can be deleted one day
 
 billy_rick:
   name: Billy Rick
