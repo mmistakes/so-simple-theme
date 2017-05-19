@@ -6,7 +6,7 @@ excerpt: "My talk on teenage brain development at the Society of Biological Psyc
 tags: [talks, teenage-brain, sobp]
 image:
   feature:
-link: https://doi.org/10.6084/m9.figshare.5024930.v1
+link: 
 date: 2017-05-19
 modified:
 share: true
