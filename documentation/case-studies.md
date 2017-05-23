@@ -144,6 +144,34 @@ R Package Dependencies
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
 
+## Spatial Models in Stan: Conditional and Intrinsic Auto-Regressive Models for Areal Data
+
+<small>
+Intrinsic Auto-Regressive (IAR) models  are a subclass of Conditional
+Auto-Regressive (CAR) models which can scale to areal data which has
+large numbers of areal regions.
+This case study covers how to efficiently code IAR models in Stan via
+a sparse representation of the neighborhood adjacency matrix with
+example data for 709 US census tract regions of Brooklyn, New York.
+</small>
+
+[View](case-studies/IAR_Stan.html) <span class="note">(HTML)</span>
+
+Author
+: Mitzi Morris
+
+Keywords
+: conditional autorgressive (CAR), intrinsic autoregressive (IAR), sparsity, spatial random effects, maps
+
+Source Repository
+: [example-models/knitr/car-iar-poisson](https://github.com/stan-dev/example-models/tree/master/knitr/car-iar-poisson)
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size:90%">dplyr</tt>, <tt style="font-size:90%">gglot2</tt>, <tt style="font-size: 90%">gridExtra</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">spdep</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: BSD (3 clause), CC-BY
+
 
 # *Stan Case Studies*, &nbsp; Volume 3 &nbsp; (2016)
 
