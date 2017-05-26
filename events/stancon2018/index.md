@@ -57,8 +57,8 @@ to gender, ethnicity, and orientation.
 
 ## Onsite Accommodations
 
-Accommodations at Asilomar begin with checkin the evening of Tuesday
-January 9 2018 and continue through checkout the morning of Friday January 9 2018.  
+Accommodations at Asilomar begin with check-in the evening of Tuesday
+January 9 2018 and continue through check-out the morning of Friday January 9 2018.  
 All accommodations include breakfast, lunch, and dinner.
 
 * Single accommodations: $899.00
@@ -68,7 +68,7 @@ All accommodations include breakfast, lunch, and dinner.
 These costs do not include an additional $20 processing fee.
 
 Guest accommodations are also available.  Similarly, accommodations for
-proceeding and subsequent days are available for those wishing to enjoy the
+preceding and subsequent days are available for those wishing to enjoy the
 grounds before or after the conference.  
 
 Cancellations can be made before December 10 2018 although $100 will be
@@ -77,13 +77,13 @@ deducted from any cancellation to cover processing and handling.
 ## Offsite Accommodations
 
 For those planning to attend the conference but not stay on the Asilomar
-grounds meals can be purchased a la cart,
+grounds meals can be purchased a la carte:
 
 * Breakfast: $19.81
 * Lunch: $25.64
 * Dinner: $39.87
 
-A la cart meals also require a $12 facility fee per day.
+A la carte meals also require a $12 facility fee per day.
 
 # Contributed Talks:
 
