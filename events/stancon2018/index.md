@@ -9,11 +9,13 @@ image:
   creditlink:
 ---
 
+Wednesday January 10, 2018 - Friday January 12, 2018
+{: style="font-size: 150%; text-align: center;"}
+
+[Asilomar Conference Grounds](http://www.visitasilomar.com), Pacific Grove, California
+{: style="font-size: 150%; text-align: center;"}
+
 Three days of talks, open discussions, and modeling hackatons.
-
-Wed January 10, 2018 - Fri January 12, 2018
-
-[Asilomar Conference Grounds](http://www.visitasilomar.com)
 
 # Registration:
 
@@ -39,37 +41,39 @@ cover accommodation and registration.
 
 ## Registration Fees
 
-Until November 10th, 2017 the registration fees will be
+Until Friday November 10, 2017 the registration fees will be
 
 * Student: $150
-* Student (Underrepresented Community*): $100
+* Student ([Underrepresented Community*](#UC)): $100
 * Academic: $250
-* Academic (Underrepresented Community*): $200
+* Academic ([Underrepresented Community*](#UC)): $200
 * Industry: $350
-* Industry (Underrepresented Community*): $300
+* Industry ([Underrepresented Community*](#UC)): $300
 
-After November 10th, 2017 all registration prices will increase by 50%.
-Registration will end altogether on December 20th, 2017.
+After Friday November 10, 2017 all registration prices will increase by 50%.
+Registrations will not be accepted after Wednesday December 20, 2017.
 
-\* We are offering an optional discounted registration to anyone identifying
+<a name="UC">\*</a> We are offering an optional discounted registration to anyone identifying
 with as a member of an underrepresented community, including but not limited
 to gender, ethnicity, and orientation.
 
 ## Onsite Accommodations
 
-Accommodations at Asilomar begin with check-in the evening of Tuesday
-January 9 2018 and continue through check-out the morning of Friday January 9 2018.  
-All accommodations include breakfast, lunch, and dinner.
+Accommodations at Asilomar cover three nights, beginning with check-in the
+evening of Tuesday January 9, 2018 and continuing through check-out the
+morning of Friday January 9, 2018.  Accommodations include dinner on Tuesday,
+breakfast-lunch-dinner on Wednesday and Thursday, and breakfast-lunch on Friday.
 
 * Single accommodations: $899.00
 * Double accommodations: $605.93
 * Quad accommodations (reserved for students): $476.00
 
-These costs do not include an additional $20 processing fee.
+These costs do not include an additional $20 processing fee that will be
+charged when you check into your accommodation at Asilomar.
 
 Guest accommodations are also available.  Similarly, accommodations for
 preceding and subsequent days are available for those wishing to enjoy the
-grounds before or after the conference.  
+grounds before or after the conference.  For details see the [the Asilomar page](https://aws.passkey.com/e/49190400).
 
 Cancellations can be made before December 10 2018 although $100 will be
 deducted from any cancellation to cover processing and handling.
@@ -96,17 +100,19 @@ Submission instructions can be found
 # Schedule:
 
 StanCon 2018 will begin the morning of Wednesday January 10 2018 and will close
-at the end of Friday January 12 2018.
+at the end of Friday January, 12 2018.
 
 Exact schedule coming soon!  
 
 # Sponsors:
 
-Coming soon!
+StanCan 2018 would not be possible without the generous support of our
+sponsors.  If you are interested in becoming a sponsor then please
+[contact the StanCon Organizing Committee](mailto:stanconsubmissions@mc-stan.org).
 
 # Code of Conduct
 
-In order to faciliate a welcoming environment for all attendees, StanCon 2018
+In order to facilitate a welcoming environment for all attendees, StanCon 2018
 will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.html).
 
 
