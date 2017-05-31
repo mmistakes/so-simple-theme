@@ -17,6 +17,34 @@ Wednesday January 10, 2018 - Friday January 12, 2018
 
 Three days of talks, open discussions, and modeling hackatons.
 
+# Location:
+
+StanCon 2018 will take place at the Asilomar Conference Grounds, a National
+Historic Landmark on the Monterey Peninsula right on the beach.
+
+![Boardwalk](Wooden_pathway_at_the_Asilomar_State_Beach.jpg){: style="width: 50%;" .center-image }
+https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Wooden_pathway_at_the_Asilomar_State_Beach.jpg
+{: style="font-size: 50%; text-align: center;"}
+
+Asilomar is approximately 120 miles south of downtown San Francisco
+(about 105 miles from San Francisco International Airport) and about 75 miles
+south of San Jose.
+
+The Monterey Regional Airport (MRY) is just 8 miles from Asilomar, while Mineta
+San Jose International (SJC) is 80 miles to the North and San Francisco
+International Airport (SFO) is 110 miles to the North.
+
+Local taxi companies service the Monterey Regional Airport, as does the
+Monterey-Salinas Transit bus system. Airport shuttle service to and from
+San Jose and San Francisco airports can be arranged in advance through
+Monterey Airbus by calling 831.373.7777 or visiting the Monterey Airbus website.
+
+Talks and discussions will take place in Merrill Hall.
+
+![Merrill Hall](Merrill_Hall_Asilomar_edit1.jpg){: style="width: 50%;" .center-image }
+(https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Merrill_Hall_Asilomar_edit1.jpg)
+{: style="font-size: 50%; text-align: center;"}
+
 # Registration:
 
 Registration for StanCon 2018 proceeds in two steps.
@@ -99,7 +127,7 @@ Submission instructions can be found
 
 # Schedule:
 
-StanCon 2018 will begin the morning of Wednesday January 10 2018 and will close
+StanCon 2018 will begin the morning of Wednesday January 10, 2018 and will close
 at the end of Friday January, 12 2018.
 
 Exact schedule coming soon!  
@@ -108,7 +136,7 @@ Exact schedule coming soon!
 
 StanCan 2018 would not be possible without the generous support of our
 sponsors.  If you are interested in becoming a sponsor then please
-[contact the StanCon Organizing Committee](mailto:stanconsubmissions@mc-stan.org).
+[contact the StanCon Organizing Committee](mailto:stancon@mc-stan.org).
 
 # Code of Conduct
 
