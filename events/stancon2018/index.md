@@ -125,6 +125,12 @@ notebooks, such as knitr or Jupyter, and will take the place of proceedings.
 Submission instructions can be found
 [here](/events/stancon2018/stancon-submissions.html).
 
+# Invited Speakers:
+
+Susan Holmes (Stanford)
+Sean Taylor and Ben Letham (Facebook Core Data Science)
+More to come!
+
 # Schedule:
 
 StanCon 2018 will begin the morning of Wednesday January 10, 2018 and will close
