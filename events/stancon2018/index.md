@@ -127,8 +127,9 @@ Submission instructions can be found
 
 # Invited Speakers:
 
-Susan Holmes (Stanford)
-Sean Taylor and Ben Letham (Facebook Core Data Science)
+* Susan Holmes (Stanford)
+* Sean Taylor and Ben Letham (Facebook Core Data Science)
+
 More to come!
 
 # Schedule:
