@@ -97,8 +97,14 @@ learn to use Stan
 
 # Textbooks Employing Stan
 
+* Joseph M. Hilbe, Rafeal S. de Souza, and Emile E. O.
+  Ishida.  2017. [<i>Bayesian Models for Astrophsical Data Using R, JAGS,
+  Python, and Stan</i>](https://www.bayesianmodelsforastrophysicaldata.com).
+  Cambridge University Press.
+
 * Kentarou Matsuura (2016) [<i>Bayesian Statistical Modeling Using
-  Stan and R</i>](https://www.amazon.co.jp/gp/product/4320112423/ref=pd_sim_14_1). Kyoritsu Shuppan Co., Ltd.
+  Stan and R</i>](https://www.amazon.co.jp/gp/product/4320112423/ref=pd_sim_14_1).
+  Kyoritsu Shuppan Co., Ltd.
 
 * Julian J. Faraway (2016) [<i>Extending the Linear Model with R:
   Generalized Linear, Mixed Effects and Nonparametric Regression

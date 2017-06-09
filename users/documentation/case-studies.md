@@ -145,8 +145,6 @@ R Package Dependencies
 
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
-
-
 # *Stan Case Studies*, &nbsp; Volume 3 &nbsp; (2016)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
@@ -164,7 +162,7 @@ Author
 : Max Joseph
 
 Keywords
-: conditional autorgressive (CAR), independent autoregressive (IAR), sparsity, spatial random effects, maps
+: conditional autoregressive (CAR), independent autoregressive (IAR), sparsity, spatial random effects, maps
 
 Source Repository
 : [mbjoseph/CARstan](https://github.com/mbjoseph/CARstan) <span class="note">(GitHub)</span>
@@ -195,7 +193,7 @@ Author
 : Chris Fonnesbeck
 
 Keywords
-: hierararchical/multilevel modeling, linear regression, model comparison, predictive inference, radon
+: hierarchical/multilevel modeling, linear regression, model comparison, predictive inference, radon
 
 Source Repository
 : [fonnesbeck/stan_workshop_2016](https://github.com/fonnesbeck/stan_workshop_2016)
@@ -368,6 +366,29 @@ R Package Dependencies
 
 License
 :  BSD (3 clause), CC-BY
+
+## Cognitive Diagnosis Model: DINA model with independent attributes
+
+<small>This case study documents a Stan model for the DINA model with independent attributes. A Simulation indicates that the Stan model successfully recovers the generating parameters and predicts respondents' attribute mastery. A Stan model with no structure of the attributes is also discussed and applied to the simulated data. An example using a subset of the fraction subtraction data is provided. </small>
+
+[View](case-studies/dina_independent.html) <span class="note">(HTML)</span>
+
+Author
+: Seung Yeon Lee
+
+Keywords
+: education, cognitive diagnosis model, diagnostic classification model, attribute mastery, DINA
+
+Source Repository
+: [example-models/education/dina_independent](https://github.com/stan-dev/example-models/tree/master/education/dina_independent)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, ggplot2, CDM</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 
 
 ## Pooling with Hierarchical Models for Repeated Binary Trials
