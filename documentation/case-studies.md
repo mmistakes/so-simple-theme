@@ -31,40 +31,6 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
-
-## Spatial Models in Stan: Conditional and Intrinsic Auto-Regressive Models for Areal Data
-
-<small>
-Intrinsic Auto-Regressive (IAR) models  are a subclass of Conditional
-Auto-Regressive (CAR) models which can scale to areal data which has
-large numbers of areal regions.
-The Besag York Mollié model is a lognormal Poisson model which
-includes both an IAR component for spatial smoothing and an ordinary
-random-effects component for non-spatial heterogeneity.
-We implement this model in Stan and use it to fit the Scotland lip
-cancer dataset (56 areal regions) and a pedestrian injury dataset
-over the 709 US census tract regions of Brooklyn, New York.
-</small>
-
-[View](case-studies/IAR_Stan.html) <span class="note">(HTML)</span>
-
-Author
-: Mitzi Morris
-
-Keywords
-: conditional autoregressive (CAR), intrinsic autoregressive (IAR),
-sparsity, spatial random effects, Besag York Mollié (BYM)
-
-Source Repository
-: [example-models/knitr/car-iar-poisson](https://github.com/stan-dev/example-models/tree/master/knitr/car-iar-poisson)
-
-R Package Dependencies
-: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size:90%">dplyr</tt>, <tt style="font-size:90%">gglot2</tt>, <tt style="font-size: 90%">gridExtra</tt>, <tt style="font-size: 90%">maptools</tt>, <tt style="font-size: 90%">spdep</tt>, <tt style="font-size: 90%">knitr</tt>.
-
-License
-: BSD (3 clause), CC-BY
-
-
 ## Typical Sets and the Curse of Dimensionality
 
 <small> This case study illustrates the so-called “curse of
