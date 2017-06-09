@@ -4,7 +4,7 @@ title: StataStan
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_funnel.png
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
@@ -55,10 +55,9 @@ StataStan's source code and issue tracker are hosted by GitHub.
 
 # License
 
-StataStan is open-source licensed under the 
+StataStan is open-source licensed under the
 
 * <p>
   <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
   <span class="note">(Open Source Initiative)</span>.
   </p>
-

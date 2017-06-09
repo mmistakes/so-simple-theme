@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stan C++
+title: Stan Core Library
 excerpt: ""
 modified:
 image:
@@ -12,10 +12,9 @@ image:
 {:.center-txt}
 source-to-source compiler &amp; inference algorithms
 
-The Stan C++ package includes the language source-to-source compiler,
+The Stan Core Library includes the language source-to-source compiler,
 I/O, inference algorithms, and posterior analysis algorithms used to
-run Stan.
-
+run Stan, all written in high-performance C++.
 
 # Download
 
@@ -47,12 +46,8 @@ the wiki.
   <span class="note">(GitHub)</span>
   </p>
 
-
-
- the [model
-
-concept wiki](https://github.com/stan-dev/stan/wiki/Model-Concept) <span
-class="note">(GitHub)</span>.
+the [model concept wiki](https://github.com/stan-dev/stan/wiki/Model-Concept)
+<span class="note">(GitHub)</span>.
 
 # Development
 
@@ -74,7 +69,7 @@ included script, <tt>runTests.py</tt>.
 
 # Source Code and Issue Tracker
 
-The Stan C++ Library's source code and issue tracker are hosted by
+The Stan Core Library's source code and issue tracker are hosted by
 GitHub.
 
 * <p>
@@ -85,7 +80,7 @@ GitHub.
 
 # License
 
-The Stan C++ Library is open-source licensed under the 
+The Stan Core Library is open-source licensed under the
 
 * <p>
   <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>

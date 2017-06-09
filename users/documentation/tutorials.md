@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Documentation
+title: Tutorials
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_funnel.png
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
@@ -12,61 +12,7 @@ image:
 {:.center-txt}
 learn to use Stan
 
-# Language Manual
-
-The modeling language manual contains a guide to programming in Stan
-with example models, a reference manual for the language itself, and a
-reference guide to the built-in special functions and probability
-functions.  Stan's modeling language is portable across all
-interfaces.
-
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.15.0/stan-reference-2.15.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.15.0</a>
-  <br />
-  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-  </p>
-
-# Examples
-
-The quick start guides for each [interface](/interfaces/) contain some
-example models that illustrate how to run Stan.
-
-The modeling language manual contains other examples of model to
-illustrate coding techniques in Stan.
-
-A larger set of example models translating the BUGS examples (Volumes
-1 through 3) and the models from several Bayesian textbooks are also
-available:
-
-* <p>
-  <a href="https://github.com/stan-dev/example-models/wiki">Example Models</a>
-  &nbsp; <span class="note">(GitHub)</span>
-  </p>
-
-
-# Case Studies and Notebooks
-
-
-There are a number of longer, tutorial case studies for particular
-applications, models, and methodologies.  These can be found on their
-own page:
-
-* <p>
-  <a href="case-studies.html">Case Studies</a>
-  </p>
-
-* <p>
-  <a href="https://github.com/stan-dev/stancon_talks">StanCon 2017 Case Studies</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span>
-  </p>
-
-
-# Tutorials
-
-Getting-started material for Stan, its interfaces, and underlying
-technology.
-
-## Text
+# Tutorial Papers About Stan
 
 * Thomas P. Harte and R. Michael Weylandt (2016) [Modern Bayesian Tools for Time Series Analysis](http://tharte.github.io/mbt/). 2016. R in Finance Conference, Chicago, IL.
 
@@ -80,9 +26,17 @@ technology.
 
 *  Aki Vehtari, Andrew Gelman, and Jonah Gabry (2015) [Practical Bayesian model evaluation using leave-one-out cross-validation and WAIC](http://dx.doi.org/10.1007/s11222-016-9696-4). In <i>Statistics and Computing</i>, Online first doi:10.1007/s11222-016-9696-4. [<i>arXiv</i>: 1507.04544](http://arxiv.org/abs/1507.04544).
 
+* Andrew Gelman, Daniel Lee, and Jiqiang Guo (2015) [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf). In press, <i>Journal of Educational and Behavior Science</i>.
 
+# Tutorial Papers About HMC
 
-## Video
+* Michael Betancourt (2017) [A Conceptual Introduction to
+  Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434). *arXiv*.
+
+* Cole C. Monnahan, James T. Thorson, and Trevor A. Branch (2016)
+[Faster estimation of Bayesian models in ecology using Hamiltonian Monte Carlo](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12681/full).  *Methods in Ecology and Evolution*.
+
+# Tutorial Videos
 
 * <a class="external" href="https://www.youtube.com/watch?v=s-9itaL1v-o">Combining
   the Power of R with Stan to Extend Analysis Functionality (60 minutes) </a> <span class="note">
@@ -141,22 +95,7 @@ technology.
     <br />
     Michael Betancourt (2014) Machine Learning Summer School, Reykjavik
 
-
-# Papers
-
-* Cole C. Monnahan, James T. Thorson, and Trevor A. Branch (2016)
-[Faster estimation of Bayesian models in ecology using Hamiltonian Monte Carlo](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12681/full).  *Methods in Ecology and Evolution*.
-
-* Bob Carpenter, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddell (2016) In press for <i>Journal of Statistical Software</i>. [Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf).
-
-* Andrew Gelman, Daniel Lee, and Jiqiang Guo (2015) [Stan: A probabilistic programming language for Bayesian inference and optimization](http://www.stat.columbia.edu/~gelman/research/published/stan_jebs_2.pdf). In press, <i>Journal of Educational and Behavior Science</i>.
-
-* Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee, Peter Li, and Michael Betancourt (2015) [The Stan Math Library: Reverse-Mode Automatic Differentiation in C++](http://arxiv.org/abs/1509.07164).  <i>arXiv</i>: 1509.07164
-
-
-
-
-# Books
+# Textbooks Employing Stan
 
 * Kentarou Matsuura (2016) [<i>Bayesian Statistical Modeling Using
   Stan and R</i>](https://www.amazon.co.jp/gp/product/4320112423/ref=pd_sim_14_1). Kyoritsu Shuppan Co., Ltd.

@@ -4,14 +4,10 @@ title: Development Team
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_funnel.png
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
-
-{:.center-txt}
-design, doc, code &amp; test
-
 
 Stan is a team effort that could not be carried out without the
 [generous support](/support/) of grants, foundations, sponsors, and
@@ -21,7 +17,7 @@ volunteer developers.
 <h1>Core Developers <span style="font-size:0.6em" class="note">(in order of joining)</span></h1>
 
 
-<ul>
+<ul style="columns:2">
 {% for member in site.data.developers %}
 
   <div style="clear:both">
@@ -79,7 +75,7 @@ volunteer developers.
 
 Developers who have made important contributions in the past, but are no longer contributing actively:
 
-<ul>
+<ul style="columns:2">
 {% for member in site.data.alumni_developers %}
 
 

@@ -107,26 +107,11 @@
   github: jgabry
   avatar: jonah_sol_gabry.png
 
-- name: Alp Kucukelbir
-  affiliation: Columbia University
-  web: http://www.proditus.com
-  email: alp@cs.columbia.edu
-  github: akucukelbir
-  avatar: alp_kucukelbir.jpg
-
 - name: Robert L. Grant
   affiliation: St. George's, University of London &amp; Kingston University
   web: http://www.robertgrantstats.co.uk/
   github: robertgrant
   avatar: robert_l_grant.jpg
-
-- name: Dustin Tran
-  affiliation: Columbia University
-  web: http://dustintran.com
-  email: dustin@cs.columbia.edu
-  twitter: dustinvtran
-  github: dustinvtrain
-  avatar: dustin_tran.png
 
 - name: Krzysztof Sakrejda
   affiliation: University of Massachusetts, Amherst
@@ -144,12 +129,6 @@
   github: avehtari
   avatar: aki_vehtari.jpg
 
-- name: Rayleigh Lei
-  affiliation: University of Michigan
-  email: rayleigh@umich.edu
-  github: rayleigh
-  avatar: rayleigh_lei.jpg
-
 - name: Sebastian Weber
   affiliation: Novartis Pharma
   email: sebastian.weber@novartis.com
@@ -161,10 +140,6 @@
   linkedin: https://www.linkedin.com/in/charles-margossian-3428935b
   github: charlesm93
   avatar: charles_margossian.jpg
-
-- name: Thel Seraphim
-  affiliation: Columbia University
-  github: thelseraphim
 
 - name: Vincent Picaud
   affiliation: CEA, France

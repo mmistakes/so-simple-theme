@@ -17,11 +17,12 @@ in Bayesian methodology and Stan programming.
 
 # Contributing Case Studies
 
-To contribute a case study, please contact us through the [users
-group](/community/).  We require
+To contribute a case study, please contact us through the
+[Stan Forums](http://discourse.mc-stan.org/).  We require
 
 * a documented, reproducible example with narrative documentation
-<span class="note">(e.g., knitr or Jupyter with software/compiler versions noted and seeds fixed)</span> and
+<span class="note">(e.g., knitr or Jupyter with software/compiler
+versions noted and seeds fixed)</span> and
 
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
@@ -44,7 +45,8 @@ illustrates Monte Carlo methods and relates distance to the log
 density of the normal distribution and the chi-squared distribution.
 </small>
 
-[View](case-studies/curse-dims.html)  <span class="note">(HTML)</span>
+[View](case-studies/curse-dims.html)  
+<span class="note">(HTML)</span>
 
 Author
 : Bob Carpenter
@@ -135,7 +137,7 @@ Keywords
 weakly-informative priors, RStan
 
 Source Repository
-: [betanalpha/knitr_case_studies/weakly_informative_shapes](https://github.com/betanalpha/knitr_case_studies/tree/master/weakly_informative_shapes) 
+: [betanalpha/knitr_case_studies/weakly_informative_shapes](https://github.com/betanalpha/knitr_case_studies/tree/master/weakly_informative_shapes)
 <span class="note">(GitHub)</span>
 
 R Package Dependencies

@@ -4,7 +4,7 @@ title: MatlabStan
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_funnel.png
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
@@ -25,7 +25,7 @@ MatlabStan on all platforms.
   </p>
 
 
-# Documentation 
+# Documentation
 
 MatlabStan's documentation is also on the wiki.
 
@@ -54,7 +54,7 @@ MatlabStan's source code and issue tracker are hosted by GitHub.
 
 # License
 
-MatlabStan is open-source licensed under the 
+MatlabStan is open-source licensed under the
 
 * <p>
   <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>

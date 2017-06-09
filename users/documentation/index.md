@@ -1,0 +1,96 @@
+---
+layout: page
+title: Documentation
+excerpt: ""
+modified:
+image:
+  feature: feature/wide_ensemble.png
+  credit:
+  creditlink:
+---
+
+{:.center-txt}
+read all about it
+
+# Language Manual
+
+The Stan modeling language manual contains a guide to programming in Stan
+with an extensive collection of modeling techniques and accompanying example
+models.  Additionally, the manual serves as reference manual for the language
+itself, and a reference guide to the built-in special functions and probability
+functions.  Stan's modeling language is portable across all interfaces.
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.15.0/stan-reference-2.15.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.15.0</a>
+  <br />
+  <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+  </p>
+
+# Wiki Documentation
+
+The [Stan Wiki](https://github.com/stan-dev/stan/wiki) is largely focused
+on development documentation but it also includes a few pages with helpful
+information for users.
+
+Two particularly recommended pages are the [Stan Best Practices](https://github.com/stan-dev/stan/wiki/Stan-Best-Practices)
+and the [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations).
+
+# Tutorials
+
+The Stan development team and many users have contributed tutorials aimed at introducing users to various aspects of statistical modeling with Stan, both
+in written and visual formats.  These tutorials can be found at
+
+* <p><a href="/users/documentation/tutorials.html">Tutorials</a></p>
+
+# Case Studies and Notebooks
+
+Case studies provide longer, more-detailed discussion of various
+applications, models, and methodologies.  Each case study is written
+in knitr or Jupyter notebooks so that the discussion is accompanied
+with working code.  Case studies written or validated by the Stan
+development team can be found at
+
+* <p><a href="/users/documentation/case-studies.html">
+  Case Studies</a></p>
+
+The proceedings of each Stan Conference also take the form of
+self-contained notebooks.  Contributions for each conference can
+be found in their corresponding GibHub repository:
+
+* <p>
+  <a href="https://github.com/stan-dev/stancon_talks">StanCon 2017 Case Studies</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span>
+  </p>
+
+# The Stan Forums
+
+The most up to date discussion of modeling techniques and computational
+issues if often found in the [Stan Forums](http://discourse.mc-stan.org/)
+before it ends up in a case study or a paper.  
+
+Discussions prior to June 2017 are achived and public on the now deprecated
+<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
+
+# Example Models
+
+The quick start guides for each [interface](/users/interfaces/) contain
+example models for demonstrating how to run Stan.
+
+The Stan modeling language manual contains many other model examples to
+illustrate various modeling and coding techniques in Stan.
+
+A larger set of example models translating the BUGS examples (Volumes
+1 through 3) and the models from several Bayesian textbooks are also
+available on GibHub,
+
+* <p>
+  <a href="https://github.com/stan-dev/example-models/wiki">Example Models</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+# External References
+
+Finally, there are many works that elaborate on aspects of Stan from
+algorithms to applications.  Some of the more relevant references can be
+found at
+
+* <p><a href="/users/documentation/external.html">External References</a></p>

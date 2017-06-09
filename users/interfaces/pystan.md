@@ -4,7 +4,7 @@ title: PyStan
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_funnel.png
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
@@ -53,7 +53,7 @@ PyStan's source code and issue tracker are hosted by GitHub.
 
 # License
 
-PyStan is open-source licensed under the 
+PyStan is open-source licensed under the
 
 * <p>
   <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public License, version 3</a>
