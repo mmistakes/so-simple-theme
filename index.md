@@ -10,6 +10,9 @@ image:
   creditlink:
 ---
 
+{:.center-txt}
+[Registration is now open for StanCon 2018!](/events/stancon2018)
+
 Stan is a state-of-the-art platform for statistical modeling and
 high-performance statistical computation.  Thousands of users rely
 on Stan for statistical modeling, data analysis, and prediction in
