@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Visger Lab
 locale: en_US
-description: Describe your website here.
-logo: site-logo.png
+description: description to come later
+logo: visgerlab.png
 search: true
-url: http://localhost:4000
+url: https://cvisger.github.io/Visger-Lab
 
 # Jekyll configuration
 
