@@ -28,12 +28,24 @@ functions.  Stan's modeling language is portable across all interfaces.
 
 # Wiki Documentation
 
-The [Stan Wiki](https://github.com/stan-dev/stan/wiki) is largely focused
-on development documentation but it also includes a few pages with helpful
-information for users.
+The Stan Wiki is largely focused on development documentation but it also
+includes a few pages with helpful information for users.
 
-Two particularly recommended pages are the [Stan Best Practices](https://github.com/stan-dev/stan/wiki/Stan-Best-Practices)
-and the [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations).
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki">Stan Wiki</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+Two particularly recommended pages are
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki/Stan-Best-Practices">
+  Stan Best Practices</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations">
+  Prior Choice Recommendations</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
 
 # Tutorials
 
@@ -64,8 +76,11 @@ be found in their corresponding GibHub repository:
 # The Stan Forums
 
 The most up to date discussion of modeling techniques and computational
-issues if often found in the [Stan Forums](http://discourse.mc-stan.org/)
-before it ends up in a case study or a paper.  
+issues if often found in the Stan Forums before it ends up in a case study
+or a paper.
+
+* <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
+<span class="note">(Discourse)</span></p>
 
 Discussions prior to June 2017 are achived and public on the now deprecated
 <a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.

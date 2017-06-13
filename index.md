@@ -10,12 +10,11 @@ image:
   creditlink:
 ---
 
-Stan is a platform for sophisticated statistical modeling
-and high-performance statistical computation.
-
-Thousands of users rely on Stan for statistical modeling, data
-analysis, and prediction in the social, biological, and physical
-sciences, engineering, and business.
+Stan is a state-of-the-art platform for statistical modeling and
+high-performance statistical computation.  Thousands of users rely
+on Stan for statistical modeling, data analysis, and prediction in
+the social, biological, and physical sciences, engineering, and
+business.
 
 Users specify log density functions in Stan's probabilistic
 programming language and get:
