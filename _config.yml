@@ -5,8 +5,8 @@ locale: en_US
 description:
 logo: visgerlab.png
 search: true
-url: http://localhost:4000
-#url: cvisger.github.io/Visger-Lab
+#url: http://localhost:4000
+url: cvisger.github.io
 
 # Jekyll configuration
 
