@@ -5,7 +5,7 @@ locale: en_US
 description: description to come later
 logo: visgerlab.png
 search: true
-url: https://cvisger.github.io/Visger-Lab
+url: cvisger.github.io/Visger-Lab
 
 # Jekyll configuration
 
