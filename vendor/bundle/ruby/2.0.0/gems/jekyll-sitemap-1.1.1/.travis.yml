@@ -1,0 +1,43 @@
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+- 2.0
+- 2.1
+- 2.2
+matrix:
+  include:
+  # GitHub Pages
+  - rvm: 2.3.3
+    env: JEKYLL_VERSION=3.3.1
+env:
+  matrix:
+  - JEKYLL_VERSION=3.3
+branches:
+  only:
+  - master
+  - /^v\d+\.\d+\.\d+/
+git:
+  depth: 1000
+install:
+- travis_retry script/bootstrap
+script: script/cibuild
+notifications:
+  irc:
+    on_success: change
+    on_failure: change
+    channels:
+    - irc.freenode.org#jekyll
+    template:
+    - "%{repository}#%{build_number} %{message} %{build_url}"
+  email:
+    on_success: never
+    on_failure: change
+deploy:
+  provider: rubygems
+  api_key:
+    secure: O8fGRnM6OJCqC2BlVE1BqYfq5aR19ulpiHhQwRiHbtSCh8H4rYt7FLsuOwSTtRQjhWYRRSpdRt2ilfQ6PY6Jx1UkxZq5zo9QAPQ9tKxiFTm7gBpZAiAgb06eyaMBSzyQ8qe2qccaFI6CiZhsiaGMsdKsWuYpuoPmdLPd7aDyYJs=
+  gem: jekyll-sitemap
+  on:
+    tags: true
+    repo: jekyll/jekyll-sitemap

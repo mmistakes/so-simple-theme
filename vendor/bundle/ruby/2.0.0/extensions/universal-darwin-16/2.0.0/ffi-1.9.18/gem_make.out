@@ -1,0 +1,81 @@
+current directory: /Users/claytonvisger/Desktop/github/Visger-Lab/vendor/bundle/ruby/2.0.0/gems/ffi-1.9.18/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170613-1766-1gg0x7l.rb extconf.rb
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include,/usr/include/ffi... yes
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... no
+checking for shlwapi.h... no
+checking for rb_thread_blocking_region()... yes
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... no
+creating extconf.h
+creating Makefile
+
+current directory: /Users/claytonvisger/Desktop/github/Visger-Lab/vendor/bundle/ruby/2.0.0/gems/ffi-1.9.18/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/claytonvisger/Desktop/github/Visger-Lab/vendor/bundle/ruby/2.0.0/gems/ffi-1.9.18/ext/ffi_c
+make "DESTDIR="
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+Call.c:355:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+1 warning generated.
+Call.c:355:5: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+    rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+    ^
+./Thread.h:78:39: note: expanded from macro 'rbffi_thread_blocking_region'
+# define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                      ^
+1 warning generated.
+compiling ClosurePool.c
+compiling DataConverter.c
+DataConverter.c:43:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+DataConverter.c:43:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+compiling DynamicLibrary.c
+compiling ffi.c
+compiling Function.c
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+1 warning generated.
+Function.c:563:9: warning: implicit declaration of function 'rb_thread_call_without_gvl' is invalid in C99 [-Wimplicit-function-declaration]
+        rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+        ^
+1 warning generated.
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByReference.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+linking shared-object ffi_c.bundle
+
+current directory: /Users/claytonvisger/Desktop/github/Visger-Lab/vendor/bundle/ruby/2.0.0/gems/ffi-1.9.18/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20170613-1766-j1m6ko
+installing default ffi_c libraries
