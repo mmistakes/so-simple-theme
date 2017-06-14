@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
+title: The Visger Lab
 locale: en_US
-description:
-logo: visgerlab1.png
+description: Exploring the role of polyploidy using genomics, bioinformatics, and ecological modeling
+logo: visgerlab.png
 search: true
-#url: http://localhost:4000
+url: http://localhost:4000
 url: https://cvisger.github.io/Visger-Lab
 
 # Jekyll configuration
@@ -37,13 +37,13 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Clayton J. Visger
+  avatar: cvisger.jpg
+  email: clayton.visger at csus dot edu
   disqus-shortname:
-  twitter: #username
+  twitter: hoityploidy
   facebook: #username
-  github: #username
+  github: cvisger
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -58,3 +58,21 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
+
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft

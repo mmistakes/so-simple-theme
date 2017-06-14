@@ -1,0 +1,24 @@
+<section class='install'>
+<h2>Installation</h2>
+<h3>Using Bundler</h3>
+
+<p>Add this gem to your site's Gemfile in the <code>:jekyll_plugins</code> group:</p>
+
+<pre><code>group :jekyll_plugins do
+  gem '{{ page.plugin.gem }}'
+end</code></pre>
+
+<p>Then install the gem with Bundler</p>
+
+<pre><code>$ bundle</code></pre>
+
+<h3>Manual Installation</h3>
+
+<pre><code>$ gem install {{ page.plugin.gem }}</code></pre>
+
+<p>Then add the gem to your Jekyll configuration.</p>
+
+<pre></code>gems:
+  - {{ page.plugin.gem }}
+</code></pre>
+</section>

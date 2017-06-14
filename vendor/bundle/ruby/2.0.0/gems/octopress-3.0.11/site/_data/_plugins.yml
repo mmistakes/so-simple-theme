@@ -1,0 +1,40 @@
+site_tools:
+  - octopress
+  - octopress-deploy
+  - octopress-linkblog
+  - octopress-feed
+  - octopress-asset-pipeline
+  - octopress-minify-html
+  - octopress-date-format
+
+themes:
+  - octopress-genesis-theme
+
+developer_tools:
+  - octopress-ink
+  - octopress-codefence
+  - octopress-gist
+  - octopress-render-code
+  - octopress-codeblock
+  - octopress-solarized
+  - octopress-filters
+  - octopress-debugger
+  - clash
+
+liquid_plugins:
+  - octopress-quote-tag
+  - octopress-filter-tag
+  - octopress-pullquote-tag
+  - octopress-image-tag
+  - octopress-video-tag
+  - octopress-include-tag
+  - octopress-render-tag
+  - octopress-wrap-tag
+  - octopress-assign-tag
+  - octopress-capture-tag
+  - octopress-filter-tag
+  - octopress-return-tag
+  - octopress-comment-tag
+  - octopress-content-for
+  - octopress-markdown-tag
+  - octopress-abort-tag

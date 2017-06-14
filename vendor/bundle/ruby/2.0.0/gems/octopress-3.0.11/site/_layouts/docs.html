@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+{{ content }}
+
+{% assign doc_pages = page.docs %}
+{% if doc_pages.size > 1 %}
+<nav class='plugin-nav' role='navigation'>
+{% for doc in doc_pages %}
+<a href="{{ doc.url }}">{{ doc.title }}</a>
+{% endfor %}
+</nav>
+{% endif %}

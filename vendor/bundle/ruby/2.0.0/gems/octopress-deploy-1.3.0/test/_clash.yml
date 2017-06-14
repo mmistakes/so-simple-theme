@@ -1,0 +1,53 @@
+-
+  tasks:
+    cleanup:
+      - rm -rf build local-rsync pull-rsync pull-s3 .deploy pull-git local-git pull-s3 remote-rsync
+    reset: 
+      - cleanup
+      - cp -r source/ _site
+      - ruby garbage.rb
+-
+  title: Test local Rsync
+  before: 
+    - reset
+    - octopress deploy init rsync --dir local-rsync --config _rsync_deploy_local.yml --force
+    - octopress deploy --config _rsync_deploy_local.yml
+  compare: _site local-rsync
+
+-
+  title: Test remote Rsync
+  before: 
+    - reset
+    - octopress deploy --config _rsync_deploy.yml
+    - octopress deploy pull pull-rsync --config _rsync_deploy.yml
+  compare: _site pull-rsync
+
+-
+  title: Test local Git
+  before: 
+    - reset
+    - git init --bare local-git
+    - octopress deploy init git ./local-git --branch test_git_deploy --dir site --config _git_deploy_local.yml --force
+    - octopress deploy --config _git_deploy_local.yml
+    - octopress deploy pull pull-git --config _git_deploy_local.yml
+    - rm -rf pull-git/.git
+  compare: _site pull-git/site
+
+-
+  title: Test remote Git
+  before: 
+    - reset
+    - octopress deploy init git git@github.com:octopress/deploy --branch test_git_deploy --config _git_deploy.yml --force
+    - octopress deploy --config _git_deploy.yml
+    - octopress deploy pull pull-git --config _git_deploy.yml
+    - rm -rf pull-git/.git
+  compare: _site pull-git
+
+-
+  title: Test S3
+  before: 
+    - reset
+    - octopress deploy s3 --config _s3_deploy.yml
+    - octopress deploy pull pull-s3 --config _s3_deploy.yml
+  compare: _site pull-s3
+  after: cleanup

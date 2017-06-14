@@ -1,0 +1,7 @@
+url: http://octopress.org
+markdown: redcarpet
+exclude:
+  - Gemfile
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+minify_html: false
