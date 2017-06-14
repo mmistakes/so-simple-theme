@@ -1,14 +1,10 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Research
+  url: /research/
 
-- title: Articles
-  url: /articles/
+- title: Posts
+  url: /posts/
 
-- title: Blog
-  url: /blog/
-
-
-- title: Search
-  url: /search/
+- title: People
+  url: /people/
