@@ -24,7 +24,7 @@ Current RNAseq-based methods for comparing transcript abundances rest on the ass
 
 ![](https://i.imgur.com/DZXRlih.png)
 
-We have adapted the use of synthetic RNAs to enable simultaneous comparisons of transcript abundance per cell and transcript abundance per biomass, independently from transcriptome size. This method was applied on a transcriptome-wide basis using diploid and autopolyploid _Tolmiea_ (Saxifragaceae) as a natural model system. We are currently interested in expanding the use of this method to investigations into rates of translation, and also application in non-polyploid systems.
+To better investigate polyploid gene expression, we have adapted the use of synthetic RNAs to enable simultaneous comparisons of transcript abundance per cell and transcript abundance per biomass, independently from transcriptome size. Our approach was applied on a transcriptome-wide basis using diploid and autopolyploid _Tolmiea_ (Saxifragaceae) as a natural model system. We are currently interested in expanding the use of this method to investigations into rates of translation, and also application in non-polyploid systems.
 
 
 ### Polyploidy and translation
