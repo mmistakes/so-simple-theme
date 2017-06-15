@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Research Page Is Live"
+title: "Research page is live"
 date: 2017-06-15T08:37:09-07:00
 categories: posts
 ---
