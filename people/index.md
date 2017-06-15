@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "people"
-date: 
+title: "People"
+date:
 modified:
-excerpt:
+excerpt:"Coming soon"
 image:
   feature:
 search_omit: true
