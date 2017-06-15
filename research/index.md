@@ -20,11 +20,11 @@ The genomic consequences of polyploidy ultimately stem from gene dosage effects 
 We are particulary interested in how patterns of gene expression in polyploids change over time as physiological stress is imposed.  One hypothesis is that in times of high stress, polyploids are able to exhibit a transgressive response transcriptomically due to the maintenance of additional gene copies. In other words, a tetraploid with four genomic copies may be able to up-regulate its stress response to a greater degree than the diploid with two genomic copies.
 
 ### RNAseq normalization
-Current RNAseq-based methods for comparing transcript abundances rest on the assumption that total transcriptome size does not vary between groups. Due to this limitation, previous studies of polyploid gene expression have been limited to comparisons of transcript concentration relative to the transcriptome, rather than transcript abundance.
+Current RNAseq-based methods for comparing transcript abundances rest on the assumption that total transcriptome size does not vary between groups. Due to this limitation, previous studies of polyploid gene expression have been limited to comparisons of transcript concentration relative to the transcriptome, analogous to molarity, rather than transcript abundance.
 
 ![](https://i.imgur.com/DZXRlih.png)
 
-We have developed a novel RNAseq method that leverages synthetic RNAs to enable simultaneous comparisons of transcript abundance per cell and transcript abundance per biomass, independently from transcriptome size. This method was applied on a transcriptome-wide basis using diploid and autopolyploid Tolmiea (Saxifragaceae) as a natural model system. We are currently interested in expanding the use of this method to investigations into rates of translation, and also application in non-polyploid systems.
+We have adapted the use of synthetic RNAs to enable simultaneous comparisons of transcript abundance per cell and transcript abundance per biomass, independently from transcriptome size. This method was applied on a transcriptome-wide basis using diploid and autopolyploid _Tolmiea_ (Saxifragaceae) as a natural model system. We are currently interested in expanding the use of this method to investigations into rates of translation, and also application in non-polyploid systems.
 
 
 ### Polyploidy and translation
