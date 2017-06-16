@@ -8,7 +8,7 @@ image:
 ---
 ![](https://i.imgur.com/gmbF8ve.png)
 
-Our research interests are in the evolutionary role of whole-genome duplication (polyploidy) and in polyploidy as a speciation mechanism. We investigate the impact of polyploidy in flowering plants using genomic and bioinformatics methods, while drawing from the fields of physiology and ecology to place the findings into an evolutionary and ecological context.
+Our research interests are in the evolutionary role of polyploidy, or whole-genome duplication, and how it functions as a speciation mechanism. We investigate the impact of polyploidy in flowering plants using genomic and bioinformatics methods, while drawing from the fields of physiology and ecology to place the findings into an evolutionary and ecological context.
 
 ![](https://i.imgur.com/Gc2SFss.png)
 
