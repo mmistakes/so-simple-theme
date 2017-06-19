@@ -9,9 +9,10 @@ image:
 search_omit: true
 sitemap: false
 ---
-# Under Construction
-## Clayton J. Visger ![](images/index-cca23438.jpg){:height="200px" width="300px"}
-* [ResearchGate](https://www.researchgate.net/profile/Clayton_Visger)
-* [Twitter](https://twitter.com/hoityploidy)
-* [GitHub](https://github.com/cvisger)
-* clayton.visger at csus dot edu
+![](images/inprep-e9a23246.png)
+
+# Interested in joining?
+The Visger lab is always looking for self-motivated undergraduate and graduate students.  While the current focus of our lab is on whole-genome duplication, students may pursue any question driven project that incorporate either genomics, transcriptomics, ecological modeling, or cytology. If that sounds like you, please contact Clayton Visger.
+
+## Collaborators
+*in prep*

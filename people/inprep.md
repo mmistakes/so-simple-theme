@@ -15,6 +15,7 @@ sitemap: false
 * [GitHub](https://github.com/cvisger)
 * clayton.visger at csus dot edu
 
-## Bandit (Field Dog)![](images/index-92722ef5.png){:height="200px" width="300px"}
+![](images/inprep-92722ef5.png)
+
 ___
 ## Collaborators
