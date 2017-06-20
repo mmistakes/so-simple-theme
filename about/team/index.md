@@ -7,6 +7,7 @@ image:
   feature: feature/wide_ensemble.png
   credit:
   creditlink:
+redirect_from: "/team/"
 ---
 
 Stan is a team effort that could not be carried out without the

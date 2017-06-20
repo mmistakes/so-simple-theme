@@ -22,7 +22,7 @@ of applied statistics.
 The project is a team effort comprised of full time and
 volunteer developers from around the world.  
 
-* <p><a href="/about/team/index.html">The Stan Development Team</a></p>
+* <p><a href="/about/team/">The Stan Development Team</a></p>
 
 # Funding
 
