@@ -7,6 +7,7 @@ image:
   feature: feature/wide_ensemble.png
   credit:
   creditlink:
+redirect_from: "/development/"
 ---
 
 {:.center-txt}
