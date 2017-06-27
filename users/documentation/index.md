@@ -48,6 +48,7 @@ Two particularly recommended pages are
   Prior Choice Recommendations</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
   </p>
 
+
 # Tutorials
 
 The Stan development team and many users have contributed tutorials aimed at introducing users to various aspects of statistical modeling with Stan, both
@@ -102,6 +103,19 @@ available on GibHub,
   <a href="https://github.com/stan-dev/example-models/wiki">Example Models</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
+
+# Specialized Field Guides
+
+Tutorials, case studies, software packages, and publications related to
+specific fields.
+
+* <p>
+  <a href="https://education-stan.github.io">Education
+    research using Stan</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+
 
 # External References
 
