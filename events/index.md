@@ -16,6 +16,41 @@ meetups, talks &amp; courses
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.
 
+# An Introduction to the Stan Software for Bayesian Analysis
+
+Speaker
+: Ben Goodrich
+
+Date
+: 3 July 2017, 6:30--7:30pm
+
+Location
+: Berlin, Germany
+
+Venue
+: The Hub @ Zalando
+
+Details
+: [View](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/240986840/)
+
+# How to Use (R)Stan to Estimate Models in External R Packages
+
+Speaker
+: Ben Goodrich
+
+Date
+: 6 July 2017, 2:24--2:42pm
+
+Location
+: Brussels, Belgium
+
+Venue
+: useR 2017 Conference
+
+Details
+: [View](https://user2017.sched.com/event/Axqm/how-to-use-rstan-to-estimate-models-in-external-r-packages)
+
+## **Past**
 
 # Stan: A Software Ecosystem for Modern Bayesian Inference
 
@@ -49,8 +84,6 @@ Venue
 Details
 : [View](http://metrumrg.com/events/index.html)
 
-
-# **Past**
 
 # **StanCon: Saturday January 21, 2017**
 

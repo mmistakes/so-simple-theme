@@ -76,7 +76,7 @@ volunteer developers.
 
 Developers who have made important contributions in the past, but are no longer contributing actively:
 
-<ul style="columns:2">
+<ul style="columns:2" style="clear:both">
 {% for member in site.data.alumni_developers %}
 
 
@@ -135,3 +135,7 @@ Developers who have made important contributions in the past, but are no longer 
 
 For more info on how join the the development team, read about
 [how to contribute to Stan](/development/).
+
+<style>
+body { line-height: normal; }
+</style>

@@ -13,8 +13,8 @@ image:
 {:.center-txt}
 [Registration is now open for StanCon 2018!](/events/stancon2018)
 
-Stan is a state-of-the-art platform for statistical modeling and
-high-performance statistical computation.  Thousands of users rely
+Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
+and high-performance statistical computation.  Thousands of users rely
 on Stan for statistical modeling, data analysis, and prediction in
 the social, biological, and physical sciences, engineering, and
 business.
