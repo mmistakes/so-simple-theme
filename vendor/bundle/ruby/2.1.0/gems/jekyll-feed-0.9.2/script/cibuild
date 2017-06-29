@@ -1,0 +1,7 @@
+#! /bin/bash
+
+set -e
+
+bundle exec rspec
+bundle exec rubocop -S -D
+bundle exec rake build

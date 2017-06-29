@@ -1,0 +1,37 @@
+Ruby String Extensions To Add Title Case Support
+================================================
+
+A set of methods added onto the String class to allow easy title casing of strings.
+
+This extension is available as a gem via GitHub:
+
+    $ sudo gem install samsouder-titlecase --source=http://gems.github.com
+
+Usage:
+
+    require 'rubygems'
+    require 'titlecase'
+    
+    puts "this is a test".titlecase
+
+Derived from the rules set by John Gruber at <http://daringfireball.net/2008/05/title_case>. I also derived my test cases from his set. If you find any edge cases, please feel free to add them to the examples.yaml file.
+
+Rules from John Gruber:
+-----------------------
+  - capitalize each word
+  - downcase each of the small_words
+  - words with capitals after the first character are left alone
+  - words with periods are left alone
+  - first and last word always capitalized
+  - small words after colons are capitalized
+
+Sam Souder <samsouder@gmail.com>
+Created May 22, 2008
+
+Perl version created by:
+
+  John Gruber  
+  http://daringfireball.net/  
+  May 10 2008
+
+License: http://www.opensource.org/licenses/mit-license.php

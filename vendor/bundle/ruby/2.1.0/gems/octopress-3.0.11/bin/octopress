@@ -1,0 +1,14 @@
+#! /usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.expand_path("../lib", File.dirname(__FILE__)))
+
+require 'mercenary'
+require 'octopress'
+
+Mercenary.program(:octopress) do |p|
+  p.version Octopress::VERSION
+  p.description "Octopress is an obsessively designed toolkit for Jekyll blogging."
+  p.syntax "octopress <subcommand> [options]"
+
+  Octopress::Command.subclasses.each { |c| c.init_with_program(p) }
+end

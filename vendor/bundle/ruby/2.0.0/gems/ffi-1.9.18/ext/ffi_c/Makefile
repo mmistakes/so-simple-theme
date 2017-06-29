@@ -11,12 +11,12 @@ ECHO = $(ECHO1:0=@echo)
 #### Start of system configuration section. ####
 
 srcdir = .
-topdir = /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0
+topdir = /Users/claytonvisger/.rvm/rubies/ruby-2.0.0-p648/include/ruby-2.0.0
 hdrdir = $(topdir)
-arch_hdrdir = /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0/universal-darwin16
+arch_hdrdir = /Users/claytonvisger/.rvm/rubies/ruby-2.0.0-p648/include/ruby-2.0.0/x86_64-darwin16.6.0
 PATH_SEPARATOR = :
 VPATH = $(srcdir):$(arch_hdrdir)/ruby:$(hdrdir)/ruby
-prefix = $(DESTDIR)/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr
+prefix = $(DESTDIR)/Users/claytonvisger/.rvm/rubies/ruby-2.0.0-p648
 rubysitearchprefix = $(rubylibprefix)/$(sitearch)
 rubyarchprefix = $(rubylibprefix)/$(arch)
 rubylibprefix = $(libdir)/$(RUBY_BASE_NAME)
@@ -30,9 +30,9 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20170613-1766-j1m6ko
-sitelibdir = $(DESTDIR)./.gem.20170613-1766-j1m6ko
-sitedir = $(DESTDIR)/Library/Ruby/Site
+sitearchdir = $(DESTDIR)./.gem.20170627-54271-e2ryyt
+sitelibdir = $(DESTDIR)./.gem.20170627-54271-e2ryyt
+sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
 sitearchincludedir = $(includedir)/$(sitearch)
@@ -40,20 +40,20 @@ archincludedir = $(includedir)/$(arch)
 sitearchlibdir = $(libdir)/$(sitearch)
 archlibdir = $(libdir)/$(arch)
 ridir = $(datarootdir)/$(RI_BASE_NAME)
-mandir = $(DESTDIR)/usr/share/man
+mandir = $(datarootdir)/man
 localedir = $(datarootdir)/locale
 libdir = $(exec_prefix)/lib
 psdir = $(docdir)
 pdfdir = $(docdir)
 dvidir = $(docdir)
 htmldir = $(docdir)
-infodir = $(DESTDIR)/usr/share/info
+infodir = $(datarootdir)/info
 docdir = $(datarootdir)/doc/$(PACKAGE)
 oldincludedir = $(DESTDIR)/usr/include
 includedir = $(prefix)/include
 localstatedir = $(prefix)/var
 sharedstatedir = $(prefix)/com
-sysconfdir = $(DESTDIR)/Library/Ruby/Site
+sysconfdir = $(prefix)/etc
 datadir = $(datarootdir)
 datarootdir = $(prefix)/share
 libexecdir = $(exec_prefix)/libexec
@@ -62,8 +62,8 @@ bindir = $(exec_prefix)/bin
 archdir = $(rubyarchdir)
 
 
-CC = xcrun clang
-CXX = xcrun clang++
+CC = /usr/bin/clang
+CXX = clang++
 LIBRUBY = $(LIBRUBY_SO)
 LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
 LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
@@ -74,18 +74,18 @@ COUTFLAG = -o $(empty)
 
 RUBY_EXTCONF_H = extconf.h
 cflags   =  $(optflags) $(debugflags) $(warnflags)
-optflags = 
-debugflags = -g
+optflags = -O3 -fno-fast-math
+debugflags = -ggdb3
 warnflags = 
-CCDLFLAGS = 
-CFLAGS   = $(CCDLFLAGS)  -g -Os -pipe -DHAVE_GCC_SYNC_BUILTINS $(ARCH_FLAG)
+CCDLFLAGS = -fno-common
+CFLAGS   = $(CCDLFLAGS) $(cflags)  -fno-common -pipe $(ARCH_FLAG)
 INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) -I/usr/include/ffi
 DEFS     = 
-CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\" -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT $(DEFS) $(cppflags)
-CXXFLAGS = $(CCDLFLAGS) $(ARCH_FLAG) -g -Os -pipe  $(ARCH_FLAG)
-ldflags  = -L. -L/usr/local/lib
-dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress 
-ARCH_FLAG =  -arch x86_64 -arch i386
+CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\" -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/libyaml/include -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include $(DEFS) $(cppflags)
+CXXFLAGS = $(CCDLFLAGS) $(cxxflags) $(ARCH_FLAG)
+ldflags  = -L. -fstack-protector -L/usr/local/lib -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib 
+dldflags = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib  
+ARCH_FLAG = 
 DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)
 LDSHARED = $(CC) -dynamic -bundle
 LDSHAREDXX = $(CXX) -dynamic -bundle
@@ -99,7 +99,7 @@ RUBY_VERSION_NAME = $(RUBY_BASE_NAME)-$(ruby_version)
 RUBYW_BASE_NAME = rubyw
 RUBY_BASE_NAME = ruby
 
-arch = universal-darwin16
+arch = x86_64-darwin16.6.0
 sitearch = $(arch)
 ruby_version = 2.0.0
 ruby = $(bindir)/ruby
@@ -108,9 +108,9 @@ ruby_headers = $(hdrdir)/ruby.h $(hdrdir)/ruby/defines.h $(arch_hdrdir)/ruby/con
 
 RM = rm -f
 RM_RF = $(RUBY) -run -e rm -- -rf
-RMDIRS = rmdir -p
-MAKEDIRS = mkdir -p
-INSTALL = /usr/bin/install -c
+RMDIRS = rmdir --ignore-fail-on-non-empty -p
+MAKEDIRS = /usr/local/opt/coreutils/bin/gmkdir -p
+INSTALL = /usr/local/opt/coreutils/bin/ginstall -c
 INSTALL_PROG = $(INSTALL) -m 0755
 INSTALL_DATA = $(INSTALL) -m 644
 COPY = cp
@@ -120,8 +120,8 @@ TOUCH = exit >
 
 preload = 
 
-libpath = . $(libdir)
-LIBPATH =  -L. -L$(libdir)
+libpath = . $(libdir) /usr/local/opt/libyaml/lib /usr/local/opt/readline/lib /usr/local/opt/libksba/lib /usr/local/opt/openssl/lib
+LIBPATH =  -L. -L$(libdir) -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib
 DEFFILE = 
 
 CLEANFILES = mkmf.log

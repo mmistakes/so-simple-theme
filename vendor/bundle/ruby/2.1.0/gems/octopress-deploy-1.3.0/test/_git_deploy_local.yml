@@ -1,0 +1,12 @@
+method: git                               # How do you want to deploy? git, rsync or s3.
+site_dir: _site                           # Location of your static site files.
+
+git_url: /Users/imathis/workspace/octodev/deploy/test/local-git  # remote repository url, e.g. git@github.com:username/repo_name
+
+# Note on git_branch:
+# If using GitHub project pages, set the branch to 'gh-pages'.
+# For GitHub user/organization pages or Heroku, set the branch to 'master'.
+#
+git_branch: test_git_deploy               # Git branch where static site files are commited
+
+remote_path: site                       # Destination directory

@@ -1,0 +1,13 @@
+<header>
+  <a href="/"><h1>Octopress Local Docs</h1></a>
+  <p>Local documentation for your site's plugins.</p>
+  {% assign doc_pages = page.docs %}
+  {% if doc_pages.size > 1 %}
+    <nav class='main-nav' role='navigation'>
+    {% for doc in doc_pages %}
+    <a href="{{ doc.url }}">{{ doc.title }}</a>
+    {% endfor %}
+    </nav>
+  {% endif %}
+</header>
+

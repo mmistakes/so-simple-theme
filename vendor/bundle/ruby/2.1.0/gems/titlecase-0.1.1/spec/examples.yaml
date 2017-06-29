@@ -1,0 +1,45 @@
+should_pass:
+  - example: | Q&A with Steve Jobs: 'That's what happens in technology'
+    expect:  | Q&A With Steve Jobs: 'That's What Happens in Technology'
+  - example: | what is AT&T's problem?
+    expect:  | What Is AT&T's Problem?
+  - example: | Apple deal with AT&T falls through
+    expect:  | Apple Deal With AT&T Falls Through
+  - example: | this v that
+    expect:  | This v That
+  - example: | this vs that
+    expect:  | This vs That
+  - example: | this v. that
+    expect:  | This v. That
+  - example: | this vs. that
+    expect:  | This vs. That
+  - example: | The SEC's Apple probe: what you need to know
+    expect:  | The SEC's Apple Probe: What You Need to Know
+  - example: | 'by the way, small word at the start but within quotes.'
+    expect:  | 'By the Way, Small Word at the Start but Within Quotes.'
+  - example: | small word at end is nothing to be afraid of
+    expect:  | Small Word at End Is Nothing to Be Afraid Of
+  - example: | Starting Sub-Phrase with a small word: a trick, perhaps?
+    expect:  | Starting Sub-Phrase With a Small Word: A Trick, Perhaps?
+  - example: | Sub-Phrase With a Small Word in Quotes: 'a trick, perhaps?'
+    expect:  | Sub-Phrase With a Small Word in Quotes: 'A Trick, Perhaps?'
+  - example: | Sub-Phrase With a Small Word in Quotes: "a trick, perhaps?"
+    expect:  | Sub-Phrase With a Small Word in Quotes: "A Trick, Perhaps?"
+  - example: | "nothing to be afraid of?"
+    expect:  | "Nothing to Be Afraid Of?"
+  - example: | a thing
+    expect:  | A Thing
+  - example: | 2lmc Spool: 'Gruber on OmniFocus and Vapo(u)rware'
+    expect:  | 2lmc Spool: 'Gruber on OmniFocus and Vapo(u)rware'
+  - example: | a complex thing
+    expect:  | A Complex Thing
+  - example: | de.licio.us: the new hotness?
+    expect:  | de.licio.us: The New Hotness?
+  - example: | introducing: de.licio.us bookmarks
+    expect:  | Introducing: de.licio.us Bookmarks
+  - example: | i end in a period.
+    expect:  | I End in a Period.
+  - example: | this is a test.com!?
+    expect:  | This Is a test.com!?
+  - example: | 
+    expect:  | 

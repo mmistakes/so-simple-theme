@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem "jekyll"
+gem "octopress", path: "../../cli"
+
+group :jekyll_plugins do
+end
+
+#gem 'octopress-escape-code', path: "../../escape-code"
+#gem "octopress-ink", path: "../../ink"
+#gem "octopress-codefence", path: "../../codefence"

@@ -1,0 +1,13 @@
+method: rsync                             # How do you want to deploy? git, rsync or s3.
+site_dir: _site                           # Location of your static site files.
+
+user:                                     # The user for your host, e.g. user@host.com
+remote_path: local-rsync                  # Destination directory
+delete:                                   # Remove files from destination which don't match files in source
+port:                                     # If your host requires a non standard port
+flags:  -avz                              # Modify flags as necessary to suit your hosting setup
+
+# exclude:                                # files to exclude
+# exclude-from:                           # Path to file containing list of files to exclude
+# include:                                # files to include
+# include-from:                           # Path to file containing list of files to include
