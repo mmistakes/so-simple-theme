@@ -6,7 +6,7 @@ categories: posts
 ---
 
 
-Early on in graduate school I had the pleasure of meeting [John Thompson](https://thompsonlab.sites.ucsc.edu/contact/).  After meeting him, and snooping his webpage, I stumbled on his [Treatise on being successful in Academia](https://thompsonlab.sites.ucsc.edu/wp-content/uploads/sites/216/2015/08/Successful-Graduate-Student-8.6.pdf). If you are considering a career in academic it is 100% worth a read -- there are some major gems of wisdom, as well as plenty of general non-academic advice.
+Early on in graduate school I had the pleasure of meeting [John Thompson](https://thompsonlab.sites.ucsc.edu/contact/).  After meeting him, and snooping his webpage, I stumbled on to his [Treatise on being successful in Academia](https://thompsonlab.sites.ucsc.edu/wp-content/uploads/sites/216/2015/08/Successful-Graduate-Student-8.6.pdf). If you are considering a career in academic it is 100% worth a read -- there are some major gems of wisdom, as well as plenty of general non-academic advice.
 
 A word of caution.  The treatise contains some hard to swallow positions on time in the lab, work/life balance, and it is important to keep in mind that those suggestions are for people interested in a path to tenure track at an R1 (and I'm sure there are exceptional people that put in far less time and are successful).
 
