@@ -127,8 +127,11 @@ Submission instructions can be found
 
 # Invited Speakers:
 
-* Susan Holmes (Stanford)
+* Susan Holmes (Department of Statistics, Stanford University)
 * Sean Taylor and Ben Letham (Facebook Core Data Science)
+* Manuel Rivas (Department of Biomedical Data Science, Stanford University)
+* Talia Weiss (Department of Physics, Massachusetts Institute of Technology)
+* Sophia Rabe-Hesketh (Educational Statistics and Biostatistics, University of California, Berkeley)
 
 More to come!
 
