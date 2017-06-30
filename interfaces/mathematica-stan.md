@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/mathematica-stan.md
+redirect_to: /users/interfaces/mathematica-stan.html
 ---

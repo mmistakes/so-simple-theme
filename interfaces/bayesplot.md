@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/bayesplot.md
+redirect_to: /users/interfaces/bayesplot.html
 ---

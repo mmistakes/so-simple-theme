@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/math.md
+redirect_to: /users/interfaces/math.html
 ---

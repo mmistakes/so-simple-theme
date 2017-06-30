@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/cmdstan.md
+redirect_to: /users/interfaces/cmdstan.html
 ---

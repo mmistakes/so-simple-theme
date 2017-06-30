@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/stan.md
+redirect_to: /users/interfaces/stan.html
 ---

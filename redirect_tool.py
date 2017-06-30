@@ -12,5 +12,7 @@ files = [x.split("/")[-1] for x in
 for fn in files:
     print fn
     with open(re_base + fn, "w") as f:
-        lines = ["---", "redirect_to: /" + base_dir + fn, "---"]
+        lines = ["---",
+                "redirect_to: /" + base_dir + fn.replace(".md", ".html"),
+                "---"]
         f.write("\n".join(lines))

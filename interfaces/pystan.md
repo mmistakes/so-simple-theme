@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/pystan.md
+redirect_to: /users/interfaces/pystan.html
 ---

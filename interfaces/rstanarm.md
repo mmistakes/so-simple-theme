@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/rstanarm.md
+redirect_to: /users/interfaces/rstanarm.html
 ---

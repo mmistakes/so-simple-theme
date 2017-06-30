@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/loo.md
+redirect_to: /users/interfaces/loo.html
 ---

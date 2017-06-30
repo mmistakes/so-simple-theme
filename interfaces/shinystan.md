@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/shinystan.md
+redirect_to: /users/interfaces/shinystan.html
 ---

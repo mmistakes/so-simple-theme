@@ -1,3 +1,3 @@
 ---
-redirect_to: /users/interfaces/matlab-stan.md
+redirect_to: /users/interfaces/matlab-stan.html
 ---
