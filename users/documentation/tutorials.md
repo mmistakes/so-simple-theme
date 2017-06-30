@@ -98,7 +98,7 @@ learn to use Stan
 # Textbooks Employing Stan
 
 * Joseph M. Hilbe, Rafeal S. de Souza, and Emile E. O.
-  Ishida.  2017. [<i>Bayesian Models for Astrophsical Data Using R, JAGS,
+  Ishida.  2017. [<i>Bayesian Models for Astrophysical Data Using R, JAGS,
   Python, and Stan</i>](https://www.bayesianmodelsforastrophysicaldata.com).
   Cambridge University Press.
 
