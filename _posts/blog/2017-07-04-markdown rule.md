@@ -146,7 +146,7 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 버튼 클래스 (`.btn` class) 를 이용한 링크설정
 
-`<div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
+`<div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>`
 
 <div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
 
