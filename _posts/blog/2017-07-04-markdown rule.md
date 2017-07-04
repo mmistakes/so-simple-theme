@@ -112,8 +112,6 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 #### 스타일에 맞춘 코드 형식
 
-`{% highlight css %} 본문 {% endhighlight %}`
-
 {% highlight css %}
 #container {
   float: left;
