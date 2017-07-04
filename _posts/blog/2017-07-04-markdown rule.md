@@ -25,6 +25,7 @@ Title 에 관한 문법사항이다.
 
 `# Heading 1`
 # Heading 1
+# # Heading 1
 
 `## Heading 2`
 ## Heading 2
@@ -55,11 +56,11 @@ Title 에 관한 문법사항이다.
 `<u>Underline</u>`
 <u>Underline</u>
 
-`<sub>2</sub>`
+`H<sub>2</sub>O`
 H<sub>2</sub>O
 
-`<up>3</up>`
-m<up>3</up>/sec
+`m<sup>3</sup>/sec`
+m<sup>3</sup>/sec
 
 `도움말 표현: <abbr title="단어에 해당하는 도움말 내용 기입">단어<abbr>`
 <abbr title="cascading stylesheets">CSS<abbr>
