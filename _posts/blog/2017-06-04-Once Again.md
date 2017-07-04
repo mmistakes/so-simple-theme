@@ -23,10 +23,10 @@ share: true
 
 나의 컴퓨터에는 1년전에 이미 설치했던 자료들이 남아 있는 관계로 일단은 Jekyll만 작동시키고 블로그를 쓸수 있도록 하는데 초점을 맞추었다.
 
->1. 나의 블로그: http://maestro4u.kr
->2. 블로그와 연결된 깃허브 주소: maestro4u.github.io
->3. shell 구동 프로그램: iTerm2
->4. 텍스트 작성 프로그램: Sublime Text
+>1. 나의 블로그: `http://maestro4u.kr`
+>2. 블로그와 연결된 깃허브 주소: `maestro4u.github.io`
+>3. shell 구동 프로그램: `iTerm2`
+>4. 텍스트 작성 프로그램: `Sublime Text`
 >5. 프로그램 운영절차
 >	- cd maestro4u.github.io
 >	- bundle exec jekyll s
