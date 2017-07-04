@@ -23,34 +23,51 @@ share: true
 
 Title 에 관한 문법사항이다.
 
-`# Heading 1` --> # Heading 1
+`# Heading 1`
+# Heading 1
 
-`## Heading 2` --> ## Heading 2
+`## Heading 2`
+## Heading 2
 
-`### Heading 3` --> ### Heading 3
+`### Heading 3`
+### Heading 3
 
-`#### Heading 4` --> #### Heading 4
+`#### Heading 4`
+#### Heading 4
 
-`##### Heading 5` --> ##### Heading 5
+`##### Heading 5`
+##### Heading 5
 
-`###### Heading 6` --> ###### Heading 6
-
-# Heading 1 # <-- `# Heading 1`
-
-## Heading 2 ## <-- `## Heading 2`
-
-### Heading 3 ### <-- `### Heading 3`
-
-#### Heading 4 #### <-- `#### Heading 4`
-
-##### Heading 5 ##### <-- `###### Heading 5`
-
-###### Heading 6 ###### <-- `######## Heading 6`
+`###### Heading 6`
+###### Heading 6
 
 ### Body text
 
-Bold:  `** XX **` --> **This is strong**
-Italic: `* XX *`
+`**This is strong**`
+**This is strong**
+
+`*This is italic*`
+*This is emphasized*
+
+`<cite>(That’s a citation)</cite>`
+<cite>(That’s a citation)</cite>
+
+`<u>Underline</u>`
+<u>Underline</u>
+
+`<sub>2</sub>`
+H<sub>2</sub>O
+
+`<up>3</up>`
+m<up>3</up>/sec
+
+`도움말 표현: <abbr title="단어에 해당하는 도움말 내용 기입">단어<abbr>`
+<abbr title="cascading stylesheets">CSS<abbr>
+
+`![Image name]({{ site.url }}/images/filename.jpg){: .pull-right/center/left}`
+
+
+#### For Example
 
 ![Smithsonian Image]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
 {: .pull-right}
@@ -59,13 +76,13 @@ Italic: `* XX *`
 
 HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
-### Blockquotes
+### 블록인용(Blockquotes)
 
 > Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
-### List Types
+### 개요 형식
 
-#### Ordered Lists
+#### 숫자형
 
 1. Item one
    1. sub item one
@@ -73,13 +90,26 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
    3. sub item three
 2. Item two
 
-#### Unordered Lists
+#### 불릿형
 
 * Item one
 * Item two
 * Item three
 
-### Tables
+### 표 작성
+
+{% highlight %}
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3   |
+{: .table}
+{% endhighlight %}
 
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
@@ -92,9 +122,9 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 | Foot1   | Foot2   | Foot3   |
 {: .table}
 
-### Code Snippets
+### 코드형식
 
-Syntax highlighting via Pygments and Rouge
+#### 스타일에 맞춘 코드 형식
 
 {% highlight css %}
 #container {
@@ -104,7 +134,7 @@ Syntax highlighting via Pygments and Rouge
 }
 {% endhighlight %}
 
-Non Pygments/Rouge code example
+#### 스타일적용이 없는 코드형식
 
     <div id="awesome">
         <p>This is great isn't it?</p>
@@ -112,7 +142,9 @@ Non Pygments/Rouge code example
 
 ### Buttons
 
-Make any link standout more when applying the `.btn` class.
+버튼 클래스 (`.btn` class) 를 이용한 링크설정
+
+`<div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
 
 <div markdown="0"><a href="http://mademistakes.com" class="btn">This is a button</a></div>
 
