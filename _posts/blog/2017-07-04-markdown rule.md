@@ -66,7 +66,6 @@ m<up>3</up>/sec
 
 `![Image name]({{ site.url }}/images/filename.jpg){: .pull-right/center/left}`
 
-
 #### For Example
 
 ![Smithsonian Image]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
@@ -98,7 +97,7 @@ HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a a
 
 ### 표 작성
 
-{% highlight %}
+{% highlight css %}
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
