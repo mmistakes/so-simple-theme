@@ -2,7 +2,7 @@
 
 title: Maestro for You
 locale: en_US
-description: maestro4u.github.io
+description: An amazing website using Jekyll
 logo: site-logo.png
 search: true
 url: 
@@ -35,9 +35,9 @@ owner:
   avatar: bio-photo.jpg
   email: huni.kim@gmail.com
   disqus-shortname:
-  twitter: #HuniKim
-  facebook: #thething.intheworld
-  github: #maestro4u
+  twitter: HuniKim
+  facebook: thething.intheworld
+  github: maestro4u
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #Hoon Kim
   instagram: #landuser
