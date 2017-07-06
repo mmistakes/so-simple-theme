@@ -43,3 +43,12 @@ open-source software projects, including NumPy, Julia, Jupyter, and
 others.  For more details see
 
 * <p><a href="/about/numfocus/index.html">Stan and NumFOCUS</a></p>
+
+
+# Stan Logo
+
+The Stan name and logo are registered trademarks of NumFOCUS
+under the direction of Stan's Leadership Body.  For details
+on when you can use the logo see
+
+* <p><a href="/about/logo/index.html">Stan Logo</a></p>
