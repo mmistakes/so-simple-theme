@@ -21,5 +21,8 @@ licensing the Stan name and/or logo for a commercial venture then please contact
 
 When using the Stan logo please use the official versions linked below,
 
+<script type="text/javascript">
+  disableOn = 0;
+</script>
 * <p><a href="https://github.com/stan-dev/logos/blob/master/logo_tm.png">PNG</a></p>
 * <p><a href="https://github.com/stan-dev/logos/blob/master/logo_tm.eps">EPS</a></p>
