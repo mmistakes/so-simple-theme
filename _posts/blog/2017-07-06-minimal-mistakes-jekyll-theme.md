@@ -45,19 +45,19 @@ Jekyll을 이용하여 새로운 사이트를 만들면, 폴더에 내용이 없
 
 `Gemfile`에는 다음을 삽입한다.
 
-{% highlight md %}
+{% highlight ruby %}
 gem "minimal-mistakes-jekyll"
 {% endhighlight %}
 
 
 `_config.yml`에는 다음을 삽입한다.
 
-{% highlight md %}
+{% highlight ruby %}
 theme: minimal-mistakes-jekyll
 {% endhighlight %}
 
 그리고 설치를 위해 bundler를 실행시킨다.
 
-{% highlight md %}
+{% highlight ruby %}
 bundle install
 {% endhighlight %}
