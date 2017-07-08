@@ -35,9 +35,9 @@ Minimal Mistakes은 [Jekyll theme gem](https://jekyllrb.com/docs/themes/) 으로
 
 설치에는 크게 3가지 정도의 방법이 있다:
 
-	* `Gemfile 과 _config.yml`을 이용하는 방법
-	* 깃허브의 `Fork` 를 이용하는방법
-	* 마지막으로 직접 테마를 컴퓨터에 복사하는 방법
+>* `Gemfile 과 _config.yml`을 이용하는 방법
+>* 깃허브의 `Fork` 를 이용하는방법
+>* 마지막으로 직접 테마를 컴퓨터에 복사하는 방법
 
 #### Gemfile & _config.yml 이용법
 
@@ -61,3 +61,4 @@ theme: minimal-mistakes-jekyll
 {% highlight ruby %}
 bundle install
 {% endhighlight %}
+
