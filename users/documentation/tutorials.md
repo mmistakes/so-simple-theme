@@ -38,6 +38,12 @@ learn to use Stan
 
 # Tutorial Videos
 
+* <a class="external" href="https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/How-to-Use-RStan-to-Estimate-Models-in-External-R-Packages">
+  How to Use (R)Stan to Estimate Models in External R Packages </a> <span class="note">
+  (useR2017 Conference)</span>
+  <br />
+  Ben Goodrich (2017)
+
 * <a class="external" href="https://www.youtube.com/watch?v=s-9itaL1v-o">Combining
   the Power of R with Stan to Extend Analysis Functionality (60 minutes) </a> <span class="note">
   (Southern New England UseR Meetup via YouTube)</span>
