@@ -17,7 +17,7 @@ ___
 
 The genomic consequences of polyploidy ultimately stem from gene dosage effects incurred by a doubling of every copy of every gene in the genome. Our research explores how polyploidy-driven shifts in gene dosage impact gene expression.
 
-We are particulary interested in how patterns of gene expression in polyploids change over time as physiological stress is imposed.  One hypothesis is that in times of high stress, polyploids are able to exhibit a transgressive response transcriptomically due to the maintenance of additional gene copies. In other words, a tetraploid with four genomic copies may be able to up-regulate its stress response to a greater degree than the diploid with two genomic copies.
+We are particularly interested in how patterns of gene expression in polyploids change over time as physiological stress is imposed.  One hypothesis is that in times of high stress, polyploids are able to exhibit a transgressive response transcriptomically due to the maintenance of additional gene copies. In other words, a tetraploid with four genomic copies may be able to up-regulate its stress response to a greater degree than the diploid with two genomic copies.
 
 ### RNAseq normalization
 Current RNAseq-based methods for comparing transcript abundances rest on the assumption that total transcriptome size does not vary between groups. Due to this limitation, previous studies of polyploid gene expression have been limited to comparisons of transcript concentration relative to the transcriptome, analogous to molarity, rather than transcript abundance.
