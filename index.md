@@ -27,11 +27,11 @@ Sheffield Bioinformatics Core (SBC) is part of the [Bioinformatics Hub](http://b
 
 ### Contact
 
-You can contact Mark at []() or on twitter [@DrMarkDunning](https://twitter.com/DrMarkDunning).
+You can contact Mark on twitter [@DrMarkDunning](https://twitter.com/DrMarkDunning).
 
 You're very welcome to contact us via [GitHub](https://github.com/sheffield-bioinformatics-core) too. 
 
-This website is hosted via [GitHub pages](https://github.com/sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io. If you see any typos or other mistakes please let us know...or file a pull request with your edits.
+This website is hosted via [GitHub pages](https://github.com/sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io). If you see any typos or other mistakes please let us know...or file a pull request with your edits.
 
 
 <!---
