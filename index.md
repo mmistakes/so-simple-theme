@@ -15,11 +15,11 @@ The Core is also part of the [Bioinformatics Hub](http://bioinformatics.group.sh
 
 ### Team
 
-- [Dr. Mark Dunning](http://markdunning.github.io/) | Core Director (Starting October 2017)
-- Core Analyst (starting September 2017) |  
-- Core Analyst (to be recruited)  | 
-- [Prof. Winston Hide](https://www.sheffield.ac.uk/neuroscience/staff/hide) | Academic Director
-- [Dr. Dennis Wang](https://www.sheffield.ac.uk/neuroscience/staff/wang) | Associate Academic Director
+- [Dr. Mark Dunning](http://markdunning.github.io/) - Core Director (Starting October 2017)
+- Core Analyst (starting September 2017)  
+- Core Analyst (to be recruited)  
+- [Prof. Winston Hide](https://www.sheffield.ac.uk/neuroscience/staff/hide) - Academic Director
+- [Dr. Dennis Wang](https://www.sheffield.ac.uk/neuroscience/staff/wang) - Associate Academic Director
 
 
 
