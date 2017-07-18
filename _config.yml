@@ -5,7 +5,7 @@ locale: en_US
 description: Updates from the Bioinformatics Core at The University of Sheffield.
 logo: site-logo.gif
 search: true
-url: https://whitakerlab.github.io
+url: https://sheffield-bioinformatics-core.github.io/
 
 # Jekyll configuration
 
