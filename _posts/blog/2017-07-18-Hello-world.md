@@ -17,6 +17,6 @@ author: mark_dunning
 
 The website for the University of Sheffield Bioinformatics Core is up-and-running :tada:
 
-On this site you can expect to find software developed by the Core, analyses we have performed for researchers, and training courses we have delivered.
+On this site you can expect to find software and scripts developed by the Core, analyses we have performed for researchers, blog posts about developments in the Bioinformatics community and training courses we have delivered.
 
-Huge thanks to Kirstie Whitaker from the Turing Institute for making the code for [The Whitaker Lab](https://whitakerlab.github.io/) available for others to look at and adapt
+Huge thanks to [Kirstie Whitaker](@KirstieJane) from the [Turing Institute](https://www.turing.ac.uk/) for making the code for [The Whitaker Lab](https://whitakerlab.github.io/) available for others to look at and adapt :+1:
