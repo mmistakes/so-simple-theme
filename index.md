@@ -25,7 +25,7 @@ The Core is also part of the [Bioinformatics Hub](http://bioinformatics.group.sh
 
 ### Contact
 
-You can contact us by email [sheffieldBioinformaticsCore@gmail.com](mailto:sheffieldBioinformaticsCore@gmail.com) or on twitter [@@SheffBioinfCore](https://twitter.com/SheffBioinfCore).
+You can contact us by email [sheffieldBioinformaticsCore@gmail.com](mailto:sheffieldBioinformaticsCore@gmail.com) or on twitter [@SheffBioinfCore](https://twitter.com/SheffBioinfCore).
 
 You're very welcome to contact us via [GitHub](https://github.com/sheffield-bioinformatics-core) too. 
 
