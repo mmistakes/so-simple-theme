@@ -32,6 +32,32 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Recommended PyStan Workflow
+
+<small>
+This case study demonstrates the recommended PyStan workflow for
+ensuring robust inferences with the default dynamic Hamiltonian
+Monte Carlo algorithm.
+</small>
+
+[View](case-studies/pystan_workflow.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, Hamiltonian Monte Carlo, divergences, PyStan
+
+Source Repository
+: [betanalpha/jupyter_case_studies/pystan_workflow](https://github.com/betanalpha/jupyter_case_studies/tree/master/pystan_workflow)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">pystan, pickle, numpy, md5</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 ## Typical Sets and the Curse of Dimensionality
 
 <small> This case study illustrates the so-called “curse of
