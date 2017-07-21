@@ -7,4 +7,4 @@ image:
   feature: feature/wide_ensemble.png
 ---
 
-- [wimlds_stan.zip](/workshops/wimlds/wimlds_stan.zip)
+- [wimlds.zip](/workshops/wimlds/wimlds.zip)
