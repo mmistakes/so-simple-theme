@@ -6,13 +6,13 @@ excerpt: "My talk on teenage brain development at the Society of Biological Psyc
 tags: [talks, teenage-brain, sobp]
 image:
   feature:
-link: 
+link:
 date: 2017-05-19
 modified:
 share: true
 ---
 
-I'm very excited to present our work on [structural brain development during adolescence]() at the Society of [Biological Psychiatry 2017 annual meeting](https://www.sobp.org/i4a/pages/index.cfm?pageid=3545
+I'm very excited to present our work on [structural brain development during adolescence]() at the Society of [Biological Psychiatry 2017 annual meeting](https://www.sobp.org/
 ) in San Diego.
 
 My talk is part of a symposium on [Network Architectures of the Healthy Brain as Constraints for the
