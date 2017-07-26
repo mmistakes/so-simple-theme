@@ -11753,7 +11753,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Robust-Statistical-Workflow-with-PyStan">Robust Statistical Workflow with PyStan<a class="anchor-link" href="#Robust-Statistical-Workflow-with-PyStan">&#182;</a></h1><p>Stan and its implementation of dynamic Hamiltonian Monte Carlo is an extremely powerful tool for specifying and then fitting complex Bayesian models.  In order to ensure a robust analysis, however, that power must be complemented with responsibility.</p>
 <p>In particular, while dynamic implementations of Hamiltonian Monte Carlo, i.e. implementations where the integration time is dynamic, do perform well over a large class of models their success is not guaranteed.  When they do fail, however, their failures manifest in diagnostics that are readily checked.</p>
-<p>By acknowledging and respecting these diagnostics you can ensure that Stan is accurately fitting the Bayesian posterior and hence accurately characterizing your model.  And only with an accurate characterization of your model can you utilize its insights.</p>
+<p>By acknowledging and respecting these diagnostics you can ensure that Stan is accurately fitting the Bayesian posterior and hence accurately characterizing your model.  And only with an accurate characterization of your model can you properly utilize its insights.</p>
 
 </div>
 </div>
@@ -11763,7 +11763,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="A-Little-Bit-About-Markov-Chain-Monte-Carlo">A Little Bit About Markov Chain Monte Carlo<a class="anchor-link" href="#A-Little-Bit-About-Markov-Chain-Monte-Carlo">&#182;</a></h2><p>Hamiltonian Monte Carlo is an implementation of Markov chain Monte Carlo, which approximates expectations with respect to a given target distribution, $\pi$,
+<h2 id="A-Little-Bit-About-Markov-Chain-Monte-Carlo">A Little Bit About Markov Chain Monte Carlo<a class="anchor-link" href="#A-Little-Bit-About-Markov-Chain-Monte-Carlo">&#182;</a></h2><p>Hamiltonian Monte Carlo is an implementation of Markov chain Monte Carlo, an algorithm which approximates expectations with respect to a given target distribution, $\pi$,
 $$
 \mathbb{E}_{\pi} [ f ] = \int \mathrm{d}q \, \pi (q) \, f(q),
 $$
@@ -11780,7 +11780,7 @@ $$
 $$</p>
 <p>To be useful in applied analyses, we need these Markov chain Monte Carlo estimators to converge to the true expectation values sufficiently quickly that they are reasonably accurate
 <em>before</em> we exhaust our finite computational resources.  This fast convergence
-requires strong ergodicity conditions to hold, typically <em>geometric
+requires strong ergodicity conditions to hold, typically a condition called <em>geometric
 ergodicity</em> between the Markov transition and target distribution.  In particular, geometric
 ergodicity is a sufficient condition for Markov chain Monte Carlo estimators to follow
 a central limit theorem, which ensures not only that they are unbiased
@@ -11803,7 +11803,7 @@ diagnostics.  One of these behaviors is the appearance of <em>divergences</em> t
 indicate the Hamiltonian Markov chain has encountered regions of high curvature
 in the target distribution which it cannot adequately explore.  Another is the <em>energy Bayesian fraction of missing information</em>, or E-BFMI, which quantifies the efficacy of the momentum resampling in between Hamiltonian trajectories.</p>
 <p>For more details on Markov chain Monte Carlo and Hamiltonian Monte Carlo see "A Conceptual Introduction to Hamiltonian Monte Carlo" arXiv:1701.02434 (<a href="https://arxiv.org/abs/1701.02434">https://arxiv.org/abs/1701.02434</a>).</p>
-<p>In this case study I will demonstrate the recommended Stan workflow in Python where we not only fit a model but also scrutizing these diagnostics and ensure an accurate fit.</p>
+<p>In this case study I will demonstrate the recommended Stan workflow in Python where we not only fit a model but also scrutinize these diagnostics and ensure an accurate fit.</p>
 
 </div>
 </div>
@@ -11838,7 +11838,7 @@ in the target distribution which it cannot adequately explore.  Another is the <
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Unfortunately diagnostics are a bit ungainly to check in PyStan 2.16.0, so to facilitate the workflow I have included a utilty module with some useful functions.</p>
+<p>Unfortunately diagnostics are a bit ungainly to check in PyStan 2.16.0, so to facilitate the workflow I have included a utility module with some useful functions.</p>
 
 </div>
 </div>
@@ -11871,14 +11871,14 @@ FILE
     /Users/Betancourt/Documents/Research/Code/betanalpha/jupyter_case_studies/pystan_workflow/stan_utility.py
 
 FUNCTIONS
-    check_div(sampler_params)
+    check_div(fit)
         Check transitions that ended with a divergence
     
-    check_energy(sampler_params)
+    check_energy(fit)
         Checks the energy Bayesian fraction of missing information (E-BFMI)
     
-    check_treedepth(sampler_params, max_depth=10)
-        Check transitions that ended prematurely due to maximum treedepth limit
+    check_treedepth(fit, max_depth=10)
+        Check transitions that ended prematurely due to maximum tree depth limit
     
     compile_model(filename, model_name=None, **kwargs)
         This will automatically cache models - great if you&#39;re just running a
@@ -11887,7 +11887,7 @@ FUNCTIONS
         See http://pystan.readthedocs.io/en/latest/avoiding_recompilation.html
     
     partition_div(fit)
-        Returns parameter arrays separted into divergent and non-divergent transitions
+        Returns parameter arrays separated into divergent and non-divergent transitions
 
 
 </pre>
@@ -11906,7 +11906,7 @@ FUNCTIONS
 <h2 id="Specifying-and-Fitting-A-Model-in-Stan">Specifying and Fitting A Model in Stan<a class="anchor-link" href="#Specifying-and-Fitting-A-Model-in-Stan">&#182;</a></h2><p>To demonstrate the recommended Stan workflow let's consider a hierarchical model of the eight schools dataset infamous in the statistical literature,</p>
 $$\mu \sim \mathcal{N}(0, 5)$$$$\tau \sim \text{Half-Cauchy}(0, 5)$$$$\theta_{n} \sim \mathcal{N}(\mu, \tau)$$$$y_{n} \sim \mathcal{N}(\theta_{n}, \sigma_{n}),$$<p>where $n \in \left\{1, \ldots, 8 \right\}$ and the
 $\left\{ y_{n}, \sigma_{n} \right\}$ are given as data.</p>
-<p>For more inforamation on the eight schools dataset see "Bayesian Data Analysis" by Gelman et al.</p>
+<p>For more information on the eight schools dataset see "Bayesian Data Analysis" by Gelman et al.</p>
 
 </div>
 </div>
@@ -11972,7 +11972,7 @@ model {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Note that we have specified the Stan program in its own file.  We strongly recommend keeping your workflow modular by separating the Stan program from the Python environment in this way.  Not only does it make it easier to identify and read through the Stan-specific components of your anaylsis, it also makes it easy to share your models Stan users exploiting workflows in environments, such as R and the command line.</p>
+<p>Note that we have specified the Stan program in its own file.  We strongly recommend keeping your workflow modular by separating the Stan program from the Python environment in this way.  Not only does it make it easier to identify and read through the Stan-specific components of your analysis, it also makes it easy to share your models Stan users exploiting workflows in environments, such as R and the command line.</p>
 <p>Given the Stan program we then use the <code>compile_model</code> method of our <code>stan_utility</code> module to compile the Stan program into a C++ executable,</p>
 
 </div>
@@ -12093,7 +12093,7 @@ model {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We recommend explicitly specifying the seed of Stan's random number generator, as we have done here, so that we can reproduce these exactly results in the future.  This is especially helpful for the more subtle pathologies that may not always be found, which results in seemingly stochastic behavior.</p>
+<p>We recommend explicitly specifying the seed of Stan's random number generator, as we have done here, so that we can reproduce these exactly results in the future, at least when using the same machine, operating system, and interface.  This is especially helpful for the more subtle pathologies that may not always be found, which results in seemingly stochastic behavior.</p>
 <p>By default the <code>sampling</code> method runs 4 Markov chains of Hamiltonian Monte Carlo in parallel, each initialized from a diffuse initial condition to maximize the probability that at least one of the chains might encounter a pathological neighborhood of the posterior, if it exists.
 Each of those chains proceeds with 1000 warmup iterations and 1000 sampling iterations, totaling 4000 sampling iterations available for diagnostics and analysis.</p>
 
@@ -12105,23 +12105,10 @@ Each of those chains proceeds with 1000 warmup iterations and 1000 sampling iter
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Validating-a-Fit-in-Stan">Validating a Fit in Stan<a class="anchor-link" href="#Validating-a-Fit-in-Stan">&#182;</a></h2><p>We are now ready to validate the fit using the <code>sampler_params</code> contained in the <code>fit</code> object,</p>
+<h2 id="Validating-a-Fit-in-Stan">Validating a Fit in Stan<a class="anchor-link" href="#Validating-a-Fit-in-Stan">&#182;</a></h2><p>We are now ready to validate the fit using information contained in the <code>fit</code> object.</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">sampler_params</span> <span class="o">=</span> <span class="n">fit</span><span class="o">.</span><span class="n">get_sampler_params</span><span class="p">(</span><span class="n">inc_warmup</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12135,7 +12122,7 @@ Each of those chains proceeds with 1000 warmup iterations and 1000 sampling iter
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
@@ -12168,7 +12155,7 @@ theta[6]   5.96    0.22   4.75  -1.96   2.91   4.84   8.35  17.36  461.0   1.01
 theta[7]   4.64    0.14   4.93  -5.22   2.16   4.82   7.18   14.9 1250.0    1.0
 lp__     -13.81    1.34   6.55  -25.5 -18.62 -14.24  -9.09  -2.42   24.0   1.18
 
-Samples were drawn using NUTS at Fri Jul 21 14:56:23 2017.
+Samples were drawn using NUTS at Wed Jul 26 11:10:47 2017.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).
@@ -12197,7 +12184,7 @@ convergence, Rhat=1).
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Checking-the-Treedepth">Checking the Treedepth<a class="anchor-link" href="#Checking-the-Treedepth">&#182;</a></h3><p>The dynamic implementation of Hamiltonian Monte Carlo used in Stan has a maximum trajectory length built in to avoid infinite loops that can occur for non-identified models.  For sufficiently complex models, however, Stan can saturate this threshold even if the model is identified, which limits the efficacy of the sampler.</p>
+<h3 id="Checking-the-Tree-Depth">Checking the Tree Depth<a class="anchor-link" href="#Checking-the-Tree-Depth">&#182;</a></h3><p>The dynamic implementation of Hamiltonian Monte Carlo used in Stan has a maximum trajectory length built in to avoid infinite loops that can occur for non-identified models.  For sufficiently complex models, however, Stan can saturate this threshold even if the model is identified, which limits the efficacy of the sampler.</p>
 <p>We can check whether that threshold was hit using one of our utility functions,</p>
 
 </div>
@@ -12205,10 +12192,10 @@ convergence, Rhat=1).
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_treedepth</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_treedepth</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12221,7 +12208,7 @@ convergence, Rhat=1).
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>0 of 4000 iterations saturated the maximum tree depth of 10(0%)
+<pre>0 of 4000 iterations saturated the maximum tree depth of 10 (0%)
 </pre>
 </div>
 </div>
@@ -12235,23 +12222,20 @@ convergence, Rhat=1).
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We're good here, but if our fit had saturated the threshold then we would have wanted to rerun with a larger maximum threedepth,</p>
+<p>We're good here, but if our fit had saturated the threshold then we would have wanted to rerun with a larger maximum tree depth,</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># fit = model.sampling(data=data, seed=194838, control=dict(max_treedepth=15))</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>fit = model.sampling(data=data, seed=194838, control=dict(max_treedepth=15))</code></p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12263,18 +12247,15 @@ convergence, Rhat=1).
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># stan_utility.check_treedepth(sampler_params, 15)</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>stan_utility.check_treedepth(fit, 15)</code></p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12289,10 +12270,10 @@ convergence, Rhat=1).
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_energy</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_energy</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12321,7 +12302,7 @@ E-BFMI below 0.2 indicates you may need to reparameterize your model
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The <code>stan_utility</code> module uses the threshold of 0.2 to diagnose problems, although this is based on preliminary empirical studies and should be taken only as a very rough recommendation.  In particular, this diagnostic comes out of recent theoretical work and will be better understood as we apply it to more and more problems.</p>
-<p>As with split $\hat{R}$ and effective sample size per transition, the problems indicated by low E-BFMI are remedied by tweaking the specification of the model.  Unfortunately the exact tweaks required depend on the exact structure of the model and, consequently, there are not generic solutions.</p>
+<p>As with split $\hat{R}$ and effective sample size per transition, the problems indicated by low E-BFMI are remedied by tweaking the specification of the model.  Unfortunately the exact tweaks required depend on the exact structure of the model and, consequently, there are no generic solutions.</p>
 
 </div>
 </div>
@@ -12331,17 +12312,17 @@ E-BFMI below 0.2 indicates you may need to reparameterize your model
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Checking-Divergences">Checking Divergences<a class="anchor-link" href="#Checking-Divergences">&#182;</a></h3><p>Finally, we can check divergences which indicate pathological neighborhoods of the posterior that the simulted Hamiltonian trajectories are not able to explore sufficiently well.  For this fit we have a significant number of divergences</p>
+<h3 id="Checking-Divergences">Checking Divergences<a class="anchor-link" href="#Checking-Divergences">&#182;</a></h3><p>Finally, we can check divergences which indicate pathological neighborhoods of the posterior that the simulated Hamiltonian trajectories are not able to explore sufficiently well.  For this fit we have a significant number of divergences</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12354,7 +12335,7 @@ E-BFMI below 0.2 indicates you may need to reparameterize your model
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>202.0 of 4000 iterations ended with a divergence(5.05%)
+<pre>202.0 of 4000 iterations ended with a divergence (5.05%)
 Try running with larger adapt_delta to remove the divergences
 </pre>
 </div>
@@ -12370,14 +12351,14 @@ Try running with larger adapt_delta to remove the divergences
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>indicating that the Markov chains did not completely explore the posterior and that our Markov chain Monte Carlo estimators will be biased.</p>
-<p>Divergences, however, can sometimes be false positives.  To verify that we have fitting issues we can rerun with a larger target acceptance probability, <code>adapt_delta</code>, which will force more accurate simulations of Hamiltonian trajectories and reduce the false positives.</p>
+<p>Divergences, however, can sometimes be false positives.  To verify that we have real fitting issues we can rerun with a larger target acceptance probability, <code>adapt_delta</code>, which will force more accurate simulations of Hamiltonian trajectories and reduce the false positives.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">fit</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">sampling</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">seed</span><span class="o">=</span><span class="mi">194838</span><span class="p">,</span> <span class="n">control</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">adapt_delta</span><span class="o">=</span><span class="mf">0.9</span><span class="p">))</span>
@@ -12400,11 +12381,11 @@ Try running with larger adapt_delta to remove the divergences
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">sampler_params</span> <span class="o">=</span> <span class="n">fit</span><span class="o">.</span><span class="n">get_sampler_params</span><span class="p">(</span><span class="n">inc_warmup</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
+<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12417,7 +12398,7 @@ Try running with larger adapt_delta to remove the divergences
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>45.0 of 4000 iterations ended with a divergence(1.125%)
+<pre>45.0 of 4000 iterations ended with a divergence (1.125%)
 Try running with larger adapt_delta to remove the divergences
 </pre>
 </div>
@@ -12432,8 +12413,8 @@ Try running with larger adapt_delta to remove the divergences
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>we see that while the divergences were reduced they did not completely vanish.  In order to argue that divergences are only false positives, the divergences have to be completely eliminated for some <code>adapt_delta</code> sufficiently close to 1.  Here we could continue increasing <code>adapt_delta</code> (where we would see that the divergences do not completely vanish), or we can analyze the existing divergences graphically.</p>
-<p>If the divergences are not false positives then they will tend to concentrate in the pathological neighborhoods of the posterior.  Falsely positive divergent iterations, however, will be distributed the same as non-divergent iterations.</p>
+<p>we see that while the divergences were reduced they did not completely vanish.  In order to argue that divergences are only false positives, the divergences have to be completely eliminated for some <code>adapt_delta</code> sufficiently close to 1.  Here we could continue increasing <code>adapt_delta</code>, where we would see that the divergences do not completely vanish, or we can analyze the existing divergences graphically.</p>
+<p>If the divergences are not false positives then they will tend to concentrate in the pathological neighborhoods of the posterior.  Falsely positive divergent iterations, however, will follow the same distribution as non-divergent iterations.</p>
 <p>Here we will use the <code>partition_div</code> function of the <code>stan_utility</code> module to separate divergence and non-divergent iterations, but note that this function works only if your model parameters are reals, vectors, or arrays of reals.  More robust functionality is planned for future releases of PyStan.</p>
 
 </div>
@@ -12441,7 +12422,7 @@ Try running with larger adapt_delta to remove the divergences
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">light</span><span class="o">=</span><span class="s2">&quot;#DCBCBC&quot;</span>
@@ -13321,14 +13302,14 @@ zTXL2qjCZccAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="A-Successful-Fit">A Successful Fit<a class="anchor-link" href="#A-Successful-Fit">&#182;</a></h2><p>Multiple diagostics have indicated that our fit of the centered parameterization of our hierarchical model is not to be trusted, so let's instead consider the complementary non-centered parameterization,</p>
+<h2 id="A-Successful-Fit">A Successful Fit<a class="anchor-link" href="#A-Successful-Fit">&#182;</a></h2><p>Multiple diagnostics have indicated that our fit of the centered parameterization of our hierarchical model is not to be trusted, so let's instead consider the complementary non-centered parameterization,</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;eight_schools_ncp.stan&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
@@ -13380,7 +13361,7 @@ model {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">stan_utility</span><span class="o">.</span><span class="n">compile_model</span><span class="p">(</span><span class="s1">&#39;eight_schools_ncp.stan&#39;</span><span class="p">)</span>
@@ -13408,15 +13389,14 @@ model {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 
-<span class="n">sampler_params</span> <span class="o">=</span> <span class="n">fit</span><span class="o">.</span><span class="n">get_sampler_params</span><span class="p">(</span><span class="n">inc_warmup</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_treedepth</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
-<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_energy</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
-<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">sampler_params</span><span class="p">)</span>
+<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_treedepth</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
+<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_energy</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
+<span class="n">stan_utility</span><span class="o">.</span><span class="n">check_div</span><span class="p">(</span><span class="n">fit</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13454,12 +13434,12 @@ theta[6]         6.37    0.08   5.07  -2.22   3.04   5.97   9.02  18.49 4000.0  
 theta[7]         4.92    0.08   5.32  -5.75   1.82   4.86   7.91  15.68 4000.0    1.0
 lp__            -6.91    0.06   2.34 -12.17  -8.29  -6.56  -5.23  -3.32 1754.0    1.0
 
-Samples were drawn using NUTS at Fri Jul 21 14:56:24 2017.
+Samples were drawn using NUTS at Wed Jul 26 11:10:48 2017.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).
-0 of 4000 iterations saturated the maximum tree depth of 10(0%)
-0.0 of 4000 iterations ended with a divergence(0.0%)
+0 of 4000 iterations saturated the maximum tree depth of 10 (0%)
+0.0 of 4000 iterations ended with a divergence (0.0%)
 </pre>
 </div>
 </div>
@@ -13473,7 +13453,7 @@ convergence, Rhat=1).
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>With this more appropriate implementation of our model all of the diagnostics are clean and we can now utilize Markov chain Monte Carlo estimators of expecations, such as parameter means and variances, to accurately characterize our model's posterior distribution.</p>
+<p>With this more appropriate implementation of our model all of the diagnostics are clean and we can now utilize Markov chain Monte Carlo estimators of expectations, such as parameter means and variances, to accurately characterize our model's posterior distribution.</p>
 
 </div>
 </div>

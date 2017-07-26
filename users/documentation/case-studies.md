@@ -32,7 +32,33 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
-## Recommended PyStan Workflow
+## Robust RStan Workflow
+
+<small>
+This case study demonstrates the recommended RStan workflow for
+ensuring robust inferences with the default dynamic Hamiltonian
+Monte Carlo algorithm.
+</small>
+
+[View](case-studies/rstan_workflow.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, Hamiltonian Monte Carlo, divergences, RStan
+
+Source Repository
+: [betanalpha/knitr_case_studies/rstan_workflow](https://github.com/betanalpha/knitr_case_studies/tree/master/rstan_workflow)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+## Robust PyStan Workflow
 
 <small>
 This case study demonstrates the recommended PyStan workflow for
