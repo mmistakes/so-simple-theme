@@ -253,7 +253,7 @@ theta[7]   6.83    0.18 5.34  -2.70   3.30   6.52   9.84 18.54   880 1.00
 theta[8]   5.15    0.16 5.92  -6.44   1.63   5.12   8.24 17.29  1319 1.00
 lp__     -16.11    0.44 5.81 -27.19 -20.05 -16.29 -12.05 -5.27   172 1.01
 
-Samples were drawn using NUTS(diag_e) at Wed Jul 26 16:04:38 2017.
+Samples were drawn using NUTS(diag_e) at Wed Jul 26 23:42:44 2017.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -277,7 +277,7 @@ convergence, Rhat=1).</code></pre>
 <p>Hamiltonian Monte Carlo proceeds in two phases – the algorithm first simulates a Hamiltonian trajectory that rapidly explores a slice of the target parameter space before resampling the auxiliary momenta to allow the next trajectory to explore another slice of the target parameter space. Unfortunately, the jumps between these slices induced by the momenta resamplings can be short, which often leads to slow exploration.</p>
 <p>We can identify this problem by consulting the energy Bayesian Fraction of Missing Information,</p>
 <pre class="r"><code>check_energy(fit)</code></pre>
-<p>The <code>check_energy</code> function uses the threshold of 0.2 to diagnose problems, although this is based on preliminary empirical studies and should be taken only as a very rough recommendation. In particular, this diagnostic comes out of recent theoretical work and will be better understood as we apply it to more and more problems.</p>
+<p>The <code>check_energy</code> function uses the threshold of 0.2 to diagnose problems, although this is based on preliminary empirical studies and should be taken only as a very rough recommendation. In particular, this diagnostic comes out of recent theoretical work and will be better understood as we apply it to more and more problems. For further discussion see Section 4.2 and 6.1 of <span class="citation">Betancourt (2017)</span>.</p>
 <p>As with split <span class="math inline">\(\hat{R}\)</span> and effective sample size per transition, the problems indicated by low E-BFMI are remedied by tweaking the specification of the model. Unfortunately the exact tweaks required depend on the exact structure of the model and, consequently, there are no generic solutions.</p>
 </div>
 <div id="checking-divergences" class="section level2">
@@ -410,7 +410,7 @@ theta[7]          1
 theta[8]          1
 lp__              1
 
-Samples were drawn using NUTS(diag_e) at Wed Jul 26 16:04:45 2017.
+Samples were drawn using NUTS(diag_e) at Wed Jul 26 23:42:50 2017.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
