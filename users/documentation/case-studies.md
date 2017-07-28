@@ -32,6 +32,32 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## The QR Decomposition for Regression Models
+
+<small>
+This case study reviews the QR decomposition, a technique for  decorrelating 
+covariates and, consequently, the resulting posterior distribution in 
+regression models.
+</small>
+
+[View](case-studies/qr_regression.html) <span class="note">(HTML)</span>
+
+Author
+: Michael Betancourt
+
+Keywords
+: Markov chain Monte Carlo, regression, RStan
+
+Source Repository
+: [betanalpha/knitr_case_studies/qr_regression](https://github.com/betanalpha/knitr_case_studies/tree/master/qr_regression)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size: 90%">knitr</tt>.
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 ## Robust RStan Workflow
 
 <small>
