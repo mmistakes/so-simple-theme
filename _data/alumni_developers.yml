@@ -19,3 +19,18 @@
   web: http://www.linkedin.com/in/peterli2
   affiliation: Columbia University
   github: PeterLi2016
+
+- name: Alp Kucukelbir
+  affiliation: Columbia University
+  web: http://www.proditus.com
+  email: alp@cs.columbia.edu
+  github: akucukelbir
+  avatar: alp_kucukelbir.jpg
+
+- name: Dustin Tran
+  affiliation: Columbia University
+  web: http://dustintran.com
+  email: dustin@cs.columbia.edu
+  twitter: dustinvtran
+  github: dustinvtrain
+  avatar: dustin_tran.png

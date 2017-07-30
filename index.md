@@ -10,9 +10,14 @@ image:
   creditlink:
 ---
 
-Thousands of users rely on Stan for statistical modeling, data
-analysis, and prediction in the social, biological, and physical
-sciences, engineering, and business.
+{:.center-txt}
+[Registration is now open for StanCon 2018!](/events/stancon2018)
+
+Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
+and high-performance statistical computation.  Thousands of users rely
+on Stan for statistical modeling, data analysis, and prediction in
+the social, biological, and physical sciences, engineering, and
+business.
 
 Users specify log density functions in Stan's probabilistic
 programming language and get:
@@ -38,7 +43,7 @@ class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
 on all major platforms <span class="note">(Linux, Mac,
 Windows)</span>.
 
-To get started,&nbsp; [select a Stan interface](/interfaces/).
+To get started using Stan begin with the [Users](/users/) page.
 
 ## Open Code &amp; Reproducible Science
 
@@ -51,4 +56,3 @@ Stan](/support/).
 <center style="padding: 0.75em 0 0 0">
 <a href="http://numfocus.org"><img width="200" src="images/numfocus.png" /></a>
 </center>
-
