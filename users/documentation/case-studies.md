@@ -32,6 +32,22 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Spatial Models in Stan: Intrinsic Auto-Regressive Models for Areal Data
+
+<small>
+This case study how to efficiently encode and compute an
+Intrinsic Conditional Auto-Regressive (ICAR) model in Stan.
+When data has a neighborhood structure, ICAR models provide spatial smoothing
+by averaging measurements of directly adjoining regions.
+The Besag York Mollié (BYM) model is a lognormal Poisson model which
+includes both an ICAR component and an ordinary
+random-effects component for non-spatial heterogeneity.
+We compare two variants of the BYM model and fit two datasets
+taken from epidemiological studies over 56 and 700 regions, respectively.
+</small>
+
+[View](case-studies/icar_stan.html) <span class="note">(HTML)</span>
+
 ## The QR Decomposition for Regression Models
 
 <small>
