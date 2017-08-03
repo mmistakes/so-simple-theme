@@ -57,7 +57,7 @@ they use, while some also include the language manual or the overview paper.
 ## RStan
 
 * <p>Stan Development Team. 2017. <i>RStan: the R interface to Stan</i>.
-  R package version 2.15.1.
+  R package version 2.16.2.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -98,7 +98,7 @@ they use, while some also include the language manual or the overview paper.
 ## RStanArm
 
 * <p>Stan Development Team. 2017. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>. R package version 2.14.1.
+  regression modeling via Stan</i>. R package version 2.15.3.
   &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
@@ -106,5 +106,5 @@ they use, while some also include the language manual or the overview paper.
 
 * <p>Stan Development Team. 2017. <i>ShinyStan: Interactive Visual and
   Numerical Diagnostics and Posterior Analysis for Bayesian
-  Models</i>. R package version 2.3.0.  &nbsp; <tt style="font-size:
+  Models</i>. R package version 2.4.0.  &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
