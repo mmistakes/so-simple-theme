@@ -1,8 +1,8 @@
 ---
 layout: post
 title: test editorial
-excerpt: test editorial
-date: 2017-08-03 23:05:09
+excerpt: editorial test를 위해서
+date: 2017-08-03 23:10:49
 tags: editorial, working-copy
 categories: blog
 image:
@@ -13,13 +13,13 @@ comments: true
 share: true
 ---
 
-# 프로젝트 홈페이지 작성
+### 프로젝트 홈페이지 작성
 
-## 작성이유
+#### 작성이유
 
 수행한 업무에 대한 자긍심과 만족감을 고취 시키고, 나아가 발주자에게 높은 신뢰를 제공함으로써 향후 볼리비아 신규 업무에 대한 참여도를 높이기 위함이다.
 
-## 작성방법
+#### 작성방법
 
 아래의 원칙에 따라 수행한다.
 
