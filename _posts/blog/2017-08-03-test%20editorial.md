@@ -1,7 +1,7 @@
 ---
 layout: post
 title: test editorial
-date: 2017-08-03 22:38:01
+date: 2017-08-03 22:47:47
 tags: editorial, working copy
 categories: blog
 image:
