@@ -85,7 +85,7 @@ I will also work with the research software engineering team at the Alan Turing 
 
 **Describe the issue/problem you are trying to address.** *(100 words)*
 
-The brain made up of many regions that communicate millions of messages every second. Traditional neuroimaging analyses have considered each region separately and therefore failed to capture many aspects of brain structure and function. Graph theory allows us to analyse human brain images as a network ([Bullmore & Sporns, 2009](https://www.ncbi.nlm.nih.gov/pubmed/19190637)). The most popular toolbox to do brain network analyses is written in Matlab (Brain Connectivity Toolbox; https://sites.google.com/site/bctnet) which requires an expensive (and therefore inaccessible) license. We want to provide free and openly available software to allow all neuroscience researchers to conduct reproducible and biologically meaningful investigations of the human brain.
+The brain made up of many regions that communicate millions of messages every second. Traditional neuroimaging analyses have considered each region separately and therefore failed to capture many aspects of brain structure and function. Graph theory allows us to analyse human brain images as a network ([Bullmore & Sporns, 2009](https://www.ncbi.nlm.nih.gov/pubmed/19190637)). The most popular toolbox to do brain network analyses is written in Matlab (Brain Connectivity Toolbox; [https://sites.google.com/site/bctnet](https://sites.google.com/site/bctnet)) which requires an expensive (and therefore inaccessible) license. We want to provide free and openly available software to allow all neuroscience researchers to conduct reproducible and biologically meaningful investigations of the human brain.
 
 
 **List key project activities (what you will do), outputs (what will be produced through your activities) and outcomes (impact of your project on your beneficiaries during the grant period).** *(1000 words)*
@@ -104,7 +104,7 @@ We will also add *new functionality* to the code. There is currently no way (in 
 
 Along with integrated tests, *documentation* will allow the Brain Networks in Python code to be used by many people. We will provide example data and clear tutorials to make it easy for users to install and get up and running with the code. These tutorials will be in the form of Jupyter notebooks that can be either downloaded and run locally or run in a MyBinder ([http://mybinder.org](http://mybinder.org)) instance online. An example Jupyter notebook that is currently in development can be found at [https://github.com/WhitakerLab/BrainNetworksInPython/blob/master/Example_JupyterNotebook.ipynb](https://github.com/WhitakerLab/BrainNetworksInPython/blob/master/Example_JupyterNotebook.ipynb).
 
-Finally, we will *release our code as a Python package* that can be easily installed via `pip` (https://packaging.python.org) or conda (https://conda.io). We will ensure that all released versions of our code have digital object identifiers from Zenodo ([https://zenodo.org](https://zenodo.org/)).
+Finally, we will *release our code as a Python package* that can be easily installed via `pip` ([https://packaging.python.org](https://packaging.python.org)) or conda ([https://conda.io](https://conda.io)). We will ensure that all released versions of our code have digital object identifiers from Zenodo ([https://zenodo.org](https://zenodo.org/)).
 
 *Outputs*
 
@@ -150,7 +150,7 @@ One of the greatest challenges for the project is that of finding time to build 
 
 The project is a continuation of the work that Dr Kirstie Whitaker published in 2016 ([Whitaker\*, Vertes\* et al, 2016](http://dx.doi.org/10.1073/pnas.1601745113)). The code is openly available on GitHub ([https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016](https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016)). For this work, Dr Whitaker and her collaborator Petra Vertes were named as [2016 Global Thinkers](https://gt.foreignpolicy.com/2016/profile/petra-vertes-and-kirstie-whitaker) by Foreign Policy magazine.
 
-Dr Whitaker's CV is available at our lab GitHub repository: https://github.com/WhitakerLab/WhitakerLabProjectManagement/blob/master/Kirstie-Whitaker/Whitaker_CV.pdf
+Dr Whitaker's CV is available at our lab GitHub repository: [https://github.com/WhitakerLab/WhitakerLabProjectManagement/blob/master/Kirstie-Whitaker/Whitaker_CV.pdf](https://github.com/WhitakerLab/WhitakerLabProjectManagement/blob/master/Kirstie-Whitaker/Whitaker_CV.pdf)
 
 I am a research assistant in the Whitaker Lab at the Alan Turing Institute. I have a BSc in Mathematics from the University of Cambridge which included specialised training in graph theory and topological analysis.
 
