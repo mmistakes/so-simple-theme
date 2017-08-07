@@ -10,6 +10,7 @@ link:
 date:
 modified:
 share: true
+author: kirstie_whitaker
 ---
 
 To create a new blog post:
