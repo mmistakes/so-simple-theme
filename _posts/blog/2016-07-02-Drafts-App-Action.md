@@ -111,14 +111,14 @@ drafts://x-callback-url/create?text=Hello%20World&action=Post%20to%20App.net
 {% endhighlight %}
 
 액션 추가를 위해 한가지 주의해야 할 사항은 다음과 같습니다.
-yourapp://x-callback-url/액션1&x-success={{액션2}}&x-success={{{{액션3}}}}…
+`yourapp://x-callback-url/액션1&x-success=⎨⎨액션2⎬⎬&x-success=⎨⎨⎨⎨액션3⎬⎬⎬⎬…`
 
-즉, **두번째 액션부터는 위에서 보듯이 액션을 첨부해 줄때마다 {{}} 를 계속 더붙여줘야 한다는 것입니다.**
+즉, 두번째 액션부터는 위에서 보듯이 액션을 첨부해 줄때마다 ⎨⎨⎬⎬ 를 계속 더붙여줘야 한다는 것입니다. 여기서는 편의상 `{}` 기호를 `⎨⎬` 로 표현하도록 합니다.
 
-그런데 상기 액션을 보면 알겠지만, 퍼센트-인코드 문자가 포함된 내용을 해석 혹은 읽기가 상당히 어려운걸 느끼실겁니다. 또 코드 자체를 잘몰라 입력에 어려움을 겪을 수도 있고요. 그래서 Drafts 앱은 간편하게 퍼센트-인코드를 자동으로 입력하게 하는 방법이 있는데 그방법도 액션추가와 동일한 {{}} 입니다. 따라서 상기의 두가지 액션을 덧붙이고서 자동 퍼센트-인코드 입력을 하도록 액션코드를 입력하면 다음과 같습니다.
+그런데 상기 액션을 보면 알겠지만, 퍼센트-인코드 문자가 포함된 내용을 해석 혹은 읽기가 상당히 어려운걸 느끼실겁니다. 또 코드 자체를 잘몰라 입력에 어려움을 겪을 수도 있고요. 그래서 Drafts 앱은 간편하게 퍼센트-인코드를 자동으로 입력하게 하는 방법이 있는데 그방법도 액션추가와 동일한 ⎨⎨⎬⎬ 입니다. 따라서 상기의 두가지 액션을 덧붙이고서 자동 퍼센트-인코드 입력을 하도록 액션코드를 입력하면 다음과 같습니다.
 
 {% highlight drafts %}
-drafts://x-callback-url/create?text={{Hello World}}&action={{Tweet: hunikim}}&x-success={{drafts://x-callback-url/create?text=Hello%20World&action=Post%20to%20App.net}} 혹은 drafts://x-callback-url/create?text={{Hello World}}&action={{Tweet: hunikim}}&x-success={{drafts://x-callback-url/create?text={{Hello World}}&action={{Post to App.net}}}}
+drafts://x-callback-url/create?text=⎨⎨Hello World⎬⎬&action=⎨⎨Tweet: hunikim⎬⎬&x-success=⎨⎨drafts://x-callback-url/create?text=Hello%20World&action=Post%20to%20App.net⎬⎬ 혹은 drafts://x-callback-url/create?text=⎨⎨Hello World⎬⎬&action=⎨⎨Tweet: hunikim⎬⎬&x-success=⎨⎨drafts://x-callback-url/create?text=⎨⎨Hello World⎬⎬&action=⎨⎨Post to App.net⎬⎬⎬⎬
 {% endhighlight %}
 
 ### 태그(Tags)
@@ -139,7 +139,7 @@ Drafts에는 입력의 간편화와 효율적인 URL 관리를 위해 몇가지 
 
 앞줄에서 언급된 Hello World 대신에 draft에 입력한 내용을 트위하기 위해서는 액션코드를 다음과 같이 수정합니다.
 
-drafts://x-callback-url/create?text=[[draft]]&action={{Tweet: hunikim}}
+`drafts://x-callback-url/create?text=[[draft]]&action=⎨⎨Tweet: hunikim⎬⎬`
 
 마찬가지로 [[draft]]에 작성자의 요구에 맞추어 적당한 태그를 사용할 수 있습니다. 이러한 URL 액션상용의 확장성으로 인해 많은 사람들이 Drafts 의 매력에 빠져있는 것 같습니다.
 
