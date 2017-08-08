@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 보고자료 어떻게 만들것인가
-excerpt: 보고자료를 만드는 과정에 대한 설명
-date: 2017-08-07 21:15:48
-tags: 보고자료 프리젠테이션 파워포인트 블로그 키노트
+title: 보고자료 프리젠테이션 어떻게 만들것인가?
+excerpt: 프리젠테이션 작성방법에 대한 검토
+date: 2017-08-07 21:38:22
+tags: 보고자료 프리젠테이션 파워포인트 키노트 블로그 동영상
 categories: blog
 image:
-  feature: so-simple-sample-image-5.jpg
+  feature: so-simple-sample-image-1.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true
