@@ -1,16 +1,13 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
-- title: Articles
-  url: /articles/
-
 - title: Blog
-  url: /blog/
+  url: /
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Kontakt
+  url: /kontakt/
 
-- title: Search
-  url: /search/
+- title: Curriculum Vitae
+  url: /curriculum-vitae/
+
+- title: Publikationen
+  url: /curriculum-vitae/publikationen/

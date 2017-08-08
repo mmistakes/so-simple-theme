@@ -13,7 +13,7 @@
 
 <div id="main" role="main">
   <article class="hentry">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Image credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
+    {% if page.image.feature %}<img src="{{ site.owner.avatar }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Image credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
     <div class="entry-wrapper">
       <header class="entry-header">
         <ul class="entry-tags">
@@ -67,6 +67,8 @@
 </div><!-- /.footer-wrapper -->
 
 {% include scripts.html %}
+
+<script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiIxMTExMTEiLCJpY29uIjoicGFjbWFuIiwicHJvbm91biI6Im1lIiwiaW50cm9UZXh0IjoiIiwiY2hhbm5lbHMiOltbImZhY2Vib29rIiwiam9oYW5uZXNuYWdsIiwic29jaWFsIl0sWyJ0d2l0dGVyIiwiam9sbGlmZSIsInNvY2lhbCJdLFsiZ2l0aHViIiwiaHR0cHM6Ly9naXRodWIuY29tL2pvaGFubmVzbmFnbCIsInNvY2lhbCJdLFsicHJvZHVjdGh1bnQiLCJqb2xsaWZlIiwic29jaWFsIl0sWyJlbWFpbCIsImpvaGFubmVzQG5hZ2wubmFtZSIsImNsYXNzaWMiXV19'></script>
 
 </body>
 </html>
