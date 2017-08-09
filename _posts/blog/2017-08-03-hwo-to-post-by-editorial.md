@@ -23,12 +23,14 @@ share: true
 
 Editorial 을 이용하여 Jekyll 블로깅을 하기위해서는 [Github](https://github.com/)를 컨트롤 할 수 있는 iOS용 앱이 필요하다. 나는 x-callback-url을 지원하면서 안정적인 깃허브 컨트롤이 가능한 [Working Copy](https://workingcopyapp.com/) 앱을 사용한다.
 
-### 1. Editorial 을 이용한 블로깅
+#### 1. Editorial 을 이용한 블로깅
 
 마크다운 문법에 따라 블로그를 작성한다. [TextExpander](https://smilesoftware.com/TextExpander)를 지원하기 때문에 편리하게 작성할 수 있다.
 
 특히, yaml 헤더 없이 작성하고, 헤더는 워크플로우를 통해 삽입토록 한다.
 
-### 2. 문서저장
+#### 2. 문서작성
 
- 
+문서는 yaml 헤더를 포함하여 작성하는데, 주로 TextExpander를 이용해서 작성하나, Editorial로 새로운 문서를 만들때 미리 yaml 헤더스타일을 워크플로러 기입하고, 관련 자료는 [여기(New Jekyll Post)](http://www.editorial-workflows.com/workflow/5264186862993408/5qWVz-Y24kA)를 참고한다, 문서를 작성할 수도 있다.
+
+아니면, 현재 내가 늘 사용하듯이 헤더를 자동화 시키는 방법이다. 
