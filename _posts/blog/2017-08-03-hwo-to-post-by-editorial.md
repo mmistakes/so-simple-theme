@@ -31,6 +31,6 @@ Editorial 을 이용하여 Jekyll 블로깅을 하기위해서는 [Github](https
 
 #### 2. 문서작성
 
-문서는 yaml 헤더를 포함하여 작성하는데, 주로 TextExpander를 이용해서 작성하나, Editorial로 새로운 문서를 만들때 미리 yaml 헤더스타일을 워크플로러 기입하고, 관련 자료는 [여기(New Jekyll Post)](http://www.editorial-workflows.com/workflow/5264186862993408/5qWVz-Y24kA)를 참고한다, 문서를 작성할 수도 있다.
+문서는 yaml 헤더를 포함하여 작성하는데, 주로 TextExpander를 이용해서 작성하나, Editorial로 새로운 문서를 만들때 미리 자동화를 통해 yaml 헤더스타일 문서머릿말에 출력되게끔 해서 문서를 작성하는 방법이다. 관련 자료는 [여기(New Jekyll Post)](http://www.editorial-workflows.com/workflow/5264186862993408/5qWVz-Y24kA)를 참고한다,
 
 아니면, 현재 내가 늘 사용하듯이 헤더를 자동화 시키는 방법이다. 
