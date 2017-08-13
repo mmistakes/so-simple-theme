@@ -65,4 +65,5 @@ tags:
 
 하지만 상기의 두가지 준수사항을 자동화 워크플로우를 통해 자동 생성되도록 하겠다.
 
+![]({{ site.imageurl }}workflow of jekyll plus working copy.jpg)
 
