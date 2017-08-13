@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: editorial을 이용한 블로깅
