@@ -1,22 +1,22 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+#- title: About
+#  url: /about/
 
-# - title: Articles
-#   url: /articles/
+- title: Articles
+  url: /articles/
 
 - title: Blog
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
+#- title: Theme Setup
+#  url: /theme-setup/
 
-- title: Mac Life
-  url: http://backtothemac2.tistory.com/
+#- title: Mac Life
+#  url: http://backtothemac2.tistory.com/
 
-- title: Mac Life2
-  url: http://maclife4beginner.blogspot.com/
+#- title: Mac Life2
+#  url: http://maclife4beginner.blogspot.com/
 
 - title: Search
   url: /search/
