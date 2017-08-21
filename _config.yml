@@ -6,7 +6,7 @@ description: Updates from the Bioinformatics Core at The University of Sheffield
 logo: site-logo.png
 search: true
 url: https://sheffield-bioinformatics-core.github.io/
-google_analytics: UA-63148050-15
+#google_analytics: UA-63148050-15
 
 # Jekyll configuration
 
