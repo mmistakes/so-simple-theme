@@ -7,7 +7,6 @@ logo: site-logo.png
 search: true
 url: https://sheffield-bioinformatics-core.github.io/
 
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
