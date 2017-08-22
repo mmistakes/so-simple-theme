@@ -9,25 +9,23 @@ We hope you find this site a useful source of information about the work of the 
 
 ### About the Core
 
-Sheffield Bioinformatics Core (SBC) is part of the [Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) at the [University of Sheffield](https://www.sheffield.ac.uk/). The Hub is committed to leading the development of computational biology and bioinformatics and its application to discoveries made by data analytics, enabled by open collaboration, highly integrated team science, and professional bioinformatics services for our researchers. 
+The Sheffield Bioinformatics Core aims to develop and advance the training and application of bioinformatics and computational biology to biological research, biomedical research and public health in Sheffield
+
+The Core is also part of the [Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) at the [University of Sheffield](https://www.sheffield.ac.uk/). The Hub is committed to leading the development of computational biology and bioinformatics and its application to discoveries made by data analytics, enabled by open collaboration, highly integrated team science, and professional bioinformatics services for our researchers. 
 
 ### Team
 
-## Mark Dunning - Core Director
-
-## Core Analyst
-
-### Advisors
-
-## Win Hide
-
-## Dennis Wang
+- [Dr. Mark Dunning](http://markdunning.github.io/) - Core Director (Starting October 2017)
+- Core Analyst (starting September 2017)  
+- Core Analyst (to be recruited)  
+- [Prof. Winston Hide](https://www.sheffield.ac.uk/neuroscience/staff/hide) - Academic Director
+- [Dr. Dennis Wang](https://www.sheffield.ac.uk/neuroscience/staff/wang) - Associate Academic Director
 
 
 
 ### Contact
 
-You can contact Mark at []() or on twitter [@DrMarkDunning](https://twitter.com/DrMarkDunning).
+You can contact us by email [sheffieldBioinformaticsCore@gmail.com](mailto:sheffieldBioinformaticsCore@gmail.com) or on twitter [@SheffBioinfCore](https://twitter.com/SheffBioinfCore).
 
 You're very welcome to contact us via [GitHub](https://github.com/sheffield-bioinformatics-core) too. 
 

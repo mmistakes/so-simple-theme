@@ -1,5 +1,16 @@
 # Authors
 
+mark_dunning:
+  name: Mark Dunning
+  email: mark.dunning@cruk.cam.ac.uk
+  bio: "Director of the Sheffield Bioinformatics Core starting in October 2017"
+  avatar: 3796277.jpeg
+  twitter: DrMarkDunning
+
+
+#=============================================
+# Template info, these can be deleted one day
+
 billy_rick:
   name: Billy Rick
   web: http://thewhip.com

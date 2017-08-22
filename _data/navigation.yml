@@ -3,14 +3,14 @@
 - title: About
   url: /about/
 
-- title: Articles
-  url: /articles/
+- title: Resources
+  url: /resources/
 
 - title: Blog
   url: /blog/
 
-- title: Theme Setup
-  url: /theme-setup/
-
 - title: Search
   url: /search/
+
+- title: GitHub
+  url: https://github.com/sheffield-bioinformatics-core
