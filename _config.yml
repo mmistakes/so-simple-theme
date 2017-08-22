@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Sheffield Bioinformatics Core
+title: Site Title
 locale: en_US
-description: Updates from the University of Sheffield Bioinformatics Core
+description: Describe your website here.
 logo: site-logo.png
 search: true
-url: https://sheffield-bioinformatics-core.github.io/
+url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -19,7 +19,6 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
 
 kramdown:
   input: GFM
@@ -34,17 +33,16 @@ mathjax: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
-repository: sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io
 
 # Site owner
 owner:
-  name: Mark Dunning
-  avatar: 3796277.jpeg
-  email: sheffieldbioinformaticscore@gmail.com
+  name: Your Name
+  avatar: bio-photo.jpg
+  email: you@email.com
   disqus-shortname:
-  twitter: SheffBioinfCore
+  twitter: #username
   facebook: #username
-  github: sheffield-bioinformatics-core
+  github: #username
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
