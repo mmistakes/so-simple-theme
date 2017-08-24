@@ -24,7 +24,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any additional plugins add them here
 group :jekyll_plugins do
-    gem "gemoji"  # Lets you show emojis
+    gem "jemoji"  # Lets you show emojis
     gem "html-proofer"  # Used for continuous integration
 end
 

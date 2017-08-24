@@ -230,9 +230,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  gemoji
   github-pages
   html-proofer
+  jemoji
   tzinfo-data
   wdm (>= 0.1.0)
 
