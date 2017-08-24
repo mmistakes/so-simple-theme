@@ -17,7 +17,7 @@ sass:
   style: compressed
 plugins:
   - github-pages
-  - jemoji
+  - gemoji
 
 kramdown:
   input: GFM
