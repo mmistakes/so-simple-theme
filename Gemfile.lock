@@ -218,6 +218,7 @@ GEM
     tzinfo-data (1.2017.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.3.0)
+    wdm (0.1.1)
     yell (2.0.7)
 
 PLATFORMS
@@ -228,6 +229,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   tzinfo-data
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.15.1
