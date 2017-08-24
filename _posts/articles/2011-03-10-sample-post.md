@@ -93,4 +93,4 @@ Non Rouge code example
 
 Make any link standout more when applying the `.btn` class.
 
-<div markdown="0"><a href="#" class="btn">This is a button</a></div>
+<div markdown="0"><a href="#buttons" class="btn">This is a button</a></div>
