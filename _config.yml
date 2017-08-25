@@ -15,10 +15,8 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+plugins:
+  - github-pages
   - jemoji
 
 kramdown:
@@ -39,7 +37,7 @@ repository: sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.i
 # Site owner
 owner:
   name: Mark Dunning
-  avatar: 3796277.jepg
+  avatar: 3796277.jpeg
   email: mark.dunning@cruk.cam.ac.uk
   disqus-shortname:
   twitter: DrMarkDunning
