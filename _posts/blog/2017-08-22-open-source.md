@@ -19,11 +19,11 @@ The Sheffield Bioinformatics Core website is hosted on [github](http://www.githu
 
 Everything was going well, until things start to break :confused: :grimacing: 
 
-![](https://pbs.twimg.com/media/DH2sg66XYAAtxgw.jpg)
+![A helpful build report from github](https://pbs.twimg.com/media/DH2sg66XYAAtxgw.jpg)
 
 I spent many fruitless hours of hacking away at various pages, and attemping to restore earlier versions of the site, the page was still broken :scream:
 
-![](https://pbs.twimg.com/media/DH3GG8LWAAAbh3S.jpg)
+![tearing hair out trying to fix the error](https://pbs.twimg.com/media/DH3GG8LWAAAbh3S.jpg)
 
 Fortunately the community came to the rescue. Because all the code is public and built on top of other open projects, others were able to see the state of the website, reproduce my error and come to my rescue with a fix. As it turned-out, the error was related to issues [others had seen](https://github.com/mmistakes/so-simple-theme/issues/250#issuecomment-323451633) and already fixed. Thanks to the issue-tracking system in github, I have [detailed documentation](https://github.com/sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io/pull/1) from @KirstieJane of the files that were at fault, should things go pear-shaped again
 
