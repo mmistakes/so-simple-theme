@@ -26,6 +26,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     gem "jemoji"  # Lets you show emojis
     gem "html-proofer"  # Used for continuous integration
+    gem "jekyll-feed"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
