@@ -18,7 +18,6 @@ sass:
 plugins:
   - github-pages
   - jemoji
-  - jekyll-feed
 
 kramdown:
   input: GFM
