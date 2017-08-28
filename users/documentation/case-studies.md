@@ -39,7 +39,7 @@ This case study shows how to efficiently encode and compute an
 Intrinsic Conditional Auto-Regressive (ICAR) model in Stan.
 When data has a neighborhood structure, ICAR models provide spatial smoothing
 by averaging measurements of directly adjoining regions.
-The Besag York Mollié (BYM) model is a Poisson GLM which
+The Besag, York, and Mollié (BYM) model is a Poisson GLM which
 includes both an ICAR component and an ordinary
 random-effects component for non-spatial heterogeneity.
 We compare two variants of the BYM model and fit two datasets
@@ -48,11 +48,36 @@ taken from epidemiological studies over 56 and 700 regions, respectively.
 
 [View](case-studies/icar_stan.html) <span class="note">(HTML)</span>
 
+Author
+: Mitzi Morris
+
+Keywords
+: spatial modeling, CAR, ICAR, INLA, OpenBUGS, hierarchical models
+
+Source Repository
+: [stan-dev/example-models](https://github.com/stan-dev/example-models/tree/master/knitr/car-iar-poisson)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>,
+  <tt style="font-size: 90%">rstanarm</tt>,
+  <tt style="font-size: 90%">ggplot2</tt>,
+  <tt style="font-size: 90%">broom</tt>,
+  <tt style="font-size: 90%">reshape2</tt>,
+  <tt style="font-size: 90%">dplyr</tt>,
+  <tt style="font-size: 90%">maptools</tt>,
+  <tt style="font-size: 90%">spdep</tt>,
+  <tt style="font-size: 90%">R-INLA</tt>,
+  <tt style="font-size: 90%">R2OpenBugs</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 ## The QR Decomposition for Regression Models
 
 <small>
-This case study reviews the QR decomposition, a technique for  decorrelating 
-covariates and, consequently, the resulting posterior distribution in 
+This case study reviews the QR decomposition, a technique for  decorrelating
+covariates and, consequently, the resulting posterior distribution in
 regression models.
 </small>
 
@@ -139,7 +164,7 @@ illustrates Monte Carlo methods and relates distance to the log
 density of the normal distribution and the chi-squared distribution.
 </small>
 
-[View](case-studies/curse-dims.html)  
+[View](case-studies/curse-dims.html)
 <span class="note">(HTML)</span>
 
 Author
