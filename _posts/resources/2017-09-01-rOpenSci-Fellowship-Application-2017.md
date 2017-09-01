@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-On this page you can find the answers submitted as my application to the rOpenSci fellowship program in 2017.
+On this page you can find the answers submitted as my application to the [rOpenSci fellowships program](https://ropensci.org/blog/blog/2017/07/06/ropensci-fellowships) in 2017.
 
 The application was submitted on September 1st at 10:48pm. (Over nine hours before the deadline :wink:). It was required to fit on a maximum of 3 A4 pages. You can download the PDF [here](https://github.com/WhitakerLab/WhitakerLabProjectManagement/blob/master/FUNDING_APPLICATIONS/Whitaker_rOpenSciFellowshipProposal.pdf).
 
