@@ -151,6 +151,7 @@ Python Package Dependencies
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
 
+
 ## Typical Sets and the Curse of Dimensionality
 
 <small> This case study illustrates the so-called “curse of
@@ -164,16 +165,16 @@ illustrates Monte Carlo methods and relates distance to the log
 density of the normal distribution and the chi-squared distribution.
 </small>
 
-[View](case-studies/curse-dims.html)
+[View R version](case-studies/curse-dims.html)
 <span class="note">(HTML)</span>
 
-Author
+Authors
 : Bob Carpenter
 
 Keywords
 : probability mass, typical sets, concentration of measure, Monte Carlo methods
 
-Source Repository
+Source Repository (R)
 : [stan-dev/example-models/knitr/curse-dims](https://github.com/stan-dev/example-models/tree/master/knitr/curse-dims)
 <span class="note">(GitHub)</span>
 
@@ -182,6 +183,32 @@ R Package Dependencies
 
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+[View Python version](case-studies/curse-dims-python.html)
+<span class="note">(HTML)</span>
+
+Author (Python translation)
+: Aravind S (Python translation)
+
+Source Repository (Python)
+: [Aravinds-ds/Stan-Code/python notebooks/curse_dims](https://github.com/Arvinds-ds/Stan-Code/tree/master/python%20notebooks/curse_dims)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90">numpy</tt>,
+<tt style="font-size: 90">scipy</tt>,
+<tt style="font-size: 90">pandas</tt>,
+<tt style="font-size: 90">matplotlib</tt>,
+<tt style="font-size: 90">collections</tt>,
+<tt style="font-size: 90">sys</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+
+
 
 
 ## Diagnosing Biased Inference with Divergences
