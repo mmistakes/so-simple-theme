@@ -29,10 +29,13 @@ Each submission should include:
 * separate files containing the Stan program, data, initializations if used, etc.
 * a permissive license for everything such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
+Examples of accepted submissions from last year are available in our 
+[stancon_talks](https://github.com/stan-dev/stancon_talks) repository on GitHub. 
+
 Please take care to ensure that your notebook runs out of the box, otherwise we
 cannot guarantee full consideration.
 
-Examples of accepted submissions from last year are available at https://github.com/stan-dev/stancon_talks.
+
 
 ### Deadline
 
