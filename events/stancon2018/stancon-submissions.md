@@ -30,7 +30,8 @@ Each submission should include:
 * a permissive license for everything such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Examples of accepted submissions from last year are available in our 
-[stancon_talks](https://github.com/stan-dev/stancon_talks) repository on GitHub. 
+[stancon_talks](https://github.com/stan-dev/stancon_talks/tree/master/2017/Contributed-Talks) 
+repository on GitHub. 
 
 Please take care to ensure that your notebook runs out of the box, otherwise we
 cannot guarantee full consideration.
