@@ -32,6 +32,8 @@ Each submission should include:
 Please take care to ensure that your notebook runs out of the box, otherwise we
 cannot guarantee full consideration.
 
+Examples of accepted submissions from last year are available at https://github.com/stan-dev/stancon_talks.
+
 ### Deadline
 
 September 16, 2017 5:00:00 AM GMT
