@@ -128,10 +128,11 @@ Submission instructions can be found
 # Invited Speakers:
 
 * Susan Holmes (Department of Statistics, Stanford University)
+* Frank Harrell (School of Medicine and Department of Biostatistics, Vanderbilt University)
+* Sophia Rabe-Hesketh (Educational Statistics and Biostatistics, University of California, Berkeley)
 * Sean Taylor and Ben Letham (Facebook Core Data Science)
 * Manuel Rivas (Department of Biomedical Data Science, Stanford University)
 * Talia Weiss (Department of Physics, Massachusetts Institute of Technology)
-* Sophia Rabe-Hesketh (Educational Statistics and Biostatistics, University of California, Berkeley)
 
 More to come!
 

@@ -39,7 +39,7 @@ This case study shows how to efficiently encode and compute an
 Intrinsic Conditional Auto-Regressive (ICAR) model in Stan.
 When data has a neighborhood structure, ICAR models provide spatial smoothing
 by averaging measurements of directly adjoining regions.
-The Besag York Mollié (BYM) model is a Poisson GLM which
+The Besag, York, and Mollié (BYM) model is a Poisson GLM which
 includes both an ICAR component and an ordinary
 random-effects component for non-spatial heterogeneity.
 We compare two variants of the BYM model and fit two datasets
@@ -48,11 +48,36 @@ taken from epidemiological studies over 56 and 700 regions, respectively.
 
 [View](case-studies/icar_stan.html) <span class="note">(HTML)</span>
 
+Author
+: Mitzi Morris
+
+Keywords
+: spatial modeling, CAR, ICAR, INLA, OpenBUGS, hierarchical models
+
+Source Repository
+: [stan-dev/example-models](https://github.com/stan-dev/example-models/tree/master/knitr/car-iar-poisson)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>,
+  <tt style="font-size: 90%">rstanarm</tt>,
+  <tt style="font-size: 90%">ggplot2</tt>,
+  <tt style="font-size: 90%">broom</tt>,
+  <tt style="font-size: 90%">reshape2</tt>,
+  <tt style="font-size: 90%">dplyr</tt>,
+  <tt style="font-size: 90%">maptools</tt>,
+  <tt style="font-size: 90%">spdep</tt>,
+  <tt style="font-size: 90%">R-INLA</tt>,
+  <tt style="font-size: 90%">R2OpenBugs</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 ## The QR Decomposition for Regression Models
 
 <small>
-This case study reviews the QR decomposition, a technique for  decorrelating 
-covariates and, consequently, the resulting posterior distribution in 
+This case study reviews the QR decomposition, a technique for  decorrelating
+covariates and, consequently, the resulting posterior distribution in
 regression models.
 </small>
 
@@ -126,6 +151,7 @@ Python Package Dependencies
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
 
+
 ## Typical Sets and the Curse of Dimensionality
 
 <small> This case study illustrates the so-called “curse of
@@ -139,16 +165,16 @@ illustrates Monte Carlo methods and relates distance to the log
 density of the normal distribution and the chi-squared distribution.
 </small>
 
-[View](case-studies/curse-dims.html)  
+[View R version](case-studies/curse-dims.html)
 <span class="note">(HTML)</span>
 
-Author
+Authors
 : Bob Carpenter
 
 Keywords
 : probability mass, typical sets, concentration of measure, Monte Carlo methods
 
-Source Repository
+Source Repository (R)
 : [stan-dev/example-models/knitr/curse-dims](https://github.com/stan-dev/example-models/tree/master/knitr/curse-dims)
 <span class="note">(GitHub)</span>
 
@@ -157,6 +183,32 @@ R Package Dependencies
 
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+[View Python version](case-studies/curse-dims-python.html)
+<span class="note">(HTML)</span>
+
+Author (Python translation)
+: Aravind S (Python translation)
+
+Source Repository (Python)
+: [Aravinds-ds/Stan-Code/python notebooks/curse_dims](https://github.com/Arvinds-ds/Stan-Code/tree/master/python%20notebooks/curse_dims)
+<span class="note">(GitHub)</span>
+
+Python Package Dependencies
+: <tt style="font-size: 90">numpy</tt>,
+<tt style="font-size: 90">scipy</tt>,
+<tt style="font-size: 90">pandas</tt>,
+<tt style="font-size: 90">matplotlib</tt>,
+<tt style="font-size: 90">collections</tt>,
+<tt style="font-size: 90">sys</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+
+
 
 
 ## Diagnosing Biased Inference with Divergences
