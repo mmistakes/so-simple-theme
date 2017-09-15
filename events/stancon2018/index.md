@@ -89,7 +89,7 @@ to gender, ethnicity, and orientation.
 
 Accommodations at Asilomar cover three nights, beginning with check-in the
 evening of Tuesday January 9, 2018 and continuing through check-out the
-morning of Friday January 9, 2018.  Accommodations include dinner on Tuesday,
+morning of Friday January 12, 2018.  Accommodations include dinner on Tuesday,
 breakfast-lunch-dinner on Wednesday and Thursday, and breakfast-lunch on Friday.
 
 * Single accommodations: $899.00
