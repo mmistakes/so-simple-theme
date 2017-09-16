@@ -12,6 +12,8 @@ image:
 {:.center-txt}
 meetups, talks &amp; courses
 
+[Registration is now open for StanCon 2018!](/events/stancon2018)
+
 
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.
