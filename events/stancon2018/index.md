@@ -33,7 +33,7 @@ south of San Jose.
 The Monterey Regional Airport (MRY) is just 8 miles from Asilomar, while Mineta
 San Jose International (SJC) is 80 miles to the North and San Francisco
 International Airport (SFO) is 110 miles to the North.
-
+/Users/Betancourt/Documents/Research/Code/stan-dev/stan-dev.github.io/events/stancon2018/index.md
 Local taxi companies service the Monterey Regional Airport, as does the
 Monterey-Salinas Transit bus system. Airport shuttle service to and from
 San Jose and San Francisco airports can be arranged in advance through
@@ -89,7 +89,7 @@ to gender, ethnicity, and orientation.
 
 Accommodations at Asilomar cover three nights, beginning with check-in the
 evening of Tuesday January 9, 2018 and continuing through check-out the
-morning of Friday January 9, 2018.  Accommodations include dinner on Tuesday,
+morning of Friday January 12, 2018.  Accommodations include dinner on Tuesday,
 breakfast-lunch-dinner on Wednesday and Thursday, and breakfast-lunch on Friday.
 
 * Single accommodations: $899.00
@@ -157,7 +157,6 @@ will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.htm
 
 # Organizers:
 
-- Michael Betancourt (Columbia University)
 - Jonah Gabry (Columbia University)
 - Daniel Lee (Stan Group Inc)
 - Eric Novik (Stan Group Inc)

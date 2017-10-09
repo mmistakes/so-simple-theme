@@ -42,6 +42,10 @@ cannot guarantee full consideration.
 
 September 16, 2017 5:00:00 AM GMT
 
+__Update__ We have extended the submission deadline two weeks to 
+September 29, 2017 5:00:00 AM GMT.  The sooner you submit the
+sooner you will receive a decision about your submission.
+
 ### How to submit
 
 Please email all submissions and questions about submissions to
