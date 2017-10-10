@@ -9,157 +9,143 @@ image:
   creditlink:
 ---
 
-Wednesday January 10, 2018 - Friday January 12, 2018
+Three days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
-[Asilomar Conference Grounds](http://www.visitasilomar.com), Pacific Grove, California
+Jan 10-12, 2018 	&emsp; &bull; &emsp; Pacific Grove, California, USA
 {: style="font-size: 150%; text-align: center;"}
 
-Three days of talks, open discussions, and modeling hackatons.
+------
 
-# Location:
+- [**Registration**](#registration-information)
+- [**Accomodation**](#accommodation)
+- [**Important Dates**](#important-dates)
+- [**Speakers and Schedule**](#speakers-and-schedule)
+- [**Code of Conduct**](#code-of-conduct)
+- [**Sponsors**](#sponsors)
+- [**StanCon 2018 Organizing Committee**](#committee)
+
+------
+
+# [Registration Information](#registration-information)
+
+We are offering an optional discounted registration to anyone identifying
+with as a member of an underrepresented community, including but not limited
+to gender, ethnicity, and orientation.
+
+Registration for the conference is handled on [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Accommodation is handled through the conference site, Asilomar.
+
+### [Early Registration (ends Nov 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| $150 | $250 | $350 |
+
+<br>
+
+### [Registration (ends Dec 20)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| $225 | $375 | $525 |
+
+<br>
+
+Accommodations are booked separately from the registration. For a room at Asilomar, book here: [Asilomar](https://aws.passkey.com/e/49190400).
+
+
+# [Accommodation](#accommodation)
+
+
+## [Asilomar Conference Grounds, Pacific Grove, California](http://www.visitasilomar.com/)
+
+<img alt="Asilomar" src="Wooden_pathway_at_the_Asilomar_State_Beach.jpg" title="https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Wooden_pathway_at_the_Asilomar_State_Beach.jpg" img="./Wooden_pathway_at_the_Asilomar_State_Beach.jpg" style="width: 50%;" class="center-image">
 
 StanCon 2018 will take place at the Asilomar Conference Grounds, a National
 Historic Landmark on the Monterey Peninsula right on the beach.
 
-![Boardwalk](Wooden_pathway_at_the_Asilomar_State_Beach.jpg){: style="width: 50%;" .center-image }
-https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Wooden_pathway_at_the_Asilomar_State_Beach.jpg
-{: style="font-size: 50%; text-align: center;"}
+Asilomar is about 120 miles south of San Francisco and 75 miles south of San Jose. (We'll include details on how to get there.)
 
-Asilomar is approximately 120 miles south of downtown San Francisco
-(about 105 miles from San Francisco International Airport) and about 75 miles
-south of San Jose.
-
-The Monterey Regional Airport (MRY) is just 8 miles from Asilomar, while Mineta
-San Jose International (SJC) is 80 miles to the North and San Francisco
-International Airport (SFO) is 110 miles to the North.
-/Users/Betancourt/Documents/Research/Code/stan-dev/stan-dev.github.io/events/stancon2018/index.md
-Local taxi companies service the Monterey Regional Airport, as does the
-Monterey-Salinas Transit bus system. Airport shuttle service to and from
-San Jose and San Francisco airports can be arranged in advance through
-Monterey Airbus by calling 831.373.7777 or visiting the Monterey Airbus website.
-
-Talks and discussions will take place in Merrill Hall.
-
-![Merrill Hall](Merrill_Hall_Asilomar_edit1.jpg){: style="width: 50%;" .center-image }
-(https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Merrill_Hall_Asilomar_edit1.jpg)
-{: style="font-size: 50%; text-align: center;"}
-
-# Registration:
-
-Registration for StanCon 2018 proceeds in two steps.
-
-* 1. First fill out the [registration information](https://goo.gl/forms/1wpXs1ANVbeFyIoQ2).
-
-Once the registration information has been completed
-you can proceed to payment.
-
-* 2a. If you are staying at Asilomar then continue to
-[the Asilomar website](https://aws.passkey.com/e/49190400)
-to arrange and pay for accommodation along with the registration fee.
-
-* 2b. If you are not staying at Asilomar then download
-[the offsite registration form](/events/stancon2018/stancon_offsite_order_form.pdf)
-and send a completed copy to AsilomarSales@aramark.com as instructed.
-
-If you are a student unable to fund attendance to this year's conference
-then please consider applying for a
-[student scholarship](https://goo.gl/forms/NTfbNPpcREZSr5om2), which will
-cover accommodation and registration.
-
-## Registration Fees
-
-Until Friday November 10, 2017 the registration fees will be
-
-* Student: $150
-* Student ([Underrepresented Community*](#UC)): $100
-* Academic: $250
-* Academic ([Underrepresented Community*](#UC)): $200
-* Industry: $350
-* Industry ([Underrepresented Community*](#UC)): $300
-
-After Friday November 10, 2017 all registration prices will increase by 50%.
-Registrations will not be accepted after Wednesday December 20, 2017.
-
-<a name="UC">\*</a> We are offering an optional discounted registration to anyone identifying
-with as a member of an underrepresented community, including but not limited
-to gender, ethnicity, and orientation.
 
 ## Onsite Accommodations
 
-Accommodations at Asilomar cover three nights, beginning with check-in the
-evening of Tuesday January 9, 2018 and continuing through check-out the
-morning of Friday January 12, 2018.  Accommodations include dinner on Tuesday,
-breakfast-lunch-dinner on Wednesday and Thursday, and breakfast-lunch on Friday.
+[Book accommodations!](https://aws.passkey.com/e/49190400)
+
+Deadline: Dec 10, 2017
+
+Accommodations at Asilomar include meals. Cost for 4 days, 3 nights (Jan 9-12):
 
 * Single accommodations: $899.00
 * Double accommodations: $605.93
-* Quad accommodations (reserved for students): $476.00
+* Quad accommodations: $476.00
 
 These costs do not include an additional $20 processing fee that will be
 charged when you check into your accommodation at Asilomar.
 
-Guest accommodations are also available.  Similarly, accommodations for
-preceding and subsequent days are available for those wishing to enjoy the
-grounds before or after the conference.  For details see the [the Asilomar page](https://aws.passkey.com/e/49190400).
-
-Cancellations can be made before December 10 2018 although $100 will be
-deducted from any cancellation to cover processing and handling.
 
 ## Offsite Accommodations
 
-For those planning to attend the conference but not stay on the Asilomar
-grounds meals can be purchased a la carte:
+For those attending the conference, but not staying at Asilomar, meals can be purchased a la carte:
 
 * Breakfast: $19.81
 * Lunch: $25.64
 * Dinner: $39.87
 
-A la carte meals also require a $12 facility fee per day.
+(A la carte meals also require a $12 facility fee per day.)
 
-# Contributed Talks:
 
-Contributed talks at StanCon are based on interactive, self-contained
-notebooks, such as knitr or Jupyter, and will take the place of proceedings.
+# [Important Dates](#important-dates)
 
-Submission instructions can be found
-[here](/events/stancon2018/stancon-submissions.html).
+Here are the important dates for StanCon 2018. 
 
-# Invited Speakers:
+| Deadline | What |
+|------|--------|
+| Nov 10, 2017| Early registration ends <br> (Registration prices increase by 50%) |
+| Dec 10, 2017| Registration ends <br> (No additional registrations for StanCon after this point) |
+| Dec 10, 2017| Accommodation at Asilomar ends <br> (Room availability is guaranteed until this date) |
+| Jan 10-12, 2018 | Stan Conference!!! |
 
-* Susan Holmes (Department of Statistics, Stanford University)
-* Frank Harrell (School of Medicine and Department of Biostatistics, Vanderbilt University)
-* Sophia Rabe-Hesketh (Educational Statistics and Biostatistics, University of California, Berkeley)
-* Sean Taylor and Ben Letham (Facebook Core Data Science)
-* Manuel Rivas (Department of Biomedical Data Science, Stanford University)
-* Talia Weiss (Department of Physics, Massachusetts Institute of Technology)
 
-More to come!
+# [Speakers and Schedule](#speakers-and-schedule)
 
-# Schedule:
+## Invited speakers!
 
-StanCon 2018 will begin the morning of Wednesday January 10, 2018 and will close
-at the end of Friday January, 12 2018.
+* Andrew Gelman <br> Department of Statistics and Political Science, Columbia University
+* Susan Holmes <br>Department of Statistics, Stanford University
+* Frank Harrell <br>School of Medicine and Department of Biostatistics, Vanderbilt University
+* Sophia Rabe-Hesketh <br> Educational Statistics and Biostatistics, University of California, Berkeley
+* Sean Taylor and Ben Letham <br>Facebook Core Data Science
+* Manuel Rivas <br>Department of Biomedical Data Science, Stanford University
+* Talia Weiss <br>Department of Physics, Massachusetts Institute of Technology
 
-Exact schedule coming soon!  
+## Schedule
 
-# Sponsors:
+TBD! The committee is actively working on the schedule.
 
-StanCan 2018 would not be possible without the generous support of our
-sponsors.  If you are interested in becoming a sponsor then please
-[contact the StanCon Organizing Committee](mailto:stancon@mc-stan.org).
-
-# Code of Conduct
+# [Code of Conduct](#code-of-conduct)
 
 In order to facilitate a welcoming environment for all attendees, StanCon 2018
 will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.html).
 
 
-# Organizers:
+# [Sponsors](#sponsors)
 
+We will be updating the sponsor information soon. If you're interested in sponsoring StanCon, please reach out to [stancon@mc-stan.org](mailto:stancon@mc-stan.org).
+
+<!-- We thank our wonderful sponsors this year! -->
+
+
+# <a name="committee"></a> [StanCon 2018 Organizing Committee](#committee)
+
+If you have any questions regarding StanCon, please email us at [stancon@mc-stan.org](stancon@mc-stan.org).
+
+StanCon is organized by a volunteer community
+
+- Breck Baldwin (Columbia University)
 - Jonah Gabry (Columbia University)
-- Daniel Lee (Stan Group Inc)
-- Eric Novik (Stan Group Inc)
+- Daniel Lee (Stan Group, Inc)
+- Eric Novik (Stan Group, Inc)
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
 - Lizze Wolkovich (Harvard University)
