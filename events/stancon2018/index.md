@@ -33,7 +33,6 @@ south of San Jose.
 The Monterey Regional Airport (MRY) is just 8 miles from Asilomar, while Mineta
 San Jose International (SJC) is 80 miles to the North and San Francisco
 International Airport (SFO) is 110 miles to the North.
-/Users/Betancourt/Documents/Research/Code/stan-dev/stan-dev.github.io/events/stancon2018/index.md
 Local taxi companies service the Monterey Regional Airport, as does the
 Monterey-Salinas Transit bus system. Airport shuttle service to and from
 San Jose and San Francisco airports can be arranged in advance through
@@ -62,10 +61,13 @@ to arrange and pay for accommodation along with the registration fee.
 [the offsite registration form](/events/stancon2018/stancon_offsite_order_form.pdf)
 and send a completed copy to AsilomarSales@aramark.com as instructed.
 
-If you are a student unable to fund attendance to this year's conference
+**NB:** Student scholarship applications are now closed.
+
+~~If you are a student unable to fund attendance to this year's conference
 then please consider applying for a
 [student scholarship](https://goo.gl/forms/NTfbNPpcREZSr5om2), which will
-cover accommodation and registration.
+cover accommodation and registration.~~
+
 
 ## Registration Fees
 
@@ -157,6 +159,7 @@ will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.htm
 
 # Organizers:
 
+- Breck Baldwin (Columbia University)
 - Jonah Gabry (Columbia University)
 - Daniel Lee (Stan Group Inc)
 - Eric Novik (Stan Group Inc)
