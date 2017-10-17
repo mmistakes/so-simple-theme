@@ -84,8 +84,8 @@ body {
 }
 .no-js #site-nav {
 	display: block;
-}	
-#nav-toggle { 
+}
+#nav-toggle {
 	z-index: 20;
 	display: block;
 	vertical-align: top;
@@ -164,8 +164,8 @@ body {
 	margin-bottom: 0;
 	@include animation-duration(1s);
     @include animation-delay(.75s);
-	a { 
-		color: $black; 
+	a {
+		color: $black;
 	}
 }
 .site-description {
@@ -213,8 +213,8 @@ body {
 	text-transform: uppercase;
 	@include font-size(16);
 	font-weight: 600;
-	a { 
-		color: $text-color; 
+	a {
+		color: $text-color;
 	}
 }
 span + .entry-title {
@@ -249,8 +249,8 @@ span + .entry-title {
 	@include span-columns(12);
 	text-transform: uppercase;
 	@include font-size(14);
-	a { 
-		color: $text-color; 
+	a {
+		color: $text-color;
 	}
 	@include media($large) {
 		@include span-columns(2.5);
@@ -369,13 +369,13 @@ span + .entry-title {
 		@include font-size(14);
 		line-height: 2.5;
 	}
-	a { 
+	a {
 		padding: 4px 6px;
 		margin: 2px;
 		background-color: lighten($black, 90);
 		@include rounded(4px);
 		text-decoration: none;
-		span { 
+		span {
 			vertical-align: super;
 			@include font-size(10);
 		}
@@ -485,11 +485,9 @@ span + .entry-title {
 
 .social-icons {
 	margin: 1em 0 2em;
+
 	a {
-		padding: 4px 8px;
-		&:hover { 
-			color: $black; 
-		}
+		margin: 4px 8px;
 	}
 }
 
