@@ -2,7 +2,7 @@
 
 title: So Simple
 locale: en_US
-description: Shame Driven Development Guru
+description: Shame Driven Development Guide
 logo: site-logo.png
 url: https://mmistakes.github.io/so-simple-theme
 
@@ -37,7 +37,7 @@ comments: true
 # Site owner
 owner:
   name: Sergey Kuzmich
-  avatar: michael-rose-photo.jpg
+  avatar: sergey-kuzmich-photo.png
   email: contact@kuzmi.ch
   disqus-shortname:
   twitter: _SergeyKuzmich
