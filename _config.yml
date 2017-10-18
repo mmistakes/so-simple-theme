@@ -1,9 +1,10 @@
 # Site wide configuration
 
-title: So Simple
+title: Digital Moleskine
+name: Digital <span>Moleskine</span><sup>&reg;</sup>
 locale: en_US
 description: Shame Driven Development Guide
-logo: site-logo.png
+logo: moleskine-logo.png
 url: https://sergeykuzmich.github.io/so-simple
 
 # Jekyll configuration

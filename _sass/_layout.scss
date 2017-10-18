@@ -163,11 +163,19 @@ body {
 .site-title {
 	margin-bottom: 0;
 	@include animation-duration(1s);
-    @include animation-delay(.75s);
+  @include animation-delay(.75s);
+
 	a {
 		color: $black;
 	}
+
+	span {
+  	font-family: "Copperplate Gothic";
+  	font-size: 3rem;
+  	font-weight: bold;
+  }
 }
+
 .site-description {
 	margin-top: 0;
 	font-family: $alt-font;
