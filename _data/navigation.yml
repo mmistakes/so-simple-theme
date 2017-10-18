@@ -8,3 +8,9 @@
 
 - title: Blog
   url: /blog/
+
+- title: Tags
+  url: /tags/
+
+- title: Search
+  url: /search/
