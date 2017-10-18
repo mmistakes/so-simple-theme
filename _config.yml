@@ -14,7 +14,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -39,7 +39,7 @@ owner:
   name: Sergey Kuzmich
   avatar: sergey-kuzmich-photo.png
   email: contact@kuzmi.ch
-  disqus-shortname:
+  disqus-shortname: kuzmich
   twitter: _SergeyKuzmich
   facebook:
   github: sergeykuzmich
