@@ -9,8 +9,6 @@ image:
 
 Slides
 
-
-
 - [course, part I](/workshops/halifax2017/halifax-1.pdf)
 - [case study](hier-models-meetup-2017.pdf)
 - [talk](stan-overview.pdf)
