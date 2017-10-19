@@ -33,6 +33,51 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
+## Modelling Loss Curves in Insurance with RStan
+
+<small>
+Loss curves are a standard actuarial technique for helping
+insurance companies assess the amount of reserve capital they need to
+keep on hand to cover claims from a line of business. Claims made and
+reported for a given accounting period are tracked seperately over
+time. This enables the use of historical patterns of claim development
+to predict expected total claims for newer policies.
+</small>
+
+<small>
+We model the growth of the losses in each accounting period as an
+increasing function of time, and use the model to estimate the
+parameters which determine the shape and form of this growth. We also
+use the sampler to estimate the values of the “ultimate loss ratio”,
+i.e. the ratio of the total claims on an accounting period to the
+total premium received to write those policies. We treat each
+accounting period as a cohort.
+</small>
+
+[View](case-studies/losscurves_casestudy.html) <span class="note">(HTML)</span>
+
+Author
+: Mick Cooney
+
+Keywords
+: actuarial science, loss curves, insurance, ultimate loss ratio,
+hierarchical model
+
+Source Repository
+: [kaybenleroll/stancasestudy_losscurves](https://github.com/kaybenleroll/stancasestudy_losscurves)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>,
+  <tt style="font-size: 90%">bayesplot</tt>,
+  <tt style="font-size: 90%">tidyverse</tt>,
+  <tt style="font-size: 90%">scales</tt>,
+  <tt style="font-size: 90%">cowplot</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
 ## Splines in Stan
 
 <small>
@@ -41,6 +86,25 @@ start by providing a brief introduction to splines and then explain
 how they can be implemented in Stan. We also discuss a novel prior
 that alleviates some of the practical challenges of spline models.
 </small>
+
+[View](case-studies/splines_in_stan.html) <span class="note">(HTML)</span>
+
+Author
+: Milad Kharratzadeh
+
+Keywords
+: B-splines, piecewise regression, knots, priors
+
+Source Repository
+: [milkha/Splines_in_Stan](https://github.com/milkha/Splines_in_Stan)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>,
+  <tt style="font-size: 90%">splines</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
 
 [View](case-studies/splines_in_stan.html) <span class="note">(HTML)</span>
 
