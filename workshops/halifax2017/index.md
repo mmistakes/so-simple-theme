@@ -7,6 +7,12 @@ image:
   feature: feature/wide_ensemble.png
 ---
 
+Slides
+
+- [course, part I](/workshops/halifax2017/halifax-1.pdf)
+- [case study](hier-models-meetup-2017.pdf)
+- [talk](stan-overview.pdf)
+
 Short course on Stan, Dalhousie University, Halifax Nova Scotia, October 2017
 
 - [hello.stan](/workshops/halifax2017/hello.stan)
