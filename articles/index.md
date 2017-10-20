@@ -2,7 +2,7 @@
 layout: page
 title: Articles
 excerpt: "An archive of articles sorted by date."
-search_omit: true
+search_omit: false
 ---
 
 <ul class="post-list">
