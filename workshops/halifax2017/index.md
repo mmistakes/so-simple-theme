@@ -18,3 +18,5 @@ Short course on Stan, Dalhousie University, Halifax Nova Scotia, October 2017
 - [hello.stan](/workshops/halifax2017/hello.stan)
 - [exercise 1](/workshops/halifax2017/exercise_1.html)
 - [exercise 2](/workshops/halifax2017/exercise_2.html)
+- [exercise 3](/workshops/halifax2017/exercise_3.html)
+- [data for exercise 3](/workshops/halifax2017/surgical-mortality.csv)
