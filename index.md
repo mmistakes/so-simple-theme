@@ -11,7 +11,7 @@ image:
 ---
 
 {:.center-txt}
-[Registration is now open for StanCon 2018!](/events/stancon2018)
+[StanCon 2018 early registration](/events/stancon2018) ends 10 November.
 
 Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
 and high-performance statistical computation.  Thousands of users rely
