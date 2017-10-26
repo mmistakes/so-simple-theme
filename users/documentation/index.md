@@ -22,7 +22,7 @@ itself, and a reference guide to the built-in special functions and probability
 functions.  Stan's modeling language is portable across all interfaces.
 
 * <p>
-  <a href="https://github.com/stan-dev/stan/releases/download/v2.16.0/stan-reference-2.16.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.16.0</a>
+  <a href="https://github.com/stan-dev/stan/releases/download/v2.17.0/stan-reference-2.17.0.pdf"><i>Modeling Language User's Guide and Reference Manual</i>, Version 2.17.0</a>
   <br />
   <span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
   </p>
