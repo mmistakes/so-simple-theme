@@ -12,51 +12,21 @@ image:
 Three days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
-Jan 10-12, 2018 	&emsp; &bull; &emsp; Pacific Grove, California, USA
+Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove, California, USA
 {: style="font-size: 150%; text-align: center;"}
 
 ------
-
+- [**Location**](#location)
 - [**Registration**](#registration-information)
 - [**Accomodation**](#accommodation)
 - [**Important Dates**](#important-dates)
 - [**Speakers and Schedule**](#speakers-and-schedule)
-- [**Code of Conduct**](#code-of-conduct)
 - [**Sponsors**](#sponsors)
 - [**StanCon 2018 Organizing Committee**](#committee)
 
 ------
 
-# [Registration Information](#registration-information)
-
-We are offering an optional discounted registration to anyone identifying
-with as a member of an underrepresented community, including but not limited
-to gender, ethnicity, and orientation.
-
-Registration for the conference is handled on [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Accommodation is handled through the conference site, Asilomar.
-
-### [Early Registration (ends Nov 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
-
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| $150 | $250 | $350 |
-
-<br>
-
-### [Registration (ends Dec 20)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| $225 | $375 | $525 |
-
-<br>
-
-Accommodations are booked separately from the registration. For a room at Asilomar, book here: [Asilomar](https://aws.passkey.com/e/49190400).
-
-
-# [Accommodation](#accommodation)
-
+# [Location](#location)
 
 ## [Asilomar Conference Grounds, Pacific Grove, California](http://www.visitasilomar.com/)
 
@@ -68,6 +38,36 @@ Historic Landmark on the Monterey Peninsula right on the beach.
 Asilomar is about 120 miles south of San Francisco and 75 miles south of San Jose. (We'll include details on how to get there.)
 
 
+
+# [Registration Information](#registration-information)
+
+If you are staying at the conference facility, Asilomar, then registration for the conference is handled as a part of the room booking process. Register/book room at [Asilomar](https://aws.passkey.com/e/49190400). More accomidation information below.
+
+Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). See below for meal costs. 
+
+### [Early Registration (ends Nov 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| $150 | $250 | $350 |
+
+<br>
+
+### [Regular Registration](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| $225 | $375 | $525 |
+
+<br>
+
+We are offering 50 dollar discounted registration to anyone identifying
+with as a member of an underrepresented community, including but not limited
+to gender, ethnicity, and orientation.
+
+# [Accommodation](#accommodation)
+
 ## Onsite Accommodations
 
 [Book accommodations!](https://aws.passkey.com/e/49190400)
@@ -78,7 +78,6 @@ Accommodations at Asilomar include meals. Cost for 4 days, 3 nights (Jan 9-12):
 
 * Single accommodations: $899.00
 * Double accommodations: $605.93
-* Quad accommodations: $476.00
 
 These costs do not include an additional $20 processing fee that will be
 charged when you check into your accommodation at Asilomar.
@@ -91,8 +90,6 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 * Breakfast: $19.81
 * Lunch: $25.64
 * Dinner: $39.87
-
-(A la carte meals also require a $12 facility fee per day.)
 
 
 # [Important Dates](#important-dates)
