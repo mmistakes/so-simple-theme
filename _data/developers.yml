@@ -184,3 +184,16 @@
   avatar: ari_hartikainen.jpg
   twitter: a_hartikainen
   linkedin: https://www.linkedin.com/in/ari-hartikainen-64b87b32/
+
+- name: Matthijs Vákár
+  affiliation: University of Oxford
+  github: VMatthijs
+  web: http://users.ox.ac.uk/~magd3996/ 
+  email:  matthijs.vakar@cs.ox.ac.uk
+  avatar: matthijs_vakar.jpg
+
+- name: Andrew Johnson
+  affiliation: Curtin University
+  github: andrjohns
+  email: andrew.r.johnson@postgrad.curtin.edu.au
+  avatar: andrew_johnson.jpg
