@@ -28,15 +28,16 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 
 # [Location](#location)
 
-## [Asilomar Conference Grounds, Pacific Grove, California](http://www.visitasilomar.com/)
-
-<img alt="Asilomar" src="Wooden_pathway_at_the_Asilomar_State_Beach.jpg" title="https://en.wikipedia.org/wiki/Asilomar_State_Beach#/media/File:Wooden_pathway_at_the_Asilomar_State_Beach.jpg" img="./Wooden_pathway_at_the_Asilomar_State_Beach.jpg" style="width: 50%;" class="center-image">
+## [Asilomar Conference Grounds, Pacific Grove, California](https://aws.passkey.com/e/49190400/)
 
 StanCon 2018 will take place at the Asilomar Conference Grounds, a National
-Historic Landmark on the Monterey Peninsula right on the beach.
+Historic Landmark on the Monterey Peninsula right on the beach. 
 
-Asilomar is about 120 miles south of San Francisco and 75 miles south of San Jose. (We'll include details on how to get there.)
-
+Asilomar is about 120 miles south of San Francisco and 75 miles south
+of San Jose. Shuttle service is $60 each way from San Francisco airport (3 hour
+trip) and $50 each way from San Jose airport (2 hour trip)
+(https://www.montereyairbus.com). Shuttles run approximately every 1.5
+hours.
 
 
 # [Registration Information](#registration-information)
@@ -62,13 +63,13 @@ Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stanc
 
 <br>
 
-We are offering 50 dollar discounted registration to anyone identifying
+We are offering $50 discounted registration to anyone identifying
 with as a member of an underrepresented community, including but not limited
 to gender, ethnicity, and orientation.
 
 # [Accommodation](#accommodation)
 
-## Onsite Accommodations
+## Onsite Accommodations (will also collect payment for StanCon2018 registration)
 
 [Book accommodations!](https://aws.passkey.com/e/49190400)
 
