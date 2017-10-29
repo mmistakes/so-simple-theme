@@ -48,7 +48,7 @@ trip) and $50 each way from San Jose airport (2 hour trip)
 hours. Car rental is also an option and showing rates less than $30/day as of Oct 29th. 
 
 
-# [Invitation Letters for US visa] (#letter)
+# [Invitation Letters for US visa](#letter)
 If you require an invitation letter for visa or other purposes please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSf-EPrWD58HLZRsJzx_JWJbaUPALPu5S-IZV-cVCdm2AkJh-w/viewform?usp=sf_link). We will email you a letter within 48 hours. You must be registered or a scholarship awardee to get the letter.
 
 
