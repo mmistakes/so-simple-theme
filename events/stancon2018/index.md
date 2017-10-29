@@ -18,7 +18,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 ------
 - [**Wearable Poster Session**](#poster)
 - [**Location**](#location)
-- [**Invitation Letters for US visa**] (#letter)
+- [**Invitation Letters for US visa**](#letter)
 - [**Registration**](#registration-information)
 - [**Accomodation**](#accommodation)
 - [**Important Dates**](#important-dates)
