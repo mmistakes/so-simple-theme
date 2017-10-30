@@ -34,7 +34,7 @@ Unpack the distribution and consult the user's guide <span class="note">(in dire
 The CmdStan documentation is also available directly.
 
 * <p>
-  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.16.0/cmdstan-guide-2.17.0.pdf"><i>CmdStan
+  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.17.0/cmdstan-guide-2.17.0.pdf"><i>CmdStan
     Interface User's Guide, v2.17.0</i></a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
