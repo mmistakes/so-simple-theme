@@ -49,6 +49,7 @@ hours. Car rental is also an option and showing rates less than $30/day as of Oc
 
 
 # [Invitation Letters for US visa](#letter)
+
 If you require an invitation letter for visa or other purposes please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSf-EPrWD58HLZRsJzx_JWJbaUPALPu5S-IZV-cVCdm2AkJh-w/viewform?usp=sf_link). We will email you a letter within 48 hours. You must be registered or a scholarship awardee to get the letter.
 
 
@@ -56,7 +57,7 @@ If you require an invitation letter for visa or other purposes please fill out t
 
 If you are staying at the conference facility, Asilomar, then registration for the conference is handled as a part of the room booking process. Register/book room at [Asilomar](https://aws.passkey.com/e/49190400). More accomidation information below.
 
-Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). See below for meal costs. 
+Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Please do not use this to register and then stay at Asilomar with some cheap deal. Our room rate covers a bunch of conference expenses. See below for meal costs. 
 
 
 
