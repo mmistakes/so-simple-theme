@@ -1,0 +1,11 @@
+# Article
+---
+layout: post
+title: ${1:post}
+excerpt: "$2"
+categories: articles
+tags: [$3]
+image:
+  feature: $4
+comments: true
+---
