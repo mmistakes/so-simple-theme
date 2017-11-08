@@ -2,9 +2,18 @@
 
 - title: About
   url: /about/
+  
+- title: Policies
+  url: /policies/
+
+- title: Expertise
+  url: /expertise/
 
 - title: Resources
   url: /resources/
+
+- title: Training
+  url: /training/
 
 - title: Blog
   url: /blog/
