@@ -6,9 +6,9 @@ excerpt: "Some guidelines to working with us..."
 
 ## Fees
 
-The SBC charge an hourly-rate of ***£66*** for internal clients, and ***£74*** per-hour for external clients. We will provide you with an estimate of the number of hours required, a quote and a start date as part of our Memorandum of Understanding. During the project you will receive detailed monthly billing updates and ongoing analysis results via our project page. 
+The SBC charge an hourly-rate of ***£66*** for internal clients, and ***£74*** per-hour for external clients. We will provide you with an estimate of the number of hours required, a quote and a start date as part of our Memorandum of Understanding. During the project you will receive detailed monthly billing updates and ongoing analysis results. 
 
-Please note that payment of fees for data analysis services and authorship are not mutually exclusive. Depending on their contributions to a project, SBC data analysts might be considered collaborators at the same level as other academic colleagues who contribute intellectually and receive funding for work on a project. The recovery of Core expenses through the recharge system does not exclude the possibility for authorship for Core personnel. Similarly, authorship does not substitute for payment of Core expenses for services rendered. 
+***Please note that payment of fees for data analysis services and authorship are not mutually exclusive***. Depending on their contributions to a project, SBC data analysts might be considered collaborators at the same level as other academic colleagues who contribute intellectually and receive funding for work on a project. The recovery of Core expenses through the recharge system does not exclude the possibility for authorship for Core personnel. Similarly, authorship does not substitute for payment of Core expenses for services rendered. 
 
 ## Publications
 

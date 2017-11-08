@@ -19,7 +19,7 @@ The SBC has expertise in the following areas, and software packages:-
 ## Microarray Analysis
 
 - Experience with data from Affymetrix and Illumina platforms
-- Varying data types, including expression, methylation (450K), MEDIP-ChIP, and tiling arrays
+- Varying data types, including expression, methylation (450K), SNP and copy-number
 - Bioconductor/R
 
 
