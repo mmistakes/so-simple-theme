@@ -4,7 +4,7 @@ title: Expertise offered by the Sheffield Bioinformatics Core
 excerpt: "How to work with the SBC..."
 ---
 
-As part of our *triage* process we will endeavour your query to the most appropriate resource, which may be the faculty members that make up the [Sheffield Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) or the [Research Software Engineering group](http://rse.shef.ac.uk/) at Sheffield.
+As part of our *triage* process we will direct your query to the most appropriate expert, which may be one of the faculty members that make up the [Sheffield Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) or the [Research Software Engineering group](http://rse.shef.ac.uk/) at Sheffield.
 
 The SBC has expertise in the following areas, and software packages:-
 
