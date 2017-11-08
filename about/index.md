@@ -1,7 +1,23 @@
 ---
 layout: page
 title: About the Sheffield Bioinformatics Core
-excerpt: "Members of the Sheffield Bioinformatics Core and their research interests."
+excerpt: "How to work with the SBC..."
 ---
 
-***work in progress***
+## When to approach the Core
+
+If you are planning an experiment for which you would like SBC analysis support, the best time to approach the Core would be when you are collecting / preparing samples and prior to any data being generated. This is to ensure that good experimental design procedures are observed and that the experiment is sufficiently powered to answer your biological question of interest and any potential confounding factors have been addressed. 
+
+To quote R.A. Fisher
+
+> To consult the statistician after an experiment is finished is often merely to ask him to conduct a post mortem examination. He can perhaps say what the experiment died of.
+
+## How to approach the Core
+
+The SBC director should be approached. An initial meeting, which is free of charge, will then be scheduled to discuss your requirements and how the SBC can assist. The meeting will involve yourself, the SBC director, one of the analysis team, and possibly a representative of the facility you intend to use to generate your data. As a result of this initial meeting, the Core will determine whether the proposed project fits within their remit, or recommend referral to other Bioinformatics expertise at the University; such as the faculty members that constitute the [Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) at Sheffield. 
+
+## What to Expect
+
+After the initial consultation you will receive an Memorandum of Understanding (MOU) which will require your signature of the project P.I. before the Core’s work on the project can commence. This document formalises your relationship with the Core for the duration of the project. The SBC Director will select the most appropriate analyst to undertake the project and this analyst will be your point of contact throughout the analysis cycle. 
+
+We will also provide you with an time estimate and corresponding [cost](../policies) that can be used for grant-writing purposes. A start date for the project will also be agreed. The SBC will use project management software (currently Basecamp) to track progress on your project and keep you updated. We will employ best established techniques in reproducible research and version control, and our analysis scripts can be made available to you on request or at the point of submission to a journal. 

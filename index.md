@@ -7,11 +7,11 @@ search_omit: true
 
 We hope you find this site a useful source of information about the work of the Bioinformatics Core at the [University of Sheffield](https://www.sheffield.ac.uk/).
 
-### About the Core
+### Introduction
 
 The Sheffield Bioinformatics Core aims to develop and advance the training and application of bioinformatics and computational biology to biological research, biomedical research and public health in Sheffield
 
-The Core is also part of the [Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/) at the [University of Sheffield](https://www.sheffield.ac.uk/). The Hub is committed to leading the development of computational biology and bioinformatics and its application to discoveries made by data analytics, enabled by open collaboration, highly integrated team science, and professional bioinformatics services for our researchers. 
+On this website, you can find about more about [working with us](about), what some of [policies](policies) are, what [expertise](expertise) we can provide and details of upcoming [training](training) courses.
 
 ### Team
 
@@ -20,8 +20,6 @@ The Core is also part of the [Bioinformatics Hub](http://bioinformatics.group.sh
 - Core Analyst (to be recruited)  
 - [Prof. Winston Hide](https://www.sheffield.ac.uk/neuroscience/staff/hide) - Academic Director
 - [Dr. Dennis Wang](https://www.sheffield.ac.uk/neuroscience/staff/wang) - Associate Academic Director
-
-
 
 ### Contact
 
