@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Sheffield Bioinformatics Core
+title: Training Courses
 excerpt: "Details of upcoming and past training courses.."
 ---
 
