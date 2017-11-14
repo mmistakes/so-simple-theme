@@ -4,7 +4,7 @@ title: Mark Dunning
 excerpt: "More about Mark..."
 ---
 
-![](images/IMG_2921_resize.JPG)
+![mark](../images/3796277.jpeg)
 
 ## Experience
 
