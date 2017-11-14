@@ -1,15 +1,18 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: Home
+  url: .
   
-- title: Policies
-  url: /policies/
+- title: Team
+  url: /team/
 
 - title: Expertise
   url: /expertise/
 
-- title: Resources
+- title: Policies
+  url: /policies/
+  
+- title: Software
   url: /resources/
 
 - title: Training
@@ -17,9 +20,15 @@
 
 - title: News
   url: /blog/
+  
+- title: Contact
+  url: /contact/
 
-- title: Search
-  url: /search/
 
-- title: GitHub
-  url: https://github.com/sheffield-bioinformatics-core
+### Remove search and github as we're not interested in these right now
+
+## title: Search
+##  url: /search/
+
+##- title: GitHub
+##  url: https://github.com/sheffield-bioinformatics-core

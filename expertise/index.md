@@ -8,6 +8,17 @@ As part of our *triage* process we will direct your query to the most appropriat
 
 The SBC has expertise in the following areas, and software packages:-
 
+## Experimental Design
+
+*If you are planning an experiment, please come to us before generating data so that we can discuss the design* 
+
+The Core is experienced in advising on the following issues:-
+
+- Optimal number of replicates
+- Biases and confounding factors
+- Single-end or paired-end sequencing
+- Depth of sequencing required
+
 ## High-Throughput Sequence Analysis
 
 - BWA, Bowtie and other aligners for all NGS platforms and applications
