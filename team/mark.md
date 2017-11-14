@@ -8,6 +8,10 @@ excerpt: "More about Mark..."
 
 Mark joined The University of Sheffield in October 2017 to establish the Bioinformatics Core
 
+- [twitter](https://twitter.com/DrMarkDunning)
+- [github](https://github.com/markdunning)
+- [orcid](https://orcid.org/0000-0002-8853-9435)
+
 ## Experience
 
 2015 – 2017: Bioinformatics Training Co-ordinator, Cancer Research Uk, Cambridge Institute
@@ -23,13 +27,13 @@ Mark joined The University of Sheffield in October 2017 to establish the Bioinfo
  
 ## Biography
 
-I obtained my PhD in the Statistics and Computational Biology group of [Simon Tavare](https://www.compbio.group.cam.ac.uk/) at The University of Cambridge. As part of my [thesis](https://www.repository.cam.ac.uk/handle/1810/218542) I developed open-source software for the analysis of Illumina microarray data, which is available through the [Bioconductor project](http://www.bioconductor.org). I joined the [Bioinformatics Core](http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core) at [Cancer Research Uk Cambridge Institute](http://www.cruk.cam.ac.uk/) and played a key role in the analysis of gene expression profiles as part of the [METABRIC](https://www.ncbi.nlm.nih.gov/pubmed/22522925) project, which identified and described new subtypes of breast cancer. I also participated in the pilot phases of the International Cancer Genome Consortium (ICGC) project by developing computational pipelines to process the whole-genome sequencing data from Oesophageal cancer patients. During my time in the Bioinformatics Core I also developed a passion for teaching and commenced a role dedicated to organising and delivering Bioinformatics training courses, with the aim of empowering wet-lab scientists to begin to explore data for themselves and foster more-productive collaborations with Bioinformaticians.
+I obtained my PhD in the Statistics and Computational Biology group of [Simon Tavare](https://www.compbio.group.cam.ac.uk/) at The University of Cambridge. As part of my [thesis](https://www.repository.cam.ac.uk/handle/1810/218542) I developed open-source software for the analysis of Illumina microarray data, which is available through the [Bioconductor project](http://www.bioconductor.org). I joined the [Bioinformatics Core](http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core) at [Cancer Research Uk Cambridge Institute](http://www.cruk.cam.ac.uk/) and played a key role in the analysis of gene expression profiles as part of the [METABRIC](https://www.ncbi.nlm.nih.gov/pubmed/22522925) project, which identified and described new subtypes of breast cancer. I also participated in the pilot phases of the International Cancer Genome Consortium (ICGC) project by developing computational pipelines to process the whole-genome sequencing data from Oesophageal cancer patients. During my time in the Bioinformatics Core I also developed a passion for teaching and commenced a role dedicated to organising and delivering [Bioinformatics training courses](https://github.com/bioinformatics-core-shared-training), with the aim of empowering wet-lab scientists to begin to explore data for themselves and foster more-productive collaborations with Bioinformaticians.
 
-I have a strong commitment to reproducible research and making my research outputs available to other researchers, and indeed members of the public who may have funded the research in the first place. For instance, I recently developed and deployed a Shiny application that allows interested parties to query various [prostate cancer datasets](http://bioinformatics.cruk.cam.ac.uk/apps/camcAPP/). In keeping with my open access principles, the code underlying the application is available via github and utilises data sets that can be downloaded from Bioconductor. I have also recently investigated technologies such as Galaxy and Docker to ease the deployment of software and facilitate reproducible research.
+I have a strong commitment to reproducible research and making my research outputs available to other researchers, and indeed members of the public who may have funded the research in the first place. For instance, I recently developed and deployed a [Shiny](https://shiny.rstudio.com/) application that allows interested parties to query various [prostate cancer datasets](http://bioinformatics.cruk.cam.ac.uk/apps/camcAPP/). In keeping with my open access principles, the code underlying the application is available via [github](https://github.com/crukci-bioinformatics/camcAPP) and utilises data sets that can be downloaded from [Bioconductor](http://bioconductor.org/packages/release/BiocViews.html#___ProstateCancerData). I have also recently investigated technologies such as Galaxy and [Docker](https://www.docker.com) to ease the deployment of software and facilitate reproducible research.
 
 ## Publications
 
-For my full list of publications, please see my ORCid entry:-
+For my updated and full list of publications, please see my ORCid entry:-
 
 [https://orcid.org/0000-0002-8853-9435](https://orcid.org/0000-0002-8853-9435)
 
