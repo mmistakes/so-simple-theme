@@ -16,7 +16,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 {: style="font-size: 150%; text-align: center;"}
 
 ------
-- [**Scholarships are Back!**](#scholarship)
+- [**Scholarships are Back!**](#scholarships)
 - [**Wearable Poster Session**](#poster)
 - [**Location**](#location)
 - [**Invitation Letters for US visa**](#letter)
