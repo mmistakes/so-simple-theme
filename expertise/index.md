@@ -37,7 +37,7 @@ The Core is experienced in advising on the following issues:-
 
 - Custom pipeline creation
 - Custom visualisation of high-throughput data
-- Packaging and deploying software environments with [docker](www.docker.com)
+- Packaging and deploying software environments with [docker](https://www.docker.com/)
 - Data Management and curation
 - Creating interactive web applications wih [shiny](https://shiny.rstudio.com/)
 

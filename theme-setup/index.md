@@ -282,7 +282,7 @@ To be more selective and granualar with which posts and pages Disqus comments ap
 
 ## Twitter Cards
 
-Feature and thumbnail images are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) as well. If you don't assign a thumbnail the site logo is used.
+Feature and thumbnail images are used by [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started) as well. If you don't assign a thumbnail the site logo is used.
 
 Here's an example of a tweet with Twitter Cards enabled.
 
