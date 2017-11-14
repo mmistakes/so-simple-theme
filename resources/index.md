@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Useful resources
+title: Software and useful resources
 excerpt: "An archive of resources sorted by date."
 search_omit: true
 ---
