@@ -37,7 +37,9 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 
 Thanks to these fine folks for sponsoring StanCon2018
 
-<img src="img/original.png" alt="JumpingRiviers" width=150>
+<img src="img/colorJR.png" alt="JumpingRiviers" width=200>
+
+Jumping Rivers is teaching a [Stan class](https://www.jumpingrivers.com/courses/13_introductions-to-bayesian-inference-using-rstan) Dec 7, Dec 8 at New Castle University in the UK. 
 
 	
 ------
