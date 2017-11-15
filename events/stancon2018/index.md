@@ -16,6 +16,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 {: style="font-size: 150%; text-align: center;"}
 
 ------
+- [**Sponsors**](#sponsors)
 - [**Scholarships are Back!**](#scholarships)
 - [**Wearable Poster Session**](#poster)
 - [**Location**](#location)
@@ -30,6 +31,14 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 - [**StanCon 2018 Organizing Committee**](#committee)
 
 
+------
+
+# [Sponsors](#sponsors)
+
+Thanks to these fine folks for sponsoring StanCon2018
+
+![foo](img/original.png "Jumping Rivers"){#id .class width=30 height=20px}
+	
 ------
 
 # [Scholarships](#scholarships)
@@ -174,14 +183,7 @@ can also create your own designs and we will have night illumination gear.
 By day 2 you will have gotten to know your fellow
 attendees so some social adventure is called for. This activity has proved wildly 
 successful at DARPA conferences and they invented the internet so it can't be all bad. 
-Participants taste wines without knowing what they are. The wines are individually evaluated along
-many possible dimensions before ultimately being revealed:
-
-- Gues the grape variety, country of origin and vintage for the adventurous.
-- What would you pay for another bottle of the wine? 
-- What human traits does the wine have? Masculine/feminine? 
-- What famous person does the wine resemble?
-- What person at the conference does the wine resemble? 
+Participants taste wines without knowing what they are. 
 
 
 # [Code of Conduct](#code-of-conduct)
