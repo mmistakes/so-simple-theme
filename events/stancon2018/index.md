@@ -16,6 +16,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 {: style="font-size: 150%; text-align: center;"}
 
 ------
+- [**Scholarships are Back!**](#scholarships)
 - [**Wearable Poster Session**](#poster)
 - [**Location**](#location)
 - [**Invitation Letters for US visa**](#letter)
@@ -27,6 +28,15 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 - [**Activities**](#activities)
 - [**Sponsors**](#sponsors)
 - [**StanCon 2018 Organizing Committee**](#committee)
+
+
+------
+
+# [Scholarships](#scholarships)
+
+We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link) 
+
+
 
 ------
 
@@ -61,7 +71,7 @@ Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stanc
 
 
 
-### [Early Registration (ends Nov 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+### [Early Registration (ends Dec 1)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
 
 
 | Student | Academic | Industry |
@@ -114,7 +124,7 @@ Here are the important dates for StanCon 2018.
 
 | Deadline | What |
 |------|--------|
-| Nov 10, 2017| Early registration ends <br> (Registration prices increase by 50%) |
+| Dec 1, 2017| Early registration ends <br> (Registration prices increase by 50%) |
 | Dec 10, 2017| Registration ends <br> (No additional registrations for StanCon after this point) |
 | Dec 10, 2017| Accommodation at Asilomar ends <br> (Room availability is guaranteed until this date) |
 | Jan 10-12, 2018 | Stan Conference!!! |
@@ -124,7 +134,7 @@ Here are the important dates for StanCon 2018.
 
 ## Invited speakers!
 
-* Andrew Gelman <br> Department of Statistics and Political Science, Columbia University
+* Andrew Gelman <br> Department of Statistics and Political Science, Columbia University (Most Likely Virtual)
 * Susan Holmes <br>Department of Statistics, Stanford University
 * Frank Harrell <br>School of Medicine and Department of Biostatistics, Vanderbilt University
 * Sophia Rabe-Hesketh <br> Educational Statistics and Biostatistics, University of California, Berkeley
