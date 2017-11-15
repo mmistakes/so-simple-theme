@@ -33,6 +33,40 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 
+## Extreme value analysis and user defined probability functions in Stan
+
+<small>
+This notebook demonstrates how to implement user defined
+probability functions in Stan language. As an example I use the
+generalized Pareto distribution (GPD) to model geomagnetic storm data
+from the World Data Center for Geomagnetism.
+</small>
+
+[View](case-studies/gpareto_functions.html) <span class="note">(HTML)</span>
+
+Author
+: Aki Vehtari
+
+Keywords
+: extreme value analysis, generalized Pareto distribution, user defined probability functions
+
+Source Repository
+: [avehtari/BDA_R_demos/demos_rstan/gpareto_functions](https://github.com/avehtari/BDA_R_demos/tree/master/demos_rstan/gpareto_functions)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>,
+  <tt style="font-size: 90%">bayesplot</tt>,
+  <tt style="font-size: 90%">loo</tt>,
+  <tt style="font-size: 90%">ggplot2</tt>,
+  <tt style="font-size: 90%">tidyr</tt>,
+  <tt style="font-size: 90%">dplyr</tt>,
+  <tt style="font-size: 90%">extraDistr</tt>,
+  <tt style="font-size: 90%">gridExtra</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 ## Modelling Loss Curves in Insurance with RStan
 
 <small>
