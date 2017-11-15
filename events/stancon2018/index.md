@@ -37,7 +37,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 
 Thanks to these fine folks for sponsoring StanCon2018
 
-<img src="img/original.png" alt="JumpingRiviers" style="width=30">
+<img src="img/original.png" alt="JumpingRiviers" width=150>
 
 	
 ------
