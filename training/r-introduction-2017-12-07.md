@@ -1,3 +1,8 @@
+---
+layout: page
+title: Introduction to R and Bioconductor
+excerpt: "Intro to R and Bioconductor"
+---
 
 - Sheffield - 7th December 2017
 - 10am - 4pm
