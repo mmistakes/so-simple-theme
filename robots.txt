@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /events/stanconHelsinki2018
+Disallow: /events/stanconHelsinki2018/
