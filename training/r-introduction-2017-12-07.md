@@ -10,20 +10,20 @@
 
 R is a highly-regarded, free, software environment for statistical analysis, with many useful features that promote and facilitate reproducible research.
 
-In this course, we give an introduction to the R environment and explain how it can be used to import, manipulate and analyse tabular data. We will also introduce the Bioconductor project, 
+In this course, we give an introduction to the R environment and explain how it can be used to import, manipulate and analyse tabular data. We will also introduce the Bioconductor project, and how it can enable the analysis of complex biological datasets.
 
 After the course you should feel confident to start exploring your own dataset using the materials and references provided. 
 
 ## Who should attend this course?
 
-
+Researchers in life sciences who want to get started using R for their data analysis
 
 ## Aims:- After this course you should be able to:
 
 - Import data and plot graphs
 - Create a documented and reproducible piece of R code
 - Know how to develop your skills in R after the course
-- Install and use Bioconductor packages 
+- Interrogate and visualise data with Bioconductor packages
 
 ## Objectives:- During this course you will learn about:
 
@@ -36,6 +36,8 @@ After the course you should feel confident to start exploring your own dataset u
 - Basic Plotting
 - Customizing plots
 - Creating reproducible reports in R
+- Plotting high-throughput biological data with Bioconductor
+
 
 ## Prerequisites
 
@@ -44,7 +46,7 @@ After the course you should feel confident to start exploring your own dataset u
 
 ## Software installation
 
-You will need to bring an internet-enabled laptop to the course and install the latest versions of ***both*** R ***and*** RStudio before coming to the course
+You will need to bring an internet-enabled laptop to the course and install the latest versions of *both* R ***and*** RStudio before coming to the course
 
 - [R](https://cran.r-project.org/)
 - [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
@@ -56,7 +58,7 @@ You will need to bring an internet-enabled laptop to the course and install the 
 
 ## Timetable (provisional)
 
-09:30 - 12:00 Introduction to R
-12:00 - 13:00 LUNCH
-13:00 - 16:00 Introduction to Bioconductor
+- 09:30 - 12:00 Introduction to R
+- 12:00 - 13:00 LUNCH
+- 13:00 - 16:00 Introduction to Bioconductor
 
