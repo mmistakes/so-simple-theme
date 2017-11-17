@@ -188,7 +188,7 @@
 - name: Matthijs Vákár
   affiliation: University of Oxford
   github: VMatthijs
-  web: http://users.ox.ac.uk/~magd3996/ 
+  web: http://users.ox.ac.uk/~magd3996/
   email:  matthijs.vakar@cs.ox.ac.uk
   avatar: matthijs_vakar.jpg
 
@@ -197,3 +197,9 @@
   github: andrjohns
   email: andrew.r.johnson@postgrad.curtin.edu.au
   avatar: andrew_johnson.jpg
+
+- name: Dan Simpson
+  affiliation: University of Toronto
+  github: dpsimpson
+  email: simpson@utstat.toronto.edu
+  avatar: dan_simpson.jpg
