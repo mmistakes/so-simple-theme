@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Welcome
-excerpt: "Sheffield Bioinformatics Core home page."
+excerpt: "Sheffield Bioinformatics Core Facility home page."
 search_omit: true
 ---
 
-We hope you find this site a useful source of information about the work of the Bioinformatics Core at the [University of Sheffield](https://www.sheffield.ac.uk/).
+We hope you find this site a useful source of information about the work of the Bioinformatics Core Facility at the [University of Sheffield](https://www.sheffield.ac.uk/).
 
 ### Introduction
 
-The Sheffield Bioinformatics Core aims to develop and advance the training and application of bioinformatics and computational biology to biological research, biomedical research and public health in Sheffield
+The Sheffield Bioinformatics Core Facility aims to develop and advance the training and application of bioinformatics and computational biology to biological research, biomedical research and public health in Sheffield
 
 On this website, you can find about more about [working with us](policies), our [team](team) and [expertise](expertise) and details of upcoming [training](training) courses.
 

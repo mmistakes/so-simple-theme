@@ -1,4 +1,4 @@
-# Sheffield Bioinformatics Core Website
+# Sheffield Bioinformatics Core Facility Website
 
 [![Build Status](https://api.travis-ci.org/sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io.svg?branch=master)](https://travis-ci.org/sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.io)
 

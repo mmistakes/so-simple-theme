@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Sheffield Bioinformatics Core
+title: About the Sheffield Bioinformatics Core Facility
 excerpt: "How to work with the SBC..."
 ---
 

@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Sheffield Bioinformatics Core
+title: Sheffield Bioinformatics Core Facility
 locale: en_US
-description: Updates from the Bioinformatics Core at The University of Sheffield.
+description: Updates from the Bioinformatics Core Facility at The University of Sheffield.
 logo: site-logo.png
 search: true
 url: https://sheffield-bioinformatics-core.github.io/
