@@ -4,10 +4,7 @@ title: How to contact the Sheffield Bioinformatics Core
 excerpt: "Contact the SBC..."
 ---
 
-You can contact us by email [sheffieldBioinformaticsCore@gmail.com](mailto:sheffieldBioinformaticsCore@gmail.com) or on twitter [@SheffBioinfCore](https://twitter.com/SheffBioinfCore).
-
-You're very welcome to contact us via [GitHub](https://github.com/sheffield-bioinformatics-core) too. 
-
+You can contact us by email [bioinformatics-core@sheffield.ac.uk](mailto:bioinformatics-core@sheffield.ac.uk) or on twitter [@SheffBioinfCore](https://twitter.com/SheffBioinfCore).
 
 The Sheffield Bioinformatics Core is based at The [Sheffield Institute for Translation Neuroscience](http://sitran.org/) (SITraN)
 
