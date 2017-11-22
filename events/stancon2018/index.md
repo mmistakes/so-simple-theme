@@ -152,7 +152,7 @@ Here are the important dates for StanCon 2018.
 * Andrew Gelman <br> Department of Statistics and Political Science, Columbia University (Most Likely Virtual)
 * Susan Holmes <br>Department of Statistics, Stanford University
 * Frank Harrell <br>School of Medicine and Department of Biostatistics, Vanderbilt University
-* Sophia Rabe-Hesketh <br> Educational Statistics and Biostatistics, University of California, Berkeley
+* Sophia Rabe-Hesketh and Daniel Furr<br> Educational Statistics and Biostatistics, University of California, Berkeley
 * Sean Taylor and Ben Letham <br>Facebook Core Data Science
 * Manuel Rivas <br>Department of Biomedical Data Science, Stanford University
 * Talia Weiss <br>Department of Physics, Massachusetts Institute of Technology
@@ -218,3 +218,4 @@ StanCon is organized by a volunteer community
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
 - Lizze Wolkovich (Harvard University)
+ 
