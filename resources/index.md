@@ -15,7 +15,7 @@ On our [github repository](https://github.com/sheffield-bioinformatics-core) you
 Other researchers / Core facilities that we collaborate with and share resources
 
 - [Sheffield Bioinformatics Hub](http://bioinformatics.group.shef.ac.uk/)
-- [Sheffield Reseearch Software Engineering (RSE) group](http://rse.shef.ac.uk/)
+- [Sheffield Research Software Engineering (RSE) group](http://rse.shef.ac.uk/)
 - [Sheffield Diagnostic Genetics Service](https://www.sheffieldchildrens.nhs.uk/sdgs/)
 - [Sheffield Microarray and Next Generation Sequencing Core Facility](http://sitran.org/facilities/genomics-sequencing/)
 - [Sheffield Biological Mass Spectrometry Facility (biOMICS)](https://www.sheffield.ac.uk/biomics)
