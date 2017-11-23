@@ -10,6 +10,7 @@ A key philosphy of working with the Sheffield Bioinformatics Core is that you ar
 
 - [Mark Dunning](mark)
 - [Emily Chambers](emily)
+- Core Analyst; Now hiring
 
 ## Associates
 
