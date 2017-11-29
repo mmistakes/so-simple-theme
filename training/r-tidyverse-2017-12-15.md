@@ -64,3 +64,6 @@ Please click on this link to download all the files required to run the examples
 - Writing analysis workflows in R
 - Summarising and Combining data
 - Plotting data with ggplot2
+
+## Registration is open now
+Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/data-manipulation-and-visualisation-in-r). Fees for the course are £50.
