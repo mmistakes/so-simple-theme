@@ -67,5 +67,5 @@ You will need to bring an internet-enabled laptop to the course and install the 
 - 13:00 - 16:00 Introduction to Bioconductor
 
 ## Registration is open now
-Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r-and-bioconductor) Fees for the course are £50.
+Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r-and-bioconductor) Fees for the course are £60.
 
