@@ -24,3 +24,4 @@ image:
 - [Bath](/workshops/bath/)
 - [ASA 2016](/workshops/ASA2016/)
 - [Halifax, Nova Scotia 2017](/workshops/halifax2017/)
+- [PyData NYC 2017](/workshops/pydataNYC2017)
