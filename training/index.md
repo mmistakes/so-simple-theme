@@ -6,6 +6,10 @@ excerpt: "Details of upcoming and past training courses.."
 
 *Details of upcoming and previous training courses offered by the Sheffield Bioinformatics Core will appear here*
 
+## 2018
+
+- to be announced...
+
 ## 2017
 
 - **Registration open** [Introduction to R and Bioconductor](r-introduction-2017-12-07), December 7th, Pam Liversidge Design studio 1 (D06), Sheffield
