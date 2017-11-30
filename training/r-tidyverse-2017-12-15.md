@@ -40,14 +40,6 @@ Researchers in life sciences who want to get started using R for their data anal
 
 We will assume that you have basic familarity with R and are familiar with vectors, data frames, variables and using functions.
 
-
-## Software installation
-
-You will need to bring an internet-enabled laptop to the course and install the latest versions of *both* R ***and*** RStudio before coming to the course
-
-- [R](https://cran.r-project.org/)
-- [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
-
 ## Software installation
 
 You will need to bring an internet-enabled laptop to the course and install the latest versions of *both* R ***and*** RStudio before coming to the course
