@@ -27,4 +27,4 @@ This is a unique opportunity for you to participate in world-class research whil
 
 Apply here
 
-http://www.jobs.ac.uk/job/BFZ056/sheffield-bioinformatics-core-analyst/
+[http://www.jobs.ac.uk/job/BFZ056/sheffield-bioinformatics-core-analyst/](http://www.jobs.ac.uk/job/BFZ056/sheffield-bioinformatics-core-analyst/)
