@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Workshops: Dalhousie U October 2017"
+title: "PyData NYC November 2017"
 excerpt:
 search_omit: true
 image:
