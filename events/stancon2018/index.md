@@ -86,7 +86,7 @@ Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stanc
 
 
 
-### [Early Registration (ends Dec 1)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+### [Early Registration (ends Dec 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
 
 
 | Student | Academic | Industry |
@@ -139,8 +139,8 @@ Here are the important dates for StanCon 2018.
 
 | Deadline | What |
 |------|--------|
-| Dec 1, 2017| Early registration ends <br> (Registration prices increase by 50%) |
-| Dec 10, 2017| Registration ends <br> (No additional registrations for StanCon after this point) |
+| Dec 10, 2017| Early registration ends <br> (Registration prices increase by 50%) |
+| Jan 8, 2017| Registration ends <br> (No additional registrations for StanCon after this point) |
 | Dec 10, 2017| Accommodation at Asilomar ends <br> (Room availability is guaranteed until this date) |
 | Jan 10-12, 2018 | Stan Conference!!! |
 
