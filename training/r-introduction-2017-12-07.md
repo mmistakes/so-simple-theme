@@ -71,6 +71,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
+- Katjuša Koler, Phd Student, Hide Lab
 
 ## Timetable (provisional)
 
