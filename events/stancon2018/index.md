@@ -25,7 +25,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 - [**Accomodation**](#accommodation)
 - [**Important Dates**](#important-dates)
 - [**Speakers and Schedule**](#speakers-and-schedule)
-- [**Classes**](#classes)
+- [**Classes/Tutorials**](#classes)
 - [**Activities**](#activities)
 - [**Sponsors**](#sponsors)
 - [**StanCon 2018 Organizing Committee**](#committee)
@@ -157,19 +157,59 @@ Here are the important dates for StanCon 2018.
 * Manuel Rivas <br>Department of Biomedical Data Science, Stanford University
 * Talia Weiss <br>Department of Physics, Massachusetts Institute of Technology
 
+##Accepted Talks
+* Does the New York City Police Department rely on quotas? Jonathan Auerbach
+
+* Bayesian estimation of mechanical elastic constants.
+Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
+
+* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe
+
+* Causal inference with the g-formula in Stan. Leah Comment
+
+* A tutorial on Hidden Markov Models using Stan. Luis Damiano
+
+* Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman
+
+* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton
+
+* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio
+
+* Introducing idealstan, an R package for ideal point modeling with Stan.  Robert Kubinec
+
+* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian
+
+* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington
+
+* Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman
+
+* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson
+
+* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips
+
+* ScalaStan. Dave Hahn
+
+* A brief history of Stan. Daniel Lee
+
+
 ## Schedule
 
-TBD! The committee is actively working on the schedule.
+We are still working on the schedule but the rough shape of the days will be 8-10am tutorials, 10am - 5 pm main session with breaks/lunch followed by a reception and dinner. After dinner activities start at 8pm. 
 
-# [Classes](#classes)
+Friday we will end the conference at 3pm to allow for travel to airports.
+
+# [Classes/Tutorials](#classes)
 
 We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other:
 
 - Introduction to Stan: Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris. 
 
-- Executive decision making the Bayesian way: This is for non-techinical managers to learn the core of decision making under uncertainty and how to interpret the talks that they will be attending the rest of the day. One hour every day. Andrew Gelman, Breck Baldwin.
+- Executive decision making the Bayesian way: This is for non-techinical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
 
 - Advanced Modeling in Stan: The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich. 
+
+- How to develop for Stan at the C++ level. Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
+
 
 # [Actvities](#activities)
 Learning is fun but we anticpate that blowing off a little steam will
@@ -198,7 +238,7 @@ In order to facilitate a welcoming environment for all attendees, StanCon 2018
 will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.html).
 
 
-# [Sponsors](#sponsors)
+<!--# [Sponsors](#sponsors)
 
 We will be updating the sponsor information soon. If you're interested in sponsoring StanCon, please reach out to [stancon@mc-stan.org](mailto:stancon@mc-stan.org).
 
