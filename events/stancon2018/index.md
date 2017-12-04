@@ -187,7 +187,7 @@ Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
 
 * Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips
 
-* ScalaStan. Dave Hahn
+* ScalaStan. Joe Wingbermuehle
 
 * A brief history of Stan. Daniel Lee
 
