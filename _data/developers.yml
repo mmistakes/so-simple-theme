@@ -14,7 +14,7 @@
   avatar: bob_carpenter.jpg
 
 - name: Daniel Lee
-  affiliation: Stan Group
+  affiliation: Generable
   web: http://syclik.com
   email: bearlee@alum.mit.edu
   linkedin: https://www.linkedin.com/in/syclik
@@ -72,7 +72,7 @@
   avatar: jeffrey_arnold.jpg
 
 - name: Mitzi Morris
-  affiliation: Independent Consultant
+  affiliation: Columbia University
   web: http://www.panix.com/~mitzi/index.html
   email: mitzi@panix.com
   linkedin: https://www.linkedin.com/pub/mitzi-morris/65/39/785
@@ -80,7 +80,7 @@
   avatar: mitzi_morris.jpg
 
 - name: Rob Trangucci
-  affiliation: Stan Group, Columbia University
+  affiliation: University of Michigan
   linkedin: https://www.linkedin.com/pub/rob-trangucci/5/839/349
   twitter: Trangucc
   github: rtrangucci
@@ -108,13 +108,13 @@
   avatar: jonah_sol_gabry.png
 
 - name: Robert L. Grant
-  affiliation: St. George's, University of London &amp; Kingston University
+  affiliation: BayesCamp
   web: http://www.robertgrantstats.co.uk/
   github: robertgrant
   avatar: robert_l_grant.jpg
 
 - name: Krzysztof Sakrejda
-  affiliation: University of Massachusetts, Amherst
+  affiliation: UMass, Amherst
   web: http://reichlab.github.io/index.html
   email: sakrejda@umass.edu
   linkedin: https://www.linkedin.com/in/sakrejda
@@ -141,7 +141,7 @@
   github: wds15
 
 - name: Charles Margossian
-  affiliation: Metrum Research Group, LLC
+  affiliation: Columbia University
   email: charlesm@metrumrg.com
   linkedin: https://www.linkedin.com/in/charles-margossian-3428935b
   github: charlesm93
@@ -156,7 +156,7 @@
   avatar: vincent_picaud.png
 
 - name: Imad Ali
-  affiliation: Columbia University
+  affiliation: National Basketball Association
   web: http://imadali.net
   email: imad.ali@columbia.edu
   linkedin: https://www.linkedin.com/in/imadmali
@@ -172,7 +172,7 @@
   avatar: sean_talts.png
 
 - name: Ben Bales
-  affiliation: University of California, Santa Barbara
+  affiliation: UC, Santa Barbara
   email: bbbales2@gmail.com
   github: bbbales2
   avatar: ben_bales.png
@@ -184,3 +184,22 @@
   avatar: ari_hartikainen.jpg
   twitter: a_hartikainen
   linkedin: https://www.linkedin.com/in/ari-hartikainen-64b87b32/
+
+- name: Matthijs Vákár
+  affiliation: University of Oxford
+  github: VMatthijs
+  web: http://users.ox.ac.uk/~magd3996/
+  email:  matthijs.vakar@cs.ox.ac.uk
+  avatar: matthijs_vakar.jpg
+
+- name: Andrew Johnson
+  affiliation: Curtin University
+  github: andrjohns
+  email: andrew.r.johnson@postgrad.curtin.edu.au
+  avatar: andrew_johnson.jpg
+
+- name: Dan Simpson
+  affiliation: University of Toronto
+  github: dpsimpson
+  email: simpson@utstat.toronto.edu
+  avatar: dan_simpson.jpg

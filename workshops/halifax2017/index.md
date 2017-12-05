@@ -10,8 +10,8 @@ image:
 Slides
 
 - [course, part I](/workshops/halifax2017/halifax-1.pdf)
-- [case study](hier-models-meetup-2017.pdf)
-- [talk](stan-overview.pdf)
+- [case study](/workshops/halifax2017/hier-models-meetup-2017.pdf)
+- [talk](/workshops/halifax2017/stan-overview.pdf)
 
 Short course on Stan, Dalhousie University, Halifax Nova Scotia, October 2017
 
