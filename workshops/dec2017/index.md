@@ -12,3 +12,7 @@ Handouts
 - [Slides, day 1](/workshops/dec2017/class-1.pdf)
 - [Exercise 1.1](/workshops/dec2017/1.1.zip)
 - [Exercise 1.1 slides](/workshops/dec2017/1.1.slides.html)
+
+
+
+[Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
