@@ -15,7 +15,7 @@ Handouts
 - [Exercise 1.2.1 slides](/workshops/dec2017/exercises_1_2_MC_simulation.html)
 - [Exercise 1.2.1 handout](/workshops/dec2017/exercises_1_2_MC_simulation.pdf)
 - [Exercise 1.2.2 slides](/workshops/dec2017/exercises_1_2_curse_of_dim.html)
-- [Exercise 1.2.2 handout](/workshops/dec2017/exercises_1_2_MC_curse_of_dim.pdf)
+- [Exercise 1.2.2 handout](/workshops/dec2017/exercises_1_2_curse_of_dim.pdf)
 
 
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
