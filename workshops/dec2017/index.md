@@ -7,7 +7,7 @@ image:
   feature: feature/wide_ensemble.png
 ---
 
-Handouts
+Day 1 Handouts
 
 - [Slides 1](/workshops/dec2017/class-1.pdf)
 - [Exercise 1.1](/workshops/dec2017/1.1.zip)
@@ -17,6 +17,11 @@ Handouts
 - [Exercise 1.2.2 slides](/workshops/dec2017/exercises_1_2_curse_of_dim.html)
 - [Exercise 1.2.2 handout](/workshops/dec2017/exercises_1_2_curse_of_dim.pdf)
 
+Day 2 Handouts
 - [Slides 2](/workshops/dec2017/class-2.pdf)
+
+- [Exercise 2.2](/workshops/dec2017/2.2.zip)
+- [Exercise 2.2 slides](/workshops/dec2017/2.2.slides.html)
+
 
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
