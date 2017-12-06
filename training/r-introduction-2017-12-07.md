@@ -79,8 +79,8 @@ You can download the binary files for your distribution from CRAN. Or you can us
 
 ## Timetable (provisional)
 
-- 09:30 - 12:00 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
-- 12:00 - 13:00 LUNCH
+- 09:30 - 12:30 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
+- 12:30 - 13:30 LUNCH
 - 13:00 - 16:00 [Introduction to Bioconductor](https://bioinformatics-core-shared-training.github.io/bioc-introduction/bioc-intro.nb.html)
 
 ## Registration 
