@@ -75,7 +75,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 
 ## Course Data
 
-- Please download and install [this zip file](r-introduction-2017-12-07.zip) into the directory on your computer that you wish to work in
+- Please download and extract (un-zip) [this zip file](r-introduction-2017-12-07.zip) into the directory on your computer that you wish to work in
 
 ## Timetable (provisional)
 
