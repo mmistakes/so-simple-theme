@@ -8,11 +8,11 @@ A key philosphy of working with the Sheffield Bioinformatics Core is that you ar
 
 ## Core Staff
 
-- [Mark Dunning](mark)
-- [Emily Chambers](emily)
+- [Mark Dunning](http://sbc.shef.ac.uk/team/mark/)
+- [Emily Chambers](http://sbc.shef.ac.uk/team/emily/)
 - Core Analyst; Now hiring
 
 ## Associates
 
-- [Winston Hide](win)
-- [Dennis Wang](dennis)
+- [Winston Hide](http://sbc.shef.ac.uk/team/win)
+- [Dennis Wang](http://sbc.shef.ac.uk/team/dennis)
