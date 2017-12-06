@@ -73,11 +73,15 @@ You can download the binary files for your distribution from CRAN. Or you can us
 - Mark Dunning, Bioinformatics Core Director
 - Katjuša Koler, Phd Student, Hide Lab
 
+## Course Data
+
+- Please download and install [this zip file](r-introduction-2017-12-07.zip) into the directory on your computer that you wish to work in
+
 ## Timetable (provisional)
 
-- 09:30 - 12:00 Introduction to R
+- 09:30 - 12:00 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
 - 12:00 - 13:00 LUNCH
-- 13:00 - 16:00 Introduction to Bioconductor
+- 13:00 - 16:00 [Introduction to Bioconductor](https://bioinformatics-core-shared-training.github.io/bioc-introduction/bioc-intro.nb.html)
 
 ## Registration is open now
 Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r-and-bioconductor) Fees for the course are £60.
