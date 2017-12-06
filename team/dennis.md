@@ -4,7 +4,7 @@ title: Dennis Wang
 excerpt: "More about Dennis..."
 ---
 
-![](../images/Dennis_wang.jpg)
+![dennis](../images/Dennis_wang.jpg)
 
 Dennis joined The University of Sheffield in September 2016 as a Lecturer in Genomic Medicine
 
