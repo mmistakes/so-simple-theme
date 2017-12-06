@@ -18,14 +18,17 @@ Day 1 Handouts
 - [Exercise 1.2.2 handout](/workshops/dec2017/exercises_1_2_curse_of_dim.pdf)
 
 Day 2 Handouts
-- [Slides 2](/workshops/dec2017/class-2.pdf)
 
+- [Slides 2](/workshops/dec2017/class-2.pdf)
+- [Exercise 2.1 slides](/workshops/dec2017/exercises_2_1_model_checking_shinystan.html)
+- [Exercise 2.1 stan model](/workshops/dec2017/lm.stan)
+- [Exercise 2.1 workflow](/workshops/dec2017/exercises_2_1_workflow_shinystan.R)
 - [Exercise 2.2](/workshops/dec2017/2.2.zip)
 - [Exercise 2.2 slides](/workshops/dec2017/2.2.slides.html)
 
 Day 3 Handouts
+- [Slides 3](/workshops/dec2017/class-3.pdf)
 - [Exercise 3.1](/workshops/dec2017/3.1.zip)
 - [Exercise 3.1 slides](/workshops/dec2017/3.1.slides.html)
-
 
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
