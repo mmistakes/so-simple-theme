@@ -28,6 +28,7 @@ Day 2 Handouts
 
 Day 3 Handouts
 - [Slides 3](/workshops/dec2017/class-3.pdf)
+- [Slides 4](/workshops/dec2017/class-4.pdf)
 - [Exercise 3.1](/workshops/dec2017/3.1.zip)
 - [Exercise 3.1 slides](/workshops/dec2017/3.1.slides.html)
 
