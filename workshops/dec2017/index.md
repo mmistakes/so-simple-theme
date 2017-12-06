@@ -20,7 +20,7 @@ Day 1 Handouts
 Day 2 Handouts
 
 - [Slides 2](/workshops/dec2017/class-2.pdf)
-- [Exercise 2.1.1 slides](/workshops/dec2017/exercises_2_1_curse_of_dim.html)
+- [Exercise 2.1.1 slides](/workshops/dec2017/exercises_2_1_model_checking_shinystan.html)
 - [Exercise 2.1.1 stan model](/workshops/dec2017/lm.stan)
 - [Exercise 2.1.1 workflow](/workshops/dec2017/exercises_2_1_workflow_sinystan.R)
 - [Exercise 2.2](/workshops/dec2017/2.2.zip)
