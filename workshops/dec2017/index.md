@@ -25,10 +25,11 @@ Day 2 Handouts
 - [Exercise 2.1 workflow](/workshops/dec2017/exercises_2_1_workflow_shinystan.R)
 - [Exercise 2.2](/workshops/dec2017/2.2.zip)
 - [Exercise 2.2 slides](/workshops/dec2017/2.2.slides.html)
-
-Day 3 Handouts
 - [Slides 3](/workshops/dec2017/class-3.pdf)
 - [Slides 4](/workshops/dec2017/class-4.pdf)
+- [Slides 5](/workshops/dec2017/class-3.pdf)
+
+Day 3 Handouts
 - [Exercise 3.1](/workshops/dec2017/3.1.zip)
 - [Exercise 3.1 slides](/workshops/dec2017/3.1.slides.html)
 
