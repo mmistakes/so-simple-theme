@@ -83,6 +83,6 @@ You can download the binary files for your distribution from CRAN. Or you can us
 - 12:00 - 13:00 LUNCH
 - 13:00 - 16:00 [Introduction to Bioconductor](https://bioinformatics-core-shared-training.github.io/bioc-introduction/bioc-intro.nb.html)
 
-## Registration is open now
-Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r-and-bioconductor) Fees for the course are £60.
+## Registration 
 
+Registration is now closed. Please (check back)[http://sbc.shef.ac.uk//training/] for future dates
