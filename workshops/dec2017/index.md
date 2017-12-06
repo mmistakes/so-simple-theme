@@ -9,7 +9,7 @@ image:
 
 Day 1 Handouts
 
-- [Slides, day 1](/workshops/dec2017/class-1.pdf)
+- [Slides 1](/workshops/dec2017/class-1.pdf)
 - [Exercise 1.1](/workshops/dec2017/1.1.zip)
 - [Exercise 1.1 slides](/workshops/dec2017/1.1.slides.html)
 - [Exercise 1.2.1 slides](/workshops/dec2017/exercises_1_2_MC_simulation.html)
@@ -19,11 +19,11 @@ Day 1 Handouts
 
 Day 2 Handouts
 
+- [Slides 2](/workshops/dec2017/class-2.pdf)
 - [Exercise 2.1.1 slides](/workshops/dec2017/exercises_2_1_curse_of_dim.html)
 - [Exercise 2.1.1 stan model](/workshops/dec2017/lm.stan)
 - [Exercise 2.1.1 workflow](/workshops/dec2017/exercises_2_1_workflow_sinystan.R)
-
-
-
+- [Exercise 2.2](/workshops/dec2017/2.2.zip)
+- [Exercise 2.2 slides](/workshops/dec2017/2.2.slides.html)
 
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
