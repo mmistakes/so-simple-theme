@@ -26,4 +26,6 @@ Day 2 Handouts
 - [Exercise 2.2](/workshops/dec2017/2.2.zip)
 - [Exercise 2.2 slides](/workshops/dec2017/2.2.slides.html)
 
+- [Slides 3](/workshops/dec2017/class-3.pdf)
+
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
