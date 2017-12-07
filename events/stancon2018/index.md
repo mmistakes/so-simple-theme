@@ -204,17 +204,17 @@ Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
 
 Going to be a pressure cooker folks. Subject to change without notice. 
 
-##Wednesday, Jan 10
+## Wednesday, Jan 10
 
-###Tutorials/Classes
+### Tutorials/Classes
 
 * 8-10am [**Intro To Stan day 1**](#intro)
 * 8-9am [Bayesian Decision Making for Executives and Those who Communicate with Them](#exec)
 * 9-10am [Advanced Modeling in Stan](#advanced)
 
-##Thursday, Jan 11
+## Thursday, Jan 11
 
-###Tutorials/Classes
+### Tutorials/Classes
 
 * 8am-10am [Intro To Stan day 2](#classes)
 * 9am-10am [How to develop for Stan at the C++ level:](#develop) 
