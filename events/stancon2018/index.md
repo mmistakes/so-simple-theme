@@ -37,12 +37,21 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 
 Thanks to these fine folks for sponsoring StanCon2018
 
+<center style="padding: 0.75em 0 0 0">
+<a href="http://research.fb.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/Facebook-06-2015-White-on-Blue.png" /></a>
+</center> 
+
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.generable.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/generable_word_logo.png" /></a>
+</center> 
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.jumpingrivers.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/colorJR.png" /></a>
 </center> 
 
 Jumping Rivers is teaching a [Stan class](https://www.jumpingrivers.com/courses/13_introductions-to-bayesian-inference-using-rstan?utm_source=stancon2018&utm_medium=course) Dec 7, Dec 8 at Newcastle University, Newcastle Upon Tyne in the UK. 
+
+
 
 	
 ------
@@ -145,13 +154,12 @@ Here are the important dates for StanCon 2018.
 | Jan 10-12, 2018 | Stan Conference!!! |
 
 
-# [Speakers and Schedule](#speakers-and-schedule)
+# [Schedule](#speakers-and-schedule)
 
-## Invited speakers!
+<!--## Invited speakers!
 
 * Andrew Gelman <br> Department of Statistics and Political Science, Columbia University (Most Likely Virtual)
 * Susan Holmes <br>Department of Statistics, Stanford University
-* Frank Harrell <br>School of Medicine and Department of Biostatistics, Vanderbilt University
 * Sophia Rabe-Hesketh and Daniel Furr<br> Educational Statistics and Biostatistics, University of California, Berkeley
 * Sean Taylor and Ben Letham <br>Facebook Core Data Science
 * Manuel Rivas <br>Department of Biomedical Data Science, Stanford University
@@ -190,25 +198,39 @@ Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
 * ScalaStan. Joe Wingbermuehle
 
 * A brief history of Stan. Daniel Lee
+*  Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez
 
+-->
 
-## Schedule
+Going to be a pressure cooker folks. Subject to change without notice. 
 
-We are still working on the schedule but the rough shape of the days will be 8-10am tutorials, 10am - 5 pm main session with breaks/lunch followed by a reception and dinner. After dinner activities start at 8pm. 
+##Wednesday, Jan 10
 
-Friday we will end the conference at 3pm to allow for travel to airports.
+###Tutorials/Classes
+
+* 8-10am [**Intro To Stan day 1**](#intro)
+* 8-9am [Bayesian Decision Making for Executives and Those who Communicate with Them](#exec)
+* 9-10am [Advanced Modeling in Stan](#advanced)
+
+##Thursday, Jan 11
+
+###Tutorials/Classes
+
+* 8am-10am [Intro To Stan day 2](#classes)
+* 9am-10am [How to develop for Stan at the C++ level:](#develop) 
+
 
 # [Classes/Tutorials](#classes)
 
 We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other:
 
-- Introduction to Stan: Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris. 
+- [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris. 
 
-- Executive decision making the Bayesian way: This is for non-techinical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
+- [Executive decision making the Bayesian way:](#exec) This is for non-techinical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
 
-- Advanced Modeling in Stan: The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich. 
+- [Advanced Modeling in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich. 
 
-- How to develop for Stan at the C++ level. Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
+- [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
 
 
 # [Actvities](#activities)
