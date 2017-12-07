@@ -86,3 +86,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 ## Registration 
 
 Registration is now closed. Please (check back)[http://sbc.shef.ac.uk//training/] for future dates
+
+## References
+
+- [Data Carpentry Spreadsheet Formatting Lessions](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
