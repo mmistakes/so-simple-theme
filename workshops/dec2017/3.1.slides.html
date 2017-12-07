@@ -593,7 +593,8 @@ ggplot(sdf, aes(V10)) + geom_histogram(bins=50) + geom_vline(xintercept = df$log
 
 <ul>
 <li>County uranium levels available</li>
-<li>\(y_i \sim ~ \mathcal{N}(\alpha_{j[i]} + \beta_{j[i]} x_i + \gamma u_j, \, \sigma)\)</li>
+<li>Let&#39;s get rid of the per-county floor.measure coefficient for simplicity</li>
+<li>\(y_i \sim ~ \mathcal{N}(\alpha_{j[i]} + \beta x_i + \gamma u_j, \, \sigma)\)</li>
 <li>Add <code>vector[N] u;</code> to your data block</li>
 <li>Pass in <code>u = df$uranium</code> in your call to <code>sampling</code> like the rest of the data</li>
 <li>Note that the model has both indicator variables for each county, plus a county-level covariate. In classical regression, this would result in collinearity. In a multilevel model, the partial pooling of the intercepts towards the expected value of the group-level linear model avoids this.</li>
