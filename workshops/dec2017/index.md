@@ -32,5 +32,9 @@ Day 2 Handouts
 Day 3 Handouts
 - [Exercise 3.1](/workshops/dec2017/3.1.zip)
 - [Exercise 3.1 slides](/workshops/dec2017/3.1.slides.html)
+- [Spatial models - Slides](/workshops/dec2017/spatial_smoothing_icar.html)
+- [Spatial models - ICAR prior model](/workshops/dec2017/icar_prior.stan)
+- [Spatial models - Poisson + ICAR model](/workshops/dec2017/icar_poisson_glm.prior.stan)
+
 
 [Anonymous feedback](https://goo.gl/forms/yrcMKP9VKsAQF4JS2)
