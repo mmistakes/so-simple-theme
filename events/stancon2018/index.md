@@ -208,23 +208,28 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Tutorials/Classes 8-10am
 
-* 8-10 am [Intro To Stan day 1](#intro)
+* 8-10 am [Intro To Stan session 1](#intro)
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them](#exec)
 * 9-10 am [Advanced Hierarchical Models](#advanced)
-* [How to develop for Stan at the C++ level]()
 
-###Break 10-10:40am
-* Invited Talk: Sophia Rabe-Hesketh and Daniel Furr 10:40-11:30am 
+### Break 10-10:40am
+
+### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr 10:40-11:30am 
+
 * Does the New York City Police Department rely on quotas? Jonathan Auerbach 11:30-11:50am
 * Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold 11:50am-12:10pm
 * Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe 12:10-12:30pm
-###Lunch 12:30-2pm
+
+### Lunch 12:30-2pm
+
 * ScalaStan. Joe Wingbermuehle 2:00-2:20pm
 * A tutorial on Hidden Markov Models using Stan. Luis Damiano 2:20-2:40pm
 * Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman 2:40-3:00pm
 * SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton 3:00-3:20pm
+
 ### Break 3:20-4:00pm
-* Invited Talk: Talia Wiess 4:00-4:50pm
+
+### Invited Talk: Talia Wiess 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -238,11 +243,59 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Tutorials/Classes
 
-* 8am-10am [Intro To Stan day 2](#classes)
+* 8am-10am [Intro To Stan session 2](#classes)
 * 8-9 am [Gaussian Processes]()
 * 9-10 am [Have I converged successfully? How to verify fit and diagnose fit problems]()
 
+### Break 10-10:40am
 
+### Invited Talk: Sean Taylor and Ben Letham 10:40-11:30am 
+
+* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio 11:30-11:50am
+* BIntroducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec 11:50am-12:10pm
+* A brief history of Stan. Daniel Lee 12:10-12:30pm
+
+### Lunch 12:30-1:30pm
+
+* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian 1:30-1:50pm
+* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington 1:50-2:10pm
+
+### Modeling/Data Session + Classes 2:10-4:10pm 
+
+* Open session for consultations on modeling and data problems with Stan developers and modelers. 2:10-4:10pm
+* Session 3 of Intro to Stan 2:10-4:10pm
+* What is new to Stan 3:30-4:10pm
+* How to develop for Stan C++ 2:10-3:10
+
+### Invited Talk: Manual Rivas 4:00-4:50pm
+
+### Reception 5:00-6:30pm
+
+### Dinner 6:30-8pm
+
+### After Dinner 8-10pm
+* Non-snobby Blind Wine Tasting
+
+## Friday, Jan 12
+
+### Tutorials/Classes
+
+* 8am-10am [Intro To Stan session 4](#classes)
+
+### Break 10-10:40am
+
+### Invited Talk: Susan Holmes 10:40-11:30am 
+
+* Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am
+* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson 11:50am-12:10pm
+* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips 12:10-12:30pm
+
+### Lunch 12:30-1:30pm
+
+* Causal inference with the g-formula in Stan. Leah Comment 1:30-1:50pm
+* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez 1:50-2:10pm
+
+### Invited Talk: Andrew Gelman 2:10-3:00 (virtual)
 
 # [Classes/Tutorials](#classes)
 
