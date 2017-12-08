@@ -1,0 +1,801 @@
+---
+title: "R and Bioconductor Introduction"
+author: "Mark Dunning"
+date: '`r format(Sys.time(), "Last modified: %d %b %Y")`'
+output: 
+  html_notebook: 
+    toc: yes
+    toc_float: yes
+---
+
+# Preamble
+
+If you haven't done so already, you can check out our [R crash course](https://bioinformatics-core-shared-training.github.io/r-crash-course/) for an overview of why R is great and some of the basic syntax. Here are some great examples of people that have used R to do cool stuff with data
+
+- [Facebook](http://blog.revolutionanalytics.com/2010/12/analysis-of-facebook-status-updates.html),
+- [google](http://blog.revolutionanalytics.com/2009/05/google-using-r-to-analyze-effectiveness-of-tv-ads.html),
+- [Microsoft](http://blog.revolutionanalytics.com/2014/05/microsoft-uses-r-for-xbox-matchmaking.html) (who recently [invested](http://blogs.microsoft.com/blog/2015/01/23/microsoft-acquire-revolution-analytics-help-customers-find-big-data-value-advanced-statistical-analysis/) in a commerical provider of R)
+- The [New York Times](http://blog.revolutionanalytics.com/2011/03/how-the-new-york-times-uses-r-for-data-visualization.html).
+- [Buzzfeed](http://blog.revolutionanalytics.com/2015/12/buzzfeed-uses-r-for-data-journalism.html) use R for some of their serious articles and have made the code [publically available](https://buzzfeednews.github.io/2016-04-federal-surveillance-planes/analysis.html)
+- The [New Zealand Tourist Board](https://mbienz.shinyapps.io/tourism_dashboard_prod/) have R running in the background of their website
+- [Airbnb](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d)
+- [The BBC](https://github.com/BBC-Data-Unit/music-festivals) makes code available for some of their stories (e.g. gender bias in music festivals)
+
+R's role in promoting reproducible research cannot be overstated.
+
+![](https://raw.githubusercontent.com/bioinformatics-core-shared-training/cruk-autumn-school-2017/master/Introduction/images/rep-research-nyt.png)
+
+Two Biostatiscians (later termed '*Forensic Bioinformaticians*') from M.D. Anderson used R extensively during their re-analysis and investigation of a Clinical Prognostication paper from Duke. The subsequent [scandal](https://www.youtube.com/watch?v=W5sZTNPMQRM) put Reproducible Research at the forefront of everyone's mind.
+
+Keith Baggerly's talk on the subject is highly-recommended.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/7gYIs7uYbMo" frameborder="0" allowfullscreen></iframe>
+
+## About the practicals for this workshop
+
+- The traditional way to enter R commands is via the Terminal, or using the console in RStudio (bottom-left panel when RStudio opens for first time).
+- However, for this course we will use a relatively new feature called *R-notebooks*.
+- An R-notebook mixes plain text with R code
+    + we use the terms notebook and markdown interchangeably; they are pretty much the same thing
+
+*Markdown* is a very simple way of writing a template to produce a pdf, HTML or word document. The compiled version of this document is available online and is more convenient to browse [here](https://bioinformatics-core-shared-training.github.io/cruk-autumn-school-2017/Day1/bioc-intro.nb.html).
+
+- "chunks" of R code can be added using the *insert* option from the toolbar, or the CTRL + ALT + I shortcut
+- Each line of R can be executed by clicking on the line and pressing CTRL and ENTER
+- Or you can press the green triangle on the right-hand side to run everything in the chunk
+- Try this now!
+- The code might have different options which dictate how the output is displayed in the compiled document (e.g. HTML)
+    + e.g. you might see `EVAL = FALSE` or `echo = FALSE`
+    + you don't have to worry about this if stepping through the markdown interactively
+
+```{r}
+print("Hello World")
+
+```
+
+*This will be displayed in italic*
+
+**This will be displayed in bold**
+
+
+- this 
+- is 
+- a 
+- list
+    + this is a *sub-list*
+
+You can also add hyperlinks, images and tables. More help is available through RStudio **Help -> Markdown Quick Reference**
+
+To create markdown files for your own analysis; File -> New File -> R Markdown...
+
+
+# About the Bioconductor project
+
+![](http://bioconductor.org/images/logo_bioconductor.gif)
+
+
+Established in 2001 as a means of distributing tools for the analysis and comprehension of high-throughput genomic data in R. Initially focused on microarrays, but now has many tools for NGS data
+
+- primary processing of NGS data nearly-always done in other languages
+    + R is extensively-used for visualisation and interpretation once data are in manageable form
+
+On the [Bioconductor website](www.bioconductor.org), you will find
+
+- Installation instructions
+- [Course Materials](http://bioconductor.org/help/course-materials/)
+- [Support forum](https://support.bioconductor.org/)
+    + a means of communicating with developers and power-users
+- [Example datasets](http://bioconductor.org/packages/release/BiocViews.html#___ExperimentData)
+- [Annotation Resources](http://bioconductor.org/packages/release/BiocViews.html#___AnnotationData)
+- Conferences
+    + upcoming conference in Cambridge - [December 2017](https://bioconductor.github.io/EuroBioc2017/)
+    
+
+For this session, we will introduce the Bioconductor project as a means of analysing high-throughput data
+
+## Installing a package
+
+All Bioconductor software packages are listed under
+
+- bioconductor.org -> Install -> Packages -> Analysis *software* packages
+- e.g. [edgeR landing page](http://bioconductor.org/packages/release/bioc/html/edgeR.html)
+- installation instructions are given, which involves running the `biocLite` command
+  + this will install any additional dependancies
+- you only need to run this procedure once for each version of R
+
+```{r eval=FALSE}
+## You don't need to run this, edgeR should already be installed for the course
+source("http://www.bioconductor.org/biocLite.R")
+biocLite("edgeR")
+```
+
+Once installed, a Bioconductor package can be loaded in the usual way with the `library` function. All packages are required to have a *vignette* which gives detailed instructions on how to use the package and the workflow of commands. Some packages such as `edgeR` have very comprehensive *user guides* with lots of use-cases.
+
+```{r message=FALSE,eval=FALSE}
+library(edgeR)
+vignette("edgeR")
+edgeRUsersGuide()
+```
+
+Package documentation can also be accessed via the *Help* tab in RStudio.
+
+## Structures for data analysis
+
+Complex data structures are used in Bioconductor to represent high-throughput data, but we often have simple functions that we can use to access the data. We will use some example data available through Bioconductor to demonstrate how high-throughput data can be represented, and also to review some basic concepts in data manipulation in R.
+
+- the data are from a *microarray* experiment. We will be concentrating on more-modern technologies in this class, but most of the R techniques required will be similar
+- [experimental data](http://bioconductor.org/packages/release/BiocViews.html#___ExperimentData) packages are available through Bioconductor, and can be installed in the way we just described
+  + the package should already be installed on your computer, so you won't need to run this.
+
+```{r eval=FALSE}
+## No need to run this - for reference only!
+##
+source("http://www.bioconductor.org/biocLite.R")
+biocLite("breastCancerVDX")
+bioc
+```
+
+To make the dataset accessible in R, we first need to load the package. If we navigate to the documentation for `breastCancerVDX` in RStudio, we find that it provides an object called `vdx` which we load into R's memory using the `data` function.
+
+```{r message=FALSE}
+library(breastCancerVDX)
+data(vdx)
+biocLite("Biobase")
+```
+
+The object `vdx` is a representation of breast cancer dataset that has been converted for use with standard Bioconductor tools. The package authors don't envisage that we will want to view the entire dataset at once, so have provided a number of ways to interact with the data
+
+- typing the name of the object provides a summary
+    + how many genes in the dataset, how many samples etc
+    
+```{r}
+vdx
+```
+
+
+## Accessing expression values
+
+The expression values can be obtained by the `exprs` function:-
+
+- remember, `<-` is used for assignment to create a new variable
+- the data are stored in a `matrix` in R
+    + it is a good idea to check the dimensions using `dim`, `ncol`, `nrow` etc
+    
+```{r}
+eValues <- exprs(vdx)
+class(eValues)
+dim(eValues)
+ncol(eValues)
+nrow(eValues)
+
+
+```
+
+
+- the rownames are the manufacturer-assigned ID for a particular probe
+- the column names are the identifiers for each patient in the study
+- each entry is a *normalised* log$_2$ intensity value for a particular gene in a given sample
+    + we won't talk about normalisation here, but basicallly the data have been processed to eliminate technical variation
+- subsetting a matrix is done using the `[row, column]` notation
+    + the function `c` is used to make a one-dimensional *vector*
+    + the shortcut `:` can used to stand for a sequence of consecutive numbers
+  
+```{r}
+eValues[c(1,2,3),c(1,2,3,4)]
+eValues[1:3,1:4]
+
+
+```
+
+- we can also omit certain rows or columns from the output by prefixing the indices with a `-`
+
+```{r eval=FALSE}
+eValues[1:3,-(1:4)]
+
+```
+
+## Simple visualisations
+
+The most basic plotting function in R is `plot`
+
+- using the `plot` function with a vector will plot the values of that vector against the index
+    + what do you think is displayed in the plot below?
+
+```{r}
+plot(eValues[1,],col="red",pch=16)
+
+## Various aspects of the plot can be controlled by specifying additional arguments
+
+
+```
+
+
+
+- one possible use is to compare the values in a vector with respect to a given factor
+- but we don't know the clinical variables in our dataset yet (to come later)
+- a boxplot can also accept a matrix or data frame as an argument
+- what do you think the following plot shows?
+
+```{r fig.width=12}
+dim(eValues)
+boxplot(eValues,outline=FALSE)
+
+
+
+```
+
+
+## Accessing patient data
+
+The *metadata*, or phenotypic data, for the samples is retrieved using the `pData` function.
+
+```{r}
+metadata <- pData(vdx)
+metadata
+```
+
+
+- indivdual columns can be accessed using the `$` notation. 
+- *auto-complete* is available in RStudio; once you type the `$`it should give you a list of possible options.
+- the data are returned as a *vector*, which can be fed-into other standard plotting and analysis functions 
+
+```{r eval=FALSE}
+metadata$age
+metadata$samplename
+
+
+```
+
+
+******
+******
+******
+
+
+## Exercise
+
+
+- visualise the distribution of the patient ages using a histogram
+- calculate the average age of patients in the study with the `mean` function
+    + what do you notice about the result?
+    + can you change the arguments to mean to get a more meaningful result
+
+******
+******
+******
+
+
+```{r}
+hist(metadata$age)
+mean(metadata$age,na.rm=TRUE)
+
+```
+
+
+
+
+So far we have been able to print out a subset of our data by specifying a set of numeric indices (e.g. first 10 rows etc). Lets say we're interested in high-grade tumours, in which case we might not know in advance which rows these correspond to
+
+- `==` `>`, `<`, `!=` can used to make a *logical comparison*
+- result is a `TRUE` or `FALSE` indicating whether each entry satisfies the test condition, or not.
+    + however, if a particular entry in the vector is `NA` the resulting logical vector will have `NA` at the same positions
+
+```{r eval=FALSE}
+
+metadata$grade == 3
+metadata$age > 50
+
+```
+
+Such a logical vector can then be used for subsetting
+
+- `which` can be used to make sure there are no `NA` values in the logical vectors
+    + it gives the numeric indices that correspond to `TRUE`
+- here, we don't specify any column indices inside the `[]`
+    + R will print all the columns
+    + however, don't forget the ,!
+    + if you do, R will still try and do something. It almost certainly be what you expected
+
+```{r}
+metadata$grade == 3
+metadata[which(metadata$grade == 3),]
+
+
+```
+
+Can use same expression to subset the columns of the expression matrix
+
+- why can we do this? Because the *columns* of the expression matrix are in the same order as the *rows* of the metadata
+    + don't believe me? see below...
+- this isn't a coincidence. the data have been carefully curated to ensure that this is the case
+- data stored in online repositories are often organised in this way
+
+```{r eval=FALSE}
+colnames(eValues)
+rownames(metadata)
+metadata[1,]
+colnames(eValues) == rownames(metadata)
+all(colnames(eValues) == rownames(metadata))
+```
+
+- we can subset the expression data according to our clinical data, and save the result to a file
+
+```{r eval=FALSE}
+highGradeExpression <- eValues[,which(metadata$grade==3)]
+dim(highGradeExpression)
+write.csv(highGradeExpression, file="highGradeTumours.csv")
+
+```
+
+- in fact, we can subset the entire `vdx` object by sample subsets if we wish
+
+```{r}
+
+vdx[,metadata$grade==3]
+
+```
+
+
+Previously, we used a boxplot to visualise the expression levels of all genes in a given sample to look for trends across the dataset. Another use for a boxplot is to visualise the expression level of a particular gene with respect to the sample metadata
+
+- we can extract the column of interest with a `$` and use the *formula* syntax
+    + `table` in this case will tell us how many observations of each category are present
+- R will be clever and convert the factor into a `factor` type if required
+
+```{r}
+
+plot(eValues[1,])
+
+fac <- metadata$er
+table(fac)
+boxplot(eValues[1,] ~ fac,
+        xlab="ER Status",
+        ylab="Expression Level",
+        col=c("steelblue","goldenrod"))
+```
+
+Performing a test to assess significance follows similar syntax
+
+- `t.test` is the generic function to perform a t-test, and can be adapted to different circumstances
+    + e.g. if our data are paired, or not
+    + see the help for `t.test` for more details
+- for now, we will gloss over testing assumptions on the data such as requiring a *normal* (Gaussian) distribtion and multiple testing correction
+    
+
+```{r}
+t.test(eValues[1,]~fac)
+```
+
+## Accessing feature (gene) information 
+
+We could be lucky, and the first row in the expression matrix could be our favourite gene of interest! However, this is unlikely to be the case and we will have to figure out which row we want to plot
+
+- we can use another aspect of the `nki` object; the *feature data*
+- there is a handy `fData` function to access these data
+- again, this gives us a *data frame*
+- this is a pre-built table supplied with the dataset
+    + later in the course we will look at using online services and databases for annotation and converting between identifiers
+
+```{r}
+
+features <- fData(vdx)
+class(features)
+features[1:10,]
+
+```
+
+As we know, gene symbols (more-common gene names) can be accessed using the `$` syntax; returning a vector
+
+```{r eval=FALSE}
+features$Gene.symbol
+```
+
+We could inspect the data frame manually (e.g. using `View(features)`) and identfy the row number corresponding to our gene of interest. However, as aspiring R programmers, there is a better way
+
+- `==` to test for exact matching
+- `match` will return the *index* of the first match
+- `grep` can be used for partial matches
+- each of the above will give an *vector* that can be used to subset the expression values
+
+```{r}
+which(features$Gene.symbol == "BRCA1")
+features[4058,]
+match("BRCA1",features$Gene.symbol)
+grep("BRCA1",features$Gene.symbol)
+grep("BRCA",features$Gene.symbol)
+
+
+```
+
+
+******
+******
+******
+
+
+## Exercise
+
+- Verify that the rows of the feature matrix and the expression values are in the same order
+- Find the row corresponding to your favourite gene
+    + if you don't have one, try `ESR1`
+    + if you find multiple matches, pick the first one that occurs
+- Does the expression level of this gene appear to be associated with the ER status?
+
+******
+******
+******
+
+```{r}
+eValues
+fac
+myGene <- which(features$Gene.symbol == "ESR1")[1]
+boxplot(eValues[myGene,] ~ fac)
+
+```
+
+
+## Testing all genes for significance
+
+Later in the course we will see how to execute a *differential expression* analysis for RNA-seq data, and discuss some of the issues surrounding this. For now we will perform a simple two-sample t-test for all genes in our study, and derive a results table
+
+- firstly, we load the `genefilter` package which has a very convenient function for performing many t tests in parallel
+- `rowttests` will run a t-test for each row in a given matrix and produce an output table
+    + `statistic`; test statistic
+    + `dm`; difference in means
+    + `p.value`; the p-value
+- `rowttests` expects a *factor* as the second argument, so we have to use `as.factor`
+    + as usual, we can get help by doing `?rowttests`
+    
+```{r}
+library(genefilter)
+tstats <- rowttests(eValues, as.factor(metadata$er))
+which(is.na(eValues[1,]))
+head(tstats)
+hist(tstats$statistic)
+
+```
+
+The rows are ordered in the same way as the input matrix
+
+- to change this to increasing significance we can use the `order` function
+- when given a vector, `order` will return a vector of the same length giving the permutation that rearranges that vector into ascending or descending order
+    + how can we find out what the default way of ordering is?
+
+```{r}
+
+x <- c(9, 3, 4, 2, 1, 6,5, 10,8,7)
+x
+order(x)
+x[order(x)]
+```
+
+- so if we want to order by p-value we first use order on the p-value vector
+- this can then be used to re-arrange the rows of the table
+
+```{r}
+tstats[order(tstats$p.value,decreasing = FALSE),]
+
+```
+
+- note that we could save the result of `order` as a variable and then use in the subsetting
+    + either is fine, it's a matter of personal preference
+
+```{r}
+p.order <- order(tstats$p.value,decreasing = FALSE)
+tstats[p.order,]
+
+  
+```
+
+
+However, the table we get isn't immediately useful unless we can recognise the manufacturer probe IDs
+
+- to provide extra annotation to the table, we can *column bind* (`cbind`) the columns of test statistic with those from the feature matrix
+- be careful though, we can only do this in cases where the rows are in direct correspondence
+
+
+```{r}
+all(rownames(tstats) == rownames(features))
+
+tstats.annotated <- cbind(tstats, features[,c("Gene.symbol","EntrezGene.ID","Chromosome.location")])
+tstats.annotated                        
+```
+
+Now when we order by p-value, the extra columns that we just added allow us to interpret the results more easily
+
+```{r}
+tstats.ordered <- tstats.annotated[order(tstats$p.value,decreasing = FALSE),]
+tstats.ordered
+
+```
+
+We can also query this table to look for our favourite genes of interest
+
+- `%in%` is a simplified way to perform matches to multiple items in a vector
+
+```{r}
+
+tstats.ordered[grep("ESR1",tstats.ordered$Gene.symbol),]
+tstats.ordered[tstats.ordered$Gene.symbol %in% c("ESR1","GATA3","FOXA1"),]
+
+
+```
+
+
+
+******
+******
+******
+
+
+## Exercise
+
+- From the annotated table above, select all genes with p-values less than 0.05
+- Write this data frame as a `csv` file
+- (OPTIONAL) Use the `p.adjust` to produce a vector of p-values that are adjusted. Add this as an extra column to your table of results and write as a file
+
+******
+******
+******
+
+```{r}
+
+
+```
+
+
+# More advanced visualisation
+
+## Clustering
+
+
+
+- Clustering leads to readily interpretable figures and can be helpful for identifying patterns in time or space.
+- it is known as an *unsupervised*
+  + classes unknown, want to discover them from the data
+  + although we can compare to the classes we know about afterwards
+- We can cluster samples (columns)
+    + e.g. identification of new / unknown tumor classes using gene expression profiles
+- We can cluster genes (rows)
+    + e.g. using large numbers of yeast experiments to identify groups of co-regulated genes
+- we can cluster genes to reduce redundancy (i.e. variable selection) in predictive models
+- it has been used to good effect for many years 
+
+![](https://raw.githubusercontent.com/bioinformatics-core-shared-training/microarray-analysis/master/images/perou.png)
+
+The procedure is 
+
+- Preprocess the data
+- Choose a dissimilarity measure
+- Calculate a distance matrix
+- Choose a cluster algorithm
+- Cluster the samples
+- Visualise
+
+Fortunately, there are easy to use functions for calculating the distance matrix (`dist`) and performing the clustering (`hclust`). The tricky part is choosing the correct subset of the data and interpreting the results
+
+- if you look at the help for `dist` (`?dist`) you will see that it takes a numeric matrix as its argument
+- how you define this matrix is up to you...
+- also notice that it computes distances between the ***rows*** of the data matrix
+- the most common application of clustering is to discover relationships between *samples* in our dataset
+- which are the matrix *columns* in our case
+- so we need to *transpose* our expression values before using this function
+    
+```{r}
+?dist
+distMat <- dist(t(eValues))
+
+
+```
+
+
+
+
+```{r}
+clust <- hclust(distMat)
+plot(clust)
+```
+
+We can see which samples are grouped together by cutting the tree at a particular height, or to give a pre-determined number of groups
+
+```{r echo=FALSE}
+hca <- hclust(distMat)
+plot(hca)
+rect.hclust(hca,h=250)
+```
+
+
+
+```{r}
+cutree(hclust(distMat), h=250)
+cutree(hclust(distMat), k=2)
+```
+
+******
+******
+******
+
+
+## Exercise
+
+- How many groups are formed if we cut the tree at a height of 250?
+- How many samples are in each group
+- Create a data frame containing the meta data for the samples belonging to the largest group
+
+```{r echo=FALSE}
+
+```
+
+
+
+******
+******
+******
+
+
+
+
+There are two very important points to consider when performing clustering
+
+- it will always do *something*; it can never not work
+- distance between samples is given on the y axis, not the x-axis
+  + just because two samples are next to each other on the x-axis does not mean they are similar
+  + think of a mobile in a child's nursery...
+
+![](https://raw.githubusercontent.com/bioinformatics-core-shared-training/microarray-analysis/master/images/stock-illustration-64779351-hanging-baby-mobile-sculpture-stars-and-moon-drawing.jpg)
+
+## Heatmaps
+
+Perhaps a more common way of displaying a heatmap is as part of a heatmap which shows the relationship between both genes and samples
+
+But first we need to restrict the genes
+
+- we can't display all 30,000 genes in one picture
+- to do this we pick the genes with the the lowest p-value from our previous analysis
+
+```{r}
+mostDE <- order(tstats$p.value,decreasing = FALSE)[1:30]
+```
+
+Let's just go ahead and run the function `heatmap`
+
+```{r}
+heatmap(eValues[mostDE,])
+```
+
+Cool! There seems to be some kind of structure to the data. However, the plot is a little ugly. Fortunately there are plenty of options in the function that we can use to tweak the plot (`?heatmap`)
+
+- we can specify a block of colour to go underneath each sample to indicate if belong to the "*ER Positive*" or "*ER Negative*" group
+- this has to be a vector with the same length as the number of samples
+- we can build such a vector in two stages
+    + first repeating one colour (e.g. `blue`) for each samples
+    + then replacing entries corresponding to a particular sample type with a different colour
+
+```{r}
+sampColours <- rep("blue",ncol(eValues))
+sampColours[metadata$er == 0 ] <- "yellow"
+heatmap(eValues[mostDE,],
+        ColSideColors = sampColours)
+```
+
+The colour scheme for the cells in the heatmap can also be changed. The `RColorBrewer` package has a number of pre-defined palettes, several of which are suitable for those with colour-blindness (the commonly used red-green scale for heatmaps is clearly a bad choice).
+
+```{r}
+display.brewer.all(colorblindFriendly = TRUE)
+```
+
+A good choice for a heatmap is a palette which diverges from one extreme to another. If we use the `RdBu` palette, samples with lower gene expression will be shown in *red*
+
+- the function `brewer.pal` is used to create the palette with a certain number of colours
+
+```{r}
+library(RColorBrewer)
+rbPal <- brewer.pal(10, "RdBu")
+heatmap(eValues[mostDE,],
+        ColSideColors = sampColours,
+        col=rbPal)
+```
+
+
+******
+******
+******
+
+
+## Exercise
+
+- Modify the labels on the side of the heatmap so the gene names are displayed rather than probe names
+- You will need to check the help page of `heatmap` to see which argument needs to be specified to change the labels
+- (Optional) Can you remove the samples names on the bottom of the heatmap?
+
+```{r echo=FALSE}
+features[topVar,]
+heatmap(eValues[mostDE,],
+        ColSideColors = sampColours,
+        col=rbPal,
+        labRow = features$Gene.symbol[mostDE],
+        labCol="")
+```
+
+
+******
+******
+******
+
+Of course we should not be surprised that our heatmap showed good separation; we used genes that we previously found to be statistically different between samples.
+
+- the heatmap function requires a numeric matrix as its argument
+    + it doesn't really care how this matrix was generated
+- so it's your choice about what genes / samples are present in the matrix
+- 
+
+
+```{r}
+my.genes <- which(features$Chromosome.location=="8p12")
+my.genes
+heatmap(eValues[my.genes,],
+        ColSideColors = sampColours,
+        col=rbPal,
+        labRow = features$Gene.symbol[my.genes],
+        labCol="")
+
+```
+
+Or give a pre-defined list of genes
+
+```{r}
+
+my.genes <- features$Gene.symbol %in% c("CLIC6","TFF3","PDZK1","SCUBE2","CYP2B6","HOXB13","NAT1","LY6D","SLC7A2")
+
+heatmap(eValues[my.genes,])
+
+sampColours <- rep("blue",ncol(eValues))
+sampColours[metadata$er == 0 ] <- "yellow"
+
+heatmap(eValues[my.genes,],ColSideColors = sampColours)
+
+library(RColorBrewer)
+rbPal <- brewer.pal(10, "RdBu")
+
+
+heatmap(eValues[my.genes,],
+        ColSideColors = sampColours,
+        col=rbPal,
+        labCol="")
+
+
+```
+
+
+
+
+
+
+### (Optional) Downloading data from GEO
+
+For those that might be interested, here is an overview of the commands one might use to download data from the Gene Expression Omnibus. The `GEOquery` package is used and you have to know the *accession* number of the dataset that you want to analyse. Typically this would be stated in a publication in the form *GSE....*.
+
+```{r eval=FALSE}
+## If not installed already, install GEOquery with
+## source("http://www.bioconductor.org/biocLite.R")
+## biocLite("GEOquery")
+
+
+library(GEOquery)
+mydata <- getGEO("GSE1729")
+
+```
+
+The `mydata` object that is created is a list in R. This is used because some studies might involve data generated on different platforms, which have separate annotations.
+
+```{r}
+length(mydata)
+mydata <- mydata[[1]]
+mydata
+boxplot(exprs(mydata),outline=FALSE)
+```
+
+
+
+For more detailed information on microarrays, [see our course](http://bioinformatics-core-shared-training.github.io/microarray-analysis/)
+

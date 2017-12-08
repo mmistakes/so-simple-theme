@@ -1,0 +1,1179 @@
+---
+title: "R Crash Course"
+author: "Mark Dunning"
+date: '`r format(Sys.time(), "Last modified: %d %b %Y")`'
+output: 
+  html_notebook: 
+    toc: yes
+    toc_float: yes
+---
+
+
+# A short introduction to R
+
+## Outline
+
+In this session, we review some of the fundamentals of the R language. It should be a useful refresher prior to the intermediate-level [Data Analysis and Visualisation using R](http://bioinformatics-core-shared-training.github.io/r-intermediate/) course. 
+
+Topics covered include:- 
+
+- Creating variables
+- Using Functions
+- Vectors
+- Data frame
+- Subsetting data, the base R way
+- Plotting 
+- Statistical testing
+- How to get help
+
+For a more detailed introduction, we suggest the following ***free*** resources
+
+- [Solving Biological Problems with R](http://cambiotraining.github.io/r-intro/)
+- [Introduction to Data Science with R](http://shop.oreilly.com/product/0636920034834.do)
+- [Coursera course in R](http://blog.revolutionanalytics.com/2012/12/coursera-videos.html)
+- [Beginners Introduction to R Statistical Software](http://bitesizebio.com/webinar/20600/beginners-introduction-to-r-statistical-software/)
+- [R programming wiki](https://en.wikibooks.org/wiki/R_Programming)
+- [Quick R](http://www.statmethods.net/)
+
+# R basics
+
+## Advantages of R
+
+![](images/NYTimes_R_Article.png)
+
+The R programming language is now recognised beyond the academic community as an effect solution for data analysis and visualisation. [Notable users of R](http://www.revolutionanalytics.com/companies-using-r) include:- 
+
+- [Facebook](http://blog.revolutionanalytics.com/2010/12/analysis-of-facebook-status-updates.html),
+- [google](http://blog.revolutionanalytics.com/2009/05/google-using-r-to-analyze-effectiveness-of-tv-ads.html),
+- [Microsoft](http://blog.revolutionanalytics.com/2014/05/microsoft-uses-r-for-xbox-matchmaking.html) (who recently [invested](http://blogs.microsoft.com/blog/2015/01/23/microsoft-acquire-revolution-analytics-help-customers-find-big-data-value-advanced-statistical-analysis/) in a commerical provider of R)
+- The [New York Times](http://blog.revolutionanalytics.com/2011/03/how-the-new-york-times-uses-r-for-data-visualization.html).
+- [Buzzfeed](http://blog.revolutionanalytics.com/2015/12/buzzfeed-uses-r-for-data-journalism.html) use R for some of their serious articles and have made the code [publically available](https://buzzfeednews.github.io/2016-04-federal-surveillance-planes/analysis.html)
+- The [New Zealand Tourist Board](https://mbienz.shinyapps.io/tourism_dashboard_prod/) have R running in the background of their website
+- The BBC makes code available for some of their stories (e.g. [gender bias in music festivals](https://github.com/BBC-Data-Unit/music-festivals))
+- [Airbnb](https://medium.com/airbnb-engineering/using-r-packages-and-education-to-scale-data-science-at-airbnb-906faa58e12d)
+![](https://cdn-images-2.medium.com/max/1200/1*BTMbVFh_hziJJcaQ7TBRwg.png)
+
+## Key features
+
+- Open-source
+- Cross-platform
+- Access to existing visualisation / statistical tools
+- Flexibility
+- Visualisation and interactivity
+- Add-ons for many fields of research
+- Facilitating ***Reproducible Research***
+
+![duke-scandal](images/rep-research-nyt.png)
+
+Two Biostatiscians (later termed '*Forensic Bioinformaticians*') from M.D. Anderson used R extensively during their re-analysis and investigation of a Clinical Prognostication paper from Duke. The subsequent [scandal](https://www.youtube.com/watch?v=W5sZTNPMQRM) put Reproducible Research at the forefront of everyone's mind.
+
+Keith Baggerly's talk on the subject is highy-recommended.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/7gYIs7uYbMo" frameborder="0" allowfullscreen></iframe>
+
+## Support for R
+
+- Online forums such as [Stack Overflow](http://stackoverflow.com/questions/tagged/r) regularly feature R
+- [Blogs](http://www.r-bloggers.com/)
+- Local [user groups](http://blog.revolutionanalytics.com/local-r-groups.html) 
+- Documentation via `?` or `help.start()`
+- Documentation for packages is found via the Packages tab in the bottom-right of RStudio.
+
+
+
+
+![](images/logo_bioconductor.png)
+
+-  Packages analyse all kinds of Genomic data (>800)
+- Compulsory documentation (*vignettes*) for each package
+- 6-month release cycle
+- [Course Materials](http://bioconductor.org/help/course-materials/)
+- [Example data](http://bioconductor.org/packages/release/BiocViews.html#___ExperimentData) and [workflows](http://bioconductor.org/help/workflows/)
+- Common, re-usable framework and functionality
+- [Available Support](https://support.bioconductor.org/)
+    + Often you will be able to interact with the package maintainers / developers and other power-users of the project software
+- Annual conferences in U.S and Europe
+
+    
+
+
+
+## RStudio
+
+
+
+- Rstudio is a free environment for R
+- Convenient menus to access scripts, display plots
+- Still need to use *command-line* to get things done
+- Developed by some of the leading R programmers
+- Used by beginners, and experienced users alike
+
+To get started, you will need to install the [latest version of R](https://cran.r-project.org/) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download3/); both of which are ***free***. 
+
+Once installed, you should be able to launch RStudio by clicking on its icon:-
+
+
+![](http://www.rstudio.com/wp-content/uploads/2014/03/blue-125.png)
+
+## Entering commands in R
+
+- The traditional way to enter R commands is via the Terminal, or using the console in RStudio (bottom-left panel when RStudio opens for first time).
+- However, for this course we will use a relatively new feature called *R markdown*.
+- An R markdown mixes plain text with R code
+- The R code can be run from inside the document and the results are displayed directly underneath
+- Each chunk of R code looks something like this.
+
+
+```{r}
+
+```
+
+
+- Each line of R can be executed by clicking on the line and pressing CTRL and ENTER
+- Or you can press the green triangle on the right-hand side to run everything in the chunk
+- Try this now!
+
+```{r}
+print("Hello World")
+```
+
+- You can add R chunks by pressing CRTL + ALT + I
+    + or using the Insert menu option
+    + (can also include code from other languages such as Python or bash)
+
+
+# Getting started
+
+![](images/128px-SHARP_ELSIMATE_EL-W221.jpg)
+
+At a basic level, we can use R as a calculator to compute simple sums with the `+`, `-`, `*` (for multiplication) and `/` (for division) symbols. 
+
+```{r}
+2 + 2
+2 - 2
+4 * 3
+10 / 2
+```
+
+The answer is displayed at the console with a `[1]` in front of it. The `1` inside the square brackets is a place-holder to signify how many values were in the answer (in this case only one). We will talk about dealing with lists of numbers shortly...
+
+In the case of expressions involving multiple operations, R respects the [BODMAS](https://en.wikipedia.org/wiki/Order_of_operations#Mnemonics) system to decide the order in which operations should be performed.
+
+```{r}
+2 + 2 *3
+2 + (2 * 3)
+(2 + 2) * 3
+```
+
+R is capable of more complicated arithmetic such as trigonometry and logarithms; like you would find on a fancy scientific calculator. Of course, R also has a plethora of statistical operations as we will see.
+
+![](images/128px-Casio-fx115ES-5564.jpg)
+
+```{r}
+pi
+sin (pi/2)
+cos(pi)
+tan(2)
+log(1)
+```
+
+We can only go so far with performing simple calculations like this. Eventually we will need to store our results for later use. For this, we need to make use of *variables*.
+
+## Variables
+
+A variable is a letter or word which takes (or contains) a value. We
+use the assignment 'operator', `<-` to create a variable and store some value in it. 
+
+```{r variables1}
+x <- 10
+x
+y
+myNumber <- 25
+myNumber
+theAverageWeight <-100
+```
+We also can perform arithmetic on variables using functions:
+
+```{r variables2}
+sqrt(myNumber)
+```
+
+We can add variables together:
+```{r variables3}
+x + myNumber
+```
+
+
+We can change the value of an existing variable:
+
+```{r variables4}
+x <- 21
+x
+```
+
+- We can set one variable to equal the value of another variable:
+
+```{r variables5}
+x <- myNumber
+x
+x <- 10
+rm(x)
+x
+```
+
+- We can modify the contents of a variable:
+
+```{r variables6}
+myNumber <- myNumber + sqrt(16)
+myNumber
+```
+
+When we are feeling lazy we might give our variables short names (`x`, `y`, `i`...etc), but a better practice would be to give them meaningful names. There are some restrictions on creating variable names. They cannot start with a number or contain characters such as `.`, `_`, '-'. Naming variables the same as in-built functions in R, such as `c`, `T`, `mean` should also be avoided.
+
+Naming variables is a matter of taste. Some [conventions](http://adv-r.had.co.nz/Style.html) exist such as a separating words with `-` or using *c*amel*C*aps. Whatever convention you decided, stick with it!
+
+## Functions
+
+**Functions** in R perform operations on **arguments** (the inputs(s) to the function). We have already used:
+
+```{r eval=FALSE}
+x <- pi
+sin(x)
+```
+
+this returns the sine of x. In this case the function has one argument: **x**. Arguments are always contained in parentheses -- curved brackets, **()** -- separated by commas.
+
+
+Arguments can be named or unnamed, but if they are unnamed they must be ordered (we will see later how to find the right order). The names of the arguments are determined by the author of the function and can be found in the help page for the function. When testing code, it is easier and safer to name the arguments. `seq` is a function for generating a numeric sequence *from* and *to* particular numbers. Type `?seq` to get the help page for this function.
+
+```{r functions2}
+?seq
+seq(from = 2, to = 20, by = 4)
+seq(2, 20, 4)
+```
+
+Arguments can have *default* values, meaning we do not need to specify values for these in order to run the function.
+
+`rnorm` is a function that will generate a series of values from a *normal distribution*. In order to use the function, we need to tell R how many values we want
+
+```{r}
+rnorm(n=10)
+```
+
+The normal distribution is defined by a *mean* (average) and *standard deviation* (spread). However, in the above example we didn't tell R what mean and standard deviation we wanted. So how does R know what to do? All arguments to a function and their default values are listed in the help page
+
+(*N.B sometimes help pages can describe more than one function*)
+
+```{r eval=FALSE}
+?rnorm
+```
+
+In this case, we see that the defaults for mean and standard deviation are 0 and 1. We can change the function to generate values from a distribution with a different mean and standard deviation using the `mean` and `sd` *arguments*. It is important that we get the spelling of these arguments exactly right, otherwise R will an error message, or (worse?) do something unexpected.
+
+```{r}
+rnorm(n=10, mean=2,sd=3)
+rnorm(10, 2, 3)
+sin(x)
+```
+
+In the examples above, `seq` and `rnorm` were both outputting a series of numbers, which is called a *vector* in R and is the most-fundamental data-type.
+
+
+******
+******
+******
+
+
+
+### Exercise
+
+  - How can we a create a sequence from 2 to 20 comprised of 5 equally-spaced numbers?
+    + check the help page for seq `?seq`
+  - What is the value of `pi` to 3 decimal places?
+    + see the help for `round` `?round`
+    
+```{r}
+seq(from = 2,to = 20,length.out = 5)
+round(pi,3)
+
+
+```
+    
+    
+******
+******
+******
+
+## Vectors
+
+- The basic data structure in R is a **vector** -- an ordered collection of values. 
+- R treats even single values as 1-element vectors. 
+- The function `c` *combines* its arguments into a vector:
+- Remember that as `c` is a function, we specify it's arguments in curved brackets`(...)`
+
+```{r vectors1}
+x <- c(3,4,5,6)
+x
+```
+
+
+The `seq` function we saw before was another example of how to create a sequence of values. A useful shortcut is to use the `:` symbol. 
+
+```{r}
+x <- 3:6
+x
+```
+
+
+The square brackets `[]` indicate the position within the vector (the ***index***). We can extract individual elements by using the `[]` notation:
+
+```{r vectors2}
+x
+x[1]
+x[4]
+x[10]
+y <- 2:4
+y
+
+```
+
+We can even put a vector inside the square brackets: (*vector indexing*)
+
+
+******
+******
+******
+
+### Exercise
+**Without using R!**
+
+  - If `y <- 2:4`, what would `x[y]` give?
+    + `[1]  3  5 `
+    + `[1]  2  4`
+    + `[1]  4  5  6`
+```{r}
+y <- 2:4
+x
+x[y]
+
+```
+
+******
+******
+******
+
+
+When applying all standard arithmetic operations to vectors, application is element-wise. Thus, we say that R supports *vectorised* operations.
+
+```{r vector-arithmetic1}
+x <- 1:10
+y <- x*2
+y
+z <- x^2
+z
+x
+y
+x + y
+```
+
+Vectorised operations are extremely powerful. Operations that would require a *for* loop (or similar) in other languages such as **C**, **Python**, can be performed in a single line of R code.
+
+A vector can also contain text; called a character vector. Such a vector can also be constructed using the `c` function. 
+
+```{r}
+x <- c("A","B","C","D")
+x
+```
+
+The quote marks are crucial. Why?
+
+```{r eval=FALSE}
+
+x <- c(x , y)
+x
+```
+
+```{r echo=FALSE}
+tt <- try(x <- c(A, B, C, D),silent = TRUE)
+cat(tt)
+```
+
+
+Another useful type of data that we will see is the *logical* or *boolean* which can take either the values of `TRUE` or `FALSE`
+
+```{r}
+x <- c(TRUE,TRUE,FALSE)
+```
+
+Logical values are useful when we want to create subsets of our data. We can use *comparison* operators; `==`, `>`, `<`, `!=` to check if values are equal, greater than, less than, or not equal.
+
+```{r}
+x <- c("A","A", "B","B","C")
+x
+x == "A"
+x != "A"
+x <- rnorm(10)
+x
+x > 0
+
+```
+
+However, all items in the vector **must** be the same type. If you attempt anything else, R will convert all values to the same (most basic) type.
+
+```{r}
+x <- c(1, 2, "three")
+x
+```
+
+
+
+
+
+## Packages in R
+
+So far we have used functions that are available with the *base* distribution of R; the functions you get with a clean install of R. The open-source nature of R encourages others to write their own functions for their particular data-type or analyses.
+
+Packages are distributed through *repositories*. The most-common ones are CRAN and Bioconductor. CRAN alone has many thousands of packages.
+
+The **Packages** tab in the bottom-right panel of RStudio lists all packages that you currently have installed. Clicking on a package name will show a list of functions that available once that package has been loaded. The `library` function is used to load a package and make it's functions / data available in your current R session. *You need to do this every time you load a new RStudio session*. 
+
+
+```{r eval=FALSE}
+library(beadarray)
+```
+
+There are functions for installing packages within R. If your package is part of the main **CRAN** repository, you can use `install.packages`
+
+We will be using the `gapminder` R package in this practical. To install it, we would do.
+
+```{r eval=FALSE}
+install.packages("gapminder")
+```
+
+*Bioconductor* packages have their own install script, which you can download from the Bioconductor website
+
+```{r eval=FALSE}
+source("http://www.bioconductor.org/biocLite.R")
+biocLite("affy")
+```
+
+A package may have several *dependancies*; other R packages from which it uses functions or data types (re-using code from other packages is strongly-encouraged). If this is the case, the other R packages will be located and installed too.
+
+**So long as you stick with the same version of R, you won't need to repeat this install process.**
+
+# Dealing with data
+
+We are going to explore some of the basic features of R using data from the [gapminder](https://www.gapminder.org/data/) project, which have been bundled into an [R package](https://github.com/jennybc/gapminder). These data give various indicator variables for different countries around the world (life expectancy, population and Gross Domestic Product). We have saved these data as a `.csv` file to demonstrate how to import data into R.
+
+You can download these data [here](https://raw.githubusercontent.com/bioinformatics-core-shared-training/r-intermediate/master/gapminder.csv). Right-click the link and save to somewhere on your computer that you wish to work from.
+
+## The working directory
+
+Like other software (Word, Excel, Photoshop....), R has a default location where it will save files to and import data from. This is known as the *working directory* in R. You can query what R currently considers its working directory by doing:-
+
+```{r eval=FALSE}
+getwd()
+```
+
+*N.B. Here, a set of open and closed brackets `()` is used to call the `getwd` function with no arguments.*
+
+We can also list the files in this directory with:-
+
+```{r}
+list.files()
+```
+
+Any `.csv` file in the working directory can be imported into R by supplying the name of the file to the `read.csv` function and creating a new variable to store the result. A useful sanity check is the `file.exists` function which will print `TRUE` is the file can be found in the working directory.
+
+```{r}
+file.exists("gapminder.csv")
+```
+
+If the file we want to read is not in the current working directory, we will have to write the path to the file; either *relevant* to the current working directory (e.g. the directory "up" from the current working directory, or in a sub-folder), or the full path. In an interactive session, you can do use `file.choose` to open a dialogue box. The path to the the file will then be displayed in R.
+
+```{r eval=FALSE}
+file.choose()
+```
+
+Assuming the file can be found, we can use `read.csv` to import. Other functions can be used to read tab-delimited files (`read.delim`) or a generic `read.table` function. A data frame object is created.
+
+```{r}
+rm(gapminder)
+gapminder <- read.csv("gapminder.csv")
+```
+
+The data frame object in R allows us to work with "tabular" data, like we might be used to dealing with in Excel, where our data can be thought of having rows and columns. The values in each column have to all be of the same type (i.e. all numbers or all text).
+
+
+******
+******
+******
+
+
+
+### Exercise
+
+- What are the dimensions of the data frame?
+- What columns are available?
+  + HINT: see the `dim`, `ncol`, `nrow` and `colnames` functions
+  
+```{r}
+gapminder
+dim(gapminder)
+ncol(gapminder)
+colnames(gapminder)
+```
+  
+ 
+******
+******
+******
+
+
+
+In Rstudio , you can view the contents of the data frame we have just created. This is useful for interactive exploration of the data, but not so useful for automation and scripting and analyses.
+
+```{r eval=FALSE}
+View(gapminder)
+```
+
+We should always check the data frame that we have created. Sometimes R will happily read data using an inappropriate function and create an object without raising an error. However, the data might be unsuable. Consider:-
+
+```{r}
+test <- read.delim("gapminder.csv")
+head(test)
+dim(test)
+colnames(test)
+```
+
+
+We can access the columns of a data frame by knowing the column name. 
+***TIP*** Use auto-complete with the ***TAB*** key to get the name of the column correct
+
+```{r eval=FALSE}
+
+gapminder$country
+```
+
+
+A vector (1-dimensional) is returned, the length of which is the same as the number of rows in the data frame. The vector could be stored as a variable and itself be subset or used in further calculations
+
+```{r, echo=FALSE}
+gapminder$continent
+countries <- gapminder$country
+
+```
+
+
+The `summary` function is a useful way of summarising the data containing in each column. It will give information about the *type* of data (remember, data frames can have a mixture of numeric and character columns) and also an appropriate summary. For numeric columns, it will report some stats about the distribution of the data. For categorical data, it will report the different *levels*.
+
+```{r}
+summary(gapminder)
+```
+
+
+******
+******
+******
+
+### Exercise
+
+- Save the life expectancy and population as variables
+    + what is the maximum life expectancy?
+    + what is the smallest population?
+    + round the life expectancy to the nearest whole number
+    + HINT:- `min`, `max`, `round`.....
+    
+```{r}
+lifeExpect <- gapminder$lifeExp
+myPops <- gapminder$pop
+
+max(lifeExpect)
+min(myPops)
+gapminder$lifeExp <- round(lifeExpect)
+gapminder$popInMillions <-gapminder$pop / 1000000
+gapminder
+```
+    
+    
+******
+******
+******
+
+
+
+## Subsetting
+
+A data frame can be subset using square brackes`[]` placed after the name of the data frame. As a data frame is a two-dimensional object, you need a *row* and *column* index, or vector indices. 
+
+
+
+
+```{r eval=FALSE}
+x[1]
+gapminder[1,2]
+gapminder[2,1]
+gapminder[c(1,2,3),1]
+gapminder[c(1,2,3),c(1,2,3,4,5)]
+```
+
+***Note that the data frame is not altered*** we are just seeing what a subset of the data looks like and not changing the underlying data. If we wanted to do this, we would need to create a new variale.
+
+```{r eval=FALSE}
+gapminder
+```
+
+
+
+Should we wish to see all rows, or all columns, we can neglect either the row or column index
+
+```{r eval=FALSE}
+gapminder[c(1,2,3),]
+gapminder[,c(1,2,3)]
+```
+
+Just like subsetting a vector, the indices can be vectors containing multiple values
+
+```{r eval=FALSE}
+gapminder[1:3,1:2]
+gapminder[seq(1,1704,length.out = 10),1:4]
+```
+
+
+A common shortcut is `head` which prints the first six rows of a data frame.
+   
+```{r}
+head(gapminder)
+```
+
+When subsetting entire rows ***you need to remember the , after the row indices***. If you fail to do so, R may still return a result. However, it probably won't be what you expected. Look what happens if you wanted to the first three rows but typed the following command
+
+```{r eval=FALSE}
+gapminder[1:3,]
+```
+
+
+Rather than selecting rows based on their *numeric* index (as in the previous example) we can use what we call a *logical test*. This is a test that gives either a `TRUE` or `FALSE` result. When applied to subsetting, only rows with a `TRUE` result get returned.
+
+For example we could compare the `lifeExp` variable to 40. The result is a *vector* of `TRUE` or `FALSE`; one for each row in the data frame
+
+```{r eval=FALSE}
+gapminder$lifeExp < 40
+```
+
+This R code can be put inside the square brackets to select rows of interest (those observations where the life expectancy variable is less than 40). 
+
+```{r eval=FALSE}
+gapminder[gapminder$lifeExp < 40, ]
+```
+
+```{r echo=FALSE}
+head(gapminder[gapminder$lifeExp < 40, ])
+
+```
+
+The `,` is important as this tells R to display all columns. If we wanted a subset of the columns we would put their indices after the `,`
+
+```{r eval=FALSE}
+gapminder[gapminder$lifeExp < 40, 1:4]
+```
+
+```{r echo=FALSE}
+head(gapminder[gapminder$lifeExp < 40,1:4 ])
+```
+
+Using the column names is also valid
+
+```{r eval=FALSE}
+gapminder[gapminder$lifeExp < 40, c("country", "continent","year")]
+```
+
+```{r echo=FALSE}
+head(gapminder[gapminder$lifeExp < 40, c("country", "continent","year")])
+```
+
+
+
+Testing for equality can be done using `==`. This will only give `TRUE` for entries that are *exactly* the same as the test string. 
+
+```{r}
+gapminder[gapminder$country == "Zambia",]
+
+```
+
+N.B. For partial matches, the `grep` function and / or *regular expressions* (if you know them) can be used.
+
+```{r eval=FALSE}
+gapminder[grep("land", gapminder$country),]
+```
+
+```{r echo=FALSE}
+head(gapminder[grep("land", gapminder$country),])
+```
+
+
+There are a couple of ways of testing for more than one text value. The first uses an *or* `|` statement. i.e. testing if the value of `country` is `Zambia` *or* the value is `Zimbabwe`.
+
+The `%in%` function is a convenient function for testing which items in a vector correspond to a defined set of values.
+
+```{r eval=FALSE}
+gapminder[gapminder$country == "Zambia" | gapminder$country == "Zimbabwe" |,]
+gapminder[gapminder$country %in% c("Zambia","Zimbabwe"),]
+```
+
+```{r echo=FALSE}
+head(gapminder[gapminder$country == "Zambia" | gapminder$country == "Zimbabwe",])
+```
+
+
+Similar to *or*, we can require that both tests are `TRUE` by using an *and* `&` operation. e.g. which years in Zambia had a life expectancy less than 40
+
+```{r}
+gapminder$country == "Zambia"
+gapminder$lifeExp < 40
+
+gapminder[gapminder$country == "Zambia" & gapminder$lifeExp < 40,]
+```
+
+******
+******
+******
+
+### Exercise
+
+- Can you create a data frame of countries with a population less than a million in the year 2002?
+
+```{r echo=FALSE}
+gapminder[gapminder$pop < 1000000 & gapminder$year == 2002 ,]
+
+```
+
+- A data frame of countries with a population less than a million in the year 2002, that are not in Africa?
+
+```{r}
+myDataFrame <- gapminder[gapminder$pop < 1000000 & gapminder$year == 2002 & gapminder$continent != "Africa",]
+
+```
+
+
+******
+******
+******
+
+
+
+## Ordering and sorting
+
+A vector can be returned in sorted form using the `sort` function.
+
+```{r eval=FALSE}
+countries
+sort(countries)
+sort(countries,decreasing = TRUE)
+```
+
+However, if we want to sort an entire data frame a different approach is needed. The trick is to use `order`. Rather than giving a sorted set of *values*, it will give sorted *indices*. These indices can then be used for a subset operation.
+
+```{r}
+View(gapminder)
+order(gapminder$pop)[2]
+leastPop <- gapminder[sort(gapminder$pop),]
+gapminder[1298,]
+head(leastPop)
+leastPop
+```
+
+A final point on data frames is that we can export them out of R once we have done our data processing. 
+
+```{r}
+byWealth <- gapminder[order(gapminder$gdpPercap,decreasing = TRUE),]
+byWealth
+write.csv(byWealth, file="dataOrderedByWealth.csv")
+list.files()
+```
+
+We can even order by more than one condition
+
+```{r eval=FALSE}
+gapminder[order(gapminder$year, gapminder$country),]
+```
+
+```{r echo=FALSE}
+head(gapminder[order(gapminder$year, gapminder$lifeExp),])
+```
+
+
+# Plotting and stats (in brief!)
+
+All your favourite types of plot can be created in R
+
+```{r echo=FALSE}
+
+par(mfrow=c(2,2))
+barplot(VADeaths, beside = TRUE,
+        col = c("lightblue", "mistyrose", "lightcyan",
+                "lavender", "cornsilk"), ylim = c(0, 100))
+boxplot(len ~ dose, data = ToothGrowth,
+        boxwex = 0.25, at = 1:3 - 0.2,
+        subset = supp == "VC", col = "yellow",
+        main = "Guinea Pigs' Tooth Growth",
+        xlab = "Vitamin C dose mg",
+        ylab = "tooth length",
+        xlim = c(0.5, 3.5), ylim = c(0, 35), yaxs = "i")
+boxplot(len ~ dose, data = ToothGrowth, add = TRUE,boxwex = 0.25, at = 1:3 + 0.2,subset = supp == "OJ", col = "orange")
+legend(2, 9, c("Ascorbic acid", "Orange juice"),fill = c("yellow", "orange"))
+set.seed(14)
+x <- rchisq(100, df = 4)
+## if you really insist on using hist() ... :
+hist(x, freq = FALSE, ylim = c(0, 0.2))
+curve(dchisq(x, df = 4), col = 2, lty = 2, lwd = 2, add = TRUE)
+pie(c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5),
+    init.angle = 315, col = c("deepskyblue", "yellow", "yellow3"), border = FALSE)
+```
+
+
+- Simple plots are supported in the *base* distribution of R (what you get automatically when you download R). 
+    + `boxplot`, `hist`, `barplot`,... all of which are extensions of the basic `plot` function
+- Many different customisations are possible
+    + colour, overlay points / text, legends, multi-panel figures
+- ***You need to think about how best to visualise your data*** 
+    + http://www.bioinformatics.babraham.ac.uk/training.html#figuredesign
+- R cannot prevent you from creating a plotting disaster: 
+    + http://www.businessinsider.com/the-27-worst-charts-of-all-time-2013-6?op=1&IR=T
+- References..
+    + [Introductory R course](http://cambiotraining.github.io/r-intro/)
+    + [Quick-R](http://www.statmethods.net/graphs/index.html)
+    
+Plots can be constructed from vectors of numeric data, such as the data we get from a particular column in a data frame
+
+```{r}
+hist(gapminder$lifeExp)
+```
+
+Scatter plots of two variables require two arguments; one for the `x` and one for the `y` axis.
+
+```{r}
+plot(gapminder$pop,gapminder$lifeExp)
+```
+
+
+Barplots are commonly-used for counts of categorical data
+
+```{r}
+barplot(table(gapminder$continent))
+```
+
+Boxplots are good for visualising and comparing distributions. Here the `~` symbol sets up a formula, the effect of which is to put the categorical variable on the `x` axis and continuous variable on the `y` axis.
+
+```{r}
+gapminder2 <-read.csv("gapminder.csv")
+boxplot(gapminder2$gdpPercap ~ gapminder2$continent)
+```
+
+*Lots* of customisations are possible to enhance the appaerance of our plots. Not for the faint-hearted, the help pages `?plot` and `?par` give the full details. In short,
+
+- Axis labels, and titles can be specified as character strings. 
+
+- R recognises many preset names as colours. To get a full list use `colours()`, or check this [online reference](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf).
+
+- Plotting characters can be specified using a pre-defined number:-
+
+```{r echo=FALSE}
+par(mar=c(0.1,0.1,0.1,0.1))
+i <- 0:24
+
+x <- floor(i /5) + 1
+y <- i %%5
+
+plot(1:10, type="n", xlim = c(1,5), ylim=c(-1,5),axes=F,xlab="",ylab="")
+points(x,y,pch=i+1, cex=2)
+text(x,y-0.3,i+1)
+```
+
+Putting it all together.
+
+```{r}
+
+plot(gapminder$pop,gapminder$lifeExp,pch=16,
+     col="red",ylab="Life Expectancy",
+     xlab="Population",main="Life Expectancy trend with population")
+```
+
+
+The same customisations can be used for various plots:-
+
+```{r}
+boxplot(gapminder$gdpPercap ~ gapminder$continent,col=c("red","orange"),
+        main="GDP per-continent",
+        xlab="Continent",
+        ylab="GDP")
+
+```
+
+Plots can be exported by the ***Plots*** tab in RStudio, which is useful in an interactive setting. However, one can also save plots to a file calling the `pdf` or `png` functions before executing the code to create the plot. 
+ 
+ 
+```{r}
+pdf("myLittlePlot.pdf")
+barplot(table(gapminder$continent))
+plot(gapminder$pop,gapminder$lifeExp,pch=16,
+     col="red",ylab="Life Expectancy",
+     xlab="Population",main="Life Expectancy trend with population")
+dev.off()
+getwd()
+```
+
+Any plots created in-between the `pdf(..)` and `dev.off()` lines will get saved to the named file. The `dev.off()` line is very important; without it you will not be able to view the plot you have created. `pdf` files are useful because you can create documents with multiple pages. Moreover, they can be imported into tools such as Adobe Illustrator to be incorporated with other graphics. 
+
+## The canvas model
+
+It is important to realise that base graphics in R uses a *"canvas model"* to create graphics. We can only overlay extra information on-top of an exising plot and cannot "undo" what is already drawn.
+
+Let's suppose we want to visualise and life expectancy and population of countries in Europe and Africa. First, create two datasets to represent European and African countries in the year 2002
+
+```{r}
+euroData <- gapminder[gapminder$continent == "Europe" & gapminder$year == 2002,]
+dim(euroData)
+```
+
+```{r}
+afrData <- gapminder[gapminder$continent == "Africa" & gapminder$year == 2002,]
+dim(afrData)
+```
+
+We can start by plotting the life expectancy of the European countries as red dots.
+
+```{r}
+plot(euroData$pop, euroData$lifeExp,col="red",
+     pch=16,
+     xlab="Population",
+     ylab="Life Expectancy")
+```
+
+The `points` function can be used put extra points corresponding to African countries on the existing plot. 
+
+```{r eval=FALSE}
+points(afrData$pop, afrData$lifeExp,col="blue",pch=16)
+```
+
+```{r echo=FALSE}
+plot(euroData$pop, euroData$lifeExp,col="red",
+     pch=16,
+     xlab="Population",
+     ylab="Life Expectancy")
+points(afrData$pop, afrData$lifeExp,col="blue",pch=16)
+```
+
+Wait, how many African countries did we have?
+
+```{r}
+nrow(afrData)
+```
+
+The problem here is that the initial limits of the y axis were defined using the life expectancy range of the European data. We can only add points to the existing plotting window, so any African countries with life expectancy outside this range will not get displayed.
+
+We can define the axes when we create the plot using `xlim` and `ylim`.
+
+```{r}
+plot(euroData$pop, euroData$lifeExp,col="red",
+     pch=16,
+     xlab="Population",
+     ylab="Life Expectancy",
+     xlim=c(0,8e7),ylim=c(30,90))
+points(afrData$pop, afrData$lifeExp,col="blue",pch=16)
+```
+
+Other useful functions for adding features to an existing plot include `text`, `abline`, `grid`, `legend` among others
+
+Another useful trick for plotting is to take advantage of pre-existing colour palettes in R. The `RColorBrewer` package is a useful package for such palettes; many of which are friendly to those with visual impairments.
+
+```{r}
+library(RColorBrewer)
+display.brewer.all(colorblindFriendly = TRUE)
+
+```
+
+The `brewer.pal` function can return the names of `n` colours from one of the pre-defined palettes to be used as a `col` argument to a plotting function.
+
+```{r}
+boxplot(gapminder$gdpPercap ~ gapminder$continent,col=brewer.pal(5,"Set1"),
+        main="GDP per-continent",
+        xlab="Continent",
+        ylab="GDP")
+```
+
+******
+******
+******
+
+### Exercise
+
+- The plot of population versus GDP shows and obvious set of outliers
+  + which countries years do they points represent?
+  + can you plot these points in a different colour?
+  + could you exclude these points from the plot?
+  
+```{r}
+
+plot(gapminder$pop,gapminder$lifeExp,pch=16,
+     col="red",ylab="Life Expectancy",
+     xlab="Population",main="Life Expectancy trend with population")
+
+outliers <- gapminder[gapminder$pop > 4e8,]
+outliers
+points(outliers$pop,outliers$lifeExp,
+       col="blue",cex=2)
+```
+  
+
+******
+******
+******
+
+## Statistical Testing
+
+We can't really have a run-through of the R language without at least *mentioning* statistics! However, like plotting it is a vast field. The main challenges are putting your data in the correct format (which we have covered here), and deciding which test to use (**which R will not advise you on!**) 
+
+![](https://raw.githubusercontent.com/bioinformatics-core-shared-training/r-for-medics/master/images/clippy.jpg)
+
+- If you have some background in statistics you can see this course from the [Babraham Institute Bioinformatics Core](http://www.bioinformatics.babraham.ac.uk/training/R_Statistics/Introduction%20to%20Statistics%20with%20R.pdf) about how to perform statistical testing in R.
+- If you need a more basic grounding in which statistical test to use, you can see this course from [CRUK Cambridge Institute](http://bioinformatics-core-shared-training.github.io/IntroductionToStats/)
+  
+The `t.test` function is probably the most fundamental statistical testing function in R, and can be adapted to many different situations. Full details are given in the help page `?t.test`. Lets consider we have two vectors of normally-distributed data that we can visualise using a boxplot.
+
+```{r}
+x <- rnorm(20)
+y <- rnorm(20, 5,1)
+df <- data.frame(x,y)
+boxplot(df)
+```
+
+The output from `t.test` can be used to judge if there is a statistically-significant difference in means:-
+
+```{r}
+t.test(x,y)
+```
+
+If our data were paired we could set the argument `paired=TRUE` to use a different flavour of the test
+
+```{r}
+t.test(x,y,paired = TRUE)
+```
+
+Similarly, if our data have different variances we can adjust the test accordingly:-
+
+```{r}
+x <- rnorm(20)
+y <- rnorm(20, 5,4)
+df <- data.frame(x,y)
+boxplot(df)
+t.test(x,y,var.equal = FALSE)
+```
+
+Were our data not normally-distributed we could use `wilcox.test`, for example.  Fortunately, most statistical tests can be accessed in a similar manner, so it is easy to switch between using different tests provided your data are in the correct format. To re-iterate, the skill is in choosing which test is appropriate.
+
+# Extra Practice
+
+The file `patient-data-cleaned.txt` contains clinical covariates from a fictional study
+
+******
+******
+******
+
+### Exercise
+
+- Read these data into R
+    + how many patients are included in the file?
+    + how many males, how many females?
+    + do males tend to be taller than females?
+    + are smokers heavier than non-smokers?
+    + is there a relationship between height and weight?
+  
+```{r}
+
+
+
+```
+
+
+******
+******
+******
+
+
+# Towards Reproducibility
+
+Let's say we want an analysis comprising the following steps:-
+
+- read the gapminder data into R
+- select countries in Europe
+- show the relationship between gdp and life expectancy
+- compute the correlation coefficient
+    + (the `cor` function can be used)
+
+Having an R script to do the analysis is fine, but what we really want is a document with the code we used *and* the results it generates. This is where a reporting framework such as ***markdown*** is critical
+
+![](https://raw.githubusercontent.com/bioinformatics-core-shared-training/r-for-medics/master/images/markdown-annotated.png)
+
+1. Header information
+2. Section heading
+3. Plain text
+4. R code to be run
+5. Plain text
+6. R code to be run
+
+*Markdown* is a very simple way of writing a template to produce a pdf, HTML or word document. The compiled version of this document is available online and is more convenient to browse [here](https://bioinformatics-core-shared-training.github.io/cruk-autumn-school-2017/Day1/bioc-intro.nb.html).
+
+- "chunks" of R code can be added using the *insert* option from the toolbar, or the CTRL + ALT + I shortcut
+
+- The code might have different options which dictate how the output is displayed in the compiled document (e.g. HTML)
+    + e.g. you might see `EVAL = FALSE` or `echo = FALSE`
+    + you don't have to worry about this if stepping through the markdown interactively
+``
+
+*This will be displayed in italic*
+
+**This will be displayed in bold**
+
+
+- this 
+- is 
+- a 
+- list
+    + this is a *sub-list*
+
+You can also add hyperlinks, images and tables. More help is available through RStudio **Help -> Markdown Quick Reference**
+
+
+The markdown file can be used as a template to generated PDF, HTML, or even Word documents. The clever bit is that all R code in the template can be execute and the results displayed (tables, graphics etc) along with the code. The compiled document can be passed to your collaborators and they should be able to generate the same results. Alternatively, you can choose to hide the code if your PI just wants to see the results, and not neccesarily what packages, parameters you used. Long-term R users may have heard of *Sweave*. Markdown is the same concept, but an easier to write (and read) syntax
+
+Markdown can also generate presentations and courses. Indeed, all the [materials for this course](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html) were written in markdown.
+
+
+
+Each line of R code can be executed in the R console by placing the cursor on the line and pressing `CTRL + ENTER`. You can also highlight multiple lines of code. NB. You do not need to highlight to the backtick (`\``) symbols. 
+
+Hitting the ***Knit*** button (*) or Preview will run all R code in order and (providing there are no errors!) you will get a PDF or HTML document. The resultant document will contain all the plain text you wrote, the R code, and any outputs (including graphs, tables etc) that R produced. You can then distribute this document to have a reproducible account of your analysis.
+
+
+
+******
+******
+******
+
+### Exercise
+
+- Open the file `[gapminder-analysis.Rmd](gapminder-analysis.Rmd)`
+- Fill the gaps to complete the analysis described above
+- Make a note of the correlation coefficient in the report
+- Knit into a pdf or HTML document
+
+******
+******
+******
+
+You should notice that there is a final code chunk that runs the command `sessionInfo()`. This will print details of the package names and version numbers that were used in the analysis. This is useful to have for housekeeping purposes, but some people you share the report with might not necesarily care about this information. In markdown, we can stop particular *code chunks* being run or printed to the final report by putting the arguments `eval=FALSE` or `results='hide'` at the start of the chunk.
+
+Another useful feature of a markdown report is to embed R code within the plain text section. For example, rather than hard-coding the correlation coefficient, we could have the R code print this result.
+ 
+
