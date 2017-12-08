@@ -84,6 +84,13 @@ You can download the binary files for your distribution from CRAN. Or you can us
 - 12:30 - 13:30 LUNCH
 - 13:00 - 16:00 [Introduction to Bioconductor](https://bioinformatics-core-shared-training.github.io/bioc-introduction/bioc-intro.nb.html)
 
+## Instructor Files
+
+Copies of the markdown files created by the instructor during the live demo
+
+- [Crash Course](2017-12-07-crash-course-instructor.Rmd)
+- [Bioconductor](2017-12-07-bioc-intro-instructor.Rmd)
+
 ## Registration 
 
 Registration is now closed. Please [check back](http://sbc.shef.ac.uk//training/) for future dates
