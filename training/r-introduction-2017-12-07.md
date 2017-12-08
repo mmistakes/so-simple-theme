@@ -71,7 +71,8 @@ You can download the binary files for your distribution from CRAN. Or you can us
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
-- Katjuša Koler, Phd Student, Hide Lab
+- Katjuša Koler, Phd Student, [Hide Lab](https://hidelab.wordpress.com/)
+- Sokratis Kariotis, Scientific Programmer, [Hide Lab](https://hidelab.wordpress.com/)
 
 ## Course Data
 
@@ -85,7 +86,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 
 ## Registration 
 
-Registration is now closed. Please (check back)[http://sbc.shef.ac.uk//training/] for future dates
+Registration is now closed. Please [check back](http://sbc.shef.ac.uk//training/) for future dates
 
 ## References
 
