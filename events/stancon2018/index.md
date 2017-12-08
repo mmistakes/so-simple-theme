@@ -23,11 +23,9 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 - [**Invitation Letters for US visa**](#letter)
 - [**Registration**](#registration-information)
 - [**Accomodation**](#accommodation)
-- [**Important Dates**](#important-dates)
 - [**Speakers and Schedule**](#speakers-and-schedule)
 - [**Classes/Tutorials**](#classes)
 - [**Activities**](#activities)
-- [**Sponsors**](#sponsors)
 - [**StanCon 2018 Organizing Committee**](#committee)
 
 
@@ -66,7 +64,7 @@ We have gotten so many requests for scholarships after the deadline that we are 
 
 # [Wearable Poster Session](#poster)
 
-We will accept poster submissions on a rolling basis until December 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material which conincendentally will be the source airframe material for the R/C airplane activities following dinner. 
+We will accept poster submissions on a rolling basis until January 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material which conincendentally will be the source airframe material for the R/C airplane activities following dinner. 
 
 # [Location](#location)
 
@@ -89,13 +87,15 @@ If you require an invitation letter for visa or other purposes please fill out t
 
 # [Registration Information](#registration-information)
 
+IMPORTANT: Tell us your T-shirt size and tutorial/activity preferences on our [SWAG form](https://docs.google.com/forms/d/1QP_k25fWb2PB8iAKzGtNwLSP-CIeVBKMiC3n6S7izJQ).
+
 If you are staying at the conference facility, Asilomar, then registration for the conference is handled as a part of the room booking process. Register/book room at [Asilomar](https://aws.passkey.com/e/49190400). More accomidation information below.
 
 Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Please do not use this to register and then stay at Asilomar with some cheap deal. Our room rate covers a bunch of conference expenses. See below for meal costs. 
 
 
 
-### [Early Registration (ends Dec 10)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
+### [Early Registration (ends Dec 15)](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148)
 
 
 | Student | Academic | Industry |
@@ -122,8 +122,6 @@ Onsite Accommodations (will also collect payment for StanCon2018 registration)
 
 [Book accommodations!](https://aws.passkey.com/e/49190400)
 
-Deadline: Dec 10, 2017
-
 Accommodations at Asilomar include meals. Cost for 4 days, 3 nights (Jan 9-12):
 
 * Single accommodations: $899.00
@@ -141,17 +139,6 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 * Lunch: $25.64
 * Dinner: $39.87
 
-
-# [Important Dates](#important-dates)
-
-Here are the important dates for StanCon 2018. 
-
-| Deadline | What |
-|------|--------|
-| Dec 10, 2017| Early registration ends <br> (Registration prices increase by 50%) |
-| Jan 8, 2017| Registration ends <br> (No additional registrations for StanCon after this point) |
-| Dec 10, 2017| Accommodation at Asilomar ends <br> (Room availability is guaranteed until this date) |
-| Jan 10-12, 2018 | Stan Conference!!! |
 
 
 # [Schedule](#speakers-and-schedule)
@@ -214,22 +201,22 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10-10:40am
 
-### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr 10:40-11:30am 
+### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am 
 
-* Does the New York City Police Department rely on quotas? Jonathan Auerbach 11:30-11:50am
-* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold 11:50am-12:10pm
-* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe 12:10-12:30pm
+* Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:30-11:50am
+* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara) 11:50am-12:10pm
+* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:10-12:30pm
 
 ### Lunch 12:30-2pm
 
-* ScalaStan. Joe Wingbermuehle 2:00-2:20pm
+* ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm
 * A tutorial on Hidden Markov Models using Stan. Luis Damiano 2:20-2:40pm
-* Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman 2:40-3:00pm
-* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton 3:00-3:20pm
+* Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman (Stanford U) 2:40-3:00pm
+* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 3:00-3:20pm
 
 ### Break 3:20-4:00pm
 
-### Invited Talk: Talia Wiess 4:00-4:50pm
+### Invited Talk: Talia Wiess (MIT) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -237,7 +224,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### After Dinner 8-10pm
 * Build and fly your own R/C airplane
-* Smores by the outdoor fire place
+* S'mores by the outdoor fire place
 
 ## Thursday, Jan 11
 
@@ -249,16 +236,16 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10-10:40am
 
-### Invited Talk: Sean Taylor and Ben Letham 10:40-11:30am 
+### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am 
 
-* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio 11:30-11:50am
-* BIntroducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec 11:50am-12:10pm
-* A brief history of Stan. Daniel Lee 12:10-12:30pm
+* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
+* Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
+* A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm
 
 ### Lunch 12:30-1:30pm
 
-* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian 1:30-1:50pm
-* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington 1:50-2:10pm
+* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm
+* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 1:50-2:10pm
 
 ### Modeling/Data Session + Classes 2:10-4:10pm 
 
@@ -267,7 +254,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * What is new to Stan 3:30-4:10pm
 * How to develop for Stan C++ 2:10-3:10
 
-### Invited Talk: Manual Rivas 4:00-4:50pm
+### Invited Talk: Manual Rivas (Stanford U) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -284,18 +271,18 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10-10:40am
 
-### Invited Talk: Susan Holmes 10:40-11:30am 
+### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am 
 
 * Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am
-* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson 11:50am-12:10pm
-* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips 12:10-12:30pm
+* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm
+* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips (Boston U) 12:10-12:30pm
 
 ### Lunch 12:30-1:30pm
 
-* Causal inference with the g-formula in Stan. Leah Comment 1:30-1:50pm
-* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez 1:50-2:10pm
+* Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm
+* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez ( 1:50-2:10pm
 
-### Invited Talk: Andrew Gelman 2:10-3:00 (virtual)
+### Invited Talk: Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
 
 # [Classes/Tutorials](#classes)
 
@@ -314,16 +301,20 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 Learning is fun but we anticpate that blowing off a little steam will
 be called for. 
 
-##R/C Airplanes
+## R/C Airplanes
 
-After dinner on day 1 we will provide designs and
+After dinner on Wed eve we will provide designs and
 building materials to create your own R/C airplane. The core design
 can be scratch built in 90 minutes or less at which point, and weather
 dependent, we will learn to fly our planes indoors or outdoors. See
 http://brooklynaerodrome.com for an idea of the style of airplane. You 
 can also create your own designs and we will have night illumination gear. 
 
-##Snob-free Blind Wine Tasting
+## S'mores By the Bonfire
+
+Pretty much self explanitory. Wed eve.
+
+## Snob-free Blind Wine Tasting
 
 By day 2 you will have gotten to know your fellow
 attendees so some social adventure is called for. This activity has proved wildly 
