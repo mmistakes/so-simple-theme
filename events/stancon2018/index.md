@@ -193,13 +193,13 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ## Wednesday, Jan 10
 
-### Tutorials/Classes 8-10am
+### Tutorials/Classes 8:00-10:00am
 
 * 8-10 am [Intro To Stan session 1](#intro)
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them](#exec)
 * 9-10 am [Advanced Hierarchical Models](#advanced)
 
-### Break 10-10:40am
+### Break 10:00-10:40am
 
 ### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am 
 
@@ -207,7 +207,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara) 11:50am-12:10pm
 * Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:10-12:30pm
 
-### Lunch 12:30-2pm
+### Lunch 12:30-2:00pm
 
 * ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm
 * A tutorial on Hidden Markov Models using Stan. Luis Damiano 2:20-2:40pm
@@ -234,7 +234,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * 8-9 am [Gaussian Processes]()
 * 9-10 am [Have I converged successfully? How to verify fit and diagnose fit problems]()
 
-### Break 10-10:40am
+### Break 10:00-10:40am
 
 ### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am 
 
@@ -258,9 +258,9 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Reception 5:00-6:30pm
 
-### Dinner 6:30-8pm
+### Dinner 6:30-8:00pm
 
-### After Dinner 8-10pm
+### After Dinner 8:00-10:00pm
 * Non-snobby Blind Wine Tasting
 
 ## Friday, Jan 12
@@ -269,7 +269,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 * 8am-10am [Intro To Stan session 4](#classes)
 
-### Break 10-10:40am
+### Break 10:00-10:40am
 
 ### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am 
 
@@ -343,8 +343,8 @@ StanCon is organized by a volunteer community
 
 - Breck Baldwin (Columbia University)
 - Jonah Gabry (Columbia University)
-- Daniel Lee (Stan Group, Inc)
-- Eric Novik (Stan Group, Inc)
+- Daniel Lee (Generable, Inc)
+- Eric Novik (Generable, Inc)
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
 - Lizze Wolkovich (Harvard University)
