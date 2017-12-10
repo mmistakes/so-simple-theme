@@ -254,7 +254,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * What is new to Stan 3:30-4:10pm
 * How to develop for Stan C++ 2:10-3:10
 
-### Invited Talk: Manual Rivas (Stanford U) 4:00-4:50pm
+### Invited Talk: Manuel Rivas (Stanford U) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
