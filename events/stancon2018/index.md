@@ -44,6 +44,10 @@ Thanks to these fine folks for sponsoring StanCon2018
 </center> 
 
 <center style="padding: 0.75em 0 0 0">
+<a href="https://metrumrg.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/metrum_logo.png" /></a>
+</center> 
+
+<center style="padding: 0.75em 0 0 0">
 <a href="https://www.jumpingrivers.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/colorJR.png" /></a>
 </center> 
 
