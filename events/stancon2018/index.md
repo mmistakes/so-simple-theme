@@ -22,7 +22,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 - [**Location**](#location)
 - [**Invitation Letters for US visa**](#letter)
 - [**Registration**](#registration-information)
-- [**Accomodation**](#accommodation)
+- [**Accommodation**](#accommodation)
 - [**Speakers and Schedule**](#speakers-and-schedule)
 - [**Classes/Tutorials**](#classes)
 - [**Activities**](#activities)
@@ -62,7 +62,7 @@ We have gotten so many requests for scholarships after the deadline that we are 
 
 ------
 
-# [Wearable Poster Session](#poster)
+# <a name="poster"></a> [Wearable Poster Session](#poster)
 
 We will accept poster submissions on a rolling basis until January 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material which conincendentally will be the source airframe material for the R/C airplane activities following dinner. 
 
@@ -80,7 +80,7 @@ trip) and $50 each way from San Jose airport (2 hour trip)
 hours. Car rental is also an option and showing rates less than $30/day as of Oct 29th. 
 
 
-# [Invitation Letters for US visa](#letter)
+# <a name="letter"></a> [Invitation Letters for US visa](#letter)
 
 If you require an invitation letter for visa or other purposes please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSf-EPrWD58HLZRsJzx_JWJbaUPALPu5S-IZV-cVCdm2AkJh-w/viewform?usp=sf_link). We will email you a letter within 48 hours. You must be registered or a scholarship awardee to get the letter.
 
@@ -141,7 +141,7 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 
 
 
-# [Schedule](#speakers-and-schedule)
+# <a name="speakers-and-schedule"></a> [Speakers and Schedule](#speakers-and-schedule)
 
 <!--## Invited speakers!
 
@@ -216,7 +216,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 3:20-4:00pm
 
-### Invited Talk: Talia Wiess (MIT) 4:00-4:50pm
+### Invited Talk: Talia Weiss (MIT) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -290,15 +290,15 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 
 - [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris. 
 
-- [Executive decision making the Bayesian way:](#exec) This is for non-techinical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
+- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
 
 - [Advanced Modeling in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich. 
 
 - [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
 
 
-# [Actvities](#activities)
-Learning is fun but we anticpate that blowing off a little steam will
+# [Activities](#activities)
+Learning is fun but we anticipate that blowing off a little steam will
 be called for. 
 
 ## R/C Airplanes
@@ -312,7 +312,7 @@ can also create your own designs and we will have night illumination gear.
 
 ## S'mores By the Bonfire
 
-Pretty much self explanitory. Wed eve.
+Pretty much self explanatory. Wed eve.
 
 ## Snob-free Blind Wine Tasting
 
