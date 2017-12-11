@@ -10,6 +10,9 @@ excerpt: "Intro to R and Bioconductor"
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9519.181464571486!2d-1.4777067!3d53.3827108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60e5580cdf19b137!2sPam+Liversidge+Building!5e0!3m2!1sen!2suk!4v1510862811609" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+## Registration is open now
+Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/data-manipulation-and-visualisation-in-r) Fees for the course are £60.
+
 ## Overview
 
 It has been said that 80% of data analysis is spent on the process of cleaning and preparing the data. In this course we introduce some relatively-new additions to the R programming language; dplyr and ggplot2. In combination these provide a powerful toolkit to make the process of manipulating and visualising data easy and intuitive. 
@@ -94,5 +97,4 @@ Please click on this link to download all the files required to run the examples
 - [Summarising and Combining data](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html)
 - [Plotting data with ggplot2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2.html)
 
-## Registration is open now
-Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/data-manipulation-and-visualisation-in-r) Fees for the course are £60.
+
