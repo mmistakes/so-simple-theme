@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data Manipulation and Visualisation using R
-excerpt: "Intro to R and Bioconductor"
+excerpt: "A course on dplyr and ggplot2"
 ---
 
 - Sheffield - 15th December 2017
