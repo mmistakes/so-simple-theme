@@ -51,13 +51,29 @@ You will need to bring an internet-enabled laptop to the course and install the 
 
 Install R by downloading and running [this .exe file](http://cran.r-project.org/bin/windows/base/release.htm) from CRAN. Also, please install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop). Note that if you have separate user and admin accounts, you should run the installers as administrator (right-click on .exe file and select "Run as administrator" instead of double-clicking). Otherwise problems may occur later, for example when installing R packages.
 
+Please copy and paste the following line of text into an R console to install the R packages required for the course
+```
+install.packages(c("tidyverse","rmarkdown"))
+```
+
+
 ### Mac
 
 Install R by downloading and running [this .pkg file](http://cran.r-project.org/bin/macosx/R-latest.pkg) from CRAN. Also, please install the [RStudio IDE](http://www.rstudio.com/ide/download/desktop). 
 
+Please copy and paste the following line of text into an R console to install the R packages required for the course
+```
+install.packages(c("tidyverse","rmarkdown"))
+```
+
 ### Linux
 
 You can download the binary files for your distribution from CRAN. Or you can use your package manager (e.g. for Debian/Ubuntu run `sudo apt-get install r-base` and for Fedora run `sudo yum install R`). Also, please install [the RStudio IDE](http://www.rstudio.com/ide/download/desktop). 
+
+Please copy and paste the following line of text into an R console to install the R packages required for the course
+```
+install.packages(c("tidyverse","rmarkdown"))
+```
 
 
 ## Course Data
@@ -67,15 +83,16 @@ Please click on this link to download all the files required to run the examples
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
+- Katjuša Koler, Phd Student, [Hide Lab](https://hidelab.wordpress.com/)
 
 ## Schedule
 
 
-- Course Introduction
-- Introduction to dplyr
-- Writing analysis workflows in R
-- Summarising and Combining data
-- Plotting data with ggplot2
+- [Course Introduction](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/1.introduction.html)
+- [Introduction to dplyr](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/2.dplyr-intro.nb.html)
+- [Writing analysis workflows in R](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/3.workflows.nb.html)
+- [Summarising and Combining data](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html)
+- [Plotting data with ggplot2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2.html)
 
 ## Registration is open now
 Please book your registation [here.](http://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/data-manipulation-and-visualisation-in-r) Fees for the course are £60.
