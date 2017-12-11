@@ -170,7 +170,7 @@ Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
 
 * Causal inference with the g-formula in Stan. Leah Comment
 
-* A tutorial on Hidden Markov Models using Stan. Luis Damiano
+* A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt
 
 * Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman
 
@@ -218,7 +218,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Lunch 12:30-2:00pm
 
 * ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm
-* A tutorial on Hidden Markov Models using Stan. Luis Damiano 2:20-2:40pm
+* A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt 2:20-2:40pm
 * Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman (Stanford U) 2:40-3:00pm
 * SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 3:00-3:20pm
 
@@ -288,7 +288,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Lunch 12:30-1:30pm
 
 * Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm
-* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez ( 1:50-2:10pm
+* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm
 
 ### Invited Talk: Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
 
