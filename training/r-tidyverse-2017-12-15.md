@@ -97,4 +97,6 @@ Please click on this link to download all the files required to run the examples
 - [Summarising and Combining data](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html)
 - [Plotting data with ggplot2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2.html)
 
+## Feedback
 
+- Please give us feedback on how we can improve the course using [this form](https://docs.google.com/forms/d/e/1FAIpQLScKnivGl4ixKPPyEm7DQYYknhdGbEgZUEud9O0HspOwhXXJ3A/viewform)
