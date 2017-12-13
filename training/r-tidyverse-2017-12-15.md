@@ -86,7 +86,8 @@ Please click on this link to download all the files required to run the examples
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
-- Katjuša Koler, Phd Student, [Hide Lab](https://hidelab.wordpress.com/)
+- Katjuša Koler, PhD Student, [Hide Lab](https://hidelab.wordpress.com/), (SITraN)
+- Tim Freeman, PhD Student, [Wang lab](http://sitran.org/people/wang/), (SITraN)
 
 ## Schedule
 
