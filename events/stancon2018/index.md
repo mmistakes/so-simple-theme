@@ -37,34 +37,34 @@ Thanks to these fine folks for sponsoring StanCon2018
 
 <center style="padding: 0.75em 0 0 0">
 <a href="http://research.fb.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/Facebook-06-2015-White-on-Blue.png" /></a>
-</center> 
+</center>
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.generable.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/generable_word_logo.png" /></a>
-</center> 
+</center>
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://metrumrg.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/metrum_logo.png" /></a>
-</center> 
+</center>
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.jumpingrivers.com/?utm_source=stancon2018&utm_medium=image"><img width="200" src="img/colorJR.png" /></a>
-</center> 
+</center>
 
 <center style="padding: 0.75em 0 0 0">
-<a href="https://http://www.cibotechnologies.com/"><img width="200" src="img/CIBO Logo.png" /></a>
-</center> 
+<a href="https://www.cibotechnologies.com/"><img width="200" src="img/CIBO Logo.png" /></a>
+</center>
 
-<!--Jumping Rivers is teaching a [Stan class](https://www.jumpingrivers.com/courses/13_introductions-to-bayesian-inference-using-rstan?utm_source=stancon2018&utm_medium=course) Dec 7, Dec 8 at Newcastle University, Newcastle Upon Tyne in the UK. 
+<!--Jumping Rivers is teaching a [Stan class](https://www.jumpingrivers.com/courses/13_introductions-to-bayesian-inference-using-rstan?utm_source=stancon2018&utm_medium=course) Dec 7, Dec 8 at Newcastle University, Newcastle Upon Tyne in the UK.
 
 -->
 
-	
+
 ------
 
 # [Scholarships](#scholarships)
 
-We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link) 
+We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link)
 
 
 
@@ -72,20 +72,20 @@ We have gotten so many requests for scholarships after the deadline that we are 
 
 # <a name="poster"></a> [Wearable Poster Session](#poster)
 
-We will accept poster submissions on a rolling basis until January 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material which conincendentally will be the source airframe material for the R/C airplane activities following dinner. 
+We will accept poster submissions on a rolling basis until January 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material which conincendentally will be the source airframe material for the R/C airplane activities following dinner.
 
 # [Location](#location)
 
 ### [Asilomar Conference Grounds, Pacific Grove, California](https://aws.passkey.com/e/49190400/)
 
 StanCon 2018 will take place at the Asilomar Conference Grounds, a National
-Historic Landmark on the Monterey Peninsula right on the beach. 
+Historic Landmark on the Monterey Peninsula right on the beach.
 
 Asilomar is about 120 miles south of San Francisco and 75 miles south
 of San Jose. Shuttle service is $60 each way from San Francisco airport (3 hour
 trip) and $50 each way from San Jose airport (2 hour trip)
 (https://www.montereyairbus.com). Shuttles run approximately every 1.5
-hours. Car rental is also an option and showing rates less than $30/day as of Oct 29th. 
+hours. Car rental is also an option and showing rates less than $30/day as of Oct 29th.
 
 
 # <a name="letter"></a> [Invitation Letters for US visa](#letter)
@@ -99,7 +99,7 @@ IMPORTANT: Tell us your T-shirt size and tutorial/activity preferences on our [S
 
 If you are staying at the conference facility, Asilomar, then registration for the conference is handled as a part of the room booking process. Register/book room at [Asilomar](https://aws.passkey.com/e/49190400). More accomidation information below.
 
-Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Please do not use this to register and then stay at Asilomar with some cheap deal. Our room rate covers a bunch of conference expenses. See below for meal costs. 
+Offsite registration is done via [EventBrite](https://www.eventbrite.com/e/stancon-2018-tickets-38635275148). Please do not use this to register and then stay at Asilomar with some cheap deal. Our room rate covers a bunch of conference expenses. See below for meal costs.
 
 
 
@@ -197,7 +197,7 @@ Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
 
 -->
 
-Going to be a pressure cooker folks. Subject to change without notice. 
+Going to be a pressure cooker folks. Subject to change without notice.
 
 ## Wednesday, Jan 10
 
@@ -209,7 +209,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am 
+### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
 
 * Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:30-11:50am
 * Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara) 11:50am-12:10pm
@@ -244,7 +244,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am 
+### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
 
 * NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
@@ -255,7 +255,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm
 * Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 1:50-2:10pm
 
-### Modeling/Data Session + Classes 2:10-4:10pm 
+### Modeling/Data Session + Classes 2:10-4:10pm
 
 * Open session for consultations on modeling and data problems with Stan developers and modelers. 2:10-4:10pm
 * Session 3 of Intro to Stan 2:10-4:10pm
@@ -279,7 +279,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am 
+### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am
 
 * Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am
 * The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm
@@ -296,18 +296,18 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other:
 
-- [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris. 
+- [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris.
 
 - [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
 
-- [Advanced Modeling in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich. 
+- [Advanced Modeling in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich.
 
 - [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
 
 
 # [Activities](#activities)
 Learning is fun but we anticipate that blowing off a little steam will
-be called for. 
+be called for.
 
 ## R/C Airplanes
 
@@ -315,8 +315,8 @@ After dinner on Wed eve we will provide designs and
 building materials to create your own R/C airplane. The core design
 can be scratch built in 90 minutes or less at which point, and weather
 dependent, we will learn to fly our planes indoors or outdoors. See
-http://brooklynaerodrome.com for an idea of the style of airplane. You 
-can also create your own designs and we will have night illumination gear. 
+http://brooklynaerodrome.com for an idea of the style of airplane. You
+can also create your own designs and we will have night illumination gear.
 
 ## S'mores By the Bonfire
 
@@ -325,9 +325,9 @@ Pretty much self explanatory. Wed eve.
 ## Snob-free Blind Wine Tasting
 
 By day 2 you will have gotten to know your fellow
-attendees so some social adventure is called for. This activity has proved wildly 
-successful at DARPA conferences and they invented the internet so it can't be all bad. 
-Participants taste wines without knowing what they are. 
+attendees so some social adventure is called for. This activity has proved wildly
+successful at DARPA conferences and they invented the internet so it can't be all bad.
+Participants taste wines without knowing what they are.
 
 
 # [Code of Conduct](#code-of-conduct)
@@ -356,4 +356,3 @@ StanCon is organized by a volunteer community
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
 - Lizze Wolkovich (Harvard University)
- 
