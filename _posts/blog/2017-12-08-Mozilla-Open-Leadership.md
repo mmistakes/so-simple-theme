@@ -8,7 +8,6 @@ image:
   feature: mozfest-bnip-session.JPG
   credit: Jessie Liu
   creditlink: https://github.com/lzdh
-  caption: Does this work?
 link:
 date: 14-12-2017
 modified:
