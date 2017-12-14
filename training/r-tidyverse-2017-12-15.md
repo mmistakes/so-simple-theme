@@ -97,7 +97,10 @@ Please click on this link to download all the files required to run the examples
 - [Writing analysis workflows in R](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/3.workflows.nb.html)
 - [Summarising and Combining data](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html)
 - [Plotting data with ggplot2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2.html)
-
+    + [ggplot2 exercise set 1](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-exercises1-images.html)
+    + [ggplot2 exercise set 2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-exercises2-images.html)
+    
 ## Feedback
 
 - Please give us feedback on how we can improve the course using [this form](https://docs.google.com/forms/d/e/1FAIpQLScKnivGl4ixKPPyEm7DQYYknhdGbEgZUEud9O0HspOwhXXJ3A/viewform)
+
