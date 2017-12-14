@@ -5,9 +5,7 @@ categories: blog
 excerpt: Reflections on six months in the Mozilla community
 tags: [ moz-open-leaders, mozilla, moz-science-mini-grant, brain-networks-in-python ]
 image:
-  feature: mozfest-bnip-session.jpg
-  credit: Jessie Liu
-  creditlink: https://github.com/lzdh
+  feature:
 link:
 date: 14-12-2017
 modified:
