@@ -5,7 +5,7 @@ categories: blog
 excerpt: Reflections on six months in the Mozilla community
 tags: [ moz-open-leaders, mozilla, moz-science-mini-grant, brain-networks-in-python ]
 image:
-  feature: mozfest-bnip-session.JPG
+  feature: mozfest-bnip-session.jpg
   credit: Jessie Liu
   creditlink: https://github.com/lzdh
 link:
@@ -52,7 +52,7 @@ One of the goals of the mini grant was to add in tests to the code. I'm so proud
 I'll finish with a photo of the Brain Networks in Python MozFest session (where I used some pink wool - as edges - and our participants - as nodes - to build an in person network), and a thank you to all the folks at Mozilla who made this possible: Abby, Tim, Chris, Aurelia, Steph and many more :sparkles:
 
 <figure>
-  <img src="/images/mozfest-networks.JPG"
+  <img src="/images/mozfest-networks.jpg"
        alt="MozFest Brain Networks">
   <figcaption>Building a network with pink wool and our MozFest participants. Picture credit: Jessie Liu</figcaption>
 </figure>
