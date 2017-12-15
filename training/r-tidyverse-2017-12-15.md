@@ -112,6 +112,7 @@ Please click on this link to download all the files required to run the examples
 
 - [dplyr cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [ggplot2 cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+- [R graphics gallery](https://www.r-graph-gallery.com/)
     
 ## Acknowledgements
 
