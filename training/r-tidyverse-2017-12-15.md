@@ -100,6 +100,23 @@ Please click on this link to download all the files required to run the examples
     + [ggplot2 exercise set 1](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-exercises1-images.html)
     + [ggplot2 exercise set 2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-exercises2-images.html)
     
+## Solutions
+
+- [dplyr Intro](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/2.dplyr-intro-solutions.html)
+- [Workflows](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/3.workflows-solutions.html)
+- [Summarising and Joining]()
+- [ggplot2 exercise set 1]()
+- [ggplot2 exercise set 2]()
+
+## References
+
+- [dplyr cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [ggplot2 cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+    
+## Acknowledgements
+
+These materials were developing in collaboration with Matthew Eldridge [(CRUK Cambridge Institute)](http://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core), Thomas Carroll (Rockefeller University) and Michael Schubert.
+
 ## Feedback
 
 - Please give us feedback on how we can improve the course using [this form](https://docs.google.com/forms/d/e/1FAIpQLScKnivGl4ixKPPyEm7DQYYknhdGbEgZUEud9O0HspOwhXXJ3A/viewform)
