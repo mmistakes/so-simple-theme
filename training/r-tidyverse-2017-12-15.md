@@ -104,9 +104,9 @@ Please click on this link to download all the files required to run the examples
 
 - [dplyr Intro](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/2.dplyr-intro-solutions.html)
 - [Workflows](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/3.workflows-solutions.html)
-- [Summarising and Joining]()
-- [ggplot2 exercise set 1]()
-- [ggplot2 exercise set 2]()
+- [Summarising and Joining](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine-solutions.html)
+- [ggplot2 exercise set 1](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-solutions1.html)
+- [ggplot2 exercise set 2](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/ggplot2-solutions2.html)
 
 ## References
 
