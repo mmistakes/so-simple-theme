@@ -151,52 +151,6 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 
 # <a name="speakers-and-schedule"></a> [Speakers and Schedule](#speakers-and-schedule)
 
-<!--## Invited speakers!
-
-* Andrew Gelman <br> Department of Statistics and Political Science, Columbia University (Most Likely Virtual)
-* Susan Holmes <br>Department of Statistics, Stanford University
-* Sophia Rabe-Hesketh and Daniel Furr<br> Educational Statistics and Biostatistics, University of California, Berkeley
-* Sean Taylor and Ben Letham <br>Facebook Core Data Science
-* Manuel Rivas <br>Department of Biomedical Data Science, Stanford University
-* Talia Weiss <br>Department of Physics, Massachusetts Institute of Technology
-
-##Accepted Talks
-* Does the New York City Police Department rely on quotas? Jonathan Auerbach
-
-* Bayesian estimation of mechanical elastic constants.
-Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold
-
-* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe
-
-* Causal inference with the g-formula in Stan. Leah Comment
-
-* A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt
-
-* Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman
-
-* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton
-
-* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio
-
-* Introducing idealstan, an R package for ideal point modeling with Stan.  Robert Kubinec
-
-* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian
-
-* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington
-
-* Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman
-
-* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson
-
-* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips
-
-* ScalaStan. Joe Wingbermuehle
-
-* A brief history of Stan. Daniel Lee
-*  Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez
-
--->
-
 Going to be a pressure cooker folks. Subject to change without notice.
 
 ## Wednesday, Jan 10
@@ -209,7 +163,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
+### Invited Talk: Predictive information criteria in hierarchical Bayesian models for clustered data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
 
 * Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:30-11:50am
 * Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara) 11:50am-12:10pm
@@ -231,7 +185,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Dinner 6:30-8pm
 
 ### After Dinner 8-10pm
-* Build and fly your own R/C airplane
+* ~~Build and fly your own R/C airplane~~ Not any more folks, FAA has reinstated R/C aircraft restrictions. We will be doing air powered rockets with illumination. Don't worry, they are super fun and go really high. 
 * S'mores by the outdoor fire place
 
 ## Thursday, Jan 11
@@ -298,7 +252,7 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 
 - [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Bob Carpenter, Jonah Sol Gabry, Ben Goodrich, Sean Talts, Mitzi Morris.
 
-- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Imad Ali.
+- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Breck Baldwin, Eric Novick Imad Ali.
 
 - [Advanced Modeling in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Bob Carpenter, Jonah Sol Gabry, Andrew Gelman, Ben Goodrich.
 
@@ -309,14 +263,10 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 Learning is fun but we anticipate that blowing off a little steam will
 be called for.
 
-## R/C Airplanes
+## ~~R/C Airplanes~~ Now Air Powered Rockets
 
-After dinner on Wed eve we will provide designs and
-building materials to create your own R/C airplane. The core design
-can be scratch built in 90 minutes or less at which point, and weather
-dependent, we will learn to fly our planes indoors or outdoors. See
-http://brooklynaerodrome.com for an idea of the style of airplane. You
-can also create your own designs and we will have night illumination gear.
+R/C Airplanes are cancled due to FAA regulation changes in December. In place we will have build your own air powered rockets and they will be carrying night lights. After dinner on Wed eve we will provide designs and
+building materials to create your own rocket. It takes about 15 minutes if you are quick and we will have glow sticks to put on them.  
 
 ## S'mores By the Bonfire
 
