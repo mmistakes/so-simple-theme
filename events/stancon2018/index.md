@@ -17,7 +17,7 @@ Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove,
 
 ------
 - [**Sponsors**](#sponsors)
-- [**Scholarships are Back!**](#scholarships)
+<!--- [**Scholarships are Back!**](#scholarships)-->
 - [**Wearable Poster Session**](#poster)
 - [**Location**](#location)
 - [**Invitation Letters for US visa**](#letter)
@@ -64,8 +64,9 @@ Thanks to these fine folks for sponsoring StanCon2018
 
 # [Scholarships](#scholarships)
 
-We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link)
-
+Scholarshipes are closed. 
+<!--We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link)
+-->
 
 
 ------
