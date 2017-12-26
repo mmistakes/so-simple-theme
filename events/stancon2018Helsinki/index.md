@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 
-##THIS IS A DRAFT
+##THIS IS A DRAFT. All information may change.
 
 Two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
 {: style="font-size: 150%; text-align: center;"}
@@ -46,7 +46,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 
 | Deadline | What |
 |------|--------|
-| Apr 30, 2018 | Contributed talks submissions |
+| Apr 16, 2018 | Contributed talks submissions |
 | May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
 | July 31, 2018| Poster submissions |
@@ -55,7 +55,15 @@ Here are the important dates for StanCon 2018 Helsinki.
 
 # [Call for contributed talks](#call)
 
-Contributed talks instructions, send before Apr 30, 2018
+## Contributed talks
+
+Submissions should be sent by April 16, 2018 5:00:00 AM GMT to stanconsubmissions@mc-stan.org.
+
+StanCon’s version of conference proceedings is a collection of contributed talks based on interactive, self-contained notebooks (e.g., knitr, R Markdown, Jupyter, etc.). For example, you might demonstrate a novel modeling technique, or (possibly simplified version of) a novel application, etc. There is no minimum or maximum length and anyone using Stan is welcome to submit a contributed talk.
+
+More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.md) and examples of accepted submissions from StanCon 2017 are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks/tree/master/2017/Contributed-Talks) repository on GitHub.
+
+## Contributed posters
 
 We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. 
 
@@ -114,7 +122,7 @@ We are planning pre-conference tutorials on 29th August 2018
 # [Code of Conduct](#code-of-conduct)
 
 In order to facilitate a welcoming environment for all attendees, StanCon 2018
-will enforce a [code of conduct](/events/stancon2018/stancon-code_of_conduct.html).
+will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_conduct.html).
 
 
 # [Sponsors](#sponsors)
