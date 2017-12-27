@@ -47,6 +47,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 | Deadline | What |
 |------|--------|
 | Apr 16, 2018 | Contributed talks submissions |
+| May 16, 2018 | Contributed talks acceptance notifications |
 | May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
 | July 31, 2018| Poster submissions |
@@ -65,13 +66,16 @@ More details are available on the [StanCon submissions web page](/events/stancon
 
 ## Contributed posters
 
-We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. 
+We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018helsinki@mc-stan.org. 
 
 
 # [Registration Information](#registration-information)
 
 (add registration info)
 Registration includes coffee/tea/snacks (morning/afternoon), lunches, and dinner on Thursday evening.
+
+If you have questions regarding registration, payments, travel, please email
+[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
 ### Early Registration (ends May 31)
 
@@ -93,6 +97,10 @@ Registration includes coffee/tea/snacks (morning/afternoon), lunches, and dinner
 # [Accommodation](#accommodation)
 
 (add accommodation info)
+
+If you have questions regarding accommodation information, please email
+[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
+
 
 # [Invitation Letters for visa](#letter)
 
@@ -117,7 +125,7 @@ Dinner on Thursday evening
 
 # [Classes](#classes)
 
-We are planning pre-conference tutorials on 29th August 2018
+We are planning pre-conference tutorials on 29th August 2018.
 
 # [Code of Conduct](#code-of-conduct)
 
@@ -127,7 +135,7 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
-We will be updating the sponsor information soon. If you're interested in sponsoring StanCon, please reach out to [stancon@mc-stan.org](mailto:stancon@mc-stan.org).
+We will be updating the sponsor information soon. If you're interested in sponsoring StanCon, please reach out to [stancon2018helsinki@gmail.com](mailto:stancon2018helsinki@gmail.com).
 
 * Aalto University
 * Generable
@@ -137,7 +145,7 @@ We will be updating the sponsor information soon. If you're interested in sponso
 
 # <a name="committee"></a> [StanCon 2018 Helsinki Organizing Committee](#committee)
 
-If you have any questions regarding StanCon Helsinki, please email us at [stancon@mc-stan.org](stancon@mc-stan.org).
+<!-- If you have any questions regarding StanCon Helsinki, please email us at [stancon@mc-stan.org](stancon@mc-stan.org). -->
 
 StanCon is organized by a volunteer community
 
