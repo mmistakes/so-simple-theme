@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: About
+- title: Who's Who
   url: /about/
 
 - title: Visit
@@ -11,6 +11,9 @@
 
 - title: Blog
   url: /blog/
+
+- title: Contact
+  url: /contact/
 
 - title: Search
   url: /search/

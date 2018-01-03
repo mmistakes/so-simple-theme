@@ -9,13 +9,25 @@ kirstie_whitaker:
 
 isla_staden:
   name: Isla Staden
-  email: istaden@turing.ac.uk
-  bio: "Placement Research Assistant at the Alan Turing Institute. Interested in data-science, brain networks and topology" # Add a few words about yourself within the quotation marks.
-  avatar: IS_whitakerblogprofile.jpg # Please add a picture to the images folder (ok to be an avatar rather than a picture of you if you'd prefer)
+  email: istaden@gmail.com
+  bio: "Research Assistant at the Alan Turing Institute interested in data-science, brain networks and topology"
+  avatar: IS_whitakerblogprofile.jpg
+  twitter: islastaden
+
+#=============================================
+# Template profile - copy and paste this above
+# then complete as directed
+
+USER_NAME: # No spaces please
+  name: # Your name
+  email: # Your email
+  bio: # Add a few words about yourself within the quotation marks.
+  avatar: # Please add a picture to the images folder (ok to be an avatar rather than a picture of you if you'd prefer)
   twitter: # Ok to leave blank
 
 #=============================================
-# Template info, these can be deleted one day
+# People who shipped with the jekyll Template
+# these can be deleted one day
 
 billy_rick:
   name: Billy Rick
