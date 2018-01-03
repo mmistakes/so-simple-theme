@@ -21,13 +21,14 @@ In work [published in PNAS](http://dx.doi.org/10.1073/pnas.1601745113) in 2016, 
 
 One of the major focuses of the Whitaker Lab is to empower researchers to make their work reproducible from beginning to end.
 
-<a href="https://thenib.com/repeat-after-me">
-  <img alt="reproducibility definition from the nib comic strip"
-       src="https://thenib.imgix.net/usq/a81ad36e-ecfe-46e2-9710-ab4d77d97a09/repeat-after-me-004-c4c849.jpeg?auto=compress,format"
-       width="80%" >
-</a>
-
-*Panel from [Repeat After Me](https://thenib.com/repeat-after-me), by [Maki Naro](https://thenib.com/maki-naro).*
+<figure>
+    <a href="https://thenib.com/repeat-after-me">
+      <img alt="reproducibility definition from the nib comic strip"
+           src="https://thenib.imgix.net/usq/a81ad36e-ecfe-46e2-9710-ab4d77d97a09/repeat-after-me-004-c4c849.jpeg?auto=compress,format"
+           width="80%" >
+    </a>
+    <figcaption>Panel from <a href="https://thenib.com/repeat-after-me">Repeat After Me</a>, by <a href="https://thenib.com/maki-naro">Maki Naro</a>.</figcaption>
+</figure>
 
 Reproducible research is work that can be independently verified. In practise it means sharing the data and the code that were used to generate scientific results. Without the evidence of what was done, journal articles are simply nice, interesting stories. All readers, not just collaborators or the original authors, must be able to check published research.
 
@@ -49,8 +50,9 @@ The lab tweets [@Whitaker_Lab](https://twitter.com/Whitaker_Lab). Give us a foll
 
 You're very welcome to contact us via [GitHub](https://github.com/whitakerlab) too. Check out the issues at the lab's [project management](https://github.com/WhitakerLab/WhitakerLabProjectManagement/issues) repository. You may be able to help us out!
 
-This website is hosted via [GitHub pages](https://github.com/WhitakerLab/whitakerlab.github.io). If you see any typos or other mistakes please let us know...or file a pull request with your edits.
+We have a [gitter chat room](https://gitter.im/WhitakerLab/Lobby) and love to say hello there.
 
+This website is hosted via [GitHub pages](https://github.com/WhitakerLab/whitakerlab.github.io). If you see any typos or other mistakes please let us know...or file a pull request with your edits.
 
 <!---
 Commented out the code to list recent posts. Might be useful again one day in the future!
