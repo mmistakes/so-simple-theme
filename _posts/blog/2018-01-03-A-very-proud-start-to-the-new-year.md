@@ -39,7 +39,9 @@ You can find out more about Allyson at [thechangingbrain.com](http://www.allyson
 
 ### Rogier Kievit
 
-Rogier was
+Rogier is also a dear friend, this time from my postdoc in Cambridge. He studies longitudinal models of brain and behaviour across the lifespan. He is singularly capable in everything he sets his mind to, and funny and kind at the same time! Rogier and his wife - Dr Anne-Laura van Harmelen (a [Royal Society fellow](https://royalsociety.org/people/anne-laura-van-harmelen-13182/) with a phenomenal [£500,000 MQ grant](https://www.mqmentalhealth.org/posts/new-research-depression-and-suicide-in-young-people)) - used to take such great care of me when I was very unhappy in my first few years in Cambridge.
+
+The picture below is of Rogier celebrating his son Flynn's birthday at London Zoo last year. Flynn is disabled - he has a very rare chromosome abnormality - and the fact that his parents are kicking so much butt in their fields of research is a true testament to their intelligence, resilience and humour in the most challenging of times.
 
 You can find out more about Rogier at [rogierkievit.com](https://rogierkievit.com) and follow him on twitter [@rogierK](https://twitter.com/rogierK).
 
@@ -63,6 +65,8 @@ You can find out more about Chris at [www.cmadan.com](http://www.cmadan.com/) an
 
 ### Caterina Gratton
 
+Caterina is another alumna of the Helen Wills Neuroscience graduate program at UC Berkeley. She's at the University of Washington as a postdoc right now - and a member of the [Midnight Scan Club](https://www.pri.org/stories/2017-08-20/midnight-scan-club-sheds-new-light-human-brain) - but will be starting her own lab at Northwestern University in Fall 2018. As with all the other rising stars, she's going to be continue to be spectacular.
+
 You can find out more about Caterina at [sites.google.com/site/caterinagratton/home](https://sites.google.com/site/caterinagratton/home) and follow her on twitter [@GrattonCaterina](https://twitter.com/GrattonCaterina).
 
 <figure>
@@ -71,4 +75,20 @@ You can find out more about Caterina at [sites.google.com/site/caterinagratton/h
   <figcaption>Watching Italy lose in the World Cup with Caterina, July 2012</figcaption>
 </figure>
 
-## Order of the British Empire
+## Ian Goodyer, Order of the British Empire
+
+In the new year's honours list, [Prof Ian Goodyer](http://www.neuroscience.cam.ac.uk/directory/profile.php?ig104) was made an OBE, for ["services to Psychiatry Research"](https://www.thegazette.co.uk/notice/2938057). This recognition is well deserved and I'm incredibly proud.
+
+Until January 2017, Ian was the chief investigator of the [Neuroscience in Psychiatry Network](http://www.nspn.org.uk/), a £5 million strategic award to the University of Cambridge and University College London from the Wellcome Trust. One of the goals of NSPN was to create a huge cohort of typically developing adolescents in order to better understand the emergence of mental health disorders. Some of that money paid for me to work as a postdoc within the consortium for 3 years.
+
+Prof Goodyer is both a clinician - until his retirement in 2017 he was still seeing and treating young people with mental health disorders - and a scientist. You can read all about Ian's contribution to our understanding of childhood and teenage mental health disorders in [this great interview from 2015](https://www.escap.eu/research/ian-goodyer-reveals-unique-research-on-depression-and-conduct-disorder-development/). But I want to finish this little blog post with a personal story:
+
+Ian is literally the only faculty member in Cambridge who has ever asked me how I am, how my personal life is going and what he can do to help. It seems so small, but it will always mean so much to me to have someone ask after my own mental health as I studied major depressive disorder! Ian found me a desk when I didn't have anywhere to sit, he supported me through my five years in Cambridge, and made me feel a valued member of the team.
+
+The care he brings with him to the clinic and to the lab make this OBE incredibly well deserved on their own. The fact that he's also spent his whole career advocating for a better understanding of why so many young people suffer in our country is just the icing on the cake. Congratulations Ian!
+
+<figure>
+  <img src="/images/nspn-team-pic-Aug2016.jpg"
+       alt="NSPN team picture">
+  <figcaption>Neuroscience in Psychiatry Network team picture with Chief Investigator Ian Goodyer (second from right), August 2016</figcaption>
+</figure>
