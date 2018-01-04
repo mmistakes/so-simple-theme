@@ -181,7 +181,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 3:20-4:00pm
 
-### Invited Talk: Bayesian Strategies for Ordering in an Unknown Resturant--How Informative a Prior? Talia Weiss (MIT) 4:00-4:50pm
+### Invited Talk: Talia Weiss (MIT) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -221,7 +221,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * 2:30-3:30pm Have I converged successfully? How to verify fit and diagnose fit problems, Bob Carpenter
 * What is new to Stan 3:30-4:10pm
 
-### Invited Talk: Hunting the Dangerous, Elusive and Shy Delta Function in the Multi-Dimensional Posterior Jungle: Manuel Rivas (Stanford U) 4:00-4:50pm
+### Invited Talk: Manuel Rivas (Stanford U) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -238,7 +238,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Is God a Bayesian? Susan Holmes (Stanford U) 10:40-11:30am
+### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am
 
 * Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am
 * The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm
@@ -249,7 +249,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm
 * Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm
 
-### Invited Talk: LaPlaceian vs Bayesian? Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
+### Invited Talk: Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
 
 # [Classes/Tutorials](#classes)
 
