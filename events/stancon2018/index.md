@@ -202,7 +202,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Prophet and Profit: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
+### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
 
 * NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
