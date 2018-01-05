@@ -21,7 +21,6 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 - [**Call for contributed talks and posters**](#call)
 - [**Registration**](#registration-information)
 - [**Accommodation**](#accommodation)
-- [**Invitation Letters for visa**](#letter)
 - [**Speakers and Schedule**](#speakers-and-schedule)
 - [**Tutorials**](#tutorials)
 - [**Sponsors**](#sponsors)
@@ -36,7 +35,7 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 
 StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the proximity of Helsinki city centre. 
 
-[Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.md)
+[Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
 # [Important Dates](#important-dates)
 
@@ -61,7 +60,7 @@ Submissions should be sent by April 16, 2018 5:00:00 AM GMT to stanconsubmission
 
 StanCon’s version of conference proceedings is a collection of contributed talks based on interactive, self-contained notebooks (e.g., knitr, R Markdown, Jupyter, etc.). For example, you might demonstrate a novel modeling technique, or (possibly simplified version of) a novel application, etc. There is no minimum or maximum length and anyone using Stan is welcome to submit a contributed talk.
 
-More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.md) and examples of accepted submissions from StanCon 2017 are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks/tree/master/2017/Contributed-Talks) repository on GitHub.
+More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.html) and examples of accepted submissions from StanCon 2017 are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks/tree/master/2017/Contributed-Talks) repository on GitHub.
 
 ## Contributed posters
 
@@ -87,7 +86,7 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 <br>
 
-[Details on registration and payments](/events/stancon2018Helsinki/stancon-travel.md)
+[Details on registration and payments](/events/stancon2018Helsinki/stancon-travel.html)
 
 If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
