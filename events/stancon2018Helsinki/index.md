@@ -9,8 +9,6 @@ image:
   creditlink:
 ---
 
-##THIS IS A DRAFT. All information may change.
-
 Two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
 {: style="font-size: 150%; text-align: center;"}
 
@@ -25,7 +23,7 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 - [**Accommodation**](#accommodation)
 - [**Invitation Letters for visa**](#letter)
 - [**Speakers and Schedule**](#speakers-and-schedule)
-- [**Classes**](#classes)
+- [**Tutorials**](#tutorials)
 - [**Sponsors**](#sponsors)
 - [**StanCon 2018 Helsinki Organizing Committee**](#committee)
 
@@ -34,11 +32,11 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 
 # [Location](#location)
 
-### [Aalto University, Töölö Campus, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
+### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
 
 StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the proximity of Helsinki city centre. 
 
-Add on or two paragraphs about Helsinki and how to get there.
+[Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.md)
 
 # [Important Dates](#important-dates)
 
@@ -51,6 +49,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 | May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
 | July 31, 2018| Poster submissions |
+| Aug 29, 2018 | Stan tutorials |
 | Aug 30-31, 2018 | Stan Conference!!! |
 
 
@@ -71,18 +70,12 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 # [Registration Information](#registration-information)
 
-(add registration info)
-Registration includes coffee/tea/snacks (morning/afternoon), lunches, and dinner on Thursday evening.
-
-If you have questions regarding registration, payments, travel, please email
-[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
 ### Early Registration (ends May 31)
 
-
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
-| $100 | $200 | $300 |
+| EUR 100 | EUR 200 | EUR 300 |
 
 <br>
 
@@ -90,21 +83,18 @@ If you have questions regarding registration, payments, travel, please email
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
-| $150 | $300 | $450 |
+| EUR 150 | EUR 300 | EUR 450 |
 
 <br>
 
-# [Accommodation](#accommodation)
+[Details on registration and payments](/events/stancon2018Helsinki/stancon-travel.md)
 
-(add accommodation info)
-
-If you have questions regarding accommodation information, please email
+If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
+# [Accommodation](#accommodation)
 
-# [Invitation Letters for visa](#letter)
-
-If you require an invitation letter for visa or other purposes please [add instructions. We will email you a letter within 48 hours. You must be registered or a scholarship awardee to get the letter.
+Please make your hotel reservation directly to the hotels. We are arranging some deals with hotels and provide list of some recommended hotels near the venue. More details will be updated soon.
 
 # [Speakers and Schedule](#speakers-and-schedule)
 
@@ -117,13 +107,14 @@ If you require an invitation letter for visa or other purposes please [add instr
 
 ## Schedule
 
-TBD! The committee is actively working on the schedule.
+TBD! <!-- The committee is actively working on the schedule. -->
 
 ## [Dinner](#dinner)
 
-Dinner on Thursday evening
+Conference dinner will be on Thursday evening (included in the
+registration fee).
 
-# [Classes](#classes)
+# [Tutorials](#tutorials)
 
 We are planning pre-conference tutorials on 29th August 2018.
 
@@ -135,22 +126,29 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
-We will be updating the sponsor information soon. If you're interested in sponsoring StanCon, please reach out to [stancon2018helsinki@gmail.com](mailto:stancon2018helsinki@gmail.com).
+* [Generable](generable.com)
+* [Reaktor](reaktor.com)
+* [Amazon](amazon.com)
+* [Finnish Center for Artificial Intelligence](fcai.fi)
+* [Aalto University](www.aalto.fi/en/)
 
-* Aalto University
-* Generable
-
-<!-- We thank our wonderful sponsors this year! -->
-
+If you're interested in sponsoring StanCon, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
 # <a name="committee"></a> [StanCon 2018 Helsinki Organizing Committee](#committee)
 
-<!-- If you have any questions regarding StanCon Helsinki, please email us at [stancon@mc-stan.org](stancon@mc-stan.org). -->
+If you have questions regarding registration, payments, travel, please email
+[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
+
+For other questions regarding StanCon Helsinki, please email us at [stancon2018helsinki@mc-stan.org](stancon2018helsinki@mc-stan.org).
 
 StanCon is organized by a volunteer community
 
-- Aki Vehtari (Aalto University)
-- Breck Baldwin (Columbia University)
-- Jonah Gabry (Columbia University)
-- Rob Trangucci (University of Michigan)
-- ???
+* Aki Vehtari (Aalto University)
+* Breck Baldwin (Columbia University)
+* Jonah Gabry (Columbia University)
+* Rob Trangucci (University of Michigan)
+* Daniel Lee (Generable)
+* Eero Siivola (Aalto University)
+* Juho Piironen (Aalto University)
+* Topi Paananen (Aalto University)
+* Tuomas Sivula (Aalto University)
