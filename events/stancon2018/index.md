@@ -169,7 +169,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Invited Talk: Predictive information criteria in hierarchical Bayesian models for clustered data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
 
 * Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:30-11:50am
-* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara) 11:50am-12:10pm
+* Diagnosing Alzheimer's the Bayesian Way. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 11:50am-12:10pm
 * Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:10-12:30pm
 
 ### Lunch 12:30-2:00pm
@@ -211,7 +211,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Lunch 12:30-1:30pm
 
 * Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm
-* Flexible modeling of Alzheimer's disease progression with I-Splines. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 1:50-2:10pm
+* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara)  1:50-2:10pm
 * Intrinsic Auto-Regressive (ICAR) Models for Spatial Data, Mitzi Morris (Columbia U) 2:10-2:30pm
 
 ### Modeling/Data Session + Classes 2:30-4:10pm
@@ -221,7 +221,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * 2:30-3:30pm Have I converged successfully? How to verify fit and diagnose fit problems, Bob Carpenter
 * What is new to Stan 3:30-4:10pm
 
-### Invited Talk: Manuel Rivas (Stanford U) 4:00-4:50pm
+### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm
 
 ### Reception 5:00-6:30pm
 
@@ -257,11 +257,28 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 
 - [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Jonah Sol Gabry.
 
-- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Breck Baldwin, Eric Novik.
+- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Eric Novik.
 
 - [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Ben Goodrich.
 
-- [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Christopher Margossian.
+- [Model assessment, selection and inference after model selection](#model) The tutorial covers cross-validation, reference predictive and projection predictive approaches for model assessment, selection and inference after model selection. I discuss when cross-validation is useful and when we can do better than cross-validation (and why not to use WAIC).  The tutorial is accommopanied with R notebooks using rstanarm, bayesplot, loo, and projpred packages. You can bring also your own data and model to get recommendations for model assessment
+and selection.
+
+
+- [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Margossian.
+
+- [A Dive into Stan's C++ Model Concept](#dive) This will be a discussion partially driven by the participants. We will cover things like:
+	- how the Stan language is translated to C++
+	- overview of the C++ model concept that's generated
+	- how to use the math library for autodiff
+	- how to use the generated C++ model concept to write an inference algorithm in C++
+	- opportunities in efficient computing once the C++ is generated
+
+	Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee.
+
+
+
+
 
 
 # [Activities](#activities)
