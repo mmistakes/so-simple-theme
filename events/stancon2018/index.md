@@ -181,13 +181,13 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 3:20-4:00pm
 
-### Invited Talk: Talia Weiss (MIT) 4:00-4:50pm
+### Invited Talk: Stan Applications in Physics: Testing Quantum Mechanics and Modeling Neutrino Masses, Talia Weiss (MIT) 4:00-4:50pm
 
-### Reception 5:00-6:30pm
+### Reception 5:00-6:00pm
 
-### Dinner 6:30-8pm
+### Dinner 6:00-7pm
 
-### After Dinner 8-10pm
+### After Dinner 7-9pm
 * ~~Build and fly your own R/C airplane~~ Not any more folks, FAA has reinstated R/C aircraft restrictions. We will be doing air powered rockets with illumination. Don't worry, they are super fun and go really high. 
 * S'mores by the outdoor fire place
 
@@ -202,7 +202,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
+### Invited Talk: Forecasting at Scale: How and why we developed Prophet for forecasting at Facebook, Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
 
 * NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
@@ -249,7 +249,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm
 * Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm
 
-### Invited Talk: Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
+### Invited Talk: Some problems I'd like to solve in Stan, and what we'll need to do to get there, Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
 
 # [Classes/Tutorials](#classes)
 
