@@ -73,7 +73,7 @@ Scholarshipes are closed.
 
 # <a name="poster"></a> [Wearable Poster Session](#poster)
 
-We will accept poster submissions on a rolling basis until January 5th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018@mc-stan.org. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material.
+We will accept poster submissions on a rolling basis until January 9th. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within min(48 hours,time before reception - 1 hr). Send to stancon2018@mc-stan.org or just come talk to Breck at the conference. The only somewhat odd requirement is that your poster must be "wearable" to the 5pm reception where you will be a walking presentation. Great way to network, signboard supplies will be available so you need only have sheets of paper which can be attached to signboard material.
 
 
 
@@ -158,6 +158,8 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ## Wednesday, Jan 10
 
+### Breakfast 7:30-9:00am
+
 ### Tutorials/Classes 8:00-10:00am
 
 * 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry
@@ -193,6 +195,8 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ## Thursday, Jan 11
 
+### Breakfast 7:30-9:00am
+
 ### Tutorials/Classes
 
 * 8am-10am Intro To Stan session 2, Jonah Sol Gabry, Sean Talts, Mitzi Morris
@@ -219,6 +223,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Open session for consultations on modeling and data problems with Stan developers and modelers. 2:30-4:10pm
 * Session 3 of Intro to Stan 2:30-4:10pm
 * 2:30-3:30pm Have I converged successfully? How to verify fit and diagnose fit problems, Bob Carpenter
+* 3:30-4:10pm [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
 * ~~What is new to Stan 3:30-4:10pm~~ Canceled
 
 ### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm
@@ -231,6 +236,8 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Non-snobby Blind Wine Tasting
 
 ## Friday, Jan 12
+
+### Breakfast 7:30-9:00am
 
 ### Tutorials/Classes
 
@@ -255,19 +262,18 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 # [Classes/Tutorials](#classes)
 
-We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other:
+We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other--rooms to be determined (Merrill or Scripps):
 
-- [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Jonah Sol Gabry.
+- [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Wed-Fri 8-10am, Thurs 2:30-4:10pm. Jonah Sol Gabry, Mitzi Morris, Sean Talts.
 
-- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Eric Novik.
+- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. Wed 8-9am, Thurs 3:30-4:10, Friday 8-9am. Jonathan Auerback, Eric Novik.
 
-- [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Ben Goodrich.
+- [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Ben Goodrich. 9-10am Wed.
 
-- [Model assessment, selection and inference after model selection](#model) The tutorial covers cross-validation, reference predictive and projection predictive approaches for model assessment, selection and inference after model selection. I discuss when cross-validation is useful and when we can do better than cross-validation (and why not to use WAIC).  The tutorial is accommopanied with R notebooks using rstanarm, bayesplot, loo, and projpred packages. You can bring also your own data and model to get recommendations for model assessment
-and selection.
+- [Model assessment, selection and inference after model selection](#model) The tutorial covers cross-validation, reference predictive and projection predictive approaches for model assessment, selection and inference after model selection. I discuss when cross-validation is useful and when we can do better than cross-validation (and why not to use WAIC).  The tutorial is accommopanied with R notebooks using rstanarm, bayesplot, loo, and projpred packages. You can bring also your own data and model to get recommendations for model assessment and selection. Aki Vehtari, Thurs 8-9am
 
 
-- [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Margossian.
+- [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Margossian, 9-10am Thurs.
 
 - [A Dive into Stan's C++ Model Concept](#dive) This will be a discussion partially driven by the participants. We will cover things like:
 	- how the Stan language is translated to C++
@@ -276,7 +282,7 @@ and selection.
 	- how to use the generated C++ model concept to write an inference algorithm in C++
 	- opportunities in efficient computing once the C++ is generated
 
-	Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee.
+	Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee, 9-10am Friday.
 
 
 
