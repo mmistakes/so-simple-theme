@@ -86,7 +86,7 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 <br>
 
-[Details on registration and payments](/events/stancon2018Helsinki/stancon-travel.html)
+[Details on registration and payments](/events/stancon2018Helsinki/stancon-registration.html)
 
 If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
@@ -138,7 +138,7 @@ If you're interested in sponsoring StanCon, please reach out to [stancon2018hels
 If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
-For other questions regarding StanCon Helsinki, please email us at [stancon2018helsinki@mc-stan.org](stancon2018helsinki@mc-stan.org).
+For other questions regarding StanCon Helsinki, please email us at [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
 StanCon is organized by a volunteer community
 
