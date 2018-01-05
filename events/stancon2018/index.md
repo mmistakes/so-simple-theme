@@ -161,7 +161,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Tutorials/Classes 8:00-10:00am
 
 * 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry
-* 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them](#exec) Eric Novik, Jonathan Auerbach
+* 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 1](#exec) Eric Novik, Jonathan Auerbach
 * 9-10 am [Advanced Hierarchical Models](#advanced) Ben Goodrich
 
 ### Break 10:00-10:40am
@@ -197,7 +197,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 * 8am-10am Intro To Stan session 2, Jonah Sol Gabry, Sean Talts, Mitzi Morris
 * 8-9 am Model Selection, Aki Vehtari
-* How to develop for Stan C++ 2:30-3:30pm Charles Margossian
+* 9-10am How to develop for the Stan C++ Core. Charles Margossian
 
 
 ### Break 10:00-10:40am
@@ -219,15 +219,15 @@ Going to be a pressure cooker folks. Subject to change without notice.
 * Open session for consultations on modeling and data problems with Stan developers and modelers. 2:30-4:10pm
 * Session 3 of Intro to Stan 2:30-4:10pm
 * 2:30-3:30pm Have I converged successfully? How to verify fit and diagnose fit problems, Bob Carpenter
-* What is new to Stan 3:30-4:10pm
+* ~~What is new to Stan 3:30-4:10pm~~ Canceled
 
 ### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm
 
-### Reception 5:00-6:30pm
+### Reception 5:00-6:00pm
 
-### Dinner 6:30-8:00pm
+### Dinner 6:00-7:00pm
 
-### After Dinner 8:00-10:00pm
+### After Dinner 7:00-9:00pm
 * Non-snobby Blind Wine Tasting
 
 ## Friday, Jan 12
@@ -235,6 +235,8 @@ Going to be a pressure cooker folks. Subject to change without notice.
 ### Tutorials/Classes
 
 * 8am-10am [Intro To Stan session 4](#classes)
+* 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
+* 9-10am [A Dive into Stan's C++ Model Concept](#dive) Daniel Lee
 
 ### Break 10:00-10:40am
 
