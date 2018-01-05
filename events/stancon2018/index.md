@@ -257,7 +257,7 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 
 - [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Two hours every day, 6 hours total. Jonah Sol Gabry.
 
-- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Breck Baldwin, Eric Novick.
+- [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. One hour every day. Jonathan Auerback, Breck Baldwin, Eric Novik.
 
 - [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Very interactive, very intense. Topics vary by day. Ben Goodrich.
 
