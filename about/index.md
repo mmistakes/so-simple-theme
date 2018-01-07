@@ -17,8 +17,8 @@ Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologie
 #### Languages ####
 * PHP, JavaScript, HTML/CSS (HTML5/CSS3), ActionScript 3
 
-#### Frameworks ####
-* Laravel (Lumen), React, ReactNative, Slim, Yii 2, WordPress, jQuery
+#### Frameworks & Libraries ####
+* Laravel (Lumen), Slim, WordPress, React, ReactNative, jQuery, Bootstrap
 
 #### Other ####
 * Unix, Git, Vagrant, Docker, AWS (VPC, ELB, EC2, ECS, RDS, S3)
