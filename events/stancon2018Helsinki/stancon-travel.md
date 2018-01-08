@@ -19,9 +19,9 @@ The city of Helsinki was founded in 1550 by King Gustav Vasa of Sweden and has b
 More than one-fifth of the country’s population lives in the Helsinki area. It is easy to get around the capital. The nature as well as the Baltic Sea is present even in the city centre. A great way to enjoy the sea and Finland’s magnificent archipelago is to take a cruise from Helsinki to the Baltic Sea.
 Further information:
 
-* about Finland: [www.visitfinland.com](www.visitfinland.com)
-* about Helsinki: [www.visithelsinki.fi/en](www.visithelsinki.fi/en)
-* about the weather: [en.ilmatieteenlaitos.fi](en.ilmatieteenlaitos.fi)
+* about Finland: [www.visitfinland.com](http://www.visitfinland.com)
+* about Helsinki: [www.visithelsinki.fi/en](http://www.visithelsinki.fi/en)
+* about the weather: [en.ilmatieteenlaitos.fi](http://en.ilmatieteenlaitos.fi)
 
 ## Visa information
 
@@ -31,7 +31,7 @@ The conference organizers will send a proof of registration as soon as the full 
 
 The organizer will assist applicants if needed in the visa application process. If you know you will be needing visa for your entry in Finland, please start the application process in good time.
 
-More information about visas for Finland, please see [www.formin.fi](www.formin.fi) and further questions can be e-mailed to visas.passports@formin.fi
+More information about visas for Finland, please see [www.formin.fi](http://www.formin.fi) and further questions can be e-mailed to visas.passports@formin.fi
 
 ## Insurance
 The registration fee does not include any insurance. Please check the coverage of your own insurance.
@@ -49,11 +49,12 @@ Foreign currency and travellers’ cheques can be exchanged in exchange offices 
 ## Electricity
 
 230 volts (50HZ), plugs conform to the northern European standard with 2 pins.
-Travel around
+
+## Travel around
 
 Once in Finland, many delegates wish to explore the country, or the neighbouring countries more extensively. There are a variety of choices, for example visiting the Finnish Lapland to see the midnight sun, taking a cruise to the neighbouring cities of Stockholm, Tallinn or St. Petersburg or enjoying one of the summer festivals in Finland.
 
-You can also look [www.visitfinland.com](www.visitfinland.com) and the travel sites of your host cities [www.visitespoo.fi](www.visitespoo.fi) and [www.visithelsinki.fi](www.visithelsinki.fi).
+You can also look [www.visitfinland.com](http://www.visitfinland.com) and the travel sites of your host cities [www.visitespoo.fi](http://www.visitespoo.fi) and [www.visithelsinki.fi](http://www.visithelsinki.fi).
 
 ## Travel information 
 

@@ -125,11 +125,11 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
-* [Generable](generable.com)
-* [Reaktor](reaktor.com)
-* [Amazon](amazon.com)
-* [Finnish Center for Artificial Intelligence](fcai.fi)
-* [Aalto University](www.aalto.fi/en/)
+* [Generable](https://www.generable.com/)
+* [Reaktor](https://www.reaktor.com/)
+* [Amazon](https://www.amazon.com/)
+* [Finnish Center for Artificial Intelligence](http://fcai.fi)
+* [Aalto University](http://www.aalto.fi/en/)
 
 If you're interested in sponsoring StanCon, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
