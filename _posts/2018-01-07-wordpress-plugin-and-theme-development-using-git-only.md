@@ -21,12 +21,10 @@ At this point, you have plugin's code hosted on [WordPress SVN](https://develope
 Begin with creating `.travis.yml` file in your repository to tell Travis what to do:
 
 ```yaml
-# TODO: WHY?
 language: php
 php:
 - 7.0
 
-# TODO: WHAT IS IT?
 script:
 - php -l *.php
 ```
