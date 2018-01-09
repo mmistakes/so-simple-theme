@@ -162,19 +162,21 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Tutorials/Classes 8:00-10:00am
 
-* 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry
+* 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry, Mitzi Morris, Sean Talts
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 1](#exec) Eric Novik, Jonathan Auerbach
 * 9-10 am [Advanced Hierarchical Models](#advanced) Ben Goodrich
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Predictive information criteria in hierarchical Bayesian models for clustered data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
+### Invited Talk: Predictive Information Criteria in Hierarchical Bayesian Models for Clustered Data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
 
-* Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:30-11:50am
-* Diagnosing Alzheimer's the Bayesian Way. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 11:50am-12:10pm
-* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:10-12:30pm
+* Opening Comments and Information you Need, Breck Baldwin 11:30-11:40am
 
-### Lunch 12:30-2:00pm
+* Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:40-12:00am
+* Diagnosing Alzheimer's the Bayesian Way. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 12:00am-12:20pm
+* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:20-12:40pm
+
+### Lunch 12:40-2:00pm
 
 * ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm
 * A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt 2:20-2:40pm
@@ -199,16 +201,19 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Tutorials/Classes
 
-* 8am-10am Intro To Stan session 2, Jonah Sol Gabry, Sean Talts, Mitzi Morris
-* 8-9 am Model Selection, Aki Vehtari
-* 9-10am How to develop for the Stan C++ Core. Charles Margossian
+* 7-8am [Advanced Hierarchical Models session 2](#advanced) Ben Goodrich 
+* 8am-10am [Intro To Stan session 2](#intro), Jonah Sol Gabry, Sean Talts, Mitzi Morris
+* 8-9 am [Model Selection](#model), Aki Vehtari
+* 9-10am [How to develop for the Stan C++ Core](#core), Charles Margossian
 
 
 ### Break 10:00-10:40am
 
 ### Invited Talk: Forecasting at Scale: How and why we developed Prophet for forecasting at Facebook, Sean Taylor and Ben Letham (Facebook) 10:40-11:30am
 
-* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
+<!--* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
+-->
+* Intrinsic Auto-Regressive (ICAR) Models for Spatial Data, Mitzi Morris (Columbia U) 11:30-11:50pm
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
 * A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm
 
@@ -216,14 +221,15 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 * Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm
 * Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara)  1:50-2:10pm
-* Intrinsic Auto-Regressive (ICAR) Models for Spatial Data, Mitzi Morris (Columbia U) 2:10-2:30pm
+* Mystery Talk, Mystery Person, 2:10-2:30
+
 
 ### Modeling/Data Session + Classes 2:30-4:10pm
 
-* Open session for consultations on modeling and data problems with Stan developers and modelers. 2:30-4:10pm
-* Session 3 of Intro to Stan 2:30-4:10pm
-* 2:30-3:30pm Have I converged successfully? How to verify fit and diagnose fit problems, Bob Carpenter
-* 3:30-4:10pm [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
+* 2:30-4:10pm Open session for consultations on modeling and data problems with Stan developers and modelers. 
+* 2:30-4:10pm [Intro to Stan Session 3](#intro) 
+* 2:30-3:30pm [Have I converged successfully? How to verify fit and diagnose fit problems](#fit), Bob Carpenter
+* 3:30-4:10pm [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec)  Eric Novik, Jonathan Auerbach
 * ~~What is new to Stan 3:30-4:10pm~~ Canceled
 
 ### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm
@@ -241,6 +247,7 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 ### Tutorials/Classes
 
+* 7-8am [Advanced Hierarchical Models session 3](#advanced) Ben Goodrich 
 * 8am-10am [Intro To Stan session 4](#classes)
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
 * 9-10am [A Dive into Stan's C++ Model Concept](#dive) Daniel Lee
@@ -262,13 +269,13 @@ Going to be a pressure cooker folks. Subject to change without notice.
 
 # [Classes/Tutorials](#classes)
 
-We have tutorials that start at the crack of 8am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other--rooms to be determined (Merrill or Scripps):
+We have tutorials that start at the crack of 7am for those desiring further edification beyond the program--these do not run in parallel to the main session but do run parallel to each other--rooms to be determined (Merrill or Scripps):
 
 - [Introduction to Stan:](#intro) Know how to program? Know basic statistics? Curious about Bayesian analysis and Stan? This is the course for you. Hands on, focused and an excellent way to get started working in Stan. Wed-Fri 8-10am, Thurs 2:30-4:10pm. Jonah Sol Gabry, Mitzi Morris, Sean Talts.
 
 - [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. Wed 8-9am, Thurs 3:30-4:10, Friday 8-9am. Jonathan Auerback, Eric Novik.
 
-- [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Ben Goodrich. 9-10am Wed.
+- [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Ben Goodrich. 9-10am Wed, 7-8am Thurs, 7-8am Friday.
 
 - [Model assessment, selection and inference after model selection](#model) The tutorial covers cross-validation, reference predictive and projection predictive approaches for model assessment, selection and inference after model selection. I discuss when cross-validation is useful and when we can do better than cross-validation (and why not to use WAIC).  The tutorial is accommopanied with R notebooks using rstanarm, bayesplot, loo, and projpred packages. You can bring also your own data and model to get recommendations for model assessment and selection. Aki Vehtari, Thurs 8-9am
 
@@ -283,10 +290,6 @@ We have tutorials that start at the crack of 8am for those desiring further edif
 	- opportunities in efficient computing once the C++ is generated
 
 	Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee, 9-10am Friday.
-
-
-
-
 
 
 # [Activities](#activities)
