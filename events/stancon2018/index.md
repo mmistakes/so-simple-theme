@@ -156,11 +156,14 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 
 Going to be a pressure cooker folks. Subject to change without notice.
 
+	Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner activities and some tutorials (Scripps Hall). 
+
 ## Wednesday, Jan 10
 
 ### Breakfast 7:30-9:00am
 
 ### Tutorials/Classes 8:00-10:00am
+Meet Merrill Hall to Asses Class Sizes, other room is Scripps Hall. 
 
 * 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry, Mitzi Morris, Sean Talts
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 1](#exec) Eric Novik, Jonathan Auerbach
