@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 
-#Updates Wed Jan 10
+# Updates Wed Jan 10
 
 Wed 7:30am: Breakfast at Crocker Hall
 
