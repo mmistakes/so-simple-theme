@@ -115,7 +115,12 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-We are planning pre-conference tutorials on 29th August 2018.
+Pre-conference tutorials are organized 29th August 2018. Planned
+tutorial sessions are
+* Basics of Bayesian inference and Stan, Jonah Gabry
+* Hierarchical models, Ben Goodrich
+* Model assessment and selection, Aki Vehtari
+* TBA, TBA
 
 # [Code of Conduct](#code-of-conduct)
 
@@ -131,7 +136,7 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 * [Finnish Center for Artificial Intelligence](http://fcai.fi)
 * [Aalto University](http://www.aalto.fi/en/)
 
-If you're interested in sponsoring StanCon, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
+If you're interested in sponsoring StanCon 2018 Helsinki, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
 # <a name="committee"></a> [StanCon 2018 Helsinki Organizing Committee](#committee)
 
@@ -145,6 +150,7 @@ StanCon is organized by a volunteer community
 * Aki Vehtari (Aalto University)
 * Breck Baldwin (Columbia University)
 * Jonah Gabry (Columbia University)
+* Ben Goodrich (Columbia University)
 * Rob Trangucci (University of Michigan)
 * Daniel Lee (Generable)
 * Eero Siivola (Aalto University)
