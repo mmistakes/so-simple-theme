@@ -16,8 +16,8 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 {: style="font-size: 150%; text-align: center;"}
 
 <center style="padding: 0.75em 0 0 0">
-<img width="400" src="./Helsinki" />
-(c) Visit Helsnki / Jussi Hellsten.
+<img width="400" src="./Helsinki.jpg" />
+(c) Visit Helsinki / Jussi Hellsten.
 </center>
 
 ------
