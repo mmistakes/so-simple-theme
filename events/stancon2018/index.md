@@ -156,7 +156,7 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 
 Going to be a pressure cooker folks. Subject to change without notice.
 
-	Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner activities and some tutorials (Scripps Hall). 
+Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner activities and some tutorials (Scripps Hall). 
 
 ## Wednesday, Jan 10
 
