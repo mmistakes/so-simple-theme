@@ -9,6 +9,16 @@ image:
   creditlink:
 ---
 
+#Updates Wed Jan 10
+
+Wed 7:30am: Breakfast at Crocker Hall
+
+Wed 8am: Meet in Merrill Hall for tutorials
+
+Wed 10am: Main Session in Merrill Hall
+
+
+
 Three days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
@@ -163,7 +173,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 ### Breakfast 7:30-9:00am
 
 ### Tutorials/Classes 8:00-10:00am
-Meet Merrill Hall to Asses Class Sizes, other room is Scripps Hall. 
+Meet at Merrill Hall to Asses Class Sizes, other room is Scripps Hall. 
 
 * 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry, Mitzi Morris, Sean Talts
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 1](#exec) Eric Novik, Jonathan Auerbach
