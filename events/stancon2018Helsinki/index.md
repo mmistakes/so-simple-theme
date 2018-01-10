@@ -15,6 +15,11 @@ Two days of talks, open discussions, and statistical modeling in beautiful Helsi
 August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 {: style="font-size: 150%; text-align: center;"}
 
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="./Helsinki" />
+(c) Visit Helsnki / Jussi Hellsten.
+</center>
+
 ------
 - [**Location**](#location)
 - [**Important Dates**](#important-dates)
