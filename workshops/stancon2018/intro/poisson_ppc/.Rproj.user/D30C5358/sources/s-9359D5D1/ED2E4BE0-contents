@@ -1,8 +1,0 @@
-LLarr <- example_loglik_array()
-rel_n_eff <- relative_eff(exp(LLarr))
-l1 <- loo(LLarr, r_eff = rel_n_eff, cores = 2)
-print(l1)
-
-l1$diagnostics$pareto_k <- runif(32, 0, 1.2)
-l1
-

@@ -1,7 +1,0 @@
-"0","prop_zero <- function(x) mean(x == 0)"
-"0","print(prop_zero(y))"
-"1","[1]"
-"1"," 0.202"
-"1","
-"
-"0","ppc_stat(y, y_rep, stat = ""prop_zero"")"

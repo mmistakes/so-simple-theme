@@ -1,5 +1,0 @@
-"0","lambda_draws2 <- as.matrix(fit2, pars = ""lambda"")"
-"0","lambdas <- cbind(lambda_fit1 = lambda_draws[, 1],"
-"0","                 lambda_fit2 = lambda_draws2[, 1])"
-"0","color_scheme_set(""red"")"
-"0","mcmc_areas(lambdas, prob = 0.8) # color 80% interval"

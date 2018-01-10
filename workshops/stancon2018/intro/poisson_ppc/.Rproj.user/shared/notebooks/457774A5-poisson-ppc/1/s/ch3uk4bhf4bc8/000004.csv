@@ -1,8 +1,0 @@
-"0","plotdata <- data.frame("
-"0","  value = c(y, x), "
-"0","  variable = rep(c(""Our data"", ""Poisson data""), each = N)"
-"0",")"
-"0","ggplot(plotdata, aes(x = value, color = variable)) + "
-"0","  geom_freqpoly(binwidth = 0.5) +"
-"0","  scale_x_continuous(name = """", breaks = 0:max(x,y)) +"
-"0","  scale_color_manual(name = """", values = c(""gray30"", ""purple""))"
