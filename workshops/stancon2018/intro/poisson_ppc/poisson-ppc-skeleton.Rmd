@@ -1,0 +1,222 @@
+---
+date: ''
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+```
+
+## Setup
+```{r load-packages, message=FALSE, warning=FALSE}
+library("rstan")
+library("ggplot2")
+library("bayesplot")
+
+theme_set(bayesplot::theme_default())
+```
+
+
+## Load and examine data
+
+```{r count-data, fig.width = 4, fig.height = 4, message=FALSE}
+# Loads vector of counts 'y'
+source("count-data.R")
+
+N <- length(y)
+print(N)
+print(y)
+qplot(y)
+```
+
+#### Compare our data to draws from Poisson with same mean
+
+```{r plot-x, fig.width = 4, fig.height = 4, message=FALSE}
+x <- rpois(N, lambda = mean(y))
+qplot(x)
+```
+
+```{r plot-y-x, message=FALSE}
+plotdata <- data.frame(
+  value = c(y, x), 
+  variable = rep(c("Our data", "Poisson data"), each = N)
+)
+
+# Frequency polygons
+ggplot(plotdata, aes(x = value, color = variable)) + 
+  geom_freqpoly(binwidth = 0.5) +
+  scale_x_continuous(name = "", breaks = 0:max(x,y)) +
+  scale_color_manual(name = "", values = c("gray30", "purple"))
+
+# Side by side bar plots
+ggplot(plotdata, aes(x = value, fill = variable)) + 
+  geom_bar(position = "dodge") +
+  scale_x_continuous(name = "", breaks = 0:max(x,y)) +
+  scale_fill_manual(name = "", values = c("gray30", "purple"))
+```
+
+## Fit basic Poisson model
+
+Even though we already suspect it won't be a good model for this data, it's
+still a good idea to start by fitting the simplest Poisson model. From there we
+can then identify in which ways the model is inadequate.
+
+```{r, comment=NA}
+# first stan program
+```
+
+
+```{r, fit, results="hide", warning=FALSE, message=FALSE}
+fit <- stan("poisson-simple.stan", data = list(N = N, y = y))
+print(fit)
+```
+
+#### Look at posterior distribution of lambda
+
+```{r, plot-lambda}
+color_scheme_set("brightblue") # check out ?bayesplot::color_scheme_set
+lambda_draws <- as.matrix(fit, pars = "lambda")
+mcmc_areas(lambda_draws, prob = 0.8) # color 80% interval
+```
+
+
+#### Compare posterior of lambda to the mean of the data
+
+```{r, print-fit}
+means <- c("Posterior mean" = mean(lambda_draws), "Data mean" = mean(y))
+print(means, digits = 3)
+```
+The model gets the mean right, but, as we'll see next, the model is quite bad
+at predicting the outcome.
+
+## Graphical posterior predictive checks
+
+#### Extract `y_rep` draws from the fitted model object
+
+```{r y_rep}
+y_rep <- as.matrix(fit, pars = "y_rep")
+
+# number of rows = number of post-warmup posterior draws
+# number of columns = length(y)
+dim(y_rep) 
+```
+
+#### Compare histogram of `y` to histograms of several `y_rep`s
+
+```{r ppc-hist, message=FALSE}
+ppc_hist(y, y_rep[1:8, ], binwidth = 1)
+```
+
+#### Compare density estimate of `y` to density estimates of a bunch of `y_rep`s
+
+```{r ppc-dens-overlay}
+ppc_dens_overlay(y, y_rep[1:50, ])
+```
+
+
+#### Compare proportion of zeros in `y` to the distribution of that proportion over all `y_rep`s
+
+```{r prop-zero, message=FALSE}
+prop_zero <- function(x) mean(x == 0)
+print(prop_zero(y))
+
+ppc_stat(y, y_rep, stat = "prop_zero")
+```
+
+#### Some other checks
+
+Looking at two statistics in a scatterplot:
+
+```{r stat-2d}
+ppc_stat_2d(y, y_rep, stat = c("mean", "sd"))
+```
+
+Distributions of predictive errors:
+
+```{r, predictive-errors}
+ppc_error_hist(y, y_rep[1:4, ], binwidth = 1) + 
+  xlim(-15, 15) + 
+  vline_0()
+```
+
+## Fit Poisson "hurdle" model (also with truncation from above)
+
+This model says that there is some probability `theta` that `y`
+is zero and probability `1 - theta` that `y` is positive. 
+Conditional on observing a positive `y`, we use a truncated 
+Poisson
+```
+y[n] ~ Poisson(lambda) T[1, U];
+```
+where `T[1,U]` indicates truncation with lower bound `1` and upper bound `U`, 
+which for simplicity we'll _assume_ is `max(y)`.
+
+
+```{r, comment=NA}
+# second stan program
+```
+
+
+```{r fit-2, results="hide", message=FALSE, warning=FALSE}
+fit2 <- stan("poisson-hurdle.stan", data = list(y = y, N = N))
+```
+
+
+Before looking at the posterior distribution, think about whether you expect 
+`lambda` to be larger or smaller than the `lambda` estimated using the simpler 
+Poisson model. 
+
+
+```{r, print-fit2}
+print(fit2, pars = c("lambda", "theta"))
+```
+
+#### Compare posterior distributions of lambda from the two models
+```{r, compare-lambdas}
+lambda_draws2 <- as.matrix(fit2, pars = "lambda")
+lambdas <- cbind(lambda_fit1 = lambda_draws[, 1],
+                 lambda_fit2 = lambda_draws2[, 1])
+
+color_scheme_set("red")
+mcmc_areas(lambdas, prob = 0.8) # color 80% interval
+```
+
+## Posterior predictive checks again
+
+Same plots as before (and a few others), but this time using `y_rep` from `fit2`.
+Everything looks much more reasonable:
+
+```{r ppc-hist-2, message=FALSE}
+y_rep2 <- as.matrix(fit2, pars = "y_rep")
+ppc_hist(y, y_rep2[1:8, ], binwidth = 1)
+```
+
+```{r ppc-dens-overlay-2}
+ppc_dens_overlay(y, y_rep2[1:50, ])
+```
+
+```{r, prop-zero-2, message=FALSE}
+ppc_stat(y, y_rep2, stat = "prop_zero")
+```
+
+
+```{r, more-checks, message=FALSE}
+ppc_stat_2d(y, y_rep2, stat = c("mean", "sd"))
+ppc_error_hist(y, y_rep2[sample(nrow(y_rep2), 4), ], binwidth = 1) + 
+  xlim(-15, 15) +
+  vline_0()
+```
+
+## How about the predictive performance with LOO?
+
+```{r}
+library(loo)
+log_lik1 <- extract_log_lik(fit)
+(loo1<-loo(log_lik1))
+log_lik2 <- extract_log_lik(fit2)
+(loo2<-loo(log_lik2))
+compare(loo1,loo2)
+```
+
+Model 2 is a clear winner in the predictive performance.

@@ -1,0 +1,3 @@
+"0","color_scheme_set(""brightblue"") # check out ?bayesplot::color_scheme_set"
+"0","lambda_draws <- as.matrix(fit, pars = ""lambda"")"
+"0","mcmc_areas(lambda_draws, prob = 0.8) # color 80% interval"

@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "devtools::install_github(\"stan-dev/rstanarm\", args = \"--preclean\")\ninstall.packages(\"rstanarm\", type = \"source\")\nlibrary(rstanarm)\n\nfit <- stan_glm(\n  mpg ~ ., data = mtcars,\n  iter = 30,\n  prior = hs(global_scale = 20),\n  adapt_delta = 0.5,\n  seed = 1\n)\n\nfit <- stan_glm(mpg ~ wt, data = mtcars)",
+    "created" : 1506221629333.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3306629146",
+    "id" : "D70D7829",
+    "lastKnownWriteTime" : 7226435094589303907,
+    "last_content_update" : 1506227759016,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

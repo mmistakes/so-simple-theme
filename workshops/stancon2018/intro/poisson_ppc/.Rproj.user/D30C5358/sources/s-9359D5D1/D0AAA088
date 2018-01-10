@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1515095652014.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D0AAA088",
+    "lastKnownWriteTime" : 1515177858,
+    "last_content_update" : 1515177858723,
+    "path" : "~/Documents/Teaching/StanCon/poisson_ppc/poisson-ppc.Rmd",
+    "project_path" : "poisson-ppc.Rmd",
+    "properties" : {
+        "cursorPosition" : "50,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,117 @@
+"0","writeLines(readLines(""poisson-hurdle.stan""))"
+"1","/* Stan program 
+"
+"1"," * for Poisson ""hurdle"" model (also with upper truncation)
+"
+"1"," * 
+"
+"1"," * Note: for simplicity I assume that there is only one way to obtain
+"
+"1"," * a zero, as opposed to some zero-inflated models where there are 
+"
+"1"," * multiple processes that lead to a zero. So in this example, y is 
+"
+"1"," * zero with probability theta and y is modeled as a truncated poisson
+"
+"1"," * if greater than zero.
+"
+"1"," */
+"
+"1","
+"
+"1","data {
+"
+"1","  int<lower=1> N;
+"
+"1","  int<lower=0> y[N];
+"
+"1","}
+"
+"1","transformed data {
+"
+"1","  int U = max(y);  // upper truncation point
+"
+"1","}
+"
+"1","parameters {
+"
+"1","  real<lower=0,upper=1> theta; // Pr(y = 0)
+"
+"1","  real<lower=0> lambda; // Poisson rate parameter (if y > 0)
+"
+"1","}
+"
+"1","model {
+"
+"1","  lambda ~ exponential(0.2);
+"
+"1","  
+"
+"1","  for (n in 1:N) {
+"
+"1","    if (y[n] == 0) {
+"
+"1","      target += log(theta);  // log(Pr(y = 0))
+"
+"1","    } else {
+"
+"1","      target += log1m(theta);  // log(Pr(y > 0))
+"
+"1","      y[n] ~ poisson(lambda) T[1,U];  // truncated poisson
+"
+"1","    }
+"
+"1","  }
+"
+"1","}
+"
+"1","generated quantities {
+"
+"1","  real log_lik[N];
+"
+"1","  int y_rep[N];
+"
+"1","  for (n in 1:N) {
+"
+"1","    if (bernoulli_rng(theta)) {
+"
+"1","      y_rep[n] = 0;
+"
+"1","    } else {
+"
+"1","      // use a while loop because Stan doesn't have built-in truncated RNGs
+"
+"1","      int w;  // temporary variable
+"
+"1","      w = poisson_rng(lambda); 
+"
+"1","      while (w == 0 || w > U)
+"
+"1","        w = poisson_rng(lambda);
+"
+"1","        
+"
+"1","      y_rep[n] = w;
+"
+"1","    }
+"
+"1","    if (y[n] == 0) {
+"
+"1","      log_lik[n] = log(theta);
+"
+"1","    } else {
+"
+"1","      log_lik[n] = 
+"
+"1","        log1m(theta)
+"
+"1","        + poisson_lpmf(y[n] | lambda)
+"
+"1","	      - log_diff_exp(poisson_lcdf(U | lambda), poisson_lcdf(0 | lambda));
+"
+"1","    }
+"
+"1","  }
+"
+"1","}
+"

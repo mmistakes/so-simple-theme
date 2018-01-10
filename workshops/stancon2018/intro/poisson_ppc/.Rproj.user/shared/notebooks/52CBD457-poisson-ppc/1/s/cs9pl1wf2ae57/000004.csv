@@ -1,0 +1,2 @@
+"0","x <- rpois(N, lambda = mean(y))"
+"0","qplot(x)"

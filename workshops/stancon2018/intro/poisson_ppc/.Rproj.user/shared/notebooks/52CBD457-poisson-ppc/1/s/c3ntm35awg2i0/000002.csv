@@ -1,0 +1,3 @@
+"0","ppc_error_hist(y, y_rep[1:4, ], binwidth = 1) + "
+"0","  xlim(-15, 15) + "
+"0","  vline_0()"

@@ -1,0 +1,42 @@
+"0","writeLines(readLines(""poisson-simple.stan""))
+"
+"1","data {
+"
+"1","  int<lower=1> N;      // Number of observations
+"
+"1","  int<lower=0> y[N];   // Count data
+"
+"1","}
+"
+"1","parameters {
+"
+"1","  real<lower=0> lambda;  // Poisson rate/mean parameter (must be positive)
+"
+"1","}
+"
+"1","model {
+"
+"1","  lambda ~ exponential(0.2);
+"
+"1","  y ~ poisson(lambda);
+"
+"1","}
+"
+"1","generated quantities {
+"
+"1","  int y_rep[N];       // Draws from posterior predictive dist
+"
+"1","  real log_lik[N];    // Pointwise log-likelihood
+"
+"1","  
+"
+"1","  for (n in 1:N) {
+"
+"1","    y_rep[n] = poisson_rng(lambda);
+"
+"1","    log_lik[n] = poisson_lpmf(y[n] | lambda);
+"
+"1","  }
+"
+"1","}
+"
