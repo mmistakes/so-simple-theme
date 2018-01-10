@@ -17,6 +17,7 @@ Wed 8am: Meet in Merrill Hall for tutorials
 
 Wed 10am: Main Session in Merrill Hall
 
+------
 
 
 Three days of talks, open discussions, and statistical modeling.
