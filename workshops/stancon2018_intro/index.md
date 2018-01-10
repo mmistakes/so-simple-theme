@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Workshops
+title: StanCon 2018 - Intro Stan Class Materials
 excerpt:
 search_omit: true
 image:
