@@ -8,8 +8,9 @@ image:
 ---
 
 - [Bayesian workflow](Bayesian workflow.pdf)
-- [count-data](count-data.R)
-- [poisson-hurdle-skeleton](poisson-hurdle-skeleton.stan)
-- [poisson-ppc-skeleton](poisson-ppc-skeleton.Rmd)
-- [poisson-simple-skeleton](poisson-simple-skeleton.stan)
-- [poisson_ppc](poisson_ppc.Rproj)
+- [poisson_ppc.Rproj](poisson_ppc.Rproj)
+- [count-data.R](count-data.R)
+- [poisson-ppc-skeleton.Rmd](poisson-ppc-skeleton.Rmd)
+- [poisson-simple-skeleton.stan](poisson-simple-skeleton.stan)
+- [poisson-simple.stan](poisson-simple.stan)
+- [poisson-hurdle-skeleton.stan](poisson-hurdle-skeleton.stan)
