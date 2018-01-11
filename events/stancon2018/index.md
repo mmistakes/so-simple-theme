@@ -214,7 +214,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 ### Tutorials/Classes
 
-* 7-8am [Advanced Hierarchical Models session 2](#advanced) Ben Goodrich 
+* 7-8am [Advanced Hierarchical Models session 2](#advanced) Ben Goodrich [Slides](AHM/AHM2.pdf)
 * 8-10am [Intro To Stan session 2](#intro), Jonah Sol Gabry, Sean Talts, Mitzi Morris
 * 8-9am [A Dive into Stan's C++ Model Concept](#dive) Daniel Lee
 * 9-10am [How to develop for the Stan C++ Core](#core), Charles Margossian
