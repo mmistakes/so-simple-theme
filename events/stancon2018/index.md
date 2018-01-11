@@ -177,7 +177,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 * 8-10 am [Intro To Stan session 1](#intro) Jonah Sol Gabry, Mitzi Morris, Sean Talts - Merrill - [files](/workshops/stancon2018_intro)
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 1](#exec) Eric Novik, Jonathan Auerbach - Scripps
 
-* 9-10 am [Advanced Hierarchical Models](#advanced) Ben Goodrich - Scripps
+* 9-10 am [Advanced Hierarchical Models](#advanced) Ben Goodrich - Scripps [Slides](AHM/AHM1.pdf)
 
 ### Break 10:00-10:40am
 
