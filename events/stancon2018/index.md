@@ -194,7 +194,6 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 * ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm
 * A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt 2:20-2:40pm
 * Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman (Stanford U) 2:40-3:00pm
-* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 3:00-3:20pm
 
 ### Break 3:20-4:00pm
 
@@ -226,7 +225,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 <!--* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 -->
-* Intrinsic Auto-Regressive (ICAR) Models for Spatial Data, Mitzi Morris (Columbia U) 11:30-11:50pm
+* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 11:30-11:50am
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm
 * A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm
 
@@ -288,7 +287,7 @@ We have tutorials that start at the crack of 7am for those desiring further edif
 
 - [Executive decision making the Bayesian way:](#exec) This is for non-technical managers and technical folks who need to communicate with managers to learn the core of decision making under uncertainty. Wed 8-9am, Thurs 3:30-4:10, Friday 8-9am. Jonathan Auerback, Eric Novik.
 
-- [Advanced Hiearical Models in Stan:](#advanced) The hard stuff. Ben Goodrich. 9-10am Wed, 7-8am Thurs, 7-8am Friday.
+- [Advanced Hierarchical Models in Stan:](#advanced) The hard stuff. Ben Goodrich. 9-10am Wed, 7-8am Thurs, 7-8am Friday.
 
 - [Model assessment, selection and inference after model selection](#model) The tutorial covers cross-validation, reference predictive and projection predictive approaches for model assessment, selection and inference after model selection. I discuss when cross-validation is useful and when we can do better than cross-validation (and why not to use WAIC).  The tutorial is accommopanied with R notebooks using rstanarm, bayesplot, loo, and projpred packages. You can bring also your own data and model to get recommendations for model assessment and selection. Aki Vehtari, Thurs 8-9am
 
