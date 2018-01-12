@@ -15,4 +15,5 @@ image:
 - [poisson-hurdle-skeleton.stan](poisson-hurdle-skeleton.stan)
 
 - [poisson-hurdle.stan](poisson-hurdle.stan)
+- [radon_slides](radon_slides.html)
 - [radon.zip](radon.zip)
