@@ -13,7 +13,7 @@ image:
 
 ## General
 
-Registration is made through an online registration system. Please [click here to register](https://ilmo.contio.fi/tavicon/main.aspx?id=165).
+Registration is made through an online registration system, which will open at latest 19th January. <!-- Please [click here to register](https://ilmo.contio.fi/tavicon/main.aspx?id=165). -->
 
 If you have any questions concerning the registration form or procedure, please contact Tavicon Congress Bureau at stancon.helsinki2018@tavicon.fi or tel +358 3 233 0400.
 
@@ -36,12 +36,24 @@ If you have any questions concerning the registration form or procedure, please 
 
 <br>
 
+### Tutorials
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| EUR 20 | EUR 100 | EUR 150 |
+
+<br>
+
 *For a delegate to be considered a student she/he must currently be a full-time student enrolled in a PhD / master programme in her/his affiliated institution during the academic year 2018-2019. Please be prepared to show a proof of your student status onsite.
 
 The registration fee includes
 * Conference program
 * Conference lunches and coffees 
 * Dinner on Thursday evening
+
+The tutorial fee includes
+* Tutorial program
+* Coffee and tea
 
 Please note that costs for travel, accommodation and insurances are not included in the registration fees.
 
