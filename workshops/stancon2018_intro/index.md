@@ -18,3 +18,5 @@ image:
 - [radon_slides](radon_slides.html)
 - [radon.zip](radon.zip)
 - [model selection](https://github.com/avehtari/modelselection_tutorial)
+
+- [Diagnosing convergence](diagnosing-convergence.pdf)
