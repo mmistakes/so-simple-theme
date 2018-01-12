@@ -7,3 +7,4 @@ node_modules
 .sass-cache
 *~
 .Rproj.user
+.Rhistory

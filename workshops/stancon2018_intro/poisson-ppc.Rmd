@@ -62,8 +62,28 @@ Even though we already suspect it won't be a good model for this data, it's
 still a good idea to start by fitting the simplest Poisson model. From there we
 can then identify in which ways the model is inadequate.
 
-```{r, comment=NA}
-# first stan program
+```
+// Stan program for simple Poisson model
+// saved in "poisson-simple.stan"
+data {
+  int<lower=1> N;      // Number of observations
+  int<lower=0> y[N];   // Count data (integer array)
+}
+parameters {
+  real<lower=0> lambda;  // Poisson rate/mean parameter (must be positive)
+}
+model {
+  lambda ~ exponential(0.2);
+  // target += exponential_lpdf(lambda | 0.2);
+  y ~ poisson(lambda);
+  // target += poisson_lpmf(y | lambda);
+}
+generated quantities {
+  int y_rep[N];       // Draws from posterior predictive dist
+  for (n in 1:N) {
+    y_rep[n] = poisson_rng(lambda);
+  }
+}
 ```
 
 
@@ -152,9 +172,8 @@ y[n] ~ Poisson(lambda) T[1, U];
 where `T[1,U]` indicates truncation with lower bound `1` and upper bound `U`, 
 which for simplicity we'll _assume_ is `max(y)`.
 
-
-```{r, comment=NA}
-# second stan program
+```{r}
+writeLines(readLines("poisson-hurdle.stan"))
 ```
 
 

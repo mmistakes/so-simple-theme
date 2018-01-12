@@ -32,14 +32,15 @@ model {
   }
 }
 generated quantities {
-  real log_lik[N];
-  int y_rep[N];
+  int y_rep[N];    // Draws from posterior preditive dist
+  real log_lik[N]; // Pointwise log-likelihood contributions
+  
   for (n in 1:N) {
     // Draw from posterior preditive distribution
     if (bernoulli_rng(theta)) {
       y_rep[n] = 0;
     } else {
-      // use a while loop because Stan doesn't have built-in truncated RNGs
+      // use a while loop to get draws from truncated poisson
       int w;  // temporary variable
       w = poisson_rng(lambda); 
       while (w == 0 || w > U) {
@@ -48,7 +49,9 @@ generated quantities {
       y_rep[n] = w;
     }
     
-    // Pointwise log-likelihood
+    // Compute and store the pointwise log-likelihood
+    // (this will be used for the last section of the R markdown document
+    // which deals with predictive performance)
     if (y[n] == 0) {
       log_lik[n] = log(theta);
     } else {
