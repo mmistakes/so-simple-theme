@@ -17,3 +17,4 @@ image:
 - [poisson-hurdle.stan](poisson-hurdle.stan)
 - [radon_slides](radon_slides.html)
 - [radon.zip](radon.zip)
+- [model selection](https://github.com/avehtari/modelselection_tutorial)
