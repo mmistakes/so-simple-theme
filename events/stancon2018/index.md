@@ -259,7 +259,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 ### Tutorials/Classes
 
-* 7-8am [Advanced Hierarchical Models session 3](#advanced) Ben Goodrich 
+* 7-8am [Advanced Hierarchical Models session 3](#advanced) Ben Goodrich [Slides](AHM/AHM3.pdf)
 * 8am-10am [Intro To Stan session 4](#classes)
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
 * 9-10 am [Model Selection](#model), Aki Vehtari

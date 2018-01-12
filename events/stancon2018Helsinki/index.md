@@ -16,7 +16,7 @@ August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 {: style="font-size: 150%; text-align: center;"}
 
 <center style="padding: 0.75em 0 0 0">
-<img width="400" src="./Helsinki.jpg" />
+<img width="600" src="./Helsinki.jpg" /><br>
 (c) Visit Helsinki / Jussi Hellsten.
 </center>
 
@@ -91,6 +91,14 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 <br>
 
+### Tutorials
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| EUR 20 | EUR 100 | EUR 150 |
+
+<br>
+
 [Details on registration and payments](/events/stancon2018Helsinki/stancon-registration.html)
 
 If you have questions regarding registration, payments, travel, please email
@@ -120,12 +128,12 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials are organized 29th August 2018. Planned
+Pre-conference tutorials are organized 29th August 2018 (probably at Aalto Otaniemi campus 13mins from Helsinki city center). Planned
 tutorial sessions are
 * Basics of Bayesian inference and Stan, Jonah Gabry
 * Hierarchical models, Ben Goodrich
 * Model assessment and selection, Aki Vehtari
-* TBA, TBA
+* TBA
 
 # [Code of Conduct](#code-of-conduct)
 

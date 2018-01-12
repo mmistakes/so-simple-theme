@@ -13,8 +13,16 @@ model {
   y ~ poisson(lambda);
 }
 generated quantities {
-  int y_rep[N];       // Draws from posterior predictive dist
+  int y_rep[N];    // Draws from posterior preditive dist
+  real log_lik[N]; // Pointwise log-likelihood contributions
+  
   for (n in 1:N) {
+    // Draw from posterior predictive distribution
     y_rep[n] = poisson_rng(lambda);
+    
+    // Compute and store the log-likelihood contribution of each observation
+    // (this will be used for the last section of the R markdown document
+    // which deals with predictive performance)
+    log_lik[n] = poisson_lpmf(y[n] | lambda);
   }
 }
