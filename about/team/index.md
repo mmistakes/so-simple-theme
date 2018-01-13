@@ -22,50 +22,53 @@ volunteer developers.
 {% for member in site.data.developers %}
 
   <div style="clear:both">
-  {% if member.avatar %}
-    {% if member.avatar contains 'http' %}
-      <img src="{{ member.avatar }}"
-           class="dev-bio-photo"
-           alt="{{ member.name }} bio photo"></img>
-    {% else %}
-      <img src="{{ site.url }}/images/bio/{{ member.avatar }}"
-           class="dev-bio-photo"
-           alt="{{ member.name }} bio photo">
-    {% endif %}
-  {% else %}
-    <img src="{{ site.url }}/images/bio/bio-photo.jpg"
-         class="dev-bio-photo"
-         alt="{{ member.name }} bio photo">
-  {% endif %}
-  {{ member.name }}<br>
-  {{ member.affiliation }}
+    <div style="float: left">
+      {% if member.avatar %}
+        {% if member.avatar contains 'http' %}
+          <img src="{{ member.avatar }}"
+               class="dev-bio-photo"
+               alt="{{ member.name }} bio photo"></img>
+        {% else %}
+          <img src="{{ site.url }}/images/bio/{{ member.avatar }}"
+               class="dev-bio-photo"
+               alt="{{ member.name }} bio photo">
+        {% endif %}
+      {% else %}
+        <img src="{{ site.url }}/images/bio/bio-photo.jpg"
+             class="dev-bio-photo"
+             alt="{{ member.name }} bio photo">
+      {% endif %}
+    </div>
 
-  <div>
-    {% if member.web %}
-	    <a href="{{member.web}}" target="_blank">
-      <i class="fa fa-home"></i></a>
-    {% endif %}
+    <div>
+      {{ member.name }}<br>
+      {{ member.affiliation }}
+        <div>
+          {% if member.web %}
+            <a href="{{member.web}}" target="_blank">
+            <i class="fa fa-home"></i></a>
+          {% endif %}
 
-    {% if member.email %}
-      <a href="mailto:{{member.email}}" target="_blank">
-      <i class="fa fa-envelope-square"></i></a>
-    {% endif %}
+          {% if member.email %}
+            <a href="mailto:{{member.email}}" target="_blank">
+            <i class="fa fa-envelope-square"></i></a>
+          {% endif %}
 
-    {% if member.linkedin %}
-      <a href="{{member.linkedin}}" target="_blank">
-      <i class="fa fa-linkedin-square"></i></a>
-    {% endif %}
+          {% if member.linkedin %}
+            <a href="{{member.linkedin}}" target="_blank">
+            <i class="fa fa-linkedin-square"></i></a>
+          {% endif %}
 
-    {% if member.twitter %}
-      <a href="https://twitter.com/{{member.twitter}}" target="_blank">
-      <i class="fa fa-twitter-square"></i></a>
-    {% endif %}
-    {% if member.github %}
-      <a href="https://github.com/{{member.github}}" target="_blank">
-      <i class="fa fa-github-square"></i></a>
-    {% endif %}
-
-  </div>
+          {% if member.twitter %}
+            <a href="https://twitter.com/{{member.twitter}}" target="_blank">
+            <i class="fa fa-twitter-square"></i></a>
+          {% endif %}
+          {% if member.github %}
+            <a href="https://github.com/{{member.github}}" target="_blank">
+            <i class="fa fa-github-square"></i></a>
+          {% endif %}
+        </div>
+    </div>
 
   </div>
 
@@ -78,53 +81,54 @@ Developers who have made important contributions in the past, but are no longer 
 
 <ul style="columns:2" style="clear:both">
 {% for member in site.data.alumni_developers %}
-
-
   <div style="clear:both">
-  {% if member.avatar %}
-    {% if member.avatar contains 'http' %}
-      <img src="{{ member.avatar }}"
-           class="dev-bio-photo"
-           alt="{{ member.name }} bio photo"></img>
-    {% else %}
-      <img src="{{ site.url }}/images/bio/{{ member.avatar }}"
-           class="dev-bio-photo"
-           alt="{{ member.name }} bio photo">
-    {% endif %}
-  {% else %}
-    <img src="{{ site.url }}/images/bio/bio-photo.jpg"
-         class="dev-bio-photo"
-         alt="{{ member.name }} bio photo">
-  {% endif %}
-  {{ member.name }}<br>
-  <i>while at:</i>&nbsp; {{ member.affiliation }}
+    <div style="float: left">
+      {% if member.avatar %}
+        {% if member.avatar contains 'http' %}
+          <img src="{{ member.avatar }}"
+               class="dev-bio-photo"
+               alt="{{ member.name }} bio photo"></img>
+        {% else %}
+          <img src="{{ site.url }}/images/bio/{{ member.avatar }}"
+               class="dev-bio-photo"
+               alt="{{ member.name }} bio photo">
+        {% endif %}
+      {% else %}
+        <img src="{{ site.url }}/images/bio/bio-photo.jpg"
+             class="dev-bio-photo"
+             alt="{{ member.name }} bio photo">
+      {% endif %}
+    </div>
 
-  <div>
-    {% if member.web %}
-	    <a href="{{member.web}}" target="_blank">
-      <i class="fa fa-home"></i></a>
-    {% endif %}
+    <div>
+      {{ member.name }}<br>
+      {{ member.affiliation }}
+        <div>
+          {% if member.web %}
+            <a href="{{member.web}}" target="_blank">
+            <i class="fa fa-home"></i></a>
+          {% endif %}
 
-    {% if member.email %}
-      <a href="mailto:{{member.email}}" target="_blank">
-      <i class="fa fa-envelope-square"></i></a>
-    {% endif %}
+          {% if member.email %}
+            <a href="mailto:{{member.email}}" target="_blank">
+            <i class="fa fa-envelope-square"></i></a>
+          {% endif %}
 
-    {% if member.linkedin %}
-      <a href="{{member.linkedin}}" target="_blank">
-      <i class="fa fa-linkedin-square"></i></a>
-    {% endif %}
+          {% if member.linkedin %}
+            <a href="{{member.linkedin}}" target="_blank">
+            <i class="fa fa-linkedin-square"></i></a>
+          {% endif %}
 
-    {% if member.twitter %}
-      <a href="https://twitter.com/{{member.twitter}}" target="_blank">
-      <i class="fa fa-twitter-square"></i></a>
-    {% endif %}
-    {% if member.github %}
-      <a href="https://github.com/{{member.github}}" target="_blank">
-      <i class="fa fa-github-square"></i></a>
-    {% endif %}
-
-  </div>
+          {% if member.twitter %}
+            <a href="https://twitter.com/{{member.twitter}}" target="_blank">
+            <i class="fa fa-twitter-square"></i></a>
+          {% endif %}
+          {% if member.github %}
+            <a href="https://github.com/{{member.github}}" target="_blank">
+            <i class="fa fa-github-square"></i></a>
+          {% endif %}
+        </div>
+    </div>
 
   </div>
 {% endfor %}
