@@ -9,10 +9,10 @@ image:
   creditlink:
 ---
 
-Two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
+One day of tutorials and two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
 {: style="font-size: 150%; text-align: center;"}
 
-August 30-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
+August 29-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 {: style="font-size: 150%; text-align: center;"}
 
 <center style="padding: 0.75em 0 0 0">
