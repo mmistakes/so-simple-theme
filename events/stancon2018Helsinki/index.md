@@ -166,6 +166,9 @@ StanCon is organized by a volunteer community
 * Ben Goodrich (Columbia University)
 * Rob Trangucci (University of Michigan)
 * Daniel Lee (Generable)
+
+Local organization committee
+
 * Eero Siivola (Aalto University)
 * Juho Piironen (Aalto University)
 * Topi Paananen (Aalto University)
