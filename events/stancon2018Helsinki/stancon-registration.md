@@ -13,7 +13,7 @@ image:
 
 ## General
 
-Registration is made through an online registration system, which will open at latest 19th January. <!-- Please [click here to register](https://ilmo.contio.fi/tavicon/main.aspx?id=165). -->
+Registration is made through an online registration system. Please [click here to register](https://ilmo.contio.fi/tavicon/main.aspx?id=165).
 
 If you have any questions concerning the registration form or procedure, please contact Tavicon Congress Bureau at stancon.helsinki2018@tavicon.fi or tel +358 3 233 0400.
 

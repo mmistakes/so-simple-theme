@@ -170,3 +170,5 @@ StanCon is organized by a volunteer community
 * Juho Piironen (Aalto University)
 * Topi Paananen (Aalto University)
 * Tuomas Sivula (Aalto University)
+* Michael Riis Andersen (Aalto University)
+* Akash Dhaka (Aalto University)
