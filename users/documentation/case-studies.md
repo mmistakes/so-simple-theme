@@ -27,6 +27,42 @@ versions noted and seeds fixed)</span> and
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+# *Stan Case Studies*, &nbsp; Volume 5 &nbsp; (2018)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Nearest neighbor Gaussian process (NNGP) models in Stan
+
+<small>
+Nearest neighbor Gaussian process (NNGP) based models is a
+family of highly scalable Gaussian processes based models. In brief,
+NNGP extends the Vecchia’s approximation (Vecchia 1988) to a process
+using conditional independence given information from neighboring
+locations. This case study shows how to express and fit these models
+in Stan for spatial random effects.
+</small>
+
+[View](case-studies/nngp.html) <span class="note">(HTML)</span>
+
+Author
+: Lu Zhang
+
+Keywords
+: Gaussian process, nearest neighbor Gaussian process, spatial models,
+random effects, regression
+
+Source Repository
+: [LuZhangstat/NNGP_STAN](https://github.com/LuZhangstat/NNGP_STAN)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
 # *Stan Case Studies*, &nbsp; Volume 4 &nbsp; (2017)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
@@ -66,6 +102,7 @@ R Package Dependencies
 
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
+
 
 ## Modelling Loss Curves in Insurance with RStan
 
