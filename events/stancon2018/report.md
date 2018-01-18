@@ -63,7 +63,9 @@ Random stuff $1,000
 
 SWAG $2,866
 
-Total costs: $67,114
+AV $4,500
+
+Total costs: $71,644
 
 Revenues
 
@@ -75,7 +77,7 @@ Sponsorships: $17,500
 
 Total revenues: $53,970
 
-Total Loss: -$13,174
+Total Loss: -$17,674
 
 These numbers are not verified!! But hey, buy a drink for a StanCon2018 committee member, we saved the day. 
 
