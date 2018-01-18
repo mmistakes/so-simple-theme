@@ -1,3 +1,14 @@
+---
+layout: page
+title: StanCon 2018
+excerpt: ""
+modified:
+image:
+  feature: feature/wide_ensemble.png
+  credit:
+  creditlink:
+---
+
 StanCon2018 Asilomar Post Event Report
 
 ###Overall Observations
