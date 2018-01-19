@@ -1,6 +1,7 @@
 ---
 title: "Layout: Hero Image"
-image: /assets/images/eder-oliveira-180877.jpg
+image: 
+  path: /images/eder-oliveira-180877.jpg
 categories:
   - Layout
 tags:
@@ -15,12 +16,12 @@ This post should display a large hero image at the top of a page.
 This post tests a horizontal image using the following YAML Front Matter:
 
 ```yaml
-image: /assets/images/eder-oliveira-180877.jpg
+image: /images/eder-oliveira-180877.jpg
 ```
 
 Hero images can also be assigned like this:
 
 ```yaml
 image:
-  path: /assets/images/eder-oliveira-180877.jpg
+  path: /images/eder-oliveira-180877.jpg
 ```
