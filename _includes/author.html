@@ -9,7 +9,7 @@
   {%- endif -%}
   <img src="{{ author_image }}" class="bio-photo" alt="">
 {%- endif -%}
-<span class="author vcard"><span class="fn">{{ author.name }}</span></span>
+<span>{{ author.name }}</span>
 {%- if author.links -%}
   {%- for link in author.links -%}
     {%- if link.url contains "://" -%}

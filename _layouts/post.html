@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div id="main" role="main">
-  <article class="hentry">
+  <article>
     {% include page-image.html %}
     <div class="entry-wrapper">
       <header class="entry-header">
         {% if page.link %}
-          <h1 class="entry-title"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 class="entry-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
-          <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+          <h1 class="entry-title">{{ page.title }}</h1>
         {% endif %}
       </header>
       <aside class="entry-meta">
