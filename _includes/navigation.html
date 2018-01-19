@@ -2,12 +2,12 @@
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
       {% for link in site.data.navigation %}
-		    {% if link.url contains 'http' %}
-		        {% assign domain = '' %}
-		        {% else %}
-		        {% assign domain = site.url %}
+		    {% if link.url contains '://' %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
 		    {% endif %}
-		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		    <li><a href="{{ url }}">{{ link.title }}</a></li>
 		  {% endfor %}
 	    </ul>
 	</nav>

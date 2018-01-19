@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.0.0
+    Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  {% include head.html %}
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
+    {% include skip-links.html %}
+    {% include navigation.html %}
+
+    {{ content }}
+
+    <div class="footer-wrapper">
+      <footer role="contentinfo" class="entry-wrapper">
+        {% include footer.html %}
+      </footer>
+    </div><!-- /.footer-wrapper -->
+
+    {% include scripts.html %}
+  </body>
+
+</html>
