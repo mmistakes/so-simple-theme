@@ -38,6 +38,9 @@ through interfaces into many popular computing environments.
 * [MathematicaStan](mathematica-stan.html)
   <span class="note">(Mathematica)</span>
 
+* [ScalaStan](https://github.com/cibotech/ScalaStan)
+  <span class="note">(Scala)</span>
+
 Programs written in the Stan modeling language are portable
 across interfaces.
 
