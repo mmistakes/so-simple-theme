@@ -1,35 +1,19 @@
-<div class="navigation-wrapper">
-	<nav role="navigation" id="site-nav" class="animated drop">
-	    <ul>
-      {% for link in site.data.navigation %}
-		    {% if link.url contains '://' %}
-          {% assign url = link.url %}
-        {% else %}
-          {% assign url = link.url | relative_url %}
-		    {% endif %}
-		    <li><a href="{{ url }}">{{ link.title }}</a></li>
-		  {% endfor %}
-	    </ul>
-	</nav>
-</div><!-- /.navigation-wrapper -->
+{% if site.data.navigation %}
+  <div class="navigation-wrapper">
+    <nav role="navigation" id="site-nav" class="animated drop">
+        <ul>
+        {% for link in site.data.navigation %}
+          {% if link.url contains '://' %}
+            {% assign url = link.url %}
+          {% else %}
+            {% assign url = link.url | relative_url %}
+          {% endif %}
+          <li><a href="{{ url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        </ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+{% endif %}
 
 {% include browser-upgrade.html %}
-
-{% if page.image.feature %}<header class="masthead">
-	{% if site.logo != null %}
-		<div class="wrap">
-			<a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.logo | relative_url }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-		</div>
-	{% endif %}
-</header><!-- /.masthead -->
-{% else %}<header class="masthead">
-	<div class="wrap">
-      {% if site.logo != null %}
-  		<a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.logo | relative_url }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
-      {% endif %}
-      <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
-	</div>
-</header><!-- /.masthead -->{% endif %}
-
-<div class="js-menu-screen menu-screen"></div>
+{% include masthead.html %}
