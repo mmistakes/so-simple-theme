@@ -1,0 +1,49 @@
+/*!
+ * So Simple Jekyll Theme 3.0.0
+ * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+ * Free for personal and commercial use under the MIT license
+ * https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+*/
+
+@import "so-simple/variables";
+
+/*
+   Vendor
+   ========================================================================== */
+
+@import "so-simple/vendor/bourbon/bourbon"; /* Bourbon mixins (bourbon.io) */
+@import "so-simple/grid-settings"; /* Bourbon Neat settings */
+@import "so-simple/vendor/neat/neat"; /* Bourbon Neat grid mixins (neat.bourbon.io) */
+@import "so-simple/vendor/font-awesome/font-awesome"; /* Font Awesome icons */
+@import "so-simple/vendor/magnific-popup/magnific-popup"; /* Magnific Popup lightbox */
+
+/*
+   Global
+   ========================================================================== */
+
+@import "so-simple/mixins";
+@import "so-simple/reset";
+@import "so-simple/base";
+
+/*
+   Components
+   ========================================================================== */
+
+@import "so-simple/helpers";
+@import "so-simple/buttons";
+@import "so-simple/wells";
+@import "so-simple/syntax";
+@import "so-simple/forms";
+@import "so-simple/notices"; /* notices and alerts */
+@import "so-simple/animations";
+@import "so-simple/masthead";
+@import "so-simple/navigation";
+@import "so-simple/search";
+@import "so-simple/footer";
+
+/*
+   Page specific
+   ========================================================================== */
+
+@import "so-simple/page"; /* layout and styles that apply to posts and pages */
+@import "so-simple/archives"; /* archive pages (post/tag lists, etc) */

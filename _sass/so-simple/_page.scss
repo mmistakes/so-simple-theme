@@ -232,8 +232,8 @@ span + .entry-title {
 
 /* adjust width for lack of meta/author column */
 
-#home,
-#page {
+.layout--home,
+.layout--page {
 
 	.entry-wrapper {
 		max-width: em(760);
