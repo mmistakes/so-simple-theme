@@ -1,0 +1,22 @@
+{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
+{%- assign author = site.data.authors[author] | default: author -%}
+
+{%- if author.avatar -%}
+  {%- if author.avatar contains "://" -%}
+    {%- assign author_image = author.avatar -%}
+  {%- else -%}
+    {%- assign author_image = author.avatar | relative_url -%}
+  {%- endif -%}
+  <img src="{{ author_image }}" class="bio-photo" alt="">
+{%- endif -%}
+<span class="author vcard"><span class="fn">{{ author.name }}</span></span>
+{%- if author.links -%}
+  {%- for link in author.links -%}
+    {%- if link.url contains "://" -%}
+      {%- assign url = link.url -%}
+    {%- else -%}
+      {%- assign url = link.url | relative_url -%}
+    {%- endif -%}
+    <span><a href="{{ url }}"><i class="fa {{ link.icon | default : 'fa-circle' }} fa-fw"></i> {{ link.title }}</a></span>
+  {%- endfor -%}
+{%- endif -%}

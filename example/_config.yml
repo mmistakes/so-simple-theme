@@ -58,6 +58,22 @@ defaults:
       comments: true
       share: true
 
+# Site Author
+author:
+  name: Michael Rose
+  avatar: /images/michael-rose-photo.jpg
+  email:
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fa-twitter
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fa-github
+
 # Footer Links
 footer_links:
   - title: Twitter

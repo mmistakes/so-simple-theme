@@ -16,24 +16,12 @@ layout: default
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
       </header>
-      <footer class="entry-meta">
-        {% if page.author %}
-          {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
-        {% endif %}
-        {% if author.avatar contains 'http' %}
-          <img src="{{ author.avatar }}" class="bio-photo" alt="{{ author.name }} bio photo"/>
-        {% elsif author.avatar %}
-          <img src="{{ author.avatar | prepend: '/images/' | relative_url }}" class="bio-photo" alt="{{ author.name }} bio photo"/>
-        {% endif %}
-        <span class="author vcard">By <span class="fn">{{ author.name }}</span></span>
-        <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
-        {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
-        {% if site.owner.disqus-shortname and page.comments or site.comments %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="#disqus_thread">Comment</a></span>{% endif %}
-        {% if page.share %}{% include social-share.html %}{% endif %}
-        {% if page.ads == true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
-      </footer>
+      <aside class="entry-meta">
+        {% include author.html %}
+      </aside>
       <div class="entry-content">
         {{ content }}
+        {% if page.share %}{% include social-share.html %}{% endif %}
         {% if site.owner.disqus-shortname and page.comments or site.comments %}
           <div id="disqus_thread"></div><!-- /#disqus_thread -->
           {% include disqus-comments.html %}
