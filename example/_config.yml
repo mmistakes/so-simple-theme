@@ -47,6 +47,11 @@ feed:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
 # Front Matter Defaults
 defaults:
   # _posts
