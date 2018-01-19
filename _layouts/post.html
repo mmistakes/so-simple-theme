@@ -7,9 +7,6 @@ layout: default
     {% include page-image.html %}
     <div class="entry-wrapper">
       <header class="entry-header">
-        <ul class="entry-tags">
-          {% for tag in page.tags %}<li><a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="Pages tagged {{ tag }}">{{ tag }}</a></li>{% endfor %}
-        </ul>
         {% if page.link %}
           <h1 class="entry-title"><a href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
@@ -20,6 +17,11 @@ layout: default
         {% include author.html %}
       </aside>
       <div class="entry-content">
+        <div class="entry-tags">
+          {%- for tag in page.tags -%}
+            <a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="Pages tagged {{ tag }}">{{ tag }}</a>
+          {%- endfor- %}
+        </div>
         {{ content }}
         {% if page.share %}{% include social-share.html %}{% endif %}
         {% if site.owner.disqus-shortname and page.comments or site.comments %}
