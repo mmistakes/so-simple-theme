@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
+locale: en-US
 title: "So Simple Development Site"
 description: "A simple and clean theme for words and pictures."
 logo: /images/site-logo.png
