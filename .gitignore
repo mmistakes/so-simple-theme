@@ -6,3 +6,5 @@ codekit-config.json
 node_modules
 .sass-cache
 *~
+.Rproj.user
+.Rhistory

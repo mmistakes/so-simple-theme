@@ -12,8 +12,10 @@ image:
 {:.center-txt}
 meetups, talks &amp; courses
 
-# [Registration is now open for StanCon 2018!](/events/stancon2018)
+# [StanCon 2018 Helsinki, Finland 29-31 August](/events/stancon2018Helsinki)
 
+
+# [StanCon 2018 Asilomar, California 10-12 January ](/events/stancon2018)
 
 You can learn about Stan through introductory and specialized courses,
 or in many presentations at meetups and other venues.

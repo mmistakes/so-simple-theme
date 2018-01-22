@@ -11,7 +11,7 @@ image:
 ---
 
 {:.center-txt}
-[StanCon 2018 early registration extended to December 10, scholarships still open.](/events/stancon2018)
+StanCon 2018 California is over, see you in [StanCon 2018 Helsinki, Aug 29-31](/events/stancon2018Helsinki)
 
 Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
 and high-performance statistical computation.  Thousands of users rely
