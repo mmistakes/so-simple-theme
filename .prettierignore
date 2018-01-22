@@ -1,0 +1,5 @@
+_reset.scss
+*.md
+Gemfile.lock
+lunr-store.js
+package.json
