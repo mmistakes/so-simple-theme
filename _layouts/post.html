@@ -19,23 +19,24 @@ layout: default
       <div class="entry-content">
         <div class="entry-tags">
           {%- for tag in page.tags -%}
-            <a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="Pages tagged {{ tag }}">{{ tag }}</a>
+            <a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}">{{ tag }}</a>
           {%- endfor- %}
         </div>
         {{ content }}
-        {% if page.share %}{% include social-share.html %}{% endif %}
-        {% if site.owner.disqus-shortname and page.comments or site.comments %}
-          <div id="disqus_thread"></div><!-- /#disqus_thread -->
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+        {% if site.disqus.shortname %}
           {% include disqus-comments.html %}
         {% endif %}
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
     <nav class="pagination" role="navigation">
       {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}" class="btn" title="{{ page.previous.title }}">Previous</a>
+        <a href="{{ page.previous.url | relative_url }}" class="btn" title="{{ page.previous.title }}">{{ site.data.text[site.locale].previous | default: 'Previous' }}</a>
       {% endif %}
       {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}" class="btn" title="{{ page.next.title }}">Next</a>
+        <a href="{{ page.next.url | relative_url }}" class="btn" title="{{ page.next.title }}">{{ site.data.text[site.locale].next | default: 'Next' }}</a>
       {% endif %}
     </nav><!-- /.pagination -->
   </article>

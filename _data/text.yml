@@ -1,0 +1,21 @@
+# Theme text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  pages_tagged: "Pages tagged"
+  share_on_label: "Share on"
+  next: "Next"
+  previous: "Previous"
+  newer: "Newer"
+  older: "Older"
+  search_placeholder_text: "Enter your search term..."
+  powered_by: "Powered by"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
