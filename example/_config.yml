@@ -16,11 +16,16 @@
 locale: en-US
 title: "So Simple Development Site"
 description: "A simple and clean theme for words and pictures."
-logo: /images/site-logo.png
+baseurl: "/example"  # the subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+twitter_username: # site Twitter username
+github_username: # site GitHub username
+logo: "/images/site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: true
 mathjax: true
-baseurl: /example  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics:
+disqus:
+  shortname:
 
 # Liquid
 liquid:
@@ -66,7 +71,7 @@ defaults:
 # Site Author
 author:
   name: Michael Rose
-  avatar: /images/michael-rose-photo.jpg
+  picture: /images/michael-rose-photo.jpg
   email:
   links:
     - title: Twitter
