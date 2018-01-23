@@ -2,6 +2,7 @@
 title: "Layout: Hero Image"
 image: 
   path: /images/eder-oliveira-180877.jpg
+  credit: "Photo from [Unsplash](https://unsplash.com/)"
 categories:
   - Layout
 tags:
