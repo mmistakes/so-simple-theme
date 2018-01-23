@@ -502,15 +502,10 @@ parameters {
   real&lt;lower=0, upper=1&gt; rho; // proportion unstructured vs. spatially structured variance
 
   vector[N] theta;       // heterogeneous effects
-  vector[N - 1] phi_raw; // raw spatial effects
+  vector[N] phi;         // spatial effects
 }
 transformed parameters {
-  vector[N] phi;
   vector[N] convolved_re;
-
-  phi[1:(N - 1)] = phi_raw;
-  phi[N] = -sum(phi_raw);
-
   // variance of each component should be approximately equal to 1
   convolved_re =  sqrt(1 - rho) * theta + sqrt(rho / scaling_factor) * phi;
 }
@@ -525,6 +520,8 @@ model {
   theta ~ normal(0.0, 1.0);
   sigma ~ normal(0,5);
   rho ~ beta(0.5, 0.5);
+  // soft sum-to-zero constraint on phi)
+  sum(phi) ~ normal(0, 0.001 * N);  // equivalent to mean(phi) ~ normal(0,0.001)
 }
 generated quantities {
   real logit_rho = log(rho / (1.0 - rho));
