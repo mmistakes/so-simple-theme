@@ -1,13 +1,13 @@
 {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%}
 
-{%- if author.avatar -%}
-  {%- if author.avatar contains "://" -%}
-    {%- assign author_image = author.avatar -%}
+{%- if author.picture -%}
+  {%- if author.picture contains "://" -%}
+    {%- assign author_picture = author.picture -%}
   {%- else -%}
-    {%- assign author_image = author.avatar | relative_url -%}
+    {%- assign author_picture = author.picture | relative_url -%}
   {%- endif -%}
-  <img src="{{ author_image }}" class="bio-photo" alt="">
+  <img src="{{ author_picture }}" class="bio-photo" alt="">
 {%- endif -%}
 <span>{{ author.name }}</span>
 {%- if author.links -%}
