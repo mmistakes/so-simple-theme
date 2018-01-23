@@ -1,46 +1,46 @@
-{% assign lang = site.locale | slice: 0,2 | default: "en" %}
-  {% case lang %}
-    {% when "da" %}
-      {% assign lang = "da" %}
-    {% when "de" %}
-      {% assign lang = "de" %}
-    {% when "du" %}
-      {% assign lang = "du" %}
-    {% when "es" %}
-      {% assign lang = "es" %}
-    {% when "fi" %}
-      {% assign lang = "fi" %}
-    {% when "fr" %}
-      {% assign lang = "fr" %}
-    {% when "hu" %}
-      {% assign lang = "hu" %}
-    {% when "it" %}
-      {% assign lang = "it" %}
-    {% when "ja" %}
-      {% assign lang = "ja" %}
-    {% when "jp" %}
-      {% assign lang = "jp" %}
-    {% when "no" %}
-      {% assign lang = "no" %}
-    {% when "pt" %}
-      {% assign lang = "pt" %}
-    {% when "ro" %}
-      {% assign lang = "ro" %}
-    {% when "ru" %}
-      {% assign lang = "ru" %}
-    {% when "sv" %}
-      {% assign lang = "sv" %}
-    {% when "tr" %}
-      {% assign lang = "tr" %}
-    {% else %}
-      {% assign lang = "en" %}
-  {% endcase %}
+{%- assign lang = site.locale | slice: 0,2 | default: "en" -%}
+  {%- case lang -%}
+    {%- when "da" -%}
+      {%- assign lang = "da" -%}
+    {%- when "de" -%}
+      {%- assign lang = "de" -%}
+    {%- when "du" -%}
+      {%- assign lang = "du" -%}
+    {-% when "es" -%}
+      {%- assign lang = "es" -%}
+    {%- when "fi" -%}
+      {%- assign lang = "fi" -%}
+    {%- when "fr" -%}
+      {%- assign lang = "fr" -%}
+    {%- when "hu" -%}
+      {%- assign lang = "hu" -%}
+    {%- when "it" -%}
+      {%- assign lang = "it" -%}
+    {%- when "ja" -%}
+      {%- assign lang = "ja" -%}
+    {%- when "jp" -%}
+      {%- assign lang = "jp" -%}
+    {%- when "no" -%}
+      {%- assign lang = "no" -%}
+    {%- when "pt" -%}
+      {%- assign lang = "pt" -%}
+    {%- when "ro" -%}
+      {%- assign lang = "ro" -%}
+    {%- when "ru" -%}
+      {%- assign lang = "ru" -%}
+    {%- when "sv" -%}
+      {%- assign lang = "sv" -%}
+    {%- when "tr" -%}
+      {%- assign lang = "tr" -%}
+    {%- else -%}
+      {%- assign lang = "en" -%}
+  {%- endcase -%}
   <script src="{{ '/assets/js/lunr/lunr.min.js' | absolute_url }}"></script>
   <script src="{{ '/assets/js/search-data.json' | absolute_url }}"></script>
-  {% unless lang == "en" %}
+  {%- unless lang == "en" -%}
     <script src="{{ '/assets/js/lunr/lunr.stemmer.support.min.js' | absolute_url }}"></script>
     <script src="{{ '/assets/js/lunr/lunr.' | append: lang | append: '.min.js' | absolute_url }}"></script>
-  {% endunless %}
+  {%- endunless %}
   <script>
     var idx = lunr(function () {
       {% unless lang == "en" %}
