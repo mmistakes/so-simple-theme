@@ -1,10 +1,6 @@
-<script type="text/javascript">
-  var BASE_URL = '{{ site.url }}';
-</script>
-
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
-{% if site.owner.google.analytics %}
+{%- if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
@@ -20,13 +16,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-{% endif %}
+{%- endif %}
 
 {% if site.mathjax == true %}
 <!-- MathJax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
-{% if site.search == true or page.layout == "search" %}
+{%- if site.search == true or page.layout == "search" -%}
   {% include lunr-search-scripts.html %}
-{% endif %}
+{%- endif -%}
