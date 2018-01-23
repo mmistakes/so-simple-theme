@@ -1,0 +1,18 @@
+<ul class="post-list">
+  {%- for post in paginator.posts -%}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></li>
+  {%- endfor -%}
+</ul>
+
+<!-- Pagination links -->
+<nav class="pager">
+  <ul>
+    <!-- Page: {{ paginator.page }} of {{ paginator.total_pages }} -->
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous">{{ site.data.text[site.locale].newer | default: 'Newer' }}</a></li>
+    {% endif %}
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next">{{ site.data.text[site.locale].older | default: 'Older' }}</a></li>
+    {% endif %}
+  </ul>
+</nav>
