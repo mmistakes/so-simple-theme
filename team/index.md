@@ -12,7 +12,7 @@ A key philosphy of working with the Sheffield Bioinformatics Core is that you ar
 - [Emily Chambers](http://sbc.shef.ac.uk/team/emily/)
 - Core Analyst; Now hiring
 
-## Associates
+## Core Management
 
-- [Winston Hide](http://sbc.shef.ac.uk/team/win/)
-- [Dennis Wang](http://sbc.shef.ac.uk/team/dennis/)
+- [Winston Hide](http://sbc.shef.ac.uk/team/win/) (Core Scientific Director)
+- [Dennis Wang](http://sbc.shef.ac.uk/team/dennis/) (Core Associate Scientific Director)
