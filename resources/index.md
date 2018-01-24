@@ -29,7 +29,7 @@ Other researchers / Core facilities that we collaborate with and share resources
 
 ## Talks
 
-Talks and presentations given by members of the Core. For training materials and longer courses, see our [training](training) section.
+Talks and presentations given by members of the Core. For training materials and longer courses, see our [training](../training) section.
 
 - [Preliminary Processing of NGS Data](https://github.com/sheffield-bioinformatics-core/GenomeMedicine_NGS_PreliminaryProcessing/raw/master/lecture.pdf), Part of the MSC in Genomic Medicine, University of Sheffield, 22nd January 2018
 
