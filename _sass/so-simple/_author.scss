@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Author
+   ========================================================================== */
+
+.author-avatar {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1em;
+    border-radius: 150px;
+  }
+}
+
+.author-name,
+.author-link {
+  display: inline-block;
+  padding-right: 1em;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  line-height: 1;
+
+  @include breakpoint($large) {
+    display: block;
+    padding: 0.5em;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.author-links {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}

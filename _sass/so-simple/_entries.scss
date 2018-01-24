@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Entries (Posts, collection documents, etc.)
+   ========================================================================== */
+
+.entry {
+  @include clearfix();
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+
+  a {
+    color: inherit;
+  }
+}
+
+.entry-title {
+  @include fluid-type($min-vw, $max-vw, 36px, 48px);
+  margin-bottom: 0.5rem;
+  font-family: $title-font-family;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.entry-meta {
+  @include fluid-type($min-vw, $max-vw, 12px, 16px);
+  margin-bottom: 1rem;
+
+  a {
+    color: inherit;
+  }
+
+  .byline-item {
+    &:not(:first-child) {
+      margin-left: 1.5rem;
+    }
+  }
+
+  .icon {
+    margin-right: 0.5em;
+    fill: $accent-color;
+  }
+}
+
+/*
+   Entry list
+   ========================================================================== */
+
+.entries {
+  .entry-title {
+    word-wrap: break-word; /* break long words that could overflow */
+
+    a:hover {
+      color: $accent-color;
+    }
+  }
+
+  .entry-excerpt {
+    @include breakpoint($medium) {
+      width: span(11 of 16);
+    }
+
+    /* normalize font sizes */
+    > * {
+      font-size: 1em;
+    }
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-content {
+    @include breakpoint($medium) {
+      width: span(11 of 16);
+    }
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-meta {
+    @include breakpoint($medium) {
+      float: right;
+      width: span(5 of 16 last);
+      padding-left: gutter(1 of 16);
+    }
+
+    ul {
+      @include list-unstyled();
+
+      @include breakpoint(max-width $medium) {
+        li {
+          display: inline-block;
+          margin-right: 1.5rem;
+        }
+      }
+
+      @include breakpoint($medium) {
+        li {
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+
+  > .summary {
+    > p:first-child {
+      font-size: 1.125em;
+      line-height: 1.625;
+    }
+  }
+}
+
+.entry-content {
+  > p:first-child {
+    font-size: 1.125em;
+    line-height: 1.625;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: tint($text-color, 25%);
+  }
+}
+
+/* Footnotes */
+.footnotes {
+  margin: 2rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid $border-color;
+  font-size: 80%;
+}
+
+/* Read more link */
+.more-link {
+  font-size: 75%;
+  font-weight: bold;
+  text-decoration: none;
+}

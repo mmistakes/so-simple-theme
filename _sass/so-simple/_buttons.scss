@@ -1,41 +1,98 @@
 /* ==========================================================================
-   Buttons
+   BUTTONS
    ========================================================================== */
 
 /*
    Default button
    ========================================================================== */
 
-.btn {
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 8px 20px;
-  @include font-size(14);
-  background-color: $black;
-  color: $white;
-  border: 2px solid $black !important;
-  border-radius: $border-radius;
+   .btn {
+    /* default */
+    display: inline-block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    font-family: $sans-serif-font-family;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0;
+    border-radius: $border-radius;
+    cursor: pointer;
 
-  &:visited {
-    color: $white;
+    .icon {
+      margin-right: 0.5em;
+    }
+
+    .icon + .hidden {
+      margin-left: -0.5em; /* override for hidden text*/
+    }
+
+    /* button colors */
+    $buttoncolors:
+    (primary, $primary-color),
+    (inverse, #fff),
+    (light-outline, transparent),
+    (success, $success-color),
+    (warning, $warning-color),
+    (danger, $danger-color),
+    (info, $info-color),
+    (facebook, $facebook-color),
+    (twitter, $twitter-color),
+    (google-plus, $google-plus-color),
+    (linkedin, $linkedin-color);
+
+    @each $buttoncolor, $color in $buttoncolors {
+      &--#{$buttoncolor} {
+        @include yiq-contrasted($color);
+        @if ($buttoncolor == inverse) {
+          border: 1px solid $border-color;
+        }
+        @if ($buttoncolor == light-outline) {
+          border: 1px solid #fff;
+        }
+
+        &:hover {
+          @include yiq-contrasted(mix(#000, $color, 20%));
+        }
+
+        &:visited {
+          @include yiq-contrasted($color);
+        }
+      }
+    }
+
+    /* fills width of parent container */
+    &--block {
+      display: block;
+      width: 100%;
+
+      + .btn--block {
+        margin-top: 0.25em;
+      }
+    }
+
+    /* disabled */
+    &--disabled {
+      pointer-events: none;
+      cursor: not-allowed;
+      filter: alpha(opacity=65);
+      box-shadow: none;
+      opacity: 0.65;
+    }
+
+    /* extra large button */
+    &--x-large {
+      font-size: 2em;
+    }
+
+    /* large button */
+    &--large {
+      font-size: 1.5em;
+    }
+
+    /* small button */
+    &--small {
+      font-size: 0.75em;
+    }
   }
-
-  &:hover {
-    background-color: $white;
-    color: $black;
-  }
-}
-
-/*
-   Close button
-   ========================================================================== */
-
-.close-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  background-color: transparent;
-  border: 0 solid transparent;
-  color: $white;
-}

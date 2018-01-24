@@ -1,0 +1,29 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+<article class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">
+      <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
+    </h3>
+  </header>
+  <footer class="entry-meta">
+    <ul>
+    {% if entry.date %}
+      <li><time class="entry-time" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: "%B %-d, %Y" }}</time></li>
+    {% endif %}
+    {% if entry.read_time %}
+      <li>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
+    {% endif %}
+    </ul>
+  </footer>
+  <div class="entry-excerpt">
+    {% if entry.excerpt %}
+      {{ entry.excerpt | markdownify }}
+      <p><a href="{{ entry.url | relative_url }}" class="more-link">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a></p>
+    {% endif %}
+  </div>
+</article>

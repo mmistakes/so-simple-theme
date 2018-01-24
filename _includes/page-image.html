@@ -4,8 +4,11 @@
     {% assign page_image = page_image | relative_url %}
   {% endunless %}
   {% assign page_image = page_image | escape %}
-  <img src="{{ page_image }}" class="entry-feature-image" alt="{{ page.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
-  {% if page.image.credit %}
-    <div class="image-credit">{{ page.image.credit | markdownify }}</div>
-  {% endif %}
+
+  <div class="page-image">
+    <img src="{{ page_image }}" class="entry-feature-image" alt="{{ page.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
+    {% if page.image.caption %}
+      <div class="page-image-caption">{{ page.image.caption | markdownify }}</div>
+    {% endif %}
+  </div>
 {% endif %}

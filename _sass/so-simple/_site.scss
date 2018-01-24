@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Site-wide
+   ========================================================================== */
+
+.site-title {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+.site-description {
+  margin-bottom: 1em;
+  font-family: $description-font-family;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.site-logo {
+  position: relative;
+  width: $site-logo-width;
+  height: $site-logo-height;
+  border: 0.25em solid $background-color;
+  border-radius: 100px;
+  z-index: 10;
+
+  @include breakpoint($medium) {
+    width: 1.5 * $site-logo-width;
+    height: 1.5 * $site-logo-width;
+    border-radius: 150px;
+  }
+
+  @include breakpoint($large) {
+    width: 2 * $site-logo-width;
+    height: 2 * $site-logo-width;
+    border-radius: 200px;
+  }
+}
+
+.site-footer {
+  @include clearfix();
+  margin: 2em 0;
+  padding-top: 1em;
+  text-align: center;
+  border-top: 1px solid $border-color;
+}
+
+.copyright {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

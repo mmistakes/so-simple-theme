@@ -1,8 +1,8 @@
 <header class="masthead">
   <div class="wrap">
-    {% if site.logo != null %}
-      <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
-        <img src="{{ site.logo | relative_url }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown">
+    {% if site.logo %}
+      <a href="{{ '/' | relative_url }}" rel="home" title="{{ site.title }}">
+        <img src="{{ site.logo | relative_url }}" class="site-logo">
       </a>
     {% endif %}
     {% unless page.image.path %}
