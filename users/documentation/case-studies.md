@@ -40,7 +40,7 @@ family of highly scalable Gaussian processes based models. In brief,
 NNGP extends the Vecchia’s approximation (Vecchia 1988) to a process
 using conditional independence given information from neighboring
 locations. This case study shows how to express and fit these models
-in Stan for spatial random effects.
+in Stan.
 </small>
 
 [View](case-studies/nngp.html) <span class="note">(HTML)</span>
@@ -50,7 +50,7 @@ Author
 
 Keywords
 : Gaussian process, nearest neighbor Gaussian process, spatial models,
-random effects, regression
+latent process, regression
 
 Source Repository
 : [LuZhangstat/NNGP_STAN](https://github.com/LuZhangstat/NNGP_STAN)
