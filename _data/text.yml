@@ -3,6 +3,8 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
+  min_read: "min read"
+  read_more: "Read More"
   pages_tagged: "Pages tagged"
   share_on_label: "Share on"
   next: "Next"
