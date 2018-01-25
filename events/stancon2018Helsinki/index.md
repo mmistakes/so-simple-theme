@@ -146,6 +146,8 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 * [Generable](https://www.generable.com/)
 * [Reaktor](https://www.reaktor.com/)
 * [Amazon](https://www.amazon.com/)
+* [tweag.io](https://www.tweag.io/)
+* [Smartly](https://smart.ly/)
 * [Finnish Center for Artificial Intelligence](http://fcai.fi)
 * [Aalto University](http://www.aalto.fi/en/)
 
