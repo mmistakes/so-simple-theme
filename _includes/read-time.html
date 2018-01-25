@@ -1,14 +1,11 @@
-{% assign words_per_minute = site.words_per_minute | default: 200 %}
-{% assign min_read = site.data.text[site.locale].min_read | default: 'min read' %}
+{%- assign words_per_minute = site.words_per_minute | default: 200 -%}
+{%- assign min_read = site.data.text[site.locale].min_read | default: 'min read' -%}
+{%- assign words = page.content | strip_html | number_of_words -%}
 
-{% if entry.read_time %}
-  {% assign words = entry.content | strip_html | number_of_words %}
-{% elsif page.read_time %}
-  {% assign words = page.content | strip_html | number_of_words %}
-{% endif %}
-
-{% if words < words_per_minute %}
-  ~1 {{ min_read }}
-{% else %}
-  {{ words | divided_by:words_per_minute }} {{ min_read }}
-{% endif %}
+<span class="read-time">
+  {%- if words < words_per_minute -%}
+    ~1 {{ min_read }}
+  {%- else -%}
+    {{ words | divided_by:words_per_minute }} {{ min_read }}
+  {%- endif -%}
+</span>

@@ -6,43 +6,40 @@
   display: none;
 
   @include breakpoint($large) {
-    display: block;
-    width: 150px;
-    height: 150px;
+    display: inline;
     margin-bottom: 1em;
-    border-radius: 150px;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
   }
 }
 
-.author-name,
-.author-link {
-  display: inline-block;
-  padding-right: 1em;
-  font-size: 0.75em;
-  text-transform: uppercase;
-  line-height: 1;
-
+.author-name {
   @include breakpoint($large) {
-    display: block;
-    padding: 0.5em;
-
-    &:not(:last-child) {
-      border-bottom: 1px solid $border-color;
-    }
-  }
-
-  a {
-    text-decoration: none;
+    margin-bottom: 0.5em;
   }
 }
 
 .author-links {
-  display: inline-block;
-  margin: 0;
+  display: none;
+  margin: 0 0 1.5em;
   padding: 0;
   list-style: none;
 
   @include breakpoint($large) {
     display: block;
+  }
+}
+
+.author-link {
+  display: inline;
+  padding-right: 0.5em;
+
+  @include breakpoint($large) {
+    padding: 0.25em;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

@@ -14,13 +14,9 @@
   }
 }
 
-.page-header {
-  display: grid;
-}
-
 .page-title {
   @include fluid-type($min-vw, $max-vw, 48px, 60px);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.25em;
   font-family: $title-font-family;
   font-weight: normal;
   font-style: italic;
@@ -67,27 +63,92 @@
   }
 }
 
+.page-sidebar {
+  font-size: 0.75em;
+
+  @include breakpoint($large) {
+    text-align: center;
+  }
+
+  .page-date,
+  .read-time {
+    font-family: $meta-font-family;
+    white-space: nowrap;
+  }
+
+  .read-time {
+    font-style: italic;
+
+    @include breakpoint($large) {
+      display: block;
+    }
+  }
+}
+
+.page-author {
+  @include clearfix;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.page-date + .read-time::before {
+  content: '\2022';
+  padding: 0 0.5em;
+
+  @include breakpoint($large) {
+    content: '';
+  }
+}
+
+.page-tags-title {
+  display: inline;
+  padding-right: 0.5em;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+
+  @include breakpoint($large) {
+    display: inline-block;
+    margin: 1.5em 0 0.5em;
+    padding: 0 0 0.25em 0;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
 .page-tags {
-  margin: 0 0 1em 0;
+  display: inline;
   padding: 0;
   list-style: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.9em;
-  order: -1;
+
+  @include breakpoint($large) {
+    display: block;
+    margin: 0 0 1.5em 0;
+  }
 }
 
 .page-tag {
-  display: inline-block;
-  padding-right: 0.25em;
+  display: inline;
 
-  &:not(:first-child)::before {
-    content: "\2022";
+  @include breakpoint($large) {
+    display: block;
   }
 
   a {
-    color: $text-color;
+    padding: 0 0.25em;
     text-decoration: none;
+
+    @include breakpoint($large) {
+      display: block;
+      padding: 0.125em;
+    }
   }
 }
 
@@ -138,12 +199,12 @@
     }
   }
 
-  .page-author {
+  .page-sidebar {
     margin-bottom: 1em;
 
     @include breakpoint($large) {
       float: left; // display: grid fallback
-      width: 20%; // display: grid fallback
+      width: 18%; // display: grid fallback
     }
 
     @supports (display: grid) {
@@ -154,7 +215,7 @@
   .page-content {
     @include breakpoint($large) {
       float: right; // display: grid fallback
-      width: 80%; // display: grid fallback
+      width: 78%; // display: grid fallback
       min-width: 0;
     }
 
@@ -164,7 +225,6 @@
     }
   }
 
-  .page-tags,
   .page-share {
     // display: grid fallback
     clear: both;

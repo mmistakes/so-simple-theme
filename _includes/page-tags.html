@@ -1,0 +1,10 @@
+{% if page.tags %}
+  <h3 class="page-tags-title">{{ site.date.text[site.locale].tags | default: 'Tags' }}</h3>
+  <ul class="page-tags">
+    {%- for tag in page.tags -%}
+      <li class="page-tag">
+        <a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}">{{ tag }}</a>
+      </li>
+    {%- endfor- %}
+  </ul>
+{% endif %}

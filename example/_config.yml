@@ -19,7 +19,9 @@ description: "A simple and clean theme for words and pictures."
 baseurl: "/example"  # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+date_format: "%b %-d, %Y"
 read_time: true
+words_per_minute: 200
 search: true
 mathjax: true
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
