@@ -5,7 +5,9 @@
 en: &DEFAULT_EN
   min_read: "min read"
   read_more: "Read More"
+  categories: "Categories"
   tags: "Tags"
+  pages_categorized: "Pages categorized"
   pages_tagged: "Pages tagged"
   share: "Share"
   tweet: "Tweet"

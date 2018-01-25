@@ -106,7 +106,7 @@
   }
 }
 
-.page-tags-title {
+.page-taxonomies-title {
   display: inline;
   padding-right: 0.5em;
   font-size: 1em;
@@ -124,8 +124,9 @@
   }
 }
 
-.page-tags {
+.page-taxonomies {
   display: inline;
+  margin-right: 1em;
   padding: 0;
   list-style: none;
 
@@ -135,7 +136,7 @@
   }
 }
 
-.page-tag {
+.page-taxonomy {
   display: inline;
 
   @include breakpoint($large) {
@@ -217,7 +218,7 @@
     @include breakpoint($large) {
       display: grid;
       grid-gap: 2em;
-      grid-template-columns: 150px 1fr;
+      grid-template-columns: 200px 1fr;
       justify-content: space-between;
     }
   }

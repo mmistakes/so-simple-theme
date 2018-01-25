@@ -1,9 +1,13 @@
 {% if page.tags.size > 0 %}
-  <h3 class="page-tags-title">{{ site.date.text[site.locale].tags | default: 'Tags' }}</h3>
-  <ul class="page-tags">
+  <h3 class="page-taxonomies-title">{{ site.date.text[site.locale].tags | default: 'Tags' }}</h3>
+  <ul class="page-taxonomies">
     {%- for tag in page.tags -%}
-      <li class="page-tag">
-        <a href="{{ tag | prepend: '/tags/#' | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}">{{ tag }}</a>
+      <li class="page-taxonomy">
+        {%- if site.tag_archive_path -%}
+          <a href="{{ tag | prepend: site.tag_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}">{{ tag }}</a>
+        {%- else -%}
+          {{ tag }}
+        {%- endif -%}
       </li>
     {%- endfor- %}
   </ul>
