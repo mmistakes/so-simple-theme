@@ -38,8 +38,8 @@ $h6-min: ($base-font-size / $modular-scale-1) !default;
 $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Font Families */
-$serif-font-family: serif !default;
-$sans-serif-font-family: sans-serif !default;
+$serif-font-family: "Volkhov", serif !default;
+$sans-serif-font-family: "Source Sans Pro", sans-serif !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
 
 $base-font-family: $sans-serif-font-family !default;
