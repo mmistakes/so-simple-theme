@@ -1,4 +1,4 @@
-{% if page.tags %}
+{% if page.tags.size > 0 %}
   <h3 class="page-tags-title">{{ site.date.text[site.locale].tags | default: 'Tags' }}</h3>
   <ul class="page-tags">
     {%- for tag in page.tags -%}
