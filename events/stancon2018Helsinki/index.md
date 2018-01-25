@@ -106,7 +106,7 @@ If you have questions regarding registration, payments, travel, please email
 
 # [Accommodation](#accommodation)
 
-Please make your hotel reservation directly to the hotels. We are arranging some deals with hotels and provide list of some recommended hotels near the venue. More details will be updated soon.
+Please make your hotel reservation directly to the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
 
 # [Speakers and Schedule](#speakers-and-schedule)
 
