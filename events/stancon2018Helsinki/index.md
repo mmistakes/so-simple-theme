@@ -112,9 +112,9 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 
 ## Invited speakers!
 
-* Richard McElreath <br> Max Planck Institute for Evolutionary Anthropology
-* Maggie Lieu <br>European Space Astronomy Centre
-* Sarah Heaps <br> Newcastle University
+* [Richard McElreath](http://xcelab.net/rm/) <br> Max Planck Institute for Evolutionary Anthropology
+* [Maggie Lieu](https://maggielieu.com) <br>European Space Astronomy Centre
+* [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html) <br> Newcastle University
 * Daniel Simpson <br> University of Toronto
 
 ## Schedule
@@ -133,6 +133,9 @@ tutorial sessions are
 * Basics of Bayesian inference and Stan, Jonah Gabry
 * Hierarchical models, Ben Goodrich
 * Model assessment and selection, Aki Vehtari
+* Gaussian processes
+* Stan C++ development
+* Productization of Stan
 * TBA
 
 # [Code of Conduct](#code-of-conduct)
