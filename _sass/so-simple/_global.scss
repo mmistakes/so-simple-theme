@@ -62,12 +62,16 @@
 }
 
 .site-logo {
+  display: inline-block;
   position: relative;
+  z-index: 10;
+}
+
+.site-logo-img {
   width: $site-logo-width;
   height: $site-logo-height;
   border: 0.25em solid $background-color;
   border-radius: 100px;
-  z-index: 10;
 
   @include breakpoint($medium) {
     width: 1.5 * $site-logo-width;
@@ -84,7 +88,7 @@
 
 .site-footer {
   @include clearfix();
-  margin: 2em 0;
+  margin: 3em 0 2em;
   padding-top: 1em;
   text-align: center;
   border-top: 1px solid $border-color;

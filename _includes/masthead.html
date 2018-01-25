@@ -1,8 +1,8 @@
 <header class="masthead">
   <div class="wrap">
     {% if site.logo %}
-      <a href="{{ '/' | relative_url }}" rel="home" title="{{ site.title }}">
-        <img src="{{ site.logo | relative_url }}" class="site-logo">
+      <a href="{{ '/' | relative_url }}" class="site-logo" rel="home" title="{{ site.title }}">
+        <img src="{{ site.logo | relative_url }}" class="site-logo-img" alt="{{ site.title }}">
       </a>
     {% endif %}
     {% unless page.image.path %}
