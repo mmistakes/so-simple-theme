@@ -150,7 +150,7 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 * [Reaktor](https://www.reaktor.com/)
 * [Amazon](https://www.amazon.com/)
 * [tweag.io](https://www.tweag.io/)
-* [Smartly](https://smart.ly/)
+* [Smartly](https://www.smartly.io/)
 * [Finnish Center for Artificial Intelligence](http://fcai.fi)
 * [Aalto University](http://www.aalto.fi/en/)
 
