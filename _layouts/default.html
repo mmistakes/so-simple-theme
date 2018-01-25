@@ -11,6 +11,7 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
     {% include skip-links.html %}
     {% include navigation.html %}
+    {% include masthead.html %}
 
     {{ content }}
 

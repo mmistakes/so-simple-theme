@@ -52,7 +52,9 @@ $meta-font-family: $serif-font-family !default;
 $base-color: #000 !default;
 $text-color: #000 !default;
 $accent-color: tomato !default;
+$nav-color: #fff !default;
 $background-color: #fff !default;
+$nav-background-color: #000 !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
@@ -118,7 +120,7 @@ $site-logo-width: 75px !default;
 $site-logo-height: 75px !default;
 
 /* Border radius */
-$border-radius: 0.25em !default;
+$border-radius: 0.25rem !default;
 
 /* Global transition */
 $global-transition: all 0.4s ease !default;
