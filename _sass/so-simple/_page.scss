@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .page-wrapper {
-  margin: 2em auto;
+  margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
   max-width: $main-max-width;
@@ -116,11 +116,10 @@
   @include breakpoint($large) {
     display: inline-block;
     margin: 1.5em 0 0.5em;
-    padding: 0 0 0.25em 0;
-    font-size: 1em;
+    padding: 0;
+    font-size: 0.75em;
     font-weight: normal;
     text-transform: uppercase;
-    border-bottom: 1px solid $border-color;
   }
 }
 
@@ -139,18 +138,12 @@
 .page-taxonomy {
   display: inline;
 
-  @include breakpoint($large) {
-    display: block;
+  &:not(:last-child)::after {
+    content: ', ';
   }
 
   a {
-    padding: 0 0.25em;
     text-decoration: none;
-
-    @include breakpoint($large) {
-      display: block;
-      padding: 0.125em;
-    }
   }
 }
 
@@ -217,7 +210,8 @@
   .page-wrapper {
     @include breakpoint($large) {
       display: grid;
-      grid-gap: 2em;
+      grid-column-gap: 2em;
+      grid-row-gap: 0;
       grid-template-columns: 200px 1fr;
       justify-content: space-between;
     }

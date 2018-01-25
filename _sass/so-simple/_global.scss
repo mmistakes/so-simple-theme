@@ -36,10 +36,16 @@
   }
 }
 
+.masthead {
+  @include clearfix;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
 .site-title {
-  margin: 0;
+  margin: 0.5em 0 0;
   padding: 0;
-  line-height: 1;
+  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
 
   a {
     color: $text-color;
@@ -50,6 +56,7 @@
 .site-description {
   margin-bottom: 1em;
   font-family: $description-font-family;
+  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
   font-weight: 400;
   font-style: italic;
 }
