@@ -115,7 +115,7 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 * [Richard McElreath](http://xcelab.net/rm/) <br> Max Planck Institute for Evolutionary Anthropology
 * [Maggie Lieu](https://maggielieu.com) <br>European Space Astronomy Centre
 * [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html) <br> Newcastle University
-* Daniel Simpson <br> University of Toronto
+* [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en) <br> University of Toronto
 
 ## Schedule
 
