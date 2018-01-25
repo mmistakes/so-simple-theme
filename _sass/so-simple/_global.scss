@@ -47,11 +47,27 @@
   padding-top: 1em;
   text-align: center;
   border-top: 1px solid $border-color;
+
+  .social-icons {
+    margin-bottom: 0.5em;
+  }
+
+  .social-icon {
+    display: inline-block;
+    padding: 0 0.25em;
+  }
 }
 
 .copyright {
+  color: lighten($text-color, 35%);
+  font-size: 0.75em;
+
   p {
     margin: 0;
     padding: 0;
+  }
+
+  a {
+    color: lighten($text-color, 35%);
   }
 }
