@@ -3,6 +3,7 @@
 # English (default)
 # -----------------
 en: &DEFAULT_EN
+  by: "by"
   min_read: "min read"
   read_more: "Read More"
   categories: "Categories"

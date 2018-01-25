@@ -13,7 +13,7 @@
 
   <div class="author-info">
     <div class="author-name">
-      {{ author.name }}
+      {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}{{ author.name }}
     </div>
     {%- if author.links -%}
       <ul class="author-links">
