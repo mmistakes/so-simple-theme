@@ -1,5 +1,5 @@
 {% if page.tags.size > 0 %}
-  <h3 class="page-taxonomies-title">{{ site.date.text[site.locale].tags | default: 'Tags' }}</h3>
+  <h3 class="page-taxonomies-title">{{ site.data.text[site.locale].tags | default: 'Tags' }}</h3>
   <ul class="page-taxonomies">
     {%- for tag in page.tags -%}
       <li class="page-taxonomy">
