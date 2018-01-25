@@ -8,7 +8,7 @@ en: &DEFAULT_EN
   read_more: "Read More"
   categories: "Categories"
   tags: "Tags"
-  pages_categorized: "Pages categorized"
+  pages_categorized: "Pages filed under"
   pages_tagged: "Pages tagged"
   share: "Share"
   tweet: "Tweet"

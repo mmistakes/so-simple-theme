@@ -4,7 +4,7 @@
     {%- for category in page.categories -%}
       <li class="page-taxonomy">
         {%- if site.category_archive_path -%}
-          <a href="{{ category | prepend: site.category_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_categorized | default: 'Pages categorized' }} {{ category }}">{{ category }}</a>
+          <a href="{{ category | prepend: site.category_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_categorized | default: 'Pages filed under' }} {{ category }}">{{ category }}</a>
         {%- else -%}
           {{ category }}
         {%- endif -%}
