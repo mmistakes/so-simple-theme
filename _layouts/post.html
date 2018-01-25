@@ -29,16 +29,9 @@ layout: default
         {% if site.disqus.shortname %}
           {% include disqus-comments.html %}
         {% endif %}
+
+        {% include page-pagination.html %}
       </div>
     </div>
   </article>
 </main>
-
-<nav class="page-pagination" role="navigation">
-  {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="btn btn--primary" title="{{ page.previous.title }}">{{ site.data.text[site.locale].previous | default: 'Previous' }}</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="btn btn--primary" title="{{ page.next.title }}">{{ site.data.text[site.locale].next | default: 'Next' }}</a>
-  {% endif %}
-</nav>

@@ -96,7 +96,7 @@
   }
 }
 
-.page-date + .read-time::before {
+.read-time + .page-date::before {
   content: '\2022';
   padding: 0 0.5em;
 
@@ -163,9 +163,43 @@
 }
 
 .page-pagination {
-  clear: both;
   margin: 2em 0 1em;
-  text-align: center;
+  clear: both;
+
+  @include breakpoint($large) {
+    display: flex;
+  }
+}
+
+.page-previous,
+.page-next {
+  display: block;
+  flex: 1;
+  text-decoration: none;
+  color: $text-color;
+}
+
+.page-next {
+  margin-top: 1em;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+
+.page-pagination-label {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.page-pagination-title {
+  margin: 0;
+  padding: 0;
+  font-family: $meta-font-family;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 /*
