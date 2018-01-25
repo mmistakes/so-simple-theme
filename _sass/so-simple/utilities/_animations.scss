@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+/* add .animated class to elements you wish to animate
+ * along with the type of animation (eg: <div class="animated fadeIn"></div>)
+ */
+
+.animated {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/*
+   Fade-in animation .fadeIn
+   ========================================================================== */
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*
+   Fade-in down animation .fadeInDown
+   ========================================================================== */
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+/*
+   Drop animation .drop
+   ========================================================================== */
+
+@-webkit-keyframes drop {
+  0% {
+    -webkit-transform: translateY(-500px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@keyframes drop {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.drop {
+  -webkit-animation-name: drop;
+  animation-name: drop;
+}
