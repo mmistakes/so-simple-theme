@@ -1,6 +1,6 @@
 ---
 layout: page
-title: StanCon 2018 Helsinki
+title: StanCon 2018 Helsinki, 29-31 Aug 2018
 excerpt: ""
 modified:
 image:
