@@ -77,22 +77,22 @@ author:
   links:
     - title: Twitter
       url: https://twitter.com/mmistakes
-      icon: fa-twitter
+      icon: fab fa-twitter-square
     - title: Instagram
       url: https://instagram.com/mmistakes
-      icon: fa-instagram
+      icon: fab fa-instagram
     - title: GitHub
       url: https://github.com/mmistakes
-      icon: fa-github
+      icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: Twitter
     url: https://twitter.com/mmistakes
-    icon: fa-twitter
+    icon: fab fa-twitter-square
   - title: Instagram
     url: https://instagram.com/mmistakes
-    icon: fa-instagram
+    icon: fab fa-instagram
   - title: GitHub
     url: https://github.com/mmistakes
-    icon: fa-github
+    icon: fab fa-github-square

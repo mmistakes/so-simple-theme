@@ -7,16 +7,16 @@
     {% endif %}
   </div>
 
-  {% if site.footer_links %}
+  {%- if site.footer_links -%}
     <div class="social-icons">
-      {% for footer_link in site.footer_links -%}
+      {%- for footer_link in site.footer_links -%}
         {%- if footer_link.url contains "://" -%}
           {%- assign url = footer_link.url -%}
         {%- else -%}
           {%- assign url = footer_link.url | relative_url -%}
         {%- endif -%}
-        <a href="{{ url }}" title="{{ footer_link.title }}"><i class="fa {{ footer_link.icon | default: 'fa-circle' }} fa-2x"></i></a>
-      {% endfor %}
+        <a href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+      {%- endfor -%}
     </div>
-  {% endif %}
+  {%- endif -%}
 </footer>

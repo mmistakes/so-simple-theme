@@ -24,7 +24,7 @@
             {%- assign url = link.url | relative_url -%}
           {%- endif -%}
           <li class="author-link">
-            <a href="{{ url }}"><i class="fa {{ link.icon | default : 'fa-circle' }} fa-fw"></i> {{ link.title }}</a>
+            <a href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i></a>
           </li>
         {%- endfor -%}
       </ul>
