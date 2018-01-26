@@ -43,8 +43,8 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Taxnomoy pages
 category_archive_path: # "/categories/#"
@@ -66,6 +66,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
 
 # Front Matter Defaults
 defaults:
