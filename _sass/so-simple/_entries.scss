@@ -14,6 +14,11 @@
   }
 }
 
+.entry-header {
+  display: flex;
+  flex-direction: column;
+}
+
 .entry-title {
   margin-bottom: 0.5rem;
   font-family: $title-font-family;
@@ -25,6 +30,12 @@
   a {
     text-decoration: none;
   }
+}
+
+.entry-image {
+  order: -1;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .entry-meta {

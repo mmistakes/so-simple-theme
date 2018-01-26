@@ -9,6 +9,14 @@
     <h3 class="entry-title">
       <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
     </h3>
+    {% if entry.image.thumbnail %}
+      {% assign entry_image = entry.image.thumbnail %}
+      {% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+      {% endunless %}
+      {% assign entry_image = entry_image | escape %}
+      <img class="entry-image" src="{{ entry_image }}" alt="">
+    {% endif %}
   </header>
   <div class="entry-excerpt">
     {% if entry.excerpt %}
