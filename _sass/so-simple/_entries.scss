@@ -51,9 +51,9 @@
     display: flex;
     flex-direction: column;
 
-    &:not(:last-child) {
-      border-bottom: 1px solid $border-color;
-    }
+    // &:not(:last-child) {
+    //   border-bottom: 1px solid $border-color;
+    // }
   }
 
   .entry-title {
@@ -85,8 +85,12 @@
     font-size: 0.75em;
   }
 
-  .more-link a {
-    text-decoration: none;
+  .more-link {
+    margin-top: -1em;
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
