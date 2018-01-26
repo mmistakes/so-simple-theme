@@ -4,7 +4,7 @@
       <h4 class="page-pagination-label">{{ site.data.text[site.locale].previous | default: 'Previous' }}</h4>
       <span class="page-pagination-title">
         {% include icon-left-arrow.svg %}
-        {{ page.previous.title }}
+        {{ page.previous.title | markdownify | strip_html }}
       </span>
     </a>
   {% endif %}
@@ -13,7 +13,7 @@
     <a class="page-next" href="{{ page.next.url | relative_url }}">
       <h4 class="page-pagination-label">{{ site.data.text[site.locale].next | default: 'Next' }}</h4>
       <span class="page-pagination-title">
-        {{ page.next.title }}
+        {{ page.next.title | markdownify | strip_html }}
         {% include icon-right-arrow.svg %}
       </span>
     </a>
