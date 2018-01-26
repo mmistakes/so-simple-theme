@@ -2,6 +2,7 @@
 title: "Layout: Hero Image"
 image: 
   path: /images/eder-oliveira-180877.jpg
+  thumbnail: /images/eder-oliveira-180877-320x200.jpg
   caption: "Photo from [Unsplash](https://unsplash.com/)"
 categories:
   - Layout
