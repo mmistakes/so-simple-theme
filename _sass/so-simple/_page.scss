@@ -6,9 +6,9 @@
   margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
-  max-width: $main-max-width;
+  max-width: $main-sidebar-max-width;
 
-  @include breakpoint($main-max-width) {
+  @include breakpoint($main-sidebar-max-width) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -201,7 +201,7 @@
 .layout--home,
 .layout--search {
   .page-wrapper {
-    max-width: $medium;
+    max-width: $main-max-width;
   }
 
   .page-title {

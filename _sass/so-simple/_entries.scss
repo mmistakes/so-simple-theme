@@ -4,8 +4,6 @@
 
 .entry {
   @include clearfix();
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
 
   a {
     color: inherit;
@@ -22,6 +20,7 @@
   font-weight: normal;
   font-style: italic;
   letter-spacing: -2px;
+  word-wrap: break-word; /* break long words that could overflow */
 
   a {
     text-decoration: none;
@@ -50,15 +49,12 @@
   .entry {
     display: flex;
     flex-direction: column;
-
-    // &:not(:last-child) {
-    //   border-bottom: 1px solid $border-color;
-    // }
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 
   .entry-title {
     @include fluid-type($min-vw, $max-vw, 24px, 36px);
-    word-wrap: break-word; /* break long words that could overflow */
     order: 1;
   }
 
@@ -98,4 +94,55 @@
    Entries Grid Layout
    ========================================================================== */
 
-.entries-grid {}
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2em;
+
+  @include breakpoint($large) {
+    margin-left: calc(-40vw + 40%);
+    margin-right: calc(-40vw + 40%);
+  }
+
+  .entry {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .entry-title {
+    @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    order: 1;
+  }
+
+  .entry-excerpt,
+  .entry-content {
+    order: 3;
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-excerpt {
+    /* normalize font sizes */
+    > * {
+      font-size: 1em;
+    }
+  }
+
+  .entry-meta {
+    order: 2;
+    margin-bottom: 1em;
+    font-size: 0.75em;
+  }
+
+  .more-link {
+    margin-top: -1em;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
