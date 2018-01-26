@@ -131,13 +131,13 @@
 
 
 .pagination {
+  display: flex;
   grid-column: 1 / -1;
-  margin-top: 1em;
-  padding-top: 1em;
+  margin: 2em 0;
   width: 100%;
 
   ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     list-style-type: none;
   }

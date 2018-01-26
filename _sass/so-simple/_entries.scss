@@ -24,7 +24,7 @@
   font-family: $title-font-family;
   font-weight: normal;
   font-style: italic;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   word-wrap: break-word; /* break long words that could overflow */
 
   a {
@@ -107,7 +107,7 @@
 
 .entries-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2em;
 
   @include breakpoint($large) {
