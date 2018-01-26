@@ -9,17 +9,19 @@
 
   a {
     color: inherit;
+
+    &:hover {
+      color: $accent-color;
+    }
   }
 }
 
 .entry-title {
-  @include fluid-type($min-vw, $max-vw, 36px, 48px);
   margin-bottom: 0.5rem;
   font-family: $title-font-family;
   font-weight: normal;
   font-style: italic;
   letter-spacing: -2px;
-  text-align: center;
 
   a {
     text-decoration: none;
@@ -27,125 +29,69 @@
 }
 
 .entry-meta {
-  @include fluid-type($min-vw, $max-vw, 12px, 16px);
-  margin-bottom: 1rem;
-
-  a {
-    color: inherit;
+  .entry-date,
+  .read-time {
+    font-family: $meta-font-family;
+    font-style: italic;
+    white-space: nowrap;
   }
 
-  .byline-item {
-    &:not(:first-child) {
-      margin-left: 1.5rem;
-    }
-  }
-
-  .icon {
-    margin-right: 0.5em;
-    fill: $accent-color;
+  .read-time + .entry-date::before {
+    content: '\2022';
+    padding: 0 0.5em;
   }
 }
 
 /*
-   Entry list
+   Entries List Layout
    ========================================================================== */
 
-.entries {
-  .entry-title {
-    word-wrap: break-word; /* break long words that could overflow */
+.entries-list {
+  .entry {
+    display: flex;
+    flex-direction: column;
 
-    a:hover {
-      color: $accent-color;
+    &:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+    }
+  }
+
+  .entry-title {
+    @include fluid-type($min-vw, $max-vw, 24px, 36px);
+    word-wrap: break-word; /* break long words that could overflow */
+    order: 1;
+  }
+
+  .entry-excerpt,
+  .entry-content {
+    order: 3;
+
+    /* remove space after last child element */
+    > *:last-child {
+      margin-bottom: 0;
     }
   }
 
   .entry-excerpt {
-    @include breakpoint($medium) {
-      width: span(11 of 16);
-    }
-
     /* normalize font sizes */
     > * {
       font-size: 1em;
     }
-
-    /* remove space after last child element */
-    > *:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  .entry-content {
-    @include breakpoint($medium) {
-      width: span(11 of 16);
-    }
-
-    /* remove space after last child element */
-    > *:last-child {
-      margin-bottom: 0;
-    }
   }
 
   .entry-meta {
-    @include breakpoint($medium) {
-      float: right;
-      width: span(5 of 16 last);
-      padding-left: gutter(1 of 16);
-    }
-
-    ul {
-      @include list-unstyled();
-
-      @include breakpoint(max-width $medium) {
-        li {
-          display: inline-block;
-          margin-right: 1.5rem;
-        }
-      }
-
-      @include breakpoint($medium) {
-        li {
-          padding-bottom: 0.5rem;
-        }
-      }
-    }
+    order: 2;
+    margin-bottom: 1em;
+    font-size: 0.75em;
   }
 
-  > .summary {
-    > p:first-child {
-      font-size: 1.125em;
-      line-height: 1.625;
-    }
+  .more-link a {
+    text-decoration: none;
   }
 }
 
-.entry-content {
-  > p:first-child {
-    font-size: 1.125em;
-    line-height: 1.625;
-  }
+/*
+   Entries Grid Layout
+   ========================================================================== */
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: tint($text-color, 25%);
-  }
-}
-
-/* Footnotes */
-.footnotes {
-  margin: 2rem 0;
-  padding-top: 1rem;
-  border-top: 1px solid $border-color;
-  font-size: 80%;
-}
-
-/* Read more link */
-.more-link {
-  font-size: 75%;
-  font-weight: bold;
-  text-decoration: none;
-}
+.entries-grid {}

@@ -81,6 +81,16 @@
       display: block;
     }
   }
+
+  .read-time + .page-date::before {
+    content: '\2022';
+    padding: 0 0.5em;
+
+    @include breakpoint($large) {
+      content: '';
+      padding: 0;
+    }
+  }
 }
 
 .page-author {
@@ -91,16 +101,6 @@
 
   @include breakpoint($large) {
     display: block;
-  }
-}
-
-.read-time + .page-date::before {
-  content: '\2022';
-  padding: 0 0.5em;
-
-  @include breakpoint($large) {
-    content: '';
-    padding: 0;
   }
 }
 

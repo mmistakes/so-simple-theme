@@ -1,4 +1,4 @@
 <time class="page-date" datetime="{{ page.date | date_to_xmlschema }}">
-  {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+  {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
   {{ page.date | date: date_format }}
 </time>

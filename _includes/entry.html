@@ -10,20 +10,16 @@
       <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
     </h3>
   </header>
-  <footer class="entry-meta">
-    <ul>
-    {% if entry.date %}
-      <li><time class="entry-time" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: "%B %-d, %Y" }}</time></li>
-    {% endif %}
-    {% if entry.read_time %}
-      <li>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
-    {% endif %}
-    </ul>
-  </footer>
   <div class="entry-excerpt">
     {% if entry.excerpt %}
       {{ entry.excerpt | markdownify }}
-      <p><a href="{{ entry.url | relative_url }}" class="more-link">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a></p>
+      <div class="more-link">
+        <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }} {% include icon-right-arrow.svg %}</a>
+      </div>
     {% endif %}
   </div>
+  <footer class="entry-meta">
+    {% if site.read_time %}{% include read-time.html %}{% endif %}
+    {% if entry.date %}{% include entry-date.html %}{% endif %}
+  </footer>
 </article>
