@@ -18,7 +18,7 @@
   @include fluid-type($min-vw, $max-vw, 48px, 60px);
   margin-bottom: 0.5em;
   font-family: $title-font-family;
-  font-weight: normal;
+  font-weight: $page-title-weight;
   font-style: italic;
   letter-spacing: -2px;
 }

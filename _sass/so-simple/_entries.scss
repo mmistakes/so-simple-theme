@@ -22,7 +22,7 @@
 .entry-title {
   margin-bottom: 0.5rem;
   font-family: $title-font-family;
-  font-weight: normal;
+  font-weight: $entry-title-weight;
   font-style: italic;
   letter-spacing: -1px;
   word-wrap: break-word; /* break long words that could overflow */
