@@ -180,9 +180,13 @@
     display: flex;
     padding: 0.25em 0;
     justify-content: space-between;
-    color: $text-color;
+    color: inherit;
     text-decoration: none;
     border-bottom: 1px solid $border-color;
+
+    &:hover {
+      color: $accent-color;
+    }
   }
 }
 
