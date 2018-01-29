@@ -87,15 +87,17 @@
             })
           });
         resultdiv.empty();
-        resultdiv.prepend('<p class="results__found">' + result.length + ' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+        resultdiv.prepend('<p class="results__found">' + result.length + ' {{ site.data.text[site.locale].results_found | default: "Result(s) found" }}</p>');
         for (var item in result) {
           var ref = result[item].ref;
           var searchitem =
-            '<article class="archive__item">' +
-              '<h2 class="archive__item-title">' +
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
                 '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
-              '</h2>' +
-              '<p class="archive__item-excerpt">' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
             '</article>';
           resultdiv.append(searchitem);
         }
