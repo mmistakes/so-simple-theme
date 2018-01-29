@@ -47,8 +47,8 @@ paginate: 10
 paginate_path: /page:num/
 
 # Taxnomoy pages
-category_archive_path: # "/categories/#"
-tag_archive_path: # "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
