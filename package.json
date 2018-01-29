@@ -26,6 +26,11 @@
     "onchange": "^2.2.0",
     "uglify-js": "^2.6.1"
   },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 9"
+  ],
   "scripts": {
     "uglify": "uglifyjs assets/js/plugins/lity.js assets/js/plugins/jquery.smooth-scroll.js assets/js/main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",

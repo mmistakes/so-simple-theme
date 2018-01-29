@@ -15,7 +15,12 @@
 }
 
 .entry-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -33,6 +38,8 @@
 }
 
 .entry-image {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
   order: -1;
   width: 100%;
   margin-bottom: 0.5rem;
@@ -47,7 +54,7 @@
   }
 
   .read-time + .entry-date::before {
-    content: '\2022';
+    content: "\2022";
     padding: 0 0.5em;
   }
 }
@@ -58,18 +65,27 @@
 
 .entries-list {
   .entry {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 2rem;
   }
 
   .entry-title {
     @include fluid-type($min-vw, $max-vw, 24px, 36px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
   }
 
   .entry-excerpt,
   .entry-content {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
 
     /* remove space after last child element */
@@ -86,6 +102,8 @@
   }
 
   .entry-meta {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
     margin-bottom: 1em;
     font-size: 0.75em;
@@ -110,18 +128,27 @@
   grid-gap: 2em;
 
   .entry {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 2rem;
   }
 
   .entry-title {
     @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
   }
 
   .entry-excerpt,
   .entry-content {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
 
     /* remove space after last child element */
@@ -138,6 +165,8 @@
   }
 
   .entry-meta {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
     margin-bottom: 1em;
     font-size: 0.75em;

@@ -185,8 +185,12 @@
   }
 
   a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
@@ -203,6 +207,8 @@
 }
 
 .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   grid-column: 1 / -1;
   margin: 2em 0;
@@ -234,7 +240,7 @@
 
       &.current,
       &.current.disabled {
-        @include yiq-contrasted($text-color)
+        @include yiq-contrasted($text-color);
       }
 
       &.disabled {

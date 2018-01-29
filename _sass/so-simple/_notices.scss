@@ -10,11 +10,12 @@
  *  </div>
  */
 
- @mixin notice($notice-color) {
-  margin: 2em 0 !important;  /* override*/
+@mixin notice($notice-color) {
+  margin: 2em 0 !important; /* override*/
   padding: 1em;
   @include yiq-contrasted($notice-color);
   border-radius: $border-radius;
+  -webkit-box-shadow: 0 1px 1px rgba($notice-color, 0.25);
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
 
   h4 {
@@ -58,7 +59,7 @@
 /* Default notice */
 
 .notice {
-  @include notice(lighten($base-color, 90%))
+  @include notice(lighten($base-color, 90%));
 }
 
 /* Primary notice */

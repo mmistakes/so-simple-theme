@@ -83,11 +83,11 @@
   }
 
   .read-time + .page-date::before {
-    content: '\2022';
+    content: "\2022";
     padding: 0 0.5em;
 
     @include breakpoint($large) {
-      content: '';
+      content: "";
       padding: 0;
     }
   }
@@ -95,7 +95,11 @@
 
 .page-author {
   @include clearfix;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 1em;
 
@@ -137,7 +141,7 @@
   display: inline;
 
   &:not(:last-child)::after {
-    content: ', ';
+    content: ", ";
   }
 
   a {
@@ -159,6 +163,8 @@
   clear: both;
 
   @include breakpoint($large) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -166,6 +172,8 @@
 .page-previous,
 .page-next {
   display: block;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
   text-decoration: none;
   color: $text-color;
@@ -219,6 +227,8 @@
       grid-column-gap: 3em;
       grid-row-gap: 0;
       grid-template-columns: 175px 1fr;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
     }
   }
