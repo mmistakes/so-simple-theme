@@ -166,7 +166,7 @@
   display: grid;
   grid-column-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 0 3em;
+  margin: 0;
   padding: 0;
   font-family: $base-font-family;
   font-size: 0.9em;
@@ -187,6 +187,10 @@
     &:hover {
       color: $accent-color;
     }
+  }
+
+  + .taxonomy-section {
+    margin-top: 3em;
   }
 }
 
