@@ -195,11 +195,13 @@
 }
 
 /*
-   Home Layout Overrides
+   Wide Layout Overrides
    ========================================================================== */
 
 .layout--home,
 .layout--posts,
+.layout--categories,
+.layout--tags,
 .layout--search {
   .page-wrapper {
     max-width: $main-max-width;
@@ -257,5 +259,11 @@
   .page-share {
     // display: grid fallback
     clear: both;
+  }
+}
+
+.page--wide {
+  .page-wrapper {
+    max-width: $main-sidebar-max-width;
   }
 }

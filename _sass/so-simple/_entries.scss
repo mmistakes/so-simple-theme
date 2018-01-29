@@ -109,11 +109,6 @@
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2em;
 
-  @include breakpoint($large) {
-    margin-left: calc(-40vw + 40%);
-    margin-right: calc(-40vw + 40%);
-  }
-
   .entry {
     display: flex;
     flex-direction: column;
