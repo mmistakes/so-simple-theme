@@ -18,14 +18,16 @@
       <img class="entry-image" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
-  <div class="entry-excerpt">
-    {% if entry.excerpt %}
-      {{ entry.excerpt | markdownify }}
-      <div class="more-link">
-        <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }} {% include icon-right-arrow.svg %}</a>
-      </div>
-    {% endif %}
-  </div>
+  {% unless page.show_excerpts == false %}
+    <div class="entry-excerpt">
+      {% if entry.excerpt %}
+        {{ entry.excerpt | markdownify }}
+        <div class="more-link">
+          <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }} {% include icon-right-arrow.svg %}</a>
+        </div>
+      {% endif %}
+    </div>
+  {% endunless %}
   <footer class="entry-meta">
     {% if site.read_time %}{% include read-time.html %}{% endif %}
     {% if entry.date %}{% include entry-date.html %}{% endif %}
