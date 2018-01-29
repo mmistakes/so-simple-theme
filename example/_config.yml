@@ -46,7 +46,7 @@ feed:
 paginate: 10
 paginate_path: /page:num/
 
-# Taxnomoy pages
+# Taxonomoy pages
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
