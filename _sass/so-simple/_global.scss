@@ -2,6 +2,14 @@
    Site-wide
    ========================================================================== */
 
+.skip-links {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
 .site-nav {
   margin-bottom: 1em;
   text-align: center;

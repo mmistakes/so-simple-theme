@@ -1,6 +1,6 @@
 {% if site.data.navigation %}
   <div class="navigation-wrapper">
-    <nav role="navigation" class="site-nav animated drop">
+    <nav id="primary-nav" class="site-nav animated drop">
       <ul>
         {%- for link in site.data.navigation -%}
           {%- if link.url contains '://' -%}
