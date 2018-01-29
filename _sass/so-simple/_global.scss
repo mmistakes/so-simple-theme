@@ -129,6 +129,62 @@
   text-decoration: none;
 }
 
+.back-to-top {
+  display: block;
+  color: lighten($text-color, 50%);
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: none;
+}
+
+.taxonomy-section {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+
+  &:not(:last-child) {
+    border-bottom: solid 1px $border-color;
+  }
+
+  + .taxonomy-section {
+    margin-top: 2em;
+  }
+}
+
+.taxonomy-title {
+  @include fluid-type($min-vw, $max-vw, 28px, 32px);
+  margin-bottom: 0.5em;
+  color: lighten($text-color, 60%);
+  font-family: $base-font-family;
+}
+
+.taxonomy-count {
+  color: lighten($text-color, 50%);
+}
+
+.taxonomy-index {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 0 3em;
+  padding: 0;
+  font-family: $base-font-family;
+  font-size: 0.9em;
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: flex;
+    padding: 0.25em 0;
+    justify-content: space-between;
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: 1px solid $border-color;
+  }
+}
 
 .pagination {
   display: flex;

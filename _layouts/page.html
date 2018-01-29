@@ -8,9 +8,9 @@ layout: default
     <div class="page-wrapper">
       <header class="page-header">
         {% if page.link %}
-          <h1 class="page-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
-          <h1 class="page-title">{{ page.title }}</h1>
+          <h1 id="page-title" class="page-title">{{ page.title }}</h1>
         {% endif %}
       </header>
       <div class="page-content">
