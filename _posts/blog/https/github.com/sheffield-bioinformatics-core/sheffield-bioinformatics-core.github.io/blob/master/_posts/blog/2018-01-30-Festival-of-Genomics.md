@@ -2,7 +2,7 @@
 layout: post
 title:
 categories: blog
-excerpt: Dennis Wang at the Festival of Genomics..
+excerpt: Dennis Wang and Winston Hide at the Festival of Genomics..
 tags: []
 image:
   feature:
@@ -15,7 +15,7 @@ author: evchambers
 
 # Festival of Genomics, London 2018
 
-Our Core Associate Scientific Director, Dr. Dennis Wang, is chairing a session at the Festival of Genomics being held in January 30-31st in London.
+Our Core Associate Scientific Director, Dennis Wang, is chairing a session at the Festival of Genomics being held in January 30-31st in London. Winston Hide, our Core Scientific Director, will be one of the speakers at this session.
 
 
 The [Festival of Genomics](http://www.festivalofgenomicslondon.com) is a three day conference and exhibition for anyone generating, using, or studying genomic information. 
