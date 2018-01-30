@@ -22,7 +22,6 @@ logo: "/images/site-logo.png" # path of site logo, e.g. "/assets/images/logo.png
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
-search: true
 mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
