@@ -18,16 +18,16 @@ Link to conference website: [http://mc-stan.org/events/stancon2018/](http://mc-s
 StanCon2018 was protected by the divine force that ensures the success of amateur theatricals and safety of small children. It worked, people had fun, they learned, they communed. 
 
 ### Background
-
-We inherited the choice of Asilomar with a $150k contractual commitment to the tune of 135 guaranteed rooms at $899 a room and a $12,600 committed catering budget. We felt it would be very difficult to get 135 rooms filled given the expense and remote location of the Asilomar facility in Monterey California, 2 and 3 hours from the nearest international airports. In the end we got 172 people to attend. 
+ 
+StanCon2108 was setup by Michael Betancourt as a 3 day conference January 10-12 2018, at Asilomar with the invited talks. He moved on to other projects but we ran with this as the overall structure of the conference expecting 150 attendees. In the end we got 172 people to attend. 
 
 ### Scholarships
 
-With the contracted room goals seeming unattainable we elected to extend our scholarship program to take all applicants who could manage the cost of travel to Asilomar while we covered the cost of lodging and meals. Our contracted liquidated costs were slightly cheaper than paying for a room but we felt it more important to fill the conference and also support lots of students. We encourage continuing to offer numerous scholarships in future StanCons. In the end we provided 50 scholarships which ended up perfectly offsetting registrations (80) and invited speakers (5) for a total of 135. Local attendees got us to 172 total.
+We elected to extend our scholarship program to take all applicants who could manage the cost of travel to Asilomar while we covered the cost of lodging and meals. This turned out to be a very positive decision and it delivered a fun, knowledge seeking audience that will carry Stan into the future we hope. We encourage continuing to offer numerous scholarships in future StanCons. In the end we provided 50 scholarships which ended up perfectly offsetting registrations (80) and invited speakers (5) for a total of 135 which was our contracted minimum. Local attendees got us to 172 total.
 
 ### Talks 
 
-We had 6 invited talks (40 + 10 min questions) who received room and board for one speaker if there were two presenters. Invited talks were set when we assumed running the conference. One speaker dropped out and Andrew Gelman stepped up for a remote talk. We got 15 submitted talks (15 + 5 min questions) and all were accepted pending revisions. One submitted talk was retracted, we added two developer talks and had a "Mystery Talk" done by Aki for 17 total. 
+We had 6 invited talks (40 + 10 min questions) who received room and board. One speaker dropped out and Andrew Gelman stepped up for a remote talk. We got 15 submitted talks (15 + 5 min questions) and all were accepted pending revisions. One submitted talk was retracted, we added two developer talks and had a "Mystery Talk" done by Aki for 17 total. 
 
 
 ### Tutorials
