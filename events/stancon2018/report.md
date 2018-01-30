@@ -23,7 +23,7 @@ StanCon2108 was setup by Michael Betancourt as a 3 day conference January 10-12 
 
 ### Scholarships
 
-We elected to extend our scholarship program to take all applicants who could manage the cost of travel to Asilomar while we covered the cost of lodging and meals. This turned out to be a very positive decision and it delivered a fun, knowledge seeking audience that will carry Stan into the future we hope. We encourage continuing to offer numerous scholarships in future StanCons. In the end we provided 50 scholarships which ended up perfectly offsetting registrations (80) and invited speakers (5) for a total of 135 which was our contracted minimum. Local attendees got us to 172 total.
+We elected to extend our scholarship program to take all applicants who could manage the cost of travel to Asilomar while we covered the cost of lodging and meals. This turned out to be a very positive decision and it delivered a fun, knowledge seeking audience that will carry Stan into the future. We encourage continuing to offer numerous scholarships in future StanCons. In the end we provided 50 scholarships which ended up perfectly offsetting registrations (80) and invited speakers (5) for a total of 135 which was our contracted minimum. Local attendees got us to 172 total.
 
 ### Talks 
 
