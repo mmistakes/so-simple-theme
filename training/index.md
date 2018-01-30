@@ -9,6 +9,7 @@ excerpt: "Details of upcoming and past training courses.."
 ## 2018
 
 - to be announced...
+
 ## Past Courses
 ## 2017
 
