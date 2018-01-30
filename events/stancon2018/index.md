@@ -181,7 +181,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Predictive Information Criteria in Hierarchical Bayesian Models for Clustered Data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am
+### Invited Talk: Predictive Information Criteria in Hierarchical Bayesian Models for Clustered Data. Sophia Rabe-Hesketh and Daniel Furr (U California, Berkely) 10:40-11:30am [Video](https://youtu.be/FiSw6adfZcY) 
 
 * Opening Comments and Information you Need, Breck Baldwin 11:30-11:40am
 
