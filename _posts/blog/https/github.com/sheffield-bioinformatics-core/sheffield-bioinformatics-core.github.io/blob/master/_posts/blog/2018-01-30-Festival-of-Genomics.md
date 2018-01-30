@@ -2,7 +2,7 @@
 layout: post
 title:
 categories: blog
-excerpt: Festival of Genomics
+excerpt: Dennis Wang at the Festival of Genomics..
 tags: []
 image:
   feature:
