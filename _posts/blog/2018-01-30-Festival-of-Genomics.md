@@ -17,6 +17,7 @@ author: evchambers
 
 Our Core Associate Scientific Director, Dennis Wang, is chairing a session at the Festival of Genomics being held in January 30-31st in London. Winston Hide, our Core Scientific Director, will be one of the speakers at this session.
 
+![](https://pbs.twimg.com/media/DRjiaZSWsAE5Q6L.jpg)
 
 The [Festival of Genomics](http://www.festivalofgenomicslondon.com) is a three day conference and exhibition for anyone generating, using, or studying genomic information. 
 In 2018 there will be discussions on : Cancer genomics, cardiovascular health, clinical genomics, CRISPR, drug development, enabling data, genetic counselling, immuno-oncology, implementation of genomics in the clinic, infectious diseases, patient engagement and much more.

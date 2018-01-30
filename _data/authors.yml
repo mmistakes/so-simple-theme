@@ -2,10 +2,17 @@
 
 mark_dunning:
   name: Mark Dunning
-  email: mark.dunning@cruk.cam.ac.uk
-  bio: "Director of the Sheffield Bioinformatics Core starting in October 2017"
+  email: m.j.dunningsheffield.ac.uk
+  bio: "Director of the Sheffield Bioinformatics Core"
   avatar: 3796277.jpeg
   twitter: DrMarkDunning
+
+evchambers:
+  name: Emily Chambers
+  email: e.v.chambers@sheffield.ac.uk
+  bio: "Core Analyst"
+  avatar: 31651921.jpeg
+  twitter: evc_sheffield
 
 
 #=============================================
