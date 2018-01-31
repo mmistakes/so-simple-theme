@@ -7,7 +7,7 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
 
 * A variety of layouts with clean and readable typography
 * Disqus Comments and Google Analytics support
-* SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+* SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag]
 * Options to customize the theme and make it your own
 
 [![So Simple live preview][2]][1]
@@ -360,11 +360,6 @@ For more configuration options be sure to consult the documentation for:
 [**jekyll-seo-tag**][jekyll-seo-tag], [**jekyll-feed**][jekyll-feed],
 [**jekyll-paginate**][jekyll-paginate], and [**jekyll-sitemap**][jekyll-sitemap].
 
-[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
-[jekyll-feed]: https://github.com/jekyll/jekyll-feed
-[jekyll-paginate]: https://github.com/jekyll/jekyll-paginate
-[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
-
 ---
 
 ## Layouts
@@ -403,7 +398,7 @@ image:
   caption: "Photo credit [Unsplash](https://unsplash.com/)
 ```
 
-**Note:** `image.feature` front matter has been deprecated, to fully support [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag). If you are not using `thumbnail` or `caption` the post image can be assigned more concisely as `image: /images/your-post-image.jpg`.
+**Note:** `image.feature` front matter has been deprecated, to fully support [jekyll-seo-tag][jekyll-seo-tag]. If you are not using `thumbnail` or `caption` the post image can be assigned more concisely as `image: /images/your-post-image.jpg`.
 
 **Post author example:**
 
@@ -628,6 +623,129 @@ By default the copyright inserts the current year, [`site.title`](#site-title), 
 copyright: "This site is made with <3 by *me, myself, and I*."
 ```
 
+## Migration Guide
+
+So Simple 3 is a major rewrite of the entire theme. The most notable changes are summarized below, followed by more specific changes.
+
+It is safe to say you'll probably want to ditch all `_layouts`, `_includes`, `_sass`, `.css`, and `.js` files from v2 and go with either the Ruby gem or remote theme installation options.
+
+### Global Changes
+
+* "Fork method" has been deprecated in favor of installing/upgrading the theme [via a gem](#ruby-gem-method) or [remote theme](github-pages-method).
+* All `_layouts`, `_includes`, `_sass`, and JavaScript have been rebuilt.
+* Properly uses `site.url` and `site.baseurl`.
+* Replaced custom `/_includes/open-graph.html` with [**jekyll-seo-tag**][jekyll-seo-tag].
+* Full control over links and icons used in author sidebar and footer.
+* Tag, articles, and blog starter pages have been replaced with `_layouts` (`tags` and `posts`) for easier use.
+* Remove `404.md` page.
+* Replaced custom `atom.xml` feed file with [**jekyll-feed**][jekyll-feed].
+* Remove default `favicon.ico` and `favicon.png` files.
+* Replaced simple JSON search with [Lunr](https://lunrjs.com/).
+* Replaced Magnific Popup with Lity.
+* Removed [FitVids.JS](http://fitvidsjs.com/) script.
+
+### Browser Support
+
+* CSS targets modern browsers. Where possible fallbacks for `float` based layouts have been used so things don't look *too broken* in browser's that don't support `display: grid` and `flex`.
+
+### Configuration Changes
+
+#### Locale Changes
+
+Format has changed from `en_US` (with an underscore) to `en-US` with a hyphen.
+
+#### Owner Changes
+
+`site.owner` is now `site.author` to better support [jekyll-seo-tag][jekyll-seo-tag] and [jekyll-feed][jekyll-feed].
+
+| v2                            | v3                                                             |
+|-------------------------------|----------------------------------------------------------------|
+| `site.owner.name`             | **`site.author.name`**                                         |
+| `site.owner.avatar`           | **`site.author.picture`**                                      |
+| `site.owner.email`            | **`site.author.email`**                                        |
+| `site.owner.twitter`          | **`site.twitter`**                                             |
+| `site.owner.google.analytics` | **deprecated**, replaced with [jekyll-seo-tag][jekyll-seo-tag] |
+| `site.owner.bing-verify`      | **deprecated**, replaced with [jekyll-seo-tag][jekyll-seo-tag] |
+
+#### Google Analytics Changes
+
+`site.owner.google.analytics` is now `site.google_analytics`. [See documentation](#google-analytics) for more information.
+
+#### Disqus Comments Changes
+
+`site.owner.disqus-shortname` is now `site.disqus.shortname`. [See documentation](#comments-via-disqus) more information.
+
+To disable comments on a particular post add `comments: false` to its front matter.
+
+### Search Changes
+
+`search_omit` has been renamed to `search`. To exclude a post or page from search add `search: false` to its front matter instead.
+
+### Image Changes
+
+When assigning image paths for things like the `site.logo`, `page.image.path`, `author.picture`, etc. they now require a full relative or absolute path.
+
+In So Simple v2 images were all placed in `/images/` and assigned in front matter with just the filename. For images to properly load now you will need to prepend all paths with `/images/`... if you are storing images there e.g., `/images/your-image.jpg`.
+
+To better support Jekyll plugin's like [jekyll-seo-tag][jekyll-seo-tag], [jekyll-feed][jekyll-feed], and [jekyll-sitemap][jekyll-sitemap] most of the `image` keys have been renamed. Adjust the front matter in all of your posts' and pages' accordingly.
+
+| v2                 | v3                                     |
+|--------------------|----------------------------------------|
+| `image.feature`    | **`image.path`**                       |
+| `image.thumb`      | **`image.thumbnail`**                  |
+| `image.credit      | **`image.caption`** (Markdown allowed) |
+| `image.creditlink` | deprecated use `image.caption` instead |
+
+A post with the following v2 front matter:
+
+```yaml
+image:
+  feature: feature-image-filename.jpg
+  thumb: thumb-image-filename.jpg
+  credit: Michael Rose
+  creditlink: https://mademistakes.com
+```
+
+Would be converted into the following v3 front matter:
+
+```yaml
+image:
+  path: /images/feature-image-filename.jpg
+  thumbnail: /images/thumb-image-filename.jpg
+  caption: "[Michael Rose](https://mademistakes)"
+```
+
+### Development Changes
+
+* Replaced Grunt tasks with [npm scripts](https://css-tricks.com/why-npm-scripts/).
+
+### Step-by-Step
+
+Rough steps to migrate a stock So Simple v2 fork (with no alterations) to the latest.
+
+1. Remove `_includes/`, `_layouts/`, `_sass/`, `jshintrc`, `Gruntfile.js`, and `search.json`.
+2. Edit `Gemfile` for either the [Ruby gem](#ruby-gem-method) or [GitHub Pages](#github-pages-method) installation methods and follow those instructions.
+3. Add the following Google Fonts to `_config.yml`:
+
+   ```yaml
+   google_fonts:
+     - name: "Source Sans Pro"
+       weights: "400,400i,700,700i"
+     - name: "Lora"
+       weights: "400,400i,700,700i"
+   ```
+
+4. Edit `_config.yml` paying close attention to those keys that [have been renamed](#configuration-changes) or have new relative path requirements. `locale`, `logo`, and `owner` are good places to start.
+5. Rename all instances of `image.feature`, `image.thumb`, and `image.credit` in posts/pages adhering to the [image changes](#image-changes) above.
+6. Remove the body content in `index.html` and change `layout: page` to `layout: home`. Configure [pagination](#pagination) if necessary.
+7. Remove the body content in `/search/index.md` and change `layout: page` to **`layout: search`**.
+8. Remove the body content in `/tags/index.md` and change `layout: page` to **`layout: tags`**.
+9. Rename `modified` front matter in posts/pages to **`last_modified_at`** for improved parity with plugins that support it.
+10. Add `tag_archive_path: "/tags/#"` to `_config.yml` to activate tag links in post meta sidebar.
+11. Rename `avatar` to **`picture`** in `_data/authors.yml` (and in any posts/pages front matter), and edit the paths adhering to the [image path changes](#image-changes) above.
+
+---
+
 ## Customization
 
 When installing as a **Ruby gem** or **remote theme** the core theme files (`_layouts`, `_includes`, `_sass`, `assets`, etc.) will be absent from your project.
@@ -828,3 +946,8 @@ grammar, broken links, etc.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](LICENSE).
+
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[jekyll-paginate]: https://github.com/jekyll/jekyll-paginate
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
