@@ -165,7 +165,7 @@ MathJax.Hub.Config({
 </script>
 <div id="nngp-based-models" class="section level1">
 <h1>NNGP Based Models</h1>
-<p>Nearest Neighbor Gaussian Processes (NNGP) based models is a family of highly scalable Gaussian processes based models. In brief, NNGP extends the Vecchia’s approximation (<span class="citation">Vecchia (1988)</span>) to a process using conditional independence given information from neighboring locations. In this section, I will briefly review response and latent NNGP models. For more details of NNGP, please refer to <span class="citation">Datta et al. (2016)</span>.</p>
+<p>Nearest Neighbor Gaussian Processes (NNGP) based models is a family of highly scalable Gaussian processes based models. In brief, NNGP extends the Vecchia’s approximation (<span class="citation">Vecchia (1988)</span>) to a process using conditional independence given information from neighboring locations. In this section, I will briefly review response and latent NNGP models. For more details and applications of NNGP, please refer to <span class="citation">(A. Datta, Banerjee, Finley, and Gelfand 2016)</span> and <span class="citation">(A. Datta, Banerjee, Finley, Hamm, et al. 2016)</span>.</p>
 <div id="spatial-regression-model" class="section level2">
 <h2>Spatial regression model</h2>
 We envision a spatial regression model at any location <span class="math inline">\(s\)</span>
@@ -180,11 +180,11 @@ Another implementation of GP is to marginalize over the latent process <span cla
 <span class="math display">\[\begin{equation}\label{eq: response model}
 \mathcal{p}(\theta \;|\; y(S)) \; \propto \; \mathcal{p}(\theta) \; \times \; \mathcal{N} (y(S)\;|\;m_{\theta}(S), C_\theta(S, S) + \tau^2 I_n) 
 \end{equation}\]</span>
-<p>To distinguish these two models, we shall call the former as a latent GP model, and the latter as a response GP model. These two models are referred as the latent variable GP and the marginal likelihood GP in Stan reference manual (<span class="citation">STAN DEVELOPMENT TEAM (2017)</span>).</p>
+<p>To distinguish these two models, we shall call the former as a latent GP model, and the latter as a response GP model. These two models are referred as the latent variable GP and the marginal likelihood GP in Stan reference manual (<span class="citation">Stan Development Team (2017)</span>).</p>
 </div>
 <div id="latent-and-response-nngp-models" class="section level2">
 <h2>Latent and Response NNGP models</h2>
-Nearest neighbor Gaussian process (NNGP) provides an alternative to the Gaussian process in the models discussed in the preceding subsection. The likelihoods of two models basing on NNGP derived from the original Gaussian process coincide with the Vecchia’s approximation <span class="citation">(Vecchia 1988)</span> of the original models. In particular, a latent NNGP model has a posterior distribution proportional to
+Nearest neighbor Gaussian process (NNGP) provides an alternative to the Gaussian process in the models discussed in the preceding subsection. The likelihoods of two models basing on NNGP derived from the original Gaussian process coincide with the Vecchia’s approximation (<span class="citation">Vecchia (1988)</span>) of the original models. In particular, a latent NNGP model has a posterior distribution proportional to
 <span class="math display">\[\begin{equation}\label{eq: latent NNGP model}
 \mathcal{p} (\theta) \; \times \; \mathcal{N}(w(S) \;|\; 0, C^*) \; \times \; \mathcal{N}(y(S) \;|\; m_\theta(S)+w(S), \tau^2 I_n) \;,
 \end{equation}\]</span>
@@ -692,7 +692,7 @@ tausq   1.00
 phi     1.00
 lp__    1.01
 
-Samples were drawn using NUTS(diag_e) at Tue Jan 23 21:32:23 2018.
+Samples were drawn using NUTS(diag_e) at Wed Jan 31 08:54:29 2018.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -711,20 +711,20 @@ tausq     0.10    0.00 0.03   0.04   0.08   0.10   0.12   0.17   376 1.00
 phi       4.01    0.08 1.45   1.36   2.98   4.00   4.94   6.95   329 1.00
 lp__    -93.04    0.13 1.86 -97.67 -94.04 -92.55 -91.68 -90.64   221 1.01
 
-Samples were drawn using NUTS(diag_e) at Tue Jan 23 21:58:39 2018.
+Samples were drawn using NUTS(diag_e) at Wed Jan 31 09:17:22 2018.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
 <pre class="r"><code>print(get_elapsed_time(samples))</code></pre>
 <pre><code>         warmup  sample
-chain:1 59.3905 52.4553
-chain:2 72.7928 55.9627
-chain:3 66.1164 47.0622</code></pre>
+chain:1 55.2153 45.8020
+chain:2 68.4617 47.8752
+chain:3 62.1300 40.5633</code></pre>
 <pre class="r"><code>print(get_elapsed_time(samples_GP))</code></pre>
 <pre><code>         warmup  sample
-chain:1 556.142 416.379
-chain:2 618.263 451.386
-chain:3 563.357 453.926</code></pre>
+chain:1 513.593 415.367
+chain:2 571.436 457.845
+chain:3 519.435 457.050</code></pre>
 </div>
 <div id="latent-nngp-models-for-simulation-study" class="section level2">
 <h2>Latent NNGP models for simulation study</h2>
@@ -746,7 +746,7 @@ w[2]     0.73    0.20 0.41 -0.07  0.44  0.72  1.02  1.53     4 1.29
 w[3]    -3.01    0.18 0.41 -3.78 -3.29 -3.00 -2.72 -2.25     5 1.29
 w[4]    -0.72    0.17 0.40 -1.50 -0.99 -0.73 -0.46  0.05     5 1.26
 
-Samples were drawn using NUTS(diag_e) at Tue Jan 23 21:38:56 2018.
+Samples were drawn using NUTS(diag_e) at Wed Jan 31 08:59:16 2018.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -772,7 +772,7 @@ w_b1[2]  1.67    0.01 0.33  0.97  1.46  1.68  1.90  2.28   900 1.00
 w_b1[3] -2.07    0.01 0.29 -2.65 -2.26 -2.07 -1.88 -1.51   900 1.00
 w_b1[4]  0.23    0.01 0.30 -0.35  0.03  0.23  0.42  0.82   900 1.00
 
-Samples were drawn using NUTS(diag_e) at Tue Jan 23 22:02:53 2018.
+Samples were drawn using NUTS(diag_e) at Wed Jan 31 09:21:17 2018.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -801,17 +801,20 @@ convergence, Rhat=1).</code></pre>
 <div id="references" class="section level2 unnumbered">
 <h2>References</h2>
 <div id="refs" class="references">
-<div id="ref-datta2016hierarchical">
-<p>Datta, Abhirup, Sudipto Banerjee, Andrew O Finley, and Alan E Gelfand. 2016. “Hierarchical Nearest-Neighbor Gaussian Process Models for Large Geostatistical Datasets” 111. Taylor &amp; Francis: 800–812.</p>
+<div id="ref-datta16">
+<p>Datta, A., S. Banerjee, A. O. Finley, and A. E. Gelfand. 2016. “Hierarchical Nearest-Neighbor Gaussian Process Models for Large Geostatistical Datasets.” <em>Journal of the American Statistical Association</em> 111: 800–812. <a href="http://dx.doi.org/10.1080/01621459.2015.1044091" class="uri">http://dx.doi.org/10.1080/01621459.2015.1044091</a>.</p>
+</div>
+<div id="ref-datta16b">
+<p>Datta, A., S. Banerjee, A. O. Finley, N. A. S. Hamm, and M. Schaap. 2016. “Non-Separable Dynamic Nearest-Neighbor Gaussian Process Models for Large Spatio-Temporal Data with an Application to Particulate Matter Analysis.” <em>Annals of Applied Statistics</em> 10: 1286–1316. <a href="http://dx.doi.org/10.1214/16-AOAS931" class="uri">http://dx.doi.org/10.1214/16-AOAS931</a>.</p>
 </div>
 <div id="ref-finley2017applying">
-<p>Finley, Andrew O, Abhirup Datta, Bruce C Cook, Douglas C Morton, Hans E Andersen, and Sudipto Banerjee. 2017. “Applying Nearest Neighbor Gaussian Processes to Massive Spatial Data Sets Forest Canopy Height Prediction Across Tanana Valley Alaska.”</p>
+<p>Finley, Andrew O, Abhirup Datta, Bruce C Cook, Douglas C Morton, Hans E Andersen, and Sudipto Banerjee. 2017. “Applying Nearest Neighbor Gaussian Processes to Massive Spatial Data Sets: Forest Canopy Height Prediction Across Tanana Valley Alaska.” <em>ArXiv Preprint ArXiv:1702.00434</em>. <a href="https://arxiv.org/abs/1702.00434" class="uri">https://arxiv.org/abs/1702.00434</a>.</p>
 </div>
-<div id="ref-tstan2017">
-<p>STAN DEVELOPMENT TEAM. 2017. “Stan Modeling Language User’s Guide and Reference Manual.”</p>
+<div id="ref-t2017stan">
+<p>Stan Development Team. 2017. “Stan Modeling Language: User’s Guide and Reference Manual.” Version 2.17.</p>
 </div>
 <div id="ref-ve88">
-<p>Vecchia, A. V. 1988. “Estimation and Model Identification for Continuous Spatial Processes.”</p>
+<p>Vecchia, A. V. 1988. “Estimation and Model Identification for Continuous Spatial Processes.” <em>Journal of the Royal Statistical Society, Series B</em> 50: 297–312.</p>
 </div>
 </div>
 </div>
