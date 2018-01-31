@@ -16,7 +16,7 @@
 locale: en-US
 title: "So Simple Development Site"
 description: "A simple and clean theme for words and pictures."
-baseurl: "/example"  # the subpath of your site, e.g. "/blog"
+baseurl: "/example" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
@@ -31,6 +31,8 @@ google_fonts:
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: mmistakes # site's Twitter username
 
 # Liquid
 liquid:
@@ -83,6 +85,7 @@ author:
   name: Michael Rose
   picture: /images/michael-rose-photo.jpg
   email:
+  twitter: mmistakes
   links:
     - title: Twitter
       url: https://twitter.com/mmistakes
