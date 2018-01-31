@@ -17,10 +17,7 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
 
 ## Installation
 
-If you're running Jekyll v3.5+ and self-hosting you can quickly install the
-theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a
-[remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure)
-below) into your project.
+If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
 
 ### Ruby Gem Method
 
@@ -44,8 +41,7 @@ below) into your project.
 
 ### GitHub Pages Method
 
-GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages)
-for any GitHub-hosted theme.
+GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) for any GitHub-hosted theme.
 
 1. Replace `gem "jekyll"` with:
 
@@ -60,19 +56,13 @@ for any GitHub-hosted theme.
 
 ---
 
-**Note:** Your Jekyll site should be viewable immediately at
-<http://USERNAME.github.io>. If it's not, you can force a rebuild by pushing empty commits to GitHub (see below for more details).
+**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by pushing empty commits to GitHub (see below for more details).
 
-If you're hosting several Jekyll based sites under the same GitHub username you
-will have to use Project Pages instead of User Pages. Essentially you rename the
-repo to something other than **USERNAME.github.io** and create a `gh-pages`
-branch off of `master`. For more details on how this works, check
-[GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
+If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how this works, check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
 
 #### Remove the Unnecessary
 
-If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmistakes/so-simple-theme) you can
-safely remove the following files and folders:
+If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmistakes/so-simple-theme) you can safely remove the following files and folders:
 
 * `docs/*`
 * `example/*`
@@ -88,11 +78,9 @@ safely remove the following files and folders:
 
 ## Upgrading
 
-If you're using the Ruby Gem or remote theme versions of So Simple,
-upgrading is fairly painless.
+If you're using the Ruby Gem or remote theme versions of So Simple, upgrading is fairly painless.
 
-To check which version you are currently using, view the source of your built
-site and you should something similar to:
+To check which version you are currently using, view the source of your built site and you should something similar to:
 
 ```
 <!--
@@ -111,11 +99,9 @@ Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem up
 
 ### Remote Theme
 
-When hosting with [GitHub Pages](https://pages.github.com/) you'll need to push up a commit to force a
-rebuild with the latest [theme release](https://github.com/mmistakes/so-simple-theme/releases).
+When hosting with [GitHub Pages](https://pages.github.com/) you'll need to push up a commit to force a rebuild with the latest [theme release](https://github.com/mmistakes/so-simple-theme/releases).
 
-An empty commit will get the job done too if you don't have anything to push at
-the moment:
+An empty commit will get the job done too if you don't have anything to push at the moment:
 
 ```terminal
 git commit --allow-empty -m "Force rebuild of site"
@@ -123,10 +109,7 @@ git commit --allow-empty -m "Force rebuild of site"
 
 ### Use Git
 
-If you want to get the most out of the Jekyll + GitHub Pages workflow, then
-you'll need to utilize Git. To pull down theme updates manually you must first ensure
-there's an upstream remote. If you forked the theme's repo then you're likely
-good to go.
+If you want to get the most out of the Jekyll + GitHub Pages workflow, then you'll need to utilize Git. To pull down theme updates manually you must first ensure there's an upstream remote. If you forked the theme's repo then you're likely good to go.
 
 To double check, run `git remote -v` and verify that you can fetch from `origin https://github.com/mmistakes/so-simple-theme.git`.
 
@@ -144,20 +127,14 @@ Now you can pull any commits made to theme's `master` branch with:
 git pull upstream master
 ```
 
-Depending on the amount of customizations you've made after forking, there's
-likely to be merge conflicts. Work through any conflicting files Git flags,
-staging the changes you wish to keep, and then commit them.
+Depending on the amount of customizations you've made after forking, there's likely to be merge conflicts. Work through any conflicting files Git flags, staging the changes you wish to keep, and then commit them.
 
 ### Update Files Manually
 
-Another way of dealing with updates is [downloading the theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip)
---- replacing your layouts, includes, and assets with the newer ones manually.
-To be sure that you don't miss any changes it's probably a good idea to review
-the theme's [commit history](https://github.com/mmistakes/so-simple-theme/commits/master)
-to see what's changed.
+Another way of dealing with updates is [downloading the theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip) --- replacing your layouts, includes, and assets with the newer ones manually. To be sure that you don't miss any changes it's probably a good idea to review
+the theme's [commit history](https://github.com/mmistakes/so-simple-theme/commits/master) to see what's changed.
 
-Here's a quick checklist of the important folders/files you'll want to be
-mindful of:
+Here's a quick checklist of the important folders/files you'll want to be mindful of:
 
 | Name                   |                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------ |
@@ -171,19 +148,13 @@ mindful of:
 
 ---
 
-**Note:** If you're not seeing the latest version, be sure to flush browser and
-CDN caches. Depending on your hosting environment older versions of
-`/assets/css/main.css`, `/assets/js/main.min.js`, or `*.html` files may be cached.
+**Note:** If you're not seeing the latest version, be sure to flush browser and CDN caches. Depending on your hosting environment older versions of `/assets/css/main.css`, `/assets/js/main.min.js`, or `*.html` files may be cached.
 
 ## Structure
 
-Layouts, includes, Sass partials, and data files are all placed in their default
-locations. Stylesheets and scripts can be found in `assets`, and a few development related
-files in the project's root directory.
+Layouts, includes, Sass partials, and data files are all placed in their default locations. Stylesheets and scripts can be found in `assets`, and a few development related files in the project's root directory.
 
-**Please note:** If you installed So Simple via the Ruby Gem or remote theme methods, theme
-files found in `/_layouts`, `/_includes`, `/_sass`, and `/assets` will be
-missing. This is normal as they are bundled with the [`jekyll-theme-so-simple`](https://rubygems.org/gems/jekyll-theme-so-simple) gem.
+**Please note:** If you installed So Simple via the Ruby Gem or remote theme methods, theme files found in `/_layouts`, `/_includes`, `/_sass`, and `/assets` will be missing. This is normal as they are bundled with the [`jekyll-theme-so-simple`](https://rubygems.org/gems/jekyll-theme-so-simple) gem.
 
 ```
 ├── _data               # data files
@@ -202,15 +173,13 @@ missing. This is normal as they are bundled with the [`jekyll-theme-so-simple`](
 
 ### Starting Fresh
 
-After creating a `Gemfile` and installing the theme you'll need to add and edit
-the following files:
+After creating a `Gemfile` and installing the theme you'll need to add and edit the following files:
 
 * [`_config.yml`](_config.yml)
 * [`/_data/text.yml`](_data/text.yml)
 * [`index.md`](index.md)
 
-**Note:** Consult the [**pagination**](#pagination) documentation below for
-instructions on how to enable it on the home page.
+**Note:** Consult the [**pagination**](#pagination) documentation below for instructions on how to enable it on the home page.
 
 ### Starting from `jekyll new`
 
@@ -220,10 +189,7 @@ Edit `_config.yml` following the guide below and then create `_data/text.yml` as
 
 ## Configuring
 
-Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `logo`,
-`author`, etc.) happens in your project's `_config.yml`. See the
-[example configuration](example/_config.yml) in this repo for additional
-reference.
+Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `logo`, `author`, etc.) happens in your project's `_config.yml`. See the [example configuration](example/_config.yml) in this repo for additional reference.
 
 | Name          | Description                                                              | Example                             |
 | ------------- | ------------------------------------------------------------------------ | ----------------------------------- |
@@ -232,7 +198,7 @@ reference.
 | `description` | A short description.                                                     | `"This is my site, it is awesome."` |
 | `baseurl`     | Used to test the website under the same base url it will be deployed to. | `/my-base-path`                     |
 | `url`         | The full URL to your site.                                               | `"https://your-site.com"`           |
-| `logo`        | URL to a site-wide logo used in masthead.                                | `/images/your-logo.png`             |
+| `logo`        | Path to a site-wide logo used in masthead.                                | `/images/your-logo.png`             |
 
 ### Site Locale
 
@@ -403,9 +369,7 @@ For more configuration options be sure to consult the documentation for:
 
 ## Layouts
 
-This theme provides the following layouts, which you can use by setting the
-`layout` [Front Matter](https://jekyllrb.com/docs/frontmatter/) on each page,
-like so:
+This theme provides the following layouts, which you can use by setting the `layout` [Front Matter](https://jekyllrb.com/docs/frontmatter/) on each page, like so:
 
 ```yaml
 ---
@@ -415,9 +379,7 @@ layout: name
 
 ### `layout: default`
 
-This layout handles all of the basic page scaffolding placing the page content
-between the masthead and footer elements. All other layouts inherit this one
-and provide additional styling and features inside of the `{{ content }}` block.
+This layout handles all of the basic page scaffolding placing the page content between the masthead and footer elements. All other layouts inherit this one and provide additional styling and features inside of the `{{ content }}` block.
 
 ### `layout: post`
 
@@ -425,7 +387,7 @@ This layout accommodates the following front matter:
 
 | Name | Type | Description |
 | ---- | ----- | ---------- |
-| `image` | String | Path to a large image associated with the post. Also used for OpenGraph, Twitter Cards, and site feed thumbnail if enabled. |
+| `image` | String | Path to a large image associated with the post. Also used for OpenGraph, Twitter Cards, and site feed thumbnail if enabled. [Suggested sizes](#images) |
 | `image.path` | String | Same as above. Used when a `thumbnail` or `caption` needs to be assigned to the `image` object as well. |
 | `image.caption` | String | Describes the image or provides credit. Markdown is allowed. |
 | `author` | Object or string | Specify a post's author `name`, `picture`, `twitter`, `links`, etc. |
@@ -478,7 +440,7 @@ To define what links appear in the author sidebar use the `authors.links` key in
 | ------- | ---------------------------------------------------------------------------------------------------------------- |
 | `title` | Describes the link. Not visible, used for accessibility purposes.                                                |
 | `url`   | URL the link points to.                                                                                          |
-| `icon`  | Corresponds with a [Font Awesome icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`. |
+| `icon`  | Corresponds with a [Font Awesome icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`.   |
 
 **Example:**
 
@@ -540,6 +502,18 @@ This layout displays all posts grouped by tag. It accommodates the same front ma
 ### `layout: search`
 
 This layout displays a search form.
+
+## Images
+
+Suggested image sizes in pixels are as follows:
+
+| Image | Description | Size |
+| ----- | ----------- | ---- |
+| `site.logo` | Site-wide logo used in masthead. | `200 x 200` |
+| `page.image.path` | Large full-width document image. | Tall images will push content down the page. `1600 x 600` is a good middle-ground size to aim for. |
+| `page.image` | Short-hand for `page.image.path` when used alone (without `thumbnail`, `caption`, or other variables). | Same as `page.image.path` |
+| `page.image.thumbnail` | Small document image used in grid view. | `400 x 200` |
+| `author.picture` | Author picture in post sidebar. | `150 x 150` |
 
 ## Theme Text
 
