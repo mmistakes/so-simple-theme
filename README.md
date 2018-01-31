@@ -763,7 +763,7 @@ footer_scripts:
 
 ## Font Awesome Icons
 
-The theme utilizes [**Font Awesome** SVG with JS](https://fontawesome.com/) version for iconography. Prominent locations these icons appear are in the author sidebar and footer links.
+The theme utilizes the [**Font Awesome** SVG with JS](https://fontawesome.com/) version for iconography. Prominent locations these icons appear are in the author sidebar and footer links.
 
 ---
 
