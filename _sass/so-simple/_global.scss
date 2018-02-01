@@ -78,19 +78,19 @@
 .site-logo-img {
   width: $site-logo-width;
   height: $site-logo-height;
-  border: 0.25em solid $background-color;
-  border-radius: 100px;
+  border: 5px solid $background-color;
+  border-radius: $site-logo-width;
 
   @include breakpoint($medium) {
     width: 1.5 * $site-logo-width;
     height: 1.5 * $site-logo-width;
-    border-radius: 150px;
+    border-radius: 1.5 * $site-logo-width;
   }
 
   @include breakpoint($large) {
     width: 2 * $site-logo-width;
     height: 2 * $site-logo-width;
-    border-radius: 200px;
+    border-radius: 2 * $site-logo-width;
   }
 }
 

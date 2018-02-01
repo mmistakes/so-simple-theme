@@ -1,9 +1,9 @@
 ---
 title: "Layout: Hero Image"
 image: 
-  path: /images/eder-oliveira-180877.jpg
-  thumbnail: /images/eder-oliveira-180877-320x200.jpg
-  caption: "Photo from [Unsplash](https://unsplash.com/)"
+  path: /images/so-simple-sample-image-3.jpg
+  thumbnail: /images/so-simple-sample-image-3-400x200.jpg
+  caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
 categories:
   - Layout
 tags:
@@ -27,3 +27,5 @@ Hero images can also be assigned more succinctly when `thumbnail` or `caption` a
 ```yaml
 image: /images/eder-oliveira-180877.jpg
 ```
+
+Tall images will push content down the page. `1600 x 600` is a good middle-ground size to aim for.

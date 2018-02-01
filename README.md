@@ -930,6 +930,7 @@ grammar, broken links, etc.
 ### Icons + Demo Images:
 
 * [Font Awesome](https://fontawesome.com)
+* [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)
 * [Unsplash](https://unsplash.com/)
 
 ### Other:
