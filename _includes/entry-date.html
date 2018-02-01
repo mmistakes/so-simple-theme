@@ -1,4 +1,6 @@
-<time class="entry-date" datetime="{{ entry.date | date_to_xmlschema }}">
-  {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
-  {{ entry.date | date: date_format }}
-</time>
+{%- unless page.layout == 'collection' -%}
+  <time class="entry-date" datetime="{{ entry.date | date_to_xmlschema }}">
+    {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
+    {{ entry.date | date: date_format }}
+  </time>
+{%- endunless -%}
