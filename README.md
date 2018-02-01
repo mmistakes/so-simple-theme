@@ -15,6 +15,76 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
 [1]: https://mmistakes.github.io/so-simple-theme/
 [2]: image.jpg "live preview"
 
+1. [Installation](#installation)
+    1. [Ruby Gem Method](#ruby-gem-method)
+    2. [GitHub Pages Method](#github-pages-method)
+        1. [Remove the Unnecessary](#remove-the-unnecessary)
+2. [Upgrading](#upgrading)
+    1. [Ruby Gem](#ruby-gem)
+    2. [Remote Theme](#remote-theme)
+    3. [Use Git](#use-git)
+    4. [Update Files Manually](#update-files-manually)
+3. [Structure](#structure)
+    1. [Starting Fresh](#starting-fresh)
+    2. [Starting from `jekyll new`](#starting-from-jekyll-new)
+4. [Configuring](#configuring)
+    1. [Site Locale](#site-locale)
+    2. [Site URL](#site-url)
+    3. [Site Base URL](#site-base-url)
+    4. [Date Format](#date-format)
+    5. [Reading Time](#reading-time)
+    6. [Mathematics](#mathematics)
+    7. [Google Fonts](#google-fonts)
+    8. [Pagination](#pagination)
+    9. [Search](#search)
+    10. [Taxonomy Pages](#taxonomy-pages)
+    11. [Comments (via Disqus)](#comments-via-disqus)
+    12. [Google Analytics](#google-analytics)
+    13. [Other](#other)
+5. [Layouts](#layouts)
+    1. [`layout: default`](#layout-default)
+    2. [`layout: post`](#layout-post)
+    3. [`layout: page`](#layout-page)
+    4. [`layout: home`](#layout-home)
+    5. [`layout: posts`](#layout-posts)
+    6. [`layout: categories`](#layout-categories)
+    7. [`layout: tags`](#layout-tags)
+    8. [`layout: collection`](#layout-collection)
+    9. [`layout: category`](#layout-category)
+    10. [`layout: tag`](#layout-tag)
+    11. [`layout: search`](#layout-search)
+6. [Images](#images)
+7. [Theme Text](#theme-text)
+8. [Navigation](#navigation)
+9. [Author](#author)
+10. [Footer](#footer)
+    1. [Footer Links](#footer-links)
+    2. [Copyright Text](#copyright-text)
+11. [Helpers](#helpers)
+    1. [Responsive Embed](#responsive-embed)
+12. [Migration Guide](#migration-guide)
+    1. [Global Changes](#global-changes)
+    2. [Browser Support](#browser-support)
+    3. [Configuration Changes](#configuration-changes)
+        1. [Locale Changes](#locale-changes)
+        2. [Owner Changes](#owner-changes)
+        3. [Google Analytics Changes](#google-analytics-changes)
+        4. [Disqus Comments Changes](#disqus-comments-changes)
+    4. [Search Changes](#search-changes)
+    5. [Image Changes](#image-changes)
+    6. [Development Changes](#development-changes)
+    7. [Step-by-Step](#step-by-step)
+13. [Customization](#customization)
+    1. [Overriding Includes and Layouts](#overriding-includes-and-layouts)
+    2. [Customizing Sass (SCSS)](#customizing-sass-scss)
+    3. [Customizing JavaScript](#customizing-javascript)
+14. [Font Awesome Icons](#font-awesome-icons)
+15. [Development](#development)
+    1. [JavaScript Build Script](#javascript-build-script)
+16. [Contributing](#contributing)
+17. [Credits](#credits)
+18. [License](#license)
+
 ## Installation
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
@@ -637,9 +707,7 @@ To define what pages are linked in the top navigation:
 
 ## Author
 
-Author information is used as meta data for post "by lines" and propagates the
-`creator` field of Twitter summary cards with the following front matter in
-`_config.yml`:
+Author information is used as meta data for post "by lines" and propagates the `creator` field of Twitter summary cards with the following front matter in `_config.yml`:
 
 ```yaml
 author:
@@ -648,8 +716,7 @@ author:
   picture: /images/johndoe.png
 ```
 
-Site-wide author information can be overridden in a document's front matter in
-the same way:
+Site-wide author information can be overridden in a document's front matter in the same way:
 
 ```yaml
 author:
@@ -658,9 +725,7 @@ author:
   picture: /images/janedoe.png
 ```
 
-Or by specifying a corresponding key in the document's front matter, that
-exists in `site.data.authors`. E.g., you have the following in the document's
-front matter:
+Or by specifying a corresponding key in the document's front matter, that exists in `site.data.authors`. E.g., you have the following in the document's front matter:
 
 ```yaml
 author: megaman
@@ -680,8 +745,7 @@ drlight:
   picture: /images/drlight.png
 ```
 
-Currently `author.picture` is only used in `layout: post`. Recommended size is
-`150 x 150` pixels.
+Currently `author.picture` is only used in `layout: post`. Recommended size is `150 x 150` pixels.
 
 ## Footer
 
@@ -743,26 +807,26 @@ Embed a video from YouTube/Vimeo or any other `iframe` content that responsively
 
 So Simple 3 is a major rewrite of the entire theme. The most notable changes are summarized below, followed by more specific changes.
 
-It is safe to say you'll probably want to ditch all `_layouts`, `_includes`, `_sass`, `.css`, and `.js` files from v2 and go with either the Ruby gem or remote theme installation options.
+It is safe to say you'll probably want to ditch all `_layouts`, `_includes`, `_sass`, `.css`, and `.js` files from v2 and use either the [Ruby gem](#ruby-gem-method) or [remote theme](github-pages-method) installation options.
 
 ### Global Changes
 
-* "Fork method" has been deprecated in favor of installing/upgrading the theme [via a gem](#ruby-gem-method) or [remote theme](github-pages-method).
+* "Fork method" has been deprecated in favor of installing/upgrading the theme via a gem or remote theme.
 * All `_layouts`, `_includes`, `_sass`, and JavaScript have been rebuilt.
-* Properly uses `site.url` and `site.baseurl`.
+* Properly uses `site.url` and `site.baseurl` leveraging the `relative_url` and `absolute_url` filters.
 * Replaced custom `/_includes/open-graph.html` with [**jekyll-seo-tag**][jekyll-seo-tag].
 * Full control over links and icons used in author sidebar and footer.
-* Tag, articles, and blog starter pages have been replaced with `_layouts` (`tags` and `posts`) for easier use.
+* Tag, articles, and blog starter pages have been replaced with new layouts ([`tags`](#layout-tags) and [`posts`](#layout-posts)) for easier use.
 * Removed `404.md` page.
 * Replaced custom `atom.xml` feed file with [**jekyll-feed**][jekyll-feed].
 * Removed default `favicon.ico` and `favicon.png` files.
-* Replaced simple JSON search with [Lunr](https://lunrjs.com/).
-* Replaced Magnific Popup with Lity.
-* Removed [FitVids.JS](http://fitvidsjs.com/) script.
+* Replaced simple JSON search with [**Lunr**](https://lunrjs.com/).
+* Replaced [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) with [**Lity**](https://sorgalla.com/lity/).
+* Removed [FitVids.JS](http://fitvidsjs.com/).
 
 ### Browser Support
 
-* CSS targets modern browsers. Where possible fallbacks for `float` based layouts have been used so things don't look *too broken* in browser's that don't support `display: grid` and `flex`.
+* CSS written with modern browsers in mind. Where possible fallbacks for `float` based layouts have been used so things don't look *too broken* in browsers that don't support `display: grid` and flexbox.
 
 ### Configuration Changes
 
@@ -801,16 +865,16 @@ To disable comments on a particular post add `comments: false` to its front matt
 
 When assigning image paths for things like the `site.logo`, `page.image.path`, `author.picture`, etc. they now require a full relative or absolute path.
 
-In So Simple v2 images were all placed in `/images/` and assigned in front matter with just the filename. For images to properly load now you will need to prepend all paths with `/images/`... if you are storing images there e.g., `/images/your-image.jpg`.
+In So Simple v2 images were all placed in `/images/` and assigned in front matter with just the filename. For images to properly load, you now need to prepend all paths with `/images/`... if you are storing images there e.g., `/images/your-image.jpg`.
 
 To better support Jekyll plugin's like [jekyll-seo-tag][jekyll-seo-tag], [jekyll-feed][jekyll-feed], and [jekyll-sitemap][jekyll-sitemap] most of the `image` keys have been renamed. Adjust the front matter in all of your posts' and pages' accordingly.
 
-| v2                 | v3                                     |
-|--------------------|----------------------------------------|
-| `image.feature`    | **`image.path`**                       |
-| `image.thumb`      | **`image.thumbnail`**                  |
-| `image.credit      | **`image.caption`** (Markdown allowed) |
-| `image.creditlink` | deprecated use `image.caption` instead |
+| v2                 | v3                                         |
+|--------------------|--------------------------------------------|
+| `image.feature`    | **`image.path`**                           |
+| `image.thumb`      | **`image.thumbnail`**                      |
+| `image.credit`     | **`image.caption`** (Markdown allowed)     |
+| `image.creditlink` | deprecated use `**image.caption**` instead |
 
 A post with the following v2 front matter:
 
@@ -878,7 +942,7 @@ Theme files can be [overridden](http://jekyllrb.com/docs/themes/#overriding-them
 
 **ProTip:** to locate the theme's files on your computer run `bundle show jekyll-theme-so-simple`. This returns the location of the gem-based theme files.
 
-The theme comes with two files to make inject your own markup and content into the theme more easily.
+The theme comes with two files to help inject custom markup and content into predefined locations.
 
 |     | Description |
 | --- | ----------- |
@@ -900,17 +964,13 @@ To override the default [Sass](http://sass-lang.com/guide) (located in theme's
 
 2. Copy from this repo.
 
-   * Copy the contents of [assets/css/main.scss](assets/css/main.scss)
-     to `<your_project>`.
+   * Copy the contents of [assets/css/main.scss](assets/css/main.scss) to `<your_project>`.
    * Customize what you want inside `<your_project/assets/stylesheets/main.scss`.
 
 **Note:** To customize the actual Sass partials bundled
-in the gem, you will need to copy the complete contents of the `_sass` directory
-to `<your_project>`. Due to the way Jekyll currently reads these files it's all or nothing, you can't simple override a file or two like `includes` and `_layouts`.
+in the gem, you will need to copy the complete contents of the `_sass` directory to `<your_project>`. Due to the way Jekyll currently imports these files it's all or nothing. Overriding a single Sass partial (or two) won't work like `_includes` and `_layouts`.
 
-To make basic tweaks to theme's style, Sass variables can be overridden by adding
-to `<your_project>/assets/stylesheets/main.scss`. For instance, to change the
-accent color used throughout the theme add the following after all `@import` lines:
+To make basic tweaks to theme's style, Sass variables can be overridden by adding to `<your_project>/assets/stylesheets/main.scss`. For instance, to change the accent color used throughout the theme add the following after all `@import` lines:
 
 ```scss
 $accent-color: tomato;
@@ -952,7 +1012,7 @@ The theme's [`/assets/js/main.min.js`](assets/js/main.min.js) file is built from
 |  |  ├── search-data.json                 # search index used by Lunr
 ```
 
-To modify or add your own scripts include them in `assets/js/main.js` and then rebuild using `npm run build:js`. [See below for more details](#javascript-build-script).
+To modify or add your own scripts, include them in `assets/js/main.js` and then rebuild using `npm run build:js`. [See below for more details](#javascript-build-script).
 
 If you add additional scripts to `/assets/js/plugins/` and would like them concatenated with the others, be sure to update the `uglify` script in [`package.json`](package.json). Same goes for scripts that you remove.
 
@@ -968,7 +1028,7 @@ footer_scripts:
   - /assets/js/your-custom-footer-script.js
 ```
 
-**Note:** If you assign `footer_scripts` the theme's `/assets/js/main.min.js` file will be deactivated. This script includes plugins and other scripts that will cease to function unless you specifically add them to the `footer_scripts` array.
+**Note:** If you assign paths to `footer_scripts` the theme's `/assets/js/main.min.js` file will be deactivated. This script includes plugins and other scripts that will cease to function unless you specifically add them to the `footer_scripts` array.
 
 ## Font Awesome Icons
 
@@ -989,9 +1049,7 @@ To test the theme locally as you make changes to it:
 2. Run `bundle exec rake preview` and open your browser to
    `http://localhost:4000/example/`.
 
-This starts a Jekyll server using the theme's files and contents of the
-`example/` directory. As modifications are made, refresh your browser to see
-any changes.
+This starts a Jekyll server using the theme's files and contents of the `example/` directory. As modifications are made, refresh your browser to see any changes.
 
 ### JavaScript Build Script
 
@@ -1010,9 +1068,9 @@ If all goes well, executing `npm run build:js` will compress/concatenate `main.j
 ## Contributing
 
 Found a typo in the documentation? Requesting a feature or
-[bug fix][issues]? Then by all means [submit an issue][new-issue] or take a
-stab at submitting a [pull request][using-pull-requests]. If this is your first
-pull request, it may be helpful to read up on the [GitHub Flow][github-flow].
+[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication. 
+
+[Pull requests][using-pull-requests] are also appreciated. If this is your first time, it may be helpful to read up on the [GitHub Flow][github-flow].
 
 [issues]: https://github.com/mmistakes/so-simple-theme/issues
 [new-issue]: https://github.com/mmistakes/so-simple-theme/issues/new
@@ -1026,11 +1084,9 @@ When submitting a pull request:
 1. Clone the repo.
 2. Create a branch off of `master` and give it a meaningful name (e.g.
    `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe what problem this solves.
+3. Open a pull request on GitHub and describe what problem it solves.
 
-Sample pages can be found in the [`/docs`](docs) and [`/example`](/example)
-folders if you'd like to tackle any "low-hanging fruit" like fixing typos, bad
-grammar, broken links, etc.
+Sample pages can be found in the [`/docs`](docs) and [`/example`](/example) folders if you'd like to tackle any "low-hanging fruit" like fixing typos, bad grammar, broken links, etc.
 
 ---
 
