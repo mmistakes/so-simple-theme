@@ -163,7 +163,7 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 </center>
 
 <center style="padding: 0.75em 0 0 0">
-<a href="https://www.smartly.io/"><img width="200" src="logos/SmartlyLogoHorizontalRGB.pdf" /></a>
+<a href="https://www.smartly.io/"><img width="200" src="logos/smartly.png" /></a>
 </center>
 
 <center style="padding: 0.75em 0 0 0">
