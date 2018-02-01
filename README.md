@@ -810,9 +810,11 @@ Rough steps to migrate a stock So Simple v2 fork (with no alterations) to the la
 6. Remove the body content in `index.html` and change `layout: page` to `layout: home`. Configure [pagination](#pagination) if necessary.
 7. Remove the body content in `/search/index.md` and change `layout: page` to **`layout: search`**.
 8. Remove the body content in `/tags/index.md` and change `layout: page` to **`layout: tags`**.
-9. Rename `modified` front matter in posts/pages to **`last_modified_at`** for improved parity with plugins that support it.
-10. Add `tag_archive_path: "/tags/#"` to `_config.yml` to activate tag links in post meta sidebar.
-11. Rename `avatar` to **`picture`** in `_data/authors.yml` (and in any posts/pages front matter), and edit the paths adhering to the [image path changes](#image-changes) above.
+9. Remove the body content in `/articles/index.md` and change `layout: page` to **`layout: category`** and add **`taxonomy: articles`**.
+10. Remove the body content in `/body/index.md` and change `layout: page` to **`layout: category`** and add **`taxonomy: blog`**.
+11. Rename `modified` front matter in posts/pages to **`last_modified_at`** for improved parity with plugins that support it.
+12. Add `tag_archive_path: "/tags/#"` to `_config.yml` to activate tag links in post meta sidebar.
+13. Rename `avatar` to **`picture`** in `_data/authors.yml` (and in any posts/pages front matter), and edit the paths adhering to the [image path changes](#image-changes) above.
 
 ---
 
