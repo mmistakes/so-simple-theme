@@ -229,22 +229,22 @@
       display: block;
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      color: $text-color;
+      color: mix(#000, $border-color, 25%);
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      border: 1px solid $text-color;
+      border: 1px solid $border-color;
       border-radius: 0;
 
       &.current,
       &.current.disabled {
-        @include yiq-contrasted($text-color);
+        @include yiq-contrasted(mix(#000, $border-color, 25%));
       }
 
       &.disabled {
-        color: lighten($text-color, 50%);
+        color: $border-color;
         pointer-events: none;
         cursor: not-allowed;
       }

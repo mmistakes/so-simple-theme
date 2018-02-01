@@ -9,7 +9,7 @@ elements:
   - formatting
   - html
   - markup
-last_modified_at: 2017-03-09T10:55:59-05:00
+last_modified_at: 2018-02-01T10:16:49-05:00
 ---
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
@@ -35,14 +35,17 @@ Single line blockquote:
 Multi line blockquote with a cite reference:
 
 > People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
+>
+> <footer><strong>Steve Jobs</strong> &mdash; Apple Worldwide Developers' Conference, 1997</footer>
 
-<cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
-{: .small}
+Quoted text inline using `<q>` element:
+
+<p>Luke continued, <q>And then she called him a <q>scruffy-looking nerf-herder</q>! I think I’ve got a chance!</q> The poor naive fool&hellip;</p>
 
 ## Tables
 
 | Employee         | Salary |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
+|------------------|--------|--------------------------------------------------------------|
 | [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
 | [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
 | [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |

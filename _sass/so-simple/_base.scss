@@ -14,13 +14,10 @@ body {
 
 blockquote,
 q {
-  color: tint($text-color, 40%);
-  font-style: italic;
 
-  cite {
+  footer {
     font-size: 80%;
     font-style: normal;
-    font-weight: bold;
 
     &::before {
       padding-right: 0.25rem;
