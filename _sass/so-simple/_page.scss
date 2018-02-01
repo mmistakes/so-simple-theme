@@ -7,11 +7,6 @@
   padding-left: 1em;
   padding-right: 1em;
   max-width: $main-sidebar-max-width;
-
-  @include breakpoint($main-sidebar-max-width) {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 .page-title {
