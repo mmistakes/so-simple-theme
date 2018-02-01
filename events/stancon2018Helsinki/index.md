@@ -148,29 +148,25 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
-</center>
-
-<center style="padding: 0.75em 0 0 0">
-<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a>
+<span style="display:inline-block; width: 0.75em;"></span>
+<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a> 
 </center>
 
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.amazon.com/"><img width="200" src="logos/Amazon-logo-RGB.png" /></a>
-</center>
-
-<center style="padding: 0.75em 0 0 0">
+<span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.tweag.io/"><img width="200" src="logos/Tweag_logo_white.svg" /></a>
 </center>
 
 <center style="padding: 0.75em 0 0 0">
+<a href="https://www.jumpingrivers.com/"><img width="200" src="logos/JumpingRivers.png" /></a>
+<span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.smartly.io/"><img width="200" src="logos/smartly_vertical.png" /></a>
 </center>
 
 <center style="padding: 0.75em 0 0 0">
 <a href="http://fcai.fi/"><img width="200" src="logos/fcai.png" /></a>
-</center>
-
-<center style="padding: 0.75em 0 0 0">
+<span style="display:inline-block; width: 0.75em;"></span>
 <a href="http://www.aalto.fi/en/"><img width="200" src="logos/Aalto_FI_13_RGB_7.png" /></a>
 </center>
 
