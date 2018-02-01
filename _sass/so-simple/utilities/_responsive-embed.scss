@@ -3,17 +3,17 @@
    Credit: Nicolas Gallagher and SUIT CSS.
 
    <!-- 16:9 aspect ratio -->
-   <div class="embed-responsive embed-responsive-16by9">
-     <iframe class="embed-responsive-item" src="..."></iframe>
+   <div class="responsive-embed responsive-embed-16by9">
+     <iframe class="responsive-embed-item" src="..."></iframe>
    </div>
 
    <!-- 4:3 aspect ratio -->
-   <div class="embed-responsive embed-responsive-4by3">
-     <iframe class="embed-responsive-item" src="..."></iframe>
+   <div class="responsive-embed responsive-embed-4by3">
+     <iframe class="responsive-embed-item" src="..."></iframe>
    </div>
    ========================================================================== */
 
-.embed-responsive {
+.responsive-embed {
   display: block;
   position: relative;
   width: 100%;
@@ -26,7 +26,7 @@
     content: "";
   }
 
-  .embed-responsive-item,
+  .responsive-embed-item,
   iframe,
   embed,
   object,
@@ -41,25 +41,25 @@
   }
 }
 
-.embed-responsive-21by9 {
+.responsive-embed-21by9 {
   &::before {
     padding-top: percentage(9 / 21);
   }
 }
 
-.embed-responsive-16by9 {
+.responsive-embed-16by9 {
   &::before {
     padding-top: percentage(9 / 16);
   }
 }
 
-.embed-responsive-4by3 {
+.responsive-embed-4by3 {
   &::before {
     padding-top: percentage(3 / 4);
   }
 }
 
-.embed-responsive-1by1 {
+.responsive-embed-1by1 {
   &::before {
     padding-top: percentage(1 / 1);
   }

@@ -21,7 +21,7 @@ If you're running Jekyll v3.5+ and self-hosting you can quickly install the them
 
 ### Ruby Gem Method
 
-1. Add this line to your Jekyll site's `Gemfile` (or [create one](example/Gemfile):
+1. Add this line to your Jekyll site's `Gemfile` (or [create one](example/Gemfile)):
 
    ```ruby
    gem "jekyll-theme-so-simple"
@@ -71,7 +71,6 @@ If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmis
 * `CHANGELOG.md`
 * `Gemfile`
 * `jekyll-theme-so-simple.gemspec`
-* `LICENSE`
 * `Rakefile`
 * `README.md`
 * `screenshot.png`
@@ -91,7 +90,7 @@ To check which version you are currently using, view the source of your built si
 -->
 ```
 
-At the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.js`.
+This will be at the top of every `.html` file, `/assets/css/main.css`, and `/assets/js/main.js`.
 
 ### Ruby Gem
 
@@ -131,8 +130,7 @@ Depending on the amount of customizations you've made after forking, there's lik
 
 ### Update Files Manually
 
-Another way of dealing with updates is [downloading the theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip) --- replacing your layouts, includes, and assets with the newer ones manually. To be sure that you don't miss any changes it's probably a good idea to review
-the theme's [commit history](https://github.com/mmistakes/so-simple-theme/commits/master) to see what's changed.
+Another way of dealing with updates is [downloading the theme](https://github.com/mmistakes/so-simple-theme/archive/master.zip) --- replacing your layouts, includes, and assets with the newer ones manually. To be sure that you don't miss any changes review the theme's [commit history](https://github.com/mmistakes/so-simple-theme/commits/master) to see what has changed.
 
 Here's a quick checklist of the important folders/files you'll want to be mindful of:
 
@@ -154,7 +152,7 @@ Here's a quick checklist of the important folders/files you'll want to be mindfu
 
 Layouts, includes, Sass partials, and data files are all placed in their default locations. Stylesheets and scripts can be found in `assets`, and a few development related files in the project's root directory.
 
-**Please note:** If you installed So Simple via the Ruby Gem or remote theme methods, theme files found in `/_layouts`, `/_includes`, `/_sass`, and `/assets` will be missing. This is normal as they are bundled with the [`jekyll-theme-so-simple`](https://rubygems.org/gems/jekyll-theme-so-simple) gem.
+**Please note:** If you installed So Simple via the Ruby Gem or remote theme methods, theme files found in `/_layouts`, `/_includes`, `/_sass`, and `/assets` will be missing from your project. This is normal as they are bundled with the [`jekyll-theme-so-simple`](https://rubygems.org/gems/jekyll-theme-so-simple) gem.
 
 ```
 ├── _data               # data files
@@ -185,7 +183,7 @@ After creating a `Gemfile` and installing the theme you'll need to add and edit 
 
 Using the `jekyll new` command will get you up and running the quickest.
 
-Edit `_config.yml` following the guide below and then create `_data/text.yml` as instructed earlier.
+Edit your `Gemfile` and `_config.yml` files following the [installation guide](#installation) above and [configuration guide](#configuring) below, then create `_data/text.yml` as instructed earlier.
 
 ## Configuring
 
@@ -214,13 +212,13 @@ Properly setting the locale is important for associating localized text found in
 
 The base hostname and protocol for your site. If you're hosting with GitHub Pages this will be something like `url: "https://github.io.mmistakes"` or `url: "https://your-site.com"` if you have a custom domain name.
 
-GitHub Pages now [forces `https://` for new sites](https://help.github.com/articles/securing-your-github-pages-site-with-https/) so be mindful of that when setting your URL to avoid mixed-content warnings.
+GitHub Pages now [forces `https://` for new sites](https://help.github.com/articles/securing-your-github-pages-site-with-https/), so be mindful of that when setting your URL to avoid mixed-content warnings.
 
 **Note:** Jekyll overrides the value of `url` with `http://localhost:4000` when running `jekyll serve` locally in development. If you want to avoid this behavior set `JEKYLL_ENV=production` to [force the environment](http://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time) to production.
 
 ### Site Base URL
 
-This option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a GitHub Pages Project or in a subfolder (e.g., `/blog`), then don't mess with it.
+This option causes all kinds of confusion in the Jekyll community. If you're not hosting your site as a [GitHub Project Page](https://help.github.com/articles/user-organization-and-project-pages/) or in a subfolder (e.g., `/blog`), then don't mess with it.
 
 In the case of the **So Simple** demo site it's hosted on GitHub at <https://mmistakes.github.io/so-simple-theme>. To correctly set this base path I'd use `url: "https://mmistakes.github.io"` and `baseurl: "/so-simple-theme"`.
 
@@ -229,6 +227,8 @@ For more information on how to properly use `site.url` and `site.baseurl` as int
 **Note:** When using `baseurl` remember to include it as part of your link and asset paths in your content. Values of `url:` and `baseurl: "/blog"` would make your local site visible at <http://localhost:4000/blog> and not <http://localhost:4000>. You can either prepend all your asset and internal link paths with `{{ site.baseurl }}` or use Jekyll's `relative_url`.
 
 To use the example values above the following image path of `{{ '/images/my-image.jpg' | relative_url }}` would output correctly as `http://localhost:4000/blog/images/my-image.jpg`.
+
+Without the `relative_url` filter that asset path would be missing `/blog` and you'd have a broken image on your page.
 
 ### Date Format
 
@@ -251,7 +251,7 @@ words_per_minute: 200
 
 ### Mathematics
 
-Enable [MathJax](https://www.mathjax.org) (a JavaScript display engine for mathematics) site-wide with `mathjax: true`.
+Enable [**MathJax**](https://www.mathjax.org) (a JavaScript display engine for mathematics) site-wide with `mathjax: true`.
 
 ### Google Fonts
 
@@ -280,11 +280,11 @@ $description-font-family: $serif-font-family;
 $meta-font-family: $serif-font-family;
 ```
 
-See stylesheet documentation below for more information on overriding the theme's default variables.
+See [stylesheet documentation](#customizing-sass-scss) below for more information on overriding the theme's default variables.
 
 ### Pagination
 
-Break up the main listing of posts on the home page into smaller lists across multiple pages by [enabling pagination](http://jekyllrb.com/docs/pagination/).
+Break up the main listing of posts on the home page across multiple pages by [enabling pagination](http://jekyllrb.com/docs/pagination/).
 
 1. Include the [`jekyll-paginate`][jekyll-paginate] plugin in your `Gemfile`.
 
@@ -308,6 +308,16 @@ Break up the main listing of posts on the home page into smaller lists across mu
    paginate: true
    ```
 
+### Search
+
+To index the full content of your documents for use in a [search page](#layout-search), set `search_full_content` to `true` in `_config.yml`:
+
+```yaml
+search_full_content: true
+```
+
+**Note:** Large amounts of posts will increase the size of the search index, impacting page load performance. Setting `search_full_content` to `false` (the default) restricts indexing to the first 50 words of body content.
+
 ### Taxonomy Pages
 
 By default, category and tags added to a post are not linked to taxonomy archive pages. To enable this behavior and link to pages with posts grouped by category or tag, add the following:
@@ -317,7 +327,7 @@ category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 ```
 
-These paths should mimic the permalinks used for your [**category**](#layout-categories) and [**tag archive**](#layout-tags) pages. The `#` at the end is necessary to target the correct taxonomy section on the page.
+These paths should mimic the permalinks used for your [**categories**](#layout-categories) and [**tags archive**](#layout-tags) pages. The `#` at the end is necessary to target the correct taxonomy section on the pages.
 
 For example if you were to create `categories.md` with the following front matter:
 
@@ -366,7 +376,7 @@ For more configuration options be sure to consult the documentation for:
 
 ## Layouts
 
-This theme provides the following layouts, which you can use by setting the `layout` [Front Matter](https://jekyllrb.com/docs/frontmatter/) on each page, like so:
+This theme provides the following layouts, which you can use by setting the `layout` [front matter](https://jekyllrb.com/docs/frontmatter/) on each page, like so:
 
 ```yaml
 ---
@@ -384,7 +394,7 @@ This layout accommodates the following front matter:
 
 | Name | Type | Description |
 | ---- | ----- | ---------- |
-| `image` | String | Path to a large image associated with the post. Also used for OpenGraph, Twitter Cards, and site feed thumbnail if enabled. [Suggested sizes](#images) |
+| `image` | String | Path to a large image associated with the post. Also used for [OpenGraph](http://ogp.me/), [Twitter Cards](https://dev.twitter.com/cards), and site feed thumbnail if enabled. [Suggested image sizes](#images). |
 | `image.path` | String | Same as above. Used when a `thumbnail` or `caption` needs to be assigned to the `image` object as well. |
 | `image.caption` | String | Describes the image or provides credit. Markdown is allowed. |
 | `author` | Object or string | Specify a post's author `name`, `picture`, `twitter`, `links`, etc. |
@@ -465,7 +475,7 @@ differences.
 * Disqus comments are omitted.
 * Next/Previous post navigation links omitted.
 
-The page layout forms the base for several other layouts like `home`, `posts`, `categories`, `tags`, and `search`.
+The page layout forms the base for several other layouts like [`home`](#layout-home), [`posts`](#layout-posts), [`categories`](#layout-categories), [`tags`](#layout-tags), [`collection`](#layout-collection), [`category`](#layout-category), [`tag`](#layout-tag), and [`search`](#layout-search).
 
 ### `layout: home`
 
@@ -474,14 +484,15 @@ addition of the following:
 
 ```yaml
 paginate: true  # enables pagination loop, see section above for additional setup
+entries_layout: # list (default), grid
 ```
 
 When not enabled the page defaults to showing the latest 10 posts. To change the amount of posts shown, you can edit or override the `limit` value in [`/_includes/posts-limit.html`](_includes/posts-limit.html).
 
 ```liquid
-{%- for entry in site.posts limit: 10 -%}
+{% for entry in site.posts limit: 10 %}
   {% include entry.html %}
-{%- endfor -%}
+{% endfor %}
 ```
 
 By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
@@ -533,7 +544,7 @@ taxonomy: # category name
 entries_layout: # list (default), grid
 ```
 
-By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
 
 To create a page showing all posts assigned to the category `foo` you'd create `foo.md` in the root of your project and add this front matter:
 
@@ -553,7 +564,7 @@ taxonomy: # tag name
 entries_layout: # list (default), grid
 ```
 
-By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
 
 To create a page showing all posts assigned to the tag `foo bar` you'd create `foo-bar.md` in the root of your project and add this front matter:
 
@@ -566,7 +577,23 @@ taxonomy: foo bar
 
 ### `layout: search`
 
-This layout displays a search form.
+This layout displays a search form and displays related pages based on the query.
+
+Page content index: `title`, `excerpt`, `content` (when enabled), `categories`, `tags`, and `url`.
+
+If you would like to exclude specific pages/posts from the search index set the search flag to `false` in their front matter.
+
+```yaml
+search: false
+```
+
+To index the full content of your documents set `search_full_content` to `true` in `_config.yml`:
+
+```yaml
+search_full_content: true
+```
+
+**Note:** Large amounts of posts will increase the size of the search index, impacting page load performance. Setting `search_full_content` to `false` (the default) restricts indexing to the first 50 words of body content.
 
 ## Images
 
@@ -582,10 +609,10 @@ Suggested image sizes in pixels are as follows:
 
 ## Theme Text
 
-To change text found throughout the theme copy the following
+To change text found throughout the theme, copy the following
 [`/_data/theme.yml`](_data/text.yml) file and customize as necessary.
 
-When adding new texts be sure the keys match these [language/country codes](<https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx>) that may be used for [`site.locale`](#site-locale).
+When adding new texts be sure the keys match these [language/country codes](<https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx>), that may be used for [`site.locale`](#site-locale).
 
 ## Navigation
 
@@ -691,6 +718,25 @@ By default the copyright inserts the current year, [`site.title`](#site-title), 
 
 ```yaml
 copyright: "This site is made with <3 by *me, myself, and I*."
+```
+
+## Helpers
+
+You can think of these Jekyll helpers as shortcodes. Since GitHub Pages doesn't allow most plugins --- [custom tags](https://jekyllrb.com/docs/plugins/#tags) are out. Instead the theme leverages [**includes**](https://jekyllrb.com/docs/templates/#includes) to do something similar.
+
+### Responsive Embed
+
+Embed a video from YouTube/Vimeo or any other `iframe` content that responsively sizes to fit the width of its parent.
+
+| Parameter | Required | Description |
+| --------- | -------- | ----------- |
+| `url`     | Yes      | Video or iframe's URL e.g., `https://www.youtube.com/watch?v=-PVofD2A9t8` |
+| `ratio`   | Optional | Ratio of the video or iframe content. `21:9`, `16:9`, `4:3`, `1:1`. If a ratio is not assigned `16:9` is used. |
+
+**Example:**
+
+```html
+{% include responsive-embed url="https://www.youtube.com/watch?v=-PVofD2A9t8" ratio="16:9" %}
 ```
 
 ## Migration Guide

@@ -1,0 +1,16 @@
+{%- case include.ratio -%}
+  {%- when '21:9' -%}
+    {%- assign ratio_class = 'responsive-embed-21by9' -%}
+  {%- when '16:9' -%}
+    {%- assign ratio_class = 'responsive-embed-16by9' -%}
+  {%- when '4:3' -%}
+    {%- assign ratio_class = 'responsive-embed-4by3' -%}
+  {%- when '1:1' -%}
+    {%- assign ratio_class = 'responsive-embed-1by1' -%}
+  {%- else -%}
+    {%- assign ratio_class = 'responsive-embed-16by9' -%}
+{%- endcase -%}
+
+<div class="responsive-embed {{ ratio_class }}">
+  <iframe src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
+</div>
