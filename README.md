@@ -329,6 +329,8 @@ permalink: /foo/
 
 You'd need to change `category_archive_path` to `"/foo/#` for category links to function properly.
 
+**Note:** You can create dedicated category and tag pages manually with [`layout: category`](#layout-category) and [`layout: tag`](#layout-tag). Or use plugins like [**jekyll-archives**][jekyll-archives] or [**jekyll-paginate-v2**](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md) to generate them automatically.
+
 ### Comments (via Disqus)
 
 If you have a [**Disqus**](https://disqus.com/) account, you can show a comments section below each post.
@@ -482,17 +484,85 @@ When not enabled the page defaults to showing the latest 10 posts. To change the
 {%- endfor -%}
 ```
 
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
 ### `layout: posts`
 
-This layout displays all posts grouped by the year they were published. It accomodates the same front matter as `layout: page`.
+This layout displays all posts grouped by the year they were published. It accommodates the same front matter as `layout: page`.
+
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
 
 ### `layout: categories`
 
 This layout displays all posts grouped category. It accommodates the same front matter as `layout: page`.
 
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
 ### `layout: tags`
 
 This layout displays all posts grouped by tag. It accommodates the same front matter as `layout: page`.
+
+By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
+### `layout: collection`
+
+This layout displays all documents grouped by a specific collection. It accommodates the same front matter as `layout: page` with the addition of the following:
+
+```yaml
+collection: # collection name
+entries_layout: # list (default), grid
+```
+
+To create a page showing all documents in the `recipes` collection you'd create `recipes.md` in the root of your project and add this front matter:
+
+```yaml
+title: Recipes
+layout: collection
+permalink: /recipes/
+collection: recipes
+```
+
+By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
+### `layout: category`
+
+This layout displays all posts grouped by a specific category. It accommodates the same front matter as `layout: page` with the addition of the following:
+
+```yaml
+taxonomy: # category name
+entries_layout: # list (default), grid
+```
+
+By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
+To create a page showing all posts assigned to the category `foo` you'd create `foo.md` in the root of your project and add this front matter:
+
+```yaml
+title: Foo
+layout: category
+permalink: /categories/foo/
+taxonomy: foo
+```
+
+### `layout: tag`
+
+This layout displays all posts grouped by a specific tag. It accommodates the same front matter as `layout: page` with the addition of the following:
+
+```yaml
+taxonomy: # tag name
+entries_layout: # list (default), grid
+```
+
+By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+
+To create a page showing all posts assigned to the tag `foo bar` you'd create `foo-bar.md` in the root of your project and add this front matter:
+
+```yaml
+title: Foo Bar
+layout: tag
+permalink: /tags/foo-bar/
+taxonomy: foo bar
+```
 
 ### `layout: search`
 
@@ -951,3 +1021,4 @@ The theme is available as open source under the terms of the [MIT License](LICEN
 [jekyll-feed]: https://github.com/jekyll/jekyll-feed
 [jekyll-paginate]: https://github.com/jekyll/jekyll-paginate
 [jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-archives]: https://github.com/jekyll/jekyll-archives
