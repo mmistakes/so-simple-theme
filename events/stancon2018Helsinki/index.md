@@ -146,13 +146,33 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
-* [Generable](https://www.generable.com/)
-* [Reaktor](https://www.reaktor.com/)
-* [Amazon](https://www.amazon.com/)
-* [tweag.io](https://www.tweag.io/)
-* [Smartly](https://www.smartly.io/)
-* [Finnish Center for Artificial Intelligence](http://fcai.fi)
-* [Aalto University](http://www.aalto.fi/en/)
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.amazon.com/"><img width="200" src="logos/Amazon-logo-RGB.png" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.tweag.io/"><img width="200" src="logos/Tweag_logo_white.svg" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="https://www.smartly.io/"><img width="200" src="logos/SmartlyLogoHorizontalRGB.pdf" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="http://fcai.fi/"><img width="200" src="logos/fcai.png" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
+<a href="http://www.aalto.fi/en/"><img width="200" src="logos/Aalto_FI_13_RGB_7.png" /></a>
+</center>
 
 If you're interested in sponsoring StanCon 2018 Helsinki, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
