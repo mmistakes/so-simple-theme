@@ -750,23 +750,22 @@ Rough steps to migrate a stock So Simple v2 fork (with no alterations) to the la
 
 When installing as a **Ruby gem** or **remote theme** the core theme files (`_layouts`, `_includes`, `_sass`, `assets`, etc.) will be absent from your project.
 
-The default structure, style, and scripts of this theme can be overridden and
-customized in the following two ways:
+The default structure, style, and scripts of this theme can be overridden and customized in the following two ways:
 
 ### Overriding Includes and Layouts
 
-Theme files can be [overridden](http://jekyllrb.com/docs/themes/#overriding-theme-defaults)
-by placing a file with the same name into your project's `_includes` or
-`_layouts` directory. For instance:
+Theme files can be [overridden](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) by placing a file with the same name into your project's `_includes` or `_layouts` directory. For instance:
 
-* To add custom metadata to the [`_includes/head.html`](_includes/head.html)
-  file, create an `_includes` directory in your project, copy
-  `_includes/head.html` from So Simple's gem folder to
-  `<your_project>/_includes` and edit that file.
+* To add another social sharing button to [`_includes/social-share.html`](_includes/social-share.html), create an `_includes` directory in your project, copy `_includes/social-share.html` from So Simple's gem folder to `<your_project>/_includes` and edit that file.
 
-**ProTip:** to locate the theme's files on your computer run
-`bundle show jekyll-theme-so-simple`. This returns the location of the
-gem-based theme files.
+**ProTip:** to locate the theme's files on your computer run `bundle show jekyll-theme-so-simple`. This returns the location of the gem-based theme files.
+
+The theme comes with two files to make inject your own markup and content into the theme more easily.
+
+|     | Description |
+| --- | ----------- |
+| [`_includes/head-custom.html`](_includes/head-custom.html) | Inserted inside the `<head>` element for adding metadata, favicons, etc. |
+| [`_includes/footer-custom.html`](_includes/footer-custom.html) | Inserted inside the `<footer>` element before site scripts and copyright information. |
 
 ### Customizing Sass (SCSS)
 
