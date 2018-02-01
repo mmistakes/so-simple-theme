@@ -7,10 +7,15 @@ layout: default
     {% include page-image.html %}
     <div class="page-wrapper">
       <header class="page-header">
-        {% if page.link %}
-          <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% if page.id %}
+          {% assign title = page.title | markdownify | strip_html %}
         {% else %}
-          <h1 id="page-title" class="page-title">{{ page.title }}</h1>
+          {% assign title = page.title %}
+        {% endif %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title">{{ title }}</h1>
         {% endif %}
       </header>
       <div class="page-content">
