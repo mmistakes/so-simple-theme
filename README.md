@@ -1016,7 +1016,8 @@ The theme's [`/assets/js/main.min.js`](assets/js/main.min.js) file is built from
 |  |  |   └── lunr.stemmer.support.min.js
 |  |  ├── plugins
 |  |  |   ├── jquery.smooth-scroll.min.js  # make same-page links scroll smoothly
-|  |  |   └── lity.min.js                  # responsive lightbox
+|  |  |   ├── lity.min.js                  # responsive lightbox
+|  |  |   └── table-of-contents.js         # table of contents toggle
 |  |  ├── main.js                          # jQuery plugin settings and other scripts
 |  |  ├── main.min.js                      # concatenated and minified scripts
 |  |  ├── search-data.json                 # search index used by Lunr
