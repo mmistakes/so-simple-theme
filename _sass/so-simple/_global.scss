@@ -284,8 +284,14 @@
   border-radius: $border-radius;
 
   h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0;
     padding: 0.75rem 1rem;
@@ -298,11 +304,16 @@
 
     .toc-toggle-icon {
       margin-left: 1rem;
+      -webkit-transition: -webkit-transform 350ms ease;
+      transition: -webkit-transform 350ms ease;
       transition: transform 350ms ease;
+      transition: transform 350ms ease, -webkit-transform 350ms ease;
     }
 
     &.js-toc-is-open {
       .toc-toggle-icon {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
         transform: rotate(180deg);
       }
     }
@@ -316,6 +327,7 @@
     overflow: hidden;
     color: $base05;
     font-size: 0.9rem;
+    -webkit-transition: height 350ms ease;
     transition: height 350ms ease;
 
     &.js-toc-is-open {
