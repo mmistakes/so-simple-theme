@@ -80,7 +80,7 @@ collections:
 
 # Front Matter Defaults
 defaults:
-  # _posts
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
@@ -88,7 +88,7 @@ defaults:
       layout: post
       comments: true
       share: true
-  # _recipes
+  # Recipe defaults
   - scope:
       path: "_recipes"
       type: recipes
