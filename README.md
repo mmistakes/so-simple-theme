@@ -16,6 +16,8 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
 [1]: https://mmistakes.github.io/so-simple-theme/
 [2]: screenshot.png "live preview"
 
+## Table of Contents
+
 1. [Installation](#installation)
     1. [Ruby Gem Method](#ruby-gem-method)
     2. [GitHub Pages Method](#github-pages-method)
