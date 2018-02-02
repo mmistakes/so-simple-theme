@@ -4,10 +4,14 @@
   {% assign title = entry.title %}
 {% endif %}
 
-<article class="entry">
+<article class="entry h-entry">
   <header class="entry-header">
-    <h3 class="entry-title">
-      <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
+    <h3 class="entry-title p-name">
+      {% if entry.link %}
+        <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a>
+      {% else %}
+        <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
+      {% endif %}
     </h3>
     {% if entry.image.thumbnail %}
       {% assign entry_image = entry.image.thumbnail %}
@@ -15,15 +19,15 @@
         {% assign entry_image = entry_image | relative_url %}
       {% endunless %}
       {% assign entry_image = entry_image | escape %}
-      <img class="entry-image" src="{{ entry_image }}" alt="">
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
     {% endif %}
   </header>
   {% unless page.show_excerpts == false %}
-    <div class="entry-excerpt">
+    <div class="entry-excerpt p-summary">
       {% if entry.excerpt %}
         {{ entry.excerpt | markdownify }}
         <div class="more-link">
-          <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }} {% include icon-right-arrow.svg %}</a>
+          <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a>
         </div>
       {% endif %}
     </div>

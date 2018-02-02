@@ -4,7 +4,7 @@
     {%- for tag in page.tags -%}
       <li class="page-taxonomy">
         {%- if site.tag_archive_path -%}
-          <a href="{{ tag | slugify | prepend: site.tag_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}">{{ tag }}</a>
+          <a href="{{ tag | slugify | prepend: site.tag_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}" rel="tag">{{ tag }}</a>
         {%- else -%}
           {{ tag }}
         {%- endif -%}
