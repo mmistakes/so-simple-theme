@@ -146,6 +146,8 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
+Generous contributions of our sponsors will ensure that our registration costs are kept as low as possible and allow for us to subsidize attendance for students who would otherwise be unable to come.
+
 <center style="padding: 0.75em 0 0 0">
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
