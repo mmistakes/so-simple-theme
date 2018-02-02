@@ -63,6 +63,7 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
     2. [Copyright Text](#copyright-text)
 11. [Helpers](#helpers)
     1. [Responsive Embed](#responsive-embed)
+    2. [Table of Contents](#table-of-contents)
 12. [Migration Guide](#migration-guide)
     1. [Global Changes](#global-changes)
     2. [Browser Support](#browser-support)
@@ -802,6 +803,14 @@ Embed a video from YouTube/Vimeo or any other `iframe` content that responsively
 
 ```html
 {% include responsive-embed url="https://www.youtube.com/watch?v=-PVofD2A9t8" ratio="16:9" %}
+```
+
+### Table of Contents
+
+To include an [auto-generated table of contents](https://kramdown.gettalong.org/converter/html.html#toc) for posts and pages, add the following helper where you'd like it to appear.
+
+```html
+{% include toc %}
 ```
 
 ## Migration Guide
