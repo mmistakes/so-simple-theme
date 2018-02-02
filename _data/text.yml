@@ -9,7 +9,7 @@ en: &DEFAULT_EN
   skip_footer: "Skip to footer"
   by: "by"
   min_read: "min read"
-  read_more: "Read More"
+  read_more: "Read more&hellip;"
   categories: "Categories"
   tags: "Tags"
   pages_categorized: "Pages filed under"
