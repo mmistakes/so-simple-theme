@@ -276,3 +276,76 @@
   border: 2px solid $border-color;
   border-radius: $border-radius;
 }
+
+.toc-wrapper {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  border: 1px solid (mix(#fff, $border-color, 25%));
+  border-radius: $border-radius;
+
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    color: $base05;
+    background-color: $base00;
+    font-family: $base-font-family;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    .toc-toggle-icon {
+      margin-left: 1rem;
+      transition: transform 350ms ease;
+    }
+
+    &.js-toc-is-open {
+      .toc-toggle-icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  #markdown-toc {
+    display: none;
+    height: 0;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    overflow: hidden;
+    color: $base05;
+    font-size: 0.9rem;
+    transition: height 350ms ease;
+
+    &.js-toc-is-open {
+      display: block;
+      height: auto;
+    }
+  }
+
+  li {
+    padding: 0.3em 0;
+    font-family: $base-font-family;
+
+    a {
+      display: inline-block;
+      color: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px dotted transparent;
+
+      &:hover,
+      &:focus {
+        border-bottom: 1px dotted $border-color;
+      }
+    }
+
+    ol {
+      padding-left: 0.5rem;
+      list-style-type: lower-roman;
+      background-color: $background-color;
+    }
+  }
+}

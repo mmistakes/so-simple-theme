@@ -14,6 +14,7 @@ en: &DEFAULT_EN
   tags: "Tags"
   pages_categorized: "Pages filed under"
   pages_tagged: "Pages tagged"
+  table_of_contents: "Table of Contents"
   results_found: "Result(s) found"
   share: "Share"
   tweet: "Tweet"
