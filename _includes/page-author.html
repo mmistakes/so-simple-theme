@@ -12,9 +12,11 @@
   {%- endif -%}
 
   <div class="author-info">
-    <div class="author-name">
-      {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
-    </div>
+    {%- if author.name -%}
+      <div class="author-name">
+        {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
+      </div>
+    {%- endif -%}
     {%- if author.links[1] -%}
       <ul class="author-links">
         {%- for link in author.links -%}
