@@ -11,7 +11,7 @@ So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/
 * SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
 * Options to customize the theme and make it your own.
 
-:sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
+:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
 
 [![So Simple live preview][2]][1]
 
