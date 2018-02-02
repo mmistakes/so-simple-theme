@@ -1,59 +1,134 @@
-# Site wide configuration
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: So Simple Theme
-locale: en_US
-description: A simple and clean responsive Jekyll theme for words and photos.
-logo: site-logo.png
-url: https://mmistakes.github.io/so-simple-theme
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+theme: jekyll-theme-so-simple
 
-# Jekyll configuration
+locale: en-US
+title: "So Simple"
+description: "A simple Jekyll theme for words and pictures."
+baseurl: "/so-simple-theme"
+url: "https://mmistakes.github.io"
+logo: "/images/so-simple-site-logo.png"
+date_format: "%B %-d, %Y"
+read_time: # reading time estimates
+words_per_minute: # 200
+mathjax: # MathJax equations, e.g. true
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: "UA-2011187-2"
+disqus:
+  shortname: "sosimpletheme"
+twitter:
+  username: "mmistakes"
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 10
+paginate_path: /page:num/
+
+# Search
+search_full_content: false
+
+# Taxonomoy pages
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
 
-mathjax: true
+# Front Matter Defaults
+defaults:
+  # Post defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      comments: true
+      share: true
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-comments: true
-
-# Site owner
-owner:
+# Site Author
+author:
   name: Michael Rose
-  avatar: michael-rose-photo.jpg
-  email: michael@mademistakes.com
-  disqus-shortname: sosimpletheme
+  picture: /images/michael-rose-photo.jpg
+  email:
   twitter: mmistakes
-  facebook: michaelrose
-  github: mmistakes
-  stackexchange:
-  linkedin:
-  instagram: mmistakes
-  flickr:
-  tumblr: mademistakes
-  pinterest:
-  weibo:
-  google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-2
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+  links:
+    - title: Twitter
+      url: https://twitter.com/mmistakes
+      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/mmistakes
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/mmistakes
+      icon: fab fa-github-square
+
+# Footer Links
+footer_links:
+  - title: Twitter
+    url: https://twitter.com/mmistakes
+    icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://instagram.com/mmistakes
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/mmistakes
+    icon: fab fa-github-square
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
