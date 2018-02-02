@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 locale: en-US
 title: "So Simple Development Site"
-description: "A simple and clean theme for words and pictures."
+description: "A simple Jekyll theme for words and pictures."
 baseurl: "/example" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"

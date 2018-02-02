@@ -3,7 +3,7 @@
 [![Gem](https://img.shields.io/gem/v/so-simple-theme.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
 [![license](https://img.shields.io/github/license/mmistakes/so-simple-theme.svg?style=flat-square)](LICENSE)
 
-So Simple is a simple and clean [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Its primary focus is to provide:
+So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
 
 * A variety of layouts with clean and readable typography.
 * [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
