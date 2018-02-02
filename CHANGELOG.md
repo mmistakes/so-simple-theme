@@ -8,10 +8,67 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 
 ### Changed
+- Freshen up look and feel, rebuilding with modern CSS using grid and flexbox.
+- Improve parity with Jekyll's default theme (Minima).
+- Properly support `url` and `baseurl` by leveraging Jekyll's `absolute_url` and `relative_url` filters.
+- Rename image front matter to those used by jekyll-seo-tag, jekyll-feed, and jekyll-sitemap (e.g., rename `image.feature` to `image.path`).
+- Require full paths to image assets instead of forcing them into `/images/`.
+- Update MathJax to `2.7.2`.
+- Update Font Awesome to `5.0.6`.
+- Update jQuery to `3.3.1`.
+- Remove FitVid.JS script.
+- Replace Magnific Popup with Lity.
+- Improve list view.
+- Replace JSON search with [Lunr](https://lunrjs.com/).
+- Improve syntax highlighting styling.
+- Improve README.md with full installation guide.
+- Replace Grunt tasks with `npm run` scripts.
+- Update GitHub issue labels.
+- Migrate `gh-pages` branch into `/docs` folder on `master`.
+
 ### Added
+- Convert into a [Ruby gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- Add support for installing on GitHub Pages as a [remote theme](https://github.com/benbalter/jekyll-remote-theme).
+- Add custom author links to post sidebar via `_config.yml`.
+- Add custom footer links via `_config.yml`.
+- Allow footer copyright to be changed via `_config.yml`.
+- Assign Google Fonts to easily customize site's typography via `_config.yml`.
+- Add hooks for injecting custom markup or content to `<head>` and `<footer>`.
+- Add estimated reading time to pages.
+- Add [data file](_data/text.yml) with all of the theme's text strings for localization.
+- Add grid view.
+- Add full document content, URL, and tags to search index for improved results.
+- Add support for line numbers in syntax highlighted code blocks.
+- Add toggle for showing or hiding excerpts with `show_excerpts`.
+- Add `default` layout.
+- Add `home` layout with [jekyll-paginate](https://jekyllrb.com/docs/pagination/) support.
+- Add `posts` layout for showing all posts.
+- Add `categories` layout for showing all posts grouped by category.
+- Add `category` layout for showing posts of a specific category.
+- Add `tags` layout for showing all posts grouped by tag.
+- Add `tag` layout for showing posts of a specific tag.
+- Add `collection` layout for showing documents of a specific collection.
+- Add `search` layout.
+- Add [Microformats](http://microformats.org/wiki/microformats2) markup to posts.
+- Add responsive embed helper.
+- Add table of contents helper.
+- Add CHANGELOG.md file.
+- Add migration guide for v2 to v3.
+- Add stale bot for dealing with inactive issues and pull-requests.
+- Add GitHub issue template.
+
 ### Fixed
+- Fixed MathJax CDN path. [#241](https://github.com/mmistakes/so-simple-theme/pull/241)
 
 ---
+
+## [Unreleased] - 
+
+### Changed
+
+### Added
+
+### Fixed
 
 ## [2.3.4] - 09-14-2016
 
