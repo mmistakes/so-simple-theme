@@ -10,18 +10,38 @@
   }
 }
 
+#menu-toggle {
+  display: block;
+  margin: 0;
+  padding: 0.25em 0.75em 0.5em;
+  color: $nav-color;
+  background-color: $nav-background-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    display: none;
+  }
+}
+
 .site-nav {
+  display: none;
   margin-bottom: 1em;
   text-align: center;
 
   ul {
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 0.25em 0.75em;
     list-style: none;
     color: $nav-color;
     background-color: $nav-background-color;
     border-radius: 0 0 (2 * $border-radius) (2 * $border-radius);
+
+    @include breakpoint($medium) {
+      display: inline-block;
+    }
   }
 
   li {
@@ -41,6 +61,15 @@
     &:hover {
       border-color: $nav-color;
     }
+  }
+
+  @include breakpoint($medium) {
+    display: block;
+  }
+
+  &.js-menu-is-open {
+    display: block;
+    animation-name: initial;
   }
 }
 

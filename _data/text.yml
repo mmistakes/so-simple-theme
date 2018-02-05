@@ -7,6 +7,7 @@ en: &DEFAULT_EN
   skip_primary_nav: "Skip to primary navigation"
   skip_content: "Skip to content"
   skip_footer: "Skip to footer"
+  menu_label: "Menu"
   by: "by"
   min_read: "min read"
   read_more: "Read more&hellip;"
