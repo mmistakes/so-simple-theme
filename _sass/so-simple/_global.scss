@@ -69,6 +69,7 @@
 
   &.js-menu-is-open {
     display: block;
+    -webkit-animation-name: initial;
     animation-name: initial;
   }
 }
