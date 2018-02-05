@@ -13,7 +13,7 @@ tags:
   - css
   - image
   - markup
-last_modified_at: 2018-01-19T14:39:54-05:00
+last_modified_at: 2018-02-05T16:19:55-05:00
 ---
 
 The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let's get started.
@@ -79,7 +79,7 @@ And now for a massively large image with **no alignment**.
   <figcaption>Massive image comment for your eyeballs.</figcaption>
 </figure> 
 
-The figure element above has an inline style of `width: 1200px` set which should case it to break outside of the normal content flow.
+The figure element above has an inline style of `width: 1200px` set which should cause it to break outside of the normal content flow.
 
 <figure style="width: 300px" class="align-right">
   <img src="{{ '/images/image-alignment-300x200.jpg' | absolute_url }}" alt="">
