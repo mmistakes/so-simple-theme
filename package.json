@@ -1,6 +1,8 @@
 {
-  "name": "so-simple-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
+  "name": "jekyll-theme-so-simple",
+  "description": "A Jekyll theme for words and pictures",
+  "version": "3.0.0",
+  "author": "Michael Rose",
   "homepage": "http://mmistakes.github.io/so-simple-theme/",
   "repository": {
     "type": "git",
@@ -9,16 +11,30 @@
   "bugs": {
     "url": "https://github.com/mmistakes/so-simple-theme/issues"
   },
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal",
+    "responsive"
+  ],
+  "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "npm-run-all": "^1.7.0",
+    "onchange": "^2.2.0",
+    "uglify-js": "^2.6.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 9"
+  ],
+  "scripts": {
+    "uglify": "uglifyjs assets/js/plugins/lity.js assets/js/plugins/jquery.smooth-scroll.js assets/js/plugins/table-of-contents.js assets/js/main.js -c -m -o assets/js/main.min.js",
+    "add-banner": "node banner.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify && npm run add-banner"
   }
 }

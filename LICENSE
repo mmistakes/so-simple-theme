@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2014 Michael Rose
+Copyright (c) 2013-2018 Michael Rose and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+So Simple incorporates [Font Awesome](http://fontawesome.io/),
+Copyright (c) 2017 Dave Gandy.
+Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL)
+and [MIT License](http://opensource.org/licenses/MIT).
+
+So Simple incorporates photographs from [Unsplash](https://unsplash.com).
+
+So Simple incorporates photographs from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)
+
+So Simple incorporates [Breakpoint](http://breakpoint-sass.com/).
+Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
+
+So Simple incorporates [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll),
+Copyright (c) 2017 Karl Swedberg.
+jQuery Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+So Simple incorporates [Lunr](http://lunrjs.com),
+Copyright (c) 2017 Oliver Nightingale.
+Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+So Simple incorporates [Lity](http://sorgalla.com/lity/),
+Copyright (c) 2015-2016, Jan Sorgalla.
+Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
+
+So Simple incorporates [Table of Contents Toggle](https://github.com/smithtimmytim/brightlycolored.org),
+Copyright (c) 2017 Timothy B. Smith.
+Table of Contents Toggle is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).

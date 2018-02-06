@@ -1,0 +1,45 @@
+/* ==========================================================================
+   Author
+   ========================================================================== */
+
+.author-avatar {
+  display: none;
+
+  @include breakpoint($large) {
+    display: inline;
+    margin-bottom: 1em;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+}
+
+.author-name {
+  @include breakpoint($large) {
+    margin-bottom: 0.5em;
+  }
+}
+
+.author-links {
+  display: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.author-link {
+  display: inline;
+  padding-right: 0.5em;
+
+  @include breakpoint($large) {
+    padding: 0.25em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

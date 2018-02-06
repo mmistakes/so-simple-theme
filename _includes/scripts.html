@@ -1,12 +1,21 @@
-<script type="text/javascript">
-  var BASE_URL = '{{ site.url }}';
-</script>
+{%- if site.footer_scripts -%}
+  {%- for script in site.footer_scripts -%}
+    {%- if script contains "://" -%}
+      {%- capture script_path %}{{ script }}{% endcapture -%}
+    {%- else -%}
+      {%- capture script_path %}{{ script | absolute_url }}{% endcapture -%}
+    {%- endif -%}
+    <script src="{{ script_path }}"></script>
+  {%- endfor -%}
+{%- else -%}
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+{%- endif -%}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
-{% if site.owner.google.analytics %}
+
+{%- if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
@@ -22,4 +31,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+{%- endif %}
+
+{% if site.mathjax == true %}
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
+
+{%- if page.layout == "search" -%}
+  {% include lunr-search-scripts.html %}
+{%- endif -%}

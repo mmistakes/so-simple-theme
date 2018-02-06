@@ -1,0 +1,112 @@
+/* ==========================================================================
+   Base elements
+   ========================================================================== */
+
+html {
+  @include fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size);
+}
+
+body {
+  background: $background-color;
+  color: $text-color;
+  border-top: solid 0.25em $nav-background-color;
+}
+
+blockquote,
+q {
+
+  footer {
+    font-size: 80%;
+    font-style: normal;
+
+    &::before {
+      padding-right: 0.25rem;
+      content: "\2014";
+    }
+  }
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: $monospace-font-family;
+}
+
+kbd {
+  display: inline-block;
+  margin: 0 0.125em;
+  padding: 0.125em 0.5em;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 3px;
+  background-color: rgb(247, 247, 247);
+  font-size: 85%;
+  text-shadow: 0 1px 0 #fff;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #fff;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headline-font-family;
+  text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+}
+
+h1 {
+  @include fluid-type($min-vw, $max-vw, $h1-min, $h1-max);
+}
+
+h2 {
+  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
+}
+
+h3 {
+  @include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
+}
+
+h4 {
+  @include fluid-type($min-vw, $max-vw, $h4-min, $h4-max);
+}
+
+h5 {
+  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
+}
+
+h6 {
+  @include fluid-type($min-vw, $max-vw, $h6-min, $h6-max);
+}
+
+dt {
+  font-weight: bold;
+
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+}
+
+dd {
+  margin: 0;
+}
+
+pre {
+  @include fluid-type($min-vw, $max-vw, 12px, 14px);
+}
+
+figcaption {
+  margin: 0.5rem 0;
+  font-size: 80%;
+}
+
+a {
+  color: $accent-color;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+
+  &:hover {
+    color: shade($accent-color, 25%);
+  }
+}
