@@ -46,7 +46,7 @@ learn to use Stan
   <br />Richard McElreath.
 
 * <a class = "external"
-href="">Bayesian Statistics for the Social Sciences 2018</a>  <span
+href="https://youtu.be/sUnG2oyz4ts?list=PLSZp9QshJ8wyPCgoQR0Kw3HDNuy1FEZH9">Bayesian Statistics for the Social Sciences 2018</a>  <span
 class="note"> (YouTube)</span>
   <br /> Ben Goodrich.
 
