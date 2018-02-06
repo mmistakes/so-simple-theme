@@ -5,7 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## [3.0.1] - 02-06-2018
+
+### Fixed
+- Fix Google Analytics conditional and variable name in include.
+
+## [3.0.0] - 02-06-2018
 
 ### Changed
 - Freshen up look and feel, rebuilding with modern CSS using grid and flexbox.
@@ -58,7 +63,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add GitHub issue template.
 
 ### Fixed
-- Fixed MathJax CDN path. [#241](https://github.com/mmistakes/so-simple-theme/pull/241)
+- Fix MathJax CDN path. [#241](https://github.com/mmistakes/so-simple-theme/pull/241)
 
 ---
 

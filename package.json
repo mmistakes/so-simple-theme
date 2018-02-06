@@ -1,7 +1,7 @@
 {
   "name": "jekyll-theme-so-simple",
-  "description": "A Jekyll theme for words and pictures",
-  "version": "3.0.0",
+  "description": "A simple Jekyll theme for words and pictures.",
+  "version": "3.0.1",
   "author": "Michael Rose",
   "homepage": "http://mmistakes.github.io/so-simple-theme/",
   "repository": {
