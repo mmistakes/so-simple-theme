@@ -6,6 +6,8 @@ excerpt: "Details of upcoming and past training courses.."
 
 *Details of upcoming and previous training courses offered by the Sheffield Bioinformatics Core will appear here. 
 
+To be the first to hear about our training course program and for other core news and annoucements please join our mailing list [here](https://groups.google.com/a/sheffield.ac.uk/forum/#!forum/bioinformatics-core-news/join). 
+
 ## 2018
 
 - to be announced...
