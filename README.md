@@ -1,7 +1,6 @@
 # [So Simple Jekyll Theme][1]
 
-[![Gem](https://img.shields.io/gem/v/so-simple-theme.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
-[![license](https://img.shields.io/github/license/mmistakes/so-simple-theme.svg?style=flat-square)](LICENSE)
+[![Gem](https://img.shields.io/gem/v/jekyll-theme-so-simple.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
 
 So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
 
