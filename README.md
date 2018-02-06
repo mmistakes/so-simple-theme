@@ -12,7 +12,7 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 
 :sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
 
-:blue_book: [v2 documentation](README-OLD.md).
+:blue_book: **[v2 documentation](README-OLD.md)**.
 
 [![So Simple live preview][2]][1]
 
