@@ -38,6 +38,26 @@ learn to use Stan
 
 # Tutorial Videos
 
+## Courses
+
+* <a class="external"
+  href="https://youtu.be/oy7Ks3YfbDg?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc">Statistical
+  Rethinking Fall 2017</a> <span class="note"> (YouTube)</span>
+  <br />Richard McElreath.
+
+* <a class = "external"
+href="">Bayesian Statistics for the Social Sciences 2018</a>  <span
+class="note"> (YouTube)</span>
+  <br /> Ben Goodrich.
+
+*  <a class="external"
+    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials</a> (5 hours)
+    <span class="note">(YouTube)</span>
+    <br />
+    Mike Lawrence (2015)
+
+## Lectures
+
 * <a class="external" href="https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/How-to-Use-RStan-to-Estimate-Models-in-External-R-Packages">
   How to Use (R)Stan to Estimate Models in External R Packages </a> <span class="note">
   (useR2017 Conference)</span>
@@ -77,12 +97,6 @@ learn to use Stan
   Bob Carpenter (2015)
 
 * <a class="external" href="https://www.youtube.com/watch?v=qQFF4tPgeWI">Bayesian Inference and MCMC</a> (3 hours) <span class="note">(YouTube)</span>. <br /> Bob Carpenter (2015)
-
-*  <a class="external"
-    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GPoC6tTw01EP1Tcr2I6zEm8">Bayes Days 2015 Stan/RStan Tutorials</a> (5 hours)
-    <span class="note">(YouTube)</span>
-    <br />
-    Mike Lawrence (2015)
 
 * <a class="external"
     href="https://www.youtube.com/watch?v=tLprFqSWS1w">Stan
