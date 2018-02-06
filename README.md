@@ -12,12 +12,49 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 
 :sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
 
+:blue_book: [v2 documentation](README-OLD.md).
+
 [![So Simple live preview][2]][1]
 
 ![So Simple layouts](screenshots.jpg)
 
 [1]: https://mmistakes.github.io/so-simple-theme/
 [2]: screenshot.png "site preview"
+
+## Sample Pages
+
+| Description |    |    |
+| ----------- | -- | -- |
+| A post with a large hero image. | [Preview][post-hero-preview] | [Source][post-hero-source] |
+| A post with a variety of common HTML elements showing how the theme styles them. | [Preview][post-html-elements-preview] | [Source][post-html-elements-source] |
+| Post displaying highlighted code. | [Preview][post-syntax-preview] | [Source][post-syntax-code] |
+| A post displaying images with a variety of alignments. | [Preview][post-image-alignment-preview] | [Source][post-image-alignment-source] |
+| All posts grouped by year. | [Preview][posts-year-preview] | [Source][posts-year-source] |
+| All posts grouped by category. | [Preview][posts-category-preview] | [Source][posts-category-source] |
+| All posts grouped by tag. | [Preview][posts-tag-preview] | [Source][posts-tag-source] |
+| Category page. | [Preview][category-page-preview] | [Source][category-page-source] |
+| Listing of documents in grid view. | [Preview][grid-view-preview] | [Source][grid-view-source] |
+
+[post-hero-preview]: https://mmistakes.github.io/so-simple-theme/layout/layout-hero-image/
+[post-hero-source]: docs/_posts/2012-03-14-layout-hero-image.md
+[post-html-elements-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-html-elements-and-formatting/
+[post-html-elements-source]: docs/_posts/2013-01-11-markup-html-elements-and-formatting.md
+[post-syntax-preview]: https://mmistakes.github.io/so-simple-theme/markup-syntax-highlighting/
+[post-syntax-code]: docs/_posts/2013-08-16-markup-syntax-highlighting.md
+[post-image-alignment-preview]: https://mmistakes.github.io/so-simple-theme/markup/markup-image-alignment/
+[post-image-alignment-source]: docs/_posts/2013-01-10-markup-image-alignment.md
+[posts-year-preview]: https://mmistakes.github.io/so-simple-theme/posts/
+[posts-year-source]: docs/posts.md
+[posts-category-preview]: https://mmistakes.github.io/so-simple-theme/categories/
+[posts-category-source]: docs/categories.md
+[posts-tag-preview]: https://mmistakes.github.io/so-simple-theme/tags/
+[posts-tag-source]: docs/tags.md
+[category-page-preview]: https://mmistakes.github.io/so-simple-theme/categories/edge-case/
+[category-page-source]: docs/edge-case.md
+[grid-view-preview]: https://mmistakes.github.io/so-simple-theme/recipes/
+[grid-view-source]: docs/recipes.md
+
+Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) can be view on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs) folder.
 
 ## Table of Contents
 
