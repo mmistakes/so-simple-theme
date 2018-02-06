@@ -15,6 +15,8 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 
 [![So Simple live preview][2]][1]
 
+![So Simple layouts](screenshots.jpg)
+
 [1]: https://mmistakes.github.io/so-simple-theme/
 [2]: screenshot.png "site preview"
 

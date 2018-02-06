@@ -62,14 +62,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
-## [Unreleased] - 
-
-### Changed
-
-### Added
-
-### Fixed
-
 ## [2.3.4] - 09-14-2016
 
 ### Changed
