@@ -604,7 +604,7 @@ paginate: true  # enables pagination loop, see section above for additional setu
 entries_layout: # list (default), grid
 ```
 
-When not enabled the page defaults to showing the latest 10 posts. To change the amount of posts shown, you can override the `limit` value by adding the following to the page's front matter.
+When pagination is not enabled the page defaults to showing the latest 10 posts. To change the amount of posts shown, assign a limit value by adding the following to the page's front matter.
 
 ```yaml
 posts_limit: 5
