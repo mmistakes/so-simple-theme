@@ -24,9 +24,9 @@ baseurl: "/so-simple-theme"
 url: "https://mmistakes.github.io"
 logo: "/images/so-simple-site-logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates
+read_time: true
 words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"

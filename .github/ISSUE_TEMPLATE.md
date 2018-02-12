@@ -22,10 +22,10 @@
   GitHub Pages, and the operating system(s) you are on or tested with.
 -->
 
-- **Minimal Mistakes version:** 
+- **So Simple version:** 
 - **Jekyll version:**
-- **GitHub Pages hosted:** yes/no
-- **Operating system:** 
+- **GitHub Pages hosted site:** yes/no
+- **Operating system(s):** 
 
 ---
 
