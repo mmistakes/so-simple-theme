@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Set `autofocus` on search input.
 
+### Added
+- Add `posts_limit` override to `home` layout to set how many posts are shown (when not using pagination).
+
 ## [3.0.1] - 02-06-2018
 
 ### Fixed

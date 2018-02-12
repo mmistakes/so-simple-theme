@@ -604,12 +604,10 @@ paginate: true  # enables pagination loop, see section above for additional setu
 entries_layout: # list (default), grid
 ```
 
-When not enabled the page defaults to showing the latest 10 posts. To change the amount of posts shown, you can edit or override the `limit` value in [`/_includes/posts-limit.html`](_includes/posts-limit.html).
+When not enabled the page defaults to showing the latest 10 posts. To change the amount of posts shown, you can override the `limit` value by adding the following to the page's front matter.
 
-```liquid
-{% for entry in site.posts limit: 10 %}
-  {% include entry.html %}
-{% endfor %}
+```yaml
+posts_limit: 5
 ```
 
 By default, posts are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
