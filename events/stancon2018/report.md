@@ -11,6 +11,10 @@ image:
 
 StanCon2018 Asilomar Post Event Report
 
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/StanManShirtMysterySpeaker.jpg" /></a>
+</center>
+
 Link to conference website: [http://mc-stan.org/events/stancon2018/](http://mc-stan.org/events/stancon2018/)
 
 ### Overall Observations
@@ -20,6 +24,10 @@ StanCon2018 was protected by the divine force that ensures the success of amateu
 ### Background
  
 StanCon2108 was setup by Michael Betancourt as a 3 day conference January 10-12 2018, at Asilomar with the invited talks. He moved on to other projects but we ran with this as the overall structure of the conference expecting 150 attendees. In the end we got 172 people to attend. 
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1012.JPG" /></a>
+</center>
+Name that distribution. Mens t-shirts in the back, womens in the front.
 
 ### Scholarships
 
@@ -28,6 +36,27 @@ We elected to extend our scholarship program to take all applicants who could ma
 ### Talks 
 
 We had 6 invited talks (40 + 10 min questions) who received room and board. One speaker dropped out and Andrew Gelman stepped up for a remote talk. We got 15 submitted talks (15 + 5 min questions) and all were accepted pending revisions. One submitted talk was retracted, we added two developer talks and had a "Mystery Talk" done by Aki for 17 total. 
+
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1016.JPG" /></a></center>
+
+
+
+### Wearable Poster Session
+
+We modified the standard boring poster session into a "wear you poster" session at the first day reception and it was pretty much a hit. We had rolling poster acceptances until the day before the conference to help support people that could not attend without a presentation of some sort because of employer, school or other policy. 
+
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1019.JPG" /></a></center>
+
+It was a hoot.
+
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1025.JPG" /></a></center>
+
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1030.JPG" /></a></center>
+
 
 
 ### Tutorials
@@ -46,7 +75,16 @@ As of writing we have no code of conduct issues. We were very proactive in commu
 
 ### Venue
 
-Asilomar is beautiful, ideal and we had a lovely "summer camp vibe" to the entire event. On Thursday we had 14 hours of activities from 7am to 9pm. This cannot be replicated in a more urban environment and it significantly increased opportunities to network, learn about Stan and just have fun. The food was just ok, coffee suicide inducing in its crappiness but it didn't matter. Asilomar is a special place. StanCon2018 Helsinki will be a more traditional urban/academic conference that will feel very differently from 3 meals a day with fellow sufferers of a sadistic 7am start time ending with blind wine tastings and air powered rockets. 
+Asilomar is beautiful, ideal and we had a lovely "summer camp vibe" to the entire event. On Thursday we had 14 hours of activities from 7am to 9pm. This cannot be replicated in a more urban environment and it significantly increased opportunities to network, learn about Stan and just have fun. 
+
+
+The food was just ok, coffee suicide inducing in its crappiness but it didn't matter. Asilomar is a special place. StanCon2018 Helsinki will be a more traditional urban/academic conference that will feel very differently from 3 meals a day with fellow sufferers of a sadistic 7am start time ending with blind wine tastings and air powered rockets. 
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1061.JPG" /></a></center>
+
+<center style="padding: 0.75em 0 0 0">
+<img width="400" src="img/IMG_1066.JPG" /></a></center>
+
 
 ### Video Recording
 All talks were recorded except Talia Wiess because Breck screwed up. The plan is to put all videos up and annotate the conference schedule with links as well as links to the slides. Device used [Zoom Q4N](https://www.bhphotovideo.com/c/product/1218972-REG/zoom_q4n_handy_video_recorder.html). Total kit was $400 with charger, extra battery, 2 sd cards and some stuff. Thanks to Mitzi for the tripod. 
