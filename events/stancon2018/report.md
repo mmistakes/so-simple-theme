@@ -96,7 +96,7 @@ We got excellent service from [AVSI](https://www.avsolutions-inc.com/) who dealt
 
 Surveying, via Google forms, turned out to be an excellent way to anticipate attendee desires. With surveys we knew to expect 100 people at our blind wine tasting--so we had enough wine. Likewise with t-shirt sizing and tutorial attendance but we did't believe those results. Naturally we have unleashed a post conference survey. 
 
-We are still getting results so we link to the current results: [Results](https://docs.google.com/forms/d/1NB_dV4MVD1qr0sNyHuTR4wxCOR_Bxq3jNFlbJzIC2xA/edit#responses)
+Link to the results for future StanCon planners [Results](https://docs.google.com/forms/d/1NB_dV4MVD1qr0sNyHuTR4wxCOR_Bxq3jNFlbJzIC2xA/edit#responses)
 
 ### Financials
 
