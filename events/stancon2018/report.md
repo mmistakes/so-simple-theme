@@ -51,7 +51,7 @@ We had 6 invited talks (40 + 10 min questions) who received room and board. One 
 We modified the standard boring poster session into a "wear you poster" session at the first day reception and it was pretty much a hit. We had rolling poster acceptances until the day before the conference to help support people that could not attend without a presentation of some sort because of employer, school or other policy. 
 
 <center style="padding: 0.75em 0 0 0">
-<img width="400" src="img/poster.JPG" /></center>
+<img width="400" src="img/poster.jpg" /></center>
 
 It was a hoot.
 
