@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add `posts_limit` override to `home` layout to set how many posts are shown (when not using pagination).
 
+### Fixed
+- Fix `remote_theme` name in README documentation. [#268](https://github.com/mmistakes/so-simple-theme/pull/268)
+
 ## [3.0.1] - 02-06-2018
 
 ### Fixed
