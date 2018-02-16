@@ -168,7 +168,7 @@ GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme
 
 2. Run `bundle update` and verify that all gems install properly.
 
-3. Add `remote_theme: "mmistakes/jekyll-theme-so-simple"` to your
+3. Add `remote_theme: "mmistakes/so-simple-theme"` to your
    `_config.yml` file. Remove any other `theme:` or `remote_theme:` entries.
 
 ---
