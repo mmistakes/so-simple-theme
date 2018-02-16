@@ -4,20 +4,11 @@ title: StanCon 2018
 excerpt: ""
 modified:
 image:
-  feature: feature/wide_ensemble.png
+  feature: 
   credit:
   creditlink:
 ---
 
-# Updates Wed Jan 10
-
-Wed 7:30am: Breakfast at Crocker Hall
-
-Wed 8am: Meet in Merrill Hall for tutorials
-
-Wed 10am: Main Session in Merrill Hall
-
-------
 
 
 Three days of talks, open discussions, and statistical modeling.
@@ -271,7 +262,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 * Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am
 * The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm
-* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips (London School of Economics and Political Science) 12:10-12:30pm
+* Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips (London School of Economics and Political Science) [Video](https://youtu.be/Gt73VNaZLXA) 12:10-12:30pm
 
 ### Lunch 12:30-1:30pm
 
