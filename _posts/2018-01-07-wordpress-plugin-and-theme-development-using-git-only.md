@@ -119,18 +119,18 @@ deploy:
 env:
   global:
   - SVN_REPOSITORY={PLUGIN SVN REPOSITORY URL}
-  - secure: {SECURED SVN ACCOUNT USERNAME}
-  - secure: {SECURED SVN ACCOUNT PASSWORD}
+  - secure: {ENCRYPTED SVN ACCOUNT USERNAME}
+  - secure: {ENCRYPTED SVN ACCOUNT PASSWORD}
 ```
 
 *\*Travis sees git tags the same way as branches. I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I'm providing regular expression to determine it.*
 
 ### Environment variables
 
-**$SVN_REPOSITORY** - URL to WordPress plugin SVN repository.  
+**$SVN_REPOSITORY** - WordPress plugin SVN repository URL.  
 **$TRAVIS_TAG** - Pushed tag label. *(This variable is provided by Travis)*  
-**$SVN_USERNAME** - Secured WordPress account username.  
-**$SVN_PASSWORD** - Secured WordPress account password.
+**$SVN_USERNAME** - Encrypted WordPress account username.  
+**$SVN_PASSWORD** - Encrypted WordPress account password.
 
 > How to [define encrypted variables in .travis.yml](https://docs.travis-ci.com/user/environment-variables/#Defining-encrypted-variables-in-.travis.yml)
 

@@ -3,7 +3,7 @@ layout: page
 title: About
 tags: [about, resume, cv, bio]
 excerpt: Hi, my name is Sergey and I'm a web-developer.
-modified: 2017-10-26T21:53:38.564948+03:00
+modified: 2018-01-10T12:53:38.564948+03:00
 image:
   feature: about-featured-image.png
 ---
@@ -21,8 +21,9 @@ Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologie
 * Laravel (Lumen), Slim, WordPress, React, ReactNative, jQuery, Bootstrap
 
 #### Other ####
-* Unix, Git, Vagrant, Docker, AWS (VPC, ELB, EC2, ECS, RDS, S3)
+* Unix, Git, Vagrant, Docker, Forge, Envoy
 * User Interfaces and User Experience
+* Software Architecture
 
 ---
 
