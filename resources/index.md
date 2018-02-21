@@ -37,5 +37,6 @@ Other researchers / Core facilities that we collaborate with and share resources
 
 Talks and presentations given by members of the Core. For training materials and longer courses, see our [training](http://sbc.shef.ac.uk//training/) section.
 
+- [How to get bioinformatics help via the Sheffield Bioinformatics Core](2018_02_19_SBC_Introduction.pdf), Delivered as part of the weekly SITraN seminar on 19th February 2018
 - [Preliminary Processing of NGS Data](https://github.com/sheffield-bioinformatics-core/GenomeMedicine_NGS_PreliminaryProcessing/raw/master/lecture.pdf), Part of the MSC in Genomic Medicine, University of Sheffield, 22nd January 2018
 
