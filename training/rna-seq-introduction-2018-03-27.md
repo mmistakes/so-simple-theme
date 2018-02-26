@@ -28,14 +28,14 @@ Please note that the course will not cover the analysis of RNA-seq data in R
 
 Researchers in life sciences who want to get an appreciation for the computational steps involved in RNA-seq analysis, but not neccesarily wishing to execute the pipeline for themselves. 
 
-## Aims:- After this course you should be able to:
+## Objectives:- After this course you should be able to:
 
 - Appreciate some of the issues that can arise when designing an RNA-seq experiment 
 - Recall the key pipeline steps in an RNA-seq analysis
 - Understand the contents of fastq and bam file format for RNA-seq data
 - Perform a gene set enrichment analysis using available online tools
 
-## Objectives:- During this course you will learn about:
+## Aims:- During this course you will learn about:
 
 - Basic principles of Experimental design for RNA-seq experiments
 - The steps in a best-practice pipeline for RNA-seq analysis

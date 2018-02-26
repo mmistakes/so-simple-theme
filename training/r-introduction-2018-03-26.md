@@ -28,14 +28,14 @@ After the course you should feel confident to start exploring your own dataset u
 
 Researchers in life sciences who want to get started using R for their data analysis
 
-## Aims:- After this course you should be able to:
+## Objectives:- After this course you should be able to:
 
 - Import data and plot graphs
 - Create a documented and reproducible piece of R code
 - Know how to develop your skills in R after the course
 - Interrogate and visualise data with Bioconductor packages
 
-## Objectives:- During this course you will learn about:
+## Aims:- During this course you will learn about:
 
 - The RStudio interface to R
 - The many ways to access help about R
