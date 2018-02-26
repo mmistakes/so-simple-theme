@@ -16,7 +16,7 @@ To be the first to hear about our training course program and for other core new
 - Best practices in Research Data Management for Biological Sciences, 30th April, **Booking soon**
 - Introduction to Unix for Bioinformatics, May 21st, **Booking soon**
 - Introduction to Statistical Analysis, 18th June, **Booking soon**
-- Analysis of RNA-seq Data in R, **Booking soon**
+- Analysis of RNA-seq Data in R, 9th/10th July, **Booking soon**
 
 ## Past Courses
 ## 2017
