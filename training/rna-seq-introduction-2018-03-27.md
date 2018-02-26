@@ -10,7 +10,7 @@ country: United Kingdom
 venue: Pam Liversidge Design Studio 1 - D06
 ---
 
-- Sheffield - 7th December 2017
+- Sheffield - 27th March 2017
 - 09:30am - 5pm
 - Pam Liversidge Design Studio 1 - D06
 
@@ -20,7 +20,7 @@ venue: Pam Liversidge Design Studio 1 - D06
 
 High-throughput RNA-sequencing is now the standard technique for quantifying transcript abundance in a biological sample of interest. In this course we will describe the processes that take place once you submit a library for RNA sequencing, and what data you should expect to receive from the Bioinformatics Core.
 
-We will describe the steps involved to go from sequencing library to a list of genes that show statistically significant differences between your biological conditions of interest. Practical sessions will use a user-friendly interface to demonstrate tasks such as *alignment*, *quality control* and *assessing differential expression*. We will also showcase some web sites you can use for enrichment and pathways analysis.
+We will describe the steps involved to go from sequencing library to a list of genes that show statistically significant differences between your biological conditions of interest. Practical sessions will use the user-friendly Galaxy interface (https://usegalaxy.org/) to demonstrate tasks such as *alignment*, *quality control* and *assessing differential expression*. We will also showcase some web sites you can use for enrichment and pathways analysis.
 
 Please note that the course will not cover the analysis of RNA-seq data in R
 
@@ -30,10 +30,17 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Aims:- After this course you should be able to:
 
-
+- Appreciate some of the issues that can arise when designing an RNA-seq experiment 
+- Recall the key pipeline steps in an RNA-seq analysis
+- Understand the contents of fastq and bam file format for RNA-seq data
+- Perform a gene set enrichment analysis using available online tools
 
 ## Objectives:- During this course you will learn about:
 
+- Basic principles of Experimental design for RNA-seq experiments
+- The steps in a best-practice pipeline for RNA-seq analysis
+- The theory behind popular methods for pathways and gene set enrichment analysis
+- Executing basic Bioinformatics tools using Galaxy
 
 
 ## Prerequisites
@@ -53,17 +60,14 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Timetable (provisional)
 
-- 09:30 - 10:00 Introduction to RNA-seq and experimental design - Lecture (Mark)
-- 10:00 - 12:30 Hands-on tutorial on RNA-seq data formats, alignment and differential expression (Mark)
+- 09:30 - 10:00 Introduction to RNA-seq and experimental design - Lecture
+- 10:00 - 12:30 Hands-on tutorial on RNA-seq data formats, alignment and differential expression
 LUNCH
-- 13:30 - 14:00 Gene set enrichment and databases - Lecture (Dennis)
-- 14:00 - 17:00 Hands-on tutorial on gene set enrichment (Dennis)
-
+- 13:30 - 14:00 Gene set enrichment and databases - Lecture
+- 14:00 - 17:00 Hands-on tutorial on gene set enrichment 
 
 
 ## Registration 
 
 Registration is opening soon ...
-
-## References
 

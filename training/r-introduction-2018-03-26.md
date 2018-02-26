@@ -86,7 +86,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 
 - 09:30 - 12:30 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
 - 12:30 - 13:30 LUNCH
-- 13:00 - 16:00 Working reproducibly in R
+- 13:00 - 16:00 Working reproducibly in R (to be confirmed)
 
 ## Registration 
 
