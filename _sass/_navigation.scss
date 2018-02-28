@@ -2,6 +2,13 @@
    Top navigation
    ========================================================================== */
 
+// Override default grid settings
+$medium: min-width 24em 12;
+
+.here-class {
+  height: $medium;
+}
+
 .navigation-wrapper {
   text-align: center;
   @include clearfix;
