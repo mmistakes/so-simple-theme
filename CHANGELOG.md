@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Set `autofocus` on search input.
+- Update Font Awesome to version [`5.0.7`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
 
 ### Added
 - Add `posts_limit` override to `home` layout to set how many posts are shown (when not using pagination).
