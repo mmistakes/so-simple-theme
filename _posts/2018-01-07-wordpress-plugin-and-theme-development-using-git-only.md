@@ -16,9 +16,9 @@ comments: true
 
 ## Step 1: Travis CI Configuration
 
-At this point, you have plugin's code hosted on [WordPress SVN](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) and [GitHub](https://github.com). Next you need to create configuration file and describe all things you want to be executed by [Travis](https://travis-ci/org). 
+At this point, you have plugin's code hosted on [WordPress SVN](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) and [GitHub](https://github.com). Next you need to create configuration and describe all things you want to be executed by [Travis](https://travis-ci/org). 
 
-Begin with creating `.travis.yml` file in your repository to tell Travis what to do:
+Begin with creating 'dummy' `.travis.yml` file in your repository to tell Travis what to do:
 
 ```yaml
 language: php
@@ -26,74 +26,73 @@ php:
 - 7.0
 
 script:
+# Override default Travis script action [phpunit]
 - php -l *.php
 ```
 
-Now enable integration with your GitHub repository:
+Now enable Travis integration with your GitHub repository:
 
 1. Go to [Travis CI](https://travis-ci.org) and login with GitHub;
 2. Hit `+` at the top of sidebar;
 3. Enable integration by clicking switcher near repository name.
 
-Travis will procceed all commits pushed to plugin repository. Also it will proceed all pull requests.
+Travis will procceed all commits pushed to plugin's GitHub repository. Also it will proceed all pull requests by default.
 
 ## Step 2: Configure WordPress Plugin Assets
 
 WordPress has custom `assets/` directory in plugin SVN repository to store plugin page assets such as screenshots, icons, and etc.
 
-Create `assets/` directory and put empty `.gitkeep` file into to make sure it exists even without any plugin assets.
+Create `assets/` directory and put empty `.gitkeep` file into to make sure it exists even without any file inside.
 
 ## Step 3: Write Deployment Script
 
 ### <i class="fa fa-magic" aria-hidden="true"></i> ~ that's where the magic begins...
 
-To avoid SVN stuff put it to shell script, create `deploy/deploy.sh` script file with next contents: 
+To avoid SVN stuff just put it to shell script, create `deploy/deploy.sh` script file with next contents: 
 
 ```shell
 #!/usr/bin/env bash
 
-#  1. Clone complete SVN repository to separate directory
+# 1. Clone complete SVN repository to separate directory
 svn co $SVN_REPOSITORY ../svn
 
-#  2. Copy git repository contents to SNV trunk/ directory
+# 2. Copy git repository contents to SNV trunk/ directory
 cp -R ./* ../svn/trunk/
 
-#  3. Go to trunk/
+# 3. Switch to SVN repository
 cd ../svn/trunk/
 
-#  4. Move assets/ to SVN /assets/
+# 4. Move assets/ to SVN /assets/
 mv ./assets/ ../assets/
 
-#  5. Delete .git/
+# 5. Clean up unnecessary files
 rm -rf .git/
-
-#  6. Delete deploy/
 rm -rf deploy/
-
-#  7. Delete .travis.yml
 rm .travis.yml
 
-# 8. Go to SVN home directory && copy trunk/ to tags/{tag}/
+# 6. Go to SVN repository root
 cd ../
+
+# 7. Create SVN tag
 svn cp trunk tags/$TRAVIS_TAG
 
-# 9. Commit SVN tag
+# 8. Push SVN tag
 svn ci  --message "Release $TRAVIS_TAG" \
         --username $SVN_USERNAME \
         --password $SVN_PASSWORD \
         --non-interactive
 ```
-<small>* *There are few global variables, we'll talk about it later.*</small>
+<small>* *Used global variables will be covered a little bit later.*</small>
 
-It will do all deployment stuff, just execute this script. 
+It will do all deployment stuff, you just need to execute this script. 
 
 Wait...
 
-Actually you don't need to execute script to deploy new version. Travis will do it for you.
+Actually you don't need to execute script to deploy a new release. Travis will do that for you.
 
 ## Step 4: Enable Travis CI Deployment
 
-Not you need to tell Travis to execute deployment script on some specific events.  
+You need to tell Travis to execute deployment script on some specific events.  
 
 > I use git tags to mark plugin releases. So everytime I push a new git tag to GitHub Travis will procceed it and submit new plugin version to WordPress SVN repository.
 
@@ -103,7 +102,7 @@ To enable new releases on git tags provide next configuration to `.travis.yml`:
 ...
 branches:
   only:
-  # Enable Travis hook on tags (it is regular expression for semver tag)*
+  # Enable Travis hook on tags (there is regular expression for semver tag)*
   - "/\\d\\.\\d\\.\\d/"
 
 # Enable Travis deployment
@@ -123,12 +122,12 @@ env:
   - secure: {ENCRYPTED SVN ACCOUNT PASSWORD}
 ```
 
-*\*Travis sees git tags the same way as branches. I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I'm providing regular expression to determine it.*
+*\*Travis sees git tags the same way as branches. I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I provide regular expression to determine it.*
 
 ### Environment variables
 
 **$SVN_REPOSITORY** - WordPress plugin SVN repository URL.  
-**$TRAVIS_TAG** - Pushed tag label. *(This variable is provided by Travis)*  
+**$TRAVIS_TAG** - Tag label. *(This variable is catched by Travis from GitHub)*  
 **$SVN_USERNAME** - Encrypted WordPress account username.  
 **$SVN_PASSWORD** - Encrypted WordPress account password.
 
@@ -139,5 +138,3 @@ env:
 Now you have complete setup of automated plugin deployment proccess.
 
 With this way you don't need to do any SVN specific actions. You may just develop plugins and when you're ready to give users a new version just push tag for commit you want to deploy. Travis will do all required stuff and after a few minutes you'll see new deployed version on WordPress website.
-
-**Don't forget to set *Stable tag* and *Version* in main plugin file and `readme.txt`.**
