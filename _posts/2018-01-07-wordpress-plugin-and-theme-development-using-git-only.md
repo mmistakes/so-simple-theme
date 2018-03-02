@@ -3,7 +3,7 @@ layout: post
 title: WordPress Plugin Deployment Using GitHub and Travis&nbsp;CI
 excerpt: "Actually you may not use SVN for WordPress plugin and theme development and deployment. Travis can do all SVN stuff for you."
 categories: articles
-tags: [deployment, github, travis-ci, wordress]
+tags: [deployment, github, travis-ci, wordpress]
 image:
   feature: wordpress.png
 comments: true
