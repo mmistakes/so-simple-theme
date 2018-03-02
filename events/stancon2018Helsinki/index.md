@@ -134,7 +134,7 @@ tutorial sessions are
 * Hierarchical models, Ben Goodrich
 * Model assessment and selection, Aki Vehtari
 * Gaussian processes
-* Stan C++ development
+* Stan C++ development, Bob Carpenter, Sean Talts / Mitzi Morris
 * Productization of Stan
 * TBA
 
@@ -198,3 +198,4 @@ Local organization committee
 * Tuomas Sivula (Aalto University)
 * Michael Riis Andersen (Aalto University)
 * Akash Dhaka (Aalto University)
+* Shrikanth Gadicherla (Aalto University)
