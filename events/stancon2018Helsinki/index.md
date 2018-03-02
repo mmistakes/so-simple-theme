@@ -130,13 +130,18 @@ registration fee).
 
 Pre-conference tutorials are organized 29th August 2018 (probably at Aalto Otaniemi campus 13mins from Helsinki city center). Planned
 tutorial sessions are
-* Basics of Bayesian inference and Stan, Jonah Gabry
-* Hierarchical models, Ben Goodrich
-* Model assessment and selection, Aki Vehtari
-* Gaussian processes
-* Stan C++ development, Bob Carpenter, Sean Talts / Mitzi Morris
-* Productization of Stan
+* Basics of Bayesian inference and Stan (half day), Jonah Gabry
+* Hierarchical models (half day), Ben Goodrich
+* Model assessment and selection (1.5 hours), Aki Vehtari
+* Gaussian processes (1 hour)
+* Stan C++ development (half day), Bob Carpenter, Sean Talts / Mitzi Morris
+* Productization of Stan (1 hour)
 * TBA
+
+The tutorials vary from full day to 1 hours (the above times are
+subject to change) and there will be at least two parallel
+sessions. For planning purposes we will ask your preferences, but that
+choice is not binding.
 
 # [Code of Conduct](#code-of-conduct)
 
