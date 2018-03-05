@@ -12,12 +12,12 @@ To be the first to hear about our training course program and for other core new
 
 
 - Introduction to R, March 26th, 
-  + **Booking now**; https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r 
+  + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r )
 - Introduction to RNA-seq, March 27th, 
-  + **Booking now**; https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-rnaseq
+  + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-rnaseq)
 - Best practices in Research Data Management for Biological Sciences, 30th April, **Booking soon**
 - Introduction to Unix for Bioinformatics, May 21st, **Booking soon**
-  + **Booking now**; https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-unix-for-bioinformatics
+  + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-unix-for-bioinformatics)
 - Introduction to identifying and characterizing variants from NGS data, 4th/5th June, **Booking soon**
 - Introduction to Statistical Analysis, 18th June, **Booking soon**
 - Analysis of RNA-seq Data in R, 9th/10th July, **Booking soon**
