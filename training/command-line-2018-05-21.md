@@ -57,4 +57,4 @@ This course offers an introduction to working with Linux. We will describe the L
 
 ## Registration 
 
-Registration is opening soon...
+Registration is open. [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-unix-for-bioinformatics) to sign-up
