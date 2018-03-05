@@ -69,5 +69,5 @@ LUNCH
 
 ## Registration 
 
-Registration is opening soon ...
+Registration is open. [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-rnaseq) to sign-up
 
