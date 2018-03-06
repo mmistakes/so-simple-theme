@@ -277,7 +277,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 * Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/13_comment)
 * Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/14_crespo)
 
-### Invited Talk: Some problems I'd like to solve in Stan, and what we'll need to do to get there, Andrew Gelman 2:10-3:00 (Columbia U) (virtual)
+### Invited Talk: Some problems I'd like to solve in Stan, and what we'll need to do to get there, Andrew Gelman 2:10-3:00 (Columbia U) ([Video](https://youtu.be/uDB_NF_i5Ps))
 
 # [Classes/Tutorials](#classes)
 
