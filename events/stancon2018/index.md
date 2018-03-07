@@ -182,16 +182,16 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 * Opening Comments and Information you Need, Breck Baldwin 11:30-11:40am
 
-* Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:40-12:00am [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/01_auerbach)
-* Diagnosing Alzheimer's the Bayesian Way. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 12:00am-12:20pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/02_pourzanjani)
-* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:20-12:40pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/03_brilleman)
+* Does the New York City Police Department rely on quotas? Jonathan Auerbach (Columbia U) 11:40-12:00am [Video](https://youtu.be/5qojKAiirqI) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/01_auerbach)
+* Diagnosing Alzheimer's the Bayesian Way. Arya A. Pourzanjani, Benjamin B. Bales, Linda R. Petzold, Michael Harrington (UC Santa Barbara) 12:00am-12:20pm [Video](https://youtu.be/j_JIfNiO9TA) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/02_pourzanjani)
+* Joint longitudinal and time-to-event models via Stan. Sam Brilleman, Michael Crowther, Margarita Moreno-Betancur, Jacqueline Buros Novik, Rory Wolfe (Monash U, Columbia U) 12:20-12:40pm [Video](https://youtu.be/8r-Ipt885FA)[(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/03_brilleman)
 
 ### Lunch 12:40-2:00pm
 
-* ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Wingbermuehle.pdf)
-* A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt 2:20-2:40pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/04_damiano)
+* ScalaStan. Joe Wingbermuehle (Cibo Technologies) 2:00-2:20pm [Video](https://youtu.be/OtggQJI4J7U) [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Wingbermuehle.pdf)
+* A tutorial on Hidden Markov Models using Stan. Luis Damiano, Brian Peterson, Michael Weylandt 2:20-2:40pm [Video](https://youtu.be/oe9PAEI97oI) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/04_damiano)
 * Student Ornstein-Uhlenbeck models served three ways (with applications for population dynamics data). Aaron Goodman (Stanford U) 2:40-3:00pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/05_goodman)
-* Spatial models in Stan: intrinsic auto-regressive models for areal data. Mitzi Morris (Columbia U) 3:00-3:20pm ([Slides](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Morris.pdf), [Stan case study](mc-stan.org/users/documentation/case-studies/icar_stan.html))
+* Spatial models in Stan: intrinsic auto-regressive models for areal data. Mitzi Morris (Columbia U) 3:00-3:20pm ([Slides](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Morris.pdf), [Video](https://youtu.be/bwLkumivtjU) [Stan case study](mc-stan.org/users/documentation/case-studies/icar_stan.html))
 
 ### Break 3:20-4:00pm
 
@@ -220,11 +220,11 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Forecasting at Scale: How and why we developed Prophet for forecasting at Facebook, Sean Taylor and Ben Letham (Facebook) 10:40-11:30am ([Details](https://research.fb.com/facebook-at-stancon-2018/))
+### Invited Talk: Forecasting at Scale: How and why we developed Prophet for forecasting at Facebook, Sean Taylor and Ben Letham (Facebook) 10:40-11:30am [Video](https://youtu.be/E8z3LObimok) ([Details](https://research.fb.com/facebook-at-stancon-2018/))
 
 <!--* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 -->
-* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 11:30-11:50am [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/06_gorinova)
+* SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 11:30-11:50am [Video](https://youtu.be/WTqnehdFNbo) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/06_gorinova)
 * Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm [Video](https://youtu.be/0ZjrLOosXwk) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/07_kubinec)
 * A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm [Video](https://youtu.be/xJTZKawa-bM) [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Lee.pdf)
 
