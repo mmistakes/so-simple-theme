@@ -225,14 +225,14 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 <!--* NPCompare: a package for nonparametric density estimation and two populations comparison built on top of PyStan. Marco Inacio (U of São Paulo/UFSCar) 11:30-11:50am
 -->
 * SlicStan: a blockless Stan-like language. Maria I. Gorinova, Andrew D. Gordon, Charles Sutton (U of Edinburgh) 11:30-11:50am [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/06_gorinova)
-* Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/07_kubinec)
-* A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Lee.pdf)
+* Introducing idealstan, an R package for ideal point modeling with Stan. Robert Kubinec (U of Virginia) 11:50am-12:10pm [Video](https://youtu.be/0ZjrLOosXwk) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/07_kubinec)
+* A brief history of Stan. Daniel Lee (Generable) 12:10-12:30pm [Video](https://youtu.be/xJTZKawa-bM) [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Lee.pdf)
 
 ### Lunch 12:30-1:30pm
 
-* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/08_margossian)
-* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara)  1:50-2:10pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/09_bales)
-* Mystery Talk, Mystery Person, 2:10-2:30
+* Computing steady states with Stan's nonlinear algebraic solver. Charles C. Margossian (Metrum, Columbia U) 1:30-1:50pm [Video](https://youtu.be/JhwZIX5ryw0) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/08_margossian)
+* Bayesian estimation of mechanical elastic constants. Ben Bales, Brent Goodlet, Tresa Pollock, Linda Petzold (UC Santa Barbara)  1:50-2:10pm [Video](https://youtu.be/vOoZBTpN8n4) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/09_bales)
+* Mystery Talk, Mystery Person, Regularized Horseshoe, Aki Vehtari [Video](https://youtu.be/umk7eOkt5k8) (Aalto U) 2:10-2:30
 
 
 ### Modeling/Data Session + Classes 2:30-4:10pm
@@ -242,7 +242,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 * 2:30-3:30pm [Have I converged successfully? How to verify fit and diagnose fit problems](#fit), Bob Carpenter
 * 3:30-4:10pm [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec)  Eric Novik, Jonathan Auerbach
 
-### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Rivas.pdf)
+### Invited Talk: Stan applications in Human Genetics: Prioritizing genetic mutations that protect individuals from human disease, Manuel Rivas (Stanford U) 4:00-4:50pm [Videos](https://youtu.be/S6FzGHPPxV4) [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Rivas.pdf)
 
 
 ### Reception 5:00-6:00pm
@@ -262,20 +262,20 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 * 8am-10am [Intro To Stan session 4](#classes) Jonah Gabry, Sean Talts, Mitzi Morris
 * 8-9 am [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec) Eric Novik, Jonathan Auerbach
 
-### Workshop on Model Selection: Aki Vehtari (Aalto U) 9:00-10:00am ([Materials](https://github.com/avehtari/modelselection_tutorial))
+### Workshop on Model Selection: Aki Vehtari (Aalto U) 9:00-10:00am [Video](https://youtu.be/FUROJM3u5HQ) ([Materials](https://github.com/avehtari/modelselection_tutorial))
 
 ### Break 10:00-10:40am
 
-### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Holmes.pdf)
+### Invited Talk: Susan Holmes (Stanford U) 10:40-11:30am [Video]( https://youtu.be/W8TxxN8UdDQ) [(Slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Invited-Talks/Holmes.pdf)
 
-* Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/10_savage)
-* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/11_simoiu)
+* Aggregate random coefficients logit — a generative approach. Jim Savage, Shoshana Vasserman 11:30-11:50am [Video](https://youtu.be/LDOhRIRRe8M) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/10_savage)
+* The threshold test: Testing for racial bias in vehicle searches by police. Camelia Simoiu, Sam Corbett-Davies, Sharad Goel, Emma Pierson (Stanford U) 11:50am-12:10pm [Video](https://youtu.be/vEO-rjAqGW8) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/11_simoiu)
 * Assessing the safety of Rosiglitazone for the treatment of type II diabetes. Konstantinos Vamvourellis, K. Kalogeropoulos, L. Phillips (London School of Economics and Political Science) 12:10-12:30pm ([Video](https://youtu.be/Gt73VNaZLXA), [Notebook and slides](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/12_vamvourellis))
 
 ### Lunch 12:30-1:30pm
 
-* Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/13_comment)
-* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/14_crespo)
+* Causal inference with the g-formula in Stan. Leah Comment (Harvard U) 1:30-1:50pm [Video](https://youtu.be/W3gnbG0v4IE) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/13_comment)
+* Bayesian estimation of ETAS models with Rstan. Fausto Fabian Crespo Fernandez (Universidad San Francisco de Quito) 1:50-2:10pm [Video](https://youtu.be/hTswMCRzltQ) [(Notebook and slides)](https://github.com/stan-dev/stancon_talks/tree/master/2018/Contributed-Talks/14_crespo)
 
 ### Invited Talk: Some problems I'd like to solve in Stan, and what we'll need to do to get there, Andrew Gelman 2:10-3:00 (Columbia U) ([Video](https://youtu.be/uDB_NF_i5Ps))
 
