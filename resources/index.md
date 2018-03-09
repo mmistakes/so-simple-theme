@@ -37,6 +37,7 @@ Other researchers / Core facilities that we collaborate with and share resources
 
 Talks and presentations given by members of the Core. For training materials and longer courses, see our [training](http://sbc.shef.ac.uk//training/) section.
 
+- [Downstream Functional Analysis](https://drive.google.com/file/d/1BnmOms_pSJe00Br6ywkzvbJfL4rQYmXA/view?usp=sharing), Delivered as part of the MSC in Molecular Medicine, University of Sheffield, 8th March 2018
 - [Overview of the Docker Container system](https://markdunning.github.io/docker-overview/), Talk at [SheffieldR](https://www.meetup.com/SheffieldR-Sheffield-R-Users-Group/), 6th March 2018
 - [Hands-on Introduction to RNA-seq using Galaxy](http://sbc.shef.ac.uk/rna-seq-in-galaxy/), Delivered as part of the MSC in Molecular Medicine, University of Sheffield, 5th March 2018
 - [How to get bioinformatics help via the Sheffield Bioinformatics Core](2018_02_19_SBC_Introduction.pdf), Delivered as part of the weekly SITraN seminar on 19th February 2018
