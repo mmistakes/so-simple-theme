@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WordPress Plugin Deployment Using GitHub and Travis&nbsp;CI
+title: WordPress plugin deployment using GitHub and Travis CI
 excerpt: "Actually you may not use SVN for WordPress plugin and theme development and deployment. Travis can do all SVN stuff for you."
 categories: articles
 tags: [deployment, github, travis-ci, wordpress]
@@ -9,10 +9,10 @@ image:
 comments: true
 ---
 
-*I love [WordPress](https://wordpress.org) and I'm sure it is the best solution for corporate websites and personal blogs. I'm happy to contribute code for WordPress, create plugins and themes. I've made a few public plugins: [Inline Spoilers](https://wordpress.org/plugins/inline-spoilers/) and [Sanitize Cyrillic](https://wordpress.org/plugins/sanitize-cyrillic/).*  
-*But there is one unpleasant thing that stopped me. WordPress wants you to use SVN to store public plugins and themes but development with SVN is too annoying. There are topics how to use git for WordPress but it is all about git-svn.*
+> I love [WordPress](https://wordpress.org) and I'm sure it is the best solution for corporate websites and personal blogs. I'm happy to contribute code for WordPress, create plugins and themes. I've made a few public plugins: [Inline Spoilers](https://wordpress.org/plugins/inline-spoilers/) and [Sanitize Cyrillic](https://wordpress.org/plugins/sanitize-cyrillic/).  
+But there is one unpleasant thing that stopped me. WordPress wants you to use SVN to store public plugins and themes but development with SVN is too annoying. There are topics how to use git for WordPress but it is all about git-svn.
 
-> I'm expecting that you already have a submitted WordPress plugin and just want to avoid SVN things, if no, please, take a look at [this guide](https://developer.wordpress.org/plugins/wordpress-org/) and welcome back.
+*I'm expecting that you already have a submitted WordPress plugin and just want to avoid SVN things, if no, please, take a look at [this guide](https://developer.wordpress.org/plugins/wordpress-org/) and welcome back.*
 
 ## Step 1: Travis CI Configuration
 
@@ -33,14 +33,14 @@ script:
 Now enable Travis integration with your GitHub repository:
 
 1. Go to [Travis CI](https://travis-ci.org) and login with GitHub;
-2. Hit `+` at the top of sidebar;
-3. Enable integration by clicking switcher near repository name.
+2. Hit "**+**" at the top of the sidebar;
+3. Enable integration by toggling switcher near repository name.
 
 Travis will procceed all commits pushed to plugin's GitHub repository. Also it will proceed all pull requests by default.
 
 ## Step 2: Configure WordPress Plugin Assets
 
-WordPress has custom `assets/` directory in plugin SVN repository to store plugin page assets such as screenshots, icons, and etc.
+*WordPress has custom `assets/` directory in plugin SVN repository to store plugin page assets such as screenshots, icons, and etc.*
 
 Create `assets/` directory and put empty `.gitkeep` file into to make sure it exists even without any file inside.
 
@@ -96,7 +96,7 @@ You need to tell Travis to execute deployment script on some specific events.
 
 > I use git tags to mark plugin releases. So everytime I push a new git tag to GitHub Travis will procceed it and submit new plugin version to WordPress SVN repository.
 
-To enable new releases on git tags provide next configuration to `.travis.yml`:
+To enable deployment on git tags provide next configuration to `.travis.yml`:
 
 ```yaml
 ...
@@ -122,7 +122,9 @@ env:
   - secure: {ENCRYPTED SVN ACCOUNT PASSWORD}
 ```
 
-*\*Travis sees git tags the same way as branches. I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I provide regular expression to determine it.*
+<small>* *Travis sees git tags the same way as branches.*</small>
+
+> I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I provide regular expression to determine it.
 
 ### Environment variables
 
@@ -131,10 +133,10 @@ env:
 **$SVN_USERNAME** - Encrypted WordPress account username.  
 **$SVN_PASSWORD** - Encrypted WordPress account password.
 
-> How to [define encrypted variables in .travis.yml](https://docs.travis-ci.com/user/environment-variables/#Defining-encrypted-variables-in-.travis.yml)
+*How to [define encrypted variables in .travis.yml](https://docs.travis-ci.com/user/environment-variables/#Defining-encrypted-variables-in-.travis.yml).*
 
 ## Conclusion
 
-Now you have complete setup of automated plugin deployment proccess.
+*Now you have complete setup of automated plugin deployment proccess.*
 
-With this way you don't need to do any SVN specific actions. You may just develop plugins and when you're ready to give users a new version just push tag for commit you want to deploy. Travis will do all required stuff and after a few minutes you'll see new deployed version on WordPress website.
+*With this way you don't need to do any SVN specific actions. You may just develop plugins and when you're ready to give users a new version just push tag for commit you want to deploy. Travis will do all required stuff and after a few minutes you'll see new deployed version on WordPress website.*

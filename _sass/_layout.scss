@@ -293,6 +293,7 @@ span + .entry-title {
 		@include span-columns(9.5);
 	}
 	p > a,
+	p > em > a,
 	li > a {
 		border-bottom: 1px dotted lighten($link-color, 50);
 		&:hover {
