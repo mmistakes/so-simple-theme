@@ -56,7 +56,7 @@ paginate_path: /page:num/
 # Search
 search_full_content: false
 
-# Taxonomoy pages
+# Taxonomy pages
 category_archive_path: "/categories/#"
 tag_archive_path: "/tags/#"
 
