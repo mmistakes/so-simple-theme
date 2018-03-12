@@ -637,6 +637,9 @@ This layout displays all documents grouped by a specific collection. It accommod
 ```yaml
 collection: # collection name
 entries_layout: # list (default), grid
+show_excerpts: # true (default), false
+sort_by: # date (default) title
+sort_order: # forward (default), reverse
 ```
 
 To create a page showing all documents in the `recipes` collection you'd create `recipes.md` in the root of your project and add this front matter:
@@ -648,7 +651,7 @@ permalink: /recipes/
 collection: recipes
 ```
 
-By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter.
+By default, documents are shown in a list view. To change to a grid view add `entries_layout: grid` to the page's front matter. If you want to sort the collection by title add `sort_by: title`. If you want reverse sorting, add `sort_order: reverse`. If you are simply looking for list that shows recipe titles (no excerpts), add `show_excerpts: false`.
 
 ### `layout: category`
 
