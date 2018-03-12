@@ -524,7 +524,7 @@ This layout accommodates the following front matter:
 image:
   path: /images/post-image-lg.jpg
   thumbnail: /images/post-image-th.jpg
-  caption: "Photo credit [Unsplash](https://unsplash.com/)
+  caption: "Photo credit [Unsplash](https://unsplash.com/)"
 ```
 
 **Note:** `image.feature` front matter has been deprecated, to fully support [jekyll-seo-tag][jekyll-seo-tag]. If you are not using `thumbnail` or `caption` the post image can be assigned more concisely as `image: /images/your-post-image.jpg`.
