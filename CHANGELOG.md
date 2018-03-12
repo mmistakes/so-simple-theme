@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add `posts_limit` override to `home` layout to set how many posts are shown (when not using pagination).
 - Add `hidden: true` test post to verify it is excluded from home page pagination.
+- Add note about disabling footer links with `footer_links: false`.
 
 ### Fixed
 - Fix `remote_theme` name in README documentation. [#268](https://github.com/mmistakes/so-simple-theme/pull/268)

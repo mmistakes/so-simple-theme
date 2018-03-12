@@ -821,6 +821,8 @@ footer_links:
     icon: fas fa-rss-square
 ```
 
+**Note:** To disable footer links completely use `footer_links: false`.
+
 ### Copyright Text
 
 By default the copyright inserts the current year, [`site.title`](#site-title), and the words `"Powered by Jekyll & So Simple."` To change this add `copyright` to your `_config.yml` like so (Markdown is allowed):
