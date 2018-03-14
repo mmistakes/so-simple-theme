@@ -201,6 +201,7 @@ span + .entry-title {
 	/* nice link underlines */
   p > a,
   p > em > a,
+  p > small > em > a,
 	li > a {
 		border-bottom: 1px dotted lighten($link-color, 50);
 
