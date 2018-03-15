@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 - Fix "Uncaught TypeError: Cannot read property 'addEventListener' of null" in `main.js` when navigation isn't defined.
+- Fix search form from resetting when pressing "Enter". [#278](https://github.com/mmistakes/so-simple-theme/pull/278)
 
 ## [3.1.0] - 03-12-2018
 
