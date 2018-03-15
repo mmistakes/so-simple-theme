@@ -37,9 +37,9 @@ repository: sheffield-bioinformatics-core/sheffield-bioinformatics-core.github.i
 
 # Site owner
 owner:
-  name: Mark Dunning
-  avatar: 3796277.jpeg
-  email: mark.dunning@cruk.cam.ac.uk
+  name: Sheffield Bioinformatics Core
+  avatar: #3796277.jpeg
+  email: bioinformatics-core@sheffield.ac.uk
   disqus-shortname:
   twitter: SheffBioinfCore
   facebook: #username
