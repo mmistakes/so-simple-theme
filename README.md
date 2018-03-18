@@ -582,6 +582,13 @@ author:
       icon: fab fa-github-square
 ```
 
+**Note:** To disable author links completely use use:
+
+```yaml
+author:
+  links: false
+```
+
 ### `layout: page`
 
 Visually this layout looks and acts similar `layout: post`, with the following
