@@ -17,7 +17,7 @@
         {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
       </div>
     {%- endif -%}
-    {%- if author.links[1] -%}
+    {%- if author.links -%}
       <ul class="author-links">
         {%- for link in author.links -%}
           {%- if link.url contains "://" -%}
