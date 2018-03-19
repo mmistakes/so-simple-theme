@@ -60,11 +60,11 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Timetable (provisional)
 
-- 09:30 - 10:00 Introduction to RNA-seq and experimental design - Lecture
-- 10:00 - 12:30 Hands-on tutorial on RNA-seq data formats, alignment and differential expression
+- 09:30 - 10:30 Introduction to RNA-seq and experimental design - Lecture
+- 10:30 - 12:30 Hands-on tutorial on RNA-seq data formats, alignment and differential expression
 LUNCH
-- 13:30 - 14:00 Gene set enrichment and databases - Lecture
-- 14:00 - 17:00 Hands-on tutorial on gene set enrichment 
+- 13:30 - 14:30 Tutorial continued
+- 14:30 - 17:00 Hands-on tutorial on gene set enrichment 
 
 
 ## Registration 
