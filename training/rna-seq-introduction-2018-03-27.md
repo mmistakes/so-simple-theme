@@ -42,11 +42,6 @@ Researchers in life sciences who want to get an appreciation for the computation
 - The theory behind popular methods for pathways and gene set enrichment analysis
 - Executing basic Bioinformatics tools using Galaxy
 
-
-## Prerequisites
-
-- No prior programming experience is required, but those attending should be able to use a plain text editor.
-
 ## Software installation
 
 
@@ -64,7 +59,8 @@ Researchers in life sciences who want to get an appreciation for the computation
 - 10:30 - 12:30 [Hands-on tutorial on RNA-seq data formats, alignment and differential expression](http://sbc.shef.ac.uk/rna-seq-in-galaxy/)
 LUNCH
 - 13:30 - 14:30 Tutorial continued
-- 14:30 - 17:00 [Hands-on tutorial on gene set enrichment](https://drive.google.com/file/d/1lJ52819DbYAyDqD6R0UB7VMB57uzpbuH/view?usp=sharing)
+- 14:30 - 17:00 [Hands-on tutorial on gene set enrichment](https://sheffield-bioinformatics-core.github.io/enrichment-analysis/enrichment.nb.html
+)
 
 
 ## Registration 
