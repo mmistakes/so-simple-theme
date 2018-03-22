@@ -132,10 +132,10 @@ Pre-conference tutorials are organized 29th August 2018 (probably at Aalto Otani
 tutorial sessions are
 * Basics of Bayesian inference and Stan (half day), Jonah Gabry
 * Hierarchical models (half day), Ben Goodrich
-* Model assessment and selection (1.5 hours), Aki Vehtari
-* Gaussian processes (1 hour)
 * Stan C++ development (half day), Bob Carpenter, Sean Talts / Mitzi Morris
+* Model assessment and selection (1.5 hours), Aki Vehtari
 * Productization of Stan (1 hour)
+* Ordinal differential equation (ODE) models in Stan, Daniel Lee
 * TBA
 
 The tutorials vary from full day to 1 hours (the above times are
@@ -154,6 +154,8 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 Generous contributions of our sponsors will ensure that our registration costs are kept as low as possible and allow for us to subsidize attendance for students who would otherwise be unable to come.
 
 <center style="padding: 0.75em 0 0 0">
+<a href="http://corporate.elisa.com/"><img width="200" src="logos/logo-elisa_2x.png" /></a>
+<span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a> 
