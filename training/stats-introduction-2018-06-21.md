@@ -3,7 +3,7 @@ layout: page
 title: Introduction to Statistical Analysis
 excerpt: "Stats Intro"
 date: 2018-06-18
-startTime: 12.30
+startTime: 09.30
 endTime: 17.00
 city: sheffield
 country: United Kingdom
@@ -11,7 +11,7 @@ venue: Pam Liversidge Design Studio 1 - D06
 
 ---
 
-- Sheffield - 7th December 2017
+- Sheffield - 18th June 2018
 - 09:30am - 5pm
 - Pam Liversidge Design Studio 1 - D06
 
