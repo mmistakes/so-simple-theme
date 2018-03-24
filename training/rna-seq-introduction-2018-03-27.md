@@ -55,7 +55,7 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Timetable (provisional)
 
-- 09:30 - 10:30 Introduction to RNA-seq and experimental design - Lecture
+- 09:30 - 10:30 [Introduction to RNA-seq and experimental design](https://docs.google.com/presentation/d/1tJIlz6z4KJ-y-WomOt7va9045BT-ZNNTXo0_wY8TeZE/edit?usp=sharing)
 - 10:30 - 12:30 [Hands-on tutorial on RNA-seq data formats, alignment and differential expression](http://sbc.shef.ac.uk/rna-seq-in-galaxy/)
 LUNCH
 - 13:30 - 14:30 Tutorial continued
