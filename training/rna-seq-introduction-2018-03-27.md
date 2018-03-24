@@ -44,7 +44,7 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Software installation
 
-
+Please download the Integrative Genomics Viewer (IGV) for your operating system using [this link](https://software.broadinstitute.org/software/igv/download)
 
 ## Instructors
 
