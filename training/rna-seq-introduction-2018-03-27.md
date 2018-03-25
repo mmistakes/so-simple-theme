@@ -42,14 +42,9 @@ Researchers in life sciences who want to get an appreciation for the computation
 - The theory behind popular methods for pathways and gene set enrichment analysis
 - Executing basic Bioinformatics tools using Galaxy
 
-
-## Prerequisites
-
-- No prior programming experience is required, but those attending should be able to use a plain text editor.
-
 ## Software installation
 
-
+Please download the Integrative Genomics Viewer (IGV) for your operating system using [this link](https://software.broadinstitute.org/software/igv/download)
 
 ## Instructors
 
@@ -60,11 +55,12 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Timetable (provisional)
 
-- 09:30 - 10:00 Introduction to RNA-seq and experimental design - Lecture
-- 10:00 - 12:30 Hands-on tutorial on RNA-seq data formats, alignment and differential expression
+- 09:30 - 10:30 [Introduction to RNA-seq and experimental design](https://docs.google.com/presentation/d/1tJIlz6z4KJ-y-WomOt7va9045BT-ZNNTXo0_wY8TeZE/edit?usp=sharing)
+- 10:30 - 12:30 [Hands-on tutorial on RNA-seq data formats, alignment and differential expression](http://sbc.shef.ac.uk/rna-seq-in-galaxy/)
 LUNCH
-- 13:30 - 14:00 Gene set enrichment and databases - Lecture
-- 14:00 - 17:00 Hands-on tutorial on gene set enrichment 
+- 13:30 - 14:30 Tutorial continued
+- 14:30 - 17:00 [Hands-on tutorial on gene set enrichment](https://sheffield-bioinformatics-core.github.io/enrichment-analysis/enrichment.nb.html
+)
 
 
 ## Registration 

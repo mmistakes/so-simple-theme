@@ -11,7 +11,7 @@ venue: Pam Liversidge Design Studio 2 - e06
 
 ---
 
-- Sheffield - 7th December 2017
+- Sheffield - 21st May 2018
 - 09:30am - 5pm
 - Pam Liversidge Design Studio 1 - D06
 

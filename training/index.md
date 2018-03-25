@@ -12,10 +12,10 @@ To be the first to hear about our training course program and for other core new
 
 
 - Introduction to R, March 26th, 
-  + For more information [click here](http://sbc.shef.ac.uk/training/r-introduction-2018-03-26/)
+  + For Course Materials [click here](http://sbc.shef.ac.uk/training/r-introduction-2018-03-26/)
   + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r)
 - Introduction to RNA-seq, March 27th, 
-  + For more information [click here](http://sbc.shef.ac.uk/training/rna-seq-introduction-2018-03-27/)
+  + For Course Materials [click here](http://sbc.shef.ac.uk/training/rna-seq-introduction-2018-03-27/)
   + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-rnaseq)
 - Best practices in Research Data Management for Biological Sciences, 30th April, **Booking soon**
 - Introduction to Unix for Bioinformatics, May 21st,

@@ -76,6 +76,7 @@ You can download the binary files for your distribution from CRAN. Or you can us
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
+- Anna Krystalli, [Research Software Engineer](http://rse.shef.ac.uk/)
 - Emily Chambers, Bioinformatics Core Analyst
 
 ## Course Data
@@ -86,7 +87,9 @@ You can download the binary files for your distribution from CRAN. Or you can us
 
 - 09:30 - 12:30 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
 - 12:30 - 13:30 LUNCH
-- 13:00 - 16:00 Working reproducibly in R (to be confirmed)
+- 13:30 - 14:30 Introduction to R continued
+- 14:30 - 16:00 Working reproducibly in R 
+- 16:00 - 17:00 Open discussion and working on your own data
 
 ## Registration 
 
@@ -95,3 +98,4 @@ Registration is open. [Click here](https://onlineshop.shef.ac.uk/conferences-eve
 ## References
 
 - [Data Carpentry Spreadsheet Formatting Lessions](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
+- [Master List of datasets to practice with](http://vincentarelbundock.github.io/Rdatasets/datasets.html)
