@@ -10,10 +10,6 @@ To be the first to hear about our training course program and for other core new
 
 ## 2018
 
-
-- Introduction to R, March 26th, 
-  + For Course Materials [click here](http://sbc.shef.ac.uk/training/r-introduction-2018-03-26/)
-  + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r)
 - Introduction to RNA-seq, March 27th, 
   + For Course Materials [click here](http://sbc.shef.ac.uk/training/rna-seq-introduction-2018-03-27/)
   + **Booking now**; [Click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-rnaseq)
@@ -26,6 +22,11 @@ To be the first to hear about our training course program and for other core new
 - Analysis of RNA-seq Data in R, 9th/10th July, **Booking soon**
 
 ## Past Courses
+
+## 2018
+
+- [Introduction to R](http://sbc.shef.ac.uk/training/r-introduction-2018-03-26/), March 26th
+
 ## 2017
 
 - [Introduction to R and Bioconductor](r-introduction-2017-12-07), December 7th, Pam Liversidge Design studio 1 (D06), Sheffield
