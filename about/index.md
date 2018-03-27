@@ -21,7 +21,7 @@ Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologie
 * Laravel (Lumen), Slim, WordPress, React, ReactNative, jQuery, Bootstrap
 
 #### Other ####
-* Unix, Git, Vagrant, Docker, Forge, Envoy
+* Unix, Git, Vagrant, Docker, Forge, Envoy, Terraform
 * User Interfaces and User Experience
 * Software Architecture
 
