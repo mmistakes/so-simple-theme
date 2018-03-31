@@ -15,13 +15,13 @@ Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologie
 ## <i class="fa fa-book" aria-hidden="true"></i> Skills ##
 
 #### Languages ####
-* PHP, JavaScript, HTML/CSS (HTML5/CSS3), ActionScript 3
+* [PHP](/tags/#php), JavaScript, HTML/CSS (HTML5/CSS3), ActionScript 3
 
 #### Frameworks & Libraries ####
-* Laravel (Lumen), Slim, WordPress, React, ReactNative, jQuery, Bootstrap
+* Laravel (Lumen), Slim, [WordPress](/tags/#wordpress), React, ReactNative, jQuery, Bootstrap
 
 #### Other ####
-* Unix, Git, Vagrant, Docker, Forge, Envoy, Terraform
+* Unix, Git, Vagrant, [Docker](/tags/#docker), Forge, Envoy, [Terraform](/tags/#terraform), [Travis CI](/tags/#travis-ci)
 * User Interfaces and User Experience
 * Software Architecture
 

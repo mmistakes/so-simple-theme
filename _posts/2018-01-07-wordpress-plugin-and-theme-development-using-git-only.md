@@ -140,3 +140,11 @@ env:
 *Now you have complete setup of automated plugin deployment proccess.*
 
 *With this way you don't need to do any SVN specific actions. You may just develop plugins and when you're ready to give users a new version just push tag for commit you want to deploy. Travis will do all required stuff and after a few minutes you'll see new deployed version on WordPress website.*
+
+## References
+
+* [WordPress](https://wordpress.org)
+* [WordPress Plugin Handbook](https://developer.wordpress.org/plugins/wordpress-org/)
+* [GitHub](https://github.com)
+* [Travis](https://travis-ci/org)
+* [Semantic Versioning](http://semver.org)

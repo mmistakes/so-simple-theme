@@ -12,7 +12,7 @@ comments: true
 *I like to use [DigitalOcean](https://m.do.co/c/fac05d89f2e5) because it is pretty simple and doesn't cost too much. It already has complete enough infrastructure things for small websites and even large services.*  
 *DigitalOcean has clean user-friendly Control Panel UI to setup droplets, networks and so on. I used to configure the applications manualy, but there is a way to do it much faster and more reliable.*
 
-> Terraform is a tool that allows to describe any kind of infrastructure as a simple text and deploy or update it with a single command. Let's see how it works.
+> [Terraform](https://www.terraform.io) is a tool that allows to describe any kind of infrastructure as a simple text and deploy or update it with a single command. Let's see how it works.
 
 ## Getting Started
 
@@ -292,3 +292,8 @@ droplet_name = "lemp_server"
 ## Conclusion
 
 With this setup you can deploy a big number of services in a few minutes. Here is only example of the easiest and the smallest infrastructure, but with Terraform you can describe infrastructure of any complexity and size.
+
+## References
+
+* [DigitalOcean](https://m.do.co/c/fac05d89f2e5)
+* [Terraform](https://www.terraform.io)
