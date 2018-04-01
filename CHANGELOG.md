@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+- Update Font Awesome to version [`5.0.9`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
+
 ### Fixed
 - Fix "Uncaught TypeError: Cannot read property 'addEventListener' of null" in `main.js` when navigation isn't defined.
 - Fix search form from resetting when pressing "Enter". [#278](https://github.com/mmistakes/so-simple-theme/pull/278)
 - Fix author links from not displaying correct when a single link is defined in `_config.yml`. [#280](https://github.com/mmistakes/so-simple-theme/issues/280)
+- Fix search result excerpts that run together because of implied spaces. [#281](https://github.com/mmistakes/so-simple-theme/pull/281)
 
 ## [3.1.0] - 03-12-2018
 
