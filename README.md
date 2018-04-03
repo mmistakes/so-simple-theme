@@ -181,15 +181,19 @@ If you're hosting several Jekyll based sites under the same GitHub username you 
 
 If you forked or downloaded the [`so-simple-theme` repo](https://github.com/mmistakes/so-simple-theme) you can safely remove the following files and folders:
 
-* `docs/*`
-* `example/*`
+* `.github`
+* `docs`
+* `example`
 * `.editorconfig`
 * `.gitattributes`
+* `banner.js`
 * `CHANGELOG.md`
 * `Gemfile`
 * `jekyll-theme-so-simple.gemspec`
+* `package.json`
 * `Rakefile`
 * `README.md`
+* `README-OLD.md`
 * `screenshot.png`
 
 ## Upgrading
