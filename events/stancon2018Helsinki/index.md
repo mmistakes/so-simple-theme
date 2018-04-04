@@ -196,6 +196,7 @@ StanCon is organized by a volunteer community
 * Ben Goodrich (Columbia University)
 * Rob Trangucci (University of Michigan)
 * Daniel Lee (Generable)
+* Michael Betancourt (Symplectomorphic)
 
 Local organization committee
 
