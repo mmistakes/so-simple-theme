@@ -59,7 +59,7 @@ Please note that costs for travel, accommodation and insurances are not included
 
 ## Accommodation
 
-Please make your hotel reservation directly to the hotels. We are arranging some deals with hotels and provide list of some recommended hotels near the venue. More details will be updated soon.
+Please make your hotel reservation directly to the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
 
 ## Payment and confirmation
 

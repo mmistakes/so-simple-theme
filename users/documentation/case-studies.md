@@ -32,6 +32,45 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan
+
+Lotka (1925) and Volterra (1926) formulated parameteric differential
+equations that characterize the oscillating populations of predators
+and prey. A statistical model to account for measurement error and
+unexplained variation uses the deterministic solutions to the
+Lotka-Volterra equations as expected population sizes. Stan is used to
+encode the statistical model and perform full Bayesian inference to
+solve the inverse problem of inferring parameters from noisy data. The
+model is fit to Canadian lynx and snowshoe hare populations between
+1900 and 1920, based on the number of pelts collected annually by the
+Hudson’s Bay Company. Posterior predictive checks for replicated data
+show the model fits this data well. Full Bayesian inference may be
+used to estimate future (or past) populations.
+
+[View](case-studies/lotka-volterra-predator-prey.html) <span class="note">(HTML)</span>
+
+Author
+: Bob Carpenter
+
+Keywords
+: population dynamics, Lotka-Volterra equations, differential
+equations, posterior predictive checks
+
+Source Repository
+: [stan-dev/example-models/knitr/lotka-volterra]()
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, <tt style="font-size:
+90%">ggplot2</tt>, <tt style="font-size: 90%">gridExtra</tt>, <tt
+style="font-size: 90%">knitr</tt>, <tt style="font-size: 90%">reshape</tt>
+<tt style="font-size: 90%">tufte</tt>
+
+License
+: Code: BSD (3 clause), Text: CC BY-NC 4.0
+
+
+
 ## Nearest neighbor Gaussian process (NNGP) models in Stan
 
 <small>
@@ -40,7 +79,7 @@ family of highly scalable Gaussian processes based models. In brief,
 NNGP extends the Vecchia’s approximation (Vecchia 1988) to a process
 using conditional independence given information from neighboring
 locations. This case study shows how to express and fit these models
-in Stan for spatial random effects.
+in Stan.
 </small>
 
 [View](case-studies/nngp.html) <span class="note">(HTML)</span>
@@ -50,7 +89,7 @@ Author
 
 Keywords
 : Gaussian process, nearest neighbor Gaussian process, spatial models,
-random effects, regression
+latent process, regression
 
 Source Repository
 : [LuZhangstat/NNGP_STAN](https://github.com/LuZhangstat/NNGP_STAN)

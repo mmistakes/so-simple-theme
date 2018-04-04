@@ -30,7 +30,7 @@
   avatar: ben_goodrich.jpg
 
 - name: Michael Betancourt
-  affiliation: Columbia University
+  affiliation: Independent Consultant
   web: http://betanalpha.github.io
   email: betanalpha@gmail.com
   twitter: betanalpha
@@ -203,3 +203,10 @@
   github: dpsimpson
   email: simpson@utstat.toronto.edu
   avatar: dan_simpson.jpg
+
+- name: Yi Zhang
+  affiliation: Metrum Research Group
+  github: yizhang-cae
+  email: yiz@metrumrg.com
+  linkedin: https://www.linkedin.com/in/yi-zhang-71809447/
+  avatar: yi_zhang.jpg

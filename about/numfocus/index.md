@@ -20,12 +20,12 @@ All financial decisions related to NumFOCUS are made by Stan's
 Leadership Body for NumFOCUS:
 
 * Julie Bertrand  <span class="note">(INSERM)</span>
-* Michael Betancourt <span class="note">(Columbia University)</span>
+* Michael Betancourt <span class="note">(Independent Contractor)</span>
 * Tamara Broderick <span class="note">(Massachusetts Institute of Technology)</span>
 * Bob Carpenter <span class="note">(Columbia University)</span>
 * Andrew Gelman <span class="note">(Columbia University)</span>
-* Dan Simpson <span class="note">(University of Bath)</span>
-* Elizabeth Wolkovich <span class="note">(Harvard University)</span>
+* Dan Simpson <span class="note">(University of Toronto)</span>
+* Elizabeth Wolkovich <span class="note">(Univesity of British Columbia)</span>
 
 ### About NumFOCUS
 
