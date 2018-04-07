@@ -814,11 +814,12 @@ The footer links and copyright text can both be customized.
 
 Footer links are set in `_config.yml` under the `footer_links` key.
 
-| Name    | Description                                                                                                      |
-| ------- | ---------------------------------------------------------------------------------------------------------------- |
-| `title` | Describes the link. Not visible, used for accessibility purposes.                                                |
-| `url`   | URL the link points to.                                                                                          |
-| `icon`  | Corresponds with a [Font Awesome 5 icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`. |
+| Name     | Description                                                                                                                                                                                  |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `title`  | Describes the link. Not visible, used for accessibility purposes.                                                                                                                            |
+| `url`    | URL the link points to.                                                                                                                                                                      |
+| `icon`   | Corresponds with a [Font Awesome 5 icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`.                                                                             |
+| `target` | (Optional key) Sets the HTML [target](https://www.w3schools.com/tags/att_a_target.asp) attribute. Useful if the user wants the url to open in a new tab e.g. with the `_blank` target value. |
 
 **Examples:**
 
@@ -833,6 +834,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+    target: _blank
 ```
 
 **Note:** To disable footer links completely use `footer_links: false`.
