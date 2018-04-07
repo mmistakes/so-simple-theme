@@ -19,6 +19,10 @@ across Stan-based R packages, and a vignette with
 <a href="https://CRAN.R-project.org/package=rstantools/vignettes/developer-guidelines.html">
 guidelines for package developers</a>.
 
+# Website
+
+Visit [mc-stan.org/rstantools](http://mc-stan.org/rstantools/) for vignettes/tutorials, 
+function documentation, and other information about the package.
 
 # Download and Get Started
 
