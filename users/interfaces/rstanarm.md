@@ -23,6 +23,10 @@ variational inference, or optimization (Laplace approximation).
 Graphical posterior predictive checking, leave-one-out
 cross-validation, and posterior visualization are tightly integrated.
 
+# Website
+
+Visit [mc-stan.org/rstanarm](http://mc-stan.org/rstanarm/) for vignettes/tutorials, 
+function documentation, and other information about the package.
 
 # Download and Get Started
 
