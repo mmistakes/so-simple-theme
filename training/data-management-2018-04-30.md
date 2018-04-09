@@ -64,7 +64,7 @@ Researchers wanting to know how they can organise their data more effectively an
 
 ## Registration 
 
-Registration is opening soon...
+Registration is open. Please [click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/best-practices-in-research-data-management-for-biological-science) to register for the course
 
 ## References
 
