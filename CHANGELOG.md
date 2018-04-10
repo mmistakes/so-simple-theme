@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Fix search form from resetting when pressing "Enter". [#278](https://github.com/mmistakes/so-simple-theme/pull/278)
 - Fix author links from not displaying correct when a single link is defined in `_config.yml`. [#280](https://github.com/mmistakes/so-simple-theme/issues/280)
 - Fix search result excerpts that run together because of implied spaces. [#281](https://github.com/mmistakes/so-simple-theme/pull/281)
+- Fix usage of `$site-logo-height` variable in `_global.scss`. [#284](https://github.com/mmistakes/so-simple-theme/pull/284)
 
 ## [3.1.0] - 03-12-2018
 
