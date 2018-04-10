@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Update Font Awesome to version [`5.0.9`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
+- Do not show `<footer>` in `_includes/entry.html` if there is no `site.read_time` or `entry.date` (typical of collection documents). [#283](https://github.com/mmistakes/so-simple-theme/pull/283)
 
 ### Fixed
 - Fix "Uncaught TypeError: Cannot read property 'addEventListener' of null" in `main.js` when navigation isn't defined.
