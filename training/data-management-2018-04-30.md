@@ -3,7 +3,7 @@ layout: page
 title: Best practices in Research Data Management for Biological Sciences
 excerpt: "Avoiding Data Disasters"
 date: 2018-04-30
-startTime: 12.30
+startTime: 13.00
 endTime: 16.30
 city: sheffield
 country: United Kingdom
@@ -11,8 +11,9 @@ venue: Pam Liversidge Design Studio 1 - D06
 
 ---
 
-- Sheffield - 7th December 2017
-- 09:30am - 5pm
+
+- Sheffield - 30th April 2018
+- 13:00pm - 16:30pm
 - Pam Liversidge Design Studio 1 - D06
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9519.181464571486!2d-1.4777067!3d53.3827108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60e5580cdf19b137!2sPam+Liversidge+Building!5e0!3m2!1sen!2suk!4v1510862811609" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -27,6 +28,7 @@ As a researcher, you will encounter research data in many forms, ranging from me
 
 ## Who should attend this course?
 
+Researchers wanting to know how they can organise their data more effectively and work towards ensuring reproducibility of results.
 
 ## Aims:- After this course you should be able to:
 
@@ -37,20 +39,17 @@ As a researcher, you will encounter research data in many forms, ranging from me
 
 ## Objectives:- During this course you will learn about:
 
-- Options for backing up your computer
-- Ideas for naming and organising your files
-- Strategies for exchanging files with collaborators
+- Reproducible research, and why it is critical for modern research
 - Tips and tricks to make sure that your spreadsheets are readable by programming languages such as R
 - Learn how to use the OpenRefine software for data cleaning
+- Options for backing up files on your computer
+- Ideas for naming and organising your files
+- Strategies for exchanging files with collaborators
 
 
-## Prerequisites
-
-- No prior programming experience is required, but those attending should be able to use a plain text editor.
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
-- Emily Chambers, Bioinformatics Core Analyst
 - Jez Cope, University of Sheffield Library Services
 
 ## Course Data
@@ -59,12 +58,13 @@ As a researcher, you will encounter research data in many forms, ranging from me
 ## Timetable (provisional)
 
 
+
 ## Instructor Files
 
 
 ## Registration 
 
-Registration is opening soon...
+Registration is open. Please [click here](https://onlineshop.shef.ac.uk/conferences-and-events/faculty-of-medicine-dentistry-and-health/neuroscience/best-practices-in-research-data-management-for-biological-science) to register for the course
 
 ## References
 

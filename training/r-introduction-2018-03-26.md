@@ -20,7 +20,7 @@ venue: Pam Liversidge Design Studio 1 - D06
 
 R is a highly-regarded, free, software environment for statistical analysis, with many useful features that promote and facilitate reproducible research.
 
-In this course, we give an introduction to the R environment and explain how it can be used to import, manipulate and analyse tabular data. We will also introduce the Bioconductor project, and how it can enable the analysis of complex biological datasets.
+In this course, we give an introduction to the R environment and explain how it can be used to import, manipulate and analyse tabular data. 
 
 After the course you should feel confident to start exploring your own dataset using the materials and references provided. 
 
@@ -76,22 +76,26 @@ You can download the binary files for your distribution from CRAN. Or you can us
 ## Instructors
 
 - Mark Dunning, Bioinformatics Core Director
+- Anna Krystalli, [Research Software Engineer](http://rse.shef.ac.uk/)
 - Emily Chambers, Bioinformatics Core Analyst
 
 ## Course Data
 
-- Please download and extract (un-zip) [this zip file](r-introduction-2017-12-07.zip) into the directory on your computer that you wish to work in
+- Please download and extract (un-zip) [this zip file](r-introduction-2018-03-26.zip) into the directory on your computer that you wish to work in
 
 ## Timetable (provisional)
 
 - 09:30 - 12:30 [Introduction to R](https://bioinformatics-core-shared-training.github.io/r-crash-course/crash-course.nb.html)
 - 12:30 - 13:30 LUNCH
-- 13:00 - 16:00 Working reproducibly in R (to be confirmed)
+- 13:30 - 14:30 Introduction to R continued
+- 14:30 - 16:00 [Working reproducibly in R](http://annakrystalli.me/literate-programming/)
+- 16:00 - 17:00 Open discussion and working on your own data
 
 ## Registration 
 
-Registration is opening soon...
+Registration is open. [Click here](https://onlineshop.shef.ac.uk/conferences-events/faculty-of-medicine-dentistry-and-health/neuroscience/introduction-to-r) to sign-up
 
 ## References
 
 - [Data Carpentry Spreadsheet Formatting Lessions](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
+- [Master List of datasets to practice with](http://vincentarelbundock.github.io/Rdatasets/datasets.html)

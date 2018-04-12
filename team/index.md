@@ -10,7 +10,7 @@ A key philosphy of working with the Sheffield Bioinformatics Core is that you ar
 
 - [Mark Dunning](http://sbc.shef.ac.uk/team/mark/index.html)
 - [Emily Chambers](http://sbc.shef.ac.uk/team/emily/)
-- Core Analyst; Now hiring
+- Matt Parker - Starting May 2018
 
 ## Core Management
 
