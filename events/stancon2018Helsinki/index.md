@@ -194,7 +194,7 @@ StanCon is organized by a volunteer community
 * Breck Baldwin (Columbia University)
 * Jonah Gabry (Columbia University)
 * Ben Goodrich (Columbia University)
-* Rob Trangucci (University of Michigan)
+* Lauren Kennedy (Columbia University)
 * Daniel Lee (Generable)
 * Michael Betancourt (Symplectomorphic)
 
