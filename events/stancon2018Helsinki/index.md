@@ -65,7 +65,7 @@ Submissions should be sent by April 16, 2018 5:00:00 AM GMT to stanconsubmission
 
 StanCon’s version of conference proceedings is a collection of contributed talks based on interactive, self-contained notebooks (e.g., knitr, R Markdown, Jupyter, etc.). For example, you might demonstrate a novel modeling technique, or (possibly simplified version of) a novel application, etc. There is no minimum or maximum length and anyone using Stan is welcome to submit a contributed talk.
 
-More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.html) and examples of accepted submissions from StanCon 2017 are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks/tree/master/2017/Contributed-Talks) repository on GitHub.
+More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.html) and examples of accepted submissions from  are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks) repository on GitHub.
 
 ## Contributed posters
 
