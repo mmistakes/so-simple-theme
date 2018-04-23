@@ -17,7 +17,7 @@ notes, but they may not be used in the branding of commercial entities, such
 as software packages or paid courses, without the express license of the Stan
 leadership board.  If you have any questions or would like to inquire about
 licensing the Stan name and/or logo for a commercial venture then please contact
-[Michael Betancourt](mailto:betanalpha@gmail.com).
+NumFOCUS.
 
 When using the Stan logo please use the official versions linked below,
 
