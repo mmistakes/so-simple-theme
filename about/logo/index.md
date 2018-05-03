@@ -10,7 +10,7 @@ image:
 ---
 
 The Stan name and logo are registered trademarks of
-[NumFOCUS under the direction of Stan's Leadership Body](/about/numfocus/index.html).
+[NumFOCUS under the direction of the Stan Leadership Body](/about/numfocus/index.html).
 
 Both may be freely used when referencing Stan, such as in a blog post or lecture
 notes, but they may not be used in the branding of commercial entities, such
