@@ -277,6 +277,7 @@ Layouts, includes, Sass partials, and data files are all placed in their default
 
 ```
 ├── _data               # data files
+|  ├── navigation.yml   # navigation bar links
 |  └── text.yml         # theme text
 ├── _includes           # theme includes
 ├── _layouts            # theme layouts (see below for usage)
@@ -295,6 +296,7 @@ Layouts, includes, Sass partials, and data files are all placed in their default
 After creating a `Gemfile` and installing the theme you'll need to add and edit the following files:
 
 * [`_config.yml`](_config.yml)
+* [`/_data/navigation.yml`](_data/navigation.yml)
 * [`/_data/text.yml`](_data/text.yml)
 * [`index.md`](index.md)
 

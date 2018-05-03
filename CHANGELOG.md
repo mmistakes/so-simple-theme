@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 
 ### Changed
+- Include creation of `navigation.yml` when "starting fresh". [#270](https://github.com/mmistakes/so-simple-theme/issues/270)
 - Center hero image. [#289](https://github.com/mmistakes/so-simple-theme/pull/289)
 - Update Font Awesome to version [`5.0.12`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
 - Do not show `<footer>` in `_includes/entry.html` if there is no `site.read_time` or `entry.date` (typical of collection documents). [#283](https://github.com/mmistakes/so-simple-theme/pull/283)
