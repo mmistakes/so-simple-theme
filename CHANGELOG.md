@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [3.1.1] - 05-03-2018
 
 ### Changed
 - Include creation of `navigation.yml` when "starting fresh". [#270](https://github.com/mmistakes/so-simple-theme/issues/270)
