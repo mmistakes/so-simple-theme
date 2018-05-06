@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+#remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "My Awesome Site"
 description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/blog" # the subpath of your site, e.g. "/blog"
+url: https://osseon.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
