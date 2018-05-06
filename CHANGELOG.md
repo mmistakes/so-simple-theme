@@ -5,13 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [3.1.1] - 05-03-2018
 
 ### Changed
-- Update Font Awesome to version [`5.0.9`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
+- Include creation of `navigation.yml` when "starting fresh". [#270](https://github.com/mmistakes/so-simple-theme/issues/270)
+- Center hero image. [#289](https://github.com/mmistakes/so-simple-theme/pull/289)
+- Update Font Awesome to version [`5.0.12`](https://github.com/FortAwesome/Font-Awesome/blob/master/CHANGELOG.md).
 - Do not show `<footer>` in `_includes/entry.html` if there is no `site.read_time` or `entry.date` (typical of collection documents). [#283](https://github.com/mmistakes/so-simple-theme/pull/283)
 
 ### Fixed
+- Fix documentation links to sample `index.md` file. [#288](https://github.com/mmistakes/so-simple-theme/issues/288)
 - Fix "Uncaught TypeError: Cannot read property 'addEventListener' of null" in `main.js` when navigation isn't defined.
 - Fix search form from resetting when pressing "Enter". [#278](https://github.com/mmistakes/so-simple-theme/pull/278)
 - Fix author links from not displaying correct when a single link is defined in `_config.yml`. [#280](https://github.com/mmistakes/so-simple-theme/issues/280)
