@@ -104,6 +104,10 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
+# Scholarships
+
+Thanks to our genereous sponsors (see below) we are able to offer a limited number of scholarships covering registration and accommodation, and even more limited number of scholarships covering also (partially) travel costs.  The scholarships are aimed at students who would not otherwise be able to attend.  To apply for a scholarship fill [the scholarship application form](https://docs.google.com/forms/d/e/1FAIpQLScZ8vCNxqvPrlTJZrQrot1xVc9QnVwiTLOUjOj0yv3cF57juA/viewform?usp=sf_link).
+
 # [Accommodation](#accommodation)
 
 Please make your hotel reservation directly to the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
