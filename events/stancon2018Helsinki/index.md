@@ -49,7 +49,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 | Deadline | What |
 |------|--------|
 | Apr 16, 2018 | Contributed talks submissions |
-| May 16, 2018 | Contributed talks acceptance notifications |
+| May 16, 2018 (approx) | Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses-within-the-next-few-days/4249))|
 | May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
 | July 31, 2018| Poster submissions |
