@@ -199,9 +199,9 @@ span + .entry-title {
 	}
 
 	/* nice link underlines */
-  p > a,
-  p > em > a,
-  p > small > em > a,
+    p > a,
+    p > em > a,
+    p > small > em > a,
 	li > a {
 		border-bottom: 1px dotted lighten($link-color, 50);
 
@@ -209,6 +209,11 @@ span + .entry-title {
 			border-bottom-style: solid;
 		}
 	}
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 /*

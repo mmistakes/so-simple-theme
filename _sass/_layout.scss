@@ -301,6 +301,10 @@ span + .entry-title {
 			border-bottom-style: solid;
 		}
 	}
+    img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 .post-list {
 	li > a {

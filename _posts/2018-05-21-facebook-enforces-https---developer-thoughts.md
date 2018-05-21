@@ -16,7 +16,7 @@ Most of applications I have developed are deployed to AWS or almost the same pro
 
 ![Application Infrastructure](/images/application-infrastructure.svg)
 
-So, I hadle secured connection via Load Balancer and the application don't even knows about existing of https connetion. It just works.
+So, I handle secured connection via Load Balancer and the application don't even knows about existing of https connetion. It just works.
 
 But locally developers don't has LB and it's okay to communicate with the application by HTTP protocol locally (while developing it).
 
