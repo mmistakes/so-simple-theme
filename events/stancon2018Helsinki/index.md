@@ -155,7 +155,7 @@ will enforce a [code of conduct](/events/stancon2018Helsinki/stancon-code_of_con
 
 # [Sponsors](#sponsors)
 
-Generous contributions of our sponsors will ensure that our registration costs are kept as low as possible and allow for us to subsidize attendance for students who would otherwise be unable to come.
+Generous contributions from our sponsors ensure that our registration costs are kept as low as possible and allow for us to subsidize attendance for students who would otherwise be unable to attend.
 
 <center style="padding: 0.75em 0 0 0">
 <a href="http://corporate.elisa.com/"><img width="200" src="logos/logo-elisa_2x.png" /></a>
