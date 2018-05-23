@@ -23,7 +23,7 @@ August 29-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 ------
 - [**Location**](#location)
 - [**Important Dates**](#important-dates)
-- [**Call for contributed talks and posters**](#call)
+- [**Call for contributed talks and posters**](#call-for-contributed-talks)
 - [**Registration**](#registration-information)
 - [**Accommodation**](#accommodation)
 - [**Speakers and Schedule**](#speakers-and-schedule)
@@ -49,7 +49,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 | Deadline | What |
 |------|--------|
 | Apr 16, 2018 | Contributed talks submissions |
-| May 16, 2018 (approx) | Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses-within-the-next-few-days/4249))|
+| May 22, 2018 | Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses/4310))|
 | May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
 | July 31, 2018| Poster submissions |
@@ -57,7 +57,7 @@ Here are the important dates for StanCon 2018 Helsinki.
 | Aug 30-31, 2018 | Stan Conference!!! |
 
 
-# [Call for contributed talks](#call)
+# [Call for contributed talks](#call-for-contributed-talks)
 
 ## Contributed talks
 
@@ -132,8 +132,8 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials are organized 29th August 2018 (probably at Aalto Otaniemi campus 13mins from Helsinki city center). Planned
-tutorial sessions are
+Pre-conference tutorials led by Stan developers are organized for 29th August 2018 (probably at Aalto Otaniemi campus, 13mins from Helsinki city center). Currently, the planned tutorial sessions are
+
 * Basics of Bayesian inference and Stan (half day), Jonah Gabry
 * Hierarchical models (half day), Ben Goodrich
 * Stan C++ development (half day), Bob Carpenter, Sean Talts / Mitzi Morris
@@ -196,17 +196,15 @@ If you have questions regarding registration, payments, travel, please email
 
 For other questions regarding StanCon Helsinki, please email us at [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
-StanCon is organized by a volunteer community
+StanCon is organized by a volunteer committee: 
 
 * Aki Vehtari (Aalto University)
 * Breck Baldwin (Columbia University)
 * Jonah Gabry (Columbia University)
-* Ben Goodrich (Columbia University)
 * Lauren Kennedy (Columbia University)
 * Daniel Lee (Generable)
-* Michael Betancourt (Symplectomorphic)
 
-Local organization committee
+Local organization committee in Helsinki:
 
 * Eero Siivola (Aalto University)
 * Juho Piironen (Aalto University)
