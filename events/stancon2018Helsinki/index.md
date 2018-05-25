@@ -38,13 +38,13 @@ August 29-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
 
-StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the proximity of Helsinki city centre. 
+StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the proximity of Helsinki city centre.
 
 [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
 # [Important Dates](#important-dates)
 
-Here are the important dates for StanCon 2018 Helsinki. 
+Here are the important dates for StanCon 2018 Helsinki.
 
 | Deadline | What |
 |------|--------|
@@ -69,7 +69,7 @@ More details are available on the [StanCon submissions web page](/events/stancon
 
 ## Contributed posters
 
-We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018helsinki@mc-stan.org. 
+We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018helsinki@mc-stan.org.
 
 
 # [Registration Information](#registration-information)
@@ -139,10 +139,10 @@ Pre-conference tutorials led by Stan developers are organized for 29th August 20
 * Stan C++ development (half day), Bob Carpenter, Sean Talts / Mitzi Morris
 * Model assessment and selection (1.5 hours), Aki Vehtari
 * Productization of Stan (1 hour)
-* Ordinal differential equation (ODE) models in Stan, Daniel Lee
+* Ordinary differential equation (ODE) models in Stan, Daniel Lee
 * TBA
 
-The tutorials vary from full day to 1 hours (the above times are
+The tutorials vary from one hour to a full day (the above times are
 subject to change) and there will be at least two parallel
 sessions. For planning purposes we will ask your preferences, but that
 choice is not binding.
@@ -162,7 +162,7 @@ Generous contributions from our sponsors ensure that our registration costs are 
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
-<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a> 
+<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a>
 </center>
 
 <center style="padding: 0.75em 0 0 0">
@@ -196,7 +196,7 @@ If you have questions regarding registration, payments, travel, please email
 
 For other questions regarding StanCon Helsinki, please email us at [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
 
-StanCon is organized by a volunteer committee: 
+StanCon is organized by a volunteer committee:
 
 * Aki Vehtari (Aalto University)
 * Breck Baldwin (Columbia University)
