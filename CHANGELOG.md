@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Fixed
+- Clarify where to customize SCSS variables in `/assets/css/main.scss`. [#293](https://github.com/mmistakes/so-simple-theme/pull/293)
+
 ## [3.1.1] - 05-03-2018
 
 ### Changed
