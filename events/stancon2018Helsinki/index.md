@@ -117,9 +117,12 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 ## Invited speakers!
 
 * [Richard McElreath](http://xcelab.net/rm/) <br> Max Planck Institute for Evolutionary Anthropology
+<br> Bad Data, Big Models, and Statistical Methods for Studying Evolution
 * [Maggie Lieu](https://maggielieu.com) <br>European Space Astronomy Centre
+<br> Hierarchical modelling of galaxy clusters for Cosmology
 * [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html) <br> Newcastle University
 * [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en) <br> University of Toronto
+<br> Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity
 
 ## Schedule
 
@@ -136,7 +139,19 @@ Pre-conference tutorials led by Stan developers are organized for 29th August 20
 
 * Basics of Bayesian inference and Stan (half day), Jonah Gabry
 * Hierarchical models (half day), Ben Goodrich
-* Stan C++ development (half day), Bob Carpenter, Sean Talts / Mitzi Morris
+<br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
+<br> Prerequisites:
+<br> Some experience with R (not necessarily with the aforementioned packages) and some experience with MCMC (nor necessarily with Stan).
+* Stan C++ development: adding a new function to Stan (half day), Bob Carpenter, Sean Talts
+<br> This tutorial will prepare you to submit your first pull
+request for Stan's C++ libraries.  We will cover all of the
+steps required to add a new function with analytic gradients
+to the Stan language, including creating the issue, branching
+in GitHub, code organization and style, unit testing, continuous
+integration, code review, API and user-facing documentation, and
+merging.  In addition to the process, we will survey the math library,
+including scalar and matrix data types, automatic differentiation,
+and template traits and metaprograms.
 * Model assessment and selection (1.5 hours), Aki Vehtari
 * Productization of Stan (1 hour)
 * Ordinary differential equation (ODE) models in Stan, Daniel Lee
