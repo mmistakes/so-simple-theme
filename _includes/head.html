@@ -17,7 +17,7 @@
     }
     </script>
   {%- endif %}
-  
+
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
@@ -28,7 +28,7 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
-    
+
   <script>
     /* Cut the mustard */
     if ( 'querySelector' in document && 'addEventListener' in window ) {
