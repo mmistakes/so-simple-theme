@@ -116,12 +116,12 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 
 ## Invited speakers!
 
-* [Richard McElreath](http://xcelab.net/rm/) <br> Max Planck Institute for Evolutionary Anthropology
+* [Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology
 <br> **Bad Data, Big Models, and Statistical Methods for Studying Evolution**
-* [Maggie Lieu](https://maggielieu.com) <br>European Space Astronomy Centre
+* [Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre
 <br> **Hierarchical modelling of galaxy clusters for Cosmology**
-* [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html) <br> Newcastle University
-* [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en) <br> University of Toronto
+* [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University
+* [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
 <br> **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 
 ## Schedule
