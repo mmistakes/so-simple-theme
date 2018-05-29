@@ -121,6 +121,7 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 * [Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre
 <br> **Hierarchical modelling of galaxy clusters for Cosmology**
 * [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University
+<br> **Identifying the effect of public holidays on daily demand for gas**
 * [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
 <br> **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 
