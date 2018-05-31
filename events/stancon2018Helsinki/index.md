@@ -135,6 +135,11 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 
 TBD! <!-- The committee is actively working on the schedule. -->
 
+## [Get together](#gettogether)
+
+Get together event will be on Wednesday evening (included in the
+registration fee).
+
 ## [Dinner](#dinner)
 
 Conference dinner will be on Thursday evening (included in the
@@ -142,9 +147,12 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials led by Stan developers are organized for 29th August 2018 (probably at Aalto Otaniemi campus, 13mins from Helsinki city center). Currently, the planned tutorial sessions are
+Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus, 13mins from Helsinki city center. Currently, the planned tutorial sessions are
 
 * **Basics of Bayesian inference and Stan** (morning half day), Jonah Gabry
+<br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in  using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement.
+<br>
+For this tutorial we will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 * **Hierarchical models** (afternoon half day), Ben Goodrich
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
 <br> Prerequisites:
