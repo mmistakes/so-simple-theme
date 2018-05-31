@@ -148,7 +148,7 @@ Pre-conference tutorials led by Stan developers are organized for 29th August 20
 * **Hierarchical models** (afternoon half day), Ben Goodrich
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
 <br> Prerequisites:
-<br> Some experience with R (not necessarily with the aforementioned packages) and some experience with MCMC (nor necessarily with Stan).
+<br> Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
 * **Stan C++ development: adding a new function to Stan** (morning half day), Bob Carpenter, Sean Talts
 <br> This tutorial will prepare you to submit your first pull
 request for Stan's C++ libraries.  We will cover all of the
