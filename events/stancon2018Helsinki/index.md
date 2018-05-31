@@ -91,11 +91,17 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 <br>
 
-### Tutorials
+### Tutorials (early registration price)
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
 | EUR 20 | EUR 100 | EUR 150 |
+
+### Tutorials (regular price)
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| EUR 30 | EUR 150 | EUR 225 |
 
 <br>
 
@@ -138,12 +144,12 @@ registration fee).
 
 Pre-conference tutorials led by Stan developers are organized for 29th August 2018 (probably at Aalto Otaniemi campus, 13mins from Helsinki city center). Currently, the planned tutorial sessions are
 
-* **Basics of Bayesian inference and Stan** (half day), Jonah Gabry
-* **Hierarchical models** (half day), Ben Goodrich
+* **Basics of Bayesian inference and Stan** (morning half day), Jonah Gabry
+* **Hierarchical models** (afternoon half day), Ben Goodrich
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
 <br> Prerequisites:
 <br> Some experience with R (not necessarily with the aforementioned packages) and some experience with MCMC (nor necessarily with Stan).
-* **Stan C++ development: adding a new function to Stan** (half day), Bob Carpenter, Sean Talts
+* **Stan C++ development: adding a new function to Stan** (morning half day), Bob Carpenter, Sean Talts
 <br> This tutorial will prepare you to submit your first pull
 request for Stan's C++ libraries.  We will cover all of the
 steps required to add a new function with analytic gradients
@@ -153,15 +159,12 @@ integration, code review, API and user-facing documentation, and
 merging.  In addition to the process, we will survey the math library,
 including scalar and matrix data types, automatic differentiation,
 and template traits and metaprograms.
-* **Model assessment and selection** (1.5 hours), Aki Vehtari
-* **Productization of Stan** (1 hour)
-* **Ordinary differential equation (ODE) models in Stan**, Daniel Lee
-* TBA
+* **Model assessment and selection** (afternoon 1.5 hours), Aki Vehtari
+* **Productization of Stan** (afternoon 1.5 hours), Eric Novik
+* **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), Daniel Lee
 
-The tutorials vary from one hour to a full day (the above times are
-subject to change) and there will be at least two parallel
-sessions. For planning purposes we will ask your preferences, but that
-choice is not binding.
+There will be at least two parallel sessions. For planning purposes we
+will ask your preferences, but that choice is not binding.
 
 # [Code of Conduct](#code-of-conduct)
 
