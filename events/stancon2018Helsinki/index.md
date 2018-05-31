@@ -162,6 +162,8 @@ and template traits and metaprograms.
 * **Model assessment and selection** (afternoon 1.5 hours), Aki Vehtari
 * **Productization of Stan** (afternoon 1.5 hours), Eric Novik
 * **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), Daniel Lee
+<br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs as functions, the use of the ODE integrators, and practical tips on packing and unpacking the arguments to the function.
+
 
 There will be at least two parallel sessions. For planning purposes we
 will ask your preferences, but that choice is not binding.
