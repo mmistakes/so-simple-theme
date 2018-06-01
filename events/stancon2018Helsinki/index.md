@@ -168,6 +168,9 @@ merging.  In addition to the process, we will survey the math library,
 including scalar and matrix data types, automatic differentiation,
 and template traits and metaprograms.
 * **Model assessment and selection** (afternoon 1.5 hours), Aki Vehtari
+<br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
+<br>
+Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 * **Productization of Stan** (afternoon 1.5 hours), Eric Novik
 * **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), Daniel Lee
 <br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs as functions, the use of the ODE integrators, and practical tips on packing and unpacking the arguments to the function.
