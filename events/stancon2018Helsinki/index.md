@@ -151,14 +151,15 @@ Pre-conference tutorials led by Stan developers are organized for 29th August 20
 
 * **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/)
 <br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
+
 <br>
 This session will be helpful preparation for anyone interested in attending the afternoon session on hierarchical modeling. 
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
 * **Hierarchical models** (afternoon half day), [Ben Goodrich](https://github.com/bgoodri)
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
-<br> Prerequisites:
-<br> Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
+
+<br> Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
 
 * **Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/) and [Sean Talts](https://github.com/seantalts)
 <br> This tutorial will prepare you to submit your first pull
@@ -173,6 +174,7 @@ and template traits and metaprograms.
 
 * **Model assessment and selection** (afternoon 1.5 hours), [Aki Vehtari](https://users.aalto.fi/~ave/)
 <br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
+
 <br>
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
