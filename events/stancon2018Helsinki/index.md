@@ -97,6 +97,7 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 |:------:|:------:|:------:|
 | EUR 20 | EUR 100 | EUR 150 |
 
+<br>
 ### Tutorials (regular price)
 
 | Student | Academic | Industry |

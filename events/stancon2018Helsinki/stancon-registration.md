@@ -36,15 +36,21 @@ If you have any questions concerning the registration form or procedure, please 
 
 <br>
 
-### Tutorials
+### Tutorials (early registration price)
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
 | EUR 20 | EUR 100 | EUR 150 |
 
+### Tutorials (regular price)
+
+| Student | Academic | Industry |
+|:------:|:------:|:------:|
+| EUR 30 | EUR 150 | EUR 225 |
+
 <br>
 
-*For a delegate to be considered a student she/he must currently be a full-time student enrolled in a PhD / master programme in her/his affiliated institution during the academic year 2018-2019. Please be prepared to show a proof of your student status onsite.
+*For a delegate to be considered a student she/he must currently be a full-time student enrolled in a PhD / master programme in her/his affiliated institution during the academic year 2017-2018 or 2018-2019. Please be prepared to show a proof of your student status onsite.
 
 The registration fee includes
 * Conference program
