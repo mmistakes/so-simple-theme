@@ -177,6 +177,21 @@ and template traits and metaprograms.
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 * **Productization of Stan** (afternoon 1.5 hours), [Eric Novik](https://www.generable.com/about/)
+<br>
+We all love Stan for its expressivity and flexibility, and for making state-of-the-art
+NUTS sampler available to a broad community of statisticians, econometricians, 
+pharmacometricians, data scientists, and many other quantitative analysts.
+
+What we don't love is munging and mapping data into Stan, slowly iterating over
+many models, and deploying models into production for use by non-specialists.  
+Integrating a robust Bayesian workflow from research into production is not trivial
+but it is extremely rewarding as it puts the product of our work in the hands 
+of people who need it most.
+
+Many organizations have started doing this with Stan and there are some patterns
+of use as well as anti-patterns that are emerging as a result. In this session, we will
+present several approaches to productizing Stan and discuss their strengths 
+and weaknesses.
 
 * **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), [Daniel Lee](https://www.generable.com/about/)
 <br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs as functions, the use of the ODE integrators, and practical tips on packing and unpacking the arguments to the function.
