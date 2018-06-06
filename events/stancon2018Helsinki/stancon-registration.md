@@ -17,32 +17,15 @@ Registration is made through an online registration system. Please [click here t
 
 If you have any questions concerning the registration form or procedure, please contact Tavicon Congress Bureau at stancon.helsinki2018@tavicon.fi or tel +358 3 233 0400.
 
-## Registration Fees 
+## Registration Fees
 
-### Early Registration (ends May 31)
-
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 100 | EUR 200 | EUR 300 |
-
-<br>
-
-### Regular Registration
+### Registration
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
 | EUR 150 | EUR 300 | EUR 450 |
 
-<br>
-
-### Tutorials (early registration price)
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 20 | EUR 100 | EUR 150 |
-
-### Tutorials (regular price)
+### Tutorials
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|

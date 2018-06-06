@@ -46,22 +46,20 @@ StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the
 
 Here are the important dates for StanCon 2018 Helsinki.
 
-| Deadline | What |
+| Date | What |
 |------|--------|
-| Apr 16, 2018 | Contributed talks submissions |
-| May 22, 2018 | Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses/4310))|
-| May 31, 2018 | Early registration ends <br> (Registration prices increase by 50%) |
+| ~~Apr 16, 2018~~ | ~~Contributed talks submissions~~ |
+| ~~May 22, 2018~~ | ~~Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses/4310))~~ |
+| ~~May 31, 2018~~ | ~~Early registration ends <br> (Registration prices increase by 50%)~~ |
 | July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
-| July 31, 2018| Poster submissions |
-| Aug 29, 2018 | Stan tutorials |
-| Aug 30-31, 2018 | Stan Conference!!! |
+| July 31, 2018| Poster submission deadline |
+| Aug 29, 2018 | Stan tutorials, Aalto Otaniemi campus |
+| Aug 30-31, 2018 | Stan Conference, Aalto Töölö campus |
 
 
 # [Call for contributed talks](#call-for-contributed-talks)
 
 ## Contributed talks
-
-Submissions should be sent by April 16, 2018 5:00:00 AM GMT to stanconsubmissions@mc-stan.org.
 
 StanCon’s version of conference proceedings is a collection of contributed talks based on interactive, self-contained notebooks (e.g., knitr, R Markdown, Jupyter, etc.). For example, you might demonstrate a novel modeling technique, or (possibly simplified version of) a novel application, etc. There is no minimum or maximum length and anyone using Stan is welcome to submit a contributed talk.
 
@@ -75,15 +73,7 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 # [Registration Information](#registration-information)
 
 
-### Early Registration (ends May 31)
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 100 | EUR 200 | EUR 300 |
-
-<br>
-
-### Regular Registration
+### Registration
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
@@ -91,14 +81,7 @@ We will accept poster submissions on a rolling basis until July 31st. One page e
 
 <br>
 
-### Tutorials (early registration price)
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 20 | EUR 100 | EUR 150 |
-
-<br>
-### Tutorials (regular price)
+### Tutorials
 
 | Student | Academic | Industry |
 |:------:|:------:|:------:|
@@ -113,7 +96,7 @@ If you have questions regarding registration, payments, travel, please email
 
 # Scholarships
 
-Thanks to our genereous sponsors (see below) we are able to offer a limited number of scholarships covering registration and accommodation, and even more limited number of scholarships covering also (partially) travel costs.  The scholarships are aimed at students who would not otherwise be able to attend.  To apply for a scholarship fill [the scholarship application form](https://docs.google.com/forms/d/e/1FAIpQLScZ8vCNxqvPrlTJZrQrot1xVc9QnVwiTLOUjOj0yv3cF57juA/viewform?usp=sf_link).
+Thanks to our genereous sponsors (see below) we are able to offer a limited number of scholarships covering registration, and even more limited number of scholarships covering also (partially) accommodation and travel costs.  The scholarships are aimed at students who would not otherwise be able to attend.  To apply for a scholarship fill [the scholarship application form](https://docs.google.com/forms/d/e/1FAIpQLScZ8vCNxqvPrlTJZrQrot1xVc9QnVwiTLOUjOj0yv3cF57juA/viewform?usp=sf_link).
 
 # [Accommodation](#accommodation)
 
@@ -148,7 +131,7 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus, 13mins from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. Currently, the planned tutorial sessions are:
+Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus, 13mins from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
 
 * **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/)
 <br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
