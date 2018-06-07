@@ -12,7 +12,7 @@ image:
 One day of tutorials and two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
 {: style="font-size: 150%; text-align: center;"}
 
-August 29-31, 2018 	&emsp; &bull; &emsp; Aalto University, Helsinki, Finland
+August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 {: style="font-size: 150%; text-align: center;"}
 
 <center style="padding: 0.75em 0 0 0">
@@ -134,9 +134,9 @@ registration fee).
 Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus, 13mins from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
 
 * **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/)
-<br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
+<br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement.
 <br>
-This session will be helpful preparation for anyone interested in attending the afternoon session on hierarchical modeling. 
+This session will be helpful preparation for anyone interested in attending the afternoon session on hierarchical modeling.
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
 * **Hierarchical models** (afternoon half day), [Ben Goodrich](https://github.com/bgoodri)
@@ -156,24 +156,24 @@ and template traits and metaprograms.
 
 * **Model assessment and selection** (afternoon 1.5 hours), [Aki Vehtari](https://users.aalto.fi/~ave/)
 <br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
-<br> 
+<br>
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 * **Productization of Stan** (afternoon 1.5 hours), [Eric Novik](https://www.generable.com/about/)
 <br>
 We all love Stan for its expressivity and flexibility, and for making state-of-the-art
-NUTS sampler available to a broad community of statisticians, econometricians, 
+NUTS sampler available to a broad community of statisticians, econometricians,
 pharmacometricians, data scientists, and many other quantitative analysts.
-
+<br>
 What we don't love is munging and mapping data into Stan, slowly iterating over
-many models, and deploying models into production for use by non-specialists.  
+many models, and deploying models into production for use by non-specialists.
 Integrating a robust Bayesian workflow from research into production is not trivial
-but it is extremely rewarding as it puts the product of our work in the hands 
+but it is extremely rewarding as it puts the product of our work in the hands
 of people who need it most.
-
+<br>
 Many organizations have started doing this with Stan and there are some patterns
 of use as well as anti-patterns that are emerging as a result. In this session, we will
-present several approaches to productizing Stan and discuss their strengths 
+present several approaches to productizing Stan and discuss their strengths
 and weaknesses.
 
 * **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), [Daniel Lee](https://www.generable.com/about/)
