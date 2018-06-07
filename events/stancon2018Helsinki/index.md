@@ -177,7 +177,15 @@ present several approaches to productizing Stan and discuss their strengths
 and weaknesses.
 
 * **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), [Daniel Lee](https://www.generable.com/about/)
-<br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs as functions, the use of the ODE integrators, and practical tips on packing and unpacking the arguments to the function.
+<br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers
+from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs
+as functions, the use of the ODE integrators, and practical tips on packing and unpacking the
+arguments to the function.
+<br>
+This tutorial is meant to be hands-on. Please be familiar with running Stan models from
+the interface of your choice. It will help to know the difference between arrays of `real` and
+`vector` types (see Ch. 26 "Matrices, Vectors, and Arrays").
+
 
 
 # [Code of Conduct](#code-of-conduct)
