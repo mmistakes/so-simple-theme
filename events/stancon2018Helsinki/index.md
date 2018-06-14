@@ -122,12 +122,36 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 
 ## Schedule
 
-TBD! <!-- The committee is actively working on the schedule. -->
+Times may change, but the schedule below should help your planning.
+
+### Wednesday 29 August, Aalto University, Otaniemi campus, Maarintie 8, Espoo
+
+| 8-14 | Registration |
+| 8:30-17:30 | Tutorials |
+
+### Wednesday 29 August, Musiikkitalo, Mannerheimintie 13 A, Helsinki
+
+| 18:30-21 | Registration |
+| 19-21:30 | Get together |
+
+### Thursday 30 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki
+
+| 8-17 | Registration |
+| 9-18 | Conference |
+
+### Thursday 30 August, TBD
+
+| 19:30- | Dinner |
+
+### Friday 30 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki
+
+| 8-10 | Registration |
+| 9-17 | Conference |
 
 ## [Get together](#gettogether)
 
-Get together event will be on Wednesday evening (included in the
-registration fee).
+Get together event will be on Wednesday evening at Musiikkitalo,
+Mannerheimintie 13 A, Helsinki (included in the registration fee)
 
 ## [Dinner](#dinner)
 
