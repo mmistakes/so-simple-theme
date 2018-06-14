@@ -41,7 +41,9 @@ Stan (http://mc-stan.org) is a probabilistic programming and statistical modelin
 
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
 
-StanCon 2018 Helsinki will take place at Aalto University Töölö Campus in the proximity of Helsinki city centre.
+StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö Campus (Runeberginkatu 14-16, Helsinki) in the proximity of Helsinki city centre.
+
+Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
 
 [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
@@ -134,7 +136,7 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus, 13mins from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
+Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus (Maarintie 8, Espoo), 13mins metro ride away from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
 
 * **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/)
 <br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement.
