@@ -31,6 +31,9 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 - [**Sponsors**](#sponsors)
 - [**StanCon 2018 Helsinki Organizing Committee**](#committee)
 
+------
+
+Stan (http://mc-stan.org) is a probabilistic programming and statistical modeling language used by tens of thousands of scientists, engineers, and other researchers for statistical modeling, data analysis, and prediction. It is being applied academically and commercially across fields as diverse as ecology, pharmacometrics, physics, political science, finance and econometrics, professional sports, real estate, publishing, recommender systems, and educational testing. 
 
 ------
 
