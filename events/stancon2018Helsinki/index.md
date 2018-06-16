@@ -153,7 +153,7 @@ registration fee).
 
 Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus (Maarintie 8, Espoo), 13mins metro ride away from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
 
-* **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/)
+* **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/) & [Lauren Kennedy](https://www.linkedin.com/in/lauren-kennedy-783864bb)
 <br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement.
 <br>
 This session will be helpful preparation for anyone interested in attending the afternoon session on hierarchical modeling.
