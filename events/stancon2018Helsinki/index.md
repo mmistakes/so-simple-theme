@@ -235,17 +235,17 @@ Generous contributions from our sponsors ensure that our registration costs are 
 </center>
 
 <center style="padding: 0.75em 0 0 0">
+<a href="https://www.amazon.com/"><img width="200" src="logos/Amazon-logo-RGB.png" /></a>
+<span style="display:inline-block; width: 0.75em;"></span>
+<a href="https://www.bayer.com/"><img width="200" src="logos/bayer.png" /></a>
+</center>
+
+<center style="padding: 0.75em 0 0 0">
 <a href="http://fcai.fi/"><img width="200" src="logos/fcai.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="http://www.aalto.fi/en/"><img width="200" src="logos/Aalto_FI_13_RGB_7.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="http://www.hiit.fi/"><img width="200" src="logos/hiit.jpg" /></a>
-</center>
-
-<center style="padding: 0.75em 0 0 0">
-<a href="https://www.amazon.com/"><img width="200" src="logos/Amazon-logo-RGB.png" /></a>
-<span style="display:inline-block; width: 0.75em;"></span>
-<a href="https://www.bayer.com/"><img width="200" src="logos/bayer.png" /></a>
 </center>
 
 If you're interested in sponsoring StanCon 2018 Helsinki, please reach out to [stancon2018helsinki@mc-stan.org](mailto:stancon2018helsinki@mc-stan.org).
