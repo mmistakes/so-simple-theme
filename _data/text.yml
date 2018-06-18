@@ -34,3 +34,34 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  skip_links: "Saltar enlaces"
+  skip_primary_nav: "Saltar a la navegación primaria"
+  skip_content: "Saltar al contenido"
+  skip_footer: "Saltar al pie de página"
+  menu_label: "Menú"
+  by: "por"
+  min_read: "minuto(s) de lectura"
+  read_more: "Leer más&hellip;"
+  categories: "Categorías"
+  tags: "Etiquetas"
+  pages_categorized: "Páginas archivadas bajo"
+  pages_tagged: "Páginas etiquetadas"
+  table_of_contents: "Tabla de contenidos"
+  results_found: "Resultado(s) encontrado(s)"
+  share: "Compartir"
+  tweet: "Tweet"
+  next: "Siguiente"
+  previous: "Anterior"
+  newer: "Nuevo"
+  older: "Antiguo"
+  back_to_top: "Volver arriba"
+  search_placeholder_text: "Ingrese su término de búsqueda ..."
+  powered_by: "Energizado por"
+es-ES:
+  <<: *DEFAULT_ES
+es-CL:
+  <<: *DEFAULT_ES
