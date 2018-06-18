@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+- Add Spanish translations to `text.yml`. [#300](https://github.com/mmistakes/so-simple-theme/pull/300)
+
 ### Fixed
 - Clarify where to customize SCSS variables in `/assets/css/main.scss`. [#293](https://github.com/mmistakes/so-simple-theme/pull/293)
 
