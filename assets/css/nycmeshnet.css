@@ -41,3 +41,11 @@ body { background-color: #E4E4E4; }
 .btn:hover { background-color: #A5A5A5; }
 
 article strong a { border-bottom: 1px dotted #a2a2a2; }
+
+.content ul {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
