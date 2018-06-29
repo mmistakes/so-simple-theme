@@ -23,7 +23,6 @@ Leadership Body for NumFOCUS:
 * Tamara Broderick <span class="note">(Massachusetts Institute of Technology)</span>
 * Andrew Gelman <span class="note">(Columbia University)</span>
 * Daniel Lee <span class="note">(Generable)</span>
-* Elizabeth Wolkovich <span class="note">(Univesity of British Columbia)</span>
 
 ### About NumFOCUS
 
