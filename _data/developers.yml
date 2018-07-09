@@ -218,3 +218,24 @@
   web: https://paul-buerkner.github.io/
   twitter: paulbuerkner
   avatar: paul_buerkner.jpg
+
+- name: Steve Bronder
+  affiliation: Capital One, Columbia University
+  github: SteveBronder
+  email: sab2287@columbia.edu
+  web: http://www.stevebronder.com/
+  twitter: BreveStonder
+  linkedin: BreveStonder
+  avatar: steve_bronder.jpg
+
+- name: Rok Češnovar
+  affiliation: University of Ljubljana
+  github: rok-cesnovar
+  email: rok.cesnovar@fri.uni-lj.si
+  avatar: rok_cesnovar.jpg
+
+- name: Erik Štrumbelj
+  affiliation: University of Ljubljana
+  github: estrumbelj
+  email: erik.strumbelj@fri.uni-lj.si
+  avatar: erik_strumbelj.jpg
