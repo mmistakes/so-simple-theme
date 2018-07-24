@@ -131,7 +131,7 @@ Times may change, but the schedule below should help your planning.
 | 9-18 | Conference |
 || **Thursday 30 August, TBD** |
 | 19:30- | Dinner |
-|| **Friday 30 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
+|| **Friday 31 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
 | 8-10  | Registration |
 | 9-17  | Conference  |
 
