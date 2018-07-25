@@ -18,10 +18,10 @@ the shell interface to Stan
 The CmdStan distribution includes the complete source and
 documentation for all platforms.
 
-* [CmdStan 2.17.1 [tar.gz]](https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-2.17.1.tar.gz)
+* [CmdStan 2.18.0 [tar.gz]](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-2.18.0.tar.gz)
   <span class="note">(GitHub)</span>
 
-* [CmdStan 2.17.1 [zip]](https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-2.17.1.zip)
+* [CmdStan 2.18.0 [zip]](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-2.18.0.zip)
    <span class="note">(GitHub)</span>
 
 Unpack the distribution and consult the user's guide <span class="note">(in directory
@@ -34,8 +34,8 @@ Unpack the distribution and consult the user's guide <span class="note">(in dire
 The CmdStan documentation is also available directly.
 
 * <p>
-  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-guide-2.17.1.pdf"><i>CmdStan
-    Interface User's Guide, v2.17.1</i></a>
+  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-guide.pdf"><i>CmdStan
+    Interface User's Guide, v2.18.0</i></a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
 

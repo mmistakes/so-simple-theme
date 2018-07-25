@@ -35,14 +35,14 @@ they use, while some also include the language manual or the overview paper.
 ## Language Manual
 
 * <p>Stan Development Team. 2017. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.17.0.
+  Reference Manual</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 ## Stan Math Library
 
 * <p>Stan Development Team. 2017.  <i>The Stan Math Library</i>,  Version
-  2.17.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
+  2.18.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
 
 * Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee,
   Peter Li, and Michael J. Betancourt.  2015.  The Stan Math Library:
@@ -50,7 +50,7 @@ they use, while some also include the language manual or the overview paper.
 
 ## Stan Core Library
 
-* <p>Stan Development Team. 2017. <i>The Stan Core Library</i>, Version 2.17.0.
+* <p>Stan Development Team. 2017. <i>The Stan Core Library</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -72,7 +72,7 @@ they use, while some also include the language manual or the overview paper.
 ## CmdStan
 
 * <p>Stan Development Team. 2017. <i>CmdStan: the command-line
-  interface to Stan</i>, Version 2.17.0.
+  interface to Stan</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
