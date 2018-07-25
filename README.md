@@ -741,7 +741,7 @@ Suggested image sizes in pixels are as follows:
 ## Theme Text
 
 To change text found throughout the theme, copy the following
-[`/_data/theme.yml`](_data/text.yml) file and customize as necessary.
+[`/_data/text.yml`](_data/text.yml) file and customize as necessary.
 
 When adding new texts be sure the keys match these [language/country codes](<https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx>), that may be used for [`site.locale`](#site-locale).
 
