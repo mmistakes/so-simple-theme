@@ -1,0 +1,169 @@
+Received: via dmail-2010.19 for +INBOX; Wed, 18 Jul 2018 04:01:10 -0500 (CDT)
+Received: from rs110.luxsci.com ([172.16.30.182])
+	by rs159.luxsci.com (8.14.4/8.14.9) with ESMTP id w6I91AjM032649
+	(version=TLSv1/SSLv3 cipher=AES256-GCM-SHA384 bits=256 verify=NOT)
+	for <user-51941@rs159.luxsci.com>; Wed, 18 Jul 2018 04:01:10 -0500
+Received: from rs110.luxsci.com (localhost.localdomain [127.0.0.1])
+	by rs110.luxsci.com (8.14.4/8.14.9) with ESMTP id w6I91Amg032063
+	for <user-51941@rs159.luxsci.com>; Wed, 18 Jul 2018 04:01:10 -0500
+Received: (from mail@localhost)
+	by rs110.luxsci.com (8.14.4/8.14.9/Submit) id w6I91ACw032058
+	for user-51941@rs159.luxsci.com; Wed, 18 Jul 2018 04:01:10 -0500
+Return-Path: <joss.wright@oii.ox.ac.uk>
+Received: from dispatch1-us1.ppe-hosted.com (dispatch1-us1.ppe-hosted.com [148.163.129.52])
+	by rs110.luxsci.com (8.14.4/8.14.9) with ESMTP id w6I919Fb031774
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NOT)
+	for <breck@alias-i.com>; Wed, 18 Jul 2018 04:01:10 -0500
+X-Virus-Scanned: Proofpoint Essentials engine
+Received: from relay15.mail.ox.ac.uk (relay15.mail.ox.ac.uk [163.1.2.163])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mx1-us4.ppe-hosted.com (Proofpoint Essentials ESMTP Server) with ESMTPS id 8F86380068
+	for <breck@alias-i.com>; Wed, 18 Jul 2018 09:01:07 +0000 (UTC)
+Received: from smtp6.mail.ox.ac.uk ([163.1.2.206])
+	by relay15.mail.ox.ac.uk with esmtps (TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256)
+	(Exim 4.89)
+	(envelope-from <joss.wright@oii.ox.ac.uk>)
+	id 1ffiKS-00059T-na
+	for breck@alias-i.com; Wed, 18 Jul 2018 10:01:00 +0100
+Received: from client-8-87.eduroam.oxuni.org.uk ([192.76.8.87] helo=localhost)
+	by smtp6.mail.ox.ac.uk with esmtpsa (TLS1.2:ECDHE_RSA_AES_256_GCM_SHA384:256)
+	(Exim 4.89)
+	(envelope-from <joss.wright@oii.ox.ac.uk>)
+	id 1ffiKS-0007GS-Jn
+	for breck@alias-i.com; Wed, 18 Jul 2018 10:01:00 +0100
+Date: Wed, 18 Jul 2018 10:00:34 +0100
+From: Joss Wright <joss.wright@oii.ox.ac.uk>
+To: breck@alias-i.com
+Subject: Stan Hex Sticker design
+Message-ID: <20180718090034.GB32477@lovecraft.localdomain>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="PEIAKu/WMn1b1Hv9"
+Content-Disposition: inline
+User-Agent: Mutt/1.9.4 (2018-02-28)
+X-Oxford-Username: inet0123
+X-Oxmail-Spam-Status: score=0.0 tests=none
+X-Oxmail-Spam-Level: /
+X-MDID: 1531904468-8PM0pODeHOH4
+X-Lux-Inbound-TLS: 1
+X-Lux-PEF: 1
+X-Lux-Processed-For: <breck@alias-i.com>
+X-Lux-Ruleset: #51941 on rs110.luxsci.com
+X-Lux-Envelope-Recipient: <breck@alias-i.com>
+X-Lux-Rule: Deliver
+X-Lux-Delivered-To: "INBOX"
+
+
+--PEIAKu/WMn1b1Hv9
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+
+Dear Breck,
+
+This is to confirm that I assign copyright for the hex-sticker version
+of the Stan logo to the Stan Board of NumFOCUS.
+
+For clarity, I've attached the PDF version to this email. 
+
+All the best,
+
+Joss Wright
+-- 
+Dr. Joss Wright | Senior Research Fellow
+Oxford Internet Institute, University of Oxford
+Co-Director, Oxford University Cybersecurity Doctoral Training Centre
+Turing Fellow, Alan Turing Institute
+http://www.oii.ox.ac.uk/people/?id=176
+
+
+--PEIAKu/WMn1b1Hv9
+Content-Type: application/pdf
+Content-Disposition: attachment; filename="stan_edge.pdf"
+Content-Transfer-Encoding: base64
+
+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
+YmoKPDwKICAgL0V4dEdTdGF0ZSA8PAogICAgICAvYTAgPDwgL0NBIDEgL2NhIDEgPj4KICAg
+Pj4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgJSAxCiAgIC9QYXJlbnQgMSAw
+IFIKICAgL01lZGlhQm94IFsgMCAwIDEzNy4wMzk5OTMgMTU4LjA5ODk4NCBdCiAgIC9Db250
+ZW50cyA0IDAgUgogICAvR3JvdXAgPDwKICAgICAgL1R5cGUgL0dyb3VwCiAgICAgIC9TIC9U
+cmFuc3BhcmVuY3kKICAgICAgL0kgdHJ1ZQogICAgICAvQ1MgL0RldmljZVJHQgogICA+Pgog
+ICAvUmVzb3VyY2VzIDMgMCBSCj4+CmVuZG9iagoxIDAgb2JqCjw8IC9UeXBlIC9QYWdlcwog
+ICAvS2lkcyBbIDIgMCBSIF0KICAgL0NvdW50IDEKPj4KZW5kb2JqCjYgMCBvYmoKPDwgL1By
+b2R1Y2VyIChjYWlybyAxLjE1LjEyIChodHRwOi8vY2Fpcm9ncmFwaGljcy5vcmcpKQogICAv
+Q3JlYXRpb25EYXRlIChEOjIwMTgwNzE0MTEwMzE5KzAxJzAwKQo+PgplbmRvYmoKNyAwIG9i
+ago8PCAvVHlwZSAvQ2F0YWxvZwogICAvUGFnZXMgMSAwIFIKPj4KZW5kb2JqCnhyZWYKMCA4
+CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMzk3MSAwMDAwMCBuIAowMDAwMDAzNzM5IDAw
+MDAwIG4gCjAwMDAwMDM2NjcgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAz
+NjQ0IDAwMDAwIG4gCjAwMDAwMDQwMzYgMDAwMDAgbiAKMDAwMDAwNDE1MiAwMDAwMCBuIAp0
+cmFpbGVyCjw8IC9TaXplIDgKICAgL1Jvb3QgNyAwIFIKICAgL0luZm8gNiAwIFIKPj4Kc3Rh
+cnR4cmVmCjQyMDQKJSVFT0YK
+
+--PEIAKu/WMn1b1Hv9--
+
