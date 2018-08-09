@@ -30,7 +30,7 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 
 ------
 
-Stan (http://mc-stan.org) is a probabilistic programming and statistical modeling language used by tens of thousands of scientists, engineers, and other researchers for statistical modeling, data analysis, and prediction. It is being applied academically and commercially across fields as diverse as ecology, pharmacometrics, physics, political science, finance and econometrics, professional sports, real estate, publishing, recommender systems, and educational testing. 
+Stan (http://mc-stan.org) is a probabilistic programming and statistical modeling language used by tens of thousands of scientists, engineers, and other researchers for statistical modeling, data analysis, and prediction. It is being applied academically and commercially across fields as diverse as ecology, pharmacometrics, physics, political science, finance and econometrics, professional sports, real estate, publishing, recommender systems, and educational testing.
 
 If you have questions regarding registration, payments, travel, please email
 [stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
@@ -45,28 +45,28 @@ StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö 
 
 Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
 
-[Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
+* [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
 # [Accommodation](#accommodation)
 
-Please make your hotel reservation directly to the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
+Please make your hotel reservation directly with the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
 
 # [Overall Schedule](#overall-schedule)
 
 || **Wednesday 29 August, Aalto University, Otaniemi campus, Maarintie 8, Espoo** |
-| 8-14 | Registration |
-| 8:30-17:30 | Tutorials |
+| 08:00 - 14:00 | Registration |
+| 08:30 - 17:30 | Tutorials |
 || **Wednesday 29 August, Musiikkitalo, Mannerheimintie 13 A, Helsinki** |
-| 18:30-21 | Registration |
-| 19-21:30 | Get together |
+| 18:30 - 21:00 | Registration |
+| 19:00 - 21:30 | Get together |
 || **Thursday 30 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
-| 8-17 | Registration |
-| 9-18 | Conference |
+| 08:00 - 17:00 | Registration |
+| 09:00 - 18:00 | Conference |
 || **Thursday 30 August, TBD** |
-| 19:30- | Dinner |
+| 19:30 -  | Dinner |
 || **Friday 31 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
-| 8-10  | Registration |
-| 9-17  | Conference  |
+| 08:00 - 10:00  | Registration |
+| 09:00 - 17:00  | Conference  |
 
 # [Speakers and Schedule](#speakers-and-schedule)
 
@@ -74,132 +74,132 @@ Please make your hotel reservation directly to the hotels. We have arranged some
 
 Location: [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/maps/84SJ4uRWqBA2)
 
-8:00-8:30 **Registration**
+08:00 - 8:30 **Registration**
 
-8:30-10:00 [**Basics of Bayesian inference and Stan**](#basics)
+08:30 - 10:00 [**Basics of Bayesian inference and Stan**](#basics)
 Jonah Gabry & Lauren Kennedy
 
-8:30-10:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
+08:30 - 10:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
 Bob Carpenter & Sean Talts
 
-10:00-10:30 **Coffee Break**
+10:00 - 10:30 **Coffee Break**
 
-10:30-12:00 [**Basics of Bayesian inference and Stan**](#basics)
+10:30 - 12:00 [**Basics of Bayesian inference and Stan**](#basics)
 Jonah Gabry & Lauren Kennedy
 
-10:30-12:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
+10:30 - 12:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
 Bob Carpenter & Sean Talts
 
-12-13:00 **Lunch**
+12:00 - 13:00 **Lunch**
 
-13:00-14:30 [**Hierarchical models**](#hier)
+13:00 - 14:30 [**Hierarchical models**](#hier)
 Ben Goodrich
 
-13:00-14:30 [**Ordinary differential equation (ODE) models in Stan**](#ode)
+13:00 - 14:30 [**Ordinary differential equation (ODE) models in Stan**](#ode)
 Daniel Lee
 
-14:30-15:00 **Coffee break**
+14:30 - 15:00 **Coffee break**
 
-15-16:30 [**Hierarchical models**](#hier)
+15:00 - 16:30 [**Hierarchical models**](#hier)
 Ben Goodrich
 
-15-16:30 [**Productization of Stan**](#product)
+15:00 - 16:30 [**Productization of Stan**](#product)
 Erik Novik
 
-16:30-17:30 [**Model assessment and selection**](#assessment)
+16:30 - 17:30 [**Model assessment and selection**](#assessment)
 Aki Vehtari
 
-16:30-17:30 **Meet the developers**
+16:30 - 17:30 **Meet the developers**
 TBD
 
-19-21:30    **Get together**, [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
+19:00 - 21:30    **Get together**, [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
 
 ## Thursday 30th August
 
 Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
 
-08:45-09:15 **Welcome**
+08:45 - 09:15 **Welcome**
 
-09:15-10:00 **Invited Talk: Hierarchical modelling of galaxy clusters for Cosmology**  
-[Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre 
+09:15 - 10:00 **Invited Talk: Hierarchical modelling of galaxy clusters for Cosmology**
+[Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre
 
-10:00-10:45 **Coffee break**
+10:00 - 10:45 **Coffee break**
 
-10:45-11:45 **Contributed Talks: Session 1**  
+10:45 - 11:45 **Contributed Talks: Session 1**
 
-* Arya Pourzanjani	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*  
-* Martin Modrák *ODE Model of Gene Regulation*  
+* Arya Pourzanjani	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*
+* Martin Modrák *ODE Model of Gene Regulation*
 * Sebastian Weber *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
 
-11:45-12:00 **Poster Spotlights**
+11:45 - 12:00 **Poster Spotlights**
 
-12:00-13:00 **Lunch**
+12:00 - 13:00 **Lunch**
 
-13:00-14:00 **Contributed Talks: Session 2** 
+13:00 - 14:00 **Contributed Talks: Session 2**
 
-* Iiris Sundin	*Using counterfactual queries to improve models for decision-support*  
-* Alex Braylan  *Self-tuning Holidays*   
-* Jari Turkia	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*  
+* Iiris Sundin	*Using counterfactual queries to improve models for decision-support*
+* Alex Braylan  *Self-tuning Holidays*
+* Jari Turkia	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*
 
-14:00-14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**  
-[Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology 
+14:00 - 14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**
+[Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology
 
-14:45-15:30 **Coffee Break**
+14:45 - 15:30 **Coffee Break**
 
-15:30-16:30 **Contributed Talks: Session 3**  
+15:30 - 16:30 **Contributed Talks: Session 3**
 
-* Paul Buerkner	*Define Custom Response Distributions with brms*  
-* Kristian Brock *Clinical trial designs in Stan with trialr*  
-* Marco Munda *Analysis of repeated measures data in RStan*  
+* Paul Buerkner	*Define Custom Response Distributions with brms*
+* Kristian Brock *Clinical trial designs in Stan with trialr*
+* Marco Munda *Analysis of repeated measures data in RStan*
 
-16:30-16:45 **Poster Spotlights**
+16:30 - 16:45 **Poster Spotlights**
 
-16:45-17:15 **Stan Roadmap**  
+16:45 - 17:15 **Stan Roadmap**
 Bob Carpenter, Columbia University
 
-17:15-18:00 **Networking**
+17:15 - 18:00 **Networking**
 
-19:30- **Dinner**
+19:30 -  **Dinner**
 
 ## Friday 31st August
 
 Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
 
-09:00-09:45 **Identifying the effect of public holidays on daily demand for gas**  
-[Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University 
+09:00 - 09:45 **Identifying the effect of public holidays on daily demand for gas**
+[Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University
 
-09:45-10:00 **Poster Spotlights**
+09:45 - 10:00 **Poster Spotlights**
 
-10:00-10:45 **Coffee Break**
+10:00 - 10:45 **Coffee Break**
 
-10:45-11:45 **Contributed Talks: Session 4**
+10:45 - 11:45 **Contributed Talks: Session 4**
 
 * Bruno Nicenboim *The implementation of a model of choice: the (truncated) linear ballistic accumulator.*
 * Ville Laitinen *A Hierarchical extension to Ornstein-Uhlenbeck-type Student’s t-processes*
 * Christopher Hammill	*Analyzing Brain Structure Trees with Stan*
 
-11:45-12:00 **Poster Spotlights**
+11:45 - 12:00 **Poster Spotlights**
 
-12:00-13:00 **Lunch**
+12:00 - 13:00 **Lunch**
 
-13:00-14:00 **Contributed Talks: Session 5**
+13:00 - 14:00 **Contributed Talks: Session 5**
 
 * Jonathan Auerbach *Predicting New York City School Enrollment*
 * Leo Egidi	*Are shots predictive of soccer results?*
 * Gertjan Verhoeven	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
 
-14:00-15:00 **Contributed Talks Session 6**
+14:00 - 15:00 **Contributed Talks Session 6**
 
 * Tom Nielsen	*Getting more out of Stan: some ideas from the Haskell bindings*
 * Yuling Yao	*PSIS-diagnostics of ADVI in Stan*
 * Steve Bronder	*GPU Optimized Math Routines in the Stan Math Library*
 
-15:00-15:45 **Coffee Break**
+15:00 - 15:45 **Coffee Break**
 
-15:45-16:30 **Stan Interface Roadmap**
+15:45 - 16:30 **Stan Interface Roadmap**
 Jonah Gabry, Columbia University
 
-16:30-17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**  
+16:30 - 17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
 
 ## [Get together](#gettogether)
