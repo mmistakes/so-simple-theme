@@ -5,8 +5,6 @@ excerpt: ""
 modified:
 image:
   feature: feature/wide_ensemble.png
-  credit:
-  creditlink:
 ---
 
 One day of tutorials and two days of talks, open discussions, and statistical modeling in beautiful Helsinki, Finland.
@@ -22,10 +20,9 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 
 ------
 - [**Location**](#location)
-- [**Important Dates**](#important-dates)
-- [**Call for contributed talks and posters**](#call-for-contributed-talks)
 - [**Registration**](#registration-information)
 - [**Accommodation**](#accommodation)
+- [**Overall Schedule**](#overall-schedule)
 - [**Speakers and Schedule**](#speakers-and-schedule)
 - [**Tutorials**](#tutorials)
 - [**Sponsors**](#sponsors)
@@ -34,6 +31,9 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 ------
 
 Stan (http://mc-stan.org) is a probabilistic programming and statistical modeling language used by tens of thousands of scientists, engineers, and other researchers for statistical modeling, data analysis, and prediction. It is being applied academically and commercially across fields as diverse as ecology, pharmacometrics, physics, political science, finance and econometrics, professional sports, real estate, publishing, recommender systems, and educational testing. 
+
+If you have questions regarding registration, payments, travel, please email
+[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
 
 ------
 
@@ -47,78 +47,11 @@ Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus 
 
 [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
-# [Important Dates](#important-dates)
-
-Here are the important dates for StanCon 2018 Helsinki.
-
-| Date | What |
-|------|--------|
-| ~~Apr 16, 2018~~ | ~~Contributed talks submissions~~ |
-| ~~May 22, 2018~~ | ~~Contributed talks acceptance notifications (see update: [link](http://discourse.mc-stan.org/t/stancon-helsinki-submission-responses/4310))~~ |
-| ~~May 31, 2018~~ | ~~Early registration ends <br> (Registration prices increase by 50%)~~ |
-| July 31, 2018| Registration ends <br> (No additional registrations for StanCon after this point) |
-| July 31, 2018| Poster submission deadline |
-| Aug 29, 2018 | Stan tutorials, Aalto Otaniemi campus |
-| Aug 30-31, 2018 | Stan Conference, Aalto Töölö campus |
-
-
-# [Call for contributed talks](#call-for-contributed-talks)
-
-## Contributed talks
-
-StanCon’s version of conference proceedings is a collection of contributed talks based on interactive, self-contained notebooks (e.g., knitr, R Markdown, Jupyter, etc.). For example, you might demonstrate a novel modeling technique, or (possibly simplified version of) a novel application, etc. There is no minimum or maximum length and anyone using Stan is welcome to submit a contributed talk.
-
-More details are available on the [StanCon submissions web page](/events/stancon2018Helsinki/stancon-submissions.html) and examples of accepted submissions from  are available in our [stancon_talks](https://github.com/stan-dev/stancon_talks) repository on GitHub.
-
-## Contributed posters
-
-We will accept poster submissions on a rolling basis until July 31st. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. We will accept/reject within 48 hours. Send to  stancon2018helsinki@mc-stan.org.
-
-
-# [Registration Information](#registration-information)
-
-
-### Registration
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 150 | EUR 300 | EUR 450 |
-
-<br>
-
-### Tutorials
-
-| Student | Academic | Industry |
-|:------:|:------:|:------:|
-| EUR 30 | EUR 150 | EUR 225 |
-
-<br>
-
-[Details on registration and payments](/events/stancon2018Helsinki/stancon-registration.html)
-
-If you have questions regarding registration, payments, travel, please email
-[stancon.helsinki2018@tavicon.fi](mailto:stancon.helsinki2018@tavicon.fi).
-
 # [Accommodation](#accommodation)
 
 Please make your hotel reservation directly to the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
 
-# [Speakers and Schedule](#speakers-and-schedule)
-
-## Invited speakers!
-
-* [Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology
-<br> **Bad Data, Big Models, and Statistical Methods for Studying Evolution**
-* [Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre
-<br> **Hierarchical modelling of galaxy clusters for Cosmology**
-* [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University
-<br> **Identifying the effect of public holidays on daily demand for gas**
-* [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
-<br> **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
-
-## Schedule
-
-Times may change, but the schedule below should help your planning.
+# [Overall Schedule](#overall-schedule)
 
 || **Wednesday 29 August, Aalto University, Otaniemi campus, Maarintie 8, Espoo** |
 | 8-14 | Registration |
@@ -135,10 +68,143 @@ Times may change, but the schedule below should help your planning.
 | 8-10  | Registration |
 | 9-17  | Conference  |
 
+# [Speakers and Schedule](#speakers-and-schedule)
+
+## Wednesday 29th August
+
+Location: [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/maps/84SJ4uRWqBA2)
+
+8:00-8:30 **Registration**
+
+8:30-10:00 [**Basics of Bayesian inference and Stan**](#basics)
+Jonah Gabry & Lauren Kennedy
+
+8:30-10:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
+Bob Carpenter & Sean Talts
+
+10:00-10:30 **Coffee Break**
+
+10:30-12:00 [**Basics of Bayesian inference and Stan**](#basics)
+Jonah Gabry & Lauren Kennedy
+
+10:30-12:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
+Bob Carpenter & Sean Talts
+
+12-13:00 **Lunch**
+
+13:00-14:30 [**Hierarchical models**](#hier)
+Ben Goodrich
+
+13:00-14:30 [**Ordinary differential equation (ODE) models in Stan**](#ode)
+Daniel Lee
+
+14:30-15:00 **Coffee break**
+
+15-16:30 [**Hierarchical models**](#hier)
+Ben Goodrich
+
+15-16:30 [**Productization of Stan**](#product)
+Erik Novik
+
+16:30-17:30 [**Model assessment and selection**](#assessment)
+Aki Vehtari
+
+16:30-17:30 **Meet the developers**
+TBD
+
+19-21:30    **Get together**, [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
+
+## Thursday 30th August
+
+Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
+
+08:45-09:15 **Welcome**
+
+09:15-10:00 **Invited Talk: Hierarchical modelling of galaxy clusters for Cosmology**  
+[Maggie Lieu](https://maggielieu.com), European Space Astronomy Centre 
+
+10:00-10:45 **Coffee break**
+
+10:45-11:45 **Contributed Talks: Session 1**  
+
+* Arya Pourzanjani	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*  
+* Martin Modrák *ODE Model of Gene Regulation*  
+* Sebastian Weber *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
+
+11:45-12:00 **Poster Spotlights**
+
+12:00-13:00 **Lunch**
+
+13:00-14:00 **Contributed Talks: Session 2** 
+
+* Iiris Sundin	*Using counterfactual queries to improve models for decision-support*  
+* Alex Braylan  *Self-tuning Holidays*   
+* Jari Turkia	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*  
+
+14:00-14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**  
+[Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology 
+
+14:45-15:30 **Coffee Break**
+
+15:30-16:30 **Contributed Talks: Session 3**  
+
+* Paul Buerkner	*Define Custom Response Distributions with brms*  
+* Kristian Brock *Clinical trial designs in Stan with trialr*  
+* Marco Munda *Analysis of repeated measures data in RStan*  
+
+16:30-16:45 **Poster Spotlights**
+
+16:45-17:15 **Stan Roadmap**  
+Bob Carpenter, Columbia University
+
+17:15-18:00 **Networking**
+
+19:30- **Dinner**
+
+## Friday 31st August
+
+Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
+
+09:00-09:45 **Identifying the effect of public holidays on daily demand for gas**  
+[Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University 
+
+09:45-10:00 **Poster Spotlights**
+
+10:00-10:45 **Coffee Break**
+
+10:45-11:45 **Contributed Talks: Session 4**
+
+* Bruno Nicenboim *The implementation of a model of choice: the (truncated) linear ballistic accumulator.*
+* Ville Laitinen *A Hierarchical extension to Ornstein-Uhlenbeck-type Student’s t-processes*
+* Christopher Hammill	*Analyzing Brain Structure Trees with Stan*
+
+11:45-12:00 **Poster Spotlights**
+
+12:00-13:00 **Lunch**
+
+13:00-14:00 **Contributed Talks: Session 5**
+
+* Jonathan Auerbach *Predicting New York City School Enrollment*
+* Leo Egidi	*Are shots predictive of soccer results?*
+* Gertjan Verhoeven	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
+
+14:00-15:00 **Contributed Talks Session 6**
+
+* Tom Nielsen	*Getting more out of Stan: some ideas from the Haskell bindings*
+* Yuling Yao	*PSIS-diagnostics of ADVI in Stan*
+* Steve Bronder	*GPU Optimized Math Routines in the Stan Math Library*
+
+15:00-15:45 **Coffee Break**
+
+15:45-16:30 **Stan Interface Roadmap**
+Jonah Gabry, Columbia University
+
+16:30-17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**  
+[Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
+
 ## [Get together](#gettogether)
 
-Get together event will be on Wednesday evening at Musiikkitalo,
-Mannerheimintie 13 A, Helsinki (included in the registration fee)
+Get together event will be on Wednesday evening at [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj) (included in the registration fee)
 
 ## [Dinner](#dinner)
 
@@ -147,19 +213,19 @@ registration fee).
 
 # [Tutorials](#tutorials)
 
-Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at Aalto Otaniemi campus (Maarintie 8, Espoo), 13mins metro ride away from Helsinki city center. There will be at least two parallel sessions. For planning purposes we will ask your preferences, but that choice is not binding. The tutorial sessions are:
+Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/maps/84SJ4uRWqBA2), 13mins metro ride away from Helsinki city center. There are two parallel sessions. The tutorial sessions are:
 
-* **Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/) & [Lauren Kennedy](https://www.linkedin.com/in/lauren-kennedy-783864bb)
+* <a id="basics"></a>**Basics of Bayesian inference and Stan** (morning half day), [Jonah Gabry](https://jgabry.github.io/) & [Lauren Kennedy](https://www.linkedin.com/in/lauren-kennedy-783864bb)
 <br>In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 1/2 day for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement.
 <br>
 This session will be helpful preparation for anyone interested in attending the afternoon session on hierarchical modeling.
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
-* **Hierarchical models** (afternoon half day), [Ben Goodrich](https://github.com/bgoodri)
+* <a id="hier"></a>**Hierarchical models** (afternoon half day), [Ben Goodrich](https://github.com/bgoodri)
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
 <br> Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
 
-* **Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/) and [Sean Talts](https://github.com/seantalts)
+* <a id="cpp"></a>**Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/) and [Sean Talts](https://github.com/seantalts)
 <br> This tutorial will prepare you to submit your first pull
 request for Stan's C++ libraries.  We will cover all of the
 steps required to add a new function with analytic gradients
@@ -170,12 +236,17 @@ merging.  In addition to the process, we will survey the math library,
 including scalar and matrix data types, automatic differentiation,
 and template traits and metaprograms.
 
-* **Model assessment and selection** (afternoon 1.5 hours), [Aki Vehtari](https://users.aalto.fi/~ave/)
-<br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
+* <a id="ode"></a>**Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), [Daniel Lee](https://www.generable.com/about/)
+<br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers
+from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs
+as functions, the use of the ODE integrators, and practical tips on packing and unpacking the
+arguments to the function.
 <br>
-Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
+This tutorial is meant to be hands-on. Please be familiar with running Stan models from
+the interface of your choice. It will help to know the difference between arrays of `real` and
+`vector` types (see Ch. 26 "Matrices, Vectors, and Arrays").
 
-* **Productization of Stan** (afternoon 1.5 hours), [Eric Novik](https://www.generable.com/about/)
+* <a id="product"></a>**Productization of Stan** (afternoon 1.5 hours), [Eric Novik](https://www.generable.com/about/)
 <br>
 We all love Stan for its expressivity and flexibility, and for making state-of-the-art
 NUTS sampler available to a broad community of statisticians, econometricians,
@@ -192,15 +263,10 @@ of use as well as anti-patterns that are emerging as a result. In this session, 
 present several approaches to productizing Stan and discuss their strengths
 and weaknesses.
 
-* **Ordinary differential equation (ODE) models in Stan** (afternoon 1.5 hours), [Daniel Lee](https://www.generable.com/about/)
-<br> This tutorial will cover the usage of the ordinary differential equation (ODE) solvers
-from within the Stan language. It will be a hands-on session where we'll learn to specify ODEs
-as functions, the use of the ODE integrators, and practical tips on packing and unpacking the
-arguments to the function.
+* <a id="assessment"></a>**Model assessment and selection** (afternoon 1 hour), [Aki Vehtari](https://users.aalto.fi/~ave/)
+<br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
 <br>
-This tutorial is meant to be hands-on. Please be familiar with running Stan models from
-the interface of your choice. It will help to know the difference between arrays of `real` and
-`vector` types (see Ch. 26 "Matrices, Vectors, and Arrays").
+Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 
 
