@@ -184,7 +184,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 13:00 - 14:00 **Contributed Talks: Session 5**
 
-* Jonathan Auerbach *Predicting New York City School Enrollment*
+* Tim Jones and Jonathan Auerbach *Predicting New York City School Enrollment*
 * Leo Egidi	*Are shots predictive of soccer results?*
 * Gertjan Verhoeven	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
 
