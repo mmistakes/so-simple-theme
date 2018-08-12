@@ -204,51 +204,51 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 ## [Posters](#posters)
 **Shrinkage priors for Bayesian penalized regression**   
 van Erp, S., Oberski, D. L. & Mulder, J.    
-**Kinetic modelling of cocoa bean fermentation: An application of Bayesian parameter estimation using RStan  **  
+**Kinetic modelling of cocoa bean fermentation: An application of Bayesian parameter estimation using RStan**  
 Moreno-Zambrano, M., Grimbs, S., Ullrich M. S., & Hütt, M.    
-**Hierarchical Bayes goes marine: building propulsion power prediction models with Stan  **  
+**Hierarchical Bayes goes marine: building propulsion power prediction models with Stan**  
 Solonen, A., Laine, M. & Haario, H.    
-**Who drinks in South Africa, and how much? Integrating multiple sources of information to estimate alcohol consumption trends **   
+**Who drinks in South Africa, and how much? Integrating multiple sources of information to estimate alcohol consumption trends**   
 Cois, A.    
-**Estimating flood probability Bands Using Flood Event Data - a case study on the importance of specifying prior distributions  **  
+**Estimating flood probability Bands Using Flood Event Data - a case study on the importance of specifying prior distributions**  
 Prosdocimi, I.  
-**Relating the development of maternal Post-Traumatic Stress to Health Related Quality of Life of children with severe burn injuries.   **  
+**Relating the development of maternal Post-Traumatic Stress to Health Related Quality of Life of children with severe burn injuries. **  
 Veen, D., Egberts, M.R., Veen, D., van de Schoot, R. & van Loey, N.E.E.    
-**Bayesian inference with partial differential equations using Stan and adjoint sensitivity analysis  **  
+**Bayesian inference with partial differential equations using Stan and adjoint sensitivity analysis**  
 Zhang, Y. & Gillespie, W. R.    
-**Hierarchical Gaussian modelling of instantaneous heart rate distributions **  
+**Hierarchical Gaussian modelling of instantaneous heart rate distributions**  
 Korpela, J.  
 **Using counterfactual queries to improve models for decision-support**    
 Sundin, I., Schulam, P., Siivola, E., Vehtari, A., Saria,  S. & Kaski, S.    
-**Hierarchical Bayesian approach for modelling region- and event-level variability in flood damaging processes  **  
+**Hierarchical Bayesian approach for modelling region- and event-level variability in flood damaging processes**  
 Sairam, N.,  Schröter, K. & Kreibich, H.    
 **Can predicting data improve model interpretation and inferences? Using Stan to fight the assumption of independence.**  
 Bartoš, F., Lukavský,J. & Děchtěrenko, F.    
-**ctsem – hierarchical continuous time state space modelling for R  **  
+**ctsem – hierarchical continuous time state space modelling for R**  
 Driver, C.   
-**Modelling the effect of billboard advertising on online sales with Rstan **   
+**Modelling the effect of billboard advertising on online sales with Rstan**   
 Groß, M.  
-**V-Dem: Aggregating Expert Opinion on Democracy with IRT Models  **  
+**V-Dem: Aggregating Expert Opinion on Democracy with IRT Models**  
 V-Dem Institute  
-**Type M error in practice: A case study  **  
+**Type M error in practice: A case study**  
 Vasishth, S., Mertzen, D. Jäger L., Gelman, A.  
-**Age period cohort models with unequal time intervals  **  
+**Age period cohort models with unequal time intervals**  
 Smith, T.  
-**Qualifying drug dosing regimens in pediatrics using Gaussian Processes  **  
+**Qualifying drug dosing regimens in pediatrics using Gaussian Processes**  
 Siivola, E.	Weber, S. & Vehtari, A.   
-**TBA **  
+**TBA**  
 Mackerodt, J.  
-**Bayesian inference of protein conformational ensembles from limited structural data  **  
+**Bayesian inference of protein conformational ensembles from limited structural data**  
 Potrzebowski, W.  
 **Using STAN to Explore Fairness in University Admission Policies**  
 Mathioudakis, M., Castillo, C.  
-**A Trial By Fire: Presenting A Prospective Bayesian Analysis Plan To a Room of Statisticians. **  
+**A Trial By Fire: Presenting A Prospective Bayesian Analysis Plan To a Room of Statisticians.**  
 Clark, O.   
-**Bayesian model for the destruction of bacteria and bacterial spores under heat treatments **  
+**Bayesian model for the destruction of bacteria and bacterial spores under heat treatments**  
 Ilvonen, L., Honkela, A.   
 **Bayesian Regularized Mediation Analysis**  
 van Kesteren, E. 	Oberski, D.   
-**Forecasting a Stock’s Remaining Intraday Volume  **  
+**Forecasting a Stock’s Remaining Intraday Volume**  
 Bari, O. 	Constandache, A.
 
 ## [Get together](#gettogether)
