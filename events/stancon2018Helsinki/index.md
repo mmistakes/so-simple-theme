@@ -201,7 +201,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 16:30 - 17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
 
-## [Posters][#posters]
+## [Posters](#posters)
 **Shrinkage priors for Bayesian penalized regression**   
 van Erp, S., Oberski, D. L. & Mulder, J.    
 **Kinetic modelling of cocoa bean fermentation: An application of Bayesian parameter estimation using RStan  **  
