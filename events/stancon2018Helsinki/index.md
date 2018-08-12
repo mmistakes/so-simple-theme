@@ -19,13 +19,12 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 </center>
 
 ------
+- [**Sponsors**](#sponsors)
 - [**Location**](#location)
-- [**Registration**](#registration-information)
-- [**Accommodation**](#accommodation)
 - [**Overall Schedule**](#overall-schedule)
 - [**Speakers and Schedule**](#speakers-and-schedule)
+- [**Posters**](#posters)
 - [**Tutorials**](#tutorials)
-- [**Sponsors**](#sponsors)
 - [**StanCon 2018 Helsinki Organizing Committee**](#committee)
 
 ------
@@ -127,9 +126,9 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 10:45 - 11:45 **Contributed Talks: Session 1**
 
-* Arya Pourzanjani	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*
-* Martin Modrák *ODE Model of Gene Regulation*
-* Sebastian Weber *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
+* **Arya A. Pourzanjani**, Tie Bo Wu, Benjamin B. Bales, Linda R. Petzold	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*
+* **Martin Modrák** *ODE Model of Gene Regulation*
+* **Sebastian Weber** *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
 
 11:45 - 12:00 **Poster Spotlights**
 
@@ -137,9 +136,9 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 13:00 - 14:00 **Contributed Talks: Session 2**
 
-* Iiris Sundin	*Using counterfactual queries to improve models for decision-support*
-* Alex Braylan  *Self-tuning Holidays*
-* Jari Turkia	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*
+* **Iiris Sundin**	*Using counterfactual queries to improve models for decision-support*
+* **Alex Braylan**  *Self-tuning Holidays*
+* **Jari Turkia**	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*
 
 14:00 - 14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**
 [Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology
@@ -148,14 +147,14 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 15:30 - 16:30 **Contributed Talks: Session 3**
 
-* Paul Buerkner	*Define Custom Response Distributions with brms*
-* Kristian Brock *Clinical trial designs in Stan with trialr*
-* Marco Munda *Analysis of repeated measures data in RStan*
+* **Paul Buerkner**	*Define Custom Response Distributions with brms*
+* **Kristian Brock** *Clinical trial designs in Stan with trialr*
+* **Marco Munda** *Analysis of repeated measures data in RStan*
 
 16:30 - 16:45 **Poster Spotlights**
 
 16:45 - 17:15 **Stan Roadmap**
-Bob Carpenter, Columbia University
+**Bob Carpenter**, Columbia University
 
 17:15 - 18:00 **Networking**
 
@@ -174,9 +173,9 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 10:45 - 11:45 **Contributed Talks: Session 4**
 
-* Bruno Nicenboim *The implementation of a model of choice: the (truncated) linear ballistic accumulator.*
-* Ville Laitinen *A Hierarchical extension to Ornstein-Uhlenbeck-type Student’s t-processes*
-* Christopher Hammill	*Analyzing Brain Structure Trees with Stan*
+* **Bruno Nicenboim** *The implementation of a model of choice: the (truncated) linear ballistic accumulator.*
+* **Ville Laitinen** & Leo Lahti *A Hierarchical extension to Ornstein-Uhlenbeck-type Student’s t-processes*
+* **Christopher Hammill** & Jason Lerch	*Analyzing Brain Structure Trees with Stan*
 
 11:45 - 12:00 **Poster Spotlights**
 
@@ -184,23 +183,73 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 13:00 - 14:00 **Contributed Talks: Session 5**
 
-* Tim Jones and Jonathan Auerbach *Predicting New York City School Enrollment*
-* Leo Egidi	*Are shots predictive of soccer results?*
-* Gertjan Verhoeven	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
+* **Jonathan Auerbach,** Timothy Jones, and Robin Winstanley *Predicting New York City School Enrollment*
+* **Leo Egidi**, F. Pauli & N. Torelli	*Are shots predictive of soccer results?*
+* **Gertjan Verhoeven**	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
 
 14:00 - 15:00 **Contributed Talks Session 6**
 
-* Tom Nielsen	*Getting more out of Stan: some ideas from the Haskell bindings*
-* Yuling Yao	*PSIS-diagnostics of ADVI in Stan*
-* Steve Bronder	*GPU Optimized Math Routines in the Stan Math Library*
+* **Thomas A. Nielsen**, Dominic Steinitz & Henrik Nilsson	*Getting more out of Stan: some ideas from the Haskell bindings*
+* **Yuling Yao**, Aki Vehtari, Daniel Simpson and Andrew Gelman	*PSIS-diagnostics of ADVI in Stan*
+* Rok &#268;e&#353;novar, Davor Sluga, Jure Dem&#353;ar, **Steve Bronder**, Erik &#352;trumbelj	*GPU Optimized Math Routines in the Stan Math Library*
 
 15:00 - 15:45 **Coffee Break**
 
 15:45 - 16:30 **Stan Interface Roadmap**
-Jonah Gabry, Columbia University
+**Jonah Gabry**, Columbia University
 
 16:30 - 17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
+
+## [Posters][#posters]
+**Shrinkage priors for Bayesian penalized regression**   
+van Erp, S., Oberski, D. L. & Mulder, J.    
+**Kinetic modelling of cocoa bean fermentation: An application of Bayesian parameter estimation using RStan  **  
+Moreno-Zambrano, M., Grimbs, S., Ullrich M. S., & Hütt, M.    
+**Hierarchical Bayes goes marine: building propulsion power prediction models with Stan  **  
+Solonen, A., Laine, M. & Haario, H.    
+**Who drinks in South Africa, and how much? Integrating multiple sources of information to estimate alcohol consumption trends **   
+Cois, A.    
+**Estimating flood probability Bands Using Flood Event Data - a case study on the importance of specifying prior distributions  **  
+Prosdocimi, I.  
+**Relating the development of maternal Post-Traumatic Stress to Health Related Quality of Life of children with severe burn injuries.   **  
+Veen, D., Egberts, M.R., Veen, D., van de Schoot, R. & van Loey, N.E.E.    
+**Bayesian inference with partial differential equations using Stan and adjoint sensitivity analysis  **  
+Zhang, Y. & Gillespie, W. R.    
+**Hierarchical Gaussian modelling of instantaneous heart rate distributions **  
+Korpela, J.  
+**Using counterfactual queries to improve models for decision-support**    
+Sundin, I., Schulam, P., Siivola, E., Vehtari, A., Saria,  S. & Kaski, S.    
+**Hierarchical Bayesian approach for modelling region- and event-level variability in flood damaging processes  **  
+Sairam, N.,  Schröter, K. & Kreibich, H.    
+**Can predicting data improve model interpretation and inferences? Using Stan to fight the assumption of independence.**  
+Bartoš, F., Lukavský,J. & Děchtěrenko, F.    
+**ctsem – hierarchical continuous time state space modelling for R  **  
+Driver, C.   
+**Modelling the effect of billboard advertising on online sales with Rstan **   
+Groß, M.  
+**V-Dem: Aggregating Expert Opinion on Democracy with IRT Models  **  
+V-Dem Institute  
+**Type M error in practice: A case study  **  
+Vasishth, S., Mertzen, D. Jäger L., Gelman, A.  
+**Age period cohort models with unequal time intervals  **  
+Smith, T.  
+**Qualifying drug dosing regimens in pediatrics using Gaussian Processes  **  
+Siivola, E.	Weber, S. & Vehtari, A.   
+**TBA **  
+Mackerodt, J.  
+**Bayesian inference of protein conformational ensembles from limited structural data  **  
+Potrzebowski, W.  
+**Using STAN to Explore Fairness in University Admission Policies**  
+Mathioudakis, M., Castillo, C.  
+**A Trial By Fire: Presenting A Prospective Bayesian Analysis Plan To a Room of Statisticians. **  
+Clark, O.   
+**Bayesian model for the destruction of bacteria and bacterial spores under heat treatments **  
+Ilvonen, L., Honkela, A.   
+**Bayesian Regularized Mediation Analysis**  
+van Kesteren, E. 	Oberski, D.   
+**Forecasting a Stock’s Remaining Intraday Volume  **  
+Bari, O. 	Constandache, A.
 
 ## [Get together](#gettogether)
 
