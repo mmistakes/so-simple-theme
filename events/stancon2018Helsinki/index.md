@@ -236,8 +236,8 @@ Vasishth, S., Mertzen, D. Jäger L., Gelman, A.
 Smith, T.  
 **Qualifying drug dosing regimens in pediatrics using Gaussian Processes**  
 Siivola, E.	Weber, S. & Vehtari, A.   
-**TBA**  
-Mackerodt, J.  
+**Modelling in vivo kinetics of human T stem cell memory cells**  
+Mackerodt, J., Rubina, A., Miners, K. L., Ahmed, R., Price, D. A., Baird, D. M., Macallan, D., Ladell, K., Asquith, B.
 **Bayesian inference of protein conformational ensembles from limited structural data**  
 Potrzebowski, W.  
 **Using STAN to Explore Fairness in University Admission Policies**  
