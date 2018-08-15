@@ -75,23 +75,23 @@ Location: [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/
 
 08:00 - 8:30 **Registration**
 
-08:30 - 10:00 [**Basics of Bayesian inference and Stan**](#basics)
+08:30 - 10:00 [**Basics of Bayesian inference and Stan, part 1**](#basics)
 Jonah Gabry & Lauren Kennedy
 
-08:30 - 10:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
-Bob Carpenter & Sean Talts
+08:30 - 10:00 [**Stan C++ development: Adding a new function to Stan, part 1**](#cpp)
+Bob Carpenter, Sean Talts & Mitzi Morris
 
 10:00 - 10:30 **Coffee Break**
 
-10:30 - 12:00 [**Basics of Bayesian inference and Stan**](#basics)
+10:30 - 12:00 [**Basics of Bayesian inference and Stan, part 2**](#basics)
 Jonah Gabry & Lauren Kennedy
 
-10:30 - 12:00 [**Stan C++ development: Adding a new function to Stan**](#cpp)
-Bob Carpenter & Sean Talts
+10:30 - 12:00 [**Stan C++ development: Adding a new function to Stan, part 2**](#cpp)
+Bob Carpenter, Sean Talts & Mitzi Morris
 
 12:00 - 13:00 **Lunch**
 
-13:00 - 14:30 [**Hierarchical models**](#hier)
+13:00 - 14:30 [**Hierarchical models, part 1**](#hier)
 Ben Goodrich
 
 13:00 - 14:30 [**Ordinary differential equation (ODE) models in Stan**](#ode)
@@ -99,7 +99,7 @@ Daniel Lee
 
 14:30 - 15:00 **Coffee break**
 
-15:00 - 16:30 [**Hierarchical models**](#hier)
+15:00 - 16:30 [**Hierarchical models, part 2**](#hier)
 Ben Goodrich
 
 15:00 - 16:30 [**Productization of Stan**](#product)
@@ -274,7 +274,7 @@ We will be interfacing with Stan from R, but users of Python and other languages
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
 <br> Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
 
-* <a id="cpp"></a>**Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/) and [Sean Talts](https://github.com/seantalts)
+* <a id="cpp"></a>**Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/), [Sean Talts](https://github.com/seantalts), and Mitzi Morris.
 <br> This tutorial will prepare you to submit your first pull
 request for Stan's C++ libraries.  We will cover all of the
 steps required to add a new function with analytic gradients
