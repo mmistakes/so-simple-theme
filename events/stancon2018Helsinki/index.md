@@ -76,46 +76,46 @@ Location: [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/
 08:00 - 8:30 **Registration**
 
 08:30 - 10:00 [**Basics of Bayesian inference and Stan, part 1**](#basics)
-Jonah Gabry & Lauren Kennedy
+Jonah Gabry & Lauren Kennedy. Hall AS2, 2nd floor.
 
 08:30 - 10:00 [**Stan C++ development: Adding a new function to Stan, part 1**](#cpp)
-Bob Carpenter, Sean Talts & Mitzi Morris
+Bob Carpenter, Sean Talts & Mitzi Morris. Hall TU1, 1st floor-
 
 10:00 - 10:30 **Coffee Break**
 
 10:30 - 12:00 [**Basics of Bayesian inference and Stan, part 2**](#basics)
-Jonah Gabry & Lauren Kennedy
+Jonah Gabry & Lauren Kennedy. Hall AS2, 2nd floor.
 
 10:30 - 12:00 [**Stan C++ development: Adding a new function to Stan, part 2**](#cpp)
-Bob Carpenter, Sean Talts & Mitzi Morris
+Bob Carpenter, Sean Talts & Mitzi Morris. Hall TU1, 1st floor.
 
 12:00 - 13:00 **Lunch**
 
 13:00 - 14:30 [**Hierarchical models, part 1**](#hier)
-Ben Goodrich
+Ben Goodrich.  Hall AS2, 2nd floor.
 
 13:00 - 14:30 [**Ordinary differential equation (ODE) models in Stan**](#ode)
-Daniel Lee
+Daniel Lee. Hall TU1, 1st floor.
 
 14:30 - 15:00 **Coffee break**
 
 15:00 - 16:30 [**Hierarchical models, part 2**](#hier)
-Ben Goodrich
+Ben Goodrich.  Hall AS2, 2nd floor.
 
 15:00 - 16:30 [**Productization of Stan**](#product)
-Eric Novik
+Eric Novik. Hall TU1, 1st floor.
 
 16:30 - 17:30 [**Model assessment and selection**](#assessment)
-Aki Vehtari
+Aki Vehtari.  Hall AS2, 2nd floor.
 
 16:30 - 17:30 **Meet the developers**
-TBD
+TBD. Hall TU1, 1st floor.
 
 19:00 - 21:30    **Get together**, [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
 
 ## Thursday 30th August
 
-Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
+Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92). Nokia hall.
 
 08:45 - 09:15 **Welcome**
 
@@ -162,7 +162,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 ## Friday 31st August
 
-Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92)
+Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](https://goo.gl/maps/37vpbQSFiz92). Nokia hall.
 
 09:00 - 09:45 **Identifying the effect of public holidays on daily demand for gas**
 [Sarah Heaps](http://www.ncl.ac.uk/maths-physics/staff/profile/sarahheaps.html), Newcastle University
