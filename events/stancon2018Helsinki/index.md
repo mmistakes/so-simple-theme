@@ -103,7 +103,7 @@ Daniel Lee
 Ben Goodrich
 
 15:00 - 16:30 [**Productization of Stan**](#product)
-Erik Novik
+Eric Novik
 
 16:30 - 17:30 [**Model assessment and selection**](#assessment)
 Aki Vehtari
@@ -311,6 +311,8 @@ Many organizations have started doing this with Stan and there are some patterns
 of use as well as anti-patterns that are emerging as a result. In this session, we will
 present several approaches to productizing Stan and discuss their strengths
 and weaknesses.
+<br>
+**Productization panel discussion**: Markus Ojala (Smartly), Tom Nielsen (Tweag.io), Anna Kircher (Lendable), Eric Novik (Generable)
 
 * <a id="assessment"></a>**Model assessment and selection** (afternoon 1 hour), [Aki Vehtari](https://users.aalto.fi/~ave/)
 <br>In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don't trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting.
