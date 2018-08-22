@@ -79,7 +79,7 @@ Location: [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/
 Jonah Gabry & Lauren Kennedy. Hall AS2, 2nd floor.
 
 08:30 - 10:00 [**Stan C++ development: Adding a new function to Stan, part 1**](#cpp)
-Bob Carpenter, Sean Talts & Mitzi Morris. Hall TU1, 1st floor-
+Bob Carpenter, Sean Talts & Mitzi Morris. Hall TU1, 1st floor.
 
 10:00 - 10:30 **Coffee Break**
 
@@ -212,7 +212,7 @@ Solonen, A., Laine, M. & Haario, H.
 Cois, A.    
 **Estimating flood probability Bands Using Flood Event Data - a case study on the importance of specifying prior distributions**  
 Prosdocimi, I.  
-**Relating the development of maternal Post-Traumatic Stress to Health Related Quality of Life of children with severe burn injuries. **  
+**Relating the development of maternal Post-Traumatic Stress to Health Related Quality of Life of children with severe burn injuries**  
 Veen, D., Egberts, M.R., Veen, D., van de Schoot, R. & van Loey, N.E.E.    
 **Bayesian inference with partial differential equations using Stan and adjoint sensitivity analysis**  
 Zhang, Y. & Gillespie, W. R.    
@@ -242,7 +242,7 @@ Mackerodt, J., Rubina, A., Miners, K. L., Ahmed, R., Price, D. A., Baird, D. M.,
 Potrzebowski, W.  
 **Using STAN to Explore Fairness in University Admission Policies**  
 Mathioudakis, M., Castillo, C.  
-**A Trial By Fire: Presenting A Prospective Bayesian Analysis Plan To a Room of Statisticians.**  
+**A Trial By Fire: Presenting A Prospective Bayesian Analysis Plan To a Room of Statisticians**  
 Clark, O.   
 **Bayesian model for the destruction of bacteria and bacterial spores under heat treatments**  
 Ilvonen, L., Honkela, A.   
