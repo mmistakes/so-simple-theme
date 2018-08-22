@@ -249,7 +249,9 @@ Ilvonen, L., Honkela, A.
 **Bayesian Regularized Mediation Analysis**  
 van Kesteren, E. 	Oberski, D.   
 **Forecasting a Stock’s Remaining Intraday Volume**  
-Bari, O. 	Constandache, A.
+Bari, O. 	Constandache, A.  
+**Sequential Parameter Learning of Markov Switching Stochastic Volatility Model with Fat-tail Innovations**  
+Yin, M. 
 
 ## [Get together](#gettogether)
 
