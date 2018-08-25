@@ -90,6 +90,7 @@ Jonah Gabry & Lauren Kennedy. Hall AS2, 2nd floor.
 Bob Carpenter, Sean Talts & Mitzi Morris. Hall TU1, 1st floor.
 
 12:00 - 13:00 **Lunch**
+**Those attending the StanLadies lunch, please meet with your lunch in AS4 (1023-1024)**
 
 13:00 - 14:30 [**Hierarchical models, part 1**](#hier)
 Ben Goodrich.  Hall AS2, 2nd floor.
@@ -251,7 +252,9 @@ van Kesteren, E. 	Oberski, D.
 **Forecasting a Stock’s Remaining Intraday Volume**  
 Bari, O. 	Constandache, A.  
 **Sequential Parameter Learning of Markov Switching Stochastic Volatility Model with Fat-tail Innovations**  
-Yin, M. 
+Yin, M.  
+**Estimating individual response to treatment**  
+Winkelbeiner, S. & Homan, P.  
 
 ## [Get together](#gettogether)
 
