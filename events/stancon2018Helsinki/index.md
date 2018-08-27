@@ -39,11 +39,21 @@ If you have questions regarding registration, payments, travel, please email
 # [Location](#location)
 
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
-
 StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö Campus (Runeberginkatu 14-16, Helsinki) in the proximity of Helsinki city centre.
+<center style="padding: 0.75em 0 0 0">
+<img width="600" src="./arriving_toolo.png" /><br>
+How to arrive to the right place in Töölö campus
+</center>
 
+
+### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/otaniemi/)
 Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
+<center style="padding: 0.75em 0 0 0">
+<img width="600" src="./arriving_Otaniemi.png" /><br>
+How to arrive to the right place in Otaniemi campus
+</center>
 
+### Finland and Helsinki travel information
 * [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
 # [Accommodation](#accommodation)
