@@ -38,7 +38,7 @@ If you have questions regarding registration, payments, travel, please email
 
 # [Location](#location)
 
-**Tutorials (29th August) and the actual StanCon (30-31 August) are on different campuses.** Tutorials will be 8km from the Helsinki city center, so one needs to come there by public transportation. StanCon will be within walking distance from the suggested hotels.
+**Tutorials (29th August) and the actual StanCon (30-31 August) are on different campuses.** Tutorials (29th August) will be 8km from the Helsinki city center, but it's easy to get there by public transportation. StanCon (30-31 August) will be within walking distance from the suggested hotels.
 
 ### [Aalto University, Otaniemi Campus, Maarintie 8, Espoo, Finland](http://biz.aalto.fi/en/campus/otaniemi/)
 Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
