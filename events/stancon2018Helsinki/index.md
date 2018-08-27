@@ -50,7 +50,7 @@ How to get from Helsinki to Otaniemi by a metro:
 * There is only one metro line in Helsinki, choose any metro going to "Tapiola" or "Matinkylä". Metros are leaving every 2 to 5 minutes, so no need to worry about the timetable!
 * Get off at "Aalto University" stop.
 * Use exit B
-* Navigate to Maarintie 8 (300m walk) using the following map:
+* Navigate (300m walk) to Maarintie/Marvägen 8 (In Finnish Maarintie, in Swedish Marvägen) using the following map:
 
 <center style="padding: 0.75em 0 0 0">
 <img width="600" src="./arriving_Otaniemi.png" /><br>
