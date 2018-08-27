@@ -164,15 +164,15 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 14:00 - 14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**
 [Richard McElreath](http://xcelab.net/rm/), Max Planck Institute for Evolutionary Anthropology
 
-14:45 - 15:30 **Coffee Break**
+14:45 - 15:00 **Poster Spotlights**
 
-15:30 - 16:30 **Contributed Talks: Session 3**
+15:00 - 15:45 **Coffee Break**
+
+15:45 - 16:45 **Contributed Talks: Session 3**
 
 * **Paul Buerkner**	*Define Custom Response Distributions with brms*
 * **Kristian Brock** *Clinical trial designs in Stan with trialr*
 * **Marco Munda** *Analysis of repeated measures data in RStan*
-
-16:30 - 16:45 **Poster Spotlights**
 
 16:45 - 17:15 **Stan Roadmap**
 **Bob Carpenter**, Columbia University
