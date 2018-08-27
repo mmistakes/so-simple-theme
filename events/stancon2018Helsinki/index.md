@@ -48,9 +48,9 @@ How to get from Helsinki to Otaniemi by a metro:
     * 4.2 € with a mobile app ([link to google play](https://play.google.com/store/apps/details?id=fi.hsl.app&referrer=utm_source%3Dsovellus%26utm_medium%3Dreferral%26utm_campaign%3Dhsl.fi%26anid%3Dadmob)) ([link to Apple store](https://itunes.apple.com/fi/app/apple-store/id1340229182?mt=8&l=en))
     * 5.0 € from machines located at metro stops ([link to a picture of a machine](https://www.hsl.fi/sites/default/files/styles/large/public/tyyliopas/automaatit_tyyliopas-01-01-01.png?itok=Nz7vduKF))
 * There is only one metro line in Helsinki, choose any metro going to "Tapiola" or "Matinkylä". Metros are leaving every 2 to 5 minutes, so no need to worry about the timetable!
-* Leave in "Otaniemi" 
+* Get off at "Aalto University" stop.
 * Use exit B
-* Navigate to Maarintie 8 using the following map:
+* Navigate to Maarintie 8 (300m walk) using the following map:
 
 <center style="padding: 0.75em 0 0 0">
 <img width="600" src="./arriving_Otaniemi.png" /><br>
