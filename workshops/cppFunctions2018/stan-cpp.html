@@ -3179,7 +3179,7 @@ code {
 
 <slide class=""><hgroup><h2>Slides online</h2></hgroup><article  id="slides-online">
 
-<ul>
+<ul class = 'build'>
 <li><a href='http://mc-stan.org/workshops/cppFunctions2018/stan-cpp.html' title=''>http://mc-stan.org/workshops/cppFunctions2018/stan-cpp.html</a></li>
 </ul>
 
@@ -3187,7 +3187,7 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Online documentation</h2></hgroup><article  id="online-documentation">
 
-<ul>
+<ul class = 'build'>
 <li><code>stan-dev/stan</code>: <a href='https://github.com/stan-dev/stan/wiki/Developer-process-overview' title=''>Developer process overview</a></li>
 <li><code>stan-dev/stan</code>: <a href='https://github.com/stan-dev/stan/wiki/Contributing-New-Functions-to-Stan' title=''>Contributing new functions to Stan</a> <br /> <br /></li>
 <li><code>stan-dev/math</code>: <a href='https://github.com/stan-dev/math/wiki/Adding-a-new-function-with-known-gradients' title=''>Adding a new function with known gradients</a></li>
@@ -3198,11 +3198,11 @@ code {
 
 <blockquote>
 
-<ul>
+<ul class = 'build'>
 <li><p>We were asked at a conference, <br /> <br /> &ldquo;What are the <strong>best and worst decisions</strong> you made regarding the implementation of Stan?&rdquo;</p></li>
 <li>We answered
 
-<ul>
+<ul class = 'build'>
 <li><em>Worst decision</em>: using C++</li>
 <li><em>Best decision</em>: using C++</li>
 </ul></li>
@@ -3210,7 +3210,7 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Why C++?</h2></hgroup><article  id="why-c">
 
-<ul>
+<ul class = 'build'>
 <li>It’s <strong>very powerful</strong></li>
 <li>A whole <em>new language with C++11</em> and beyond</li>
 <li>Performant <em>matrix and math libs</em> (like Fortran, unlike all else)</li>
@@ -3226,7 +3226,7 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Why <em>not</em>  C++?</h2></hgroup><article  id="why-not-c">
 
-<ul>
+<ul class = 'build'>
 <li>it’s <strong>not the easiest language</strong> in the world</li>
 <li>the spec is incomplete by design so <em>compilers vary</em>, even by optimization level</li>
 <li>it’s been a <em>moving target</em> from C++03 to C++20</li>
@@ -3234,7 +3234,7 @@ code {
 <li><em>binary builds</em> and distribution are a pain to manage</li>
 <li><em>compile time</em> is disastrous with templating &amp; optimization
 
-<ul>
+<ul class = 'build'>
 <li>we’re working to correct this</li>
 </ul></li>
 <li>lacks the <em>cool factor</em> to attract open source hobbyists</li>
@@ -3244,16 +3244,16 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Top level Stan architecture</h2></hgroup><article  id="top-level-stan-architecture">
 
-<ul>
+<ul class = 'build'>
 <li>Stan <em>transpiler</em> converts Stan program to C++ class for model
 
-<ul>
+<ul class = 'build'>
 <li><em>standard</em> parser, abstract syntax tree, generator design</li>
 </ul></li>
 <li>C++ model class includes the Stan <em>math library</em></li>
 <li>C++ model class compiled <em>mostly header-only</em>
 
-<ul>
+<ul class = 'build'>
 <li>along with algorithms and math library</li>
 <li>this will change in near future with separate translation units</li>
 </ul></li>
@@ -3262,7 +3262,7 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Stan program is translated to a C++ class</h2></hgroup><article  id="stan-program-is-translated-to-a-c-class">
 
-<ul>
+<ul class = 'build'>
 <li>Creates a C++ model class with fixed <em>concept</em> (C++ interface)</li>
 <li>Model class is <em>constructed with data</em></li>
 <li>Implements a <em>function of continuous unconstrained parameters</em></li>
@@ -3272,22 +3272,22 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Stan C++ class (continued)</h2></hgroup><article  id="stan-c-class-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Details of <code>log_prob</code> function
 
-<ul>
+<ul class = 'build'>
 <li>applies to vector of <em>unconstrained parameters</em> (for algorithms)</li>
 <li>returns <em>log posterior</em> (up to additive constant)</li>
 <li>usually <em>coded as joint log density</em> with posterior via Bayes’s rule</li>
 <li>or <em>log penalized likelihood</em> for maximum likelihood
 
-<ul>
+<ul class = 'build'>
 <li>turns off Jacobian correction</li>
 </ul></li>
 </ul></li>
 <li><em>Constrain and unconstrain</em> parameters
 
-<ul>
+<ul class = 'build'>
 <li>from constrained to unconstrained for initialization</li>
 <li>from unconstrained to constrained to evaluate model block</li>
 <li>log Jacobian for change of variables in unconstrained to constrained</li>
@@ -3297,19 +3297,19 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>The Stan to C++ transpiler</h2></hgroup><article  id="the-stan-to-c-transpiler">
 
-<ul>
+<ul class = 'build'>
 <li>Also known informally as the compiler or translator</li>
 <li>Translates Stan program to <em>C++ class</em></li>
 <li>Written in C++ (with <em>Boost Spirit Qi</em> parser)</li>
 <li>All <em>code</em> in <code>&lt;stan&gt;/src/stan/lang</code>
 
-<ul>
+<ul class = 'build'>
 <li>parallel to I/O, inference algorithms, service, and memory directories</li>
 <li>top-level call in <code>&lt;stan&gt;/src/stan/lang/compiler.hpp</code></li>
 </ul></li>
 <li>Transpiler consists of
 
-<ul>
+<ul class = 'build'>
 <li><em>parser and semantic actions</em> (<code>lang/grammars</code>): translate Stan to AST</li>
 <li><em>abstract syntax tree</em> (AST) (<code>lang/ast</code>): C++ representation of code</li>
 <li><em>generator</em> (<code>lang/generator</code>): convert AST to C++ code</li>
@@ -3318,16 +3318,16 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Built-in Stan functions</h2></hgroup><article  id="built-in-stan-functions">
 
-<ul>
+<ul class = 'build'>
 <li>Defined using C++ in the math library
 
-<ul>
+<ul class = 'build'>
 <li>definitions may <em>use autodiff</em></li>
 <li>or may <em>define gradients analytically</em> for efficiency</li>
 </ul></li>
 <li>Exposed in the Stan language
 
-<ul>
+<ul class = 'build'>
 <li>all that is needed is <em>addition of signatures</em> to symbol table</li>
 <li>needed because Stan is <em>strongly statically typed</em></li>
 </ul></li>
@@ -3335,27 +3335,27 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>C++ Model Compiled to Object Code</h2></hgroup><article  id="c-model-compiled-to-object-code">
 
-<ul>
+<ul class = 'build'>
 <li>Includes the math library (using <code>#include</code>)
 
-<ul>
+<ul class = 'build'>
 <li>Stan functions defined in math library</li>
 <li>some functionality directly in <code>stan/src</code>, such as transforms</li>
 </ul></li>
 <li>Compiled largely <em>header-only</em> as a unit
 
-<ul>
+<ul class = 'build'>
 <li>includes Stan model class (translated from Stan to C++)</li>
 <li>Stan inference algorithms (MCMC, variational inference, optimization)</li>
 <li>Stan services (front-end to Stan used by interfaces RStan, PyStan, CmdStan)
 
-<ul>
+<ul class = 'build'>
 <li>other interfaces call CmdStan directly</li>
 </ul></li>
 </ul></li>
 <li><em>Exclusions</em> from header-only
 
-<ul>
+<ul class = 'build'>
 <li>parallel libaries (threading, MPI, and GPU)</li>
 <li>ordinary differential equation solvers (from Sundials lib)</li>
 </ul></li>
@@ -3363,17 +3363,17 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>CmdStan, RStan, PyStan</h2></hgroup><article  id="cmdstan-rstan-pystan">
 
-<ul>
+<ul class = 'build'>
 <li>These are the three <em>primitive interfaces</em>
 
-<ul>
+<ul class = 'build'>
 <li>other interfaces (Julia, Stata, MATLAB, Mathematica) <em>call CmdStan</em></li>
 <li>ScalaStan is its own <em>embedded language</em> that transpiles to a Stan program</li>
 </ul></li>
 <li>We’ll be concentrating on the command line interface, CmdStan</li>
 <li>The interfaces <em>implement callbacks</em> for
 
-<ul>
+<ul class = 'build'>
 <li>interrupts</li>
 <li>data input</li>
 <li>data and diagnostic output</li>
@@ -3383,24 +3383,24 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Stan GitHub Repository Structure</h2></hgroup><article  id="stan-github-repository-structure">
 
-<ul>
+<ul class = 'build'>
 <li>All repos for Stan are in the <code>stan-dev</code> <em>GitHub organization</em></li>
 <li><em>Git submodule</em> structure
 
-<ul>
+<ul class = 'build'>
 <li><code>cmdstan</code> includes <code>stan</code> (path <code>stan</code>)</li>
 <li><code>stan</code> includes <code>math</code> (path <code>lib/stan_math</code>)</li>
 </ul></li>
 <li>Math library <em>directly includes</em> (path <code>lib</code>)
 
-<ul>
+<ul class = 'build'>
 <li>Boost (general C++, math, RNG, stats parser)</li>
 <li>Eigen (matrix arithmtic and linear algebra)</li>
 <li>Sundials (ordinary differential equation solvers)</li>
 </ul></li>
 <li>From CmdStan perspective
 
-<ul>
+<ul class = 'build'>
 <li>Stan is at <code>stan</code></li>
 <li>Math lib is at <code>stan/lib/stan_math</code></li>
 <li>Other libs at <code>stan/lib/stan_math/lib</code></li>
@@ -3409,10 +3409,10 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>A Stan Program</h2></hgroup><article  id="a-stan-program">
 
-<ul>
+<ul class = 'build'>
 <li><code>Matrix program(Matrix data) {...}</code>
 
-<ul>
+<ul class = 'build'>
 <li>Function from data to a sample of parameter draws typical given that data and model</li>
 </ul></li>
 <li>Compiled with a few algorithms that use the model density to find typical parameter draws</li>
@@ -3421,7 +3421,7 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Most of Stan’s code is in the Math library</h2></hgroup><article  id="most-of-stans-code-is-in-the-math-library">
 
-<ul>
+<ul class = 'build'>
 <li>Provides users with many functions to express complicated likelihoods</li>
 <li>Autodiff system gives the algorithms the gradients they need automatically for any Stan or Math library code</li>
 <li>Split first into <code>stan</code> and <code>test</code></li>
@@ -3429,7 +3429,7 @@ code {
 <li>Split by container type: <code>scal</code>, <code>arr</code>, <code>mat</code> (this is going away)</li>
 <li>Split by functionality: <code>err</code>, <code>fun</code>, <code>meta</code>, <code>prob</code>, …
 
-<ul>
+<ul class = 'build'>
 <li>e.g., from CmdStan:</li>
 <li><code>stan/lib/stan_math/stan/math/rev/scal/fun/log1p.hpp</code></li>
 </ul></li>
@@ -3437,10 +3437,10 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Tests and continuous integration</h2></hgroup><article  id="tests-and-continuous-integration">
 
-<ul>
+<ul class = 'build'>
 <li>We use <a href='https://github.com/google/googletest' title=''>googletest</a>, a C++ testing framework for unit tests
 
-<ul>
+<ul class = 'build'>
 <li>test files <em>end in</em> <code>_test.cpp</code></li>
 <li><em>macros</em> like <code>TEST(SuiteName, TestName)</code> and <code>EXPECT_EQ(actual, expected)</code></li>
 </ul></li>
@@ -3448,7 +3448,7 @@ code {
 <li><em>Run tests locally</em> with <code>runTests.py</code> helper script on a directory or test</li>
 <li><em>Jenkins</em> continuous integration server
 
-<ul>
+<ul class = 'build'>
 <li>at <a href='http://d1m1s1b1.stat.columbia.edu:8080/' title=''>http://d1m1s1b1.stat.columbia.edu:8080/</a></li>
 <li>Specified in code, in a top-level file named <code>Jenkinsfile</code></li>
 </ul></li>
@@ -3459,19 +3459,19 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Developer process</h2></hgroup><article  id="developer-process">
 
-<ol>
+<ol class = 'build'>
 <li>For <em>larger changes only</em>: <em>Discourse discussion</em> and/or design review</li>
 <li><em>GitHub issue</em> describing the problem (i.e., functional specification)</li>
 <li>Add a description of the <em>proposed technical solution</em> to the GitHub issue</li>
 <li>Code the solution <em>on a branch</em></li>
 <li>Create a <em>GitHub pull request</em> with <em>BSD license details</em>
 
-<ul>
+<ul class = 'build'>
 <li>developers maintain copyright, but must BSD license contributions before approval</li>
 </ul></li>
 <li><a href='https://github.com/stan-dev/math/wiki/Developer-Doc#code-review-guidelines' title=''>Code review</a>
 
-<ul>
+<ul class = 'build'>
 <li>if changes requirested, return to (3)</li>
 </ul></li>
 <li><em>Merge</em> only after approval</li>
@@ -3479,13 +3479,13 @@ code {
 
 </article></slide><slide class=""><hgroup><h2>Setting up GitHub</h2></hgroup><article  id="setting-up-github">
 
-<ul>
+<ul class = 'build'>
 <li>Create an account</li>
 <li>(optional) <a href='https://help.github.com/articles/connecting-to-github-with-ssh/' title=''>Set up SSH keys</a></li>
 <li><em>Fork the relevant repositories</em> from the <code>stan-dev</code> organization</li>
 <li><code>git clone --recursive &lt;cmdstan repo&gt;</code>
 
-<ul>
+<ul class = 'build'>
 <li>the recursive bit takes care of submodules</li>
 </ul></li>
 <li><em>Add your fork as a remote</em> on the repo you care about</li>
@@ -3525,7 +3525,7 @@ sean    git@github.com:seantalts/math.git (push)</pre>
 
 <p>Fairly <em>standard open source flow</em>:</p>
 
-<ol>
+<ol class = 'build'>
 <li>(optional) create a branch</li>
 <li>write code, tests, and doc</li>
 <li>run appropriate checks - cpplint, appropriate unit tests, (optional) <code>clang-format</code></li>
@@ -3542,7 +3542,7 @@ Switched to a new branch &#39;descriptive-branch-name&#39;</pre>
 
 </article></slide><slide class=""><hgroup><h2>Running the checks</h2></hgroup><article  id="running-the-checks">
 
-<ol>
+<ol class = 'build'>
 <li><code>python runTests.py -j{num_cores} path/to/test.cpp /path/to/test/dir</code></li>
 <li><code>make cpplint</code></li>
 <li>(optional) <a href='https://github.com/stan-dev/stan/wiki/Coding-Style-and-Idioms#clang-format' title=''>Auto-formatting - git hook, editor plugin</a></li>
@@ -3611,15 +3611,15 @@ $ git push sean descriptive-branch-name</pre>
 
 </article></slide><slide class=""><hgroup><h2>Stan release process</h2></hgroup><article  id="stan-release-process">
 
-<ol>
+<ol class = 'build'>
 <li><em>Pull requests</em> ask for code to be added to the <code>develop</code> branch
 
-<ul>
+<ul class = 'build'>
 <li><code>develop</code> is maintained in a releasable state at all times</li>
 </ul></li>
 <li>Choose a point in time along the <code>develop</code> branch and <em>tag it with version number</em>
 
-<ul>
+<ul class = 'build'>
 <li>semantic versioning: Major.Minor.Patch</li>
 <li>only <em>major</em> changes <em>break backward compatibility</em></li>
 <li><em>minor</em> numbers indicate new functionality</li>
@@ -3627,7 +3627,7 @@ $ git push sean descriptive-branch-name</pre>
 </ul></li>
 <li>We then <em>merge that tag</em> into the <code>master</code> branch
 
-<ul>
+<ul class = 'build'>
 <li>makes sure <code>master</code> is always stable</li>
 <li>and always pointing at latest release</li>
 </ul></li>
@@ -3638,7 +3638,7 @@ $ git push sean descriptive-branch-name</pre>
 
 </article></slide><slide class=""><hgroup><h2>Coding a distribution in Stan</h2></hgroup><article  id="coding-a-distribution-in-stan">
 
-<ul>
+<ul class = 'build'>
 <li>Use the Stan language to code the normal log pdf with <code>_lpdf</code> suffix</li>
 </ul>
 
@@ -3658,7 +3658,7 @@ model {
 
 </article></slide><slide class=""><hgroup><h2>What’s missing?</h2></hgroup><article  id="whats-missing">
 
-<ul>
+<ul class = 'build'>
 <li><p>Input validation!</p></li>
 <li><p>Implement in Stan with the <code>reject</code> function</p></li>
 </ul>
@@ -3674,16 +3674,16 @@ if (is_nan(mu) || is_inf(mu))
 
 </article></slide><slide class=""><hgroup><h2>Restrictions on Stan functions</h2></hgroup><article  id="restrictions-on-stan-functions">
 
-<ul>
+<ul class = 'build'>
 <li>Not polymorphic—they work for a single signature
 
-<ul>
+<ul class = 'build'>
 <li>can’t duplicate library function vectorization</li>
 <li>overloading is coming, but will require multiple definitions</li>
 </ul></li>
 <li>No traits branching
 
-<ul>
+<ul class = 'build'>
 <li>can’t skip constant terms determined by type analysis</li>
 <li>hope to add this, too</li>
 </ul></li>
@@ -3691,7 +3691,7 @@ if (is_nan(mu) || is_inf(mu))
 
 </article></slide><slide class=""><hgroup><h2>Compiling model in CmdStan</h2></hgroup><article  id="compiling-model-in-cmdstan">
 
-<ul>
+<ul class = 'build'>
 <li>Model placed in <code>~/temp2/my-normal.stan</code>; <code>stanc</code> is transpiler</li>
 <li>compiled <em>without optimization</em> at <code>-O0</code> for compile speed</li>
 </ul>
@@ -3713,7 +3713,7 @@ c++ -Wall -I . -isystem stan/lib/stan_math/lib/eigen_3.3.3 ... -O0 ...</pre>
 
 </article></slide><slide class=""><hgroup><h2>Sampling from posterior in CmdStan</h2></hgroup><article  id="sampling-from-posterior-in-cmdstan">
 
-<ul>
+<ul class = 'build'>
 <li>Use make target as executable; writes draws to <code>output.csv</code> by default</li>
 </ul>
 
@@ -3734,7 +3734,7 @@ Iteration: 11000 / 11000 [100%]  (Sampling)</pre>
 
 </article></slide><slide class=""><hgroup><h2>Summarize the posterior</h2></hgroup><article  id="summarize-the-posterior">
 
-<ul>
+<ul class = 'build'>
 <li>Use the <code>stansummary</code> command in CmdStan (elided some rows)</li>
 <li>converged to true posterior: \(\mathsf{Normal}(y \mid 1.5, 3.2)\)</li>
 </ul>
@@ -3756,10 +3756,10 @@ divergent__     0.00      nan  0.0e+00  0.00  0.00  0.00      nan      nan      
 
 </article></slide><slide class=""><hgroup><h2>Direct coding of functions in C++</h2></hgroup><article  id="direct-coding-of-functions-in-c">
 
-<ul>
+<ul class = 'build'>
 <li>Template all scalars independently
 
-<ul>
+<ul class = 'build'>
 <li>uses <em>autodiff to take partials</em> of output(s) w.r.t. input(s)</li>
 <li><em>easiest</em>, but <em>least efficient</em></li>
 <li>technique <em>used for functions defined in Stan</em> language</li>
@@ -3768,7 +3768,7 @@ divergent__     0.00      nan  0.0e+00  0.00  0.00  0.00      nan      nan      
 </ul></li>
 <li>Implement custom <code>vari</code>
 
-<ul>
+<ul class = 'build'>
 <li>allows <em>most efficient</em> and <em>customizable</em> analytic partials</li>
 <li>may <em>lazily evaluate</em> partials on reverse pass</li>
 <li><em>reverse mode only</em>, so still <em>need templated</em> version</li>
@@ -3777,16 +3777,16 @@ divergent__     0.00      nan  0.0e+00  0.00  0.00  0.00      nan      nan      
 
 </article></slide><slide class=""><hgroup><h2>Helper implementations</h2></hgroup><article  id="helper-implementations">
 
-<ul>
+<ul class = 'build'>
 <li>Precomputed gradients structure
 
-<ul>
+<ul class = 'build'>
 <li>compute and <em>store full Jacobian</em> on forward pass</li>
 <li><em>reverse mode only</em>, so still <em>need templated</em> version</li>
 </ul></li>
 <li>Operands and partials structure
 
-<ul>
+<ul class = 'build'>
 <li>custom tool for <em>computing vectorized log densities</em></li>
 <li>may be used for any single-output, vectorized function</li>
 <li>works for <em>any order autodiff</em></li>
@@ -3795,7 +3795,7 @@ divergent__     0.00      nan  0.0e+00  0.00  0.00  0.00      nan      nan      
 
 </article></slide><slide class=""><hgroup><h2>Stan transpiler takes templated scalar approach</h2></hgroup><article  id="stan-transpiler-takes-templated-scalar-approach">
 
-<ul>
+<ul class = 'build'>
 <li>Heavily templated and complicated</li>
 <li>Reformatted a bit here for readability (this is improving)</li>
 <li><code>pstream</code> argument supports <code>print()</code> statements in Stan code</li>
@@ -3815,7 +3815,7 @@ my_normal_lpdf(const T0__&amp; y, const T1__&amp; mu, const T2__&amp; sigma,
 
 </article></slide><slide class=""><hgroup><h2>Transpiler produced function (continued)</h2></hgroup><article  id="transpiler-produced-function-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Instrumented with static statement positions from underlying source file(s)</li>
 <li><code>throw</code>/<code>catch</code> to enable line number reporting with <code>rethrow_located</code></li>
 <li>All this added boilerplate unecessary in direct C++ code</li>
@@ -3838,12 +3838,12 @@ my_normal_lpdf(const T0__&amp; y, const T1__&amp; mu, const T2__&amp; sigma,
 
 </article></slide><slide class=""><hgroup><h2>C++ implementation with templated scalar</h2></hgroup><article  id="c-implementation-with-templated-scalar">
 
-<ul>
+<ul class = 'build'>
 <li>Adds explicit templating and references to Stan implementation</li>
 <li>Simple example with a single template variable (avoids trait metaprograms)</li>
 <li><code>y</code> and assume <code>mu</code> and <code>sigma</code> are <code>double</code>
 
-<ul>
+<ul class = 'build'>
 <li>supports <code>int</code> through promotion to <code>double</code> or instantiation of <code>T</code></li>
 <li><code>y</code> can be parameter (autodiff type) or data (only <code>double</code>)</li>
 <li><em>not</em> a valid way to write a Stan program; scaffolding to get there</li>
@@ -3857,14 +3857,14 @@ inline T my_normal(const T&amp; y, double mu, double sigma);</pre>
 
 </article></slide><slide class=""><hgroup><h2>C++ code for normal lpdf</h2></hgroup><article  id="c-code-for-normal-lpdf">
 
-<ul>
+<ul class = 'build'>
 <li>Name resolution
 
-<ul>
+<ul class = 'build'>
 <li><code>std::log(double)</code> found through explicit <code>using</code> statement</li>
 <li><code>stan::math::log(stan::math::var)</code> through <em>argument dependent lookup</em> (ADL)
 
-<ul>
+<ul class = 'build'>
 <li>argument in namespace <code>stan::math</code> looks for function in <code>stan::math</code></li>
 </ul></li>
 </ul></li>
@@ -3880,7 +3880,7 @@ inline T my_normal(const T&amp; y, double mu, double sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Includes and main function for evaluation</h2></hgroup><article  id="includes-and-main-function-for-evaluation">
 
-<ul>
+<ul class = 'build'>
 <li>Need some includes before and a <code>main()</code> after to run it</li>
 </ul>
 
@@ -3901,7 +3901,7 @@ int main() {
 
 </article></slide><slide class=""><hgroup><h2>Compile and Run</h2></hgroup><article  id="compile-and-run">
 
-<ul>
+<ul class = 'build'>
 <li>Place in file <code>my-normal.cpp</code></li>
 <li>Compile using <code>clang++</code> with C++1y standard (pre C++14 for R compatibility)</li>
 </ul>
@@ -3913,7 +3913,7 @@ int main() {
   -isystem ~/cmdstan/stan/lib/stan_math/lib/sundials_3.1.0/include  \
   my-normal.cpp</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Gets the <em>correct result</em></li>
 </ul>
 
@@ -3922,7 +3922,7 @@ val = -1.15264; d.val/d.y = -3.6</pre>
 
 </article></slide><slide class=""><hgroup><h2>Flexible template types</h2></hgroup><article  id="flexible-template-types">
 
-<ul>
+<ul class = 'build'>
 <li>Requires all arguments to be templated (not common in libraries)</li>
 <li>Use traits metaprogram found in Stan’s generated code</li>
 <li><code>promote_args</code> computes max, where <code>int</code> &lt; <code>double</code> &lt; <code>var</code></li>
@@ -3943,10 +3943,10 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Reverse-mode autodiff: forward pass</h2></hgroup><article  id="reverse-mode-autodiff-forward-pass">
 
-<ul>
+<ul class = 'build'>
 <li>Build up (directed acyclic) expression graph in forward pass
 
-<ul>
+<ul class = 'build'>
 <li>each node is a subexpression of log density connected to its operands</li>
 <li>autodiff variable <code>stan::math::var</code> for each subexpression node \(v_n\)
 
@@ -3960,10 +3960,10 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Reverse-mode autodiff: reverse pass</h2></hgroup><article  id="reverse-mode-autodiff-reverse-pass">
 
-<ul>
+<ul class = 'build'>
 <li>Calculates adjoint for each node in reverse pass
 
-<ul>
+<ul class = 'build'>
 <li>adjoint is derivative of final value w.r.t. node’s expression</li>
 <li>start with resulting value adjoint = 1 (because \(\frac{\mathrm{d}}{\mathrm{d}y}y = 1\))</li>
 <li>for each node, in topological order from root</li>
@@ -3973,12 +3973,12 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 <li>Gradient is sequence of adjoints of inputs (independent vars)</li>
 <li>Time and space complexity both linear in graph size
 
-<ul>
+<ul class = 'build'>
 <li>times the cost of partial derivatives of each operation (usually constant)</li>
 </ul></li>
 <li>Slowness stems from interpretation
 
-<ul>
+<ul class = 'build'>
 <li>virtual function calls and memory nonlocality</li>
 </ul></li>
 </ul>
@@ -3987,7 +3987,7 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Custom derivative implementation</h2></hgroup><article  id="custom-derivative-implementation">
 
-<ul>
+<ul class = 'build'>
 <li>Each <code>var</code> points to <code>vari</code> (pointer to implementation, aka PIMPL)</li>
 </ul>
 
@@ -3996,11 +3996,11 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
   var(double val) : vi_(new vari(val)) { }
 };</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Values and adjoints are found by delegating to <code>vari*</code></li>
 <li>Without virtual methods, <code>var</code> is the same size and content as pointer
 
-<ul>
+<ul class = 'build'>
 <li>8 bytes (64 bits) on almost all systems these days</li>
 <li><em>efficient to copy</em></li>
 </ul></li>
@@ -4008,16 +4008,16 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Variable implementations</h2></hgroup><article  id="variable-implementations">
 
-<ul>
+<ul class = 'build'>
 <li>Each <code>vari</code> holds a value, adjoint, and implements <code>chain()</code> for derivatives</li>
 <li>Allocated with custom <em>arena-based memory</em>
 
-<ul>
+<ul class = 'build'>
 <li>using <code>operator new</code> overload (<code>&lt;stan-math&gt;/stan/math/{memory, rev}</code>)</li>
 </ul></li>
 <li><em>May not allocate</em> their own memory (e.g., no <code>std::vector</code> members)
 
-<ul>
+<ul class = 'build'>
 <li>custom arena-based arrays from <code>stan/math/memory</code> for containers</li>
 </ul></li>
 <li>Destructors will <em>not be called</em></li>
@@ -4032,7 +4032,7 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Simple Example of vari</h2></hgroup><article  id="simple-example-of-vari">
 
-<ul>
+<ul class = 'build'>
 <li>\(\frac{\partial}{\partial a} (a \times b) = b \ \ \ \ \ \ \frac{\partial}{\partial b} (a \times b) = a\)</li>
 </ul>
 
@@ -4050,11 +4050,11 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Using vari to implement a function</h2></hgroup><article  id="using-vari-to-implement-a-function">
 
-<ul>
+<ul class = 'build'>
 <li>Call to <code>new</code> invokes arena-based <code>operator new</code> by inheritance</li>
 <li>Declared <code>inline</code> to allow across translation units
 
-<ul>
+<ul class = 'build'>
 <li>and hopefully to inline</li>
 </ul></li>
 </ul>
@@ -4063,10 +4063,10 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
   return var(new multiply_vari*(a.vi_, b.vi_));
 }</pre>
 
-<ul>
+<ul class = 'build'>
 <li>This only works for <code>(var, var)</code> args
 
-<ul>
+<ul class = 'build'>
 <li>also need <code>(var, double)</code> and <code>(double, var)</code> implementations</li>
 <li>which require a new <code>vari</code> (symmetry allows a single one)</li>
 </ul></li>
@@ -4074,7 +4074,7 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Stan’s multiplication operator</h2></hgroup><article  id="stans-multiplication-operator">
 
-<ul>
+<ul class = 'build'>
 <li><code>&lt;stan-math&gt;/stan/math/rev/core/operator_multiplication.hpp</code></li>
 </ul>
 
@@ -4095,7 +4095,7 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>The normal distribution</h2></hgroup><article  id="the-normal-distribution">
 
-<ul>
+<ul class = 'build'>
 <li>Need \(\frac{\partial}{\partial y} \mathsf{Normal}(y \mid \mu, \sigma)\) for current application</li>
 <li><a href='http://wolframalpha.com' title=''>Wolfram Alpha</a> is way less error prone at derivatives than me</li>
 </ul>
@@ -4108,7 +4108,7 @@ my_normal(const T_y&amp; y, const T_mu&amp; mu, const T_sigma&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Normal with differentiable first argument</h2></hgroup><article  id="normal-with-differentiable-first-argument">
 
-<ul>
+<ul class = 'build'>
 <li>Same pattern as for <code>multiply</code></li>
 </ul>
 
@@ -4130,17 +4130,17 @@ var my_normal(const var&amp; y, double mu, double sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Using Precomputed Gradients</h2></hgroup><article  id="using-precomputed-gradients">
 
-<ul>
+<ul class = 'build'>
 <li>Precomputed gradients supplies following function</li>
 </ul>
 
 <pre class = 'prettyprint lang-cpp'>inline var precomputed_gradients(double value, const std::vector&lt;var&gt;&amp; operands,
                                  const std::vector&lt;double&gt;&amp; gradients);</pre>
 
-<ul>
+<ul class = 'build'>
 <li>So you only need to supply value, operands, and gradient
 
-<ul>
+<ul class = 'build'>
 <li>works for any number of arguments</li>
 </ul></li>
 </ul>
@@ -4157,7 +4157,7 @@ var my_normal(const var&amp; y, double mu, double sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Signature</h2></hgroup><article  id="signature">
 
-<ul>
+<ul class = 'build'>
 <li>Straight from <code>stan/math/prim/scal/prob/normal_lpdf.hpp</code></li>
 </ul>
 
@@ -4166,10 +4166,10 @@ typename return_type&lt;T_y, T_loc, T_scale&gt;::type
 normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
   ...   </pre>
 
-<ul>
+<ul class = 'build'>
 <li><code>stan::return_type</code> is a type traits metaprogram
 
-<ul>
+<ul class = 'build'>
 <li>extracts scalar types from <code>T_y</code>, <code>T_loc</code>, and <code>T_scale</code></li>
 <li>delegates to <code>boost::promote_args</code></li>
 </ul></li>
@@ -4177,7 +4177,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Documentation</h2></hgroup><article  id="documentation">
 
-<ul>
+<ul class = 'build'>
 <li>First line is description of the arguments and what it returns</li>
 </ul>
 
@@ -4193,7 +4193,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Documentation (continued)</h2></hgroup><article  id="documentation-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Template parameters get their own documentation</li>
 </ul>
 
@@ -4202,7 +4202,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
  * @tparam T_scale scalar type of scale
 </pre>
 
-<ul>
+<ul class = 'build'>
 <li>Arguments get their own doc</li>
 </ul>
 
@@ -4212,13 +4212,13 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Documentation (continued)</h2></hgroup><article  id="documentation-continued-1">
 
-<ul>
+<ul class = 'build'>
 <li>The return value is documented (unless <code>void</code>)</li>
 </ul>
 
 <pre class = 'prettyprint lang-cpp'> * @return sum of the log densities of the arguments</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Any exceptions that are thrown are documented</li>
 </ul>
 
@@ -4230,7 +4230,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Convenience definitions, using statements</h2></hgroup><article  id="convenience-definitions-using-statements">
 
-<ul>
+<ul class = 'build'>
 <li><code>using</code> statements only allowed within function scope</li>
 </ul>
 
@@ -4244,7 +4244,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Test for exceptions</h2></hgroup><article  id="test-for-exceptions">
 
-<ul>
+<ul class = 'build'>
 <li>Vectorized test functions for basic argument structures</li>
 </ul>
 
@@ -4259,17 +4259,17 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Test for edge cases</h2></hgroup><article  id="test-for-edge-cases">
 
-<ul>
+<ul class = 'build'>
 <li>Runtime tests for all arguments being size zero containers</li>
 </ul>
 
 <pre class = 'prettyprint lang-cpp'>  if (size_zero(y, mu, sigma))  
     return 0.0;</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Compile time (static) test that
 
-<ul>
+<ul class = 'build'>
 <li>all arguments are constant (<code>double</code> or <code>int</code> scalar type)</li>
 <li>the proportional to <code>propto</code> template parameter is <code>true</code></li>
 </ul></li>
@@ -4280,10 +4280,10 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Construct operands and partials</h2></hgroup><article  id="construct-operands-and-partials">
 
-<ul>
+<ul class = 'build'>
 <li>A builder utility to
 
-<ul>
+<ul class = 'build'>
 <li>construct, modify, then produce <code>vari</code></li>
 </ul></li>
 <li>Follows resource allocation is initialization (RAII) pattern</li>
@@ -4295,10 +4295,10 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Views of arguments as sequences</h2></hgroup><article  id="views-of-arguments-as-sequences">
 
-<ul>
+<ul class = 'build'>
 <li>Expression template views provide <em>broadcasting</em>
 
-<ul>
+<ul class = 'build'>
 <li>provides <code>operator[](int n)</code></li>
 <li>specialized for scalars, arrays, vectors, row vectors</li>
 <li>for container: returns element <code>n</code> of container</li>
@@ -4310,7 +4310,7 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
   scalar_seq_view&lt;T_loc&gt; mu_vec(mu);
   scalar_seq_view&lt;T_scale&gt; sigma_vec(sigma);</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Store number of elements in containers or 1</li>
 </ul>
 
@@ -4318,17 +4318,17 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Vector builders for intermediate values</h2></hgroup><article  id="vector-builders-for-intermediate-values">
 
-<ul>
+<ul class = 'build'>
 <li>Modifiable views with type determined by promotion
 
-<ul>
+<ul class = 'build'>
 <li>first template argument determines if should be included</li>
 <li><code>include_summand</code> is a nested traits metaprogram call</li>
 <li><code>length</code> is overloaded for all arguments types</li>
 </ul></li>
 <li><code>T_partials_return</code> is type of derivatives
 
-<ul>
+<ul class = 'build'>
 <li>works for <code>double</code> and all autodiff types (forward, reverse, mixed)</li>
 </ul></li>
 </ul>
@@ -4340,10 +4340,10 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Use vector builders to set intermediates</h2></hgroup><article  id="use-vector-builders-to-set-intermediates">
 
-<ul>
+<ul class = 'build'>
 <li>Only loop over the length of <code>sigma</code>
 
-<ul>
+<ul class = 'build'>
 <li>vector builders overloaded for scalars and containers</li>
 <li>setting <code>[i]</code> sets scalar or <code>i</code>-th element of container</li>
 <li><code>log(sigma)</code> only computed once if <code>sigma</code> is scalar</li>
@@ -4360,10 +4360,10 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Loop over total size</h2></hgroup><article  id="loop-over-total-size">
 
-<ul>
+<ul class = 'build'>
 <li>Inside, compute values and necessary intermediates
 
-<ul>
+<ul class = 'build'>
 <li>uses same <code>T_partials_return</code> types for values and derivatives</li>
 </ul></li>
 </ul>
@@ -4385,11 +4385,11 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Compute value</h2></hgroup><article  id="compute-value">
 
-<ul>
+<ul class = 'build'>
 <li>Broken down into additive terms</li>
 <li>Template traits program condition to drop terms if
 
-<ul>
+<ul class = 'build'>
 <li>template <code>propto</code> is <code>true</code> or relevant arguments constant (not autodiff)</li>
 </ul></li>
 </ul>
@@ -4405,10 +4405,10 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Calculate partials</h2></hgroup><article  id="calculate-partials">
 
-<ul>
+<ul class = 'build'>
 <li>Operands and partials provides views of derivatives
 
-<ul>
+<ul class = 'build'>
 <li>works for all autodiff types</li>
 </ul></li>
 <li>Uses traits to exclude derivatives w.r.t. constants</li>
@@ -4428,11 +4428,11 @@ normal_lpdf(const T_y&amp; y, const T_loc&amp; mu, const T_scale&amp; sigma) {
 
 </article></slide><slide class=""><hgroup><h2>Build and return</h2></hgroup><article  id="build-and-return">
 
-<ul>
+<ul class = 'build'>
 <li>Operands and partials specialized for primitives and autodiff types</li>
 <li>The <code>build()</code> method returns the appropriate type
 
-<ul>
+<ul class = 'build'>
 <li>calculated by metaprogram, shown in return type</li>
 </ul></li>
 </ul>
@@ -4452,14 +4452,14 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Need include in relevant location</h2></hgroup><article  id="need-include-in-relevant-location">
 
-<ul>
+<ul class = 'build'>
 <li>Based on path of file</li>
 <li>Here add to <code>stan/math/prim/scal.hpp</code></li>
 </ul>
 
 <pre class = 'prettyprint lang-cpp'>#include &lt;stan/math/prim/scal/prob/normal_lpdf.hpp&gt;</pre>
 
-<ul>
+<ul class = 'build'>
 <li>This gets propgated up to external includes and language</li>
 </ul>
 
@@ -4467,12 +4467,12 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Add to symbol table</h2></hgroup><article  id="add-to-symbol-table">
 
-<ul>
+<ul class = 'build'>
 <li>Add to <code>&lt;stan&gt;/src/stan/lang/function_signatures.h</code></li>
 <li>Use classes and utilities in this file and in <code>&lt;stan&gt;/src/stan/lang/ast</code></li>
 <li><code>vector_types</code> is a collection of scalars and 1D containers
 
-<ul>
+<ul class = 'build'>
 <li>includes legal arguments to vectorized continuous arguments</li>
 <li>uses included AST types and constructors</li>
 </ul></li>
@@ -4487,10 +4487,10 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Add to symbol table (continued)</h2></hgroup><article  id="add-to-symbol-table-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Helper function <code>add()</code> takes
 
-<ul>
+<ul class = 'build'>
 <li>name of function (must match C++ name in <code>stan::math</code>)</li>
 <li>return type</li>
 <li>sequence of argument types</li>
@@ -4504,7 +4504,7 @@ namespace math {
       add(&quot;normal_lpdf&quot;, expr_type(double_type()),
           vector_types[i], vector_types[j], vector_types[k]);</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Other than testing, that’s it</li>
 </ul>
 
@@ -4512,11 +4512,11 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Required testing for Stan functions</h2></hgroup><article  id="required-testing-for-stan-functions">
 
-<ul>
+<ul class = 'build'>
 <li>Every function submitted to the math library must be unit tested</li>
 <li>Every function added to the language must be instantiated in a Stan model
 
-<ul>
+<ul class = 'build'>
 <li>for every available signature</li>
 <li>tests ability to instantiate with relevant autodiff variables</li>
 <li>e.g., 125 signatures for <code>normal_lpdf</code> (with <code>int</code> to <code>double</code> promotion)</li>
@@ -4525,11 +4525,11 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Example: two argument arctangent</h2></hgroup><article  id="example-two-argument-arctangent">
 
-<ul>
+<ul class = 'build'>
 <li><code>atan2(x, y) =def= atan(x / y)</code> but it’s more stable</li>
 <li>convenient example
 
-<ul>
+<ul class = 'build'>
 <li>structure is simple like <code>multiply</code></li>
 <li>not built into basic language tests like <code>multiply</code></li>
 </ul></li>
@@ -4537,10 +4537,10 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Unit tests</h2></hgroup><article  id="unit-tests">
 
-<ul>
+<ul class = 'build'>
 <li>Reverse mode unit tests
 
-<ul>
+<ul class = 'build'>
 <li><code>&lt;stan-math&gt;/test/unit/math/rev/scal/fun/atan2_test.cpp</code></li>
 <li>name must end in <code>_test.cpp</code> to be picked up by test harness</li>
 </ul></li>
@@ -4555,7 +4555,7 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Unit tests (continued)</h2></hgroup><article  id="unit-tests-continued">
 
-<ul>
+<ul class = 'build'>
 <li>May directly test known values</li>
 </ul>
 
@@ -4574,7 +4574,7 @@ namespace math {
 
 </article></slide><slide class=""><hgroup><h2>Unit tests (continued)</h2></hgroup><article  id="unit-tests-continued-1">
 
-<ul>
+<ul class = 'build'>
 <li>Need this for all the instantations</li>
 </ul>
 
@@ -4585,7 +4585,7 @@ TEST(AgradRev, atan2_var_double) {
 
 </article></slide><slide class=""><hgroup><h2>Unit tests (continued)</h2></hgroup><article  id="unit-tests-continued-2">
 
-<ul>
+<ul class = 'build'>
 <li>Generic not-a-number propagation tests</li>
 </ul>
 
@@ -4604,7 +4604,7 @@ TEST(AgradRev, atan2_nan) {
 
 </article></slide><slide class=""><hgroup><h2>Unit testing (continued)</h2></hgroup><article  id="unit-testing-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Check for autodiff memory leaks on stack</li>
 </ul>
 
@@ -4618,7 +4618,7 @@ TEST(AgradRev, atan2_nan) {
 
 </article></slide><slide class=""><hgroup><h2>Running unit tests</h2></hgroup><article  id="running-unit-tests">
 
-<ul>
+<ul class = 'build'>
 <li>Use testing framework <code>runTests.py</code> with multiple cores (calls make)</li>
 </ul>
 
@@ -4638,17 +4638,17 @@ Running main() from gtest_main.cc
 
 </article></slide><slide class=""><hgroup><h2>Unit testing distributions</h2></hgroup><article  id="unit-testing-distributions">
 
-<ul>
+<ul class = 'build'>
 <li>These have a test framework
 
-<ul>
+<ul class = 'build'>
 <li>code generates multiple instantiations</li>
 <li>checks for errors and values</li>
 <li>for reverse, forward, an mixed autodiff</li>
 </ul></li>
 <li>Example in <code>&lt;math&gt;/test/prob/normal/normal_test.hpp</code>
 
-<ul>
+<ul class = 'build'>
 <li>plug in legal and illegal values</li>
 <li>test all combinations</li>
 </ul></li>
@@ -4656,7 +4656,7 @@ Running main() from gtest_main.cc
 
 </article></slide><slide class=""><hgroup><h2>Test cpplint</h2></hgroup><article  id="test-cpplint">
 
-<ul>
+<ul class = 'build'>
 <li>Tests form and some semantics of code for standards compliance</li>
 <li>From both libraries, test cpplint</li>
 </ul>
@@ -4665,29 +4665,29 @@ Running main() from gtest_main.cc
 
 &lt;math&gt;$ make cpplint</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Make sure there are zero errors</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Running doxygen documentation</h2></hgroup><article  id="running-doxygen-documentation">
 
-<ul>
+<ul class = 'build'>
 <li>Make the math library API documentation using doxygen
 
-<ul>
+<ul class = 'build'>
 <li>requires installation</li>
 </ul></li>
 </ul>
 
 <pre >&lt;math&gt;$ make doxygen</pre>
 
-<ul>
+<ul class = 'build'>
 <li>Make sure there are no errors</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Running header tests</h2></hgroup><article  id="running-header-tests">
 
-<ul>
+<ul class = 'build'>
 <li>Makes sure all the includes are complete per header file</li>
 <li>Same in math library and Stan</li>
 </ul>
@@ -4696,11 +4696,9 @@ Running main() from gtest_main.cc
 
 &lt;math&gt;$ make test-headers</pre>
 
-</article></slide><slide class=""><hgroup><h2>Running model tests</h2></hgroup><article  id="running-model-tests">
-
 </article></slide><slide class=""><hgroup><h2>Model instantiation tests</h2></hgroup><article  id="model-instantiation-tests">
 
-<ul>
+<ul class = 'build'>
 <li>Must be under <code>&lt;stan&gt;/src/test/test-models/good</code></li>
 <li>First test all *data instantiations (<code>int</code> and <code>real</code>)</li>
 </ul>
@@ -4718,7 +4716,7 @@ transformed data {
 
 </article></slide><slide class=""><hgroup><h2>Model tests (continued)</h2></hgroup><article  id="model-tests-continued">
 
-<ul>
+<ul class = 'build'>
 <li>Then test all <em>parameter instantiations</em></li>
 </ul>
 
@@ -4735,11 +4733,11 @@ transformed parameters {
 
 </article></slide><slide class=""><hgroup><h2>Running model instantiation tests</h2></hgroup><article  id="running-model-instantiation-tests">
 
-<ul>
+<ul class = 'build'>
 <li>Usually run informal tests using CmdStan</li>
 <li>Then leave the real tests to the continuous integration servers
 
-<ul>
+<ul class = 'build'>
 <li>kicked off automatically for pull requests</li>
 </ul>
 
