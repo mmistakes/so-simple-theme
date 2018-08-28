@@ -166,7 +166,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 12:00 - 13:00 **Lunch**
 
 13:00 - 14:00 **Contributed Talks: Session 2**  
-**Theresa Smith**  
+**Session Chair: Theresa Smith**  
   
 * **Iiris Sundin**	*Using counterfactual queries to improve models for decision-support*
 * **Alex Braylan and Daniel Marthaler**  *Self-tuning Holidays*
@@ -180,7 +180,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 15:00 - 15:45 **Coffee Break**
 
 15:45 - 16:45 **Contributed Talks: Session 3**   
-**Ilaria Prosdocimi**   
+**Session Chair: Ilaria Prosdocimi**   
 
 * **Paul Buerkner**	*Define Custom Response Distributions with brms*
 * **Kristian Brock** *Clinical trial designs in Stan with trialr*
@@ -215,13 +215,13 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 12:00 - 13:00 **Lunch**
 
 13:00 - 14:00 **Contributed Talks: Session 5**  
-**Session Chair: TBA**   
+**Session Chair: Daniel Simpson**   
 * **Jonathan Auerbach,** Timothy Jones, and Robin Winstanley *Predicting New York City School Enrollment*
 * **Leo Egidi**, F. Pauli & N. Torelli	*Are shots predictive of soccer results?*
 * **Gertjan Verhoeven**	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
 
 14:00 - 15:00 **Contributed Talks Session 6**   
-**Session Chair: TBA**   
+**Session Chair: Sarah Heaps**   
 * **Thomas A. Nielsen**, Dominic Steinitz & Henrik Nilsson	*Getting more out of Stan: some ideas from the Haskell bindings*
 * **Yuling Yao**, Aki Vehtari, Daniel Simpson and Andrew Gelman	*PSIS-diagnostics of ADVI in Stan*
 * Rok &#268;e&#353;novar, Davor Sluga, Jure Dem&#353;ar, **Steve Bronder**, Erik &#352;trumbelj	*GPU Optimized Math Routines in the Stan Math Library*
