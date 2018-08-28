@@ -158,7 +158,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 * **Arya A. Pourzanjani**, Tie Bo Wu, Benjamin B. Bales, Linda R. Petzold	*Relating Disparate Measures of Coagulapathy Using Unorthodox Data: A Hybrid Mechanistic-Statistical Approach*
 * **Martin Modrák** *ODE Model of Gene Regulation*
-* **Sebastian Weber** *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
+* **Sebastian Weber and Eero Siivola** *Solving ODEs in the wild: Scalable pharmacometrics with Stan*
 
 11:45 - 12:00 **Poster Spotlights**
 
@@ -167,7 +167,7 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 13:00 - 14:00 **Contributed Talks: Session 2**
 
 * **Iiris Sundin**	*Using counterfactual queries to improve models for decision-support*
-* **Alex Braylan**  *Self-tuning Holidays*
+* **Alex Braylan and Daniel Marthaler**  *Self-tuning Holidays*
 * **Jari Turkia**	*Modeling the Effects of Nutrition with Mixed-Effect Bayesian Network*
 
 14:00 - 14:45 **Invited Talk: Bad Data, Big Models, and Statistical Methods for Studying Evolution**
