@@ -65,11 +65,11 @@ How to arrive to the right place in Töölö campus
 </center>
 
 ### [Get together on wednesday evening, Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
-Get together on Wednesday evening will take place in Musiikkitalo in the proximity of Helsinki city centre. There are two entrances in the building, use the side entrance. If you use the main entrance, take the stairs down on your right hand side to get to the side entrance.
+Get together on Wednesday evening will take place in Musiikkitalo in the proximity of Helsinki city centre. The Restaurant/Club is located on the third floor of the Helsinki Music Centre. Entrance via Kansalaistori 2G (side entrance) and the Main Lobby (main entrance). If you come to the Main Lobby, take the stairs down on your right hand side and walk straight to get to the Kansalaistori 2G entrance
 
 <center style="padding: 0.75em 0 0 0">
 <img width="500" src="./arriving_musiikkitalo.png" /><br>
-How to arrive to Musiikkitalo. Use the side entrance.
+How to arrive to Musiikkitalo. Use side entrance.
 </center>
 
 ### Finland and Helsinki travel information
