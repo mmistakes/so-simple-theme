@@ -64,6 +64,14 @@ StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö 
 How to arrive to the right place in Töölö campus
 </center>
 
+### [Get together on wednesday evening, Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
+Get together on Wednesday evening will take place in Musiikkitalo in the proximity of Helsinki city centre. There are two entrances in the building, use the side entrance. If you use the main entrance, take the stairs down on your right hand side to get to the side entrance.
+
+<center style="padding: 0.75em 0 0 0">
+<img width="500" src="./arriving_musiikkitalo.png" /><br>
+How to arrive to Musiikkitalo. Use the side entrance.
+</center>
+
 ### Finland and Helsinki travel information
 * [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
 
