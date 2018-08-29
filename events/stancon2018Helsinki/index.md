@@ -286,7 +286,9 @@ Bari, O. 	Constandache, A.
 **Sequential Parameter Learning of Markov Switching Stochastic Volatility Model with Fat-tail Innovations**  
 Yin, M.  
 **Estimating individual response to treatment**  
-Winkelbeiner, S. & Homan, P.  
+Winkelbeiner, S. & Homan, P.   
+**Stan Governing Body**     
+Baldwin, B.    
 
 ## [Get together](#gettogether)
 
