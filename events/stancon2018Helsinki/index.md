@@ -311,7 +311,7 @@ We will be interfacing with Stan from R, but users of Python and other languages
 
 * <a id="hier"></a>**Hierarchical models** (afternoon half day), [Ben Goodrich](https://github.com/bgoodri)
 <br> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the **lme4** R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the `stan_glmer` function in the **rstanarm** R package, proceed to the `brm` function in the **brms** R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model.
-<br> Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
+<br> Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan). [Slides](../../workshops/stancon2018_hierarchical)
 
 * <a id="cpp"></a>**Stan C++ development: adding a new function to Stan** (morning half day), [Bob Carpenter](http://bob-carpenter.github.io/), [Sean Talts](https://github.com/seantalts), and Mitzi Morris.
 <br> This tutorial will prepare you to submit your first pull

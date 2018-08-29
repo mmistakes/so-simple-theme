@@ -26,3 +26,5 @@ image:
 - [Halifax, Nova Scotia 2017](/workshops/halifax2017/)
 - [PyData NYC 2017](/workshops/pydataNYC2017/)
 - [StanCon 2018 Intro Stan](/workshops/stancon2018_intro)
+- [StanCon 2018 Hierarchical Models](/workshops/stancon2018_hierarchical)
+
