@@ -36,6 +36,18 @@ If you have questions regarding registration, payments, travel, please email
 
 ------
 
+# [Streaming](#streaming)
+
+Streaming links
+
+- [Thursday 8:45-17:30](https://youtu.be/5_x14-gJkMg)
+- [Friday 9:00-17:00](https://youtu.be/pKZLJPrZLhU)
+
+Timezone for the schedule is Eastern European Summer Time (EEST) +0300
+UTC
+
+------
+
 # [Location](#location)
 
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
