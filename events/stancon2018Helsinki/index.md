@@ -206,10 +206,10 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 
 15:00 - 15:45 **Coffee Break**
 
-15:45 - 16:30 **Stan Interface Roadmap**
+15:45 - 16:15 **Stan Interface Roadmap**
 **Jonah Gabry**, Columbia University
 
-16:30 - 17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
+16:15 - 17:00 **Esther Williams in the Harold Holt Memorial Swimming Pool: Some thoughts on complexity**
 [Daniel Simpson](https://scholar.google.co.uk/citations?user=oQIKmWUAAAAJ&hl=en), University of Toronto
 
 ## [Posters](#posters)
