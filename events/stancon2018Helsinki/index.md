@@ -38,25 +38,6 @@ If you have questions regarding registration, payments, travel, please email
 
 # [Location](#location)
 
-**Tutorials (29th August) and the actual StanCon (30-31 August) are on different campuses.** Tutorials (29th August) will be 8km from the Helsinki city center, but it's easy to get there by public transportation. StanCon (30-31 August) will be within walking distance from the suggested hotels.
-
-### [Aalto University, Otaniemi Campus, Maarintie 8, Espoo, Finland](http://biz.aalto.fi/en/campus/otaniemi/)
-Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
-
-How to get from Helsinki to Otaniemi by a metro:
-* You need to buy a "regional ticket" ("seutulippu" in Finnish) (valid in Helsinki, Espoo, Kauniainen and Vantaa) before entering the platform
-    * 4.2 € with a mobile app ([link to google play](https://play.google.com/store/apps/details?id=fi.hsl.app&referrer=utm_source%3Dsovellus%26utm_medium%3Dreferral%26utm_campaign%3Dhsl.fi%26anid%3Dadmob)) ([link to Apple store](https://itunes.apple.com/fi/app/apple-store/id1340229182?mt=8&l=en))
-    * 5.0 € from machines located at metro stops ([link to a picture of a machine](https://www.hsl.fi/sites/default/files/styles/large/public/tyyliopas/automaatit_tyyliopas-01-01-01.png?itok=Nz7vduKF))
-* There is only one metro line in Helsinki, choose any metro going to "Tapiola" or "Matinkylä". Metros are leaving every 2 to 5 minutes, so no need to worry about the timetable!
-* Get off at "Aalto University" stop.
-* Use exit B
-* Navigate (300m walk) to Maarintie/Marvägen 8 (In Finnish Maarintie, in Swedish Marvägen) using the following map:
-
-<center style="padding: 0.75em 0 0 0">
-<img width="600" src="./arriving_Otaniemi.png" /><br>
-How to arrive to the right place in Otaniemi campus
-</center>
-
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
 StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö Campus (Runeberginkatu 14-16, Helsinki) in the proximity of Helsinki city centre.
 <center style="padding: 0.75em 0 0 0">
@@ -74,10 +55,6 @@ How to arrive to Musiikkitalo. Use side entrance.
 
 ### Finland and Helsinki travel information
 * [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
-
-# [Accommodation](#accommodation)
-
-Please make your hotel reservation directly with the hotels. We have arranged some deals with hotels and provide [a list of some recommended hotels near the venue](/events/stancon2018Helsinki/stancon-accommodation.html).
 
 # [Overall Schedule](#overall-schedule)
 
@@ -137,9 +114,6 @@ Eric Novik. Hall TU1, 1st floor.
 
 16:30 - 17:30 [**Model assessment and selection**](#assessment)
 Aki Vehtari.  Hall AS2, 2nd floor.
-
-16:30 - 17:30 **Meet the developers**
-TBD. Hall TU1, 1st floor.
 
 19:00 - 21:30    **Get together**, [Musiikkitalo, Mannerheimintie 13 A, Helsinki](https://goo.gl/maps/UigTBs6Fnzj)
 
@@ -424,5 +398,4 @@ Local organization committee in Helsinki:
 * Topi Paananen (Aalto University)
 * Tuomas Sivula (Aalto University)
 * Michael Riis Andersen (Aalto University)
-* Akash Dhaka (Aalto University)
-* Shrikanth Gadicherla (Aalto University)
+* Måns Magnusson (Aalto University)
