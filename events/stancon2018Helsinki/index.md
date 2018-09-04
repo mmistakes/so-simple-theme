@@ -22,6 +22,7 @@ August 29-31, 2018      &emsp; &bull; &emsp; Aalto University, Helsinki, Finland
 - [**Sponsors**](#sponsors)
 - [**Location**](#location)
 - [**Overall Schedule**](#overall-schedule)
+- [**Videos**](#videos)
 - [**Speakers and Schedule**](#speakers-and-schedule)
 - [**Posters**](#posters)
 - [**Tutorials**](#tutorials)
@@ -36,26 +37,23 @@ If you have questions regarding registration, payments, travel, please email
 
 ------
 
-# [Streaming](#streaming)
+# [Videos](#videos)
 
-Streaming links
-
+- [Tutorials](https://www.youtube.com/playlist?list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J)
 - [Thursday 8:45-17:30](https://youtu.be/5_x14-gJkMg)
 - [Friday 9:00-17:00](https://youtu.be/pKZLJPrZLhU)
 
-Timezone for the schedule is Eastern European Summer Time (EEST) +0300
-UTC
+Talk videos will be edited and divided to individual talks this week.
 
 ------
 
 # [Location](#location)
 
+### [Aalto University, Otaniemi Campus, Maarintie 8, Espoo, Finland](http://biz.aalto.fi/en/campus/otaniemi/)
+Tutorials on Wednesday 29th August, will be at Aalto University Otaniemi campus (Maarintie 8, Espoo) at 13min metro ride away from the Helsinki city centre.
+
 ### [Aalto University, Töölö Campus, Runeberginkatu 14-16, Helsinki, Finland](http://biz.aalto.fi/en/campus/toolo/)
 StanCon 2018 Helsinki will take place 30-31 August at Aalto University Töölö Campus (Runeberginkatu 14-16, Helsinki) in the proximity of Helsinki city centre.
-<center style="padding: 0.75em 0 0 0">
-<img width="500" src="./arriving_toolo.png" /><br>
-How to arrive to the right place in Töölö campus
-</center>
 
 ### Finland and Helsinki travel information
 * [Finland and Helsinki Travel Information](/events/stancon2018Helsinki/stancon-travel.html)
@@ -70,7 +68,7 @@ How to arrive to the right place in Töölö campus
 | 19:00 - 21:30 | Get together |
 || **Thursday 30 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
 | 08:00 - 17:00 | Registration |
-| 09:00 - 18:00 | Conference |
+| 08:45 - 18:00 | Conference |
 || **Thursday 30 August, TBD** |
 | 19:30 -  | Dinner |
 || **Friday 31 August, Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki** |
@@ -193,13 +191,13 @@ Location: [Aalto University, Töölö campus, Runeberginkatu 14-16, Helsinki](ht
 12:00 - 13:00 **Lunch**
 
 13:00 - 14:00 **Contributed Talks: Session 5**  
-**Session Chair: Daniel Simpson**   
+**Session Chair: Sarah Heaps**   
 * **Jonathan Auerbach,** Timothy Jones, and Robin Winstanley *Predicting New York City School Enrollment*
 * **Leo Egidi**, F. Pauli & N. Torelli	*Are shots predictive of soccer results?*
 * **Gertjan Verhoeven**	*Does accounting for an artificial turf advantage in Dutch football increase predictive accuracy of probabilistic models?*
 
 14:00 - 15:00 **Contributed Talks Session 6**   
-**Session Chair: Sarah Heaps**   
+**Session Chair: ...**   
 * **Thomas A. Nielsen**, Dominic Steinitz & Henrik Nilsson	*Getting more out of Stan: some ideas from the Haskell bindings*
 * **Yuling Yao**, Aki Vehtari, Daniel Simpson and Andrew Gelman	*PSIS-diagnostics of ADVI in Stan*
 * Rok &#268;e&#353;novar, Davor Sluga, Jure Dem&#353;ar, **Steve Bronder**, Erik &#352;trumbelj	*GPU Optimized Math Routines in the Stan Math Library*
@@ -278,6 +276,8 @@ Conference dinner will be on Thursday evening (included in the
 registration fee).
 
 # [Tutorials](#tutorials)
+
+- [Tutorial videos](https://www.youtube.com/playlist?list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J)
 
 Pre-conference tutorials led by Stan developers are organized for 29th August 2018 at [Aalto University Otaniemi campus, Maarintie 8, Espoo](https://goo.gl/maps/84SJ4uRWqBA2), 13mins metro ride away from Helsinki city center. There are two parallel sessions. The tutorial sessions are:
 
