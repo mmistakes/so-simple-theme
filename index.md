@@ -10,9 +10,6 @@ image:
   creditlink:
 ---
 
-{:.center-txt}
-[StanCon 2018 Helsinki, Aug 29-31](/events/stancon2018Helsinki)
-
 Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
 and high-performance statistical computation.  Thousands of users rely
 on Stan for statistical modeling, data analysis, and prediction in
