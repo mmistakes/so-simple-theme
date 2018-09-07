@@ -1,0 +1,209 @@
+---
+title: "An Introduction to Bayesian Inference in Medicine using Stan"
+author: "Ben Goodrich"
+date: "September 8, 2018"
+output:
+  ioslides_presentation:
+    widescreen: yes
+---
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(rstan)
+rstan_options(auto_write = TRUE)
+options(mc.cores = 4)
+library(rstanarm)
+library(brms)
+```
+
+## Obligatory Disclosure
+
+* Ben is an employee of Columbia University, which has received several research grants to develop Stan
+* Ben is also a manager of GG Statistics LLC, which uses Stan for business purposes
+* According to Columbia University 
+  [policy](https://research.columbia.edu/content/conflict-interest-and-research), any such employee who 
+  has any equity stake in, a title (such as officer or director) with, or is expected to earn at least 
+  $\$5,000.00$ per year from a private company is required to disclose these facts in presentations
+
+## What Is Stan?
+
+* A high-level
+  [probabilistic programming language](https://en.wikipedia.org/wiki/Probabilistic_programming_language)
+  (PPL) that resembles C
+* Like BUGS but unlike most PPLs, Stan focuses on drawing from posterior distributions, i.e.
+  conditional distributions of parameters given known data
+* But the MCMC algorithm used by Stan is very different from the Gibbs sampling with fallback
+  algorithm used by BUGS
+  
+> - Unlike BUGS but like Metropolis-Hastings (MH), Stan requires you to specify the log-density
+  of the posterior distributions, optionally ignoring constants
+> - Unlike MH, Stan utilizes the gradient (which is calculated automatically) of the 
+  log-density to generate proposed moves through the parameter space
+
+## Ebola
+
+What is the probability that a drug developed by Mapp Biopharmaceutical will allow a person 
+with Ebola to survive?
+
+> - The Beta distribution for $\pi \in \left[0,1\right]$ has 2 positive shape parameters 
+  $\alpha$ and $\beta$
+> - Its mode is $M = \frac{\alpha - 1}{\alpha + \beta - 2}$ but only exists if $\alpha,\beta > 1$
+> - Its median, $m \approx \frac{\alpha - \frac{1}{3}}{\alpha + \beta - \frac{2}{3}}$, exists but this 
+  approximation is good iff $\alpha,\beta > 1$
+> - Given $M, m \in \left(0,1\right)$, you can [solve](https://www.wolframalpha.com/input/?i=Reduce+function) 
+  for $\alpha > 1$ and $\beta > 1$
+    - $\alpha = \frac{m\left(4M - 3\right) + M}{3\left(M - m\right)}$
+    - $\beta = \frac{m\left(1 - 4M\right) + 5M - 2}{3\left(M - m\right)}$
+    - But $m$ must be between $\frac{1}{2}$ and $M$
+
+## Stan Program for Ebola
+
+```{stan, output.var="ebola", eval = FALSE}
+data {
+  int<lower = 1> exposed;
+  int<lower = 0, upper = exposed> survived;
+  real<lower = 1> alpha;
+  real<lower = 1> beta;
+}
+transformed data { // this block is only executed once
+  int died = exposed - survived;
+  real constant_1 = lchoose(exposed, survived); // log of binomial coefficient
+  real constant_2 = -lbeta(alpha, beta);        // negative log of beta function
+}
+parameters { real<lower = 0, upper = 1> pi; }   // survival probability
+model {
+  real log_pi = log(pi);
+  real log_1mpi = log1m(pi);
+  target += constant_1 + survived * log_pi + died * log_1mpi; // binomial_lpmf(...)
+  target += constant_2 + (alpha - 1) * log_pi + (beta - 1) * log_1mpi; // beta_lpdf(...)
+}
+generated quantities { real odds = pi / (1 - pi); }
+```
+
+## Posterior Output from Ebola Model
+
+```{r, results = "hide", message = FALSE}
+library(rstan)
+M <- 2 / 3 # prior mode
+m <- 0.55  # prior median
+alpha <- (m * (4 * M - 3) + M) / (3 * (M - m))
+beta  <- (m * (1 - 4 * M) + 5 * M - 2) / (3 * (M - m))
+post <- stan("ebola.stan", refresh = 0, # suppresses intermediate output
+             data = list(exposed = 7, survived = 5, alpha = alpha, beta = beta))
+```
+```{r}
+post
+```
+
+## Specifying Prior Distributions Is Too Hard
+
+- Specifying priors is perhaps the biggest obstacle for people trying Bayesian methods
+- Unlike BUGS, Stan is indifferent to whether you use conjugate priors
+- So, use prior distributions that are easiest for you
+
+> - A quantile function is the inverse of a CDF, so it maps from cumulative probability to order statistics
+  (although often no closed-form exists)
+> - Inputting a standard uniform random variate into the quantile function for distribution $\mathcal{D}$
+  yields a realization from $\mathcal{D}$
+> - Quantile Parameterized Distributions (QPDs) are basically distributions whose parameters are quantiles,
+  such as the median, 25%, 75%, 2.5%, 97.5%, etc. See http://metalogdistributions.com/publications.html
+> - If you can specify bounds, the median, and a couple other quantiles for a parameter, we can
+  _construct_ a valid probability distribution that is both differentiable and consistent with those 
+  quantiles
+> - Similar variants exist for one-sided or unbounded prior distributions
+
+## Exposing User-Defined Stan Programs to R
+
+```{r, results = "hide"}
+expose_stan_functions("JQPD.stan") # JQPDB_icdf now exists in R's global environment
+stopifnot(all.equal(0.7, JQPDB_icdf(p = 0.75, alpha = 0.25, 0, 0.4, 0.55, 0.7, 1)))
+```
+```{r, echo = FALSE, out.width="80%"}
+par(mar = c(3,4,0,1) + .2)
+curve(vapply(p, FUN = JQPDB_icdf, FUN.VALUE = double(1),
+             alpha = 0.25, l = 0, x_alpha = 0.4, x_median = 0.55, x_1malpha = 0.7, u = 1), 
+      from = 0, to = 1, n = 1001, xname = "p", ylab = "Prior Survival Probability", 
+      las = 1, axes = FALSE)
+axis(1, at = c(0, 0.25, 0.5, 0.75, 1))
+axis(2, at = c(0, 0.2, 0.4, 0.55, 0.7, 0.85, 1), las = 1)
+segments(x0 = 0.25, y0 = -1, y1 = 0.4, col = 2, lty = 2)
+segments(x0 = -1, y0 = 0.4, x1 = 0.25, col = 2, lty = 2)
+segments(x0 = 0.5, y0 = -1, y1 = 0.55, col = 3, lty = 2)
+segments(x0 = -1, y0 = 0.55, x1 = 0.5, col = 3, lty = 2)
+segments(x0 = 0.75, y0 = -1, y1 = 0.7, col = 4, lty = 2)
+segments(x0 = -1, y0 = 0.7, x1 = 0.75, col = 4, lty = 2)
+legend("topleft", legend = c("Quantile function", "25%", "Median", "75%"), 
+       lty = c(1,2,2,2), col = 1:4, ncol = 2, bg = "lightgrey", box.lwd = NA)
+```
+
+## Another Stan Program for Ebola
+
+```{stan, output.var="ebola2", eval = FALSE}
+// this next line brings in the JQPDB_icdf function, among others that are not used here
+#include /JQPD.stan
+data {
+  int<lower = 1> exposed;
+  int<lower = 0, upper = exposed> survived;
+  
+  real<lower = 0, upper = 0.5> alpha;   // low is the alpha quantile
+  real<lower = 0, upper = 1> low;
+  real<lower = low, upper = 1> median;
+  real<lower = median, upper = 1> high; // the 1 - alpha quantile
+}
+parameters { real<lower = 0, upper = 1> p; }  // primitive with implicit uniform prior
+transformed parameters {
+  real pi = JQPDB_icdf(p, alpha, 0.0, low, median, high, 1.0); // survival probability
+}
+model {
+  target += binomial_lpmf(survived | exposed, pi); // log-likelihood
+}
+```
+
+## Posterior Output from Alternate Ebola Model
+
+```{r, results = "hide", message = FALSE}
+post2 <- stan("ebola2.stan", refresh = 0, # suppresses intermediate output
+              data = list(exposed = 7, survived = 5, alpha = 0.25, low = 0.4,
+                          median = 0.55, high = 0.7))
+```
+```{r}
+post2
+```
+
+## Organizing the Data for Stan Is Too Hard
+
+- The **rstanarm** package comes with precompiled Stan programs that accept the same
+  syntax as popular R functions, such as
+
+## Asthma
+
+```{r, Asthma, cache = TRUE, results = "hide", warning = FALSE}
+library(rstanarm)
+post3 <- stan_nlmer(conc ~ SSfol(Dose, Time, lKe, lKa, lCl) ~ 
+                     (0 + lKe + lKa + lCl | Subject), data = Theoph,
+                    prior = normal(location = c(-2, 0.5, -3), scale = 0.5, autoscale = FALSE),
+                    seed = 982018, adapt_delta = 0.999, refresh = 0, init_r = 0.5)
+```
+```{r}
+str(as.data.frame(post3))
+```
+
+## Results {.smaller}
+
+We can use `summary()` or implicitly `print()` to see the highlights of the posterior distribution:
+```{r}
+post3
+```
+
+## Warnings
+
+## The **trialr** and **RBesT** R Packages
+
+## The **rstantools** R Package
+
+## The **brms** R Package
