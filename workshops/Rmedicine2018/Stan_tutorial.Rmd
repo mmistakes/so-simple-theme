@@ -5,6 +5,8 @@ date: "September 8, 2018"
 output:
   ioslides_presentation:
     widescreen: yes
+editor_options: 
+  chunk_output_type: console
 ---
 <style type="text/css">
 slides > slide:not(.nobackground):after {
@@ -18,6 +20,7 @@ library(rstan)
 rstan_options(auto_write = TRUE)
 options(mc.cores = 4)
 library(rstanarm)
+library(bayesplot)
 library(brms)
 ```
 
@@ -45,7 +48,7 @@ library(brms)
 > - Unlike MH, Stan utilizes the gradient (which is calculated automatically) of the 
   log-density to generate proposed moves through the parameter space
 
-## Ebola
+## Beta-Binomial Example with Ebola
 
 What is the probability that a drug developed by Mapp Biopharmaceutical will allow a person 
 with Ebola to survive?
@@ -100,9 +103,9 @@ post <- stan("ebola.stan", refresh = 0, # suppresses intermediate output
 post
 ```
 
-## Specifying Prior Distributions Is Too Hard
+## But Specifying Prior Distributions Is Too Hard
 
-- Specifying priors is perhaps the biggest obstacle for people trying Bayesian methods
+- Specifying priors is the biggest obstacle for people trying Bayesian methods
 - Unlike BUGS, Stan is indifferent to whether you use conjugate priors
 - So, use prior distributions that are easiest for you
 
@@ -175,35 +178,237 @@ post2 <- stan("ebola2.stan", refresh = 0, # suppresses intermediate output
 post2
 ```
 
-## Organizing the Data for Stan Is Too Hard
+## But Organizing the Data for Stan Is Too Hard
 
 - The **rstanarm** package comes with precompiled Stan programs that accept the same
-  syntax as popular R functions, such as
+  syntax as popular R functions, including
+    - `lm`, `biglm::biglm`, `glm`, `MASS::glm.nb`, and `aov` for (G)LMs
+    - `betareg::betareg` when the outcome is a proportion
+    - `survival::clogit` for case-control studies
+    - `gamm4::gamm4` (really `mgcv::jagam`) supports splines
+    - `lme4::lmer`, `lme4::glmer`, and `lme4::nlmer` for hierchical models
+    - `JMBayes::jm` (plus `mvmer`) for "joint" models of survival / severity
+    - `MASS::polr` for ordinal outcomes
+- Just prefix with `rstanarm::stan_`, change the default priors if you like, and
+  you get draws from the posterior distribution
 
-## Asthma
+## Nonlinear Hierchical ODE Model for Theophylline
 
 ```{r, Asthma, cache = TRUE, results = "hide", warning = FALSE}
 library(rstanarm)
 post3 <- stan_nlmer(conc ~ SSfol(Dose, Time, lKe, lKa, lCl) ~ 
                      (0 + lKe + lKa + lCl | Subject), data = Theoph,
-                    prior = normal(location = c(-2, 0.5, -3), scale = 0.5, autoscale = FALSE),
-                    seed = 982018, adapt_delta = 0.999, refresh = 0, init_r = 0.5)
+                    prior = normal(location = c(-2, 0.5, -3), scale = 1, autoscale = FALSE),
+                    seed = 982018, refresh = 0)
 ```
 ```{r}
 str(as.data.frame(post3))
 ```
 
-## Results {.smaller}
+## Results of Theophylline Model {.smaller}
 
 We can use `summary()` or implicitly `print()` to see the highlights of the posterior distribution:
-```{r}
+```{r, warning = FALSE}
 post3
 ```
 
-## Warnings
+## MCMC Does _not_ Generally Work in Finite Time
+
+- Almost all differentiable Stan programs will work the first time, can be
+  made to work with enough skill, or will yield warnings indicating they failed
+- Theophylline model throws a warning about 59 divergent transitions
+- Implies part of the posterior distribution is unreachable due to numerical error
+- At best, only the posterior medians are trustworthy
 
 ## The **trialr** and **RBesT** R Packages
 
+- There are several PK / PD packages using Stan on CRAN now
+- Two of the best are **trialr** (Brock) and **RBesT** (Novartis)
+- **trialr** goes beyond "3+3" designs to implement "model-based" designs:
+    - `EffTox`: seamless phase I-II dose-finding, published by Thall & Cook 2004
+    - Hierarchical model for a phase II trial of a treatment in a disease with multiple sub-types using binary responses, published by Thall et al 2003
+    - `BEBOP`, a stratified medicine design for studying efficacy and toxicity in phase II that incorporates predictive baseline information, as developed for the PePS2 trial and submitted for publication by Brock, et al. 2017
+- `RBesT::gMAP` implements a meta-analytic-predictive (MAP) approach that derives a prior from historical 
+  experimental data using a hierarchical model
+
+## Efficacy-Toxicity Example from **trialr** [Vignette](https://brockk.github.io/trialr/articles/EffTox.html)
+
+```{r, message = FALSE, results = "hide"}
+library(trialr)
+outcomes <- '1NNE 2EEB'
+mod <- stan_efftox(outcomes,real_doses = c(1.0, 2.0, 4.0, 6.6, 10.0),
+                   efficacy_hurdle = 0.5, toxicity_hurdle = 0.3,
+                   p_e = 0.1, p_t = 0.1, eff0 = 0.5, tox1 = 0.65, 
+                   eff_star = 0.7, tox_star = 0.25,
+                   alpha_mean = -7.9593, alpha_sd = 3.5487, 
+                   beta_mean = 1.5482, beta_sd = 3.5018,
+                   gamma_mean = 0.7367, gamma_sd = 2.5423, 
+                   zeta_mean = 3.4181, zeta_sd = 2.4406,
+                   eta_mean = 0, eta_sd = 0.2, psi_mean = 0, psi_sd = 1, seed = 123)
+```
+
+## Decision-Theory in Efficacy-Toxicity Example
+
+```{r}
+efftox_contour_plot(mod$dat, prob_eff = mod$prob_eff, prob_tox = mod$prob_tox)
+```
+Dose level 3 is slightly preferred because it is farthest to the southeast
+
+## Ankylosing Spondylitis from RBesT [Vignette](https://cran.r-project.org/web/packages/RBesT/vignettes/introduction.html)
+
+```{r, RBesT, cache = TRUE, results = "hide", message = FALSE}
+library(RBesT)
+set.seed(34563)
+map_mcmc <- gMAP(cbind(r, n-r) ~ 1 | study, data = AS, family = binomial,
+                 tau.dist = "HalfNormal", tau.prior = 1, beta.prior = 2)
+```
+```{r, echo = FALSE}
+pl <- plot(map_mcmc)
+print(pl$forest_model)
+```
+
+## Analysis of Ankylosing Spondylitis Model
+
+```{r, message = FALSE}
+library(RBesT)
+map <- automixfit(map_mcmc)
+map_robust <- robustify(map, weight = 0.2, mean = 0.5)
+post_placebo <- postmix(map_robust,  r = 1, n = 6)
+post_treat   <- postmix(mixbeta(c(1, 0.5, 1)), r = 14, n = 24)
+pmixdiff(post_placebo, post_treat, 0) # prob negative
+```
+
 ## The **rstantools** R Package
 
-## The **brms** R Package
+- One thing that makes **trialr** and **RBesT** great is that they were created with
+  `rstantools::rstan_package_skeleton`, which provides the skeleton of an R package
+  for Stan programs (see the **rstantools** vignette)
+- The package maintainer only has to
+    - Write a useful Stan program
+    - Write R wrapper functions that usually input a `formula`, `data.frame`, etc.
+      process the data into the form specified by the Stan program, and call it
+    - Write post-estimation methods (can import generics from **rstantools**)
+    - Test the functions in the package
+- We want to see more R packages using Stan this way    
+
+## But Writing Stan Programs Is Too Hard
+
+- The `brms::brm` function inputs a `formula`, `data.frame`, etc., writes a 
+  Stan program, compiles it, and executes it, which supports a wider range of 
+  regression models than does **rstanarm**
+- Example adapted from [Matti Vuorre](https://vuorre.netlify.com/post/2016/2016-09-29-bayesian-meta-analysis/)
+```{r, metaanalysis, results = "hide", cache = TRUE, message = FALSE}
+library(metafor)
+dat <- escalc(measure="ZCOR", ri = ri, ni = ni, data = dat.molloy2014)
+dat$sei <- c(.1, .04, .14, .12, .1, .13, .08, .06, .13, .04, .14, .11, .09, .04, .08, .13)
+dat$study <- LETTERS[1:nrow(dat)]
+library(brms)
+brm_out <- brm(yi | se(sei) ~ (1|study), data = dat)
+```
+
+## Results from Meta-Analysis
+
+```{r}
+brm_out
+```
+
+## Plot of Results from Meta-Analysis
+
+```{r}
+bayesplot::mcmc_areas_ridges(as.matrix(brm_out), regex_pars = "Intercept")
+```
+
+## Learn How to Code Stan Models from **brms**
+
+```{r}
+str(brms::make_standata(yi | se(sei) ~ (1|study), data = dat), give.attr = FALSE)
+```
+
+## The `data` and `transformed data` Blocks
+
+```{r}
+brms::make_stancode(yi | se(sei) ~ (1|study), data = dat)
+```
+
+## The Remaining Blocks {.smaller}
+
+```{r, echo = FALSE}
+code <- make_stancode(yi | se(sei) ~ (1|study), data = dat)
+code[[1]] <- sub("^.*\nparameters", "parameters", code[[1]])
+code
+```
+
+## Part of a Warfarin Model
+
+- PK part is easy; PD part entails solving an ODE numerically
+$$\frac{dR_i}{dt} = k_{i}^{in} \left(1 - \frac{C_i(t)}{C_i(t) + EC50_i}\right) - k_{i}^{out} R_i$$
+$\log\left(R_i(0)\right) \thicksim \mathcal{N}\left(\theta_1,\omega_1\right)$;
+$\log\left(k_{i}^{out}\right) \thicksim \mathcal{N}\left(-\theta_2,\omega_2\right)$;
+$\log\left(EC50_i\right) \thicksim \mathcal{N}\left(\theta_3,\omega_3\right)$
+
+```{stan output.var="ODE", eval = FALSE}
+  real[] turnover_kin_inhib_2(real t, real[] R, real[] theta, real[] x_r, int[] x_i) {
+//real ldose=x_r[1]; real llag=x_r[2]; real lka=x_r[3]; real lCl=x_r[4]; real lV=x_r[5];
+    real lconc = pk_1cmt_oral_tlag_t(t, x_r[1], x_r[2], x_r[3], x_r[4], x_r[5]);
+    real lkout = -theta[2];
+    real lkin = theta[1] + lkout;
+    real lEC50 = theta[3];
+    real lS = log_inv_logit(lconc - lEC50);
+    return { exp(lkin + log1m_exp(lS)) - R[1] * exp(lkout) };
+  }
+```
+
+
+## Posterior Predictions from a Warfarin Model
+```{r, Warfarin, cache = TRUE, include = FALSE}
+setwd("Warfarin")
+source("munge.R")
+pd_model2_gen <- stan_generate_model("warfarin_pd_tlagMax_2.stan")
+pd_model2 <- stan_model(pd_model2_gen)
+stan_data_pd$Eta_est <- readRDS("Eta_cov_est.rda")
+stan_data_pd$ref <- 25
+
+inits_pd <- function() {
+    list(theta=rnorm(3, c(log(100), log(24), log(5)), 0.2),
+         Eta=matrix(rnorm(3*J, 0, 0.5), J, 3),
+         sigma_eta=abs(rnorm(3, 0, 0.25)),
+         sigma_y=cumsum(abs(rnorm(1, 0, 5)))
+         )
+}
+stan_inits <- replicate(4, inits_pd(), FALSE)
+pd_fit_2 <- sampling(pd_model2
+                    ,data=stan_data_pd
+                    ,chains=4
+                    ,init=stan_inits
+                    ,seed=24556
+                    ,refresh=0
+                    ,control=list(adapt_delta=0.8, stepsize=0.1)
+                    ,open_progress=FALSE)
+```
+```{r, echo = FALSE}
+pd_post <- extract(pd_fit_2, pars=c("mu", "ypred", "ypred_cond"))
+pop_pars <- c("theta", "sigma_eta", "sigma_y", "sigma_y_ref")
+pd_sub <- pd$oid %in% 1:4
+with(pd, ppc_ribbon_grouped(dv[pd_sub], pd_post$ypred_cond[,pd_sub], time[pd_sub], label[pd_sub], facet_args=list(scales="fixed")) +
+         xlab("Time after dose [h]") +
+         ggtitle("Percent Change Prothrombin Complex Levels vs Normal",
+                 "Posterior predictive and data for 4 patients after 1.5mg/kg Warfarin oral dose") +
+          legend_none())
+
+```
+
+Example was taken from Sebastian Weber's [presentation](http://mc-stan.org/events/stancon2018Helsinki/#speakers-and-schedule) at StanCon2018 Helsinki
+
+## Conclusion
+
+- Stan can be and has been used for medical research
+- Novartist and AstraZeneca have contributed both funding and code to Stan
+- Stan has the most advanced MCMC algorithm, which will either work or fail with warnings
+- Without constraints that are self-imposed by Gibbs samplers, you can use intuitive priors,
+  user-defined functions, numerical solutions to ODEs, etc.
+- The **rstantools** R package makes it easy to bundle up _your_ Stan program for CRAN so
+  that others can use it, like **rstanarm**, **trialr**, **RBesT** and many others
+- The **brms** R package does almost all regression models you might need
+- The **bayesplot** and **shinystan** packages help you [visualize](http://stat.columbia.edu/~gelman/research/published/bayes-vis.pdf) the output
+- Check out http://mc-stan.org/ and https://discourse.mc-stan.org/ !
+
