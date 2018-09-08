@@ -27,5 +27,5 @@ image:
 - [PyData NYC 2017](/workshops/pydataNYC2017/)
 - [StanCon 2018 Intro Stan](/workshops/stancon2018_intro)
 - [StanCon 2018 Hierarchical Models](/workshops/stancon2018_hierarchical)
-- [R/Medicine 2018 Stan Tutorial](/workshops/Rmedicine)
+- [R/Medicine 2018 Stan Tutorial](/workshops/Rmedicine2018)
 
