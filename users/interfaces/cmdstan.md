@@ -29,10 +29,8 @@ Unpack the distribution and consult the user's guide <span class="note">(in dire
 
 # Documentation
 
-The CmdStan documentation is also available directly.
-
-* [CmdStan Interface User's Guide, v2.18.0](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-guide.pdf)
-  &nbsp; <span class="note">(GitHub)</span>
+The latest CmdStan documentation is also available directly through
+the release links without downloading the entire package.
 
 Stan's modeling language documentation is platform independent.
 
