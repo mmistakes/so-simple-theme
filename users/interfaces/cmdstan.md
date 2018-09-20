@@ -16,13 +16,11 @@ the shell interface to Stan
 # Download and Get Started
 
 The CmdStan distribution includes the complete source and
-documentation for all platforms.
+documentation for all platforms.  The latest release, including
+getting started instructions and documentation, is available from 
 
-* [CmdStan 2.17.1 [tar.gz]](https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-2.17.1.tar.gz)
+* [CmdStan Releases](https://github.com/stan-dev/cmdstan/releases)
   <span class="note">(GitHub)</span>
-
-* [CmdStan 2.17.1 [zip]](https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-2.17.1.zip)
-   <span class="note">(GitHub)</span>
 
 Unpack the distribution and consult the user's guide <span class="note">(in directory
 <tt>doc/</tt>)</span> for installation and getting started instructions.
@@ -34,8 +32,7 @@ Unpack the distribution and consult the user's guide <span class="note">(in dire
 The CmdStan documentation is also available directly.
 
 * <p>
-  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.17.1/cmdstan-guide-2.17.1.pdf"><i>CmdStan
-    Interface User's Guide, v2.17.1</i></a>
+  [*CmdStan Interface User's Guide, v2.18.0*](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-guide.pdf)
   &nbsp; <span class="note">(GitHub)</span>
   </p>
 
@@ -44,17 +41,6 @@ Stan's modeling language documentation is platform independent.
 
 * <p>
   <a href="/documentation/">Stan Documentation</a>
-  </p>
-
-
-# Previous Releases
-
-All previous releases are available.
-
-* <p>
-  <a href="https://github.com/stan-dev/cmdstan/releases">CmdStan [previous
-    versions]</a>
-  &nbsp; <span class="note">(GitHub)</span>
   </p>
 
 
@@ -67,6 +53,11 @@ CmdStan's source code and issue tracker are hosted by GitHub.
   <span class="note">(GitHub)</span>
   </p>
 
+
+# Previous Releases
+
+All previous releases are available at the same link as the current
+release.
 
 # License
 
