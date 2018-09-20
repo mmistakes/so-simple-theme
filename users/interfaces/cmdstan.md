@@ -17,7 +17,7 @@ the shell interface to Stan
 
 The CmdStan distribution includes the complete source and
 documentation for all platforms.  The latest release, including
-getting started instructions and documentation, is available from 
+getting started instructions and documentation, is available from
 
 * [CmdStan Releases](https://github.com/stan-dev/cmdstan/releases)
   <span class="note">(GitHub)</span>
@@ -31,11 +31,8 @@ Unpack the distribution and consult the user's guide <span class="note">(in dire
 
 The CmdStan documentation is also available directly.
 
-* <p>
-  [CmdStan Interface User's Guide, v2.18.0](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-guide.pdf)
+* [CmdStan Interface User's Guide, v2.18.0](https://github.com/stan-dev/cmdstan/releases/download/v2.18.0/cmdstan-guide.pdf)
   &nbsp; <span class="note">(GitHub)</span>
-  </p>
-
 
 Stan's modeling language documentation is platform independent.
 
@@ -67,5 +64,3 @@ CmdStan is open-source licensed under the
   <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
   <span class="note">(Open Source Initiative)</span>.
   </p>
-
-
