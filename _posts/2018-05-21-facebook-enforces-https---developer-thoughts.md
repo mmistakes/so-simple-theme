@@ -14,7 +14,7 @@ Sometime ago Facebook introduced new requirements for API applications. They wan
 
 Most of applications I have developed are deployed to AWS or almost the same providers and uses next infrastructure schema:
 
-![Application Infrastructure](/images/application-infrastructure.svg)
+[![Application Infrastructure](/images/application-architecture.png)](/images/application-architecture.png)
 
 So, I handle secured connection via Load Balancer and the application don't even knows about existing of https connetion. It just works.
 
