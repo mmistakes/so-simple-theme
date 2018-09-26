@@ -24,4 +24,4 @@ Facebook enforces HTTPS for applications and don't allows to turn it off even if
 
 I know that I can make self-signed certificate or use free certificate by [Let's Encrypt](https://letsencrypt.org/) but why I should mess with it if I can resolve it on infrastructure layer? With this enforcement developers needs to "implement" local "secured" environment. Seriously?
 
-🔥 Facebook burn in Hell! 🔥
+<h3 style="text-align:center">🔥 Facebook burn in Hell! 🔥</h3>
