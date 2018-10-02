@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+- Update GitHub issue templates.
+
 ### Added
 - Add Spanish translations to `text.yml`. [#300](https://github.com/mmistakes/so-simple-theme/pull/300)
 
