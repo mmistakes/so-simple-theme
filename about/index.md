@@ -24,7 +24,7 @@ volunteer developers from around the world.
 
 * <p><a href="/about/team/">The Stan Development Team</a></p>
 
-# Stan Governing Body (SGB)
+# Stan Governing Body (SGB) 
 
 We have a provisional Stan Governing Body that will operate for 1 year (starting 08/23/2018).
 
@@ -50,9 +50,9 @@ The current SGB (09/05/2018) is:
 * Sean Talts <span class="note">(Columbia University)</span>
 * Lizzie Wolkovich <span class="note">(University of British Columbia)</span>
 
-Minutes:
+## [Minutes](/about/sgb/minutes)
 
-- [Regular online meeting 09/16/2018]()
+- [Regular online meeting 09/16/2018](/about/sgb/minutes.html#20180918-regular-online-meeting)
 
 
 # Funding
@@ -69,12 +69,24 @@ detailing the ways in which you can contribute.
 
 # NumFOCUS
 
-Stan is now linked to [NumFOCUS](http://numfocus.org/), a
-U.S. 501(c)(3) nonprofit organization that serves several other
-open-source software projects, including NumPy, Julia, Jupyter, and
-others.  For more details see
+Stan is a member project of [NumFOCUS](http://numfocus.org/), a
+U.S. 501(c)(3) nonprofit organization that serves open-source
+software projects.
 
-* <p><a href="/about/numfocus/index.html">Stan and NumFOCUS</a></p>
+All financial decisions related to NumFOCUS are made by the [Stan Governing Body](#stan-governing-body-sgb).
+
+### About NumFOCUS
+
+<blockquote style="margin:1em 0 0 0;">
+The mission of NumFOCUS is to promote sustainable high-level
+programming languages, open code development, and reproducible
+scientific research. We accomplish this mission through our
+educational programs and events as well as through fiscal sponsorship
+of open source data science projects. We aim to increase collaboration
+and communication within the scientific computing community.
+</blockquote>
+<span style="float:right" class="note">quoted from the [NumFOCUS home page](http://numfocus.org)</span>
+
 
 
 # Stan Logo
