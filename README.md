@@ -1031,17 +1031,17 @@ To override the default [Sass](http://sass-lang.com/guide) (located in theme's
      `bundle show jekyll-theme-so-simple` to get the path to it).
    * Copy the contents of `/assets/css/main.scss` from there to
      `<your_project>`.
-   * Customize what you want inside `<your_project>/assets/stylesheets/main.scss`.
+   * Customize what you want inside `<your_project>/assets/css/main.scss`.
 
 2. Copy from this repo.
 
    * Copy the contents of [assets/css/main.scss](assets/css/main.scss) to `<your_project>`.
-   * Customize what you want inside `<your_project/assets/stylesheets/main.scss`.
+   * Customize what you want inside `<your_project/assets/css/main.scss`.
 
 **Note:** To customize the actual Sass partials bundled
 in the gem, you will need to copy the complete contents of the `_sass` directory to `<your_project>`. Due to the way Jekyll currently imports these files it's all or nothing. Overriding a single Sass partial (or two) won't work like `_includes` and `_layouts`.
 
-To make basic tweaks to theme's style, Sass variables can be overridden by adding to `<your_project>/assets/stylesheets/main.scss`. For instance, to change the accent color used throughout the theme add the following before all `@import` lines:
+To make basic tweaks to theme's style, Sass variables can be overridden by adding to `<your_project>/assets/css/main.scss`. For instance, to change the accent color used throughout the theme add the following before all `@import` lines:
 
 ```scss
 $accent-color: tomato;
