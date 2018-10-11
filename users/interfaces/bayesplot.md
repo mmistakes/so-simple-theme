@@ -40,6 +40,13 @@ functions that can be easily used by developers working on a variety of R
 packages for Bayesian modeling, particularly (but not necessarily) packages
 powered by RStan.
 
+
+# Website
+
+Visit the bayesplot website at [mc-stan.org/bayesplot](http://mc-stan.org/bayesplot/)
+for vignettes/tutorials, function documentation, and other information about the package.
+
+
 # Download and Get Started
 
 The bayesplot package, documentation, and examples are available from CRAN.

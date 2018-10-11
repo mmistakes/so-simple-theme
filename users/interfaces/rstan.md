@@ -23,10 +23,15 @@ RStan on all platforms.
   <span class="note">(GitHub)</span>
   </p>
 
+# Website
+
+Visit the RStan website at [mc-stan.org/rstan](http://mc-stan.org/rstan/) 
+for vignettes/tutorials, function documentation, and other information 
+about the package.
 
 # Documentation 
 
-RStan's documentation is available from the comprehensive R archive
+RStan's documentation is also available from the comprehensive R archive
 network.
 
 * <p>

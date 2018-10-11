@@ -4,12 +4,10 @@ title: StanCon 2018
 excerpt: ""
 modified:
 image:
-  feature: 
+  feature: feature/wide_ensemble.png
   credit:
   creditlink:
 ---
-
-
 
 Three days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}

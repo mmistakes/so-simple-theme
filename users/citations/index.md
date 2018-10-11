@@ -34,15 +34,15 @@ they use, while some also include the language manual or the overview paper.
 
 ## Language Manual
 
-* <p>Stan Development Team. 2017. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.17.0.
+* <p>Stan Development Team. 2018. <i>Stan Modeling Language Users Guide and
+  Reference Manual</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 ## Stan Math Library
 
-* <p>Stan Development Team. 2017.  <i>The Stan Math Library</i>,  Version
-  2.17.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
+* <p>Stan Development Team. 2018.  <i>The Stan Math Library</i>,  Version
+  2.18.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
 
 * Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee,
   Peter Li, and Michael J. Betancourt.  2015.  The Stan Math Library:
@@ -50,29 +50,29 @@ they use, while some also include the language manual or the overview paper.
 
 ## Stan Core Library
 
-* <p>Stan Development Team. 2017. <i>The Stan Core Library</i>, Version 2.17.0.
+* <p>Stan Development Team. 2018. <i>The Stan Core Library</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 ## RStan
 
-* <p>Stan Development Team. 2017. <i>RStan: the R interface to Stan</i>.
-  R package version 2.16.2.
+* <p>Stan Development Team. 2018. <i>RStan: the R interface to Stan</i>.
+  R package version 2.17.3.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 ## PyStan
 
-* <p>Stan Development Team. 2017. <i>PyStan: the Python interface to Stan</i>,
-  Version 2.16.0.0.
+* <p>Stan Development Team. 2018. <i>PyStan: the Python interface to Stan</i>,
+  Version 2.17.1.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
 
 ## CmdStan
 
-* <p>Stan Development Team. 2017. <i>CmdStan: the command-line
-  interface to Stan</i>, Version 2.17.0.
+* <p>Stan Development Team. 2018. <i>CmdStan: the command-line
+  interface to Stan</i>, Version 2.18.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -85,7 +85,8 @@ they use, while some also include the language manual or the overview paper.
 
 ## Stan.jl
 
-* <p>Stan Development Team. 2017. <i>Stan.jl: the Julia interface to Stan</i>.
+* <p>Stan Development Team. 2018. <i>Stan.jl: the Julia interface to
+  Stan</i>, Version 3.5.0.
   &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
   </p>
 
@@ -97,14 +98,14 @@ they use, while some also include the language manual or the overview paper.
 
 ## RStanArm
 
-* <p>Stan Development Team. 2017. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>. R package version 2.15.3.
+* <p>Stan Development Team. 2018. <i>RStanArm: Bayesian applied
+  regression modeling via Stan</i>. R package version 2.17.4.
   &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>
 
 ## ShinyStan
 
-* <p>Stan Development Team. 2017. <i>ShinyStan: Interactive Visual and
+* <p>Stan Development Team. 2018. <i>ShinyStan: Interactive Visual and
   Numerical Diagnostics and Posterior Analysis for Bayesian
-  Models</i>. R package version 2.4.0.  &nbsp; <tt style="font-size:
+  Models</i>. R package version 2.5.0.  &nbsp; <tt style="font-size:
   95%">http://mc-stan.org</tt> </p>

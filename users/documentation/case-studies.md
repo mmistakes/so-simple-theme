@@ -32,6 +32,28 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Multilevel Linear Models using Rstanarm
+
+<small>In this tutorial, we illustrate how to fit a multilevel linear model within a full Bayesian framework using rstanarm. This tutorial is aimed primarily at educational researchers who have used lme4 in R to fit models to their data and who may be interested in learning how to fit Bayesian multilevel models. However, for readers who have not used lme4 before, we briefly review the use of the package for fitting multilevel models.</small>
+
+[View](case-studies/tutorial_rstanarm.html) <span class="note">(HTML)</span>
+
+Author
+: JoonHo Lee, Nicholas Sim, Feng Ji, and Sophia Rabe-Hesketh
+
+Keywords
+: education, rstanarm, multilevel models, linear mixed models, hierarchical linear models
+
+Source Repository
+: [example-models/education/tutorial_rstanarm](https://github.com/stan-dev/example-models/tree/master/education/tutorial_rstanarm)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstanarm, mlmRev, ggplot2, lme4</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan
 
 Lotka (1925) and Volterra (1926) formulated parameteric differential

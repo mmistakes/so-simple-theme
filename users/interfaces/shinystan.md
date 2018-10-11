@@ -33,6 +33,12 @@ NIMBLE, emcee, and SAS)</span>.
 ShinyStan is coded in R using the [Shiny web application framework](http://shiny.rstudio.com)
 <span class="note">(RStudio)</span>.
 
+
+# Website
+
+Visit [mc-stan.org/shinystan](http://mc-stan.org/shinystan/) for vignettes/tutorials, 
+function documentation, and other information about the package.
+
 # Download and Get Started
 
 The shinystan R package, documentation, and examples are available from CRAN.

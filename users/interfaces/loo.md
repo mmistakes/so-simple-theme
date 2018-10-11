@@ -23,6 +23,10 @@ The loo package can be used to estimate predictive error of any MCMC
 item-level log likelihood output <span class="note">(including but not
 limited to Stan, JAGS, BUGS, MCMCPack, NIMBLE, emcee, and SAS)</span>.
 
+# Website
+
+Visit [mc-stan.org/loo](http://mc-stan.org/loo/) for vignettes/tutorials, 
+function documentation, and other information about the package.
 
 # Download and Get Started
 
