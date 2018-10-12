@@ -138,4 +138,4 @@ These numbers are not verified!! But hey, buy a drink for a StanCon2018 committe
 - Eric Novik (Generable, Inc)
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
-- Lizze Wolkovich (University of British Columbia)
+- Lizzie Wolkovich (University of British Columbia)

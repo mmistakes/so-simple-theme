@@ -12,9 +12,9 @@ image:
 
 Saturday, January 21, 2017
 
-Davis Auditorium   
-Columbia University    
-New York, NY 10027    
+Davis Auditorium
+Columbia University
+New York, NY 10027
 
 
 # Contributed talks:
@@ -48,7 +48,7 @@ The contributed talks at StanCon are based on interactive, self-contained notebo
     <td class="tg-yw4l"><b>Dev talk:</b><br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andrew Gelman:<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"untitled"
-      <span class="note">(<a href="https://youtu.be/DJ0c7Bm5Djk?t=22m57s">watch video</a>)</span>  
+      <span class="note">(<a href="https://youtu.be/DJ0c7Bm5Djk?t=22m57s">watch video</a>)</span>
       </td>
   </tr>
   <tr>
@@ -164,4 +164,4 @@ Thanks to our wonderful sponsors for making StanCon 2017 happen!
 - Ben Goodrich (Columbia University)
 - Daniel Lee (Columbia University)
 - Eric Novik (Stan Group Inc)
-- Lizze Wolkovich (Harvard University)
+- Lizzie Wolkovich (Harvard University)
