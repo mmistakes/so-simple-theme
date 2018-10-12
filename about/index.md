@@ -20,17 +20,26 @@ of applied statistics.
 # The Stan Development Team
 
 The project is a team effort comprised of full time and
-volunteer developers from around the world.  
+volunteer developers from around the world.
 
 * <p><a href="/about/team/">The Stan Development Team</a></p>
 
-# Stan Governing Body (SGB) 
+# Stan Governing Body (SGB)
 
-We have a provisional Stan Governing Body that will operate for 1 year (starting 08/23/2018).
+We have a provisional Stan Governing Body that will operate until 23 August 2019.
 
-The scope of the SGB’s authority is all things Stan. That includes ownership/management of trademarks, online resources like discourse and GitHub and membership in the Stan community. Additionally the SGB has authority over current NumFOCUS funds, fundraising in support of Stan, defining the scope of Stan, power to create and dissolve non-profit corporate entities for Stan, authorize and/or run StanCons. The SGB controls licensing requirements for inclusion in Stan, e.g. Columbia University has copyright to much of Stan’s code base but it is released under an open source license so it is part of Stan.
+The scope of the SGB’s authority is all things Stan. That includes ownership/management of trademarks, online resources like discourse and GitHub and membership in the Stan community. The SGB has authority over:
 
-The SGB is meant to be a transparent body in service of the Stan community and electorate. The SGB will define an electorate and the governance of joining and participating in an electorate. The SGB is expected to use referendums when appropriate to insure it’s legitimacy. The SGB will publicly post minutes on a regular basis on http://discourse.mc-stan.org General category.
+* ownership and management of trademarks
+* online resources including the Stan Discourse, the stan-dev GitHub organization
+* membership in the Stan community
+* NumFOCUS funds
+* fundraising in support of Stan
+* defining the scope of the Stan project
+* authorizing and/or running Stan conferences
+* licensing requirements for contributed code and documentation
+
+The SGB is intended to be a transparent body in service of the Stan community and electorate. The SGB will define an electorate and the governance of joining and participating in an electorate. The SGB is expected to use referendums when appropriate to ensure it’s legitimacy. The SGB will publicly post minutes on a regular basis on http://discourse.mc-stan.org General category.
 
 The SGB is to advance diversity in under-represented communities in the Stan ecosystem. The SGB will actively develop and implement strategies to improve inclusion and diversity at all levels of the Stan project and will prepare an annual diversity report.
 
@@ -38,7 +47,7 @@ The composition of the non-provisional SGB will be established through half-boar
 
 To reach the current SGB with any questions, concerns, or feedback, please email <board@mc-stan.org>.
 
-The current SGB (09/05/2018) is:
+The current SGB is:
 
 * Breck Baldwin <span class="note">(Columbia University)</span> [Presiding officer]
 * Julie Bertrand  <span class="note">(INSERM)</span>
@@ -69,9 +78,10 @@ detailing the ways in which you can contribute.
 
 # NumFOCUS
 
-Stan is a member project of [NumFOCUS](http://numfocus.org/), a
-U.S. 501(c)(3) nonprofit organization that serves open-source
-software projects.
+Stan is now linked to [NumFOCUS](http://numfocus.org/), a
+U.S. 501(c)(3) nonprofit organization that serves several other
+open-source software projects, including NumPy, Julia, Jupyter, and
+others.
 
 All financial decisions related to NumFOCUS are made by the [Stan Governing Body](#stan-governing-body-sgb).
 
@@ -92,7 +102,7 @@ and communication within the scientific computing community.
 # Stan Logo
 
 The Stan name and logo are registered trademarks of NumFOCUS
-under the direction of Stan's Leadership Body.  For details
+under the direction of the [Stan Governing Body](#stan-governing-body-sgb).  For details
 on when you can use the logo see
 
 * <p><a href="/about/logo/index.html">Stan Logo</a></p>
