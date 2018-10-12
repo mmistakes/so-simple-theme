@@ -11,6 +11,61 @@ image:
 
 # Minutes of the SGB
 
+
+## Minutes 2018/09/26 (Regular online meeting)
+
+**Board Members**
+
+Present (7): Andrew Gelman, Dan Simpson, Breck Baldwin, Julie Bertrand, Daniel Lee, Sean Talts, Lizzie Wolkovich.
+
+Absent (2): Jonah Sol Gabry, Michael Betancourt.
+
+Quorum present? Yes.
+
+Others present: None
+
+
+** Proceedings: **
+
+* Meeting called to order at 12:05 PM by Presiding Officer, Breck Baldwin.
+
+* Accepted minutes from 09/18/2018 meeting. 
+
+* Minutes will be publicly posted on mc-stan.org.
+
+* **Motion (Vote #9)**. Motion to turn down proposal for funding external Stan development. Seconded and passed 7-0-2.
+
+* Report from Breck on asking Richard McElreath to join the board. Richard said no for the time being; we can revisit again with him later.
+
+* Discussion on how to start the Technical Working Group (TWG). Tabled until Bob Carpenter is back in NYC. At a minimum, TWG needs to determine what budget it needs. 
+ 
+* Discussion on mission statement.
+
+    There’s a tension between the two broad things we want to do:
+       * Stan fits the hardest Bayesian models. 
+       * Stan is the programming language of Bayesian inference.
+    
+    We want to be accessible to bleeding edge computation and applied research. We want to support Stan’s technical development and wise use of Stan. 
+Action: Breck will write up some of the goals as a starting point for our mission statement.
+
+* Breck’s Executive Director report
+    * Financials / NumFOCUS. Breck briefly discussed the NumFOCUS Summit that happened in NYC over the weekend. He’s been told that we will be able to directly invoice vendors, which should make working with NumFOCUS better.
+    * Role. Discussion on role of the Executive Director. Two broad tasks Breck will do as the Executive Director: operating officer and building relationships. 
+
+* Meeting adjourned at 12:55 PM.
+
+* Minutes submitted by Secretary, Daniel Lee.
+
+** Online Activity: **
+
+* 2018/09/21. **Vote #7.** Reject proposal for funding external Stan development. Vote withdrawn.
+
+* 2018/09/24. **Vote #8.** The SGB approves torsten-white_Stan.png use of the Stan logo. Passed 6-1-2. This vote approves the logo artwork indefinitely (the exact image), even if it does not meet our policy in the future. There was a secondary motion presented asking for the logo to be approved for now, but ask for adjustment if it was in violation of our policy. This secondary motion was withdrawn.
+
+* 2018/09/24. Motion to create a Stan Logo policy. This is currently in discussion.
+
+
+
 ## 2018/09/18 (regular online meeting)
 
 
