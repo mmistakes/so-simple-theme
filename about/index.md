@@ -26,12 +26,17 @@ volunteer developers from around the world.
 
 # Stan Governing Body (SGB)
 
-We have a provisional Stan Governing Body that will operate until 23 August 2019.
+We have a provisional Stan Governing Body that will operate until 23
+August 2019.
 
-The scope of the SGB’s authority is all things Stan. That includes ownership/management of trademarks, online resources like discourse and GitHub and membership in the Stan community. The SGB has authority over:
+The scope of the SGB’s authority is all things Stan. That includes
+ownership/management of trademarks, online resources like Discourse
+and GitHub and membership in the Stan community. The SGB has authority
+over:
 
 * ownership and management of trademarks
-* online resources including the Stan Discourse, the stan-dev GitHub organization
+* online resources including the Stan Discourse, the stan-dev GitHub
+  organization
 * membership in the Stan community
 * NumFOCUS funds
 * fundraising in support of Stan
@@ -39,13 +44,25 @@ The scope of the SGB’s authority is all things Stan. That includes ownership/m
 * authorizing and/or running Stan conferences
 * licensing requirements for contributed code and documentation
 
-The SGB is intended to be a transparent body in service of the Stan community and electorate. The SGB will define an electorate and the governance of joining and participating in an electorate. The SGB is expected to use referendums when appropriate to ensure it’s legitimacy. The SGB will publicly post minutes on a regular basis on http://discourse.mc-stan.org General category.
+The SGB is intended to be a transparent body in service of the Stan
+community and electorate. The SGB will define an electorate and the
+governance of joining and participating in an electorate. The SGB is
+expected to use referendums when appropriate to ensure it’s
+legitimacy. The SGB will publicly post minutes on a regular basis on the
+[Stan Discourse](http://discourse.mc-stan.org) in the
+[general category](https://discourse.mc-stan.org/c/general).
 
-The SGB is to advance diversity in under-represented communities in the Stan ecosystem. The SGB will actively develop and implement strategies to improve inclusion and diversity at all levels of the Stan project and will prepare an annual diversity report.
+The SGB is to advance diversity in under-represented communities in
+the Stan ecosystem. The SGB will actively develop and implement
+strategies to improve inclusion and diversity at all levels of the
+Stan project and will prepare an annual diversity report.
 
-The composition of the non-provisional SGB will be established through half-board elections every year. Any changes to the electorate will be approved by majority vote of the existing electorate.
+The composition of the non-provisional SGB will be established through
+half-board elections every year. Any changes to the electorate will be
+approved by majority vote of the existing electorate.
 
-To reach the current SGB with any questions, concerns, or feedback, please email <board@mc-stan.org>.
+To reach the current SGB with any questions, concerns, or feedback,
+please email <board@mc-stan.org>.
 
 The current SGB is:
 
@@ -83,9 +100,8 @@ U.S. 501(c)(3) nonprofit organization that serves several other
 open-source software projects, including NumPy, Julia, Jupyter, and
 others.
 
-All financial decisions related to NumFOCUS are made by the [Stan Governing Body](#stan-governing-body-sgb).
-
-### About NumFOCUS
+All financial decisions related to NumFOCUS are made by the
+[Stan Governing Body](#stan-governing-body-sgb).
 
 <blockquote style="margin:1em 0 0 0;">
 The mission of NumFOCUS is to promote sustainable high-level
@@ -95,7 +111,8 @@ educational programs and events as well as through fiscal sponsorship
 of open source data science projects. We aim to increase collaboration
 and communication within the scientific computing community.
 </blockquote>
-<span style="float:right" class="note">quoted from the [NumFOCUS home page](http://numfocus.org)</span>
+<span style="float:right" class="note">quoted from the
+[NumFOCUS home page](http://numfocus.org)</span>
 
 
 
