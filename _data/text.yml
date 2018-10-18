@@ -1,5 +1,6 @@
 # Theme text and labels
 
+
 # English (default)
 # -----------------
 en: &DEFAULT_EN
@@ -35,6 +36,41 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+
+# German
+# -----------------
+de: &DEFAULT_DE
+  skip_links: "Links überspringen"
+  skip_primary_nav: "Zu Hauptmenü springen"
+  skip_content: "Zu Inhalt springen"
+  skip_footer: "Zu Fußzeile springen"
+  menu_label: "Menü"
+  by: "von"
+  min_read: "min read"
+  read_more: "Mehr lesen&hellip;"
+  categories: "Kategorien"
+  tags: "Tags"
+  pages_categorized: "Seiten kategorisiert als"
+  pages_tagged: "Seiten, getaggt als"
+  table_of_contents: "Inhaltsverzeichnis"
+  results_found: "Ergebnis(se) gefunden"
+  share: "Teilen"
+  tweet: "Tweet"
+  next: "Vor"
+  previous: "Zurück"
+  newer: "Neuer"
+  older: "Älter"
+  back_to_top: "Zurück nach Oben"
+  search_placeholder_text: "Suchtext eingeben..."
+  powered_by: "Unterstützt von"
+de-DE:
+  <<: *DEFAULT_DE
+de-AU:
+  <<: *DEFAULT_DE
+de-CH:
+  <<: *DEFAULT_DE
+
+      
 # Spanish
 # -------
 es: &DEFAULT_ES
