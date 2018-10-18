@@ -11,6 +11,55 @@ image:
 
 # Minutes of the SGB
 
+## 2018/10/03 (regular online meeting)
+
+**Board Members**
+
+* Present (4): Breck Baldwin, Andrew Gelman, Lizzie Wolkovich, Daniel Simpson.
+* Absent (5): Daniel Lee, Jonah Sol Gabry, Julie Bertrand, Michael Betancourt,
+  Sean Talts.
+* Quorum present? No.
+* Others present: None
+
+**Proceedings:**
+
+All,
+
+No quorum so I'll report it as informational which will be more
+detailed than typical minutes.
+
+1. There were some technical difficulties, so the meeting started a
+little late.
+
+2. TWG. We spoke about reaching out to the TWG for how to spend money and
+some further direction on how to spend the funds that we have.
+
+3. Discussion about the value of individual memberships. The feeling
+was that the costs for whatever benefits we provided for membership
+would not be cost effective as well. If people want to support Stan as
+individuals they can buy a t-shirt.
+
+4. Discussion about corporate memberships. Corporate memberships
+perhaps make more sense. But again, what are the benefits? For $1k a
+corp/university gets a few hours consulting, which in turn brings up
+who has to support this. Maybe more like $10k for some quality time? A
+dedicated email list for support. We discussed briefly adding tags to
+Discourse discussions from "corp members" that gives them some
+priority. Lots of issues around this. $20k gets you a 2-day course on
+site?
+
+5. I promised to get pricing on what a seat of SAS, SPSS, Strata
+costs. We can mirror that pricing for a license for Stan for those who
+desire to pay for Stan. Also the Gates foundation buys software for
+their use.
+
+6. We spoke of how to find successful OSS (Open Source Software) orgs
+that made the transition we are trying to make. Julia and RStudio came
+up. We spoke of how to address this information gathering goal.
+
+Submitted by Breck Baldwin.
+
+---
 
 ## 2018/09/26 (regular online meeting)
 
@@ -25,21 +74,21 @@ image:
 **Proceedings:**
 
 * Meeting called to order at 12:05 PM by Presiding Officer, Breck Baldwin.
-* Accepted minutes from 09/18/2018 meeting. 
+* Accepted minutes from 09/18/2018 meeting.
 * Minutes will be publicly posted on mc-stan.org.
 * **Motion (Vote #9)**. Motion to turn down proposal for funding external Stan development. Seconded and passed 7-0-2.
 * Report from Breck on asking Richard McElreath to join the board. Richard said no for the time being; we can revisit again with him later.
-* Discussion on how to start the Technical Working Group (TWG). Tabled until Bob Carpenter is back in NYC. At a minimum, TWG needs to determine what budget it needs. 
+* Discussion on how to start the Technical Working Group (TWG). Tabled until Bob Carpenter is back in NYC. At a minimum, TWG needs to determine what budget it needs.
  * Discussion on mission statement.
 
     There’s a tension between the two broad things we want to do:
-       * Stan fits the hardest Bayesian models. 
+       * Stan fits the hardest Bayesian models.
        * Stan is the programming language of Bayesian inference.
-    
-    We want to be accessible to bleeding edge computation and applied research. We want to support Stan’s technical development and wise use of Stan. 
+
+    We want to be accessible to bleeding edge computation and applied research. We want to support Stan’s technical development and wise use of Stan.
 * Breck’s Executive Director report
     * Financials / NumFOCUS. Breck briefly discussed the NumFOCUS Summit that happened in NYC over the weekend. He’s been told that we will be able to directly invoice vendors, which should make working with NumFOCUS better.
-    * Role. Discussion on role of the Executive Director. Two broad tasks Breck will do as the Executive Director: operating officer and building relationships. 
+    * Role. Discussion on role of the Executive Director. Two broad tasks Breck will do as the Executive Director: operating officer and building relationships.
 * Meeting adjourned at 12:55 PM.
 * Minutes submitted by Secretary, Daniel Lee.
 
@@ -58,7 +107,7 @@ image:
 **Board Members**
 
 * Present (5): Daniel Lee, Breck Baldwin, Julie Bertrand, Sean Talts, Dan Simpson
-* Absent (4): Andrew Gelman, Jonah Sol Gabry, Michael Betancourt, Lizzie Wolkovich, 
+* Absent (4): Andrew Gelman, Jonah Sol Gabry, Michael Betancourt, Lizzie Wolkovich,
 * Quorum present? Yes.
 * Others present: None
 
