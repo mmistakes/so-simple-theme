@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update GitHub issue templates.
 
 ### Added
+- Add German translations to `text.yml`. [#311](https://github.com/mmistakes/so-simple-theme/pull/311)
 - Add Spanish translations to `text.yml`. [#300](https://github.com/mmistakes/so-simple-theme/pull/300)
 
 ### Fixed
