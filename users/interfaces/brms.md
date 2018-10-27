@@ -12,14 +12,8 @@ image:
 {:.center-txt}
 (Non)linear multivariate, multilevel modeling via Stan
 
-The brms package provides an interface to fit Bayesian generalized
-(non-)linear multivariate multilevel models using Stan. The formula
-syntax is very similar to that of the package `lme4` to provide a
-familiar and simple interface for performing regression analyses. A
-wide range of distributions and link functions are supported, allowing
-users to fit -- among others -- linear, robust linear, count data,
-survival, response times, ordinal, zero-inflated, hurdle, and even
-self-defined mixture models all in a multilevel context.
+The brms package provides a flexible interface to fit Bayesian generalized
+(non)linear multivariate multilevel models using Stan.
 
 brms allows users to specify models via the customary R commands, where
 
@@ -28,8 +22,10 @@ brms allows users to specify models via the customary R commands, where
 * <p>additional arguments are available to specify priors and
 additional structure.</p>
 
-Estimation is carried out with Markov chain Monte Carlo using Stan
-programs generated on the fly and compiled.
+Estimation may be carried out with Markov chain Monte Carlo or variational
+inference using Stan programs generated on the fly and compiled. Graphical
+posterior predictive checking, leave-one-out cross-validation, and posterior
+visualization are tightly integrated.
 
 # Website
 
