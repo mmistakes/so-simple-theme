@@ -46,13 +46,20 @@ across interfaces.
 
 # Higher-Level Interfaces
 
-RStanArm provides an R formula interface for Bayesian regression
-modeling.
+RStanArm and brms provide R formula interfaces that automate
+regression modeling.
 
-* <p>  
-  <a href="/users/interfaces/rstanarm.html">RStanArm</a>
-  <span class="note">(R)</span>
-  </p>
+* [RStanArm](/users/interfaces/rstanarm.html)
+<span class="note">(R)</span>
+
+* [brms](/users/interfaces/brms.html)
+<span class="note">(R)</span>
+
+The main differences between these packages are that RStanArm uses
+precompiled models whereas brms compiles on the fly, and that they
+support slightly different classes of models and automated posterior
+analyses; both allow raw Stan output to be recovered and used
+directly.
 
 # Lower-Level Interfaces
 

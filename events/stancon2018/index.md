@@ -12,11 +12,11 @@ image:
 Three days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
-Jan 10-12, 2018 	&emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove, California, USA
+Jan 10-12, 2018         &emsp; &bull; &emsp; Asilomar Conference Center, Pacific Grove, California, USA
 {: style="font-size: 150%; text-align: center;"}
 
 <br>
-**Slides, code, and other materials from presentations at StanCon 2018 are now available at our [stancon_talks](https://github.com/stan-dev/stancon_talks) repository:** 
+**Slides, code, and other materials from presentations at StanCon 2018 are now available at our [stancon_talks](https://github.com/stan-dev/stancon_talks) repository:**
 
 * [StanCon Contributed Talks Repository](https://github.com/stan-dev/stancon_talks)
 
@@ -71,7 +71,7 @@ Thanks to these fine folks for sponsoring StanCon2018
 
 # [Scholarships](#scholarships)
 
-Scholarshipes are closed. 
+Scholarshipes are closed.
 <!--We have gotten so many requests for scholarships after the deadline that we are re-opening them. The scholarship covers staying at Asilomar and meals. You are still responsible for travel and incidentals. While this is primarily for students, tell us a good story and we will see what we can do. Scholarship [link here](https://docs.google.com/forms/d/e/1FAIpQLScztvDKhyPbyVbZwU3P1667Y-lXh2K2li4p_E5tO-BwvivpPA/viewform?usp=sf_link)
 -->
 
@@ -163,7 +163,7 @@ For those attending the conference, but not staying at Asilomar, meals can be pu
 
 Going to be a pressure cooker folks. Subject to change without notice.
 
-Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner activities and some tutorials (Scripps Hall). 
+Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner activities and some tutorials (Scripps Hall).
 
 ## Wednesday, Jan 10
 
@@ -201,7 +201,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 ### Dinner 6:00-7pm
 
 ### After Dinner 7-9pm
-* ~~Build and fly your own R/C airplane~~ Not any more folks, FAA has reinstated R/C aircraft restrictions. We will be doing air powered rockets with illumination. Don't worry, they are super fun and go really high. 
+* ~~Build and fly your own R/C airplane~~ Not any more folks, FAA has reinstated R/C aircraft restrictions. We will be doing air powered rockets with illumination. Don't worry, they are super fun and go really high.
 * S'mores by the outdoor fire place
 
 ## Thursday, Jan 11
@@ -235,7 +235,7 @@ Merrill Hall is where StanCon2018 happens. Exceptions are meals, after dinner ac
 
 ### Modeling/Data Session + Classes 2:30-4:10pm
 
-* 2:30-4:10pm Open session for consultations on modeling and data problems with Stan developers and modelers. 
+* 2:30-4:10pm Open session for consultations on modeling and data problems with Stan developers and modelers.
 * 2:30-4:10pm [Intro to Stan Session 3](#intro) Jonah Gabry, Sean Talts, Mitzi Morris
 * 2:30-3:30pm [Have I converged successfully? How to verify fit and diagnose fit problems](#fit), Bob Carpenter
 * 3:30-4:10pm [Bayesian Decision Making for Executives and Those who Communicate with Them 2](#exec)  Eric Novik, Jonathan Auerbach
@@ -293,13 +293,13 @@ We have tutorials that start at the crack of 7am for those desiring further edif
 - [How to develop for Stan at the C++ level:](#develop) Overview of Stan C++ architecture and build/development process for contributors. Charles Margossian, 9-10am Thurs.
 
 - [A Dive into Stan's C++ Model Concept](#dive) This will be a discussion partially driven by the participants. We will cover things like:
-	- how the Stan language is translated to C++
-	- overview of the C++ model concept that's generated
-	- how to use the math library for autodiff
-	- how to use the generated C++ model concept to write an inference algorithm in C++
-	- opportunities in efficient computing once the C++ is generated
+        - how the Stan language is translated to C++
+        - overview of the C++ model concept that's generated
+        - how to use the math library for autodiff
+        - how to use the generated C++ model concept to write an inference algorithm in C++
+        - opportunities in efficient computing once the C++ is generated
 
-	Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee, 9-10am Friday.
+        Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan v2.17.1 installed. Daniel Lee, 9-10am Friday.
 
 
 # [Activities](#activities)
@@ -309,7 +309,7 @@ be called for.
 ## ~~R/C Airplanes~~ Now Air Powered Rockets
 
 R/C Airplanes are cancled due to FAA regulation changes in December. In place we will have build your own air powered rockets and they will be carrying night lights. After dinner on Wed eve we will provide designs and
-building materials to create your own rocket. It takes about 15 minutes if you are quick and we will have glow sticks to put on them.  
+building materials to create your own rocket. It takes about 15 minutes if you are quick and we will have glow sticks to put on them.
 
 ## S'mores By the Bonfire
 
@@ -348,4 +348,4 @@ StanCon is organized by a volunteer community
 - Eric Novik (Generable, Inc)
 - Megan Shabram (NASA Ames)
 - Rob Trangucci (University of Michigan)
-- Lizze Wolkovich (Harvard University)
+- Lizzie Wolkovich (Harvard University)
