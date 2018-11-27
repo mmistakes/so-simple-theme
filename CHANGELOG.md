@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Update GitHub issue templates.
+- Update NPM dependencies.
 
 ### Added
 - Add German translations to `text.yml`. [#311](https://github.com/mmistakes/so-simple-theme/pull/311)
