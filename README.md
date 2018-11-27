@@ -13,6 +13,10 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 * SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
 * Options to customize the theme and make it your own.
 
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) for developing and maintaining it.**
+
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+
 :sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
 
 :blue_book: **[v2 documentation](README-OLD.md)**.
