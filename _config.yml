@@ -1,5 +1,6 @@
 # Site wide configuration
 
+url: "//stan-dev.github.io"
 title:
 locale: en_US
 description:
