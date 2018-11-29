@@ -1,6 +1,7 @@
 # Site wide configuration
 
-url: "//stan-dev.github.io"
+url: "//mc-stan.org"
+
 title:
 locale: en_US
 description:
