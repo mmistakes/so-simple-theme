@@ -48,7 +48,7 @@ This book is the official user's guide for Stan.  It provides example
 models and programming techniques for coding statistical models in Stan.
 It also serves as an example-driven introduction to Bayesian modeling
 and inference.
-For release 2.18, this is titled _Stan User's Guide_.
+For version 2.18, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 * [Bayesian Statistics Using Stan](https://mc-stan.org/docs/bayes-stats-stan/index.html)
@@ -56,28 +56,6 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 * [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
-
-# Wiki Documentation
-
-The Stan Wiki is largely focused on development documentation but it also
-includes a few pages with helpful information for users.
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/wiki">Stan Wiki</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
-  </p>
-
-Two particularly recommended pages are
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/wiki/Stan-Best-Practices">
-  Stan Best Practices</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
-  </p>
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations">
-  Prior Choice Recommendations</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
-  </p>
 
 
 # Tutorials
@@ -106,35 +84,6 @@ be found in their corresponding GibHub repository:
   <a href="https://github.com/stan-dev/stancon_talks">StanCon 2017 Case Studies</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span>
   </p>
 
-# The Stan Forums
-
-The most up to date discussion of modeling techniques and computational
-issues if often found in the Stan Forums before it ends up in a case study
-or a paper.
-
-* <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
-<span class="note">(Discourse)</span></p>
-
-Discussions prior to June 2017 are archived and public on the now deprecated
-<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
-
-# Example Models
-
-The quick start guides for each [interface](/users/interfaces/) contain
-example models for demonstrating how to run Stan.
-
-The Stan modeling language manual contains many other model examples to
-illustrate various modeling and coding techniques in Stan.
-
-A larger set of example models translating the BUGS examples (Volumes
-1 through 3) and the models from several Bayesian textbooks are also
-available on GibHub,
-
-* <p>
-  <a href="https://github.com/stan-dev/example-models/wiki">Example Models</a>
-  &nbsp; <span class="note">(GitHub)</span>
-  </p>
-
 # Specialized Field Guides
 
 Tutorials, case studies, software packages, and publications related to
@@ -146,7 +95,38 @@ specific fields.
   &nbsp; <span class="note">(GitHub)</span>
   </p>
 
+# GitHub Stan Developer Wiki
 
+The Stan Wiki is largely focused on development documentation but it also
+includes a few pages with helpful information for users.
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki">Stan Wiki</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+Two particularly recommended pages are
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki/Stan-Best-Practices">
+  Stan Best Practices</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+* <p>
+  <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations">
+  Prior Choice Recommendations</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
+  </p>
+
+# The Stan Forums
+
+The most up to date discussion of modeling techniques and computational
+issues if often found in the Stan Forums before it ends up in a case study
+or a paper.
+
+* <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
+<span class="note">(Discourse)</span></p>
+
+Discussions prior to June 2017 are archived and public on the now deprecated
+<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
 
 # External References
 
