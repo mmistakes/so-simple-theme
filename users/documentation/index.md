@@ -17,45 +17,45 @@ inference algorithms for fitting models and making predictions,
 and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
-* [Stan Language Reference Manual](https://mc-stan.org/docs/2_18/reference-manual/index.html)
-<br /><span class="note">current release (v 2.18), (https)</span>
+* [Stan Language Reference Manual 2.18](https://mc-stan.org/docs/2_18/reference-manual/index.html)
+<span class="note">&nbsp; &nbsp; (https)</span>
 
  
 * [Stan Language Reference Manual 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/reference-manual-2.18.0.pdf)
-<br /><span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
-* [Stan Language Reference Manual 2.17 pdf](https://github.com/stan-dev/stan/releases/download/v2.17.1/stan-reference-2.17.1.pdf)
-<br /><span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+* [Stan Reference Manual 2.17 pdf](https://github.com/stan-dev/stan/releases/download/v2.17.1/stan-reference-2.17.1.pdf)
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+<br>combines the _Stan Language Reference Manual_, _Stan Language Functions Reference_, and the _Stan User's Guide_.
 
 
 # Stan Language Functions Reference
 
 The reference for the functions defined in the Stan math
 library and available in the Stan programming language.
-For release 2.17 and earlier, this is part of the Stan Language Reference Manual.
+For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan Language Functions Reference](https://mc-stan.org/docs/2_18/functions-reference/index.html)
-<br /><span class="note">current release (v 2.18), (https)</span>
+* [Stan Language Functions Reference 2.18](https://mc-stan.org/docs/2_18/functions-reference/index.html)
+<span class="note">&nbsp; &nbsp; (https)</span>
 
 * [Stan Language Functions Reference 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/functions-reference-2.18.0.pdf)
-<br /><span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Bayesian Statistics Using Stan
 
-This book is is the official user's guide for Stan.  It provides example
+This book is the official user's guide for Stan.  It provides example
 models and programming techniques for coding statistical models in Stan.
 It also serves as an example-driven introduction to Bayesian modeling
 and inference.
 For release 2.18, this is titled _Stan User's Guide_.
-For release 2.17 and earlier, this is part of the Stan Language Reference Manual.
+For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 * [Bayesian Statistics Using Stan](https://mc-stan.org/docs/bayes-stats-stan/index.html)
-<br /><span class="note">(https)</span>
+<span class="note">&nbsp; &nbsp; (https)</span>
 
 * [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
-<br /><span class="note">(GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
 # Wiki Documentation
@@ -115,7 +115,7 @@ or a paper.
 * <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
 <span class="note">(Discourse)</span></p>
 
-Discussions prior to June 2017 are achived and public on the now deprecated
+Discussions prior to June 2017 are archived and public on the now deprecated
 <a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
 
 # Example Models
