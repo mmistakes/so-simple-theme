@@ -2,12 +2,23 @@
 
 This is the repository for the Stan web site.  
 
+We are serving the `mc-stan.org` website using
+[GitHub Pages](https://help.github.com/categories/github-pages-basics).
+GitHub only serves _static_ webpages, i.e., it cannot dynamically generate
+a page in response to an HTTP request.
+GitHub pages provide integration with
+[jekyll](https://help.github.com/articles/about-github-pages-and-jekyll/),
+a static site generator designed for blogging and software documentation.
+Content is written in markdown.  [Jekyll](https://jekyllrb.com) themes
+provide the site-wide layouts, styling, and navigational elements.
+
 ### Managing the web site
 
-Pushes to master on this branch kick off a Jekyll process on GitHub to rebuild the web site.
+The `master` branch contains the jekyll sources.
+Whenever a verified member of the Stan organization pushes to master,
+GitHub (re)builds and (re)deploys the website.
 
-If you want to run the web site locally to test changes, see the Wiki page:
-
+If you want to build and serve the web site locally to test changes, see the Wiki page: </br>
 https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Website
 
 ### Contribute 
