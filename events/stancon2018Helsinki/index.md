@@ -37,13 +37,15 @@ If you have questions regarding registration, payments, travel, please email
 
 ------
 
+# [Slides, notebooks and code](#slides)
+
+- [StanCon talks repository](https://github.com/stan-dev/stancon_talks)
+
 # [Videos](#videos)
 
 - [Tutorials](https://www.youtube.com/playlist?list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J)
 - [Thursday 8:45-17:30](https://youtu.be/5_x14-gJkMg)
 - [Friday 9:00-17:00](https://youtu.be/pKZLJPrZLhU)
-
-Talk videos will be edited and divided to individual talks this week.
 
 ------
 
