@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Stan Documentation
+excerpt: ""
+modified:
 ---
 
 ## Stan Language Reference Manual
