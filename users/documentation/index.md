@@ -17,8 +17,8 @@ inference algorithms for fitting models and making predictions,
 and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
-* [Stan Language Reference Manual 2.18](https://mc-stan.org/docs/2_18/reference-manual/index.html)
-<span class="note">&nbsp; &nbsp; (https)</span>
+* [Stan Language Reference Manual 2.18](/docs/2_18/reference-manual/index.html)
+<span class="note">&nbsp; &nbsp; (http)</span>
 
  
 * [Stan Language Reference Manual 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/reference-manual-2.18.0.pdf)
@@ -36,8 +36,8 @@ The reference for the functions defined in the Stan math
 library and available in the Stan programming language.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan Language Functions Reference 2.18](https://mc-stan.org/docs/2_18/functions-reference/index.html)
-<span class="note">&nbsp; &nbsp; (https)</span>
+* [Stan Language Functions Reference 2.18](/docs/2_18/functions-reference/index.html)
+<span class="note">&nbsp; &nbsp; (http)</span>
 
 * [Stan Language Functions Reference 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/functions-reference-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
@@ -51,8 +51,8 @@ and inference.
 For version 2.18, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Bayesian Statistics Using Stan](https://mc-stan.org/docs/bayes-stats-stan/index.html)
-<span class="note">&nbsp; &nbsp; (https)</span>
+* [Bayesian Statistics Using Stan](/docs/bayes-stats-stan/index.html)
+<span class="note">&nbsp; &nbsp; (http)</span>
 
 * [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
