@@ -57,14 +57,6 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
-
-# Tutorials
-
-The Stan development team and many users have contributed tutorials aimed at introducing users to various aspects of statistical modeling with Stan, both
-in written and visual formats.  These tutorials can be found at
-
-* <p><a href="/users/documentation/tutorials.html">Tutorials</a></p>
-
 # Case Studies and Notebooks
 
 Case studies provide longer, more-detailed discussion of various
@@ -77,13 +69,19 @@ development team can be found at
   Case Studies</a></p>
 
 The proceedings of each Stan Conference also take the form of
-self-contained notebooks.  Contributions for each conference can
-be found in their corresponding GibHub repository:
+self-contained notebooks. StanCon notebooks are hosted on GitHub 
+along with other materials from the conferences:
 
-* <p>
-  <a href="https://github.com/stan-dev/stancon_talks">StanCon 2017 Case Studies</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span>
-  </p>
+* <p><a href="https://github.com/stan-dev/stancon_talks">
+  StanCon Materials</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span></p>
+  
+# Tutorials
 
+The Stan development team and many users have contributed tutorials aimed at introducing users to various aspects of statistical modeling with Stan, both
+in written and visual formats.  These tutorials can be found at
+
+* <p><a href="/users/documentation/tutorials.html">Tutorials</a></p>
+ 
 # Specialized Field Guides
 
 Tutorials, case studies, software packages, and publications related to
