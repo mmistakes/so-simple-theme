@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Us
 excerpt: ""
 modified:
 image:
@@ -8,9 +8,6 @@ image:
   credit:
   creditlink:
 ---
-
-{:.center-txt}
-who we are
 
 Stan is freedom-respecting, open-source software <span
 class="note">(new BSD core, some interfaces GPLv3)</span>

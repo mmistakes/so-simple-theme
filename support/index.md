@@ -9,9 +9,6 @@ image:
   creditlink:
 ---
 
-{:.center-txt}
-help support Stan's future
-
 # Contribute to the Stan Project
 
 Stan is now linked to [NumFOCUS](http://numfocus.org/), a
@@ -37,3 +34,7 @@ we also give a lot of free and open help through the
 organization is helping to make this state-of-the-art Bayesian data
 analysis program even better. You’re pushing forward the frontiers of
 science and helping your own work as well as others'.
+
+# Stan goods for good
+
+[Stan t-shirts and mugs](/shop)

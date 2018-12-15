@@ -9,9 +9,6 @@ image:
   creditlink:
 ---
 
-{:.center-txt}
-meetups, talks &amp; courses
-
 # [StanCon 2018 Helsinki, Finland 29-31 August](/events/stancon2018Helsinki)
 
 
