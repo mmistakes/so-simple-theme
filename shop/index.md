@@ -9,10 +9,6 @@ image:
   creditlink:
 ---
 
-{:.center-txt}
-for your Stan swag
-
-
 If you're looking to infer in style, stop by one of our shops for Stan
 t-shirts and mugs.
 

@@ -10,9 +10,6 @@ image:
 redirect_from: "/development/"
 ---
 
-{:.center-txt}
-software development with Stan
-
 Stan is open source because we want your contributions to help make
 Stan's code and documentation better.
 
