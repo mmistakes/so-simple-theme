@@ -36,7 +36,7 @@
   img {
     width: 100px;
     height: 100px;
-    @include animation-duration(1s);
+    @include animation-duration(.75s);
     @include animation-delay(.05s);
     @include rounded(10px); /* crops in a circle */
 
@@ -60,8 +60,8 @@
 
 .site-title {
   margin-bottom: 0;
-  @include animation-duration(1s);
-  @include animation-delay(.75s);
+  @include animation-duration(.75s);
+  @include animation-delay(.5s);
 
   a {
     color: $black;
@@ -84,8 +84,8 @@
   @include font-size(16);
   font-weight: 400;
   font-style: italic;
-  @include animation-duration(1s);
-  @include animation-delay(1s);
+  @include animation-duration(.75s);
+  @include animation-delay(.75s);
 
   @include media($medium) {
     @include font-size(20);

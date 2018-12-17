@@ -63,6 +63,10 @@ h1 {
 
 h2 {
 	@include font-size(32);
+
+    span {
+        float: right;
+    }
 }
 
 h3 {
