@@ -2,6 +2,7 @@
 layout: post
 title: WordPress plugin deployment using GitHub and Travis CI
 excerpt: "Actually you may not use SVN for WordPress plugin and theme development and deployment. Travis can do all SVN stuff for you."
+last_modified_at: 2018-12-17 15:59:59
 categories: articles
 tags: [deployment, github, travis-ci, wordpress]
 image:
@@ -12,23 +13,15 @@ comments: true
 > I love [WordPress](https://wordpress.org) and I'm sure it is the best solution for corporate websites and personal blogs. I'm happy to contribute code for WordPress, create plugins and themes. I've made a few public plugins: [Inline Spoilers](https://wordpress.org/plugins/inline-spoilers/) and [Sanitize Cyrillic](https://wordpress.org/plugins/sanitize-cyrillic/).  
 But there is one unpleasant thing that stopped me. WordPress wants you to use SVN to store public plugins and themes but development with SVN is too annoying. There are topics how to use git for WordPress but it is all about git-svn.
 
-*I'm expecting that you already have a submitted WordPress plugin and just want to avoid SVN things, if no, please, take a look at [this guide](https://developer.wordpress.org/plugins/wordpress-org/) and welcome back.*
+*I'm expecting that you already have a submitted WordPress plugin and just want to avoid SVN things, otherwise, please, take a look at [this guide](https://developer.wordpress.org/plugins/wordpress-org/) and welcome back.*
 
 ## Step 1: Travis CI Configuration
 
 At this point, you have plugin's code hosted on [WordPress SVN](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) and [GitHub](https://github.com). Next you need to create configuration and describe all things you want to be executed by [Travis](https://travis-ci/org). 
 
-Begin with creating 'dummy' `.travis.yml` file in your repository to tell Travis what to do:
+Let's begin with creating 'dummy' `.travis.yml` file in your repository to tell Travis what to do:
 
-```yaml
-language: php
-php:
-- 7.0
-
-script:
-# Override default Travis script action [phpunit]
-- php -l *.php
-```
+{% gist 112d65c7998be8d3644c641b247abafb %}
 
 Now enable Travis integration with your GitHub repository:
 
@@ -50,38 +43,7 @@ Create `assets/` directory and put empty `.gitkeep` file into to make sure it ex
 
 To avoid SVN stuff just put it to shell script, create `deploy/deploy.sh` script file with next contents: 
 
-```shell
-#!/usr/bin/env bash
-
-# 1. Clone complete SVN repository to separate directory
-svn co $SVN_REPOSITORY ../svn
-
-# 2. Copy git repository contents to SNV trunk/ directory
-cp -R ./* ../svn/trunk/
-
-# 3. Switch to SVN repository
-cd ../svn/trunk/
-
-# 4. Move assets/ to SVN /assets/
-mv ./assets/ ../assets/
-
-# 5. Clean up unnecessary files
-rm -rf .git/
-rm -rf deploy/
-rm .travis.yml
-
-# 6. Go to SVN repository root
-cd ../
-
-# 7. Create SVN tag
-svn cp trunk tags/$TRAVIS_TAG
-
-# 8. Push SVN tag
-svn ci  --message "Release $TRAVIS_TAG" \
-        --username $SVN_USERNAME \
-        --password $SVN_PASSWORD \
-        --non-interactive
-```
+{% gist f598ea30e0d791e1eef9f96d941e8b2f %}
 <small>* *Used global variables will be covered a little bit later.*</small>
 
 It will do all deployment stuff, you just need to execute this script. 
@@ -98,29 +60,7 @@ You need to tell Travis to execute deployment script on some specific events.
 
 To enable deployment on git tags provide next configuration to `.travis.yml`:
 
-```yaml
-...
-branches:
-  only:
-  # Enable Travis hook on tags (there is regular expression for semver tag)*
-  - "/\\d\\.\\d\\.\\d/"
-
-# Enable Travis deployment
-deploy:
-  # Use script as a deployment tool
-  provider: script
-  script: deploy/deploy.sh
-  # Restrict deployment only for tags
-  on:
-    tags: true
-
-# Deployment script requires few enviromnet variables
-env:
-  global:
-  - SVN_REPOSITORY={PLUGIN SVN REPOSITORY URL}
-  - secure: {ENCRYPTED SVN ACCOUNT USERNAME}
-  - secure: {ENCRYPTED SVN ACCOUNT PASSWORD}
-```
+{% gist 3763eb6231c69ea66882b16f05ef9f97 %}
 
 <small>* *Travis sees git tags the same way as branches.*</small>
 
