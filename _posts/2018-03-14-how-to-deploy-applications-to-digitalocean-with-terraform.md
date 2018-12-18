@@ -9,37 +9,22 @@ image:
 comments: true
 ---
 
-*I like to use [DigitalOcean](https://m.do.co/c/fac05d89f2e5) because it is pretty simple and doesn't cost too much. It already has complete enough infrastructure things for small websites and even large services.*  
-*DigitalOcean has clean user-friendly Control Panel UI to setup droplets, networks and so on. I used to configure the applications manualy, but there is a way to do it much faster and more reliable.*
+*I like using [DigitalOcean](https://m.do.co/c/fac05d89f2e5) as a cloud servers provider because it is pretty simple and doesn't cost too much. It already has complete enough infrastructure things for small websites and large services too.*  
+*DigitalOcean has clean user-friendly Control Panel UI to manage droplets, networks and so on. I used to configure applications manualy, but there is a way to do it much faster and more reliable.*
 
-> [Terraform](https://www.terraform.io) is a tool that allows to describe any kind of infrastructure as a simple text and deploy or update it with a single command. Let's see how it works.
+> [Terraform](https://www.terraform.io) is a tool which allows to define any kind of infrastructure as a simple text document and deploy or update it with a single command. There is quick look how it works.
 
 ## Getting Started
 
-Every web application has at least two things: **domain** and **server**. So to run the simplest website you need to create a server (DigitalOcean calls it **droplets**) and attach a domain to server's IP address.
+Every single web application has at least two things: **domain** and **server**. So to run the simplest website you need to create a server (DigitalOcean calls it **droplets**) and attach a domain to server's IP address.
 
 ##### Droplet Definition 
 
-You can create droplet by logging in DigitalOcean's Control Panel then push 'Create Droplet', fill droplet's name choose droplet type, region and size and finnaly submit it all.
+You can create droplet with DigitalOcean Control Panel with 'Create Droplet' button, filling droplet's name choosing droplet type, region and size.
 
 Droplet definition with Terraform looks the next way:
 
-```r
-resource "digitalocean_droplet" "default" {
-  # Droplet Name
-  name = "lemp-server"
-
-  # Droplet Type
-  #  One-click application: wordpress, lemp  stack, etc.
-  #    - or -
-  #  Clean distribuion: ubuntu, cent os, etc.
-  image = "lemp-16-04"
-
-  # Droplet Region and Size
-  region = "nyc1"
-  size   = "512mb"
-}
-```
+{% gist 20319e9997fd7a7394d2a6702e047b98 %}
 
 <small>* *[The list of all available droplet arguments.](https://www.terraform.io/docs/providers/do/r/droplet.html)*</small>
 
@@ -47,125 +32,29 @@ resource "digitalocean_droplet" "default" {
 
 The same things with adding domains. You can do it via DigitalOcean Control Panel or provide Terraform configuration:
 
-```r
-resource "digitalocean_domain" "default" {
-  # Domain
-  name = "example.com"
-
-  # IP address of droplet to attach domain
-  ip_address = "256.100.1.23"
-}
-
-# !!! WARNING:
-# There are 'dummy' IP and domain name, do not try to use it.
-```
+{% gist b3d1284ad178afb797005f7cd1d6353b %}
 
 #### Deploying
 
 Begin with creating directory to store Terraform configuration files. Then create `service.tf` (the filename can be anything you want) file in this directory and put domain and droplet definitions into.
 
-```r
-resource "digitalocean_domain" "default" {
-  name       = "example.com"
-  ip_address = "${digitalocean_droplet.default.ipv4_address}"
-}
+{% gist 5888fa06e5b8fc8afab15e44c95c13e1 %}
 
-resource "digitalocean_droplet" "default" {
-  name   = "lemp-server"
-  image  = "lemp-16-04"
-  region = "nyc1"
-  size   = "512mb"
-}
-```
+Domain `ip_address` uses reference to defined droplet as a value to map your domain to droplet and don't forget to set correct domain name, because DigitalOcean won't allow you to add already registered with DigitalOcean Networking domain.
 
-Set `${digitalocean_droplet.default.ipv4_address}` variable as domain ip_address to map your domain to droplet and don't forget to set correct domain name, because DigitalOcean won't allow you to add already registered with DigitalOcean Networking domain.
+*Terraform is smart enough to understand that domain can't be created without droplet's IP address, so first it will create a droplet, and then it will give correct ip_address for the domain value.*
 
-*Terraform is smart enough to understand that domain can't be created without droplet's IP address, so first it creates droplet, and then it will be able to give correct ip_address for the domain.*
+Almost done. The last thing to do is set provider credentials, so create `credentials.tf` file in the same directory and put next lines into:
 
-Almost done. The last thing to do is set provider credentials, so put next lines at the top of `serivce.tf` file:
-
-```r
-provider "digitalocean" {
-  token = "7d50acd89ca3b...8cde9a059828b"
-}
-```
+{% gist 874254f5ff8616f7dd7679b443012b79 %}
 
 *You need to generate DititalOcean API token at the [API](https://cloud.digitalocean.com/settings/api/tokens) section of [DigitalOcean Control Panel](https://cloud.digitalocean.com)*
-
-Now you have `service.tf` file like this one:
-
-```r
-provider "digitalocean" {
-  token = "7d50acd89ca3...8cde9a059828b"
-}
-
-resource "digitalocean_domain" "default" {
-  name       = "example.com"
-  ip_address = "${digitalocean_droplet.default.ipv4_address}"
-}
-
-resource "digitalocean_droplet" "default" {
-  name   = "lemp-server"
-  image  = "lemp-16-04"
-  region = "nyc1"
-  size   = "512mb"
-}
-```
 
 Initialize Terraform provider with `terraform init`. It downloads required provider files and initializes Terraform configuration directory (almost like `git init` command initializes repository in working directory).
 
 You can see what this infrastructure definition will do by `terraform plan`. Terraform gives you the list of actions that will be performed on DigitalOcean. With current infrastructure definition you should see output like this:
 
-```
-$ terraform plan
-
-Refreshing Terraform state in-memory prior to plan...
-The refreshed state will be used to calculate this plan, but will not be
-persisted to local or remote state storage.
-
-
-------------------------------------------------------------------------
-
-An execution plan has been generated and is shown below.
-Resource actions are indicated with the following symbols:
-  + create
-
-Terraform will perform the following actions:
-
-  + digitalocean_domain.default
-      id:                   <computed>
-      ip_address:           "${digitalocean_droplet.default.ipv4_address}"
-      name:                 "example.com"
-
-  + digitalocean_droplet.default
-      id:                   <computed>
-      disk:                 <computed>
-      image:                "lemp-16-04"
-      ipv4_address:         <computed>
-      ipv4_address_private: <computed>
-      ipv6_address:         <computed>
-      ipv6_address_private: <computed>
-      locked:               <computed>
-      name:                 "lemp-server"
-      price_hourly:         <computed>
-      price_monthly:        <computed>
-      region:               "nyc1"
-      resize_disk:          "true"
-      size:                 "512mb"
-      status:               <computed>
-      vcpus:                <computed>
-
-
-Plan: 2 to add, 0 to change, 0 to destroy.
-
-------------------------------------------------------------------------
-
-Note: You didn't specify an "-out" parameter to save this plan, so Terraform
-can't guarantee that exactly these actions will be performed if
-"terraform apply" is subsequently run.
-
-$▐
-```
+{% gist cf6df72392df8c08ff253299c5a89a5f %}
 
 Now if you try to `terraform apply` and approve actions you will get defined resources on your DigitalOcean account.
 
@@ -181,13 +70,7 @@ At this moment configuration values are used directly in resource definitions. I
 
 Terraform variables looks the next way:
 
-```r
-variable "variable_name" {
-  type        = "string|list|map"
-  default     = ""
-  description = "A human-friendly description for the variable."
-}
-```
+{% gist 69ffccc242f72095ba666debf2aebfd8 %}
 <small>* *Type, description and default variables are optional arguments.*</small>
 
 #### Export Variables
@@ -196,54 +79,11 @@ Create `variables.tf` file and think about what arguments may be changed and wha
 
 For example, **droplet size** and **image** can be the same for different projects, so you can provide default value for this arguments, but **domain name** can't be the same for different projects, so you just need to define that you're requiring this argument but it won't have default value.
 
-```r
-variable "do_token" {
-  description = "DigitalOcean API Token"
-}
+{% gist 362b58ae2a867cfc17da945bb0d90d0e %}
 
-variable "domain" {
-  description = "Domain name the service should be located on"
-}
+Now replace `credentials.tf` and `service.tf` files values with new created variables:
 
-variable "region" {
-  description = "Datacenter region."
-  default     = "nyc1"
-}
-
-variable "droplet_name" {
-  description = "Droplet name in DigitalOcean Control Panel"
-}
-
-variable "droplet_image" {
-  description = "Image distribution"
-  default     = "lemp-16-04"
-}
-
-variable "droplet_size" {
-  description = "Droplet size"
-  default     = "512mb"
-}
-```
-
-Now replace `service.tf` file values with new created variables:
-
-```r
-provider "digitalocean" {
-  token = "${var.do_token}"
-}
-
-resource "digitalocean_domain" "default" {
-  name       = "${var.domain}"
-  ip_address = "${digitalocean_droplet.default.ipv4_address}"
-}
-
-resource "digitalocean_droplet" "default" {
-  name   = "${var.droplet_name}"
-  image  = "${var.droplet_image}"
-  region = "${var.region}"
-  size   = "${var.droplet_size}"
-}
-```
+{% gist eb6e078567dbc6e361e0a8e856edfbda %}
 
 Next you should provide values for variables when making `terraform apply`. Values can be passed by:
  * [Environment Variables](#environment-variables);
@@ -256,38 +96,23 @@ You can provide values via environment. The name of the environment variable mus
 
 For example, variables above can be set by:
 
-```
-$ TF_VAR_do_token=7d50acd89ca3...8cde9a059828b TF_VAR_domain=example.com TF_VAR_droplet_name=lemp_server terraform apply
-```
+{% gist ac4e2036d4673d04001b2cbb57887d60 %}
 
 or
 
-```
-$ export TF_VAR_do_token=7d50acd89ca3...8cde9a059828b TF_VAR_domain=example.com TF_VAR_droplet_name=lemp_server
-$ terraform apply
-```
+{% gist de6ebcfbbba9eec6fc085c3306b9ddcd %}
 
 ##### Interactive Prompt
 
 Alternatively you can provide values just by `terraform apply` and Terraform will ask for it (which does not have defaults) interactively:
 
-```
-$ terraform apply
-var.do_token
-  DigitalOcean API Token
-
-  Enter a value:▐
-```
+{% gist d1227a4a9921d06f5b94b729af95ba53 %}
 
 ##### Variable Files
 
 And the last way to provide values is files which match `terraform.tfvars` or `*.auto.tfvars` in the configuration directory, Terraform automatically loads them to populate variables. For example:
 
-```
-do_token = "7d50acd89ca3...8cde9a059828b"
-domain = "example.com"
-droplet_name = "lemp_server"
-```
+{% gist 9de54d34d73627614a5d3395eb79d2ba %}
 
 ## Conclusion
 
