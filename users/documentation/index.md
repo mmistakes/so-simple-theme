@@ -10,6 +10,21 @@ image:
 redirect_from: "/documentation/"
 ---
 
+# Stan User's Guide
+
+The Stan user's guide provides example models and programming
+techniques for coding statistical models in Stan.
+It also serves as an example-driven introduction to Bayesian modeling
+and inference.
+For version 2.18, this is titled _Stan User's Guide_.
+For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
+
+* [Stan User's Guide](/docs/2_18/stan-users-guide/index.html)
+<span class="note">&nbsp; &nbsp; (http)</span>
+
+* [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+
 # Stan Language Reference Manual
 
 The manual for Stan's programming language for coding probability models,
@@ -42,20 +57,6 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan Language Functions Reference 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/functions-reference-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
-# Bayesian Statistics Using Stan
-
-This book is the official user's guide for Stan.  It provides example
-models and programming techniques for coding statistical models in Stan.
-It also serves as an example-driven introduction to Bayesian modeling
-and inference.
-For version 2.18, this is titled _Stan User's Guide_.
-For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
-
-* [Bayesian Statistics Using Stan](/docs/bayes-stats-stan/index.html)
-<span class="note">&nbsp; &nbsp; (http)</span>
-
-* [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Case Studies and Notebooks
 
