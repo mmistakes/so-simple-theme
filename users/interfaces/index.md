@@ -110,3 +110,26 @@ The loo package provides efficient leave-one-out cross-validation and WAIC calcu
   <a href="/users/interfaces/loo.html">loo</a>
   <span class="note">(R)</span>
   </p>
+
+# Stan Language Syntax Aware Editors
+
+RStudio now recognizes `.stan` files and provides syntax highlighting,
+formatting, and checking.
+
+* <p>
+  <a href="https://resources.rstudio.com/rstudio-blog/rstudio-1-2-preview-stan">RStudio 1.2 Stan</a>
+  <span class="note">(R)</span>
+  </p>
+
+Emacs
+
+* <p>
+  <a href="https://github.com/stan-dev/stan-mode">Emacs mode for Stan</a>
+  </p>
+
+Vim
+
+* <p>
+  <a href="https://github.com/maverickg/stan.vim">Vim syntax highlighting for Stan</a>
+  </p>
+
