@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update NPM dependencies.
 
 ### Added
+- Add French translations to `text.yml`. [#316](https://github.com/mmistakes/so-simple-theme/pull/316)
 - Add German translations to `text.yml`. [#311](https://github.com/mmistakes/so-simple-theme/pull/311)
 - Add Spanish translations to `text.yml`. [#300](https://github.com/mmistakes/so-simple-theme/pull/300)
 
