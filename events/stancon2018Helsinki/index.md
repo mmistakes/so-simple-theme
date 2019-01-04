@@ -44,8 +44,9 @@ If you have questions regarding registration, payments, travel, please email
 # [Videos](#videos)
 
 - [Tutorials](https://www.youtube.com/playlist?list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J)
-- [Thursday 8:45-17:30](https://youtu.be/5_x14-gJkMg)
-- [Friday 9:00-17:00](https://youtu.be/pKZLJPrZLhU)
+- [Thursday Morning](https://www.youtube.com/watch?v=FoaxA7sJi7w&list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J&t=2s&index=2)
+- [Thursday Afternoon](https://www.youtube.com/watch?v=wcpjZC9AV84&list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J&t=0s&index=3)
+- [Friday Morning + afternoon](https://www.youtube.com/watch?v=pKZLJPrZLhU&list=PLuwyh42iHquU4hUBQs20hkBsKSMrp6H0J&t=386s&index=4)
 
 ------
 
