@@ -135,3 +135,30 @@ fr-BE:
   <<: *DEFAULT_FR
 fr-CA:
   <<: *DEFAULT_FR
+
+it: &DEFAULT_IT
+  skip_links: "Salta links"
+  skip_primary_nav: "Salta alla navigazione primaria"
+  skip_content: "Vai al contenuto"
+  skip_footer: "Vai al footer"
+  menu_label: "Menu"
+  by: "di"
+  min_read: "min. per leggere"
+  read_more: "Leggi di più&hellip;"
+  categories: "Categorie"
+  tags: "Tags"
+  pages_categorized: "Pagine categorizzate come"
+  pages_tagged: "Pagine con tag"
+  table_of_contents: "Indice dei Contenuti"
+  results_found: "Risultati della ricerca"
+  share: "Condividi"
+  tweet: "Tweet"
+  next: "Avanti"
+  previous: "Indietro"
+  newer: "Nuovi"
+  older: "Vecchi"
+  back_to_top: "Torna in cima"
+  search_placeholder_text: "Inserisci una parola da cercare..."
+  powered_by: "Generato da"
+it-IT:
+  <<: *DEFAULT_IT
