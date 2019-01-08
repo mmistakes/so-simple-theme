@@ -84,6 +84,7 @@
   margin: 0.5em 0 0;
   padding: 0;
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
+  font-weight: 700;
 
   a {
     color: $text-color;
