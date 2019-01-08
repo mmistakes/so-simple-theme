@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add Spanish translations to `text.yml`. [#300](https://github.com/mmistakes/so-simple-theme/pull/300)
 
 ### Fixed
+- Remove duplicate `h1` headings for SEO benefit.
 - Fix site title and description for page's with a hero image assigned with `page.image`. [#322](https://github.com/mmistakes/so-simple-theme/issues/322)
 - Correct stylesheet path in documentation. [#309](https://github.com/mmistakes/so-simple-theme/pull/309)
 - Clarify where to customize SCSS variables in `/assets/css/main.scss`. [#293](https://github.com/mmistakes/so-simple-theme/pull/293)
