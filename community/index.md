@@ -7,8 +7,8 @@ image:
   feature: feature/wide_ensemble.png
   credit:
   creditlink:
----
 
+---
 
 # Stan Forums
 
