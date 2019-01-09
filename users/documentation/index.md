@@ -20,7 +20,7 @@ For version 2.18, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 * [Stan User's Guide](/docs/2_18/stan-users-guide/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
+<span class="note">&nbsp; &nbsp; (http)</span>
 
 * [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
@@ -33,7 +33,7 @@ and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
 * [Stan Language Reference Manual 2.18](/docs/2_18/reference-manual/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
+<span class="note">&nbsp; &nbsp; (http)</span>
 
  
 * [Stan Language Reference Manual 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/reference-manual-2.18.0.pdf)
@@ -44,7 +44,6 @@ This manual applies to all Stan interfaces.
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 <br>combines the _Stan Language Reference Manual_, _Stan Language Functions Reference_, and the _Stan User's Guide_.
 
-
 # Stan Language Functions Reference
 
 The reference for the functions defined in the Stan math
@@ -52,10 +51,21 @@ library and available in the Stan programming language.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 * [Stan Language Functions Reference 2.18](/docs/2_18/functions-reference/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
+<span class="note">&nbsp; &nbsp; (http)</span>
 
 * [Stan Language Functions Reference 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/functions-reference-2.18.0.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+
+
+# RStan Documentation
+
+*  [RStan Vignettes, tutorials, and other package information](/rstan) 
+
+*  [RStan Manual and vignettes CRAN](https://cran.r-project.org/web/packages/rstan)
+
+# PyStan Documentation
+
+* [PyStan API documentation from readthedocs.org](https://pystan.readthedocs.org/en/latest/api.html)
 
 
 # Case Studies and Notebooks
@@ -82,6 +92,7 @@ The Stan development team and many users have contributed tutorials aimed at int
 in written and visual formats.  These tutorials can be found at
 
 * <p><a href="/users/documentation/tutorials.html">Tutorials</a></p>
+
  
 # Specialized Field Guides
 
@@ -93,6 +104,19 @@ specific fields.
     research using Stan</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
+
+
+# The Stan Forums
+
+The most up to date discussion of modeling techniques and computational
+issues if often found in the Stan Forums before it ends up in a case study
+or a paper.
+
+* <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
+<span class="note">(Discourse)</span></p>
+
+Discussions prior to June 2017 are archived and public on the now deprecated
+<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
 
 # GitHub Stan Developer Wiki
 
@@ -115,19 +139,7 @@ Two particularly recommended pages are
   Prior Choice Recommendations</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
   </p>
 
-# The Stan Forums
-
-The most up to date discussion of modeling techniques and computational
-issues if often found in the Stan Forums before it ends up in a case study
-or a paper.
-
-* <p><a href="http://discourse.mc-stan.org/">Stan Forums</a>
-<span class="note">(Discourse)</span></p>
-
-Discussions prior to June 2017 are archived and public on the now deprecated
-<a href="https://groups.google.com/forum/?fromgroups#!forum/stan-users">Stan Users Google Group</a>.
-
-# External References
+# Further References
 
 Finally, there are many works that elaborate on aspects of Stan from
 algorithms to applications.  Some of the more relevant references can be
