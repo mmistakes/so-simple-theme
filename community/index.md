@@ -3,6 +3,10 @@ layout: page
 title: Stan Community
 excerpt: ""
 modified:
+image:
+  feature: feature/wide_ensemble.png
+  credit:
+  creditlink:
 ---
 
 
