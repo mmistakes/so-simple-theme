@@ -61,12 +61,9 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
 *  [RStan Vignettes, tutorials, and other package information](/rstan) 
 
-*  [RStan Manual and vignettes CRAN](https://cran.r-project.org/web/packages/rstan)
-
 # PyStan Documentation
 
 * [PyStan API documentation from readthedocs.org](https://pystan.readthedocs.org/en/latest/api.html)
-
 
 # Case Studies and Notebooks
 
