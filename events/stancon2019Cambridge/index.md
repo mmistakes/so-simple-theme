@@ -12,14 +12,10 @@ image:
 We have a StanCon for 2019! Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
-August 20-23, 2019        &emsp; &bull; &emsp; 
-
+August 20-23, 2019
 West Road Concert Hall
-
 University of Cambridge
-
 11 West Road, Cambridge CB3 9DP UK
-
 {: style="font-size: 150%; text-align: center;"}
 
 <br>
