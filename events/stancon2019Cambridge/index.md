@@ -9,13 +9,16 @@ image:
   creditlink:
 ---
 
-Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
+We have a StanCon for 2019! Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: center;"}
 
 August 20-23, 2019        &emsp; &bull; &emsp; 
+
 West Road Concert Hall
+
 University of Cambridge
-11 West Road, Cambridge CB3 9DP
+
+11 West Road, Cambridge CB3 9DP UK
 
 {: style="font-size: 150%; text-align: center;"}
 
@@ -25,15 +28,22 @@ Basic schedule (times are subject to change, dates are not):
 
 Tutorials are Tuesday, August 20 and Wednesday August 21 9am to 5pm both days. Both introductory and advanced topics will be offered. 
 
-Conference is Thursday, August 21, 9am to 5pm, conference dinner 7pm, Friday August 22 9am to 5pm. 
+Conference is Thursday, August 21, 9am to 5pm, conference dinner 7pm, Friday August 22, 9am to 5pm. 
 
 Paper submissions for the conference are due by April 15, 2019 midnight anywhere on the planet. 
 
-Posters accepted on a rolling basis up until August 15. 
+Posters accepted on a rolling basis up until August 15.
+
+We have a block of rooms at Kings College. 
+
+We will be offering scholarships.  
+
+We expect pricing to be consistent with previous StanCons. 
+
 
 ------
 
-We are still finalizing plans, sign up for StanCon announcements.
+Obviously, we are still finalizing plans, sign up for StanCon announcements so when we get tickets and lodging up in the next week or so you can finalize your trip. 
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
