@@ -2,7 +2,7 @@
 title: How to deploy applications to DigitalOcean with Terraform
 layout: post
 excerpt: "Create super fast and easy repeatable way to deploy various applications and servers from scratch."
-last_modified_at: 2018-12-21 11:13:34
+modified: 2019-01-23
 categories: articles
 tags: [deployment, digitalocean, terraform]
 image:
@@ -10,18 +10,19 @@ image:
 comments: true
 ---
 
-*I like using [DigitalOcean](https://m.do.co/c/fac05d89f2e5) as a cloud servers provider because it is pretty simple and doesn't cost too much. It already has complete enough infrastructure things for small websites and large services too.*  
+> I like [DigitalOcean](https://m.do.co/c/fac05d89f2e5) as a cloud servers provider because it is pretty simple and doesn't cost too much. It already has complete enough infrastructure things for small websites and large services.  
+
 *DigitalOcean has clean user-friendly Control Panel UI to manage droplets, networks and so on. I used to configure applications manualy, but there is a way to do it much faster and more reliable.*
 
-> [Terraform](https://www.terraform.io) is a tool which allows to define any kind of infrastructure as a simple text document and deploy or update it with a single command. There is quick look how it works.
+*[Terraform](https://www.terraform.io) is a tool which allows to define any kind of infrastructure as a simple text document and deploy or update it with a single command.*
 
 ## Getting Started
 
-Every single web application has at least two things: **domain** and **server**. So to run the simplest website you need to create a server (DigitalOcean calls it **droplets**) and attach a domain to server's IP address.
+Every single web application has at least two things: **domain** and **server**. It means if you need to run the simplest website you need to create a server (DigitalOcean calls it **droplets**) and map a domain to server's IP address.
 
 ##### Droplet Definition 
 
-You can create droplet with DigitalOcean Control Panel with 'Create Droplet' button, filling droplet's name choosing droplet type, region and size.
+You can create droplet with DigitalOcean Control Panel with 'Create Droplet' button, filling droplet's name, choosing droplet type, region and size.
 
 Droplet definition with Terraform looks the next way:
 
@@ -35,13 +36,13 @@ The same things with adding domains. You can do it via DigitalOcean Control Pane
 
 {% gist b3d1284ad178afb797005f7cd1d6353b %}
 
-#### Deploying
+#### Deployment
 
 Begin with creating directory to store Terraform configuration files. Then create `service.tf` (the filename can be anything you want) file in this directory and put domain and droplet definitions into.
 
 {% gist 5888fa06e5b8fc8afab15e44c95c13e1 %}
 
-Domain `ip_address` uses reference to defined droplet as a value to map your domain to droplet and don't forget to set correct domain name, because DigitalOcean won't allow you to add already registered with DigitalOcean Networking domain.
+Domain `ip_address` uses reference to defined droplet as a value to authomatically map droplet to domain.
 
 *Terraform is smart enough to understand that domain can't be created without droplet's IP address, so first it will create a droplet, and then it will give correct ip_address for the domain value.*
 
@@ -51,21 +52,25 @@ Almost done. The last thing to do is set provider credentials, so create `creden
 
 *You need to generate DititalOcean API token at the [API](https://cloud.digitalocean.com/settings/api/tokens) section of [DigitalOcean Control Panel](https://cloud.digitalocean.com)*
 
+##### Here we go...
+
 Initialize Terraform provider with `terraform init`. It downloads required provider files and initializes Terraform configuration directory (almost like `git init` command initializes repository in working directory).
 
-You can see what this infrastructure definition will do by `terraform plan`. Terraform gives you the list of actions that will be performed on DigitalOcean. With current infrastructure definition you should see output like this:
+Run `terraform plan` it gives you the list of actions that Terraform will performe on DigitalOcean. With current infrastructure definition you should see output like this:
 
 {% gist cf6df72392df8c08ff253299c5a89a5f %}
 
-Now if you try to `terraform apply` and approve actions you will get defined resources on your DigitalOcean account.
+It's time to `terraform apply`. Confirm actions and you'll get defined resources on your DigitalOcean account. Check it out on Control Panel.
 
-To destroy this infrastructure run `terraform destroy`.
+##### Roll-back
+
+To destroy this infrastructure just run `terraform destroy`.
 
 *Don't be afraid to lost other droplets and services on your account by `terraform destroy`. Terraform stores defined and deployed resources in `terraform.tfstate` file, so it will only remove resources defined and deployed from this working directory.*
 
 ## Re-usable Configuration
 
-At this moment configuration values are used directly in resource definitions. It is ok, but if you want to make really re-usable configuration you need to export values to variables.
+At this moment dynamic values (such as domain name, droplet type and size) are directly used in resource definitions. It is ok, but if you want to make re-usable configuration you need to export values to variables.
 
 ##### Variable Definition
 
@@ -76,7 +81,7 @@ Terraform variables looks the next way:
 
 #### Export Variables
 
-Create `variables.tf` file and think about what arguments may be changed and what arguments should be changed in similiar deployments.
+Create `variables.tf` file and think about which arguments **may be changed** and which arguments **should be changed** in similiar deployments (applications).
 
 For example, **droplet size** and **image** can be the same for different projects, so you can provide default value for this arguments, but **domain name** can't be the same for different projects, so you just need to define that you're requiring this argument but it won't have default value.
 
@@ -93,7 +98,7 @@ Next you should provide values for variables when making `terraform apply`. Valu
 
 ##### Environment Variables
 
-You can provide values via environment. The name of the environment variable must be `TF_VAR_` followed by the `variable_name`, and the value is the value of the variable. 
+You can provide values via environment. The name of the environment variable must start with `TF_VAR_` followed by the `variable_name`, and the value is the value of the variable. 
 
 For example, variables above can be set by:
 
