@@ -2,7 +2,7 @@
 layout: post
 title: WordPress plugin deployment using GitHub and Travis CI
 excerpt: "Actually you may not use SVN for WordPress plugin and theme development and deployment. Travis can do all SVN stuff for you."
-last_modified_at: 2018-12-17 15:59:59
+last_modified_at: 2019-01-23 15:10:29
 categories: articles
 tags: [deployment, github, travis-ci, wordpress]
 image:
@@ -11,7 +11,7 @@ comments: true
 ---
 
 > I love [WordPress](https://wordpress.org) and I'm sure it is the best solution for corporate websites and personal blogs. I'm happy to contribute code for WordPress, create plugins and themes. I've made a few public plugins: [Inline Spoilers](https://wordpress.org/plugins/inline-spoilers/) and [Sanitize Cyrillic](https://wordpress.org/plugins/sanitize-cyrillic/).  
-But there is one unpleasant thing that stopped me. WordPress wants you to use SVN to store public plugins and themes but development with SVN is too annoying. There are topics how to use git for WordPress but it is all about git-svn.
+But there is one unpleasant thing that everytime stopped me. WordPress wants you to use SVN to store and deploy public plugins and themes but development with SVN is too annoying for me. There are topics how to use git for WordPress but it is all about git-svn.
 
 *I'm expecting that you already have a submitted WordPress plugin and just want to avoid SVN things, otherwise, please, take a look at [this guide](https://developer.wordpress.org/plugins/wordpress-org/) and welcome back.*
 
@@ -19,17 +19,11 @@ But there is one unpleasant thing that stopped me. WordPress wants you to use SV
 
 At this point, you have plugin's code hosted on [WordPress SVN](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/) and [GitHub](https://github.com). Next you need to create configuration and describe all things you want to be executed by [Travis](https://travis-ci/org). 
 
-Let's begin with creating 'dummy' `.travis.yml` file in your repository to tell Travis what to do:
+Start with creating 'dummy' `.travis.yml` file in your repository to tell Travis what to do:
 
 {% gist 112d65c7998be8d3644c641b247abafb %}
 
-Now enable Travis integration with your GitHub repository:
-
-1. Go to [Travis CI](https://travis-ci.org) and login with GitHub;
-2. Hit "**+**" at the top of the sidebar;
-3. Enable integration by toggling switcher near repository name.
-
-Travis will procceed all commits pushed to plugin's GitHub repository. Also it will proceed all pull requests by default.
+Travis will procceed all future commits and pull requests for repository with `.travis.yml` file.
 
 ## Step 2: Configure WordPress Plugin Assets
 
@@ -39,7 +33,7 @@ Create `assets/` directory and put empty `.gitkeep` file into to make sure it ex
 
 ## Step 3: Write Deployment Script
 
-### <i class="fa fa-magic" aria-hidden="true"></i> ~ that's where the magic begins...
+### 🤹‍♀️ ~ that's where the magic begins...
 
 To avoid SVN stuff just put it to shell script, create `deploy/deploy.sh` script file with next contents: 
 
@@ -54,9 +48,9 @@ Actually you don't need to execute script to deploy a new release. Travis will d
 
 ## Step 4: Enable Travis CI Deployment
 
-You need to tell Travis to execute deployment script on some specific events.  
+I think you don't need to deploy each new commit, you need to tell Travis to execute deployment script only on "some" specific events.  
 
-> I use git tags to mark plugin releases. So everytime I push a new git tag to GitHub Travis will procceed it and submit new plugin version to WordPress SVN repository.
+> I'd preffer using tags to specify plugin releases. I want Travis to submit new plugin version to Wordpress each time I push a new git tag.
 
 To enable deployment on git tags provide next configuration to `.travis.yml`:
 
@@ -64,12 +58,12 @@ To enable deployment on git tags provide next configuration to `.travis.yml`:
 
 <small>* *Travis sees git tags the same way as branches.*</small>
 
-> I use [semver](http://semver.org) for projects, so to enable Travis hook on this kind of tags I provide regular expression to determine it.
+> I like to use [semver](http://semver.org) for projects, I've set semver regular expression as a branch filter to allow deployments only for this kind of tags.
 
 ### Environment variables
 
 **$SVN_REPOSITORY** - WordPress plugin SVN repository URL.  
-**$TRAVIS_TAG** - Tag label. *(This variable is catched by Travis from GitHub)*  
+**$TRAVIS_TAG** - Tag label. *(This variable is fetched and provided by Travis from GitHub)*  
 **$SVN_USERNAME** - Encrypted WordPress account username.  
 **$SVN_PASSWORD** - Encrypted WordPress account password.
 
