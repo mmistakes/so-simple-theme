@@ -2,7 +2,7 @@
 layout: post
 title: WordPress plugin deployment using GitHub and Travis CI
 excerpt: "Actually you may not use SVN for WordPress plugin and theme development and deployment. Travis can do all SVN stuff for you."
-modified: 2019-01-23
+last_modified_at: 2019-01-24 20:50:27
 categories: articles
 tags: [deployment, github, travis-ci, wordpress]
 image:
@@ -50,7 +50,7 @@ Actually you don't need to execute script to deploy a new release. Travis will d
 
 I think you don't need to deploy each new commit, you need to tell Travis to execute deployment script only on "some" specific events.  
 
-> I'd preffer using tags to specify plugin releases. I want Travis to submit new plugin version to Wordpress each time I push a new git tag.
+> I'd prefer using tags to specify plugin releases. I want Travis to submit new plugin version to Wordpress each time I push a new git tag.
 
 To enable deployment on git tags provide next configuration to `.travis.yml`:
 

@@ -2,7 +2,7 @@
 title: How to deploy applications to DigitalOcean with Terraform
 layout: post
 excerpt: "Create super fast and easy repeatable way to deploy various applications and servers from scratch."
-modified: 2019-01-23
+last_modified_at: 2019-01-23
 categories: articles
 tags: [deployment, digitalocean, terraform]
 image:
@@ -46,7 +46,7 @@ Domain `ip_address` uses reference to defined droplet as a value to authomatical
 
 *Terraform is smart enough to understand that domain can't be created without droplet's IP address, so first it will create a droplet, and then it will give correct ip_address for the domain value.*
 
-Almost done. The last thing to do is set provider credentials, so create `credentials.tf` file in the same directory and put next lines into:
+Almost done. The last thing to do is to set provider credentials, so create `credentials.tf` file in the same directory and put next lines into:
 
 {% gist 874254f5ff8616f7dd7679b443012b79 %}
 
@@ -56,7 +56,7 @@ Almost done. The last thing to do is set provider credentials, so create `creden
 
 Initialize Terraform provider with `terraform init`. It downloads required provider files and initializes Terraform configuration directory (almost like `git init` command initializes repository in working directory).
 
-Run `terraform plan` it gives you the list of actions that Terraform will performe on DigitalOcean. With current infrastructure definition you should see output like this:
+Run `terraform plan`, it gives you the list of actions that Terraform will performe on DigitalOcean. With current infrastructure definition you should see output like this:
 
 {% gist cf6df72392df8c08ff253299c5a89a5f %}
 
@@ -66,7 +66,7 @@ It's time to `terraform apply`. Confirm actions and you'll get defined resources
 
 To destroy this infrastructure just run `terraform destroy`.
 
-*Don't be afraid to lost other droplets and services on your account by `terraform destroy`. Terraform stores defined and deployed resources in `terraform.tfstate` file, so it will only remove resources defined and deployed from this working directory.*
+*Don't be afraid to lose other droplets and services on your account by `terraform destroy`. Terraform stores defined and deployed resources in `terraform.tfstate` file, so it will only remove resources defined and deployed from this working directory.*
 
 ## Re-usable Configuration
 
@@ -74,7 +74,7 @@ At this moment dynamic values (such as domain name, droplet type and size) are d
 
 ##### Variable Definition
 
-Terraform variables looks the next way:
+Terraform variable looks the next way:
 
 {% gist 69ffccc242f72095ba666debf2aebfd8 %}
 <small>* *Type, description and default variables are optional arguments.*</small>
