@@ -2,7 +2,7 @@
 layout: post
 title: Facebook enforces HTTPS - developer's thoughts
 excerpt: "\"We've enforced HTTPS for all new API applications. Why? Just because we can.\" &copy; Facebook"
-last_modified_at: 2019-01-24
+last_modified_at: 2019-01-28 23:00:18
 categories: blog
 tags: [facebook, https, development]
 image:

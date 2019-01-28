@@ -3,7 +3,7 @@ layout: page
 title: About
 tags: [about, resume, cv, bio]
 excerpt: Hi, my name is Sergey and I'm a web-developer.
-modified: 2018-01-10T12:53:38.564948+03:00
+last_modified_at: 2018-01-10T12:53:38.564948+03:00
 image:
   feature: about-featured-image.png
 ---
