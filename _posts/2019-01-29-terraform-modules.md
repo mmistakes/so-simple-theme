@@ -4,7 +4,7 @@ layout: post
 excerpt: "Another way to create re-usable and distributable terraform configuration."
 last_modified_at: 2019-02-12 15:51:50
 categories: articles
-tags: [deployment, terraform]
+tags: [deployment, terraform, wordpress]
 image:
   feature: terraform-modules.png
 comments: true
