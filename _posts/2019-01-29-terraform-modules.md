@@ -1,8 +1,8 @@
 ---
-title: Terraform Modules
+title: Terraform Module Example
 layout: post
-excerpt: "Another way to create re-usable and distributable terraform configuration."
-last_modified_at: 2019-02-13 18:31:46
+excerpt: "Alternative way to create re-usable and distributable application infrastructure with Terraform."
+last_modified_at: 2019-02-14 10:40:18
 categories: articles
 tags: [deployment, terraform, wordpress]
 image:
@@ -16,9 +16,9 @@ comments: true
 
 ## Getting Started
 
-Commonly Terraform module contains the next items: input variables, output variables and its service definition. There are three files from [previous article](/articles/how-to-deploy-applications-to-digitalocean-with-terraform/) `variables.tf`, `credentials.tf` and `service.tf`.
+Commonly Terraform module contains the next items: input variables, output variables and main service definition. There are three files from [previous article](/articles/how-to-deploy-applications-to-digitalocean-with-terraform/) `variables.tf`, `credentials.tf` and `service.tf`.
 
-Create a directory for your future Terraform module `wordpress/` and let's start with files of service definition. Split `service.tf` into two files `domain.tf` and `droplet.tf`.
+Create a directory for your future Terraform module `wordpress/` and let's start with files of service definition. Rename `service.tf` to `main.tf`.
 
 {% gist 7ccc2d5272d6ae4ec1736f1af86fe70a %}
 <small>* since droplet `name` is required argument, use `"${coalesce(var.droplet_name, var.domain)}"`. It&nbsp;returns the first non-empty value from provided arguments, so you are able to give custom droplet name, otherwise it will be the same as a domain name.</small>
@@ -28,9 +28,11 @@ Next create `provider.tf` with provider definition:
 {% gist 9cabff24807001150ca0863ab36158ba %}
 <small>* we skip token argument and will provide it via environment variable</small>
 
-At this moment there are complete service and provider definitions. But no variables are defined, so do it.
+At this moment there are complete service and provider definitions. But no module outputs and no input variables are defined, so do it.
 
 {% gist 277da253ab62fd48d3d3b060897e12fc %}
+
+
 
 #### DigitalOcean WordPress specific setup
 
@@ -40,17 +42,17 @@ Usually you need to login with SSH to droplet and then it runs `/opt/digitalocea
 
 {% gist e9cec4ad8615187cbb40a4c71490dd62 %}
 
-Let's take only things we need and put it into `domain_setup.sh` file to apply it as [user_data](https://www.terraform.io/docs/providers/do/r/droplet.html#user_data) on droplet creation.
+Let's take only things we need and put it into `user_data.sh` file to apply it as [user_data](https://www.terraform.io/docs/providers/do/r/droplet.html#user_data) on droplet creation.
 
 {% gist ec412367e4e02a0248635281b35fea7b %}
 
 But there is no domain we want to set for the droplet. Also we can't easily pass Terraform variable into this script. Terraform has a solution for it called [template_file](https://www.terraform.io/docs/providers/template/d/file.html).
 
-Rename `domain_setup.sh` to `domain_setup.tpl` and replace `$dom` bash variable with Terraform's `${domain}` variable on line 7.
+Rename `user_data.sh` to `user_data.tpl` and replace `$dom` bash variable with Terraform's `${domain}` variable on line 7.
 
 {% gist 220d736c123d7d80391920aeb7847941 %}
 
-Now, create one more file to describe this template `droplet_setup.tf`.
+Now, create one more file to describe this template `user_data.tf`.
 
 {% gist f826b1f81f9fa47b2985e367517620be %}
 
@@ -87,7 +89,7 @@ I use the next way to provide credentials for terraform:
 
 DigitalOcean provider requires `token` arugment as a access_key, so I wrap `$DIGITALOCEAN_TOKEN` into `$TF_VAR_token=$DIGITALOCEAN_TOKEN`.
 
-Now, to apply any changes I just `source ~/do_credentials` file (the first one) and just run Terraform commands.
+Now, to apply any changes I just `source ~/do_credentials` file (the first one) and run Terraform commands.
 
 ## References
 
