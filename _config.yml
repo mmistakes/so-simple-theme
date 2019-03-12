@@ -1,40 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-# theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
+# Site wide configuration
+title: "Artineering"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+description: "Rendering, in  style!"
+copyright: © 2019 Artineering
+remote_theme: mmistakes/so-simple-theme
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+url: http://artineering.io
+logo: /images/logo.png
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
-mathjax: # MathJax equations, e.g. true
+read_time: true
+words_per_minute: 175
+mathjax: true
 google_fonts:
   - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+    weights: "400,400i,700"
+  - name: "Nanum Brush Script"
+    weights: "400"
+  - name: "Josefin Sans"
+    weights: "700"
+google_analytics: UA-76809364-1
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: artineering
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: notpainted
 
 # Liquid
 liquid:
@@ -47,33 +35,40 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /news/page:num/
 
 # Search
 search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+ - source
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title/
 
 # Front Matter Defaults
 defaults:
@@ -84,13 +79,21 @@ defaults:
     values:
       layout: post
       share: true
+  # projects defaults
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: page
+      comments: true
+      share: true
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
-  twitter:
+  name: Santiago Montesdeoca
+  picture: /images/2019/santy.jpg
+  email: santiago@artineering.io
+  twitter: notpainted
   links:
     - title:
       url:
@@ -98,6 +101,18 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/notpainted
+    icon: fab fa-twitter-square
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/santiagomontesdeoca/
+    icon: fab fa-linkedin
+  - title: Vimeo
+    url: https://vimeo.com/santiagomontesdeoca
+    icon: fab fa-vimeo-square
+  - title: Github
+    url: https://github.com/semontesdeoca/
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square

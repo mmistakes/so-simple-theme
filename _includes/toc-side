@@ -1,0 +1,8 @@
+{::options parse_block_html="true" /}
+<div id="entry-table-of-contents" class="toc-wrapper doc-toc-right">
+<a id="toc-toggle" class="no_toc">
+  {{ site.data.text[site.locale].table_of_contents | default: 'Table of Contents' }}</a><i class="toc-toggle-icon far fa-chevron-down left05"></i>
+1. toc
+{:toc}
+</div>
+{::options parse_block_html="false" /}

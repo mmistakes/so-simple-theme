@@ -10,7 +10,33 @@
       {% if entry.link %}
         <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a>
       {% else %}
-        <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
+        <a href="{{ entry.url | relative_url }}" rel="bookmark">
+          {% if entry.awards %}
+            <i class="fas fa-award"></i>
+          {% endif %}
+          {% if entry.type == 'Conference Proc.' %}
+            <i class="far fa-scroll right05"></i>
+          {% endif %}
+          {% if entry.type == 'Conference Talk' %}
+            <i class="far fa-presentation right05"></i>
+          {% endif %}
+          {% if entry.type == 'Journal' %}
+            <i class="far fa-book right05"></i>
+          {% endif %}
+          {% if entry.type == 'Blog' %}
+            <i class="far fa-edit right05"></i>
+          {% endif %}
+          {% if entry.type == 'Docs' %}
+            <i class="far fa-file-invoice right05"></i>
+          {% endif %}
+          {% if entry.type == 'Release' %}
+            <i class="far fa-box-heart right05"></i>
+          {% endif %}
+          {% if entry.type == 'Thesis' %}
+            <i class="far fa-graduation-cap"></i>
+          {% endif %}
+          {{ title }}
+        </a>
       {% endif %}
     </h3>
     {% if entry.image.thumbnail %}
@@ -19,7 +45,7 @@
         {% assign entry_image = entry_image | relative_url %}
       {% endunless %}
       {% assign entry_image = entry_image | escape %}
-      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+      <a href="{{ entry.url | relative_url }}"><img class="entry-image u-photo" src="{{ entry_image }}" alt=""></a>
     {% endif %}
   </header>
   {% unless page.show_excerpts == false %}
@@ -34,8 +60,10 @@
   {% endunless %}
   {% if site.read_time or entry.date and page.layout != 'collection' %}
     <footer class="entry-meta">
-      {% if site.read_time %}{% include read-time.html %}{% endif %}
       {% if entry.date %}{% include entry-date.html %}{% endif %}
+      {% if entry.layout != 'publication' %}
+        {% if site.read_time %}{% include read-time.html %}{% endif %}
+      {% endif %}
     </footer>
   {% endif %}
 </article>

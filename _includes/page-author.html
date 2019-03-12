@@ -8,7 +8,7 @@
     {%- else -%}
       {%- assign author_picture = author.picture | relative_url -%}
     {%- endif -%}
-    <img src="{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
+    <img src="/images/{{page.year}}{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
   {%- endif -%}
 
   <div class="author-info">
