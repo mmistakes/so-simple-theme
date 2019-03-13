@@ -9,7 +9,7 @@ image:
 schema: AboutPage
 ---
 
-I am Dr. **Santiago Montesdeoca**, a hybrid **artist/engineer/researcher** with profound interest and expertise in **non-photorealistic and expressive rendering** methodologies.
+I am **Santiago Montesdeoca** Ph.D. (Singapore), a hybrid **artist/engineer/researcher** with profound interest and expertise in **non-photorealistic and expressive rendering** methodologies.
 My recent **Ph.D.** [research](../research) has led me to publish **award-winning papers** in the field and to present my work at _SIGGRAPH_’s _Real-Time Live!_ and _Pixar Animation Studios_.
 
 My personal aim is to **empower artists** to fully express themselves **in any style** using **3D computer animation**. Therefore, I develop **customized technology**, optimized for **real-time art-direction** to alleviate animation workflows and **enable individual narratives** through **unique looks**.
