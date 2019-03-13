@@ -5,7 +5,6 @@ type: Docs
 excerpt: Customizing lighting in MNPRX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

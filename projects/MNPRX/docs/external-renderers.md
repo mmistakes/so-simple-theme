@@ -5,7 +5,6 @@ type: Docs
 excerpt: Combining MNPRX with external renders
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

@@ -77,4 +77,4 @@ illustrations, and interactive art._
 
 ## Downloads
 * [Publication](https://dl.acm.org/authorize?N658395)
-* Implementation (coming soon)
+* [Implementation](/projects/Maya-NPR/)

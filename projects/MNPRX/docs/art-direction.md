@@ -5,7 +5,6 @@ type: Docs
 excerpt: Art-directing the style within MNRPX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

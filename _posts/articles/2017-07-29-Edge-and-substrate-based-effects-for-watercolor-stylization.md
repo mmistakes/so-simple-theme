@@ -66,4 +66,4 @@ _We investigate characteristic edge- and substrate-based effects for watercolor 
 
 ## Downloads
 * [Paper](https://dl.acm.org/authorize?N658384)
-* [Implementation](../../projects/Maya-Watercolor/)
+* [Implementation](/projects/Maya-NPR/)

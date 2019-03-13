@@ -12,7 +12,6 @@ image:
   card: images/cards/MNPRX-Docs.jpg
   thumbnail:
 comments: true
-share: true
 schema: SoftwareApplication
 ---
 

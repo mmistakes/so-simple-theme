@@ -5,7 +5,6 @@ type: Docs
 excerpt: Documentation on updating MNPRX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 {% include toc-side %}

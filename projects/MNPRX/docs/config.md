@@ -5,7 +5,6 @@ type: Docs
 excerpt: Configuring the style within MNPRX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

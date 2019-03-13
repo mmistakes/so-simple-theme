@@ -92,6 +92,9 @@ h2 {
       border-bottom: none;
     }
   }
+  ul {
+    text-align: left;
+  }
 
   .entry-title {
     font-style: normal;
@@ -351,7 +354,6 @@ p .btn--aio {
   width: 100%;
   @include breakpoint($small) {
     margin: 50px auto 0;
-    width: 500px;
   }
   @include breakpoint($large) {
     margin-top: 1em;

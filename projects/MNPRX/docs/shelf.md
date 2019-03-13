@@ -5,7 +5,6 @@ type: Docs
 excerpt: Breakdown of the MNPRX shelf
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 {% include toc-side %}

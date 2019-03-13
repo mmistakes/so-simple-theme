@@ -5,7 +5,6 @@ type: Docs
 excerpt: Handy tools to work with MNPRX in production
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

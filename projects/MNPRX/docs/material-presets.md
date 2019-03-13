@@ -5,7 +5,6 @@ type: Docs
 excerpt: Loading and creating material presets in MNPRX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

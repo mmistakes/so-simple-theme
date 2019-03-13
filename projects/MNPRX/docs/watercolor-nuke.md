@@ -5,7 +5,6 @@ type: Docs
 excerpt: Loading the watercolor stylization in Nuke
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

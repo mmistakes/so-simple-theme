@@ -15,6 +15,6 @@ If you like what you find and are interested in working with me, make sure you [
 
 <!--data-tweet-limit="3"-->
 <div class="responsive-twitter">
-<a class="twitter-timeline" height="610" href="https://twitter.com/{{site.author.twitter}}" data-widget-id="722401536261763072">Latest from @{{ site.owner.twitter }}</a>
+<a class="twitter-timeline" height="600" href="https://twitter.com/{{site.author.twitter}}" data-widget-id="722401536261763072">Latest from @{{ site.owner.twitter }}</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>

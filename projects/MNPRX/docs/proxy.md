@@ -5,7 +5,6 @@ type: Docs
 excerpt: Breaking down the invisible geoproxy material
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

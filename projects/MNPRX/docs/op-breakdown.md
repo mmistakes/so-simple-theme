@@ -5,7 +5,6 @@ type: Docs
 excerpt: Breaking down the style operations
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

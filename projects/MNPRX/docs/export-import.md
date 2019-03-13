@@ -5,7 +5,6 @@ type: Docs
 excerpt: Exporting and Importing stylizations
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 

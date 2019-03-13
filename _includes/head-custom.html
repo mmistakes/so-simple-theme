@@ -1,5 +1,7 @@
 <!-- start custom head snippets -->
-
+{% if page.image.card %}<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ page.image.card }}">
+{% endif %}
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->

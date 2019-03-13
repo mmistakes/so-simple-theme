@@ -5,7 +5,6 @@ type: Docs
 excerpt: Documentation on installing MNPRX
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 
@@ -37,8 +36,8 @@ A video showing this installation process can be seen below:
 
 
 ## Example Scenes
-Example scenes can be found within the open-source [_MNPR_ release](TODO). _MNPR_ scenes need to be updated to work with MNPRX, as follows.
-1. Download the example scenes from [here](TODO)
+Example scenes can be found within the open-source [_MNPR_ release](/projects/Maya-NPR). _MNPR_ scenes need to be updated to work with MNPRX, as follows.
+1. Download the example scenes from [here](https://github.com/semontesdeoca/MNPR/releases/latest)
 1. Extract them in a desired folder
 1. Set your _Maya project_ to the folder where your example scenes are `Menu, File->Set Project`
 1. Open the desired test scene `Menu, File->Open`

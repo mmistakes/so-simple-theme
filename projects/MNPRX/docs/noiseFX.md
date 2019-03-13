@@ -5,7 +5,6 @@ type: Docs
 excerpt: Creating and customizing procedural effect parameters
 tags: [Docs, MNPRX]
 comments: true
-share: true
 schema:
 ---
 
