@@ -4,8 +4,7 @@ excerpt: "Stylized 3D rendering in real-time"
 search: true
 ---
 
-## Welcome
-I'm Dr. **Santiago Montesdeoca**, an artist/engineer/researcher specializing in **stylized rendering** of 3D objects and animation **in real-time**. You may find more [about me](/about) and my work throughout this website.
+I'm **Santiago Montesdeoca** Ph.D. (Singapore), an artist/engineer/researcher specializing in **stylized rendering** of 3D objects and animation **in real-time**. You may find more [about me](/about) and my work throughout this website.
 
 Any updates are documented within the [news](/news/) section, but make sure to follow me on twitter [@notpainted](twitter.com/notpainted) to keep in the loop of my latest developments.
 
