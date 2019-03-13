@@ -37,7 +37,7 @@ The stylization settings that can be exported/imported include:
 * Proxies (the geometry proxies, their material and painted parameters).
 {: .top-1}
 
-The tool is name-based, but supports the export/import between different namespaces. The stylization can also be imported on scenes where there were no prior MNPR materials, as long as names of the objects remain consistent.
+The tool is name-based, but supports the export/import between different namespaces. The stylization can also be imported on scenes where there were no prior MNPRX materials, as long as names of the objects remain consistent.
 
 **Viewport Rendering**
 * _New_ - Viewport Rendering now also matches the resolution gate, when in use.

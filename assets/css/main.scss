@@ -352,10 +352,11 @@ p .btn--aio {
    ========================================================================== */
 .responsive-twitter {
   width: 100%;
+  text-align: center;
   @include breakpoint($small) {
     margin: 50px auto 0;
   }
-  @include breakpoint($large) {
+  @include breakpoint($xlarge) {
     margin-top: 1em;
     width: 250px;
     z-index: 10;
