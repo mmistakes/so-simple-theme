@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Welcome
 excerpt: "Stylized 3D rendering in real-time"
 search: true
 ---
