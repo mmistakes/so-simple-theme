@@ -5,7 +5,7 @@ description: "Rendering, in  style!"
 copyright: © 2019 Artineering
 remote_theme: mmistakes/so-simple-theme
 baseurl: # the subpath of your site, e.g. "/blog"
-url: http://artineering.io
+url: https://artineering.io
 logo: /images/logo.png
 date_format: "%B %-d, %Y"
 read_time: true
