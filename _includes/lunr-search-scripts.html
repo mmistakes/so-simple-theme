@@ -90,10 +90,18 @@
         resultdiv.prepend('<p class="results__found">' + result.length + ' {{ site.data.text[site.locale].results_found | default: "Result(s) found" }}</p>');
         for (var item in result) {
           var ref = result[item].ref;
+          var icon = "";
+          if (store[ref].type == 'Conference Proc.') { icon = '<i class="far fa-scroll right05"></i>'; };
+          if (store[ref].type == 'Conference Talk') { icon = '<i class="far fa-presentation right05"></i>'; };
+          if (store[ref].type == 'Journal') { icon = '<i class="far fa-book right05"></i>'; };
+          if (store[ref].type == 'Blog') {icon = '<i class="far fa-edit right05"></i>'; };
+          if (store[ref].type == 'Docs') {icon = '<i class="far fa-file-invoice right05"></i>'; };
+          if (store[ref].type == 'Release') {icon = '<i class="far fa-box-heart right05"></i>'; };
+          if (store[ref].type == 'Thesis') {icon = '<i class="far fa-graduation-cap right05"></i>'; };
           var searchitem =
             '<article class="entry">' +
               '<h3 class="entry-title">' +
-                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+                '<a href="' + store[ref].url + '">' + icon + store[ref].title + '</a>' +
               '</h3>' +
               '<div class="entry-excerpt">' +
                 '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
