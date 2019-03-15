@@ -4,7 +4,7 @@ categories: docs
 title: MNPRX Documentation
 authors: santy
 type: Docs
-permalink: /projects/MNPRX/docs
+permalink: /projects/MNPRX/docs/
 excerpt: MNPRX Documentation, tutorials, FAQ, API
 tags: [Docs, NPR, Real-time, Maya, Software]
 image:
