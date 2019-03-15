@@ -7,7 +7,6 @@ tags: [Docs, MNPRX]
 comments: true
 schema:
 ---
-{% include toc-side %}
 
 <figure class="align-center top2">
 	<img src="/images/MNPRX/MNPRX-Shelf.png" alt="MNPRX shelf">
@@ -39,3 +38,5 @@ The lighting and testing tools allow you to easily create the supported lights w
 1. **rendr** - opens up the viewport renderer, which quickly allows to save screenshots or playblasts [[docs](../rendering#rendr)].
 1. **tSeq** - opens up the target sequence renderer, which allows to render all different passes for production [[docs](../rendering#tSeq)].
 1. **FEEDBACK** - opens the browser with the [MNPRX issues and feature requests](https://github.com/artineering-io/MNPRX/issues).
+
+{% include toc-side %}

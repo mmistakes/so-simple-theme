@@ -10,7 +10,10 @@ h2 {
   margin-top: 2em;
   margin-bottom: 0.5em;
 }
-
+h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
 
 // navigation
 .site-nav ul {
@@ -86,6 +89,7 @@ h2 {
 // page content
 .page-content {
   text-align: justify;
+  position: relative;
 
   header {
     a {
@@ -139,6 +143,10 @@ h2 {
     padding: 0 0.5em;
   }
 
+  // modify margin of article in list
+  .entries-list .entry {
+    margin-bottom: 0;
+  }
 }
 
 // images
@@ -266,19 +274,13 @@ p .btn--aio {
   color: #999;
 }
 .doc-toc-right {
-  @include breakpoint($small) {
-    margin-top: -1.7em;
-  }
-  @include breakpoint($medium) {
-    margin-top: -1.75em;
-  }
-  @include breakpoint($large) {
-    margin-top: -1.8em;
-  }
-  margin-top: -1.70em;
-  float: right;
+  position: absolute;
+  right: 0;
+  top: 0.6em;
+  display:block;
   border: none;
-  margin-top: 1em;
+  background-color: #FFF;
+  padding-left: 0.5em;
   P {
     margin-bottom: 0em;
   }
@@ -303,6 +305,25 @@ p .btn--aio {
         background-color: #FFF;
         color: #999;
         font-weight: 400;
+      }
+      // second header
+      ol {
+        list-style: none;
+        counter-reset: li;
+        margin-left: 0em;
+        font-size: 0.7em;
+        li {
+          counter-increment: li;
+          a {
+            font-size: 1.2em;
+            background-color: #FFF;
+            color: #999;
+            font-weight: 400;
+          }
+        }
+        li::before {
+          content: none;
+        }
       }
     }
     li::before {
@@ -346,7 +367,6 @@ p .btn--aio {
 .bottom-2 { margin-bottom: -2em; }
 
 
-
 /*
    Twitter feed alignment
    ========================================================================== */
@@ -356,11 +376,11 @@ p .btn--aio {
   @include breakpoint($small) {
     margin: 50px auto 0;
   }
-  @include breakpoint($xlarge) {
+  @include breakpoint($xxlarge) {
     margin-top: 1em;
     width: 250px;
     z-index: 10;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 0px;
   }

@@ -8,8 +8,6 @@ comments: true
 schema:
 ---
 
-{% include toc-side %}
-
 ## Requirements
 * Maya 2017, 2018, 2019
 * Windows 10, MacOS and Linux (CentOS)
@@ -94,3 +92,5 @@ MAYA_SCRIPT_PATH=#YOURMNPRXPATH#/scripts:
 XBMLANGPATH=#YOURMNPRXPATH#/icons%B:
 MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
 ```
+
+{% include toc-side %}

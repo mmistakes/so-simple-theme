@@ -3,11 +3,13 @@ layout: page
 categories: projects
 title: Get MNPRX
 excerpt: Get MNPRX for production
+permalink: /projects/MNPRX/get-it
 image:
   path: images/headers/MNPRX.jpg
   caption: Stylized rendering for Autodesk Maya
   card: images/cards/MNPRX.jpg
   thumbnail: images/tiles/MNPRX.png
+search: true
 schema: SoftwareSourceCode
 ---
 

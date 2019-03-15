@@ -7,8 +7,6 @@ tags: [Docs, MNPRX]
 comments: true
 schema:
 ---
-{% include toc-side %}
-
 _Stylization presets_ allow artists to easily switch between styles and stylization parameters within MNPRX. This tool can be opened by clicking on the `style` [shelf icon](../shelf), which opens the following window:
 {: .top2}
 
@@ -48,3 +46,5 @@ Presets can be deleted at any time.
 Each stylization preset is saved under `MNPRX/presets/styles` as a _\*.json_ and _\*.jpg_ file. Each individual installation will have their own presets, but these can also be shared if MNPRX is stored in a network folder.
 
 If you or someone else adds/deletes/modifies presets within the presets folder, you will need to refresh the _Stylization presets_ window for it to grab the changes made: click on the `Refresh` button at the bottom.
+
+{% include toc-side %}

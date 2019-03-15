@@ -90,7 +90,7 @@ The tool is name-based, but supports the export/import between different namespa
 
 **MNPR Material**
 * _New_ - Art-directable shading has been added to the _mnpr_uber_ material. Artists can now control light directly on the object through _lightmaps_, _paintFX_ or _noiseFX_.
-Lightmaps within the material can be activated on demand in the _Settings_ of the material itself. Art-directable shading is found by default within the _paintFX_ and _noiseFX_ tools. Art-directed shading is strongly dependent on the _Diffuse Factor_ attribute. Therefore, an additional _Shade_ attribute has been added to the material to separately control the lighting contribution from lights. It is highly encouraged to read the [documentation](./docs/lightmaps) to fully understand how art-directable shading can be effectively used.
+Lightmaps within the material can be activated on demand in the _Settings_ of the material itself. Art-directable shading is found by default within the _paintFX_ and _noiseFX_ tools. Art-directed shading is strongly dependent on the _Diffuse Factor_ attribute. Therefore, an additional _Shade_ attribute has been added to the material to separately control the lighting contribution from lights. It is highly encouraged to read the [documentation](./docs/lighting#lightmaps) to fully understand how art-directable shading can be effectively used.
 * _Fixed_ - Issue with depth in semi-transparent objects not rendering and certain depth-dependent stylization effects now working properly.
 {: .top-1}
 
