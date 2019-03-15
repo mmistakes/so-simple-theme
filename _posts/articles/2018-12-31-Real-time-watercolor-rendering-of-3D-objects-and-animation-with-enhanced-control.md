@@ -49,7 +49,7 @@ _Towards these goals, the field of expressive, non-photorealistic rendering is i
 </div>
 
 
-## Oral Defense
+## Oral Defense presentation
 {% include responsive-embed url="https://onedrive.live.com/embed?cid=6153473DF4F5F5B6&resid=6153473DF4F5F5B6%21256797&authkey=ANJ9K4ZPDdA90Dk&em=2" ratio="16:9" %}
 
 
