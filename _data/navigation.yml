@@ -1,5 +1,8 @@
 # Site navigation links
 
+- title: MNPRX
+  url: /projects/MNPRX
+
 - title: News
   url: /news/
 
@@ -14,9 +17,6 @@
 
 - title: Projects
   url: /projects/
-
-- title: MNPRX
-  url: /projects/MNPRX
 
 - title: Search
   url: /search/

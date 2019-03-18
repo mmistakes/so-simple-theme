@@ -49,8 +49,11 @@ If your character is supposed to be one meter high in his world, but is actually
 
 ### Velocity PV
 Enables the calculation of motion vectors of each object in the scene (per vertex). This helps certain effects to remain motion coherent and avoid the _shower door effect_, albeit with a substantial performance cost. Therefore, this attribute should be activated mainly when rendering the final frames.
-<figure class="align-center">
-	<img src="/images/MNPRX/motion-coherence.gif" alt="Visualization of motion coherence" >
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/motion-coherence.mp4" type="video/mp4">
+	</video>
 	<figcaption>Visualization of motion coherence.</figcaption>
 </figure>
 
