@@ -32,7 +32,7 @@ Exporting the stylization is quite intuitive:
 1. Click on the `Export` button
 1. Navigate to the directory where you want to save the stylization into and `Save`.
 
-The _Style_, _Materials_ and _PaintFX_ are saved as a _*.json_ file, whereas the _Proxies_ (if they exist) will be saved as an _*.fbx_ file. These two files should always be in the same directory (folder) for them to be imported back successfully.
+The _Style_, _Materials_ and _PaintFX_ are saved as a _*.json_ file, whereas the _Proxies_ (if they exist) will be saved as an _*.fbx_ file. These two files should always be in the same directory (folder) to be imported back successfully.
 
 You only need to export the _Style_ to transfer the stylization to [Nuke](../watercolor-nuke).
 {: .notice--info}
@@ -42,7 +42,7 @@ You only need to export the _Style_ to transfer the stylization to [Nuke](../wat
 Importing the stylization should always work, as long as the naming of objects is consistent.
 1. Check/uncheck the different options that you wish to import
 1. Click on the `Import` button
-1. Navigate to the directory where you saved the stylization, selecte the _*.json_ file and `Open`.
+1. Navigate to the directory where you saved the stylization, select the _*.json_ file and `Open`.
 
 The stylization can also be imported on scenes where there are no prior MNPRX materials, as long as names of the mesh objects remain consistent.
 {: .notice--info}
