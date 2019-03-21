@@ -32,7 +32,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 {: .left1}
 ### [Configuration](config)
 {: .left1}
-### [Export/Import](export-import)
+### [Import/Export](import-export)
 {: .left1}
 
 
@@ -79,3 +79,4 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 
 I would be happy to include further documentation in this website, so do not hesitate to [contact me](/about) if you wish to have further clarification on certain features.
+{: .top2}

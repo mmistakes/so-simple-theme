@@ -8,19 +8,44 @@ comments: true
 schema:
 ---
 
-
-P.S. Coming soon...
+_Material presets_ allow artists to easily switch between styles and stylization parameters within MNPRX. This tool can be opened by clicking on the `style` [shelf icon](../shelf), which opens the following window:
 {: .top2}
 
+<figure class="align-center">
+	<img src="/images/MNPRX/style.png" alt="Stylization presets window" style="max-width: 350px">
+	<figcaption>The Stylization presets window will look similar to this, depending on which presets you have available.</figcaption>
+</figure>
 
-<!--
-**Creating and manipulating the object-space shaders**
-<figure class="single">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I44vHdyVyDM" frameborder="0" allowfullscreen></iframe>
-</figure><br>
+A stylization preset contains all the available attributes found in the [style configuration node](../config)(the node that gets selected when you press the `conf` [shelf icon](../shelf)), together with a small thumbnail of the current view.
 
 
-## FAQ
-_**I prep my objects, but they come out white, what can I do?**_<br>
-This issue happens when the dimensions of the scene are too big, and the atmosphere color fully kicks in (which by default is white). It will be fixed in future versions, but you can change the atmosphere limits in your `Object-space shader -> Additional Object-Space Effects -> Atmosphere Start/End_`. If you set the atmosphere _start_ higher than the _end_, no atmosphere color should affect the shader.
--->
+## Saving presets
+You can save as many presets as you want and these can be created at the top of the _Stylization presets_ window.
+1. Name the current preset as desired in the highlighted text field
+2. Click on the `Save` button on the top right
+3. A new preset will appear in the list with all attributes found in the [style configuration node](../config).
+
+When you save a preset with the same name as an existing one, the previously existing preset will be overwritten.
+{: .notice--warning}
+
+
+## Loading presets
+Presets can be loaded into the current scene at any time.
+1. Select the preset that you would like to load
+2. Click on the `Load` button at the bottom left
+
+
+## Deleting presets
+Presets can be deleted at any time.
+1. Select the preset that you would like to delete
+2. Click on the `Delete` button at the bottom right
+
+ A deleted preset cannot be recovered by undoing changes.
+ {: .notice--warning}
+
+## Refreshing presets
+Each stylization preset is saved under `MNPRX/presets/styles` as a _\*.json_ and _\*.jpg_ file. Each individual installation will have their own presets, but these can also be shared if MNPRX is stored in a network folder.
+
+If you or someone else adds/deletes/modifies presets within the presets folder, you will need to refresh the _Stylization presets_ window for it to grab the changes made: click on the `Refresh` button at the bottom.
+
+{% include toc-side %}
