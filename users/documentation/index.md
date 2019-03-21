@@ -22,7 +22,7 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan User's Guide](/docs/2_18/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/users-guide-2.18.0.pdf)
+* [Stan User's Guide 2.18 pdf](/docs/2_18/stan-users-guide-2_18.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -36,7 +36,7 @@ This manual applies to all Stan interfaces.
 <span class="note">&nbsp; &nbsp; (html)</span>
 
  
-* [Stan Language Reference Manual 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/reference-manual-2.18.0.pdf)
+* [Stan Language Reference Manual 2.18 pdf](/docs/2_18/reference-manual-2_18.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
@@ -53,7 +53,7 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan Language Functions Reference 2.18](/docs/2_18/functions-reference/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan Language Functions Reference 2.18 pdf](https://github.com/stan-dev/stan/releases/download/v2.18.0/functions-reference-2.18.0.pdf)
+* [Stan Language Functions Reference 2.18 pdf](/docs/2_18/functions-reference-2_18.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
