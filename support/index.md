@@ -21,9 +21,9 @@ foundation. If you’re interested in contributing to Stan's ongoing
 development, you may contact us directly or just follow the link:&nbsp;
 
 * <p>
-  <a href="https://www.flipcause.com/widget/give_now/NTU3Ng==">Contribute
+  <a href="https://numfocus.salsalabs.org/donate-to-stan/index.html">Contribute
   to Stan</a> &nbsp;
-  <span class="note">(FlipCause payment processing)</span>
+  <span class="note">(Salsa Labs payment processing)</span>
   </p>
 
 ## Why Support Stan?
