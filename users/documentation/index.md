@@ -16,13 +16,13 @@ The Stan user's guide provides example models and programming
 techniques for coding statistical models in Stan.
 It also serves as an example-driven introduction to Bayesian modeling
 and inference.
-For version 2.18, this is titled _Stan User's Guide_.
+For versions 2.18 and later, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan User's Guide](/docs/2_18/stan-users-guide/index.html)
+* [Stan User's Guide 2.19](/docs/2_19/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.18 pdf](/docs/2_18/stan-users-guide-2_18.pdf)
+* [Stan User's Guide 2.19 pdf](/docs/2_19/stan-users-guide-2_19.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -32,17 +32,12 @@ inference algorithms for fitting models and making predictions,
 and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
-* [Stan Language Reference Manual 2.18](/docs/2_18/reference-manual/index.html)
+* [Stan Language Reference Manual 2.19](/docs/2_19/reference-manual/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
  
-* [Stan Language Reference Manual 2.18 pdf](/docs/2_18/reference-manual-2_18.pdf)
+* [Stan Language Reference Manual 2.19 pdf](/docs/2_19/reference-manual-2_19.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
-
-* [Stan Reference Manual 2.17 pdf](https://github.com/stan-dev/stan/releases/download/v2.17.1/stan-reference-2.17.1.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-<br>combines the _Stan Language Reference Manual_, _Stan Language Functions Reference_, and the _Stan User's Guide_.
 
 # Stan Language Functions Reference
 
@@ -50,10 +45,10 @@ The reference for the functions defined in the Stan math
 library and available in the Stan programming language.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan Language Functions Reference 2.18](/docs/2_18/functions-reference/index.html)
+* [Stan Language Functions Reference 2.19](/docs/2_19/functions-reference/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan Language Functions Reference 2.18 pdf](/docs/2_18/functions-reference-2_18.pdf)
+* [Stan Language Functions Reference 2.19 pdf](/docs/2_19/functions-reference-2_19.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
