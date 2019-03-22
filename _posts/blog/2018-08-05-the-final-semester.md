@@ -97,7 +97,7 @@ I took a few days off to recover, but I came back to the lab revitalised with on
 I did not just work during this period though, I went on a dude's trip with Amir and a friend of ours from MAGIC, Vinayak Teoh. We took a plane to Kuala Lumpur, Malaysia, and then made a road trip all the way to Sungai Lembing. It was awesome to be on the road again, it must have been years since I was in a car at high speed with loud music and good company. Sungai Lembing is a small town on the east coast of Malaysia with an amazing Ramly Burger (the one's from the shady corner) and a lot of charm. It's also quite close to a beautiful beach in Teluk Cempedak, were we had to take a mandatory bad dudes picture ;).
 
 <!-- PHOTOS OF SINGAPORE WITH AMIR -->
-<figure class="pull-center">
+<figure class="pull-center half">
   <a href="/images/2018/malaysia2.jpg"><img src="/images/2018/malaysia2_low.jpg" alt="image"></a>
 	<a href="/images/2018/malaysia1.jpg"><img src="/images/2018/malaysia1_low.jpg" alt="image"></a>
   <figcaption>Memories of Teluk Cempedak</figcaption>
