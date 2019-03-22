@@ -118,7 +118,7 @@ img {
   }
   .subtitle {
     font-size: 0.8em;
-    margin-top: -1.5em;
+    margin-top: -1.3em;
     margin-bottom: 0.5em;
     font-style: italic;
     color: #999;
@@ -280,7 +280,10 @@ p .btn--aio {
   width: 240px;
   max-width: 100%;
   margin-right: 1em;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
+  h3 {
+    margin-left: 1em;
+  }
 }
 
 // Doc navigation
