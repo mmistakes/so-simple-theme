@@ -40,27 +40,52 @@ Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologie
 ##### Remedy Point Solutions, Inc. #####
 director of engineering \| *September 2017 ... present*
 
+* Software architecture;
+* Development automatization;
+* Onboarding team members;
+* Lead development;
+* Building application's infrastructure;
+
 ##### OnePlayce, LLC #####
-lead developer \| *June 2016 ... present*
+lead developer \| *June 2015 ... February 2018*
+
+* Developed application's API system with YII framework and mobile application using Ionic;
+* Migrated mobile application from Ionic to ReactNative core;
+* Developed first time-based iteration of Post for Effect™ algorithm;
+* Leaded small team development proccess;
 
 ##### Remedy Point Solutions, Inc. #####
 lead developer \| *April 2016 ... September 2017*
 
+* Developed internal project with mobile application using Ionic and RestAPI on Slim framework;
+
 ##### Remedy Point Solutions, Inc. #####
 php developer \| *September 2014 ... April 2016*
 
+* Supported internal CRM system;
+* Developer a number of new features and extensions;
+* Extended Shopify integration;
+
 ##### Kreativ-Laboratory 82 #####
-full-stack web-developer \| *May 2013 ... May 2014*
+full-stack web-developer \| *February 2014 ... July 2014*
+
+* Migrated developed websites to updated CMS;
 
 ##### ActSystem #####
-full-stack web-developer \| *May 2013 ... May 2014*
+full-stack web-developer \| *May 2013 ... January 2014*
+
+* Developed a number of small and medium size corporate websites and a number of API systems for mobile application;
+* Built custom boxed CMS solution for corporate website easy to deploy and manage;
 
 ##### Kreativ-Laboratory 82 #####
 full-stack web-developer \| *February 2011 ... March 2013*
+
+* Developed a number of small and medium size corporate websites using different CMS;
+* Extended existing custom corporate CMS solution;
 
 ---
 
 ## Education <span>🎓</span> ##
 
 #### Belarusian State University of Informatics and Radioelectronics ####
-Bachelor's degree, Computer Software Engineering \| *2009 .. 2014*
+Bachelor's degree, Computer Software Engineering \| *2009 ... 2014*
