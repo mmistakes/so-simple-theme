@@ -8,7 +8,14 @@ image:
   feature: about-featured-image.png
 ---
 
-Hi, I'm Sergey and I'm a web-developer. I am really in love with web technologies and services.
+Hi, I’m Sergey and I’m a web-developer. I am really in love with web technologies and services.
+
+Primary language is PHP but also I have well experience with JavaScript using libraries React, ReactNative. I have developed server applications using frameworks such as Laravel, Yii2, Slim. Also I have developed websites using differenct CMS such as [WordPress](/tags/#wordpress), MODx, Drupal but most of all I love [WordPress](/tags/#wordpress).
+
+Another passion is development and deployment automatization. I have deployed a number of applications from scratch on DigitalOcean and AWS infrastructures.
+I work with [Terraform](/tags/#terraform) to automate and to speed up any kind of service deployment. I use Fastlane to automate mobile builds and to deliver staging versions.
+
+I love [Docker](/tags/#docker), just love. If there any chance to apply it to help with software deployments, and code delivery - I do it.
 
 ---
 
