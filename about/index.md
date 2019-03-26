@@ -54,12 +54,12 @@ director of engineering \| *September 2017 ... present*
 * Building application's infrastructure;
 
 ##### OnePlayce, LLC #####
-lead developer \| *June 2015 ... February 2018*
+lead developer \| *June 2015 ... February 2019*
 
 * Developed application's API system with YII framework and mobile application using Ionic;
 * Migrated mobile application from Ionic to ReactNative core;
 * Developed first time-based iteration of Post for Effect™ algorithm;
-* Leaded small team development proccess;
+* Leaded small team development process;
 
 ##### Remedy Point Solutions, Inc. #####
 lead developer \| *April 2016 ... September 2017*
@@ -74,18 +74,18 @@ php developer \| *September 2014 ... April 2016*
 * Extended Shopify integration;
 
 ##### Kreativ-Laboratory 82 #####
-full-stack web-developer \| *February 2014 ... July 2014*
+full-stack developer \| *February 2014 ... July 2014*
 
 * Migrated developed websites to updated CMS;
 
 ##### ActSystem #####
-full-stack web-developer \| *May 2013 ... January 2014*
+full-stack developer \| *May 2013 ... January 2014*
 
 * Developed a number of small and medium size corporate websites and a number of API systems for mobile application;
 * Built custom boxed CMS solution for corporate website easy to deploy and manage;
 
 ##### Kreativ-Laboratory 82 #####
-full-stack web-developer \| *February 2011 ... March 2013*
+full-stack developer \| *February 2011 ... March 2013*
 
 * Developed a number of small and medium size corporate websites using different CMS;
 * Extended existing custom corporate CMS solution;
