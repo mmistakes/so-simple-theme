@@ -23,12 +23,12 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK</li>
 
-<li> We are soliciting submissions of varying forms. Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:</li>
+<li> We are soliciting submissions of varying forms. Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
 <ul>
 <li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10. 
 <li>15 minute prestentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li>
 <li> Posters are due by August 15. </li>
-</ul>
+</ul></li>
 
 <li> We are offering scholarships (May 1, 2019 deadline). Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA)</li>
 
@@ -43,6 +43,7 @@ University of Cambridge
 16 min
 walk to West Road Concert Hall
 </ul>
+</li>
 
 </ul>
 
