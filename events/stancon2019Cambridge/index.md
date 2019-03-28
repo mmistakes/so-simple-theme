@@ -19,11 +19,15 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 <li>Conference: August 22-23, 2019</li>
 
 <li> Conference Dinner: August 22, 2019</li>
+<img src="img/hall-dining-big.jpg">
 
 </ul>
 <h3> Location</h3>
 
-West Road Concert Hall
+Tutorials: King's College and Caius
+College.
+
+Conference: West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
@@ -45,7 +49,7 @@ Registration is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuX
 <h3>Lodging</h3>
 We have several options: 
 
-* [Kings College Housing](http://www.kings.cam.ac.uk/conference-dining/accommodation.html). Reference code is STANCONAUG2019. At £120 (single occupancy) and £180 (double occupancy) per night. 
+* [Kings College Housing](http://www.kings.cam.ac.uk/conference-dining/accommodation.html). Reference code is STANCONAUG2019. At £120 (single occupancy) and £180 (double occupancy) per night. Includes breakfast and is the venue closest to tutorials/conference. More information [here](http://www.kings.cam.ac.uk/sites/default/files/conference_and_dining/kings_college_accommodation_2017.pdf).
 
 * [Hilton Cambridge City Centre](https://www3.hilton.com/en/hotels/united-kingdom/hilton-cambridge-city-centre-STNHCHI/index.html) (4-star hotel)
 20 Downing St, Cambridge CB2 3DT, 01223 464491. A 5 min walk to King's College 16 min walk to West Road Concert Hall.
