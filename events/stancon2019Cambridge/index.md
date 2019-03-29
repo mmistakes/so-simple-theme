@@ -42,6 +42,10 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 
 <h3> Scholarships</h3>
  Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
+ 
+<h3>Sponsorships</h3>
+ 
+We have bronze, silver, gold and platinum level sponsorships. Funds will go to scholarships and supporting Stan. The registration payment page has details or contact stanConCambridge@mc-stan.org for other arrangements.
 
 <h3>Registration</h3>
 Registration is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link) Pricing is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Prices go up 50% May 15, 2019.
@@ -79,4 +83,6 @@ A 25 min walk to King's College (about 8 min by taxi)
 97 Tenison Road, CB1 2DN, 03453 719728. A 25 min walk to King's College (about 8 min by taxi), 35 min walk to West Road Concert Hall (about 9 min by taxi)
 
 
+<h3>Contact Us</h3>
 
+Email stanConCambridge@mc-stan.org
