@@ -351,6 +351,15 @@ on this diagnostic, see https://arxiv.org/abs/1604.00695.
 * You might try setting a higher value for the `iter` and / or `warmup` arguments.
   By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
+### Bulk Rhat
+
+### Tail Rhat
+
+### Bulk ESS
+
+### Tail ESS
+
+
 ## Getting help
 
 Te best place to get help from Stan developers and users if you have
