@@ -351,14 +351,79 @@ on this diagnostic, see https://arxiv.org/abs/1604.00695.
 * You might try setting a higher value for the `iter` and / or `warmup` arguments.
   By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
-### Bulk Rhat
+### R-hat
 
-### Tail Rhat
+R-hat convergence diagnostic compares the between- and within-chain
+estimates for model parameters and other univariate quantities of
+interest. If chains have not mixed well (ie, the between- and
+within-chain estimates don't agree), R-hat is larger than 1. We
+recommend running at least four chains by default and only using the
+sample if R-hat is less than 1.01. Stan reports R-hat which is the
+maximum of rank normalized split-R-hat and rank normalized
+folded-split-R-hat, which works for thick tailed distributions and is
+sensitive also to differences in scale. For more details on this
+diagnostic, see https://arxiv.org/abs/1903.08008.
+
+**Recommendations:**
+* Look at Bulk- and Tail-ESS for further information.
+* Look at the `rank` plot to see how the chains differ from each other.
+* Look at the local and quantile efficiency plots.
+* You might try setting a higher value for the `iter` argument.
+  By default `iter` is $2000$. 
 
 ### Bulk ESS
 
+Roughly speaking, the effective sample size (ESS) of a quantity of
+interest captures how many independent draws contain the same amount
+of information as the dependent sample obtained by the MCMC
+algorithm. Clearly, the higher the ESS the better.  Stan uses R-hat
+adjustment to use the between-chain information in computing the
+ESS. For example, in case of multimodal distributions with
+well-separated modes, this leads to an ESS estimate that is close to
+the number of distinct modes that are found.
+
+Bulk-ESS refers to the effective sample size based on the rank
+normalized draws. This does not directly compute the ESS relevant for
+computing the mean of the parameter, but instead computes a quantity
+that is well defined even if the chains do not have finite mean or
+variance. Overall Bulk-ESS sampling efficiency for the location of the
+distribution (e.g. mean and median).
+
+Often quite smaller ESS would be sufficient for the desired estimation
+accuracy, but the estimation of ESS and convergence diagnostics
+themselves require higher ESS.  We recommend requiring that the
+bulk-ESS is greater than 100 times the number of chains. For example,
+when running four chains, this corresponds to having a rank-normalized
+effective sample size of at least 400.
+
+**Recommendations:**
+* You might try setting a higher value for the `iter` argument.
+  By default `iter` is $2000$.
+* Look at the `rank` plot to see how the chains differ from each other.
+* Look at the local and quantile efficiency plots.
+* Look at change in bulk-ESS when the number of iterations
+  increase. If R-hat is less than 1.01 and bulk-ESS grows linearly
+  with the number of iterations and eventually exceeds the recommended
+  limit, the mixing is sufficient but MCMC has high autocorrelation
+  requiring a large number of iterations
+
 ### Tail ESS
 
+Tail-ESS computes the minimum of the effective sample sizes (ESS) of
+the 5% and 95% quantiles. Tail-ESS can help diagnosing problems due
+to different scales of the chains and slow mixing in the tails. See
+also general information about ESS above in description of bulk-ESS.
+
+**Recommendations:**
+* You might try setting a higher value for the `iter` argument.
+  By default `iter` is $2000$.
+* Look at the `rank` plot to see how the chains differ from each other.
+* Look at the local and quantile efficiency plots.
+* Look at change in tail-ESS when the number of iterations
+  increase. If R-hat is less than 1.01 and tail-ESS grows linearly
+  with the number of iterations and eventually exceeds the recommended
+  limit, the mixing is sufficient but MCMC has high autocorrelation
+  requiring a large number of iterations
 
 ## Getting help
 
