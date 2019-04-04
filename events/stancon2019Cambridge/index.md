@@ -35,9 +35,21 @@ University of Cambridge
 Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
 <ul>
 <li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> 
-<li>15 minute prestentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li>
+<li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li>
 <li> Posters are due by August 15. </li>
 </ul>
+
+<h3>Tutorials</h3>
+We are still accepting tutorial submissions (April 15) but we have a few that are confident will be happening if there is interest. 
+<ul>
+<li>Introduction to Stan for the Statistically Literate. Full two days of instruction using R as the interface language. Instructor Jonah Sol Gabry.</li>
+<li>Introduction to Stan for Programmers. Python based introduction to both Stan and statistics. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling. 2 days. Instructors Jonathan Auerbach, Breck Baldwin. </li>
+<li>Hierarchal Modeling with Stan. 1 day. Instructor Ben Goodrich. </li>
+<li>Pharmacometrics Modeling. This tutorial will cover common models for pharmacometrics. Two formats are offered, 1 day and 2 day. Depending on popularity we will select one or the other as determined by interest on registration. Charles Margossian, Yi Zhang</li>
+
+</ul>
+
+More tutorials will be announced as they come in. 
 
 
 <h3> Scholarships</h3>
