@@ -43,7 +43,7 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 We are still accepting tutorial submissions (April 15) but we have a few that are confident will be happening if there is interest. 
 <ul>
 <li>Introduction to Stan for the Statistically Literate. Full two days of instruction using R as the interface language. Instructor Jonah Sol Gabry.</li>
-<li>Introduction to Stan for Programmers. Python based introduction to both Stan and statistics. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling. 2 days. Instructors Jonathan Auerbach, Breck Baldwin. </li>
+<!--<li>Introduction to Stan for Programmers. Python based introduction to both Stan and statistics. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling. 2 days. Instructors Jonathan Auerbach, Breck Baldwin. </li>-->
 <li>Hierarchal Modeling with Stan. 1 day. Instructor Ben Goodrich. </li>
 <li>Pharmacometrics Modeling. This tutorial will cover common models for pharmacometrics. Two formats are offered, 1 day and 2 day. Depending on popularity we will select one or the other as determined by interest on registration. Charles Margossian, Yi Zhang</li>
 
