@@ -386,8 +386,8 @@ Bulk-ESS refers to the effective sample size based on the rank
 normalized draws. This does not directly compute the ESS relevant for
 computing the mean of the parameter, but instead computes a quantity
 that is well defined even if the chains do not have finite mean or
-variance. Overall Bulk-ESS sampling efficiency for the location of the
-distribution (e.g. mean and median).
+variance. Overall bulk-ESS estimates rhe sampling efficiency for the
+location of the distribution (e.g. mean and median).
 
 Often quite smaller ESS would be sufficient for the desired estimation
 accuracy, but the estimation of ESS and convergence diagnostics
