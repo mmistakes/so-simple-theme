@@ -11,6 +11,12 @@
     {%- assign ratio_class = 'responsive-embed-16by9' -%}
 {%- endcase -%}
 
-<div class="responsive-embed {{ ratio_class }}">
+{%- if include.width -%}
+  {%- assign width = include.width -%}
+{%- else -%}
+  {%- assign width = '100%' -%}
+{%- endif -%}
+
+<div class="responsive-embed {{ ratio_class }}" style="width:{{ width }};margin-right:auto;margin-left:auto;">
   <iframe src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
 </div>

@@ -16,6 +16,7 @@ h3 {
 }
 video {
   max-width: 100%;
+  margin: 0 0.5em;
 }
 img {
   max-width: 100%;
@@ -277,12 +278,12 @@ p .btn--aio {
 // Documentation
 .doc-element {
   display: inline-block;
-  width: 240px;
+  width: 250px;
   max-width: 100%;
   margin-right: 1em;
   margin-bottom: 2em;
   h3 {
-    margin-left: 1em;
+    margin-left: 0.5em;
   }
 }
 

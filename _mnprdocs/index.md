@@ -22,47 +22,47 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ## Basics
 ### [Installation](installation)
 ### [Updating MNPRX](update)
-### [MNPRX Shelf](shelf)
+### [MNPRX Shelf](shelf) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Styles
-### [Presets](style-presets)
-### [Configuration](config)
-### [Import/Export](import-export)
+### [Presets](style-presets) {% include aio-new.html %}
+### [Configuration](config) {% include aio-new.html %}
+### [Import/Export](import-export) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Materials
-### [Presets](material-presets)
-### [Uber Material](uber)
-### [Proxies](proxy)
+### [Presets](material-presets) {% include aio-new.html %}
+### [Uber Material](uber) {% include aio-new.html %}
+### [Proxies](proxy) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [Basics](art-direction)
-### [NoiseFX](noiseFX)
-### [PaintFX](paintFX)
+### [Basics](art-direction) {% include aio-wip.html %}
+### [NoiseFX](noiseFX) {% include aio-wip.html %}
+### [PaintFX](paintFX) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Rendering
-### [Rendering](rendering)
-### [External Renderer](external-renderers)
-### [MNPRX Toolbox](toolbox)
+### [Rendering](rendering) {% include aio-wip.html %}
+### [External Renderer](external-renderers) {% include aio-wip.html %}
+### [MNPRX Toolbox](toolbox) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Effects
-### [Lighting-based](lighting)
-### [Substrate-based](substrate)
-### [Watercolor](watercolor)
+### [Lighting-based](lighting) {% include aio-wip.html %}
+### [Substrate-based](substrate) {% include aio-wip.html %}
+### [Watercolor](watercolor) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Integrations
-### [Watercolor in Nuke](watercolor-nuke)
+### [Watercolor in Nuke](watercolor-nuke) {% include aio-wip.html %}
 </div>
 
 

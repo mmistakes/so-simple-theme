@@ -19,15 +19,46 @@ schema:
 </figure>
 
 ---
+[//]: # ## MAY 2019 UPDATE
+
+[//]: # * _New_ - Render using the _Render View_ window.
+
+## APRIL 2019 UPDATE
+
+### MNPRX
+{: .bottom05}
+
+**MNPR Material**
+* _Improved_ - Streamlined _mnpr_uber_ material with [documentation](/projects/MNPRX/docs/uber).
+* _Improved_ - Streamlined _mnpr_geoproxy_ material with [documentation](/projects/MNPRX/docs/proxy).
+{: .top-1}
+
+**MNPRX Shelf**
+* _Improved_ - Streamlined _MNPRX_ shelf with [documentation](/projects/MNPRX/docs/shelf).
+* _New_ - [MNPRX documentation](/projects/MNPRX/docs) added under the _MNPRX_ shelf icon.
+* _New_ - [MNPRX issue/feedback tracker](https://github.com/artineering-io/MNPRX/issues) added under the _FEEDBACK_ shelf icon.
+{: .top-1}
+
+**Viewport Rendering**
+* _Fixed_ - Playblasts using the _rendr_ tool come out with proper color correction again with _Maya_ 2018.3, onwards (fix of MAYA-88922 bug caused a double color correction).
+{: .top-1}
+
+**Documentation**
+* _New_ - Thorough documentation on Basics: [Installation](/projects/MNPRX/docs/installation), [Updating MNPRX](/projects/MNPRX/docs/update), [MNPRX Shelf](/projects/MNPRX/docs/shelf).
+* _New_ - Thorough documentation on Styles: [Presets](/projects/MNPRX/docs/style-presets), [Configuration](/projects/MNPRX/docs/conf), [Import/Export](/projects/MNPRX/docs/import-export).
+* _New_ - Thorough documentation on Materials: [Presets](/projects/MNPRX/docs/material-presets), [Uber Material](/projects/MNPRX/docs/uber), [Proxies](/projects/MNPRX/docs/proxy).
+{: .top-1}
+
+---
 
 ## MARCH 2019 UPDATE
 
 ### MNPRX
 {: .bottom05}
 
-[**Stylization export/import tool**](./docs/export-import)
+[**Stylization Import/Export tool**](./docs/import-export)
 
-New tool that allows the artist to export/import the stylization of either the selected objects or of the entire scene.
+New tool that allows the artist to Import/Export the stylization of either the selected objects or of the entire scene.
 The stylization settings that can be exported/imported include:
 {: .top-1}
 
@@ -37,7 +68,7 @@ The stylization settings that can be exported/imported include:
 * Proxies (the geometry proxies, their material and painted parameters).
 {: .top-1}
 
-The tool is name-based, but supports the export/import between different namespaces. The stylization can also be imported on scenes where there were no prior MNPRX materials, as long as names of the objects remain consistent.
+The tool is name-based, but supports the Import/Export between different namespaces. The stylization can also be imported on scenes where there were no prior MNPRX materials, as long as names of the objects remain consistent.
 
 **Viewport Rendering**
 * _New_ - Viewport Rendering now also matches the resolution gate, when in use.

@@ -30,7 +30,7 @@ The installation of MNPRX is intended to be the least invasive, so you won't nee
 1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button
 
 A video showing this installation process can be seen below:
-{% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" %}
+{% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" width="90%" %}
 
 
 ## Example Scenes

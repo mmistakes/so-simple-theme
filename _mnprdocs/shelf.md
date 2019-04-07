@@ -27,7 +27,7 @@ The art-direction tools can be found in the left side of the shelf, ordered from
 
 
 ## Lighting/Testing
-The lighting and testing tools allow you to easily create the supported lights within MNPRX and to troubleshoot if things are not looking quite right.
+The lighting and testing tools allow to easily create the supported lights within MNPRX and to troubleshoot if things are not looking quite right.
 1. **Supported lights** - shelf icons for the three different supported lights: ambient, directional and spot light.
 1. **pass** - opens the _Operations breakdown_ window, which lets you toggle on/off each stylization pass and troubleshoot the inner workings of the stylization itself [[docs](../op-breakdown)].
 1. **test** - creates a simple default test scene with default lighting.

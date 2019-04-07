@@ -24,3 +24,8 @@ If you'd like to keep the old version or start fresh, unzip all files and instal
 ## Updating materials
 {: #materials}
 Some updates require you to update the existing _ShaderFX_ materials in the scene to take advantage of new features. This is done in the _MNPRX shelf_, by right clicking on the _mPre_ tool -> _Update ShaderFX materials_.
+
+<figure class="pull-center">
+	<img src="/images/MNPRX/update-shaderfx.png" alt="Updating ShaderFX materials" style="width: 350px">
+	<figcaption>Right click on the mPre tool -> Update ShaderFX materials.</figcaption>
+</figure>
