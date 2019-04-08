@@ -181,6 +181,7 @@ As not all normal maps are encoded the same way, there is a [_NormalMapTweaks_](
 {: .notice--info}
 
 ------------------
+------------------
 
 ## Stylization (proc.)
 When the [_NoiseFX_](./../noisefx) tool has been used on the material, the _Stylization (procedural)_ section will appear at the bottom of the _Attribute Editor_. This section contains all the procedural attributes that the _NoiseFX_ tool creates and modifies. Therefore, you can mostly ignore these attributes within the material.
@@ -191,10 +192,11 @@ When the [_NoiseFX_](./../noisefx) tool has been used on the material, the _Styl
 </figure>
 
 ------------------
+------------------
 
 ## Settings
 
-Settings is the first section within the _Attribute Editor_, but it is hidden by default. Once opened, each _Setting_ allows you to customize what optional features the _mnpr_uber_ material should have. Most of these settings are disabled by default, as to avoid unnecessary computations and clutter for artists. If needed, enabling settings will provide the necessary attributes to configure them, if needed.
+Settings is the first section within the _Attribute Editor_, but it is closed by default. Once opened, each _Setting_ allows you to customize what optional features the _mnpr_uber_ material should have. Most of these settings are disabled by default, as to avoid unnecessary computations and clutter for artists. If needed, enabling settings will provide the necessary attributes to configure them, if needed.
 
 ### Reflectance Model
 The _Reflectance Model_ setting defines the shading algorithm used by the _mnpr_uber_ shader. A shading algorithm dictates how light is reflected along the surface of the object. Here is a visual comparison of each shading algorithm.
@@ -243,13 +245,13 @@ _Transparency_ defines the overall transparency of the material.
  <figcaption>Transparency (0...1.0)</figcaption>
 </figure>
 
-When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alpha-mask), you can set the _Transparency_ attribute to `0`, as the textures will normally handle the transparency.
+When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alpha-mask), you can set the _Transparency_ attribute to `0`, as the textures will normally handle the transparency, instead.
 {: .notice--info}
 
 #### Transparency Map
 _Transparency Map_ is a greyscale image which embeds the transparency of the material. This attribute toggles the use of the [_Transparency Map File_](#transparency-map-file).
 
-{% include aio-hint.html %} **White is transparent, grey values are semi-transparent, black is opaque. The whiter the value of the _Transparency Map_, the more transparent the material will be.**
+{% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-masks): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
 
 ##### Transparency Map File
 Specifies the file path to the _Transparency Map_. The path can be absolute or relative to the project root directory.  
