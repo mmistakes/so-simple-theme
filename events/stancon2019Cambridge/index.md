@@ -46,8 +46,9 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 <li>Introduction to Stan for the Statistically Literate. Full two days of instruction using R as the interface language. Instructor Jonah Sol Gabry.</li>
 <!--<li>Introduction to Stan for Programmers. Python based introduction to both Stan and statistics. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling. 2 days. Instructors Jonathan Auerbach, Breck Baldwin. </li>-->
 <li>Hierarchal Modeling with Stan. 1 day. Instructor Ben Goodrich. </li>
-<li>Population and ODE-based models using Stan and Torsten. 1 day or 1/2 day depending on demand. This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. PDF of proposal [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf). Charles Margossian, Yi Zhang.</li> 
-<!--<li>Pharmacometrics Modeling. This tutorial will cover common models for pharmacometrics. Two formats are offered, 1 day and 2 day. Depending on popularity we will select one or the other as determined by interest on registration. Charles Margossian, Yi Zhang</li>-->
+<li>Population and ODE-based models using Stan and Torsten. 1 day or 1/2 day depending on demand. This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. 
+PDF of proposal <a href="https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf">here</a>. Charles Margossian, Yi Zhang.</li> 
+
 
 </ul>
 
