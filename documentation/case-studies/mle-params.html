@@ -429,37 +429,37 @@ $return_code
                            iter=10000, refresh=5000);</code></pre>
 <pre><code>
 SAMPLING FOR MODEL 'prob' NOW (CHAIN 1).
-Chain 1: Gradient evaluation took 8e-06 seconds
-Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.08 seconds.
+Chain 1: Gradient evaluation took 1.1e-05 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.
 Chain 1: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 1: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 1:  Elapsed Time: 0.065831 seconds (Warm-up)
-Chain 1:                0.066733 seconds (Sampling)
-Chain 1:                0.132564 seconds (Total)
+Chain 1:  Elapsed Time: 0.071635 seconds (Warm-up)
+Chain 1:                0.06885 seconds (Sampling)
+Chain 1:                0.140485 seconds (Total)
 
 SAMPLING FOR MODEL 'prob' NOW (CHAIN 2).
-Chain 2: Gradient evaluation took 9e-06 seconds
-Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.09 seconds.
+Chain 2: Gradient evaluation took 7e-06 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
 Chain 2: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 2: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 2:  Elapsed Time: 0.066895 seconds (Warm-up)
-Chain 2:                0.065236 seconds (Sampling)
-Chain 2:                0.132131 seconds (Total)
+Chain 2:  Elapsed Time: 0.073008 seconds (Warm-up)
+Chain 2:                0.069437 seconds (Sampling)
+Chain 2:                0.142445 seconds (Total)
 
 SAMPLING FOR MODEL 'prob' NOW (CHAIN 3).
-Chain 3: Gradient evaluation took 6e-06 seconds
-Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
+Chain 3: Gradient evaluation took 5e-06 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
 Chain 3: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 3: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 3:  Elapsed Time: 0.066165 seconds (Warm-up)
-Chain 3:                0.07285 seconds (Sampling)
-Chain 3:                0.139015 seconds (Total)
+Chain 3:  Elapsed Time: 0.066129 seconds (Warm-up)
+Chain 3:                0.078419 seconds (Sampling)
+Chain 3:                0.144548 seconds (Total)
 
 SAMPLING FOR MODEL 'prob' NOW (CHAIN 4).
 Chain 4: Gradient evaluation took 7e-06 seconds
@@ -468,9 +468,9 @@ Chain 4: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 4: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 4:  Elapsed Time: 0.062329 seconds (Warm-up)
-Chain 4:                0.057679 seconds (Sampling)
-Chain 4:                0.120008 seconds (Total)</code></pre>
+Chain 4:  Elapsed Time: 0.058778 seconds (Warm-up)
+Chain 4:                0.062051 seconds (Sampling)
+Chain 4:                0.120829 seconds (Total)</code></pre>
 <pre class="r"><code>print(fit_bayes_prob, probs=c(0.1, 0.5, 0.9));</code></pre>
 <pre><code>Inference for Stan model: prob.
 4 chains, each with iter=10000; warmup=5000; thin=1; 
@@ -480,7 +480,7 @@ post-warmup draws per chain=5000, total post-warmup draws=20000.
 theta  0.41    0.00 0.14  0.24  0.41  0.59  7322    1
 lp__  -8.67    0.01 0.74 -9.56 -8.38 -8.16  7241    1
 
-Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:42:36 2019.
+Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:48:21 2019.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -550,42 +550,42 @@ Chain 1: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 1: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 1:  Elapsed Time: 0.082774 seconds (Warm-up)
-Chain 1:                0.063821 seconds (Sampling)
-Chain 1:                0.146595 seconds (Total)
+Chain 1:  Elapsed Time: 0.083982 seconds (Warm-up)
+Chain 1:                0.06746 seconds (Sampling)
+Chain 1:                0.151442 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds' NOW (CHAIN 2).
-Chain 2: Gradient evaluation took 7e-06 seconds
-Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.
+Chain 2: Gradient evaluation took 5e-06 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
 Chain 2: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 2: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 2:  Elapsed Time: 0.082983 seconds (Warm-up)
-Chain 2:                0.064389 seconds (Sampling)
-Chain 2:                0.147372 seconds (Total)
+Chain 2:  Elapsed Time: 0.081724 seconds (Warm-up)
+Chain 2:                0.072657 seconds (Sampling)
+Chain 2:                0.154381 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds' NOW (CHAIN 3).
-Chain 3: Gradient evaluation took 6e-06 seconds
-Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
+Chain 3: Gradient evaluation took 5e-06 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
 Chain 3: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 3: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 3:  Elapsed Time: 0.085354 seconds (Warm-up)
-Chain 3:                0.068329 seconds (Sampling)
-Chain 3:                0.153683 seconds (Total)
+Chain 3:  Elapsed Time: 0.085418 seconds (Warm-up)
+Chain 3:                0.072098 seconds (Sampling)
+Chain 3:                0.157516 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds' NOW (CHAIN 4).
-Chain 4: Gradient evaluation took 4e-06 seconds
-Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.
+Chain 4: Gradient evaluation took 6e-06 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
 Chain 4: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 4: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 4:  Elapsed Time: 0.084496 seconds (Warm-up)
-Chain 4:                0.071069 seconds (Sampling)
-Chain 4:                0.155565 seconds (Total)</code></pre>
+Chain 4:  Elapsed Time: 0.084316 seconds (Warm-up)
+Chain 4:                0.067435 seconds (Sampling)
+Chain 4:                0.151751 seconds (Total)</code></pre>
 <pre><code>Warning: There were 191 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. See
 http://mc-stan.org/misc/warnings.html#divergent-transitions-after-warmup</code></pre>
 <pre><code>Warning: Examine the pairs() plot to diagnose sampling problems</code></pre>
@@ -599,7 +599,7 @@ alpha  0.42    0.00 0.14  0.24  0.41  0.60  6617    1
 theta  0.60    0.00 0.03  0.56  0.60  0.65  6643    1
 lp__  -7.16    0.01 0.61 -7.93 -6.93 -6.74  9620    1
 
-Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:42:37 2019.
+Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:48:22 2019.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -692,9 +692,9 @@ Chain 1: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 1: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 1:  Elapsed Time: 0.063261 seconds (Warm-up)
-Chain 1:                0.062489 seconds (Sampling)
-Chain 1:                0.12575 seconds (Total)
+Chain 1:  Elapsed Time: 0.063436 seconds (Warm-up)
+Chain 1:                0.058249 seconds (Sampling)
+Chain 1:                0.121685 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds-jac' NOW (CHAIN 2).
 Chain 2: Gradient evaluation took 6e-06 seconds
@@ -703,9 +703,9 @@ Chain 2: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 2: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 2:  Elapsed Time: 0.061212 seconds (Warm-up)
-Chain 2:                0.069713 seconds (Sampling)
-Chain 2:                0.130925 seconds (Total)
+Chain 2:  Elapsed Time: 0.069197 seconds (Warm-up)
+Chain 2:                0.064762 seconds (Sampling)
+Chain 2:                0.133959 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds-jac' NOW (CHAIN 3).
 Chain 3: Gradient evaluation took 5e-06 seconds
@@ -714,20 +714,20 @@ Chain 3: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 3: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 3:  Elapsed Time: 0.064728 seconds (Warm-up)
-Chain 3:                0.068604 seconds (Sampling)
-Chain 3:                0.133332 seconds (Total)
+Chain 3:  Elapsed Time: 0.066439 seconds (Warm-up)
+Chain 3:                0.064745 seconds (Sampling)
+Chain 3:                0.131184 seconds (Total)
 
 SAMPLING FOR MODEL 'logodds-jac' NOW (CHAIN 4).
-Chain 4: Gradient evaluation took 6e-06 seconds
-Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.
+Chain 4: Gradient evaluation took 5e-06 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.
 Chain 4: Iteration:    1 / 10000 [  0%]  (Warmup)
 Chain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)
 Chain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)
 Chain 4: Iteration: 10000 / 10000 [100%]  (Sampling)
-Chain 4:  Elapsed Time: 0.065449 seconds (Warm-up)
-Chain 4:                0.070531 seconds (Sampling)
-Chain 4:                0.13598 seconds (Total)</code></pre>
+Chain 4:  Elapsed Time: 0.073453 seconds (Warm-up)
+Chain 4:                0.064312 seconds (Sampling)
+Chain 4:                0.137765 seconds (Total)</code></pre>
 <pre class="r"><code>print(fit_bayes_logodds_jac, probs=c(0.1, 0.5, 0.9));</code></pre>
 <pre><code>Inference for Stan model: logodds-jac.
 4 chains, each with iter=10000; warmup=5000; thin=1; 
@@ -738,7 +738,7 @@ alpha -0.37    0.01 0.62 -1.16 -0.36  0.41  7364    1
 theta  0.42    0.00 0.14  0.24  0.41  0.60  7388    1
 lp__  -8.69    0.01 0.76 -9.60 -8.39 -8.16  8661    1
 
-Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:42:38 2019.
+Samples were drawn using NUTS(diag_e) at Mon Apr 15 10:48:23 2019.
 For each parameter, n_eff is a crude measure of effective sample size,
 and Rhat is the potential scale reduction factor on split chains (at 
 convergence, Rhat=1).</code></pre>
@@ -767,7 +767,9 @@ convergence, Rhat=1).</code></pre>
 <p>As with other distributions, the unit form of the distribution may be translated by a location parameter <span class="math inline">\(\mu\)</span> and scaled by a parameter <span class="math inline">\(\sigma\)</span>, to produce the general logistic distribution <span class="math display">\[
 \mathsf{Logistic}(y \, | \, \mu, \sigma)
 \ = \
-\mathsf{Logistic}\left( \frac{y - \mu}{\sigma} \right).
+\frac{1}{\sigma} \times \mathsf{Logistic}\left( \frac{y - \mu}{\sigma} \right).
+\]</span> The extra <span class="math inline">\(1 / \sigma\)</span> term derives from the Jacobian of the transform <span class="math display">\[
+f(y) = (y - \mu) / sigma.
 \]</span> We’ll leave it as an exercise for the reader to work out the algebra and show this is the same as the <a href="https://en.wikipedia.org/wiki/Logistic_distribution">definition in the Wikipedia</a>.</p>
 </div>
 </div>
