@@ -12,6 +12,8 @@ image:
 
 ## Stan this Month Back Issues
 
+[Subscribe here](https://mc-stan.us20.list-manage.com/subscribe?u=b3fffe20e662419b489c3eaf2&id=d5f00d706a)
+
 [January 2019](https://discourse.mc-stan.org/t/stan-this-month-issue-1-january-2019/7540)
 
 [Febuary 2019](https://mailchi.mp/3544eb9ce55b/stan-this-month-45313)
