@@ -12,7 +12,23 @@ image:
 StanCon 2019 is open for registration. Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: left;"}
 
-<h3> Dates</h3>
+------
+- [**Sponsors**](#sponsors)
+- [**Dates**](#dates)
+- [**Location**](#location)
+- [**Submissions (Papers due April 30, posters August 15)**](#submissions)
+- [**Tutorials**](#tutorials)
+- [**Scholarships (May 1 deadline)**](#scholarships)
+- [**Registration (Rates go up 50% May 15)**](#registration)
+- [**Schedule**](#schedule)
+- [**Lodging**](#lodging)
+- [**Travel**](#travel)
+- [**Contact**](#contact)
+
+------
+
+
+# [Dates](#dates)
 <ul>
 <li>Tutorials: August 20-21, 2019</li>
 
@@ -22,7 +38,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 <img src="img/hall-dining-big.jpg">
 
 </ul>
-<h3> Location</h3>
+# [Location](#location)
 
 Tutorials: King's College and Caius
 College.
@@ -31,7 +47,7 @@ Conference: West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
-<h3>Submissions</h3>
+# [Submissions](#submissions)
 Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
 <ul>
 <s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
@@ -39,13 +55,16 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 <li> Posters are due by August 15. </li>
 </ul>
 
-<h3>Tutorials</h3>
+# [Tutorials](#tutorials)
 <!--We are still accepting tutorial submissions (April 15) but we have a few that are confident will be happening if there is interest. -->
 
 <ul>
-<li>Introduction to Stan for the Statistically Literate. Full two days of instruction using R as the interface language. Instructor Jonah Sol Gabry.</li>
+<li>Introduction to Stan for the Statistically Literate. Full two days of instruction using R as the interface language. Instructor Jonah Sol Gabry. In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
+
+We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.</li>
 <!--<li>Introduction to Stan for Programmers. Python based introduction to both Stan and statistics. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling. 2 days. Instructors Jonathan Auerbach, Breck Baldwin. </li>-->
-<li>Hierarchal Modeling with Stan. 1 day. Instructor Ben Goodrich. </li>
+<li>Hierarchal Modeling with Stan. 1 day. Instructor Ben Goodrich. Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the lme4 R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the stan_glmer function in the rstanarm R package, proceed to the brm function in the brms R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model. 
+Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).</li>
 <li>Population and ODE-based models using Stan and Torsten. 1 day or 1/2 day depending on demand. This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. 
 PDF of proposal <a href="https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf">here</a>. Charles Margossian, Yi Zhang.</li> 
 
@@ -55,17 +74,27 @@ PDF of proposal <a href="https://mc-stan.org/events/stancon2019Cambridge/pharmaT
 More tutorials will be announced as they come in. 
 
 
-<h3> Scholarships</h3>
+# [Scholarships](#scholarships)
  Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
  
-<h3>Sponsorships</h3>
+<!--<h3>Sponsorships</h3>
  
-We have bronze, silver, gold and platinum level sponsorships. Funds will go to scholarships and supporting Stan. The registration payment page has details or contact stanConCambridge@mc-stan.org for other arrangements.
+We have bronze, silver, gold and platinum level sponsorships. Funds will go to scholarships and supporting Stan. Contact stanConCambridge@mc-stan.org for arrangements.
+-->
 
-<h3>Registration</h3>
+# [Registration](#registration)
 Registration is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link) Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Prices go up 50% May 15, 2019.
 
-<h3>Lodging</h3>
+# [Schedule](#schedule)
+
+The overall schedule is two days of tutorials, August 20, 21 2019 followed by two days of conference, August 22, 23. We will wrap up early on Friday the 23rd for people wanting to travel (3pm). 
+
+The rough conference schedule is 9am-5pm with invited talks being the first a last talks of the day. As speakers/paper acceptances come in we will update the schedule. 
+
+# Invited speakers
+[David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/), will speak on "Communicating Uncertainty about Facts, Numbers and Science" 
+
+# [Lodging](#lodging)
 We have several options: 
 
 * [Kings College Housing](http://www.kings.cam.ac.uk/conference-dining/accommodation.html). Reference code is STANCONAUG2019. At £120 (single occupancy) and £180 (double occupancy) per night. Includes breakfast and is the venue closest to tutorials/conference. More information [here](http://www.kings.cam.ac.uk/sites/default/files/conference_and_dining/kings_college_accommodation_2017.pdf).
@@ -97,7 +126,30 @@ A 25 min walk to King's College (about 8 min by taxi)
 * [YHA Cambridge](https://www.yha.org.uk/hostel/yha-cambridge) (hostel)
 97 Tenison Road, CB1 2DN, 03453 719728. A 25 min walk to King's College (about 8 min by taxi), 35 min walk to West Road Concert Hall (about 9 min by taxi)
 
+# [Travel](#travel)
 
-<h3>Contact Us</h3>
+For local travel to Cambridge from various UK locations [here](https://www.visitcambridge.org/visitor-information/how-to-get-here). 
+
+If you are staying in London before/after a train from
+King's Cross Station or Liverpool Street Station is a good option. London Stansted Airport is the closest to Cambridge and there's a direct train to Cambridge. Other airports are Heathrow and Gatwick. Train info [here](http://www.nationalrail.co.uk/).
+
+Buses from London Airports [here](https://www.nationalexpress.com/en).
+
+
+# [Sponsors](#sponsors)
+We would like to thank our sponsors who both support conference costs but scholarships and Stan as a whole. 
+
+<center style="padding: 0.75em 0 0 0">
+<!--<a href="http://corporate.elisa.com/"><img width="200" src="logos/logo-elisa_2x.png" /></a>
+-->
+<span style="display:inline-block; width: 0.75em;"></span>
+<a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
+<span style="display:inline-block; width: 0.75em;"></span>
+<!--<a href="https://www.reaktor.com/"><img width="200" src="logos/Reaktor.png" /></a>-->
+</center>
+
+# [Contact](#contact)
 
 Email stanConCambridge@mc-stan.org
+
+
