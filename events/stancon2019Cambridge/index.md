@@ -83,13 +83,13 @@ We have bronze, silver, gold and platinum level sponsorships. Funds will go to s
 -->
 
 # [Registration](#registration)
-Registration is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link) Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Prices go up 50% May 15, 2019.
+Registration is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link). Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. Prices go up 50% May 15, 2019.
 
 # [Schedule](#schedule)
 
 The overall schedule is two days of tutorials, August 20, 21 2019 followed by two days of conference, August 22, 23. We will wrap up early on Friday the 23rd for people wanting to travel (3pm). 
 
-The rough conference schedule is 9am-5pm with invited talks being the first a last talks of the day. As speakers/paper acceptances come in we will update the schedule. 
+The rough conference schedule is 9am-5pm with invited talks being the first and last talks of the day. As speakers/paper acceptances come in we will update the schedule. 
 
 # Invited speakers
 [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/), will speak on "Communicating Uncertainty about Facts, Numbers and Science" 
