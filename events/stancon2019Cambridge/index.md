@@ -100,6 +100,8 @@ The rough conference schedule is 9am-5pm with invited talks being the first and 
 # Invited speakers
 [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/), will speak on "Communicating Uncertainty about Facts, Numbers and Science" 
 
+[Lauren Kennedy](https://www.linkedin.com/in/lauren-kennedy-783864bb/), will speak on "Out of sample prediction and the quest for generalization"
+
 # [Lodging](#lodging)
 We have several options: 
 
