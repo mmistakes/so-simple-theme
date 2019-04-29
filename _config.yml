@@ -39,7 +39,7 @@ feed:
 # paginate_path: /news/page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/categories/#"

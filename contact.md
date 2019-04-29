@@ -1,6 +1,7 @@
 ---
 layout: landing
 title: Contact us
+permalink: /contact/
 excerpt: "Contact us"
 search: true
 ---
