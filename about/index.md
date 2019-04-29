@@ -1,37 +1,39 @@
 ---
 layout: page
 author: santy
-title: About the Author
-excerpt: About Santiago Montesdeoca
+title: About us
+excerpt: About Artineering and the Team
 image:
-  path: images/about.jpg
-  caption: Yogyakarta - Indonesia 2018
+  path: images/about/about.jpg
+  caption: Photo of Tallinn by Kylli Kittus
 schema: AboutPage
 ---
 
-I am **Santiago Montesdeoca** Ph.D. (Singapore), a hybrid **artist/engineer/researcher** with profound interest and expertise in **non-photorealistic and expressive rendering** methodologies.
-My recent **Ph.D.** [research](../research) has led me to publish **award-winning papers** in the field and to present my work at _SIGGRAPH_’s _Real-Time Live!_ and _Pixar Animation Studios_.
+Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and its a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We got tired of this and are here to change that.
 
-My personal aim is to **empower artists** to fully express themselves **in any style** using **3D computer animation**. Therefore, I develop **customized technology**, optimized for **real-time art-direction** to alleviate animation workflows and **enable individual narratives** through **unique looks**.
+We are currently developing the evolution of [MNPRX](/projects/MNPRX/), our own standalone customizable renderer which integrates into existing 3D workflows, but provides intuitive and artist-friendly interfaces to fully customize the style of the 3D rendered imagery. To complement these efforts, our application will offer real-time art-directed toolsets to easily manipulate stylistic aesthetic effects within 3D. We are creating this software in close collaboration with our [RnD clients](/services), to make sure we make something production proven that our users will love.  
 
-In my free time I enjoy dancing, eating/preparing delicious food, taking photographs of moments and places, traveling, **watching/imagining/creating movies**, snowboarding, playing a game here and there, playing guitar and being outside under the sunlight.
+Building upon years of research in the field, we are passionate and determined developers, researchers and artists from different corners of the world whose headquarters are currently in Tallinn, Estonia.
 
-Ex _[Lucasfilm](http://lucasfilm.com/)_ jedi, _[EF](https://www.joinef.com/)_ entrepreneur, _[NTU-IGS](http://igs.ntu.edu.sg/Pages/Home.aspx)_ computer graphics Ph.D., _[studio.coop](http://studio.coop)_ co-founder, _[HdM](https://www.hdm-stuttgart.de/am)_ audiovisual media engineer, farm manager and more, which can be seen in my:
-
-[Resume](https://1drv.ms/b/s!Arb19fQ9R1Nhj9YgusLdPVdSCigosg){: .btn .btn--aio}
-<!-- [CV](http://){: .btn .btn--aio} -->
-
-## Contact:
-
-
-<div></div>
-
-{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
-{%- assign author = site.data.authors[author] | default: author -%}
-
-<div class="social-icons">
-  {% if author.email %}<a href="mailto:{{ author.email }}@artineering.io?Subject=Hello" title="Email {{ author.name}}"  target="_top"><i class="fas fa-envelope-square fa-2x"></i></a>{% endif %}
-  {% if author.twitter %}<a href="https://twitter.com/{{ author.twitter }}" title="{{ author.name}} on Twitter" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>{% endif %}
-  {% if author.linkedin %}<a href="https://linkedin.com/in/{{ author.linkedin }}" title="{{ author.name}} on LinkedIn" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>{% endif %}
-	{% if author.vimeo %}<a href="https://github.com/{{ author.vimeo }}" title="{{ author.name}} on Github" target="_blank"><i class="fab fa-vimeo-square fa-2x"></i></a>{% endif %}
-	{% if author.github %}<a href="https://github.com/{{ author.github }}" title="{{ author.name}} on Github" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>{% endif %}</div>
+<div class="aio-team">
+  {%- for member in site.data.team -%}
+    <div class="aio-team-member">
+      {%- assign tm = member[1] -%}
+        {%- if tm.picture -%}
+          <img src="/images/about/{{tm.picture}}" alt="Image of {{ tm.name }}">
+        {%- else -%}
+          <img src="/images/about/member.png" alt="Image of {{ tm.name }} coming soon">
+        {%- endif -%}
+        <div class="aio-team-name">{{tm.name}}</div>
+        <div class="aio-team-role">{{tm.role}}</div>
+        <div class="aio-team-social">
+          {% if tm.email %}<a href="mailto:{{ tm.email }}" title="Email {{ tm.name }}" target="_top"><i class="fas fa-paper-plane fa-lg"></i></a>{% endif %}
+          {% if tm.web %}<a href="{{ tm.web }}" title="{{ tm.name }} on the web" target="_blank"><i class="fas fa-globe-europe fa-lg"></i></a>{% endif %}
+          {% if tm.twitter %}<a href="https://twitter.com/{{ tm.twitter }}" title="{{ tm.name }} on Twitter" target="_blank"><i class="fab fa-twitter-square fa-lg"></i></a>{% endif %}
+          {% if tm.linkedin %}<a href="https://linkedin.com/in/{{ tm.linkedin }}" title="{{ tm.name }} on LinkedIn" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>{% endif %}
+          {% if tm.github %}<a href="https://github.com/{{ tm.github }}" title="{{ tm.name}} on Github" target="_blank"><i class="fab fa-github-square fa-lg"></i></a>{% endif %}
+          {% if tm.vimeo %}<a href="https://vimeo.com/{{ tm.vimeo }}" title="{{ tm.name}} on Vimeo" target="_blank"><i class="fab fa-vimeo-square fa-lg"></i></a>{% endif %}
+        </div>
+      </div>
+  {%- endfor -%}
+</div>

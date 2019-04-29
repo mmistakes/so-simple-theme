@@ -2,8 +2,8 @@
 title: "Artineering"
 locale: en-US
 description: "Rendering, in  style!"
-copyright: © 2019 Artineering
-remote_theme: mmistakes/so-simple-theme
+copyright: © 2019 Artineering OÜ
+#remote_theme: mmistakes/so-simple-theme
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://artineering.io
 logo: /images/logo.png
@@ -29,17 +29,17 @@ liquid:
   error_mode: strict
 
 # Build settings
-permalink: /:categories/:title/
+permalink: /about/:categories/blog/:title
 markdown: kramdown
 feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /news/page:num/
+# paginate: 10
+# paginate_path: /news/page:num/
 
 # Search
-search_full_content: true # can have performance implications for large sites
+search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
@@ -60,9 +60,10 @@ exclude:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
+#  - jekyll-paginate
 
 # Collections
 collections:
@@ -72,6 +73,10 @@ collections:
   mnprdocs:
     output: true
     permalink: /projects/MNPRX/docs/:slug/
+  research:
+    output: true
+    permalink: /:collection/:title/
+
 
 # Front Matter Defaults
 defaults:
@@ -93,10 +98,10 @@ defaults:
 
 # Site Author
 author:
-  name: Santiago Montesdeoca
-  picture: /images/2019/santy.jpg
+  name: Arthineering OÜ
+  picture: /images/logo.jpg
   email: santiago@artineering.io
-  twitter: notpainted
+  twitter: artineering
   links:
     - title:
       url:
@@ -105,17 +110,20 @@ author:
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/notpainted
+    url: https://twitter.com/artineering
     icon: fab fa-twitter-square
   - title: LinkedIn
-    url: https://www.linkedin.com/in/santiagomontesdeoca/
+    url: https://www.linkedin.com/company/artineering/
     icon: fab fa-linkedin
-  - title: Vimeo
-    url: https://vimeo.com/santiagomontesdeoca
-    icon: fab fa-vimeo-square
-  - title: Github
-    url: https://github.com/semontesdeoca/
-    icon: fab fa-github-square
+  - title: Youtube
+    url: https://www.youtube.com/channel/UC-Uqc5P6CeXSwxftSEx9z6w
+    icon: fab fa-youtube-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+#  - title: Vimeo
+#    url: https://vimeo.com/santiagomontesdeoca
+#    icon: fab fa-vimeo-square
+#  - title: Github
+#    url: https://github.com/semontesdeoca/
+#    icon: fab fa-github-square

@@ -6,6 +6,12 @@ sitemap: false
 @import "so-simple";
 
 // modify theme
+.page-wrapper-landing {
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 960px;
+}
 h2 {
   margin-top: 2em;
   margin-bottom: 0.5em;
@@ -20,6 +26,10 @@ video {
 }
 img {
   max-width: 100%;
+}
+
+.main-content {
+  overflow: hidden;
 }
 
 // navigation
@@ -59,6 +69,7 @@ img {
     a {
       display: block;
       line-height: 1.2em;
+      font-weight: 400;
     }
     font-family: "Nanum Brush Script";
     margin-top: 0em;
@@ -97,7 +108,6 @@ img {
 .page-content {
   text-align: justify;
   position: relative;
-
   header {
     a {
       border-bottom: none;
@@ -154,6 +164,13 @@ img {
   .entries-list .entry {
     margin-bottom: 0;
   }
+
+  // extra wide elements
+  .expand {
+    margin-top: 6em;
+    width: 140%;
+    margin-left: -20%;
+  }
 }
 
 // images
@@ -177,6 +194,22 @@ figcaption {
   }
   figcaption {
     margin-top: -0.5em;
+  }
+}
+
+.pull-right {
+  float: none;
+  text-align: center;
+  @include breakpoint($medium) {
+    float:right;
+  }
+}
+
+.pull-left {
+  float: none;
+  text-align: center;
+  @include breakpoint($medium) {
+    float:left;
   }
 }
 
@@ -208,7 +241,8 @@ p .btn--aio {
   color: #fff;
   border: 2px solid #000;
   transition: 0.2s;
-  margin-right: 1em;
+  margin-top:0.3em;
+  margin-bottom:0.3em;
 }
 
 .btn--aio:hover {
@@ -227,6 +261,11 @@ p .btn--aio {
   color: #AAA;
 }
 
+.schematic{
+  p {
+    margin: 0.2em 0;
+  }
+}
 
 
 .publication {
@@ -275,7 +314,39 @@ p .btn--aio {
 }
 
 
-// Documentation
+// CONTACT
+.contact {
+  p {
+     margin-bottom:0.35em;
+  }
+  display: inline-block;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+// SERVICES
+.side-gfx {
+  width:200px;
+  @include breakpoint($medium) {
+    width: 350px;
+    margin-bottom: 0;
+    margin-top: -3.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+// MNPRX
+.mnprx-links {
+  margin-top: 0.5em;
+  @include breakpoint($medium) {
+    margin-top: 3.5em;
+  }
+}
+
+// DOCUMENTATION
 .doc-element {
   display: inline-block;
   width: 250px;
@@ -358,6 +429,34 @@ p .btn--aio {
   }
 }
 
+// ABOUT
+.aio-team {
+  text-align: center;
+  margin: 2em auto 0;
+  .aio-team-member {
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    img {
+      width: 300px;
+      border-radius: 50%;
+    }
+    .aio-team-name {
+      margin-top: 0.5em;
+      font-family: "Josefin Sans";
+    }
+    .aio-team-role {
+      font-family: "Josefin Sans";
+      font-size: 0.8em;
+    }
+    .aio-team-social {
+      a {
+        border-bottom: none;
+      }
+    }
+  }
+}
 
 // helpers
 .right05 { margin-right: 0.5em; }
@@ -396,11 +495,37 @@ p .btn--aio {
     margin: 50px auto 0;
   }
   @include breakpoint($xxlarge) {
-    margin-top: 1em;
-    width: 250px;
-    z-index: 10;
     position: fixed;
-    right: 0;
+    z-index: 10;
+    right: 0px;
     top: 0px;
+    margin-top: 0;
+    width: 250px;
+    border-top: 0.25em solid black;
   }
+}
+
+/*
+   Slick carousel
+   ========================================================================== */
+.aio-slick {
+  p {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #999;
+    margin: 0.2em auto 0;
+  }
+  span {
+    display: inherit;
+    text-align: right;
+    margin-top: -3.3em;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+    font-size: 0.7em;
+    color: #999;
+  }
+}
+.slick-dots  {
+  text-align: center !important;
 }

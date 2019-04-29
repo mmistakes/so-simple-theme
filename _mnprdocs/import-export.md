@@ -47,13 +47,19 @@ Importing the stylization should always work, as long as the naming of objects i
 The stylization can also be imported on scenes where there are no prior MNPRX materials, as long as names of the mesh objects remain consistent.
 {: .notice--info}
 
+{% include responsive-embed url="https://www.youtube.com/embed/aYbQDC8f0Uk" width="90%" %}
+
 
 ### Changing namespaces
+{: .top2}
+
 If you are importing the stylization from a scene that used different namespaces, you can check the _Change namespaces upon importing_ checkbox.
 1. In the _From_ field, you put the old namespaces (separate namespaces with a colon: `:`)
 2. In the _To_ field, you put the new namespaces (separate namespaces with a colon: `:`)
 
 The first namespace in the _From_ field will be changed to the first namespace in the _To_ field. The second, with the second one, and so forth.
 {: .notice--warning}
+
+{% include responsive-embed url="https://www.youtube.com/embed/PDnkOjw18vs" ratio="16:9" width="90%" %}
 
 {% include toc-side %}

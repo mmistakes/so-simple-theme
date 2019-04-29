@@ -1,20 +1,42 @@
 ---
-layout: page
+layout: landing
 title: Welcome
 excerpt: "Stylized 3D rendering in real-time"
 search: true
 ---
 
-I'm **Santiago Montesdeoca** Ph.D. (Singapore), an artist/engineer/researcher specializing in **stylized rendering** of 3D objects and animation **in real-time**. You may find more [about me](/about) and my work throughout this website.
+<div class="aio-slick">
+  <div>
+    <img src="/images/carousel/summer_wc.jpg" />
+    <p>Watercolor stylization</p>
+    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
+  </div>
+  <div>
+    <img src="/images/carousel/summer_op.jpg" />
+    <p>Oil paint stylization</p>
+    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
+  </div>
+  <div>
+    <img src="/images/carousel/summer_cc.jpg" />
+    <p>Charcoal stylization</p>
+    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
+  </div>
+  <div>
+    <img src="/images/carousel/summer_vp.jpg" />
+    <p>Normal viewport render</p>
+    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
+  </div>
+</div>
 
-Any updates are documented within the [news](/news/) section, but make sure to follow me on twitter [@notpainted](twitter.com/notpainted) to keep in the loop of my latest developments.
+We are [**passionate developers**](/about) crafting software to **render stylized 3D imagery and animations, in real-time**.
 
-Feel free to also explore the [blog](/blog/), read some of my published [articles](/research/) or view the [projects](/projects/) that I am or have been part of.
+We got frustrated and tired of being forced to render things slowly and in a photorealistic manner, so we decided to create our [**own renderer**](/projects/MNPRX) and to [**offer our expertise**](/services) to help studios and artists **achieve any desired style, in real-time**.
 
-If you like what you find and are interested in working with me, make sure you [drop me a line](/about#contact)!
+Make sure to follow us [@artineering](twitter.com/artineering) for the latest news about our [projects](/projects/) and [research](/research).
 
-<!--data-tweet-limit="3"-->
+If you like what you find and would like to work with us, make sure to [drop us a line](/contact)!
+
+
 <div class="responsive-twitter">
-<a class="twitter-timeline" height="590" href="https://twitter.com/{{site.author.twitter}}" data-widget-id="722401536261763072">Latest from @{{ site.owner.twitter }}</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a class="twitter-timeline" height="100vh" href="https://twitter.com/{{site.author.twitter}}" data-chrome="nofooter noheader">News from Artineering</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>

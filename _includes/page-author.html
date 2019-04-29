@@ -1,5 +1,5 @@
-{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
-{%- assign author = site.data.authors[author] | default: author -%}
+{%- assign author = page.author | default: page.author[0] | default: site.author -%}
+{%- assign author = site.data.team[author] | default: team -%}
 
 <div class="page-author h-card p-author">
   {%- if author.picture -%}
@@ -8,7 +8,7 @@
     {%- else -%}
       {%- assign author_picture = author.picture | relative_url -%}
     {%- endif -%}
-    <img src="/images/{{page.year}}{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
+    <img src="/images/about/{{page.author}}/{{page.year}}{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
   {%- endif -%}
 
   <div class="author-info">

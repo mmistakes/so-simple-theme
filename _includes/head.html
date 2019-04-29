@@ -23,6 +23,7 @@
     }
   </script>
 
+  {% include head-custom.html %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% if site.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
@@ -45,6 +46,4 @@
       <script src="{{ script_path }}"></script>
     {%- endfor -%}
   {%- endif -%}
-
-  {% include head-custom.html %}
 </head>

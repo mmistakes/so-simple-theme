@@ -2,7 +2,6 @@
 layout: publication
 categories: docs
 title: MNPRX Documentation
-authors: santy
 type: Docs
 permalink: /projects/MNPRX/docs/
 excerpt: MNPRX Documentation, tutorials, FAQ, API
@@ -22,21 +21,21 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ## Basics
 ### [Installation](installation)
 ### [Updating MNPRX](update)
-### [MNPRX Shelf](shelf) {% include aio-new.html %}
+### [MNPRX Shelf](shelf)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Styles
-### [Presets](style-presets) {% include aio-new.html %}
-### [Configuration](config) {% include aio-new.html %}
+### [Presets](style-presets)
+### [Configuration](config)
 ### [Import/Export](import-export) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Materials
-### [Presets](material-presets) {% include aio-new.html %}
-### [Uber Material](uber) {% include aio-new.html %}
-### [Proxies](proxy) {% include aio-new.html %}
+### [Presets](material-presets)
+### [Uber Material](uber)
+### [Proxies](proxy)
 </div>
 
 <div class="doc-element" markdown="1">

@@ -1,0 +1,19 @@
+santiago:
+  name: Santiago Montesdeoca
+  picture: santiago.jpg
+  email: santiago@artineering.io
+  web: /about/santiago
+  role: "PhD, artist/engineer/researcher"
+  linkedin: santiagomontesdeoca
+  twitter: notpainted
+  github: semontesdeoca
+  vimeo: santiagomontesdeoca
+
+alexandre:
+  name: Alexandre Bléron
+  picture: alexandre.jpg
+  email: alexandre@artineering.io
+  web: http://ennis.github.io/about/
+  role: "PhD, engineer/researcher"
+  linkedin: ableron
+  github: ennis
