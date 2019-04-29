@@ -16,7 +16,7 @@ comments: true
 share: true
 read_time: true
 redirect_from:
-  - /blog/Expressive-Siggraph-and-life-in-2017
+  - /blog/Expressive-Siggraph-and-life-in-2017/
 ---
 {%- assign imgPath = "/images/about/santiago/2017" -%}
 

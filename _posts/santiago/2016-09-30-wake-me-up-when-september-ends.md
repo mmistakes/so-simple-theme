@@ -16,7 +16,7 @@ comments: true
 share: true
 read_time: true
 redirect_from:
-  - /blog/wake-me-up-when-september-ends
+  - /blog/wake-me-up-when-september-ends/
 ---
 {%- assign imgPath = "/images/about/santiago/2016" -%}
 

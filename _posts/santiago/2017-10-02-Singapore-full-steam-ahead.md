@@ -16,7 +16,7 @@ comments: true
 share: true
 read_time: true
 redirect_from:
-  - /blog/Singapore-full-steam-ahead
+  - /blog/Singapore-full-steam-ahead/
 ---
 {%- assign imgPath = "/images/about/santiago/2017" -%}
 

@@ -16,7 +16,7 @@ comments: true
 share: true
 read_time: true
 redirect_from:
-  - /blog/the-final-semester
+  - /blog/the-final-semester/
 ---
 {%- assign imgPath = "/images/about/santiago/2018" -%}
 

@@ -16,7 +16,7 @@ comments: true
 share: true
 read_time: true
 redirect_from:
-  - /blog/from-singapore-to-grenoble
+  - /blog/from-singapore-to-grenoble/
 ---
 {%- assign imgPath = "/images/about/santiago" -%}
 
