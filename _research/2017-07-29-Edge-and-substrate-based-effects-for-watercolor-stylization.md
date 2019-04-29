@@ -21,7 +21,7 @@ share: true
 source: https://diglib.eg.org/handle/10.2312/exp20161063
 schema: ScholarlyArticle
 redirect_from:
-  - /articles/Edge-and-substrate-based-effects-for-watercolor-stylization
+  - /articles/Edge-and-substrate-based-effects-for-watercolor-stylization/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">

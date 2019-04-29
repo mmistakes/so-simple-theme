@@ -19,7 +19,7 @@ comments: true
 share: true
 schema: ScholarlyArticle
 redirect_from:
-  - /articles/Artistically-Driven-Non-Photorealistic-Animation
+  - /articles/Artistically-Driven-Non-Photorealistic-Animation/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">

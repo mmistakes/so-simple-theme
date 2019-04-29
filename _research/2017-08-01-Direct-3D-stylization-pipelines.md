@@ -21,7 +21,7 @@ share: true
 source: https://doi.org/10.1145/3098333.3098339
 schema: ScholarlyArticle
 redirect_from:
-  - /articles/Direct-3D-stylization-pipelines
+  - /articles/Direct-3D-stylization-pipelines/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">

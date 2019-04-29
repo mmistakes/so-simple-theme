@@ -21,7 +21,7 @@ share: true
 source: http://dx.doi.org/10.2312/exp.20161063
 schema: ScholarlyArticle
 redirect_from:
-  - /articles/Art-directed-watercolor-stylization-of-3D-animations-in-real-time
+  - /articles/Art-directed-watercolor-stylization-of-3D-animations-in-real-time/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">
