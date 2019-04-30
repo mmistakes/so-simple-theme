@@ -8,4 +8,4 @@ sort_by: date
 sort_order: reverse
 show_excerpts: true
 ---
-We've have had the amazing opportunity to work in these projects:
+We've had the amazing opportunity to work in these projects:

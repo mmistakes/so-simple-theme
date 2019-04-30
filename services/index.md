@@ -92,7 +92,7 @@ The _Product Package_ is where the main development happens, and we create the s
 ### Production-ready Package
 {: #production}
 
-The _Production-ready Package_ ensures that any missing feature can still be developed and included into your solution. The duration of this package depends on the additional requirements you might have, which were not considered during the assessment of previous R&D packages. We'll make everything in our control to tackle these final production requirements and have a tool that works for you under most conditions.
+The _Production-ready Package_ ensures that any missing feature can still be developed and included into your solution. The duration of this package depends on the additional requirements you might have, which were not considered during the assessment of previous R&D packages. We'll make everything in our hands to tackle these final production requirements and have a tool that works for you under most conditions.
 {: .bottom2}
 
 Are you ready to make something amazing and stylized together? Make sure to [drop us a line](/contact)!
