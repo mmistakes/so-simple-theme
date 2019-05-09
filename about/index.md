@@ -20,9 +20,9 @@ Building upon years of research in the field, we are passionate and determined d
     <div class="aio-team-member">
       {%- assign tm = member[1] -%}
         {%- if tm.picture -%}
-          <img src="/images/about/{{tm.picture}}" alt="Image of {{ tm.name }}">
+          <img src="/images/about/team/{{tm.picture}}" alt="Image of {{ tm.name }}">
         {%- else -%}
-          <img src="/images/about/member.png" alt="Image of {{ tm.name }} coming soon">
+          <img src="/images/about/team/member.png" alt="Image of {{ tm.name }} coming soon">
         {%- endif -%}
         <div class="aio-team-name">{{tm.name}}</div>
         <div class="aio-team-role">{{tm.role}}</div>
