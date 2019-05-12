@@ -9,7 +9,7 @@ image:
 schema: AboutPage
 ---
 
-Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and its a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We got tired of this and are here to change that.
+Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and its a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
 
 We are currently developing the evolution of [MNPRX](/projects/MNPRX/), our own standalone customizable renderer which integrates into existing 3D workflows, but provides intuitive and artist-friendly interfaces to fully customize the style of the 3D rendered imagery. To complement these efforts, our application will offer real-time art-directed toolsets to easily manipulate stylistic aesthetic effects within 3D. We are creating this software in close collaboration with our [RnD clients](/services), to make sure we make something production proven that our users will love.  
 
