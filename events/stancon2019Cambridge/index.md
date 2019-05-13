@@ -20,6 +20,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Tutorials**](#tutorials)
 - [**Scholarships (May 1 deadline)**](#scholarships)
 - [**Registration (Rates go up 50% May 15)**](#registration)
+- [**Invitation Letters**](#letters)
 - [**Schedule**](#schedule)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
@@ -89,7 +90,11 @@ Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Sta
 
 Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
 
-Prices go up 50% May 15, 2019.
+<s>Prices go up 50% May 15, 2019.</s>
+Due to very large reviewing load of papers we have extended the price raise to a 50% increase June 1, 2019.
+
+# [Invitation Letters](#letters) 
+If you require an invitation letter for visa or other purposes please fill out [this form](https://docs.google.com/forms/d/10fR20T54al8HQsHxt0X9FQgCW4WbuPL1p49OpcVzHhE/edit). We will email you a letter within 4 days. You must be registered to get the letter. Contact us if you need it sooner at stanConCambridge@mc-stan.org.
 
 # [Schedule](#schedule)
 
