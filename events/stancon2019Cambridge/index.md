@@ -16,10 +16,10 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
 - [**Location**](#location)
-- [**Submissions (Papers due April 30, posters August 15)**](#submissions)
+- [**Submissions (Posters due August 15, rolling acceptance)**](#submissions)
 - [**Tutorials**](#tutorials)
 - [**Scholarships (May 1 deadline)**](#scholarships)
-- [**Registration (Rates go up 50% May 15)**](#registration)
+- [**Registration (Rates go up 50% June 1)**](#registration)
 - [**Invitation Letters**](#letters)
 - [**Schedule**](#schedule)
 - [**Lodging**](#lodging)
@@ -52,8 +52,8 @@ University of Cambridge
 Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
 <ul>
 <s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
-<li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li>
-<li> Posters are due by August 15. </li>
+<s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
+<li> Posters are due by August 15. Acceptance will be on rolling basis (4 days) </li>
 </ul>
 
 # [Tutorials](#tutorials)
