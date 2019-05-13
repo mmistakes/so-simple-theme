@@ -20,7 +20,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Tutorials**](#tutorials)
 - [**Scholarships (May 1 deadline)**](#scholarships)
 - [**Registration (Rates go up 50% June 1)**](#registration)
-- [**Invitation Letters**](#letters)
+- [**Invitation_Letters**](#letters)
 - [**Schedule**](#schedule)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
