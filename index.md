@@ -30,7 +30,7 @@ search: true
 
 We are [**passionate developers**](/about) crafting software to **render stylized 3D imagery and animations, in real-time**.
 
-We got frustrated and tired of being forced to render things slowly and in a photorealistic manner, so we decided to create our [**own renderer**](/projects/MNPRX) and to [**offer our expertise**](/services) to help studios and artists **achieve any desired style, in real-time**.
+We believe in the unlimited possibilities of the 3D medium, but found ourselves artistically constrained by renderers that force a predefined photorealistic aesthetic. So, we decided to create our [**own renderer**](/projects/MNPRX) and to [**offer our expertise**](/services) to help studios and artists **achieve any desired style, in real-time**.
 
 Make sure to follow us [@artineering](twitter.com/artineering) for the latest news about our [projects](/projects/) and [research](/research).
 
