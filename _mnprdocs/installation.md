@@ -42,6 +42,15 @@ Example scenes can be found within the open-source [_MNPR_ release](/projects/Ma
 1. Update the materials in the scene `right click on the _mPre_ shelf tool->Update ShaderFX materials`.
 
 
+## Installing the Substrates
+A set of 10 different substrate textures (i.e., papers, canvas) are available for MNPRX. These can be downloaded in the application.
+1. In the _MNPRX shelf_, `right click on the _tbox_ shelf icon->Download MNPR substrates`.
+1. A small dialog will prompt, asking you if you want to download the files in the background (not supported on macOS) or download them manually.
+1. Downloading in the background gets the files over the internet and places them in the correct folder within MNPRX.
+1. If you want/need to do this process manually, a browser tab will open and download the substrate textures in a zip file.
+1. Once downloaded, please extract the files into `MNPRX/textures`
+
+
 ## FAQ
 _**I can't get the system to install using the install.mel file, what can I do?**_<br>
 It doesn't usually happen, but if the _install.mel_ installation doesn't work, there are two ways of manually installing MNPRX:
