@@ -39,12 +39,12 @@ Example scenes can be found within the open-source [_MNPR_ release](/projects/Ma
 1. Extract them in a desired folder
 1. Set your _Maya project_ to the folder where your example scenes are `Menu, File->Set Project`
 1. Open the desired test scene `Menu, File->Open`
-1. Update the materials in the scene `right click on the _mPre_ shelf tool->Update ShaderFX materials`.
+1. Update the materials in the scene `right click on the 'mPre' shelf tool->Update ShaderFX materials`.
 
 
 ## Installing the Substrates
 A set of 10 different substrate textures (i.e., papers, canvas) are available for MNPRX. These can be downloaded in the application.
-1. In the _MNPRX shelf_, `right click on the _tbox_ shelf icon->Download MNPR substrates`.
+1. In the _MNPRX shelf_, `right click on the 'tbox' shelf icon->Download MNPR substrates`.
 1. A small dialog will prompt, asking you if you want to download the files in the background (not supported on macOS) or download them manually.
 1. Downloading in the background gets the files over the internet and places them in the correct folder within MNPRX.
 1. If you want/need to do this process manually, a browser tab will open and download the substrate textures in a zip file.
