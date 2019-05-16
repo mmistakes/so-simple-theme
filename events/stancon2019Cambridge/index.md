@@ -56,42 +56,31 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 <s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
 <li> Posters are due by August 15. Acceptance will be on rolling basis (4 days) </li>
 </ul>
-
 # [Tutorials](#tutorials)
-<!--We are still accepting tutorial submissions (April 15) but we have a few that are confident will be happening if there is interest. --> 
+<b>Introduction to Stan for the Statistically Literate. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
-<ul>
-<li><b>Introduction to Stan for the Statistically Literate.</b> August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
-<p>
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
-<p>
-We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.</li>
+We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
-<li><b>Stan for Programmers that don't Know much About Statistics.</b> August 20, 21 mornings with afternoon exercises. R based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
-<p>
-<b>Description:</b> This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling so that you can proceed to learn more. We will cover the mechanics of how Stan programs work, show simple examples of regression and pooling. We presuppose that you are comfortable with general programming concepts like subroutines, variable assignment and use of IDEs. </li>
+**Stan for Programmers that don't Know much About Statistics**. August 20, 21 mornings with afternoon exercises. R based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
 
-<li><b>Hierarchal Modeling with Stan</b>. August 20, 21 mornings. Instructor Ben Goodrich. 
-<p>
-<b>Description:</b> Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the lme4 R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the stan_glmer function in the rstanarm R package, proceed to the brm function in the brms R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model. 
-Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).</li>
-<li><b>Population and ODE-based models using Stan and Torsten</b>. August 20, 21 afternoons. Instructors Charles Margossian, Yi Zhang.
-<p>
-<b>Description</b> This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. 
-PDF of proposal <a href="https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf">here</a>. </li> 
+**Description:** This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling so that you can proceed to learn more. We will cover the mechanics of how Stan programs work, show simple examples of regression and pooling. We presuppose that you are comfortable with general programming concepts like subroutines, variable assignment and use of IDEs.
 
+**Hierarchal Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
-</ul>
- 
+**Description:** Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the lme4 R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the stan_glmer function in the rstanarm R package, proceed to the brm function in the brms R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model. 
+Prerequisites: Some experience with R (not necessarily the aforementioned packages) and some experience with MCMC (not necessarily Stan).
+
+**Population and ODE-based models using Stan and Torsten**. August 20, 21 afternoons. Instructors Charles Margossian, Yi Zhang.
+
+**Description** This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. 
+PDF of proposal [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
+
 
 
 # [Scholarships](#scholarships)
  Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
  
-<!--<h3>Sponsorships</h3>
- 
-We have bronze, silver, gold and platinum level sponsorships. Funds will go to scholarships and supporting Stan. Contact stanConCambridge@mc-stan.org for arrangements.
--->
 
 # [Registration](#registration)
 Registration for tutorials and conference is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link). 
@@ -108,7 +97,7 @@ If you require an invitation letter for visa or other purposes please fill out [
 
 # [Schedule](#schedule)
 
-The overall schedule is two days of tutorials, August 20, 21 2019 followed by two days of conference, August 22, 23. We will wrap up early on Friday the 23rd for people wanting to travel (3pm). 
+The overall schedule is two days of tutorials, August 20, 21 2019 followed by two days of conference, August 22, 23. 
 
 The rough conference schedule is 9am-5pm with invited talks being the first and last talks of the day. As speakers/paper acceptances come in we will update the schedule. 
 
@@ -158,13 +147,10 @@ King's Cross Station or Liverpool Street Station is a good option. London Stanst
 
 Buses from London Airports [here](https://www.nationalexpress.com/en).
 
-
 # [Sponsors](#sponsors)
 We would like to thank our sponsors who both support conference costs but scholarships and Stan as a whole. 
 
 <center style="padding: 0.75em 0 0 0">
-<!--<a href="http://corporate.elisa.com/"><img width="200" src="logos/logo-elisa_2x.png" /></a>
--->
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
