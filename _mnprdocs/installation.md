@@ -10,7 +10,7 @@ schema:
 
 ## Requirements
 * Maya 2017, 2018, 2019
-* Windows 10, MacOS and Linux (CentOS)
+* Windows 10 or Linux (CentOS)
 * Modern Graphics Card (Support for DirectX 11 or OpenGL 4.0, onwards)
 
 
