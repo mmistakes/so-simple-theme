@@ -19,7 +19,11 @@ Accepted submissions were given the option being a poster or 15 minute presentat
 
 [**Modeling**](#modeling)
 
-[**Stan Development**](#development)
+[**Pharmacutical**](#pharma)
+
+[**Core Stan**](#development)
+
+[**Inference**](#inference)
 
 ### [Modeling](#modeling)
 
@@ -37,18 +41,19 @@ Abstract: Torsten is a collection of functions to facilitate analysis of pharmac
 
   The population solution function feature is designed toward multi-level parallelization using Message Passing Interface(MPI). For that we first implemented Torsten's own ODE integrators based on CVODES library. Table 1 shows MPI performance results of such an integrator on a group of 1000 Lorenz systems.
 
-   n_processor  Walltime(ms)  Speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1        10986     1.00        1.00 
-             2          5505     2.00        1.00 
-             4          3091     3.55        0.89 
-             8          1459     7.53        0.94 
-            16         1355     8.11        0.51 
-            32           739    14.87       0.46 
-            64           424    25.91       0.40 
-           128          382    28.76       0.22 
-           256          284    38.68       0.15 
-           512          293    37.49       0.07 
+ 
+|n_processor|Walltime(ms)|Speedup|efficiency|
+|-------|--------|-------|-----| 
+|1|10986|1.00| 1.00|
+|2     |     5505  |   2.00    |    1.00 |
+|             4 |         3091 |    3.55  |      0.89| 
+|             8    |      1459   |  7.53   |     0.94 |
+|            16   |      1355 |    8.11  |      0.51 |
+|            32       |    739  |  14.87    |   0.46 |
+|            64      |     424 |   25.91     |  0.40 |
+|           128        |  382  |  28.76   |    0.22 |
+|           256     |     284  |  38.68    |   0.15 |
+|          512      |    293   | 37.49   |    0.07 |
   Table 1: MPI performance of the Lorenz model solved by Torsten's BDF
   integrator. (n_population = 1000)
 
