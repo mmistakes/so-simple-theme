@@ -75,54 +75,55 @@ Abstract: Torsten is a collection of functions to facilitate analysis of pharmac
 
   Then we developed MPI-based population solvers that are specifically designed for PKPD applications, for which ODE system size $n$ is typically in the scale of $10^0\sim 10^2$. We employ the latest standard(MPI-3) functionalities for latency hiding, and test the implementation on two MPI implementations (OpenMPI and MPICH). Tables 2-5 show performance results of one such function on a simple two-compartment PK model($n=3$) and a more complex PKPD model($n=8$), run on a METWORX workflow.
 
-   n_processor  Walltime(s)  speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1                     2966     1.00        1.00 
-             2                     1544     1.92        0.96 
-             4                       866     3.42        0.85 
-             8                       887     3.34        0.42 
-  Table 2: Parallel performance of solving a two-compartment population
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>      1       </td><td>              2966  </td><td>    1.00    </td><td>     1.00 </td></tr>
+<tr><td>      2        </td><td>              1544   </td><td>   1.92    </td><td>     0.96 </td></tr>
+<tr><td>      4         </td><td>               866  </td><td>    3.42   </td><td>      0.85 </td></tr>
+<tr><td>      8        </td><td>                887  </td><td>    3.34   </td><td>      0.42 </td></tr>
+</table>
+Table 2: Parallel performance of solving a two-compartment population
   model using pmx_solve_group_bdf and OpenMPI.
 
 
-   n_processor  Walltime(s)  speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1                    45791     1.00        1.00 
-             2                    23532     1.95        0.97 
-             4                    13421     3.41        0.85 
-             8                    10394     4.41        0.55 
-  Table 3: Parallel performance of solving a Neutropenia population
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>      1     </td><td>                45791  </td><td>    1.00  </td><td>       1.00 </td></tr>
+<tr><td>      2      </td><td>               23532  </td><td>    1.95    </td><td>     0.97 </td></tr>
+<tr><td>      4      </td><td>               13421  </td><td>    3.41    </td><td>     0.85 </td></tr>
+<tr><td>      8       </td><td>              10394  </td><td>    4.41    </td><td>     0.55 </td></tr>
+</table>
+Table 3: Parallel performance of solving a Neutropenia population
   model using pmx_solve_group_bdf and OpenMPI.
 
 
-   n_processor  Walltime(s)  speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1                      2470     1.00        1.00 
-             2                      1419     1.74        0.87 
-             4                      1170     2.11        0.53 
-             8                        860     2.87        0.36 
-  Table 4: Parallel performance of solving a two-compartment population
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>      1      </td><td>                 2470  </td><td>    1.00    </td><td>     1.00 </td></tr>
+<tr><td>      2     </td><td>                  1419   </td><td>   1.74     </td><td>    0.87 </td></tr>
+<tr><td>      4      </td><td>                 1170   </td><td>   2.11    </td><td>     0.53 </td></tr>
+<tr><td>      8      </td><td>                   860   </td><td>   2.87    </td><td>     0.36 </td></tr>
+</table>
+Table 4: Parallel performance of solving a two-compartment population
   model using pmx_solve_group_bdf and MPICH.
-
-   n_processor  Walltime(s)  speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1                      45087     1.00        1.00 
-             2                      22976     1.96        0.98 
-             4                      14158     3.18        0.80 
-             8                      10523     4.28        0.54 
-  Table 5: Parallel performance of solving a Neutropenia population
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>      1       </td><td>                45087  </td><td>    1.00    </td><td>     1.00 </td></tr>
+<tr><td>      2        </td><td>               22976   </td><td>   1.96    </td><td>     0.98 </td></tr>
+<tr><td>      4        </td><td>               14158   </td><td>   3.18    </td><td>     0.80 </td></tr>
+<tr><td>      8        </td><td>               10523   </td><td>   4.28    </td><td>     0.54 </td></tr>
+</table>
+Table 5: Parallel performance of solving a Neutropenia population
   model using pmx_solve_group_bdf and MPICH.
 
   In addtional to population-level parallelization, we are also implementing individual-level parallelization based on parallel time integration with multigrid.  This will enables us to reduce the solution time of a single ODE system, and create a multi-level parallelization for ODE-based population models. The results of a preliminary implementation are shown in Table 6.
 
-   n_processor  Walltime(s)  speedup  efficiency 
-  -------------------------------------------------------------------------------
-             1                        2.8     1.00        1.00 
-             2                        1.7     1.65        0.82 
-             4                        1.2     2.33        0.58 
-  Table 6: Parallel performance of solving 10^4 steps of a single
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>      1        </td><td>                 2.8   </td><td>   1.00   </td><td>      1.00 </td></tr>
+<tr><td>      2          </td><td>               1.7   </td><td>   1.65    </td><td>     0.82 </td></tr>
+<tr><td>      4          </td><td>               1.2   </td><td>   2.33    </td><td>     0.58 </td></tr>
+</table>  
+Table 6: Parallel performance of solving 10^4 steps of a single
   Neutropenia ODE system using parallel-in-time technique.
-  
-<i></i>. .<b></b>
 
-<i></i>. .<b></b>
