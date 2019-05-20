@@ -41,7 +41,7 @@ Abstract: Torsten is a collection of functions to facilitate analysis of pharmac
 
   The population solution function feature is designed toward multi-level parallelization using Message Passing Interface(MPI). For that we first implemented Torsten's own ODE integrators based on CVODES library. Table 1 shows MPI performance results of such an integrator on a group of 1000 Lorenz systems.
 
- 
+<!-- 
 |n_processor|Walltime(ms)|Speedup|efficiency|
 |-------|--------|-------|-----| 
 |1|10986|1.00| 1.00|
@@ -54,6 +54,22 @@ Abstract: Torsten is a collection of functions to facilitate analysis of pharmac
 |           128        |  382  |  28.76   |    0.22 |
 |           256     |     284  |  38.68    |   0.15 |
 |          512      |    293   | 37.49   |    0.07 |
+
+-->
+
+<table>
+<tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
+<tr><td>1</td><td>10986</td><td>1.00</td><td> 1.00</td></tr>
+<tr><td>2     </td><td>     5505  </td><td>   2.00    </td><td>    1.00 </td></tr>
+<tr><td>             4 </td><td>         3091 </td><td>    3.55  </td><td>      0.89</td></tr> 
+<tr><td>             8    </td><td>      1459   </td><td>  7.53   </td><td>     0.94 </td></tr>
+<tr><td>            16   </td><td>      1355 </td><td>    8.11  </td><td>      0.51 </td></tr>
+<tr><td>            32       </td><td>    739  </td><td>  14.87    </td><td>   0.46 </td></tr>
+<tr><td>            64      </td><td>     424 </td><td>   25.91     </td><td>  0.40 </td></tr>
+<tr><td>           128        </td><td>  382  </td><td>  28.76   </td><td>    0.22 </td></tr>
+<tr><td>           256     </td><td>     284  </td><td>  38.68    </td><td>   0.15 </td></tr>
+<tr><td>          512      </td><td>    293   </td><td> 37.49   </td><td>    0.07 </td></tr>
+</table>
   Table 1: MPI performance of the Lorenz model solved by Torsten's BDF
   integrator. (n_population = 1000)
 
