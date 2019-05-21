@@ -11,10 +11,12 @@ image:
 
 [Return to main StanCon page](https://mc-stan.org/events/stancon2019Cambridge/)
 
+Accepted submissions were given the option being a poster or 15 minute presentation. We expect to schedule 18-24 presentations, the rest will be posters. The schedule is still being finalized. Subject to change.
+
+
 * Pharmacuticals/Medicine
 	+ <i><b>Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
 Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Abstract](#1)
-
 	+ <i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2)
 	+ <i><b>Multi-channel Gaussian Processes as flexible alternatives to linear models: perspectives and challenges to scaling up Bayesian inference to genomic-scale data</b></i>. Caetano Souto-Maior, Susan T. Harbison. <b>Laboratory of Systems Genetics, National Heart Lung and Blood Institute, NIH.</b> [Abstract](#6)
 	+ <i><b>Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> [Abstract](#8)
@@ -23,6 +25,7 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> [Abstract](#17)
 	+ <i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> [Abstract](#18)
 	+ <i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> [Abstract](#19)
+	+ <i><b>A Bayesian multi-layered model to predict mechanisms, types, and severity of drug-induced liver injury</b></i>. Elizaveta Semenova, Dominic Williams, Stanley E Lazic. <b>Data Science and Quantitative Biology group, AstraZeneca, Cambridge UK</b> [Abstract](#34)
 
 
 
@@ -31,7 +34,7 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Gaussian process modeling and covariate selection for longitudinal data</b></i>. Juho Timonen, Aki Vehtari, Harri Lähdesmäki. <b>Aalto University</b> [Abstract](#3)
 	+ <i><b>Estimating the effect of age and league on scoring rate in professional soccer</b></i>. Benjamin Torvaney. <b>Wefarm</b>  [Abstract](#7)
 	+ <i><b>Hierarchical models for gamma-ray burst populations</b></i>. J. Michael Burgess. <b> MPE </b> [Abstract](#12)
-	+ <i><b>Title TBD</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16)
+	+ <i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16)
 	+ <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](#20)
 	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, Kaist. <b></b> [Abstract](#21)
 	+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
@@ -41,40 +44,29 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Abstract](#26)
 	+ <i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [Abstract](#27)
 	+ <i><b>A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [Abstract](#30)
-	+ 
-
-
-
-
-
-
-
+	+ <i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [Abstract](#31)
+	+ <i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [Abstract](#32)
+	+ <i><b>Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> [Abstract](#33)
 
 
 * Inference
-    + <i><b>A Proposed Sampler for Stan</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM) . <b></b> [Abstract](#4)
-
+    + <i><b>Making Stan Faster using Sequential Monte Carlo samplers</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM) . <b></b> [Abstract](#4)
     + <i><b>One weird trick: Non-parametric Bayesian updating by kernels</b></i>. Robert Grant. <b>BayesCamp</b> [Abstract](#5)
     + <i><b>Semiparametric Modeling of the Mean,Variance and Scale Parameters in Skew Normal Regression Models: A Bayesian Perspective</b></i>. Héctor Zarate. <b></b> [Abstract](#13)
-    + <i><b>Title TDB</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14)
+    + <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14)
     + <i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Abstract](#28)
     + <i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Abstract](#29)
 
 
-
-
-
-
-
 * Core Stan
 	+ <i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> [Abstract](#10)
+	+ <i><b>PyCmdStan</b></i>. Mitzi Morris. <b>Columbia University</b> [Abstract](#35)
+
 
 
 
 # Abstracts 
 
-
-Accepted submissions were given the option being a poster or 15 minute presentation. The schedule is still being finalized. Subject to change.
 
 <!--
 <i><b></b></i>. . <b></b> [Abstract](#)
@@ -87,6 +79,51 @@ Abstract:
 <hr>
 -->
 <!--==============================================-->
+
+
+
+<i><b id="35">PyCmdStan</b></i>. Mitzi Morris.<b>Columbia University</b> 
+Abstract:
+<hr>
+
+
+<i><b id="34">A Bayesian multi-layered model to predict mechanisms, types, and severity of drug-induced liver injury</b></i>. Elizaveta Semenova, Dominic Williams, Stanley E Lazic. <b>Data Science and Quantitative Biology group, AstraZeneca, Cambridge UK</b> 
+
+Abstract: Drug-induced liver injury (DILI) is a major cause of attrition in drug development and a common reason for withdrawing a drug from the market. Predicting clinical liver toxicity is difficult, but preclinical in vitro assays and physical/chemical properties of drugs can be used as predictors. We developed a multi-layered Bayesian model where we use assay results to predict the mechanism(s) of toxicity, use the mechanisms to predict the type of liver injury, and then combine the type of injury with the clinical dose of a drug to predict the severity of injury. The model therefore has a layered structure, enabling uncertainty to propagate through the layers. Based only on assay and physchem data, along with the clinical dose, the model enables safety pharmacologists to predict the severity, type, and mechanism of liver toxicity with good accuracy. 
+
+<hr>
+
+
+<i><b id="33">Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> 
+
+Abstract: The empirical question is modeling the time trend in corn yields in the United States. The model is used in crop insurance as well as predictions of the effects of climate change. We have 50 years of county level yield data and want to estimate a linear time trend model for each county. We want to smooth the intercept, slope, and distribution parameters across space. We have an existing R program that does this, but it runs very slowly. The plan is to create a similar model in STAN and compare the speed of the two programs. At the time of submission, we only have a simplified STAN model operational, but hope to have a fully operational and fully tested model by the time of the conference.
+
+<hr>
+
+
+<i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> 
+
+Abstract: The US has dramatically reduced blood lead levels in children over the past 30 years and that effort continues. New York City (NYC) was an early adopter of lead reduction policies and that effort continues with laws that require all children be tested and with mandatory interventions for those tested blood levels (tbll) greater than 5mg/dL. But there is a statistically interesting story around how current blood level limits are set, the performance of common tests and how to apply common Bayes rule reasoning to publicly available data. 
+
+The data we have: We have high quality blood lead level (bll) tests applied nation wide (NHANES) for 5,000 children, we have NYC supplied data that provides counts for all children's tested blood lead level, the number greater than 5mg/dL, 10mg/dL and 15/dL and claims of blood tests that widely vary from sources like FDA applications for blood testing equipment, actual studies of test performance and government testing standards.
+
+The data we want: New York city recently dropped the threshold for intervention from 10mg/dL to 5mg/dL. It is an open question what the false positive rate is for these test thresholds with some research suggesting that it is as high as 70%. On the other extreme is an FDA applications for the LeadCare Plus testing device claim a standard deviation of .5 at the 5mg/dL which suggests a very low false positive rate...but that depends on the distribution of actual blls in the NYC population. 
+
+How we got the data we wanted: This is a simple application of Bayes rule: p(bll > 5|t >5) = p(tbll > 5| bll>5) p(bll>5)/p(tbll>5) where we don't know p(bll>5) for NYC. NYC refused to release non-quantized data for tbll under FIOA requests, which if we had, would allow a fairly straightforward determination of false positive rates from tbll test evaluations. But we do have data for the US as a whole in non-quantized form. 
+
+The paper describes a process of model refinement staring with naive approaches and incrementally modifying our models to better suite NYC data. The final approach, subject to change as we do more work, is to fit national NHANES data with an exponential distribution, assume that similar distributions apply to NYC and recover a believable false positive rate across a range of reported blood test performance. Along the way we show an interesting simple use of the 'integrate_ode_rk45' function in Stan and demonstrate Bayesian workflow. 
+
+
+<hr>
+
+
+<i><b id="31">Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> 
+
+Abstract: Bayesian statistics is closely coupled with physics. The metropolis algorithm (1953) was developed by scientists working at Los Alamos as a method for thermodynamic simulation of molecular dynamics. Not until the work of W. K. Hastings (1970) was the method generalized to arbitrary probability distributions. Hamiltonian Monte Carlo is even more deeply rooted in physics than the Metropolis-Hastings algorithm. The simulation of states with velocities, energies, and a Hamiltonian describes nothing other than a physical system. It matches a canonical ensemble in that there is not a fixed energy between steps, only an overall fixed temperature. The temperature is usually only implicit, but some tempering methods simulate chains at higher temperatures to smooth the probability distributions. The Ising Model, a proxy for magnetization, is a prevalent introductory model in the study of statistical mechanics. It consists of an N-dimensional grid of spin up or down particles. The energy varies depending on the alignment of spins between nearest neighbors. At low temperatures spins tend to align on a macroscopic scale; at high temperatures they become evenly distributed. We simulate the XY Model, similar to the Ising Model but allowing spins to be represented by unit vectors in two dimensions, using Stan. We create chains at several temperatures to identify the locations of phase transitions in macroscopic properties. Our work shows the applicability of Stan for computation in continuous statistical mechanical problems.
+
+<hr>
+
+
 
 <i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> 
 
@@ -222,7 +259,7 @@ https://www.biosustain.dtu.dk/research/scientific-sections/quantitative-modellin
 
 <hr>
 
-<i><b id="16">Title TBD</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b>
+<i><b id="16">Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b>
 
 Abstract:A key step in the production of chocolate is the fermentation of cocoa beans. This importance relies on its role in the development of chocolate's flavor and aroma. Unlike other food fermentation processes, this specific fermentation is well known because of its lack of control and multiple ways in which it is performed. Here, a quantitative model of cocoa bean fermentation is constructed on previously available data regarding microbiological and metabolites dynamics. The model is formulated as a system of coupled ordinary differential equations (ODEs) with two different types of state variables: (1) Metabolite concentrations of glucose (Glc), fructose (Fru), ethanol (EtOH), lactic acid (LA) and acetic acid (Ac), and (2) population sizes of yeast (Y), lactic acid bacteria (LAB) and acetic acid bacteria (AAB). In total, the model comprehends 25 unknown parameters that were estimated using the Markov chain Monte Carlo No-U-Turn sampler in Rstan. Thereafter, we demonstrate that the model can quantitatively describe existing fermentation series and that the estimated parameters can be used to extract and interpret differences in environmental conditions between two independent fermentation trials [1].
 
@@ -242,7 +279,7 @@ In this talk we introduce a flexible family of Bayesian survival models that are
 
 <hr>
 
-<i><b id="14">Title TDB</b></i>. Jim Savage. <b>Schmidt Futures</b> 
+<i><b id="14">Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> 
 
 Abstract: In models of discrete choice, sensible-seeming priors on part-worth coefficients can imply priors in the choice probability space that are highly implausible, putting close to 100% prior weight on a single choice dominating all others. This problem reveals itself in problems with initialization and poor fit quality. Yet choosing priors is complicated by the research design, including the dimensionality of choice attributes, and their scale and covariance. In this talk I provide intuition for how priors and choice attributes interact to create extreme prior choice probabilities, and describe a new method to define priors that implies close-to-uniform weight in the choice probability space.
 
@@ -352,7 +389,7 @@ Abstract: One of the big attractions for people adopting Bayesian methods is the
 
 
 
-<i><b id="4">A Proposed Sampler for Stan</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM). <b></b> 
+<i><b id="4">Making Stan Faster using Sequential Monte Carlo samplers</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM). <b></b> 
 
 Abstract: Stan uses the No U-Turn Sampler (NUTS), a specific instance of Markov Chain Monte Carlo (MCMC). MCMC can be slow, e.g., when dimensionality is high and it would be better if NUTS was faster. We have recently been working to improve the run-time of a solution to problems that Stan can tackle (and those that it cannot, e.g. those that would require reversible jump MCMC). Our approach has been to replace NUTS with a variant of a Sequential Monte Carlo (SMC) sampler that uses the clever ideas embodied in NUTS without coupling them to MCMC specifically. SMC samplers manipulate a population of samples, making it possible to distribute computation across each of many processors. Our work has shown that SMC samplers can be configured to exploit this parallelism (and the advances that have led to the development of, for example, the use of NUTS as a proposal distribution). This can achieve faster run-time than MCMC in terms of the number of effective samples per second (by running the SMC sampler on clusters of hundreds of cores, as are routinely used in the context of Deep Learning, for example). Furthermore, we have shown that SMC samplers can be configured to outperform MCMC by making better use of the available processing resources. This is possible because MCMC’s convergence proofs require that the single sampling chain never goes wrong while the proofs for SMC samplers only require that the samples don’t all malfunction simultaneously. Put another way, SMC samplers have an additional degree of freedom in their design and this degree of freedom can be exploited to offer improved performance relative to MCMC. This talk will explain how SMC samplers can outperform MCMC per second and per flop. We will also describe our progress to date on integrating SMC samplers into Stan: our intent is to make it possible to use all Stan files. Thus far we’re able to achieve a runtime that is over an order of magnitude faster than MCMC.
 
