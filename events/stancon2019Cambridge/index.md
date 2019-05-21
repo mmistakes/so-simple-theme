@@ -17,7 +17,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Dates**](#dates)
 - [**Location**](#location)
 - [**Submissions (Posters due August 15, rolling acceptance)**](#submissions)
-- [**34 Accepted Abstracts (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
+- [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
 - [**Scholarships (May 1 deadline)**](#scholarships)
 - [**Registration (Rates go up 50% June 1)**](#registration)
@@ -62,9 +62,21 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
-**Stan for Programmers that don't Know much About Statistics**. August 20, 21 mornings with afternoon exercises. R based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
+**Introduction to Stan for Programmers. No statistics background required.** August 20, 21 mornings with afternoon exercises. R/Python based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
 
-**Description:** This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling so that you can proceed to learn more. We will cover the mechanics of how Stan programs work, show simple examples of regression and pooling. We presuppose that you are comfortable with general programming concepts like subroutines, variable assignment and use of IDEs.
+**Description:** This class is for those who don't know statistics but are interested in Bayesian modeling the Stan way. This tutorial will not cover as much ground as the above class but will get you working with the basics of Bayesian modeling so that you can proceed to learn more. Most importantly we get you through the awkward 'no idea phase' of learning a new technology to having a basic understanding of how to work with the software. We will cover the mechanics of how Stan programs work, show simple examples of regression and pooling. We presuppose that you are comfortable with general programming concepts like subroutines, variable assignment and use of IDEs. Both the R and Python interfaces to Stan will be covered. 
+
+**A Dive into Stan’s C++ Model Concept** August 20, afternoon. Instructor Daniel Lee. 
+
+**Description:** This will be a discussion partially driven by the participants. We will cover things like: 
+
+* how the Stan language is translated to C++ 
+* overview of the C++ model concept that’s generated 
+* how to use the math library for autodiff 
+* how to use the generated C++ model concept to write an inference algorithm in C++ 
+* opportunities in efficient computing once the C++ is generated
+
+Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan installed.
 
 **Hierarchal Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
