@@ -37,9 +37,13 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
 	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23)
 	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24)
-	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit. <b></b> [Abstract](#25)
+	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Abstract](#25)
 	+ <i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Abstract](#26)
 	+ <i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [Abstract](#27)
+	+ <i><b>A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [Abstract](#30)
+	+ 
+
+
 
 
 
@@ -53,6 +57,12 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
     + <i><b>One weird trick: Non-parametric Bayesian updating by kernels</b></i>. Robert Grant. <b>BayesCamp</b> [Abstract](#5)
     + <i><b>Semiparametric Modeling of the Mean,Variance and Scale Parameters in Skew Normal Regression Models: A Bayesian Perspective</b></i>. Héctor Zarate. <b></b> [Abstract](#13)
     + <i><b>Title TDB</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14)
+    + <i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Abstract](#28)
+    + <i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Abstract](#29)
+
+
+
+
 
 
 
@@ -78,12 +88,25 @@ Abstract:
 -->
 <!--==============================================-->
 
-<i><b></b></i>. . <b></b> [Abstract](#)
+<i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> 
+
+Abstract: State-space models are a popular choice in modelling voting intentions and election results by using poll data. The presented multivariate state-space model attempts to go beyond random-walk or Kalman-filter approaches (with comparable performance to simple weighted survey averages) to the problem by introducing a long-short term event memory effect. This effect serves as reasonable explanation to the observation that the voter's share partially tends to reverse to the party's long-term trend after larger short term movements. Any event influencing the voter's share of a party is presumed to have a convex shaped effect decomposable into a short term effect due to e.g. media spreading and a smaller long term effect remaining despite overlay effects of new events and forgetting. This effect is modelled by a mixture of a random walk and two contrasting autoregressive processes. By also taking advantage of the widely observed effect that government parties tend to fall in voter's share, whereas the opposite effect is observed for opposition parties, mid- and long-term predictions of election outcomes can be considerably be improved. The Stan-model is fitted and evaluated on poll data from seven pollsters for the German national elections ("Bundestagswahl") from 1994 to 2017, where low double digits (out-of-sample) improvements in prediction performance can be seen between 3- and 18-months prior elections. By taking into account the pollsters house effects, their poll errors and even more importantly their correlations in poll errors, an appropriate and realistic estimation error can be propagated. 
+
+<hr>
 
 
-<i><b id=""></b></i>. . <b></b> 
+<i><b id="29">Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> 
 
-Abstract:
+Abstract: Model inference, such as model comparison, model checking, and model selection, is an important part of model development. Leave-one-out cross-validation (LOO) is a general approach for assessing the generalizability of a model, but unfortunately, LOO does not scale well to large datasets. We propose a combination of using approximate inference techniques and probability-proportional-to-size-sampling (PPS) for fast LOO model evaluation for large datasets. We provide both theoretical and empirical results showing good properties for large data.
+
+<hr>
+
+
+<i><b id="28">Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> 
+
+Abstract: When working with multimodal posterior distributions, MCMC algorithms can have difficulty moving between modes, and default variational or mode-based approximate inferences can understate posterior uncertainty. And, even if the most important modes can be found, it is difficult to evaluate their relative weights in the posterior, which requires computing the integral of the posterior in the neighborhood of each mode.
+Here we propose an alternative approach, using parallel runs of MCMC, variational, or mode- based inferences to hit as many modes as possible, and then using Bayesian stacking to weight the set of simulations at each mode. Bayesian stacking is a method for constructing a weighted average of distributions so as to minimize cross-validated prediction errors. The result from stacking is not necessarily equivalent, even asymptotically, to fully Bayesian inference, but it serves many of the same goals.
+We discuss in the context of several theoretical and applied examples.
 
 <hr>
 
@@ -101,9 +124,16 @@ Abstract:A central theme in the field of survey statistics is estimating populat
 <hr>
 
 
-<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit. <b></b> 
+<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> 
 
-Abstract:Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population.
+
+Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population. 
+
+We derive a closed-form expression for the profit-maximizing test size and show that it is substantially smaller than that typically recommended for a hypothesis test, particularly when the response is noisy or when the total population is small. The common practice of using small holdout groups for media testing can be rationalized by asymmetric priors. The proposed test design achieves nearly the same expected regret as the flexible, yet harder-to-implement multi-armed bandit. 
+
+Adopting a Bayesian approach to experimental design requires informative priors. We show how priors can be estimated from data on past A/B test, using Stan to fit a hierarchical meta model. An R notebook will be provided which shows the complete process from meta-analysis of past experiments to determining the profit-maximizing sample size for the new A/B test. 
+
+A full paper is available at https://arxiv.org/abs/1811.00457. "
 
 <hr>
 
