@@ -11,51 +11,58 @@ image:
 
 [Return to main StanCon page](https://mc-stan.org/events/stancon2019Cambridge/)
 
+* Pharmacuticals
+	+ <i><b>Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
+Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Abstract](#1)
+
+	+ <i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2)
+
+* Inference
+
+	+ <i><b>Gaussian process modeling and covariate selection for longitudinal data</b></i>. Juho Timonen, Aki Vehtari, Harri Lähdesmäki. <b>Aalto University</b> [Abstract](#3)
+
+
+
+
+
+
+
 # Abstracts 
 
-# [Presentations/Posters](#accepted)
 
 Accepted submissions were given the option being a poster or 15 minute presentation. The schedule is still being finalized. Subject to change.
 
-[**Modeling**](#modeling)
+<i><b></b></i>. . <b></b> [Abstract](#)
 
-[**Pharmacutical**](#pharma)
 
-[**Core Stan**](#development)
+<i><b id=""></b></i>. . <b></b> 
 
-[**Inference**](#inference)
+Abstract:
 
-### [Modeling](#modeling)
+<hr>
 
-<i><b>Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
-Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>
+<i><b id="3">Gaussian process modeling and covariate selection for longitudinal data</b></i>. Juho Timonen, Aki Vehtari, Harri Lähdesmäki. <b>Alto University</b> 
+
+Abstract: Longitudinal data arises when the same observational units are measured repeatedly, and is common in clinical studies. Such data is often modeled using generalized linear mixed effect models with off-the-shelf software packages. These are, however, restricted to a parametric form and cannot model non-stationary disease effects. We demonstrate our new R-package for interpretable Bayesian non-parametric modeling of longitudinal data using additive Gaussian processes. Like the R-packages and brms, our goal is to provide an interface to Stan with a simple and intuitive syntax. However, our Stan program is specifically designed for Gaussian process modeling of longitudinal data, allowing the user to specify a model that mixes group and individual-specific age effects or effects of other continuous or categorical covariates. We show how our package uses Stan to model non-stationary disease effects and uncertainty of the observed disease onsets, identify heterogeneous effects present in only a subset of study subjects, and handles general non-Gaussian likelihoods. Furthermore, we define a way of resolving the relevance of any continuous or categorical covariate by sampling only one full model with all covariates included. Our focus is on biomedical applications, where is often vital to determine which covariates affect the response variable, in order to reduce future measurement costs or have a better interpretation about the progression of a disease.
+
+<hr>
+
+
+
+<i><b id="1">Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
+Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b> 
 
 Abstract: For the submission of a Biosimilar product, Biosimilarity assessment is the first step to achieve in the “Totality of Evidence” strategy as required by Authorities (e.g. FDA). The main objective of biosimilarity is to give evidence that the test biological product is as similar as possible to the reference product. The definition of ‘similar’ remains a critical component that needs to be addressed and justified. For biologicals, it is the process and its capability that should be evaluated, i.e. the risk of producing batches outside defendable limits. Thus, the first step is to set the acceptance limits. 
 β-expectation and (β,γ), also known as Beta-Gamma, tolerance intervals are useful metrics to demonstrate that a test product (i.e. the biosimilar) is similar to a reference product. Biosimilarity is concluded if the β-expectation of the biosimilar product is within the (β,γ) of the reference. β-expectation interval is constructed to contain a β proportion of the population on average. A (β,γ) tolerance interval on the other hand is built to contain at least a β proportion of the population with a confidence level γ. 
 In general, the pharmaceutical company producing the biosimilar has no access to the data of the reference product. Buying boxes of the reference product from several drugstores and analysing them is nevertheless one possible strategy to acquire knowledge on the process variability. Due to that sampling strategy, the distribution of the reference product can be quite exotic and it is likely that the distribution of the reference product is a mixture of normal distributions.
 Fitting a mixture of 2 normal distributions on data is performed using Stan. The output are the posterior distributions of the mean and standard deviation of the 2 normal distributions and the posterior distribution of the relative proportion of the 2 distributions. We present different algorithms to derive β-expectation and (β,γ) tolerance intervals for a mixture of 2 normal distributions. Using simulations, the operating characteristics of the intervals are shown (e.g. the capability to conclude similarity when it is actually similar).
 
-<i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b>
+<hr>
+<i><b id="2">Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b>
 
 Abstract: Torsten is a collection of functions to facilitate analysis of pharmacometric data using Stan. To seek an alternative to the ""map_rect"" function for within-chain parallel computation in Stan, we have implemented numerical ODE solution functions for population models with functional signatures that specify schedules of events such as doses and observations in a manner consistent with NONMEM compatible.
 
   The population solution function feature is designed toward multi-level parallelization using Message Passing Interface(MPI). For that we first implemented Torsten's own ODE integrators based on CVODES library. Table 1 shows MPI performance results of such an integrator on a group of 1000 Lorenz systems.
-
-<!-- 
-|n_processor|Walltime(ms)|Speedup|efficiency|
-|-------|--------|-------|-----| 
-|1|10986|1.00| 1.00|
-|2     |     5505  |   2.00    |    1.00 |
-|             4 |         3091 |    3.55  |      0.89| 
-|             8    |      1459   |  7.53   |     0.94 |
-|            16   |      1355 |    8.11  |      0.51 |
-|            32       |    739  |  14.87    |   0.46 |
-|            64      |     424 |   25.91     |  0.40 |
-|           128        |  382  |  28.76   |    0.22 |
-|           256     |     284  |  38.68    |   0.15 |
-|          512      |    293   | 37.49   |    0.07 |
-
--->
 
 <table>
 <tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
@@ -106,6 +113,7 @@ Table 3: Parallel performance of solving a Neutropenia population
 </table>
 Table 4: Parallel performance of solving a two-compartment population
   model using pmx_solve_group_bdf and MPICH.
+
 <table>
 <tr><td>n_processor</td><td>Walltime(ms)</td><td>Speedup</td><td>efficiency</td></tr>
 <tr><td>      1       </td><td>                45087  </td><td>    1.00    </td><td>     1.00 </td></tr>
@@ -127,3 +135,17 @@ Table 5: Parallel performance of solving a Neutropenia population
 Table 6: Parallel performance of solving 10^4 steps of a single
   Neutropenia ODE system using parallel-in-time technique.
 
+<hr>
+<i><b></b></i>. . <b></b>
+
+
+
+
+<hr>
+<i><b></b></i>. . <b></b>
+
+<hr>
+<i><b></b></i>. . <b></b>
+
+<hr>
+<i><b></b></i>. . <b></b>
