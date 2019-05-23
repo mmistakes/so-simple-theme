@@ -38,5 +38,5 @@ If you like what you find and would like to work with us, make sure to [drop us 
 
 
 <div class="responsive-twitter">
-<a class="twitter-timeline" height="100vh" href="https://twitter.com/{{site.author.twitter}}" data-chrome="nofooter noheader">News from Artineering</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" height="100vh" href="https://twitter.com/{{site.author.twitter}}" data-chrome="nofooter noheader">News from Artineering</a> 
 </div>
