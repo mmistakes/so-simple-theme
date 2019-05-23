@@ -14,14 +14,14 @@ image:
 Accepted submissions were given the option being a poster or 15 minute presentation. We expect to schedule 18-24 presentations, the rest will be posters. The schedule is still being finalized. Subject to change.
 
 
-* Pharmacuticals/Medicine
+* Pharmaceuticals/Medicine
 	+ <i><b>Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
 Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Abstract](#1)
 	+ <i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2)
 	+ <i><b>Multi-channel Gaussian Processes as flexible alternatives to linear models: perspectives and challenges to scaling up Bayesian inference to genomic-scale data</b></i>. Caetano Souto-Maior, Susan T. Harbison. <b>Laboratory of Systems Genetics, National Heart Lung and Blood Institute, NIH.</b> [Abstract](#6)
 	+ <i><b>Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> [Abstract](#8)
 	+ <i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> [Abstract](#11)
-	+ <i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Abstract](#15)
+	+ <i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Abstract](#15)
 	+ <i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> [Abstract](#17)
 	+ <i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> [Abstract](#18)
 	+ <i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> [Abstract](#19)
@@ -270,7 +270,7 @@ References
 <hr>
 
 
-<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> 
+<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>.  Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> 
 
 Abstract: Time-to-event data refers to the observed time from a defined origin (e.g. diagnosis of a disease) until a terminating event of interest (e.g. death). Time-to-event data emerges in a range of industries and scientific disciplines, although it is particularly common in medical and pharmaceutical research. In these research fields, time-to-event data is commonly known as survival data reflecting the fact that death is an event endpoint often used in clinical studies. Analyses of survival data are widely used for decision making in clinical trials, drug development and regulatory approvals. 
 
@@ -489,18 +489,3 @@ Table 5: Parallel performance of solving a Neutropenia population
 </table>  
 Table 6: Parallel performance of solving 10^4 steps of a single
   Neutropenia ODE system using parallel-in-time technique.
-
-<hr>
-<i><b></b></i>. . <b></b>
-
-
-
-
-<hr>
-<i><b></b></i>. . <b></b>
-
-<hr>
-<i><b></b></i>. . <b></b>
-
-<hr>
-<i><b></b></i>. . <b></b>
