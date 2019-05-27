@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
 
-<!-- cookie consent -->
+<!-- cookie consent by Osano - https://cookieconsent.osano.com/download/-->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 
@@ -44,6 +44,7 @@ function loadTwitterTimeline() {
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
+  //container: document.getElementById("aio-cookie-consent"),
   "palette": {
     "popup": {
       "background": "#000"
@@ -52,9 +53,10 @@ window.cookieconsent.initialise({
       "background": "#f1d600"
     }
   },
+  "theme": "edgeless",
   "type": "opt-out",
   "content": {
-    "href": "/legal/cookies-policy"
+    "href": "/legal/cookie-policy"
   },
   onInitialise: function (status) {
     var type = this.options.type;
@@ -85,6 +87,10 @@ window.cookieconsent.initialise({
     }
    }
 })});
+</script>
+
+<script type="text/javascript">
+  //$('#revoke-cookie').click(function() { $('.cc-revoke').addClass("aio-consent-visible") });
 </script>
 
 <!-- end custom head snippets -->

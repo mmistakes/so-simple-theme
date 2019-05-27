@@ -458,6 +458,23 @@ p .btn--aio {
   }
 }
 
+// FOOTER
+.aio-footer{
+  a {
+    margin: 0 1em;
+    line-height: 1em;
+    font-size: 0.75em;
+    text-decoration: none;
+    border-bottom: 1px dotted #a2a2a2;
+    color: $accent-color;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+    &:hover {
+      color: shade($accent-color, 25%);
+    }
+  }
+}
+
 // helpers
 .right05 { margin-right: 0.5em; }
 .right1 { margin-right: 1em; }
@@ -504,6 +521,21 @@ p .btn--aio {
     border-top: 0.25em solid black;
   }
 }
+
+
+/*
+   Osano cookie consent
+  ========================================================================== */
+// don't show popup on mobile after accepted or revoked
+.cc-revoke {
+  font-size: 0.75em;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
+}
+
+
 
 /*
    Slick carousel

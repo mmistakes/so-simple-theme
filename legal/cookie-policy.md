@@ -1,9 +1,12 @@
 ---
-title: Cookies Policy
+title: Cookie Policy
 layout: page
-excerpt: "Cookies Policy by Artineering"
+excerpt: "Cookie Policy by Artineering"
 schema:
 ---
+
+If you wish to revoke your cookie consent, please <a id="revoke-cookie">click here</a>. 
+{: .notice--info}
 
 Last updated: May 27, 2019
 
