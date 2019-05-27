@@ -45,18 +45,19 @@ function loadTwitterTimeline() {
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
   //container: document.getElementById("aio-cookie-consent"),
-  "palette": {
-    "popup": {
-      "background": "#000"
+  palette: {
+    popup: {
+      background: "#000"
     },
-    "button": {
-      "background": "#f1d600"
+    button: {
+      background: "#f1d600"
     }
   },
-  "theme": "edgeless",
-  "type": "opt-out",
-  "content": {
-    "href": "/legal/cookie-policy"
+  theme: "edgeless",
+  type: "opt-out",
+  content: {
+    href: "/legal/cookie-policy",
+    policy: 'Revise Cookies',
   },
   onInitialise: function (status) {
     var type = this.options.type;
