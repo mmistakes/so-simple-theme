@@ -41,8 +41,7 @@ Ex _[Lucasfilm](http://lucasfilm.com/)_ jedi, _[EF](https://www.joinef.com/)_ en
 
 <!--data-tweet-limit="3"-->
 <div class="responsive-twitter">
-<a class="twitter-timeline" height="100vh" href="https://twitter.com/{{author.twitter}}" data-widget-id="722401536261763072">Latest from @{{ author.twitter }}</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a class="twitter-timeline" height="100vh" href="https://twitter.com/{{author.twitter}}" data-widget-id="722401536261763072">Allow cookies to display News</a>
 </div>
 
 ## Blog
