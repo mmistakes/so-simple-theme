@@ -43,6 +43,10 @@ Example scenes can be found within the open-source [_MNPR_ release](/projects/Ma
 
 
 ## Installing the Substrates
+
+New releases come with all substrates included, so there is no need anymore to install them.
+{: .notice--info}
+
 A set of 10 different substrate textures (i.e., papers, canvas) are available for MNPRX. These can be downloaded in the application.
 1. In the _MNPRX shelf_, `right click on the 'tbox' shelf icon->Download MNPR substrates`.
 1. A small dialog will prompt, asking you if you want to download the files in the background (not supported on macOS) or download them manually.
