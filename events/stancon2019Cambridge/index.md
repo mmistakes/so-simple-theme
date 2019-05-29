@@ -12,6 +12,8 @@ image:
 StanCon 2019 is open for registration. Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: left;"}
 
+###[Registration Information Here](#registration)
+
 ------
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
@@ -82,9 +84,9 @@ We will be interfacing with Stan from R, but users of Python and other languages
 
 Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan installed.
 
-**Model assessment and selection** August 21, afternoon. Instructor Aki Vehtari.
+**Model assessment and selection** August 21, afternoon. Instructor Aki Veharti.
 
-**Description** In this tutorial I will review estimation of predictive performance of models in M-open seetting where we assume that none of the models is the true model. When we don’t trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting. 
+**Description** In this tutorial I will review estimation of predictive performance of models in M-open setting where we assume that none of the models is the true model. When we don’t trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting. 
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 
@@ -135,7 +137,7 @@ We have several options:
 
 * [Kings College Housing](http://www.kings.cam.ac.uk/conference-dining/accommodation.html). Reference code is STANCONAUG2019. At £120 (single occupancy) and £180 (double occupancy) per night. Includes breakfast and is the venue closest to tutorials/conference. More information [here](http://www.kings.cam.ac.uk/sites/default/files/conference_and_dining/kings_college_accommodation_2017.pdf).
 
-* [Hilton Cambridge City Centre](https://www3.hilton.com/en/hotels/united-kingdom/hilton-cambridge-city-centre-STNHCHI/index.html) (4-star hotel)
+<!--* [Hilton Cambridge City Centre](https://www3.hilton.com/en/hotels/united-kingdom/hilton-cambridge-city-centre-STNHCHI/index.html) (4-star hotel)
 20 Downing St, Cambridge CB2 3DT, 01223 464491. A 5 min walk to King's College 16 min walk to West Road Concert Hall.
 
 * [DoubleTree by Hilton Hotel](https://doubletree3.hilton.com/en/hotels/united-kingdom/doubletree-by-hilton-hotel-cambridge-city-centre-STNCBDI/index.html) (4-star hotel)
@@ -153,6 +155,7 @@ A 9 min walk to King's College 18 min walk to West Road Concert Hall
 * [The Lensfield Hotel](www.lensfieldhotel.co.uk/) (3-star hotel)
 53 Lensfield Rd, Cambridge CB2 1EN, 01223 355017.
 A 10 min walk to King's College 19 min walk to West Road Concert Hall
+-->
 
 * [Ibis Cambridge Central Station](https://www.accorhotels.com/gb/hotel-8548-ibis-cambridge-central-station/index.shtml) (3-star hotel)
 2 Station Square, Cambridge, CB12GA, 01223 320960.
