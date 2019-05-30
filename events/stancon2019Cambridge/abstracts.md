@@ -149,7 +149,35 @@ We discuss in the context of several theoretical and applied examples.
 
 <i><b id="27">Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> 
 
-Abstract: We derive a closed-form expression for the profit-maximizing test size and show that it is substantially smaller than that typically recommended for a hypothesis test, particularly when the response is noisy or when the total population is small. The common practice of using small holdout groups for media testing can be rationalized by asymmetric priors. The proposed test design achieves nearly the same expected regret as the flexible, yet harder-to-implement multi-armed bandit.
+Abstract: Chronikis (http://chronikis.org) is an open-source language for Bayesian time-series models that compiles to Stan and R. It currently focuses on linear state-space models, with plans to incrementally expand the class of supported models over time. The goal for Chronikis is to allow one to quickly and reliably create and apply a variety of models to a time series, doing a full Bayesian analysis on each.
+
+Thus the Chronikis language itself focuses on concise and clear model specification, and as far as possible the task of creating efficient estimation and forecasting code is left to the compiler. These twin goals are facilitated by making the Chronikis language fully declarative: the body of a Chronikis program is just an expression whose ""value"" is a probability distribution over time series.
+
+The compiler applies a series of semantics-preserving transformations to the body of a Chronikis program, eventually arriving at a form that it can straightforwardly translate to Stan. Along the way it infers types and shapes for all variables except the parameters of main(), reparameterizes in some cases to use non-centered parameterization, assigns each variable to the appropriate Stan block, and infers bounds for variables assigned to the parameters block.
+
+For the sake of clarity, Chronikis supports operations for constructing complex models from simpler components. For example, here is a Chronikis program for a random-walk model with observation noise:
+
+def main(s_rw, s_obs: real{0.0,}, mu0: real, sigma0: real{0.0,})
+  =
+  sigma_rw ~ half_cauchy(s_rw);
+  sigma_obs ~ half_cauchy(s_obs);  
+  accum(wn(sigma_rw)) + constp(mu0, sigma0) + wn(sigma_obs)
+
+Notes on the above:
+
+- The main() parameters s_rw, s_obs, mu0, and sigma0 are prior parameters.
+
+- sigma_rw^2 and sigma_obs^2 are the random-walk and observation-error variances.
+
+- wn(s) is a white noise process with variance s^2.
+
+- constp(m,s) is a distribution over constant time series, with a Normal(m,s) distribution for the constant value.
+
+- accum is an operator on time-series distributions; accum(D) is a time-series distribution whose draws are cumulative sums of a time series drawn from D.
+
+- Sum (+) is another operator on time-series distributions; D1 + D2 is a time-series distribution whose draws are the element-wise sum of independent draws from D1 and D2.
+
+Chronikis also has some innovative support for (quasi-)periodic time-series model components. The period can be arbitrarily large, and need not even be an integer. One can allow the periodic pattern to slowly change over time. There is a smoothness parameter, and this bounds the size of the latent state required, regardless of how large the period may be. Chronikis accomplishes all this by constructing a linear state-space model that approximates the zero-mean Gaussian process defined by variant of MacKay’s periodic kernel, modified to ensure that the realizations of the process are themselves zero-centered.
 
 <hr>
 
@@ -164,7 +192,7 @@ Abstract:A central theme in the field of survey statistics is estimating populat
 <i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> 
 
 
-Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population. 
+Abstract: Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population. 
 
 We derive a closed-form expression for the profit-maximizing test size and show that it is substantially smaller than that typically recommended for a hypothesis test, particularly when the response is noisy or when the total population is small. The common practice of using small holdout groups for media testing can be rationalized by asymmetric priors. The proposed test design achieves nearly the same expected regret as the flexible, yet harder-to-implement multi-armed bandit. 
 
