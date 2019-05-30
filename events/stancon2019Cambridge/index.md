@@ -12,7 +12,7 @@ image:
 StanCon 2019 is open for registration. Two days of tutorials followed by two days of talks, open discussions, and statistical modeling.
 {: style="font-size: 150%; text-align: left;"}
 
-###[Registration Information Here](#registration)
+### [Registration Information Here](#registration)
 
 ------
 - [**Sponsors**](#sponsors)
