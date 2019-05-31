@@ -84,7 +84,7 @@ We will be interfacing with Stan from R, but users of Python and other languages
 
 Please be comfortable with C++ or at least be willing to stare at blocks of ugly code. Please have CmdStan installed.
 
-**Model assessment and selection** August 21, afternoon. Instructor Aki Veharti.
+**Model assessment and selection** August 21, afternoon. Instructor Aki Vehtari.
 
 **Description** In this tutorial I will review estimation of predictive performance of models in M-open setting where we assume that none of the models is the true model. When we don’t trust our models, we can re-use data as a model-free proxy for the future data distribution. To adjust for data re-use we use leave-one-out cross-validation for exchangeable observations, K-fold cross-validation for group exchangeable observations, and m-step ahead validation for time series. I present how these performance estimates and related predictive distributions can be used for model comparison, averaging and checking. I discuss fast importance sampling approximation including useful diagnostics. Finally I discuss relations to alternative methods for model selection and weighting. 
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
