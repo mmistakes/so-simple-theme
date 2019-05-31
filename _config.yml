@@ -87,9 +87,9 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
+  name: Kari
+  picture: ./images/personal.jpg
+  email: yuank1987@163.com
   twitter:
   links:
     - title:
