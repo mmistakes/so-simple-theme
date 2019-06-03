@@ -45,7 +45,7 @@ I love [Docker](/tags/#docker), just love. If there any chance to apply it to he
 ## Experience <span>💻</span> ##
 
 ##### Remedy Point Solutions, Inc. #####
-director of engineering \| *September 2017 ... present*
+director of engineering \| *September 2017 ... May 2019*
 
 * Software architecture;
 * Development automatization;
