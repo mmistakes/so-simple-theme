@@ -8,7 +8,7 @@ schema:
 Effective date: June 5, 2019
 
 
-Artineering OÜ ("us", "we", or "our") operates the [artineering.io](artineering.io) website (hereinafter referred to as the "Service").
+Artineering OÜ ("us", "we", or "our") operates the [artineering.io](https://artineering.io) website (hereinafter referred to as the "Service").
 
 This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our Service and the choices you have associated with that data.
 

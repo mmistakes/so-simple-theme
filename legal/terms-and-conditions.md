@@ -8,7 +8,7 @@ schema:
 Last updated: June 5, 2019
 
 
-These Terms and Conditions ("Terms", "Terms and Conditions") govern your relationship with [artineering.io](artineering.io) website (the "Service") operated by Artineering OÜ ("us", "we", or "our").
+These Terms and Conditions ("Terms", "Terms and Conditions") govern your relationship with [artineering.io](https://artineering.io) website (the "Service") operated by Artineering OÜ ("us", "we", or "our").
 
 Please read these Terms and Conditions carefully before using the Service.
 
