@@ -19,33 +19,33 @@ The style configuration node gets selected when clicking on the `conf` icon in t
 	<figcaption>The configuration node showing all watercolor stylization attributes.</figcaption>
 </figure>
 
-## Engine Settings
-Engine settings remain the same across stylizations and contain attributes directly related to the MNPRX engine. These attributes can change the fidelity and performance of the stylization.
+## Engine
+Engine attributes remain the same across stylizations and contain attributes directly related to the MNPRX engine. These attributes can change the fidelity and performance of the stylization.
 
-### Color Depth
-Defines the color depth of the render targets. This generally translates to: higher is better. However, slower systems should consider using 8bit targets if the performance is too slow, provided you can sacrifice some color fidelity.
+### Style
+Defines the style that MNPRX is currently running in.
+* _Watercolor_ - The classic watercolor stylization that MNPRX is known for
+* _Viewport+_ - A viewport override with all the advantages of MNPRX
 
-### Render Scale
-Defines the resolution at which MNPR is rendering.
-* _Half_ will render at half the size, which will perform faster with slower computers, at the cost of pixilation.
-* _Normal_ will render at the normal viewport resolution.
-* _Double_ will render at twice the size and then reduce the rendered image to fit the viewport. You will have more detail and less aliasing, but make sure to have a powerful computer.
+The more MNPRX matures, the more styles it will support!
 
-{% include aio-hint.html %}You will get better antialiasing and more detail by using the _Render Scale_ attribute instead of _Antialiasing_.
+### Quality
+Defines the quality of the viewport rendering.
+* _Half_ - Render at half the resolution, which will perform faster with slower computers, at the cost of pixilation.
+* _Standard_ - Render at the normal resolution, without any bells and whistles.
+* _FXAA_ - Render at the normal resolution with _Fast Approximate Anti-Aliasing_, giving results with less jaggies (staircase effect).
+* _4x SSAA_ - Render at 4 times the normal resolution, to later bring it back to the normal resolution with _Super Sampling Anti-Aliasing_. You have much more detail and less jaggies (staircase effect).
+* _TAA_ - Renders many images at normal resolution with _Temporal Anti-Aliasing_ to perform progressive, super-sampled results. You will have more detail and **NO** jaggies (staircase effect). Enabling TAA will also show a _TAA Samples_ attribute directly underneath. Within this attribute, you can define the amount of image samples that the _TAA_ quality uses to create the final result.
 
-### Antialiasing
-Defines the algorithm used to perform antialiasing. Antialiasing makes edges appear smoother and less pixelated, you can find more about what aliasing is [here](https://www.youtube.com/watch?v=hqi0114mwtY)
+Anti-aliasing makes edges appear smoother and less pixelated, you can find more about what aliasing is [here](https://www.youtube.com/watch?v=hqi0114mwtY)
 <figure class="pull-center half">
 	<img src="/images/MNPRX/AA1.png" alt="Close-up without antialiasing" style="max-width: 150px">
 	<img src="/images/MNPRX/AA2.png" alt="Close-up with antialiasing" style="max-width: 150px">
-	<figcaption>Close-up of image without and with FXAA antialiasing.</figcaption>
+	<figcaption>Close-up of image at Standard quality and with FXAA quality.</figcaption>
 </figure>
 
-### World Scale
-Defines how many _Maya_ units is considered one meter/cm (normal/miniature) in the virtual world. Since most projects work with assets at different scales, setting up the _World Scale_ right will help the stylization behave correctly.
-
-If your character is supposed to be one meter high in his world, but is actually 5 units high in _Maya_, the _World Scale_ attribute should be set to 5.
-{: .notice--info}
+### Color Depth
+Defines the color depth of the render targets. This generally translates to: higher is better. However, slower systems should consider using 8bit targets if the performance is too slow, provided you can sacrifice some color fidelity.
 
 ### Velocity PV
 Enables the calculation of motion vectors of each object in the scene (per vertex). This helps certain effects to remain motion coherent and avoid the _shower door effect_, albeit with a substantial performance cost. Therefore, this attribute should be activated mainly when rendering the final frames.
@@ -58,6 +58,17 @@ Enables the calculation of motion vectors of each object in the scene (per verte
 </figure>
 
 {% include aio-hint.html %} Big amounts of motion will distort substrate-based effects. It is recommended to refresh the substrate with the _Substrate Tile_ attribute once in a while to reset the substrate texture.
+
+---
+
+## General
+General attributes concern all stylizations and contain general attributes that change the overall result.
+
+### World Scale
+Defines how many _Maya_ units is considered one meter/cm (normal/miniature) in the virtual world. Since most projects work with assets at different scales, setting up the _World Scale_ right will help the stylization behave correctly.
+
+If your character is supposed to be one meter high in his world, but is actually 5 units high in _Maya_, the _World Scale_ attribute should be set to 5.
+{: .notice--info}
 
 ### Atmosphere Tint
 Defines a custom atmospheric perspective color, making things at distance tint towards the specified color.
@@ -133,79 +144,20 @@ Defines the maximum global width of the gaps & overlaps effect.
 -----------
 
 
-## Substrate Attributes
+## Substrate
 Substrate attributes contain the attributes of the texture where paint is applied on, be it paper or canvas. Altering these attributes will affect all effects that depend on the substrate for its stylization.
 
-### Substrate Texture
-Defines the primary texture that is going to be used as the substrate. There is currently a [library](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/HI7GT7) of 10 different substrate textures to choose from. To create your own substrate textures, compatible with MNPRX, [check out this tutorial](https://mnpr.artineering.io/substrates/extraction-tutorial).
-
-### Substrate Texture Alt
-Defines the alternative texture that is going to be used as the substrate.
+###	Substrate Distortion
+Defines the global amount of distortion caused by the _Substrate Roughness_.
 
 ### Substrate Blend
-Defines the blending between the _Substrate Texture_ and the _Substrate Texture Alt_, allowing you to combine profile properties of different substrates.
+Defines the blending between the _Substrate Texture_ (_Main Substrate_ group) and the _Substrate Texture Alt_ (_Alternate Substrate_ group), allowing you to combine profile properties of different substrates.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/substrate/substrate-blend.mp4" type="video/mp4">
 	</video>
 	<figcaption>Blending between the Substrate Texture (default) and the Substrate Texture Alt (canvas).</figcaption>
 </figure>
-
-###	Substrate Scale
-Defines the scale of the substrate texture. A _Substrate Scale_ of `1` will show the texture at its original size, whereas a _Substrate Scale_ of `2` would make it twice as big.
-
-### Substrate Tile Blend
-Enables to smoothly blend two substrate tiles. That means that the _Substrate Tile_ attribute will smoothly blend the tiles e.g., a _Substrate Tile_ attribute of `1.5` will be a blend of the tile at 1.0 and the tile at 2.0.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/substrate/substrate-tile-blend.mp4" type="video/mp4">
-	</video>
-	<figcaption>Blending between Substrate Tile 1.0 and Substrate Tile 2.0.</figcaption>
-</figure>
-
-### Substrate Tile
-Loads a new substrate tile at every round number i.e., `1.0`, `2.0`, `3.0`.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/substrate/substrate-tile.mp4" type="video/mp4">
-	</video>
-	<figcaption>Switching between Substrate Tile 1.0 and Substrate Tile 2.0, without Substrate Tile Blend.</figcaption>
-</figure>
-
-Loading a new _Substrate Tile_ will present a new texture pattern and reset every substrate-dependent effect.
-{: .notice--info}
-
-###	Substrate Roughness
-Defines the global roughness of the substrate.
-
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/substrate/substrate-roughness.mp4" type="video/mp4">
-	</video>
-	<figcaption>Roughness between 0 and 5.0.</figcaption>
-</figure>
-
-_Substrate Roughness_ will affect **all** substrate-based effects.
-{: .notice--warning}
-
-###	Substrate Distortion
-Defines the global amount of distortion caused by the _Substrate Roughness_.
-
-### Substrate Color
-Defines the color of the substrate.
-
-###	Substrate Shading
-Defines the amount of external diffuse shading of the substrate.
-
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/substrate/substrate-shading.mp4" type="video/mp4">
-	</video>
-	<figcaption>Substrate Shading between 1.0 and 0.</figcaption>
-</figure>
-
-The shading is caused by the _Substrate Light Dir_ and _Substrate Light Tilt_ attributes.
-{: .notice--info}
 
 ###	Substrate Light Dir.
 Defines the side where the external light is shining from. `0` degrees is from the bottom, `90` degrees is from the left, `180` degrees from the top and `270` degrees is from the right.
@@ -232,6 +184,72 @@ Defines the tilt angle of the external light in relation to the substrate, 90 de
 The effect of this attribute can only be seen if _Substrate Shading_ is more than `0`.
 {: .notice--warning}
 
+## Main Substrate
+Contains the attributes that define the main substrate texture of the stylization.
+
+### Substrate Texture
+Defines the main texture that is going to be used as the substrate. There is currently a [library](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/HI7GT7) of 10 different substrate textures to choose from. To create your own substrate textures, compatible with MNPRX, [check out this tutorial](https://mnpr.artineering.io/substrates/extraction-tutorial).
+
+### Substrate Color
+Defines the color of the substrate.
+
+###	Substrate Scale
+Defines the scale of the substrate texture. A _Substrate Scale_ of `1` will show the texture at its original size, whereas a _Substrate Scale_ of `2` would make it twice as big.
+
+###	Substrate Roughness
+Defines the global roughness of the substrate.
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/substrate/substrate-roughness.mp4" type="video/mp4">
+	</video>
+	<figcaption>Roughness between 0 and 5.0.</figcaption>
+</figure>
+
+_Substrate Roughness_ will affect **all** substrate-based effects.
+{: .notice--warning}
+
+###	Substrate Shading
+Defines the amount of external diffuse shading of the substrate.
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/substrate/substrate-shading.mp4" type="video/mp4">
+	</video>
+	<figcaption>Substrate Shading between 1.0 and 0.</figcaption>
+</figure>
+
+The shading is caused by the _Substrate Light Dir_ and _Substrate Light Tilt_ attributes.
+{: .notice--info}
+
+### Substrate Tile
+Loads a new substrate tile at every round number i.e., `1.0`, `2.0`, `3.0`.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/substrate/substrate-tile.mp4" type="video/mp4">
+	</video>
+	<figcaption>Switching between Substrate Tile 1.0 and Substrate Tile 2.0, without Substrate Tile Blend.</figcaption>
+</figure>
+
+Loading a new _Substrate Tile_ will present a new texture pattern and reset every substrate-dependent effect.
+{: .notice--info}
+
+### Substrate Tile Blend
+Enables to smoothly blend two substrate tiles. That means that the _Substrate Tile_ attribute will smoothly blend the tiles e.g., a _Substrate Tile_ attribute of `1.5` will be a blend of the tile at 1.0 and the tile at 2.0.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/substrate/substrate-tile-blend.mp4" type="video/mp4">
+	</video>
+	<figcaption>Blending between Substrate Tile 1.0 and Substrate Tile 2.0.</figcaption>
+</figure>
+
+## Alternate Substrate
+Contains the attributes that define the alternate substrate texture of the stylization. This group is closed by default, but can be opened by clicking on it.
+
+### Substrate Texture Alt
+Defines the alternate texture that is going to be used as the substrate.
+
+
 -----------
 
 ## Post Processing
@@ -240,5 +258,6 @@ Post Processing attributes contain simple but useful self-explanatory post-proce
 * Contrast
 * Brightness
 
+This group is closed by default, but can be opened by clicking on it.
 
 {% include toc-side %}

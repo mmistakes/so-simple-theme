@@ -19,7 +19,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Basics
-### [Installation](installation)
+### [Installation](installation) {% include aio-new.html %}
 ### [Updating MNPRX](update)
 ### [MNPRX Shelf](shelf)
 </div>
@@ -27,8 +27,8 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Styles
 ### [Presets](style-presets)
-### [Configuration](config)
-### [Import/Export](import-export) {% include aio-new.html %}
+### [Configuration](config) {% include aio-new.html %}
+### [Import/Export](import-export)
 </div>
 
 <div class="doc-element" markdown="1">
@@ -40,16 +40,16 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [Basics](art-direction) {% include aio-wip.html %}
-### [NoiseFX](noiseFX) {% include aio-wip.html %}
-### [PaintFX](paintFX) {% include aio-wip.html %}
+### [Basics](art-direction) {% include aio-new.html %}
+### [NoiseFX](noiseFX) {% include aio-new.html %}
+### [PaintFX](paintFX) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Rendering
-### [Rendering](rendering) {% include aio-wip.html %}
-### [External Renderer](external-renderers) {% include aio-wip.html %}
-### [MNPRX Toolbox](toolbox) {% include aio-wip.html %}
+### [Rendering](rendering) {% include aio-new.html %}
+### [External Renderer](external-renderers) {% include aio-new.html %}
+### [MNPRX Toolbox](toolbox) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
@@ -65,4 +65,4 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 </div>
 
 
-I would be happy to include further documentation in this website, so do not hesitate to [contact me](/about) if you wish to have further clarification on certain features.
+We would be happy to include further documentation in this website, so do not hesitate to [contact us](/about) if you wish to have further clarification on certain features.

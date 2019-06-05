@@ -12,7 +12,7 @@ Importing/exporting the stylization is crucial in professional production workfl
 {: .top2}
 
 <figure class="align-center">
-	<img src="/images/MNPRX/MNPRX-Toolbox.png" alt="MNPRX Toolbox" style="width:300px;">
+	<img src="/images/MNPRX/tbox.png" alt="MNPRX Toolbox" style="width:300px;">
 	<figcaption>The MNPRX Toolbox contains a growing set of useful tools for production.</figcaption>
 </figure>
 
