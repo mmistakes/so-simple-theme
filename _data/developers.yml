@@ -247,3 +247,15 @@
 - name: Andre Zapico
   affiliation: University of North Carolina
   github: drezap
+
+- name: Ryan Bernstein
+  affiliation: Columbia University
+  github: rybern
+  email: ryan.bernstein@columbia.edu
+
+- name: Michael Thomas
+  email : enetsee@gmail.com
+  twitter: enetsee
+  github: enetsee
+  linkedin: https://www.linkedin.com/in/michael-thomas-38620943/
+  avatar: michael_thomas.jpg
