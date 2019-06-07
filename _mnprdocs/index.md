@@ -18,10 +18,18 @@ schema: SoftwareApplication
 As MNPRX continues to grow, it has become indispensable to document all its functions, which can be found here. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
 
 <div class="doc-element" markdown="1">
-## Basics
+## Installation
 ### [Installation](installation) {% include aio-new.html %}
+### [Licensing](licensing) {% include aio-wip.html %}
 ### [Updating MNPRX](update)
+</div>
+
+
+<div class="doc-element top-1" markdown="1">
+## Basics
 ### [MNPRX Shelf](shelf)
+### [Art-direction](art-direction) {% include aio-wip.html %}
+### [Rendering](rendering) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
@@ -40,16 +48,9 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [Basics](art-direction) {% include aio-new.html %}
-### [NoiseFX](noiseFX) {% include aio-new.html %}
-### [PaintFX](paintFX) {% include aio-new.html %}
-</div>
-
-<div class="doc-element" markdown="1">
-## Rendering
-### [Rendering](rendering) {% include aio-new.html %}
-### [External Renderer](external-renderers) {% include aio-new.html %}
-### [MNPRX Toolbox](toolbox) {% include aio-new.html %}
+### [NoiseFX](noiseFX) {% include aio-wip.html %}
+### [PaintFX](paintFX) {% include aio-wip.html %}
+### [MNPRX Toolbox](toolbox) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1">
@@ -61,6 +62,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Integrations
+### [External Renderer](external-renderers) {% include aio-wip.html %}
 ### [Watercolor in Nuke](watercolor-nuke) {% include aio-wip.html %}
 </div>
 

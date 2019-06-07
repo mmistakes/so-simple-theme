@@ -10,24 +10,22 @@ schema:
 
 ## Requirements
 * Maya 2017, 2018, 2019
-* Windows 10 or Linux (CentOS)
-* Modern Graphics Card (Support for DirectX 11 or OpenGL 4.0, onwards)
+* Windows 10 (Linux [CentOS] and Mac upon request for _Studio_ licenses)
+* Modern Graphics Card (2+ GB recommended)
 
 
 ## Get MNPRX
-* _MNPRX_ is the professional version of [_MNPR_](/projects/Maya-NPR).
-* It is provided upon request and customized to your production requirements.
-* [Get in touch with me](/about) if you are interested in using it for your animated production.
+Get a non-commercial or commercial version of MNPRX [here](/projects/MNPRX/).
 
 
 ## Installation
-{: #installation}
 The installation of MNPRX is intended to be the least invasive, so you won't need to change anything in _Maya_ or place files in any particular place.
 1. Extract the contents of the MNPRX zip file anywhere you want e.g., documents, desktop, the project folder, you get the drill.
 1. Drag and drop the _install.mel_ file from the MNPR folder into one of the _Maya_ viewports. The _install.mel_ will then run in the background and automatically add the MNPRX paths in your _Maya.env_ file.
 1. If successful, a prompt will appear in _Maya_, asking you to restart the application, please do so to show all changes.
 1. Once you open _Maya_ again, the [_MNPRX shelf_](../shelf) will appear alongside the other shelves.
-1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button
+1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button.
+1. If MNPRX has not been activated before, the [activation prompt](/projects/MNPRX/docs/licensing/#activating-a-license) will appear.
 
 A video showing this installation process can be seen below:
 {% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" width="90%" %}
@@ -58,6 +56,7 @@ A set of 10 different substrate textures (i.e., papers, canvas) are available fo
 ## FAQ
 _**I can't get the system to install using the install.mel file, what can I do?**_<br>
 It doesn't usually happen, but if the _install.mel_ installation doesn't work, there are two ways of manually installing MNPRX:
+
 _Solution 1: Temporarily remove the content in the Maya environment file_
 
 1. Copy the existing content of _Maya.env_ to another file.
@@ -78,21 +77,11 @@ _Solution 2: Insert the system paths manually to the Maya environment_
 MAYA_SHELF_PATH=#YOURMNPRXPATH#\shelves;
 MNPR_PATH=#YOURMNPRXPATH#;
 MAYA_PLUG_IN_PATH=#YOURMNPRXPATH#\plugins\#MAYAVERSION#\win;
+PATH=#YOURMNPRXPATH#\plugins\#MAYAVERSION#\win;
 PYTHONPATH=#YOURMNPRXPATH#\scripts;
 MAYA_SCRIPT_PATH=#YOURMNPRXPATH#\scripts;
 XBMLANGPATH=#YOURMNPRXPATH#\icons;
 MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1;
-```
-
-**Environment variables on MacOS**
-```python
-MAYA_SHELF_PATH=#YOURMNPRXPATH#/shelves:
-MNPR_PATH=#YOURMNPRXPATH#:
-MAYA_PLUG_IN_PATH=#YOURMNPRXPATH#/plugins/#MAYAVERSION#/mac:
-PYTHONPATH=#YOURMNPRXPATH#/scripts:
-MAYA_SCRIPT_PATH=#YOURMNPRXPATH#/scripts:
-XBMLANGPATH=#YOURMNPRXPATH#/icons:
-MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
 ```
 
 **Environment variables on Linux**
@@ -100,9 +89,22 @@ MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
 MAYA_SHELF_PATH=#YOURMNPRXPATH#/shelves:
 MNPR_PATH=#YOURMNPRXPATH#:
 MAYA_PLUG_IN_PATH=#YOURMNPRXPATH#/plugins/#MAYAVERSION#/linux:
+PATH=#YOURMNPRXPATH#/plugins/#MAYAVERSION#/linux:
 PYTHONPATH=#YOURMNPRXPATH#/scripts:
 MAYA_SCRIPT_PATH=#YOURMNPRXPATH#/scripts:
 XBMLANGPATH=#YOURMNPRXPATH#/icons%B:
+MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
+```
+
+**Environment variables on MacOS**
+```python
+MAYA_SHELF_PATH=#YOURMNPRXPATH#/shelves:
+MNPR_PATH=#YOURMNPRXPATH#:
+MAYA_PLUG_IN_PATH=#YOURMNPRXPATH#/plugins/#MAYAVERSION#/mac:
+PATH=#YOURMNPRXPATH#/plugins/#MAYAVERSION#/mac:
+PYTHONPATH=#YOURMNPRXPATH#/scripts:
+MAYA_SCRIPT_PATH=#YOURMNPRXPATH#/scripts:
+XBMLANGPATH=#YOURMNPRXPATH#/icons:
 MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
 ```
 
