@@ -32,7 +32,7 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
-## Multilevel Linear Models using Rstanarm
+## A Dyadic Item Response Theory Model: Stan Case Study
 
 <small>In this case study, we use Stan to fit the Dyadic Item Response Theory (dIRT) model proposed by (Gin et al. 2019) to measure interactions between pairs of individuals when the responses to items represent the actions/behaviors/perceptions of an individual (called the 'actor') made within the context of a dyad formed with another individual (called the 'partner'). The dIRT model is fit using Stan (version 2.18.1) in R via the rstan package.
 .</small>
