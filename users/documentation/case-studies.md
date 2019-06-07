@@ -27,6 +27,34 @@ versions noted and seeds fixed)</span> and
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+# *Stan Case Studies*, &nbsp; Volume 6 &nbsp; (2019)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Multilevel Linear Models using Rstanarm
+
+<small>In this case study, we use Stan to fit the Dyadic Item Response Theory (dIRT) model proposed by (Gin et al. 2019) to measure interactions between pairs of individuals when the responses to items represent the actions/behaviors/perceptions of an individual (called the 'actor') made within the context of a dyad formed with another individual (called the 'partner'). The dIRT model is fit using Stan (version 2.18.1) in R via the rstan package.
+.</small>
+
+[View](case-studies/dyadic_irt_model.html) <span class="note">(HTML)</span>
+
+Author
+: Nicholas Sim, Brian Gin, Anders Skrondal and Sophia Rabe-Hesketh
+
+Keywords
+: item response theory, social relations model, dyadic data
+
+Source Repository
+: [example-models/education/dyadic_irt_model](https://github.com/education-stan/example-models/tree/master/education/dyadic_irt_model)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, tidyverse</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 # *Stan Case Studies*, &nbsp; Volume 5 &nbsp; (2018)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
