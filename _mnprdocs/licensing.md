@@ -43,7 +43,14 @@ After clicking **Activate with key**, enter the activation code that you receive
 	<figcaption>Enter your activation code in the text box and click OK.</figcaption>
 </figure>
 
-After MNPRX checks that the key is valid, and if the license has not yet been activated, you will be prompted for confirmation. Click **Activate** to confirm and activate this machine, or **Cancel** to abort activation and run as non-commercial for this run of Maya:
+After MNPRX checks that the key is valid, and if the license has not yet been activated, you will be prompted with the End-User-License Agreement (EULA):
+
+<figure class="align-center">
+	<img src="/images/MNPRX/licensing/eula.png" alt="End-User-License Agreement dialog" style="max-width: 400px">
+	<figcaption>End-User-License Agreement (EULA).</figcaption>
+</figure>
+
+Once you have read and agree to the End-User License Agreement, click on **I Agree**. You will then be asked to activate your license on the machine. Click **Activate** to confirm and activate this machine, or **Cancel** to abort activation.
 
 <figure class="align-center">
 	<img src="/images/MNPRX/licensing/activation-confirmation.png" alt="Confirm activation" style="max-width: 500px">
@@ -64,10 +71,15 @@ In case the activation code is not valid, or the existing license is no longer v
 
 
 ## FAQ
+_**I've activated the non-commercial version of MNPRX previously and now want to activate an Indie or Studio license**_  
+First of all, thanks for supporting us and purchasing our software!  
+To remove the prior non-commercial license, simply delete the license file at `$MAYA_APP_DIR/MNPRX.lic` ([_MAYA_APP_DIR_ location](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-EnvVar/files/GUID-228CCA33-4AFE-4380-8C3D-18D23F7EAC72-htm.html?st=$MAYA_APP_DIR)) and restart _Maya_ to run the MNPRX activation process again.
+
+
 _**My activation failed with the activation code that was given**_  
 If for some reason activation fails, make sure to try the following:
 * Double-check the inputted activation code.
-* Check that your license or subscription has not expired.
+* Check that your subscription has not expired and that you have not activated all available licenses within the past 24 hours.
 * Delete the license file at `$MAYA_APP_DIR/MNPRX.lic` ([_MAYA_APP_DIR_ location](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-EnvVar/files/GUID-228CCA33-4AFE-4380-8C3D-18D23F7EAC72-htm.html?st=$MAYA_APP_DIR)) to reset the license, restart _Maya_ and try to activate again.
 
 If the issue persists, please [contact sales](/contact/) so that we can get you onboard as soon as possible.
