@@ -15,7 +15,7 @@ Primary language is [PHP](/tags/#php) but also I have well experience with JavaS
 Another passion is development and deployment automatization. I have deployed a number of applications from scratch on DigitalOcean and AWS infrastructures.
 I work with [Terraform](/tags/#terraform) to automate and to speed up any kind of service deployment. I use Fastlane to automate mobile builds and to deliver staging versions.
 
-I love [Docker](/tags/#docker), just love. If there any chance to apply it to help with software deployments, and code delivery - I do it.
+I love [Docker](/tags/#docker), just love. If there any chance to apply it to help with software development & code delivery - I do it.
 
 ---
 
@@ -96,3 +96,7 @@ full-stack developer \| *February 2011 ... March 2013*
 
 #### Belarusian State University of Informatics and Radioelectronics ####
 Bachelor's degree, Computer Software Engineering \| *2009 ... 2014*
+
+## Downloads ##
+
+[Sergey Kuzmich [PDF]](/assets/media/Sergey%20Kuzmich.pdf){: .btn}
