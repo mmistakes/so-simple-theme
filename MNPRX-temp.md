@@ -8,7 +8,6 @@ year: 2018-current
 tags: [MNPRX, NPR, Real-time, Maya, Software]
 image:
   path: images/headers/MNPRX.jpg
-  caption: Stylized rendering for Autodesk Maya
   card: images/cards/MNPRX.jpg
   thumbnail: images/tiles/MNPRX.png
 comments: true
@@ -32,11 +31,13 @@ schema: SoftwareSourceCode
 <div class="aio-section mnprx-stylized full-width" markdown="1">
 ## Stylized 3D
 Growing library of styles with powerful [painterly materials](/projects/MNPRX/docs/uber/) and [proxies](/projects/MNPRX/docs/proxy/) that drive the stylization and its aesthetic effects within 3D space.
+<div class="overview-image-caption"><span>Baba Yaga's Hut, scene by Inuciian</span></div>
 </div>
 
 <div class="aio-section mnprx-art-direction full-width" markdown="1">
 ## Art-direction
 Artist-friendly tool palette to interactively art-direct stylizations at multiple levels of control and transfer the stylization between scenes.
+<div class="overview-image-caption"><span>Four different levels of control</span></div>
 </div>
 
 <div class="aio-section full-width" markdown="1">
@@ -47,16 +48,19 @@ Artist-friendly tool palette to interactively art-direct stylizations at multipl
       <source src="/images/MNPRX/real-time.mp4" type="video/mp4">
     </video>
   </div>
+  <div class="overview-image-caption"><span>Run Totti Run, short film by Shad Bradbury</span></div>
 </div>
 
 <div class="aio-section mnprx-integration full-width" markdown="1">
 ## Integration with offline workflows
 Combine MNPRX with offline rendered passes for unmatched flexibility during compositing with global illumination, soft shadows, reflections and refractions.
+<div class="overview-image-caption"><span>Wiz Biz, model by Tom Robinson</span></div>
 </div>
 
 <div class="aio-section mnprx-customization full-width" markdown="1">
 ## Customized development through our [R&D packages](/services)
 Let us customize and advance our software to fit your desired style and production requirements through our [R&D packages](/services).
+<div class="overview-image-caption"><span>Scene stylized by Joan Cabot</span></div>
 </div>
 </div>
 
@@ -163,7 +167,6 @@ We are committed keep MNPRX accessible to everyone through our non-commercial an
   <option value="8">8</option>
   <option value="9">9</option>
   <option value="10">10</option>
-  <option value="20">20</option>
 </select>
 </div>
 

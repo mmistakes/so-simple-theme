@@ -471,6 +471,17 @@ p .btn--aio {
       position: absolute;
       bottom: 0;
     }
+    .overview-image-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: #fff;
+      background-color: #000;
+      opacity: 0.5;
+      padding: 0.1em 1em 0 0.5em;
+      font-size: 0.75em;
+      border-radius: 4px 0 0 0;
+    }
     p {
       padding: 0.5em 3em 0;
       font-weight: bold;
