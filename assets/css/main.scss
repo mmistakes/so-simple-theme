@@ -27,14 +27,24 @@ video {
 img {
   max-width: 100%;
 }
-
 .layout--plain {
   border-top: none;
 }
-
 .main-content {
   overflow: hidden;
 }
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.background-video {
+  z-index: -1;
+}
+
 
 // navigation
 .site-nav ul {
@@ -433,6 +443,172 @@ p .btn--aio {
   }
 }
 
+// PRODUCT OVERVIEWS
+.aio-overview {
+  text-align: center;
+  .aio-section {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    position: relative;
+    h2 {
+      margin: 0 auto;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 0.1em;
+    }
+    h2::after{
+      content: "";
+      width: 20%;
+      left: 40%;
+      @include breakpoint($medium) {
+        width: 6%;
+        left: 47%;
+      }
+      height: 2px;
+      background-color: white;
+      position: absolute;
+      bottom: 0;
+    }
+    p {
+      padding: 0.5em 3em 0;
+      font-weight: bold;
+    }
+    .background-video {
+      video {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.35;
+        height: 100%;
+        width: 355vh; // 100 * 1920 / 540
+        min-width: 100%;
+        max-width: none;
+        min-height: 28.125vw; // 100 * 540 / 1920
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); /* % of current element */
+      }
+    }
+  }
+  .mnprx-stylized {
+    background-image: url('/images/MNPRX/stylized-3D.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .mnprx-art-direction {
+    background-image: url('/images/MNPRX/art-direction.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .mnprx-integration {
+    background-image: url('/images/MNPRX/integration.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .mnprx-customization {
+    background-image: url('/images/MNPRX/customize.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+// COMPARISONS
+.aio-pricing {
+  position: relative;
+  background-color: #fff;
+
+  .pricing-table {
+    margin: 0 1em;
+    padding: 5px 25px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 900px) {
+      flex-direction: row;
+    }
+
+    * {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    ul {
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 50px 0 25px;
+      list-style-type: none;
+      padding-inline-start: 0;
+      li {
+        border-top: 1px solid #DDD;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 15px 0;
+      }
+      li:last-child{
+        border-bottom: 1px solid #DDD;
+      }
+    }
+  }
+  .pricing-plan {
+    border-bottom: 1px solid #DDD;
+    padding: 25px;
+    padding-top: 5em;
+  }
+
+  .pricing-plan:last-child {
+    border-bottom: none;
+  }
+
+  @media (min-width: 900px) {
+    .pricing-plan {
+      border-bottom: none;
+      border-right: 1px solid #DDD;
+      flex-basis: 100%;
+      padding: 25px 50px;
+      padding-top: 3em;
+    }
+    .pricing-plan:last-child {
+      border-right: none;
+    }
+  }
+  .pricing-price {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.3em;
+    span{
+      text-transform: none;
+    }
+    span:first-child {
+      font-weight: bold;
+    }
+  }
+  .pricing-quantity {
+    border-top: 1px solid #DDD;
+    padding-top: 1.2em;
+    font-size: 0.8em;
+    span {
+      text-transform: none;
+      margin-right:0.5em;
+    }
+  }
+
+  .pricing-disclaimer{
+    margin-top: 1.5em;
+    li {
+      font-size: 0.6em;
+    }
+  }
+}
+
+
+
 // ABOUT
 .aio-team {
   text-align: center;
@@ -504,6 +680,7 @@ p .btn--aio {
 .bottom-05 { margin-bottom: -0.5em; }
 .bottom-1 { margin-bottom: -1em; }
 .bottom-2 { margin-bottom: -2em; }
+.opacity05 { opacity: 0.5; }
 
 
 /*

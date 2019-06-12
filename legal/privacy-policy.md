@@ -5,7 +5,7 @@ excerpt: "Privacy Policy of artineering.io"
 schema:
 ---
 
-Effective date: June 5, 2019
+Effective date: June 12, 2019
 
 
 Artineering OÜ ("us", "we", or "our") operates the [artineering.io](https://artineering.io) website (hereinafter referred to as the "Service").
@@ -50,6 +50,8 @@ We may use your Personal Data to contact you with newsletters, marketing or prom
 
 #### Usage Data
 We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+
+When using our software, we also collect a computer fingerprint (MAC address) to activate and identify compliant usage of software licenses.
 
 
 #### Tracking & Cookies Data
@@ -183,14 +185,10 @@ We may provide paid products and/or services within the Service. In that case, w
 
 We will not store or collect your payment card details. That information is provided directly to our third-party payment processors whose use of your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.
 
-The payment processors we work with are:
+The payment processor we work with is:
 
-* **PayPal/Braintree**  
-Their Privacy Policy can be viewed at [https://www.paypal.com/webapps/mpp/ua/privacy-full](https://www.paypal.com/webapps/mpp/ua/privacy-full)
-* **Stripe**  
-Their Privacy Policy can be viewed at [https://stripe.com/privacy](https://stripe.com/privacy)
-* **SendOwl**  
-Their Privacy Policy can be viewed at [https://www.sendowl.com/privacy](https://www.sendowl.com/privacy)
+* **FastSpring**
+Their Privacy Policy can be viewed at [https://fastspring.com/privacy/](https://fastspring.com/privacy/)
 
 ## Links to Other Sites
 Our Service may contain links to other sites that are not operated by us. If you click a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.

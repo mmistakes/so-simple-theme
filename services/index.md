@@ -5,7 +5,7 @@ excerpt: "Services offered by Artineering"
 schema:
 ---
 
-We thoroughly enjoy developing and crafting different styles, features and tools in 3D and we want to help studios achieve unique stylized looks that suit their production needs. Therefore, we offer Research and Development (R&D) Packages in which you get our expert _artineers_ to create a unique style for your production.
+We thoroughly enjoy developing and crafting different styles, features and tools in 3D and we want to help studios achieve unique stylized looks that suit their production needs. Therefore, we offer Research and Development (R&D) Packages in which you get our expert _artineers_ to create a unique style/feature/tool for your production.
 
 Take advantage of our accumulated experience and let us develop the technology to create the visuals that you've been dreaming of. R&D Packages are hourly-based R&D services with deliverables, which include the following phases: Research, Minimum Viable Product (MVP), Product and Production-ready.
 

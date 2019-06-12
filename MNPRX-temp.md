@@ -1,0 +1,191 @@
+---
+layout: publication
+categories: projects
+title: MNPRX
+type: Project
+excerpt: Real-time NPR development framework for the Maya Viewport
+year: 2018-current
+tags: [MNPRX, NPR, Real-time, Maya, Software]
+image:
+  path: images/headers/MNPRX.jpg
+  caption: Stylized rendering for Autodesk Maya
+  card: images/cards/MNPRX.jpg
+  thumbnail: images/tiles/MNPRX.png
+comments: true
+permalink: /projects/MNPRX-temp/
+share: true
+schema: SoftwareSourceCode
+---
+
+### A direct stylization framework and real-time stylized renderer for Autodesk Maya&trade;.
+{: .aio-overview}
+
+<figure class="pull-center">
+	<a href=".#getit"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
+  <a href="./release-log"><img src="/images/buttons/mnprx_releaseLog.jpg" alt="image"></a>
+  <a href="./docs"><img src="/images/buttons/mnprx_documentation.jpg" alt="image"></a>
+  <a href="https://goo.gl/forms/dHDqfQsqY2wuVwXt1"><img src="/images/buttons/mnprx_stayUpToDate.jpg"   alt="image"></a>
+</figure>
+
+<div class="aio-overview">
+
+<div class="aio-section mnprx-stylized full-width" markdown="1">
+## Stylized 3D
+Growing library of styles with powerful [painterly materials](/projects/MNPRX/docs/uber/) and [proxies](/projects/MNPRX/docs/proxy/) that drive the stylization and its aesthetic effects within 3D space.
+</div>
+
+<div class="aio-section mnprx-art-direction full-width" markdown="1">
+## Art-direction
+Artist-friendly tool palette to interactively art-direct stylizations at multiple levels of control and transfer the stylization between scenes.
+</div>
+
+<div class="aio-section full-width" markdown="1">
+## Real-time Rendering
+[Rendering frames](/projects/MNPRX/docs/rendering/) in milliseconds, save image sequences and passes in multiple file formats at up to 16K resolution.
+  <div class="background-video">
+    <video autoplay loop muted playsinline>
+      <source src="/images/MNPRX/real-time.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="aio-section mnprx-integration full-width" markdown="1">
+## Integration with offline workflows
+Combine MNPRX with offline rendered passes for unmatched flexibility during compositing with global illumination, soft shadows, reflections and refractions.
+</div>
+
+<div class="aio-section mnprx-customization full-width" markdown="1">
+## Customized development through our [R&D packages](/services)
+Let us customize and advance our software to fit your desired style and production requirements through our [R&D packages](/services).
+</div>
+</div>
+
+If you want a quick **introduction**, please watch our founder introduce the **motivation behind MNPRX** in 6 minutes at [**_SIGGRAPH's Real-Time Live!_**](https://youtu.be/hpuEdXn_M0Q?t=3214) in 2017, it can't get more real than that. Since then, MNPRX has **continued to evolve** and now supports **multiple stylizations** with various **new features**.
+
+<!-- FastSpring -->
+<script
+    id="fsc-api"
+    src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.0/fastspring-builder.min.js"
+    type="text/javascript"
+    data-storefront="artineering.test.onfastspring.com/popup-artineering">
+</script>
+
+
+
+## Pricing
+{: #getit}
+
+We are committed keep MNPRX accessible to everyone through our non-commercial and subscription-based licensing models, while at the same time funding future development to make the tools and technology that we have always wanted to have.
+
+<div class="aio-pricing" markdown="1">
+<div class="pricing-table">
+
+<div class="pricing-plan" markdown="1">
+<i class="fas fa-dove fa-3x"></i>
+## MNPRX NC
+* Non commercial use<sup>1</sup>
+* Render at up to 1080<span style="text-transform: none;">p</span>
+* No anti-aliasing
+* Community-based support
+
+<!-- price -->
+<div class="pricing-price">
+<span>FREE</span>
+</div>
+
+<!-- quantity -->
+<div class="pricing-quantity">
+<span>Non-commercial license<sup>4</sup></span>
+</div>
+
+<!-- purchase button -->
+<a class="btn btn--aio">Download</a>
+
+</div>
+
+
+
+<div class="pricing-plan" markdown="1">
+<i class="fas fa-home-alt fa-3x"></i>
+## MNPRX Indie
+* Commercial use<sup>2</sup>
+* Render at up to 16K<sup>3</sup>
+* Anti-aliasing
+* Basic support
+
+<!-- price -->
+<div class="pricing-price">
+<span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>
+</div>
+
+<!-- quantity -->
+<div class="pricing-quantity">
+<span>Indie licenses<sup>4</sup>: </span>
+<select data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-item-quantity-value>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="5">5</option>
+</select>
+</div>
+
+<!-- purchase button -->
+<a class="btn btn--aio" data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+
+</div>
+
+
+
+<div class="pricing-plan" markdown="1">
+<i class="fab fa-fort-awesome fa-3x"></i>
+## MNPRX Studio
+* Commercial use
+* Render at up to 16K<sup>3</sup>
+* Anti-aliasing
+* Premium support
+
+<!-- price -->
+<div class="pricing-price">
+<span data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-price></span><span>/month</span>
+</div>
+
+<!-- quantity -->
+<div class="pricing-quantity">
+<span>Studio licenses<sup>4</sup>: </span>
+<select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+</select>
+</div>
+
+<!-- purchase button -->
+<a class="btn btn--aio" data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+</div>
+
+</div>
+
+<div class="pricing-disclaimer" markdown="1">
+1. Must not involve direct commercial use to generate profits. Example non-commercial use cases include evaluation, education, research, and personal projects.
+2. For private individuals/teams and companies of up to ten (10) employees.
+3. Provided the graphics card and its driver supports stable rendering at such resolutions.
+4. To use MNPRX you will have to agree to the End-User Licensing Agreement applicable to your license: [MNPRX NC EULA](/legal/MNPRX-NC-EULA), [MNPRX Indie EULA](/legal/MNPRX-INDIE-EULA), [MNPRX Studio EULA](/legal/MNPRX-STUDIO-EULA).
+
+For bulk purchases or site licenses, please [contact sales](/contact/).
+</div>
+
+</div>
+
+
+## Requirements
+* Maya 2017, 2018, 2019
+* Windows 10 (Linux [CentOS] and Mac upon request for bulk purchases of _Studio_ licenses)
+* Modern Graphics Card (2+ GB recommended)
