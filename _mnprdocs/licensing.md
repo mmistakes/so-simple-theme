@@ -8,11 +8,6 @@ comments: true
 schema:
 ---
 
-P.S. Coming soon...
-{: .top2}
-
-<!--
-
 ## MNPRX licensing basics
 
 Purchasing MNPRX grants you a license that allows you to use the full functionality of MNPRX. This license takes the form of an activation code that is sent to you (typically by email) alongside your copy of MNPRX.
@@ -85,5 +80,3 @@ If for some reason activation fails, make sure to try the following:
 If the issue persists, please [contact sales](/contact/) so that we can get you onboard as soon as possible.
 
 {% include toc-side %}
-
--->

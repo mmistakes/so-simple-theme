@@ -66,7 +66,7 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 
 
 **Licensing**
-* _New_ - Using MNPRX now requires a valid license. On the first run, you will be prompted to enter the activation code that came with your purchase of _MNPRX Indie_ or _MNPRX Studio_.
+* _New_ - Using MNPRX now requires a valid license. On the first run, you will be prompted to either enter the activation code that came with your purchase of _MNPRX Indie/Studio_ or activate _MNPRX Non-Commercial_.
   * Please refer to the [licensing documentation](./docs/licensing) for details.
 
 ---
