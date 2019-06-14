@@ -66,20 +66,19 @@ Let us customize and advance our software to fit your desired style and producti
 
 If you want a quick **introduction**, please watch our founder introduce the **motivation behind MNPRX** in 6 minutes at [**_SIGGRAPH's Real-Time Live!_**](https://youtu.be/hpuEdXn_M0Q?t=3214) in 2017, it can't get more real than that. Since then, MNPRX has **continued to evolve** and now supports **multiple stylizations** with various **new features**.
 
+
 <!-- FastSpring -->
 <script
     id="fsc-api"
     src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.0/fastspring-builder.min.js"
     type="text/javascript"
-    data-storefront="artineering.test.onfastspring.com/popup-artineering">
+    data-storefront="artineering.onfastspring.com/popup-artineering">
 </script>
-
-
 
 ## Pricing
 {: #getit}
 
-We are committed keep MNPRX accessible to everyone through our non-commercial and subscription-based licensing models, while at the same time funding future development to make the tools and technology that we have always wanted to have.
+We are committed to keeping MNPRX accessible to everyone through our non-commercial and subscription-based licensing models, while at the same time funding future development to make the tools and technology that we have always wanted to have.
 
 <div class="aio-pricing" markdown="1">
 <div class="pricing-table">
@@ -103,7 +102,7 @@ We are committed keep MNPRX accessible to everyone through our non-commercial an
 </div>
 
 <!-- purchase button -->
-<a class="btn btn--aio">Download</a>
+<a class="btn btn--aio" data-fsc-item-path="mnprx-non-commercial" data-fsc-item-path-value="mnprx-non-commercial" data-fsc-action="Update, Checkout">Download</a>
 
 </div>
 
@@ -180,8 +179,9 @@ We are committed keep MNPRX accessible to everyone through our non-commercial an
 1. Must not involve direct commercial use to generate profits. Example non-commercial use cases include evaluation, education, research, and personal projects.
 2. For private individuals/teams and companies of up to ten (10) employees.
 3. Provided the graphics card and its driver supports stable rendering at such resolutions.
-4. To use MNPRX you will have to agree to the End-User Licensing Agreement applicable to your license: [MNPRX NC EULA](/legal/MNPRX-NC-EULA), [MNPRX Indie EULA](/legal/MNPRX-INDIE-EULA), [MNPRX Studio EULA](/legal/MNPRX-STUDIO-EULA).
+4. You can unsubscribe at any given month to terminate the license. To use MNPRX you will have to agree to the End-User Licensing Agreement applicable to your license: [MNPRX NC EULA](/legal/MNPRX-NC-EULA), [MNPRX Indie EULA](/legal/MNPRX-INDIE-EULA), [MNPRX Studio EULA](/legal/MNPRX-STUDIO-EULA).
 
+For [Research and Development (RnD) packages](/services/) please [contact RnD](/contact).  
 For bulk purchases or site licenses, please [contact sales](/contact/).
 </div>
 
