@@ -65,13 +65,9 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * _Fixed_ - Installing MNPRX won't modify the existing order of environment variables within the host computer, minimizing clashes that it may have with other installed plugins that may depend on this.
 
 
-[**Licensing**](./docs/import-export)
-
-Lorem ipsum
-{: .top-1}
-
-* Lorem ipsum
-{: .top-1}
+**Licensing**
+* _New_ - Using MNPRX now requires a valid license. On the first run, you will be prompted to enter the activation code that came with your purchase of _MNPRX Indie_ or _MNPRX Studio_.
+  * Please refer to the [licensing documentation](./docs/licensing) for details.
 
 ---
 
