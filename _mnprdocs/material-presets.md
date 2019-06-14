@@ -38,7 +38,7 @@ Presets can be loaded at any time.
 The loading options to the right give you more refined control over the loading process. These comprise the following:
 
 * **Create new material** - will force the creation of a new material, no matter what previous material the object had. By default, if the selected object already has an MNPRX material, the existing material will be modified with the attributes of the preset.
-* **Load textures** - this will load the textures of the selected preset. If want to keep the current textures, but wish to still import the other material attributes of the preset, uncheck this box.
+* **Load textures** - this will load the textures of the selected preset. If you want to keep the current textures, but wish to still import the other material attributes of the preset, uncheck this box.
 * **Load NoiseFX** - this will load the _NoiseFX_ of the selected preset. If you want to keep the _NoiseFX_ of the current material, but wish to still import the other material attributes of the preset, uncheck this box.
 
 
@@ -51,7 +51,7 @@ Presets can be deleted at any time.
  {: .notice--warning}
 
 ## Refreshing presets
-Each material preset is saved under `MNPRX/presets/materials` as a _\*.json_ and _\*.jpg_ file. Each individual installation will have their own presets, but these can also be shared if MNPRX is stored in a network folder.
+Each material preset is saved under `MNPRX/presets/materials` as a _\*.json_ and _\*.jpg_ file. Each individual installation will have its own presets, but these can also be shared if MNPRX is stored in a network folder.
 
 If you or someone else adds/deletes/modifies presets within the presets folder, you need to refresh the _Material presets_ window to grab the changes made: click on the `Refresh` button at the bottom.
 
