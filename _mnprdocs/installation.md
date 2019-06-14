@@ -9,19 +9,19 @@ schema:
 ---
 
 ## Requirements
-* Maya 2017, 2018, 2019
-* Windows 10 (Linux [CentOS] and Mac upon request for _Studio_ licenses)
-* Modern Graphics Card (2+ GB recommended)
+* Maya 2017, 2018, 2019 (with updates)
+* Windows 10 (Linux [CentOS/RHEL] and Mac upon request for bulk purchases of _Studio_ licenses)
+* Modern Graphics Card (2+ GB recommended, more is needed at higher resolutions and scene complexity)
 
 
 ## Get MNPRX
-Get a non-commercial or commercial version of MNPRX [here](/projects/MNPRX/).
+Get a commercial or non-commercial version of MNPRX [here](/projects/MNPRX/).
 
 
 ## Installation
 The installation of MNPRX is intended to be the least invasive, so you won't need to change anything in _Maya_ or place files in any particular place.
-1. Extract the contents of the MNPRX zip file anywhere you want e.g., documents, desktop, the project folder, you get the drill.
-1. Drag and drop the _install.mel_ file from the MNPR folder into one of the _Maya_ viewports. The _install.mel_ will then run in the background and automatically add the MNPRX paths in your _Maya.env_ file.
+1. Extract the contents of the downloaded _zip_ file anywhere you want e.g., documents, desktop, the project folder, you get the drill.
+1. Drag and drop the _install.mel_ file from the extracted content into one of the _Maya_ viewports. The _install.mel_ will then run in the background and automatically add the MNPRX paths in your _Maya.env_ file.
 1. If successful, a prompt will appear in _Maya_, asking you to restart the application, please do so to show all changes.
 1. Once you open _Maya_ again, the [_MNPRX shelf_](../shelf) will appear alongside the other shelves.
 1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button.
@@ -32,25 +32,12 @@ A video showing this installation process can be seen below:
 
 
 ## Example Scenes
-Example scenes can be found within the open-source [_MNPR_ release](/projects/Maya-NPR). _MNPR_ scenes need to be updated to work with MNPRX, as follows.
+_MNPRX_ comes with an example scene in the _projects_ folder. However, scenes stylized with the open-source [_MNPR_ release](/projects/Maya-NPR) can also be used with _MNPRX_. However, these scenes need to be updated to work with _MNPRX_, as follows.
 1. Download the example scenes from [here](https://github.com/semontesdeoca/MNPR/releases/latest)
 1. Extract them in a desired folder
 1. Set your _Maya project_ to the folder where your example scenes are `Menu, File->Set Project`
 1. Open the desired test scene `Menu, File->Open`
 1. Update the materials in the scene `right click on the 'mPre' shelf tool->Update ShaderFX materials`.
-
-
-## Installing the Substrates
-
-New releases come with all substrates included, so there is no need anymore to install them.
-{: .notice--info}
-
-A set of 10 different substrate textures (i.e., papers, canvas) are available for MNPRX. These can be downloaded in the application.
-1. In the _MNPRX shelf_, `right click on the 'tbox' shelf icon->Download MNPR substrates`.
-1. A small dialog will prompt, asking you if you want to download the files in the background (not supported on macOS) or download them manually.
-1. Downloading in the background gets the files over the internet and places them in the correct folder within MNPRX.
-1. If you want/need to do this process manually, a browser tab will open and download the substrate textures in a zip file.
-1. Once downloaded, please extract the files into `MNPRX/textures`
 
 
 ## FAQ

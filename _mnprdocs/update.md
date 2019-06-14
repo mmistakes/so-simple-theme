@@ -29,3 +29,8 @@ Some updates require you to update the existing _ShaderFX_ materials in the scen
 	<img src="/images/MNPRX/update-shaderfx.png" alt="Updating ShaderFX materials" style="width: 350px">
 	<figcaption>Right click on the mPre tool -> Update ShaderFX materials.</figcaption>
 </figure>
+
+
+## FAQ
+_**I want to perform a fresh install but would like to keep my presets**_<br>
+To transfer your presets to the new installation, simply copy the presets within the presets folder that you wish to transfer, and paste them where the presets of the new installation are.
