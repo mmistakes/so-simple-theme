@@ -32,7 +32,7 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * Abstracted quality for the viewport, rendered images and image sequences within 5 different modes: _Half_, _Standard_, _FXAA_, _4x SSAA_ and _TAA_.
 * Render out images and image sequences in multiple image file formats (_.png, .jpg, .exr, .tif, .iff_).
 * Create quick playblasts in all formats supported by your computer.
-* Rendered images, image sequences and playblasts will have the same colors that you see in the viewport (except for _.exr_ images which are in linear space).
+* Rendered images, image sequences and playblasts should have the same colors that you see in the viewport (except for _.exr_ images which are in linear space).
 * Define alpha of the rendered images and image sequences as _None_, _Linear_, or _Premultiplied_ (only within formats that support alpha channels).
 {: .top-1}
 
@@ -62,11 +62,11 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * _Fixed_ - Memory leak when loading different substrate textures.
 
 **Installation**
+* _New_ - MNPRX environment variables are now handled by a plugin distribution module, avoiding clashes with environment variables from the host system.
 * _Fixed_ - Installing MNPRX won't modify the existing order of environment variables within the host computer, minimizing clashes that it may have with other installed plugins that may depend on this.
 
-
 **Licensing**
-* _New_ - Using MNPRX now requires a valid license. On the first run, you will be prompted to either enter the activation code that came with your purchase of _MNPRX Indie/Studio_ or activate _MNPRX Non-Commercial_.
+* _New_ - Using MNPRX now requires a valid license. Upon first use, you will be prompted to either enter the activation code that came with your purchase of _MNPRX Indie/Studio_ or activate _MNPRX Non-Commercial_.
   * Please refer to the [licensing documentation](./docs/licensing) for details.
 
 ---
