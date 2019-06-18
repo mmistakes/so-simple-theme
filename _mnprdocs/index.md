@@ -28,7 +28,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element top-1" markdown="1">
 ## Basics
 ### [MNPRX Shelf](shelf)
-### [Art-direction](art-direction) {% include aio-wip.html %}
+### [Art-direction](art-direction) {% include aio-new.html %}
 ### [Rendering](rendering) {% include aio-new.html %}
 </div>
 
@@ -66,5 +66,15 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ### [Watercolor in Nuke](watercolor-nuke) {% include aio-wip.html %}
 </div>
 
+<div class="doc-element" markdown="1">
+## Examples
+### [Stylizing a Scene](stylizing-scene) {% include aio-wip.html %}
+### [Rendering a Scene](rendering-scene) {% include aio-wip.html %}
+</div>
+
+<div class="doc-element" markdown="1">
+</div>
+<div class="doc-element" markdown="1">
+</div>
 
 We would be happy to include further documentation in this website, so do not hesitate to [contact us](/about) if you wish to have further clarification on certain features.
