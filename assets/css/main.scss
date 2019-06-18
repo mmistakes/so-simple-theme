@@ -584,6 +584,13 @@ p .btn--aio {
       flex-basis: 100%;
       padding: 25px 50px;
       padding-top: 3em;
+      .space-out {
+        li:first-child {
+          padding-top: 33px;
+          padding-bottom: 33px;
+        }
+      }
+
     }
     .pricing-plan:last-child {
       border-right: none;
@@ -598,6 +605,11 @@ p .btn--aio {
     }
     span:first-child {
       font-weight: bold;
+    }
+    p {
+      text-transform: none;
+      font-size: 0.6em;
+      margin-top: -0.4em;
     }
   }
   .pricing-quantity {
