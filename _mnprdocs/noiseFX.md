@@ -12,7 +12,7 @@ _NoiseFX_ is a tool which grants procedural control of effects at the material l
 {: .top2}
 
 <figure class="pull-right" style="margin-top:-1em;">
-	<img src="/images/MNPRX/FX/noisefx.png" alt="NoiseFX tool window"  style="max-width: 300px">
+	<img src="/images/MNPRX/FX/noiseFX.png" alt="NoiseFX tool window"  style="max-width: 300px">
 	<figcaption>NoiseFX of the watercolor stylization.</figcaption>
 </figure>
 

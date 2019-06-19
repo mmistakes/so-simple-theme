@@ -24,7 +24,7 @@ Built using the _ShaderFX_ framework, it is entirely contained within the node-b
 	<figcaption>The proxy material in the Attribute Editor.</figcaption>
 </figure>
 
-The first element within the _proxy_ material is the `Open ShaderFX` button. This button will open the _ShaderFX Graph_, which allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but, if interested, I recommend you to watch [these tutorials](https://www.youtube.com/watch?v=wWc9_eqbGUI&list=PLOKJUFwsV5SotMRNNxxmbVjlyz7R7mdoc).
+The first element within the _proxy_ material is the `Open ShaderFX` button. This button will open the _ShaderFX Graph_, which allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but, if interested, we recommend you to watch [these tutorials](https://www.youtube.com/watch?v=wWc9_eqbGUI&list=PLOKJUFwsV5SotMRNNxxmbVjlyz7R7mdoc).
 {: .top2 #shaderfx-graph}
 
 The first section, when opened, provides the material **Settings** that allow to customize what optional features the _proxy_ material should have. The section is closed by default, as the only setting in the proxy material is handled by the [_PaintFX_](./../paintfx) tool.
