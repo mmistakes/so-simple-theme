@@ -22,7 +22,7 @@ A single MNPRX license can be active on only one machine at a time.
 In order to use the full version of MNPRX on a machine, you need to activate your license on this machine.
 The first time MNPRX is run, you will be prompted with the following dialog:
 
-<figure class="align-center">
+<figure class="pull-center">
 	<img src="/images/MNPRX/licensing/first-time.png" alt="First-time activation dialog" style="max-width: 500px">
 	<figcaption>First-time activation dialog.</figcaption>
 </figure>
@@ -33,21 +33,21 @@ If you don't want to activate your license now, click **Cancel** to run MNPRX as
 
 After clicking **Activate with key**, enter the activation code that you received when purchasing MNPRX:
 
-<figure class="align-center">
-	<img src="/images/MNPRX/licensing/activation-code-prompt.png" alt="Enter activation code." style="max-width: 500px">
+<figure class="pull-center">
+	<img src="/images/MNPRX/licensing/activation-code-prompt.png" alt="Enter activation code." style="width: 100%; max-width: 500px">
 	<figcaption>Enter your activation code in the text box and click OK.</figcaption>
 </figure>
 
 After MNPRX checks that the key is valid, and if the license has not yet been activated, you will be prompted with the End-User-License Agreement (EULA):
 
-<figure class="align-center">
+<figure class="pull-center">
 	<img src="/images/MNPRX/licensing/eula.png" alt="End-User-License Agreement dialog" style="max-width: 400px">
 	<figcaption>End-User-License Agreement (EULA).</figcaption>
 </figure>
 
 Once you have read and agree to the End-User License Agreement, click on **I Agree**. You will then be asked to activate your license on the machine. Click **Activate** to confirm and activate this machine, or **Cancel** to abort activation.
 
-<figure class="align-center">
+<figure class="pull-center">
 	<img src="/images/MNPRX/licensing/activation-confirmation.png" alt="Confirm activation" style="max-width: 500px">
 	<figcaption>Confirm activation by clicking Activate.</figcaption>
 </figure>

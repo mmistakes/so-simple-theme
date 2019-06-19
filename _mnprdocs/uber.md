@@ -18,7 +18,7 @@ A ShaderFX material has two types of 'attributes': **Settings** and **Attributes
 
 -------------
 
-<figure class="align-right">
+<figure class="pull-right">
 	<img src="/images/MNPRX/mnpr-uber/node-AE.png" alt="MNPR uber material node"  style="width: 400px">
 	<figcaption>The default mnpr_uber material in the Attribute Editor.</figcaption>
 </figure>

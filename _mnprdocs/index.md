@@ -48,7 +48,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [NoiseFX](noisefx) {% include aio-wip.html %}
+### [NoiseFX](noisefx) {% include aio-new.html %}
 ### [PaintFX](paintfx) {% include aio-wip.html %}
 ### [MNPRX Toolbox](toolbox) {% include aio-wip.html %}
 </div>

@@ -14,8 +14,8 @@ The style configuration node gets selected when clicking on the `conf` icon in t
 
 -------------
 
-<figure class="align-right">
-	<img src="/images/MNPRX/config.png" alt="Style configuration node"  style="width: 400px">
+<figure class="pull-right">
+	<img src="/images/MNPRX/config.png" alt="Style configuration node"  style="max-width: 400px">
 	<figcaption>The configuration node showing all watercolor stylization attributes.</figcaption>
 </figure>
 

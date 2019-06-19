@@ -19,7 +19,7 @@ Built using the _ShaderFX_ framework, it is entirely contained within the node-b
 
 -------------
 
-<figure class="align-right">
+<figure class="pull-right">
 	<img src="/images/MNPRX/proxy/node-AE.png" alt="MNPRX proxy material node"  style="width: 400px">
 	<figcaption>The proxy material in the Attribute Editor.</figcaption>
 </figure>

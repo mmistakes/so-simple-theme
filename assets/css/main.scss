@@ -28,6 +28,8 @@ video {
 img {
   max-width: 100%;
 }
+
+
 .layout--plain {
   border-top: none;
 }
@@ -217,6 +219,7 @@ figcaption {
   text-align: center;
   @include breakpoint($medium) {
     float:right;
+    margin-left: 1em;
   }
 }
 
@@ -225,10 +228,12 @@ figcaption {
   text-align: center;
   @include breakpoint($medium) {
     float:left;
+    margin-right: 1em;
   }
 }
 
 .align-right {
+  width: 100%;
   float: none;
   text-align: center;
   @include breakpoint($medium) {
