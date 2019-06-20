@@ -8,7 +8,7 @@ comments: true
 schema:
 ---
 
-_NoiseFX_ is a tool which grants procedural control of effects at the material level of control. The tool can be opened by clicking on the **nFX** shelf icon and shares the same window with [_PaintFX_](../paintfx).
+_NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at the material level of control. The tool can be opened by clicking on the **nFX** shelf icon and shares the same window with [_PaintFX_](../paintfx).
 {: .top2}
 
 <figure class="pull-right" style="margin-top:-1em;">
@@ -62,6 +62,15 @@ If you wish to reset all of these values and the _NoiseFX_ attributed to it, cli
 
 ## World Scale
 If you wish to change the scale of all effects at the same time, you can use the _World Scale_ slider at the bottom of the _NoiseFX_ tool window. This may come in handy when assets change dimensions during production. For an exact numerical value, modify the slider and change it to the desired value within the procedural attributes of the _MNPRX_ material.
+
+## Showcase
+
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="max-width:450px">
+   <source src="/images/MNPRX/art-direction/noisefx.mp4" type="video/mp4">
+ </video>
+ <figcaption>Adding and modifying NoiseFX</figcaption>
+</figure>
 
 
 ## FAQ
