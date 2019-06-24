@@ -527,6 +527,7 @@ This layout accommodates the following front matter:
 | `author` | Object or string | Specify a post's author `name`, `picture`, `twitter`, `links`, etc. |
 | `comments` | Boolean | Disable comments with `comments: false`. |
 | `share` | Boolean | Add social share links to a post with `share: true`. |
+| `pagination` | Boolean | Disable *previous* and *next* links on a post with `pagination: false`. |
 
 **Post image example:**
 
