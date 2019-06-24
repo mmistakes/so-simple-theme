@@ -34,7 +34,9 @@ layout: default
           {% include disqus-comments.html %}
         {% endif %}
 
-        {% include page-pagination.html %}
+        {% unless page.pagination == false %}
+          {% include page-pagination.html %}
+        {% endunless %}
       </div>
     </div>
   </article>
