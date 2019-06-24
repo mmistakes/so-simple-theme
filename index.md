@@ -10,7 +10,12 @@ image:
   creditlink:
 ---
 
-Stan<sup>&reg;</sup> is a state-of-the-art platform for statistical modeling
+## StanCon Cambridge UK, August 20-23, 2019
+
+StanCon 2019 is open for registration. Two days of tutorials followed by two days of talks, open discussions and learning. Registration prices go up 50% May 15. Scholarship deadline is May 1, tutorial deadline April 10, paper deadline April 30, posters August 15. Register and more information [here](https://mc-stan.org/events/stancon2019Cambridge/).
+
+## About Stan
+Stan is a state-of-the-art platform for statistical modeling
 and high-performance statistical computation.  Thousands of users rely
 on Stan for statistical modeling, data analysis, and prediction in
 the social, biological, and physical sciences, engineering, and

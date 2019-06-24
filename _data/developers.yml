@@ -210,7 +210,7 @@
   avatar: yi_zhang.jpg
 
 - name: Paul Bürkner
-  affiliation: University of Münster
+  affiliation: Aalto University
   github: paul-buerkner
   email: paul.buerkner@gmail.com
   web: https://paul-buerkner.github.io/
@@ -243,3 +243,19 @@
   email: eroualdes@csuchico.edu
   web: https://roualdes.us
   avatar: edward_a_roualdes.jpg
+
+- name: Andre Zapico
+  affiliation: University of North Carolina
+  github: drezap
+
+- name: Ryan Bernstein
+  affiliation: Columbia University
+  github: rybern
+  email: ryan.bernstein@columbia.edu
+
+- name: Michael Thomas
+  email : enetsee@gmail.com
+  twitter: enetsee
+  github: enetsee
+  linkedin: https://www.linkedin.com/in/michael-thomas-38620943/
+  avatar: michael_thomas.jpg

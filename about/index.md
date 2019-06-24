@@ -44,7 +44,7 @@ over:
 The SGB is intended to be a transparent body in service of the Stan
 community and electorate. The SGB will define an electorate and the
 governance of joining and participating in an electorate. The SGB is
-expected to use referendums when appropriate to ensure it’s
+expected to use referendums when appropriate to ensure its
 legitimacy. The SGB will publicly post minutes on a regular basis on the
 [Stan Discourse](http://discourse.mc-stan.org) in the
 [general category](https://discourse.mc-stan.org/c/general).
