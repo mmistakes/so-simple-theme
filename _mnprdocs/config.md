@@ -81,6 +81,31 @@ The units work as meter/cm, so keep the  _World Scale_ in mind when setting up t
 
 -----------
 
+## Ambient Occlusion
+
+Ambient Occlusion (AO) darkens the image in areas that are hard to reach for the ambient light due to the local shape of the geometry (e.g. concavities, crevices, holes). Note that this effect depends only on the geometry (and the viewpoint, to a lesser extent), and not on the lights present in the scene.
+
+MNPRX currently uses a screen-space implementation of ambient occlusion based on the _Ground-Truth Ambient Occlusion_ algorithm (GTAO). 
+{: .notice--info}
+
+### AO Blend Mode
+Defines how the computed ambient occlusion term is applied on the final image.
+* _None_: AO is not applied.
+* _Multiply_: the AO term is multiplied over the image after substrate effects and before the final post-processing steps.
+* _Color Burn_: same as above, except that the AO term is blended over the image using the _Color Burn_ blending mode.
+* _Style-specific_: AO is applied by the current style. The effect depends on the currently selected style. 
+	* With the _Watercolor_ style, the AO term modulates the _pigment density_, resulting in darker colors in occluded areas. 
+	* In _Viewport+_ mode, this option has no effect: choose one of the other options.  
+
+### AO Radius
+Defines the radius used by the ambient occlusion filter: larger radii result in larger darkened areas.
+
+### AO Strength
+Defines the strength of ambient occlusion: higher values make the ambient occlusion term darker.
+
+-----------
+
+
 ## Style Attributes
 Style attributes contain the attributes of the currently loaded stylization, in the case of the figure above: watercolor. These attributes allow to globally tweak the stylization parameters.
 
