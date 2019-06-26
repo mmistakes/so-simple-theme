@@ -86,4 +86,9 @@ The right section of the _Target Sequence Renderer_ allows you to define all the
 
 The `Render targets` button will start rendering the target sequence with the settings you specified. You can cancel the sequence render anytime by hitting on `cancel` within the render progress dialog.
 
+
+## FAQ
+_**When rendering with TAA, the render comes out shifted**_<br>
+This will happen when the `2D Pan/Zoom` is used in the camera you are rendering (`Camera Shape Attributes -> Display Options -> 2D Pan/Zoom`). We discourage from using this function with MNPRX at the moment, but we might add this in the future if [requested by the community](https://community.artineering.io/topics/1307804).
+
 {% include toc-side %}
