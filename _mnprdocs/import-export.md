@@ -47,7 +47,7 @@ Importing the stylization should always work, as long as the naming of objects i
 The stylization can also be imported on scenes where there are no prior MNPRX materials, as long as names of the mesh objects remain consistent.
 {: .notice--info}
 
-{% include responsive-embed url="https://www.youtube.com/embed/aYbQDC8f0Uk" width="90%" %}
+{% include responsive-embed url="https://www.youtube.com/embed/aYbQDC8f0Uk?rel=0" width="90%" %}
 
 
 ### Changing namespaces
@@ -60,6 +60,6 @@ If you are importing the stylization from a scene that used different namespaces
 The first namespace in the _From_ field will be changed to the first namespace in the _To_ field. The second, with the second one, and so forth.
 {: .notice--warning}
 
-{% include responsive-embed url="https://www.youtube.com/embed/PDnkOjw18vs" ratio="16:9" width="90%" %}
+{% include responsive-embed url="https://www.youtube.com/embed/PDnkOjw18vs?rel=0" ratio="16:9" width="90%" %}
 
 {% include toc-side %}

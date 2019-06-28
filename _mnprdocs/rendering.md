@@ -8,10 +8,10 @@ comments: true
 schema:
 ---
 
-Rendering with MNPRX is a breeze compared to rendering with offline renderers, as every frame is calculated in real-time! In fact, computers normally take longer to save image files to disk than to render them.
+Rendering with _MNPRX_ is a breeze compared to rendering with offline renderers, as every frame is calculated in real-time! In fact, computers normally take longer to save image files to disk than to render them.
 {: .top2}
 
-There are many ways to get images out of _Maya_, but we strongly recommend the tools that we have developed to get the best and most consistent results, the _Viewport Renderer_ (`rendr` icon in the _[MNPRX shelf](../shelf)_) and the _Target Sequence Renderer_ (`tSeq` icon  in the _[MNPRX shelf](../shelf)_). These two tools will allow you to render images of up to 16K resolution  (16384×16384) with a graphics card supporting it.
+There are many ways to get images out of _Maya_, but we strongly recommend the tools that we have developed to get the best and most consistent results, the _Viewport Renderer_ (`rendr` icon in the _[MNPRX shelf](../shelf)_) and the _Target Sequence Renderer_ (`tSeq` icon  in the _[MNPRX shelf](../shelf)_). These two tools will allow you to render images of up to 16K resolution  (16384×16384) with a graphics card supporting it. A tutorial using these tools can be found in the [Rendering Scenes](../rendering-scene) documentation.
 
 <figure class="pull-right">
 	<img src="/images/MNPRX/rendr.png" alt="Viewport Renderer"  style="width: 300px">

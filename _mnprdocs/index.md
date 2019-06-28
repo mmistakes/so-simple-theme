@@ -68,8 +68,8 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Examples
-### [Stylizing a Scene](stylizing-scene) {% include aio-wip.html %}
-### [Rendering a Scene](rendering-scene) {% include aio-wip.html %}
+### [Stylizing Scenes](stylizing-scene) {% include aio-new.html %}
+### [Rendering Scenes](rendering-scene) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
