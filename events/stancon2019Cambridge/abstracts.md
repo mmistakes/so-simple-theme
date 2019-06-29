@@ -36,7 +36,7 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Hierarchical models for gamma-ray burst populations</b></i>. J. Michael Burgess. <b> MPE </b> [Abstract](#12)
 	+ <i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16)
 	+ <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](#20)
-	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, Kaist. <b></b> [Abstract](#21)
+	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> [Abstract](#21)
 	+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
 	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23)
 	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24)
@@ -221,7 +221,7 @@ Abstract: Predicting customer behaviour is crucial for making decisions such as 
 
 <hr>
 
-<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, Kaist. <b></b> 
+<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 
 
 Abstract: Multiple seasonalities play a key role in time series forecasting, especially for business time series where seasonal effects are often dramatic. Previous approaches on multiple seasonalities include Fourier decomposition, exponential smoothing, and Seasonal ARIMA. These approaches, however, do not reflect distinct characteristics of each period in seasonal patterns such as unique behavior of specific day of the week in business data. To identify and exploit these characteristics for time series forecasting, we propose a multi-dimensional model where each dimension represents corresponding seasonality. Intermediate models for each seasonal period are first fitted without considering interactions between seasonalities. Mixtures of intermediate models are then taken for every combination of periods in each seasonalities, resulting in a model successfully reflecting interactions between multiple seasonalities. Although this process results in reduction of data available for each intermediate and final model, robust parameter distributions can be obtained through Bayesian curve fitting. Consideration of not only the characteristics of each seasonal periods but also the interactions between characteristics from multiple seasonalities becomes possible through this method. Our new model is implemented in Stan and considerable improvements in accuracy compared to previous models is observed. Previous models include Prophet which models multiple seasonalities with Fourier series. Comparison has been performed on M4 competition dataset, which is real world time series with single or multiple overlapping seasonalities.
 
