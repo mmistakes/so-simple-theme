@@ -19,8 +19,8 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Installation
-### [Installation](installation) {% include aio-new.html %}
-### [Licensing](licensing) {% include aio-new.html %}
+### [Installation](installation)
+### [Licensing](licensing)
 ### [Updating MNPRX](update)
 </div>
 
@@ -29,7 +29,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ## Basics
 ### [MNPRX Shelf](shelf) {% include aio-new.html %}
 ### [Art-direction](art-direction) {% include aio-new.html %}
-### [Rendering](rendering) {% include aio-new.html %}
+### [Rendering](rendering)
 </div>
 
 <div class="doc-element" markdown="1">
