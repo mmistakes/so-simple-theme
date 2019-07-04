@@ -95,7 +95,7 @@ These attributes specify the behavior of the cutout style.
 	<figcaption>Varying the intensity of the gradient shading effect. The gradient follows the direction of the substrate light.</figcaption>
 </figure>
 
-- _Paper Edge_: defines the intensity of the cut paper edge around outer bevel shadows (cut edge facing the light). A value of zero means that the cut edge is invisible.
+- _Paper Edge_: defines the intensity of the cut paper edge near the bevel shadow (cut edge facing the light). A value of zero means that the cut edge is invisible.
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
@@ -104,7 +104,7 @@ These attributes specify the behavior of the cutout style.
 	<figcaption>Varying paper edge intensity between 0 and 1</figcaption>
 </figure>
 
-- _Paper Edge Opposite_: defines the intensity of the cut paper edge outer bevel highlights (cut edge turning away from the light).
+- _Paper Edge Opposite_: defines the intensity of the cut paper edge near the bevel highlight (cut edge turning away from the light).
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
