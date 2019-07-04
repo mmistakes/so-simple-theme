@@ -31,7 +31,7 @@ The more MNPRX matures, the more styles it will support!
 
 ### Quality
 Defines the quality of the viewport rendering.
-* _Half_ - Render at half the resolution, which will perform faster with slower computers, at the cost of pixilation.
+* _Half_ - Render at half the resolution, which will perform faster with slower computers, at the cost of pixelation.
 * _Standard_ - Render at the normal resolution, without any bells and whistles.
 * _FXAA_ - Render at the normal resolution with _Fast Approximate Anti-Aliasing_, giving results with less jaggies (staircase effect).
 * _4x SSAA_ - Render at 4 times the normal resolution, to later bring it back to the normal resolution with _Super Sampling Anti-Aliasing_. You have much more detail and less jaggies (staircase effect).
