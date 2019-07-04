@@ -168,6 +168,10 @@ Defines the maximum global width of the gaps & overlaps effect.
 
 -----------
 
+## Cutout
+See [Cutout style](../cutout).
+
+-----------
 
 ## Substrate
 Substrate attributes contain the attributes of the texture where paint is applied on, be it paper or canvas. Altering these attributes will affect all effects that depend on the substrate for its stylization.
