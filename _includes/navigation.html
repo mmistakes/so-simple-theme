@@ -9,15 +9,14 @@
                   {% endif %}
                   <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
               {% endfor %}
-
-                  <li style="float: right; padding: 0px 0px 0px 30px"><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li>
+<!-- <li padding: 0px 0px 0px 30px"><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li> -->
             </ul>
         </nav>
 </div><!-- /.navigation-wrapper -->
 
 {% include browser-upgrade.html %}
 
-<div class="gcse-searchresults"></div>
+<!-- <div class="gcse-searchresults"></div> -->
 
 {% if page.image.feature %}<header class="masthead">
         {% if site.logo != null %}
