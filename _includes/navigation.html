@@ -1,5 +1,5 @@
-<div class="navigation-wrapper">
-        <nav role="navigation" id="site-nav" class="animated drop">
+<div class="navigation-wrapper" style="width: 85% !important; margin-left: auto; margin-right: auto;">
+        <nav role="navigation">
             <ul>
               {% for link in site.data.navigation %}
                   {% if link.url contains 'http' %}
@@ -9,14 +9,14 @@
                   {% endif %}
                   <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
               {% endfor %}
-<!-- <li padding: 0px 0px 0px 30px"><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li> -->
+<li style="padding: 0px 0px 0px 25px; float: right !important; width: 33% !important;"><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li>
             </ul>
         </nav>
 </div><!-- /.navigation-wrapper -->
 
 {% include browser-upgrade.html %}
 
-<!-- <div class="gcse-searchresults"></div> -->
+<div class="gcse-searchresults"></div>
 
 {% if page.image.feature %}<header class="masthead">
         {% if site.logo != null %}
