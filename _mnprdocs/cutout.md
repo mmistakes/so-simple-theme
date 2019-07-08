@@ -87,7 +87,7 @@ These attributes specify the behavior of the cutout style.
 	<figcaption>Varying outer bevel shadow between 0.0 and 3.0</figcaption>
 </figure>
 
-- _Gradient Shade_: defines the intensity of the gradient shading effect. The gradient shading is a dark gradient overlaid on the image and oriented towards the direction of the light. 
+- _Gradient Shade_: defines the intensity of the gradient shading effect. The gradient shading is a light-to-dark gradient overlaid on the image and oriented towards the direction of the light. 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/cutout/gradientShade.mp4" type="video/mp4">
