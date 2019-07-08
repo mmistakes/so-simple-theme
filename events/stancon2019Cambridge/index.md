@@ -99,8 +99,11 @@ Prerequisites: Some experience with R (not necessarily the aforementioned packag
 
 **Population and ODE-based models using Stan and Torsten**. August 20, 21 afternoons. Instructors Charles Margossian, Yi Zhang.
 
-**Description** This workshop focuses on examples from pharmacometrics, so familiarity in the subject is helpful. In addition, we will use Torsten, a specialized extension of Stan, which participants should install. That said, the methods discussed apply to other fields: e.g. epidemiology, geology, econometrics, so the core concepts are general. I will review basic notions of pharmacometrics, so that participants from all field can do the exercises. 
-PDF of proposal [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
+**Description** 
+
+This class covers techniques to build, fit, and criticize Bayesian models in pharmacometrics. When handling such models, we must address the following challenges: (i) the data generating process involves solutions to ODE systems; (ii) these ODEs are embedded in a complicated event schedule; (iii) the data comes from various sources, for instance various patients and studies, and the resulting models are hierarchical. Note that these properties are not specific to pharmacometrics, and arise in other fields such as epidemiology, geology, and econometrics. To accommodate a broad audience, we will keep the core concepts general, and review basic notions of pharmacometrics, so that participants from all fields can do the exercises.
+
+The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
 
 
