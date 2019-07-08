@@ -273,11 +273,11 @@ Enables to smoothly blend two substrate tiles. That means that the _Substrate Ti
 </figure>
 
 ## Alternate Substrate
-Contains the attributes that define the alternate substrate texture of the stylization. This group is closed by default, but can be opened by clicking on it.
+Contains the attributes that define the alternate substrate texture of the stylization. This group is closed by default, but can be opened by clicking on it. 
+These are the same attributes as the main substrate: see above for the corresponding documentation.
 
-### Substrate Texture Alt
-Defines the alternate texture that is going to be used as the substrate.
-
+The alternate substrate is used if the _Substrate Blend_ option is not 0, and also in a style-dependent manner (e.g. cutout).
+{: .notice--info}
 
 -----------
 
