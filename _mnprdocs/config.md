@@ -225,6 +225,9 @@ Defines the color of the substrate.
 ###	Substrate Scale
 Defines the scale of the substrate texture. A _Substrate Scale_ of `1` will show the texture at its original size, whereas a _Substrate Scale_ of `2` would make it twice as big.
 
+### Substrate Rotation
+Defines the rotation in degrees of the substrate texture. The center of the viewport is used as the rotation pivot.
+
 ###	Substrate Roughness
 Defines the global roughness of the substrate.
 
@@ -273,8 +276,9 @@ Enables to smoothly blend two substrate tiles. That means that the _Substrate Ti
 </figure>
 
 ## Alternate Substrate
-Contains the attributes that define the alternate substrate texture of the stylization. This group is closed by default, but can be opened by clicking on it. 
-These are the same attributes as the main substrate: see above for the corresponding documentation.
+Contains the attributes that control the alternate substrate texture of the stylization, for effects that make use of two substrate textures. Control of this substrate is independent from the main substrate.
+This group is closed by default, but can be opened by clicking on it. 
+The attributes are the same as the main substrate: see above for the corresponding documentation.
 
 The alternate substrate is used if the _Substrate Blend_ option is not 0, and also in a style-dependent manner (e.g. cutout).
 {: .notice--info}
