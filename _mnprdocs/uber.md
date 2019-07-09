@@ -13,7 +13,7 @@ Materials give the surface properties to 3D objects, which are then projected to
 
 The _mnpr_uber_ material is developed to meet most painterly shading requirements in real-time. Built using the _ShaderFX_ framework, it is entirely contained within the node-based [_ShaderFX Graph_](#shaderfx-graph) and can be modified to fit any shading requirements by look development artists. However, most settings and attributes are easily accessible from the _Attribute Editor_ when the material is selected, as shown below.
 
-A ShaderFX material has two types of 'attributes': **Settings** and **Attributes**. They work quite differently so its important to consider them as separate entities.
+A ShaderFX material has two types of 'attributes': [**Settings**](.#settings) and [**Attributes**](.#painterly-shading). They work quite differently so its important to consider them as separate entities.
 {: .notice--info}
 
 -------------
@@ -26,7 +26,7 @@ A ShaderFX material has two types of 'attributes': **Settings** and **Attributes
 The first element within the _mnpr_uber_ material is the `Open ShaderFX` button. This button will open the _ShaderFX Graph_, which allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but, if interested, we recommend you to watch [these tutorials](https://www.youtube.com/watch?v=wWc9_eqbGUI&list=PLOKJUFwsV5SotMRNNxxmbVjlyz7R7mdoc) and read the [advanced documentation](#advanced).
 {: .top2 #shaderfx-graph}
 
-The first section, when opened, provides the material **Settings** that allow to customize what optional features the _mnpr_uber_ material should have. The section is closed by default, as these settings are rather advanced. However, we'll go into detail with each setting [further on](#settings). Let us concentrate first on the default material **Attributes**.
+The first section, when opened, provides the material [**Settings**](.#settings) that allow to customize what optional features the _mnpr_uber_ material should have. The section is closed by default, as these settings are rather advanced. However, we'll go into detail with each setting [further on](#settings). Let us concentrate first on the default material [**Attributes**](.#painterly-shading).
 
 {% include aio-hint.html %} **Almost all attributes shown in the _mnpr_uber_ material go between `0` and `1`. The ShaderFX framework unfortunately maxes out the sliders of attributes at their default value.**
 
@@ -196,7 +196,7 @@ When the [_NoiseFX_](./../noisefx) tool has been used on the material, the _Styl
 
 ## Settings
 
-Settings is the first section within the _Attribute Editor_, but it is closed by default. Once opened, each _Setting_ allows you to customize what optional features the _mnpr_uber_ material should have. Most of these settings are disabled by default, as to avoid unnecessary computations and clutter for artists. If needed, enabling settings will provide the necessary attributes to configure them, if needed.
+Settings is the first section within the _Attribute Editor_, but it is closed by default. Once opened, each _Setting_ allows you to customize what optional features the _mnpr_uber_ material should have. Most of these settings are disabled by default, as to avoid unnecessary computations and clutter for artists. If needed, enabling settings will provide the necessary attributes to configure them.
 
 ### Reflectance Model
 The _Reflectance Model_ setting defines the shading algorithm used by the _mnpr_uber_ shader. A shading algorithm dictates how light is reflected along the surface of the object. Here is a visual comparison of each shading algorithm.

@@ -19,8 +19,8 @@ schema:
 Together with [Alexandre Blerón](http://ennis.github.io/about/), we started a repository dedicated to Expressive Rendering. It is collaboratively designed as a knowledge repository for new and seasoned researchers/engineers/artists alike, to gather and share knowledge and resources with the expressive rendering community.
 
 The content ranges from information on [conferences](https://sites.google.com/view/expressive-rendering/conferences) and [journals](https://sites.google.com/view/expressive-rendering/journals) to [research papers](https://sites.google.com/view/expressive-rendering/papers), [resources](https://sites.google.com/view/expressive-rendering/resources) and [technology](https://sites.google.com/view/expressive-rendering/technology). The website can be accessed through:
-* **[resources.expressive.graphics](resources.expressive.graphics)**
-* [sites.google.com/view/expressive-rendering](sites.google.com/view/expressive-rendering/)
+* **[resources.expressive.graphics](http://resources.expressive.graphics)**
+* [sites.google.com/view/expressive-rendering](https://sites.google.com/view/expressive-rendering/)
 
 **P.S. If you find this website useful, please make sure to [join us as a contributor](https://sites.google.com/view/expressive-rendering/contribute?authuser=0) to expand this website and make something awesome out of it.**
 {: .notice--info}

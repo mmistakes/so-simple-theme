@@ -17,6 +17,8 @@ schema: SoftwareApplication
 
 As MNPRX continues to grow, it has become indispensable to document all its functions, which can be found here. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
 
+<div class="entries-grid">
+
 <div class="doc-element" markdown="1">
 ## Installation
 ### [Installation](installation)
@@ -25,7 +27,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 </div>
 
 
-<div class="doc-element top-1" markdown="1">
+<div class="doc-element" markdown="1">
 ## Basics
 ### [MNPRX Shelf](shelf) {% include aio-new.html %}
 ### [Art-direction](art-direction) {% include aio-new.html %}
@@ -54,10 +56,10 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 </div>
 
 <div class="doc-element" markdown="1">
-## Effects
-### [Lighting-based](lighting) {% include aio-wip.html %}
-### [Substrate-based](substrate) {% include aio-wip.html %}
-### [Watercolor](watercolor) {% include aio-wip.html %}
+## Stylizations
+### [Watercolor](/projects/watercolor) {% include aio-wip.html %}
+### [Cutout](/projects/cutout) {% include aio-new.html %}
+### [Viewport+](/projects/viewport+) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1">
@@ -72,9 +74,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ### [Rendering Scenes](rendering-scene) {% include aio-new.html %}
 </div>
 
-<div class="doc-element" markdown="1">
-</div>
-<div class="doc-element" markdown="1">
 </div>
 
 We would be happy to include further documentation in this website, so do not hesitate to [contact us](/about) if you wish to have further clarification on certain features.
+{: .top2}

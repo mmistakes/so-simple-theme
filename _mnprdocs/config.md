@@ -26,6 +26,7 @@ Engine attributes remain the same across stylizations and contain attributes dir
 Defines the style that MNPRX is currently running in.
 * _Watercolor_ - The classic watercolor stylization that MNPRX is known for
 * _Viewport+_ - A viewport override with all the advantages of MNPRX
+* _Cutout_ - Cutout stylization within MNPRX
 
 The more MNPRX matures, the more styles it will support!
 
@@ -277,7 +278,7 @@ Enables to smoothly blend two substrate tiles. That means that the _Substrate Ti
 
 ## Alternate Substrate
 Contains the attributes that control the alternate substrate texture of the stylization, for effects that make use of two substrate textures. Control of this substrate is independent from the main substrate.
-This group is closed by default, but can be opened by clicking on it. 
+This group is closed by default, but can be opened by clicking on it.
 The attributes are the same as the main substrate: see above for the corresponding documentation.
 
 The alternate substrate is used if the _Substrate Blend_ option is not 0, and also in a style-dependent manner (e.g. cutout).
