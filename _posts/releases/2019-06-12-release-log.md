@@ -20,8 +20,74 @@ schema:
 
 ---
 
-### JUNE 2019 UPDATE
+## JULY 2019 UPDATE
+The July 2019 update of MNPRX includes a completely new [Cutout Stylization](/projects/cutout/), together with our own implementation of _Ground Truth Ambient Occlusion_ (_GTAO_)! These two features, together with a series of smaller new features, improvements and fixes, make the July update a substantial improvement for _MNPRX_. Just make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to be sure that you are using all the latest features of this update.
+
+### MNPRX
+
+[**Cutout Stylization**](/projects/cutout/)
+
+_New_ - The _Cutout Stylization_ brings real-time cutout rendering of 3D objects and animation directly within _Autodesk Maya_ through _MNPRX_.
+{: .top-1}
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/CO/showcase.mp4" type="video/mp4">
+	</video>
+	<figcaption>3D Cutout animation in real-time.</figcaption>
+</figure>
+
+**Viewport rendering**
+* _New_ - Render with _Ground Truth Ambient Occlusion_ (_GTAO_) to emulate ambient lighting.
+* _New_ - Visualize and stylize normal _Viewport 2.0 Maya_ materials (_NoiseFX_, _PaintFX_ and _GTAO_ are only supported with _MNPRX_ materials).
+* _Fixed_ - The Target Sequence Renderer can also render and save images from cameras within namespaces.
+{: .top-1}
+
+**Watercolor Stylization**
+* _New_ - Ambient occlusion can concentrate pigment density within the watercolor stylization.
+
+**Substrates**
+* _New_ - Rotation attribute on each substrate.
+* _New_ - Thorough control over the _Alternate Substrate_
+
+**Material Presets**
+* _Improved_ - Material presets do not force to load-up materials within the _MNPRX_ renderer anymore, you can use the normal _Viewport 2.0_ with it, if desired.
+* _Improved_ - Material presets automatically check and clean connected Shading Engines to work properly with certain material setups.
+{: .top-1}
+
+**MNPRX Materials**
+* _Improved_ - The noise created through the _NoiseFX_ tool will not be stretched along one direction anymore.
+
+**MNPRX Shelf**
+* _New_ - Double clicking on `mat` will now reload the _Attribute Editor_ of the material, forcing the _ShaderFX_ material to show all its attributes.
+* _New_ - Selecting all objects that share the assigned material can now be done directly from the _MNPRX_ shelf by right-clicking on `mat` -> Select objects with material.
+{: .top-1}
+
+**Licensing**
+* _New_ - installing MNPRX will check for an existing license and automatically ask the user what to do with it. This will make transitions from _Non-Commercial_ to _Indie/Studio_ much easier by simply re-installing _MNPRX_ and deleting the existing license to enter the new one.
+{: .top-1}
+
+**Documentation**
+* _New_ - Cutout stylization [**documentation**](/projects/cutout/).
+* _New_ - Tutorial series on [Stylizing a Scene](./docs/stylizing-scene/) in progress, featuring the stylization of a production shot from _Run Totti Run_ by _Shad Bradbury_.
+* _New_ - Tutorial for [Rendering a Scene](./docs/rendering-scene/).
+* _New_ - Thorough documentation on [Art-direction](./docs/art-direction/), including breakdowns on the [_NoiseFX_](/docs/noisefx/) and [_PaintFX_](docs/paintfx/) tools.
+* _New_ - Thorough documentation on the [MNPRX Toolbox](./docs/toolbox/).
+* _Updated_ - All existing documentation to match the July 2019 release i.e., [MNPRX Shelf](./docs/shelf/) and [Configuration node](./docs/config/).
+{: .top-1}
+
+### Watercolor stylization in Nuke
+{: .top2}
+
+The watercolor stylization is now also available for _Nuke_ in _Indie_ and _Studio_ licenses, allowing to re-create the style and tweak it further in compositing. More details on where to get it and how to take advantage of it can be [found in the documentation](./docs/watercolor-nuke/).
+
+---
+
+## JUNE 2019 UPDATE
 The June 2019 update of MNPRX is the biggest yet! We've developed many things to improve the overall experience and to continue moving forward with our planned development. Because of this, a re-installation of MNPRX is required on any computer that has a previous installation running. We apologize for this inconvenience, but hope the new features will make up for it.
+
+### MNPRX
+{: .bottom05}
 
 [**Viewport rendering**](./docs/rendering)
 
@@ -42,16 +108,19 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * _Improved_ - Intuitive _undo_ operations within PaintFX.
 * _Improved_ - No more flickering of the in-use brush icon.
 * _Improved_ - Automatic switch between _NoiseFX_ and _PaintFX_ without re-selecting the objects.
+{: .top-1}
 
 **NoiseFX**
 * _Improved_ - Intuitive _undo_ operations within NoiseFX (except for reset and on/off toggle).
 * _Fixed_ - Reset and on/off noise toggle now flush the undo queue when used to avoid _Maya_ crashes
 (Solving these crashes seem to be outside of our power as it relies on fixing the ShaderFX implementation).
+{: .top-1}
 
 **Material Presets**
 * _Fixed_ - When multiple objects share a material, _Create New Material_ will now just create the material within the selection.
 * _Improved_ - Loading a material on an object with the default _Lambert1_ material won't load the material on all objects sharing it.
 * _New_ - ID material presets have been added.
+{: .top-1}
 
 **Usability**
 * _Improved_ - Scene stylization will be automatically loaded when opening a stylized scene.
@@ -60,14 +129,17 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * _Fixed_ - Bug where the attribute editor sometimes didn't show the _ShaderFX_ attributes.
 * _Fixed_ - Memory leak when resizing the viewport.
 * _Fixed_ - Memory leak when loading different substrate textures.
+{: .top-1}
 
 **Installation**
 * _New_ - MNPRX environment variables are now handled by a plugin distribution module, avoiding clashes with environment variables from the host system.
 * _Fixed_ - Installing MNPRX won't modify the existing order of environment variables within the host computer, minimizing clashes that it may have with other installed plugins that may depend on this.
+{: .top-1}
 
 **Licensing**
 * _New_ - Using MNPRX now requires a valid license. Upon first use, you will be prompted to either enter the activation code that came with your purchase of _MNPRX Indie/Studio_ or activate _MNPRX Non-Commercial_.
   * Please refer to the [licensing documentation](./docs/licensing) for details.
+{: .top-1}
 
 ---
 
