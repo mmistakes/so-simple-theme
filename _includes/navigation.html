@@ -1,4 +1,4 @@
-<div class="navigation-wrapper" style="width: 85% !important; margin-left: auto; margin-right: auto;">
+<div class="navigation-wrapper">
         <nav role="navigation">
             <ul>
               {% for link in site.data.navigation %}
@@ -9,7 +9,7 @@
                   {% endif %}
                   <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
               {% endfor %}
-<li style="padding: 0px 0px 0px 25px; float: right !important; width: 33% !important;"><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li>
+<li><script async src="https://cse.google.com/cse.js?cx=001245703740021930201:rj3jc9m2qso"></script><div class="gcse-searchbox"></div></li>
             </ul>
         </nav>
 </div><!-- /.navigation-wrapper -->

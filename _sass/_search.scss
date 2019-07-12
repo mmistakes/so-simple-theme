@@ -27,10 +27,10 @@
 
 #goog-wm-qt {
   width: auto;
-  margin-right: 10px;
-  padding: 8px 10px;
-  @include font-size(14);
-  border-width: 2px;
+  margin-right: 8px;
+  padding: 2px 2px;
+  @include font-size(12);
+  border-width: 1px;
   border-radius: $border-radius;
 }
 
