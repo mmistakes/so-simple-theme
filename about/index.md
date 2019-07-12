@@ -69,7 +69,6 @@ The current SGB is:
 * Jonah Gabry <span class="note">(Columbia University)</span>
 * Andrew Gelman <span class="note">(Columbia University)</span> [Chair]
 * Daniel Lee <span class="note">(Generable)</span> [Secretary]
-* Daniel Simpson <span class="note">(University of Toronto)</span>
 * Sean Talts <span class="note">(Columbia University)</span>
 * Lizzie Wolkovich <span class="note">(University of British Columbia)</span>
 
