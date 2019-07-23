@@ -4,6 +4,7 @@
 
 .entry {
   @include clearfix();
+  position: relative;
 
   a {
     color: inherit;
@@ -35,6 +36,15 @@
   a {
     text-decoration: none;
   }
+
+  a[rel="bookmark"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .entry-image {
@@ -57,6 +67,12 @@
     content: "\2022";
     padding: 0 0.5em;
   }
+}
+
+.entry-excerpt a,
+.u-bookmark-of {
+  position: relative;
+  z-index: 10;
 }
 
 /*

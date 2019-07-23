@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased] -
+
+### Changed
+- Make entire entries and archive items "clickable"
+- Remove redundant "Read more..." links on each entry.
+
 ## [3.1.2] - 02-17-2018
 
 ### Changed
