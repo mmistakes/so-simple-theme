@@ -61,6 +61,7 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 * Core Stan
 	+ <i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> [Abstract](#10)
 	+ <i><b>PyCmdStan</b></i>. Mitzi Morris. <b>Columbia University</b> [Abstract](#35)
+	+ <i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9)
 
 
 
@@ -349,9 +350,6 @@ We will show how problem size, model and choice of hardware impact the speedups 
 
 <hr>
 
-
-
-<i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9)
 
 
 <i><b id="9">Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b>
