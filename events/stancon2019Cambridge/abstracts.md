@@ -37,7 +37,8 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16)
 	+ <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](#20)
 	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> [Abstract](#21)
-	+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
+	<!--+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
+	-->
 	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23)
 	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24)
 	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Abstract](#25)
@@ -46,7 +47,8 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [Abstract](#30)
 	+ <i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [Abstract](#31)
 	+ <i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [Abstract](#32)
-	+ <i><b>Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> [Abstract](#33)
+	<!--+ <i><b>Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> [Abstract](#33)
+	-->
 
 
 * Inference
@@ -95,11 +97,11 @@ Abstract: Drug-induced liver injury (DILI) is a major cause of attrition in drug
 <hr>
 
 
-<i><b id="33">Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> 
+<!--<i><b id="33">Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> 
 
 Abstract: The empirical question is modeling the time trend in corn yields in the United States. The model is used in crop insurance as well as predictions of the effects of climate change. We have 50 years of county level yield data and want to estimate a linear time trend model for each county. We want to smooth the intercept, slope, and distribution parameters across space. We have an existing R program that does this, but it runs very slowly. The plan is to create a similar model in STAN and compare the speed of the two programs. At the time of submission, we only have a simplified STAN model operational, but hope to have a fully operational and fully tested model by the time of the conference.
 
-<hr>
+<hr>-->
 
 
 <i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> 
@@ -216,11 +218,11 @@ Abstract: Exploring simple, automatic within-chain parallelization. For any (wel
 
 <hr>
 
-<i><b id="22">A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> 
+<!--<i><b id="22">A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> 
 
 Abstract: Predicting customer behaviour is crucial for making decisions such as the cost of acquisition or planning for production or service capacity. In the model being presented individual purchase data of a fashion retailer is utilized to describe and predict their behaviour using Bayeasian multi-layered architecture to allow for heterogeneity and latent variables, such as customer state of activity.
 
-<hr>
+<hr>-->
 
 <i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 
 
