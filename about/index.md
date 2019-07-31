@@ -9,7 +9,7 @@ image:
 schema: AboutPage
 ---
 
-Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and its a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
+Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and it is a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
 
 Within stylized rendering, we can't just rely on physics and ray-tracing to produce the desired results. There are countless art-directed choices and individual effects that push the image towards the final vision. The more stylized an image is, the more art-direction is required, which should ideally be made in real-time to encourage the creative flow and exploration.
 

@@ -37,19 +37,25 @@ Once the materials are set, one can setup the initial lighting of the scene with
 
 {% include responsive-embed url="https://www.youtube.com/embed/Rmx29uepUSA?rel=0" width="90%" %}
 
+## Matching Materials
+With the initial lighting set, we can modify the materials in the scene to approach the reference shot image.
+
+{% include responsive-embed url="https://www.youtube.com/embed/rJwyRfKzZQQ?rel=0" width="90%" %}
+
+## Matching Lighting
+With the materials set, we can refine the lighting in the scene to approach the lighting in the reference shot image.
+
+{% include responsive-embed url="https://www.youtube.com/embed/yaWaxVQm0Ec?rel=0" width="90%" %}
+
 Documentation still in progress, come back in the coming days for more!
 {: .notice--info}
 
-## Matching Materials
-
-## Matching Lighting
-
-## Refining Materials
+## NoiseFX
 
 ## PaintFX
 
-## NoiseFX
+## Proxies
 
-## Rendering
+## Attaching Proxies to Objects (optional)
 
 {% include toc-side %}
