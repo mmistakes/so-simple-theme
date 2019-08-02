@@ -29,7 +29,7 @@
   }
 
   /* button colors */
-  $buttoncolors: (primary, $primary-color),  (inverse, #fff),
+  $buttoncolors: (primary, $primary-color), (accent, $accent-color), (inverse, #fff),
      (light-outline, transparent),  (success, $success-color),
      (warning, $warning-color),  (danger, $danger-color),  (info, $info-color),
      (facebook, $facebook-color),  (twitter, $twitter-color),
