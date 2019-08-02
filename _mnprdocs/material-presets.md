@@ -12,18 +12,18 @@ _Material presets_ allow artists to easily create and load stylized materials wi
 {: .top2}
 
 <figure class="align-center">
-	<img src="/images/MNPRX/material-presets.png" alt="Material presets window" style="max-width: 500px">
+	<img src="/images/MNPRX/material-presets-2.png" alt="Material presets window" style="max-width: 500px">
 	<figcaption>The Material presets window will look similar to this, depending on which presets you have available.</figcaption>
 </figure>
 
-A material preset contains all the available attributes found in the _[mnpr_uber](../uber)_ or the _[mnpr_geoproxy](../proxy)_ materials, together with a small thumbnail of the object assigned to it.
+A material preset contains all the available attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/projects/cutout)_, or the _[mnpr_geoproxy](../proxy)_ materials, together with a small thumbnail of the object assigned to it.
 
 
 ## Creating presets
 You can save as many presets as you want and these can be created at the top of the _Material presets_ window.
 1. Name the current preset as desired in the highlighted text field
 1. Click on the `Save` button on the right
-1. A new preset will appear in the list with all attributes found in the _[mnpr_uber](../uber)_ or the _[mnpr_geoproxy](../proxy)_ materials.
+1. A new preset will appear in the list with all attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/projects/cutout)_, or the _[mnpr_geoproxy](../proxy)_ materials.
 
 When you save a preset with the same name as an existing one, the previously existing preset will be overwritten.
 {: .notice--warning}
@@ -35,11 +35,14 @@ Presets can be loaded at any time.
 1. Select the preset that you would like to load
 1. Click on the `Load` button at the bottom left
 
-The loading options to the right give you more refined control over the loading process. These comprise the following:
+Use the `Filter presets` field to filter material presets by name, and the drop-down on the right to filter by material type: `Uber`, `Cutout`, or `All` (no filter). By default, only materials corresponding to the current style are shown. 
+
+The loading options give you more refined control over the loading process. These comprise the following:
 
 * **Create new material** - will force the creation of a new material, no matter what previous material the object had. By default, if the selected object already has an MNPRX material, the existing material will be modified with the attributes of the preset.
 * **Load textures** - this will load the textures of the selected preset. If you want to keep the current textures, but wish to still import the other material attributes of the preset, uncheck this box.
 * **Load NoiseFX** - this will load the _NoiseFX_ of the selected preset. If you want to keep the _NoiseFX_ of the current material, but wish to still import the other material attributes of the preset, uncheck this box.
+* **Load attributes** - this will load the attributes (other than textures & noiseFX) of the selected material preset. If you want to keep the current material attributes, but still wish to import textures and/or noiseFX, uncheck this box.  
 
 
 ## Deleting presets
