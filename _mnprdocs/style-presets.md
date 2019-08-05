@@ -11,7 +11,7 @@ _Stylization presets_ allow artists to easily switch between styles and stylizat
 {: .top2}
 
 <figure class="align-center">
-	<img src="/images/MNPRX/style.png" alt="Stylization presets window" style="max-width: 350px">
+	<img src="/images/MNPRX/style-2.png" alt="Stylization presets window" style="max-width: 350px">
 	<figcaption>The Stylization presets window will look similar to this, depending on which presets you have available.</figcaption>
 </figure>
 
@@ -33,6 +33,7 @@ Presets can be loaded into the current scene at any time.
 1. Select the preset that you would like to load
 2. Click on the `Load` button at the bottom left
 
+Use the `Filter presets` field to filter presets by name, and the drop-down on the right to filter by style. 
 
 ## Deleting presets
 Presets can be deleted at any time.
