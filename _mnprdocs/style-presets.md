@@ -35,6 +35,14 @@ Presets can be loaded into the current scene at any time.
 
 Use the `Filter presets` field to filter presets by name, and the drop-down on the right to filter by style. 
 
+The following options give you more refined control over the loading process:
+
+* **Load world scale** - Whether to load the _world scale_ setting from the style. By default this is unchecked and the current world scale will be preserved when loading the style.
+* **Load quality** -  Whether to load the _quality_ setting from the style. If this is unchecked, the current quality setting will be preserved when loading the style. 
+* **Load attributes** - Whether to load the main attributes of the style preset. This is on by default, but you can uncheck this option if you want to load only the substrates. 
+* **Load substrates** - Whether to load the substrate-related settings. If this is unchecked, the current substrate settings will be preserved when loading the style. 
+
+
 ## Deleting presets
 Presets can be deleted at any time.
 1. Select the preset that you would like to delete
