@@ -174,12 +174,14 @@ Subject to change.
 
 </ul>
 ## Friday, August 23
+<ul>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
-<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
+	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
 	<li><i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> <a href="abstracts.html#10">Abstract</a></li>
 	<li><i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> <a href="abstracts.html#16">Abstract</a></li>
 	</ul></li>
+	
 <li> 10am-10:40am Break </li>
 <li>10:40am-12:00pm Submitted Talks
 	<ul>
@@ -200,7 +202,8 @@ Subject to change.
 	<li> 3:00pm-3:40pm Break</li>
 	<li> 3:00pm-3:20pm Submitted Talk</li>
 	
-	<li>3:20pm-4pm Lauren Kennedy <i><b>Out of sample prediction and the quest for generalization</i></b></li>
+	<li>3:20pm-4pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</i></b></li>
+	</ul>
 	
 
 # Invited speakers
