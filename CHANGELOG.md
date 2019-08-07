@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Make entire entries and archive items "clickable"
 - Remove redundant "Read more..." links on each entry.
 
+### Added
+- Add accent color variants for buttons and notices. [#335](https://github.com/mmistakes/so-simple-theme/pull/335)
+
 ## [3.1.2] - 02-17-2018
 
 ### Changed
