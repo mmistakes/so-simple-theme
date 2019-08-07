@@ -140,6 +140,7 @@ The overall schedule is two days of tutorials, August 20, 21, followed by two da
 	<li><i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> <a href="abstracts.html#20">Abstract</a></li>
 	<li><i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> <a href="abstracts.html#24">Abstract</a></li>
 </ul>
+</li>
 <li> 10am-11am Break </li>
 
 </ul>
