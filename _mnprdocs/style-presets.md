@@ -21,7 +21,7 @@ A stylization preset contains all the available attributes found in the [style c
 ## Saving presets
 You can save as many presets as you want and these can be created at the top of the _Stylization presets_ window.
 1. Name the current preset as desired in the highlighted text field
-2. Click on the `Save` button on the top right
+2. Press `Enter` or click on the `Save` button on the right
 3. A new preset will appear in the list with all attributes found in the [style configuration node](../config).
 
 When you save a preset with the same name as an existing one, the previously existing preset will be overwritten.
@@ -31,16 +31,16 @@ When you save a preset with the same name as an existing one, the previously exi
 ## Loading presets
 Presets can be loaded into the current scene at any time.
 1. Select the preset that you would like to load
-2. Click on the `Load` button at the bottom left
+2. Double click on the preset icon or click on the `Load` button at the bottom left
 
-Use the `Filter presets` field to filter presets by name, and the drop-down on the right to filter by style. 
+{% include aio-hint.html %} Use the **Filter presets** field to filter presets by name, and the drop-down on the right to filter by style.
 
-The following options give you more refined control over the loading process:
+Above the _Filter presets_ section, the loading options give you more refined control over the loading process:
 
 * **Load world scale** - Whether to load the _world scale_ setting from the style. By default this is unchecked and the current world scale will be preserved when loading the style.
-* **Load quality** -  Whether to load the _quality_ setting from the style. If this is unchecked, the current quality setting will be preserved when loading the style. 
-* **Load attributes** - Whether to load the main attributes of the style preset. This is on by default, but you can uncheck this option if you want to load only the substrates. 
-* **Load substrates** - Whether to load the substrate-related settings. If this is unchecked, the current substrate settings will be preserved when loading the style. 
+* **Load quality** -  Whether to load the _quality_ setting from the style. If this is unchecked, the current quality setting will be preserved when loading the style.
+* **Load attributes** - Whether to load the main attributes of the style preset. This is on by default, but you can uncheck this option if you want to load only the substrates.
+* **Load substrates** - Whether to load the substrate-related settings. If this is unchecked, the current substrate settings will be preserved when loading the style.
 
 
 ## Deleting presets

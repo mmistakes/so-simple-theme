@@ -337,7 +337,7 @@ _Highlight Transparency_ defines the transparency of the highlight.
 
 ------------------
 
-### Rim light / Rim light opp. 
+### Rim light / Rim light opp. {% include aio-new.html %}
 The _Rim Light_ and _Rim light opp._ settings control the appearance of the rim lighting effect around the silhouette of objects, on areas facing respectively away and towards the light.
 The settings described below are the same for both rim light (facing away) and rim light opposite (facing towards the light).
 

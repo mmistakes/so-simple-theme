@@ -30,35 +30,35 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Basics
 ### [MNPRX Shelf](shelf) {% include aio-new.html %}
-### [Art-direction](art-direction) {% include aio-new.html %}
+### [Art-direction](art-direction)
 ### [Rendering](rendering)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Styles
-### [Presets](style-presets)
-### [Configuration](config) {% include aio-new.html %}
+### [Presets](style-presets) {% include aio-new.html %}
+### [Configuration](config)
 ### [Import/Export](import-export)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Materials
-### [Presets](material-presets)
-### [Uber Material](uber)
+### [Presets](material-presets) {% include aio-new.html %}
+### [Uber Material](uber) {% include aio-new.html %}
 ### [Proxies](proxy)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [NoiseFX](noisefx) {% include aio-new.html %}
-### [PaintFX](paintfx) {% include aio-new.html %}
+### [NoiseFX](noisefx)
+### [PaintFX](paintfx)
 ### [MNPRX Toolbox](toolbox) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Stylizations
 ### [Watercolor](/projects/watercolor) {% include aio-wip.html %}
-### [Cutout](/projects/cutout) {% include aio-new.html %}
+### [Cutout](/projects/cutout)
 ### [Viewport+](/projects/viewport+) {% include aio-wip.html %}
 </div>
 
@@ -71,7 +71,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Examples
 ### [Stylizing Scenes](stylizing-scene) {% include aio-new.html %}
-### [Rendering Scenes](rendering-scene) {% include aio-new.html %}
+### [Rendering Scenes](rendering-scene)
 </div>
 
 </div>

@@ -82,7 +82,7 @@ The units work as meter/cm, so keep the  _World Scale_ in mind when setting up t
 
 -----------
 
-## Ambient Occlusion {% include aio-new.html %}
+## Ambient Occlusion
 
 Ambient Occlusion (AO) darkens the image in areas that are hard to reach for the ambient light due to the local shape of the geometry (e.g. concavities, crevices, holes). Note that this effect depends only on the geometry (and the viewpoint, to a lesser extent), and not on the lights present in the scene.
 
