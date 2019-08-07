@@ -132,7 +132,7 @@ Subject to change.
 
 ## Tuesday, August 20, Tutorials
 
-## Wednesday,August 21, Tutorials
+## Wednesday, August 21, Tutorials
 
 ## Thursday, August 22, Conference
 <ul>
@@ -158,7 +158,7 @@ Subject to change.
 	<ul>
 <li><i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> <a href="abstracts.html#23">Abstract</a></li>
 	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> <a href="abstracts.html#25">Abstract</a></li>
-	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> <a href="abstracts.html#26">Abstract</a></li>
+		<li><i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> <a href="abstracts.html#21">Abstract</a></li>
 	</ul>
 </li>
 <li>3:00pm-3:40pm Break</li>
@@ -174,10 +174,34 @@ Subject to change.
 
 </ul>
 ## Friday, August 23
-<li>10:40am-11:40am Submitted Talks
+<li>9:00am-10:00am Submitted Talks
 	<ul>
-
+<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
+	<li><i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> <a href="abstracts.html#10">Abstract</a></li>
+	<li><i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> <a href="abstracts.html#16">Abstract</a></li>
 	</ul></li>
+<li> 10am-10:40am Break </li>
+<li>10:40am-12:00pm Submitted Talks
+	<ul>
+<li><i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> <a href="abstracts.html#15">Abstract</a></li>
+<li><i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> <a href="abstracts.html#11">Abstract</a></li>
+<li><i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> <a href="abstracts.html#28">Abstract</a></li>
+ <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a></li>
+	</ul></li>
+<li> 12:00pm-1:00pm Provided Lunch </li>
+<li> 1:00pm-2:00pm Developers Meeting</li>
+<li>2:00pm-3:00pm Submitted Talks
+	<ul>
+	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
+	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a></li>
+	<li>Leah Comment</li>
+	</ul></li>
+	
+	<li> 3:00pm-3:40pm Break</li>
+	<li> 3:00pm-3:20pm Submitted Talk</li>
+	
+	<li>3:20pm-4pm Lauren Kennedy <i><b>Out of sample prediction and the quest for generalization</i></b></li>
+	
 
 # Invited speakers
 [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/), will speak on "Communicating Uncertainty about Facts, Numbers and Science" 
