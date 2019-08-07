@@ -128,20 +128,46 @@ If you require an invitation letter for visa or other purposes please fill out [
 
 The overall schedule is two days of tutorials, August 20, 21, followed by two days of conference, August 22, 23. 
 
+Subject to change. 
+
 ## Tuesday, August 20, Tutorials
 
 ## Wednesday,August 21, Tutorials
 
 ## Thursday, August 22, Conference
 <ul>
-<li>9-10am Submitted Talks
+<li>9am-10am Submitted Talks
 <ul>
 <li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
 	<li><i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> <a href="abstracts.html#20">Abstract</a></li>
 	<li><i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> <a href="abstracts.html#24">Abstract</a></li>
-</ul>
+</ul></li>
+
+<li> 10am-10:40am Break </li>
+<li>10:40am-11:40am Submitted Talks
+	<ul>
+
+	</ul></li>
+	
+<li>11:40-12:00pm Sponsor Talks and Birds of Feather</li>
+<li>12:00pm-1:00pm Provided Lunch</li>
+<li>1:00pm-2:00pm Stan Community Meeting</li>
+<li>2:00pm-3:00pm Submitted Talks
+	<ul>
+<li><i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> <a href="abstracts.html#23">Abstract</a></li>
+	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> <a href="abstracts.html#25">Abstract</a></li>
+	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> <a href="abstracts.html#26">Abstract</a></li>
+	</ul>
 </li>
-<li> 10am-11am Break </li>
+<li>3:00pm-3:40pm Break</li>
+<li>3:40pm-4:20pm Submitted Talks
+	<ul>
+
+	</ul>
+</li>
+<li>4:20pm-5:10pm David Spiegelhalter</li>
+<li>5:10pm-6:30pm: Networking at the Pub and pickup football(soccer) match</li>
+<li>6:30pm Dinner at King's College</li>
 
 </ul>
 ## Friday, August 23
