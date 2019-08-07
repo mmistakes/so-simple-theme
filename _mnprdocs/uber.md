@@ -344,37 +344,40 @@ The settings described below are the same for both rim light (facing away) and r
 #### Rim Light
 _Rim Light_ controls the intensity of the rim light. A value of `0` means that the rim light is invisible.
 
-<figure class="pull-center">
+<div class="pull-center">
+<figure style="display:inline-block;">
  <video autoplay loop muted playsinline style="width:200px">
    <source src="/images/MNPRX/mnpr-uber/rim-light.mp4" type="video/mp4">
  </video>
  <figcaption>Rim Light (0...1.0).</figcaption>
 </figure>
 
-<figure class="pull-center">
+<figure style="display:inline-block;">
  <video autoplay loop muted playsinline style="width:200px">
    <source src="/images/MNPRX/mnpr-uber/rim-light-opp.mp4" type="video/mp4">
  </video>
  <figcaption>Rim Light Opposite (0...1.0).</figcaption>
 </figure>
+</div>
 
 #### Rim Light Wrap
-_Rim Light Wrap_ defines the area of effect for the [_Rim light_].
+_Rim Light Wrap_ defines the area of effect of the rim light.
 
-<figure class="pull-center">
+<div class="pull-center">
+<figure style="display:inline-block;">
  <video autoplay loop muted playsinline style="width:200px">
    <source src="/images/MNPRX/mnpr-uber/rim-wrap.mp4" type="video/mp4">
  </video>
  <figcaption>Rim Light Wrap (0...1).</figcaption>
 </figure>
 
-<figure class="pull-center">
+<figure style="display:inline-block;">
  <video autoplay loop muted playsinline style="width:200px">
    <source src="/images/MNPRX/mnpr-uber/rim-wrap-opp.mp4" type="video/mp4">
  </video>
  <figcaption>Rim Light Wrap Opposite (0...1).</figcaption>
 </figure>
-
+</div>
 
 #### Rim Light Color
 Controls the color of the rim light effect. The color is additively blended on top of the underlying shading.
