@@ -146,7 +146,9 @@ Subject to change.
 <li> 10am-10:40am Break </li>
 <li>10:40am-11:40am Submitted Talks
 	<ul>
-
+	<li><i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> <a href="abstracts.html#17">Abstract</a></li>
+	<li><i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> <a href="abstracts.html#18">Abstract</a></li>
+	<li><i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> <a href="abstracts.html#19">Abstract</a></li>
 	</ul></li>
 	
 <li>11:40-12:00pm Sponsor Talks and Birds of Feather</li>
@@ -162,15 +164,20 @@ Subject to change.
 <li>3:00pm-3:40pm Break</li>
 <li>3:40pm-4:20pm Submitted Talks
 	<ul>
-
+		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract</a></li>
+<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> <a href="abstracts.html#32">Abstract</a></li>
 	</ul>
 </li>
-<li>4:20pm-5:10pm David Spiegelhalter</li>
+<li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i></li>
 <li>5:10pm-6:30pm: Networking at the Pub and pickup football(soccer) match</li>
 <li>6:30pm Dinner at King's College</li>
 
 </ul>
 ## Friday, August 23
+<li>10:40am-11:40am Submitted Talks
+	<ul>
+
+	</ul></li>
 
 # Invited speakers
 [David Spiegelhalter](http://www.statslab.cam.ac.uk/~david/), will speak on "Communicating Uncertainty about Facts, Numbers and Science" 
