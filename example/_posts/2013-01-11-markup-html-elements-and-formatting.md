@@ -115,6 +115,7 @@ Make any link standout more when applying the `.btn` class.
 
 [Default Button](#){: .btn}
 [Primary Button](#){: .btn .btn--primary}
+[Accent Button](#){: .btn .btn--accent}
 [Success Button](#){: .btn .btn--success}
 [Warning Button](#){: .btn .btn--warning}
 [Danger Button](#){: .btn .btn--danger}
@@ -125,6 +126,7 @@ Make any link standout more when applying the `.btn` class.
 ```markdown
 [Default Button Text](#link){: .btn}
 [Primary Button Text](#link){: .btn .btn--primary}
+[Accent Button Text](#link){: .btn .btn--accent}
 [Success Button Text](#link){: .btn .btn--success}
 [Warning Button Text](#link){: .btn .btn--warning}
 [Danger Button Text](#link){: .btn .btn--danger}
@@ -152,6 +154,9 @@ Make any link standout more when applying the `.btn` class.
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--primary}` class.
 {: .notice--primary}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--accent}` class.
+{: .notice--accent}
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--info}` class.
 {: .notice--info}
