@@ -202,7 +202,7 @@ Subject to change.
 	<li> 3:00pm-3:40pm Break</li>
 	<li> 3:00pm-3:20pm Submitted Talk</li>
 	
-	<li>3:20pm-4:10pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</i></b></li>
+	<li>3:20pm-4:10pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
 </ul>
 	
 
