@@ -136,7 +136,7 @@ The overall schedule is two days of tutorials, August 20, 21 2019 followed by tw
 <ul>
 <li>9-10am Submitted Talks
 <ul>
-<li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](abstracts.html#14)
+<li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a>
 </li>
 <li> <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](abstracts.html#20)</li>
 <li> <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](abstracts.html#24)</li>
