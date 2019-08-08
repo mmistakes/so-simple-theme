@@ -73,6 +73,8 @@ _New_ - Redesigned and more powerful stylization presets window. From top to bot
 * _Updated_ - All existing documentation to match the August 2019 release i.e., [MNPRX Shelf](./docs/shelf/), [MNPRX Toolbox](./docs/toolbox/), [Uber Material](./docs/uber/), [Material Presets](./docs/material-presets/) and [Stylization Presets](./docs/style-presets/).
 {: .top-1}
 
+---
+
 ## JULY 2019 UPDATE
 The July 2019 update of MNPRX includes a completely new [Cutout Stylization](/projects/cutout/), together with our own implementation of _Ground Truth Ambient Occlusion_ (_GTAO_)! These two features, together with a series of smaller new features, improvements and fixes, make the July update a substantial improvement for _MNPRX_. Just make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to be sure that you are using all the latest features of this update.
 
