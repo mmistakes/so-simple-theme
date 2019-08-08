@@ -20,6 +20,59 @@ schema:
 
 ---
 
+## AUGUST 2019 UPDATE
+The August 2019 update is focused on improving the functionality of MNPRX and its tools. We now support normal _Maya_ materials within _MNPRX_ stylizations, rim lights and have improved tools for better production workflows. Make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to use the rim lights within the uber material.
+
+### MNPRX
+**Viewport rendering**
+* _New_ - Maya materials are also supported by _MNPRX_ now, making _Viewport+_ the perfect option for higher quality viewport renders. Do keep in mind that _NoiseFX_ and _PaintFX_ only work with MNPRX materials.
+* _Improved_ - Ambient occlusion has been improved upon and can now be used with any material and in scenes with big world scales.
+* _Improved_ - The _Atmosphere Tint_ is now deactivated for orthographic views.
+* _Fixed_ - Minor bug that didn't TAA the image when de-selecting objects.
+* _Fixed_ - Minor bug that didn't show the substrate properly upon changing between textures of different resolutions.
+{: .top-1}
+
+**MNPRX Materials**
+* _New_ - _Rim Lights_ setting and attributes have been added to the [uber material](./docs/uber#rim-light).  
+{: .top-1}
+
+**MNPRX Toolbox**
+* _New_ - _Bulk Attribute_ tool now available for _Indie/Studio_ licenses. The tool will allow you to change _ShaderFX_ settings in bulk. It will be expanded to change normal attributes in the future, as well.
+{: .top-1}
+
+**Watercolor**
+* _Fixed_ - Pigment dilution now also dilutes ambient occlusion.
+{: .top-1}
+
+**MNPRX Shelf**
+* _New_ - A point light shelf icon has been included in the _MNPRX_ shelf. Point light support is limited by _Maya_'s _ShaderFX_ framework, so you won't be able to cast point light shadows in _MNPRX materials_.
+{: .top-1}
+
+**Material Presets**  
+_New_ - Redesigned and more powerful material presets window. From top to bottom, the updates are as follows:
+* _Improved_ - Save presets by pressing enter after writing the name (save button still there if you prefer a mouse)
+* _New_ - Load attributes checkbox allows you to not load the attributes in case you are only interested in loading the _NoiseFX_ or textures of an existing preset
+* _New_ - Filter presets by name or by material type
+* _Improved_ - Double click on a preset to load it on the selected objects
+{: .top-1}
+
+**Style Presets**  
+_New_ - Redesigned and more powerful stylization presets window. From top to bottom, the updates are as follows:
+* _Improved_ - Save presets by pressing enter after writing the name (save button still there if you prefer a mouse)
+* _New_ - Loading options for stylizations, giving control over loading the world scale, attributes, quality and substrates.
+* _New_ - Filter presets by name or by stylization
+* _Improved_ - Double click on a preset to load it
+{: .top-1}
+
+**Import/Export**
+* _Improved_ - Optimized file size when exporting stylization
+{: .top-1}
+
+**Documentation**
+* _New_ - Next two tutorials on [Stylizing a Scene](./docs/stylizing-scene/): Matching Materials and Matching Lighting, featuring the stylization of a production shot from _Run Totti Run_ by _Shad Bradbury_.
+* _Updated_ - All existing documentation to match the August 2019 release i.e., [MNPRX Shelf](./docs/shelf/), [MNPRX Toolbox](./docs/toolbox/), [Uber Material](./docs/uber/), [Material Presets](./docs/material-presets/) and [Stylization Presets](./docs/style-presets/).
+{: .top-1}
+
 ## JULY 2019 UPDATE
 The July 2019 update of MNPRX includes a completely new [Cutout Stylization](/projects/cutout/), together with our own implementation of _Ground Truth Ambient Occlusion_ (_GTAO_)! These two features, together with a series of smaller new features, improvements and fixes, make the July update a substantial improvement for _MNPRX_. Just make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to be sure that you are using all the latest features of this update.
 
