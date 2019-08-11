@@ -51,9 +51,9 @@ Conference: West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
-<a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2,3 Tutorials and Conference</a>
+<a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2, 3 Tutorials, Conference and Conference Dinner</a>
 
-<a href="img/old-courts-map_1.png">Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
+<a href="img/old-courts-map_1.png">Annoatated Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
 
 # [Submissions](#submissions)
 Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
@@ -64,7 +64,7 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 </ul>
 # [Tutorials](#tutorials)
 
-## Track 1
+## Track 1 (Bateman Auditorium) 
 <b>Basics of Bayesian inference and Stan. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
@@ -94,7 +94,7 @@ Please be comfortable with C++ or at least be willing to stare at blocks of ugly
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 
-## Track 3
+## Track 3 Keynes Hall
 
 **Hierarchical Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
@@ -137,14 +137,18 @@ Subject to change.
 ## Tuesday, August 20, Tutorials
 
 <ul>
-<li>8:00am-9:00am Registration Chetwynd Room, 
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
 
 </ul>
 
 ## Wednesday, August 21, Tutorials
+<ul>
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+</ul>
 
 ## Thursday, August 22, Conference
 <ul>
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
 <li>9am-10am Submitted Talks
 <ul>
 <li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
@@ -184,6 +188,7 @@ Subject to change.
 </ul>
 ## Friday, August 23
 <ul>
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
 	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
