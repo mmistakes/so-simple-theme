@@ -162,6 +162,25 @@ Subject to change.
 ## Wednesday, August 21, Tutorials
 <ul>
 <li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+<li>9:00am-11:30am Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	</ul>
+	</li>
+<li>11:30am-12:30pm Open Developers Meeting</li>
+<li>12:30pm-2:00pm Lunch</li>
+<li>2:00pm-4:30pm Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: Model assessment and selection <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	</ul>
+	</li>
+<li>4:30pm-5:30pm Open Developers Meeting</li>
+<li>5:30pm-7:00pm Bar</li>
+
 </ul>
 
 ## Thursday, August 22, Conference
