@@ -51,6 +51,10 @@ Conference: West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
+<a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2,3 Tutorials and Conference</a>
+
+<a href="img/old-courts-map_1.png">Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
+
 # [Submissions](#submissions)
 Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
 <ul>
@@ -131,6 +135,11 @@ The overall schedule is two days of tutorials, August 20, 21, followed by two da
 Subject to change. 
 
 ## Tuesday, August 20, Tutorials
+
+<ul>
+<li>8:00am-9:00am Registration Chetwynd Room, 
+
+</ul>
 
 ## Wednesday, August 21, Tutorials
 
