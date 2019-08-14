@@ -141,8 +141,8 @@ Subject to change.
 <li>9:00am-11:30am Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
-	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Scott's</a> </li>
-	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
 <li>11:30am-12:30pm Open Developers Meeting</li>
@@ -150,8 +150,8 @@ Subject to change.
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
-	<li>Track 2: A Dive into Stan’s C++ Model Concept <a href="img/annotated_kings.pdf">Scott's</a> </li>
-	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 2: A Dive into Stan’s C++ Model Concept <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
 <li>4:30pm-5:30pm Open Developers Meeting</li>
@@ -165,8 +165,8 @@ Subject to change.
 <li>9:00am-11:30am Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
-	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Scott's</a> </li>
-	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
 <li>11:30am-12:30pm Open Developers Meeting</li>
@@ -174,8 +174,8 @@ Subject to change.
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
-	<li>Track 2: Model assessment and selection <a href="img/annotated_kings.pdf">Scott's</a> </li>
-	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Scott's</a> </li>
+	<li>Track 2: Model assessment and selection <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
 <li>4:30pm-5:30pm Open Developers Meeting</li>
