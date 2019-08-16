@@ -215,7 +215,7 @@ Subject to change.
 <li>3:40pm-4:20pm Submitted Talks
 	<ul>
 		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract</a></li>
-<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> <a href="abstracts.html#32">Abstract</a></li>
+		<li><i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> <a href="abstracts.html#2">Abstract</a></li>
 	</ul>
 </li>
 <li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i></li>
@@ -253,7 +253,7 @@ Subject to change.
 	<li> 3:00pm-3:40pm Break</li>
 	<li>3:40pm-4:00pm Submitted Talk
 	<ul>
-	<li><i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> <a href="abstracts.html#2">Abstract<.a></li>
+	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a></li>
 	</ul>
 	</li>
 	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
