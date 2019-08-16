@@ -4,7 +4,11 @@ title: So Simple Theme
 locale: en_US
 description: A simple and clean responsive Jekyll theme for words and photos.
 logo: site-logo.png
-url: https://mmistakes.github.io/so-simple-theme
+
+baseurl: "so-simple-theme" # the subpath of your site, e.g. /blog
+url: "https://rsilveira79.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+remote_theme: "mmistakes/so-simple-theme"
+#url: https://mmistakes.github.io/so-simple-theme
 
 # Jekyll configuration
 
