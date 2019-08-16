@@ -251,9 +251,12 @@ Subject to change.
 	</ul></li>
 	
 	<li> 3:00pm-3:40pm Break</li>
-	<li> 3:00pm-3:20pm Submitted Talk</li>
-	
-	<li>3:20pm-4:10pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
+	<li>3:40pm-4:00pm Submitted Talk
+	<ul>
+	<li><i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2)</li>
+	</ul>
+	</li>
+	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
 </ul>
 	
 
