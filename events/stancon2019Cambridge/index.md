@@ -329,6 +329,7 @@ We would like to thank our sponsors who both support conference costs but schola
 <a href="https://www.astrazeneca.com/"><img width="200" src="logos/astrazeneca-logo.jpg" /></a>
 <a href="https://www.bayer.com/"><img width="200" src="logos/bayer.png" /></a>
 <a href="https://www.jumpingrivers.com/"><img width="200" src="logos/JumpingRivers.png" /></a>
+<a href=""><img width="300" src="logos/quantBet.png"</img></a>
 </center>
 
 # [Contact](#contact)
