@@ -64,13 +64,13 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 </ul>
 # [Tutorials](#tutorials)
 
-## Track 1 (Bateman Auditorium) 
+## Track 1 (<a href="img/old-courts-map_1.png">Bateman Hall</a></li>) 
 <b>Basics of Bayesian inference and Stan. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
-## Track 2
+## Track 2 (<a href="img/annotated_kings.pdf">Saltmarsh Room</a>)
 
 **Introduction to Stan for Programmers. No statistics background required.** August 20, 21 mornings with afternoon exercises. R/Python based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
 
@@ -94,7 +94,7 @@ Please be comfortable with C++ or at least be willing to stare at blocks of ugly
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 
-## Track 3 Keynes Hall
+## Track 3 (<a href="img/annotated_kings.pdf">Keynes' Hall</a>)
 
 **Hierarchical Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
@@ -155,7 +155,7 @@ Subject to change.
 	</ul>
 	</li>
 <li>4:30pm-5:30pm Open Developers Meeting</li>
-<li>5:30pm-7:00pm Bar</li>
+<li>5:00pm-7:00pm Bar</li>
 
 </ul>
 
@@ -179,13 +179,13 @@ Subject to change.
 	</ul>
 	</li>
 <li>4:30pm-5:30pm Open Developers Meeting</li>
-<li>5:30pm-7:00pm Bar</li>
+<li>5:00pm-7:00pm Bar</li>
 
 </ul>
 
 ## Thursday, August 22, Conference
 <ul>
-<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s></li>
 <li>9am-10am Submitted Talks
 <ul>
 <li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
@@ -225,7 +225,7 @@ Subject to change.
 </ul>
 ## Friday, August 23
 <ul>
-<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
 	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
