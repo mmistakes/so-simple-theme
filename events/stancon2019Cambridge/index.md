@@ -72,7 +72,7 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 <ul>
 <s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
 <s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
-<li> Posters are due by August 15. Acceptance will be on rolling basis (4 days) </li>
+<li> <s>Posters are due by August 15. Acceptance will be on rolling basis (4 days)</s> </li>
 </ul>
 # [Tutorials](#tutorials)
 
