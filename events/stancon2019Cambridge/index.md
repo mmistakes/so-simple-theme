@@ -327,10 +327,12 @@ We would like to thank our sponsors who both support conference costs but schola
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
 <span style="display:inline-block; width: 0.75em;"></span>
 <a href="https://www.astrazeneca.com/"><img width="200" src="logos/astrazeneca-logo.jpg" /></a>
+
 <a href="https://www.bayer.com/"><img width="200" src="logos/bayer.png" /></a>
+
 <a href="https://www.jumpingrivers.com/"><img width="200" src="logos/JumpingRivers.png" /></a>
 
-<a href="https://quantbet.com/"><img width="300" src="logos/quantBet.png"</img></a>
+<a href="https://quantbet.com/"><img width="300" src="logos/quantBet.png" /></a>
 </center>
 
 # [Contact](#contact)
