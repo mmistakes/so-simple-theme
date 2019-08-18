@@ -323,9 +323,10 @@ Buses from London Airports [here](https://www.nationalexpress.com/en).
 We would like to thank our sponsors who both support conference costs but scholarships and Stan as a whole. 
 
 <center style="padding: 0.75em 0 0 0">
-<span style="display:inline-block; width: 0.75em;"></span>
+<span style="display:inline-block; width: 0.75em;">
+</span>
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
-<hr>
+
 <span style="display:inline-block; width: 0.75em;"></span>
 <hr>
 
