@@ -61,7 +61,7 @@ West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
-<a href="img/CambridgeLarge.png">All venues</a>
+<a href="img/CambridgeLarge.png">Map of all venues</a>
 
 <a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2, 3 Tutorials, Conference and Conference Dinner</a>
 
@@ -76,13 +76,18 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 </ul>
 # [Tutorials](#tutorials)
 
-## Track 1 (<a href="img/old-courts-map_1.png">Bateman Hall</a>) 
+## Track 1
+
+<a href="img/old-courts-map_1.png">Bateman Hall Map</a>
+
 <b>Basics of Bayesian inference and Stan. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
-## Track 2 (<a href="img/annotated_kings.pdf">Saltmarsh Room</a>)
+## Track 2
+
+<a href="img/annotated_kings.pdf">Saltmarsh Room Map</a>
 
 **Introduction to Stan for Programmers. No statistics background required.** August 20, 21 mornings with afternoon exercises. R/Python based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
 
@@ -106,7 +111,9 @@ Please be comfortable with C++ or at least be willing to stare at blocks of ugly
 Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packages.
 
 
-## Track 3 (<a href="img/annotated_kings.pdf">Keynes' Hall</a>)
+## Track 3
+
+<a href="img/annotated_kings.pdf">Keynes' Hall Map</a>
 
 **Hierarchical Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
