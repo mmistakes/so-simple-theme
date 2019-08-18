@@ -44,14 +44,25 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 </ul>
 # [Location](#location)
 
-Tutorials: King's College and Caius
-College.
+Tutorials (see maps below): 
 
-Conference: West Road Concert Hall
+King's College
+King's Parade
+Cambridge CB2 1ST
+
+Caius College
+Trinity Street
+Cambridge
+CB2 1TA
+
+Conference: 
+
+West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
 <a href="img/CambridgeLarge.png">All venues</a>
+
 <a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2, 3 Tutorials, Conference and Conference Dinner</a>
 
 <a href="img/old-courts-map_1.png">Annoatated Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
