@@ -65,7 +65,7 @@ Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are m
 </ul>
 # [Tutorials](#tutorials)
 
-## Track 1 (<a href="img/old-courts-map_1.png">Bateman Hall</a></li>) 
+## Track 1 (<a href="img/old-courts-map_1.png">Bateman Hall</a>) 
 <b>Basics of Bayesian inference and Stan. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
