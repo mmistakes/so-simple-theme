@@ -186,7 +186,7 @@ Subject to change.
 
 ## Thursday, August 22, Conference
 <ul>
-<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s></li>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9am-10am Submitted Talks
 <ul>
 <li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
@@ -226,7 +226,7 @@ Subject to change.
 </ul>
 ## Friday, August 23
 <ul>
-<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s></li>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
 	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
