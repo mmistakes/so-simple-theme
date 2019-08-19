@@ -165,7 +165,7 @@ Subject to change.
 	</ul>
 	</li>
 <li>11:30am-12:30pm Open Developers Meeting</li>
-<li>12:30pm-2:00pm Lunch</li>
+<li>12:30pm-2:00pm Provided Lunch</li>
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
@@ -189,7 +189,7 @@ Subject to change.
 	</ul>
 	</li>
 <li>11:30am-12:30pm Open Developers Meeting</li>
-<li>12:30pm-2:00pm Lunch</li>
+<li>12:30pm-2:00pm Provided Lunch</li>
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
 	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
