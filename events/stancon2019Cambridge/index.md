@@ -18,12 +18,8 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
 - [**Location**](#location)
-- [**Submissions (Posters due August 15, rolling acceptance)**](#submissions)
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
-- [**Scholarships (May 1 deadline)**](#scholarships)
-- [**Registration (Rates go up 50% June 1)**](#registration)
-- [**Invitation_Letters**](#letters)
 - [**Schedule**](#schedule)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
@@ -67,13 +63,6 @@ University of Cambridge
 
 <a href="img/old-courts-map_1.png">Annoatated Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
 
-# [Submissions](#submissions)
-Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
-<ul>
-<s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
-<s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
-<li> <s>Posters are due by August 15. Acceptance will be on rolling basis (4 days)</s> </li>
-</ul>
 # [Tutorials](#tutorials)
 
 ## Track 1
@@ -129,23 +118,6 @@ This class covers techniques to build, fit, and criticize Bayesian models in pha
 The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
 
-
-# [Scholarships](#scholarships)
- Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
- 
-
-# [Registration](#registration)
-Registration for tutorials and conference is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link). 
-
-Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-<s>Prices go up 50% May 15, 2019.</s>
-Due to very large reviewing load of papers we have extended the price raise to a 50% increase June 1, 2019.
-
-# [Invitation Letters](#letters) 
-If you require an invitation letter for visa or other purposes please fill out [this form](https://docs.google.com/forms/d/10fR20T54al8HQsHxt0X9FQgCW4WbuPL1p49OpcVzHhE/edit). We will email you a letter within 4 days. You must be registered to get the letter. Contact us if you need it sooner at stanConCambridge@mc-stan.org.
 
 # [Schedule](#schedule)
 
