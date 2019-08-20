@@ -18,12 +18,8 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
 - [**Location**](#location)
-- [**Submissions (Posters due August 15, rolling acceptance)**](#submissions)
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
-- [**Scholarships (May 1 deadline)**](#scholarships)
-- [**Registration (Rates go up 50% June 1)**](#registration)
-- [**Invitation_Letters**](#letters)
 - [**Schedule**](#schedule)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
@@ -67,13 +63,6 @@ University of Cambridge
 
 <a href="img/old-courts-map_1.png">Annoatated Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
 
-# [Submissions](#submissions)
-Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
-<ul>
-<s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
-<s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
-<li> <s>Posters are due by August 15. Acceptance will be on rolling basis (4 days)</s> </li>
-</ul>
 # [Tutorials](#tutorials)
 
 ## Track 1
@@ -130,23 +119,6 @@ The course reviews elementary techniques to solve ODEs in Stan, the efficient pa
 
 
 
-# [Scholarships](#scholarships)
- Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
- 
-
-# [Registration](#registration)
-Registration for tutorials and conference is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link). 
-
-Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-<s>Prices go up 50% May 15, 2019.</s>
-Due to very large reviewing load of papers we have extended the price raise to a 50% increase June 1, 2019.
-
-# [Invitation Letters](#letters) 
-If you require an invitation letter for visa or other purposes please fill out [this form](https://docs.google.com/forms/d/10fR20T54al8HQsHxt0X9FQgCW4WbuPL1p49OpcVzHhE/edit). We will email you a letter within 4 days. You must be registered to get the letter. Contact us if you need it sooner at stanConCambridge@mc-stan.org.
-
 # [Schedule](#schedule)
 
 The overall schedule is two days of tutorials, August 20, 21, followed by two days of conference, August 22, 23. 
@@ -164,7 +136,7 @@ Subject to change.
 	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>11:30am-12:30pm Open Developers Meeting</li>
+<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (loo, projpred, bayesplot, discourse)</li>
 <li>12:30pm-2:00pm Provided Lunch</li>
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
@@ -173,7 +145,7 @@ Subject to change.
 	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>4:30pm-5:30pm Open Developers Meeting</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (posteriordb, bayesbenchr)</li>
 <li>5:00pm-7:00pm Bar</li>
 
 </ul>
@@ -188,7 +160,7 @@ Subject to change.
 	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>11:30am-12:30pm Open Developers Meeting</li>
+<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (bayesflow)</li>
 <li>12:30pm-2:00pm Provided Lunch</li>
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
@@ -197,7 +169,7 @@ Subject to change.
 	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>4:30pm-5:30pm Open Developers Meeting</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (parallelization, optimization, KINSOL)</li>
 <li>5:00pm-7:00pm Bar</li>
 
 </ul>
@@ -261,7 +233,7 @@ Subject to change.
  <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a></li>
 	</ul></li>
 <li> 12:00pm-1:00pm Provided Lunch </li>
-<li> 1:00pm-2:00pm Developers Meeting</li>
+<li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (sparse matrices, Laplace for GLVMs)</li>
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
 	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
