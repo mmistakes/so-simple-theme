@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] -
 
 ### Changed
+- Relax Jekyll dependency to allow for version 4.0.
 - Make entire entries and archive items "clickable"
 - Remove redundant "Read more..." links on each entry.
 
