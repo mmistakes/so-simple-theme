@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] -
+## [3.1.3] - 08-20-2019
 
 ### Changed
 - Relax Jekyll dependency to allow for version 4.0.
@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Add accent color variants for buttons and notices. [#335](https://github.com/mmistakes/so-simple-theme/pull/335)
 
-## [3.1.2] - 02-17-2018
+## [3.1.2] - 02-17-2019
 
 ### Changed
 - Update GitHub issue templates.
