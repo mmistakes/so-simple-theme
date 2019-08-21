@@ -145,7 +145,7 @@ Subject to change.
 	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (posteriordb, bayesbenchr)</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (posteriordb = reference model and posterior database, bayesbenchr = framework for benchmarking inference algorithms)</li>
 <li>5:00pm-7:00pm Bar</li>
 
 </ul>
@@ -160,7 +160,7 @@ Subject to change.
 	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (bayesflow)</li>
+<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (bayesflow for Bayesian workflow, parallelization, optimization, KINSOL solver)</li>
 <li>12:30pm-2:00pm Provided Lunch</li>
 <li>2:00pm-4:30pm Tutorials with Break
 	<ul>
@@ -169,7 +169,7 @@ Subject to change.
 	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
 	</ul>
 	</li>
-<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (parallelization, optimization, KINSOL)</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (sparse matrices, Laplace for GLVMs)</li>
 <li>5:00pm-7:00pm Bar</li>
 
 </ul>
@@ -233,7 +233,7 @@ Subject to change.
  <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a></li>
 	</ul></li>
 <li> 12:00pm-1:00pm Provided Lunch </li>
-<li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (sparse matrices, Laplace for GLVMs)</li>
+<li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (stanc optimization)</li>
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
 	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
