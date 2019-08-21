@@ -13,4 +13,12 @@ image:
 - [AR1](ar1_rng.stan)
 - [Interaction](interaction_rng.stan)
 - [rstanarm](hierarchical_models_with_rstanarm.Rmd)
+- [lme4Syntax](lme4Syntax.png)
+- [brms](hierarchical_models_with_brms.Rmd)
+- [workflow](workflow.png)
+- [rstan](hierarchical_models_with_rstan.Rmd)
+- [centered](centered_rng.stan)
+- [noncentered](noncentered_rng.stan)
+- [meta_analysis](meta_analysis.stan)
+- [poll](poll.rds)
 
