@@ -47,14 +47,19 @@ With the materials set, we can refine the lighting in the scene to approach the 
 
 {% include responsive-embed url="https://www.youtube.com/embed/yaWaxVQm0Ec?rel=0" width="90%" %}
 
-Documentation still in progress, come back in the coming days for more!
-{: .notice--info}
-
 ## NoiseFX
+Once the materials and lighting have been matched, its time to add procedural watercolor effects that will speed up the stylization process.
+
+{% include responsive-embed url="https://www.youtube.com/embed/NSu0B22f4FU?rel=0" width="90%" %}
 
 ## PaintFX
+With the NoiseFX in place, its time to refine the materials further and modify the effects locally by using PaintFX.
+
+{% include responsive-embed url="https://www.youtube.com/embed/opa7M5qgm_c?rel=0" width="90%" %}
 
 ## Proxies
+Documentation still in progress, please check back in the next days for the final videos.
+{: .notice--info}
 
 ## Attaching Proxies to Objects (optional)
 
