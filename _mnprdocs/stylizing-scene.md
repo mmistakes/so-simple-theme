@@ -66,7 +66,7 @@ Proxies can be added at **any stage in the stylization**, either at the beginnin
 ## Attaching Proxies Onto Objects (optional)
 If you want to **attach proxies onto objects**, you can also watch this tutorial, where we attach two proxy planes onto the two hero characters, to highlight them.
 
-{% include responsive-embed url="https://www.youtube.com/embed/B8_9d8k4qY0?rel=0" width="90%" %}
+{% include responsive-embed url="https://www.youtube.com/embed/z5ZtXLlvpeI?rel=0" width="90%" %}
 
 ## Rendering
 After the stylization is complete, you need to [**render the stylized scene**](../rendering-scene/) as an image sequence for best results.
