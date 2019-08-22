@@ -205,8 +205,8 @@ Subject to change.
 		<li><i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> <a href="abstracts.html#21">Abstract</a></li>
 	</ul>
 </li>
-<li>3:00pm-4:00pm Break</li>
-<li>4:00pm-4:20pm Submitted Talks
+<li>3:00pm-3:40pm Break</li>
+<li>3:40pm-4:20pm Submitted Talks
 	<ul>
 		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract, </a><a href="http://opensource.adobe.com/Chronikis/docker.html
 ">Docker link</a></li>
