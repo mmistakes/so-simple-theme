@@ -21,6 +21,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
 - [**Schedule**](#schedule)
+- [**Streaming**](#streaming)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
 - [**Contact**](#contact)
@@ -117,7 +118,9 @@ This class covers techniques to build, fit, and criticize Bayesian models in pha
 
 The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
+# [Streaming](#streaming)
 
+Talks are streamed on <a href="https://www.youtube.com/channel/UCiQZz5hQXqeIjs9gS5eYcMg">Stan YouTube channel</a>.
 
 # [Schedule](#schedule)
 
