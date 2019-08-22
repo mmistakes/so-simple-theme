@@ -62,16 +62,11 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ### [Viewport+](/projects/viewport+) {% include aio-wip.html %}
 </div>
 
-<div class="doc-element" markdown="1">
-## Integrations
-### [External Renderer](external-renderers) {% include aio-wip.html %}
-### [Watercolor in Nuke](watercolor-nuke) {% include aio-wip.html %}
-</div>
-
-<div class="doc-element" markdown="1">
+<div class="doc-element" markdown="1" style="white-space: nowrap;">
 ## Examples
 ### [Stylizing Scenes](stylizing-scene) {% include aio-new.html %}
 ### [Rendering Scenes](rendering-scene)
+### [Compositing in Nuke](compositing-nuke) {% include aio-new.html %}
 </div>
 
 </div>
