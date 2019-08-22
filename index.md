@@ -60,3 +60,4 @@ Stan](/support/).
 <center style="padding: 0.75em 0 0 0">
 <a href="http://numfocus.org"><img width="200" src="images/numfocus.png" /></a>
 </center>
+
