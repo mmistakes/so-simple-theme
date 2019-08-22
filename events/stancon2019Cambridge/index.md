@@ -205,9 +205,10 @@ Subject to change.
 <li>3:00pm-4:00pm Break</li>
 <li>4:00pm-4:20pm Submitted Talks
 	<ul>
-		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract, </a><a href="https://cloud.docker.com/u/adobe/repository/docker/adobe/chronikis">Docker link</a></li>
-		<!--<li><i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> <a href="abstracts.html#2">Abstract</a></li>
-		-->
+		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract, </a><a href="http://opensource.adobe.com/Chronikis/docker.html
+">Docker link</a></li>
+		<li><i><b id="8">Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b>  <a href="abstracts.html#8">Abstract</a></li>
+		
 	</ul>
 </li>
 <li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i></li>
