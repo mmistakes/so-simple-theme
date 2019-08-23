@@ -29,6 +29,8 @@
   display: none;
   margin-bottom: 1em;
   text-align: center;
+  font-family: $sans-serif-font-family2;
+  font-size: 0.9em;
 
   ul {
     display: block;
@@ -59,7 +61,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      border-color: $nav-color;
+      color: $nav-color-focus;
     }
   }
 

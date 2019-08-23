@@ -5,9 +5,7 @@
       <ul>
         {% assign page_image = page.image.path | default: page.image %}
         {% if page_image %}
-          <li><a class="navigation-logo" href="{{site.url}}"><img src="{{ site.url }}/images/navigation-logo.png" alt="{{ site.title }}">{{ site.title }}</a></li>
-        {% else %}
-          <li><a class="navigation-logo" href="{{site.url}}">{{ site.title }}</a></li>
+          <li><a class="navigation-logo" href="{{site.url}}"><i class="fas fa-home fa-lg"></i></a></li>
         {% endif %}
         {%- for link in site.data.navigation -%}
           {%- if link.url contains '://' -%}

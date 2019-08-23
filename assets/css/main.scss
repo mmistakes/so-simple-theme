@@ -53,12 +53,12 @@ img {
 .site-nav ul {
   border-radius: 0;
   font-size: 1.3em;
+  padding-bottom: 0.2em;
   li {
     display: block;
   }
   .navigation-logo img {
     height: 2em;
-    margin-right: 0.7em;
     margin-top: -0.2em;
   }
   @include breakpoint($medium) {
@@ -67,11 +67,22 @@ img {
     li {
       display: inline-block;
     }
-    .navigation-logo img {
-      height: 1.8em;
-      margin-right: 0.7em;
-      margin-top: -0.2em;
+    .navigation-logo {
+      padding-right: 0;
+      position: relative;
+      top: -0.05em;
+      img {
+        height: 1.8em;
+        margin-top: -0.2em;
+      }
     }
+  }
+}
+.site-nav ul > :last-child a {
+  @include breakpoint($medium) {
+    padding-left: 0.4em;
+    position: relative;
+    top: -0.05em;
   }
 }
 

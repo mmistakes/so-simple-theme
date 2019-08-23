@@ -6,20 +6,23 @@
 - title: Services
   url: /services/
 
+- title: Our Work
+  url: /work/
+
 - title: About
   url: /about/
 
-- title: Projects
-  url: /projects/
+#- title: Projects
+#  url: /projects/
 
-- title: Research
-  url: /research/
+#- title: Research
+#  url: /research/
 
-- title: Community
-  url: https://community.artineering.io/
+#- title: Community
+#  url: https://community.artineering.io/
 
 - title: Contact
   url: /contact/
 
-- title: Search
+- title: <i class="fas fa-search fa-lg"></i>
   url: /search/
