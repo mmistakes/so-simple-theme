@@ -243,13 +243,13 @@ Subject to change.
 	<ul>
 	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
 	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a></li>
-	<li>Leah Comment</li>
+	<li><i><b>Prediction and causal inference for time-to-event outcomes truncated by death</b></i> Leah Comment </li>
 	</ul></li>
 	
 	<li> 3:00pm-3:40pm Break</li>
 	<li>3:40pm-4:00pm Submitted Talk
 	<ul>
-	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a></li>
+	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i> Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a></li>
 	</ul>
 	</li>
 	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
