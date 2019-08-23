@@ -22,6 +22,7 @@ source: http://dx.doi.org/10.2312/exp.20161063
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Art-directed-watercolor-stylization-of-3D-animations-in-real-time/
+  - /research/Art-directed-watercolor-stylization-of-3D-animations-in-real-time/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">
@@ -61,7 +62,7 @@ _This paper presents a direct stylization system to render 3D animated geometry 
 
 ## Downloads
 * [Paper Manuscript](https://dr.ntu.edu.sg/handle/10220/44033)*
-* [Implementation](/projects/Maya-NPR/)
+* [Implementation](/software/Maya-NPR/)
 * [Training material](https://www.youtube.com/playlist?list=PLnr8w_xl4rdtMDMLRRdWAnznQfueZZGUB)
 * [User study data](http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0097849317300316/1-s2.0-S0097849317300316-mmc2.zip/271576/abst/S0097849317300316/3c2d536feb5cf748e17c12e0a0a42813/mmc2.zip?_role=raw-data)
 * [Full-sized figures](https://1drv.ms/u/s!Arb19fQ9R1Nhj-w9AKABbRLnfr30lw)

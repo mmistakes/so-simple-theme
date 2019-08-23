@@ -6,6 +6,8 @@ excerpt: Handy tools to work with MNPRX in production
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/toolbox/
 ---
 
 The _MNPRX toolbox_ is a handy collection of tools to use MNPRX in production. The toolbox can be opened by clicking on the `tbox` [shelf icon](../shelf).

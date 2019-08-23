@@ -6,6 +6,8 @@ excerpt: Breaking down the painterly MNPRX uber material
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/uber/
 ---
 
 Materials give the surface properties to 3D objects, which are then projected to an image. Therefore, it is crucial to understand what features materials can provide, especially in a non-photorealistic rendering context where everything is possible. It can take some time to fully master the _mnpr_uber_ material, but hopefully this documentation will make the learning curve manageable.

@@ -6,6 +6,8 @@ excerpt: Documentation on installing MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/installation/
 ---
 
 ## Requirements
@@ -15,7 +17,7 @@ schema:
 
 
 ## Get MNPRX
-Get a commercial or non-commercial version of MNPRX [here](/projects/MNPRX/).
+Get a commercial or non-commercial version of MNPRX [here](/software/MNPRX/).
 
 
 ## Installation
@@ -25,14 +27,14 @@ The installation of MNPRX is intended to be the least invasive, so you won't nee
 1. If successful, a prompt will appear in _Maya_, asking you to restart the application, please do so to show all changes.
 1. Once you open _Maya_ again, the [_MNPRX shelf_](../shelf) will appear alongside the other shelves.
 1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button.
-1. If MNPRX has not been activated before, the [activation prompt](/projects/MNPRX/docs/licensing/#activating-a-license) will appear.
+1. If MNPRX has not been activated before, the [activation prompt](/software/MNPRX/docs/licensing/#activating-a-license) will appear.
 
 A video showing this installation process can be seen below:
 {% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" width="90%" %}
 
 
 ## Example Scenes
-_MNPRX_ comes with an example scene in the _projects_ folder. However, scenes stylized with the open-source [_MNPR_ release](/projects/Maya-NPR) can also be used with _MNPRX_. However, these scenes need to be updated to work with _MNPRX_, as follows.
+_MNPRX_ comes with an example scene in the _projects_ folder. However, scenes stylized with the open-source [_MNPR_ release](/software/Maya-NPR) can also be used with _MNPRX_. However, these scenes need to be updated to work with _MNPRX_, as follows.
 1. Download the example scenes from [here](https://github.com/semontesdeoca/MNPR/releases/latest)
 1. Extract them in a desired folder
 1. Set your _Maya project_ to the folder where your example scenes are `Menu, File->Set Project`

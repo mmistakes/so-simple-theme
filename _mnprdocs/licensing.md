@@ -6,6 +6,8 @@ excerpt: Documentation on activating MNPRX Licenses
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/licensing/
 ---
 
 ## MNPRX licensing basics

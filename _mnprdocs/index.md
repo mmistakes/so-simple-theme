@@ -3,7 +3,7 @@ layout: publication
 categories: docs
 title: MNPRX Documentation
 type: Docs
-permalink: /projects/MNPRX/docs/
+permalink: /software/MNPRX/docs/
 excerpt: MNPRX Documentation, tutorials, FAQ, API
 tags: [Docs, NPR, Real-time, Maya, Software]
 image:
@@ -13,6 +13,8 @@ image:
   thumbnail:
 comments: true
 schema: SoftwareApplication
+redirect_from:
+  - /projects/MNPRX/docs/
 ---
 
 As MNPRX continues to grow, it has become indispensable to document all its functions, which can be found here. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
@@ -57,9 +59,9 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Stylizations
-### [Watercolor](/projects/watercolor) {% include aio-wip.html %}
-### [Cutout](/projects/cutout)
-### [Viewport+](/projects/viewport+) {% include aio-wip.html %}
+### [Watercolor](/styles/watercolor) {% include aio-wip.html %}
+### [Cutout](/styles/cutout)
+### [Viewport+](/styles/viewport+) {% include aio-wip.html %}
 </div>
 
 <div class="doc-element" markdown="1" style="white-space: nowrap;">

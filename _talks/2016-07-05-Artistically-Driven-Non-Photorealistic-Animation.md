@@ -20,6 +20,7 @@ share: true
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Artistically-Driven-Non-Photorealistic-Animation/
+  - /research/Artistically-Driven-Non-Photorealistic-Animation/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">

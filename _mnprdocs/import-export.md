@@ -6,6 +6,8 @@ excerpt: Exporting and Importing stylizations
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/import-export/
 ---
 
 Importing/exporting the stylization is crucial in professional production workflows and can be done with the _Import/Export Tool_. The tool can be found in the _MNPRX Toolbox_, opened by clicking on the `tbox` [shelf icon](../shelf).

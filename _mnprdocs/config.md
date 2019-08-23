@@ -7,6 +7,8 @@ tags: [Docs, MNPRX]
 comments: true
 search: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/config/
 ---
 
 The style configuration node gets selected when clicking on the `conf` icon in the _[MNPRX shelf](../shelf)_ and looks somewhat similar to the figure below---depending on the active stylization. The node contains every global parameter available in the active stylization and each value is applied over the entire image. Therefore, it is imperative to understand what each attribute does and how it affects the stylization. The attributes in the style configuration node are separated into four groups.

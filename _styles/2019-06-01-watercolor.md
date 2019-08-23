@@ -17,6 +17,7 @@ share: true
 schema: SoftwareApplication
 redirect_from:
   - /projects/Maya-Watercolor/
+  - /projects/watercolor/
 ---
 
 
@@ -89,7 +90,7 @@ It is the first watercolor stylization pipeline of [MNPR](../Maya-NPR) based on 
 
 For visual results, please visit the individual publication posts.
 
-The style is included for **[free in MNPR](../Maya-NPR)** and has been further refined in [MNPRX](/projects/MNPRX) for different production requirements.
+The style is included for **[free in MNPR](../Maya-NPR)** and has been further refined in [MNPRX](/software/MNPRX) for different production requirements.
 
 ------------------------
 

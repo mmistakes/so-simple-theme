@@ -6,6 +6,8 @@ excerpt: Loading and creating material presets in MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/material-presets/
 ---
 
 _Material presets_ allow artists to easily create and load stylized materials within MNPRX. This tool can be opened by clicking on the `mPre` [shelf icon](../shelf).
@@ -16,14 +18,14 @@ _Material presets_ allow artists to easily create and load stylized materials wi
 	<figcaption>The Material presets window will look similar to this, depending on which presets you have available.</figcaption>
 </figure>
 
-A material preset contains all the available attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/projects/cutout#cutout-material)_, or the _[mnpr_geoproxy](../proxy)_ materials, together with a small thumbnail of the object assigned to it.
+A material preset contains all the available attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/styles/cutout#cutout-material)_, or the _[mnpr_geoproxy](../proxy)_ materials, together with a small thumbnail of the object assigned to it.
 
 
 ## Creating presets
 You can save as many presets as you want and these can be created at the top of the _Material presets_ window.
 1. Name the current preset as desired in the highlighted text field
 1. Press `Enter` or click on the `Save` button on the right
-1. A new preset will appear in the list with all attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/projects/cutout#cutout-material)_, or the _[mnpr_geoproxy](../proxy)_ materials.
+1. A new preset will appear in the list with all attributes found in the _[mnpr_uber](../uber)_, _[mnpr_cutout](/styles/cutout#cutout-material)_, or the _[mnpr_geoproxy](../proxy)_ materials.
 
 When you save a preset with the same name as an existing one, the previously existing preset will be overwritten.
 {: .notice--warning}

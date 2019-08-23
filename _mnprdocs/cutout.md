@@ -6,12 +6,14 @@ excerpt: Understanding all effects involved in the cutout style
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/cutout/
 ---
 
 ## Cutout
 
-The _Cutout_ style simulates a _paper cutout_ effect with two sheets of paper on top of each other. 
-The top sheet is "cut-out" following the _cutout mask_, revealing the bottom sheet underneath. 
+The _Cutout_ style simulates a _paper cutout_ effect with two sheets of paper on top of each other.
+The top sheet is "cut-out" following the _cutout mask_, revealing the bottom sheet underneath.
 Through several attributes, the lighting can be adjusted globally to control the shadow cast by the top sheet on the bottom sheet.
 
 <figure class="pull-center">
@@ -47,7 +49,7 @@ Additionally, the position of the drop shadow and bevel shade follows the direct
 
 These attributes specify the behavior of the cutout style.
 
-- _Paper Distance_: distance between the two sheets. A longer distance will increase the offset of the drop shadow. 
+- _Paper Distance_: distance between the two sheets. A longer distance will increase the offset of the drop shadow.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/cutout/paperDistance.mp4" type="video/mp4">
@@ -87,7 +89,7 @@ These attributes specify the behavior of the cutout style.
 	<figcaption>Varying outer bevel shadow between 0.0 and 3.0</figcaption>
 </figure>
 
-- _Gradient Shade_: defines the intensity of the gradient shading effect. The gradient shading is a light-to-dark gradient overlaid on the image and oriented towards the direction of the light. 
+- _Gradient Shade_: defines the intensity of the gradient shading effect. The gradient shading is a light-to-dark gradient overlaid on the image and oriented towards the direction of the light.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/cutout/gradientShade.mp4" type="video/mp4">

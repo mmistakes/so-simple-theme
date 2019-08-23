@@ -6,6 +6,8 @@ excerpt: Creating and loading stylization presets
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/style-presets/
 ---
 _Stylization presets_ allow artists to easily switch between styles and stylization parameters within MNPRX. This tool can be opened by clicking on the `style` [shelf icon](../shelf).
 {: .top2}

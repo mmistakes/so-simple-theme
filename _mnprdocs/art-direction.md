@@ -6,6 +6,8 @@ excerpt: Art-directing the style within MNRPX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/art-direction/
 ---
 
 MNPRX is all about art-direction and offering ways for artists to interactively control the 3D render towards their desired vision. Therefore, we offer 4 different levels of control, which help to control the stylization from the highest level of control (Style Presets) to the lowest level of control (PaintFX).

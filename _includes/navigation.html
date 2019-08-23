@@ -3,10 +3,7 @@
     <a href="#menu-toggle" id="menu-toggle"><span class="fas fa-bars fa-lg"></span> {{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
     <nav id="primary-nav" class="site-nav animated drop">
       <ul>
-        {% assign page_image = page.image.path | default: page.image %}
-        {% if page_image %}
-          <li><a class="navigation-logo" href="{{site.url}}"><i class="fas fa-home fa-lg"></i></a></li>
-        {% endif %}
+        <li><a class="navigation-logo" href="{{site.url}}"><i class="fas fa-home fa-lg"></i></a></li>
         {%- for link in site.data.navigation -%}
           {%- if link.url contains '://' -%}
             {%- assign url = link.url -%}

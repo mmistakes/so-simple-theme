@@ -6,6 +6,8 @@ excerpt: Documentation on updating MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/update/
 ---
 {% include toc-side %}
 

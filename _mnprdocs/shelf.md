@@ -6,6 +6,8 @@ excerpt: Breakdown of the MNPRX shelf
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/shelf/
 ---
 
 <figure class="align-center top2">

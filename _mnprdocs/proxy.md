@@ -6,6 +6,8 @@ excerpt: Breaking down the invisible geoproxy material
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/proxy/
 ---
 
 Proxy materials are invisible materials that only render to the stylization control maps within MNPRX, modifying stylization effects. As this may sound abstract, please watch the following tutorial demonstrating its usage within a watercolor stylization.

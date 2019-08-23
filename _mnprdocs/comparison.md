@@ -6,6 +6,8 @@ excerpt: Comparison between the different versions of MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/comparison/
 ---
 
 The non-commercial (NC) and commercial versions of MNPRX (Indie, Studio) differ visually in two ways: Quality and Resolution.

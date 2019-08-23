@@ -23,6 +23,7 @@ source: https://diglib.eg.org/handle/10.2312/exp20161063
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Art-directed-Watercolor-Rendered-Animation/
+  - /research/Art-directed-Watercolor-Rendered-Animation/
 ---
 
 

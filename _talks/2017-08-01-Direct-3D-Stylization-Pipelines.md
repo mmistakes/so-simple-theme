@@ -22,6 +22,7 @@ source: https://doi.org/10.1145/3098333.3098339
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Direct-3D-stylization-pipelines/
+  - /research/Direct-3D-stylization-pipelines/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">
@@ -79,4 +80,4 @@ illustrations, and interactive art._
 
 ## Downloads
 * [Publication](https://dl.acm.org/authorize?N658395)
-* [Implementation](/projects/Maya-NPR/)
+* [Implementation](/software/Maya-NPR/)

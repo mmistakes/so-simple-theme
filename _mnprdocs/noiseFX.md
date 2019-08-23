@@ -6,6 +6,8 @@ excerpt: Creating and customizing procedural effect parameters
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/noisefx/
 ---
 
 _NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at the material level of control. The tool can be opened by clicking on the **nFX** shelf icon and shares the same window with [_PaintFX_](../paintfx).

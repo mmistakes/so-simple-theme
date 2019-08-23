@@ -1,6 +1,6 @@
 ---
 layout: publication
-permalink: /projects/MNPRX/release-log
+permalink: /software/MNPRX/release-log
 title: MNPRX Release
 excerpt: New MNPRX release!
 type: Release
@@ -21,7 +21,7 @@ schema:
 ---
 
 ## AUGUST 2019 UPDATE
-The August 2019 update is focused on improving the functionality of MNPRX and its tools. We now support normal _Maya_ materials within _MNPRX_ stylizations, rim lights and have improved tools for better production workflows. Make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to use the rim lights within the uber material.
+The August 2019 update is focused on improving the functionality of MNPRX and its tools. We now support normal _Maya_ materials within _MNPRX_ stylizations, rim lights and have improved tools for better production workflows. Make sure to also [update the materials in the scene](/software/MNPRX/docs/update/#materials), to use the rim lights within the uber material.
 
 ### MNPRX
 **Viewport rendering**
@@ -76,11 +76,11 @@ _New_ - Redesigned and more powerful stylization presets window. From top to bot
 ---
 
 ## JULY 2019 UPDATE
-The July 2019 update of MNPRX includes a completely new [Cutout Stylization](/projects/cutout/), together with our own implementation of _Ground Truth Ambient Occlusion_ (_GTAO_)! These two features, together with a series of smaller new features, improvements and fixes, make the July update a substantial improvement for _MNPRX_. Just make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials), to be sure that you are using all the latest features of this update.
+The July 2019 update of MNPRX includes a completely new [Cutout Stylization](/styles/cutout/), together with our own implementation of _Ground Truth Ambient Occlusion_ (_GTAO_)! These two features, together with a series of smaller new features, improvements and fixes, make the July update a substantial improvement for _MNPRX_. Just make sure to also [update the materials in the scene](/software/MNPRX/docs/update/#materials), to be sure that you are using all the latest features of this update.
 
 ### MNPRX
 
-[**Cutout Stylization**](/projects/cutout/)
+[**Cutout Stylization**](/styles/cutout/)
 
 _New_ - The _Cutout Stylization_ brings real-time cutout rendering of 3D objects and animation directly within _Autodesk Maya_ through _MNPRX_.
 {: .top-1}
@@ -123,7 +123,7 @@ _New_ - The _Cutout Stylization_ brings real-time cutout rendering of 3D objects
 {: .top-1}
 
 **Documentation**
-* _New_ - Cutout stylization [**documentation**](/projects/cutout/).
+* _New_ - Cutout stylization [**documentation**](/styles/cutout/).
 * _New_ - Tutorial series on [Stylizing a Scene](./docs/stylizing-scene/) in progress, featuring the stylization of a production shot from _Run Totti Run_ by _Shad Bradbury_.
 * _New_ - Tutorial for [Rendering a Scene](./docs/rendering-scene/).
 * _New_ - Thorough documentation on [Art-direction](./docs/art-direction/), including breakdowns on the [_NoiseFX_](/docs/noisefx/) and [_PaintFX_](docs/paintfx/) tools.
@@ -204,13 +204,13 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 {: .bottom05}
 
 **MNPR Material**
-* _Improved_ - Streamlined _mnpr_uber_ material with [documentation](/projects/MNPRX/docs/uber).
-* _Improved_ - Streamlined _mnpr_geoproxy_ material with [documentation](/projects/MNPRX/docs/proxy).
+* _Improved_ - Streamlined _mnpr_uber_ material with [documentation](/software/MNPRX/docs/uber).
+* _Improved_ - Streamlined _mnpr_geoproxy_ material with [documentation](/software/MNPRX/docs/proxy).
 {: .top-1}
 
 **MNPRX Shelf**
-* _Improved_ - Streamlined _MNPRX_ shelf with [documentation](/projects/MNPRX/docs/shelf).
-* _New_ - [MNPRX documentation](/projects/MNPRX/docs) added under the _MNPRX_ shelf icon.
+* _Improved_ - Streamlined _MNPRX_ shelf with [documentation](/software/MNPRX/docs/shelf).
+* _New_ - [MNPRX documentation](/software/MNPRX/docs) added under the _MNPRX_ shelf icon.
 * _New_ - [MNPRX issue/feedback tracker](https://github.com/artineering-io/MNPRX/issues) added under the _FEEDBACK_ shelf icon.
 {: .top-1}
 
@@ -219,9 +219,9 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 {: .top-1}
 
 **Documentation**
-* _New_ - Thorough documentation on Basics: [Installation](/projects/MNPRX/docs/installation), [Updating MNPRX](/projects/MNPRX/docs/update), [MNPRX Shelf](/projects/MNPRX/docs/shelf).
-* _New_ - Thorough documentation on Styles: [Presets](/projects/MNPRX/docs/style-presets), [Configuration](/projects/MNPRX/docs/conf), [Import/Export](/projects/MNPRX/docs/import-export).
-* _New_ - Thorough documentation on Materials: [Presets](/projects/MNPRX/docs/material-presets), [Uber Material](/projects/MNPRX/docs/uber), [Proxies](/projects/MNPRX/docs/proxy).
+* _New_ - Thorough documentation on Basics: [Installation](/software/MNPRX/docs/installation), [Updating MNPRX](/software/MNPRX/docs/update), [MNPRX Shelf](/software/MNPRX/docs/shelf).
+* _New_ - Thorough documentation on Styles: [Presets](/software/MNPRX/docs/style-presets), [Configuration](/software/MNPRX/docs/conf), [Import/Export](/software/MNPRX/docs/import-export).
+* _New_ - Thorough documentation on Materials: [Presets](/software/MNPRX/docs/material-presets), [Uber Material](/software/MNPRX/docs/uber), [Proxies](/software/MNPRX/docs/proxy).
 {: .top-1}
 
 ---

@@ -23,6 +23,7 @@ source: http://hdl.handle.net/10220/47356
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Real-time-watercolor-rendering-of-3D-objects-and-animation-with-enhanced-control/
+  - /research/Real-time-watercolor-rendering-of-3D-objects-and-animation-with-enhanced-control/
 ---
 {::options parse_block_html="true" /}
 <div class="publication-info center">

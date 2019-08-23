@@ -6,6 +6,8 @@ excerpt: Rendering a scene using MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/rendering-scene/
 ---
 
 **Rendering with _MNPRX_ is a breeze** compared to rendering with offline renderers, as every frame is calculated in real-time! In fact, computers normally **take longer to save image files** to disk **than to render them**.

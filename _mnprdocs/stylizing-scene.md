@@ -6,6 +6,8 @@ excerpt: Stylizing a scene using MNPRX
 tags: [Docs, MNPRX]
 comments: true
 schema:
+redirect_from:
+  - /projects/MNPRX/docs/stylizing-scene/
 ---
 
 Here you will find **tutorial series** on **stylizing entire scenes** with _MNPRX_. The series will showcase the **workflow** and all the **tools involved** to stylize example scenes from **different productions**, with **different styles**.
