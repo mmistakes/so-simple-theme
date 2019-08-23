@@ -68,6 +68,12 @@
   @include notice(mix(#fff, $primary-color, 70%));
 }
 
+/* Accent notice */
+
+.notice--accent {
+  @include notice(mix(#fff, $accent-color, 70%));
+}
+
 /* Info notice */
 
 .notice--info {
