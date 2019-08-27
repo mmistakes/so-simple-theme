@@ -18,13 +18,10 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
 - [**Location**](#location)
-- [**Submissions (Posters due August 15, rolling acceptance)**](#submissions)
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
-- [**Scholarships (May 1 deadline)**](#scholarships)
-- [**Registration (Rates go up 50% June 1)**](#registration)
-- [**Invitation_Letters**](#letters)
 - [**Schedule**](#schedule)
+- [**Recorded talks**](#streaming)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
 - [**Contact**](#contact)
@@ -44,29 +41,43 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 </ul>
 # [Location](#location)
 
-Tutorials: King's College and Caius
-College.
+Tutorials (see maps below): 
 
-Conference: West Road Concert Hall
+King's College
+King's Parade
+Cambridge CB2 1ST
+
+Caius College
+Trinity Street
+Cambridge
+CB2 1TA
+
+Conference: 
+
+West Road Concert Hall
 University of Cambridge
 11 West Road, Cambridge CB3 9DP UK
 
-# [Submissions](#submissions)
-Submission form [here](https://forms.gle/Kp94mtiUb5meCtRTA). All deadlines are midnight anywhere on the planet:
-<ul>
-<s><li>Tutorial proposals from 1.5 hrs to 12 hrs are solicited. Deadline April 10.</li> </s>
-<s><li>15 minute presentation submissions for the conference are due by April 30, 2019. We are only requiring abstracts with the option of presentations without notebooks.</li></s>
-<li> Posters are due by August 15. Acceptance will be on rolling basis (4 days) </li>
-</ul>
+<a href="img/CambridgeLarge.png">Map of all venues</a>
+
+<a href="img/annotated_kings.pdf">Annotated Kings College Map. Track 2, 3 Tutorials, Conference and Conference Dinner</a>
+
+<a href="img/old-courts-map_1.png">Annoatated Caius College Map (Track 1 Tutorial "Basics of Bayesian inference and Stan"), Bateman Room and Auditorium)</a>
+
 # [Tutorials](#tutorials)
 
 ## Track 1
+
+<a href="img/old-courts-map_1.png">Bateman Hall Map</a>
+
 <b>Basics of Bayesian inference and Stan. </b>August 20, 21 all day. Instructors Jonah Gabry and Lauren Kennedy. 
 
 <b>Description:</b> In this tutorial we will first review some of the foundational concepts in Bayesian statistics that are essential background for anyone interested in using Bayesian methods in practice. Then we will introduce the Stan language and the recommended workflow for applied Bayesian data analysis by working through an example analysis together. Since we only have 2 days for this tutorial it will be beneficial for participants to have at least some previous experience with statistical modeling, but prior experience fitting Bayesian models is not a requirement. 
 We will be interfacing with Stan from R, but users of Python and other languages/platforms can still benefit from the tutorial as all of the code we write in the Stan language (and all of the modeling techniques and concepts covered) can be used with any of the Stan interfaces.
 
 ## Track 2
+
+<a href="img/annotated_kings.pdf">Saltmarsh Room Map</a>
 
 **Introduction to Stan for Programmers. No statistics background required.** August 20, 21 mornings with afternoon exercises. R/Python based introduction to both Stan and statistics. Instructors Jonathan Auerbach, Breck Baldwin.
 
@@ -92,6 +103,8 @@ Tutorial demonstrations are based on R with rstan, rstanarm, brms and loo packag
 
 ## Track 3
 
+<a href="img/annotated_kings.pdf">Keynes' Hall Map</a>
+
 **Hierarchical Modeling with Stan**. August 20, 21 mornings. Instructor Ben Goodrich. 
 
 **Description:** Hierarchical models are and should be the default way to conduct a Bayesian analysis. By hierarchical Bayesian models, we mean any generative process where the distribution for some unknown depends on one or more other unknowns. This includes instrumental variables, interaction terms, hierarchical shrinkage priors and many others. However, the most common instance of a hierarchical model is one where the generative process allows some of the parameters to vary by group, which can be conveniently specified using the syntax of the lme4 R package. In this tutorial we will start with estimating and interpreting estimates of hierarchical models using the stan_glmer function in the rstanarm R package, proceed to the brm function in the brms R package, and finish with some examples where participants modify or write code in the Stan language to specify a hierarchical model. 
@@ -105,24 +118,13 @@ This class covers techniques to build, fit, and criticize Bayesian models in pha
 
 The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
+# [Recored talks](#streaming)
 
-
-# [Scholarships](#scholarships)
- Please make your request [here](https://forms.gle/wgT5uiDsDFb8mhFBA) by the May 1, 2019 deadline.
- 
-
-# [Registration](#registration)
-Registration for tutorials and conference is [here](https://docs.google.com/forms/d/e/1FAIpQLSdQXVS0wAyBI4GuXyC3iUyKeJDUKiRcdsoZeTvPP8av5USj1A/viewform?usp=sf_link). 
-
-Pricing for the tutorials are £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-Pricing for the conference is £100 for Students, £275 for Junior Academics/Startups and £350 for Senior Academics/Industry. 
-
-<s>Prices go up 50% May 15, 2019.</s>
-Due to very large reviewing load of papers we have extended the price raise to a 50% increase June 1, 2019.
-
-# [Invitation Letters](#letters) 
-If you require an invitation letter for visa or other purposes please fill out [this form](https://docs.google.com/forms/d/10fR20T54al8HQsHxt0X9FQgCW4WbuPL1p49OpcVzHhE/edit). We will email you a letter within 4 days. You must be registered to get the letter. Contact us if you need it sooner at stanConCambridge@mc-stan.org.
+Recorded Talks are
+<ul>
+<li> <a href="https://www.youtube.com/watch?time_continue=2970&v=qJlhq4Eb-_U">Thursday</a>.
+<li> <a href="https://www.youtube.com/watch?v=d5avHkTHvy4">Friday</a>.
+</ul>
 
 # [Schedule](#schedule)
 
@@ -132,10 +134,56 @@ Subject to change.
 
 ## Tuesday, August 20, Tutorials
 
+<ul>
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+<li>9:00am-11:30am Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
+	</ul>
+	</li>
+<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (loo, projpred, bayesplot, discourse)</li>
+<li>12:30pm-2:00pm Provided Lunch</li>
+<li>2:00pm-4:30pm Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: A Dive into Stan’s C++ Model Concept <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
+	</ul>
+	</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (posteriordb = reference model and posterior database, bayesbenchr = framework for benchmarking inference algorithms)</li>
+<li>5:00pm-7:00pm Bar</li>
+
+</ul>
+
 ## Wednesday, August 21, Tutorials
+<ul>
+<li>8:00am-9:00am Registration <a href="img/annotated_kings.pdf">Chetwynd Room</a></li>
+<li>9:00am-11:30am Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: Stan for Programmers. <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Hierarchical Modeling with Stan. <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
+	</ul>
+	</li>
+<li>11:30am-12:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (bayesflow for Bayesian workflow, parallelization, optimization, KINSOL solver)</li>
+<li>12:30pm-2:00pm Provided Lunch</li>
+<li>2:00pm-4:30pm Tutorials with Break
+	<ul>
+	<li>Track 1: Basics of Bayesian inference and Stan. <a href="img/old-courts-map_1.png">Bateman Hall</a></li>
+	<li>Track 2: Model assessment and selection <a href="img/annotated_kings.pdf">Saltmarsh Room</a> </li>
+	<li>Track 3: Population and ODE-based models using Stan and Torsten <a href="img/annotated_kings.pdf">Keynes' Hall</a> </li>
+	</ul>
+	</li>
+<li>4:30pm-5:30pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (sparse matrices, Laplace for GLVMs)</li>
+<li>5:00pm-7:00pm Bar</li>
+
+</ul>
 
 ## Thursday, August 22, Conference
 <ul>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9am-10am Submitted Talks
 <ul>
 <li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
@@ -164,8 +212,10 @@ Subject to change.
 <li>3:00pm-3:40pm Break</li>
 <li>3:40pm-4:20pm Submitted Talks
 	<ul>
-		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract</a></li>
-<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> <a href="abstracts.html#32">Abstract</a></li>
+		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract, </a><a href="http://opensource.adobe.com/Chronikis/docker.html
+">Docker link</a></li>
+		<li><i><b id="8">Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b>  <a href="abstracts.html#8">Abstract</a></li>
+		
 	</ul>
 </li>
 <li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i></li>
@@ -175,6 +225,7 @@ Subject to change.
 </ul>
 ## Friday, August 23
 <ul>
+<li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
 	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
@@ -191,18 +242,21 @@ Subject to change.
  <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a></li>
 	</ul></li>
 <li> 12:00pm-1:00pm Provided Lunch </li>
-<li> 1:00pm-2:00pm Developers Meeting</li>
+<li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (stanc optimization)</li>
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
 	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
 	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a></li>
-	<li>Leah Comment</li>
+	<li><i><b>Prediction and causal inference for time-to-event outcomes truncated by death</b></i> Leah Comment </li>
 	</ul></li>
 	
 	<li> 3:00pm-3:40pm Break</li>
-	<li> 3:00pm-3:20pm Submitted Talk</li>
-	
-	<li>3:20pm-4:10pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
+	<li>3:40pm-4:00pm Submitted Talk
+	<ul>
+	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i> Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a></li>
+	</ul>
+	</li>
+	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
 </ul>
 	
 
@@ -257,12 +311,25 @@ Buses from London Airports [here](https://www.nationalexpress.com/en).
 We would like to thank our sponsors who both support conference costs but scholarships and Stan as a whole. 
 
 <center style="padding: 0.75em 0 0 0">
-<span style="display:inline-block; width: 0.75em;"></span>
+<span style="display:inline-block; width: 0.75em;">
+</span>
 <a href="https://www.generable.com/"><img width="200" src="logos/generable_word_logo.png" /></a>
+
 <span style="display:inline-block; width: 0.75em;"></span>
+<hr>
+
 <a href="https://www.astrazeneca.com/"><img width="200" src="logos/astrazeneca-logo.jpg" /></a>
+<hr>
+
 <a href="https://www.bayer.com/"><img width="200" src="logos/bayer.png" /></a>
+<hr>
+
 <a href="https://www.jumpingrivers.com/"><img width="200" src="logos/JumpingRivers.png" /></a>
+<hr>
+
+<a href="https://quantbet.com/"><img width="300" src="logos/quantBet.png" /></a>
+<hr>
+
 </center>
 
 # [Contact](#contact)

@@ -1,0 +1,205 @@
+---
+title: "Introduction to Hierarchical Models"
+author: "Ben Goodrich"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+autosize: true
+header-includes:
+   - \usepackage{amsmath}
+   - \usepackage{amssymb}
+   - \usepackage{color}
+output:
+  ioslides_presentation:
+    widescreen: yes
+editor_options: 
+  chunk_output_type: console
+---
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+```{r setup, include=FALSE}
+options(width = 90)
+library(knitr)
+library(rgl)
+knit_hooks$set(rgl = hook_plot_custom)
+knit_hooks$set(small.mar = function(before, options, envir) {
+    if (before) par(mar = c(4, 4, .1, .1), las = 1)  # smaller margin on top and right
+})
+hook_output <- knit_hooks$get("output")
+knit_hooks$set(output = function(x, options) {
+  lines <- options$output.lines
+  if (is.null(lines)) {
+    return(hook_output(x, options))  # pass to default hook
+  }
+  x <- unlist(strsplit(x, "\n"))
+  more <- "..."
+  if (length(lines)==1) {        # first n lines
+    if (length(x) > lines) {
+      # truncate the output, but add ....
+      x <- c(head(x, lines), more)
+    }
+  } else {
+    x <- c(more, x[lines], more)
+  }
+  # paste these lines together
+  x <- paste(c(x, ""), collapse = "\n")
+  hook_output(x, options)
+})
+library(ggdag)
+```
+
+## Obligatory Disclosure
+
+* Ben is an employee of Columbia University, which has received several research grants to develop Stan
+* Ben is also a manager of GG Statistics LLC, which uses Stan for business purposes
+* According to Columbia University 
+  [policy](https://research.columbia.edu/content/conflict-interest-and-research), any such employee who 
+  has any equity stake in, a title (such as officer or director) with, or is expected to earn at least 
+  $\$5,000.00$ per year from a private company is required to disclose these facts in presentations
+
+## Goals for the First Session
+
+* Think about conditional distributions, the building blocks for hierarchical models
+* Practice writing functions in the Stan language to draw from the prior predictive distribution,
+  the distribution of the observable data obtained by marginalizing over the joint
+  distribution of parameters and data
+* Write simple Stan programs where some parameters are functions of other parameters
+
+## Hierarchical Data Generating Processes: Bowling
+
+Each "frame" of bowling consists of (up to) two rolls to knock down as many of the $n = 10$ pins
+as possible
+
+```{r, echo = FALSE}
+dag <- dagify(roll_1 ~ p + 10, roll_2 ~ p + 10 + roll_1)
+ggdag(dag)
+```
+
+## Prior Predictive Distribution for Bowling Frames {.build}
+
+```{stan output.var="bowling", eval = FALSE}
+functions { // saved as bowling_rng.stan in working directory
+  matrix bowling_rng(int S) {
+    int n = 10;
+    real p = uniform_rng(0, 1);
+    matrix[S, 2] pins; // knocked down in each frame
+    for (s in 1:S) {
+      // fill in the rows of pins
+    }
+    return pins;
+  }
+}
+```
+```{r, bowling, cache = TRUE}
+rstan::expose_stan_functions("bowling_rng.stan")
+results <- bowling_rng(S = 10000) # exists in R's global environment
+str(results)
+```
+
+## Hierarchical DGPs: Treatment Effects
+
+What is the effect of increasing education on lifetime wages?
+
+```{r, echo = FALSE}
+dag <- dagify(T ~ Z + U, Y ~ T + U, exposure = "T", outcome = "Y", latent = "U")
+ggdag_instrumental(dag)
+```
+
+## Prior Predictive Distribution for Treatment Effects {.build}
+
+```{stan output.var="treatment", eval = FALSE}
+functions { // saved as treatment_rng.stan in working directory
+  matrix[] treatment_rng(int S, vector z) {
+    int N = rows(z);     // number of observations
+    matrix[N, 2] PPD[S]; // like a list of S matrices that are each Nx2
+    for (s in 1:S) {
+      // draw alpha, beta, and sigma from prior distributions
+      for (n in 1:N) {
+        real u = normal_rng(0, 1);
+        // draw realizations of a binary t and then a continuous y
+        PPD[s][n,] = [t, y];
+      }
+    }
+    return PPD;
+  }
+}
+```
+```{r, treatment, cache = TRUE}
+rstan::expose_stan_functions("treatment_rng.stan")
+```
+
+## Hierarchical DGPs: Autoregressive Processes
+
+$y_n = \alpha + \beta y_{n - 1} + \epsilon$ with $\epsilon \thicksim \mathcal{N}\left(0,\sigma\right)$
+```{r, echo = FALSE}
+dag <- dagify(Y_1 ~ Y_0, Y_2 ~ Y_1, Y_n ~ Y_2)
+ggdag(dag)
+```
+
+## Prior Predictive Distribution for AR1 Models {.build}
+
+```{stan output.var="AR1", eval = FALSE}
+functions { // saved as AR1_rng.stan in working directory
+  matrix AR1_rng(int S, int N) {
+    matrix[S, N] PPD;
+    for (s in 1:S) {
+      // draw alpha, beta, and sigma from prior distributions
+      // draw y_0
+      PPD[s, 1] = normal_rng(alpha + beta * y_0, sigma);
+      for (n in 2:N) {
+        // draw y_n
+        PPD[s, n] = y_n;
+      }
+    }
+    return PPD;
+  }
+}
+```
+```{r, AR1, cache = TRUE}
+rstan::expose_stan_functions("AR1_rng.stan")
+```
+
+## Coefficients Depending on Other Coefficients
+
+Write a simple Stan program where the coefficient on age is a linear function of the person's income, which both affect the probability of voting in a logit model
+
+```{stan output.var="interaction", eval = FALSE}
+data {
+  int<lower=1> N;                    // number of observations
+  vector[N] age;                     // age relative to average
+  vector[N] income;                  // income relative to average
+  int<lower = 0, upper = 1> vote[N]; // yes or no outcome
+
+}
+parameters {
+  real alpha; // intercept for log-odds of voting
+  real beta;  // slope of income in log-odds of voting
+  // intercept and slope for income's effect on the slope of age
+  vector[2] lambda;
+}
+model {
+  // fill in the rest
+}
+```
+
+## Relation to Interaction Terms in R {.build}
+
+* If $\eta_{i} = \alpha + \beta\times\text{Income}_{i}+\gamma_i\times\text{Age}_{i}$ and
+  $\gamma_i = \lambda_{1}+\lambda_{2}\times\text{Income}_{i}$, then by substituting and distributing
+$$\eta_{i} = \alpha + \beta\times\text{Income}_{i}+\left(\lambda_{1}+\lambda_{2}\times\text{Income}_{i}\right)\times\text{Age}_{i}$$
+$$\eta_{i} = \alpha + \beta\times\text{Income}_{i}+\lambda_{1}\times\text{Age}_{i}+\lambda_{2}\times\text{Income}_{i}\times\text{Age}_{i}$$
+and $\alpha$, $\beta$, $\lambda_{1}$, and $\lambda_{2}$
+can be estimated (unregularized) via 
+```{r, eval = FALSE}
+glm(vote ~ income + age + income:age, family = binomial)
+```
+* The Bayesian approach makes it easy to summarize uncertainty about each $\gamma_i$
+
+## Conclusions
+
+* Conditional distributions are necessary to think through the steps of a generative model
+* We can utilize conditional distributions for parameters given other parameters in the same way we
+  use conditional distributions of data given parameters
+* When we come back, we will start to estimate typical hierarchical models

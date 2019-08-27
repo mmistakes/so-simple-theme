@@ -1,0 +1,276 @@
+---
+title: "Estimating Hierarchical Models with the **rstan** Package"
+author: "Ben Goodrich"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+autosize: true
+header-includes:
+   - \usepackage{amsmath}
+   - \usepackage{amssymb}
+   - \usepackage{color}
+output:
+  ioslides_presentation:
+    widescreen: yes
+editor_options: 
+  chunk_output_type: console
+---
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 1.5em;
+}
+</style>
+
+```{r setup, include=FALSE}
+options(width = 90)
+library(knitr)
+knit_hooks$set(small.mar = function(before, options, envir) {
+    if (before) par(mar = c(4, 4, .1, .1), las = 1)  # smaller margin on top and right
+})
+hook_output <- knit_hooks$get("output")
+knit_hooks$set(output = function(x, options) {
+  lines <- options$output.lines
+  if (is.null(lines)) {
+    return(hook_output(x, options))  # pass to default hook
+  }
+  x <- unlist(strsplit(x, "\n"))
+  more <- "..."
+  if (length(lines)==1) {        # first n lines
+    if (length(x) > lines) {
+      # truncate the output, but add ....
+      x <- c(head(x, lines), more)
+    }
+  } else {
+    x <- c(more, x[lines], more)
+  }
+  # paste these lines together
+  x <- paste(c(x, ""), collapse = "\n")
+  hook_output(x, options)
+})
+library(rstan)
+options(mc.cores = 4L)
+rstan_options(auto_write = TRUE)
+```
+
+## Meta-Analysis
+
+- "Meta-analysis" of previous studies is popular in some fields such as
+  education and medicine
+- Can be written as a multi-level model where each study is its own "group"
+  with its own intercept that captures the difference between what each
+  study is estimating and what it wants to estimate
+- Outcome is the point estimate for each Frequentist study
+- Estimated standard error from each Frequentist study is treated as
+  an exogenous known
+
+## Directed Acyclic Graph for Meta-Analysis
+
+```{r, echo = FALSE, message = FALSE, out.width="900dpi"}
+library(ggdag)
+dag <- dagify(delta_1 ~ mu + tau, y_1 ~ delta_1 + sigma_1,
+              delta_2 ~ mu + tau, y_2 ~ delta_2 + sigma_2)
+ggdag(dag, text_size = 2.5)
+```
+
+## Meta-Analysis with **brms**
+
+```{r, meta, cache = TRUE, results = "hide", message = FALSE}
+library(brms)
+data("towels", package = "metaBMA")
+priors <- c(prior(normal(0, 1), class = Intercept),
+            prior(cauchy(0, 0.3), class = sd))
+towels_post <- brm(logOR | se(SE) ~ 1 + (1 | study), data = towels, prior = priors, 
+                   control = list(adapt_delta = 0.8)) # 0.8 is too small in this case
+```
+
+## Divergent Transitions
+
+* It is easy to write down a generative process that Stan cannot sample (efficiently) from
+  the implied posterior distribution when conditioning on observed data
+* Example: Anything with discrete unknowns or jump discontinuities
+* But even differentiable posterior distributions can be difficult for Stan if
+  the second derivatives change too rapidly in some part of parameter space
+* Fortunately, in this case you get warnings about "divergent transitions"
+* Other Bayesian software has the same difficulties but no warnings
+* You can try to overcome divergent transitions by
+    1. Increasing `adapt_delta` (default is `0.8`)
+    2. Improving the numerical accuracy of the calculations
+    3. Reparameterizing your model
+
+## The `pairs` Plot
+
+```{r, out.width="810dpi"}
+pairs(towels_post$fit, pars = c("z_1", "r_1_1"), include = FALSE, las = 1)
+```
+
+## Scale-Location Transformations
+
+* The normal distribution is among those in the 
+[location-scale family](https://en.wikipedia.org/wiki/Location%E2%80%93scale_family)
+* If $\epsilon$ is distributed standard normal, and $\delta = \mu + \tau \epsilon$, 
+  then $\delta$ is distributed normal with expectation $\mu$ and standard deviation $\tau > 0$.
+  This fact gives you a choice when modeling:
+    1. (centered) Take $\delta$ to be primitive with a $\mathcal{N}\left(\mu,\tau\right)$ prior
+    2. (noncentered) Take $\epsilon$ to be primitive with a $\mathcal{N}\left(0,1\right)$ prior
+      and $\delta$ to be a fixed transformation of $\epsilon$, namely $\mu + \tau \epsilon$
+* If $\mu$ and especially $\tau$ were unknown, Stan has to draw from the posterior
+  distribution of $\mu$, $\tau$, and $\epsilon$, which is different than the posterior
+  distribution of $\mu$, $\tau$, and $\delta$, even though the two posterior distributions
+  are related
+* Something similar is true with distributions like the exponential that have a scale parameter.
+  If $\epsilon$ is distributed standard exponential, then $\delta = \mu \epsilon$ is distributed
+  exponential with expectation $\mu$ (and rate $\frac{1}{\mu}$)
+
+## Centered Versus Noncentered Parameterizations
+
+<div class="columns-2">
+```{r, echo = FALSE, comment = ""}
+cat(readLines("centered_rng.stan"), sep = "\n")
+```
+<div class="blue2">
+```{r, echo = FALSE, comment = ""}
+cat(readLines("noncentered_rng.stan"), sep = "\n")
+```
+</div>
+</div>
+
+## Simulation Based Callibration (SBC)
+
+* Talts et al. (2018) [proposes](https://arxiv.org/abs/1804.06788) SBC
+* The posterior distribution conditional on data drawn from the prior
+  predictive distribution cannot be systematically different from the prior
+* Appearances to the contrary are due to failure of the software
+* Provides a way to limit the fourth source of uncertainty by repeatedly
+
+    1. Drawing $\widetilde{\boldsymbol{\theta}}$ the prior of $\boldsymbol{\theta}$
+    2. Drawing from the prior predictive distribution of 
+      $\widetilde{\mathbf{y}} \mid \widetilde{\boldsymbol{\theta}}$
+    3. Drawing from the posterior distribution of $\boldsymbol{\theta} \mid \widehat{\mathbf{y}}$
+    4. Evaluating whether $\boldsymbol{\theta} > \widetilde{\boldsymbol{\theta}}$
+
+* See also this blog 
+  [post](https://statmodeling.stat.columbia.edu/2018/04/18/better-check-yo-self-wreck-yo-self/)
+
+## The `data` and `transformed data` Blocks
+
+```{r, echo = FALSE, comment = ""}
+writeLines(readLines("meta_analysis.stan")[1:15])
+```
+
+> - Other blocks follow on the next slide
+
+## 
+
+```{r, echo = FALSE, comment = ""}
+writeLines(readLines("meta_analysis.stan")[-(1:15)])
+```
+
+## Doing Simulation Based Calibration
+
+```{r, SBC, cache = TRUE, results = "hide", message = FALSE, warning = FALSE}
+sm <- stan_model("meta_analysis.stan")
+data("towels", package = "metaBMA")
+dat <- list(N = nrow(towels), se = towels$SE)
+results <- sbc(sm, data = dat, M = 3000, refresh = 0, control = list(adapt_delta = 0.85))
+```
+```{r}
+results
+```
+
+## SBC Plot
+
+```{r, message = FALSE}
+plot(results) # use to visualize uniformity of order statistics
+```
+
+## Conditioning on Observed Data
+
+* Once SBC works well, you are ready to condition on OBSERVED outcomes rather than
+  SIMULTATED outcomes
+* Comment out the SBC stuff with `/* ... */` and move `y` from `transformed data`
+  to `data`
+  
+<div class="columns-2">
+```{stan output.var="MA", eval = FALSE}
+data {
+  int<lower = 1> N; // number of studies
+  vector<lower = 0>[N] se; // std. errors
+  vector[N] y; // point estimates  
+}
+transformed data {
+  vector[N] se2 = square(se);
+  /* SBC stuff */
+}
+parameters { // delta is integrated out
+  real mu;
+  real<lower = 0> tau;
+}
+  
+  
+model {
+  vector[N] s = sqrt(square(tau) + se2);
+  target += std_normal_lpdf(mu);
+  target += exponential_lpdf(tau | 1);
+  target += normal_lpdf(y | mu, s);
+}
+generated quantities {
+  vector[N] log_lik; // for loo()
+  /* SBC stuff */
+  for (n in 1:N) {
+    real s = sqrt(square(tau) + se2[n]);
+    log_lik[n] = normal_lpdf(y[n] | mu, s);
+  }
+}
+```
+</div>
+
+## Leave-One-Out Cross-Validation
+
+* How well is a model expected to predict future data generated by the same process?
+* Essentially equivalent to the question of how well does a model predict past data
+  that has not been conditioned on?
+* Could obtain $N$ posterior distributions, each time omitting $1$ observation, to
+  answer the previous question
+* Or could obtain $1$ posterior distribution conditioning on all $N$ observations
+  and reweight it $N$ times to approximate the posterior distribution if the $i$-th
+  observation were omitted
+* Previous approach saves time but is noisy without Pareto Smooted Importance Sampling
+  (PSIS)
+* PSISLOOCV works well or gives warnings if it does not work well
+
+## A 2012 Voting Model 
+
+```{r, poll, cache = TRUE, message = FALSE, warning = FALSE}
+poll <- readRDS("poll.rds")
+library(dplyr)
+collapsed <- filter(poll, !is.na(WantToWin)) %>%
+             group_by(Region, Gender, Urban_Density, Age, Income) %>%
+             summarize(Romney = sum(grepl("Romney", WantToWin)), Obama = n() - Romney) %>%
+             na.omit
+library(rstanarm)
+fit1 <- stan_glm(cbind(Romney, Obama) ~ Region * Gender * Urban_Density + Age + Income, 
+                 data = collapsed, family = binomial, QR = TRUE)
+fit2 <- update(fit1, formula. = . ~ Region + Gender + Urban_Density + Age + Income)
+```
+
+## Examples of PSISLOOCV {.smaller}
+
+<div class="columns-2">
+```{r, PSISLOOCV, cache = TRUE}
+(loo1 <- loo(fit1))
+(loo2 <- loo(fit2))
+loo_compare(loo1, loo2)
+```
+</div>
+
+## Conclusions
+
+* Estimate hierarchical models with Stan by default
+* If you can use **rstanarm** or **brms** to estimate the model you want, do so
+* If you need to use **rstan** to estimate the model you want, do so after using
+  SBC to verify that it is feasible
+* The warnings you get from Stan are good

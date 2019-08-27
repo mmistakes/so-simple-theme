@@ -28,4 +28,5 @@ image:
 - [StanCon 2018 Intro Stan](/workshops/stancon2018_intro)
 - [StanCon 2018 Hierarchical Models](/workshops/stancon2018_hierarchical)
 - [R/Medicine 2018 Stan Tutorial](/workshops/Rmedicine2018)
+- [StanCon 2019 Hierarchical Models](/workshops/stancon2019_hierarchical)
 
