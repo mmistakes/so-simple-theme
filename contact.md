@@ -1,11 +1,12 @@
 ---
-layout: landing
+layout: publication
 title: Contact us
 permalink: /contact/
 excerpt: "Contact us"
 search: true
 ---
 We're friendly and approachable, so please don't hesitate to contact us anytime, we'd love to hear from you.
+{: .pull-center}
 
 <div class="pull-center">
 <div class="contact" markdown="1">

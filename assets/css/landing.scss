@@ -1,0 +1,169 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+@charset "utf-8";
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/mixins";
+@import "so-simple/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+
+.landing-logo{
+  margin-top: 4em;
+  .site-logo-img {
+    width: 8em;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .site-title {
+    font-size: 3.5em;
+    font-weight: 400;
+  }
+  .site-description {
+    font-size: 2.5em;
+  }
+}
+
+.landing-title {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+  h1::after {
+    content: "";
+    width: 8%;
+    left: 46%;
+    @include breakpoint($medium) {
+      width: 10%;
+      left: 45%;
+    }
+    height: 3px;
+    background-color: #CCC;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+  }
+}
+
+.landing-banner {
+  //background-image: url('/images/MNPRX/stylized-3D.jpg');
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  box-shadow: 0px 2px 9px 0px #000;
+  margin-bottom: 2em;
+
+  .landing-split {
+    text-align: center;
+    display: block;
+    margin-left: 0em;
+    width: 100%;
+    @include breakpoint($large) {
+      margin-left: 2.5%;
+      width: 95%;
+    }
+    @include breakpoint($xxlarge) {
+      margin-left: 10%;
+      width: 80%;
+    }
+    @include breakpoint($xxxlarge) {
+      margin-left: 15%;
+      width: 70%;
+    }
+    .landing-split-section {
+      vertical-align: top;
+      position: relative;
+      width: 100%;
+      height: 11.5em;
+      opacity: 0.5;
+      &:hover {
+        opacity: 1.0;
+        transition: $global-transition;
+      }
+      @include breakpoint($medium) {
+        display: inline-block;
+        width: 49%;
+      }
+      h2 {
+        margin-top: 0;
+        font-size: 1.0em;
+        padding-top: 2.1em;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 0.1em;
+      }
+      h2::after {
+        content: "";
+        width: 8%;
+        left: 46%;
+        @include breakpoint($medium) {
+          width: 10%;
+          left: 45%;
+        }
+        height: 1.5px;
+        background-color: #CCC;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.5;
+      }
+      .landing-split-options {
+        position: absolute;
+        top: 4.8em;
+        right: 0;
+        left: 0;
+        a {
+          color: #FFF;
+          opacity: 0.75;
+          border-bottom: none;
+          &:hover {
+            opacity: 1.0;
+          }
+        }
+        h3 {
+          margin-top: 0.5em;
+          font-size: 1em;
+        }
+        img {
+          margin-top: -0.7em;
+          max-height: 3.7em;
+        }
+        img:hover {
+          opacity: 1.0;
+        }
+        div {
+          display: inline-block;
+          width: 32%;
+        }
+        .lso-one {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.two-split {
+  div {
+    vertical-align: top;
+    width: 100%;
+    @include breakpoint($medium) {
+      display: inline-block;
+      width: 45%;
+      margin-left: 2.4%;
+      margin-right: 2.4%;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+}
+
+.landing-twitter {
+  .twitter-follow {
+    width: 100%;
+  }
+  .twitter-news {
+    width: 100%;
+  }
+}
