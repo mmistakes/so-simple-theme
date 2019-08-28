@@ -1,12 +1,26 @@
 ---
 layout: page
-title: Sample Articles
-excerpt: "An archive of articles sorted by date."
-search_omit: true
+title: About Dunieski Otano
+excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+modified: 2014-08-08T19:44:38.564948-04:00
+image:
+  feature: dunieski-otano.png
+  
+  <!--creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
 ---
 
-<ul class="post-list">
-{% for post in site.categories.articles %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+
+## So Simple Theme is all about:
+
+* JAJAJAJA Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
+* Minimal embellishments and subtle animations.
+* Optional large feature images for posts and pages.
+* [Custom 404 page]({{ site.url }}/404.html) to get you started.
+* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
+* Support for Disqus Comments
+
+<a markdown="0" href="https://www.linkedin.com/in/dunieski-otano-80249a152/" class="btn">More on Dunieski</a>
+
+[^1]: Example: *domain.com/category-name/post-title*
+
