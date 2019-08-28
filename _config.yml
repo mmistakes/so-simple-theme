@@ -17,10 +17,11 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Matheus Teixeira"
-description: "Testing Github Pages Jekyyl So Simple theme."
+description: "Testing Github Pages Jekkyl So Simple theme."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://mathbteixeira.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/screenshots.jpg"
+# path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
