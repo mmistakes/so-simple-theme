@@ -16,10 +16,10 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "Matheus Teixeira"
+description: "Testing Github Pages Jekyyl So Simple theme."
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://mathbteixeira.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
