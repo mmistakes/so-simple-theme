@@ -99,6 +99,12 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Instagram
+    url: https://instagram.com/dicasdodev
+    icon: fab fa-instagram
+  - title: GitHub
+    url: https://github.com/mathbteixeira
+    icon: fab fa-github-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
