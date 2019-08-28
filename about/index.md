@@ -4,7 +4,7 @@ title: About Dunieski Otano
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: <a href="https://ibb.co/J5D3mS6"><img src="https://i.ibb.co/J5D3mS6/Screen-Shot-2019-08-28-at-3-08-17-PM.png" alt="Screen-Shot-2019-08-28-at-3-08-17-PM" border="0"></a>
+  feature: https://ibb.co/J5D3mS6
   
   <!--creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
 ---
