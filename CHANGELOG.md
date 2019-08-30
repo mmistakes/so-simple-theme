@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+
+### Fixed
+- Fix security alerts and update [onchange](https://www.npmjs.com/package/onchange) development dependency in `package.json`. [#341](https://github.com/mmistakes/so-simple-theme/issues/341)
+
 ## [3.1.3] - 08-20-2019
 
 ### Changed
