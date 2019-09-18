@@ -37,13 +37,60 @@ The appearance of the hatching lines can be controlled though several material a
 Due to limitations of the ShaderFX framework, you have to manually set the rendering resolution in the _Screen Width_ and _Screen Height_ material parameters. 
 {: .notice--warning}
 
+------------------------
+------------------------
 
-### Hatching Material
+## Style attributes
+
+These attributes specify the behavior of the hatching style.
+
+### Length
+Length of the hatching lines. If set to zero, produces a stippling effect.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/HG/length.mp4" type="video/mp4">
+	</video>
+	<figcaption>Varying length between 0 and 40</figcaption>
+</figure>
+
+### Width
+Average width (thickness) of the hatching lines in pixels. A width of zero is invisible.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/HG/width.mp4" type="video/mp4">
+	</video>
+	<figcaption>Varying width between 0 and 6</figcaption>
+</figure>
+
+### Gradient
+Controls the extent of the diffuse lighting gradient. A value of zero results in a binary shading style.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/HG/wrap.mp4" type="video/mp4">
+	</video>
+	<figcaption>Varying gradient between 0 and 2</figcaption>
+</figure>
+
+### Smoothness
+Smoothes the vector field used to orient the hatching lines. Higher values produce less abrupt changes in orientation.  
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/HG/smoothness.mp4" type="video/mp4">
+	</video>
+	<figcaption>Varying smoothness between 1 and 5</figcaption>
+</figure>
+
+
+------------------------
+------------------------
+
+## Hatching Material
 
 This section describes the per-material attributes specific to the _hatching_ material. 
 Note that this material inherits from most of the attributes of the _uber_ material, which control the backdrop of the hatching lines. See [uber](../uber) for a description of those attributes. 
 
-- _Attributes > Hatching > Density Scale_: Controls the overall density of the hatching lines.
+#### Hatching > Density Scale
+Controls the overall density of the hatching lines.
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
@@ -52,7 +99,8 @@ Note that this material inherits from most of the attributes of the _uber_ mater
 	<figcaption>Varying density scale between 10 and 200</figcaption>
 </figure>
 
-- _Attributes > Hatching > Dynamic Noise_: If checked, enables the _fractalization_ pass that ensures a constant line density regardless of camera position and zoom. This sometimes produces a slight "blending effect" when moving, so this can be disabled if your shot keeps the object at the same camera distance and zoom level.
+#### Hatching > Dynamic Noise
+If checked, enables the _fractalization_ pass that ensures a constant line density regardless of camera position and zoom. This sometimes produces a slight "blending effect" when moving, so this can be disabled if your shot keeps the object at the same camera distance and zoom level.
 
 <div class="pull-center">
 <figure style="display:inline-block;">
@@ -69,45 +117,13 @@ Note that this material inherits from most of the attributes of the _uber_ mater
 </figure>
 </div>
 
-- _Attributes > Hatching > Screen Width_ and _Attributes > Hatching > Screen Height_ : These must be set to match your rendering resolution, in pixels.
+#### Hatching > Screen Width and Hatching > Screen Height
+These must be set to match your rendering resolution, in pixels.
 
-### Style attributes
+------------------------
+------------------------
 
-These attributes specify the behavior of the hatching style.
-
-- _Length_: length of the hatching lines. If set to zero, produces a stippling effect.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/HG/length.mp4" type="video/mp4">
-	</video>
-	<figcaption>Varying length between 0 and 40</figcaption>
-</figure>
-
-- _Width_: average width (thickness) of the hatching lines in pixels. A width of zero is invisible.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/HG/width.mp4" type="video/mp4">
-	</video>
-	<figcaption>Varying width between 0 and 6</figcaption>
-</figure>
-
-- _Wrap_: tasty.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/HG/wrap.mp4" type="video/mp4">
-	</video>
-	<figcaption>Varying wrap between 0 and 2</figcaption>
-</figure>
-
-- _Smoothness_: smoothes the vector field used to orient the hatching lines. Higher values produce less abrupt changes in orientation.  
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/HG/smoothness.mp4" type="video/mp4">
-	</video>
-	<figcaption>Varying smoothness between 1 and 5</figcaption>
-</figure>
-
-### Art-direction
+## Art-direction
 The width and the local orientation of the hatching lines can be art-directed procedurally with noiseFX and/or locally by painting with paintFX. See [noiseFX](../noiseFX) and [paintFX](../paintFX) for usage information.
  
 <figure class="pull-center">
