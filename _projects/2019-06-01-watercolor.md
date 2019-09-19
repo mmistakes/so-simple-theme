@@ -4,7 +4,7 @@ categories: projects
 title: Watercolor Stylization
 authors: Montesdeoca S. E.
 type: Project
-excerpt: Real-time 3D Watercolor stylization, integrated within MNPRX
+excerpt: Real-time 3D Watercolor stylization, integrated within Maya through MNPRX
 year: 2015-current
 tags: [MNPR, NPR, stylization, Real-time, Watercolor, Art-directed, Research, Maya, Software]
 image:
