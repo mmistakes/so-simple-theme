@@ -36,9 +36,9 @@ _New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D obj
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/CO/showcase.mp4" type="video/mp4">
+	  <source src="/images/MNPRX/HG/showcase.mp4" type="video/mp4">
 	</video>
-	<figcaption>3D Cutout animation in real-time.</figcaption>
+	<figcaption>3D Hatching animation in real-time.</figcaption>
 </figure>
 
 ### MNPRX
@@ -53,7 +53,7 @@ _New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D obj
 
 **Watercolor**
 * _New_ - _Edge Darkening_ type control has been added. 'Advanced' edge darkening more faithfully reproduces edge darkening behavior found in traditional watercolors and reduces edges created from gradients. You may switch the type to 'Simple' mode if you still desire to use the old edge darkening approach.
-* _New_ - Control over the _Pigment Density_ and _Paper Granulation_ has been separated for better control and nicer paper granulation results. **Because of this, the _Pigment Density_ will need to be reduced to match the perceived pigment concentration that you previously had in stylized scenes (prev. 5.0, new default is 1.0).** 
+* _New_ - Control over the _Pigment Density_ and _Paper Granulation_ has been separated for better control and nicer paper granulation results. **Because of this, the _Pigment Density_ will need to be reduced to match the perceived pigment concentration that you previously had in stylized scenes (prev. 5.0, new default is 1.0).**
 {: .top-1}
 
 **Installation**
@@ -77,7 +77,7 @@ _New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D obj
 ### Watercolor stylization in Nuke
 {: .top2}
 
-* _Updated_ - The watercolor stylization in Nuke has been updated to support the August 2019 release of MNPRX (September 2019 update coming soon). 
+* _Updated_ - The watercolor stylization in Nuke has been updated to support the August 2019 release of MNPRX (September 2019 update coming soon).
 * _New_ - Documentation on compositing MNPRX stylizations in Nuke and MNPRX AOV's Explained now [found in the documentation](./docs/compositing-nuke/).
 
 ---
