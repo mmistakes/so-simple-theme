@@ -37,14 +37,8 @@
   github: betanalpha
   avatar: michael_betancourt.jpg
 
-- name: Marcus Brubaker
-  affiliation: York University
-  web: http://www.eecs.yorku.ca/~mab/
-  github: mrbrubake
-  avatar: marcus_brubaker.jpg
-
 - name: Jiqiang Guo
-  affiliation: NPD Group
+  affiliation: Lucus Advisors
   email: guojq28@gmail.com
   github: maverickg
   linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
@@ -63,7 +57,7 @@
   email: marcoigarapava@gmail.com
 
 - name: Jeffrey Arnold
-  affiliation: University of Washington
+  affiliation: Instacart
   web: http://jrnold.me
   email: jeffrey.arnold@gmail.com
   linkedin: https://www.linkedin.com/in/jrnold
@@ -93,7 +87,6 @@
 
 - name: Brian Lau
   affiliation: CNRS, Paris
-  web: http://research.icm-institute.org/team/29435/homepage
   github: brian-lau
   avatar: brian_lau.png
 
@@ -154,7 +147,7 @@
   avatar: vincent_picaud.png
 
 - name: Imad Ali
-  affiliation: National Basketball Association
+  affiliation: PlayStation
   web: http://imadali.net
   email: imad.ali@columbia.edu
   linkedin: https://www.linkedin.com/in/imadmali
@@ -170,7 +163,7 @@
   avatar: sean_talts.png
 
 - name: Ben Bales
-  affiliation: UC, Santa Barbara
+  affiliation: Columbia University
   email: bbbales2@gmail.com
   github: bbbales2
   avatar: ben_bales.png
@@ -265,4 +258,3 @@
   email: tadej.c@gmail.com
   github: https://github.com/t4c1
   avatar: tadej.png
-
