@@ -41,9 +41,7 @@ class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
 on all major platforms <span class="note">(Linux, Mac,
 Windows)</span>.
 
-To get started using Stan begin with the [Users](/users/) page or
-you can use Stan without any additional configuration via
-[RStudio Cloud](https://rstudio.cloud/project/56157)
+To get started using Stan begin with the [Users](/users/) page.
 
 ## Open Code &amp; Reproducible Science
 
