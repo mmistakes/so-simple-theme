@@ -20,6 +20,70 @@ schema:
 
 ---
 
+## SEPTEMBER 2019 UPDATE
+The September 2019 update is focused on new styles and overall stability! We have worked on a new _Hatching_ style with one of our clients, and are releasing an alpha version thereof for you all to have fun with! Our watercolor stylization has also gotten some love, as we have improved the edge-based effects and overall control over the pigment density and paper granulation. While working on these styles, we spent some time squashing bugs that you have let us know of.
+
+**Upgrading notes**:  
+**_Watercolor_** - The _pigment density_ in the configuration node needs to be reduced to match the perceived pigment concentration that you previously had (prev. 5.0, new default is 1.0). The _edge intensity_ attribute might also need to be lowered a bit as we have normalized the edges throughout the image.  
+**_Materials_** - Make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials) to take advantage of the alpha masking bug fix.
+{: .notice--info}
+
+
+[**Hatching Stylization**](/projects/hatching/)
+
+_New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D objects and animation directly within _Autodesk Maya_ through _MNPRX_. Find out more [**here**](/projects/hatching/).
+{: .top-1}
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/HG/showcase.mp4" type="video/mp4">
+	</video>
+	<figcaption>3D Hatching animation in real-time.</figcaption>
+</figure>
+
+### MNPRX
+**Viewport rendering**
+* _Fixed_ - Rendering in non-linear image file formats (all except .exr) is now properly color managed. Supported are: 1.8 gamma, 2.2 gamma, Rec 709 gamma, sRGB gamma and Raw. As long as you use these color corrections, rendering will give you the exact colors as what you see in the viewport.
+* _Improved_ - Added atmospheric tint support to orthographic renders. Range distance 0 will be at the origin.
+{: .top-1}
+
+**MNPRX Materials**
+* _Fixed_ - Using alpha masks within transparency will not break the object sorting given by Maya anymore.
+{: .top-1}
+
+**Watercolor**
+* _New_ - _Edge Darkening_ type control has been added. 'Advanced' edge darkening more faithfully reproduces edge darkening behavior found in traditional watercolors and reduces edges created from gradients. You may switch the type to 'Simple' mode if you still desire to use the old edge darkening approach.
+* _New_ - Control over the _Pigment Density_ and _Paper Granulation_ has been separated for better control and nicer paper granulation results. **Because of this, the _Pigment Density_ will need to be reduced to match the perceived pigment concentration that you previously had in stylized scenes (prev. 5.0, new default is 1.0).**
+{: .top-1}
+
+**Installation**
+* _Fixed_ - Installing MNPRX will delete any empty lines that the Maya.env file might have had to avoid _Maya_ not recognizing the plugin.
+{: .top-1}
+
+**Configuration Node**  
+* _Fixed_ - Bug that didn't save all attributes with the scene.
+{: .top-1}
+
+**PaintFX**  
+* _Fixed_ - Bug that sometimes messed up the painting of effects.
+{: .top-1}
+
+**Documentation**
+* _New_ - Hatching [documentation](/projects/hatching/).
+* _Updated_ - Finished the [**Stylizing a Scene**](./docs/stylizing-scene/) tutorial series, featuring the stylization of a production shot from _Run Totti Run_ by _Shad Bradbury_!
+* _New_ - Tutorial on getting the most out of [**Shadow Maps in the Maya Viewport**](https://www.youtube.com/watch?v=j2Oy3djmQZk).
+{: .top-1}
+
+### Watercolor stylization in Nuke
+{: .top2}
+
+* _Updated_ - The watercolor stylization in Nuke has been updated to support the August 2019 release of MNPRX (September 2019 update coming soon).
+* _New_ - Documentation on compositing MNPRX stylizations in Nuke and MNPRX AOV's Explained now [found in the documentation](./docs/compositing-nuke/).
+
+---
+
+
+
 ## AUGUST 2019 UPDATE
 The August 2019 update is focused on improving the functionality of MNPRX and its tools. We now support normal _Maya_ materials within _MNPRX_ stylizations, rim lights and have improved tools for better production workflows. Make sure to also [update the materials in the scene](/software/MNPRX/docs/update/#materials), to use the rim lights within the uber material.
 

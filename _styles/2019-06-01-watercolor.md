@@ -4,7 +4,7 @@ categories: projects
 title: Watercolor Stylization
 authors: Montesdeoca S. E.
 type: Project
-excerpt: Real-time 3D Watercolor stylization, integrated within MNPRX
+excerpt: Real-time 3D Watercolor stylization, integrated within Maya through MNPRX
 year: 2015-current
 tags: [MNPR, NPR, stylization, Real-time, Watercolor, Art-directed, Research, Maya, Software]
 image:
@@ -21,7 +21,7 @@ redirect_from:
 ---
 
 
-The Watercolor Stylization brings real-time watercolor rendering of 3D objects and animation directly within the Maya viewport.
+The Watercolor Stylization brings real-time watercolor rendering of 3D objects and animation directly within _Autodesk Maya_ through [**MNPRX**](../MNPRX).
 
 ### Pigment Density
 Defines the global concentration of pigments placed over a substrate, giving the render a more saturated and darker look.

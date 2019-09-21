@@ -69,9 +69,6 @@ You can quickly import/export the _PaintFX_ values of the selected object by usi
 </figure>
 
 ## FAQ
-_**The effect that I was painting with doesn't work anymore**_<br>
-This is a known bug which presents difficult to replicate, so, if you know the steps how to replicate them, please [let us know](http://mnprx.feedback.artineering.io).
-In the meantime, double click on the **pFX** shelf tool to reload the tool and all its bindings.
 
 _**I deleted the construction history, how can I still animate PaintFX?**_<br>
 Animating _PaintFX_ requires the history created with the vertex color sets to keyframe the values. To recover the required construction history, you can:
