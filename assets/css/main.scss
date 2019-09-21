@@ -501,6 +501,24 @@ p .btn--aio {
       position: absolute;
       bottom: 0;
     }
+    .aio-section-options {
+      margin-top: -1em;
+      p {
+        position: relative;
+        display: inline-block;
+        padding: 0em 1em;
+        font-family: $sans-serif-font-family2;
+        font-size: 1.2em;
+        a {
+          color: #000;
+          opacity: 0.5;
+          transition: 0.2s;
+          &:hover {
+            opacity: 1.0;
+          }
+        }
+      }
+    }
     .overview-image-caption {
       position: absolute;
       bottom: 0;

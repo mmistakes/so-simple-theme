@@ -20,7 +20,7 @@ search: true
         <a href="/software/MNPRX">
           <div class="lso-one">
             <img src="/images/MNPRX/MNPRX.jpg"/>
-            <h3>Stylized rendering for Autodesk Maya</h3>
+            <h3>Stylized rendering for Autodesk Maya&trade;</h3>
           </div>
         </a>
       </div>
