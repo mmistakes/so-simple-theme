@@ -1,19 +1,13 @@
 # Site navigation links
 
-- title: MNPRX
+- title: Products
   url: /software/MNPRX
 
-- title: Services
-  url: /services/
+- title: Support
+  url: /support/
 
-- title: Technology
-  url: /technology/
-
-- title: About
+- title: About Us
   url: /about/
-
-- title: Contact
-  url: /contact/
 
 - title: <i class="fas fa-search fa-lg"></i>
   url: /search/
