@@ -3,7 +3,7 @@ layout: page
 title: About
 tags: [about, resume, cv, bio]
 excerpt: Hi, my name is Sergey and I'm a web-developer.
-last_modified_at: 2018-01-10T12:53:38.564948+03:00
+last_modified_at: 2019-09-26 13:34:28
 image:
   feature: about-featured-image.png
 ---
@@ -45,50 +45,60 @@ I love [Docker](/tags/#docker), just love. If there any chance to apply it to he
 ## Experience <span>💻</span> ##
 
 ##### Remedy Point Solutions, Inc. #####
-director of engineering \| *September 2017 ... May 2019*
+director of engineering \| *September 2017 ... October 2019*
 
-* Software architecture;
-* Development automatization;
-* Onboarding team members;
-* Lead development;
-* Building application's infrastructure;
+* Developed the architecture for a number of products;
+* Automated the processes of code build, code review & code delivery;
+* Onboarded a number of new team members & technologies;
+* Leaded the development process;
+* Developed a number of application infrastructures;
+
+##### Zeamo, Inc. #####
+software engineer \| *September 2017 ... February 2018*
+
+* Migrated the project from previous development team & application infrastructure;
+* Developed the application infrastructure;
+* Migrated product from solid system to dockerized micro-services;
+* Developed a number of product features;
+* Set up automated code build & code delivery for application services;
 
 ##### OnePlayce, LLC #####
 lead developer \| *June 2015 ... February 2019*
 
-* Developed application's API system with YII framework and mobile application using Ionic;
+* Leaded the team development process;
+* Developed application’s API system with YII framework and mobile application using Ionic;
 * Migrated mobile application from Ionic to ReactNative core;
-* Developed first time-based iteration of Post for Effect™ algorithm;
-* Leaded small team development process;
+* Developed first time-based iteration of Post for EffectTM algorithm; 
 
 ##### Remedy Point Solutions, Inc. #####
 lead developer \| *April 2016 ... September 2017*
 
-* Developed internal project with mobile application using Ionic and RestAPI on Slim framework;
+* Developed multiply internal modules for further products development;
+* Made proof-of-concept of number of technologies & frameworks such as Ionic (Angular), Yii2, Laravel, Slim, Puppet, Vagrant;
 
 ##### Remedy Point Solutions, Inc. #####
 php developer \| *September 2014 ... April 2016*
 
-* Supported internal CRM system;
-* Developer a number of new features and extensions;
-* Extended Shopify integration;
+* Developed a number of features and extensions;
+* Extended & improved Shopify integration;
 
 ##### Kreativ-Laboratory 82 #####
 full-stack developer \| *February 2014 ... July 2014*
 
-* Migrated developed websites to updated CMS;
+* Migrated websites to new internal CMS & the other open-source CMS like WordPress & Drupal;
 
 ##### ActSystem #####
 full-stack developer \| *May 2013 ... January 2014*
 
-* Developed a number of small and medium size corporate websites and a number of API systems for mobile application;
-* Built custom boxed CMS solution for corporate website easy to deploy and manage;
+* Developed a number of small and medium size corporate websites;
+* Developed a number of of API systems for mobile application;
+* Built a custom boxed CMS solution for corporate website easy to deploy and manage;
 
 ##### Kreativ-Laboratory 82 #####
 full-stack developer \| *February 2011 ... March 2013*
 
 * Developed a number of small and medium size corporate websites using different CMS;
-* Extended existing custom corporate CMS solution;
+* Extended the existing custom corporate CMS solution;
 
 ---
 
