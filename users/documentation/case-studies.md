@@ -32,6 +32,28 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Model building and expansion for golf putting
+
+<small>In this case study, we use Stan to build a series of models to estimate the probability of a successful putt using data from professional golfers.  We fit and check the fit of a series of models, demonstrating the benefits of modeling based on substantive (rather than purely statistical) principles.  We successfully fit to a small dataset and then have to expand the model to fit a new, larger dataset.  We use weakly informative priors and a model-misfit error term to enable the fit.</small>
+
+[View](case-studies/golf.html) <span class="note">(HTML)</span>
+
+Author
+: Andrew Gelman
+
+Keywords
+: nonlinear regression, sports
+
+Source Repository
+: [example-models/knitr/golf](https://github.com/stan-dev/example-models/tree/master/knitr/golf)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## A Dyadic Item Response Theory Model: Stan Case Study
 
 <small>In this case study, we use Stan to fit the Dyadic Item Response Theory (dIRT) model proposed by (Gin et al. 2019) to measure interactions between pairs of individuals when the responses to items represent the actions/behaviors/perceptions of an individual (called the 'actor') made within the context of a dyad formed with another individual (called the 'partner'). The dIRT model is fit using Stan (version 2.18.1) in R via the rstan package.</small>
