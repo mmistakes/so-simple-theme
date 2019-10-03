@@ -32,6 +32,29 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+
+## Model-based Inference for Causal Effects in Completely Randomized Experiments
+
+<small>In this document, we discuss the implementation of Bayesian model-based inference for causal effects in Stan. We start by providing an introduction to the Bayesian inferential framework by analyzing a simulated dataset generated under unconfounded treatment assignment. Then we analyze an example dataset obtained from a completely randomized experiment focusing on the specification of the joint distribution of the potential outcomes.</small>
+
+[View](case-studies/model-based_causal_inference_for_RCT.html) <span class="note">(HTML)</span>
+
+Author
+: JoonHo Lee, Avi Feller and Sophia Rabe-Hesketh
+
+Keywords
+: causal inference, completely randomized experiments
+
+Source Repository
+: [example-models/education/causal_rct](https://github.com/stan-dev/example-models/tree/master/education/causal_rct)
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, rstanarm, bayesplot, tidyverse, gridExtra, Matching</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
 ## Model building and expansion for golf putting
 
 <small>In this case study, we use Stan to build a series of models to estimate the probability of a successful putt using data from professional golfers.  We fit and check the fit of a series of models, demonstrating the benefits of modeling based on substantive (rather than purely statistical) principles.  We successfully fit to a small dataset and then have to expand the model to fit a new, larger dataset.  We use weakly informative priors and a model-misfit error term to enable the fit.</small>
