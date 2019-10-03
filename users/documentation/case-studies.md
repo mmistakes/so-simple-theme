@@ -49,7 +49,12 @@ Source Repository
 : [example-models/education/causal_rct](https://github.com/stan-dev/example-models/tree/master/education/causal_rct)
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan, rstanarm, bayesplot, tidyverse, gridExtra, Matching</tt>
+: <tt style="font-size: 90%">rstan</tt>, 
+<tt style="font-size: 90%">rstanarm</tt>, 
+<tt style="font-size: 90%">bayesplot</tt>, 
+<tt style="font-size: 90%">tidyverse</tt>, 
+<tt style="font-size: 90%">gridExtra</tt>, 
+<tt style="font-size: 90%">Matching</tt>
 
 License
 :  BSD (3 clause), CC-BY
