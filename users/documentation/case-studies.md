@@ -32,6 +32,28 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Tagging Basketball Events with HMM in Stan
+
+<small>This case study shows how we can apply Bayesian inference to Hidden Markov Models (HMMs) using Stan to extract useful information from basketball player tracking data. Specifically we show how to tag drive events and how to determine defensive assignment. Before diving into basketball data we show how to fit an HMM in Stan using a simple example. This should help build some intuition for those who are unfamiliar with HMMs and will also show how to specify an HMM using Stan.</small>
+
+[View](case-studies/bball-hmm.html) <span class="note">(HTML)</span>
+
+Author
+: Imad Ali
+
+Keywords
+: hidden markov model, sports
+
+Source Repository
+: [imadmali/bball-hmm](https://github.com/imadmali/bball-hmm)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, bayesplot, dplyr</tt>
+
+License
+:  BSD (3 clause), CC-BY-NC
+
 ## Model building and expansion for golf putting
 
 <small>In this case study, we use Stan to build a series of models to estimate the probability of a successful putt using data from professional golfers.  We fit and check the fit of a series of models, demonstrating the benefits of modeling based on substantive (rather than purely statistical) principles.  We successfully fit to a small dataset and then have to expand the model to fit a new, larger dataset.  We use weakly informative priors and a model-misfit error term to enable the fit.</small>
