@@ -42,7 +42,7 @@ Author
 : Imad Ali
 
 Keywords
-: hidden markov model, sports
+: hidden markov models, sports
 
 Source Repository
 : [imadmali/bball-hmm](https://github.com/imadmali/bball-hmm)
