@@ -62,20 +62,29 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - jekyll-sitemap
-  - jekyll-feed
+#  - jekyll-feed
 #  - jekyll-paginate
 
 # Collections
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:title/
   mnprdocs:
     output: true
-    permalink: /projects/MNPRX/docs/:slug/
-  research:
+    permalink: /software/MNPRX/docs/:slug/
+  papers:
     output: true
     permalink: /:collection/:title/
+  software:
+    output: true
+    permalink: /:collection/:title/
+  styles:
+    output: true
+    permalink: /:collection/:title/
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  main:
+    output: true
+    permalink: /:slug/
 
 
 # Front Matter Defaults
@@ -112,9 +121,15 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/artineering
     icon: fab fa-twitter-square
+  - title: Facebook
+    url: https://www.facebook.com/artineering/
+    icon: fab fa-facebook-square
   - title: LinkedIn
     url: https://www.linkedin.com/company/artineering/
     icon: fab fa-linkedin
+  - title: Github
+    url: https://github.com/artineering-io/
+    icon: fab fa-github-square
   - title: Youtube
     url: https://www.youtube.com/channel/UC-Uqc5P6CeXSwxftSEx9z6w
     icon: fab fa-youtube-square
@@ -124,6 +139,3 @@ footer_links:
 #  - title: Vimeo
 #    url: https://vimeo.com/santiagomontesdeoca
 #    icon: fab fa-vimeo-square
-#  - title: Github
-#    url: https://github.com/semontesdeoca/
-#    icon: fab fa-github-square

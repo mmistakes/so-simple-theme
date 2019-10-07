@@ -709,6 +709,36 @@ p .btn--aio {
   }
 }
 
+
+// SUPPORT
+.aio-support-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-between;
+  div {
+    box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+    border-radius: 0.5em;
+    flex: 1 0 80%;
+    padding: 0.5em;
+    margin: 0.5em;
+    @include breakpoint($small) {
+      flex: 1 0 40%;
+      padding: 1em;
+    }
+    @include breakpoint($large) {
+      flex: 1 0 28%;
+    }
+    h3 a { 
+        margin-left: 0em; 
+    }
+    a { 
+      margin-left: 1em; 
+    }
+  }
+}
+
+
 // FOOTER
 .aio-footer{
   a {

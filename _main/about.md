@@ -1,6 +1,5 @@
 ---
 layout: page
-author: santy
 title: About us
 excerpt: About Artineering and the Team
 image:
