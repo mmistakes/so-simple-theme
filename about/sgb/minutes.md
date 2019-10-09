@@ -11,6 +11,76 @@ image:
 
 # Minutes of the SGB
 
+## Meeting Notes
+
+
+## 2019/09/26 (regular online meeting)
+
+**Board Members**
+
+* Present (6): Andrew Gelman, Breck Baldwin, Jonah Gabry, Sean Talts,
+  Daniel Lee, Lizzie Wolkovich.
+  
+* Absent (2): Michael Betancourt, Julie Bertrand.
+
+* Quorum present? Yes.
+
+* Others present: None.
+
+
+**Proceedings**
+
+Meeting called to order at 12:30 PM by Presiding Officer, Breck Baldwin.
+
+1. Meetings: our last meeting was Oct, 2018. We agreed to have more
+   regular, shorter meetings.
+   
+2. SGB voting procedures. We recognized that there is a problem with
+   our current online voting procedure. We will take it offline to try
+   to fix it. 
+   
+3. Stan Conference 2020.
+
+	There are two potential hosts (that are still offering):
+
+	1. Oregon State. Led by Yi Zhang and Debashis Mondal. Breck had a
+       phone call with them. 
+	   
+	2. Utrecht. Led by Duco Veen and Matthijs Vákár. Breck has been in
+       contact with them. They need an answer immediately on hosting
+       StanCon 2020.
+	   
+	We discussed the importance of StanCon to the community and it was
+    clear that we feel that it is important that the SGB is
+    responsible for having a good event each year. We should organize
+    StanCon centrally with local organizers providing logistical
+    support. Daniel Lee will take over communication from Breck
+    Baldwin on StanCon and we will go forward with Oregon State for
+    StanCon 2020.
+	
+
+4. Job descriptions. Andrew would like to involve Lauren Kennedy and
+   Dan Simpson, members of the community that would help draft
+   more-inclusive job descriptions for positions we are spending money
+   for. The information procedure Andrew will follow is to draft job
+   descriptions via email, then submit drafts to SGB.
+   
+5. TWG creation. We have not succeeded in creating a TWG yet. We
+   identified that in our previous drafts we did not have enough focus
+   on community leadership and focused instead on technical leadership
+   and this needs to change. Breck's ask: look at the discourse
+   thread. https://discourse.mc-stan.org/t/twg-definition-roles-call-for-feedback-ideas-refinement/11094
+   
+6. Electorate discussion. We are trying to expand an electorate. Breck
+   will email the SGB with the latest draft of proposed. 
+   
+
+Meeting adjourned at 1:30. 
+
+Minutes submitted by Secretary, Daniel Lee.
+
+
+
 ## 2018/10/03 (regular online meeting)
 
 **Board Members**
