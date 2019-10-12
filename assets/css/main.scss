@@ -681,6 +681,50 @@ p .btn--aio {
 
 
 // ABOUT
+// navigation
+.about-main {
+  position: relative;
+#about-nav {
+  position: absolute;
+  z-index: 1;
+  top: 0.5em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  ul {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    li {
+      display: inline-block;
+      //margin: 0 1em;
+      padding: 0 1.2em;
+      padding-top: 0.35em;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      font-family: $sans-serif-font-family2;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      .about-active {
+        text-decoration: underline;
+        color: $accent-color;
+      }
+    }
+    * { box-sizing: border-box; }
+    @include breakpoint($small) {
+      li + li {
+        border-left: 1px solid #AAA;
+      }
+    }
+  }
+
+}
+// members
 .aio-team {
   text-align: center;
   margin: 2em auto 0;
@@ -708,7 +752,7 @@ p .btn--aio {
     }
   }
 }
-
+}
 
 // SUPPORT
 .aio-support-grid {
@@ -820,6 +864,7 @@ p .btn--aio {
     margin-right: 15%;
     padding: 0;
 }
+
 
 // FOOTER
 .aio-footer{

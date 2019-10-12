@@ -1,0 +1,13 @@
+# about navigation links
+
+- title: Our Story
+  url: /about/
+
+- title: News
+  url: /news/
+
+- title: Careers
+  url: /careers/
+
+- title: Publications
+  url: /publications/
