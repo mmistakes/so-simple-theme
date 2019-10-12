@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about-page
 title: About us
 excerpt: About Artineering and the Team
 image:
