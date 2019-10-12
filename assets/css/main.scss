@@ -729,15 +729,97 @@ p .btn--aio {
     @include breakpoint($large) {
       flex: 1 0 28%;
     }
-    h3 a { 
-        margin-left: 0em; 
+    h3 a {
+        margin-left: 0em;
     }
-    a { 
-      margin-left: 1em; 
+    a {
+      margin-left: 1em;
     }
   }
 }
 
+// NEWS
+
+.two-split-news {
+  div {
+    vertical-align: top;
+    width: 100%;
+    @include breakpoint($medium) {
+      display: inline-block;
+      width: 45%;
+      margin-left: 2.4%;
+      margin-right: 2.4%;
+    }
+    h2 {
+      text-align: center;
+    }
+  }
+}
+.main-twitter {
+  .twitter-follow {
+    width: 100%;
+  }
+  .twitter-news {
+    width: 100%;
+  }
+}
+
+// CAREERS
+.aio-careers-center {
+  text-align: center;
+}
+.aio-careers-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-between;
+  div {
+//    box-shadow: 0px 0px 5px 0px rgba(204,204,204,1);
+//    border-radius: 0.5em;
+    flex: 1 0 80%;
+    padding: 0.5em;
+    margin: 0.5em;
+    @include breakpoint($small) {
+      flex: 1 0 40%;
+      padding: 1em;
+    }
+    @include breakpoint($large) {
+      flex: 1 0 28%;
+    }
+    p {
+      margin-top: 2em;
+    }
+  }
+}
+.aio-careers-grid::after{
+  content: "";
+  width: 20%;
+  left: 40%;
+  @include breakpoint($medium) {
+    width: 6%;
+    left: 47%;
+  }
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+.aio-careers-initiative {
+  p:first-of-type {
+    font-size: 1.2em;
+  }
+}
+
+.aio-hr {      // line break
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1.5px solid #ccc;
+    margin: 1em 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+}
 
 // FOOTER
 .aio-footer{
