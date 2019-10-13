@@ -970,3 +970,66 @@ p .btn--aio {
 .slick-dots  {
   text-align: center !important;
 }
+
+/*
+   Comparison Slider
+   ========================================================================== */
+
+/* Panels. */
+.aio-compare-splitview {
+   position: relative;
+   width: 100%;
+   min-height: 35vw;
+   overflow: hidden;
+}
+
+.aio-row-full{
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100px;
+  left: 50%;
+}
+
+.aio-compare-panel {
+   position: absolute;
+   width: 100vw;
+   min-height: 45vw;
+   overflow: hidden;
+   img {
+     width: 35%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+   }
+}
+
+.aio-compare-content {
+  position: absolute;
+  width: 100vw;
+  min-height: 35vw;
+  color: white;
+}
+
+.aio-compare-bottom {
+//  background-color: white;
+  z-index: 1;
+}
+
+.aio-compare-top {
+//  background-color: rgb(77, 69, 173);
+  z-index: 2;
+  width: 50vw;
+}
+
+.aio-compare-handle {
+  height: 100vh;
+  position: absolute;
+  display: block;
+  background-color: orange;
+  width: 5px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}

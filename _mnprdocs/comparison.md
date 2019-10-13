@@ -16,6 +16,7 @@ The non-commercial (NC) and commercial versions of MNPRX (Indie, Studio) differ 
 ## Quality (Anti-aliasing)
 The non-commercial version only comes with the _Standard_ quality, which doesn't involve our custom anti-aliasing solutions. Commercial versions can take advantage of _Temporal Anti-Aliasing_ for perfect results.
 
+<!--
 <div class="aio-slick">
   <div>
     <img src="/images/MNPRX/comparison/no-AA.png" />
@@ -32,7 +33,29 @@ The non-commercial version only comes with the _Standard_ quality, which doesn't
     <p>TAA Quality, featuring Temporal Anti-Aliasing in <b>MNPRX Indie and Studio licenses</b></p>
     <span>3D Model from Run Totti Run, by Shad Bradbury</span>
   </div>
+</div>  -->
+
+<div class="aio-compare-splitview">
+  <div class="aio-row-full">
+    <div class="aio-compare-panel aio-compare-bottom">
+        <div class="aio-compare-content">
+          <img src="/images/MNPRX/comparison/no-AA.png" />
+        </div>
+    </div>   
+    <div class="aio-compare-panel aio-compare-top">
+        <div class="aio-compare-content">
+          <img src="/images/MNPRX/comparison/MSAA.png" />
+        </div>
+    </div>
+    <div class="aio-compare-handle">
+    </div>   
+  </div>
 </div>
+
+
+
+
+
 
 
 ## Resolution
