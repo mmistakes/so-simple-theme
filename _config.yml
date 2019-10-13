@@ -79,7 +79,7 @@ collections:
   styles:
     output: true
     permalink: /:collection/:title/
-  talks:
+  seminars:
     output: true
     permalink: /:collection/:title/
   main:

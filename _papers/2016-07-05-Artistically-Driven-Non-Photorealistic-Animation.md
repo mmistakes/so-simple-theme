@@ -5,6 +5,7 @@ title: Artistically Driven Non-Photorealistic Animation
 authors: Montesdeoca S. E., Seah H.S., Benvenuti D.
 type: Conference Talk
 publication: SAS2016 28th Annual Conference of the Society for Animation Studies
+place: "Society of Animation Studies"
 citation: "[MSB16]"
 excerpt: This talk introduces artists on new technology and advancements of Non-Photorealistic Rendering (NPR) and invites them to participate in the development of new technologies.
 year: 2016

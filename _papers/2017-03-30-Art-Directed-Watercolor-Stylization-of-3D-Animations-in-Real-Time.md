@@ -5,6 +5,7 @@ title: Art-directed watercolor stylization of 3D animations in real-time
 authors: Montesdeoca S. E., Seah H.S., Rall H.-M., Benvenuti D.
 type: Journal
 publication: Computers & Graphics
+place: "Computers & Graphics"
 citation: "[MSRB17]"
 excerpt: This paper presents a direct stylization pipeline to render 3D animated geometry as watercolor painted animation.
 year: 2017

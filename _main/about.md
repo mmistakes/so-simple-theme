@@ -1,6 +1,6 @@
 ---
 layout: about-page
-title: About us
+title: Our Story
 excerpt: About Artineering and the Team
 image:
   path: images/about/about.jpg

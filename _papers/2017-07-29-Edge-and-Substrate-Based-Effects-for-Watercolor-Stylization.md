@@ -5,6 +5,7 @@ title: Edge- and substrate-based effects for watercolor stylization
 authors: Montesdeoca S. E., Seah H. S., Bénard P., Vergne R. Thollot J., Rall H.-M., Benvenuti D.
 type: Conference Proc.
 publication: "Expressive '17: The Joint Symposium on Computational Aesthetics and Sketch Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering"
+place: "Expressive"
 citation: "[MSB*17]"
 excerpt: This paper presents an investigation towards edge- and substrate-based effects in watercolor.
 year: 2017

@@ -151,15 +151,37 @@ img {
   ul {
     text-align: left;
   }
-
-  .entry-title {
-    font-style: normal;
-    font-size: 1.2em;
-    @include breakpoint($medium) {
-      font-size: 1.5em;
+  .entry-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .entry-title {
+      flex-shrink: 1;
+      font-style: normal;
+      font-size: 1.0em;
+      @include breakpoint($medium) {
+        font-size: 1.2em;
+      }
+      a {
+        border-bottom: none;
+      }
     }
-    a {
-      border-bottom: none;
+    .aio-award {
+      margin-top: 0.75em;
+      margin-left: 0.5em;
+      flex: 1 0 25px;  // shrinkable, not growable, 25px width
+    }
+  }
+  .entry-meta {
+    margin-top: -0.6em;
+    color: #999;
+    font-family: $meta-font-family;
+    .entry-date, .read-time {
+      font-style: normal;
+    }
+    .entry-date + .read-time::before {
+      content: "\2022";
+      padding: 0 0.5em;
     }
   }
   .subtitle {
@@ -181,18 +203,6 @@ img {
     figcaption a {
       border-bottom: 1px dotted #a2a2a2
     }
-  }
-
-  .entry-meta {
-    margin-top: -0.8em;
-    color: #999;
-  }
-  .entry-meta .entry-date, .entry-meta .read-time {
-    font-style: normal;
-  }
-  .entry-date + .read-time::before {
-    content: "\2022";
-    padding: 0 0.5em;
   }
 
   // modify margin of article in list
@@ -707,12 +717,12 @@ p .btn--aio {
       font-size: 0.7em;
       font-family: $sans-serif-font-family2;
       a {
-        color: black;
-        text-decoration: none;
+        color: $accent-color;
+        text-decoration: underline;
       }
       .about-active {
-        text-decoration: underline;
-        color: $accent-color;
+        color: black;
+        text-decoration: none;
       }
     }
     * { box-sizing: border-box; }
@@ -722,8 +732,8 @@ p .btn--aio {
       }
     }
   }
+} // end navigation
 
-}
 // members
 .aio-team {
   text-align: center;
@@ -750,6 +760,23 @@ p .btn--aio {
         border-bottom: none;
       }
     }
+  }
+}
+
+// publications
+h2 {
+  text-align: center;
+}
+.aio-symbols {
+  display: flex;
+  flex-flow: row wrap;
+  //justify-content: center;
+  //justify-content: space-between;
+  span {
+    margin-right: 2em;
+  }
+  svg {
+    margin-right: 0.75em;
   }
 }
 }
