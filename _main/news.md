@@ -8,6 +8,9 @@ image:
 schema: ContactPoint
 ---
 
+<div class="twitter-follow pull-center">
+<a href="https://twitter.com/artineering?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-align="right" data-show-count="true">Follow @artineering</a>
+</div>
 
 <div class="two-split-news">
 
@@ -20,9 +23,6 @@ schema: ContactPoint
 <h2>Twitter Feed</h2>
 <div class="twitter-news">
 <a class="twitter-timeline" data-height="800" href="https://twitter.com/{{site.author.twitter}}" data-chrome="nofooter noheader noborders" data-tweet-limit="3">Please allow cookies to display News</a>
-</div>
-<div class="twitter-follow pull-center">
-<a href="https://twitter.com/artineering?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-align="right" data-show-count="true">Follow @artineering</a>
 </div>
 </div>
 </div>

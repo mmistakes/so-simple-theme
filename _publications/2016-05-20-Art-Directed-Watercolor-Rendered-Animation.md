@@ -6,6 +6,7 @@ authors: Montesdeoca S. E., Seah H.S., Rall H.-M.
 awards: true
 type: Conference Proc.
 publication: "Expressive '16: The Joint Symposium on Computational Aesthetics and Sketch Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering"
+place: "Expressive"
 citation: "[MSR16]"
 excerpt: This paper presents a system to render 3D animated geometry as watercolor painted animation with art-directed control.
 year: 2016

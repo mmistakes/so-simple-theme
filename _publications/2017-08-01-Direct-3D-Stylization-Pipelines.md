@@ -5,6 +5,8 @@ title: Direct 3D stylization pipelines
 authors: Montesdeoca S. E., Seah H. S., Benvenuti D., Bénard P., Rall H.-M., Thollot J., Vergne R.
 type: Conference Talk
 publication: ACM SIGGRAPH 2017 Real Time Live!
+place: ACM SIGGRAPH
+event: Real Time Live!
 citation: "[MSB*17]"   
 excerpt: We present a direct watercolor stylization system that lets artists control locally the desired effects directly in their animated 3D scene, seeing the stylized results in real-time.
 year: 2017

@@ -6,6 +6,7 @@ authors: Montesdeoca S. E.
 awards: false
 type: Thesis
 publication: "Theses and Dissertations (Doctor of Philosophy)"
+place: Nanyang Technological University, Singapore
 citation: "[M18]"
 excerpt: This PhD thesis presents the compiled work of Santiago E. Montesdeoca at the Nanyang Technological University, Singapore, conducted from 2014-2018.
 year: 2018
