@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: about-page
 title: Careers
 excerpt: Artineering Careers
+image:
+  path: images/about/about.jpg
+  caption: Photo of Tallinn by Kylli Kittus
 schema: ContactPoint
 ---
 

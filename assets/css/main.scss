@@ -830,12 +830,9 @@ p .btn--aio {
     @include breakpoint($large) {
       flex: 1 0 28%;
     }
-    p {
-      margin-top: 2em;
-    }
   }
 }
-.aio-careers-grid::after{
+.aio-careers-grid ::after{
   content: "";
   width: 20%;
   left: 40%;
