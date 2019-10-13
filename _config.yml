@@ -67,10 +67,13 @@ plugins:
 
 # Collections
 collections:
+  main:
+    output: true
+    permalink: /:slug/
   mnprdocs:
     output: true
     permalink: /software/MNPRX/docs/:slug/
-  papers:
+  publications:
     output: true
     permalink: /:collection/:title/
   software:
@@ -82,9 +85,6 @@ collections:
   seminars:
     output: true
     permalink: /:collection/:title/
-  main:
-    output: true
-    permalink: /:slug/
 
 
 # Front Matter Defaults

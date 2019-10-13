@@ -93,6 +93,30 @@ img {
     top: -0.05em;
   }
 }
+.navigation-download {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  z-index: 100;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 0 0 0 0.3em;
+  padding: 0.5em 1em;
+  a {
+    color: #CCC;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-family: $sans-serif-font-family2;
+    &:hover {
+      color: #FFF;
+    }
+  }
+  @include breakpoint($medium) {
+    visibility: visible;
+  }
+}
 
 // masthead
 .masthead {

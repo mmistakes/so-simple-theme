@@ -22,7 +22,7 @@ schema: ContactPoint
 
 ## Research
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% include documents-collection.html collection='papers' sort_by=page.sort_by sort_order=page.sort_order %}
+  {% include documents-collection.html collection='publications' sort_by=page.sort_by sort_order=page.sort_order %}
 </div>
 
 ---
