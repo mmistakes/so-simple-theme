@@ -1027,14 +1027,14 @@ h2 {
    ========================================================================== */
 
 /* Panels. */
-.aio-compare-splitview {
+/*.aio-compare-splitview {
    position: relative;
    width: 100%;
-   min-height: 35vw;
+   min-height: 40vw;
    overflow: hidden;
 }
 
-.aio-row-full{
+.aio-row-full{   // force 100vw on 100%
   width: 100vw;
   position: relative;
   margin-left: -50vw;
@@ -1059,17 +1059,25 @@ h2 {
 .aio-compare-content {
   position: absolute;
   width: 100vw;
-  min-height: 35vw;
-  color: white;
+  min-height: 40vw;
+  color: black;
+}
+
+.aio-compare-description {
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  text-align: center;
 }
 
 .aio-compare-bottom {
-//  background-color: white;
+  background-color: #ebebeb;
   z-index: 1;
 }
 
 .aio-compare-top {
-//  background-color: rgb(77, 69, 173);
+  background-color: #dbdbdb;
   z-index: 2;
   width: 50vw;
 }
@@ -1078,9 +1086,75 @@ h2 {
   height: 100vh;
   position: absolute;
   display: block;
-  background-color: orange;
-  width: 5px;
+  background-color: white;
+  width: 3px;
   top: 0;
   left: 50%;
   z-index: 3;
+}*/
+
+.aio-compare-splitview {
+  position: relative;
+  width: 100%;
+  min-height: 45vw;
+  //  overflow: hidden;
+
+  .aio-compare-panel {
+    position: absolute;
+    width: 100%;
+    min-height: 45vw;
+    overflow: hidden;
+    .aio-compare-content {
+      position: absolute;
+      width: 100%;
+      min-height: 45vw;
+      color: black;
+      .aio-compare-description {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+      img {
+        width: 35%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .aio-compare-bottom {
+    background-color: lightgray;
+    z-index: 1;
+    .aio-compare-description {
+      right: 5%;
+    }
+  }
+
+  .aio-compare-top {
+    background-color: gray;
+    z-index: 2;
+    width: 50%;
+    .aio-compare-description {
+      left: 5%;
+    }
+    .aio-compare-content {
+      width: 200%;
+    }
+  }
+}
+
+.aio-compare-handle {
+  height: 100%;
+  position: absolute;
+  display: block;
+  background-color: white;
+  width: 2px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+  transform: translateX(-1px);
 }

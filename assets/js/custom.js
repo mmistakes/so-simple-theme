@@ -17,13 +17,17 @@ $(document).ready(function() {
 document.addEventListener('DOMContentLoaded', function() {
   var parent = document.querySelector('.aio-compare-splitview'),
       topPanel = parent.querySelector('.aio-compare-top'),
-      handle = parent.querySelector('.aio-compare-handle');
+      handle = parent.querySelector('.aio-compare-handle'),
+      content = topPanel.querySelector('.aio-compare-content');
 
   parent.addEventListener('mousemove', function(event) {
     // Move the handle
-    handle.style.left = event.clientX + 'px';
+    var wrapper = $(".page-wrapper");
+    handle.style.left = (event.clientX - parseInt(wrapper.offset().left) - parseInt(wrapper.css("padding-left"))) + 'px';
 
     // Adjust the top panel width
-    topPanel.style.width = event.clientX + 'px';
+    topPanel.style.width = (event.clientX - parseInt(wrapper.offset().left) - parseInt(wrapper.css("padding-left"))) + 'px';
+    var parentQ = $(".aio-compare-splitview");
+    content.style.width = parseInt(parentQ.css("width")) + 'px';
   });
 });
