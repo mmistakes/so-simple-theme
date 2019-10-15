@@ -1023,111 +1023,65 @@ h2 {
 }
 
 /*
-   Comparison Slider
-   ========================================================================== */
-
-/* Panels. */
-/*.aio-compare-splitview {
-   position: relative;
-   width: 100%;
-   min-height: 40vw;
-   overflow: hidden;
-}
-
-.aio-row-full{   // force 100vw on 100%
-  width: 100vw;
-  position: relative;
-  margin-left: -50vw;
-  height: 100px;
-  left: 50%;
-}
-
-.aio-compare-panel {
-   position: absolute;
-   width: 100vw;
-   min-height: 45vw;
-   overflow: hidden;
-   img {
-     width: 35%;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-   }
-}
-
-.aio-compare-content {
-  position: absolute;
-  width: 100vw;
-  min-height: 40vw;
-  color: black;
-}
-
-.aio-compare-description {
-  width: 25%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
-  text-align: center;
-}
-
-.aio-compare-bottom {
-  background-color: #ebebeb;
-  z-index: 1;
-}
-
-.aio-compare-top {
-  background-color: #dbdbdb;
-  z-index: 2;
-  width: 50vw;
-}
-
-.aio-compare-handle {
-  height: 100vh;
-  position: absolute;
-  display: block;
-  background-color: white;
-  width: 3px;
-  top: 0;
-  left: 50%;
-  z-index: 3;
-}*/
+   Old Comparison Slider
+   ==========================================================================
 
 .aio-compare-splitview {
   position: relative;
   width: 100%;
-  min-height: 45vw;
+  min-height: 50vw;
   //  overflow: hidden;
+  @media (min-width: 900px) {
+    min-height: 35vw;
+  }
 
   .aio-compare-panel {
     position: absolute;
     width: 100%;
-    min-height: 45vw;
+    min-height: 50vw;
     overflow: hidden;
+    @media (min-width: 900px) {
+      min-height: 35vw;
+    }
     .aio-compare-content {
       position: absolute;
       width: 100%;
-      min-height: 45vw;
+      min-height: 50vw;
       color: black;
-      .aio-compare-description {
-        width: 25%;
+      @media (min-width: 900px) {
+        min-height: 35vw;
+      }
+      .aio-compare-description-r {
+        width: 100%;
         position: absolute;
-        top: 50%;
+        top: 92%;
+        right: 3%;
         transform: translateY(-50%);
-        text-align: center;
+        text-align: right;
+      }
+      .aio-compare-description-l {
+        width: 100%;
+        position: absolute;
+        top: 13%;
+        left: 3%;
+        transform: translateY(-50%);
+        text-align: left;
       }
       img {
-        width: 35%;
+        width: 32%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        @media (min-width: 900px) {
+          width: 50%;
+        }
       }
     }
   }
 
   .aio-compare-bottom {
-    background-color: lightgray;
+    background-color: #dbdbdb;
     z-index: 1;
     .aio-compare-description {
       right: 5%;
@@ -1135,7 +1089,7 @@ h2 {
   }
 
   .aio-compare-top {
-    background-color: gray;
+    background-color: #ebebeb;
     z-index: 2;
     width: 50%;
     .aio-compare-description {
@@ -1158,3 +1112,4 @@ h2 {
   z-index: 3;
   transform: translateX(-1px);
 }
+*/

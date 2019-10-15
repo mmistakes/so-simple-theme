@@ -35,55 +35,37 @@ The non-commercial version only comes with the _Standard_ quality, which doesn't
   </div>
 </div> -->
 
-<!-- <div class="aio-compare-splitview">
- <div class="aio-row-full">
-    <div class="aio-compare-panel aio-compare-bottom">
-        <div class="aio-compare-content">
-          <div class="aio-compare-description">
-            <h1>Standard Quality</h1>
-            <p>without anti-aliasing</p>
-          </div>
-          <img src="/images/MNPRX/comparison/no-AA.png" />
-        </div>
-    </div>   
-    <div class="aio-compare-panel aio-compare-top">
-        <div class="aio-compare-content">
-         <div class="aio-compare-description">
-            <h1>TAA Quality</h1>
-            <p>featuring Temporal Anti-Aliasing in <b>MNPRX Indie and Studio licenses</b></p>
-          </div>
-          <img src="/images/MNPRX/comparison/TAA.png" />
-        </div>
-    </div>
-    <div class="aio-compare-handle">
-    </div>   
-  </div>
-</div>-->
-
+<!--
 <div class="aio-compare-splitview">
   <div class="aio-compare-panel aio-compare-bottom">
     <div class="aio-compare-content">
-      <div class="aio-compare-description">
-        <h1>Standard Quality</h1>
-        <p>without anti-aliasing</p>
-      </div>
-      <img src="/images/MNPRX/comparison/no-AA.png">
-    </div>
-  </div>
-  <div class="aio-compare-panel aio-compare-top">
-    <div class="aio-compare-content">
-      <div class="aio-compare-description">
+      <div class="aio-compare-description-r">
         <h1>TAA Quality</h1>
         <p>featuring Temporal Anti-Aliasing in <b>MNPRX Indie and Studio licenses</b></p>
       </div>
       <img src="/images/MNPRX/comparison/TAA.png">
     </div>
   </div>
+  <div class="aio-compare-panel aio-compare-top">
+    <div class="aio-compare-content">
+      <div class="aio-compare-description-l">
+        <h1>Standard Quality</h1>
+        <p>without anti-aliasing</p>
+      </div>
+      <img src="/images/MNPRX/comparison/no-AA.png">
+    </div>
+  </div>
   <div class="aio-compare-handle">
   </div>
-</div>  
+</div>  -->
 
 
+<div id="container1" style="margin: 0 auto">
+ <!-- The before image is first -->
+ <img src="/images/MNPRX/comparison/no-AA.png" class="pull-center"/>
+ <!-- The after image is last -->
+ <img src="/images/MNPRX/comparison/TAA.png" class="pull-center"/>
+</div>
 
 
 ## Resolution

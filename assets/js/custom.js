@@ -11,9 +11,14 @@ $(document).ready(function() {
   });
 });
 
+$(function(){
+  $("#container1").twentytwenty({
+    //move_slider_on_hover: true, // Move slider on mouse hover?
+  });
+});
 
+/*
 // Comparison Slider
-
 document.addEventListener('DOMContentLoaded', function() {
   var parent = document.querySelector('.aio-compare-splitview'),
       topPanel = parent.querySelector('.aio-compare-top'),
@@ -31,3 +36,4 @@ document.addEventListener('DOMContentLoaded', function() {
     content.style.width = parseInt(parentQ.css("width")) + 'px';
   });
 });
+*/
