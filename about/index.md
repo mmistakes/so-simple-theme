@@ -63,7 +63,6 @@ please email <board@mc-stan.org>.
 
 The current SGB is:
 
-* Breck Baldwin <span class="note">(Columbia University)</span> [Presiding officer]
 * Julie Bertrand  <span class="note">(INSERM)</span>
 * Michael Betancourt <span class="note">(Independent consultant)</span>
 * Jonah Gabry <span class="note">(Columbia University)</span>
