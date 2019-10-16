@@ -14,6 +14,69 @@ image:
 ## Meeting Notes
 
 
+## 2019/10/17 (regular online meeting)
+
+
+**Board Members**
+
+* Present (8): Andrew Gelman, Breck Baldwin, Jonah Gabry, Sean Talts,
+  Daniel Lee, Lizzie Wolkovich, Michael Betancourt, Julie Bertrand.
+  
+* Absent (0).
+
+* Quorum present? Yes.
+
+* Others present: None.
+
+
+**Proceedings**
+
+Meeting called to order at 3 PM by Presiding Officer, Breck Baldwin.
+
+1. Meeting minutes from 09/26/2019 approved.
+
+2. StanCon 2019 report by Breck Baldwin.
+
+	- Will have a full financial report later. Was net positive.
+	
+	- No code of conduct violations.
+	
+	- About 240 attendees.
+	
+	- Overall, a positive conference.
+	
+3. Financial status reported by Breck Baldwin.
+
+	- SGB needs a treasurer.
+	
+4. StanCon 2020 status by Daniel Lee.
+
+	- Ask: please send dates to avoid in August 2020.
+	
+	- NumFOCUS can provide a lot of logistical support.
+	
+	- The local organizers at OSU have been very responsive, draft
+      budget already prepared and available.
+	  
+5. Discussion of SGB Governance.
+   
+    - Current SGB has a deadline of 10/23/2019.
+
+	- Recapped proposal from Michael Betancourt.
+	
+	- Recapped proposal from Breck Baldwin.
+	
+	- Discussed the pros and cons of each.
+	
+	- Will try to separate the proposal to settle on electorate this
+      week.
+	  
+Meeting adjourned at 4 PM.
+
+Minutes submitted by Secretary, Daniel Lee.
+	
+
+
 ## 2019/09/26 (regular online meeting)
 
 **Board Members**
