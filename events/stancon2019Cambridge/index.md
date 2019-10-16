@@ -122,8 +122,8 @@ The course reviews elementary techniques to solve ODEs in Stan, the efficient pa
 
 Recorded Talks are
 <ul>
-<li> <a href="https://www.youtube.com/watch?time_continue=2970&v=qJlhq4Eb-_U">Thursday</a>.
-<li> <a href="https://www.youtube.com/watch?v=d5avHkTHvy4">Friday</a>.
+<li> <a href="https://www.youtube.com/watch?time_continue=2970&v=qJlhq4Eb-_U">Thursday</a></li>
+<li> <a href="https://www.youtube.com/watch?v=d5avHkTHvy4">Friday</a></li>
 </ul>
 
 # [Schedule](#schedule)
