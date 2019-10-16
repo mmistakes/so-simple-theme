@@ -14,7 +14,7 @@ image:
 ## Meeting Notes
 
 
-## 2019/10/17 (regular online meeting)
+## 2019/10/07 (regular online meeting)
 
 
 **Board Members**
