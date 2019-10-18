@@ -14,6 +14,8 @@ $(document).ready(function() {
 $(function(){
   $("#container1").twentytwenty({
     //move_slider_on_hover: true, // Move slider on mouse hover?
+    before_label: 'Standard Quality', // Set a custom before label
+    after_label: 'TAA Quality', // Set a custom after label
   });
 });
 

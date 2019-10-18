@@ -59,14 +59,18 @@ The non-commercial version only comes with the _Standard_ quality, which doesn't
   </div>
 </div>  -->
 
-
+<figure>
 <div id="container1" style="margin: 0 auto">
  <!-- The before image is first -->
  <img src="/images/MNPRX/comparison/no-AA.png" class="pull-center"/>
  <!-- The after image is last -->
  <img src="/images/MNPRX/comparison/TAA.png" class="pull-center"/>
 </div>
-
+<figcaption class="pull-center">
+<b>Standard Quality:</b> Without anti-aliasing <br>
+<b>TAA Quality:</b> Featuring Temporal Anti-Aliasing in <b>MNPRX Indie and Studio licenses</b>
+</figcaption>
+</figure>
 
 ## Resolution
 The non-commercial version can render at resolutions of up to 1920 x 1080 pixels (1080p - Full HD). The commercial version doesn't have any resolution restrictions imposed by the plugin and can render at any given resolution that the graphics' card supports.
