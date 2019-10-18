@@ -23,9 +23,6 @@ volunteer developers from around the world.
 
 # Stan Governing Body (SGB)
 
-We have a provisional Stan Governing Body that will operate until 23
-August 2019.
-
 The scope of the SGB’s authority is all things Stan. That includes
 ownership/management of trademarks, online resources like Discourse
 and GitHub and membership in the Stan community. The SGB has authority
