@@ -101,3 +101,5 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+skin: "/assets/css/skins/default.css"

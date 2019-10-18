@@ -51,22 +51,6 @@ $meta-font-family: $serif-font-family !default;
 $page-title-weight: bold !default;
 $entry-title-weight: bold !default;
 
-/* Colors */
-$base-color: #000 !default;
-$text-color: #000 !default;
-$accent-color: #34374C !default;
-$nav-color: #fff !default;
-$background-color: #fff !default;
-$nav-background-color: #000 !default;
-$code-background-color: tint($base-color, 95%) !default;
-$border-color: tint($base-color, 80%) !default;
-
-$primary-color: #000 !default;
-$success-color: #62c462 !default;
-$warning-color: #f89406 !default;
-$danger-color: #ee5f5b !default;
-$info-color: #52adc8 !default;
-
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: #000 !default;
 $yiq-contrasted-light-default: #fff !default;
@@ -96,24 +80,6 @@ $vimeo-color: #1ab7ea !default;
 $vine-color: #00bf8f !default;
 $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
-
-/* Syntax highlighting (base16) colors */
-$base00: #fafafa !default;
-$base01: #073642 !default;
-$base02: #586e75 !default;
-$base03: #657b83 !default;
-$base04: #839496 !default;
-$base05: #586e75 !default;
-$base06: #eee8d5 !default;
-$base07: #fdf6e3 !default;
-$base08: #dc322f !default;
-$base09: #cb4b16 !default;
-$base0a: #b58900 !default;
-$base0b: #859900 !default;
-$base0c: #2aa198 !default;
-$base0d: #268bd2 !default;
-$base0e: #6c71c4 !default;
-$base0f: #d33682 !default;
 
 /* Max-width of the main content */
 $main-max-width: $medium !default;

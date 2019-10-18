@@ -7,9 +7,7 @@ html {
 }
 
 body {
-  background: $background-color;
-  color: $text-color;
-  border-top: solid 0.25em $nav-background-color;
+  border-top: solid 0.25em;
 }
 
 blockquote,
@@ -102,11 +100,6 @@ figcaption {
 }
 
 a {
-  color: $accent-color;
   -webkit-transition: $global-transition;
   transition: $global-transition;
-
-  &:hover {
-    color: shade($accent-color, 25%);
-  }
 }

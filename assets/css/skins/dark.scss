@@ -1,0 +1,44 @@
+---
+---
+
+@charset "utf-8";
+
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/notices";
+
+/* Colors */
+$base-color: white !default;
+$text-color: white !default;
+$accent-color: rgb(10, 132, 255) !default;
+$nav-color: black !default;
+$background-color: black !default;
+$nav-background-color: $accent-color !default;
+$code-background-color: tint($base-color, 95%) !default;
+$border-color: tint($base-color, 80%) !default;
+
+$primary-color: white !default;
+$success-color: rgb(48, 209, 88) !default;
+$warning-color: rgb(255, 214, 10) !default;
+$danger-color: rgb(255, 69, 58) !default;
+$info-color: rgb(100, 210, 255) !default;
+
+/* Monokai by Wimer Hazenberg (http://www.monokai.nl) */
+$base00: #272822;
+$base01: #383830;
+$base02: #49483e;
+$base03: #75715e;
+$base04: #a59f85;
+$base05: #f8f8f2;
+$base06: #f5f4f1;
+$base07: #f9f8f5;
+$base08: #f92672;
+$base09: #fd971f;
+$base0a: #f4bf75;
+$base0b: #a6e22e;
+$base0c: #a1efe4;
+$base0d: #66d9ef;
+$base0e: #ae81ff;
+$base0f: #cc6633;
+
+@import "so-simple/skin";
