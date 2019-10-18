@@ -55,7 +55,7 @@ strategies to improve inclusion and diversity at all levels of the
 Stan project and will prepare an annual diversity report.
 
 The composition of the non-provisional SGB will be established through
-half-board elections every year. Any changes to the electorate will be
+elections every year. Any changes to the electorate will be
 approved by majority vote of the existing electorate.
 
 To reach the current SGB with any questions, concerns, or feedback,
