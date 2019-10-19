@@ -7,7 +7,7 @@
   url: /users/documentation/
 
 - title: Community
-  url: /community/  
+  url: /community/
 
 - title: About Us
   url: /about/
@@ -15,3 +15,5 @@
 - title: Your Support
   url: /support/
 
+- title: Search
+  url: /search/
