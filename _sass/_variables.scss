@@ -37,7 +37,8 @@ $table-hover-color            : darken($table-background, 2);
 $table-stripe-color           : darken($table-background, 4);
 $table-stripe-color-hover     : darken($table-stripe-color, 5);
 
-
+$nav-color: #fff !default;
+$nav-background-color: #000 !default;
 // MEDIA QUERIES ==============================================
 $micro            : "only screen and (min-width: 30em)";
 $small            : "only screen and (min-width: 37.5em)";
