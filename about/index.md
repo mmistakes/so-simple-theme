@@ -23,9 +23,6 @@ volunteer developers from around the world.
 
 # Stan Governing Body (SGB)
 
-We have a provisional Stan Governing Body that will operate until 23
-August 2019.
-
 The scope of the SGB’s authority is all things Stan. That includes
 ownership/management of trademarks, online resources like Discourse
 and GitHub and membership in the Stan community. The SGB has authority
@@ -55,7 +52,7 @@ strategies to improve inclusion and diversity at all levels of the
 Stan project and will prepare an annual diversity report.
 
 The composition of the non-provisional SGB will be established through
-half-board elections every year. Any changes to the electorate will be
+elections every year. Any changes to the electorate will be
 approved by majority vote of the existing electorate.
 
 To reach the current SGB with any questions, concerns, or feedback,
