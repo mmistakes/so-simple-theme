@@ -8,20 +8,20 @@
 @import "so-simple/notices";
 
 /* Colors */
-$base-color: black !default;
-$text-color: black !default;
-$accent-color: rgb(0, 122, 255) !default;
-$nav-color: white !default;
-$background-color: white !default;
-$nav-background-color: $accent-color !default;
+$base-color: #404040 !default;
+$text-color: #404040 !default;
+$accent-color: #0a71e2 !default;
+$nav-color: #fff !default;
+$background-color: #fff !default;
+$nav-background-color: #626262 !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 
-$primary-color: white !default;
-$success-color: rgb(52, 199, 89) !default;
-$warning-color: rgb(255, 204, 0) !default;
-$danger-color: rgb(255, 59, 48) !default;
-$info-color: rgb(90, 200, 250) !default;
+$primary-color: #fff !default;
+$success-color: #34c759 !default;
+$warning-color: #ffcc00 !default;
+$danger-color: #ff3b30 !default;
+$info-color: #5ac8fa !default;
 
 /* Syntax highlighting (base16) colors */
 $base00: #fafafa !default;
