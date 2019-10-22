@@ -31,10 +31,8 @@ over:
 * ownership and management of trademarks
 * online resources including the Stan Discourse, the stan-dev GitHub
   organization
-* membership in the Stan community
 * NumFOCUS funds
 * fundraising in support of Stan
-* defining the scope of the Stan project
 * authorizing and/or running Stan conferences
 * licensing requirements for contributed code and documentation
 
