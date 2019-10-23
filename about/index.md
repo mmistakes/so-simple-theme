@@ -73,7 +73,7 @@ The current SGB is:
 - [Regular online meeting 10/03/2018](/about/sgb/minutes.html#20181003-regular-online-meeting)
 - [Regular online meeting 09/26/2019](/about/sgb/minutes.html#20190926-regular-online-meeting)
 - [Regular online meeting 10/07/2019](/about/sgb/minutes.html#20191007-regular-online-meeting)
-
+- [Regular online meeting 10/14/2019](/about/sgb/minutes.html#20191014-regular-online-meeting)
 
 # Funding
 
