@@ -13,6 +13,57 @@ image:
 
 ## Meeting Notes
 
+## 2019/10/14 (regular online meeting)
+
+
+**Board Members**
+
+* Present (8): Andrew Gelman, Breck Baldwin, Jonah Gabry, Sean Talts,
+  Daniel Lee, Lizzie Wolkovich, Michael Betancourt, Julie Bertrand.
+
+* Absent (0).
+
+* Quorum present? Yes.
+
+* Others present: None.
+
+
+**Proceedings**
+
+Meeting called to order at 3 PM by Presiding Officer, Breck Baldwin.
+
+1. Minutes from 2019/10/07 approved.
+
+2. Discussion about SGB Election.
+
+    - Discussed Breck's proposal.
+
+    - We came to a consensus on:
+
+        * We need to have a vote.
+
+        * Electorate for the vote will stay the same (developers only). We discussed expanding it, but at this moment, we are keeping the existing electorate.
+
+        * Anyone is eligible to run for the SGB, even if they are not part of the electorate.
+
+        * We will have an election for 5 board seats.
+
+        * We will use approval voting. As a condition for NumFOCUS, the board cannot have the majority be from one organization.
+
+        * Nominations will be self-nominating and done on Discourse.
+
+        * Election days:
+
+            * Nominations: Oct 21-Nov 4
+
+            * Elections: Nov 4-Nov 11.
+
+
+Meeting adjourned at 4 PM.
+
+Minutes submitted by Secretary, Daniel Lee.
+
+
 
 ## 2019/10/07 (regular online meeting)
 
@@ -21,7 +72,7 @@ image:
 
 * Present (8): Andrew Gelman, Breck Baldwin, Jonah Gabry, Sean Talts,
   Daniel Lee, Lizzie Wolkovich, Michael Betancourt, Julie Bertrand.
-  
+
 * Absent (0).
 
 * Quorum present? Yes.
@@ -38,43 +89,43 @@ Meeting called to order at 3 PM by Presiding Officer, Breck Baldwin.
 2. StanCon 2019 report by Breck Baldwin.
 
 	- Will have a full financial report later. Was net positive.
-	
+
 	- No code of conduct violations.
-	
+
 	- About 240 attendees.
-	
+
 	- Overall, a positive conference.
-	
+
 3. Financial status reported by Breck Baldwin.
 
 	- SGB needs a treasurer.
-	
+
 4. StanCon 2020 status by Daniel Lee.
 
 	- Ask: please send dates to avoid in August 2020.
-	
+
 	- NumFOCUS can provide a lot of logistical support.
-	
+
 	- The local organizers at OSU have been very responsive, draft
       budget already prepared and available.
-	  
+
 5. Discussion of SGB Governance.
-   
+
     - Current SGB has a deadline of 10/23/2019.
 
 	- Recapped proposal from Michael Betancourt.
-	
+
 	- Recapped proposal from Breck Baldwin.
-	
+
 	- Discussed the pros and cons of each.
-	
+
 	- Will try to separate the proposal to settle on electorate this
       week.
-	  
+
 Meeting adjourned at 4 PM.
 
 Minutes submitted by Secretary, Daniel Lee.
-	
+
 
 
 ## 2019/09/26 (regular online meeting)
@@ -83,7 +134,7 @@ Minutes submitted by Secretary, Daniel Lee.
 
 * Present (6): Andrew Gelman, Breck Baldwin, Jonah Gabry, Sean Talts,
   Daniel Lee, Lizzie Wolkovich.
-  
+
 * Absent (2): Michael Betancourt, Julie Bertrand.
 
 * Quorum present? Yes.
@@ -97,22 +148,22 @@ Meeting called to order at 12:30 PM by Presiding Officer, Breck Baldwin.
 
 1. Meetings: our last meeting was Oct, 2018. We agreed to have more
    regular, shorter meetings.
-   
+
 2. SGB voting procedures. We recognized that there is a problem with
    our current online voting procedure. We will take it offline to try
-   to fix it. 
-   
+   to fix it.
+
 3. Stan Conference 2020.
 
 	There are two potential hosts (that are still offering):
 
 	1. Oregon State. Led by Yi Zhang and Debashis Mondal. Breck had a
-       phone call with them. 
-	   
+       phone call with them.
+
 	2. Utrecht. Led by Duco Veen and Matthijs Vákár. Breck has been in
        contact with them. They need an answer immediately on hosting
        StanCon 2020.
-	   
+
 	We discussed the importance of StanCon to the community and it was
     clear that we feel that it is important that the SGB is
     responsible for having a good event each year. We should organize
@@ -120,25 +171,25 @@ Meeting called to order at 12:30 PM by Presiding Officer, Breck Baldwin.
     support. Daniel Lee will take over communication from Breck
     Baldwin on StanCon and we will go forward with Oregon State for
     StanCon 2020.
-	
+
 
 4. Job descriptions. Andrew would like to involve Lauren Kennedy and
    Dan Simpson, members of the community that would help draft
    more-inclusive job descriptions for positions we are spending money
    for. The information procedure Andrew will follow is to draft job
    descriptions via email, then submit drafts to SGB.
-   
+
 5. TWG creation. We have not succeeded in creating a TWG yet. We
    identified that in our previous drafts we did not have enough focus
    on community leadership and focused instead on technical leadership
    and this needs to change. Breck's ask: look at the discourse
    thread. https://discourse.mc-stan.org/t/twg-definition-roles-call-for-feedback-ideas-refinement/11094
-   
-6. Electorate discussion. We are trying to expand an electorate. Breck
-   will email the SGB with the latest draft of proposed. 
-   
 
-Meeting adjourned at 1:30. 
+6. Electorate discussion. We are trying to expand an electorate. Breck
+   will email the SGB with the latest draft of proposed.
+
+
+Meeting adjourned at 1:30.
 
 Minutes submitted by Secretary, Daniel Lee.
 
