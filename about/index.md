@@ -23,9 +23,6 @@ volunteer developers from around the world.
 
 # Stan Governing Body (SGB)
 
-We have a provisional Stan Governing Body that will operate until 23
-August 2019.
-
 The scope of the SGB’s authority is all things Stan. That includes
 ownership/management of trademarks, online resources like Discourse
 and GitHub and membership in the Stan community. The SGB has authority
@@ -34,10 +31,8 @@ over:
 * ownership and management of trademarks
 * online resources including the Stan Discourse, the stan-dev GitHub
   organization
-* membership in the Stan community
 * NumFOCUS funds
 * fundraising in support of Stan
-* defining the scope of the Stan project
 * authorizing and/or running Stan conferences
 * licensing requirements for contributed code and documentation
 
@@ -55,7 +50,7 @@ strategies to improve inclusion and diversity at all levels of the
 Stan project and will prepare an annual diversity report.
 
 The composition of the non-provisional SGB will be established through
-half-board elections every year. Any changes to the electorate will be
+elections every year. Any changes to the electorate will be
 approved by majority vote of the existing electorate.
 
 To reach the current SGB with any questions, concerns, or feedback,
@@ -63,7 +58,6 @@ please email <board@mc-stan.org>.
 
 The current SGB is:
 
-* Breck Baldwin <span class="note">(Columbia University)</span> [Presiding officer]
 * Julie Bertrand  <span class="note">(INSERM)</span>
 * Michael Betancourt <span class="note">(Independent consultant)</span>
 * Jonah Gabry <span class="note">(Columbia University)</span>
@@ -77,6 +71,8 @@ The current SGB is:
 - [Regular online meeting 09/18/2018](/about/sgb/minutes.html#20180918-regular-online-meeting)
 - [Regular online meeting 09/26/2018](/about/sgb/minutes.html#20180926-regular-online-meeting)
 - [Regular online meeting 10/03/2018](/about/sgb/minutes.html#20181003-regular-online-meeting)
+- [Regular online meeting 09/26/2019](/about/sgb/minutes.html#20190926-regular-online-meeting)
+- [Regular online meeting 10/07/2019](/about/sgb/minutes.html#20191007-regular-online-meeting)
 
 
 # Funding
