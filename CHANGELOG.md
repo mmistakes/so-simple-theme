@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## [3.2.0] - 
+
+### Added
+- Add light and dark skins. [#347](https://github.com/mmistakes/so-simple-theme/pull/347)
+- Add support for customizable skins. [#347](https://github.com/mmistakes/so-simple-theme/pull/347)
 
 ### Fixed
 - Fix security alerts and update [onchange](https://www.npmjs.com/package/onchange) development dependency in `package.json`. [#341](https://github.com/mmistakes/so-simple-theme/issues/341)
