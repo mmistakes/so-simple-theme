@@ -78,19 +78,20 @@ Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) ca
     1. [Starting Fresh](#starting-fresh)
     2. [Starting from `jekyll new`](#starting-from-jekyll-new)
 4. [Configuring](#configuring)
-    1. [Site Locale](#site-locale)
-    2. [Site URL](#site-url)
-    3. [Site Base URL](#site-base-url)
-    4. [Date Format](#date-format)
-    5. [Reading Time](#reading-time)
-    6. [Mathematics](#mathematics)
-    7. [Google Fonts](#google-fonts)
-    8. [Pagination](#pagination)
-    9. [Search](#search)
-    10. [Taxonomy Pages](#taxonomy-pages)
-    11. [Comments (via Disqus)](#comments-via-disqus)
-    12. [Google Analytics](#google-analytics)
-    13. [Other](#other)
+    1. [Site Skin](#site-skin)
+    2. [Site Locale](#site-locale)
+    3. [Site URL](#site-url)
+    4. [Site Base URL](#site-base-url)
+    5. [Date Format](#date-format)
+    6. [Reading Time](#reading-time)
+    7. [Mathematics](#mathematics)
+    8. [Google Fonts](#google-fonts)
+    9. [Pagination](#pagination)
+    10. [Search](#search)
+    11. [Taxonomy Pages](#taxonomy-pages)
+    12. [Comments (via Disqus)](#comments-via-disqus)
+    13. [Google Analytics](#google-analytics)
+    14. [Other](#other)
 5. [Layouts](#layouts)
     1. [`layout: default`](#layout-default)
     2. [`layout: post`](#layout-post)
@@ -324,6 +325,26 @@ Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `l
 | `baseurl`     | Used to test the website under the same base url it will be deployed to. | `/my-base-path`                     |
 | `url`         | The full URL to your site.                                               | `"https://your-site.com"`           |
 | `logo`        | Path to a site-wide logo used in masthead.                                | `/images/your-logo.png`             |
+
+### Site Skin
+
+Three skins (default, light, and dark) are available to change the color palette of the theme.
+
+| `default.css` | `light.css` | `dark.css` |
+| --- | --- | --- |
+| ![default skin](https://mmistakes.github.io/so-simple-theme/images/default-skin.png) | ![light skin](https://mmistakes.github.io/so-simple-theme/images/light-skin.png) | ![dark skin](https://mmistakes.github.io/so-simple-theme/images/dark-skin.png) |
+
+```yaml
+skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/light.css"
+skin: "/assets/css/skins/dark.css"
+```
+
+To use a custom skin other than the ones provided:
+
+1. Copy and rename [`/assets/css/skins/default.css`](https://github.com/mmistakes/so-simple-theme/blob/master/assets/css/skins/default.css) to your local repo.
+2. Override and customize Sass variables as you see fit.
+3. Update the `skin` path in `_config.yml` to reference this new skin `.css` file.
 
 ### Site Locale
 
