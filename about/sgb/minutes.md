@@ -13,6 +13,51 @@ image:
 
 ## Meeting Notes
 
+## 2019/10/21 (regular online meeting)
+
+**Board Members**
+
+* Present (5): Jonah Gabry, Sean Talts, Lizzie Wolkovich, Michael Betancourt, Julie Bertrand.
+
+* Absent (2): Daniel Lee, Andrew Gelman.
+
+* Quorum present? Yes.
+
+* Others present: None.
+
+**Proceedings**
+
+Meeting called to order at 3 PM by Michael Betancourt.
+
+1. Meeting minutes from 10/21/2019 not discussed.
+
+2. Voting procedures and responsibilities.
+
+    - SGB members welcome to post on discourse nomination thread about their experience
+    - SGB members to think about people to encourage for nomination
+    - SGB members to think about what to do if not enough nominations
+    - Jonah Gabry and Community Manager to monitor the “tone” of the discourse thread on nomination
+    - Community Manager to remove not nomination related posts and Jonah Gabry to check the log and help out when needed
+    - Michael Betancourt to set-up the vote when time comes
+
+3. Information to handoff to the next SGB
+
+    - Michael Betancourt to create a google document with a list of required items
+    - SGB members to review the list for missing items before next week
+    - List to be sent to Breck Baldwin
+
+ 
+4. TWG
+
+    - Bob Carpenter is drafting a new TWG
+    - Discussion on how the new SGB should not necessarily be the entity to validate the new TWG structure (also valid for Stan CoC) but possibly vote by electorate or a structured Stan community.
+
+
+Meeting adjourned at 3:45 PM.
+ 
+Minutes submitted by Julie Bertrand.
+
+
 ## 2019/10/14 (regular online meeting)
 
 
