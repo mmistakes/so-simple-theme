@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [3.2.0] - 
+## [3.2.0] - 10-29-2019
 
 ### Added
 - Add light and dark skins. [#347](https://github.com/mmistakes/so-simple-theme/pull/347)
