@@ -32,6 +32,34 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+
+## Model-based Inference for Causal Effects in Completely Randomized Experiments
+
+<small>In this document, we discuss the implementation of Bayesian model-based inference for causal effects in Stan. We start by providing an introduction to the Bayesian inferential framework by analyzing a simulated dataset generated under unconfounded treatment assignment. Then we analyze an example dataset obtained from a completely randomized experiment focusing on the specification of the joint distribution of the potential outcomes.</small>
+
+[View](case-studies/model-based_causal_inference_for_RCT.html) <span class="note">(HTML)</span>
+
+Author
+: JoonHo Lee, Avi Feller and Sophia Rabe-Hesketh
+
+Keywords
+: causal inference, completely randomized experiments
+
+Source Repository
+: [example-models/education/causal_rct](https://github.com/stan-dev/example-models/tree/master/education/causal_rct)
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, 
+<tt style="font-size: 90%">rstanarm</tt>, 
+<tt style="font-size: 90%">bayesplot</tt>, 
+<tt style="font-size: 90%">tidyverse</tt>, 
+<tt style="font-size: 90%">gridExtra</tt>, 
+<tt style="font-size: 90%">Matching</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
 ## Tagging Basketball Events with HMM in Stan
 
 <small>This case study shows how we can apply Bayesian inference to Hidden Markov Models (HMMs) using Stan to extract useful information from basketball player tracking data. Specifically we show how to tag drive events and how to determine defensive assignment. Before diving into basketball data we show how to fit an HMM in Stan using a simple example. This should help build some intuition for those who are unfamiliar with HMMs and will also show how to specify an HMM using Stan.</small>
@@ -53,6 +81,7 @@ R Package Dependencies
 
 License
 :  BSD (3 clause), CC-BY-NC
+
 
 ## Model building and expansion for golf putting
 
