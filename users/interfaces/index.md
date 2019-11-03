@@ -23,6 +23,9 @@ through interfaces into many popular computing environments.
 * [PyStan](pystan.html)
   <span class="note">(Python)</span>
 
+* [CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/getting_started.html)
+  <span class="note">(Python, lightweight wrapper for CmdStan)</span>
+
 * [CmdStan](cmdstan.html)
   <span class="note">(shell, command-line terminal)</span>
 
