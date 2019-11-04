@@ -126,10 +126,10 @@
 }
 
 .page-taxonomies {
-  display: inline;
+  display: block;
   margin-right: 1em;
   padding: 0;
-  list-style: none;
+  //list-style: none;
 
   @include breakpoint($large) {
     display: block;
@@ -139,10 +139,10 @@
 
 .page-taxonomy {
   display: inline;
-
-  &:not(:last-child)::after {
-    content: ", ";
-  }
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .page-share {
