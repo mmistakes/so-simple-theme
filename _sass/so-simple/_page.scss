@@ -126,10 +126,9 @@
 }
 
 .page-taxonomies {
-  display: block;
+  display: inline;
   margin-right: 1em;
   padding: 0;
-  //list-style: none;
 
   @include breakpoint($large) {
     display: block;

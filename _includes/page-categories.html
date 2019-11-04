@@ -8,7 +8,7 @@
         {%- else -%}
           {{ category }}
         {%- endif -%}
-      </span> &nbsp;
+      </span>{%- if forloop.last != true -%}{{ " " }}{%- endif -%}
     {%- endfor- %}
   </p>
 {% endif %}
