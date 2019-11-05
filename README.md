@@ -173,7 +173,7 @@ GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme
 
 2. Run `bundle update` and verify that all gems install properly.
 
-3. Add `remote_theme: "mmistakes/so-simple-theme"` to your
+3. Add `remote_theme: "mmistakes/so-simple-theme@3.2.0"` to your
    `_config.yml` file. Remove any other `theme:` or `remote_theme:` entries.
 
 ---
@@ -224,7 +224,15 @@ Simply run `bundle update` if you're using Bundler (have a `Gemfile`) or `gem up
 
 ### Remote Theme
 
-When hosting with [GitHub Pages](https://pages.github.com/) you'll need to push up a commit to force a rebuild with the latest [theme release](https://github.com/mmistakes/so-simple-theme/releases).
+Verify you have the [latest version](https://github.com/mmistakes/so-simple-theme/releases) assigned in `_config.yml`
+
+```
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+```
+
+Note: If `@x.x.x` is omitted the theme's current `master` branch will be used. It is advised to ["lock" `remote_theme`](https://github.com/benbalter/jekyll-remote-theme#declaring-your-theme) at a specific version to avoid introducing breaking changes to your site.
+
+The next step requires rebuilding your [GitHub Pages](https://pages.github.com/) site so it can pull down the latest theme updates. This can be achieved by pushing up a commit to your GitHub repo.
 
 An empty commit will get the job done too if you don't have anything to push at the moment:
 
