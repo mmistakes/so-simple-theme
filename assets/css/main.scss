@@ -52,6 +52,14 @@ img {
   margin-left: -50vw;
   margin-right: -50vw;
 }
+.almost-full-width {
+  width: 98vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -49vw;
+  margin-right: -49vw;
+}
 .background-video {
   z-index: -1;
 }
@@ -60,7 +68,7 @@ img {
 // navigation
 .site-nav ul {
   border-radius: 0;
-  font-size: 1.3em;
+  font-size: 1.25em;
   padding-bottom: 0.2em;
   li {
     display: block;
@@ -71,7 +79,7 @@ img {
   }
   @include breakpoint($medium) {
     border-radius: 0 0 0.3em 0.3em;
-    font-size: 1em;
+    font-size: 1.2em;
     li {
       display: inline-block;
     }
@@ -107,7 +115,7 @@ img {
   a {
     color: #CCC;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: $sans-serif-font-family2;
     &:hover {
       color: #FFF;
@@ -128,16 +136,13 @@ img {
     }
     font-family: "Nanum Brush Script";
     margin-top: 0em;
-    font-size: 2em;
+    font-size: 2.1em;
   }
   .site-logo-img {
-    margin-bottom:0;
-    margin-top:50px;
-    @include breakpoint($large) {
-      margin-top: 70px;
-    }
-    max-width: 100px;
-    max-height: 100px;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    max-width: 3em;
+    max-height: 3em;
     border: 0px;
   }
   .site-description {
@@ -145,7 +150,7 @@ img {
     font-style: normal;
     word-spacing: -0.1em;
     margin-top: -0.5em;
-    font-size: 1.4em;
+    font-size: 1.55em;
     color: #666;
   }
 }
@@ -198,6 +203,7 @@ img {
   }
   .entry-meta {
     margin-top: -0.6em;
+    margin-bottom: 0;
     color: #999;
     font-family: $meta-font-family;
     .entry-date, .read-time {
@@ -218,8 +224,8 @@ img {
   a {
     text-decoration: none;
     border-bottom: 1px dotted #a2a2a2;
-    img:hover{
-      opacity: 0.7;
+    &:hover{
+      opacity: 0.8;
     }
   }
   figure a {
@@ -245,6 +251,8 @@ img {
   .entries-grid{
     h3 {
       margin-top: 0.25em;
+      margin-bottom: 0;
+      text-align: center;
     }
   }
 }
@@ -353,7 +361,10 @@ p .btn--aio {
   	p {
   		font-size: 1.2rem;
   		margin:0;
-  	}
+    }
+    a {
+      color: #000;
+    }
   	.authors{
   		span {
   			white-space: nowrap;
@@ -426,13 +437,22 @@ p .btn--aio {
 }
 
 // DOCUMENTATION
-.doc-element {
-  display: inline-block;
-  width: 250px;
-  max-width: 100%;
-  justify-self: center;
-  h3 {
-    margin-left: 0.5em;
+.page-content {
+  .doc-element {
+    display: inline-block;
+    width: 250px;
+    max-width: 100%;
+    justify-self: center;
+    h3 {
+      margin-left: 0.5em;
+      text-align: left;
+      a {
+        color: $base-color;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
   }
 }
 
@@ -782,15 +802,13 @@ p .btn--aio {
     .aio-team-social {
       a {
         border-bottom: none;
+        color: #666;
       }
     }
   }
 }
 
 // publications
-h2 {
-  text-align: center;
-}
 .aio-symbols {
   display: flex;
   flex-flow: row wrap;
@@ -824,11 +842,9 @@ h2 {
     @include breakpoint($large) {
       flex: 1 0 28%;
     }
-    h3 a {
-        margin-left: 0em;
-    }
     a {
-      margin-left: 1em;
+      //margin-left: 1em;
+      font-weight: 400;
     }
   }
 }
@@ -842,8 +858,8 @@ h2 {
     @include breakpoint($medium) {
       display: inline-block;
       width: 45%;
-      margin-left: 2.4%;
-      margin-right: 2.4%;
+      margin-left: 2.35%;
+      margin-right: 2.35%;
     }
     h2 {
       text-align: center;

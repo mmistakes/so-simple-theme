@@ -17,7 +17,7 @@ redirect_from:
   - /projects/MNPRX/docs/
 ---
 
-As MNPRX continues to grow, it has become indispensable to document all its functions, which can be found here. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
+As MNPRX continues to grow, it has become indispensable to document all its functions. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
 
 <div class="entries-grid">
 
@@ -28,7 +28,6 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ### [Updating MNPRX](update)
 </div>
 
-
 <div class="doc-element" markdown="1">
 ## Basics
 ### [MNPRX Shelf](shelf) {% include aio-new.html %}
@@ -38,40 +37,40 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Styles
-### [Presets](style-presets) {% include aio-new.html %}
+### [Style Library](/styles/) {% include aio-new.html %}
 ### [Configuration](config)
-### [Import/Export](import-export)
+### [Style Presets](style-presets)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Materials
-### [Presets](material-presets) {% include aio-new.html %}
-### [Uber Material](uber) {% include aio-new.html %}
+### [Uber Material](uber)
 ### [Proxies](proxy)
+### [Material Presets](material-presets) {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [NoiseFX](noisefx)
+### [NoiseFX](noisefx)  {% include aio-new.html %}
 ### [PaintFX](paintfx)
-### [MNPRX Toolbox](toolbox) {% include aio-new.html %}
+### [MNPRX Toolbox](toolbox)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Stylizations
-### [Watercolor](/styles/watercolor) {% include aio-wip.html %}
-### [Cutout](/styles/cutout)
-### [Viewport+](/styles/viewport+) {% include aio-wip.html %}
+### [Import/Export](import-export)
+### Breakdowns  {% include aio-wip.html %}
+### [Controls](controls)  {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1" style="white-space: nowrap;">
 ## Examples
-### [Stylizing Scenes](stylizing-scene) {% include aio-new.html %}
+### [Stylizing Scenes](stylizing-scene)
 ### [Rendering Scenes](rendering-scene)
-### [Compositing in Nuke](compositing-nuke) {% include aio-new.html %}
+### [Compositing in Nuke](compositing-nuke)
 </div>
 
 </div>
 
-We would be happy to include further documentation in this website, so do not hesitate to [contact us](/about) if you wish to have further clarification on certain features.
+We would be happy to include further documentation in this website, so do not hesitate to [contact us](/contact/) if you wish to have further clarification on certain features.
 {: .top2}

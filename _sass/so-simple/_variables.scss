@@ -11,15 +11,15 @@ $xxlarge: 1440px !default;
 $xxxlarge: 1920px !default;
 
 /* Fluid type */
-$base-font-size: 16px !default;
+$base-font-size: 14px !default;
 $min-vw: $small !default;
 $max-vw: $xlarge !default;
-$min-font-size: 14px !default;
-$max-font-size: 18px !default;
+$min-font-size: 12px !default;
+$max-font-size: 16px !default;
 
 /* Calculate Modular Scale */
-$modular-scale-1: 1.067 !default; /* small */
-$modular-scale-2: 1.2 !default; /* large */
+$modular-scale-1: 1.1 !default; /* small */
+$modular-scale-2: 1.3 !default; /* large */
 /* Heading 1 */
 $h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
 $h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
@@ -43,7 +43,7 @@ $h6-max: ($base-font-size / $modular-scale-2) !default;
 //$serif-font-family: "Lora", serif !default;
 $handwriting-font-family: "Nanum Brush Script", serif !default;
 $sans-serif-font-family2: "Josefin Sans", sans-serif !default;
-$sans-serif-font-family: "Source Sans Pro", sans-serif !default;
+$sans-serif-font-family: "Lato", sans-serif !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
 
 $base-font-family: $sans-serif-font-family !default;
@@ -58,7 +58,7 @@ $entry-title-weight: bold !default;
 /* Colors */
 $base-color: #000 !default;
 $text-color: #000 !default;
-$accent-color: #6c71c4 !default;
+$accent-color: #390094 !default;
 $nav-color: #CCC !default;
 $nav-color-focus: #FFF !default;
 $background-color: #fff !default;

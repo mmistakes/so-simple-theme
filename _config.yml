@@ -7,13 +7,14 @@ copyright: © 2019 Artineering OÜ
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://artineering.io
 logo: /images/logo.png
+logo-flat: /images/logo-flat.svg
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 175
 mathjax: true
 google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700"
+  - name: "Lato"
+    weights: "300,400,400i,700"
   - name: "Nanum Brush Script"
     weights: "400"
   - name: "Josefin Sans"

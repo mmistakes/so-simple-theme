@@ -11,6 +11,8 @@ sort_order: reverse
 schema: ContactPoint
 ---
 ## Press
+{: .pull-center}
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {%- for entry in site.data.press -%}
     {% include entry.html collection='press' %}
@@ -21,6 +23,8 @@ schema: ContactPoint
 {: .top2}
 
 ## Research
+{: .pull-center}
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% include documents-collection.html collection='publications' sort_by=page.sort_by sort_order=page.sort_order %}
 </div>
