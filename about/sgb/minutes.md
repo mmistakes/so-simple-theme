@@ -13,6 +13,48 @@ image:
 
 ## Meeting Notes
 
+## 2019/10/28 (regular online meeting)
+
+**Board Members**
+
+* Present (6): Jonah Gabry, Sean Talts, Daniel Lee, Andrew Gelman, Michael Betancourt, Julie Bertrand.
+
+* Absent (1): Lizzie Wolkovich.
+
+* Quorum present? Yes.
+
+* Others present: None.
+
+**Proceedings**
+
+Meeting called to order at 3 PM by Michael Betancourt.
+
+1. Meeting minutes from 10/21/2019 approved.
+
+2. Actively collecting things to hand off to the next SGB including all credentials and documents.
+
+3. Stan Conference 2020 update by Daniel Lee.
+    - Dates: August 11-14, 2020.
+    - 2 days of tutorials, 2 days of conference.
+    - Tutorials: 2 parallel sessions.
+    - Conference: general session to start and end, 2 parallel sessions on the first afternoon and the second morning.
+
+4. Election discussion.
+    - Nominations are now open until November 4, 2019, at midnight GMT.
+    - Discussed rules for the election. Michael Betancourt will post the rules prior to the election.
+        - Approval voting respecting the NumFOCUS requirement that not more than half share the same employer.
+        - Minimum of 5 votes required to be voted into the SGB.
+        - If there is a tie for the last spot, there will be a runoff election the following week with rank voting for those that were tied.
+        - If there is a tie for the last spot(s) after the runoff, members that weren't tied will become voted in and they will be responsible for figuring out a way to choose fill the SGB from those that are still tied for the last spot(s).
+
+5. NumFOCUS contact. Daniel Lee will become the contact through the end of our term.
+
+6. Discussion about helping out the next board. We're all willing to be as helpful as we can; it can either be a formal structure or informal and we'll support what the next SGB wants.
+
+Meeting adjourned at 4:15 PM.
+
+Minutes submitted by Secretary, Daniel Lee.
+
 ## 2019/10/21 (regular online meeting)
 
 **Board Members**
