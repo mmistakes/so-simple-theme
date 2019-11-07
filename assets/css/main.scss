@@ -993,6 +993,22 @@ h2 {
 }
 
 
+/* Text wrapping around image */
+.aio-txt-box {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding-left: 30px;
+}
+.aio-txt-wrap {
+  float: right;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
 
 /*
    Slick carousel

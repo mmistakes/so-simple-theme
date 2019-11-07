@@ -11,3 +11,31 @@ sort_order: reverse
 schema: ContactPoint
 ---
 hola!
+
+<img src="/images/MNPRX/comparison/no-AA.png" width="300px" class="aio-txt-wrap"/>
+
+<div class="aio-txt-box" markdown="1">
+And here is the text that is wrapped. And here is the text that is wrapped. And here is the text that is wrapped. And here is the text that is wrapped. And here is the text that is wrapped. And here is the text that is wrapped. And here is the text that is wrapped.
+</div>
+
+
+Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now. Here is some lots and lots of text so that you can see that the text is wrapping around the image. Oh man.. copy&paste is my friend now.
+
+Anyhow slick, cause there was supposed to be one
+<div class="aio-slick">
+  <div>
+    <img src="/images/MNPRX/comparison/no-AA.png" />
+    <p>Standard Quality, without anti-aliasing</p>
+    <span>3D Model from Run Totti Run, by Shad Bradbury</span>
+  </div>
+  <div>
+    <img src="/images/MNPRX/comparison/MSAA.png" />
+    <p>Standard Quality, with Maya's Multisample Anti-Aliasing (MSAA)</p>
+    <span>3D Model from Run Totti Run, by Shad Bradbury</span>
+  </div>
+  <div>
+    <img src="/images/MNPRX/comparison/TAA.png" />
+    <p>TAA Quality, featuring Temporal Anti-Aliasing in <b>MNPRX Indie and Studio licenses</b></p>
+    <span>3D Model from Run Totti Run, by Shad Bradbury</span>
+  </div>
+</div>
