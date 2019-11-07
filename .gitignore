@@ -16,3 +16,6 @@ npm-debug.log*
 bats
 source
 _drafts
+
+# temporary ignores
+clients

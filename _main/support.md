@@ -9,39 +9,43 @@ schema: ContactPoint
 <div class="aio-support-grid">
 <div markdown="1">
 ### Documentation
-MNPRX's documentation is available online and updated on a monthly basis!
-
-[MNPRX User Manual](/software/MNPRX/manual)
+MNPRX's documentation and user manual is available online and updated with each release!
+* [MNPRX User Manual](/software/MNPRX/docs)
 </div>
+
+
 <div markdown="1">
 ### Tutorials
 Get started by watching our free tutorials to learn from scratch and explore advanced features
-
-[MNPRX Tutorials](/software/MNPRX/manual/tutorials)
+* [MNPRX Tutorials](/software/MNPRX/manual/tutorials)
 </div>
+
 <div markdown="1">
 ### Community
 Join our community to exchange ideas, ask for help and create amazing NPR together
-
-[Artineers Community](https://community.artineering.io)
+* [Artineers Community](https://community.artineering.io)
 </div>
+
+
 <div markdown="1">
 ### Professional Support
 Artineering offers professional training for companies and institutions
-
-[Contact us to learn more](/contact)
+* [Contact us to learn more](/contact)
 </div>
-<div markdown="1">
-### [Report a Bug](https://github.com/artineering-io/MNPRX/issues)
-Gotta fix them all!
 
-### [Request a Feature]((https://github.com/artineering-io/MNPRX/issues))
-Help us make our software better
-</div>
+
 <div markdown="1">
-### [FAQ](/software/MNPRX/manual/faq)
-Get answers right away
-### Demo Files
-Coming soon!
+### Feedback
+Help us make our software better!
+* [Report a bug](https://github.com/artineering-io/MNPRX/issues)
+* [Request a Feature]((https://github.com/artineering-io/MNPRX/issues))
+</div>
+
+
+<div markdown="1">
+### Curious?
+We knew you'd get here!
+* [FAQ](/software/MNPRX/manual/faq)
+* Demo scenes (coming soon)
 </div>
 </div>
