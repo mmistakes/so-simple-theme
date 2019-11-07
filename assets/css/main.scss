@@ -741,32 +741,33 @@ p .btn--aio {
 #about-nav {
   position: absolute;
   z-index: 1;
-  top: 0.5em;
+  top: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   justify-content: space-between;
   width: 100%;
   ul {
-    padding: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5em 1.5em 0.7em;
+    //border-radius: 0 0 0.3em 0.3em;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
     li {
       display: inline-block;
-      //margin: 0 1em;
       padding: 0 1.2em;
       padding-top: 0.35em;
       text-transform: uppercase;
       font-size: 0.7em;
       font-family: $sans-serif-font-family2;
       a {
-        color: $accent-color;
-        text-decoration: underline;
-      }
-      .about-active {
         color: black;
         text-decoration: none;
+      }
+      .about-active {
+        color: $accent-color;        
+        text-decoration: underline;
       }
     }
     * { box-sizing: border-box; }
@@ -960,6 +961,7 @@ p .btn--aio {
 .left-05 { margin-left: -0.5em; }
 .left-1 { margin-left: -1em; }
 .left-2 { margin-left: -2em; }
+.top0 { margin-top: 0; }
 .top05 { margin-top: 0.5em; }
 .top1 { margin-top: 1em; }
 .top2 { margin-top: 2em; }
@@ -1013,6 +1015,7 @@ p .btn--aio {
 
 .page-highlights {
   display: block;
+  font-weight: bold;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 1em;
@@ -1022,9 +1025,10 @@ p .btn--aio {
   background-color: #eaeaea;
   border-radius: .75em;
   ul {
-    list-style: none;
-    padding-left: 0;
-    li { margin: 1em 0;
+    //list-style: none;
+    padding-left: 1.5em;
+    li { 
+      margin: 1em 0;
     }
   }
   @include breakpoint($small) {
@@ -1039,7 +1043,11 @@ p .btn--aio {
     padding-top: 0em;
     padding-bottom: 0em;
     margin-left: 2em;
-    width: 30%;
+    width: 33%;
+  }
+  h4 {
+    margin-top: 1em;
+    margin-bottom: -0.5em;
   }
 }
 

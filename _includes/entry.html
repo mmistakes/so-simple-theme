@@ -1,7 +1,13 @@
 {% if entry.id %}
   {% assign title = entry.title | markdownify | strip_html %}
+  {% if entry.tile-title %}
+    {% assign title = entry.tile-title | markdownify | strip_html %}
+  {% endif %}
 {% else %}
   {% assign title = entry.title %}
+  {% if entry.tile-title %}
+    {% assign title = entry.tile-title %}
+  {% endif %}
 {% endif %}
 
 <article class="entry h-entry">

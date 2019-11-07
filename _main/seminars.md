@@ -3,8 +3,8 @@ layout: about-page
 title: Seminars
 excerpt: Artineering Seminars
 image:
-  path: images/about/about.jpg
-  caption: Photo of Tallinn by Kylli Kittus
+  path: images/about/winter.jpg
+  caption: Photo of Tallinn by Jaanus Jagomägi
 entries_layout: grid
 sort_by: date
 sort_order: reverse

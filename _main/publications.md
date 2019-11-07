@@ -3,15 +3,15 @@ layout: about-page
 title: Publications
 excerpt: Artineering Publications
 image:
-  path: images/about/about.jpg
-  caption: Photo of Tallinn by Kylli Kittus
+  path: images/about/winter.jpg
+  caption: Photo of Tallinn by Jaanus Jagomägi
 entries_layout: list
 sort_by: date
 sort_order: reverse
 schema: ContactPoint
 ---
 ## Press
-{: .pull-center}
+{: .pull-center .top1}
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {%- for entry in site.data.press -%}

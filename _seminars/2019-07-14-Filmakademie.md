@@ -1,7 +1,7 @@
 ---
-layout: publication
-title: Seminar at the Filmakademie Baden Württemberg
-tile-title: Animationsinstitut
+layout: about-page
+title: Seminar at the Filmakademie Baden-Württemberg
+tile-title: Filmakademie Baden-Württemberg
 place: Two-day seminar for TD and animation students | Ludwigsburg, Germany
 type: Seminar
 excerpt: Guest lecturing and hands-on peer programming sessions at the Filmakademie Baden-Württemberg!
@@ -15,6 +15,16 @@ image:
 comments: true
 share: true
 ---
+<div class="page-highlights" markdown="1">
+#### Highlights
+* Two day guest lecture
+* Presentation on "Stylized Rendering in Real-Time"
+* Insights into open problems, challenges and future work
+* Introduction to MNPRX and art-direction toolset
+* Hands-on technical peer programming workshops
+* Breaking down and implementing their own effects
+</div>
+
 Just after starting Artineering, our founder Santiago was invited and flown to Ludwigsburg for a two-day guest lecture at the esteemed Animationsinstitut of the Filmakademie Baden-Württemberg, one of the best animation schools in Germany.
 
 During the first morning session, the technical director (TD) and animation students were introduced to non-photorealistic rendering with cutting-edge approaches in academia and in the industry. This included open problems within stylized rendering, the interaction spectrum and its adoption--together with the challenges involved in making non-photorealistic software art-directed and production-ready.
@@ -28,15 +38,6 @@ The effects they worked on included: (1) chromatic depth of field, (2) screen-sp
 Most students showed a remarkable talent and were able to learn and achieve strong results in the limited time they were given, which made our job fun and rewarding.
 
 It was a pleasure being at the Filmakademie Baden-Württemberg and we are looking forward to coming back again!
-
-
-<div class="page-highlights">
-* Two day guest lecture
-* Presentation on Stylized Rendering in Real-Time
-* Insights into open problems, challenges and future work
-* Hands-on technical peer programming workshops
-* Breaking down and implementing their own styles
-</div>
 
 <div class="aio-slick">
   <div>
