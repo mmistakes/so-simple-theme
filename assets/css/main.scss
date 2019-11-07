@@ -1009,6 +1009,40 @@ p .btn--aio {
 }
 
 
+/* Text wrapping around highlights */
+
+.page-highlights {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: .75em;
+  ul {
+    list-style: none;
+    padding-left: 0;
+    li { margin: 1em 0;
+    }
+  }
+  @include breakpoint($small) {
+    float: right;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-left: 2em;
+    width: 50%;
+  }
+  @include breakpoint($medium) {
+    float: right;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-left: 2em;
+    width: 30%;
+  }
+}
+
 
 /*
    Slick carousel
