@@ -1,5 +1,6 @@
 {% assign page_image = page.image.path | default: page.image %}
-<header class="masthead" {% unless page_image %}style="margin-bottom: 0;"{% endunless %}>
+<header class="masthead" {% unless page_image %}style="margin-bottom: 5em;"{% endunless %}>
+  <!--
   <div class="wrap">
     {% unless page_image %}
       {% if site.logo %}
@@ -8,5 +9,5 @@
         </a>
       {% endif %}
     {% endunless %}
-  </div>
+  </div>-->
 </header><!-- /.masthead -->
