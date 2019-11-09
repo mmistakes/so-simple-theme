@@ -57,3 +57,5 @@ owner:
     ad-client: ca-pub-7328585512091257
     ad-slot: 7855747535
   bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+
+theme: jekyll-theme-minimal
