@@ -14,36 +14,38 @@
 
   <header class="entry-header">
     <div>
-      <h3 class="entry-title p-name">
-        {% if entry.link %}
-          <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }}</a> <a href="{{ entry.url | relative_url }}" rel="bookmark"><span class="link-arrow">&rarr;</span></a>
-        {% else %}
-          <a href="{{ entry.url | relative_url }}" rel="bookmark">
-            {% if entry.type == 'Conference Proc.' %}
-              <i class="far fa-scroll right05"></i>
-            {% endif %}
-            {% if entry.type == 'Conference Talk' %}
-              <i class="far fa-presentation right05"></i>
-            {% endif %}
-            {% if entry.type == 'Journal' %}
-              <i class="far fa-book right05"></i>
-            {% endif %}
-            {% if entry.type == 'Blog' %}
-              <i class="far fa-edit right05"></i>
-            {% endif %}
-            {% if entry.type == 'Docs' %}
-              <i class="far fa-file-invoice right05"></i>
-            {% endif %}
-            {% if entry.type == 'Release' %}
-              <i class="far fa-box-heart right05"></i>
-            {% endif %}
-            {% if entry.type == 'Thesis' %}
-              <i class="far fa-graduation-cap right05"></i>
-            {% endif %}
-            {{ title }}
-          </a>
-        {% endif %}
-      </h3>
+      {% unless entry.no-tile-title %}
+        <h3 class="entry-title p-name">
+          {% if entry.link %}
+            <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }}</a> <a href="{{ entry.url | relative_url }}" rel="bookmark"><span class="link-arrow">&rarr;</span></a>
+          {% else %}
+            <a href="{{ entry.url | relative_url }}" rel="bookmark">
+              {% if entry.type == 'Conference Proc.' %}
+                <i class="far fa-scroll right05"></i>
+              {% endif %}
+              {% if entry.type == 'Conference Talk' %}
+                <i class="far fa-presentation right05"></i>
+              {% endif %}
+              {% if entry.type == 'Journal' %}
+                <i class="far fa-book right05"></i>
+              {% endif %}
+              {% if entry.type == 'Blog' %}
+                <i class="far fa-edit right05"></i>
+              {% endif %}
+              {% if entry.type == 'Docs' %}
+                <i class="far fa-file-invoice right05"></i>
+              {% endif %}
+              {% if entry.type == 'Release' %}
+                <i class="far fa-box-heart right05"></i>
+              {% endif %}
+              {% if entry.type == 'Thesis' %}
+                <i class="far fa-graduation-cap right05"></i>
+              {% endif %}
+              {{ title }}
+            </a>
+          {% endif %}
+        </h3>
+      {% endunless %}
       {% if entry.image.thumbnail %}
         {% assign entry_image = entry.image.thumbnail %}
         {% unless entry_image contains '://' %}

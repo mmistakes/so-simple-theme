@@ -945,6 +945,24 @@ p .btn--aio {
     padding: 0;
 }
 
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  .entry {
+    max-height: 220px;
+    margin: 0 auto;
+    img { 
+      margin-bottom: 0; 
+    }
+    .entry-excerpt {
+      margin-top: -0.75em;
+    }
+  }
+}
+
 
 // FOOTER
 .aio-footer{
