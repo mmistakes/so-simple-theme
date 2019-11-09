@@ -19,23 +19,9 @@ $(function(){
   });
 });
 
-/*
-// Comparison Slider
-document.addEventListener('DOMContentLoaded', function() {
-  var parent = document.querySelector('.aio-compare-splitview'),
-      topPanel = parent.querySelector('.aio-compare-top'),
-      handle = parent.querySelector('.aio-compare-handle'),
-      content = topPanel.querySelector('.aio-compare-content');
-
-  parent.addEventListener('mousemove', function(event) {
-    // Move the handle
-    var wrapper = $(".page-wrapper");
-    handle.style.left = (event.clientX - parseInt(wrapper.offset().left) - parseInt(wrapper.css("padding-left"))) + 'px';
-
-    // Adjust the top panel width
-    topPanel.style.width = (event.clientX - parseInt(wrapper.offset().left) - parseInt(wrapper.css("padding-left"))) + 'px';
-    var parentQ = $(".aio-compare-splitview");
-    content.style.width = parseInt(parentQ.css("width")) + 'px';
+$(function(){
+  $("#mnprx-comparison").twentytwenty({
+    before_label: 'Viewport Render', // Set a custom before label
+    after_label: 'MNPRX Render', // Set a custom after label
   });
 });
-*/

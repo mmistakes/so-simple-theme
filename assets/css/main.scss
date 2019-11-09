@@ -66,52 +66,67 @@ img {
 
 
 // navigation
-.site-nav ul {
-  border-radius: 0;
-  font-size: 1.25em;
-  padding-bottom: 0.2em;
-  li {
-    display: block;
-  }
-  .navigation-logo img {
-    height: 2em;
-    margin-top: -0.2em;
-  }
-  @include breakpoint($medium) {
-    border-radius: 0 0 0.3em 0.3em;
-    font-size: 1.2em;
+.site-nav {
+  font-size: 1em;
+  ul {
+    height: 2.3em;
+    border-radius: 0;
+    padding: 0.3em 1em 0.5em;
+    font-size: 1.25em;
     li {
-      display: inline-block;
+      display: block;
     }
-    .navigation-logo {
-      padding-right: 0.4em;
-      position: relative;
-      top: -0.05em;
-      img {
-        height: 1.8em;
-        margin-top: -0.2em;
+    .navigation-logo svg {
+      height: 2em;
+      margin-top: -0.2em;
+    }
+    @include breakpoint($medium) {
+      border-radius: 0 0 0.3em 0.3em;
+      font-size: 1em;
+      li {
+        a {
+          padding: 0 1em;
+          border: none;
+          border-radius: 0;
+        }
+        font-size: 0.8em;
+        display: inline-block;
+        .navigation-logo {
+          font-size: 0.85em;
+          border: none;
+          padding-right: 0.5em;
+          position: relative;
+          top: 0.3em;
+          svg {
+            fill: #CCC;
+            &:hover {
+              transition: all 0.4s ease;
+              fill: #FFF;
+            }
+            //margin-top: -0.2em;
+          }
+        }
+      }
+      & > :last-child a {
+        padding-left: 0.5em;
+        position: relative;
+        top: -0.05em;
       }
     }
   }
 }
-.site-nav ul > :last-child a {
-  @include breakpoint($medium) {
-    padding-left: 0.4em;
-    position: relative;
-    top: -0.05em;
-  }
-}
 .navigation-download {
+  font-size: 1em;
+  padding: 0.3em 1em 0.5em;
   visibility: hidden;
   position: fixed;
-  top: 0;
+  top: 0.25em;
   right: 0;
   margin: 0;
   z-index: 100;
   text-transform: uppercase;
   background-color: black;
   border-radius: 0 0 0 0.3em;
-  padding: 0.5em 1em;
   a {
     color: #CCC;
     text-decoration: none;
@@ -223,9 +238,9 @@ img {
   }
   a {
     text-decoration: none;
-    border-bottom: 1px dotted #a2a2a2;
+    //border-bottom: 1px dotted #a2a2a2;
     &:hover{
-      opacity: 0.8;
+      color: $bold-accent-color;
     }
   }
   figure a {
@@ -449,7 +464,7 @@ p .btn--aio {
       a {
         color: $base-color;
         &:hover {
-          color: $accent-color;
+          color: $bold-accent-color;
         }
       }
     }
@@ -766,7 +781,7 @@ p .btn--aio {
         text-decoration: none;
       }
       .about-active {
-        color: $accent-color;
+        //color: $bold-accent-color;
         text-decoration: underline;
       }
     }

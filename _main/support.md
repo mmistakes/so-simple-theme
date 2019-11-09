@@ -17,7 +17,7 @@ MNPRX's documentation and user manual is available online and updated with each 
 <div markdown="1">
 ### Tutorials
 Get started by watching our free tutorials to learn from scratch and explore advanced features
-* [MNPRX Tutorials](/software/MNPRX/manual/tutorials)
+* [MNPRX Tutorials](https://www.youtube.com/channel/UC-Uqc5P6CeXSwxftSEx9z6w/)
 </div>
 
 <div markdown="1">
@@ -45,7 +45,7 @@ Help us make our software better!
 <div markdown="1">
 ### Curious?
 We knew you'd get here!
-* [FAQ](/software/MNPRX/manual/faq)
+* [FAQ](/software/MNPRX/docs/faq)
 * Demo scenes (coming soon)
 </div>
 </div>

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content" aria-label="Content">
+  <article>
+    <figure>
+        <div id="mnprx-comparison" class="page-image twentytwenty-container" style="margin: 0 auto">
+         <!-- The before image is first -->
+         <img src="{{ page.image.path1 }}" class="entry-feature-image u-photo"/>
+         <!-- The after image is last -->
+         <img src="{{ page.image.path2 }}" class="entry-feature-image u-photo"/>
+        </div>
+    </figure>
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% if page.id %}
+          {% assign title = page.title | markdownify | strip_html %}
+        {% else %}
+          {% assign title = page.title %}
+        {% endif %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title pull-center"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title pull-center">{{ title }}</h1>
+        {% endif %}
+      </header>
+      <div class="page-content publication">
+        {{ content }}
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</main>
