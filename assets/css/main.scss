@@ -766,7 +766,7 @@ p .btn--aio {
         text-decoration: none;
       }
       .about-active {
-        color: $accent-color;        
+        color: $accent-color;
         text-decoration: underline;
       }
     }
@@ -1027,7 +1027,7 @@ p .btn--aio {
   ul {
     //list-style: none;
     padding-left: 1.5em;
-    li { 
+    li {
       margin: 1em 0;
     }
   }
@@ -1079,6 +1079,25 @@ p .btn--aio {
 .slick-dots  {
   text-align: center !important;
 }
+
+/*
+   FAQ - Accordion
+   ========================================================================== */
+
+.info-toggler {
+  details {
+    summary {
+      &:focus {
+        outline: none;
+      }
+    }
+    p {
+      font-weight: bold;
+    }
+  }
+}
+
+
 
 /*
    Old Comparison Slider
