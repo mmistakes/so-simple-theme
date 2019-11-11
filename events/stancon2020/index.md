@@ -33,7 +33,7 @@ Oregon State University
 
 Learning Innovation Center
 
-[2750 SW Campus Way, Corvallis, Oregon 97331, USA](2750 SW Campus Way, Corvallis, OR 97331)
+[2750 SW Campus Way, Corvallis, Oregon 97331, USA](https://goo.gl/maps/CxbufemMbLyiotwK8)
 
 
 ### Registration and Submission
