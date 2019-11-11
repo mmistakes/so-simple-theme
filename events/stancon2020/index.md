@@ -9,6 +9,7 @@ image:
   creditlink:
 ---
 
+
 StanCon 2020 will be at Oregon State University!
 
 There will be two days of tutorials followed by two days of talks, open discussions, and statistical modeling. Up-to-date details at https://mc-stan.org/events/stancon2020
@@ -55,13 +56,13 @@ Please email stancon@mc-stan.org! We ask all volunteers follow the [StanCon code
 
 We're still working out the schedule for tutorials, sessions, and contributed talks. Once we have details, we'll make a request for proposals. For those that plan early:
 
-- Tutorials: we're seeking proposals for half-day or full-day tutorials. These can either be focused on foundations of Stan programming and Bayesian inference or advanced topics that can be for a niche audience. These proposals should describe the content and objectives of the tutorial.
+- Tutorials: we're seeking proposals for half-day or full-day tutorials. These can either be focused on foundations of Stan programming and Bayesian inference or advanced topics that can be for a niche audience. Proposals must describe the content and objectives of the tutorial.
 
-- Sessions: we're seeking proposals for thematic sessions. These would run in parallel either on Thursday afternoon or Friday morning. We're looking for organizers to pick a theme and organize a block of 5 talks to be in that session. 
+- Sessions: we're seeking proposals for thematic sessions. Sessions run in parallel on Thursday afternoon and Friday morning. Sessions will be 5 talks. Proposals must describe the theme, content, and a list of potential speakers.
 
 - Contributed talks: if you'd like to present your work at StanCon 2020, we're looking for people to talk either in the general session or in one of the parallel sessions.
 
-Full details on what, how, and when to submit will be available shortly. If you have any questions or are considering proposals, feel free to reach out early at stancon@mc-stan.org
+Full details on what, how, and when to submit will be available shortly. If you have any questions or are considering submitting a proposal, feel free to reach out early at stancon@mc-stan.org
 
 
 ### Sponsorship
