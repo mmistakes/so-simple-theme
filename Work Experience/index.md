@@ -19,10 +19,10 @@ image:
    
    * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
    
-      *Vertical Milling : Doosan Mynx 6500/50 and Doosan Mynx 7500/50
-      *Horizontal Milling : Toshiba BP-13P40, Toshiba BTD-11ER16 and Toshiba BTD-13R-22
-      *Vertical manual lathe : Cincinnati Hypro 
-      *Horizontal manual lathe : Monarch.
+      * Vertical Milling : Doosan Mynx 6500/50 and Doosan Mynx 7500/50
+      * Horizontal Milling : Toshiba BP-13P40, Toshiba BTD-11ER16 and Toshiba BTD-13R-22
+      * Vertical manual lathe : Cincinnati Hypro 
+      * Horizontal manual lathe : Monarch.
   
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
