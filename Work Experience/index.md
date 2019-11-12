@@ -28,8 +28,8 @@ image:
    
    * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
    
-      *Vertical Milling : Haas VF-3 
-      *Horizontal Milling : Toshiba BP-13P40 
+      * Vertical Milling : Haas VF-3 
+      * Horizontal Milling : Toshiba BP-13P40 
       
   
 
