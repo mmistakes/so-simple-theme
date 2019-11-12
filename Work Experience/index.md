@@ -23,15 +23,20 @@ modified: 2014-08-08T19:44:38.564948-04:00
       * Horizontal Milling : Toshiba BP-13P40, Toshiba BTD-11ER16 and Toshiba BTD-13R-22
       * Vertical manual lathe : Cincinnati Hypro 
       * Horizontal manual lathe : Monarch.
-  
+
+<a markdown="0" href="https://www.tifab.com/" class="btn">More on tifab.com</a>
+
+
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
    * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
    
       * Vertical Milling : Haas VF-3 
-      * Horizontal Milling : Toshiba BP-13P40 
+      * Horizontal Milling : Toshiba BP-13P40
+      
+<a markdown="0" href="https://www.barnett-machine.com/" class="btn">More on barnett-machine.com</a>      
       
   
-<a markdown="0" href="https://www.tifab.com/" class="btn">More on Dunieski</a>
+
 
 [^1]: Example: *domain.com/category-name/post-title*
