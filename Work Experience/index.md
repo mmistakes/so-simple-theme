@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Education
+title: Work Experience
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
@@ -17,11 +17,11 @@ image:
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
    
-   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like vertical milling  (DOOSAN MYNX 6500/50 and      DOOSAN MYNX 7500/50),  horizantal milling (TOSHIBA  BP-13P40, TOSHIBA  BTD-11ER16, TOSHIBA  BTD-13R-22), vertical manual lathe          like (CINCINNATI HYPRO MANUAL LATHE ) and horizontal lathe (MONARCH MANUAL LATHE).
+   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like vertical milling  (DOOSAN MYNX 6500/50 and        DOOSAN MYNX 7500/50),  horizantal milling (TOSHIBA  BP-13P40, TOSHIBA  BTD-11ER16, TOSHIBA  BTD-13R-22), vertical manual lathe            like (CINCINNATI HYPRO MANUAL LATHE ) and horizontal lathe (MONARCH MANUAL LATHE).
  
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
-   * At Barnet Machine Tool, I had the opportunity to work with differents cnc machine like vertical milling (Haas 3-axis), horizantal        milling (TOSHIBA  BP-13P40).
+   * At Barnet Machine Tool, I had the opportunity to work with differents cnc machine like vertical milling (Haas 3-axis), horizantal          milling (TOSHIBA  BP-13P40).
 
 **Subministraments i Ferreteria "ROCA", Barcelona, Spain (July 2014- December 2015)**
 
