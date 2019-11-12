@@ -17,6 +17,6 @@ Since my graduation as a software engineer, I have been developing software, cre
 
 Soon I will be getting my Developer AWS certifications and in 2020 I am planning to start my **Master's Degree in Computer Science**. 
 
-<a markdown="0" href="https://www.linkedin.com/in/mr-d-80249a152/" class="btn">More on Esteban</a>
+<a markdown="0" href="https://www.linkedin.com/in/esteban-oliva-76251958" class="btn">More on Esteban</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
