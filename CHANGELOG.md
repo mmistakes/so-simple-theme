@@ -5,10 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased -
+## [Unreleased] -
 
 ### Added
 - Add Turkish translations to `text.yml`. [#355](https://github.com/mmistakes/so-simple-theme/pull/355)
+
+### Changed
+- Sort taxonomies in `categories` and `tags` layouts by count then alphabetically. [#356](https://github.com/mmistakes/so-simple-theme/pull/356)
 
 ## [3.2.0] - 10-29-2019
 
