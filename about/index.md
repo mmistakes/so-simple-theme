@@ -9,7 +9,7 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
 ---
 
-Hello, my name is **Esteban Oliva** and I am originally from Cuba. I studying **Cloud Support Engieneer** at Miami Dade College, Miami and I will be graduated in November, 2019. 
+Hello, my name is **Esteban Oliva** and I am originally from Cuba. I studying **Cloud Support Engieneer** at Miami Dade College, and I will be graduated in November, 2019. 
 
 In 2013 I finished my **Associate's degree, Industrial and Product Design** and **Associate's degree, Computer Numerically Controlled (CNC) Machinist** in Salesians de Sarria, Barcelona, Spain.
 
