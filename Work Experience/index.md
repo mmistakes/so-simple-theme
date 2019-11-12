@@ -17,16 +17,21 @@ image:
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
    
-   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like vertical milling  (DOOSAN MYNX 6500/50 and        DOOSAN MYNX 7500/50),  horizantal milling (TOSHIBA  BP-13P40, TOSHIBA  BTD-11ER16, TOSHIBA  BTD-13R-22), vertical manual lathe            like (CINCINNATI HYPRO MANUAL LATHE ) and horizontal lathe (MONARCH MANUAL LATHE).
- 
+   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
+   
+      *Vertical Milling : Doosan Mynx 6500/50 and Doosan Mynx 7500/50
+      *Horizontal Milling : Toshiba BP-13P40, Toshiba BTD-11ER16 and Toshiba BTD-13R-22
+      *Vertical manual lathe : Cincinnati Hypro 
+      *Horizontal manual lathe : Monarch.
+  
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
-   * At Barnet Machine Tool, I had the opportunity to work with differents cnc machine like vertical milling (Haas 3-axis), horizantal          milling (TOSHIBA  BP-13P40).
-
-**Subministraments i Ferreteria "ROCA", Barcelona, Spain (July 2014- December 2015)**
-
-   * Having worked in Subministrament i Ferreteria "ROCA" gave me the possibility to work with costumers hand-to-hand.
+   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
    
+      *Vertical Milling : Haas VF-3 
+      *Horizontal Milling : Toshiba BP-13P40 
+      
+  
 
 
 [^1]: Example: *domain.com/category-name/post-title*
