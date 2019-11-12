@@ -70,7 +70,7 @@ de-AU:
 de-CH:
   <<: *DEFAULT_DE
 
-      
+
 # Spanish
 # -------
 es: &DEFAULT_ES
@@ -162,3 +162,32 @@ it: &DEFAULT_IT
   powered_by: "Generato da"
 it-IT:
   <<: *DEFAULT_IT
+
+# Turkish
+# -----------------
+tr: &DEFAULT_TR
+  skip_links: "Linklere git"
+  skip_primary_nav: "Birincil navigasyona git"
+  skip_content: "İçeriğe git"
+  skip_footer: "Sayfa altbilgisine git"
+  menu_label: "Menü"
+  by: "by"
+  min_read: "dakikalık okuma"
+  read_more: "Daha fazla&hellip;"
+  categories: "Kategoriler"
+  tags: "Etiketler"
+  pages_categorized: "Pages filed under"
+  pages_tagged: "Pages tagged"
+  table_of_contents: "Başlıklar"
+  results_found: "Sonuç bulundu"
+  share: "Paylaş"
+  tweet: "Tweet"
+  next: "Sonraki"
+  previous: "Önceki"
+  newer: "Daha Yeni"
+  older: "Daha Eski"
+  back_to_top: "Başa Dön"
+  search_placeholder_text: "Arama teriminizi girin..."
+  powered_by: "Powered by"
+tr-TR:
+  <<: *DEFAULT_TR
