@@ -338,19 +338,19 @@ Configuration of site-wide elements (`locale`, `title`, `description`, `url`, `l
 
 Three skins (default, light, and dark) are available to change the color palette of the theme.
 
-| `default.css` | `light.css` | `dark.css` |
+| `default.scss` | `light.scss` | `dark.scss` |
 | --- | --- | --- |
 | ![default skin](https://mmistakes.github.io/so-simple-theme/images/default-skin.png) | ![light skin](https://mmistakes.github.io/so-simple-theme/images/light-skin.png) | ![dark skin](https://mmistakes.github.io/so-simple-theme/images/dark-skin.png) |
 
 ```yaml
-skin: "/assets/css/skins/default.css"
-skin: "/assets/css/skins/light.css"
-skin: "/assets/css/skins/dark.css"
+skin: "/assets/css/skins/default.scss"
+skin: "/assets/css/skins/light.scss"
+skin: "/assets/css/skins/dark.scss"
 ```
 
 To use a custom skin other than the ones provided:
 
-1. Copy and rename [`/assets/css/skins/default.css`](https://github.com/mmistakes/so-simple-theme/blob/master/assets/css/skins/default.css) to your local repo.
+1. Copy and rename [`/assets/css/skins/default.scss`](https://github.com/mmistakes/so-simple-theme/blob/master/assets/css/skins/default.scss) to your local repo.
 2. Override and customize Sass variables as you see fit.
 3. Update the `skin` path in `_config.yml` to reference this new skin `.css` file.
 
