@@ -25,7 +25,7 @@ image:
 **Salesians de Sarria, Barcelona, Spain (September 2010 - May 2012)**
    * Associate's degree, Computer Numerically Controlled (CNC)
  
-**IPVCE Felix Varela (September 2006 - May 2009)**
+**IPVCE Felix Varela, Havana, Cuba (September 2006 - May 2009)**
    * High School Diploma, Sciences
  
   
