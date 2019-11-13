@@ -29,7 +29,7 @@ modified: 2014-08-08T19:44:38.564948-04:00
 
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
-   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
+   * At Barnet Machine Tool, I had the opportunity to work with differents cnc machine like:
    
       * Vertical Milling : Haas VF-3 
       * Horizontal Milling : Toshiba BP-13P40
