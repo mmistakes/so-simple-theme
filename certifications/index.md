@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Certifications
-image:
+<!--image:
   feature: EducationQuote.png 
   <!--credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/ -->
