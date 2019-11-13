@@ -350,7 +350,7 @@ skin: "/assets/css/skins/dark.css"
 
 To use a custom skin other than the ones provided:
 
-1. Copy and rename [`/assets/css/skins/default.css`](https://github.com/mmistakes/so-simple-theme/blob/master/assets/css/skins/default.css) to your local repo.
+1. Copy and rename [`/assets/css/skins/default.scss`](https://github.com/mmistakes/so-simple-theme/blob/master/assets/css/skins/default.scss) to your local repo.
 2. Override and customize Sass variables as you see fit.
 3. Update the `skin` path in `_config.yml` to reference this new skin `.css` file.
 
