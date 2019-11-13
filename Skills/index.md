@@ -13,9 +13,8 @@ image:
 
 <hr/>
 
-
-  
-**Technical skills**
+ 
+**Technical**
    
    * AWS Services :
       
