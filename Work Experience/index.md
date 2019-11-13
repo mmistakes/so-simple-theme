@@ -17,7 +17,11 @@ modified: 2014-08-08T19:44:38.564948-04:00
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
    
-   * At Titanium Fabrication, I had the opportunity to work with differents cnc machine like:
+   * At Titanium Fabrication, once again I had the opportunity to work with great people, where I continued improving my  knowledge on how to use new CNC programming languages like Fanuc and Tosnuc, and how to use new digital precision instrument like RAYTECH surfaces roughness tester and ultrasonic thickness gauge.
+   
+   
+   
+   
    
       * Vertical Milling : Doosan Mynx 6500/50 and Doosan Mynx 7500/50
       * Horizontal Milling : Toshiba BP-13P40, Toshiba BTD-11ER16 and Toshiba BTD-13R-22
@@ -29,10 +33,9 @@ modified: 2014-08-08T19:44:38.564948-04:00
 
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
-   * At Barnet Machine Tool, I had the opportunity to work with differents cnc machine like:
-   
-      * Vertical Milling : Haas VF-3 
-      * Horizontal Milling : Toshiba BP-13P40
+   * At Barnet Machine Tool, I had the opportunity to work with a great teamwork, which gave me the possibilities to              improve my skills in this industry and be a better professional. One of my main task as a worker in Barnett was the          complete set up of a Haas VF-3 and a Toshiba BP-13P40 from using the right tools to machined the part, to inspected the      part once was finished, using precision instruments like micrometer, caliper, and gauges.
+
+      
       
 <a markdown="0" href="https://www.barnett-machine.com/" class="btn">More on barnett-machine.com</a>      
       
