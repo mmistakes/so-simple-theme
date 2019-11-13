@@ -45,6 +45,7 @@ image:
    
    * Machined small and large pieces.
    * Fanuc ( CNC Machine Programming Languages).
+   * 2D/3D Design Software (Autocad, Autodesk Inventor, Solidworks, Catia)
    * Great ability to read and interpret blueprints.
    * Ability to work without immediate supervision.
  
