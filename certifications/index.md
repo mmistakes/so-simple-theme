@@ -10,4 +10,5 @@ title: Certifications
 
 <hr/>
 **Studying hard to have AWS Certified Cloud Practitioner**</br>
-**Coming Soon...**
+<hr/>
+<h1 style="color: blue">Coming Soon</h1>
