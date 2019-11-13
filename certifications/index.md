@@ -9,5 +9,5 @@ title: Certifications
 
 
 <hr/>
-**Studying hard to have AWS Certified Cloud Practitioner**
+**Studying hard to have AWS Certified Cloud Practitioner**</br>
 **Coming Soon...**
