@@ -1117,19 +1117,23 @@ p .btn--aio {
    FAQ - Accordion
    ========================================================================== */
 
-.info-toggler {
-  details {
-    summary {
-      &:focus {
-        outline: none;
-      }
-    }
-    p {
-      font-weight: bold;
-    }
+
+.accordion {
+  *:focus {
+    outline: 0;
+}
+  h4 { 
+    list-style:none;
+    
+  }
+  h4:before{
+    content: "\2BC8";
+    margin: 0.5em;
+  }
+  p {
+    margin-left: 2em;
   }
 }
-
 
 
 /*

@@ -9,27 +9,31 @@ search: true
 schema:
 ---
 
-<div class="info-toggler">
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- https://api.jqueryui.com/accordion/#option-active -->
 
-<details markdown="1">
-<summary>
-    Question 1
-</summary>
-Here is the answer
-</details>
+<div id="accordion" class="accordion top2" markdown="1">
 
-<details markdown="1">
-<summary>
-    Question 2
-</summary>
-Now I can change the answer
-</details>
+#### Section 1 
+Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+Nam mi. Proin viverra leo ut odio.
 
-<details markdown="1">
-<summary>
-    Question 3
-</summary>
-Yet another answer
-</details>
+#### Section 2 
+Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
+Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
+faucibus interdum tellus libero ac justo.
+
+#### Section 3 
+Nam enim risus, molestie et, porta ac, aliquam ac, risus.
+Quisque lobortis.Phasellus pellentesque purus in massa.
 
 </div>
+
+<script>$( "#accordion" ).accordion({
+   collapsible: true
+  });</script>
+ 
+
