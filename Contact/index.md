@@ -10,4 +10,4 @@ modified: 2014-08-08T19:44:38.564948-04:00
  
 * Cellphone: 954-641-8053
 * email: esteban2301@gmail.com
-* LinkedIn: https://www.linkedin.com/in/esteban-oliva-76251958
+* LinkedIn: [**Esteban Oliva**](https://www.linkedin.com/in/esteban-oliva-76251958)
