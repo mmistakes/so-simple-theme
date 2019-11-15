@@ -551,6 +551,17 @@ p .btn--aio {
     margin-bottom: 2em;
     overflow: hidden;
     position: relative;
+    min-height: 22em;
+    display: flex;
+    justify-content: center;
+    
+    .aio-section-transparent-box{
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.75);
+      border-radius: 10px 10px 0px 0px;
+      bottom: 0;
+    }
+    
     h2 {
       margin: 0 auto;
       text-transform: uppercase;
@@ -600,14 +611,15 @@ p .btn--aio {
       border-radius: 4px 0 0 0;
     }
     p {
-      padding: 0.5em 3em 0;
+      padding: 0.5em 3em;
+      margin-bottom: 0;
       font-weight: bold;
     }
     .background-video {
       video {
         position: absolute;
         z-index: -1;
-        opacity: 0.35;
+        opacity: 1;
         height: 100%;
         width: 355vh; // 100 * 1920 / 540
         min-width: 100%;
@@ -629,10 +641,12 @@ p .btn--aio {
     background-size: cover;
     background-position: center;
   }
+
   .mnprx-integration {
     background-image: url('/images/MNPRX/integration.jpg');
     background-size: cover;
     background-position: center;
+    min-height: 34em;
   }
   .mnprx-customization {
     background-image: url('/images/MNPRX/customize.jpg');
@@ -642,6 +656,40 @@ p .btn--aio {
 }
 
 // COMPARISONS
+.aio-customization {
+  position: relative;
+  background-color: #fff;
+  margin-top: 2em;
+
+  .customization-table {
+    margin: 0 1em;
+    padding: 5px 25px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    }
+
+    @media (min-width: 900px) {
+      flex-direction: column;
+    }
+
+    * {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-top: -0.5em;
+    }
+
+    h4 {
+      font-size: 1em;
+      margin-top: 2em;
+    }
+}
+
 .aio-pricing {
   position: relative;
   background-color: #fff;
@@ -741,8 +789,10 @@ p .btn--aio {
 
   .pricing-disclaimer{
     margin-top: 1.5em;
+    text-align: left;
     li {
       font-size: 0.6em;
+      
     }
   }
 }
@@ -998,6 +1048,7 @@ p .btn--aio {
 .top05 { margin-top: 0.5em; }
 .top1 { margin-top: 1em; }
 .top2 { margin-top: 2em; }
+.top3 { margin-top: 3em; }
 .top-05 { margin-top: -0.5em; }
 .top-1 { margin-top: -1em; }
 .top-2 { margin-top: -2em; }
@@ -1130,6 +1181,9 @@ p .btn--aio {
     content: "\2BC8";
     margin: 0.5em;
   }
+
+  h4 { cursor: pointer; }
+
   p {
     margin-left: 2em;
   }
