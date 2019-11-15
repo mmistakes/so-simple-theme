@@ -13,10 +13,8 @@ search: true
 
 <div class="full-width landing-banner">
   <div class="landing-split">
-
     <div class="landing-split-section">
-      <h2>Software</h2>
-      <div class="landing-split-options">
+      <div class="landing-split-options split-left">
         <a href="/software/MNPRX">
           <div class="lso-one">
             <img src="/images/MNPRX/MNPRX.jpg"/>
@@ -25,9 +23,17 @@ search: true
         </a>
       </div>
     </div>
-
+    <div class="landing-split-section-center">
+      <div class="landing-split-options">
+        <p> by </p>
+      </div>
+    </div>
     <div class="landing-split-section">
-      <h2>Services</h2>
+      <div class="landing-split-options options-logo split-right">
+        <img src="/images/logo-flat_white.svg"/>
+        <h5>Artineering</h5>
+      </div>
+<!--      <h2>Services</h2>
       <div class="landing-split-options">
         <a href="/services/seminars">
           <div>
@@ -47,9 +53,8 @@ search: true
             <h3>Support</h3>
           </div>
         </a>
-      </div>
+      </div>   -->
     </div>
-
   </div>
 </div>
 
