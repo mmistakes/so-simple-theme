@@ -46,6 +46,116 @@ sitemap: false
 }
 
 .landing-banner {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  box-shadow: 0px 2px 9px 0px #000;
+  margin-bottom: 2em;
+
+  .landing-split {
+    text-align: center;
+    display: flex;
+    margin-left: 5em;
+    width: 100%;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1.0;
+      transition: $global-transition;
+    }
+/*    @include breakpoint($large) {
+      margin-left: 2.5%;
+      width: 95%;
+    }
+    @include breakpoint($xxlarge) {
+      margin-left: 10%;
+      width: 80%;
+    }
+    @include breakpoint($xxxlarge) {
+      margin-left: 15%;
+      width: 70%;
+    } */
+    .landing-split-section {
+      vertical-align: top;
+      position: relative;
+      width: 100%;
+      height: 11.5em;
+      @include breakpoint($medium) {
+        display: inline-block;
+      }
+
+      .landing-split-options {
+        position: absolute;
+//        right: 0;  //placed in split-left
+//        left: 0;   //placed in split-right
+        a {
+          color: #FFF;
+        }
+        h3 {
+          margin-top: 0.5em;
+          font-size: 1em;
+        }
+        h5 {
+          font-family: "Nanum Brush Script";
+          font-weight: 200;
+          font-size: 1.75em;
+        }
+        img {
+          margin-top: -0.7em;
+          max-height: 3.7em;
+        }
+        div {
+          display: inline-block;
+          width: 32%;
+        }
+        .lso-one {
+          width: 100%;
+        }
+      }
+      .split-left {
+        top: 3.5em;
+        right: 0;
+      }
+      .split-right {
+        top: 4.8em;
+        left: 0;
+      }
+      .options-logo {
+        img {
+          margin-top: -2.25em;
+          margin-bottom: 0.5em;
+          max-height: 4em;
+        }
+      }
+    }
+    .landing-split-section-center {
+      vertical-align: top;
+      position: relative;
+      padding-left: 5em;
+      height: 11.5em;
+      @include breakpoint($medium) {
+        display: inline-block;
+        width: 10%;
+        padding-left: 15em;
+      }
+      .landing-split-options {
+        position: absolute;
+        top: 4.8em;
+        right: 0;
+        left: 0;
+        p {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+
+
+// -- ORIGINAL Landing-banner -- //
+
+/*.landing-banner {
   //background-image: url('/images/MNPRX/stylized-3D.jpg');
   background-color: #000;
   background-size: cover;
@@ -141,7 +251,7 @@ sitemap: false
       }
     }
   }
-}
+} */
 
 .two-split {
   div {
