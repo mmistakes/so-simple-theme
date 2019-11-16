@@ -1,0 +1,9 @@
+{% capture post_videos_root %}{{ site.post_videos_root | default: "/assets/video/posts" }}{% endcapture %}
+{% if page.slug %}
+  {% capture video_path %}{{ page.slug }}/{{ include.name }}{% endcapture %}
+{% else %}
+  {% capture video_path %}{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+{% endif %}
+<video class="{{ include.align | default: "align-center" }}" {% if include.width %} width="{{ include.width }}" {% endif %} {% if include.autoplay %}autoplay{% endif %} controls>
+  <source src="{{ post_videos_root }}/{{ video_path }}">
+</video>

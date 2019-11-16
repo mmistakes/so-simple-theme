@@ -1,0 +1,14 @@
+{% capture post_images_root %}{{ site.post_images_root | default: "/assets/image/posts" }}{% endcapture %}
+{% if page.slug %}
+  {% capture image_path %}{{ page.slug }}/{{ include.name }}{% endcapture %}
+{% else %}
+  {% capture image_path %}{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
+{% endif %}
+{% if include.caption %}
+  <figure class="{{ include.align | default: "align-center" }}">
+    <img src="{{ post_images_root }}/{{ image_path }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    <figcaption>{{ include.caption }}</figcaption>
+  </figure>
+{% else %}
+  <img class="{{ include.align | default: "align-center" }}" src="{{ post_images_root }}/{{ image_path }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+{% endif %}
