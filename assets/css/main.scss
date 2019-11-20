@@ -690,6 +690,18 @@ p .btn--aio {
     }
 }
 
+.license-comparison {
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  
+  .comparison-img {
+    flex: 30%;
+    padding: 1em;
+  }
+}
+
 .aio-pricing {
   position: relative;
   background-color: #fff;
