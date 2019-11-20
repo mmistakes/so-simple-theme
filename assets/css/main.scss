@@ -554,14 +554,14 @@ p .btn--aio {
     min-height: 22em;
     display: flex;
     justify-content: center;
-    
+
     .aio-section-transparent-box{
       position: absolute;
       background-color: rgba(255, 255, 255, 0.75);
       border-radius: 10px 10px 0px 0px;
       bottom: 0;
     }
-    
+
     h2 {
       margin: 0 auto;
       text-transform: uppercase;
@@ -792,7 +792,7 @@ p .btn--aio {
     text-align: left;
     li {
       font-size: 0.6em;
-      
+
     }
   }
 }
@@ -1004,8 +1004,8 @@ p .btn--aio {
   .entry {
     max-height: 220px;
     margin: 0 auto;
-    img { 
-      margin-bottom: 0; 
+    img {
+      margin-bottom: 0;
     }
     .entry-excerpt {
       margin-top: -0.75em;
@@ -1168,14 +1168,13 @@ p .btn--aio {
    FAQ - Accordion
    ========================================================================== */
 
-
 .accordion {
   *:focus {
     outline: 0;
 }
-  h4 { 
+  h4 {
     list-style:none;
-    
+
   }
   h4:before{
     content: "\2BC8";
@@ -1186,6 +1185,43 @@ p .btn--aio {
 
   p {
     margin-left: 2em;
+  }
+}
+
+/*
+   Upgrade-Simple
+   ==========================================================================*/
+
+.upgrade-text {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 1.5em;
+  .upgrade-background {
+    background-color: #faf7ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    figure {
+      margin: 0;
+    }
+    p {
+      padding-top: 1em;
+      margin-bottom: 0.25em;
+      font-family: "Josefin Sans", sans-serif;
+    }
+    img {
+      max-width: 100%;
+      padding-bottom: 1em;
+    }
+    .upgrade-img {
+      max-width: 60%;
+      align-self: center;
+    }
+  }
+  svg {
+    margin-top: 0.5em;
   }
 }
 
