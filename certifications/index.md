@@ -8,8 +8,4 @@ title: Certifications
 ---
 
 
-<hr/>
-<h1 style="color: blue;">    Coming Soon...</h1>
-<hr/>
-**Studying hard to have my AWS Cloud Practitioner certification**
-<hr/>
+AWS certifications: [**AWS Certified Cloud Practitioner**](https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-11-21&ci=AWS01119461).
