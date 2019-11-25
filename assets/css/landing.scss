@@ -96,7 +96,7 @@ sitemap: false
           font-size: 1em;
         }
         h5 {
-          font-family: "Nanum Brush Script";
+          font-family: $handwriting-font-family;
           font-weight: 200;
           font-size: 1.75em;
         }
@@ -145,6 +145,7 @@ sitemap: false
         left: 0;
         p {
           font-size: 1.5em;
+          font-family: $sans-serif-font-family2;
         }
       }
     }

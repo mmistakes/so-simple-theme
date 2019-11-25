@@ -18,6 +18,86 @@ schema:
   <figcaption>As an MNPRX user, you will automatically get the latest version of MNPRX upon release!</figcaption>
 </figure>
 
+
+---
+
+## November 2019 UPDATE
+The November 2019 update has taken a long time to come out, but we hope to make the wait worth it! 
+
+We have worked hard with one of our clients to develop a _Frayed_ style, which is inspired by the look of short films like _Feast_ and _Age of Sail_. We are including the style with this release, pushing MNPRX further than ever before!
+
+While doing so, we revamped the way PaintFX are handled to make scenes lighter, developed a way to bake NoiseFX onto animated objects and made NoiseFX more intuitive to use at different scene world scales.
+
+On our existing styles, we've made improvements to the dry-brush effect in the watercolor stylization and on stabilizing the line/point patterns in the hatching stylization under animation. 
+
+We've also tried to address most issues that some of you have been having, so thank you for sharing your valuable feedback with us!
+
+We will focus on creating tutorials on all these new features in the coming weeks, in the meantime, please read below for all the changes that have been made.
+
+**Upgrading notes**:  
+**_Materials_** - Make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials) to take advantage of the latest features with the PaintFX and NoiseFX tools.
+{: .notice--info}
+
+[**Frayed Stylization**](/projects/hatching/)
+
+_New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our _Frayed Stylization_ brings real-time rendering with frayed edges directly within _Autodesk Maya_. Find out more [**here**](/projects/frayed/).
+{: .top-1}
+
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/FR/showcase.mp4" type="video/mp4">
+	</video>
+	<figcaption>3D frayed animation in real-time.</figcaption>
+</figure>
+
+
+### MNPRX
+**Viewport rendering**
+* _Fixed_ - Automatically disable MSAA to avoid wrong output within the viewport
+
+<!--
+**MNPRX Materials**
+* _Fixed_ - Using alpha masks within transparency will not break the object sorting given by Maya anymore.
+{: .top-1}-->
+
+**Watercolor**
+* _New_ - Improved upon the dry-brush effect and added a custom dry-brush color
+* _Fixed_ - Bleeding now appears automatically when new scenes are created or opened
+{: .top-1}
+
+**Hatching**
+* _New_ - Hatching and stippling can now be baked onto objects by enabling the deformed setting within the hatching materials.
+
+**Installation**
+* _Fixed_ - Installation will automatically delete MNPRX shelves that might have saved themselves locally though Maya's preferences.
+{: .top-1}
+
+**PaintFX**  
+* _Fixed_ - Vertex control sets are now created on-demand, drastically reducing scene size.
+* _Fixed_ - Unnecessary history nodes are automatically deleted.
+{: .top-1}
+
+**NoiseFX**  
+* _New_ - Baking of _NoiseFX_ now allows you to bake the current 3D noise pattern so that it works with animation and deformed objects. NoiseFX with 2D noise is thereby deprecated.
+* _New_ - World scale of NoiseFX is now directly linked to the world scale of the scene (_World Scale_ attribute in the _config_ node), making the default scale of each effect work predictably with scenes of different world scales.
+{: .top-1}
+
+**MNPRX Shelf**
+* _Updated_ - Updated MNPRX info and Support (prev. Feedback) icons to direct users to the related page on our website.
+{: .top-1}
+
+**Documentation**
+* _New_ - Frayed [documentation](/styles/frayed/).
+* _New_ - Art-direction control [documentation](/software/MNPRX/docs/controls/)
+* _New_ - Tutorial on [**Avoiding the Shower Door Effect in MNPRX**](https://www.youtube.com/watch?v=eMU4GMQNEs0).
+{: .top-1}
+
+### Stylizations in Nuke
+{: .top2}
+* _New_ - The frayed stylization in Nuke 
+* _Updated_ - The watercolor stylization in Nuke has been updated to support the November 2019 release of MNPRX.
+* _New_ - Refer to the art-direction control [documentation](/software/MNPRX/docs/controls/) to create your own control textures within Nuke.
+
 ---
 
 ## SEPTEMBER 2019 UPDATE
