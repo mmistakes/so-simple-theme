@@ -1183,21 +1183,24 @@ p .btn--aio {
 .accordion {
   *:focus {
     outline: 0;
+    border: none; 
 }
   h4 {
     list-style:none;
-
   }
-  h4:before{
+  /*h4:before{
     content: "\2BC8";
     margin: 0.5em;
   }
-
+  h4:focus:before{
+    content: "\2BC6";
+  }*/
   h4 { cursor: pointer; }
 
   p {
     margin-left: 2em;
   }
+ 
 }
 
 /*
