@@ -21,6 +21,7 @@ $(function(){
 
 $(function(){
   $("#mnprx-comparison").twentytwenty({
+    move_slider_on_hover: true, // Move slider on mouse hover?
     before_label: 'Viewport Render', // Set a custom before label
     after_label: 'MNPRX Render', // Set a custom after label
   });
