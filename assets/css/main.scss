@@ -619,7 +619,7 @@ p .btn--aio {
       video {
         position: absolute;
         z-index: -1;
-        opacity: 1;
+        opacity: 0.9;
         height: 100%;
         width: 355vh; // 100 * 1920 / 540
         min-width: 100%;
@@ -631,22 +631,15 @@ p .btn--aio {
       }
     }
   }
-  .mnprx-stylized {
-    background-image: url('/images/MNPRX/stylized-3D.jpg');
-    background-size: cover;
-    background-position: center;
-  }
   .mnprx-art-direction {
     background-image: url('/images/MNPRX/art-direction.jpg');
     background-size: cover;
     background-position: center;
   }
-
   .mnprx-integration {
     background-image: url('/images/MNPRX/integration.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 34em;
   }
   .mnprx-customization {
     background-image: url('/images/MNPRX/customize.jpg');
@@ -656,7 +649,7 @@ p .btn--aio {
 }
 
 // COMPARISONS
-.aio-customization {
+#aio-customization {
   position: relative;
   background-color: #fff;
   margin-top: 2em;
@@ -803,7 +796,7 @@ p .btn--aio {
     margin-top: 1.5em;
     text-align: left;
     li {
-      font-size: 0.6em;
+      font-size: 0.7em;
 
     }
   }

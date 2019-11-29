@@ -52,6 +52,12 @@ sitemap: false
   color: #FFF;
   box-shadow: 0px 2px 9px 0px #000;
   margin-bottom: 2em;
+  a {
+    color: #FFF;
+  }
+  a:hover {
+    color: #FFF;
+  }
 
   .landing-split {
     text-align: center;
@@ -88,9 +94,6 @@ sitemap: false
         position: absolute;
 //        right: 0;  //placed in split-left
 //        left: 0;   //placed in split-right
-        a {
-          color: #FFF;
-        }
         h3 {
           margin-top: 0.5em;
           font-size: 1em;

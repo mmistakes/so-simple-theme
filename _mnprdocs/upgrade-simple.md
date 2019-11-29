@@ -41,7 +41,7 @@ $(function(){
 
 <div class="upgrade-text" markdown="1">
 You are currently using the **non-commercial** version of MNPRX.  
-Purchase the **Indie** or **Studio** version to unlock more features:
+Support us by purchasing the **Indie** or **Studio** version and unlock more features!
 
 <div class="upgrade-background" markdown="1">
 Anti-aliasing - improved quality
