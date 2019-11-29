@@ -560,6 +560,11 @@ p .btn--aio {
       background-color: rgba(255, 255, 255, 0.75);
       border-radius: 10px 10px 0px 0px;
       bottom: 0;
+
+      p {
+        padding-right: 1em;
+        padding-left: 1em;
+      }
     }
 
     h2 {
@@ -601,7 +606,7 @@ p .btn--aio {
     }
     .overview-image-caption {
       position: absolute;
-      bottom: 0;
+      top: 0;
       right: 0;
       color: #fff;
       background-color: #000;
@@ -661,6 +666,10 @@ p .btn--aio {
     box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
     display: flex;
     flex-direction: column;
+
+    h2{
+      margin-top: 0;
+    }
     }
 
     @media (min-width: 900px) {
@@ -692,6 +701,12 @@ p .btn--aio {
   .comparison-img {
     flex: 30%;
     padding: 1em;
+  }
+  .comparison-text {
+    flex: 30%;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
   }
 }
 
@@ -741,10 +756,9 @@ p .btn--aio {
     border-bottom: 1px solid #DDD;
     padding: 25px;
     padding-top: 5em;
-  }
-
-  .pricing-plan:last-child {
-    border-bottom: none;
+    h2 {
+      margin-top: 0;
+    }
   }
 
   @media (min-width: 900px) {
@@ -791,17 +805,16 @@ p .btn--aio {
       margin-right:0.5em;
     }
   }
-
-  .pricing-disclaimer{
-    margin-top: 1.5em;
-    text-align: left;
-    li {
-      font-size: 0.7em;
-
-    }
-  }
 }
 
+
+#pricing-disclaimer {
+  margin-top: 1.5em;
+  text-align: left;
+  li {
+    font-size: 0.7em;
+  }
+}
 
 
 // ABOUT
