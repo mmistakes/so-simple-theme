@@ -30,7 +30,16 @@ Defines the global concentration of pigments placed over a substrate, giving the
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/pigment-density.mp4" type="video/mp4">
 	</video>
-	<figcaption>Pigment Density between 0 and 20.</figcaption>
+	<figcaption>Pigment Density between 0.500 and 2.</figcaption>
+</figure>
+
+### Paper Granulation
+Placeholder
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/WC/paper-granulation.mp4" type="video/mp4">
+	</video>
+	<figcaption>Paper Granulation between 1 and 5.</figcaption>
 </figure>
 
 ### Edge Darkening Intensity
@@ -48,7 +57,7 @@ Defines the global width for the edge darkening effect.
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/edge-width.mp4" type="video/mp4">
 	</video>
-	<figcaption>Edge Darkening Width between 0 and 10.</figcaption>
+	<figcaption>Edge Darkening Width between 0 and 30.</figcaption>
 </figure>
 
 Make sure to also increase the _Edge Darkening Intensity_ attribute with wide edges, as wider edges dilute pigmentation.
@@ -60,7 +69,7 @@ Defines the maximum global width for the bleeding effects.
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/bleeding-radius.mp4" type="video/mp4">
 	</video>
-	<figcaption>Bleeding radius between 0 and 20.</figcaption>
+	<figcaption>Bleeding radius between 1 and 40.</figcaption>
 </figure>
 
 ### Drybrush Threshold
@@ -78,7 +87,7 @@ Defines the maximum global width of the gaps & overlaps effect.
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/gaps-overlaps.mp4" type="video/mp4">
 	</video>
-	<figcaption>Drybrush Threshold between 0 and 5.</figcaption>
+	<figcaption>Drybrush Threshold between 1 and 5.</figcaption>
 </figure>
 
 

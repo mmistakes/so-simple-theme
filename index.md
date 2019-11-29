@@ -12,50 +12,50 @@ search: true
 {: #page-title .pull-center .landing-title}
 
 <div class="full-width landing-banner">
-  <div class="landing-split">
-    <div class="landing-split-section">
-      <div class="landing-split-options split-left">
-        <a href="/software/MNPRX">
+  <a href="/software/MNPRX">
+    <div class="landing-split">
+      <div class="landing-split-section">
+        <div class="landing-split-options split-left">
           <div class="lso-one">
             <img src="/images/MNPRX/MNPRX.jpg"/>
             <h3>Stylized rendering for Autodesk Maya&trade;</h3>
           </div>
-        </a>
+        </div>
+      </div>
+      <div class="landing-split-section-center">
+        <div class="landing-split-options">
+          <p> by </p>
+        </div>
+      </div>
+      <div class="landing-split-section">
+        <div class="landing-split-options options-logo split-right">
+          <img src="/images/logo-flat_white.svg"/>
+          <h5>Artineering</h5>
+        </div>
+  <!--      <h2>Services</h2>
+        <div class="landing-split-options">
+          <a href="/services/seminars">
+            <div>
+              <i class="fas fa-users-class fa-3x"></i>
+              <h3>Seminars</h3>
+            </div>
+          </a>
+          <a href="/services/rnd">
+            <div>
+              <i class="fas fa-laptop-code fa-3x"></i>
+              <h3>RnD</h3>
+            </div>
+          </a>
+          <a href="/services/support">
+            <div>
+              <i class="fas fa-user-headset fa-3x"></i>
+              <h3>Support</h3>
+            </div>
+          </a>
+        </div>   -->
       </div>
     </div>
-    <div class="landing-split-section-center">
-      <div class="landing-split-options">
-        <p> by </p>
-      </div>
-    </div>
-    <div class="landing-split-section">
-      <div class="landing-split-options options-logo split-right">
-        <img src="/images/logo-flat_white.svg"/>
-        <h5>Artineering</h5>
-      </div>
-<!--      <h2>Services</h2>
-      <div class="landing-split-options">
-        <a href="/services/seminars">
-          <div>
-            <i class="fas fa-users-class fa-3x"></i>
-            <h3>Seminars</h3>
-          </div>
-        </a>
-        <a href="/services/rnd">
-          <div>
-            <i class="fas fa-laptop-code fa-3x"></i>
-            <h3>RnD</h3>
-          </div>
-        </a>
-        <a href="/services/support">
-          <div>
-            <i class="fas fa-user-headset fa-3x"></i>
-            <h3>Support</h3>
-          </div>
-        </a>
-      </div>   -->
-    </div>
-  </div>
+  </a>
 </div>
 
 
