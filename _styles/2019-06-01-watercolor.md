@@ -24,6 +24,13 @@ redirect_from:
 
 The Watercolor Stylization brings real-time watercolor rendering of 3D objects and animation directly within _Autodesk Maya_ through [**MNPRX**](../MNPRX).
 
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/WC/showcase.mp4" type="video/mp4">
+	</video>
+	<figcaption>3D Watercolor animation in real-time.</figcaption>
+</figure>
+
 ### Pigment Density
 Defines the global concentration of pigments placed over a substrate, giving the render a more saturated and darker look.
 <figure class="pull-center">
