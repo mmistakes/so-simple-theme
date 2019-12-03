@@ -10,7 +10,7 @@ year: 2015-current
 tags: [MNPR, NPR, stylization, Real-time, Watercolor, Art-directed, Research, Maya, Software]
 image:
   path: images/headers/watercolor.jpg
-  caption: "Henry © Oculus Story Studio"
+  caption: "Montesdeoca et al. - Henry model © Oculus Story Studio"
   card: images/cards/watercolor.jpg
   thumbnail: images/tiles/watercolor.png
 comments: true
@@ -21,8 +21,7 @@ redirect_from:
   - /projects/watercolor/
 ---
 
-
-The Watercolor Stylization brings real-time watercolor rendering of 3D objects and animation directly within _Autodesk Maya_ through [**MNPRX**](../MNPRX).
+The _Watercolor Stylization_ brings real-time watercolor to 3D objects and animation directly within _Autodesk Maya_!
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
@@ -31,17 +30,48 @@ The Watercolor Stylization brings real-time watercolor rendering of 3D objects a
 	<figcaption>3D Watercolor animation in real-time.</figcaption>
 </figure>
 
+The _Watercolor_ style emulates the **traditional watercolor animation** aesthetic, without the usual flickering associated with when showing multiple watercolor paintings in sequence. Based on the award-winning research of Montesdeoca et al. and Bousseau et al., we are continuously improving upon it with new effects and controls.
+
+The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](../MNPRX)** and its **[uber material](/software/MNPRX/docs/uber/)**.
+
+<figure class="pull-center">
+	<a href="../MNPRX"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
+</figure>
+
+---
+
+## Examples
+
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="max-width:450px">
+   <source src="/images/MNPRX/art-direction/spherebot.mp4" type="video/mp4">
+ </video>
+ <figcaption>The Spherebot in a watercolor style, 3D model by Bastien Genbrugge</figcaption>
+</figure>
+
+------------------------
+------------------------
+
+## Style attributes
+
+To refine and customize the watercolor style, a series of global watercolor style attributes are provided within the [style configuration node](/software/MNPRX/docs/config#style-attributes).
+
+<figure class="pull-center">
+ <img src="/images/MNPRX/WC/style-attrs.png" alt="Style attributes"  style="max-width: 600px">
+ <figcaption>Style attributes in the configuration node</figcaption>
+</figure>
+
 ### Pigment Density
-Defines the global concentration of pigments placed over a substrate, giving the render a more saturated and darker look.
+The concentration of pigments, giving the render either a diluted or a more saturated and darker look.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/pigment-density.mp4" type="video/mp4">
 	</video>
-	<figcaption>Pigment Density between 0.500 and 2.</figcaption>
+	<figcaption>Pigment Density between 0.5 and 2.</figcaption>
 </figure>
 
 ### Paper Granulation
-Placeholder
+The accumulation of pigments on the valleys of the paper (substrate). Concentrates the pigments on the valleys and creates a more saturated and darker look.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/paper-granulation.mp4" type="video/mp4">
@@ -49,8 +79,12 @@ Placeholder
 	<figcaption>Paper Granulation between 1 and 5.</figcaption>
 </figure>
 
+### Edge Darkening
+* **Simple** - Simple control over edges defined by the colors and depth.
+* **Advanced** - Advanced control over edges defined by lightness, chromacity and depth. We recommend working with this for more faithful results.
+
 ### Edge Darkening Intensity
-Defines the global strength of the edge darkening effect.
+Strength of the edge darkening effect. A higher intensity will concentrate more color on the edges.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/edge-intensity.mp4" type="video/mp4">
@@ -59,7 +93,7 @@ Defines the global strength of the edge darkening effect.
 </figure>
 
 ### Edge Darkening Width
-Defines the global width for the edge darkening effect.
+Width for the edge darkening effect. A wider edge darkening will require an increase in intensity, as well.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/edge-width.mp4" type="video/mp4">
@@ -67,11 +101,8 @@ Defines the global width for the edge darkening effect.
 	<figcaption>Edge Darkening Width between 0 and 30.</figcaption>
 </figure>
 
-Make sure to also increase the _Edge Darkening Intensity_ attribute with wide edges, as wider edges dilute pigmentation.
-{: .notice--info}
-
 ### Bleeding Radius
-Defines the maximum global width for the bleeding effects.
+Maximum width for the bleeding effect. Pushing this too far might affect performance.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/bleeding-radius.mp4" type="video/mp4">
@@ -80,7 +111,7 @@ Defines the maximum global width for the bleeding effects.
 </figure>
 
 ### Drybrush Threshold
-Defines the global sharpness of the drybrush application.
+Sharpness of the drybrush application.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/drybrush-threshold.mp4" type="video/mp4">
@@ -88,34 +119,20 @@ Defines the global sharpness of the drybrush application.
 	<figcaption>Drybrush Threshold between 0 and 20.</figcaption>
 </figure>
 
+### Drybrush Color
+Color of the drybrush application.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/WC/drybrush-color.mp4" type="video/mp4">
+	</video>
+	<figcaption>Different drybrush colors.</figcaption>
+</figure>
+
 ### Max Gaps Overlaps Width
-Defines the maximum global width of the gaps & overlaps effect.
+Maximum width of the gaps & overlaps effect.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/gaps-overlaps.mp4" type="video/mp4">
 	</video>
-	<figcaption>Drybrush Threshold between 1 and 5.</figcaption>
+	<figcaption>Gaps and overlaps width between 1 and 5.</figcaption>
 </figure>
-
-
-
-It is the first watercolor stylization pipeline of [MNPR](../Maya-NPR) based on algorithms algorithms found in:
-
-* [Art-directed Watercolor Rendered Animation](/articles/Art-directed-Watercolor-Rendered-Animation)
-* [Art-directed Watercolor Stylization of 3D Animations in Real-time](/articles/Art-directed-watercolor-stylization-of-3D-animations-in-real-time)
-* [Edge- and substrate-based effects for watercolor stylization](/articles/Edge-and-substrate-based-effects-for-watercolor-stylization/)
-
-For visual results, please visit the individual publication posts.
-
-The style is included for **[free in MNPR](../Maya-NPR)** and has been further refined in [MNPRX](/software/MNPRX) for different production requirements.
-
-------------------------
-
-## Features
-* Watercolor materials
-* Pigment turbulence
-* Granulation & dry-brush
-* Edge darkening (control over width and intensity)
-* Gaps & Overlaps
-* Substrate distortion
-* Color bleeding (Wet-in-Wet)
