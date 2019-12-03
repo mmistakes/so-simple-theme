@@ -17,7 +17,7 @@ share: true
 schema: SoftwareApplication
 ---
 
-<script>window.location.href = "/software/MNPRX/#aio-customization"</script>
-If you are not redirected automatically, please manually continue [here](https://artineering.io/software/MNPRX/#aio-customization).
+<script>window.location.href = "/software/MNPRX/#customization"</script>
+If you are not redirected automatically, please manually continue [here](https://artineering.io/software/MNPRX/#customization).
 {: .top2}
 
