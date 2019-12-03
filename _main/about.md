@@ -8,11 +8,11 @@ image:
 schema: AboutPage
 ---
 
-Every creative studio or artist currently using 3D applications is being forced to a programmed aesthetic that can’t be easily changed. This has led to many animated productions nowadays, which look extremely similar. It's common to hear the term 'cg-look', and it is a shame that we don't take advantage of the unlimited possibilities that computer graphics has to offer. The more the 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
+It's common to hear the term 'cg-look', and it is unfortunate considering the unlimited possibilities that computer graphics can offer. The more 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
 
-Within stylized rendering, we can't just rely on physics and ray-tracing to produce the desired results. There are countless art-directed choices and individual effects that push the image towards the final vision. The more stylized an image is, the more art-direction is required, which should ideally be made in real-time to encourage the creative flow and exploration.
+We are developing [MNPRX](/software/MNPRX/) and the evolution thereof, while integrating our technology into existing production pipelines and making it as flexible as possible. At the same time, we strongly advocate to real-time art-directed workflows to support and motivate the creative flow and exploration of artists.
 
-We are currently developing [MNPRX](/software/MNPRX/) and the evolution thereof, our own standalone customizable renderer which integrates into existing 3D workflows, but provides intuitive and artist-friendly interfaces to fully customize the style of the 3D rendered imagery. To complement these efforts, our application will offer real-time art-directed toolsets to easily manipulate stylistic aesthetic effects within 3D. We are creating this software in close collaboration with our community and clients, to make sure we make something production proven that our users will love.  
+Still here? Awesome! We craft our software in close collaboration with our community and clients like you, to make sure we make something production proven that everyone will love to use!
 
 Building upon years of research in the field, we are passionate and determined developers, researchers and artists from different corners of the world whose headquarters are currently in Tallinn, Estonia.
 
