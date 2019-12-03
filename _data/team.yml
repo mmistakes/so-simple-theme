@@ -3,7 +3,7 @@ santiago:
   picture: santiago.jpg
   email: santiago@artineering.io
   web: /about/santiago
-  role: "PhD, artist/engineer/researcher"
+  role: "PhD, CEO, Founder"
   linkedin: santiagomontesdeoca
   twitter: notpainted
   github: semontesdeoca
@@ -14,6 +14,31 @@ alexandre:
   picture: alexandre.jpg
   email: alexandre@artineering.io
   web: http://ennis.github.io/about/
-  role: "PhD, engineer/researcher"
+  role: "PhD, Lead Developer"
   linkedin: ableron
   github: ennis
+
+nicholas:
+  name: Nicholas Wardhana
+  picture: member.png
+  email: nicholas@artineering.io
+  web: http://nmwardhana.net/
+  role: "PhD, Senior Developer"
+  linkedin: nmwardhana
+  twitter: nmwardhana
+  github: lambrtz
+
+#antoinette:
+#  name: Antoinette jade
+#  picture: antionette.jpg
+#  email: antoinette@artineering.io
+#  web:
+#  role: "BFA, Marketing and Sales"
+#  linkedin: antoinette-jade-9177a743/
+#  twitter:
+
+roland:
+  name: Roland Kasenurm
+  picture: member.png
+  email: roland@artineering.io
+  role: "Working Student"
