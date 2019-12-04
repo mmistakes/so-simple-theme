@@ -18,3 +18,10 @@ $(function(){
     after_label: 'TAA Quality', // Set a custom after label
   });
 });
+
+$(function(){
+  $("#mnprx-comparison").twentytwenty({
+    move_slider_on_hover: true, // Move slider on mouse hover
+    no_overlay: true, //Do not show the overlay with before and after
+  });
+});
