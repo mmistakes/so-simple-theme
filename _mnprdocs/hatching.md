@@ -54,12 +54,12 @@ Length of the hatching lines. If set to zero, produces a stippling effect.
 </figure>
 
 ### Width
-Average width (thickness) of the hatching lines in pixels. A width of zero is invisible.
+Average relative width (thickness) of the hatching lines, from 0 (invisible) to 1 (maximum thickness). 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/HG/width.mp4" type="video/mp4">
 	</video>
-	<figcaption>Varying width between 0 and 6</figcaption>
+	<figcaption>Varying width between 0 and 0.5</figcaption>
 </figure>
 
 ### Gradient

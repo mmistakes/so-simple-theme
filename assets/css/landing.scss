@@ -62,9 +62,12 @@ sitemap: false
   .landing-split {
     text-align: center;
     display: flex;
-    margin-left: 5em;
+    margin-left: 2.5em;
     width: 100%;
     opacity: 0.5;
+    @include breakpoint($medium) {
+      margin-left: 5em;
+    }
     &:hover {
       opacity: 1.0;
       transition: $global-transition;

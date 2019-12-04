@@ -48,10 +48,10 @@ The _Watercolor_ style emulates the **traditional watercolor animation** aesthet
 * Use proxies to **control the style with invisible objects**
 * The stylization is also **available in Nuke** for Indie/Studio subscribers to add the watercolor style to offline renders (i.e., Arnold, Renderman)
 
-The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](../MNPRX)** and its **[uber material](/software/MNPRX/docs/uber/)**.
+The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](/software/MNPRX/)** and its **[uber material](/software/MNPRX/docs/uber/)**.
 
 <figure class="align-center">
-	<a href="../MNPRX"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
+	<a href="/software/MNPRX/#getit"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
 </figure>
 ---
 

@@ -38,7 +38,7 @@ Artineering offers professional training for companies and institutions
 ### Feedback
 Help us make our software better!
 * [Report a bug](https://github.com/artineering-io/MNPRX/issues)
-* [Request a Feature]((https://github.com/artineering-io/MNPRX/issues))
+* [Request a Feature](https://github.com/artineering-io/MNPRX/issues)
 </div>
 
 

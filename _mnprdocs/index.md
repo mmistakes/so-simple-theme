@@ -30,7 +30,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Basics
-### [MNPRX Shelf](shelf) {% include aio-new.html %}
+### [MNPRX Shelf](shelf)
 ### [Art-direction](art-direction)
 ### [Rendering](rendering)
 </div>
@@ -46,7 +46,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ## Materials
 ### [Uber Material](uber)
 ### [Proxies](proxy)
-### [Material Presets](material-presets) {% include aio-new.html %}
+### [Material Presets](material-presets)
 </div>
 
 <div class="doc-element" markdown="1">

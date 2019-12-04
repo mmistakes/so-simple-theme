@@ -4,7 +4,6 @@ title: Styles
 excerpt: Library of artineering styles
 entries_layout: grid
 sort_by: date
-sort_order: reverse
 schema:
 ---
 We have developed some truly unique 3D styles that can be used right away with MNPRX!

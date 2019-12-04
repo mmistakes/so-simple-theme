@@ -15,7 +15,11 @@ redirect_from:
 	<figcaption>The MNPRX shelf with its three segments: Art-direction, Lighting/Testing and Rendering.</figcaption>
 </figure>
 
-The _MNPRX shelf_ contains all tools required to work with MNPRX, separated into three segments: Art-direction, Lighting/Testing and Rendering. While most users will find themselves working with the first segment, it's important to understand what the remaining two segments are for.
+The _MNPRX shelf_ contains all tools required to work with MNPRX, separated into three segments: 
+* Art-direction
+* Lighting/Testing
+* Rendering.
+While most users will find themselves working with the first segment, it's important to understand what the remaining two segments are for.
 
 ## Art-direction
 The art-direction tools can be found in the left side of the shelf, ordered from highest to lowest level of control. These consist of:
@@ -33,8 +37,8 @@ The art-direction tools can be found in the left side of the shelf, ordered from
 
 ## Lighting/Testing
 The lighting and testing tools allow to easily create the supported lights within MNPRX and to troubleshoot if things are not looking quite right.
-1. {% include aio-new.html %} **Supported lights** - shelf icons for the four different supported lights: ambient, directional, point (no shadow maps) and spot light.
-1. **pass** - opens the _Operations breakdown_ window, which lets you toggle on/off each stylization pass and troubleshoot the inner workings of the stylization itself [[docs](../op-breakdown)].
+1. **Supported lights** - shelf icons for the four different supported lights: ambient, directional, point (no shadow maps) and spot light.
+1. **pass** - opens the _Pass Inspector_, which lets you toggle on/off each stylization pass and troubleshoot the inner workings of the stylization itself.
 1. **test** - creates a simple default test scene with default lighting.
 
 
@@ -42,6 +46,6 @@ The lighting and testing tools allow to easily create the supported lights withi
 1. **tbox** - opens the _MNPRX Toolbox_ window, containing handy tools to work with MNPRX in production [[docs](../toolbox)].
 1. **rendr** - opens up the viewport renderer, which quickly allows to save screenshots or playblasts [[docs](../rendering#rendr)].
 1. **tSeq** - opens up the target sequence renderer, which allows to render all different passes for production [[docs](../rendering#tSeq)].
-1. **FEEDBACK** - opens the browser with the [MNPRX community](https://community.artineering.io/topics).
+1. **supp.** - opens the browser straight to [support on this webpage](/support/).
 
 {% include toc-side %}
