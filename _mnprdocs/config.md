@@ -26,9 +26,11 @@ Engine attributes remain the same across stylizations and contain attributes dir
 
 ### Style
 Defines the style that MNPRX is currently running in.
-* _Watercolor_ - The classic watercolor stylization that MNPRX is known for
-* _Viewport+_ - A viewport override with all the advantages of MNPRX
-* _Cutout_ - Cutout stylization within MNPRX
+* *Viewport+* - A viewport override with all the advantages of MNPRX
+* [*Watercolor*](/styles/watercolor/) - The classic watercolor stylization that MNPRX is known for
+* [*Cutout*](/styles/cutout/) - Cutout stylization within MNPRX
+* [*Hatching*](/styles/hatching/) - Hatching and stippling stylization within MNPRX
+* [*Frayed*](/styles/frayed/) - Frayed edges stylization within MNPRX 
 
 The more MNPRX matures, the more styles it will support!
 
@@ -40,8 +42,9 @@ Defines the quality of the viewport rendering.
 * _4x SSAA_ - Render at 4 times the normal resolution, to later bring it back to the normal resolution with _Super Sampling Anti-Aliasing_. You have much more detail and less jaggies (staircase effect).
 * _TAA_ - Renders many images at normal resolution with _Temporal Anti-Aliasing_ to perform progressive, super-sampled results. You will have more detail and **NO** jaggies (staircase effect). Enabling TAA will also show a _TAA Samples_ attribute directly underneath. Within this attribute, you can define the amount of image samples that the _TAA_ quality uses to create the final result.
 
-Anti-aliasing makes edges appear smoother and less pixelated, you can find more about what aliasing is [here](https://www.youtube.com/watch?v=hqi0114mwtY)
-<figure class="pull-center half">
+Anti-aliasing makes edges appear smoother and less pixelated, you can find more about what aliasing is [here](https://www.youtube.com/watch?v=hqi0114mwtY).
+
+<figure class="pull-center half" style="max-width:700px">
 	<img src="/images/MNPRX/AA1.png" alt="Close-up without antialiasing" style="max-width: 150px">
 	<img src="/images/MNPRX/AA2.png" alt="Close-up with antialiasing" style="max-width: 150px">
 	<figcaption>Close-up of image at Standard quality and with FXAA quality.</figcaption>
@@ -97,7 +100,7 @@ Defines how the computed ambient occlusion term is applied on the final image.
 * _Multiply_: the AO term is multiplied over the image after substrate effects and before the final post-processing steps.
 * _Color Burn_: same as above, except that the AO term is blended over the image using the _Color Burn_ blending mode.
 * _Style-specific_: AO is applied by the current style. The effect depends on the currently selected style.
-	* With the _Watercolor_ style, the AO term modulates the _pigment density_, resulting in darker colors in occluded areas.
+	* With the _Watercolor_ and _Frayed_ style, the AO term modulates the _pigment density_, resulting in darker colors in occluded areas.
 	* In _Viewport+_ mode, this option has no effect: choose one of the other options.  
 
 ### AO Radius
@@ -110,69 +113,12 @@ Defines the strength of ambient occlusion: higher values make the ambient occlus
 
 
 ## Style Attributes
-Style attributes contain the attributes of the currently loaded stylization, in the case of the figure above: watercolor. These attributes allow to globally tweak the stylization parameters.
+Style attributes contain the attributes of the currently loaded stylization, in the case of the figure above: watercolor. These attributes allow to globally tweak the stylization parameters and are documented for each style.
 
-### Pigment Density
-Defines the global concentration of pigments placed over a substrate, giving the render a more saturated and darker look.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/pigment-density.mp4" type="video/mp4">
-	</video>
-	<figcaption>Pigment Density between 0 and 20.</figcaption>
-</figure>
-
-### Edge Darkening Intensity
-Defines the global strength of the edge darkening effect.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/edge-intensity.mp4" type="video/mp4">
-	</video>
-	<figcaption>Edge Darkening Intensity between 0 and 3.</figcaption>
-</figure>
-
-### Edge Darkening Width
-Defines the global width for the edge darkening effect.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/edge-width.mp4" type="video/mp4">
-	</video>
-	<figcaption>Edge Darkening Width between 0 and 10.</figcaption>
-</figure>
-
-Make sure to also increase the _Edge Darkening Intensity_ attribute with wide edges, as wider edges dilute pigmentation.
-{: .notice--info}
-
-### Bleeding Radius
-Defines the maximum global width for the bleeding effects.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/bleeding-radius.mp4" type="video/mp4">
-	</video>
-	<figcaption>Bleeding radius between 0 and 20.</figcaption>
-</figure>
-
-### Drybrush Threshold
-Defines the global sharpness of the drybrush application.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/drybrush-threshold.mp4" type="video/mp4">
-	</video>
-	<figcaption>Drybrush Threshold between 0 and 20.</figcaption>
-</figure>
-
-### Max Gaps Overlaps Width
-Defines the maximum global width of the gaps & overlaps effect.
-<figure class="pull-center">
-	<video autoplay loop muted playsinline>
-	  <source src="/images/MNPRX/WC/gaps-overlaps.mp4" type="video/mp4">
-	</video>
-	<figcaption>Drybrush Threshold between 0 and 5.</figcaption>
-</figure>
-
------------
-
-## Cutout
-See [Cutout style](../cutout).
+* [Watercolor](/styles/watercolor/#style-attributes) 
+* [Cutout](/styles/cutout/#style-attributes) 
+* [Hatching](/styles/hatching/#style-attributes) 
+* [Frayed](/styles/frayed/#style-attributes) 
 
 -----------
 

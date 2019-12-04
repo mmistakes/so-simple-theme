@@ -13,12 +13,15 @@ redirect_from:
 _NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at the material level of control. The tool can be opened by clicking on the **nFX** shelf icon and shares the same window with [_PaintFX_](../paintfx).
 {: .top2}
 
-<figure class="pull-right" style="margin-top:-1em;">
+<figure class="pull-right" style="margin-top:-1em; margin-bottom:0em">
 	<img src="/images/MNPRX/FX/noiseFX.png" alt="NoiseFX tool window"  style="max-width: 300px">
 	<figcaption>NoiseFX of the watercolor stylization.</figcaption>
 </figure>
 
-Each _MNPRX_ material ([uber](../uber) and [proxy](../proxy)) supports _NoiseFX_, but the effects driven by _NoiseFX_ depend on the loaded style. To use _NoiseFX_ select an object with an _MNPRX_ material and modify the desired slider.
+Each _MNPRX_ material supports _NoiseFX_, but the effects driven by _NoiseFX_ depend on the loaded style. To use _NoiseFX_ select an object with an _MNPRX_ material and modify the desired slider.
+
+## World Scale
+NoiseFX are automatically bound to the scene _World Scale_ attribute set in the [Configuration Node](../config). So make sure to set the world scale accordingly first, before adding NoiseFX.
 
 ## Noise Widgets
 Each style has different effects, therefore, the noise widgets (sections) will vary depending on the currently loaded stylization. Each widget (section) handles a specific effect/behaviour within the style e.g., _Lighting_, _Pigment turbulence_, _Color bleeding_.
@@ -35,7 +38,8 @@ This button will toggle the _NoiseFX_ on/off to visualize the difference that th
 	<img src="/images/MNPRX/FX/3D2D.png" alt="Noise type"  style="max-height: 32px">
 </figure>
 
-This button will toggle between 3D noise and 2D noise for the material. 3D noise is excellent for static objects, but for moving/animated objects, 2D noise is recommended, for now.
+This button will toggle between 3D noise and 2D noise for the material.  
+**Deprecated**: Only use 3D noise, and use the **Bake 3D** button to the top right to attach the 3D noise to animated objects.
 
 ## Modifying Noise
 Modifying noise is quite simple, simply select the object with the material that you wish to modify and use one of the three relative sliders.
@@ -61,9 +65,6 @@ The relative sliders activate and modify procedural attributes on each material,
 
 If you wish to reset all of these values and the _NoiseFX_ attributed to it, click on the icon at the top-right of the desired widget within the _NoiseFX_ window.
 
-
-## World Scale
-If you wish to change the scale of all effects at the same time, you can use the _World Scale_ slider at the bottom of the _NoiseFX_ tool window. This may come in handy when assets change dimensions during production. For an exact numerical value, modify the slider and change it to the desired value within the procedural attributes of the _MNPRX_ material.
 
 ## Showcase
 
