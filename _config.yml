@@ -122,6 +122,9 @@ footer_links:
   - title: Twitter
     url: https://twitter.com/artineering
     icon: fab fa-twitter-square
+  - title: Instagram
+    url: https://www.instagram.com/artineering.io/
+    icon: fab fa-instagram
   - title: Facebook
     url: https://www.facebook.com/artineering/
     icon: fab fa-facebook-square
