@@ -39,7 +39,7 @@ The _Watercolor_ style emulates the **traditional watercolor animation** aesthet
  <figcaption>The Spherebot in a watercolor style, 3D model by Bastien Genbrugge</figcaption>
 </figure>
 
-### Main Features:
+### Main Features
 * Pigment-based effects such as **pigment turbulence and bleeding**
 * Edge-based effects such as **edge darkening and gaps & overlaps**
 * Substrate-based effects such as **paper granulation and distortion**
@@ -69,7 +69,7 @@ The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each
 
 ## Style attributes
 
-To refine and customize the watercolor style, a series of global watercolor style attributes are provided within the [style configuration node](/software/MNPRX/docs/config#style-attributes).
+To refine and customize the watercolor style, a series of global watercolor attributes are provided within the [style configuration node](/software/MNPRX/docs/config#style-attributes).
 
 <figure class="pull-center">
  <img src="/images/MNPRX/WC/style-attrs.png" alt="Style attributes"  style="max-width: 600px">
@@ -91,7 +91,7 @@ The accumulation of pigments on the valleys of the paper (substrate). Concentrat
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/paper-granulation.mp4" type="video/mp4">
 	</video>
-	<figcaption>Paper Granulation between 1 and 5.</figcaption>
+	<figcaption>Paper Granulation between -1 and 5.</figcaption>
 </figure>
 
 ---
@@ -110,7 +110,7 @@ Strength of the edge darkening effect. A higher intensity will concentrate more 
 </figure>
 
 ### Edge Darkening Width
-Width for the edge darkening effect. A wider edge darkening will require an increase in intensity, as well.
+Width for the edge darkening effect. Note: A wider edge darkening will require an increase in intensity, as well.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/edge-width.mp4" type="video/mp4">
