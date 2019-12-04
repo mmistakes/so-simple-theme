@@ -39,10 +39,14 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 </div>
 
 
-</div>
+</div><!-- end accordion -->
 
+<!-- accordion widget documentation: https://api.jqueryui.com/accordion/-->
 <script> $( "#accordion" ).accordion({
    collapsible: true,
-   animate: 100
+   animate: 100,
+   heightStyle: "content"
    });
 </script>
+
+

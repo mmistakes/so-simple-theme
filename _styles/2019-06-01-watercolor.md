@@ -21,7 +21,7 @@ redirect_from:
   - /projects/watercolor/
 ---
 
-The _Watercolor Stylization_ brings real-time watercolor to 3D objects and animation directly within _Autodesk Maya_!
+The _Watercolor Stylization_ brings real-time watercolor to 3D objects and animation within _Autodesk Maya_!
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
@@ -32,22 +32,37 @@ The _Watercolor Stylization_ brings real-time watercolor to 3D objects and anima
 
 The _Watercolor_ style emulates the **traditional watercolor animation** aesthetic, without the usual flickering associated with when showing multiple watercolor paintings in sequence. Based on the award-winning research of Montesdeoca et al. and Bousseau et al., we are continuously improving upon it with new effects and controls.
 
-The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](../MNPRX)** and its **[uber material](/software/MNPRX/docs/uber/)**.
-
-<figure class="pull-center">
-	<a href="../MNPRX"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
-</figure>
-
----
-
-### Featured examples
-
-<figure class="pull-center">
- <video autoplay loop muted playsinline style="max-width:450px">
+<figure class="pull-right bottom-2">
+ <video autoplay loop muted playsinline style="max-width:300px">
    <source src="/images/MNPRX/art-direction/spherebot.mp4" type="video/mp4">
  </video>
  <figcaption>The Spherebot in a watercolor style, 3D model by Bastien Genbrugge</figcaption>
 </figure>
+
+### Main Features:
+* Pigment-based effects such as **pigment turbulence and bleeding**
+* Edge-based effects such as **edge darkening and gaps & overlaps**
+* Substrate-based effects such as **paper granulation and distortion**
+* Substrate can be attached to the underlying motion
+* Use PaintFX and NoiseFX to **attach effects** onto the animation
+* Use proxies to **control the style with invisible objects**
+* The stylization is also **available in Nuke** for Indie/Studio subscribers to add the watercolor style to offline renders (i.e., Arnold, Renderman)
+
+The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](../MNPRX)** and its **[uber material](/software/MNPRX/docs/uber/)**.
+
+<div>
+<figure class="align-center">
+	<a href="../MNPRX"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
+</figure>
+</div>
+---
+
+### Featured examples
+
+<!-- add a flex box to this where three videos fit in a row on a desktop and it reduces to one on mobile -->
+<div class="flex-third">
+{% include responsive-embed url="https://player.vimeo.com/video/370400489" ratio="16:9" %}
+</div>
 
 ------------------------
 ------------------------
