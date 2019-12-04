@@ -1184,28 +1184,28 @@ p .btn--aio {
    FAQ - Accordion
    ========================================================================== */
 
-#accordion {
-  padding-top: 1.5em;
-  *:focus {
-    outline: 0;
-    border: none;
-  }
-  h4 {
-    font-size: 1.25em;
-    border: none;
-    background: none;
-  }
-  p {
-    border: none;
-    padding: 0em 2.2em;
-    a {
-      color: #7555d8;
+   #accordion {
+    padding-top: 1.5em;
+    *:focus {
+      outline: 0;
+      border: none;
+    }
+    h4 {
+      font-size: 1.25em;
+      border: none;
+      background: none;
+    }
+    p {
+      border: none;
+      padding: 0em 2.2em;
+      a {
+        color: $accent-color;
+      }
+    }
+    div {
+      border: none;
     }
   }
-  div {
-    border: none;
-  }
-}
 
 /*
    Upgrade-Simple

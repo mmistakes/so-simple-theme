@@ -11,7 +11,6 @@ schema:
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<!-- https://api.jqueryui.com/accordion/#option-active -->
 
 <div id="accordion" class="top2" markdown="1">
 
@@ -43,5 +42,7 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 </div>
 
 <script> $( "#accordion" ).accordion({
-   collapsible: true });
+   collapsible: true,
+   animate: 100
+   });
 </script>
