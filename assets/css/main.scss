@@ -69,7 +69,7 @@ img {
 .site-nav {
   font-size: 1em;
   ul {
-    height: 2.3em;
+    min-height: 2.3em;
     border-radius: 0;
     padding: 0.3em 1em 0.5em;
     font-size: 1.25em;
@@ -79,6 +79,11 @@ img {
     .navigation-logo svg {
       height: 2em;
       margin-top: -0.2em;
+      fill: #CCC;
+      &:hover {
+        transition: all 0.4s ease;
+        fill: #FFF;
+      }
     }
     @include breakpoint($medium) {
       border-radius: 0 0 0.3em 0.3em;
@@ -97,14 +102,6 @@ img {
           padding-right: 0.5em;
           position: relative;
           top: 0.3em;
-          svg {
-            fill: #CCC;
-            &:hover {
-              transition: all 0.4s ease;
-              fill: #FFF;
-            }
-            //margin-top: -0.2em;
-          }
         }
       }
       & > :last-child a {
@@ -147,17 +144,17 @@ img {
     a {
       display: block;
       line-height: 1.2em;
-      font-weight: 400;
     }
     font-family: "Nanum Brush Script";
     margin-top: 0em;
     font-size: 2.1em;
+    font-weight: 400;
   }
   .site-logo-img {
     margin-top: 4em;
-    margin-bottom: 1em;
-    max-width: 3em;
-    max-height: 3em;
+    margin-bottom: 0em;
+    max-width: 5em;
+    max-height: 5em;
     border: 0px;
   }
   .site-description {
