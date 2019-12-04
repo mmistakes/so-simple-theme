@@ -40,7 +40,7 @@ The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each
 
 ---
 
-## Examples
+### Featured examples
 
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="max-width:450px">
@@ -79,6 +79,8 @@ The accumulation of pigments on the valleys of the paper (substrate). Concentrat
 	<figcaption>Paper Granulation between 1 and 5.</figcaption>
 </figure>
 
+---
+
 ### Edge Darkening
 * **Simple** - Simple control over edges defined by the colors and depth.
 * **Advanced** - Advanced control over edges defined by lightness, chromacity and depth. We recommend working with this for more faithful results.
@@ -100,6 +102,8 @@ Width for the edge darkening effect. A wider edge darkening will require an incr
 	</video>
 	<figcaption>Edge Darkening Width between 0 and 30.</figcaption>
 </figure>
+
+---
 
 ### Bleeding Radius
 Maximum width for the bleeding effect. Pushing this too far might affect performance.

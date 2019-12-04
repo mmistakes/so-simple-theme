@@ -30,6 +30,16 @@ For commercial use, the MNPRX Indie Version (for private individuals and teams/s
 #### Can I transfer a license to another computer?
 Yes, this is possible but only if the software on the previous PC has been inactive for at least 24h. Read more about it <a href="/docs/licensing/#license-migration">here</a>.
 
+#### Can I change back to the normal viewport?
+<div markdown="1">
+<figure class="pull-right">
+	<img src="/images/faq/change-renderer.png" alt="Changing renderer in the viewport">
+	<figcaption>All viewport renderers are listed here.</figcaption>
+</figure>
+Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
+</div>
+
+
 </div>
 
 <script> $( "#accordion" ).accordion({
