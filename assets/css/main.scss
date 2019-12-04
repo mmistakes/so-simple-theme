@@ -1014,18 +1014,20 @@ p .btn--aio {
 }
 
 .flex-third {
-  width:100%;
   display: flex;
-  align-items: center;
   flex-flow: row wrap;
-
-  .responsive-embed {
-    max-width: 33%;
+  justify-content: center;
+  figure {
+    width: 100%;
     min-width: 300px;
-  }
-  
-  figcaption {
-    text-align: center;
+    padding: 0 0.5em;
+    margin: 0;
+    @include breakpoint($medium) {
+      width: 33%;
+    }
+    figcaption {
+      text-align: center;
+    }
   }
 }
 
