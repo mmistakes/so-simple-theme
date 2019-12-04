@@ -50,11 +50,9 @@ The _Watercolor_ style emulates the **traditional watercolor animation** aesthet
 
 The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each level of control with **[MNPRX](../MNPRX)** and its **[uber material](/software/MNPRX/docs/uber/)**.
 
-<div>
 <figure class="align-center">
 	<a href="../MNPRX"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
 </figure>
-</div>
 ---
 
 ### Featured examples
