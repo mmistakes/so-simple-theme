@@ -1016,6 +1016,22 @@ p .btn--aio {
     padding: 0;
 }
 
+.flex-third {
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+
+  .responsive-embed {
+    max-width: 33%;
+    min-width: 300px;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+}
+
 .flex-grid {
   display: flex;
   flex-flow: row wrap;

@@ -58,10 +58,23 @@ The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each
 ### Featured examples
 
 <!-- add a responsive flex box to this where three videos fit in a row on a desktop and it reduces to one on mobile, ideally, a small description should be underneath each video -->
-<div class="flex-third">
-{% include responsive-embed url="https://player.vimeo.com/video/370400489?autoplay=0&loop=1" ratio="16:9" %}
+<div class="flex-third" >
+
+<figure>
+{% include responsive-embed url="https://player.vimeo.com/video/370400489?autoplay=0&loop=1&title=0" ratio="16:9" %}
+ <figcaption>Style attributes in the configuration node</figcaption>
+</figure>
+
+<figure>
 {% include responsive-embed url="https://www.youtube.com/embed/mZQoIKaKuLA?rel=0" ratio="16:9" %}
-{% include responsive-embed url="https://player.vimeo.com/video/274818189?autoplay=0&loop=1" ratio="16:9" %}
+ <figcaption>Style attributes in the configuration node</figcaption>
+</figure>
+
+<figure>
+{% include responsive-embed url="https://player.vimeo.com/video/274818189?autoplay=0&loop=1&title=0" ratio="16:9" %}
+ <figcaption>Style attributes in the configuration node</figcaption>
+</figure>
+
 </div>
 
 ------------------------
