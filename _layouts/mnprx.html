@@ -4,12 +4,14 @@ layout: default
 <main id="main" class="main-content" aria-label="Content">
   <article>
 
-    <div id="mnprx-comparison" class="page-image twentytwenty-container" style="margin: 0 auto; width: 100%;">
-      <!-- The before image is first -->
-      <img src="/{{ page.image.path1 }}" class="entry-feature-image u-photo"/>
-      <!-- The after image is last -->
-      <img src="/{{ page.image.path2 }}" class="entry-feature-image u-photo"/>
-    </div>
+    <figure>
+        <div id="mnprx-comparison" class="page-image twentytwenty-container">
+         <!-- The before image is first -->
+         <img src="/{{ page.image.path1 }}" class="entry-feature-image u-photo"/>
+         <!-- The after image is last -->
+         <img src="/{{ page.image.path2 }}" class="entry-feature-image u-photo"/>
+        </div>
+    </figure>
 
     <div class="page-wrapper">
       <header class="page-header">
