@@ -1268,6 +1268,34 @@ p .btn--aio {
 
 
 /*
+   Stay up to date Button
+   ==========================================================================*/
+
+
+.navigation-uptodate {
+  font-size: 1em;
+  padding: 0.3em 1em 0.5em;
+  position: fixed;
+  bottom: 1em;
+  right: 0;
+  margin: 0;
+  z-index: 100;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 0.3em 0 0 0.3em;
+  a {
+    color: #CCC;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-family: $sans-serif-font-family2;
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+
+/*
    Old Comparison Slider
    ==========================================================================
 
