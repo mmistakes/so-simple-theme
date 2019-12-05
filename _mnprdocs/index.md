@@ -17,7 +17,15 @@ redirect_from:
   - /projects/MNPRX/docs/
 ---
 
-As MNPRX continues to grow, it has become indispensable to document all its functions. To keep up to date with its changes, make sure to also check out the [release log](./../release-log).
+As MNPRX continues to grow, it has become indispensable to document all its functions. 
+{: .pull-center}
+
+<figure class="pull-center">
+	<a href="/software/MNPRX/release-log"><img src="/images/buttons/mnprx_releaseLog.jpg" alt="Release Log"></a>
+  <figcaption>Keep track of what changes with each release!</figcaption>
+</figure>
+
+---
 
 <div class="entries-grid">
 
