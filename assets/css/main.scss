@@ -694,17 +694,15 @@ p .btn--aio {
 .license-comparison {
   display: flex;
   align-items: center;
-  padding-left: 2em;
-  padding-right: 2em;
 
   .comparison-img {
     flex: 30%;
-    padding: 1em;
+    padding: 0.5em;
   }
   .comparison-text {
     flex: 30%;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
     text-align: center;
   }
 }
@@ -807,12 +805,28 @@ p .btn--aio {
   }
 }
 
+// requirements
+.aio-requirements {
+    ul {
+      padding-left: 1.5em;
+    }
+    ol {
+      padding-left: 1.5em;
+    }
+}
 
-#pricing-disclaimer {
+// footprint
+#footprint {
   margin-top: 1.5em;
   text-align: left;
   li {
     font-size: 0.7em;
+  }
+  ul {
+    padding-left: 1.5em;
+  }
+  ol {
+    padding-left: 1.5em;
   }
 }
 

@@ -23,5 +23,6 @@ $(function(){
   $("#mnprx-comparison").twentytwenty({
     move_slider_on_hover: true, // Move slider on mouse hover
     no_overlay: true, //Do not show the overlay with before and after
+    default_offset_pct: 0.6, // How much of the before image is visible when the page loads
   });
 });
