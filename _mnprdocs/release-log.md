@@ -10,6 +10,9 @@ image:
   card: images/cards/MNPRX.jpg
   thumbnail:
 schema:
+redirect_from:
+  - /projects/MNPRX/release-log/
+
 ---
 
 <figure class="pull-center">
