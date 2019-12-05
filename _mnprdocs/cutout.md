@@ -8,6 +8,7 @@ comments: true
 schema:
 redirect_from:
   - /projects/MNPRX/docs/cutout/
+  - /projects/cutout/
 ---
 
 ## Cutout
