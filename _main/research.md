@@ -1,6 +1,6 @@
 ---
 layout: about-page
-title: Publications
+title: Research
 excerpt: Artineering Publications
 image:
   path: images/about/winter.jpg
@@ -9,21 +9,9 @@ entries_layout: list
 sort_by: date
 sort_order: reverse
 schema: ContactPoint
+redirect_from:
+  - /publications/
 ---
-## Press
-{: .pull-center .top1}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {%- for entry in site.data.press -%}
-    {% include entry.html collection='press' %}
-  {%- endfor -%}
-</div>
-
----
-{: .top2}
-
-## Research
-{: .pull-center}
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% include documents-collection.html collection='publications' sort_by=page.sort_by sort_order=page.sort_order %}

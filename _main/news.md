@@ -7,8 +7,19 @@ image:
   caption: Photo of Tallinn by Jaanus Jagomägi
 schema: ContactPoint
 ---
+## Press
+{: .pull-center .top1}
 
-<div class="twitter-follow pull-center">
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {%- for entry in site.data.press -%}
+    {% include entry.html collection='press' %}
+  {%- endfor -%}
+</div>
+
+---
+{: .top2}
+
+<div class="twitter-follow pull-center top2">
 <a href="https://twitter.com/artineering?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-align="right" data-show-count="true">Follow @artineering</a>
 </div>
 

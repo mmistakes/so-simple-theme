@@ -22,6 +22,7 @@ redirect_from:
 ---
 
 The _Watercolor Stylization_ brings real-time watercolor to 3D objects and animation within _Autodesk Maya_!
+{: .pull-center}
 
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
