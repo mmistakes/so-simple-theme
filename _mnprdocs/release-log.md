@@ -16,7 +16,7 @@ redirect_from:
 ---
 
 <figure class="pull-center">
-	<a href="/software/MNPRX/"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
+	<a href="/software/MNPRX/#getit"><img src="/images/buttons/mnprx_getIt.jpg" alt="image"></a>
   <a href="./docs"><img src="/images/buttons/mnprx_documentation.jpg" alt="image"></a>
   <figcaption>As an MNPRX user, you will automatically get the latest version of MNPRX upon release!</figcaption>
 </figure>
@@ -24,26 +24,24 @@ redirect_from:
 
 ---
 
-## November 2019 UPDATE
-The November 2019 update has taken a long time to come out, but we hope to make the wait worth it! 
+## December 2019 UPDATE
+The December 2019 update has taken a long time to come out, but we hope to make the wait worth it! 
 
-We have worked hard with one of our clients to develop a _Frayed_ style, which is inspired by the look of short films like _Feast_ and _Age of Sail_. We are including the style with this release, pushing MNPRX further than ever before!
+We have worked hard with one of our clients to develop a [_Frayed_](/styles/frayed/) style, which is inspired by the look of short films like _Feast_ and _Age of Sail_. We are including the style with this release, pushing MNPRX further than ever before!
 
-While doing so, we revamped the way PaintFX are handled to make scenes lighter, developed a way to bake NoiseFX onto animated objects and made NoiseFX more intuitive to use at different scene world scales.
+While doing so, we revamped the way [_PaintFX_](/software/MNPRX/docs/paintfx/) are handled to make scenes lighter, developed a way to bake NoiseFX onto animated objects and made [_NoiseFX_](/software/MNPRX/docs/noisefx/) more intuitive to use at different scene world scales.
 
 On our existing styles, we've made improvements to the dry-brush effect in the watercolor stylization and on stabilizing the line/point patterns in the hatching stylization under animation. 
 
-We've also tried to address most issues that some of you have been having, so thank you for sharing your valuable feedback with us!
-
-We will focus on creating tutorials on all these new features in the coming weeks, in the meantime, please read below for all the changes that have been made.
+We've also tried to address most issues that some of you have been having, so thank you for sharing your valuable feedback with us! We will focus on creating tutorials on all these new features in the coming weeks.
 
 **Upgrading notes**:  
-**_Materials_** - Make sure to also [update the materials in the scene](/projects/MNPRX/docs/update/#materials) to take advantage of the latest features with the PaintFX and NoiseFX tools.
+**_Materials_** - Make sure to also [update the materials in the scene](/software/MNPRX/docs/update/#materials) to take advantage of the latest features with the PaintFX and NoiseFX tools and to use the import/export stylization tool in the future.
 {: .notice--info}
 
-[**Frayed Stylization**](/projects/hatching/)
+### Frayed Stylization
 
-_New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our _Frayed Stylization_ brings real-time rendering with frayed edges directly within _Autodesk Maya_. Find out more [**here**](/projects/frayed/).
+_New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our _Frayed Stylization_ brings real-time rendering with frayed edges directly within _Autodesk Maya_. Find out more [**here**](/styles/frayed/).
 {: .top-1}
 
 <figure class="pull-center">
@@ -56,20 +54,17 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 
 ### MNPRX
 **Viewport rendering**
+* _Improved_ - Performance with VelocityPV enabled has been drastically improved
 * _Fixed_ - Automatically disable MSAA to avoid wrong output within the viewport
-
-<!--
-**MNPRX Materials**
-* _Fixed_ - Using alpha masks within transparency will not break the object sorting given by Maya anymore.
-{: .top-1}-->
+* _Fixed_ - The substrate doesn't sometimes dissapear anymore when the resolution changes
 
 **Watercolor**
-* _New_ - Improved upon the dry-brush effect and added a custom dry-brush color
+* _New_ - Added a custom dry-brush color and improved upon the dry-brush effect
 * _Fixed_ - Bleeding now appears automatically when new scenes are created or opened
 {: .top-1}
 
 **Hatching**
-* _New_ - Hatching and stippling can now be baked onto objects by enabling the deformed setting within the hatching materials.
+* _New_ - Hatching and stippling patterns can now be baked onto objects by enabling the deformed setting within the hatching materials.
 
 **Installation**
 * _Fixed_ - Installation will automatically delete MNPRX shelves that might have saved themselves locally though Maya's preferences.
@@ -83,6 +78,11 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 **NoiseFX**  
 * _New_ - Baking of _NoiseFX_ now allows you to bake the current 3D noise pattern so that it works with animation and deformed objects. NoiseFX with 2D noise is thereby deprecated.
 * _New_ - World scale of NoiseFX is now directly linked to the world scale of the scene (_World Scale_ attribute in the _config_ node), making the default scale of each effect work predictably with scenes of different world scales.
+{: .top-1}
+
+**Import/Export**
+* _Improved_ - Smaller file sizes for exported styles
+* _Improved_ - Progress bar when importing/exporting styles
 {: .top-1}
 
 **MNPRX Shelf**
@@ -112,9 +112,9 @@ The September 2019 update is focused on new styles and overall stability! We hav
 {: .notice--info}
 
 
-[**Hatching Stylization**](/projects/hatching/)
+### Hatching Stylization
 
-_New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D objects and animation directly within _Autodesk Maya_ through _MNPRX_. Find out more [**here**](/projects/hatching/).
+_New_ - The _Hatching Stylization_ brings real-time hatching rendering of 3D objects and animation directly within _Autodesk Maya_ through _MNPRX_. Find out more [**here**](/styles/hatching/).
 {: .top-1}
 
 <figure class="pull-center">
