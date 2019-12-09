@@ -1,6 +1,6 @@
 ---
 title: MNPRX Education - End-User License Agreement
-layout: empty
+layout: maya-gray
 excerpt: "End-User License Agreement of MNPRX Education"
 schema:
 ---
@@ -24,29 +24,22 @@ schema:
 
 <script>
 $(function(){
-  $("#container1").twentytwenty({
-    before_label: 'Standard Quality',
-    after_label: 'TAA Quality',
-  });
-});
-
-$(function(){
-  $("#mnprx-comparison").twentytwenty({
-    before_label: 'Viewport Render',
-    after_label: 'MNPRX Render',
+  $("#comparison").twentytwenty({
+    move_slider_on_hover: true, // Move slider on mouse hover
+    no_overlay: true, //Do not show the overlay with before and after
   });
 });
 </script>
 
 
 <div class="upgrade-text" markdown="1">
-You are currently using the **non-commercial** version of MNPRX.  
-Support us by purchasing the **Indie** or **Studio** version and unlock more features!
+Thank you for using the **non-commercial** version of MNPRX.  
+Support us by purchasing an **Indie/Studio** version and unlock more features!
 
 <div class="upgrade-background" markdown="1">
 Anti-aliasing - improved quality
   <figure>
-    <div id="container1" style="margin: 0 auto">
+    <div id="comparison" style="margin: 0 auto">
        <!-- The before image is first -->
        <img src="/images/MNPRX/comparison/no-AA.png" class="pull-center"/>
        <!-- The after image is last -->
@@ -67,7 +60,7 @@ No resolution restrictions
 <i class="fal fa-chevron-double-down fa-2x"></i>
 
 <div class="upgrade-background" markdown="1">
-Bulk attribute - change multiple attributes in simultaneously  
+Bulk attribute - change multiple attributes simultaneously  
   <div class="upgrade-img">
     <img src="/images/MNPRX/bulkAttribute.png"/>
   </div>

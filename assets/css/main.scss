@@ -1261,7 +1261,10 @@ p .btn--aio {
 /*
    Upgrade-Simple
    ==========================================================================*/
-
+.maya-gray {
+  color: #bdbdbd;
+  background-color: #2f2f2f;
+}
 .upgrade-text {
   font-weight: 400;
   font-size: 1.5em;
@@ -1269,7 +1272,7 @@ p .btn--aio {
   text-align: center;
   padding-top: 1.5em;
   .upgrade-background {
-    background-color: #faf7ff;
+    background-color: #5c5c5c;
     display: flex;
     flex-direction: column;
     justify-content: center;
