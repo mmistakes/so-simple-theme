@@ -33,7 +33,7 @@ The _Watercolor Stylization_ brings real-time watercolor to 3D objects and anima
 
 The _Watercolor_ style emulates the **traditional watercolor animation** aesthetic, without the usual flickering associated with when showing multiple watercolor paintings in sequence. Based on the award-winning research of Montesdeoca et al. and Bousseau et al., we are continuously improving upon it with new effects and controls.
 
-<figure class="pull-right bottom-2">
+<figure class="example-pull-right top-1">
  <video autoplay loop muted playsinline style="max-width:300px">
    <source src="/images/MNPRX/art-direction/spherebot.mp4" type="video/mp4">
  </video>

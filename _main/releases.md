@@ -6,6 +6,8 @@ search: false
 sitemap: false
 ---
 
+This is a private link for Indie/Studio subscribers of MNPRX. Please do not share it outside your team/organization. Thanks!
+
 ## MNPRX 
 * [MNPRX (December 2019)](https://www.notion.so/artineering/December-2019-090847c31a62463ca79978c0b91c655b)
 * [MNPRX (September 2019)](https://www.notion.so/artineering/September-2019-faa8c45ae85a43459a0e8e3d41d75f72)

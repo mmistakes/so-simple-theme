@@ -829,6 +829,22 @@ p .btn--aio {
   }
 }
 
+// STYLES
+
+.example-pull-right {
+  float: none;
+  text-align: center;
+  @include breakpoint($medium) {
+    float:right;
+    margin-left: 1em;
+    margin-bottom: -2em;
+    margin-top: -1em;
+  }
+  figcaption {
+    margin-top: 0em;
+  }
+}
+
 
 // ABOUT
 // navigation
