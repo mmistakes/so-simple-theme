@@ -98,7 +98,7 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 ### Stylizations in Nuke
 {: .top2}
 * _New_ - The frayed stylization in Nuke 
-* _Updated_ - The watercolor stylization in Nuke has been updated to support the November 2019 release of MNPRX.
+* _Updated_ - The watercolor stylization in Nuke has been updated to support the December 2019 release of MNPRX.
 * _New_ - Refer to the art-direction control [documentation](/software/MNPRX/docs/controls/) to create your own control textures within Nuke.
 
 ---
