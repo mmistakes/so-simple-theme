@@ -2,10 +2,10 @@
 
 title: Matthew Vickery
 locale: en_GB
-description: Sometime artist from Cornwall.
+description: Artist from Cornwall
 logo: matthew-vickery.png
 search: false
-url: http://mattvick.github.io # http://localhost:4000
+url: https://matthewvickery.org # https://mattvick.github.io # http://localhost:4000
 
 # Jekyll configuration
 
