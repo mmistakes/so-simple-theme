@@ -1234,7 +1234,7 @@ p .btn--aio {
    FAQ - Accordion
    ========================================================================== */
 
-   #accordion {
+   .accordion {
     padding-top: 1.5em;
     *:focus {
       outline: 0;
@@ -1246,15 +1246,21 @@ p .btn--aio {
       background: none;
     }
     p {
+      font-size: 0.8em;
       border: none;
-      padding: 0em 2.2em;
-      a {
-        color: $accent-color;
-      }
+      padding: 0em 2.2em !important;
+      margin-bottom: 0.5em;
     }
     div {
       border: none;
-      padding: 0;
+      padding: 0 !important;
+    }
+    ul {
+      font-size: 0.8em;
+      padding-left: 4em;
+    }
+    a {
+      color: $accent-color !important;
     }
   }
 
