@@ -42,6 +42,8 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 
 </div> <!-- end About MNPRX -->
 
+
+
 ### Troubleshooting MNPRX
 
 <div class="accordion" markdown="1">
@@ -60,6 +62,8 @@ Your GPU may be running out of memory. This can happen if you are rendering at b
 </div>  <!-- end Troubleshooting MNPRX -->
 
 If you don't find your question here, feel free to reach out to us through the [Artineers](http://community.artineering.io) community
+
+
 
 <!-- accordion widget documentation: https://api.jqueryui.com/accordion/-->
 <script> $( ".accordion" ).accordion({

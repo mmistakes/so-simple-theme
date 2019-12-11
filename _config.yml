@@ -137,9 +137,9 @@ footer_links:
   - title: Youtube
     url: https://www.youtube.com/channel/UC-Uqc5P6CeXSwxftSEx9z6w
     icon: fab fa-youtube-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+#  - title: Feed
+#    url: atom.xml
+#    icon: fas fa-rss-square
 #  - title: Vimeo
 #    url: https://vimeo.com/santiagomontesdeoca
 #    icon: fab fa-vimeo-square
