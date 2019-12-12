@@ -124,7 +124,7 @@ These must be set to match your rendering resolution, in pixels.
 ------------------------
 
 ## Art-direction
-The width and the local orientation of the hatching lines can be art-directed procedurally with noiseFX and/or locally by painting with paintFX. See [noiseFX](../noiseFX) and [paintFX](../paintFX) for usage information.
+The width and the local orientation of the hatching lines can be art-directed procedurally with noiseFX and/or locally by painting with paintFX. See [noiseFX](../noisefx) and [paintFX](../paintfx) for usage information.
  
 <figure class="pull-center">
 	<img src="/images/MNPRX/HG/noiseFX.png" alt="MNPRX noiseFX window"  style="width: 400px">

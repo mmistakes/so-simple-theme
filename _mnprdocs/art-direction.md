@@ -28,9 +28,9 @@ At the top level of control are [_Style Presets_](../style-presets/) (`style` bu
  <figcaption>Switching between style presets</figcaption>
 </figure>
 
-_Style Presets_ contain and modify attributes from the style [_configuration node_](../conf/).
+_Style Presets_ contain and modify attributes from the style [_configuration node_](../config/).
 
-The style [_configuration node_](../conf/) (`conf` button in the [_MNPRX Shelf_](../shelf/)) contains every global parameter available in the active stylization. These parameters are applied over the entire image.
+The style configuration node (`conf` button in the [_MNPRX Shelf_](../shelf/)) contains every global parameter available in the active stylization. These parameters are applied over the entire image.
 
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="max-width:450px">
@@ -65,7 +65,7 @@ MNPRX materials can also drive stylization effects procedurally through the use 
 
 
 ### NoiseFX
-The [_NoiseFX_](../noisefx/) tool (`nFX` button in the [_MNPRX Shelf_](../shelf/)) allows to control effects procedurally at the material-level of control. To use it, select an object with an assigned painterly material and modify the sliders of the effects that you want to control in the _NoiseFX_ window. More information can be found in the [_NoiseFX_](../noisefx/) documentation.
+The [_NoiseFX_](../noisefx/) tool (`nFx` button in the [_MNPRX Shelf_](../shelf/)) allows to control effects procedurally at the material-level of control. To use it, select an object with an assigned painterly material and modify the sliders of the effects that you want to control in the _NoiseFX_ window. More information can be found in the [_NoiseFX_](../noisefx/) documentation.
 
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="max-width:450px">

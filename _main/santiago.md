@@ -3,6 +3,7 @@ author: santiago
 title: Santiago's corner
 layout: category
 taxonomy: santiago
+permalink: /about/santiago
 excerpt: "Santiago Montesdeoca's corner"
 image:
   path: images/about/santiago/about.jpg

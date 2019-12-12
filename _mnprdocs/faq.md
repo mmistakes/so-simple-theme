@@ -42,6 +42,20 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 
 </div> <!-- end About MNPRX -->
 
+### NoiseFX and PaintFX
+
+<div class="accordion" markdown="1">
+
+#### I deleted the construction history, how can I still animate PaintFX?
+<div markdown="1">
+Animating _PaintFX_ requires the history created with the vertex color sets to keyframe the values. To recover the required construction history, you can:
+1. Export the _PaintFX_ with the [Import/Export Tool](../import-export/).
+2. Delete the _PaintFX_ using the [MNPRX Toolbox](../toolbox).
+3. Add history
+3. Import the _PaintFX_ back in with the [Import/Export Tool](../import-export/).
+The construction history will be in place and you can now animate the _PaintFX_ values.
+</div>
+</div>  <!-- end NoiseFX and PaintFX -->
 
 
 ### Troubleshooting MNPRX
@@ -53,7 +67,8 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 There are many reasons why this might be happening, we'll list them up from most to less frequent
 * The [world scale](/software/MNPRX/docs/config/#world-scale) is not properly set up for the scene.
 * The scene might have been created with an older version of MNPRX and you need to [update the materials](/software/MNPRX/docs/update/#materials).
-* Your GPU may be running out of memory. This is unlikely, but can happen if a lot of textures are in the scene. You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
+* Your GPU may be running out of memory. This is unlikely, but can happen if a lot of textures are in the scene.  
+You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
 </div>
 
 #### Some objects are missing when I render

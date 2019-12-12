@@ -33,7 +33,7 @@ In the afternoon session, the students were introduced to direct-stylization pip
 
 On the second day, the students brought stylized references that they liked, which we deconstructed during the class. From their examples, specific effects were picked to work on. Based on their interests, the students were then split to work on recreating these effects during peer programming sessions for the remainder of the day.
 
-The effects they worked on included: (1) chromatic depth of field, (2) screen-space linework, (3) thresholded graffiti and (4) color fluctuations. These effects were all implemented to a fair degree of success using [MNPR](/software/MNPR/), our open-source stylization framework written in C++, Python and HLSL/GLSL.
+The effects they worked on included: (1) chromatic depth of field, (2) screen-space linework, (3) thresholded graffiti and (4) color fluctuations. These effects were all implemented to a fair degree of success using [MNPR](/software/Maya-NPR/), our open-source stylization framework written in C++, Python and HLSL/GLSL.
 
 Most students showed a remarkable talent and were able to learn and achieve strong results in the limited time they were given, which made our job fun and rewarding.
 

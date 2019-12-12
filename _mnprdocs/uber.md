@@ -20,7 +20,7 @@ A ShaderFX material has two types of 'attributes': [**Settings**](.#settings) an
 
 -------------
 
-<figure class="pull-right">
+<figure class="pull-right bottom-1">
 	<img src="/images/MNPRX/mnpr-uber/node-AE.png" alt="MNPR uber material node"  style="width: 400px">
 	<figcaption>The default mnpr_uber material in the Attribute Editor.</figcaption>
 </figure>
@@ -253,7 +253,7 @@ When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alp
 #### Transparency Map
 _Transparency Map_ is a greyscale image which embeds the transparency of the material. This attribute toggles the use of the [_Transparency Map File_](#transparency-map-file).
 
-{% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-masks): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
+{% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-mask): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
 
 ##### Transparency Map File
 Specifies the file path to the _Transparency Map_. The path can be absolute or relative to the project root directory.  
@@ -339,7 +339,7 @@ _Highlight Transparency_ defines the transparency of the highlight.
 
 ------------------
 
-### Rim light / Rim light opp. {% include aio-new.html %}
+### Rim light / Rim light opp.
 The _Rim Light_ and _Rim light opp._ settings control the appearance of the rim lighting effect around the silhouette of objects, on areas facing respectively away and towards the light.
 The settings described below are the same for both rim light (facing away) and rim light opposite (facing towards the light).
 

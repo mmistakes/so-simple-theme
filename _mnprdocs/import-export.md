@@ -36,7 +36,7 @@ Exporting the stylization is quite intuitive:
 
 The _Style_, _Materials_ and _PaintFX_ are saved as a _*.json_ file, whereas the _Proxies_ (if they exist) will be saved as an _*.fbx_ file. These two files should always be in the same directory (folder) to be imported back successfully.
 
-You only need to export the _Style_ to transfer the stylization to [Nuke](../watercolor-nuke).
+You only need to export the _Style_ to transfer the stylization to [Nuke](../compositing-nuke).
 {: .notice--info}
 
 

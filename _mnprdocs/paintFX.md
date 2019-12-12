@@ -57,7 +57,7 @@ To modify the painting values of each widget, you can use the radio buttons to q
 The painted values can be reset or flooded (added) on the selected objects/vertices. There are two buttons for this at the bottom of each widget. These buttons are useful when you need to assign a specific value to a lot of vertices in an object, be it to reset the _PaintFX_ values or to add the effect evenly to the selected objects/components. Reset will put the values of the selected objects/vertices to zero (0) whereas flooding will add the numerical value set by the vertical slider or entered manually in the spin box.
 
 ## Import/Export
-You can quickly import/export the _PaintFX_ values of the selected object by using the two buttons at the top-right of the tool window. While this works, we highly recommend using the more powerful [Import/Export Tool](./docs/import-export/) found in the [MNPRX Toolbox](./docs/toolbox) for this purpose.
+You can quickly import/export the _PaintFX_ values of the selected object by using the two buttons at the top-right of the tool window. While this works, we highly recommend using the more powerful [Import/Export Tool](../import-export/) found in the [MNPRX Toolbox](../toolbox) for this purpose.
 
 ## Showcase
 
@@ -67,14 +67,5 @@ You can quickly import/export the _PaintFX_ values of the selected object by usi
  </video>
  <figcaption>Painting NoiseFX</figcaption>
 </figure>
-
-## FAQ
-
-_**I deleted the construction history, how can I still animate PaintFX?**_<br>
-Animating _PaintFX_ requires the history created with the vertex color sets to keyframe the values. To recover the required construction history, you can:
-1.- Export the _PaintFX_ with the [Import/Export Tool](./docs/import-export/).
-2.- Delete the _PaintFX_ using the [MNPRX Toolbox](./docs/toolbox).
-3.- Import the _PaintFX_ back in with the [Import/Export Tool](./docs/import-export/).
-The construction history will be in place and you can now animate the _PaintFX_ values.
 
 {% include toc-side %}
