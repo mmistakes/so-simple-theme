@@ -10,7 +10,7 @@ redirect_from:
   - /projects/MNPRX/docs/noisefx/
 ---
 
-_NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at the material level of control. The tool can be opened by clicking on the **nFX** shelf icon and shares the same window with [_PaintFX_](../paintfx).
+_NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at the material level of control. The tool can be opened by clicking on the **nFx** shelf icon and shares the same window with [_PaintFX_](../paintfx).
 {: .top2}
 
 <figure class="pull-right" style="margin-top:-1em; margin-bottom:0em">

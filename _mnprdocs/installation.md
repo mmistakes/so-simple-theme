@@ -17,7 +17,7 @@ redirect_from:
 
 
 ## Get MNPRX
-Get a commercial or non-commercial version of MNPRX [here](/software/MNPRX/).
+Get a commercial or non-commercial version of MNPRX [here](/software/MNPRX/#getit).
 
 
 ## Installation

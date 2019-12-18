@@ -31,8 +31,8 @@ The art-direction tools can be found in the left side of the shelf, ordered from
 1. **mat** - selects the material of currently selected objects e.g., the [_mnpr_uber_](../uber) or [_mnpr_geoproxy_](../proxy) materials.  
 `Double click` refreshes the _Attribute Editor_ of the material, forcing the _ShaderFX_ framework to show all attributes.  
 `Right click -> Select all objects with material` will select all objects that share the same material.
-1. **nFx** - opens the _NoiseFX_ window that lets you control effects procedurally on MNPR materials [[docs](../noiseFX)].
-1. **pFx** - opens the _PaintFX_ window that lets you paint each effect directly on your 3D models [[docs](../paintFX)].
+1. **nFx** - opens the _NoiseFX_ window that lets you control effects procedurally on MNPR materials [[docs](../noisefx)].
+1. **pFx** - opens the _PaintFX_ window that lets you paint each effect directly on your 3D models [[docs](../paintfx)].
 
 
 ## Lighting/Testing
@@ -45,7 +45,7 @@ The lighting and testing tools allow to easily create the supported lights withi
 ## Rendering
 1. **tbox** - opens the _MNPRX Toolbox_ window, containing handy tools to work with MNPRX in production [[docs](../toolbox)].
 1. **rendr** - opens up the viewport renderer, which quickly allows to save screenshots or playblasts [[docs](../rendering#rendr)].
-1. **tSeq** - opens up the target sequence renderer, which allows to render all different passes for production [[docs](../rendering#tSeq)].
+1. **tSeq** - opens up the target sequence renderer, which allows to render all different passes for production [[docs](../rendering/#target-sequence-renderer)].
 1. **supp.** - opens the browser straight to [support on this webpage](/support/).
 
 {% include toc-side %}

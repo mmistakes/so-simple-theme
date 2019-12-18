@@ -92,13 +92,13 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 **Documentation**
 * _New_ - Frayed [documentation](/styles/frayed/).
 * _New_ - Art-direction control [documentation](/software/MNPRX/docs/controls/)
-* _New_ - Tutorial on [**Avoiding the Shower Door Effect in MNPRX**](https://www.youtube.com/watch?v=eMU4GMQNEs0).
+* _New_ - Tutorial on [Avoiding the Shower Door Effect in MNPRX](https://www.youtube.com/watch?v=eMU4GMQNEs0).
 {: .top-1}
 
 ### Stylizations in Nuke
 {: .top2}
 * _New_ - The frayed stylization in Nuke 
-* _Updated_ - The watercolor stylization in Nuke has been updated to support the November 2019 release of MNPRX.
+* _Updated_ - The watercolor stylization in Nuke has been updated to support the December 2019 release of MNPRX.
 * _New_ - Refer to the art-direction control [documentation](/software/MNPRX/docs/controls/) to create your own control textures within Nuke.
 
 ---
@@ -281,11 +281,11 @@ _New_ - The _Cutout Stylization_ brings real-time cutout rendering of 3D objects
 ### Watercolor stylization in Nuke
 {: .top2}
 
-The watercolor stylization is now also available for _Nuke_ in _Indie_ and _Studio_ licenses, allowing to re-create the style and tweak it further in compositing. More details on where to get it and how to take advantage of it can be [found in the documentation](./docs/watercolor-nuke/).
+The watercolor stylization is now also available for _Nuke_ in _Indie_ and _Studio_ licenses, allowing to re-create the style and tweak it further in compositing. More details on where to get it and how to take advantage of it can be [found in the documentation](./docs/compositing-nuke/).
 
 ---
 
-## JUNE 2019 UPDATE
+## JUNE 2019 UPDATE (Public release!)
 The June 2019 update of MNPRX is the biggest yet! We've developed many things to improve the overall experience and to continue moving forward with our planned development. Because of this, a re-installation of MNPRX is required on any computer that has a previous installation running. We apologize for this inconvenience, but hope the new features will make up for it.
 
 ### MNPRX
@@ -511,7 +511,7 @@ The artist can cancel the render at any time and all targets are saved within on
 
 ## SEPTEMBER 2018 UPDATE
 
-### [Watercolor stylization in Nuke](./docs/watercolor-nuke)
+### [Watercolor stylization in Nuke](./docs/compositing-nuke)
 {: .bottom05}
 
 _New_ - The watercolor stylization pipeline in _The Foundry_'s _Nuke_. This node network allows to recreate the _MNPRX_ watercolor stylization out of render targets exported from _Maya_.

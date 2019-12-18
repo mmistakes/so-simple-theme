@@ -17,7 +17,7 @@ _Stylization presets_ allow artists to easily switch between styles and stylizat
 	<figcaption>The Stylization presets window will look similar to this, depending on which presets you have available.</figcaption>
 </figure>
 
-A stylization preset contains all the available attributes found in the [style configuration node](../config)(the node that gets selected when you press the `conf` [shelf icon](../shelf)), together with a small thumbnail of the current view.
+A stylization preset contains all the available attributes found in the [style configuration node](../config) (the node that gets selected when you press the `conf` [shelf icon](../shelf)), together with a small thumbnail of the current view.
 
 
 ## Saving presets

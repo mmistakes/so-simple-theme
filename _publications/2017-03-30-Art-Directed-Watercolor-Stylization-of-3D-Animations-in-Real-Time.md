@@ -65,7 +65,7 @@ _This paper presents a direct stylization system to render 3D animated geometry 
 * [Paper Manuscript](https://dr.ntu.edu.sg/handle/10220/44033)*
 * [Implementation](/software/Maya-NPR/)
 * [Training material](https://www.youtube.com/playlist?list=PLnr8w_xl4rdtMDMLRRdWAnznQfueZZGUB)
-* [User study data](http://www.sciencedirect.com/science/MiamiMultiMediaURL/1-s2.0-S0097849317300316/1-s2.0-S0097849317300316-mmc2.zip/271576/abst/S0097849317300316/3c2d536feb5cf748e17c12e0a0a42813/mmc2.zip?_role=raw-data)
+* [User study data](https://ars.els-cdn.com/content/image/1-s2.0-S0097849317300316-mmc2.zip)
 * [Full-sized figures](https://1drv.ms/u/s!Arb19fQ9R1Nhj-w9AKABbRLnfr30lw)
 
 <div class="footnote"><sup>*</sup> _This is the accepted manuscript. The journal publication is available at [ScienceDirect](http://doi.org/10.1016/j.cag.2017.03.002)_
