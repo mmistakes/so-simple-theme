@@ -32,58 +32,32 @@ search: true
           <img src="/images/logo-flat_white.svg"/>
           <h5>Artineering</h5>
         </div>
-  <!--      <h2>Services</h2>
-        <div class="landing-split-options">
-          <a href="/services/seminars">
-            <div>
-              <i class="fas fa-users-class fa-3x"></i>
-              <h3>Seminars</h3>
-            </div>
-          </a>
-          <a href="/services/rnd">
-            <div>
-              <i class="fas fa-laptop-code fa-3x"></i>
-              <h3>RnD</h3>
-            </div>
-          </a>
-          <a href="/services/support">
-            <div>
-              <i class="fas fa-user-headset fa-3x"></i>
-              <h3>Support</h3>
-            </div>
-          </a>
-        </div>   -->
       </div>
     </div>
   </a>
 </div>
 
 
-<!--
-<div class="aio-slick">
+<div class="landing-clients">
+  <h2>Featured Partners</h2>
+  <div class="landing-clients-grid">
+    <div class="landing-client">
+      <a href="http://www.taikostudios.com/">
+        <img src="/images/clients/Taiko.jpg" />
+      </a>
+    </div>
+    <div class="landing-client">
+      <a href="http://www.nuctopus.com/">
+        <img src="/images/clients/Nuctopus.png" />
+      </a>
+    </div>
+    <div class="landing-client">
+      <a href="http://www.studioaixa.com/">
+        <img src="/images/clients/Aixa.png" />
+      </a>
+    </div>
   <div>
-    <img src="/images/carousel/summer_wc.jpg" />
-    <p>Watercolor stylization</p>
-    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
-  </div>
-  <div>
-    <img src="/images/carousel/summer_op.jpg" />
-    <p>Oil paint stylization</p>
-    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
-  </div>
-  <div>
-    <img src="/images/carousel/summer_cc.jpg" />
-    <p>Charcoal stylization</p>
-    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
-  </div>
-  <div>
-    <img src="/images/carousel/summer_vp.jpg" />
-    <p>Normal viewport render</p>
-    <span>Sunny Afternoon. 3D Model © Stevie Brown</span>
-  </div>
 </div>
- -->
-
 
 <!-- landing page stylesheet -->
 <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">

@@ -12,7 +12,7 @@ schema:
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<div id="accordion" class="top2" markdown="1">
+<div class="accordion top2" markdown="1">
 
 #### What is MNPRX?
 MNPRX is a direct stylization framework and real-time stylized renderer (currently only for Autodesk Maya™). It enables artists and studios to create unique styles, by using and personalizing one of our already existing styles. Check out the available styles in our growing style library <a href="/software/MNPRX/#page-title">here</a>.
@@ -38,11 +38,51 @@ Yes, this is possible but only if the software on the previous PC has been inact
 Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 </div>
 
+</div> <!-- end About MNPRX -->
 
-</div><!-- end accordion -->
+### NoiseFX and PaintFX
+
+<div class="accordion" markdown="1">
+
+#### I deleted the construction history, how can I still animate PaintFX?
+<div markdown="1">
+Animating _PaintFX_ requires the construction history created with the vertex color sets to keyframe the values. You will need to recover the required construction history.
+1. Export the _PaintFX_ with the [Import/Export Tool](../import-export/).
+2. Delete the _PaintFX_ using the [MNPRX Toolbox](../toolbox).
+3. Add history -> `Edit Mesh->Transform`
+3. Import the _PaintFX_ back in with the [Import/Export Tool](../import-export/).
+The construction history will be in place and you can now animate the _PaintFX_ values.
+</div>
+</div>  <!-- end NoiseFX and PaintFX -->
+
+
+### Troubleshooting MNPRX
+
+<div class="accordion" markdown="1">
+
+#### My scene is all white once I load MNPRX
+<div markdown="1"> 
+There are many reasons why this might be happening, we'll list them up from most to less frequent
+* The [world scale](/software/MNPRX/docs/config/#world-scale) is not properly set up for the scene.
+* The scene might have been created with an older version of MNPRX and you need to [update the materials](/software/MNPRX/docs/update/#materials).
+* Your GPU may be running out of memory. This is unlikely, but can happen if a lot of textures are in the scene.  
+You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
+</div>
+
+#### Some objects are missing when I render
+Your GPU may be running out of memory. This can happen if you are rendering at big resolutions on a weak GPU or if a lot of textures are in the scene. You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
+
+#### Batch render completes without rendering anything
+Maya's *Render*→*Batch Render* tool is broken when MNPRX is in the *MAYA_MODULE_PATH* environment variable. This even happens when the plugin is unloaded, which seems quite odd (if you know why this is happening, we'd love to hear how we can fix this).  
+As an alternative, if you are using another renderer, please consider using *Render*→*Render Sequence* instead or batch rendering from the command line.  
+If you really need to use the *Batch Render* tool within Maya, temporarily delete the **MNPRX variables from the *Maya.env* file, use the *Batch Render* tool and either place the variables back or re-install MNPRX.
+
+</div>  <!-- end Troubleshooting MNPRX -->
+
+If you don't find your question here, feel free to reach out to us through the [Artineers](http://community.artineering.io) community
 
 <!-- accordion widget documentation: https://api.jqueryui.com/accordion/-->
-<script> $( "#accordion" ).accordion({
+<script> $( ".accordion" ).accordion({
    collapsible: true,
    animate: 100,
    heightStyle: "content"
