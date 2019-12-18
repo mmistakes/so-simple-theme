@@ -12,7 +12,10 @@ schema:
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-<div class="accordion top2" markdown="1">
+### About MNPRX
+
+
+<div class="accordion" markdown="1">
 
 #### What is MNPRX?
 MNPRX is a real-time stylized renderer plugin (currently only for Autodesk Maya™) with an intuitive toolset for art-direction at different levels-of-control. Check out the available styles in our growing style library [here](/software/MNPRX/#page-title).
