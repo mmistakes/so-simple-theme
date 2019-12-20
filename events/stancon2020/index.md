@@ -72,8 +72,8 @@ We can't do this without the support of generous sponsors that support our event
 
 ### Organizers
 
-- Debashis Mondal. Statistics Department. Oregon State University. 
+- Susana Marquez. The Rockefeller Foundation.
+- Eric J. Ward. Northwest Fisheries Science Center (NOAA).
+- Debashis Mondal. Statistics Department. Oregon State University.
 - Yi Zhang. Metrum Research Group.
 - Daniel Lee. Generable.
-
-If you're interested in being part of the organizing team, please email stancon@mc-stan.org.
