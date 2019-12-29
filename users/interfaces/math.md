@@ -22,13 +22,15 @@ Download stable releases or clone the repository directly from GitHub.
   <span class="note">(GitHub)</span>
   </p>
 
-The library is header-only, so there is nothing to install.
+The library is no longer entirely header only and depends on both the
+Sundials differential equation solving library and the Intel Thread
+Building Blocks library.
 
 
 # Documentation and Getting Started
 
 A simple getting-started example for computing derivatives is provided
-in the 
+in the
 
 * <p>
   <a href="https://github.com/stan-dev/math/blob/develop/README.md">Stan Math
@@ -67,7 +69,7 @@ GitHub.
 
 # License
 
-The Stan Math Library is open-source licensed under the 
+The Stan Math Library is open-source licensed under the
 
 * <p>
   <a href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>
