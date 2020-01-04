@@ -13,6 +13,8 @@ modified: 2014-08-08T19:44:38.564948-04:00
 
 <hr/>
 
+**Belle Fleur Technologies, Weston, Fl (Jan 2020 - Present)**
+
 
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
