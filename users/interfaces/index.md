@@ -130,9 +130,13 @@ Emacs
   <a href="https://github.com/stan-dev/stan-mode">Emacs mode for Stan</a>
   </p>
 
-Vim
+There are several Vim plugins that offer syntax highlighting and support for
+Stan.
 
 * <p>
-  <a href="https://github.com/maverickg/stan.vim">Vim syntax highlighting for Stan</a>
+  <a href="https://github.com/eigenfoo/stan-vim">stan-vim: syntax highlighting, automatic indentation, code folding and more.</a>
+  </p>
+* <p>
+  <a href="https://github.com/maverickg/stan.vim">stan.vim: Vim syntax highlighting for Stan</a>
   </p>
 

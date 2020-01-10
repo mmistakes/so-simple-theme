@@ -177,10 +177,10 @@
   linkedin: https://www.linkedin.com/in/ari-hartikainen-64b87b32/
 
 - name: Matthijs Vákár
-  affiliation: University of Oxford
+  affiliation: Utrecht University
   github: VMatthijs
-  web: http://users.ox.ac.uk/~magd3996/
-  email:  matthijs.vakar@cs.ox.ac.uk
+  web: https://www.uu.nl/medewerkers/MILVakar
+  email: m.i.l.vakar@uu.nl
   avatar: matthijs_vakar.jpg
 
 - name: Andrew Johnson
@@ -238,7 +238,7 @@
   avatar: edward_a_roualdes.jpg
 
 - name: Andre Zapico
-  affiliation: University of North Carolina
+  affiliation: University of Electronic Science and Technology of China
   github: drezap
 
 - name: Ryan Bernstein
@@ -256,5 +256,18 @@
 - name: Tadej Ciglarič
   affiliation: University of Ljubljana
   email: tadej.c@gmail.com
-  github: https://github.com/t4c1
+  github: t4c1
   avatar: tadej.png
+
+- name: Marco Colombo
+  affiliation: Independent Consultant
+  github: mcol
+  web: https://pm2.phs.ed.ac.uk/~mcolombo/
+
+- name: Adam Haber
+  affiliation: Weizmann Institute
+  github: adamhaber
+  email: adamhaber@gmail.com
+  web: https://adamhaber.github.io
+  twitter: _adam_haber
+  avatar: adam_haber.jpeg

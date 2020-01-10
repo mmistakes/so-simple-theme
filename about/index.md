@@ -68,13 +68,17 @@ The current SGB is:
 
 ## [Minutes](/about/sgb/minutes)
 
-- [Regular online meeting 09/18/2018](/about/sgb/minutes.html#20180918-regular-online-meeting)
-- [Regular online meeting 09/26/2018](/about/sgb/minutes.html#20180926-regular-online-meeting)
-- [Regular online meeting 10/03/2018](/about/sgb/minutes.html#20181003-regular-online-meeting)
-- [Regular online meeting 09/26/2019](/about/sgb/minutes.html#20190926-regular-online-meeting)
-- [Regular online meeting 10/07/2019](/about/sgb/minutes.html#20191007-regular-online-meeting)
-- [Regular online meeting 10/14/2019](/about/sgb/minutes.html#20191014-regular-online-meeting)
-- [Regular online meeting 10/21/2019](/about/sgb/minutes.html#20191021-regular-online-meeting)
+- [Summary of motions of the provisional SGB (08/2018-11/2019)](/about/sgb/minutes.html#summary-of-motions-of-the-provisional-sgb-082018-112019)
+
+- [Minutes of the provisional SGB (08/2018-11/2019)](/about/sgb/minutes.html#minutes-of-the-provisional-sgb-082018-112019)
+	- [Regular online meeting 09/18/2018](/about/sgb/minutes.html#20180918-regular-online-meeting)
+	- [Regular online meeting 09/26/2018](/about/sgb/minutes.html#20180926-regular-online-meeting)
+	- [Regular online meeting 10/03/2018](/about/sgb/minutes.html#20181003-regular-online-meeting)
+	- [Regular online meeting 09/26/2019](/about/sgb/minutes.html#20190926-regular-online-meeting)
+	- [Regular online meeting 10/07/2019](/about/sgb/minutes.html#20191007-regular-online-meeting)
+	- [Regular online meeting 10/14/2019](/about/sgb/minutes.html#20191014-regular-online-meeting)
+	- [Regular online meeting 10/21/2019](/about/sgb/minutes.html#20191021-regular-online-meeting)
+	- [Regular online meeting 10/28/2019](/about/sgb/minutes.html#20191028-regular-online-meeting)
 
 # Funding
 
