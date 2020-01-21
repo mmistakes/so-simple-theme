@@ -49,7 +49,7 @@ Stan project and will prepare an annual diversity report.
 To reach the current SGB with any questions, concerns, or feedback,
 please email <board@mc-stan.org>.
 
-The current SGB is:
+The current SGB members are:
 
 * Imad Ali <span class="note">(Playstation)</span>
 * Leah Comment
