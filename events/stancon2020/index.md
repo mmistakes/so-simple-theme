@@ -149,7 +149,7 @@ Notification: May 2, 2020
 
 Proposals should be submitted in a single PDF file for review through email <stancon+proposal@mc-stan.org>, with email titled with "Talk proposal: ". 
 
-Potential speakers are encouraged to go through talk abstracts for previous StanCon at https://github.com/stan-dev/stancon_talks#2018-helsinki-peer-reviewed-contributed-talks for reference. Note that supporting materials(Notebook, GitHub repo, etc) may be requested from speakers before the event.
+Potential speakers are encouraged to go through [talk abstracts for previous StanConn](https://github.com/stan-dev/stancon_talks#2018-helsinki-peer-reviewed-contributed-talks) at for reference. Note that supporting materials(Notebook, GitHub repo, etc) may be requested from speakers before the event.
 
 Accepted talks will either be placed in the general session (Thursday morning or Friday afternoon) or one of the thematic parallel sessions (Thursday afternoon or Friday morning).
 
