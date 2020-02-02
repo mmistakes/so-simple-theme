@@ -11,7 +11,7 @@ image:
 
 The 5th Stan Conference will be at Oregon State University on August 11-14, 2020.
 
-The four-day event will be two days of tutorials and two days of talks, open discussions, and statistical modeling. Up-to-date information can be found at https://mc-stan.org/events/stancon2020. Register here: https://stancon2020.eventbrite.com.
+The four-day event will be two days of tutorials and two days of talks, open discussions, and statistical modeling. Up-to-date information can be found at <https://mc-stan.org/events/stancon2020>. Register here: <https://stancon2020.eventbrite.com>.
 
 ## [Details](#details)
 
@@ -35,7 +35,7 @@ Learning Innovation Center
 
 ## [Registration](#registration)
 
-Register for the conference here: https://stancon2020.eventbrite.com
+Register for the conference here: <https://stancon2020.eventbrite.com>
 
 ### Fees
 
@@ -98,7 +98,7 @@ We're seeking half-day or full-day proposals for basic or advanced Stan programm
 
 Registration fees for the conference will be waived for accepted tutorial organizers. Potential travel support may also be available.
 
-If you have any questions, please email: stancon+proposal@mc-stan.org.
+If you have any questions, please email: <stancon+proposal@mc-stan.org>.
 
 ***Submitting a tutorial proposal***
 
@@ -110,7 +110,7 @@ The proposal should concisely and clearly describe the content and objectives of
 4. An outline of the tutorial content including tentative schedule;
 5. If appropriate, a description of the past/relevant experience of the speaker(s) on the topic of the tutorial;
 
-Proposals should be submitted via email as a single pdf file to stancon+proposal@mc-stan.org. Please title the email "Tutorial proposal."
+Proposals should be submitted via email as a single pdf file to <stancon+proposal@mc-stan.org>. Please title the email "Tutorial proposal."
 
 ***Important Dates***
 
@@ -124,7 +124,7 @@ We're also seeking proposals for thematic half-day sessions. These sessions will
 
 Registration fees for the conference will be waived for accepted session organizers. Potential travel support may also be avaialble.
 
-If you have any questions, please email: stancon+proposal@mc-stan.org.
+If you have any questions, please email: <stancon+proposal@mc-stan.org>.
 
 ***Submitting a thematic session proposal***
 
@@ -133,7 +133,7 @@ The proposal should concisely and clearly describe the theme and content, and mu
 1. Title and abstract
 2. List of organizers, affiliation, and number of potential speakers.
 
-Proposal should be submitted in a single PDF file for review through email stancon+proposal@mc-stan.org, with email titled with "Thematic session proposal: ".
+Proposal should be submitted in a single PDF file for review through email <stancon+proposal@mc-stan.org>, with email titled with "Thematic session proposal: ".
 
 The abstract should describe the topic of the session clearly and is meant to attract both audience and speakers. Proposed organizers are encouraged to reach out to potential speakers before final submission.
 
@@ -147,7 +147,7 @@ Notification: May 2, 2020
 
 ## Call for contributed talks
 
-Proposals should be submitted in a single PDF file for review through email stancon+proposal@mc-stan.org, with email titled with "Talk proposal: ". 
+Proposals should be submitted in a single PDF file for review through email <stancon+proposal@mc-stan.org>, with email titled with "Talk proposal: ". 
 
 Potential speakers are encouraged to go through talk abstracts for previous StanCon at https://github.com/stan-dev/stancon_talks#2018-helsinki-peer-reviewed-contributed-talks for reference. Note that supporting materials(Notebook, GitHub repo, etc) may be requested from speakers before the event.
 
@@ -165,7 +165,7 @@ Supporting material (paper, notebook, software repo, etc) deadline: July 17, 202
 
 We will accept poster submissions on a rolling basis until July 3, 2020. One page exclusive of references is the desired format but anything that gives us enough information to make a decision is fine. Notification of accept/reject will be sent within 3 days of reception. Signboard supplies will be provided at event site.
 
-Please send to stancon+proposal@mc-stan.org an email titled with "Poster: ...".
+Please send to <stancon+proposal@mc-stan.org> an email titled with "Poster: ...".
 
 ## Call for volunteers for planning
 
@@ -174,11 +174,11 @@ StanCon 2020 seeks volunteers to
 - organization of session and tutorials
 - reach out to different communities to promote the conference
 
-StanCon 2020 asks all volunteers to follow [code of conduct](https://mc-stan.org/events/stancon-code_of_conduct). If you would like to help improving Stan and StanCon, please contact stancon@mc-stan.org . 
+StanCon 2020 asks all volunteers to follow [code of conduct](https://mc-stan.org/events/stancon-code_of_conduct). If you would like to help improving Stan and StanCon, please contact <stancon@mc-stan.org> . 
 
 ## Sponsorship:
 
-We can’t do this without the support of generous sponsors that support our events! If you’re interested in sponsoring StanCon, please email stancon@mc-stan.org.
+We can’t do this without the support of generous sponsors that support our events! If you’re interested in sponsoring StanCon, please email <stancon@mc-stan.org>.
 
 ## Invitation Letters for US visa
 
