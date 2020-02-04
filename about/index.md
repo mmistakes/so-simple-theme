@@ -37,34 +37,26 @@ over:
 * licensing requirements for contributed code and documentation
 
 The SGB is intended to be a transparent body in service of the Stan
-community and electorate. The SGB will define an electorate and the
-governance of joining and participating in an electorate. The SGB is
-expected to use referendums when appropriate to ensure its
-legitimacy. The SGB will publicly post minutes on a regular basis on the
-[Stan Discourse](http://discourse.mc-stan.org) in the
-[general category](https://discourse.mc-stan.org/c/general).
+community and electorate. The SGB will publicly post minutes on a
+regular basis on the [Stan Discourse](http://discourse.mc-stan.org) in
+the [general category](https://discourse.mc-stan.org/c/general).
 
 The SGB is to advance diversity in under-represented communities in
 the Stan ecosystem. The SGB will actively develop and implement
 strategies to improve inclusion and diversity at all levels of the
 Stan project and will prepare an annual diversity report.
 
-The composition of the non-provisional SGB will be established through
-elections every year. Any changes to the electorate will be
-approved by majority vote of the existing electorate.
-
 To reach the current SGB with any questions, concerns, or feedback,
 please email <board@mc-stan.org>.
 
-The current SGB is:
+The current SGB members are:
 
-* Julie Bertrand  <span class="note">(INSERM)</span>
-* Michael Betancourt <span class="note">(Independent consultant)</span>
+* Imad Ali <span class="note">(Playstation)</span>
+* Leah Comment <span class="note">(Foundation Medicine Inc.)</span>
 * Jonah Gabry <span class="note">(Columbia University)</span>
-* Andrew Gelman <span class="note">(Columbia University)</span> [Chair]
-* Daniel Lee <span class="note">(Generable)</span> [Secretary]
-* Sean Talts <span class="note">(Columbia University)</span>
-* Lizzie Wolkovich <span class="note">(University of British Columbia)</span>
+* Bill Gillespie <span class="note">(Metrum LLC)</span>
+* Susana Márquez <span class="note">(The Rockefeller Foundation)</span>
+
 
 ## [Minutes](/about/sgb/minutes)
 
