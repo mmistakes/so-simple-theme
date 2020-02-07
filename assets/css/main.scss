@@ -851,8 +851,8 @@ p .btn--aio {
 .about-main {
   position: relative;
 #about-nav {
-  position: absolute;
-  z-index: 1;
+  position: fixed;
+  z-index: 50;
   top: 0;
   display: flex;
   flex-flow: row wrap;
@@ -861,8 +861,10 @@ p .btn--aio {
   width: 100%;
   ul {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 0.5em 1.5em 0.7em;
-    //border-radius: 0 0 0.3em 0.3em;
+    //rgba(255, 255, 255, 0.8)
+    padding: 3.2em 2.5em 0.7em;
+    //0.5 1.5 0.7
+    border-radius: 0 0 0.3em 0.3em;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
