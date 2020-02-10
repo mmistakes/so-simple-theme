@@ -28,14 +28,12 @@ nicholas:
   twitter: nmwardhana
   github: lambrtz
 
-#antoinette:
-#  name: Antoinette jade
-#  picture: antionette.jpg
-#  email: antoinette@artineering.io
-#  web:
-#  role: "BFA, Marketing and Sales"
-#  linkedin: antoinette-jade-9177a743/
-#  twitter:
+antoinette:
+  name: Antoinette jade
+  picture: antoinette.jpg
+  email: antoinette@artineering.io
+  role: "BFA, Marketing and Sales"
+  linkedin: antoinette-jade-9177a743/
 
 roland:
   name: Roland Kasenurm
