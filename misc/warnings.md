@@ -1,16 +1,14 @@
 ---
+layout: page
 title: "Brief Guide to Stan's Warnings"
-author: "Stan Development Team"
-date: "`r Sys.Date()`"
-output: 
-  html_document:
-    toc: true
-    toc_depth: 4
+excerpt: ""
+modified:
+image:
+  feature: feature/wide_ensemble.png
+  credit:
+  creditlink:
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 Stan emits a lot of messages, some of which are warnings. In this document we go
 over why this happens, explain some of the most common warnings, and provide
@@ -45,11 +43,13 @@ warnings take two forms:
 
 Deprecation warnings may look something like
 
-> DIAGNOSTIC(S) FROM PARSER:
-> Warning (non-fatal): increment_log_prob(...); is deprecated and will be removed in the future.
-> Use target += ...; instead.
-> Warning: Deprecated function 'normal_log'; please replace suffix '_log' with '_lpdf' for density functions or 
-> '_lpmf' for mass functions
+```
+DIAGNOSTIC(S) FROM PARSER:
+Warning (non-fatal): increment_log_prob(...); is deprecated and will be removed in the future.
+Use target += ...; instead.
+Warning: Deprecated function 'normal_log'; please replace suffix '_log' with '_lpdf' for density functions or 
+'_lpmf' for mass functions
+```
 
 These warnings indicate that, although your Stan syntax is valid, some
 construction(s) you are using will be removed in a future version of Stan. Thus,
@@ -60,12 +60,14 @@ ensure that your Stan program will continue to run in the future.
 
 Jacobian warnings may look something like
 
-> DIAGNOSTIC(S) FROM PARSER:
-> Warning (non-fatal):
-> Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable.
-> If so, you need to call target += with the log absolute determinant of the Jacobian of the transform.
-> Left-hand-side of sampling statement:
->    sqrt(y) ~ gamma(...)
+```
+DIAGNOSTIC(S) FROM PARSER:
+Warning (non-fatal):
+Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable.
+If so, you need to call target += with the log absolute determinant of the Jacobian of the transform.
+Left-hand-side of sampling statement:
+   sqrt(y) ~ gamma(...)
+```
 
 If you fail to heed this warning, the posterior distribution Stan will sample
 from is not necessarily the posterior distribution that you have in mind. The
@@ -83,6 +85,7 @@ warnings. Compiler warnings occur when you call `stan_model()` directly or
 indirectly by calling `stan()` with its `file` or `model_code` argument
 specified. They may look something like
 
+```
 > In file included from /usr/local/lib/R/site-library/BH/include/boost/multi_array/base.hpp:28:0,
                  from /usr/local/lib/R/site-library/BH/include/boost/multi_array.hpp:21,
                  from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint/util/multi_array_adaption.hpp:29,
@@ -125,19 +128,13 @@ In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/mat
                  from file3d155eade6dd.cpp:8:
 /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/set_zero_all_adjoints.hpp:14:17: warning: ‘void stan::math::set_zero_all_adjoints()’ defined but not used [-Wunused-function]
      static void set_zero_all_adjoints() {
+```
 
 These simply say there is some part of the Stan library that is being compiled
 but not used; it has nothing to do with your model specifically. You can 
 safely ignore these compiler warnings but they can also be suppressed by
-editing your Makevars file.
-
-Open the file whose path is the output of
-
-```{r, eval = FALSE}
-normalizePath("~/.R/Makevars")
-```
-
-and add (or add on to) a line that starts with `CXXFLAGS = `. Copy the part(s)
+editing your Makevars file in location `$HOME/.R/Makevars`
+and adding (or adding on to) a line that starts with `CXXFLAGS = `. Copy the part(s)
 inside the square brackets from the compiler warning message and paste them onto
 the line that starts with `CXXFLAGS = ` but add the two-character string `no`
 after the starting string `-W`. For example, in the case of the compiler warnings
@@ -175,7 +172,7 @@ drawback.
 
 **Example:**
 
-```r
+```
 1: There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
 2: Examine the pairs() plot to diagnose sampling problems
 ```
@@ -229,25 +226,17 @@ parameter, we have to find a different way to write the model that is logically
 equivalent but simplifies the geometry of the posterior distribution. This
 problem occurs frequently with hierarchical models and one of the simplest
 examples is Neal's Funnel, which is discussed in the *Optimizing Stan Code*
-chapter of the [Stan manual](http://mc-stan.org/documentation/) and can be
-performed by calling
-
-```{r, eval = FALSE}
-library(rstan)
-funnel <- stan_demo("funnel", seed = 12345)   # has 5 divergent transitions
-pairs(funnel, pars = c("y", "x[1]", "lp__"), las = 1) # below the diagonal
-funnel_reparam <- stan_demo("funnel_reparam") # has no divergent transitions
-```
+chapter of the [Stan manual](http://mc-stan.org/documentation/).
 
 
-**Recommendations:**
+##### Recommendations
 
 * Increase the target acceptance rate `adapt_delta`. In RStan, `adapt_delta` is
 one of the parameters that you can include in the optional `control` list passed
 to the `stan` or `sampling` functions. For example, to set `adapt_delta` to 0.99
 (the default is 0.8) you would do this:
 
-```{r, eval=FALSE}
+```
 stan(..., control = list(adapt_delta = 0.99))
 ```
 
@@ -260,11 +249,11 @@ of hierarhical models and non-centered parameterizations.
 
 <br>
 
-### Exception ... Hamiltonian proposal rejected
+### Exceptions thrown when Hamiltonian proposal is rejected
 
 **Example:**
 
-```r
+```
 Exception thrown at line 24: normal_log: Scale parameter is 0, but must be positive! 
 ```
 
@@ -282,16 +271,20 @@ Informally, if the number of times this happens is large then something in the
 model or data (or the combination of the model and data) is consistently forcing
 the constrained parameter to its boundary and this should be investigated.
 
-**Recommendations:** 
+##### Recommendations 
 
 * Verify that the support of the parameters matches the distributions used in
 the model. In the example above this means making sure that `sigma` is declared 
 with a `<lower=0>` constraint.
+
 * If all parameters are declared with the appropriate constraints, you can 
 ignore this warning if it's very sporadic.
+
 * Simulate data and fit the same model to check whether the same problem occurs
 using different data.
+
 * Use priors that place less weight on values near the boundary.
+
 * Use numerically stable expressions. This includes always performing 
 calculations on the log-scale when possible and making use of Stan's special 
 composed functions. For example, `log_sum_exp(x)` is more robust numerically
@@ -318,14 +311,14 @@ long execution time.
 Transitions that hit the maximum treedepth are plotted in yellow in the 
 `pairs()` plot.
 
-**Recommendations:** 
+##### Recommendations 
 
 * Increase the maximum allowed treedepth. In RStan, `max_treedepth` is one
 of the parameters that you can include in the optional `control` list passed
 to the `stan` or `sampling` functions. For example, to set `max_treedepth`
 to 15 (the default is 10) you would do this:
 
-```{r, eval=FALSE}
+```
 stan(..., control = list(max_treedepth = 15))
 ```
 
@@ -339,15 +332,17 @@ adaptation phase of the Markov Chains did not turn out well and those chains
 likely did not explore the posterior distribution efficiently. For more details
 on this diagnostic, see https://arxiv.org/abs/1604.00695.
 
-**Recommendations:** 
+##### Recommendations 
 
 * Look at the `pairs` plot to see which primitive parameters are correlated with
   the `energy__` margin. There should be a negative relationship between `lp__`
   and `energy__` in the `pairs` plot, which is not a concern because `lp__` is 
   the logarithm of the posterior kernel rather than a primitive parameter. 
+
 * Reparameterize your model. The primitive parameters that are correlated with
   the `energy__` margin in the `pairs` plot are a good place to start thinking
   about reparameterizations.
+
 * You might try setting a higher value for the `iter` and / or `warmup` arguments.
   By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
@@ -364,10 +359,14 @@ folded-split-R-hat, which works for thick tailed distributions and is
 sensitive also to differences in scale. For more details on this
 diagnostic, see https://arxiv.org/abs/1903.08008.
 
-**Recommendations:**
+##### Recommendations
+
 * Look at Bulk- and Tail-ESS for further information.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$. 
 
@@ -396,11 +395,15 @@ bulk-ESS is greater than 100 times the number of chains. For example,
 when running four chains, this corresponds to having a rank-normalized
 effective sample size of at least 400.
 
-**Recommendations:**
+##### Recommendations
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * Look at change in bulk-ESS when the number of iterations
   increase. If R-hat is less than 1.01 and bulk-ESS grows linearly
   with the number of iterations and eventually exceeds the recommended
@@ -414,11 +417,15 @@ the 5% and 95% quantiles. Tail-ESS can help diagnosing problems due
 to different scales of the chains and slow mixing in the tails. See
 also general information about ESS above in description of bulk-ESS.
 
-**Recommendations:**
+##### Recommendations
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * Look at change in tail-ESS when the number of iterations
   increase. If R-hat is less than 1.01 and tail-ESS grows linearly
   with the number of iterations and eventually exceeds the recommended
@@ -456,4 +463,3 @@ RStan users, you will be warned about divergences and you can view Rhats using
 the `print` or `summary` methods for stanfit objects. All important diagnostics
 can also be found in our [ShinyStan](http://mc-stan.org/interfaces/shinystan)
 GUI.
-
