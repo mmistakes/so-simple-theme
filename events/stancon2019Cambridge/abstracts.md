@@ -104,7 +104,7 @@ Abstract: The empirical question is modeling the time trend in corn yields in th
 <hr>-->
 
 
-<i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> 
+<i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630762.svg)](https://doi.org/10.5281/zenodo.3630762)
 
 Abstract: The US has dramatically reduced blood lead levels in children over the past 30 years and that effort continues. New York City (NYC) was an early adopter of lead reduction policies and that effort continues with laws that require all children be tested and with mandatory interventions for those tested blood levels (tbll) greater than 5mg/dL. But there is a statistically interesting story around how current blood level limits are set, the performance of common tests and how to apply common Bayes rule reasoning to publicly available data. 
 
