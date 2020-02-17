@@ -1,11 +1,17 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 ```{r setup, include=FALSE}
 library(knitr)
 library(readr)
+print_w_lines <- function(file) {
+  x <- strsplit(file,"\n")[[1]]
+  for (i in seq_along(x)) x[i] <- paste0("[", i, "]  ", x[i])
+  cat(x, sep = "\n")
+}
+
 ```
 
 # Regression Models
@@ -35,8 +41,16 @@ $$
 y_n \sim \operatorname{normal}(\alpha + \beta X_n, \, \sigma).
 $$
 
-This latter form of the model is coded in Stan as follows. Links to source: [R](regression/regression_1.R), [Python](regression/regression_1.py), [Stan](regression/regression_1.stan) 
-$\color{red}{\text{Note links to source}}$
+This latter form of the model is coded in Stan as follows. Links to source: 
+
+$\color{red}{\text{Option 1}}$ [R](regression/regression_1.R), [Python](regression/regression_1.py), [Stan](https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan) 
+
+$\color{red}{\text{Option 2}}$ [regression_1.R](regression/regression_1.R), [regression_1.py](regression/regression_1.py), [regression_1.stan](https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan) 
+
+$\color{red}{\text{Option 3}}$
+[Regression_1](https://github.com/stan-dev/example-models/tree/footnotes/user-guide-models/linear_regression_1)
+
+
 
 
 ```{r echo=FALSE, comment=""}

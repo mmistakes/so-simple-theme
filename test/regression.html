@@ -380,7 +380,10 @@ y_n - (\alpha + \beta X_n) \sim \operatorname{normal}(0,\sigma),
 \]</span> and reducing still further, to <span class="math display">\[
 y_n \sim \operatorname{normal}(\alpha + \beta X_n, \, \sigma).
 \]</span></p>
-<p>This latter form of the model is coded in Stan as follows. Links to source: <a href="regression/regression_1.R">R</a>, <a href="regression/regression_1.py">Python</a>, <a href="regression/regression_1.stan">Stan</a> <span class="math inline">\(\color{red}{\text{Note links to source}}\)</span></p>
+<p>This latter form of the model is coded in Stan as follows. Links to source:</p>
+<p><span class="math inline">\(\color{red}{\text{Option 1}}\)</span> <a href="regression/regression_1.R">R</a>, <a href="regression/regression_1.py">Python</a>, <a href="https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan">Stan</a></p>
+<p><span class="math inline">\(\color{red}{\text{Option 2}}\)</span> <a href="regression/regression_1.R">regression_1.R</a>, <a href="regression/regression_1.py">regression_1.py</a>, <a href="https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan">regression_1.stan</a></p>
+<p><span class="math inline">\(\color{red}{\text{Option 3}}\)</span> <a href="https://github.com/stan-dev/example-models/tree/footnotes/user-guide-models/linear_regression_1">Regression_1</a></p>
 <pre><code>data {
   int&lt;lower=0&gt; N;
   vector[N] x;
