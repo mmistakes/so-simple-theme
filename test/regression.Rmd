@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 ```{r setup, include=FALSE}
 library(knitr)
@@ -41,26 +41,21 @@ $$
 y_n \sim \operatorname{normal}(\alpha + \beta X_n, \, \sigma).
 $$
 
-This latter form of the model is coded in Stan as follows. Links to source: 
 
-$\color{red}{\text{Option 1}}$ [R](regression/regression_1.R), [Python](regression/regression_1.py), [Stan](https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan) 
 
-$\color{red}{\text{Option 2}}$ [regression_1.R](regression/regression_1.R), [regression_1.py](regression/regression_1.py), [regression_1.stan](https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan) 
+$\color{red}{\text{Option 1}}$ This latter form of the model is coded in Stan as follows. [regression_1.R](https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.R), [regression_1.py](https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.py), [regression_1.stan](https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.stan) 
+
+$\color{red}{\text{Option 2}}$
+This latter form of the model is coded in Stan as follows^[source at: https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/]. 
 
 $\color{red}{\text{Option 3}}$
-[Regression_1](https://github.com/stan-dev/example-models/tree/footnotes/user-guide-models/linear_regression_1)
-
-
-
-
+This latter form of the model is coded in Stan as follows [regression_1](https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/)
 ```{r echo=FALSE, comment=""}
 library(knitr)
-stan_file = read_file('regression/regression_1.stan')
-writeLines(stan_file)
+stan_text = read_file('regression/regression_1.stan')
+writeLines(stan_text)
 ```
-$\color{red}{\text{new way above with insert from dist, old way below with source typed into doc.}}$
-
-
+$\color{red}{\text{new way above with insert from disk, old way below with source typed into doc.}}$
 
 ```
 data {
@@ -83,21 +78,6 @@ outcome `y[n]`.  The intercept and slope parameters are
 `alpha` and `beta`.  The model assumes a normally
 distributed noise term with scale `sigma`.  This model has
 improper priors for the two regression coefficients.
-
-### Matrix Notation and Vectorization {- #vectorization.section}
-
-The sampling statement in the previous model is vectorized, with
-
-```{r echo=FALSE,comment=""}
-lines = strsplit(stan_file,"\n")[[1]]
-cat(paste(lines[12:12],collapse="\n"))
-```
-$\color{red}{\text{above, new way excerpts from source code on disk. Rmarkdown code that generates the snippet is:}}$
-
-```{r echo=TRUE, comment=""}
-lines = strsplit(stan_file,"\n")[[1]]
-cat(paste(lines[12:12],collapse="\n"))
-```
 
 **END**
 

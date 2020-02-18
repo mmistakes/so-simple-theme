@@ -380,10 +380,9 @@ y_n - (\alpha + \beta X_n) \sim \operatorname{normal}(0,\sigma),
 \]</span> and reducing still further, to <span class="math display">\[
 y_n \sim \operatorname{normal}(\alpha + \beta X_n, \, \sigma).
 \]</span></p>
-<p>This latter form of the model is coded in Stan as follows. Links to source:</p>
-<p><span class="math inline">\(\color{red}{\text{Option 1}}\)</span> <a href="regression/regression_1.R">R</a>, <a href="regression/regression_1.py">Python</a>, <a href="https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan">Stan</a></p>
-<p><span class="math inline">\(\color{red}{\text{Option 2}}\)</span> <a href="regression/regression_1.R">regression_1.R</a>, <a href="regression/regression_1.py">regression_1.py</a>, <a href="https://github.com/stan-dev/example-models/blob/footnotes/user-guide-models/linear_regression_1/linear_regression_1.stan">regression_1.stan</a></p>
-<p><span class="math inline">\(\color{red}{\text{Option 3}}\)</span> <a href="https://github.com/stan-dev/example-models/tree/footnotes/user-guide-models/linear_regression_1">Regression_1</a></p>
+<p><span class="math inline">\(\color{red}{\text{Option 1}}\)</span> This latter form of the model is coded in Stan as follows. <a href="https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.R">regression_1.R</a>, <a href="https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.py">regression_1.py</a>, <a href="https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/regression_1.stan">regression_1.stan</a></p>
+<p><span class="math inline">\(\color{red}{\text{Option 2}}\)</span> This latter form of the model is coded in Stan as follows<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p><span class="math inline">\(\color{red}{\text{Option 3}}\)</span> This latter form of the model is coded in Stan as follows <a href="https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/">regression_1</a></p>
 <pre><code>data {
   int&lt;lower=0&gt; N;
   vector[N] x;
@@ -397,7 +396,7 @@ parameters {
 model {
   y ~ normal(alpha + beta*x, sigma);
 }</code></pre>
-<p><span class="math inline">\(\color{red}{\text{new way above with insert from dist, old way below with source typed into doc.}}\)</span></p>
+<p><span class="math inline">\(\color{red}{\text{new way above with insert from disk, old way below with source typed into doc.}}\)</span></p>
 <pre><code>data {
   int&lt;lower=0&gt; N;
   vector[N] x;
@@ -412,17 +411,14 @@ model {
   y ~ normal(alpha + beta * x, sigma);
 }</code></pre>
 <p>There are <code>N</code> observations, each with predictor <code>x[n]</code> and outcome <code>y[n]</code>. The intercept and slope parameters are <code>alpha</code> and <code>beta</code>. The model assumes a normally distributed noise term with scale <code>sigma</code>. This model has improper priors for the two regression coefficients.</p>
-<div id="vectorization.section" class="section level3 unnumbered">
-<h3>Matrix Notation and Vectorization</h3>
-<p>The sampling statement in the previous model is vectorized, with</p>
-<pre><code>  y ~ normal(alpha + beta*x, sigma);</code></pre>
-<p><span class="math inline">\(\color{red}{\text{above, new way excerpts from source code on disk. Rmarkdown code that generates the snippet is:}}\)</span></p>
-<pre class="r"><code>lines = strsplit(stan_file,&quot;\n&quot;)[[1]]
-cat(paste(lines[12:12],collapse=&quot;\n&quot;))</code></pre>
-<pre><code>  y ~ normal(alpha + beta*x, sigma);</code></pre>
 <p><strong>END</strong></p>
 </div>
 </div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>source at: <a href="https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/" class="uri">https://github.com/stan-dev/stan-dev.github.io/blob/master/test/regression/</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
 
 
