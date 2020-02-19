@@ -46,6 +46,6 @@ Help us make our software better!
 ### Curious?
 We knew you'd get here!
 * [FAQ](/software/MNPRX/docs/faq)
-* Demo scenes (coming soon)
+* [Demo scenes](/software/MNPRX/demo-scenes) {% include aio-new.html %}
 </div>
 </div>
