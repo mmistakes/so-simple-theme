@@ -1,3 +1,56 @@
+{% assign category = page.categories %}
+{% assign currentPostDate = page.date | date: '%s'%}
+{% assign dateOlder = ""%}
+{% assign dateNewer = site.time | date: '%s' %}
+
+{% for post in site.posts %}
+  {% if post.categories == category %}
+    {% assign pDate = post.date | date: '%s'%}
+      {% if pDate > currentPostDate %}
+        {% if pDate <= dateNewer %}
+          {% assign nextDate = pDate %}
+          {% assign nextPost = post.url %}
+          {% assign nextTitle = post.title %}
+          {% assign dateNewer = nextDate %}
+        {% endif %}
+      {% elsif pDate < currentPostDate %}
+        {% if pDate > dateOlder %}
+          {% assign prevDate = pDate %}
+          {% assign prevPage = post.url %}
+          {% assign prevTitle = post.title %}
+          {% assign dateOlder = prevDate %}
+        {% endif %}  
+      {% endif %}
+  {% endif %}
+{% endfor %}
+
+
+<nav class="page-pagination" role="navigation">
+  {% if prevTitle %}
+    {% if page.previous %}
+      <a class="page-previous" href="{{ prevPage | relative_url }}">
+        <h4 class="page-pagination-label">{{ site.data.text[site.locale].previous | default: 'Previous' }}</h4>
+        <span class="page-pagination-title">
+          <i class="fas fa-arrow-left"></i> {{ prevTitle | markdownify | strip_html }} 
+        </span>
+      </a>
+    {% endif %}
+  {% endif %}
+
+  {% if nextTitle %}
+    {% if page.next %}
+      <a class="page-next" href="{{ nextPost | relative_url }}">
+        <h4 class="page-pagination-label">{{ site.data.text[site.locale].next | default: 'Next' }}</h4>
+        <span class="page-pagination-title">
+          {{ nextTitle | markdownify | strip_html }} <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+    {% endif %}
+  {% endif %}
+</nav>
+
+<!--
+  This is the default way jekyll can sort pages. changed it to be able to sort pages by categories which wasn't possible by default. 
 <nav class="page-pagination" role="navigation">
   {% if page.previous %}
     <a class="page-previous" href="{{ page.previous.url | relative_url }}">
@@ -8,12 +61,15 @@
     </a>
   {% endif %}
 
-  {% if page.next %}
-    <a class="page-next" href="{{ page.next.url | relative_url }}">
-      <h4 class="page-pagination-label">{{ site.data.text[site.locale].next | default: 'Next' }}</h4>
-      <span class="page-pagination-title">
-        {{ page.next.title | markdownify | strip_html }} <i class="fas fa-arrow-right"></i>
-      </span>
-    </a>
+  {% if nextTitle %}
+    {% if page.next %}
+      <a class="page-next" href="{{ nextPost | relative_url }}">
+        <h4 class="page-pagination-label">{{ site.data.text[site.locale].next | default: 'Next' }}</h4>
+        <span class="page-pagination-title">
+          {{ nextTitle | markdownify | strip_html }} <i class="fas fa-arrow-right"></i>
+        </span>
+      </a>
+    {% endif %}
   {% endif %}
 </nav>
+ -->

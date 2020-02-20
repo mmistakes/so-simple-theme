@@ -192,6 +192,18 @@ img {
   ul {
     text-align: left;
   }
+  .blog-list {
+    a {
+      font-size: 1.7em;
+    }
+    footer {
+      margin-top: 0.2em;
+      font-size: 1em;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
   .entry-header {
     display: flex;
     flex-flow: row nowrap;

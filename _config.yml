@@ -86,6 +86,9 @@ collections:
   seminars:
     output: true
     permalink: /:collection/:title/
+  blogs:
+    output: true
+    permalink: /:collection/:title/
 
 
 # Front Matter Defaults
