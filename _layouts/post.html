@@ -26,33 +26,6 @@ layout: default
           {{ content }}
         </div>
 
-        {% assign prevflag = 1 %}
-        {% assign nextflag = 1 %}
-
-        {% for c in site.posts %}
-          {% if c.title == page.title %}
-            {% assign currentItemIndex = forloop.index0 %}
-            {% if forloop.index == 1 %}
-              {% assign prevflag = 0 %}
-              {% assign nextflag = 1 %}
-            {% elsif forloop.index == forloop.length %}
-              {% assign prevflag = 1 %}
-              {% assign nextflag = 0 %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-
-        {% if prevflag == 1 %}
-          {% assign prevItemIndex = currentItemIndex | minus: 1 %}
-          {% assign prevPost = site.posts[prevItemIndex] %}
-        {% endif %}
-
-        {% if nextflag == 1 %}
-          {% assign nextItemIndex = currentItemIndex | plus: 1 %}
-          {% assign nextPost = site.posts[nextItemIndex] %}
-        {% endif %}
-
-
         {% if page.share %}
           {% include social-share.html %}
         {% endif %}
