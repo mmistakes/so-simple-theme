@@ -29,8 +29,8 @@ By default, the tool will export everything and import everything (if available 
 
 ## Exporting
 Exporting the stylization is quite intuitive:
-1. Select the desired objects from which you want to export the stylization from. If nothing is selected, the tool will export the stylization from all objects in the scene.
 1. Check/uncheck the different options that you wish to export
+1. Check/uncheck if you want to only export the selected objects or all objects in the scene.
 1. Click on the `Export` button
 1. Navigate to the directory where you want to save the stylization into and `Save`.
 
@@ -43,6 +43,7 @@ You only need to export the _Style_ to transfer the stylization to [Nuke](../com
 ## Importing
 Importing the stylization should always work, as long as the naming of objects is consistent.
 1. Check/uncheck the different options that you wish to import
+1. Check/uncheck if you want to only import onto the selected objects or all objects in the scene.
 1. Click on the `Import` button
 1. Navigate to the directory where you saved the stylization, select the _*.json_ file and `Open`.
 

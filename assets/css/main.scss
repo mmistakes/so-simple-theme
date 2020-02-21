@@ -192,6 +192,12 @@ img {
   ul {
     text-align: left;
   }
+  p + ul {
+    margin-top: -1em;
+  }
+  p + ol {
+    margin-top: -1em;
+  }
   .blog-list {
     a {
       font-size: 1.7em;
@@ -510,8 +516,11 @@ p .btn--aio {
   border: none;
   background-color: #FFF;
   padding-left: 0.5em;
-  P {
+  p {
     margin-bottom: 0em;
+  }
+  p + ol {
+    margin-top: 0em;
   }
   a {
     cursor: pointer;

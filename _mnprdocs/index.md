@@ -45,8 +45,8 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Styles
-### [Style Library](/styles/) {% include aio-new.html %}
-### [Configuration](config)
+### [Style Library](/styles/)
+### [Configuration](config)  {% include aio-new.html %}
 ### [Style Presets](style-presets)
 </div>
 
@@ -59,16 +59,16 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Art-direction
-### [NoiseFX](noisefx)  {% include aio-new.html %}
-### [PaintFX](paintfx)
-### [MNPRX Toolbox](toolbox)
+### [NoiseFX](noisefx)
+### [PaintFX](paintfx) {% include aio-new.html %}
+### [MNPRX Toolbox](toolbox)  {% include aio-new.html %}
 </div>
 
 <div class="doc-element" markdown="1">
 ## Stylizations
-### [Import/Export](import-export)
+### [Import/Export](import-export) {% include aio-new.html %}
 ### Breakdowns  {% include aio-wip.html %}
-### [Controls](controls)  {% include aio-new.html %}
+### [Controls](controls)
 </div>
 
 <div class="doc-element" markdown="1" style="white-space: nowrap;">

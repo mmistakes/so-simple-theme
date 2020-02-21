@@ -20,6 +20,22 @@ _PaintFX_ is a tool which grants [localized control of effects](#showcase) at th
 
 Each _MNPRX_ material ([uber](../uber) and [proxy](../proxy)) supports _PaintFX_, but the effects driven by _PaintFX_ depend on the loaded style. To use _PaintFX_ select an object with an _MNPRX_ material and click on the paint icon of the effect that you want to paint with.
 
+From top to bottom, these are the different elements of the PaintFX tool.
+
+<figure class="pull-left" style="margin: 0.5em 18px 0">
+	<img src="/images/MNPRX/FX/viewPassive.png" alt="View PaintFX"  style="max-height: 32px">
+</figure>
+
+On the top-left, you will find an eye icon which toggles the parameter view. This will allow you to observe the control parameters that you are currently painting.
+
+On the top-right, you will find `View vertices`, a checkbox which allows to show the vertices underneath the brush where _PaintFX_ are being applied to.
+
+<figure class="pull-left" style="margin: 0.5em 18px 0">
+	<img src="/images/MNPRX/FX/brushes.jpg" alt="Brush types"  style="max-height: 32px">
+</figure>
+
+The next row of icons allow you to set the brush stamp to use when painting the different effects.
+
 ## Paint Widgets
 Each style has different effects, therefore, the paint widgets (sections) will vary depending on the currently loaded stylization. Each widget (section) handles a specific effect/behaviour within the style e.g., _Lighting_, _Pigment turbulence_, _Color bleeding_.
 
@@ -55,9 +71,6 @@ To modify the painting values of each widget, you can use the radio buttons to q
 
 ### Reset and Flood
 The painted values can be reset or flooded (added) on the selected objects/vertices. There are two buttons for this at the bottom of each widget. These buttons are useful when you need to assign a specific value to a lot of vertices in an object, be it to reset the _PaintFX_ values or to add the effect evenly to the selected objects/components. Reset will put the values of the selected objects/vertices to zero (0) whereas flooding will add the numerical value set by the vertical slider or entered manually in the spin box.
-
-## Import/Export
-You can quickly import/export the _PaintFX_ values of the selected object by using the two buttons at the top-right of the tool window. While this works, we highly recommend using the more powerful [Import/Export Tool](../import-export/) found in the [MNPRX Toolbox](../toolbox) for this purpose.
 
 ## Showcase
 

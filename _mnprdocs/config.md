@@ -85,6 +85,10 @@ Defines the range at which the atmospheric tint will start and end.
 The units work as meter/cm, so keep the  _World Scale_ in mind when setting up this attribute.
 {: .notice--info}
 
+### Effect Focal Range
+Creates the effect focal range locators in the scene. These locators allow you to define the center of interest and an effect factor at the front and back. Based on these factors, effects like watercolor bleeding will be reduced or increased at different distances from the effect focal point.
+These locators can also be constrained/parented to a camera to have the front and back factors relative to the distance to the camera. You can learn more about this in a future tutorial. 
+
 -----------
 
 ## Ambient Occlusion

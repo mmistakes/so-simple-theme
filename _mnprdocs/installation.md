@@ -33,13 +33,13 @@ A video showing this installation process can be seen below:
 {% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" width="90%" %}
 
 
-## Example Scenes
-_MNPRX_ comes with an example scene in the _projects_ folder. However, scenes stylized with the open-source [_MNPR_ release](/software/Maya-NPR) can also be used with _MNPRX_. However, these scenes need to be updated to work with _MNPRX_, as follows.
-1. Download the example scenes from [here](https://github.com/semontesdeoca/MNPR/releases/latest)
-1. Extract them in a desired folder
-1. Set your _Maya project_ to the folder where your example scenes are `Menu, File->Set Project`
-1. Open the desired test scene `Menu, File->Open`
-1. Update the materials in the scene `right click on the 'mPre' shelf tool->Update ShaderFX materials`.
+## Demo Scenes
+You can [download demo scenes](/software/MNPRX/demo-scenes) for _MNPRX_ in a variety of styles. To open them up, follow the instructions below.
+1. Download the desired demo scene
+1. Extract the files in a desired folder
+1. Set your _Maya project_ to the folder where your demo scene is `Menu, File->Set Project`
+1. Open the demo scene `Menu, File->Open`
+1. (Optional) Update the materials in the scene `right click on the 'mPre' shelf tool->Update ShaderFX materials`.
 
 
 ## FAQ
@@ -68,11 +68,12 @@ MAYA_MODULE_PATH=#YOURMNPRXPATH#;
 MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1;
 ```
 
+<!--
 **Environment variables on Linux or MacOS**
 ```python
 MNPRX_PATH=#YOURMNPRXPATH#:
 MAYA_MODULE_PATH=#YOURMNPRXPATH#:
 MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
 ```
-
+-->
 {% include toc-side %}

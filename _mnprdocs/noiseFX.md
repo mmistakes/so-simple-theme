@@ -20,8 +20,16 @@ _NoiseFX_ is a tool which grants [procedural control of effects](#showcase) at t
 
 Each _MNPRX_ material supports _NoiseFX_, but the effects driven by _NoiseFX_ depend on the loaded style. To use _NoiseFX_ select an object with an _MNPRX_ material and modify the desired slider.
 
-## World Scale
-NoiseFX are automatically bound to the scene _World Scale_ attribute set in the [Configuration Node](../config). So make sure to set the world scale accordingly first, before adding NoiseFX.
+
+From top to bottom, these are the different elements of the NoiseFX tool.
+
+<figure class="pull-left" style="margin: 0.5em 18px 0">
+	<img src="/images/MNPRX/FX/viewPassive.png" alt="View NoiseFX"  style="max-height: 32px">
+</figure>
+
+On the top-left, you will find an eye icon which toggles the parameter view. This will allow you to observe the control parameters that you are currently affecting through the _Noise Widgets_.
+
+On the top-right, you will find the `Bake 3D` button. This button toggles the `deformed` setting in the mnprx materials, baking the current 3D position of objects. Baking is especially useful to attach the current NoiseFX patterns to an animated/deformed object. If the 3D position is not baked, NoiseFX might seem to float in 3D space on animated objects, instead of moving with them.
 
 ## Noise Widgets
 Each style has different effects, therefore, the noise widgets (sections) will vary depending on the currently loaded stylization. Each widget (section) handles a specific effect/behaviour within the style e.g., _Lighting_, _Pigment turbulence_, _Color bleeding_.
