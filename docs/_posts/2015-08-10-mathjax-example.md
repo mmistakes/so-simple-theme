@@ -3,23 +3,55 @@ title: "MathJax Example"
 date: 2015-08-10T08:08:50-04:00
 ---
 
-[MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
+[MathJax](http://www.mathjax.org/) is a simple, yet powerful, way of
+including Tex/LaTex/MathML based mathematics in HTML webpages.
 
 ## Usage
 
-To enable MathJax support be sure Kramdown is your Markdown flavor of choice and MathJax is set to true in your `_config.yml` file.
+To enable MathJax support configure your `_config.xml` to:
+ * Set `kramdown` as the Markdown parser.
+ * Enable MathJax.
+
+The version of MathJax enabled is v3.
+
+An example setting for `_config.xml` is shown below:
 
 ```yaml
 markdown: kramdown
-mathjax: true
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
 ```
 
-$$a^2 + b^2 = c^2$$
+Use `$$` as delimiters to enable TeX math mode, both for inline and display (i.e. block) rendering.
 
-Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+Here is an example equation that is inline: $$a^2 + b^2 = c^2$$, where
+$$a$$, $$b$$, and $$c$$ are variables.
 
-\\[ \frac{1}{n^{2}} \\]
+Here is a block rendering with no default equation numbering:
 
-The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become `\\[ ... \\]` and `\\( ... \\)` for inline and block maths respectively.
+$$
+\frac{1}{n^{2}}
+$$
 
-$$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
+And, below is a block using the `\begin{equation}` and
+`\end{equation}` LaTeX delimiters.  This equation will be numbered in
+the `ams` and `all` setting for `mathjax.tags`.
+
+$$
+\begin{equation}
+\mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p}    \label{test}
+\end{equation}
+$$
+
+If equation numbering is turned on, we should see an equation number here: $$\eqref{test}$$.
+
+An example using the `{align}` LaTeX environment is below.  The first equation has a `\notag` directive.
+
+$$
+\begin{align}
+(x + y) (x - y) &= x^2 + xy - xy + y^2   \notag \\
+    &= x^2 - y^2
+\end{align}
+$$

@@ -407,7 +407,26 @@ words_per_minute: 200
 
 ### Mathematics
 
-Enable [**MathJax**](https://www.mathjax.org) (a JavaScript display engine for mathematics) site-wide with `mathjax: true`.
+Enable [**MathJax**](https://www.mathjax.org) (a JavaScript display engine for mathematics) site-wide with
+
+``` yaml
+mathjax:
+  enable: true
+```
+
+The `combo` option lets you to choose a [MathJax component
+combination](http://docs.mathjax.org/en/latest/web/components/combined.html)--the
+default is "tex-svg."  And, the `tags` option lets you control
+equation numbering--choices are "ams" (default), "all", and "none."
+
+Sample configuration:
+
+``` yaml
+mathjax:
+  enable: true             # MathJax equations, e.g. true, false (default)
+  combo: "tex-svg"         # "tex-svg" (default), "tex-mml-chtml", etc.
+  tags: "ams"              # "none", "ams" (default), "all"
+```
 
 ### Google Fonts
 
