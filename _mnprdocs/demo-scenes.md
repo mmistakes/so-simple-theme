@@ -18,14 +18,15 @@ If you are not redirected automatically, please manually continue to [MNPRX Demo
 {: .pull-center}
 
 <div class="demo-img">
-{% for demo in site.data.demo['watercolor'] %}
-  <div>
-    <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
-    <p><a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
-    <i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})
-    </a></p>
-  </div> 
-{% endfor %}
+  {% for demo in site.data.demo['watercolor'] %}
+    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
+      <div>
+        <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
+        <p class="img-author"><span>Made by {{ demo.made_by }}</span></p>
+      </div>
+       <p><i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})</p>
+    </a>
+  {% endfor %}
 </div>
 --- 
 
@@ -33,14 +34,15 @@ If you are not redirected automatically, please manually continue to [MNPRX Demo
 {: .pull-center}
 
 <div class="entries-{{ page.entries_layout | default: 'list' }} demo-img">
-{% for demo in site.data.demo['frayed'] %}
-  <div >
-    <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
-    <p><a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
-    <i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})
-    </a></p>
-  </div> 
-{% endfor %}
+  {% for demo in site.data.demo['frayed'] %}
+    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
+      <div>
+        <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
+        <p class="img-author"><span>Made by {{ demo.made_by }}</span></p>
+      </div>
+      <p><i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})</p>
+    </a>
+  {% endfor %}
 </div>
 --- 
 
@@ -48,13 +50,13 @@ If you are not redirected automatically, please manually continue to [MNPRX Demo
 {: .pull-center}
 
 <div class="entries-{{ page.entries_layout | default: 'list' }} demo-img">
-{% for demo in site.data.demo['cutout'] %}
-  <div >
-    <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
-    <p><a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
-    <i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})
-    </a></p>
-  </div> 
-{% endfor %}
+  {% for demo in site.data.demo['cutout'] %}
+    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ demo.download }}" target="_blank">
+      <div>
+        <img src="/images/MNPRX/demo-scenes/{{demo.picture}}" alt="Image of {{ demo.name }}">
+        <p class="img-author"><span>Made by {{ demo.made_by }}</span></p>
+      </div>
+      <p><i class="fa fa-download" aria-hidden="true"></i> {{ demo.name }}.zip ({{demo.filesize}})</p>
+    </a>
+  {% endfor %}
 </div>
----

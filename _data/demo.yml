@@ -3,23 +3,28 @@ watercolor:
     picture: fruit-plate.jpg
     download: /2020.2/Fruit_Plate.zip
     filesize: 1.65 MB
+    made_by: Santiago Montesdeoca
   - name: Spherebot
     picture: Spherebot.gif
     download: /2020.2/Spherebot.zip
     filesize: 3.58 MB
+    made_by: Bastien Genbrugge
   - name: Wiz Biz
     picture: wiz-biz.jpg
     download: /2020.2/Wiz_Biz.zip
     filesize: 1.78 MB
+    made_by: Tom Robinson
 
 frayed:
   - name: Mech Drone
     picture: mech-drone.gif
     download: /2020.2/Mech_Drone.zip
     filesize: 12.2 MB
+    made_by: Willy Decarpentrie
 
 cutout:
   - name: Walk cycle
     picture: walk-cycle.gif
     download: /2020.2/Walk_Cycle.zip
     filesize: 335 KB
+    made_by: Santiago Montesdeoca
