@@ -1,4 +1,5 @@
 {% assign entries = site.categories[include.taxonomy] %}
+{% assign layout = page.entries_layout %}
 
 {% if include.sort_by == 'title' %}
   {% if include.sort_order == 'reverse' %}
@@ -16,4 +17,7 @@
 
 {%- for entry in entries -%}
   {% include entry.html %}
+  {% if layout == 'list' and forloop.last == false %}
+    <hr>
+  {% endif %}
 {%- endfor -%}

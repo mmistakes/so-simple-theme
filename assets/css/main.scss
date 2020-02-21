@@ -209,6 +209,9 @@ img {
     p {
       font-size: 1em;
     }
+    hr {
+      opacity: 0.3;
+    }
   }
   .entry-header {
     display: flex;
@@ -287,15 +290,44 @@ img {
   }
 }
 
+.center-blogs {
+  .entry {
+    header {
+      justify-content: center;
+    }
+  }
+  .entry-excerpt {
+    text-align: center;
+  }
+  .entry-meta {
+    text-align: center;
+  }
+}
+
 .demo-img{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-content: stretch;
   align-items: center;
+  text-align: center;
   div {
-   max-width: 400px;
-   margin-left: 1em;
+    position: relative;
+    max-width: 400px;
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .img-author {
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    bottom: 0;
+    right: 0;
+    padding:  0.25em 0.5em;
+    margin: 0 auto;
+    border-radius: 4px 0 0 0;
+    font-size: 0.7em;
   }
 }
 
