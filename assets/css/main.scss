@@ -281,6 +281,18 @@ img {
   }
 }
 
+.demo-img{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  div {
+   max-width: 400px;
+   margin-left: 1em;
+  }
+}
+
 // images
 figcaption {
   color: #666;
