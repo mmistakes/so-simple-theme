@@ -1,5 +1,5 @@
 ---
-title: Weekly blog
+title: Blog 1
 layout: page
 permalink: /blog
 entries_layout: grid
