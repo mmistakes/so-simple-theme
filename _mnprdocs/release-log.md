@@ -35,7 +35,7 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 **Demo Scenes**
 * _New_ - We are releasing the first set of demo scenes in different styles for you all to experiment with [[download](/software/MNPRX/demo-scenes)]. 
 <figure class="pull-center third">
-	<img src="/images/MNPRX/demo-scenes/spherebot.gif" alt="spherebot-watercolor">
+	<img src="/images/MNPRX/demo-scenes/Spherebot.gif" alt="spherebot-watercolor">
 	<img src="/images/MNPRX/demo-scenes/mech-drone.gif" alt="mech-drone-frayed">
 	<img src="/images/MNPRX/demo-scenes/walk-cycle.gif" alt="walk-cycle-cutout">
 	<figcaption>Demo scenes in different 3D styles</figcaption>
