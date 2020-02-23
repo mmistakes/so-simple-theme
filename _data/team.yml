@@ -35,8 +35,8 @@ antoinette:
   role: "BFA, Marketing and Sales"
   linkedin: antoinette-jade-9177a743/
 
-roland:
-  name: Roland Kasenurm
-  picture: roland.jpg
-  email: roland@artineering.io
-  role: "Working Student"
+# emilien:
+#  name: Emilien Rouger
+#  picture: emilien.jpg
+#  email: emilien@artineering.io
+#  role: "Intern"

@@ -24,7 +24,7 @@ redirect_from:
 ---
 
 ## February 2020 UPDATE
-The February 2020 update concentrates on stability and bug fixes, while at the same time bringing some useful new features in existing tools (PaintFX, NoiseFX, bulkAttr). Oh, and **MNPRX supports Maya 2020 now!**
+The February 2020 update concentrates on stability and bug fixes, while at the same time bringing some useful new features into existing tools (PaintFX, NoiseFX, bulkAttr). Oh, and **MNPRX supports Maya 2020 now!**
 
 **Upgrading notes**:  
 **[Update the materials in the scene](/software/MNPRX/docs/update/#materials)** for the PaintFX and NoiseFX tools to work with scenes that used previous versions of MNPRX.
@@ -34,6 +34,12 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 
 **Demo Scenes**
 * _New_ - We are releasing the first set of demo scenes in different styles for you all to experiment with [[download](/software/MNPRX/demo-scenes)]. 
+<figure class="pull-center third">
+	<img src="/images/MNPRX/demo-scenes/spherebot.gif" alt="spherebot-watercolor">
+	<img src="/images/MNPRX/demo-scenes/mech-drone.gif" alt="mech-drone-frayed">
+	<img src="/images/MNPRX/demo-scenes/walk-cycle.gif" alt="walk-cycle-cutout">
+	<figcaption>Demo scenes in different 3D styles</figcaption>
+</figure>
 
 **Watercolor**
 * _New_ - Control the bleeding size at different distances with the new _Effect Focal Range_ tool, which is enabled within the _config_ node [[docs](/software/MNPRX/docs/config/)].

@@ -397,7 +397,7 @@ figcaption {
 .third img {
   max-width: 100%;
   @include breakpoint($medium) {
-    max-width: 32%;
+    max-width: 31%;
   }
 }
 

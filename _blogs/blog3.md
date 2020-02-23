@@ -10,6 +10,7 @@ image:
   caption: This is a temporary header image
   thumbnail: images/logo.png
 taxonomy: blogposts3
+sitemap: false
 ---
 
 <div class="blog-list entries-{{ page.entries_layout | default: 'list' }}">

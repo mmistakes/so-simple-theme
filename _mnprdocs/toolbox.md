@@ -25,7 +25,7 @@ Importing/exporting the stylization is crucial in professional production workfl
 Only available for _Indie_ and _Studio_ licenses, the bulk attribute allows to easily change _MNPRX_ material settings and attributes in bulk. To open the tool window, click on the `Bulk Attribute` button in the _MNPRX Toolbox_.
 
 <figure class="align-center">
-	<img src="/images/MNPRX/bulkAttribute.png" alt="Bulk attribute tool" style="max-width:100%;">
+	<img src="/images/MNPRX/bulkAttribute.png" alt="Bulk attribute tool" style="max-width:600px;">
 	<figcaption>The bulk attribute tool contains the active settings of selected MNPRX materials.</figcaption>
 </figure>
 
