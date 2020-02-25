@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Sort taxonomies in `categories` and `tags` layouts by count then alphabetically. [#356](https://github.com/mmistakes/so-simple-theme/pull/356)
 
 ### Fixed
+- Fix Bundler conflicts by removing version number from gemspec. [#362](https://github.com/mmistakes/so-simple-theme/pull/362)
 - Fix `skin` paths in README. [#357](https://github.com/mmistakes/so-simple-theme/pull/357)
 
 ## [3.2.0] - 10-29-2019
