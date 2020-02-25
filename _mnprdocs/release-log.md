@@ -47,7 +47,7 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 **Frayed**
 * _Fixed_ - White edge darkening when edge darkening was reverted
 
-**Configuration Node** - [[Docs](http://localhost:4000/software/MNPRX/docs/config/)]
+**Configuration Node** - [[Docs](/software/MNPRX/docs/config/)]
 * _New_ - Effect Focal Range to create locators that modify effects at different distances.
 * _Fixed_ - Configuration node sometimes not working.
 
@@ -55,22 +55,22 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 * _New_ - Custom _UDIM_ texture node group for _ShaderFX_ materials [[tutorial](https://www.youtube.com/watch?v=jPTdqG-PjcA&t=87s)].
 * _Improved_ - Underlying management of control sets and baking for PaintFX and NoiseFX.  
 
-**PaintFX** - [[Docs](http://localhost:4000/software/MNPRX/docs/paintfx/)]
+**PaintFX** - [[Docs](/software/MNPRX/docs/paintfx/)]
 * _New_ - Visualize the PaintFX parameters that are painted onto different objects.
 * _New_ - Show vertices where PaintFX are being applied to within the brush.
 * _New_ - Choose between different brush stamps to apply PaintFX onto objects. 
 
-**NoiseFX** - [[Docs](http://localhost:4000/software/MNPRX/docs/noisefx/)]
+**NoiseFX** - [[Docs](/software/MNPRX/docs/noisefx/)]
 * _New_ - Visualize the NoiseFX parameters that are assigned to different materials.
 * _Fixed_ - Baked NoiseFX positions not loading after opening a scene
 
-**Bulkattr Tool** - [[Docs](http://localhost:4000/software/MNPRX/docs/toolbox/#bulk-attribute-)]
+**Bulkattr Tool** - [[Docs](/software/MNPRX/docs/toolbox/#bulk-attribute-)]
 * _New_ - Now you can use the bulk attribute tool to modify all the different attributes of selected materials. This speeds up the workflow considerably on complex scenes with multiple objects and many materials.
 
 The Bulkattr tool is available only for **Indie/Studio** subscribers.
 {: .notice--info}
 
-**Import/Export tool** - [[Docs](http://localhost:4000/software/MNPRX/docs/toolbox/)]
+**Import/Export tool** - [[Docs](/software/MNPRX/docs/toolbox/)]
 * _New_ - Option to export/import from to selected objects only
 * _Improved_ - Speed at which stylization is imported into the scene
 * _Fixed_ - Progress dialog not showing in-between percentages
