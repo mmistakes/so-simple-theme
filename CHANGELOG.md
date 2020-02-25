@@ -8,8 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] -
 
 ### Changed
-- Updated MathJax to v3.  Added options to select component
-  combination (e.g. tex-svg) and equation numbering (e.g. AMS).
+- Update MathJax to v3. Add options to select component combination 
+  (e.g. tex-svg) and equation numbering (e.g. AMS). [#368](https://github.com/mmistakes/so-simple-theme/pull/368)
 
 ### Added
 - Add Turkish translations to `text.yml`. [#355](https://github.com/mmistakes/so-simple-theme/pull/355)
