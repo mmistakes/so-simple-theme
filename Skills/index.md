@@ -16,6 +16,11 @@ image:
  
 **Technical**
    
+   * Inmersion days :
+      
+      * Severless
+      * Data Engineering
+   
    * AWS Services :
       
       * AWS EC2
