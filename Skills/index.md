@@ -25,11 +25,10 @@ image:
       
       * AWS EC2
       * AWS Lambda
-      * AWS Elastic Load Balancer
       * AWS S3
-      * AWS EBS
+      * AWS Gamelift
       * AWS IAM
-      * Amazon VPC
+      * Amazon Appstream
       * AWS CloudWatch
  
 **Technologies**
