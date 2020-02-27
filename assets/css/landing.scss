@@ -10,7 +10,6 @@ sitemap: false
 @include breakpoint-set("to ems", true);
 
 .landing-logo{
-  margin-top: 4em;
   .site-logo-img {
     width: 6.5em;
     height: auto;
@@ -27,7 +26,7 @@ sitemap: false
 }
 
 .landing-title {
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-bottom: 3em;
   font-size: 2em;
   h1::after {

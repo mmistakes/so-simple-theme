@@ -1,4 +1,4 @@
-{% if page.image %}
+{% if page.image.header %}
   {% assign page_image = page.image.header | default: page.image %}
   {% unless page_image contains '://' %}
     {% assign page_image = page_image | relative_url %}

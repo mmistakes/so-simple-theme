@@ -42,6 +42,7 @@ img {
   border-top: none;
 }
 .main-content {
+  margin-top: 3em;
   overflow: hidden;
 }
 .full-width {
@@ -151,7 +152,7 @@ img {
     font-weight: 400;
   }
   .site-logo-img {
-    margin-top: 4em;
+    margin-top: 2.5em;
     margin-bottom: 0em;
     max-width: 5em;
     max-height: 5em;
@@ -165,14 +166,17 @@ img {
     font-size: 1.55em;
     color: #666;
   }
+  margin-bottom: -3em;
 }
 
 
 // header
 .page-image {
   margin-top: 0;
+  margin-bottom: 0;
 }
 .page-title {
+  margin-top: 0.8em;
   font-style: normal;
   font-size: 1.5em;
   @include breakpoint($medium) {

@@ -13,7 +13,10 @@ redirect_from:
 Proxy materials are invisible materials that only render to the stylization control maps within MNPRX, modifying stylization effects. As this may sound abstract, please watch the following tutorial demonstrating its usage within a watercolor stylization.
 {: .top2}
 
-{% include responsive-embed url="https://www.youtube.com/embed/QD9cX0Y8WRE" ratio="16:9" width="90%" %}
+{% include responsive-embed ratio="16:9" width="90%"
+url="https://www.youtube.com/embed/QD9cX0Y8WRE"
+local="/Working With Proxies.mp4" %}
+
 
 It may take some time to get used to working with proxy materials, but these provide unique versatility, as they portray standalone stylization elements in the scene. They can help stylize at a high level of control---affecting the whole image by being placed in front of the camera---, down to a low level of control---affecting a specific part in 3D space.
 

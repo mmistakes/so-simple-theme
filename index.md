@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: page
 excerpt: "Stylized 3D rendering in real-time"
 search: true
 ---

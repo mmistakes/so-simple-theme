@@ -1,6 +1,6 @@
 <header class="masthead">
   <div class="wrap">
-    {% assign page_image = page.image.header | default: page.image %}
+    {% assign page_image = page.image.header %}
     {% unless page_image %}
       {% if site.logo %}
           <img src="{{ site.logo | relative_url }}" class="site-logo-img animated fadeInDown" alt="{{ site.title }}">

@@ -18,5 +18,17 @@
 {%- endif -%}
 
 <div class="responsive-embed {{ ratio_class }}" style="width:{{ width }};margin-right:auto;margin-left:auto;">
+
+{%- if jekyll.environment == 'production' -%}
   <iframe src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
+{%- else -%}
+  {%- if include.local -%}
+    <video controls="">
+      <source src="G:/My Drive/Sandbox/Tutorials{{ include.local }}" type="video/mp4">
+    </video>
+  {%- else -%}
+    <p class="notice--warning">Local video file is missing</p>
+  {%- endif -%}
+{%- endif -%}
+
 </div>

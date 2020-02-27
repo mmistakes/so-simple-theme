@@ -33,7 +33,7 @@ schema: ContactPoint
 <div class="main-twitter">
 <h2>Twitter Feed</h2>
 <div class="twitter-news">
-<a class="twitter-timeline" data-height="800" href="https://twitter.com/{{site.author.twitter}}" data-chrome="nofooter noheader noborders" data-tweet-limit="3">Please allow cookies to display News</a>
+<a class="twitter-timeline" data-height="800" href="https://twitter.com/{{site.twitter.username}}" data-chrome="nofooter noheader noborders" data-tweet-limit="4">Please allow cookies to display News</a>
 </div>
 </div>
 </div>
