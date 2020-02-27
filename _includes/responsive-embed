@@ -23,11 +23,11 @@
   <iframe src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
 {%- else -%}
   {%- if include.local -%}
-    <video controls="">
-      <source src="G:/My Drive/Sandbox/Tutorials{{ include.local }}" type="video/mp4">
+    <video controls>
+      <source src="/videos{{ include.local }}" type="video/mp4">
     </video>
   {%- else -%}
-    <p class="notice--warning">Local video file is missing</p>
+    <iframe src="{{ include.url }}" frameborder="0" allowfullscreen></iframe>
   {%- endif -%}
 {%- endif -%}
 
