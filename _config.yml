@@ -111,14 +111,13 @@ defaults:
 
 # Site Author
 author:
-  name: Arthineering
+  name: Artineering
   picture: /images/logo.jpg
-  email: santiago@artineering.io
-  twitter: artineering
-  links:
-    - title:
-      url:
-      icon:
+  email: hello@artineering.io
+
+twitter:
+  card: summary_large_image
+  username: artineering
 
 # Footer Links
 footer_links:
