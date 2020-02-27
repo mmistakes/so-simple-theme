@@ -9,9 +9,9 @@ excerpt: Watercolor in 3D
 year: 2015-current
 tags: [MNPR, NPR, stylization, Real-time, Watercolor, Art-directed, Research, Maya, Software]
 image:
-  path: images/headers/watercolor.jpg
+  header: images/headers/watercolor.jpg
   caption: "Montesdeoca et al. - Henry model © Oculus Story Studio"
-  card: images/cards/watercolor.jpg
+  path: images/cards/watercolor.jpg
   thumbnail: images/tiles/watercolor.png
 comments: true
 share: true

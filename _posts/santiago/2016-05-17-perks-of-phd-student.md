@@ -8,9 +8,9 @@ type: Blog
 excerpt: "My first paper, my last two classes, watercolor shortfilm/test, Lindy Hop performance and my first conference: Expressive 2016 (Jan-May 2016)"
 tags: [Santiago, Expressive]
 image:
-  path: images/about/santiago/2016/lisbonHeader.jpg
+  header: images/about/santiago/2016/lisbonHeader.jpg
   caption: Lisbon - Portugal 2016
-  card: images/about/santiago/2016/lisbonCard.jpg
+  path: images/about/santiago/2016/lisbonCard.jpg
   thumbnail:
 comments: true
 share: true

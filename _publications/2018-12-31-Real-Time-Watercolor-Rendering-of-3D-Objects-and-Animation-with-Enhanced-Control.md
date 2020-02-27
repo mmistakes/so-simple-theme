@@ -14,9 +14,9 @@ publisher: Interdisciplinary Graduate School
 pages: 1-184
 tags: [watercolor, art-directed, expressive, NPR, research, MNPR]
 image:
-  path: images/headers/santiago-phd.png
+  header: images/headers/santiago-phd.png
   caption: "Real-time Watercolor Rendering of 3D Objects and Animation with Enhanced Control"
-  card: images/cards/santiago-phd.jpg
+  path: images/cards/santiago-phd.jpg
   thumbnail:
 comments: true
 share: true

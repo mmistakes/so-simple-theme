@@ -5,9 +5,9 @@ title: MNPRX Release
 excerpt: New MNPRX release!
 type: Release
 image:
-  path: images/headers/MNPRX.jpg
+  path: images/cards/MNPRX.jpg
+  header: images/headers/MNPRX.jpg
   caption: Stylized rendering for Autodesk Maya
-  card: images/cards/MNPRX.jpg
   thumbnail:
 schema:
 redirect_from:

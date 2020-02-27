@@ -8,9 +8,9 @@ type: Blog
 excerpt: "Back in Singapore, preparing for two conferences: Expressive and Siggraph 2017 (Feb 2017 - Aug 2017)"
 tags: [Santiago, MNPR]
 image:
-  path: images/about/santiago/2017/singaporeHeader.jpg
+  header: images/about/santiago/2017/singaporeHeader.jpg
   caption: Chinatown, Singapore, Spring 2017
-  card: images/about/santiago/2017/singaporeCard.jpg
+  path: images/about/santiago/2017/singaporeCard.jpg
   thumbnail:
 comments: true
 share: true

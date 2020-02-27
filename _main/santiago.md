@@ -6,7 +6,7 @@ taxonomy: santiago
 permalink: /about/santiago
 excerpt: "Santiago Montesdeoca's corner"
 image:
-  path: images/about/santiago/about.jpg
+  header: images/about/santiago/about.jpg
   caption: Yogyakarta - Indonesia 2018
 schema: AboutPage
 search: false

@@ -4,9 +4,9 @@ permalink: /software/MNPRX/demo-scenes
 title: MNPRX Demo Scenes
 excerpt: Demo scenes to use with MNPRX
 image:
-  path: images/headers/MNPRX.jpg
+  path: images/cards/MNPRX.jpg
+  header: images/headers/MNPRX.jpg
   caption: Stylized rendering for Autodesk Maya
-  card: images/cards/MNPRX.jpg
   thumbnail:
 entries_layout: grid
 ---

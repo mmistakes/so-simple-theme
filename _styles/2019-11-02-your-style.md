@@ -9,7 +9,7 @@ excerpt: Your unique style in 3D
 year: 2019-current
 tags: [MNPR, NPR, stylization, Real-time, Frayed, Art-directed, Research, Maya, Software]
 image:
-  path: images/headers/expressive2018.jpg
+  header: images/headers/expressive2018.jpg
   caption: "We can develop your own unique style"
   thumbnail: images/tiles/your-style.png
 comments: true

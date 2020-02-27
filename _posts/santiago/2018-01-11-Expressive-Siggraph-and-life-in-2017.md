@@ -8,9 +8,9 @@ type: Blog
 excerpt: "Expressive and Siggraph 2017, keying of effects, a new stylized multi-platform rendering framework and life in 2017 (Aug 2017 - Dec 2017)"
 tags: [Santiago, SIGGRAPH, Expressive, MNPR]
 image:
-  path: images/about/santiago/2017/siggraph-expressiveHeader.jpg
+  header: images/about/santiago/2017/siggraph-expressiveHeader.jpg
   caption: LA Convention Center, Los Angeles, August 2017
-  card: images/about/santiago/2017/siggraph-expressiveCard.jpg
+  path: images/about/santiago/2017/siggraph-expressiveCard.jpg
   thumbnail:
 comments: true
 share: true

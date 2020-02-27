@@ -8,9 +8,9 @@ excerpt: Guest lecturing and hands-on peer programming sessions at the Filmakade
 year: 2019
 tags: [Animationsinstitut, Filmakademie Baden-Württemberg, Seminar]
 image:
-  path: images/headers/filmaka2019.jpg
+  header: images/headers/filmaka2019.jpg
   caption: "Baba Yaga's Hut, scene by Inuciian"
-  card: images/cards/filmaka2019.jpg
+  path: images/cards/filmaka2019.jpg
   thumbnail: images/tiles/filmakademie2019.png
 comments: true
 share: true

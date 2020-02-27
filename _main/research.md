@@ -3,7 +3,7 @@ layout: about-page
 title: Research
 excerpt: Artineering Publications
 image:
-  path: images/about/winter.jpg
+  header: images/about/winter.jpg
   caption: Photo of Tallinn by Jaanus Jagomägi
 entries_layout: list
 sort_by: date

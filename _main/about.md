@@ -3,7 +3,7 @@ layout: about-page
 title: Our Story
 excerpt: About Artineering and the Team
 image:
-  path: images/about/winter.jpg
+  header: images/about/winter.jpg
   caption: Photo of Tallinn by Jaanus Jagomägi
 schema: AboutPage
 ---

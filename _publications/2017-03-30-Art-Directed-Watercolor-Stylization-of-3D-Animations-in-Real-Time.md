@@ -13,9 +13,9 @@ publisher: Elsevier
 pages: 60-72
 tags: [Watercolor, NPR, direct-stylization, real-time, research, journal]
 image:
-  path: images/headers/cag2017.jpg
+  header: images/headers/cag2017.jpg
   caption: "[Montesdeoca et al.] - Henry © Oculus Story Studio"
-  card: images/cards/cag2017.jpg
+  path: images/cards/cag2017.jpg
   thumbnail:
 comments: true
 share: true

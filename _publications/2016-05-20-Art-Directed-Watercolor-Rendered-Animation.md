@@ -14,9 +14,9 @@ publisher: The Eurographics Association
 pages: 51-58
 tags: [Watercolor, art-directed, Expressive, NPR, research, conference]
 image:
-  path: images/headers/expressive2016.jpg
+  header: images/headers/expressive2016.jpg
   caption: "[Montesdeoca et al.] - Henry © Oculus Story Studio"
-  card: images/cards/expressive2016.jpg
+  path: images/cards/expressive2016.jpg
   thumbnail:
 comments: true
 share: true

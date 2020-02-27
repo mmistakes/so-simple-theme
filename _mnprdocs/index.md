@@ -7,9 +7,9 @@ permalink: /software/MNPRX/docs/
 excerpt: MNPRX Documentation, tutorials, FAQ, API
 tags: [Docs, NPR, Real-time, Maya, Software]
 image:
-  path: images/headers/MNPRX-Docs.jpg
+  path: images/cards/MNPRX-Docs.jpg
+  header: images/headers/MNPRX-Docs.jpg
   caption: "Stylized by Joan Cabot using MNPR - Watercolor"
-  card: images/cards/MNPRX-Docs.jpg
   thumbnail:
 comments: true
 schema: SoftwareApplication

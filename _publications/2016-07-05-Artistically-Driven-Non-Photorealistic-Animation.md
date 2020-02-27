@@ -12,9 +12,9 @@ year: 2016
 publisher: The Society of Animation Studies
 tags: [NPR, art-directed, research, conference, SAS]
 image:
-  path: images/headers/sas2016.jpg
+  header: images/headers/sas2016.jpg
   caption: "Presenting at The Cosmos of Animation - Stylized with [Percolator](https://itunes.apple.com/en/app/percolator/id385454903)"
-  card: images/cards/sas2016.jpg
+  path: images/cards/sas2016.jpg
   thumbnail:
 comments: true
 share: true

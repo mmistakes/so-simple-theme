@@ -14,9 +14,9 @@ publisher: ACM
 pages: 18
 tags: [Watercolor, MNPR, art-directed, SIGGRAPH, NPR, research, conference]
 image:
-  path: images/headers/siggraph2017.jpg
+  header: images/headers/siggraph2017.jpg
   caption: "[Montesdeoca et al.] - Spherebot, model by Bastien Genbrugge."
-  card: images/cards/siggraph2017.jpg
+  path: images/cards/siggraph2017.jpg
   thumbnail:
 comments: true
 share: true

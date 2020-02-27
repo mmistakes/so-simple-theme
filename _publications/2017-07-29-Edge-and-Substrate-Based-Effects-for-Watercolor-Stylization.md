@@ -13,9 +13,9 @@ publisher: ACM
 pages: 2:1-2:10
 tags: [Watercolor, art-directed, Expressive, NPR, research, conference]
 image:
-  path: images/headers/expressive2017.jpg
+  header: images/headers/expressive2017.jpg
   caption: "[Montesdeoca et al.] - Still Life, model by Dylan Sisson © Pixar Animation Studios."
-  card: images/cards/expressive2017.jpg
+  path: images/cards/expressive2017.jpg
   thumbnail:
 comments: true
 share: true

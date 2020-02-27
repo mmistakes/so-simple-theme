@@ -8,9 +8,9 @@ type: Blog
 excerpt: "My final semester as a PhD student, open-sourcing code, juggling papers, thesis and somehow keeping up with life in Singapore, China, Malaysia, Indonesia and Japan (Jan 2018 - Aug 2018)"
 tags: [Santiago, MNPR, EF]
 image:
-  path: images/about/santiago/2018/final-semesterHeader.jpg
+  header: images/about/santiago/2018/final-semesterHeader.jpg
   caption: Wandering the streets of Hong Kong, China.
-  card: images/about/santiago/2018/final-semesterCard.jpg
+  path: images/about/santiago/2018/final-semesterCard.jpg
   thumb:
 comments: true
 share: true

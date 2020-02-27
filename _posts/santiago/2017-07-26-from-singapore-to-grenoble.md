@@ -8,9 +8,9 @@ type: Blog
 excerpt: "Internship at Inria in Grenoble - Rhône-Alpes, my first journal publication, teaching Rigging for Animation (Oct 2016 - Feb 2017)"
 tags: [Santiago, INRIA]
 image:
-  path: images/about/santiago/2016/inriaHeader.jpg
+  header: images/about/santiago/2016/inriaHeader.jpg
   caption: Inria Grenoble, Rhône-Alpes, Fall 2016
-  card: images/about/santiago/2016/inriaCard.jpg
+  path: images/about/santiago/2016/inriaCard.jpg
   thumbnail:
 comments: true
 share: true
