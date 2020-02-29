@@ -64,21 +64,12 @@ The construction history will be in place and you can now animate the _PaintFX_ 
 <div class="accordion" markdown="1">
 
 #### My scene is all white once I load MNPRX
-<div markdown="1">
+<div markdown="1"> 
 There are many reasons why this might be happening, we'll list them up from most to less frequent
 * The [world scale](/software/MNPRX/docs/config/#world-scale) is not properly set up for the scene.
 * The scene might have been created with an older version of MNPRX and you need to [update the materials](/software/MNPRX/docs/update/#materials).
 * Your GPU may be running out of memory. This is unlikely, but can happen if a lot of textures are in the scene.  
 You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
-</div>
-
-#### Objects are not casting shadows
-<div markdown="1">
-<figure class="pull-right">
-	<img src="/images/faq/enabling-shadows.png" alt="Enabling viewport shadows">
-	<figcaption>Enable viewport shadows here.</figcaption>
-</figure>
-Make sure to enable shadows in the viewport. We have done a video tutorial on [Working with Shadow Maps in the Maya Viewport](https://www.youtube.com/watch?v=j2Oy3djmQZk), which explains how to make the most out of Maya's shadow maps.
 </div>
 
 #### Some objects are missing when I render
@@ -100,3 +91,4 @@ If you don't find your question here, feel free to reach out to us through the [
    heightStyle: "content"
    });
 </script>
+
