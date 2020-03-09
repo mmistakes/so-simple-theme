@@ -788,13 +788,17 @@ p .btn--aio {
   background-color: #fff;
 
   .toggler {
+    white-space: nowrap;
     color: #aaa;
     transition: .2s;
     font-weight: bold;
     .pricing-banner {
       display: inline-block;
       position: relative;
-      min-width: 130px;
+      min-width: 105px;
+      @media (min-width: 900px) {
+        min-width: 130px;
+      }
       margin: -4px 0;
       background-color: black;
       border-left: 12px solid white;
@@ -813,7 +817,7 @@ p .btn--aio {
         color: #fff;
         width: 100%;
         text-align: center;
-        margin: -12.5px 0 0;
+        margin: -0.75em 0 0;
         position:absolute;
       }
     }
