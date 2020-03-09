@@ -11,15 +11,28 @@
   <h2 id="getit">Pricing</h2>
 
   <!-- toggler -->
-  <label class="toggler toggler--is-active" id="filt-monthly">Monthly</label>
-  <div class="toggle">
-    <input type="checkbox" id="switcher" class="check">
-    <b class="b switch"></b>
+  <div class="toggler">
+    <div id="state-m-caption" class="pricing-banner transparent">
+      <p>Stay Flexible</p>
+    </div>
+    <div class="toggle">
+      <input id="state-m" type="radio" name="duration" class="check"/>
+      <input id="state-q" type="radio" name="duration" class="check" checked="checked"/>
+      <input id="state-y" type="radio" name="duration" class="check"/>
+      <b class="b switch"></b>
+    </div>
+    <div id="state-y-caption" class="pricing-banner transparent">
+      <p>Best Value!</p>
+    </div>
+    <div class="toggle-options">
+      <label  id="filt-monthly">Monthly</label>
+      <label  class="toggler--is-active" id="filt-quarterly">Quarterly</label>
+      <label  id="filt-yearly">Yearly</label>
+    </div>
   </div>
-  <label class="toggler" id="filt-yearly">Yearly</label>
 
   <!-- monthly pricing table -->
-  <div id="monthly" class="pricing-table">
+  <div id="monthly" class="pricing-table hide">
     <div class="pricing-plan">
       <i class="fas fa-dove fa-3x"></i>
 
@@ -29,6 +42,7 @@
         <li>Non commercial use<sup><a href="#footprint">1</a></sup></li>
         <li>No anti-aliasing</li>
         <li>Render at up to 1080<span style="text-transform: none;">p</span></li>
+        <li>Basic toolset</li>
         <li>Community-based support</li>
       </ul>
 
@@ -40,7 +54,7 @@
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Non-commercial license<sup><a href="#footprint">5</a></sup></span>
+        <span>Non-commercial license<sup><a href="#footprint">6</a></sup></span>
       </div>
 
       <!-- purchase button -->
@@ -60,19 +74,19 @@
           private individuals/teams and small companies<sup><a href="#footprint">2</a></sup></li>
         <li>Anti-aliasing</li>
         <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
         <li>Email support</li>
       </ul>
 
       <!-- price -->
       <div class="pricing-price">
-        <!--<span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>-->
         <span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>
         <p>- per-seat<sup><a href="#footprint">4</a></sup> -</p>
       </div>
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Indie licenses<sup><a href="#footprint">5</a></sup>: </span>
+        <span>Quantity: </span>
         <select data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-item-quantity-value>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -95,9 +109,11 @@
       <h3>MNPRX Studio</h3>
       <ul>
         <li>Commercial use<br>
-          for companies/teams of any size</li>
+          for companies/teams<br>
+          of any size</li>
         <li>Anti-aliasing</li>
         <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
         <li>Live support</li>
       </ul>
 
@@ -109,7 +125,7 @@
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Studio licenses<sup><a href="#footprint">5</a></sup>: </span>
+        <span>Quantity: </span>
         <select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -133,9 +149,8 @@
   </div> <!-- end monthly pricing-table -->
 
 
-
-  <!-- yearly pricing table -->
-  <div id="yearly" class="pricing-table hide">
+  <!-- quarterly pricing table -->
+  <div id="quarterly" class="pricing-table">
     <div class="pricing-plan">
       <i class="fas fa-dove fa-3x"></i>
 
@@ -145,6 +160,7 @@
         <li>Non commercial use<sup><a href="#footprint">1</a></sup></li>
         <li>No anti-aliasing</li>
         <li>Render at up to 1080<span style="text-transform: none;">p</span></li>
+        <li>Basic toolset</li>
         <li>Community-based support</li>
       </ul>
 
@@ -156,7 +172,7 @@
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Non-commercial license<sup><a href="#footprint">5</a></sup></span>
+        <span>Non-commercial license<sup><a href="#footprint">6</a></sup></span>
       </div>
 
       <!-- purchase button -->
@@ -176,19 +192,136 @@
           private individuals/teams and small companies<sup><a href="#footprint">2</a></sup></li>
         <li>Anti-aliasing</li>
         <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
         <li>Email support</li>
       </ul>
 
       <!-- price -->
       <div class="pricing-price">
-        <!--<span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>-->
-        <span data-fsc-item-path="mnprx-indie-yearly" data-fsc-item-price></span><span>/year</span>
+        <span data-fsc-item-path="mnprx-indie-quarterly" data-fsc-item-price></span><span>/3 months</span>
         <p>- per-seat<sup><a href="#footprint">4</a></sup> -</p>
       </div>
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Indie licenses<sup><a href="#footprint">5</a></sup>: </span>
+        <span>Quantity: </span>
+        <select data-fsc-item-path-value="mnprx-indie-quarterly" data-fsc-item-quantity-value>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+
+      <!-- purchase button -->
+      <p>
+        <a class="btn btn--aio" data-fsc-item-path="mnprx-indie-quarterly" data-fsc-item-path-value="mnprx-indie-quarterly" data-fsc-action="Update, Checkout">Purchase</a>
+      </p>
+    </div> <!-- end Indie -->
+
+
+    <div class="pricing-plan">
+      <i class="fab fa-fort-awesome fa-3x"></i>
+
+      <!-- features -->
+      <h3>MNPRX Studio</h3>
+      <ul>
+        <li>Commercial use<br>
+          for companies/teams<br>
+          of any size</li>
+        <li>Anti-aliasing</li>
+        <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
+        <li>Live support</li>
+      </ul>
+
+      <!-- price -->
+      <div class="pricing-price">
+        <span data-fsc-item-path="mnprx-studio-quarterly" data-fsc-item-price></span><span>/3 months</span>
+        <p>- per-seat<sup><a href="#footprint">4</a></sup> -</p>
+      </div>
+
+      <!-- quantity -->
+      <div class="pricing-quantity">
+        <span>Quantity: </span>
+        <select data-fsc-item-path-value="mnprx-studio-quarterly" data-fsc-item-quantity-value>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <!-- purchase button -->
+      <p>
+        <a class="btn btn--aio" data-fsc-item-path="mnprx-studio-quarterly" data-fsc-item-path-value="mnprx-studio-quarterly" data-fsc-action="Update, Checkout">Purchase</a>
+      </p>
+    </div> <!-- end Studio -->
+
+  </div> <!-- end monthly pricing-table -->
+
+
+  <!-- yearly pricing table -->
+  <div id="yearly" class="pricing-table hide">
+    <div class="pricing-plan">
+      <i class="fas fa-graduation-cap fa-3x"></i>
+      <!-- features -->
+      <h3>MNPRX EDU</h3>
+      <ul class="space-out">
+        <li>Educational use<sup><a href="#footprint">1</a></sup></li>
+        <li>Anti-aliasing</li>
+        <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
+        <li>Community-based support</li>
+      </ul>
+
+      <!-- price -->
+      <div class="pricing-price">
+        <span>Reach out to us!</span>
+        <p>- per seat/per year -</p>
+      </div>
+
+      <!-- quantity -->
+      <div class="pricing-quantity">
+        <span>Non-commercial license<sup><a href="#footprint">6</a></sup></span>
+      </div>
+
+      <!-- purchase button -->
+      <p>
+        <a class="btn btn--aio" href="/contact">Contact us</a>
+      </p>
+    </div> <!-- end Education -->
+
+
+    <div class="pricing-plan">
+      <i class="fas fa-home-alt fa-3x"></i>
+
+      <!-- features -->
+      <h3>MNPRX Indie</h3>
+      <ul>
+        <li>Commercial use for<br>
+          private individuals/teams and small companies<sup><a href="#footprint">2</a></sup></li>
+        <li>Anti-aliasing</li>
+        <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
+        <li>Email support</li>
+      </ul>
+
+      <!-- price -->
+      <div class="pricing-price">
+        <span data-fsc-item-path="mnprx-indie-yearly" data-fsc-item-price></span><span>/year</span>
+        <p>- per-seat<sup><a href="#footprint">4</a></sup> - <b>two months free!</b><sup><a href="#footprint">5</a></sup> -</p>
+      </div>
+
+      <!-- quantity -->
+      <div class="pricing-quantity">
+        <span>Quantity: </span>
         <select data-fsc-item-path-value="mnprx-indie-yearly" data-fsc-item-quantity-value>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -211,21 +344,23 @@
       <h3>MNPRX Studio</h3>
       <ul>
         <li>Commercial use<br>
-          for companies/teams of any size</li>
+          for companies/teams<br>
+          of any size</li>
         <li>Anti-aliasing</li>
         <li>Render at up to 16K<sup><a href="#footprint">3</a></sup></li>
+        <li>Production toolset</li>
         <li>Live support</li>
       </ul>
 
       <!-- price -->
       <div class="pricing-price">
         <span data-fsc-item-path="mnprx-studio-yearly" data-fsc-item-price></span><span>/year</span>
-        <p>- per-seat<sup><a href="#footprint">4</a></sup> -</p>
+        <p>- per-seat<sup><a href="#footprint">4</a></sup> - <b>two months free!</b><sup><a href="#footprint">5</a></sup> -</p>
       </div>
 
       <!-- quantity -->
       <div class="pricing-quantity">
-        <span>Studio licenses<sup><a href="#footprint">5</a></sup>: </span>
+        <span>Quantity: </span>
         <select data-fsc-item-path-value="mnprx-studio-yearly" data-fsc-item-quantity-value>
           <option value="1">1</option>
           <option value="2">2</option>
