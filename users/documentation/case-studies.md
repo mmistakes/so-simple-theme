@@ -27,6 +27,42 @@ versions noted and seeds fixed)</span> and
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+# *Stan Case Studies*, &nbsp; Volume 7 &nbsp; (2020)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Stan Notebooks in the Cloud
+
+<small>This report shows you how to author a Jupyter Notebook for your Stan
+model and data so that anyone with a modern web browser and a Google account
+can run your analysis with Google Colaboratory free cloud servers.  It shows
+you how to quickly set up a Stan installation in the cloud and introduces
+two lightweight interfaces: 
+[CmdStanR](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) and
+[CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/index.html).</small>
+
+
+[View](case-studies/jupyter_colab_notebooks_2020.html) <span class="note">(HTML)</span>
+
+Author
+: Mitzi Morris
+
+Keywords
+: Jupyter, Google Colab, teaching Stan, online classroom, cloud computing
+
+Source Repository
+: [example-models/knitr/cloud-compute-2020](https://github.com/stan-dev/example-models/tree/master/knitr/cloud-compute-2020)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">internet connection, Google account</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+
 # *Stan Case Studies*, &nbsp; Volume 6 &nbsp; (2019)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
