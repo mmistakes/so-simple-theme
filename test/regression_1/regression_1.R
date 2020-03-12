@@ -1,7 +1,7 @@
 library("rstan")
 library("cmdstanr")
 set_cmdstan_path("~/cmdstan-2.22.1/") # set to your local install of cmdstan
-setwd("~/git/stan-dev.github.io/test/regression") #set to where the folder containing this file
+setwd("~/git/stan-dev.github.io/test/regression_1") #set to where the folder containing this file
 
 #Run from command line: Rscript regression_1.R
 
