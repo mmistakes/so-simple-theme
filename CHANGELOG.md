@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] -
 
 ### Changed
+- Improve readability of text on smaller screens by increasing minimum font-size from `14` to `16px`.
+- Replace font-size sizes with `rem` units instead of `em`.
 - Update MathJax to v3. Add options to select component combination 
   (e.g. tex-svg) and equation numbering (e.g. AMS). [#368](https://github.com/mmistakes/so-simple-theme/pull/368)
 - Sort taxonomies in `categories` and `tags` layouts by count then alphabetically. [#356](https://github.com/mmistakes/so-simple-theme/pull/356)
