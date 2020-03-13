@@ -20,7 +20,7 @@ blockquote {
   background-color: mix($background-color, $accent-color, 90%);
   border-left-color: $accent-color;
 }
-  
+
 /* ==========================================================================
    Site-wide
    ========================================================================== */
@@ -30,11 +30,11 @@ blockquote {
     color: $text-color;
   }
 }
-  
+
 .copyright {
-  color: lighten($text-color, 35%);
+  color: lighten($text-color, 25%);
   a {
-    color: lighten($text-color, 35%);
+    color: lighten($text-color, 25%);
   }
 }
 
@@ -131,12 +131,12 @@ blockquote {
 .pagination {
   li {
     a {
-      color: mix(#000, $border-color, 25%);
+      color: mix($text-color, $border-color, 50%);
       border-color: $border-color;
 
       &.current,
       &.current.disabled {
-        @include yiq-contrasted(mix(#000, $border-color, 25%));
+        @include yiq-contrasted(mix($text-color, $border-color, 50%));
       }
 
       &.disabled {
@@ -180,11 +180,11 @@ td {
   border-bottom-color: $border-color;
 }
 
-  
+
 /* ==========================================================================
    NOTICE TEXT BLOCKS
    ========================================================================== */
-  
+
 /* Default notice */
 .notice {
   @include notice(lighten($base-color, 90%));
@@ -219,7 +219,7 @@ td {
 .notice--info {
   @include notice(mix(#fff, $info-color, 70%));
 }
-  
+
 /* ==========================================================================
    Accessibility Modules
    ========================================================================== */

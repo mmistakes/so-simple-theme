@@ -10,14 +10,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Update MathJax to v3. Add options to select component combination 
   (e.g. tex-svg) and equation numbering (e.g. AMS). [#368](https://github.com/mmistakes/so-simple-theme/pull/368)
+- Sort taxonomies in `categories` and `tags` layouts by count then alphabetically. [#356](https://github.com/mmistakes/so-simple-theme/pull/356)
 
 ### Added
 - Add Turkish translations to `text.yml`. [#355](https://github.com/mmistakes/so-simple-theme/pull/355)
 
-### Changed
-- Sort taxonomies in `categories` and `tags` layouts by count then alphabetically. [#356](https://github.com/mmistakes/so-simple-theme/pull/356)
-
 ### Fixed
+- Fix contrast of pagination and copyright text in `default` and `dark` skins.
 - Fix rake vulnerability in `.gemspec` file.
 - Fix Bundler conflicts by removing version number from gemspec. [#362](https://github.com/mmistakes/so-simple-theme/pull/362)
 - Fix `skin` paths in README. [#357](https://github.com/mmistakes/so-simple-theme/pull/357)
