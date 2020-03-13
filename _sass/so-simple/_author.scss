@@ -3,14 +3,16 @@
    ========================================================================== */
 
 .author-avatar {
-  display: none;
+  margin-right: 1em;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
 
   @include breakpoint($large) {
-    display: inline;
+    margin-right: 0;
     margin-bottom: 1em;
     width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    height: auto;
   }
 }
 
