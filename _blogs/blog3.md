@@ -1,9 +1,9 @@
 ---
-title: Founders corner
+title: Founder's Corner
 layout: page
 permalink: /blog3
 entries_layout: list
-excerpt: This is a short introduction for this blog series
+excerpt: Follow our journey from the beginning until now
 place: You can add extra text under the thumbnail
 image:
   path: /images/headers/MNPRX-Docs.jpg
