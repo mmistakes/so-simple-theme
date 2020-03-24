@@ -31,9 +31,7 @@ In the meantime, please continue to send in talks and session proposals! If you 
 Thank you everyone,
 Stan Conference Organizing Committee
 stancon@mc-stan.org
-
 </div>
-
 
 
 ## [Details](#details)
