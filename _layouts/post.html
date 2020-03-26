@@ -3,15 +3,16 @@ layout: default
 ---
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
+  {%- assign schema = page.schema | default: "BlogPosting" -%}
+  <article class="h-entry" itemscope itemtype="http://schema.org/{{schema}}">
     {% include page-image.html %}
     <div class="page-wrapper">
       <header class="page-header">
         {% assign title = page.title | markdownify | strip_html %}
         {% if page.link %}
-          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+          <h1 id="page-title" class="page-title p-name" itemprop="headline"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
         {% else %}
-          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+          <h1 id="page-title" class="page-title p-name" itemprop="headline">{{ title }}</h1>
         {% endif %}
       </header>
 
@@ -22,7 +23,7 @@ layout: default
       </div>
 
       <div class="page-content">
-        <div class="e-content">
+        <div class="e-content" itemprop="articleBody">
           {{ content }}
         </div>
 
@@ -30,11 +31,12 @@ layout: default
           {% include social-share.html %}
         {% endif %}
 
+        {% include page-pagination.html %}
+
         {% if site.disqus.shortname %}
           {% include disqus-comments.html %}
         {% endif %}
 
-        {% include page-pagination.html %}
       </div>
     </div>
   </article>

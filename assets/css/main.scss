@@ -294,6 +294,25 @@ img {
   }
 }
 
+// page sidebar (e.g., on blog posts)
+.page-sidebar {
+  .page-author {
+    margin-top: 0.5em;
+  }
+  .author-name {
+    font-style: normal;
+    font-family: $base-font-family;
+    .p-name {
+      font-family: $title-font-family;
+    }
+  }
+  .read-time, .page-date {
+    font-family: $base-font-family;
+    font-style: normal;
+  }
+
+}
+
 .center-blogs {
   .entry {
     header {
@@ -342,6 +361,12 @@ figcaption {
 }
 .responsive-embed + figcaption {
   margin-top: -1em;
+}
+// for single images
+.align-center {
+  figcaption {
+    margin-top: 0.25em;
+  }
 }
 
 .pull-center {
@@ -843,7 +868,7 @@ p .btn--aio {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 .hide {
-  display: none !important; 
+  display: none !important;
 }
 
 
