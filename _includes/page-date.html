@@ -1,4 +1,10 @@
-<time class="page-date dt-published" datetime="{{ page.date | date_to_xmlschema }}">
+{%- if page.studio -%}
+  {%- assign date = page.year -%}
+{%- else -%}
+  {%- assign date = page.date -%}
   {%- assign date_format = site.date_format | default: "%B %-d, %Y" -%}
-  {{ page.date | date: date_format }}
+{%- endif -%}
+
+<time class="page-date dt-published" datetime="{{ date | date_to_xmlschema }}">
+  <span class="p-name" itemprop="datePublished">{{ date | date: date_format }}</span>
 </time>

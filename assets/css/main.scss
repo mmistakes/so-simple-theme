@@ -305,18 +305,21 @@ img {
   .page-author {
     margin-top: 0.5em;
   }
-  .author-name {
+  .aio-hr {
+    margin-right: 60%;
+    margin-left: 0;
+    @include breakpoint($large) {
+      margin-right: 40%;
+      margin-left: 40%;
+    }
+  }
+  .author-name, .read-time, .page-date {
     font-style: normal;
     font-family: $base-font-family;
     .p-name {
       font-family: $title-font-family;
     }
   }
-  .read-time, .page-date {
-    font-family: $base-font-family;
-    font-style: normal;
-  }
-
 }
 
 .center-blogs {
@@ -455,6 +458,16 @@ p .btn--aio {
   border-bottom: none;
   color: #000;
   margin-right: 1em;
+}
+
+.page-share {
+  a {
+    opacity: 0.5;
+  }
+  a:hover {
+    color: white;
+    opacity: 1.0;
+  }
 }
 
 // footer

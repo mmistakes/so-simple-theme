@@ -55,4 +55,5 @@ None of these methods will make you financially independent overnight. Therefore
 
 What are you waiting for? Go enhance your skills while earning some extra money!
 
-Notes: If you are employed, you’ll need to thread carefully when earning a side income, as this might not be allowed under some employment contracts. Make sure to clarify this with your boss or legal advisor beforehand.  Also, depending on where you are living, side income could be taxed, so make sure to also check on this so all your hard earnings are legal.
+**Notes:** If you are employed, you’ll need to thread carefully when earning a side income, as this might not be allowed under some employment contracts. Make sure to clarify this with your boss or legal advisor beforehand.  Also, depending on where you are living, side income could be taxed, so make sure to also check on this so all your hard earnings are legal.
+{: .notice--warning}

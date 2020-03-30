@@ -7,10 +7,19 @@
   {% assign words = page.content | strip_html | number_of_words %}
 {% endif %}
 
-<span class="read-time" itemprop="wordCount" content="{{words}}">
-  {%- if words < words_per_minute -%}
-    ~1 {{ min_read }}
+<span class="read-time">
+  {%- if page.studio -%}
+    Running time:
+    <span class="p-name" itemprop="duration" content="{{page.duration}}">
+      {{page.duration}}
+    </span>
   {%- else -%}
-    {{ words | divided_by:words_per_minute }} {{ min_read }}
+    <span itemprop="wordCount" content="{{words}}">
+    {%- if words < words_per_minute -%}
+      ~1 {{ min_read }}
+    {%- else -%}
+      {{ words | divided_by:words_per_minute }} {{ min_read }}
+    {%- endif -%}
+    </span>
   {%- endif -%}
 </span>
