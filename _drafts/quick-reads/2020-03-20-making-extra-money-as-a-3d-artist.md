@@ -20,7 +20,9 @@ read_time: true
 <!-- Article Banner -->
 <figure class="align-center">
 	<img src="{{imgPath}}/making-extra-money-banner.jpg" alt="image">
-  <figcaption>[Image by Dimitris Christou fromPixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)</figcaption>
+  <figcaption markdown="1">
+[Image by Dimitris Christou fromPixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
+</figcaption>
   </figure>
 
 An additional income is always welcome and, as a 3D artist, this can be achieved by furthering your 3D skills and artistry. Here are some ideas to make money on the side as a 3D artist:
@@ -34,7 +36,9 @@ If you have your own blog or have established yourself on social media with a si
 <!-- Affiliate Graphic -->
 <figure class="align-center">
 	<img src="{{imgPath}}/how-affiliate-marketing-works1-JustLearnWPcom.png" alt="image">
-  <figcaption>Image source: [justlearnwp.com](https://justlearnwp.com/best-wordpress-plugins-for-marketing/)</figcaption>
+  <figcaption markdown="1">
+[justlearnwp.com](https://justlearnwp.com/best-wordpress-plugins-for-marketing/)
+</figcaption>
   </figure>
 
 Many software companies offer affiliate marketing programs to 3D artists that already use their product, including us! If you are interested in joining Artineering’s affiliate program, send us an [email](mailto:affiliate@artineering.io) and we will get back to you with further details.
@@ -48,7 +52,9 @@ There are many platforms which facilitate work on freelance projects (aka. Gigs)
 <!-- Article Banner -->
 <figure class="align-center">
 	<img src="{{imgPath}}/stylized-cartoon-aeroplaneby-loshivich.jpg" alt="image">
-  <figcaption>[Stylized cartoon airplane 3D model by loshivich](https://www.turbosquid.com/3d-models/stylized-cartoon-plane-3d-model/1077478)</figcaption>
+  <figcaption markdown="1">
+[Stylized cartoon airplane 3D model by loshivich](https://www.turbosquid.com/3d-models/stylized-cartoon-plane-3d-model/1077478)
+  </figcaption>
   </figure>
 
 None of these methods will make you financially independent overnight. Therefore, start them as a side project to make some extra money and polish your 3D skills during your free time. Most importantly, keep creating awesome artwork!

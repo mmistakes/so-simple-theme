@@ -7,7 +7,7 @@ place: Fú 福 by TAIKO Studios
 image:
   path: /images/headers/MNPRX-Docs.jpg
   caption: This is a temporary header image
-  thumbnail: images/blog/animation-spotlight/Fu thumbnail-mnprx.jpg
+  thumbnail: images/blog/animation-spotlight/Fu thumbnail.jpg
 taxonomy: anim-film-spot
 sitemap: false
 ---
