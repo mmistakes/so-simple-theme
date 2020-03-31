@@ -34,7 +34,9 @@ If you have your own blog or have established yourself on social media with a si
 <!-- Affiliate Graphic -->
 <figure class="align-center">
 	<img src="{{imgPath}}/how-affiliate-marketing-works1-JustLearnWPcom.png" alt="image">
-  <figcaption>Image source: justlearnwp.com </figcaption>
+  <figcaption markdown="1">
+Image source: [justlearnwp.com](https://justlearnwp.com/)
+  </figcaption>
 </figure>
 
 Many software companies offer affiliate marketing programs to 3D artists that already use their product, including us! If you are interested in joining Artineering’s affiliate program, send us an [email](mailto:affiliate@artineering.io) and we will get back to you with further details.
