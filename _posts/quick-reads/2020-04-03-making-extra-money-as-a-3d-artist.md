@@ -20,7 +20,7 @@ read_time: true
 <figure class="align-center">
 	<img src="{{imgPath}}/banner.jpg" alt="image">
   <figcaption markdown="1">
-[Image by Dimitris Christou from Pixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
+Image by [Dimitris Christou from Pixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
 </figcaption>
   </figure>
 
@@ -52,7 +52,7 @@ There are many platforms which facilitate work on freelance projects (aka. Gigs)
 <figure class="align-center">
 	<img src="{{imgPath}}/stylized-cartoon-aeroplane.jpg" alt="image">
   <figcaption markdown="1">
-[Stylized cartoon airplane 3D model by loshivich](https://www.turbosquid.com/3d-models/stylized-cartoon-plane-3d-model/1077478)
+Stylized cartoon airplane [3D model by loshivich](https://www.turbosquid.com/3d-models/stylized-cartoon-plane-3d-model/1077478)
   </figcaption>
   </figure>
 
