@@ -9,17 +9,17 @@ tile-title: Making Extra Money as a 3D Artist.
 excerpt: An additional income is always welcome and, as a 3D artist, this can be achieved by furthering your 3D skills and artistry. Here are some ideas to make money on the side as a 3D artist.
 place: Image by Dimitris Christoua from Pixabay
 image:
-  path: # this is the card that will be shown on social media (PSD file in G:\My Drive\Sandbox\Web\cardsTemplate.psd)
-  thumbnail: images/blog/blog-articles/making-extra-money-as3dartists/making-extra-money-banner.jpg
+  path: images/blog/quick-reads/making-extra-money-as-a-3d-artist/banner.jpg
+  thumbnail: images/blog/quick-reads/making-extra-money-as-a-3d-artist/banner.jpg
 comments: true
 share: true
 read_time: true
 ---
-{%- assign imgPath = "/images/blog/blog-articles/making-extra-money-as3dartists" -%}
+{%- assign imgPath = "/images/blog/quick-reads/making-extra-money-as-a-3d-artist" -%}
 
 <!-- Article Banner -->
 <figure class="align-center">
-	<img src="{{imgPath}}/making-extra-money-banner.jpg" alt="image">
+	<img src="{{imgPath}}/banner.jpg" alt="image">
   <figcaption markdown="1">
 [Image by Dimitris Christou fromPixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
 </figcaption>
@@ -35,7 +35,7 @@ If you have your own blog or have established yourself on social media with a si
 
 <!-- Affiliate Graphic -->
 <figure class="align-center">
-	<img src="{{imgPath}}/how-affiliate-marketing-works1-JustLearnWPcom.png" alt="image">
+	<img src="{{imgPath}}/how-affiliate-marketing-works.png" alt="image">
   <figcaption markdown="1">
 Image source: [justlearnwp.com](https://justlearnwp.com/)
   </figcaption>
@@ -49,9 +49,9 @@ Are you a 3D artist with many years of industry experience and seasoned skillset
 ### Freelancing
 There are many platforms which facilitate work on freelance projects (aka. Gigs), such as Upwork or Fiverr. [Upwork](https://www.upwork.com/) projects offer one-time or hourly pay, depending on what the client is looking for. [Fiverr](https://www.fiverr.com/) is another alternative, which tends to attract more clients, as prices seem in general lower than its competition. However, you can still offer basic services for a fixed price and provide the option for further customization on top.
 
-<!-- Article Banner -->
+<!-- Article Image -->
 <figure class="align-center">
-	<img src="{{imgPath}}/stylized-cartoon-aeroplaneby-loshivich.jpg" alt="image">
+	<img src="{{imgPath}}/stylized-cartoon-aeroplane.jpg" alt="image">
   <figcaption markdown="1">
 [Stylized cartoon airplane 3D model by loshivich](https://www.turbosquid.com/3d-models/stylized-cartoon-plane-3d-model/1077478)
   </figcaption>

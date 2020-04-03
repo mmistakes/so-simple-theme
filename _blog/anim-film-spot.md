@@ -12,7 +12,9 @@ taxonomy: anim-film-spot
 sitemap: false
 ---
 
-<p style="text-align: center;"> Our team picks one animation short to inspire you every other Friday </p>
+Our team picks one stylized animation short to inspire you every other Friday.
+{: .pull-center}
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
     {% include blogs-category.html taxonomy=page.taxonomy %}
 </div>

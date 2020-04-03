@@ -29,14 +29,20 @@
             <span itemprop="name">{{ author.name }}</span>
           </span>
         {%- else -%}
+          {%- if page.director -%}
           <span>Directed by<br></span>
-          <span itemprop="director" itemscope itemtype="http://schema.org/Person">
-            <span class="p-name" itemprop="name">{{ page.director }}</span>
-          </span>
+          {%- for director in page.director -%}
+            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+              <span class="p-name" itemprop="name">{{ director }}</span>
+            </span><br>
+          {%- endfor -%}
+          {%- endif -%}
           <div class="aio-hr"></div>
-          <a href="{{page.studio.url}}" target="_blank">
-            <span class="p-name" itemprop="author">{{ author.name }}</span>
-          </a>
+          {%- if page.studio.url -%}
+            <a href="{{page.studio.url}}" target="_blank">
+              <span class="p-name" itemprop="author">{{ author.name }}</span>
+            </a>
+          {%- endif -%}
         {%- endif -%}
       </div>
     {%- endif -%}
