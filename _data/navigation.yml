@@ -9,8 +9,8 @@
 - title: About Us
   url: /about/
 
-# - title: Blog
-#  url: /blogs/
+- title: Blog
+  url: /blog/
 
 - title: <i class="fas fa-search fa-lg"></i>
   url: /search/

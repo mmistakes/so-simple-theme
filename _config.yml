@@ -30,7 +30,7 @@ liquid:
   error_mode: strict
 
 # Build settings
-permalink: /about/:categories/blog/:title
+permalink: /blog/:categories/:title
 markdown: kramdown
 feed:
   path: atom.xml
@@ -43,7 +43,7 @@ feed:
 search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-category_archive_path: "/categories/#"
+category_archive_path: "/blog/"
 tag_archive_path: "/tags/#"
 
 # Exclude from processing.
@@ -86,7 +86,7 @@ collections:
   seminars:
     output: true
     permalink: /:collection/:title/
-  blogs:
+  blog:
     output: true
     permalink: /:collection/:title/
 

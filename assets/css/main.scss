@@ -300,6 +300,28 @@ img {
   }
 }
 
+// page sidebar (e.g., on blog posts)
+.page-sidebar {
+  .page-author {
+    margin-top: 0.5em;
+  }
+  .aio-hr {
+    margin-right: 60%;
+    margin-left: 0;
+    @include breakpoint($large) {
+      margin-right: 40%;
+      margin-left: 40%;
+    }
+  }
+  .author-name, .read-time, .page-date {
+    font-style: normal;
+    font-family: $base-font-family;
+    .p-name {
+      font-family: $title-font-family;
+    }
+  }
+}
+
 .center-blogs {
   .entry {
     header {
@@ -348,6 +370,12 @@ figcaption {
 }
 .responsive-embed + figcaption {
   margin-top: -1em;
+}
+// for single images
+.align-center {
+  figcaption {
+    margin-top: 0.25em;
+  }
 }
 
 .pull-center {
@@ -430,6 +458,16 @@ p .btn--aio {
   border-bottom: none;
   color: #000;
   margin-right: 1em;
+}
+
+.page-share {
+  a {
+    opacity: 0.5;
+  }
+  a:hover {
+    color: white;
+    opacity: 1.0;
+  }
 }
 
 // footer
@@ -782,7 +820,86 @@ p .btn--aio {
 }
 
 
-// PRICING
+
+
+.toggle, .toggler {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.toggler {
+  color: #ddd;
+  transition: .2s;
+  font-weight: bold;
+}
+
+.toggler--is-active {
+  color: #000;
+}
+
+.b {
+  display: block;
+}
+
+.toggle {
+  position: relative;
+  width: 80px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #000;
+  overflow: hidden;
+  box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.check {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 6;
+}
+
+.check:checked ~ .switch {
+  right: 2px;
+  left: 57.5%;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: .08s, 0s;
+}
+
+.switch {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  right: 57.5%;
+  background-color: #fff;
+  border-radius: 36px;
+  z-index: 1;
+  transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-property: left, right;
+  transition-delay: 0s, .08s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.hide {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 .aio-pricing {
   position: relative;
   background-color: #fff;

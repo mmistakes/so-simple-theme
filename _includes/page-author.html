@@ -1,20 +1,49 @@
-{%- assign author = page.author | default: page.author[0] | default: site.author -%}
-{%- assign author = site.data.team[author] | default: team -%}
+{%- if page.author -%}
+  {%- assign postType = "blog" -%}
+  {%- assign author = page.author | default: page.author[0] | default: site.author -%}
+  {%- assign author = site.data.team[author] | default: team -%}
+  {%- assign profile = author.picture | relative_url -%}
+{%- else -%}
+  {%- assign postType = "short" -%}
+  {%- assign author = page.studio -%}
+  {%- assign profile = author.logo -%}
+{%- endif -%}
 
 <div class="page-author h-card p-author">
-  {%- if author.picture -%}
-    {%- if author.picture contains "://" -%}
-      {%- assign author_picture = author.picture -%}
+  {%- if profile -%}
+    {%- if postType == "blog" -%}
+      <img src="/images/blog/authors/{{page.author}}-{{page.year}}.jpg" class="author-avatar u-photo" alt="{{ author.name }}">
     {%- else -%}
-      {%- assign author_picture = author.picture | relative_url -%}
+      <a href="{{page.studio.url}}" target="_blank">
+        <img src="/images/blog/animation-spotlight/logos/{{profile}}" class="author-avatar u-photo" alt="{{ page.studio.name }}">
+      </a>
     {%- endif -%}
-    <img src="/images/about/{{page.author}}/{{page.year}}{{ author_picture }}" class="author-avatar u-photo" alt="{{ author.name }}">
   {%- endif -%}
 
   <div class="author-info">
     {%- if author.name -%}
       <div class="author-name">
-        {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
+        {%- if postType == "blog" -%}
+          {% if site.data.text[site.locale].by %}<span>{{ site.data.text[site.locale].by }}</span> {% endif %}
+          <span class="p-name" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">{{ author.name }}</span>
+          </span>
+        {%- else -%}
+          {%- if page.director -%}
+          <span>Directed by<br></span>
+          {%- for director in page.director -%}
+            <span itemprop="director" itemscope itemtype="http://schema.org/Person">
+              <span class="p-name" itemprop="name">{{ director }}</span>
+            </span><br>
+          {%- endfor -%}
+          {%- endif -%}
+          <div class="aio-hr"></div>
+          {%- if page.studio.url -%}
+            <a href="{{page.studio.url}}" target="_blank">
+              <span class="p-name" itemprop="author">{{ author.name }}</span>
+            </a>
+          {%- endif -%}
+        {%- endif -%}
       </div>
     {%- endif -%}
     {%- if author.links -%}
