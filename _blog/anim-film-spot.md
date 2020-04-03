@@ -2,11 +2,9 @@
 title: Animation Film Spotlight
 layout: page
 entries_layout: grid
-excerpt: Our team picks one animation short to inspire you every other Friday
+excerpt: Our team picks one stylized animation short to inspire you every other Friday
 place: Fú 福 by TAIKO Studios
 image:
-  path: /images/headers/MNPRX-Docs.jpg
-  caption: This is a temporary header image
   thumbnail: images/blog/animation-spotlight/fu-thumb.jpg
 taxonomy: anim-film-spot
 sitemap: false

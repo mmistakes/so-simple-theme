@@ -7,7 +7,6 @@ tags: [Antoinette, Freelance, Money]
 title: Making Extra Money as a 3D Artist
 tile-title: Making Extra Money as a 3D Artist.
 excerpt: An additional income is always welcome and, as a 3D artist, this can be achieved by furthering your 3D skills and artistry. Here are some ideas to make money on the side as a 3D artist.
-place: Image by Dimitris Christoua from Pixabay
 image:
   path: images/blog/quick-reads/making-extra-money-as-a-3d-artist/banner.jpg
   thumbnail: images/blog/quick-reads/making-extra-money-as-a-3d-artist/banner.jpg
@@ -21,7 +20,7 @@ read_time: true
 <figure class="align-center">
 	<img src="{{imgPath}}/banner.jpg" alt="image">
   <figcaption markdown="1">
-[Image by Dimitris Christou fromPixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
+[Image by Dimitris Christou from Pixabay](https://pixabay.com/illustrations/cartoon-work-isometric-render-1164738/)
 </figcaption>
   </figure>
 
