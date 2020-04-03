@@ -14,7 +14,7 @@ excerpt: A pigeon discover the things that make life worth living.
 place: by Jake Wegesin
 image:
   path:
-  thumbnail: images/blog/animation-spotlight/Next flight home.jpg
+  thumbnail: images/blog/animation-spotlight/next-flight-home-thumb.jpg
 share: true
 schema: Movie
 ---
