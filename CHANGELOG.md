@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Add Turkish translations to `text.yml`. [#355](https://github.com/mmistakes/so-simple-theme/pull/355)
 
 ### Fixed
+- Fix security vulnerability in [minimist](https://github.com/substack/minimist) by updating from 1.2.0 to 1.2.5. [#374](https://github.com/mmistakes/so-simple-theme/pull/374)
 - Fix contrast of pagination and copyright text in `default` and `dark` skins.
 - Fix rake vulnerability in `.gemspec` file.
 - Fix Bundler conflicts by removing version number from gemspec. [#362](https://github.com/mmistakes/so-simple-theme/pull/362)
