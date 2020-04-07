@@ -13,7 +13,7 @@
 <article class="entry h-entry">
   <header class="entry-header">
     <div>
-      {% unless entry.no-tile-title %}
+      {% unless page.show_titles == false %}
         <h3 class="entry-title p-name">
           {% if entry.link %}
             <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }}</a> <a href="{{ entry.url | relative_url }}" rel="bookmark"><span class="link-arrow">&rarr;</span></a>
@@ -61,26 +61,32 @@
     {% endif %}
   </header>
 
-  {% unless page.show_excerpts == false %}
-    <div class="entry-excerpt p-summary">
-      {% if entry.excerpt %}
-        {{ entry.excerpt | markdownify }}
-      {% endif %}
+  {% if entry.tile-caption %}
+    <div class="entry-excerpt p-caption">
+      {{ entry.tile-caption | markdownify }}
     </div>
-  {% endunless %}
-
-  {% if site.read_time or entry.date and page.layout != 'collection' %}
-    <footer class="entry-meta">
-      {% if include.collection == 'posts' %}
-        {% if entry.date %}{% include entry-date.html %}{% endif %}
-        {% if site.read_time %}{% include entry-read-time.html %}{% endif %}
-      {% endif %}
-      {% if entry.place %}
-        <span>{{ entry.place }} {{ entry.year }}</span>
-        {% if entry.event %}
-        <span> - {{ entry.event }}</span>
+  {% else %}
+    {% unless page.show_excerpts == false %}
+      <div class="entry-excerpt p-summary">
+        {% if entry.excerpt %}
+          {{ entry.excerpt | markdownify }}
         {% endif %}
-      {% endif %}
-    </footer>
+      </div>
+    {% endunless %}
+
+    {% if site.read_time or entry.date and page.layout != 'collection' %}
+      <footer class="entry-meta">
+        {% if include.collection == 'posts' %}
+          {% if entry.date %}{% include entry-date.html %}{% endif %}
+          {% if site.read_time %}{% include entry-read-time.html %}{% endif %}
+        {% endif %}
+        {% if entry.place %}
+          <span>{{ entry.place }} {{ entry.year }}</span>
+          {% if entry.event %}
+          <span> - {{ entry.event }}</span>
+          {% endif %}
+        {% endif %}
+      </footer>
+    {% endif %}
   {% endif %}
 </article>

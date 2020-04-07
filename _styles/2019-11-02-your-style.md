@@ -2,7 +2,7 @@
 layout: publication
 categories: projects
 title: Your style
-no-tile-title: true
+tile-caption: Your unique style in 3D
 authors: Artineering
 type: Project
 excerpt: "Custom Non-photorealistic 3D rendering styles, powered by MNPRX."
