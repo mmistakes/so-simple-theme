@@ -1,9 +1,8 @@
 ---
 layout: page
-excerpt: "Stylized 3D rendering in real-time"
+excerpt: "We craft software to help rendering stylized and non-photorealistic 3D animations in real-time, with an emphasis on art-direction."
 search: true
 ---
-
 <div class="landing-logo">
   {% include masthead.html %}
 </div>
