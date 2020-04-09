@@ -2,10 +2,10 @@
 layout: publication
 categories: projects
 title: Your style
-no-tile-title: true
+tile-caption: Your unique style in 3D
 authors: Artineering
 type: Project
-excerpt: Your unique style in 3D
+excerpt: "Custom Non-photorealistic 3D rendering styles, powered by MNPRX."
 year: 2019-current
 tags: [MNPR, NPR, stylization, Real-time, Frayed, Art-directed, Research, Maya, Software]
 image:
@@ -20,4 +20,3 @@ schema: SoftwareApplication
 <script>window.location.href = "/software/MNPRX/#customization"</script>
 If you are not redirected automatically, please manually continue [here](https://artineering.io/software/MNPRX/#customization).
 {: .top2}
-
