@@ -192,7 +192,7 @@ License
 
 ## Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan
 
-Lotka (1925) and Volterra (1926) formulated parameteric differential
+<small>Lotka (1925) and Volterra (1926) formulated parameteric differential
 equations that characterize the oscillating populations of predators
 and prey. A statistical model to account for measurement error and
 unexplained variation uses the deterministic solutions to the
@@ -203,7 +203,7 @@ model is fit to Canadian lynx and snowshoe hare populations between
 1900 and 1920, based on the number of pelts collected annually by the
 Hudson’s Bay Company. Posterior predictive checks for replicated data
 show the model fits this data well. Full Bayesian inference may be
-used to estimate future (or past) populations.
+used to estimate future (or past) populations.</small>
 
 [View](case-studies/lotka-volterra-predator-prey.html) <span class="note">(HTML)</span>
 
