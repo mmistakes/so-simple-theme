@@ -32,6 +32,35 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Reduce Sum Example: parallelization of a single chain across multiple cores
+
+<small> Stan 2.23 introduced `reduce_sum`, a new way to parallelize the execution
+of a single Stan chain across multiple cores.  This introduction copies directly
+from Richard McElreath’s
+[Multithreading and Map-Reduce in Stan 2.18.0: A Minimal Example](https://github.com/rmcelreath/cmdstan_map_rect_tutorial)
+</small>
+
+
+[View](case-studies/reduce_sum_tutorial.html) <span class="note">(HTML)</span>
+
+Author
+: Ben Bales
+
+Keywords
+: within-chain parallel computation, cmdstanr, Stan programming
+
+Source Repository
+: [example-models/knitr/reduce-sum](https://github.com/stan-dev/example-models/tree/master/knitr/reduce-sum)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">CmdStanR</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+
 ## Stan Notebooks in the Cloud
 
 <small>This report shows you how to author a Jupyter Notebook for your Stan
