@@ -96,6 +96,11 @@ specific fields.
     research using Stan</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
+  
+* <p>
+  <a href="https://stanecology.github.io/">Stan for Ecology</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>
 
 
 # The Stan Forums
