@@ -1,16 +1,9 @@
-# Sample Authors
-# Remove file or replace with your own
+Kamal Preeti:
+  name: Kamal Preeti
+  picture: /images/kamal_preeti.jpg
+  bio: "I'm love to perform gastronomical experiments, I'm here to share my food venture."
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
-  links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+Y Ramesh Rao:
+  name: Y Ramesh Rao
+  picture: /images/ramesh_rao.png
+  bio: "I'm a strong believer of \"Eat, Code and Sleep\", These are principles are close to my heart."

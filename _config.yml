@@ -17,11 +17,11 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "Bangalore Bytes"
+description: "Recipies for having fun in Namma Oorru. \"Namma Bengaluru\""
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+url: "https://bangalorebytes.in"
+logo: "/images/site-logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -36,7 +36,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: "bangalorebytes"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
@@ -58,8 +58,8 @@ feed:
 search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+articles_archive_path: "/articles/#"
+about_archive_path: "/about/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
