@@ -22,7 +22,7 @@ getting started instructions and documentation, is available from
 * [CmdStan Releases](https://github.com/stan-dev/cmdstan/releases)
   <span class="note">(GitHub)</span>
 
-Unpack the distribution and consult the <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.21.0/cmdstan-guide-2.21.0.pdf">CmdStan Interface User's Guide</a> for installation and getting started instructions.
+Unpack the distribution and consult the <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.23.0/cmdstan-guide-2.23.pdf">CmdStan Interface User's Guide</a> for installation and getting started instructions.
 
 
 
@@ -31,7 +31,7 @@ Unpack the distribution and consult the <a href="https://github.com/stan-dev/cmd
 CmdStan Interface User’s Guide
 
 * <p>
-  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.21.0/cmdstan-guide-2.21.0.pdf">stan-dev/cmdstan</a>
+  <a href="https://github.com/stan-dev/cmdstan/releases/download/v2.23.0/cmdstan-guide-2.23.pdf">stan-dev/cmdstan</a>
   <span class="note">(GitHub)</span>
   </p>
 

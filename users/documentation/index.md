@@ -19,10 +19,10 @@ and inference.
 For versions 2.18 and later, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan User's Guide 2.22](/docs/2_22/stan-users-guide/index.html)
+* [Stan User's Guide 2.23](/docs/2_23/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.22 pdf](/docs/2_22/stan-users-guide-2_22.pdf)
+* [Stan User's Guide 2.23 pdf](/docs/2_23/stan-users-guide-2_23.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -32,11 +32,11 @@ inference algorithms for fitting models and making predictions,
 and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
-* [Stan Language Reference Manual 2.22](/docs/2_22/reference-manual/index.html)
+* [Stan Language Reference Manual 2.23](/docs/2_23/reference-manual/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
  
-* [Stan Language Reference Manual 2.22 pdf](/docs/2_22/reference-manual-2_22.pdf)
+* [Stan Language Reference Manual 2.23 pdf](/docs/2_23/reference-manual-2_23.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Functions Reference
@@ -45,10 +45,10 @@ The reference for the functions defined in the Stan math
 library and available in the Stan programming language.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan Language Functions Reference 2.22](/docs/2_22/functions-reference/index.html)
+* [Stan Language Functions Reference 2.23](/docs/2_23/functions-reference/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan Language Functions Reference 2.22 pdf](/docs/2_22/functions-reference-2_22.pdf)
+* [Stan Language Functions Reference 2.23 pdf](/docs/2_23/functions-reference-2_23.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 
