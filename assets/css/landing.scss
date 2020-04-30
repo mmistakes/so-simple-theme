@@ -298,3 +298,156 @@ sitemap: false
     }
   }
 }
+
+
+
+//   AGENCY PAGE   //
+
+.agency-title {
+  text-align: center;
+}
+
+.agency-header {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  h3 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
+
+.agency-banner {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  box-shadow: 0px 2px 9px 0px #000;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.agency-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.agency-column {
+//  flex: 25%;
+  max-width: 17%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  h3 {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  p {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.agency-projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  .entry {
+    max-width: 30em;
+    margin: 1em auto;
+    &:hover {
+      .p-caption {
+        opacity: 1;
+        transition: $global-transition;
+      }
+      img {
+        opacity: .6;
+        transition: $global-transition;
+      }
+    }
+    img {
+      opacity: 1;
+      margin-bottom: 0;
+    }
+    .p-caption {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+      opacity: 0;
+    }
+    .entry-excerpt {
+      margin-top: -0.75em;
+    }
+  }
+}
+
+.agency-clients {
+  .landing-clients-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    .landing-client {
+      display: inline-block;
+      vertical-align: middle;
+      height: 110px;
+      padding: 1.5em;
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+  }
+}
+
+.flex-process-headline {
+  display: flex;
+  justify-content: center;
+  ol {
+    list-style-type: none;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
+
+.process-headlines {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  border-bottom: 1px solid #fff;
+ width: 100%;
+ max-width: 880px;
+ li {
+   cursor: pointer;
+   position: relative;
+   padding: 15px 20px 9px;
+   h3 {
+     margin: 0;
+   }
+ }
+}
+
+.flex-process-description {
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.process-descriptions {
+  display: block;
+  text-align: center;
+}
+
+.process-active {
+  background-color: #352860;
+  transition: .2s;
+}

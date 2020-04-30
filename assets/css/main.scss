@@ -223,64 +223,58 @@ img {
       opacity: 0.3;
     }
   }
-  .entry {
-    .p-caption {
-      text-align: center;
-      margin-top: -1.2em;
-    }
-    .entry-header {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      .entry-title {
-        flex-shrink: 1;
-        font-style: normal;
-        font-size: 1.0em;
-        @include breakpoint($medium) {
-          font-size: 1.2em;
-        }
-        a {
-          border-bottom: none;
-        }
+  .entry-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    .entry-title {
+      flex-shrink: 1;
+      font-style: normal;
+      font-size: 1.0em;
+      @include breakpoint($medium) {
+        font-size: 1.2em;
       }
-      .aio-award {
-        margin-top: 0.75em;
-        margin-left: 0.5em;
-        flex: 1 0 25px;  // shrinkable, not growable, 25px width
+      a {
+        border-bottom: none;
       }
     }
-    .entry-meta {
-      margin-top: -0.4em;
-      margin-bottom: 0;
-      color: #999;
-      font-family: $meta-font-family;
-      .entry-date, .read-time {
-        font-style: normal;
-      }
-      .entry-date + .read-time::before {
-        content: "\2022";
-        padding: 0 0.5em;
-      }
+    .aio-award {
+      margin-top: 0.75em;
+      margin-left: 0.5em;
+      flex: 1 0 25px;  // shrinkable, not growable, 25px width
     }
-    .subtitle {
-      font-size: 0.8em;
-      margin-top: -1.3em;
-      margin-bottom: 0.5em;
-      font-style: italic;
-      color: #999;
+  }
+  .entry-meta {
+    margin-top: -0.6em;
+    margin-bottom: 0;
+    color: #999;
+    font-family: $meta-font-family;
+    .entry-date, .read-time {
+      font-style: normal;
     }
-    a {
-      text-decoration: none;
-      //border-bottom: 1px dotted #a2a2a2;
-      &:hover{
-        color: $bold-accent-color;
-      }
+    .entry-date + .read-time::before {
+      content: "\2022";
+      padding: 0 0.5em;
     }
-    figure a {
-      border-bottom: none;
-      figcaption a {
-        border-bottom: 1px dotted #a2a2a2
-      }
+  }
+  .subtitle {
+    font-size: 0.8em;
+    margin-top: -1.3em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+    color: #999;
+  }
+  a {
+    text-decoration: none;
+    //border-bottom: 1px dotted #a2a2a2;
+    &:hover{
+      color: $bold-accent-color;
+    }
+  }
+  figure a {
+    border-bottom: none;
+    figcaption a {
+      border-bottom: 1px dotted #a2a2a2
     }
   }
 
