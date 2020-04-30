@@ -24,6 +24,6 @@ schema: Movie
 A pigeon meets a dove and faces the decision on whether or not to leave the life he has built for himself in favor of following his heart.
 Check out the project blog [here](http://jakein3d.com/next-flight-home)
 
-**Highlights**:
+**Stylized Highlights**
 * Realistic rendering done in a very stylistic way
 * Touching story
