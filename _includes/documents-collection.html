@@ -1,4 +1,8 @@
-{% assign entries = site[include.collection] %}
+{% if include.entries %}
+  {% assign entries = include.entries %}
+{% else %}
+  {% assign entries = site[include.collection] %}
+{% endif %}
 
 {% if include.sort_by == 'title' %}
   {% if include.sort_order == 'reverse' %}
