@@ -231,8 +231,8 @@ The _Flip-Back-Faces_ setting flips the normals of faces that might be pointing 
 
 ------------------
 
-### Transparent
-The _Transparent_ setting enables the use of alpha masks in the material and also unlocks the _Semi-Transparent_ setting directly underneath.
+### Transparent and Semi-Transparent
+The _Transparent_ setting enables the use of alpha masks in the material and unlocks the _Semi-Transparent_ setting directly underneath.
 <figure class="align-center">
 	<img src="/images/MNPRX/mnpr-uber/transparent-AE.png" alt="Transparency and Semi-Transparency attributes"  style="width: 500px">
 	<figcaption>The Transparent and Semi-Transparent section in the Attribute Editor.</figcaption>
@@ -241,10 +241,10 @@ The _Transparent_ setting enables the use of alpha masks in the material and als
 #### Alpha Mask
 _Alpha Mask_ is a black and white image which embeds the alpha of the material. White is opaque, black is transparent. Use the alpha masks if you want cast shadows respect the transparency.
 
-##### Alpha Texture File
+#### Alpha Texture File
 Specifies the file path to the _Alpha Mask_. The path can be absolute or relative to the project root directory. While similar to [_Transparency Map_](#transparency-map), the alpha mask is binary and can only distinguish between opaque or fully transparent.
 
-##### Alpha Mask Cutoff
+#### Alpha Mask Cutoff
 The grayscale value at which the [_Alpha Mask_](#alpha-mask) is transparent. Defines the boundary of the alpha mask in case there are grey values.
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="width:200px">
@@ -258,7 +258,7 @@ _Transparency Map_ is a greyscale image which embeds the semi-transparency of th
 
 {% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-mask): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
 
-##### Transparency Texture File
+#### Transparency Texture File
 Specifies the file path to the _Transparency Map_. The path can be absolute or relative to the project root directory.  
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="width:200px">
@@ -394,7 +394,7 @@ Controls the color of the rim light effect. The color is additively blended on t
 ------------------
 
 ### Specularity
-The _Specularity_ setting enables the use of [specular reflectance models](#specularmodel) within the material and creates new attributes within the Shading section. Once enabled, two new settings appear underneath: [_specularModel_](#specularmodel) and [_Specular-In-Alpha_](#specular-in-alpha) (if the [_Transparent_](#transparent) setting is also enabled).
+The _Specularity_ setting enables the use of [specular reflectance models](#specularmodel) within the material and creates new attributes within the Shading section. Once enabled, two new settings appear underneath: [_specularModel_](#specularmodel) and [_Specular-In-Alpha_](#specular-in-alpha) (if the [_Transparent_](#transparent-and-semi-transparent) setting is also enabled).
 
 <figure class="align-center">
 	<img src="/images/MNPRX/mnpr-uber/specularity-AE.png" alt="Specularity settings"  style="width: 500px">
@@ -491,7 +491,7 @@ _Specular Transparency_ defines the transparency of the specular highlight.
 </div>
 
 ### Specular-In-Alpha
-The _Specular-In-Alpha_ setting is only visible if the [_Specularity_](#specularity) and [_Transparent_](#transparent) settings are enabled. The setting forces the specularity on the transparent parts of an object, which were set through the [_Alpha Mask_](#alpha-mask) attribute. The specular in alpha setting also generates the [_Alpha Tint_](#alpha-tint) attribute in the _Shading_ section ([cyan attribute](#specular-AE))
+The _Specular-In-Alpha_ setting is only visible if the [_Specularity_](#specularity) and [_Transparent_](#transparent-and-semi-transparent) settings are enabled. The setting forces the specularity on the transparent parts of an object, which were set through the [_Alpha Mask_](#alpha-mask) attribute. The specular in alpha setting also generates the [_Alpha Tint_](#alpha-tint) attribute in the _Shading_ section ([cyan attribute](#specular-AE))
 
 <div class="pull-center">
 	<figure style="display:inline-block;">
