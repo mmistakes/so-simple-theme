@@ -232,41 +232,17 @@ The _Flip-Back-Faces_ setting flips the normals of faces that might be pointing 
 ------------------
 
 ### Transparent
-The _Transparent_ setting enables transparency within the material and creates a new section with transparency attributes.
+The _Transparent_ setting enables the use of alpha masks in the material and also unlocks the _Semi-Transparent_ setting directly underneath.
 <figure class="align-center">
-	<img src="/images/MNPRX/mnpr-uber/transparent-AE.png" alt="Transparency attributes"  style="width: 500px">
-	<figcaption>The Transparency section in the Attribute Editor.</figcaption>
+	<img src="/images/MNPRX/mnpr-uber/transparent-AE.png" alt="Transparency and Semi-Transparency attributes"  style="width: 500px">
+	<figcaption>The Transparent and Semi-Transparent section in the Attribute Editor.</figcaption>
 </figure>
-
-#### Transparency
-_Transparency_ defines the overall transparency of the material.
-<figure class="pull-center">
- <video autoplay loop muted playsinline style="width:200px">
-   <source src="/images/MNPRX/mnpr-uber/transparency.mp4" type="video/mp4">
- </video>
- <figcaption>Transparency (0...1.0)</figcaption>
-</figure>
-
-When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alpha-mask), you can set the _Transparency_ attribute to `0`, as the textures will normally handle the transparency, instead.
-{: .notice--info}
-
-#### Transparency Map
-_Transparency Map_ is a greyscale image which embeds the transparency of the material. This attribute toggles the use of the [_Transparency Map File_](#transparency-map-file).
-
-{% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-mask): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
-
-##### Transparency Map File
-Specifies the file path to the _Transparency Map_. The path can be absolute or relative to the project root directory.  
-<figure class="pull-center">
- <video autoplay loop muted playsinline style="width:200px">
-   <source src="/images/MNPRX/mnpr-uber/transparency-map.mp4" type="video/mp4">
- </video>
- <figcaption>Transparency Map, featuring semi-transparency.</figcaption>
-</figure>
-
 
 #### Alpha Mask
-_Alpha Mask_ is a black and white image which embeds the alpha of the material. White is opaque, black is transparent. While similar to [_Transparency Map_](#transparency-map), the alpha mask is binary and can only distinguish between opaque or fully transparent. Use the alpha masks if you want cast shadows respect the transparency.
+_Alpha Mask_ is a black and white image which embeds the alpha of the material. White is opaque, black is transparent. Use the alpha masks if you want cast shadows respect the transparency.
+
+##### Alpha Texture File
+Specifies the file path to the _Alpha Mask_. The path can be absolute or relative to the project root directory. While similar to [_Transparency Map_](#transparency-map), the alpha mask is binary and can only distinguish between opaque or fully transparent.
 
 ##### Alpha Mask Cutoff
 The grayscale value at which the [_Alpha Mask_](#alpha-mask) is transparent. Defines the boundary of the alpha mask in case there are grey values.
@@ -277,7 +253,31 @@ The grayscale value at which the [_Alpha Mask_](#alpha-mask) is transparent. Def
  <figcaption>Alpha Mask with Alpha Mask Cutoff (0.1...0.9).</figcaption>
 </figure>
 
+#### Transparency Map
+_Transparency Map_ is a greyscale image which embeds the semi-transparency of the material. This attribute toggles the use of the [_Transparency Texture File_](#transparency-texture-file) and is only available if the _Transparent_ and  _Semi-Transparent_ setting have been enabled.
 
+{% include aio-hint.html %} **As with [_Alpha Masks_](#alpha-mask): white is opaque, grey values are semi-transparent, black is transparent. The darker the value of the _Transparency Map_, the more transparent the material will be.**
+
+##### Transparency Texture File
+Specifies the file path to the _Transparency Map_. The path can be absolute or relative to the project root directory.  
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="width:200px">
+   <source src="/images/MNPRX/mnpr-uber/transparency-map.mp4" type="video/mp4">
+ </video>
+ <figcaption>Transparency Map, featuring semi-transparency.</figcaption>
+</figure>
+
+#### Transparency
+_Transparency_ defines the overall semi-transparency of the material.
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="width:200px">
+   <source src="/images/MNPRX/mnpr-uber/transparency.mp4" type="video/mp4">
+ </video>
+ <figcaption>Transparency (0...1.0)</figcaption>
+</figure>
+
+When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alpha-mask), you can set the _Transparency_ attribute to `0`, as the textures will normally handle the transparency, instead.
+{: .notice--info}
 
 ------------------
 
