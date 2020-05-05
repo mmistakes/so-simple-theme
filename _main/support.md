@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Support
-excerpt: Artineering Support
+excerpt: "All about support for Artineering products, MNPRX"
 schema: ContactPoint
 ---
 

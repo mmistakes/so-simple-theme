@@ -2,10 +2,10 @@
 layout: publication
 categories: projects
 title: Watercolor Stylization
-no-tile-title: true
+tile-caption: Watercolor in 3D
 authors: Montesdeoca S. E.
 type: Project
-excerpt: Watercolor in 3D
+excerpt: "Non-photorealistic 3D rendering in a watercolor style, powered by MNPRX."
 year: 2015-current
 tags: [MNPR, NPR, stylization, Real-time, Watercolor, Art-directed, Research, Maya, Software]
 image:

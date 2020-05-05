@@ -32,6 +32,9 @@ To run MNPRX smoothly, a modern graphics card (2+ GB is recommended). For higher
 #### Can I transfer a license to another computer (floating license)?
 Yes, this is possible, but only after 24 hours have passed from a previous activation. Read more about it [here](/software/MNPRX/docs/licensing/#license-migration).
 
+#### How can I cancel my subscription to avoid being rebilled?
+You can cancel your MNPRX subscription by clicking on the `Manage Your Orders` link within the email that you get from _FastSpring_ (our e-commerce platform). After cancelling, you can continue using MNPRX with the license that you purchased until the subscription expires. Afterwards, the license will return to Non-Commercial.
+
 #### Can I change back to the normal viewport?
 <div markdown="1">
 <figure class="pull-right">
@@ -70,6 +73,17 @@ There are many reasons why this might be happening, we'll list them up from most
 * The scene might have been created with an older version of MNPRX and you need to [update the materials](/software/MNPRX/docs/update/#materials).
 * Your GPU may be running out of memory. This is unlikely, but can happen if a lot of textures are in the scene.  
 You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
+</div>
+
+#### The MNPRX shelf doesn't show any buttons/icons
+<div markdown="1">
+Because Maya automatically saves shelf files, using different versions of Maya with MNPRX can invalidate the shelf on older versions of Maya. This makes the buttons/icons disappear. Thankfully, it's easy to solve this:
+1. Make sure all versions of Maya are closed
+2. Go to `Documents/maya/20XX/prefs/shelves` (replace XX with the version of Maya that you are using)
+3. Delete any `shelf_MNPRX.mel` file that might exist there
+4. Go to the shelves folder within the MNPRX directory: `MNPRX/shelves`
+5. Replace the `shelf_MNPRX.mel` with a clean shelf file from the `MNPRX.zip` file that you downloaded
+6. Start Maya again and the shelf buttons should be there again
 </div>
 
 #### Objects are not casting shadows
