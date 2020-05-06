@@ -32,6 +32,35 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Bayesian Workflow for disease transmission modeling in Stan
+
+<small>
+This tutorial shows how to build, fit, and criticize disease transmission models in Stan, and should be useful to researchers interested in modeling the COVID-19 outbreak and doing Bayesian inference. 
+Bayesian modeling provides a principled way to quantify uncertainty and incorporate prior knowledge into the model. 
+What is more, Stan's main inference engine, Hamiltonian Monte Carlo sampling, is amiable to diagnostics, which means we can verify whether our inference is reliable. 
+Stan is an expressive probabilistic programing language that abstracts the inference and allows users to focus on the modeling. The resulting code is readable and easily extensible, which makes the modeler's work more transparent and flexible. 
+In this tutorial, we demonstrate with a simple Susceptible-Infected-Recovered (SIR) model how to formulate, fit, and diagnose a compartmental model in Stan. 
+We also introduce more advanced topics which can help practitioners fit sophisticated models; notably, how to use simulations to probe our model and our priors, and computational techniques to scale ODE-based models.
+</small>
+
+[View](case-studies/boarding_school_case_study.html) <span class="note">(HTML)</span>
+
+Authors
+: Leo Grinsztajn, Elizaveta Semenova, Charles C. Margossian, and Julien Riou
+
+Keywords
+: Disease transmission, Compartment models, Ordinary Differential Equations, Bayesian Workflow
+
+Source Repository
+: [example-models/knitr/disease_transmission](https://github.com/stan-dev/example-models/tree/master/knitr/disease_transmission)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">RStan</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## Reduce Sum Example: parallelization of a single chain across multiple cores
 
 <small> Stan 2.23 introduced `reduce_sum`, a new way to parallelize the execution
