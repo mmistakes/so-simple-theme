@@ -3,8 +3,8 @@ layout: about-page
 title: Careers
 excerpt: Artineering Careers
 image:
-  header: images/about/winter.jpg
-  caption: Photo of Tallinn by Jaanus Jagomägi
+  header: images/about/spring_tallinn.jpg
+  caption: Early night in Tallinn
 schema: ContactPoint
 ---
 

@@ -8,8 +8,8 @@ title: 5 Non-photorealistic 3D Rendering Software in 2020
 tile-title: 5 Non-photorealistic 3D Rendering Software in 2020.
 excerpt: In 2020, there are some serious contenders developing powerful non-photorealistic rendering (NPR) software. Here are 5 NPR software for you to try out in 2020 in no particular order (some are even free).
 image:
-  path: images/blog/quick-reads/5-non-photorealistic-3d-rendering-software-in-2020/fu-by-taiko-studios.jpg
-  thumbnail: images/blog/quick-reads/5-non-photorealistic-3d-rendering-software-in-2020/fu-by-taiko-studios.jpg
+  path: images/blog/quick-reads/5-non-photorealistic-3d-rendering-software-in-2020/banner.jpg
+  thumbnail: images/blog/quick-reads/5-non-photorealistic-3d-rendering-software-in-2020/banner.jpg
 comments: true
 share: true
 read_time: true
@@ -34,7 +34,7 @@ _For Maya and 3ds Max | 61,600 Yen (stand-alone license) | ~580 USD_
 
 <!-- Pencil+ Image -->
 <figure class="align-center">
-	<img src="{{imgPath}}/underdog-pencil-by-odolttogi.SIDE9.jpg" alt="image">
+	<img src="{{imgPath}}/underdog-pencil-by-SIDE9.jpg" alt="image">
   <figcaption markdown="1">
 [Underdog by SIDE9, made using Pencil+](https://www.psoft.co.jp/en/product/gallery/20180723-underdog/)
 </figcaption>
@@ -43,7 +43,7 @@ _For Maya and 3ds Max | 61,600 Yen (stand-alone license) | ~580 USD_
 
 
 ### MNPRX
-_For Autodesk Maya | Free for non-commercial, 25-250 USD (per month-year) Indie, 50-500 USD (month-year) Studio_
+_For Autodesk Maya | Free for non-commercial, Indie 25-250 USD (per month-year), Studio 50-500 USD (month-year)_
 {: .top-1}
 
 <!-- MNPRX Image -->
