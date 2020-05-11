@@ -2,10 +2,11 @@
 title: Quick Reads
 layout: page
 entries_layout: list
-excerpt: We share our thoughts on everything from 3D rendering to career as an artist
+excerpt: We share our thoughts on everything from 3D rendering to careers as an artist
 place: Short and sweet blog posts
 image:
-  thumbnail: images/blog/quick-reads/making-extra-money-as-a-3d-artist/banner.jpg
+  path: images/blog/quick-reads/banner.jpg
+  thumbnail: images/blog/quick-reads/banner.jpg
 taxonomy: quick-reads
 sitemap: false
 ---

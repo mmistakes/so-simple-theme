@@ -3,8 +3,8 @@ layout: about-page
 title: Seminars
 excerpt: Artineering Seminars
 image:
-  header: images/about/winter.jpg
-  caption: Photo of Tallinn by Jaanus Jagomägi
+  header: images/about/spring_tallinn.jpg
+  caption: Early night in Tallinn
 entries_layout: grid
 sort_by: date
 sort_order: reverse

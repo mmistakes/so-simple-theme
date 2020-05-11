@@ -3,8 +3,8 @@ layout: about-page
 title: Research
 excerpt: Artineering Publications
 image:
-  header: images/about/winter.jpg
-  caption: Photo of Tallinn by Jaanus Jagomägi
+  header: images/about/spring_tallinn.jpg
+  caption: Early night in Tallinn
 entries_layout: list
 sort_by: date
 sort_order: reverse
