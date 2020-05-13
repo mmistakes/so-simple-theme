@@ -11,7 +11,7 @@
 
 
 
-<meta name="date" content="2020-05-11" />
+<meta name="date" content="2020-05-13" />
 
 <title>Reduce Sum: A Minimal Example</title>
 
@@ -363,7 +363,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Reduce Sum: A Minimal Example</h1>
-<h4 class="date">11 May 2020</h4>
+<h4 class="date">13 May 2020</h4>
 
 </div>
 
@@ -433,58 +433,59 @@ model {
 <pre><code>## Model executable is up to date!</code></pre>
 <p>To sample from the model run:</p>
 <pre class="r"><code>time0 = system.time(fit0 &lt;- logistic0$sample(redcard_data,
-                                             num_cores = 4,
-                                             num_chains = 4,
+                                             cores = 4,
+                                             chains = 4,
                                              refresh = 1000))</code></pre>
 <pre><code>## Running MCMC with 4 chain(s) on 4 core(s)...
 ## 
-## Running ./logistic0 'id=1' random 'seed=1446085543' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e82fa9d258.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic0-202005111700-1-b8e544.csv' 'refresh=1000' \
+## Running ./logistic0 'id=1' random 'seed=1076464845' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d2f851d7.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic0-202005131315-1-0be117.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic0 'id=2' random 'seed=536385028' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e82fa9d258.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic0-202005111700-2-b8e544.csv' 'refresh=1000' \
+## Running ./logistic0 'id=2' random 'seed=600528536' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d2f851d7.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic0-202005131315-2-0be117.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic0 'id=3' random 'seed=2070795436' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e82fa9d258.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic0-202005111700-3-b8e544.csv' 'refresh=1000' \
+## Running ./logistic0 'id=3' random 'seed=594098756' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d2f851d7.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic0-202005131315-3-0be117.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic0 'id=4' random 'seed=1794550674' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e82fa9d258.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic0-202005111700-4-b8e544.csv' 'refresh=1000' \
+## Running ./logistic0 'id=4' random 'seed=554033762' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d2f851d7.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic0-202005131315-4-0be117.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
 ## Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 2 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 3 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 4 Iteration:    1 / 2000 [  0%]  (Warmup) 
-## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
+## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
+## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 4 finished in 163.2 seconds.
-## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 1 finished in 171.4 seconds.
-## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 2 finished in 173.6 seconds.
+## Chain 4 finished in 172.9 seconds.
 ## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 3 finished in 177.7 seconds.
+## Chain 3 finished in 178.1 seconds.
+## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 1 finished in 181.8 seconds.
+## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 2 finished in 184.7 seconds.
 ## 
 ## All 4 chains finished successfully.
-## Mean chain execution time: 171.5 seconds.
-## Total execution time: 177.7 seconds.</code></pre>
+## Mean chain execution time: 179.4 seconds.
+## Total execution time: 184.7 seconds.</code></pre>
 <pre class="r"><code>time0</code></pre>
 <pre><code>##    user  system elapsed 
-## 607.411  80.204 177.951</code></pre>
+## 639.843  79.463 184.953</code></pre>
+<p><strong>Note:</strong> Older versions of cmdstanr use <code>num_cores</code> and <code>num_chains</code> instead of <code>cores</code> and <code>chains</code>. If you get an error, <a href="https://mc-stan.org/cmdstanr/">update</a> <code>cmdstanr</code>.</p>
 <p>In this case, we’ll compute four chains using four cores. This computer has eight cores though, and we’ll see how we can make use of those other cores later. The <code>elapsed</code> time is the time that we would have recorded if we were timing this process with a stop-watch, so that is the one relevant to understanding performance here (<code>system</code> time is time spent on system functions like I/O, and <code>user</code> time is for parallel calculations).</p>
 </div>
 <div id="rewriting-the-model-to-enable-multithreading" class="section level2">
@@ -566,61 +567,62 @@ model {
 <p>Run and time the model with:</p>
 <pre class="r"><code>redcard_data$grainsize &lt;- 1
 time1 = system.time(fit1 &lt;- logistic1$sample(redcard_data,
-                                             num_cores = 4,
-                                             num_chains = 4,
+                                             cores = 4,
+                                             chains = 4,
                                              refresh = 1000))</code></pre>
 <pre><code>## Running MCMC with 4 chain(s) on 4 core(s)...
 ## 
-## Running ./logistic1 'id=1' random 'seed=1407077002' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e86ee00194.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic1-202005111703-1-4d36c3.csv' 'refresh=1000' \
+## Running ./logistic1 'id=1' random 'seed=1670415849' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d6331e153.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic1-202005131318-1-e3c2d9.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic1 'id=2' random 'seed=1010626630' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e86ee00194.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic1-202005111703-2-4d36c3.csv' 'refresh=1000' \
+## Running ./logistic1 'id=2' random 'seed=963619021' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d6331e153.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic1-202005131318-2-e3c2d9.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic1 'id=3' random 'seed=1769269157' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e86ee00194.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic1-202005111703-3-4d36c3.csv' 'refresh=1000' \
+## Running ./logistic1 'id=3' random 'seed=605016365' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d6331e153.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic1-202005131318-3-e3c2d9.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
-## Running ./logistic1 'id=4' random 'seed=1345751920' data \
-##   'file=/tmp/RtmpK0OfCp/standata-71e86ee00194.json' output \
-##   'file=/tmp/RtmpK0OfCp/logistic1-202005111703-4-4d36c3.csv' 'refresh=1000' \
+## Running ./logistic1 'id=4' random 'seed=848944719' data \
+##   'file=/tmp/RtmpSYtl3t/standata-7d5d6331e153.json' output \
+##   'file=/tmp/RtmpSYtl3t/logistic1-202005131318-4-e3c2d9.csv' 'refresh=1000' \
 ##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
 ##   'engaged=1'
 ## Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 2 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 3 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 4 Iteration:    1 / 2000 [  0%]  (Warmup) 
+## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 4 finished in 69.5 seconds.
-## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 3 finished in 71.7 seconds.
-## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 1 finished in 75.5 seconds.
 ## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 2 finished in 78.4 seconds.
+## Chain 2 finished in 67.0 seconds.
+## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 3 finished in 67.3 seconds.
+## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 1 finished in 67.9 seconds.
+## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 4 finished in 68.5 seconds.
 ## 
 ## All 4 chains finished successfully.
-## Mean chain execution time: 73.8 seconds.
-## Total execution time: 78.4 seconds.</code></pre>
+## Mean chain execution time: 67.7 seconds.
+## Total execution time: 68.6 seconds.</code></pre>
 <pre class="r"><code>time1</code></pre>
 <pre><code>##    user  system elapsed 
-## 589.672   0.403  78.566</code></pre>
+## 541.275   0.345  68.697</code></pre>
+<p><strong>Note:</strong> Older versions of cmdstanr use <code>num_cores</code> and <code>num_chains</code> instead of <code>cores</code> and <code>chains</code>. If you get an error, <a href="https://mc-stan.org/cmdstanr/">update</a> <code>cmdstanr</code>.</p>
 <p>Again, <code>elapsed</code> time is the time recorded as if by a stopwatch. Computing the ratios of the two times gives the speedup on eight cores of:</p>
 <pre class="r"><code>time0[[&quot;elapsed&quot;]] / time1[[&quot;elapsed&quot;]]</code></pre>
-<pre><code>## [1] 2.264987</code></pre>
+<pre><code>## [1] 2.692301</code></pre>
 <p>This model was particularly easy to parallelize because a lot of the arguments are data (and do not need to be autodiffed). It is possible to get a speedup over two even though we are only doubling the computational resources because of the way <code>reduce_sum</code> breaks up work and uses CPU cache more efficiently. If a model has a large number of arguments that are either defined in the parameters block, transformed parameters block, or model block, or do not do very much computation inside the reduce function, or does not get lucky with caching, the speedup will be much more limited.</p>
 <p>We can always get speedup in terms of effective sample size per time by running multiple chains on different cores. <code>reduce_sum</code> is not a replacement for that, and it is still important to run multiple chains to check diagnostics. <code>reduce_sum</code> is a tool for speeding up single chain calculations, which can be useful for model development and on computers with large numbers of cores.</p>
 <p>We can do a quick check that these two methods are mixing with posterior. When parallelizing a model is a good thing to do to make sure something is not breaking:</p>
@@ -634,8 +636,8 @@ time1 = system.time(fit1 &lt;- logistic1$sample(redcard_data,
 ##   variable     mean   median      sd     mad       q5      q95  rhat ess_bulk
 ##   &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
 ## 1 lp__     -9.05e+3 -9.05e+3 1.20e+3 1.78e+3 -1.03e+4 -7.85e+3  1.70     12.5
-## 2 beta[1]  -5.53e+0 -5.53e+0 3.43e-2 3.39e-2 -5.59e+0 -5.48e+0  1.00   2626. 
-## 3 beta[2]   2.87e-1  2.87e-1 8.09e-2 8.03e-2  1.53e-1  4.20e-1  1.00   2683. 
+## 2 beta[1]  -5.53e+0 -5.53e+0 3.48e-2 3.49e-2 -5.59e+0 -5.48e+0  1.00   2696. 
+## 3 beta[2]   2.89e-1  2.89e-1 8.22e-2 8.30e-2  1.53e-1  4.25e-1  1.00   2576. 
 ## # … with 1 more variable: ess_tail &lt;dbl&gt;</code></pre>
 <p>Ignoring <code>lp__</code> (remember the change to <code>bernoulli_logit_lpmf</code> means the likelihoods between the two models are only proportional up to a constant), the Rhats are less than 1.01, so our basic convergence checks pass. Unless something strange is going on, we probably parallelized our model correctly!</p>
 </div>
