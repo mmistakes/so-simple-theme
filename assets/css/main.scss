@@ -184,9 +184,9 @@ img {
 .page-title {
   margin-top: 0.8em;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2rem;
   @include breakpoint($medium) {
-    font-size: 2.5em;
+    font-size: 2.5rem;
   }
 }
 
@@ -230,9 +230,9 @@ img {
     .entry-title {
       flex-shrink: 1;
       font-style: normal;
-      font-size: 1.0em;
+      font-size: 1.5rem;
       @include breakpoint($medium) {
-        font-size: 1.2em;
+        font-size: 1.7rem;
       }
       a {
         border-bottom: none;
@@ -1753,3 +1753,50 @@ p .btn--aio {
   transform: translateX(-1px);
 }
 */
+
+
+
+
+// QUICK READS //
+
+.quick-reads-subtitle {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.quick-reads-list {
+  hr {
+    opacity: 0.3;
+  }
+  .p-name {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  a {
+    font-size: 2rem;
+  }
+  .entry-image {
+    order: -1;
+    width: 50%;
+    margin-bottom: 0.5rem;
+    display: block;
+    margin: 2rem auto;
+  }
+  .p-summary {
+    width: 65%;
+      margin: 0 auto 1rem;
+  }
+  @media screen and (max-width: 768px) {
+    .entry-image {
+      width: 90%;
+    }
+    a {
+      font-size: 1.8rem;
+    }
+    .p-summary {
+      width: 90%;
+    }
+  }
+}
