@@ -39,6 +39,9 @@ sitemap: false
   padding-bottom: 5em;
   margin-top: 5em;
   margin-bottom: 5em;
+  @media screen and (max-width: 768px) {
+    padding-bottom: 0;
+  }
 }
 
 .agency-table {
@@ -50,15 +53,19 @@ sitemap: false
 .agency-column {
 //  flex: 25%;
   max-width: 17%;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   h3 {
     margin-top: 0;
     margin-bottom: 1em;
   }
   p {
     margin-bottom: 0;
-    text-align: left;
+    text-align: justify;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 80%;
+    margin-bottom: 3rem;
   }
 }
 
@@ -69,8 +76,8 @@ sitemap: false
   align-content: stretch;
   align-items: center;
   .entry {
-    max-width: 30em;
-    margin: 1em auto;
+    max-width: 30rem;
+    margin: 1rem auto;
     &:hover {
       .p-caption {
         opacity: 1;
@@ -127,6 +134,9 @@ sitemap: false
   display: block;
   position: relative;
   margin: 3rem auto;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 input[name="r"]{
@@ -166,6 +176,10 @@ input[name="r"]{
   justify-content: space-between;
   width: 100%;
   padding: 0 5rem;
+  @media screen and (max-width: 768px) {
+    max-width: 330px;
+    padding: 0;
+  }
 }
 
 .process-headline-font {
@@ -174,6 +188,9 @@ input[name="r"]{
   font-family: $headline-font-family;
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
   @include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
+  @media screen and (max-width: 768px) {
+    padding: 8px 15px 0px;
+  }
 }
 
 .flex-process-headline {
@@ -194,6 +211,12 @@ input[name="r"]{
   margin: auto;
   p {
     height: 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    p {
+      height: 8rem;
+    }
   }
 }
 
