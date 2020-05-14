@@ -11,6 +11,42 @@ $(document).ready(function() {
   });
 });
 
+
+//// AGENCY - Our Process Toggle ////
+
+
+//Slider 1
+$("label.process-slider1").click (function(){                // Press Slider 1
+  $("label.process-slider2").removeClass("process-active");  // remove .process-active from h3 Sliders 2
+  $("label.process-slider3").removeClass("process-active");  // remove .process-active from h3 Sliders 3
+  $("label.process-slider1").addClass("process-active");     // add .process-active to h3 Slider 1
+  $("li.process-slider-text2").addClass("process-text-inactive");
+  $("li.process-slider-text3").addClass("process-text-inactive");
+  $("li.process-slider-text1").removeClass("process-text-inactive");
+});
+
+// Slider 2
+$("label.process-slider2").click (function(){                // Press Slider 2
+  $("label.process-slider1").removeClass("process-active");  // remove .process-active from h3 Sliders 1
+  $("label.process-slider3").removeClass("process-active");  // remove .process-active from h3 Sliders 3
+  $("label.process-slider2").addClass("process-active");     // add .process-active to h3 Slider 2
+  $("li.process-slider-text1").addClass("process-text-inactive");
+  $("li.process-slider-text3").addClass("process-text-inactive");
+  $("li.process-slider-text2").removeClass("process-text-inactive");
+});
+
+// Slider 3
+$("label.process-slider3").click (function(){                // Press Slider 3
+  $("label.process-slider1").removeClass("process-active");  // remove .process-active from h3 Sliders 1
+  $("label.process-slider2").removeClass("process-active");  // remove .process-active from h3 Sliders 2
+  $("label.process-slider3").addClass("process-active");     // add .process-active to h3 Slider 3
+  $("li.process-slider-text1").addClass("process-text-inactive");
+  $("li.process-slider-text2").addClass("process-text-inactive");
+  $("li.process-slider-text3").removeClass("process-text-inactive");
+});
+
+
+
 // pricing togglers
 var filtMonthly = document.getElementById("filt-monthly"),
     filtQuarterly = document.getElementById("filt-quarterly"),
@@ -79,7 +115,7 @@ mSwitch.addEventListener("click", function(){
   monthlyTable.classList.remove("hide");
   quarterlyTable.classList.add("hide");
   yearlyTable.classList.add("hide");
-})
+});
 
 qSwitch.addEventListener("click", function(){
   // change text
@@ -92,7 +128,7 @@ qSwitch.addEventListener("click", function(){
   monthlyTable.classList.add("hide");
   quarterlyTable.classList.remove("hide");
   yearlyTable.classList.add("hide");
-})
+});
 
 ySwitch.addEventListener("click", function(){
   // change text
@@ -105,4 +141,4 @@ ySwitch.addEventListener("click", function(){
   monthlyTable.classList.add("hide");
   quarterlyTable.classList.add("hide");
   yearlyTable.classList.remove("hide");
-})
+});

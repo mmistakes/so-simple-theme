@@ -1,0 +1,245 @@
+---
+sitemap: false
+---
+@charset "utf-8";
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/mixins";
+@import "so-simple/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+
+//   AGENCY PAGE   //
+
+.agency-title {
+  text-align: center;
+}
+
+.agency-header {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.agency-banner {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  box-shadow: 0px 2px 9px 0px #000;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.agency-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.agency-column {
+//  flex: 25%;
+  max-width: 17%;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  h3 {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  p {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.agency-projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  .entry {
+    max-width: 30em;
+    margin: 1em auto;
+    &:hover {
+      .p-caption {
+        opacity: 1;
+        transition: $global-transition;
+      }
+      img {
+        opacity: .6;
+        transition: $global-transition;
+      }
+    }
+    img {
+      opacity: 1;
+      margin-bottom: 0;
+    }
+    .p-caption {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      z-index: 10;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .entry-excerpt {
+      margin-top: -0.75em;
+    }
+  }
+}
+
+.agency-clients {
+  .landing-clients-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    .landing-client {
+      display: inline-block;
+      vertical-align: middle;
+      height: 110px;
+      padding: 1.5em;
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+  }
+}
+
+
+.process-image-slidershow{
+  width: 700px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin: 3rem auto;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.process-image-slides{
+  width: 500%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+.process-headlines {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  max-width: 880px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5rem;
+}
+
+.process-headline-font {
+  cursor: pointer;
+  padding: 12px 20px 5px;
+  font-family: $headline-font-family;
+  text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
+  @include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
+}
+
+.flex-process-headline {
+  display: flex;
+  justify-content: center;
+}
+
+.process-slider1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider-text1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider-text2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider-text3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+
+.process-slider-text {
+  width: 40%;
+  text-align: justify;
+  margin: auto;
+  p {
+    height: 2rem;
+  }
+}
+
+.flex-process-description {
+  ol {
+    list-style-type: none;
+    padding: 1rem 0 0;
+  }
+}
+
+.process-descriptions {
+  display: block;
+  text-align: center;
+}
+
+.process-active {
+  background-color: #352860;
+  transition: .2s;
+}
+
+.process-text-inactive {
+  p {
+    display: none;
+  }
+}
+
+.agency-clients {
+  h2 {
+    margin-top: 3em;
+    text-align: center;
+  }
+  .agency-clients-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    .agency-client {
+      display: inline-block;
+      vertical-align: middle;
+      height: 110px;
+      padding: 1.5em;
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+  }
+}
