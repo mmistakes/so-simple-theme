@@ -21,10 +21,10 @@ schema: Movie
 
 {% include responsive-embed url="https://player.vimeo.com/video/331567154?loop=1&title=0&byline=0&portrait=0" ratio="21:9" %}
 
-Life is perfect for this uptown pigeon. But one day, he met a dove and he has to choose betwen staying in his comfort zone or following his heart.
+Life is perfect for this uptown pigeon. But one day, he meets a dove and he has to choose betwen staying in his comfort zone or following his heart.
 
-Check out the project blog [here](http://jakein3d.com/next-flight-home)
+Check out the project blog [here](http://jakein3d.com/next-flight-home).
 
 **Stylized Highlights**
-* Realistic textures combined with distinct silhouette
-
+* Mechanical character designs
+* Rigid animations
