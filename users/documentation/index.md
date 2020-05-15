@@ -89,7 +89,9 @@ in written and visual formats.  These tutorials can be found at
 # Specialized Field Guides
 
 Tutorials, case studies, software packages, and publications related to
-specific fields.
+specific fields. These pages are maintained by volunteers from the Stan 
+community. If you would like to contribute one for your field please reach 
+out on the Stan forums. 
 
 * <p>
   <a href="https://education-stan.github.io">Education
