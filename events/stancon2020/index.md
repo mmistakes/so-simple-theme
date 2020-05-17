@@ -33,25 +33,6 @@ Update: May 16, 2020.
 The 5th Stan Conference will be virtual! Details coming soon... it'll be on one day between August 11-14, 2020.
 
 
-<div style="background-color: #d9edf7; white-space: pre-wrap;">
-COVID-19 update (March 23, 2020)
-
-Dear Stan community, 
-
-On behalf of the StanCon organizing committee we would like to update the community on the status of StanCon 2020 given the ongoing spread of COVID-19.
-
-The conference is still scheduled to take place between August 11–14, 2020 at Oregon State University. The safety of attendees is the top priority of the organizing committee and if the spread of COVID-19 continues to pose a high risk, the organizing committee will lamentably cancel the event. 
-
-The StanCon committee will post an update by the first week of June to communicate the status of the conference. The information and response to the virus is rapidly changing and rather than responding acutely to each new bit of information, we are hopeful that StanCon 2020 can continue as planned.
-
-For current registrants that need to cancel, we will refund your full registration fees. If StanCon 2020 is cancelled, all registration fees will be refunded automatically.
-
-In the meantime, please continue to send in talks and session proposals! If you have questions or comments, feel free to contact the StanCon organizing committee. 
-
-Thank you everyone,
-Stan Conference Organizing Committee
-stancon@mc-stan.org
-</div>
 
 
 ## [Details](#details)
@@ -106,3 +87,25 @@ We can’t do this without the support of generous sponsors that support our eve
    - Debashis Mondal. Statistics Department. Oregon State University.
    - Yi Zhang. Metrum Research Group.
    - Daniel Lee. Generable.
+
+   
+<div style="background-color: #d9edf7; white-space: pre-wrap;">
+COVID-19 update (March 23, 2020)
+
+Dear Stan community, 
+
+On behalf of the StanCon organizing committee we would like to update the community on the status of StanCon 2020 given the ongoing spread of COVID-19.
+
+The conference is still scheduled to take place between August 11–14, 2020 at Oregon State University. The safety of attendees is the top priority of the organizing committee and if the spread of COVID-19 continues to pose a high risk, the organizing committee will lamentably cancel the event. 
+
+The StanCon committee will post an update by the first week of June to communicate the status of the conference. The information and response to the virus is rapidly changing and rather than responding acutely to each new bit of information, we are hopeful that StanCon 2020 can continue as planned.
+
+For current registrants that need to cancel, we will refund your full registration fees. If StanCon 2020 is cancelled, all registration fees will be refunded automatically.
+
+In the meantime, please continue to send in talks and session proposals! If you have questions or comments, feel free to contact the StanCon organizing committee. 
+
+Thank you everyone,
+Stan Conference Organizing Committee
+stancon@mc-stan.org
+</div>
+
