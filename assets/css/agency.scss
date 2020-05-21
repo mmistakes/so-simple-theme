@@ -8,6 +8,7 @@ sitemap: false
 @import "so-simple/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
 
+
 //   AGENCY PAGE   //
 
 .agency-title {
@@ -35,10 +36,10 @@ sitemap: false
   background-position: center;
   color: #FFF;
   box-shadow: 0px 2px 9px 0px #000;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   @media screen and (max-width: 768px) {
     padding-bottom: 0;
   }
@@ -52,12 +53,12 @@ sitemap: false
 
 .agency-column {
 //  flex: 25%;
-  max-width: 17%;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  max-width: 20%;
+  margin-left: 2rem;
+  margin-right: 2rem;
   h3 {
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 0.6rem;
   }
   p {
     margin-bottom: 0;
@@ -78,9 +79,14 @@ sitemap: false
   .entry {
     max-width: 30rem;
     margin: 1rem auto;
+    img {
+      opacity: 1;
+      margin-bottom: 0;
+      transition: transform .2s ease-in-out; /* Zoom Animation */
+    }
     &:hover {
       .p-caption {
-        opacity: 1;
+        opacity: .8;
         transition: $global-transition;
       }
       img {
@@ -88,41 +94,21 @@ sitemap: false
         transition: $global-transition;
       }
     }
-    img {
-      opacity: 1;
-      margin-bottom: 0;
-    }
+
+
     .p-caption {
       position: absolute;
-      top: 50%;
+      top: 40%;
       width: 100%;
       text-align: center;
       z-index: 10;
       opacity: 0;
       cursor: pointer;
+      background-color: white;
+      padding-top: 1.5rem;
     }
     .entry-excerpt {
       margin-top: -0.75em;
-    }
-  }
-}
-
-.agency-clients {
-  .landing-clients-grid {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: center;
-    .landing-client {
-      display: inline-block;
-      vertical-align: middle;
-      height: 110px;
-      padding: 1.5em;
-      img {
-        max-width:100%;
-        max-height:100%;
-      }
     }
   }
 }
@@ -149,11 +135,12 @@ input[name="r"]{
   display: flex;
 }
 
-.slide{
+.process-image-slide{
   width: 20%;
+  height: 100%;
   transition: 0.6s;
 }
-.slide img{
+.process-image-slide img{
   width: 100%;
   height: 100%;
 }
@@ -167,15 +154,21 @@ input[name="r"]{
 #r3:checked ~ .s1{
   margin-left: -40%;
 }
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
 
 .process-headlines {
   text-align: center;
   border-bottom: 1px solid #fff;
-  max-width: 880px;
+  max-width: 975px;
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 0 5rem;
+  padding: 0 2rem;
   @media screen and (max-width: 768px) {
     max-width: 330px;
     padding: 0;
@@ -186,8 +179,9 @@ input[name="r"]{
   cursor: pointer;
   padding: 12px 20px 5px;
   font-family: $headline-font-family;
+  font-size: 1.2rem;
   text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
-  @include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
+  //@include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
   @media screen and (max-width: 768px) {
     padding: 8px 15px 0px;
   }
@@ -201,9 +195,13 @@ input[name="r"]{
 .process-slider1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 .process-slider2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 .process-slider3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 .process-slider-text1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 .process-slider-text2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 .process-slider-text3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider-text4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+.process-slider-text5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
 
 .process-slider-text {
   width: 40%;
@@ -243,6 +241,8 @@ input[name="r"]{
   }
 }
 
+
+
 .agency-clients {
   h2 {
     margin-top: 3em;
@@ -264,5 +264,53 @@ input[name="r"]{
         max-height:100%;
       }
     }
+  }
+}
+
+
+.agency-contact-banner {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  box-shadow: 0px 2px 9px 0px #000;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+.agency-contact {
+  display: block;
+  margin: 0;
+  text-align: center;
+  p {
+     margin-bottom:0.35rem;
+  }
+  p .btn--aio {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #7555d8;
+    transition: 0.2s;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+  }
+  .btn {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-family: $sans-serif-font-family;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0;
+    border-radius: $border-radius;
+    cursor: pointer;
+  }
+  .btn--aio:hover {
+    background-color: #fff;
+    color: #000;
   }
 }
