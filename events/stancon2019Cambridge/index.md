@@ -240,7 +240,7 @@ Subject to change.
 <li><i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> <a href="abstracts.html#15">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=9283">Video</a></li>
 <li><i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> <a href="abstracts.html#11">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=10652">Video</a></li>
 <li><i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> <a href="abstracts.html#28">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=11874">Video</a></li>
- <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=11874">Video</a></li>
+ <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=13090">Video</a></li>
 	</ul></li>
 <li> 12:00pm-1:00pm Provided Lunch </li>
 <li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (stanc optimization)</li>
