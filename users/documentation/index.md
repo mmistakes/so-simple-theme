@@ -35,7 +35,7 @@ This manual applies to all Stan interfaces.
 * [Stan Language Reference Manual 2.23](/docs/2_23/reference-manual/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
- 
+
 * [Stan Language Reference Manual 2.23 pdf](/docs/2_23/reference-manual-2_23.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
@@ -51,10 +51,16 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan Language Functions Reference 2.23 pdf](/docs/2_23/functions-reference-2_23.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
+# Stan Software Development Lifecycle
+
+The software development practices underlying the code managed
+by the Stan project is hosted at
+
+* [Stan Software Development Lifecycle](/docs/sdlc.html)
 
 # RStan Documentation
 
-*  [RStan Vignettes, tutorials, and other package information](/rstan) 
+*  [RStan Vignettes, tutorials, and other package information](/rstan)
 
 # PyStan Documentation
 
@@ -72,12 +78,12 @@ development team can be found at
   Case Studies</a></p>
 
 The proceedings of each Stan Conference also take the form of
-self-contained notebooks. StanCon notebooks are hosted on GitHub 
+self-contained notebooks. StanCon notebooks are hosted on GitHub
 along with other materials from the conferences:
 
 * <p><a href="https://github.com/stan-dev/stancon_talks">
   StanCon Materials</a> &nbsp; &nbsp; <span class="note">(GitHub, with video links)</span></p>
-  
+
 # Tutorials
 
 The Stan development team and many users have contributed tutorials aimed at introducing users to various aspects of statistical modeling with Stan, both
@@ -85,25 +91,25 @@ in written and visual formats.  These tutorials can be found at
 
 * <p><a href="/users/documentation/tutorials.html">Tutorials</a></p>
 
- 
+
 # Specialized Field Guides
 
 Tutorials, case studies, software packages, and publications related to
-specific fields. These pages are maintained by volunteers from the Stan 
-community. If you would like to contribute one for your field please reach 
-out on the Stan forums. 
+specific fields. These pages are maintained by volunteers from the Stan
+community. If you would like to contribute one for your field please reach
+out on the Stan forums.
 
 * <p>
   <a href="https://education-stan.github.io">Education
     research using Stan</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
-  
+
 * <p>
   <a href="https://stanecology.github.io/">Stan for Ecology</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
-  
+
 * <p>
   <a href="https://epidemiology-stan.github.io/">Stan for Epidemiology</a>
   &nbsp; <span class="note">(GitHub)</span>
