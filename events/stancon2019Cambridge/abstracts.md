@@ -11,20 +11,20 @@ image:
 
 [Return to main StanCon page](https://mc-stan.org/events/stancon2019Cambridge/)
 
-Accepted submissions were given the option being a poster or 15 minute presentation. We expect to schedule 18-24 presentations, the rest will be posters. The schedule is still being finalized. Subject to change.
+Accepted submissions were given the option being a poster or 15 minute presentation. Video links are included if a presentation was made. 
 
 
 * Pharmaceuticals/Medicine
 	+ <i><b>Computing prediction and tolerance intervals for a mixture of normal distributions.</b></i>
-Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Abstract](#1)
-	+ <i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2)
+Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Abstract](#1) 
+	+ <i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> [Abstract](#2) 
 	+ <i><b>Multi-channel Gaussian Processes as flexible alternatives to linear models: perspectives and challenges to scaling up Bayesian inference to genomic-scale data</b></i>. Caetano Souto-Maior, Susan T. Harbison. <b>Laboratory of Systems Genetics, National Heart Lung and Blood Institute, NIH.</b> [Abstract](#6)
-	+ <i><b>Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> [Abstract](#8)
-	+ <i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> [Abstract](#11)
-	+ <i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Abstract](#15)
-	+ <i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> [Abstract](#17)
-	+ <i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> [Abstract](#18)
-	+ <i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> [Abstract](#19)
+	+ <i><b>Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> [Abstract](#8) [Video](https://youtu.be/KH4jN9EBTtE?t=28593)
+	+ <i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> [Abstract](#11) [Video](https://youtu.be/rP1Voi9bpz0?t=10652)
+	+ <i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Abstract](#15) [Video](https://youtu.be/rP1Voi9bpz0?t=9283)
+	+ <i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> [Abstract](#17) [Video](https://youtu.be/KH4jN9EBTtE?t=9305)
+	+ <i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> [Abstract](#18) [Video](https://youtu.be/KH4jN9EBTtE?t=10581)
+	+ <i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> [Abstract](#19) [Video](https://youtu.be/KH4jN9EBTtE?t=11826)
 	+ <i><b>A Bayesian multi-layered model to predict mechanisms, types, and severity of drug-induced liver injury</b></i>. Elizaveta Semenova, Dominic Williams, Stanley E Lazic. <b>Data Science and Quantitative Biology group, AstraZeneca, Cambridge UK</b> [Abstract](#34)
 
 
@@ -34,19 +34,20 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	+ <i><b>Gaussian process modeling and covariate selection for longitudinal data</b></i>. Juho Timonen, Aki Vehtari, Harri Lähdesmäki. <b>Aalto University</b> [Abstract](#3)
 	+ <i><b>Estimating the effect of age and league on scoring rate in professional soccer</b></i>. Benjamin Torvaney. <b>Wefarm</b>  [Abstract](#7)
 	+ <i><b>Hierarchical models for gamma-ray burst populations</b></i>. J. Michael Burgess. <b> MPE </b> [Abstract](#12)
-	+ <i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16)
-	+ <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](#20)
-	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> [Abstract](#21)
-	<!--+ <i><b>A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> [Abstract](#22)
-	-->
-	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23)
-	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24)
-	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Abstract](#25)
-	+ <i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Abstract](#26)
-	+ <i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [Abstract](#27)
+	+ <i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Abstract](#16) [Video](https://youtu.be/rP1Voi9bpz0?t=5408)
+	+ <i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Abstract](#20) [Video](https://youtu.be/KH4jN9EBTtE?t=4653)
+	+ <i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> [Abstract](#21) [Video](https://youtu.be/KH4jN9EBTtE?t=23821)
+	+ <i><b>Prediction and causal inference for time-to-event outcomes truncated by death.
+</b></i>. Leah Comment. <b></b> [Abstract](#22) [Video](https://youtu.be/rP1Voi9bpz0?t=23731)
+	
+	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23) [Video](https://youtu.be/KH4jN9EBTtE?t=21410)
+	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24) [Video](https://youtu.be/KH4jN9EBTtE?t=5838)
+	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Abstract](#25) [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
+	+ <i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Abstract](#26) [Video](https://youtu.be/rP1Voi9bpz0?t=22373)
+	+ <i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [Abstract](#27) [Video](https://youtu.be/KH4jN9EBTtE?t=27391)
 	+ <i><b>A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [Abstract](#30)
-	+ <i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [Abstract](#31)
-	+ <i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [Abstract](#32)
+	+ <i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [Abstract](#31) [Video](https://youtu.be/rP1Voi9bpz0?t=21174)
+	+ <i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [Abstract](#32) [Video](https://youtu.be/rP1Voi9bpz0?t=26935)
 	<!--+ <i><b>Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> [Abstract](#33)
 	-->
 
@@ -55,15 +56,15 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
     + <i><b>Making Stan Faster using Sequential Monte Carlo samplers</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM) . <b></b> [Abstract](#4)
     + <i><b>One weird trick: Non-parametric Bayesian updating by kernels</b></i>. Robert Grant. <b>BayesCamp</b> [Abstract](#5)
     + <i><b>Semiparametric Modeling of the Mean,Variance and Scale Parameters in Skew Normal Regression Models: A Bayesian Perspective</b></i>. Héctor Zarate. <b></b> [Abstract](#13)
-    + <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14)
-    + <i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Abstract](#28)
-    + <i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Abstract](#29)
+    + <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14) [video](https://youtu.be/KH4jN9EBTtE?t=3428)
+    + <i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Abstract](#28) [Video](https://youtu.be/rP1Voi9bpz0?t=11874)
+    + <i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Abstract](#29) [Video](https://youtu.be/rP1Voi9bpz0?t=13090)
 
 
 * Core Stan
-	+ <i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> [Abstract](#10)
+	+ <i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> [Abstract](#10) [Video](https://youtu.be/rP1Voi9bpz0?t=4419)
 	+ <i><b>PyCmdStan</b></i>. Mitzi Morris. <b>Columbia University</b> [Abstract](#35)
-	+ <i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9)
+	+ <i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9) [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
 
 
 
@@ -83,11 +84,6 @@ Abstract:
 -->
 <!--==============================================-->
 
-
-
-<i><b id="35">PyCmdStan</b></i>. Mitzi Morris.<b>Columbia University</b> 
-Abstract:
-<hr>
 
 
 <i><b id="34">A Bayesian multi-layered model to predict mechanisms, types, and severity of drug-induced liver injury</b></i>. Elizaveta Semenova, Dominic Williams, Stanley E Lazic. <b>Data Science and Quantitative Biology group, AstraZeneca, Cambridge UK</b> 
@@ -122,7 +118,7 @@ The paper describes a process of model refinement staring with naive approaches 
 <hr>
 
 
-<i><b id="31">Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697267.svg)](https://doi.org/10.5281/zenodo.3697267) <br>[Video](https://youtu.be/rP1Voi9bpz0?t=21175)
+<i><b id="31">Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697267.svg)](https://doi.org/10.5281/zenodo.3697267) [Video](https://youtu.be/rP1Voi9bpz0?t=21175)
 
 Abstract: Bayesian statistics is closely coupled with physics. The metropolis algorithm (1953) was developed by scientists working at Los Alamos as a method for thermodynamic simulation of molecular dynamics. Not until the work of W. K. Hastings (1970) was the method generalized to arbitrary probability distributions. Hamiltonian Monte Carlo is even more deeply rooted in physics than the Metropolis-Hastings algorithm. The simulation of states with velocities, energies, and a Hamiltonian describes nothing other than a physical system. It matches a canonical ensemble in that there is not a fixed energy between steps, only an overall fixed temperature. The temperature is usually only implicit, but some tempering methods simulate chains at higher temperatures to smooth the probability distributions. The Ising Model, a proxy for magnetization, is a prevalent introductory model in the study of statistical mechanics. It consists of an N-dimensional grid of spin up or down particles. The energy varies depending on the alignment of spins between nearest neighbors. At low temperatures spins tend to align on a macroscopic scale; at high temperatures they become evenly distributed. We simulate the XY Model, similar to the Ising Model but allowing spins to be represented by unit vectors in two dimensions, using Stan. We create chains at several temperatures to identify the locations of phase transitions in macroscopic properties. Our work shows the applicability of Stan for computation in continuous statistical mechanical problems.
 
@@ -137,14 +133,14 @@ Abstract: State-space models are a popular choice in modelling voting intentions
 <hr>
 
 
-<i><b id="29">Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> 
+<i><b id="29">Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=13090)
 
 Abstract: Model inference, such as model comparison, model checking, and model selection, is an important part of model development. Leave-one-out cross-validation (LOO) is a general approach for assessing the generalizability of a model, but unfortunately, LOO does not scale well to large datasets. We propose a combination of using approximate inference techniques and probability-proportional-to-size-sampling (PPS) for fast LOO model evaluation for large datasets. We provide both theoretical and empirical results showing good properties for large data.
 
 <hr>
 
 
-<i><b id="28">Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> 
+<i><b id="28">Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=11874)
 
 Abstract: When working with multimodal posterior distributions, MCMC algorithms can have difficulty moving between modes, and default variational or mode-based approximate inferences can understate posterior uncertainty. And, even if the most important modes can be found, it is difficult to evaluate their relative weights in the posterior, which requires computing the integral of the posterior in the neighborhood of each mode.
 Here we propose an alternative approach, using parallel runs of MCMC, variational, or mode- based inferences to hit as many modes as possible, and then using Bayesian stacking to weight the set of simulations at each mode. Bayesian stacking is a method for constructing a weighted average of distributions so as to minimize cross-validated prediction errors. The result from stacking is not necessarily equivalent, even asymptotically, to fully Bayesian inference, but it serves many of the same goals.
@@ -152,8 +148,7 @@ We discuss in the context of several theoretical and applied examples.
 
 <hr>
 
-<i><b id="27">Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697289.svg)](https://doi.org/10.5281/zenodo.3697289)
-<br>[Video](http://doi.org/10.5281/zenodo.3697289)
+<i><b id="27">Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697289.svg)](https://doi.org/10.5281/zenodo.3697289) [Video](https://youtu.be/KH4jN9EBTtE?t=27391)
 
 Abstract: Chronikis (http://chronikis.org) is an open-source language for Bayesian time-series models that compiles to Stan and R. It currently focuses on linear state-space models, with plans to incrementally expand the class of supported models over time. The goal for Chronikis is to allow one to quickly and reliably create and apply a variety of models to a time series, doing a full Bayesian analysis on each.
 
@@ -188,14 +183,14 @@ Chronikis also has some innovative support for (quasi-)periodic time-series mode
 <hr>
 
 
-<i><b id="26">Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> 
+<i><b id="26">Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=22373)
 
 Abstract:A central theme in the field of survey statistics is estimating population-level quantities through data coming from potentially non-representative samples of the population. Multilevel Regression and Poststratification (MRP), a model-based approach, is gaining traction against the traditional weighted approach for survey estimates. MRP uses partial pooling through random effects, thus shrinking model estimates to an overall mean and reducing potential overfitting. Despite MRP’s straightforward specification of prior distributions, the estimates coming from it are susceptible to bias if there is an underlying structure that the prior does not capture. This work aims to provide a new framework for specifying structured prior distributions that lead to bias reduction in MRP estimates. We use simulation studies to explore the benefit of these priors and demonstrate on US survey data.
 
 <hr>
 
 
-<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> 
+<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
 
 
 Abstract: Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population. 
@@ -208,33 +203,33 @@ A full paper is available at https://arxiv.org/abs/1811.00457. "
 
 <hr>
 
-<i><b id="24">The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> 
+<i><b id="24">The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Video](https://youtu.be/KH4jN9EBTtE?t=5838)
 
 Abstract: Airbnb and short-term rentals are raising rents in cities through the use of new technologies and by catering to culturally savvy populations. As a phenomenon of the attention economy, Airbnb is a platform where meaning becomes priced, as efficient and attractive communication is awarded by more bookings. In this paper, we look at how this capitalization of meaning can be understood by modelling the use of neighbourhood names. Using Natural Language Processing techniques and Bayesian hierarchical logit models with Intrinsic Auto-Regressive priors, we explore how listings draw upon the value placed on well-known neighbourhoods to promote themselves. Our findings separate different spatial effects as well as neighbourhood and listing level patterns that help us explain how neighbourhood names are deployed to promote short-term rentals on Airbnb.
 
 
 <hr>
 
-<i><b id="23">Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b>
+<i><b id="23">Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Video](https://youtu.be/KH4jN9EBTtE?t=21410)
 
 Abstract: Exploring simple, automatic within-chain parallelization. For any (well-behaved) statistical model written in the Stan language, the Stan Math library (Math) provides the gradient of the log joint probability distribution function specified. It currently provides the gradient with reverse-mode automatic differentiation. Math also provides forward-mode automatic differentiation, which isn't as well tested as reverse-mode, but is available none-the less. Reverse-mode automatic differentiation scales well as it can tackle an arbitrary number of parameters with one sweep. However, this can't be parallelized easily. Forward-mode requires N sweeps to evaluate N directional derivatives, but each of these sweeps can be done in parallel. With the adoption of C++14 capable compilers, we're now able to use threading as an easy paradigm to coordinate within-chain parallelization. We'll show some of the performance considerations and some preliminary results.
 
 <hr>
 
-<!--<i><b id="22">A hierarchical model for predicting customer behaviour with heterogeneity and latent variables</b></i>. Igor Gorshunov. <b></b> 
+<i><b id="22">Prediction and causal inference for time-to-event outcomes truncated by death</b></i>. Leah Comment. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=23731)
 
 Abstract: Predicting customer behaviour is crucial for making decisions such as the cost of acquisition or planning for production or service capacity. In the model being presented individual purchase data of a fashion retailer is utilized to describe and predict their behaviour using Bayeasian multi-layered architecture to allow for heterogeneity and latent variables, such as customer state of activity.
 
 <hr>-->
 
-<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 10.5281/zenodo.3697272
+<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 10.5281/zenodo.3697272 [Video](https://youtu.be/KH4jN9EBTtE?t=23821)
 
 Abstract: Multiple seasonalities play a key role in time series forecasting, especially for business time series where seasonal effects are often dramatic. Previous approaches including Fourier decomposition, exponential smoothing, and Seasonal ARIMA do not reflect distinct characteristics of each period in seasonal patterns such as unique behavior of specific day of the week in business data. We propose a multi-dimensional hierarchical model. Intermediate parameters for each seasonal period are first estimated, then mixture of intermediate parameters are then taken, resulting in the model which successfully reflects interactions between multiple seasonalities. Although this process leads to the reduction of data available for each parameter, a robust estimation can be obtained through a hierarchical Bayesian model. Consideration of not only the characteristics of each seasonal periods but also the interactions between characteristics from multiple seasonalities becomes possible through this model. Our new model is implemented in Stan and considerable improvements in prediction accuracy compared to previous models are achieved. Previous models include Fourier decomposition which Prophet uses to model seasonalities. Comparison has been performed on real-world dataset from a nation-scale logistic network.
 
 <hr>
 
 
-<i><b id="20">Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> 
+<i><b id="20">Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> [Video](https://youtu.be/KH4jN9EBTtE?t=4653)
 
 Abstract: One of the common goals of time series analysis is to use the observed series
 to inform predictions for future observations. In the absence of any actual
@@ -268,7 +263,7 @@ Analysis was performed using both Python and Stan and is provided in a Jupyter n
 <hr>
 
 
-<i><b id="18">The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b>
+<i><b id="18">The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> [Video](https://youtu.be/KH4jN9EBTtE?t=10581)
 
 Abstract: Large-scale campaigns providing access to antiretroviral therapy (ART) to people living with HIV in southern Africa have been ongoing since the early 2000s. The success of these campaigns is now threatened by the emergence of HIV drug resistance, most of all resistance to non-nucleoside reverse-transcriptase inhibitors (NNRTI), a class of drugs constitutive of ART. Systematic reviews of cross-sectional surveys have provided insights into the temporal trends of NNRTI resistance among HIV-infected individuals. However, these simple temporal trends fail to account for the local dynamics of HIV transmission and treatment that create the evolutionary pressure generating resistance mutations. Such approaches limit our general understanding of the phenomena of resistance emergence in response to drug introduction and disallow any between-country comparison. Here, we propose a mechanistic approach linking the observed levels of NNRTI  resistance to the underlying dynamics of HIV in each country.
 	
@@ -280,7 +275,7 @@ The model could adequately reproduce the dynamics of the HIV epidemics in each c
 
 
 
-<i><b id="17">Modelling enzyme kinetics with Stan</b></i>.Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b>
+<i><b id="17">Modelling enzyme kinetics with Stan</b></i>.Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> [Video](https://youtu.be/KH4jN9EBTtE?t=9305)
 
 Abstract: The advent of high-throughput technologies has transformed molecular biology into a data-rich discipline. However, integrating this data into a predictive modeling framework is not trivial because many different sources of uncertainty about the molecular processes governing cell metabolism must be taken into account. In particular, reaction fluxes and steady-state reactant concentrations can at best be measured noisily, and even for the best-understood organisms pre-experimental knowledge of kinetic parameters is incomplete and imprecise.
 
@@ -294,7 +289,7 @@ https://www.biosustain.dtu.dk/research/scientific-sections/quantitative-modellin
 
 <hr>
 
-<i><b id="16">Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b>
+<i><b id="16">Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> [Video](https://youtu.be/rP1Voi9bpz0?t=5408)
 
 Abstract:A key step in the production of chocolate is the fermentation of cocoa beans. This importance relies on its role in the development of chocolate's flavor and aroma. Unlike other food fermentation processes, this specific fermentation is well known because of its lack of control and multiple ways in which it is performed. Here, a quantitative model of cocoa bean fermentation is constructed on previously available data regarding microbiological and metabolites dynamics. The model is formulated as a system of coupled ordinary differential equations (ODEs) with two different types of state variables: (1) Metabolite concentrations of glucose (Glc), fructose (Fru), ethanol (EtOH), lactic acid (LA) and acetic acid (Ac), and (2) population sizes of yeast (Y), lactic acid bacteria (LAB) and acetic acid bacteria (AAB). In total, the model comprehends 25 unknown parameters that were estimated using the Markov chain Monte Carlo No-U-Turn sampler in Rstan. Thereafter, we demonstrate that the model can quantitatively describe existing fermentation series and that the estimated parameters can be used to extract and interpret differences in environmental conditions between two independent fermentation trials [1].
 
@@ -305,7 +300,7 @@ References
 <hr>
 
 
-<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>.  Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> 
+<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>.  Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Video](https://youtu.be/rP1Voi9bpz0?t=9283)
 
 Abstract: Time-to-event data refers to the observed time from a defined origin (e.g. diagnosis of a disease) until a terminating event of interest (e.g. death). Time-to-event data emerges in a range of industries and scientific disciplines, although it is particularly common in medical and pharmaceutical research. In these research fields, time-to-event data is commonly known as survival data reflecting the fact that death is an event endpoint often used in clinical studies. Analyses of survival data are widely used for decision making in clinical trials, drug development and regulatory approvals. 
 
@@ -314,7 +309,7 @@ In this talk we introduce a flexible family of Bayesian survival models that are
 
 <hr>
 
-<i><b id="14">Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> 
+<i><b id="14">Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Video](https://youtu.be/KH4jN9EBTtE?t=3428)
 
 Abstract: In models of discrete choice, sensible-seeming priors on part-worth coefficients can imply priors in the choice probability space that are highly implausible, putting close to 100% prior weight on a single choice dominating all others. This problem reveals itself in problems with initialization and poor fit quality. Yet choosing priors is complicated by the research design, including the dimensionality of choice attributes, and their scale and covariance. In this talk I provide intuition for how priors and choice attributes interact to create extreme prior choice probabilities, and describe a new method to define priors that implies close-to-uniform weight in the choice probability space.
 
@@ -334,7 +329,7 @@ Abstract: Inferring the number, rate and intrinsic properties of short gamma-ray
 <hr>
 
 
-<i><b id="11">A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b>
+<i><b id="11">A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> [Video](https://youtu.be/rP1Voi9bpz0?t=10652)
 
 Abstract: Most statistical problems end with estimating the quantities of interest which may be unobservable parameters or in the prediction context, potentially observable data. As statisticians we sometimes forget that models are often decision-making tools and making decisions conditional on our understanding of the uncertainties in the system is the ultimate goal of the consumers of our models. In this talk, we will introduce a decision problem of advancing therapies to late-stage clinical trials from early-stage clinical data.  We do this in the context of a Bayesian Joint Model.
 
@@ -346,7 +341,7 @@ Once the inferences from the Joint Model are obtained, we set up a Utility funct
 
 <hr>
 
-<i><b id="10">The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> 
+<i><b id="10">The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). [Video](https://youtu.be/rP1Voi9bpz0?t=4419)<b></b> 
 
 Abstract: Our presentations details the current state of and future work on the OpenCL-based framework that allows the Stan automatic differentiation library to utilize GPUs. Our research was initially motivated by large Gaussian Process models where the computation is dominated by the Cholesky decomposition but has since developed into an extensible framework. 
 
@@ -358,7 +353,7 @@ We will show how problem size, model and choice of hardware impact the speedups 
 
 
 
-<i><b id="9">Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b>
+<i><b id="9">Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
 
 Abstract: Tape-based AD Libraries, such as dco/c++, keep a record of calculations that are executed by a program in order to evaluate derivatives.  They are applicable to a wider range of numerical codes than tape-free AD libraries, which are typically written to compute derivatives for a specific library of functions.
 The Stan Math Library is a tape-free AD library.  By comparison with tape-based approaches, memory requirements are low.  Each function in the Stan Math library has a corresponding adjoint function, which is used to evaluate derivatives.  The memory requirements of the dco/c++ tool can be made arbitrarily low through manipulation of the tape recording.  For example, users can insert gaps into the tape which are then filled by a user-supplied derivative.
@@ -378,7 +373,7 @@ Stan Math Library:
 
 <hr>
 
-<i><b id="8">Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> 
+<i><b id="8">Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b> [Video](https://youtu.be/KH4jN9EBTtE?t=28593)
 
 Abstract: We present a substantive application of Stan that has informed national health policy.
 

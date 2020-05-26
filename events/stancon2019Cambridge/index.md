@@ -248,7 +248,7 @@ Subject to change.
 	<ul>
 	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=21174">Video</a></li>
 	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=22373">Video</a></li>
-	<li><i><b>Prediction and causal inference for time-to-event outcomes truncated by death</b> <a href="https://youtu.be/rP1Voi9bpz0?t=23731">Video</a></i> Leah Comment </li>
+	<li><i><b>Prediction and causal inference for time-to-event outcomes truncated by death</b> <a href="abstracts.html#22">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=23731">Video</a></i> Leah Comment </li>
 	</ul></li>
 	
 	<li> 3:00pm-3:40pm Break</li>
