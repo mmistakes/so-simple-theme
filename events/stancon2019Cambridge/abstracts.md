@@ -104,7 +104,9 @@ Abstract: The empirical question is modeling the time trend in corn yields in th
 <hr>-->
 
 
-<i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630762.svg)](https://doi.org/10.5281/zenodo.3630762)
+<i><b id="32">Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3630762.svg)](https://doi.org/10.5281/zenodo.3630762). 
+<br>
+[Video](https://youtu.be/rP1Voi9bpz0?t=26936)
 
 Abstract: The US has dramatically reduced blood lead levels in children over the past 30 years and that effort continues. New York City (NYC) was an early adopter of lead reduction policies and that effort continues with laws that require all children be tested and with mandatory interventions for those tested blood levels (tbll) greater than 5mg/dL. But there is a statistically interesting story around how current blood level limits are set, the performance of common tests and how to apply common Bayes rule reasoning to publicly available data. 
 
@@ -120,7 +122,7 @@ The paper describes a process of model refinement staring with naive approaches 
 <hr>
 
 
-<i><b id="31">Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> 
+<i><b id="31">Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697267.svg)](https://doi.org/10.5281/zenodo.3697267) <br>[Video](https://youtu.be/rP1Voi9bpz0?t=21175)
 
 Abstract: Bayesian statistics is closely coupled with physics. The metropolis algorithm (1953) was developed by scientists working at Los Alamos as a method for thermodynamic simulation of molecular dynamics. Not until the work of W. K. Hastings (1970) was the method generalized to arbitrary probability distributions. Hamiltonian Monte Carlo is even more deeply rooted in physics than the Metropolis-Hastings algorithm. The simulation of states with velocities, energies, and a Hamiltonian describes nothing other than a physical system. It matches a canonical ensemble in that there is not a fixed energy between steps, only an overall fixed temperature. The temperature is usually only implicit, but some tempering methods simulate chains at higher temperatures to smooth the probability distributions. The Ising Model, a proxy for magnetization, is a prevalent introductory model in the study of statistical mechanics. It consists of an N-dimensional grid of spin up or down particles. The energy varies depending on the alignment of spins between nearest neighbors. At low temperatures spins tend to align on a macroscopic scale; at high temperatures they become evenly distributed. We simulate the XY Model, similar to the Ising Model but allowing spins to be represented by unit vectors in two dimensions, using Stan. We create chains at several temperatures to identify the locations of phase transitions in macroscopic properties. Our work shows the applicability of Stan for computation in continuous statistical mechanical problems.
 
@@ -128,7 +130,7 @@ Abstract: Bayesian statistics is closely coupled with physics. The metropolis al
 
 
 
-<i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> 
+<i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> 10.5281/zenodo.3697270
 
 Abstract: State-space models are a popular choice in modelling voting intentions and election results by using poll data. The presented multivariate state-space model attempts to go beyond random-walk or Kalman-filter approaches (with comparable performance to simple weighted survey averages) to the problem by introducing a long-short term event memory effect. This effect serves as reasonable explanation to the observation that the voter's share partially tends to reverse to the party's long-term trend after larger short term movements. Any event influencing the voter's share of a party is presumed to have a convex shaped effect decomposable into a short term effect due to e.g. media spreading and a smaller long term effect remaining despite overlay effects of new events and forgetting. This effect is modelled by a mixture of a random walk and two contrasting autoregressive processes. By also taking advantage of the widely observed effect that government parties tend to fall in voter's share, whereas the opposite effect is observed for opposition parties, mid- and long-term predictions of election outcomes can be considerably be improved. The Stan-model is fitted and evaluated on poll data from seven pollsters for the German national elections ("Bundestagswahl") from 1994 to 2017, where low double digits (out-of-sample) improvements in prediction performance can be seen between 3- and 18-months prior elections. By taking into account the pollsters house effects, their poll errors and even more importantly their correlations in poll errors, an appropriate and realistic estimation error can be propagated. 
 
@@ -150,7 +152,8 @@ We discuss in the context of several theoretical and applied examples.
 
 <hr>
 
-<i><b id="27">Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> 
+<i><b id="27">Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697289.svg)](https://doi.org/10.5281/zenodo.3697289)
+<br>[Video](http://doi.org/10.5281/zenodo.3697289)
 
 Abstract: Chronikis (http://chronikis.org) is an open-source language for Bayesian time-series models that compiles to Stan and R. It currently focuses on linear state-space models, with plans to incrementally expand the class of supported models over time. The goal for Chronikis is to allow one to quickly and reliably create and apply a variety of models to a time series, doing a full Bayesian analysis on each.
 
@@ -224,7 +227,7 @@ Abstract: Predicting customer behaviour is crucial for making decisions such as 
 
 <hr>-->
 
-<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 
+<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 10.5281/zenodo.3697272
 
 Abstract: Multiple seasonalities play a key role in time series forecasting, especially for business time series where seasonal effects are often dramatic. Previous approaches including Fourier decomposition, exponential smoothing, and Seasonal ARIMA do not reflect distinct characteristics of each period in seasonal patterns such as unique behavior of specific day of the week in business data. We propose a multi-dimensional hierarchical model. Intermediate parameters for each seasonal period are first estimated, then mixture of intermediate parameters are then taken, resulting in the model which successfully reflects interactions between multiple seasonalities. Although this process leads to the reduction of data available for each parameter, a robust estimation can be obtained through a hierarchical Bayesian model. Consideration of not only the characteristics of each seasonal periods but also the interactions between characteristics from multiple seasonalities becomes possible through this model. Our new model is implemented in Stan and considerable improvements in prediction accuracy compared to previous models are achieved. Previous models include Fourier decomposition which Prophet uses to model seasonalities. Comparison has been performed on real-world dataset from a nation-scale logistic network.
 
@@ -253,7 +256,8 @@ approximation. We provide examples using Bayesian time-series models fitted with
 <hr>
 
 
-<i><b id="19">Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> 
+<i><b id="19">Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697280.svg)](https://doi.org/10.5281/zenodo.3697280)
+<br>[Video](https://youtu.be/KH4jN9EBTtE?t=11803)
 
 Abstract: Multiple imputation is a technique for handling missing data, censored values and measurement error. Currently it is underused in the machine learning field due to lack of familiarity and experience with the technique, whilst other missing data solutions such as full Bayesian models can be hard to set up. However, randomization-based evaluations of Bayesianly derived repeated imputations can provide approximately valid inference of the posterior distributions and allow use of techniques which rely upon complete data such as SVMs and random Forest models. 
 
