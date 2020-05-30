@@ -206,7 +206,7 @@ Subject to change.
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
 <li><i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> <a href="abstracts.html#23">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=21410">Video</a></li>
-	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> <a href="abstracts.html#25">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=22351">Video</a></li>
+	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>Drexel University, The Wharton School</b> <a href="abstracts.html#25">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=22351">Video</a></li>
 		<li><i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> <a href="abstracts.html#21">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=23821">Video</a></li>
 	</ul>
 </li>
@@ -229,7 +229,7 @@ Subject to change.
 <li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
-	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=3398">Video</a></li>
+	<li><i><b>Extending Stan's Automatic Differentiation (AD) capabilities using dco/c++</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=3398">Video</a></li>
 	<li><i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> <a href="abstracts.html#10">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=4419">Video</a></li>
 	<li><i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> <a href="abstracts.html#16">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=5408">Video</a></li>
 	</ul></li>

@@ -42,11 +42,12 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
 	
 	+ <i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> [Abstract](#23) [Video](https://youtu.be/KH4jN9EBTtE?t=21410)
 	+ <i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Abstract](#24) [Video](https://youtu.be/KH4jN9EBTtE?t=5838)
-	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Abstract](#25) [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
+	+ <i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>Drexel Univeristy, The Wharton School</b> [Abstract](#25) [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
 	+ <i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Abstract](#26) [Video](https://youtu.be/rP1Voi9bpz0?t=22373)
 	+ <i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> [Abstract](#27) [Video](https://youtu.be/KH4jN9EBTtE?t=27391)
 	+ <i><b>A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [Abstract](#30)
 	+ <i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> [Abstract](#31) [Video](https://youtu.be/rP1Voi9bpz0?t=21174)
+	+ <i><b>Regularized Hierarchical Models for Remotely Sensed Forest Inventories.</b></i> Nathan E. Rutenbeck <b>SilviaTerra</b> [Abstract](#100) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3861054.svg)](https://doi.org/10.5281/zenodo.3861054)
 	+ <i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia Univeristy</b> [Abstract](#32) [Video](https://youtu.be/rP1Voi9bpz0?t=26935)
 	<!--+ <i><b>Hierarchical Bayesian Spatial Smoothing of Regression Parameters with Panel Data</b></i>. B. Wade Brorsen. <b>Oklahoma State University</b> [Abstract](#33)
 	-->
@@ -56,15 +57,14 @@ Jean-francois Michiels, Timothy Mutsvari,  Oussama Errazi. <b>Pharmalex</b>. [Ab
     + <i><b>Making Stan Faster using Sequential Monte Carlo samplers</b></i>. Simon Maskell (University of Liverpool), Alessandro Varsi (University of Liverpool), Peter Green (University of Liverpool), Paul Horridge (University of Liverpool), Alejandro Diaz (University of Liverpool), Lee Devlin (University of Liverpool), Rob Moore (University of Liverpool), Katerina Chatzopoulou (University of Liverpool), Jinglai Li (University of Liverpool), Maria Sudell (University of Liverpool), Luke Mason (STFC), Robin Pinning (STFC), Jack Taylor (STFC), Vassil Alexandrov (STFC), Ed Pyzer-Knapp (IBM) . <b></b> [Abstract](#4)
     + <i><b>One weird trick: Non-parametric Bayesian updating by kernels</b></i>. Robert Grant. <b>BayesCamp</b> [Abstract](#5)
     + <i><b>Semiparametric Modeling of the Mean,Variance and Scale Parameters in Skew Normal Regression Models: A Bayesian Perspective</b></i>. Héctor Zarate. <b></b> [Abstract](#13)
-    + <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14) [video](https://youtu.be/KH4jN9EBTtE?t=3428)
+    + <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <b>Schmidt Futures</b> [Abstract](#14) [Video](https://youtu.be/KH4jN9EBTtE?t=3428)
     + <i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Abstract](#28) [Video](https://youtu.be/rP1Voi9bpz0?t=11874)
     + <i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Abstract](#29) [Video](https://youtu.be/rP1Voi9bpz0?t=13090)
 
 
 * Core Stan
 	+ <i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> [Abstract](#10) [Video](https://youtu.be/rP1Voi9bpz0?t=4419)
-	+ <i><b>PyCmdStan</b></i>. Mitzi Morris. <b>Columbia University</b> [Abstract](#35)
-	+ <i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9) [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
+	+ <i><b>Extending Stan's Automatic Differentiation (AD) capabilities using dco/c++</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Abstract](#9) [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
 
 
 
@@ -84,7 +84,9 @@ Abstract:
 -->
 <!--==============================================-->
 
+<i><b id="100">Regularized Hierarchical Models for Remotely Sensed Forest Inventories.</b></i> Nathan E. Rutenbeck <b>SilviaTerra</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3861054.svg)](https://doi.org/10.5281/zenodo.3861054)
 
+Management and conservation of the world’s forests is critical for maintaining global timber supply, as well as for the ecosystem services forestlands provide. Forest biometrics remains a field focused on traditional methods in sampling and regression, despite the fact that these methods are ill equipped to utilize the profusion of remote sensing data now available. When remote sensing data is used, it is often deployed within simple population-level regression models that simultaneously leave out information regarding known forest structure and sample design, and are prone to overfitting of effects at the population level. Using Stan, we show that for the prediction of forest basal area (a key inventory attribute) incorporating known structural attributes (forest stands) and sample design information into a hierarchical modeling framework along with remote sensing data can yield beneficial results in terms of reducing overfitting and improving predictive performance when compared to more conventional methods. We fit and compared four candidate models, examining their performance with respect to one another and to the conventional frequentist inferences that are so widely used for operational forest inventory. The four models we examined are 1) a hierarchical model incorporating forest stand and sample design effects; 2) a population-level remote sensing principal components model; 3) the hierarchical model with the addition of remote sensing principal component effects at the population level; and 4) the hierarchical and remote sensing model with the addition of regularizing horseshoe priors on remote sensing effects. The hierarchical model without remote sensing effects showed the expected shrinkage of stand-level mean basal area predictions toward the global mean. The addition of remote sensing effects showed overall reductions in prediction error in comparison to the sample design model. Incorporating regularizing priors on the remote sensing principal components effects retained signal from the remote sensing data but showed further shrinkage of predictions of stand-level mean basal area toward sample means. Our results suggest that the penalized hierarchical model can be used in developing operational forest inventories that balance information from known forest structural heterogeneity, the sample design, and remote sensing data.
 
 <i><b id="34">A Bayesian multi-layered model to predict mechanisms, types, and severity of drug-induced liver injury</b></i>. Elizaveta Semenova, Dominic Williams, Stanley E Lazic. <b>Data Science and Quantitative Biology group, AstraZeneca, Cambridge UK</b> 
 
@@ -126,7 +128,7 @@ Abstract: Bayesian statistics is closely coupled with physics. The metropolis al
 
 
 
-<i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> 10.5281/zenodo.3697270
+<i><b id="30">A long-short term event memory state-space model for multi-party elections</b></i>. Marcus Groß. <b>INWT Statistics GmbH</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697270.svg)](https://doi.org/10.5281/zenodo.3697270)
 
 Abstract: State-space models are a popular choice in modelling voting intentions and election results by using poll data. The presented multivariate state-space model attempts to go beyond random-walk or Kalman-filter approaches (with comparable performance to simple weighted survey averages) to the problem by introducing a long-short term event memory effect. This effect serves as reasonable explanation to the observation that the voter's share partially tends to reverse to the party's long-term trend after larger short term movements. Any event influencing the voter's share of a party is presumed to have a convex shaped effect decomposable into a short term effect due to e.g. media spreading and a smaller long term effect remaining despite overlay effects of new events and forgetting. This effect is modelled by a mixture of a random walk and two contrasting autoregressive processes. By also taking advantage of the widely observed effect that government parties tend to fall in voter's share, whereas the opposite effect is observed for opposition parties, mid- and long-term predictions of election outcomes can be considerably be improved. The Stan-model is fitted and evaluated on poll data from seven pollsters for the German national elections ("Bundestagswahl") from 1994 to 2017, where low double digits (out-of-sample) improvements in prediction performance can be seen between 3- and 18-months prior elections. By taking into account the pollsters house effects, their poll errors and even more importantly their correlations in poll errors, an appropriate and realistic estimation error can be propagated. 
 
@@ -190,7 +192,7 @@ Abstract:A central theme in the field of survey statistics is estimating populat
 <hr>
 
 
-<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
+<i><b id="25">Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>Drexel University, The Wharton School</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3865781.svg)](https://doi.org/10.5281/zenodo.3865781) [Video](https://youtu.be/KH4jN9EBTtE?t=22351)
 
 
 Abstract: Marketers often use A/B testing as a tactical tool to compare marketing treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. While these tests have traditionally been analyzed using hypothesis testing, we re-frame such tactical tests as a Bayesian decision problem with an explicit trade-off between the opportunity cost of the test (where some customers receive a sub-optimal treatment) and the potential losses associated with deploying a sub-optimal treatment to the remainder of the population. 
@@ -199,7 +201,7 @@ We derive a closed-form expression for the profit-maximizing test size and show 
 
 Adopting a Bayesian approach to experimental design requires informative priors. We show how priors can be estimated from data on past A/B test, using Stan to fit a hierarchical meta model. An R notebook will be provided which shows the complete process from meta-analysis of past experiments to determining the profit-maximizing sample size for the new A/B test. 
 
-A full paper is available at https://arxiv.org/abs/1811.00457. "
+A full paper is available at https://arxiv.org/abs/1811.00457. 
 
 <hr>
 
@@ -222,7 +224,7 @@ Abstract: Predicting customer behaviour is crucial for making decisions such as 
 
 <hr>-->
 
-<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> 10.5281/zenodo.3697272 [Video](https://youtu.be/KH4jN9EBTtE?t=23821)
+<i><b id="21">When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3697272.svg)](https://doi.org/10.5281/zenodo.3697272) [Video](https://youtu.be/KH4jN9EBTtE?t=23821)
 
 Abstract: Multiple seasonalities play a key role in time series forecasting, especially for business time series where seasonal effects are often dramatic. Previous approaches including Fourier decomposition, exponential smoothing, and Seasonal ARIMA do not reflect distinct characteristics of each period in seasonal patterns such as unique behavior of specific day of the week in business data. We propose a multi-dimensional hierarchical model. Intermediate parameters for each seasonal period are first estimated, then mixture of intermediate parameters are then taken, resulting in the model which successfully reflects interactions between multiple seasonalities. Although this process leads to the reduction of data available for each parameter, a robust estimation can be obtained through a hierarchical Bayesian model. Consideration of not only the characteristics of each seasonal periods but also the interactions between characteristics from multiple seasonalities becomes possible through this model. Our new model is implemented in Stan and considerable improvements in prediction accuracy compared to previous models are achieved. Previous models include Fourier decomposition which Prophet uses to model seasonalities. Comparison has been performed on real-world dataset from a nation-scale logistic network.
 
@@ -300,7 +302,7 @@ References
 <hr>
 
 
-<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>.  Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [Video](https://youtu.be/rP1Voi9bpz0?t=9283)
+<i><b id="15">Bayesian analyses of time-to-event data using the rstanarm R package</b></i>.  Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3866164.svg)](https://doi.org/10.5281/zenodo.3866164) [Video](https://youtu.be/rP1Voi9bpz0?t=9283)
 
 Abstract: Time-to-event data refers to the observed time from a defined origin (e.g. diagnosis of a disease) until a terminating event of interest (e.g. death). Time-to-event data emerges in a range of industries and scientific disciplines, although it is particularly common in medical and pharmaceutical research. In these research fields, time-to-event data is commonly known as survival data reflecting the fact that death is an event endpoint often used in clinical studies. Analyses of survival data are widely used for decision making in clinical trials, drug development and regulatory approvals. 
 
@@ -341,7 +343,7 @@ Once the inferences from the Joint Model are obtained, we set up a Utility funct
 
 <hr>
 
-<i><b id="10">The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). [Video](https://youtu.be/rP1Voi9bpz0?t=4419)<b></b> 
+<i><b id="10">The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3866235.svg)](https://doi.org/10.5281/zenodo.3866235) [Video](https://youtu.be/rP1Voi9bpz0?t=4419)<b></b> 
 
 Abstract: Our presentations details the current state of and future work on the OpenCL-based framework that allows the Stan automatic differentiation library to utilize GPUs. Our research was initially motivated by large Gaussian Process models where the computation is dominated by the Cholesky decomposition but has since developed into an extensible framework. 
 
@@ -353,23 +355,9 @@ We will show how problem size, model and choice of hardware impact the speedups 
 
 
 
-<i><b id="9">Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
+<i><b id="9">Extending Stan's Automatic Differentiation (AD) capabilities using dco/c++</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3866141.svg)](https://doi.org/10.5281/zenodo.3866141) [Video](https://youtu.be/rP1Voi9bpz0?t=3398)
 
-Abstract: Tape-based AD Libraries, such as dco/c++, keep a record of calculations that are executed by a program in order to evaluate derivatives.  They are applicable to a wider range of numerical codes than tape-free AD libraries, which are typically written to compute derivatives for a specific library of functions.
-The Stan Math Library is a tape-free AD library.  By comparison with tape-based approaches, memory requirements are low.  Each function in the Stan Math library has a corresponding adjoint function, which is used to evaluate derivatives.  The memory requirements of the dco/c++ tool can be made arbitrarily low through manipulation of the tape recording.  For example, users can insert gaps into the tape which are then filled by a user-supplied derivative.
-The basic idea of the work in this presentation is that the Stan Math Library can be used to supply derivatives to dco/c++.  This can dramatically reduce the memory requirements of dco/c++ for a minimal amount of effort on the part of the user.  This is important for production code in industry where a tape-based approach is needed to cover the full code base.
-For simplicity we illustrate this idea on a toy problem: inferring the parameters of a damped harmonic oscillator driven by white noise using the simplified manifold MALA (smMALA) algorithm.
-
-References: 
-dco/c++
-
-*	https://www.stce.rwth-aachen.de/research/software/dco/cpp
-*	https://www.nag.co.uk/content/algorithmic-differentiation-software
-
-Stan Math Library: 
-
-*	https://github.com/stan-dev/math
-*	https://arxiv.org/abs/1509.07164
+Abstract: Tape-based AD Libraries, such as NAG's dco/c++ tool, keep a record of calculations that are executed by a program in order to evaluate derivatives. They are applicable to a wider range of numerical codes than tape-free AD libraries, which are typically written to compute derivatives for a specific library of functions. The Stan Math Library is a tape-free AD library.  The basic idea of the work in this presentation is that dco/c++ can be used to supply derivatives to Stan.  This extends the range of functions which can be used by Stan's MCMC samplers.  We illustrate this idea on a toy problem: inferring the parameters of a damped harmonic oscillator driven by white noise using Stan's NUTS.
 
 <hr>
 
