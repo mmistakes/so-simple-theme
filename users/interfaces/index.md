@@ -22,12 +22,15 @@ through interfaces into many popular computing environments.
 
 * [PyStan](pystan.html)
   <span class="note">(Python)</span>
+  
+* [CmdStan](cmdstan.html)
+  <span class="note">(shell, command-line terminal)</span>
+
+* [CmdStanR](https://mc-stan.org/cmdstanr)
+  <span class="note">(R, lightweight wrapper for CmdStan)</span>
 
 * [CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/getting_started.html)
   <span class="note">(Python, lightweight wrapper for CmdStan)</span>
-
-* [CmdStan](cmdstan.html)
-  <span class="note">(shell, command-line terminal)</span>
 
 * [MatlabStan](matlab-stan.html)
   <span class="note">(MATLAB)</span>
