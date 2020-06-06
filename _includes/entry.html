@@ -53,6 +53,9 @@
         {% assign entry_image = entry_image | escape %}
         <a href="{{ entry.url | relative_url }}"><img class="entry-image u-photo" src="{{ entry_image }}" alt=""></a>
       {% endif %}
+      {% if entry.video %}
+      	<video loop muted playsinline class="entry-video"><source src="{{ entry.video }}" type="video/mp4"></video>
+      {% endif %}
     </div>
     {% if entry.awards %}
     <div>

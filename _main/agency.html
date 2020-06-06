@@ -9,35 +9,32 @@ custom-css:
 ---
 
 <!-- AGENCY -->
-
 <div class="agency-subtitle">
   <img src="/images/co_logo_black.jpg" alt="Artineering logo" />
   <h3>
     We are a development agency creating stylized 3D rendering solutions. Let's work together to render your unique vision.
   </h3>
 </div>
-<!-- SERVICES -->
 
+<!-- SERVICES -->
 <section class="full-width agency-black agency-table">
-    <div class="agency-column">
-      <h3> Custom Styles </h3>
-      <p> No matter what visual concept you have in mind, we will find a way to make your vision come to reality. </p>
-    </div>
-    <div class="agency-column">
-      <h3> Custom Tools </h3>
-      <p> You don’t seem to find the right tools for the job? We are here to create custom tools for you and your requirements. </p>
-    </div>
-    <div class="agency-column">
-      <h3> Consultation </h3>
-      <p> We’re happy to be a part of your production, work with you and support you in any way possible. Only your imagination is the limit. </p>
-    </div>
+  <div class="agency-column">
+    <h3> Look Development </h3>
+    <p> We develop your distinctive style in 3D, with the flexibility to art-direct it towards your vision. </p>
+  </div>
+  <div class="agency-column">
+    <h3> Custom Tools </h3>
+    <p> We craft the right tools for the job. Tell us your requirements, and we'll make them production-ready. </p>
+  </div>
+  <div class="agency-column">
+    <h3> Consultation </h3>
+    <p> We're hands-on developers and are here to support you along the way until project completion. </p>
+  </div>
 </section>
 
-
 <!-- PROJECTS -->
-
 <section>
-  <div class ="agency-title">
+  <div class="agency-title">
     <h1> Projects </h1>
   </div>
   <div class="agency-projects">
@@ -45,11 +42,28 @@ custom-css:
   </div>
 </section>
 
+<script>
+  window.onload = function() { //executes code after DOM loads
+   //--- select all .entry-video on the page
+   const vids = document.getElementsByClassName('entry-video')
+   // Loop over the selected elements and add event listeners
+   for (let i = 0; i < vids.length; i++) {
+     vids[i].addEventListener( 'mouseover', function(e) {
+       // vids[i].loop = true;
+       vids[i].play();
+     })
+     vids[i].addEventListener( 'mouseout', function(e) {
+       vids[i].pause();
+     })
+   }
+  }
+</script>
 
 <!-- OUR PROCESS -->
 <section class="agency-process full-width agency-black">
-  <h1 class ="agency-title"> Our Process </h1>
-  <h3 class="agency-subtitle"> Every good production, especially while pioneering outstanding styles, requires good communication and care during its planning and execution. To make this journey as smooth as possible, we follow these basic steps. </h3>
+  <h1 class="agency-title"> Our Process </h1>
+  <h3 class="agency-subtitle"> Every good production, especially while pioneering outstanding styles, requires good communication and care during its planning and execution. To make this journey as smooth as possible, we follow these basic steps.
+  </h3>
 
   <!--Toggle Images Mobile-->
   <div class="process-img-slider-mobile">
@@ -68,7 +82,7 @@ custom-css:
     </button>
   </div>
 
-<!--Toggle Images PC-->
+  <!--Toggle Images PC-->
   <div class="process-img-slider">
     <div class="process-img-slides">
       <input type="radio" name="r" id="r1" checked>
@@ -106,33 +120,36 @@ custom-css:
   </div>
 
 
-<!--Toggle Text PC & MOBILE-->
+  <!--Toggle Text PC & MOBILE-->
   <div class="process-description-slider">
-      <ol class="process-descriptions">
-        <li class="process-slider-text1 process-slider-text">
-          <p>Every project and workflow is unique and we want to provide you with an ideal solution. As our tools are always highly customized, we want to get to know you first to make sure our tools fit into your current workflow and will enable you to chase your wildest NPR dreams.</p>
-        </li>
-        <li class="process-slider-text2 process-slider-text process-text-inactive">
-          <p>Together we make a list of your requirements, break down the concept art and style you want to achieve and come up with a potential approach and timeline to reach our set goals.</p>
-        </li>
-        <li class="process-slider-text3 process-slider-text process-text-inactive">
-          <p>After testing our options for the most suitable approach, we will dig deeper into making the optimal approach a reality. Throughout the process, we keep you posted and will provide you with several version releases (Alpha, Beta, release candidate) for you to test and give us constant feedback.</p>
-        </li>
-        <li class="process-slider-text4 process-slider-text process-text-inactive">
-          <p>Once the earlier set requirements are met and your vision of a brand-new style and workflow came to reality, you will receive a final version, including documentation from us. Rest assured, we will keep supporting you whenever needed.</p>
-        </li>
-        <li class="process-slider-text5 process-slider-text process-text-inactive">
-          <p>The possibilities of different styles are endless. We would love to be part of your future developments and support you in your new endeavours. Let’s stay in touch and make the impossible possible!</p>
-        </li>
-      </ol>
-    </div>
+    <ol class="process-descriptions">
+      <li class="process-slider-text1 process-slider-text">
+        <p>Every project and workflow is unique and we want to provide you with an ideal solution. As our tools are always highly customized, we want to get to know you first to make sure our tools fit into your current workflow and will enable you
+          to chase your wildest NPR dreams.</p>
+      </li>
+      <li class="process-slider-text2 process-slider-text process-text-inactive">
+        <p>Together we make a list of your requirements, break down the concept art and style you want to achieve and come up with a potential approach and timeline to reach our set goals.</p>
+      </li>
+      <li class="process-slider-text3 process-slider-text process-text-inactive">
+        <p>After testing our options for the most suitable approach, we will dig deeper into making the optimal approach a reality. Throughout the process, we keep you posted and will provide you with several version releases (Alpha, Beta, release
+          candidate) for you to test and give us constant feedback.</p>
+      </li>
+      <li class="process-slider-text4 process-slider-text process-text-inactive">
+        <p>Once the earlier set requirements are met and your vision of a brand-new style and workflow came to reality, you will receive a final version, including documentation from us. Rest assured, we will keep supporting you whenever needed.</p>
+      </li>
+      <li class="process-slider-text5 process-slider-text process-text-inactive">
+        <p>The possibilities of different styles are endless. We would love to be part of your future developments and support you in your new endeavours. Let’s stay in touch and make the impossible possible!</p>
+      </li>
+    </ol>
+  </div>
 </section>
 
 
 
 <!-- FEATURED PARTNERS -->
 
-<section class="agency-clients agency-title">  <!--same as landing-clients-->
+<section class="agency-clients agency-title">
+  <!--same as landing-clients-->
   <h1> Featured Partners </h1>
   <div class="agency-clients-grid">
     <!--same as landing-clients-grid-->
