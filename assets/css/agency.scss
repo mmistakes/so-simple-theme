@@ -41,7 +41,7 @@ sitemap: false
   margin-top: 5rem;
   margin-bottom: 5rem;
   @media screen and (max-width: 768px) {
-    padding-bottom: 0;
+    padding-bottom: 1rem;
   }
 }
 
@@ -122,6 +122,7 @@ sitemap: false
   margin: 3rem auto;
   @media screen and (max-width: 768px) {
     width: 100%;
+    margin: 0;
   }
 }
 
@@ -139,6 +140,12 @@ input[name="r"]{
   width: 20%;
   height: 100%;
   transition: 0.6s;
+  img {
+    display: block;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
 }
 .process-image-slide img{
   width: 100%;
@@ -161,6 +168,20 @@ input[name="r"]{
   margin-left: -80%;
 }
 
+// .process-mobile-container {
+//   display: none;
+//   @media screen and (max-width: 768px) {
+//     display: block;
+//     height: 190px;
+//     max-width: 540px;
+//     margin: 10px auto;
+//     p {
+//
+//     }
+//   }
+// }
+
+
 .process-headlines {
   text-align: center;
   border-bottom: 1px solid #fff;
@@ -170,7 +191,9 @@ input[name="r"]{
   width: 100%;
   padding: 0 2rem;
   @media screen and (max-width: 768px) {
-    max-width: 330px;
+    border-bottom: 0px solid #fff;
+    max-width: none;
+    width: 500%;
     padding: 0;
   }
 }
@@ -190,6 +213,24 @@ input[name="r"]{
 .flex-process-headline {
   display: flex;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    display: block;
+    height: 32px;
+    max-width: 540px;
+    margin: 10px auto;
+    label {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      border-bottom: 1px solid;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 1.4rem;
+      text-rendering: optimizeLegibility;
+      padding-bottom: 0.4rem;
+      margin-bottom: 0.4rem;
+      margin-top: 0.4rem;
+    }
+  }
 }
 
 .process-slider1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
@@ -223,6 +264,12 @@ input[name="r"]{
     list-style-type: none;
     padding: 1rem 0 0;
   }
+  @media screen and (max-width: 768px) {
+    p {
+      margin: 0;
+      padding: 0 1rem;
+    }
+  }
 }
 
 .process-descriptions {
@@ -233,11 +280,85 @@ input[name="r"]{
 .process-active {
   background-color: #352860;
   transition: .2s;
+  @media screen and (max-width: 768px) {
+    background-color: black;
+  }
 }
 
 .process-text-inactive {
   p {
     display: none;
+  }
+}
+
+.process-mobile-nav {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 14rem;
+    list-style: none;
+    a {
+      text-shadow: none;
+      line-height: 0;
+      color: transparent;
+      width: 2.5rem;
+      position: static;
+      top: initial;
+      display: inline-block;
+      opacity: 1;
+      text-align: center;
+      cursor: pointer;
+    }
+    .mobile-nav-prev {
+      transform: scale(-1, 1);
+    }
+    .mobile-nav-prev::before {
+      content: url('/images/agency/arrow_small.png');
+    }
+    .mobile-nav-next::before {
+      content: url('/images/agency/arrow_small.png');
+    }
+  }
+}
+
+.process-mobile-slider {
+  display: none;
+  @media screen and (max-width: 768px){
+    display: block;
+    width: 90%;
+    margin: 25px auto 0;
+    position: relative;
+    overflow: hidden;
+    figure {
+      margin: 0;
+      position: relative;
+      width: 500%;
+      left: 0px;
+      transition: .2s ease-in-out;
+      img {
+        width: 20%;
+        height: 100%;
+        float: left;
+      }
+    }
+    .mobile-button {
+      position: absolute;
+      top: 45%;
+      color: white;
+      background: black;
+      // padding: 20px;
+      // font-size: 50px;
+      border: none;
+    }
+    .mobile-nav-prev {
+      left: 0px;
+    }
+    .mobile-nav-next {
+      right: 0px;
+    }
   }
 }
 
