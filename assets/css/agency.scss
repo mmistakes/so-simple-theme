@@ -11,29 +11,25 @@ sitemap: false
 
 //   AGENCY PAGE   //
 
-.agency-title {
-  text-align: center;
-}
-
 .agency-subtitle {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
   width: 85%;
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
   img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 10rem;
   }
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 .agency-black {
   color: #FFF;
-  text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
   background-image: url("/images/bg-black.jpg");
   background-size: cover;
   background-position: center;
@@ -50,29 +46,31 @@ sitemap: false
   }
 }
 
-.agency-table {
+.agency-services {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  .agency-column {
+    max-width: 20%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+    }
+    p {
+      margin-bottom: 0;
+      text-align: justify;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 80%;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
-.agency-column {
-//  flex: 25%;
-  max-width: 20%;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0.6rem;
-  }
-  p {
-    margin-bottom: 0;
-    text-align: justify;
-  }
-  @media screen and (max-width: 768px) {
-    max-width: 80%;
-    margin-bottom: 3rem;
-  }
+.agency-title {
+  text-align: center;
 }
 
 .agency-projects {
@@ -87,20 +85,7 @@ sitemap: false
     img {
       opacity: 1;
       margin-bottom: 0;
-      transition: transform .2s ease-in-out; /* Zoom Animation */
     }
-    &:hover {
-      .p-caption {
-        opacity: .8;
-        transition: $global-transition;
-      }
-      img {
-        opacity: .6;
-        transition: $global-transition;
-      }
-    }
-
-
     .p-caption {
       position: absolute;
       top: 40%;
@@ -111,9 +96,31 @@ sitemap: false
       cursor: pointer;
       background-color: white;
       padding-top: 1.5rem;
+      @media screen and (max-width: 768px) {
+        opacity: 1;
+        position: unset;
+        text-align: left;
+        padding-top: 1.5rem;
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
     .entry-excerpt {
       margin-top: -0.75em;
+    }
+    video {
+      cursor: pointer;
+    }
+    &:hover {
+      .p-caption {
+        opacity: .8;
+        transition: $global-transition;
+      }
+      img {
+        opacity: .6;
+        transition: $global-transition;
+      }
     }
   }
 }
@@ -177,11 +184,13 @@ sitemap: false
       display: flex;
       justify-content: space-between;
       position: relative;
-      transition: 0.6s;
+      transition: 0.2s ease-in-out;
       label {
         text-align: center;
         padding: 0.8rem 1.8rem 0.5rem;
         font-family: $sans-serif-font-family2;
+        font-size: 1.2rem;
+        cursor: pointer;
       }
       @media screen and (max-width: 768px) {
         width: 500%;
@@ -198,7 +207,7 @@ sitemap: false
         background-color: #352860;
         transition: .2s;
         @media screen and (max-width: 768px) {
-          background-color: black;
+          background-color: transparent;
         }
       }
     }
@@ -219,6 +228,7 @@ sitemap: false
       display: block;
       list-style-type: none;
       padding: 1rem 0 0;
+      transition: 0.2s ease-in-out;
       li {
         width: 40%;
         text-align: justify;
@@ -255,7 +265,6 @@ sitemap: false
       }
     }
   }
-
 
   .process-mobile-nav {
     display: none;
@@ -314,10 +323,9 @@ sitemap: false
         position: absolute;
         top: 45%;
         color: white;
-        background: black;
-        // padding: 20px;
-        // font-size: 50px;
+        background: transparent;
         border: none;
+        outline: none;
       }
       .mobile-nav-prev {
         left: 0px;
@@ -330,12 +338,7 @@ sitemap: false
 
 }
 
-
 .agency-clients {
-  h2 {
-    margin-top: 3em;
-    text-align: center;
-  }
   .agency-clients-grid {
     display: flex;
     flex-flow: row wrap;
@@ -355,21 +358,23 @@ sitemap: false
   }
 }
 
-
 .agency-contact {
   display: block;
   margin: 0;
   text-align: center;
   p {
      margin-bottom:0.35rem;
-  }
-  p .btn--aio {
-    background-color: #000;
-    color: #fff;
-    border: 2px solid #7555d8;
-    transition: 0.2s;
-    margin-top:0.3rem;
-    margin-bottom:0.3rem;
+     .btn--aio {
+       background-color: transparent;
+       color: #fff;
+       border: 2px solid #7555d8;
+       transition: 0.2s;
+       margin-top:0.3rem;
+       margin-bottom:0.3rem;
+     }
+     @media screen and (max-width: 768px){
+       margin-bottom:1.5rem;
+     }
   }
   .btn {
     display: inline-block;
@@ -385,7 +390,7 @@ sitemap: false
     cursor: pointer;
   }
   .btn--aio:hover {
-    background-color: #fff;
+    background-color: #e8e8e8;
     color: #000;
   }
 }

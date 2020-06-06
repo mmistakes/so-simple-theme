@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 //// AGENCY - Our Process Toggle ////
 
-
+//PC Image Slider
 //Slider 1
 $("label.process-slider1").click (function(){                // Press Slider 1
   $("label.process-slider2").removeClass("process-active");  // remove .process-active from h3 Sliders 2
@@ -28,7 +28,6 @@ $("label.process-slider1").click (function(){                // Press Slider 1
   $("li.process-slider-text5").addClass("process-text-inactive");
   $("li.process-slider-text1").removeClass("process-text-inactive");
 });
-
 // Slider 2
 $("label.process-slider2").click (function(){                // Press Slider 2
   $("label.process-slider1").removeClass("process-active");  // remove .process-active from h3 Sliders 1
@@ -42,7 +41,6 @@ $("label.process-slider2").click (function(){                // Press Slider 2
   $("li.process-slider-text5").addClass("process-text-inactive");
   $("li.process-slider-text2").removeClass("process-text-inactive");
 });
-
 // Slider 3
 $("label.process-slider3").click (function(){                // Press Slider 3
   $("label.process-slider1").removeClass("process-active");  // remove .process-active from h3 Sliders 1
@@ -56,7 +54,6 @@ $("label.process-slider3").click (function(){                // Press Slider 3
   $("li.process-slider-text5").addClass("process-text-inactive");
   $("li.process-slider-text3").removeClass("process-text-inactive");
 });
-
 // Slider 4
 $("label.process-slider4").click (function(){
   $("label.process-slider1").removeClass("process-active");
@@ -70,7 +67,6 @@ $("label.process-slider4").click (function(){
   $("li.process-slider-text5").addClass("process-text-inactive");
   $("li.process-slider-text4").removeClass("process-text-inactive");
 });
-
 // Slider 5
 $("label.process-slider5").click (function(){
   $("label.process-slider1").removeClass("process-active");
@@ -85,37 +81,22 @@ $("label.process-slider5").click (function(){
   $("li.process-slider-text5").removeClass("process-text-inactive");
 });
 
-
 // Mobile Image Slider
-// $(document).ready(function(){
-//   var x = 0;
-    // for next slide
-  // $('.mobile-nav-next').click(function(){
-  //     x= (x<=300)?(x+100):0;
-  //     $('figure').css('left', -x+'%');
-  //     $('.process-headlines').css('left', -x+'%');
-  // });
-
-     // for prev slide
-//   $('.mobile-nav-prev').click(function(){
-//     x= (x>=100)?(x-100):400;
-//     $('figure').css('left', -x+'%');
-//   });
-// });
-
-// working
 $(document).ready(function(){
   var x = 0;
-$('.mobile-nav-next').click(function(){
-      x= (x<=300)?(x+100):0;
-      $('figure').css('left', -x+'%');
-      $('.process-headlines').css('left', -x+'%');
-      $('.process-descriptions').css('left', -x+'%');
-  });
+  $('.mobile-nav-next').click(function(){
+        x= (x<=300)?(x+100):0;
+        $('figure').css('left', -x+'%');
+        $('.process-headlines').css('left', -x+'%');
+        $('.process-descriptions').css('left', -x+'%');
+    });
+  $('.mobile-nav-prev').click(function(){
+        x= (x>=100)?(x-100):400;
+        $('figure').css('left', -x+'%');
+        $('.process-headlines').css('left', -x+'%');
+        $('.process-descriptions').css('left', -x+'%');
+    });
 });
-
-
-
 
 
 // pricing togglers
