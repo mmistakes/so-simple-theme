@@ -87,20 +87,33 @@ $("label.process-slider5").click (function(){
 
 
 // Mobile Image Slider
-$(document).ready(function(){
-  var x = 0;
+// $(document).ready(function(){
+//   var x = 0;
     // for next slide
-  $('.mobile-nav-next').click(function(){
-      x= (x<=300)?(x+100):0;
-      $('figure').css('left', -x+'%');
-  });
+  // $('.mobile-nav-next').click(function(){
+  //     x= (x<=300)?(x+100):0;
+  //     $('figure').css('left', -x+'%');
+  //     $('.process-headlines').css('left', -x+'%');
+  // });
 
      // for prev slide
-  $('.mobile-nav-prev').click(function(){
-    x= (x>=100)?(x-100):400;
-    $('figure').css('left', -x+'%');
+//   $('.mobile-nav-prev').click(function(){
+//     x= (x>=100)?(x-100):400;
+//     $('figure').css('left', -x+'%');
+//   });
+// });
+
+// working
+$(document).ready(function(){
+  var x = 0;
+$('.mobile-nav-next').click(function(){
+      x= (x<=300)?(x+100):0;
+      $('figure').css('left', -x+'%');
+      $('.process-headlines').css('left', -x+'%');
+      $('.process-descriptions').css('left', -x+'%');
   });
 });
+
 
 
 
