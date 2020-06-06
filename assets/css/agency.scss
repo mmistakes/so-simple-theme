@@ -15,7 +15,7 @@ sitemap: false
   text-align: center;
 }
 
-.agency-header {
+.agency-subtitle {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -30,7 +30,7 @@ sitemap: false
   }
 }
 
-.agency-banner {
+.agency-black {
   background-color: #000;
   background-size: cover;
   background-position: center;
@@ -40,8 +40,10 @@ sitemap: false
   padding-bottom: 5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  @media screen and (max-width: 768px) {
-    padding-bottom: 1rem;
+  &:last-of-type {
+    @media screen and (max-width: 768px) {
+      padding-bottom: 1rem;
+    }
   }
 }
 
@@ -113,255 +115,217 @@ sitemap: false
   }
 }
 
-
-.process-image-slidershow{
-  width: 700px;
-  overflow: hidden;
-  display: block;
-  position: relative;
-  margin: 3rem auto;
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    margin: 0;
-  }
-}
-
-input[name="r"]{
-    position: absolute;
-    visibility: hidden;
-}
-
-.process-image-slides{
-  width: 500%;
-  display: flex;
-}
-
-.process-image-slide{
-  width: 20%;
-  height: 100%;
-  transition: 0.6s;
-  img {
-    display: block;
+.agency-process{
+  .process-img-slider{
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    margin: 3rem auto;
+    .process-img-slides {
+      width: 500%;
+      display: flex;
+      .process-img-slide {
+        width: 20%;
+        height: 100%;
+        transition: 0.6s;
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
     @media screen and (max-width: 768px) {
       display: none;
     }
-  }
-}
-.process-image-slide img{
-  width: 100%;
-  height: 100%;
-}
 
-#r1:checked ~ .s1{
-  margin-left: 0;
-}
-#r2:checked ~ .s1{
-  margin-left: -20%;
-}
-#r3:checked ~ .s1{
-  margin-left: -40%;
-}
-#r4:checked ~ .s1{
-  margin-left: -60%;
-}
-#r5:checked ~ .s1{
-  margin-left: -80%;
-}
-
-// .process-mobile-container {
-//   display: none;
-//   @media screen and (max-width: 768px) {
-//     display: block;
-//     height: 190px;
-//     max-width: 540px;
-//     margin: 10px auto;
-//     p {
-//
-//     }
-//   }
-// }
-
-
-.process-headlines {
-  text-align: center;
-  border-bottom: 1px solid #fff;
-  max-width: 975px;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 2rem;
-  @media screen and (max-width: 768px) {
-    border-bottom: 0px solid #fff;
-    max-width: none;
-    width: 500%;
-    padding: 0;
-  }
-}
-
-.process-headline-font {
-  cursor: pointer;
-  padding: 12px 20px 5px;
-  font-family: $headline-font-family;
-  font-size: 1.2rem;
-  text-rendering: optimizeLegibility; /* enable common ligatures and kerning */
-  //@include fluid-type($min-vw, $max-vw, $h3-min, $h3-max);
-  @media screen and (max-width: 768px) {
-    padding: 8px 15px 0px;
-  }
-}
-
-.flex-process-headline {
-  display: flex;
-  justify-content: center;
-  @media screen and (max-width: 768px) {
-    display: block;
-    height: 32px;
-    max-width: 540px;
-    margin: 10px auto;
-    label {
-      width: 100%;
-      display: inline-block;
-      text-align: center;
-      border-bottom: 1px solid;
-      font-family: "Josefin Sans", sans-serif;
-      font-size: 1.4rem;
-      text-rendering: optimizeLegibility;
-      padding-bottom: 0.4rem;
-      margin-bottom: 0.4rem;
-      margin-top: 0.4rem;
+    input[name="r"]{
+        position: absolute;
+        visibility: hidden;
+    }
+    #r1:checked ~ .slide1{
+      margin-left: 0;
+    }
+    #r2:checked ~ .slide1{
+      margin-left: -20%;
+    }
+    #r3:checked ~ .slide1{
+      margin-left: -40%;
+    }
+    #r4:checked ~ .slide1{
+      margin-left: -60%;
+    }
+    #r5:checked ~ .slide1{
+      margin-left: -80%;
     }
   }
-}
 
-.process-slider1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider-text1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider-text2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider-text3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider-text4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-.process-slider-text5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
-
-.process-slider-text {
-  width: 40%;
-  text-align: justify;
-  margin: auto;
-  p {
-    height: 2rem;
-  }
-  @media screen and (max-width: 768px) {
-    width: 90%;
-    p {
-      height: 8rem;
-    }
-  }
-}
-
-.flex-process-description {
-  ol {
-    list-style-type: none;
-    padding: 1rem 0 0;
-  }
-  @media screen and (max-width: 768px) {
-    p {
-      margin: 0;
-      padding: 0 1rem;
-    }
-  }
-}
-
-.process-descriptions {
-  display: block;
-  text-align: center;
-}
-
-.process-active {
-  background-color: #352860;
-  transition: .2s;
-  @media screen and (max-width: 768px) {
-    background-color: black;
-  }
-}
-
-.process-text-inactive {
-  p {
-    display: none;
-  }
-}
-
-.process-mobile-nav {
-  display: none;
-  @media screen and (max-width: 768px) {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
+  .process-headlines-slider {
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    max-width: 975px;
     width: 100%;
-    bottom: 14rem;
-    list-style: none;
-    a {
-      text-shadow: none;
-      line-height: 0;
-      color: transparent;
-      width: 2.5rem;
-      position: static;
-      top: initial;
-      display: inline-block;
-      opacity: 1;
-      text-align: center;
-      cursor: pointer;
-    }
-    .mobile-nav-prev {
-      transform: scale(-1, 1);
-    }
-    .mobile-nav-prev::before {
-      content: url('/images/agency/arrow_small.png');
-    }
-    .mobile-nav-next::before {
-      content: url('/images/agency/arrow_small.png');
-    }
-  }
-}
-
-.process-mobile-slider {
-  display: none;
-  @media screen and (max-width: 768px){
-    display: block;
-    width: 90%;
-    margin: 25px auto 0;
-    position: relative;
     overflow: hidden;
-    figure {
-      margin: 0;
+    @media screen and (max-width: 768px) {
+      margin: 10px auto;
+      border-bottom: none;
+    }
+    .process-headlines {
+      display: flex;
+      justify-content: space-between;
       position: relative;
-      width: 500%;
-      left: 0px;
-      transition: .2s ease-in-out;
-      img {
-        width: 20%;
-        height: 100%;
-        float: left;
+      transition: 0.6s;
+      label {
+        text-align: center;
+        padding: 0.8rem 1.8rem 0.5rem;
+        font-family: $sans-serif-font-family2;
+      }
+      @media screen and (max-width: 768px) {
+        width: 500%;
+        label {
+          display: block;
+          width: 98%;
+          font-size: 1.4rem;
+          padding-bottom: 0.4rem;
+          margin: 0.4rem 1%;
+          border-bottom: 1px solid #fff;
+        }
+      }
+      .process-active {
+        background-color: #352860;
+        transition: .2s;
+        @media screen and (max-width: 768px) {
+          background-color: black;
+        }
       }
     }
-    .mobile-button {
-      position: absolute;
-      top: 45%;
-      color: white;
-      background: black;
-      // padding: 20px;
-      // font-size: 50px;
-      border: none;
-    }
-    .mobile-nav-prev {
-      left: 0px;
-    }
-    .mobile-nav-next {
-      right: 0px;
+    .process-slider1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider-text1 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider-text2 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider-text3 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider-text4 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+    .process-slider-text5 { } // this class is empty but necessary to allow jQuery to add another class -> process-active
+  }
+
+  .process-description-slider {
+    .process-descriptions {
+      display: block;
+      list-style-type: none;
+      padding: 1rem 0 0;
+      li {
+        width: 40%;
+        text-align: justify;
+        margin: auto;
+        p {
+          height: 2rem;
+        }
+      }
+      .process-text-inactive {
+        p {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        display: flex;
+        width: 500%;
+        position: relative;
+        height: 100px;
+        li {
+          width: 100%;
+          display: block;
+          p {
+            width: 90%;
+            margin: 0 auto;
+            padding: 0 1rem;
+            height: 8rem;
+          }
+        }
+        .process-text-inactive {
+          p {
+            display: block;
+          }
+        }
+      }
     }
   }
-}
 
+
+  .process-mobile-nav {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      width: 100%;
+      bottom: 14rem;
+      list-style: none;
+      a {
+        text-shadow: none;
+        line-height: 0;
+        color: transparent;
+        width: 2.5rem;
+        position: static;
+        top: initial;
+        display: inline-block;
+        opacity: 1;
+        text-align: center;
+        cursor: pointer;
+      }
+      .mobile-nav-prev {
+        transform: scale(-1, 1);
+      }
+      .mobile-nav-prev::before {
+        content: url('/images/agency/arrow_small.png');
+      }
+      .mobile-nav-next::before {
+        content: url('/images/agency/arrow_small.png');
+      }
+    }
+  }
+
+  .process-img-slider-mobile {
+    display: none;
+    @media screen and (max-width: 768px){
+      display: block;
+      width: 90%;
+      margin: 25px auto 0;
+      position: relative;
+      overflow: hidden;
+      figure {
+        margin: 0;
+        position: relative;
+        width: 500%;
+        left: 0px;
+        transition: .2s ease-in-out;
+        img {
+          width: 20%;
+          height: 100%;
+          float: left;
+        }
+      }
+      .mobile-button {
+        position: absolute;
+        top: 45%;
+        color: white;
+        background: black;
+        // padding: 20px;
+        // font-size: 50px;
+        border: none;
+      }
+      .mobile-nav-prev {
+        left: 0px;
+      }
+      .mobile-nav-next {
+        right: 0px;
+      }
+    }
+  }
+
+}
 
 
 .agency-clients {
@@ -386,19 +350,6 @@ input[name="r"]{
       }
     }
   }
-}
-
-
-.agency-contact-banner {
-  background-color: #000;
-  background-size: cover;
-  background-position: center;
-  color: #FFF;
-  box-shadow: 0px 2px 9px 0px #000;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 
