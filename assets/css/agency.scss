@@ -27,15 +27,18 @@ sitemap: false
   img {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 10rem;
   }
 }
 
 .agency-black {
-  background-color: #000;
+  background-image: url("/images/bg-black.jpg");
   background-size: cover;
   background-position: center;
   color: #FFF;
-  box-shadow: 0px 2px 9px 0px #000;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
+  border-bottom: 1px solid white;
+  box-shadow: inset 0px 6px 8px 0px rgba(0,0,0,0.7), 0px 10px 16px 0px rgba(0,0,0,0.2);
   padding-top: 5rem;
   padding-bottom: 5rem;
   margin-top: 5rem;
