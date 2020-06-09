@@ -65,6 +65,9 @@ sitemap: false
     @media screen and (max-width: 768px) {
       max-width: 80%;
       margin-bottom: 3rem;
+      &:last-child {
+        margin-bottom:0rem;
+      }
     }
   }
 }
@@ -99,8 +102,7 @@ sitemap: false
       @media screen and (max-width: 768px) {
         opacity: 1;
         position: unset;
-        text-align: left;
-        padding-top: 1.5rem;
+        padding-top: 0.75rem;
         &:hover {
           opacity: 1;
         }
@@ -356,41 +358,75 @@ sitemap: false
       }
     }
   }
+  h2 {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid #dedede;
+    max-width: 380px;
+    width: 100%;
+    padding-top: 2.5rem;
+  }
+  .agency-testimonials {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 2rem 3rem 1rem;
+  text-align: left;
+  width: 80%;
+    img {
+      border-radius: 50%;
+      max-height: 6rem;
+      margin-right: 1rem;
+    }
+    p {
+      margin-bottom: 0rem;
+    }
+    .agency-testimonials-client {
+      margin-top: 0.75rem;
+      .fa-twitter {
+        margin-left: 1rem;
+      }
+    }
+  }
 }
+
 
 .agency-contact {
   display: block;
   margin: 0;
   text-align: center;
+  @media screen and (max-width: 768px){
+    padding-bottom: 2rem;
+  }
   p {
-     margin-bottom:0.35rem;
-     .btn--aio {
-       background-color: transparent;
-       color: #fff;
-       border: 2px solid #7555d8;
-       transition: 0.2s;
-       margin-top:0.3rem;
-       margin-bottom:0.3rem;
-     }
+    margin-bottom: 0.25rem;
      @media screen and (max-width: 768px){
-       margin-bottom:1.5rem;
+       margin-bottom:0.5rem;
      }
   }
-  .btn {
+  .btn-agency-contact {
     display: inline-block;
-    margin-bottom: 0.25rem;
     padding: 0.5rem 1rem;
     font-family: $sans-serif-font-family;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    text-shadow: 0px 1px 2px #bcbcbc;
     border-width: 0;
     border-radius: $border-radius;
     cursor: pointer;
-  }
-  .btn--aio:hover {
-    background-color: #e8e8e8;
+    background-color: #fff;
     color: #000;
+    border: none;
+    transition: 0.2s;
+    margin-top: 0.3rem;
+    margin-bottom:0.3rem;
+    box-shadow: inset 0px 4px 8px 0px rgba(0, 0, 0, 0.7), 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1), 0px 4px 16px 0px rgba(0, 0, 0, 1);
+    }
   }
 }
