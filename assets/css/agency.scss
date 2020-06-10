@@ -337,7 +337,6 @@ sitemap: false
       }
     }
   }
-
 }
 
 .agency-clients {
@@ -351,7 +350,11 @@ sitemap: false
       display: inline-block;
       vertical-align: middle;
       height: 110px;
-      padding: 1.5em;
+      padding: 1.5rem;
+      @media screen and (max-width: 768px){
+        height: 80px;
+        padding: 1rem;
+      }
       img {
         max-width:100%;
         max-height:100%;
@@ -368,17 +371,18 @@ sitemap: false
     padding-top: 2.5rem;
   }
   .agency-testimonials {
-  display: flex;
+  display: inline-flex;
   background-color: transparent;
   border: none;
-  margin: 0;
-  padding: 2rem 3rem 1rem;
+  margin: 0 8rem 0 0;
+  padding: 1rem 3rem 1rem;
   text-align: left;
+  align-items: center;
   width: 80%;
     img {
       border-radius: 50%;
       max-height: 6rem;
-      margin-right: 1rem;
+      margin: 0 1rem;
     }
     p {
       margin-bottom: 0rem;
@@ -387,6 +391,19 @@ sitemap: false
       margin-top: 0.75rem;
       .fa-twitter {
         margin-left: 1rem;
+      }
+    }
+    &:nth-child(odd) {
+      text-align: right;
+      margin: 0 0 0 8rem;
+    }
+    @media screen and (max-width: 768px){
+      margin: 0;
+      padding: 1rem 0 1rem;
+      width: 100%;
+      &:nth-child(odd) {
+        text-align: right;
+        margin: 0;
       }
     }
   }
