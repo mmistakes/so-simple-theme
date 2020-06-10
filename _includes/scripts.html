@@ -38,3 +38,6 @@
 
 <!-- custom js -->
 <script type="text/javascript" src="/assets/js/custom.js"></script>
+{%- if page.custom-js -%}
+  <script type="text/javascript" src="/assets/js/{{page.custom-js}}"></script>
+{%- endif -%}

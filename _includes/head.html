@@ -26,22 +26,14 @@
   {% if site.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
   {% endif %}
+  {%- if page.custom-css -%}
+    <link rel="stylesheet" href="/assets/css/{{page.custom-css}}">
+  {%- endif -%}
 
   {%- if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' -%}
     {%- comment -%}
       Add Atom feed link if jekyll-feed plugin is enabled
     {%- endcomment -%}
     {% include head-feed.html %}
-  {%- endif -%}
-
-  {%- if site.head_scripts -%}
-    {%- for script in site.head_scripts -%}
-      {%- if script contains "://" -%}
-        {%- capture script_path %}{{ script }}{% endcapture -%}
-      {%- else -%}
-        {%- capture script_path %}{{ script | absolute_url }}{% endcapture -%}
-      {%- endif -%}
-      <script src="{{ script_path }}"></script>
-    {%- endfor -%}
   {%- endif -%}
 </head>

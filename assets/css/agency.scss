@@ -29,7 +29,7 @@ sitemap: false
 
 .agency-black {
   color: #FFF;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
   background-image: url("/images/bg-black.jpg");
   background-size: cover;
   background-position: center;
@@ -43,6 +43,7 @@ sitemap: false
     @media screen and (max-width: 768px) {
       padding-bottom: 1rem;
     }
+    margin-bottom: 2rem;
   }
 }
 
@@ -85,44 +86,12 @@ sitemap: false
   .entry {
     max-width: 30rem;
     margin: 1rem auto;
-    img {
-      opacity: 1;
-      margin-bottom: 0;
-    }
     .p-caption {
-      position: absolute;
-      top: 40%;
-      width: 100%;
       text-align: center;
-      z-index: 10;
-      opacity: 0;
-      cursor: pointer;
-      background-color: white;
-      padding-top: 1.5rem;
-      @media screen and (max-width: 768px) {
-        opacity: 1;
-        position: unset;
-        padding-top: 0.75rem;
-        &:hover {
-          opacity: 1;
-        }
-      }
-    }
-    .entry-excerpt {
-      margin-top: -0.75em;
+      padding-top: 0;
     }
     video {
-      cursor: pointer;
-    }
-    &:hover {
-      .p-caption {
-        opacity: .8;
-        transition: $global-transition;
-      }
-      img {
-        opacity: .6;
-        transition: $global-transition;
-      }
+      //cursor: pointer;
     }
   }
 }
@@ -227,6 +196,9 @@ sitemap: false
 
   .process-description-slider {
     .process-descriptions {
+      a {
+        color: $accent-color-lighter;
+      }
       display: block;
       list-style-type: none;
       padding: 1rem 0 0;
@@ -374,11 +346,9 @@ sitemap: false
   display: inline-flex;
   background-color: transparent;
   border: none;
-  margin: 0 8rem 0 0;
-  padding: 1rem 3rem 1rem;
+  padding: 1rem 0rem 1rem;
   text-align: left;
   align-items: center;
-  width: 80%;
     img {
       border-radius: 50%;
       max-height: 6rem;
@@ -395,7 +365,6 @@ sitemap: false
     }
     &:nth-child(odd) {
       text-align: right;
-      margin: 0 0 0 8rem;
     }
     @media screen and (max-width: 768px){
       margin: 0;
@@ -429,21 +398,22 @@ sitemap: false
     font-family: $sans-serif-font-family;
     font-size: 2rem;
     font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0px 1px 2px #bcbcbc;
-    border-width: 0;
+    text-shadow: none;
+    box-shadow: inset 0px 10px 16px 0px rgba(0,0,0,0.2), 0px 6px 8px 0px rgba(0,0,0,0.7);
+    border-top: 1px solid white;
     border-radius: $border-radius;
     cursor: pointer;
     background-color: #fff;
     color: #000;
-    border: none;
     transition: 0.2s;
     margin-top: 0.3rem;
     margin-bottom:0.3rem;
-    box-shadow: inset 0px 4px 8px 0px rgba(0, 0, 0, 0.7), 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
     &:hover {
-      box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1), 0px 4px 16px 0px rgba(0, 0, 0, 1);
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: inset 0px 10px 16px 0px rgba(0,0,0,0.2), 0px 6px 8px 0px rgba(0,0,0,0.7);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      color: #FFF;
+      text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
     }
   }
 }

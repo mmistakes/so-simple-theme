@@ -1,13 +1,18 @@
 ---
 layout: page
-excerpt: "Artineering Agency & RnD"
+excerpt: "Artineering is a development agency creating stylized 3D rendering solutions. Let's work together to render your unique vision."
+image:
+  path: images/cards/agency.jpg
 entries_layout: grid
 show_excerpts: false
 show_titles: false
 sort_by: date
 sort_order: reverse
+no_links: true
+autoplay: autoplay
 search: true
-custom-css:
+custom-css: agency.css
+custom-js: agency.js
 ---
 
 <!-- AGENCY -->
@@ -30,41 +35,24 @@ custom-css:
   </div>
   <div class="agency-column">
     <h3> Consultation </h3>
-    <p> We're hands-on developers and are here to support you along the way until project completion. </p>
+    <p> We are hands-on developers and are here to support you along the way until project completion. </p>
   </div>
 </section>
 
 <!-- PROJECTS -->
 <section>
   <div class="agency-title">
-    <h1> Projects </h1>
+    <h1> Featured Projects </h1>
   </div>
   <div class="agency-projects">
     {% include documents-collection.html collection='projects' sort_by=page.sort_by sort_order=page.sort_order %}
   </div>
 </section>
 
-<script>
-  window.onload = function() { //executes code after DOM loads
-   //--- select all .entry-video on the page
-   const vids = document.getElementsByClassName('entry-video')
-   // Loop over the selected elements and add event listeners
-   for (let i = 0; i < vids.length; i++) {
-     vids[i].addEventListener( 'mouseover', function(e) {
-       // vids[i].loop = true;
-       vids[i].play();
-     })
-     vids[i].addEventListener( 'mouseout', function(e) {
-       vids[i].pause();
-     })
-   }
-  }
-</script>
-
 <!-- OUR PROCESS -->
 <section class="agency-process full-width agency-black">
   <h1 class="agency-title"> Our Process </h1>
-  <h3 class="agency-subtitle"> Every stylized production is unique and needs to be thoughtfully planned and executed to match your desired aesthetic and pipeline.
+  <h3 class="agency-subtitle"> Every stylized production is unique and needs to be thoroughly planned and executed to match your desired aesthetic and available pipeline.
   </h3>
 
   <!--Toggle Images Mobile-->
@@ -113,9 +101,9 @@ custom-css:
   <!--Toggle Headlines PC & MOBILE-->
   <div class="process-headlines-slider">
     <div class="process-headlines">
-      <label for="r1" class="process-slider1 process-active">Say Hi!</label>
+      <label for="r1" class="process-slider1 process-active">Say hi!</label>
       <label for="r2" class="process-slider2">Breakdown</label>
-      <label for="r3" class="process-slider3">Iterative Development</label>
+      <label for="r3" class="process-slider3">Iterative development</label>
       <label for="r4" class="process-slider4">Production-proven</label>
       <label for="r5" class="process-slider5">What's next?</label>
     </div>
