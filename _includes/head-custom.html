@@ -100,10 +100,11 @@ window.cookieconsent.initialise({
     var type = this.options.type;
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
-      console.log("onInitialise consented");
+      console.log("Cookies consented");
       enableGA();
       loadTwitterTimeline();
     } else {
+      console.log("Anonymous browsing");
       enableGAAnon();
     }
    },
@@ -111,11 +112,11 @@ window.cookieconsent.initialise({
     var type = this.options.type;
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
-      console.log("onStatusChange consented");
+      console.log("Cookies consented");
       enableGA();
       loadTwitterTimeline();
     } else {
-      console.log("onStatusChange NOT consented")
+      console.log("Anonymous browsing")
       window.location.reload(true);
     }
    },
@@ -123,11 +124,11 @@ window.cookieconsent.initialise({
     var type = this.options.type;
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
-      console.log("onRevokeChoice consented");
+      console.log("Cookies consented");
       enableGA();
       loadTwitterTimeline();
     } else {
-      console.log("onRevokeChoice NOT consented")
+      console.log("Anonymous browsing")
       window.location.reload(true);
     }
    }
