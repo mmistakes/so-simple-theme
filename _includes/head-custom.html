@@ -97,6 +97,7 @@ window.cookieconsent.initialise({
     policy: 'Revise Cookies',
   },
   onInitialise: function (status) {
+    console.log("Initializing");
     var type = this.options.type;
     var didConsent = this.hasConsented();
     if (type == 'opt-in' && didConsent) {
@@ -131,6 +132,10 @@ window.cookieconsent.initialise({
       console.log("Anonymous browsing")
       window.location.reload(true);
     }
+  },
+   onPopupOpen: function() {
+     console.log("Anonymous browsing")
+     enableGAAnon();
    }
 })});
 </script>
