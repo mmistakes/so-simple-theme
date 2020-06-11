@@ -132,14 +132,20 @@ From the comfort of your own home!
 
 **Deadlines and guidelines changed!**
 
-Presenters must send the following by the deadline (we will be posting a google form and additional details soon):
+Presenters must send the following by the deadline:
 
-- A photograph, bio [100 words] and summary of your talk [300 words] **1 July**.
+- Bio [100 words] and summary of your talk [300 words] **1 July**.
 The StanCon committee will notify acceptance by 8 July.
-- A pre-recorded 20 minute talk. We will help with video editing and distributing the content. We will send out some technical information about how to format slides, etc. (If you are comfortable in multiple languages, feel free to record multiple videos!) **24 July**
+- A pre-recorded 20 minute talk once the talk has been accepted. We will help with video editing and distributing the content. We will send out some technical information about how to format slides, etc. (If you are comfortable in multiple languages, feel free to record multiple videos!) **24 July**
 - A pre-recorded 1 minute pitch of the talk. The purpose of this is to let the audience know what the talk is and to jog their memory. **24 July**
 - Provide consent for StanCon to share their talk online at the conference and on YouTube **24 July**
 
+    
+If you're not in one of these time zones, please feel free to select any one of these links:
+
+1. [StanCon 2020 Talk proposal UK (London Time)](https://docs.google.com/forms/d/14p6dIn9lpzAwbTK5C7cJ2DoYQZxlKvzGcwS1mA_hnyI/viewform?edit_requested=true)
+2. [StanCon 2020 Talk proposal US (Eastern Time)](https://docs.google.com/forms/d/1jQXn1x_biTjoiajm7tbFjcwhAMIjiecfkfJnDTuUlRA/viewform?edit_requested=true)
+3. [StanCon 2020 Talk Proposal US (Pacific Time)](https://docs.google.com/forms/d/14p6dIn9lpzAwbTK5C7cJ2DoYQZxlKvzGcwS1mA_hnyI/viewform?edit_requested=true)
 
 
 ## Sponsorship:
