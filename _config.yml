@@ -19,7 +19,9 @@ google_fonts:
     weights: "400"
   - name: "Josefin Sans"
     weights: "700"
+google_tag_manager: GTM-N5D7T4C
 google_analytics: UA-76809364-1
+google_analytics_anon: UA-142029611-4
 disqus:
   shortname: artineering
 twitter:
