@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% comment %} SEO {% endcomment %}
   {% if site.plugins contains 'jekyll-seo-tag' or site.gems contains 'jekyll-seo-tag' %}
     {% comment %}
       Add metadata for search engines and social networks if jekyll-seo-tag plugin is enabled
@@ -13,7 +14,14 @@
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
+  <!-- Twitter image -->
+  {%- if page.image.path -%}
+    <meta name="twitter:image" content="{{site.url}}/{{ page.image.path }}">
+  {%- else -%}
+    <meta name="twitter:image" content="{{site.url}}/images/cards/default.jpg">
+  {%- endif -%}
 
+  {% comment %} I'm not entirely sure what this does, but it was in the template {% endcomment %}
   <script>
     /* Cut the mustard */
     if ( 'querySelector' in document && 'addEventListener' in window ) {
@@ -21,27 +29,20 @@
     }
   </script>
 
+  {% comment %} Custom head html and google fonts {% endcomment %}
   {% include head-custom.html %}
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% if site.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
   {% endif %}
 
-  {%- if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' -%}
-    {%- comment -%}
-      Add Atom feed link if jekyll-feed plugin is enabled
-    {%- endcomment -%}
-    {% include head-feed.html %}
+  {% comment %} CSS {% endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {%- if page.custom-css -%}
+    <link rel="stylesheet" href="/assets/css/{{page.custom-css}}">
   {%- endif -%}
 
-  {%- if site.head_scripts -%}
-    {%- for script in site.head_scripts -%}
-      {%- if script contains "://" -%}
-        {%- capture script_path %}{{ script }}{% endcapture -%}
-      {%- else -%}
-        {%- capture script_path %}{{ script | absolute_url }}{% endcapture -%}
-      {%- endif -%}
-      <script src="{{ script_path }}"></script>
-    {%- endfor -%}
+  {% comment %} Add Atom feed link if jekyll-feed plugin is enabled {% endcomment %}
+  {%- if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' -%}
+    {% include head-feed.html %}
   {%- endif -%}
 </head>

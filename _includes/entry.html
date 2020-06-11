@@ -51,7 +51,16 @@
           {% assign entry_image = entry_image | relative_url %}
         {% endunless %}
         {% assign entry_image = entry_image | escape %}
-        <a href="{{ entry.url | relative_url }}"><img class="entry-image u-photo" src="{{ entry_image }}" alt=""></a>
+        {% if page.no_links %}
+        <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+        {% else %}
+        <a href="{{ entry.url | relative_url }}">
+          <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+        </a>
+        {% endif %}
+      {% endif %}
+      {% if entry.video %}
+      	<video {{page.autoplay}} loop muted playsinline class="entry-video"><source src="{{ entry.video }}" type="video/mp4"></video>
       {% endif %}
     </div>
     {% if entry.awards %}

@@ -1,34 +1,36 @@
 <!-- start custom head snippets -->
-{%- if page.image.path -%}
-  <meta name="twitter:image" content="{{site.url}}/{{ page.image.path }}">
-{%- else -%}
-  <meta name="twitter:image" content="{{site.url}}/images/cards/default.jpg">
-{%- endif -%}
+
 <!-- slick carousel -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 <!-- TwentyTwenty -->
-<link rel="stylesheet" href="/assets/css/plugins/twentytwenty.css" type="text/css" media="screen" />
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link rel="stylesheet" href="/assets/css/plugins/twentytwenty.css" type="text/css" media="screen"/>
 
 <!-- impactradius -->
 <script type="text/javascript">
-  (function(a,b,c,d,e,f,g) {
-    e['ire_o']=c;e[c]=e[c]||function(){(e[c].a=e[c].a||[]).push(arguments)};f=d.createElement(b);g=d.getElementsByTagName(b)[0];f.async=1;f.src=a;g.parentNode.insertBefore(f,g);
+  (function(a, b, c, d, e, f, g) {
+    e['ire_o'] = c;
+    e[c] = e[c] || function() {
+      (e[c].a = e[c].a || []).push(arguments)
+    };
+    f = d.createElement(b);
+    g = d.getElementsByTagName(b)[0];
+    f.async = 1;
+    f.src = a;
+    g.parentNode.insertBefore(f, g);
   })
-  ('//d.impactradius-event.com/A2029755-fe35-472d-8f38-84a5873d4edc1.js','script','ire',document,window);
-  ire('identify', {customerid: '' /*INSERT CUSTOMER ID*/, customeremail: '' /*INSERT SHA1 HASHED CUSTOMER EMAIL*/});
+  ('//d.impactradius-event.com/A2029755-fe35-472d-8f38-84a5873d4edc1.js', 'script', 'ire', document, window);
+  ire('identify', {
+    customerid: '' /*INSERT CUSTOMER ID*/ ,
+    customeremail: '' /*INSERT SHA1 HASHED CUSTOMER EMAIL*/
+  });
 </script>
 
-<!-- cookie consent by Osano - https://cookieconsent.osano.com/download/-->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
+<!-- Google Analytics -->
 <script>
 function enableGA() {
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- if jekyll.environment == 'production' and site.google_tag_manager -%}
   if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
     // Google Tag Manager
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -60,38 +62,36 @@ function enableGAAnon() {
       });
     }
   }
-  {%- endif %}
-}
+  {%- endif -%}
+};
+</script>
+
+<!-- Twitter timeline -->
+<script>
 function loadTwitterTimeline() {
-  const existingScript = document.getElementById('twitterTimeline');
-  if (!existingScript) {
+  if (!document.getElementById('twitterTimeline')) {
     const script = document.createElement('script');
     script.src = 'https://platform.twitter.com/widgets.js';
     script.id = 'twitterTimeline';
     script.async = true
     document.body.appendChild(script);
-
-    /*script.onload = () => {
-      if (callback) callback();
-    };*/
   }
-}
+};
 </script>
 
+<!-- cookie consent by Osano -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
 window.addEventListener("load", function(){
 window.cookieconsent.initialise({
-  //container: document.getElementById("aio-cookie-consent"),
+  container: document.getElementById("content"),
   palette: {
-    popup: {
-      background: "#000"
-    },
-    button: {
-      background: "#f1d600"
-    }
+    popup: { background: "#000" },
+    button: { background: "#f1d600" }
   },
-  theme: "edgeless",
-  type: "opt-out",
+  theme: "classic",
+  type: "opt-in",
   content: {
     href: "/legal/cookie-policy",
     policy: 'Revise Cookies',
@@ -99,29 +99,36 @@ window.cookieconsent.initialise({
   onInitialise: function (status) {
     var type = this.options.type;
     var didConsent = this.hasConsented();
-    if (type == 'opt-out' && didConsent) {
+    if (type == 'opt-in' && didConsent) {
       console.log("onInitialise consented");
       enableGA();
       loadTwitterTimeline();
+    } else {
+      enableGAAnon();
     }
    },
    onStatusChange: function(status, chosenBefore) {
     var type = this.options.type;
     var didConsent = this.hasConsented();
-    if (type == 'opt-out' && didConsent) {
+    if (type == 'opt-in' && didConsent) {
       console.log("onStatusChange consented");
       enableGA();
       loadTwitterTimeline();
+    } else {
+      console.log("onStatusChange NOT consented")
+      window.location.reload(true);
     }
-    // TODO disable?
    },
    onRevokeChoice: function() {
     var type = this.options.type;
     var didConsent = this.hasConsented();
-    if (type == 'opt-out' && didConsent) {
-      console.log("onRevokeChoice");
+    if (type == 'opt-in' && didConsent) {
+      console.log("onRevokeChoice consented");
       enableGA();
       loadTwitterTimeline();
+    } else {
+      console.log("onRevokeChoice NOT consented")
+      window.location.reload(true);
     }
    }
 })});
@@ -131,4 +138,5 @@ window.cookieconsent.initialise({
   //$('#revoke-cookie').click(function() { $('.cc-revoke').addClass("aio-consent-visible") });
 </script>
 
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
