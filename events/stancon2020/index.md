@@ -63,7 +63,7 @@ The StanCon committee will notify acceptance by 8 July.
     
 If you're not in one of these time zones, please feel free to select any one of these links:
 
-1. [StanCon 2020 Talk proposal UK (London Time)](https://docs.google.com/forms/d/14p6dIn9lpzAwbTK5C7cJ2DoYQZxlKvzGcwS1mA_hnyI/viewform?edit_requested=true)
+1. [StanCon 2020 Talk proposal UK (London Time)](https://docs.google.com/forms/d/1XeYklnmyrthhKYBD5Vkq2IawOXOQyXtads7AgA3I-0E/viewform?edit_requested=true)
 2. [StanCon 2020 Talk proposal US (Eastern Time)](https://docs.google.com/forms/d/1jQXn1x_biTjoiajm7tbFjcwhAMIjiecfkfJnDTuUlRA/viewform?edit_requested=true)
 3. [StanCon 2020 Talk Proposal US (Pacific Time)](https://docs.google.com/forms/d/14p6dIn9lpzAwbTK5C7cJ2DoYQZxlKvzGcwS1mA_hnyI/viewform?edit_requested=true)
 
