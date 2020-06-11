@@ -11,9 +11,10 @@ taxonomy: quick-reads
 sitemap: false
 ---
 
-We share our thoughts on everything from 3D rendering to careers as an artist.
-{: .pull-center}
+### We share our thoughts on everything from 3D rendering to careers as an artist.
+{: .pull-center .quick-reads-subtitle}
 
-<div class="blog-list entries-{{ page.entries_layout | default: 'list' }}">
+<div class="quick-reads-list entries-{{ page.entries_layout | default: 'list' }}">
+    <hr>
     {% include blogs-category.html taxonomy=page.taxonomy %}
 </div>

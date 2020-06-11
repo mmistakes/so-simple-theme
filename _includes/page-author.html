@@ -1,7 +1,7 @@
 {%- if page.author -%}
   {%- assign postType = "blog" -%}
   {%- assign author = page.author | default: page.author[0] | default: site.author -%}
-  {%- assign author = site.data.team[author] | default: team -%}
+  {%- assign author = site.data.authors[author] | default: author -%}
   {%- assign profile = author.picture | relative_url -%}
 {%- else -%}
   {%- assign postType = "short" -%}

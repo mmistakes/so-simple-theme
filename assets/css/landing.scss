@@ -291,6 +291,10 @@ sitemap: false
       vertical-align: middle;
       height: 110px;
       padding: 1.5em;
+      @media screen and (max-width: 768px){
+        height: 80px;
+        padding: 1rem;
+      }
       img {
         max-width:100%;
         max-height:100%;
@@ -298,4 +302,3 @@ sitemap: false
     }
   }
 }
-
