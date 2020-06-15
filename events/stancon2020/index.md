@@ -156,10 +156,9 @@ We can’t do this without the support of generous sponsors that support our eve
 **Organizers:**
 
    - Susana Marquez. The Rockefeller Foundation.
-   - Eric J. Ward. Northwest Fisheries Science Center (NOAA).
-   - Debashis Mondal. Statistics Department. Oregon State University.
-   - Yi Zhang. Metrum Research Group.
    - Daniel Lee. Generable.
+   - Kelli Cassidy. The University of Liverpool.
+   - Simon Manskell. The University of Liverpool.
 
 ---
 
