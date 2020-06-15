@@ -1470,11 +1470,11 @@ p .btn--aio {
   ========================================================================== */
 // don't show popup on mobile after accepted or revoked
 .cc-revoke {
-  font-size: 0.75em;
+  background-color: #000 !important;
+  font-size: 0.8em;
   @media screen and (max-width: 768px) {
     display: none;
   }
-
 }
 
 

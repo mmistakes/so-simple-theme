@@ -87,14 +87,15 @@ window.addEventListener("load", function(){
 window.cookieconsent.initialise({
   container: document.getElementById("content"),
   palette: {
-    popup: { background: "#000" },
-    button: { background: "#f1d600" }
+    popup: { background: "#237afc" },
+    button: { background: "#fff", "text": "#237afc" }
   },
   theme: "classic",
   type: "opt-in",
   content: {
     href: "/legal/cookie-policy",
     policy: 'Revise Cookies',
+    message: "This website uses cookies to help us understand our readers.<br>With this data, we aim to create better content and ultimately develop a better experience for you!"
   },
   onInitialise: function (status) {
     console.log("Initializing");
