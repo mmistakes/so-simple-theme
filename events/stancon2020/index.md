@@ -158,7 +158,7 @@ We can’t do this without the support of generous sponsors that support our eve
    - Susana Marquez. The Rockefeller Foundation.
    - Daniel Lee. Generable.
    - Kelli Cassidy. The University of Liverpool.
-   - Simon Manskell. The University of Liverpool.
+   - Simon Maskell. The University of Liverpool.
 
 ---
 
