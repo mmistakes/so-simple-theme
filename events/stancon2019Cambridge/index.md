@@ -118,7 +118,7 @@ This class covers techniques to build, fit, and criticize Bayesian models in pha
 
 The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
-# [Recored talks](#streaming)
+# [Recorded talks](#streaming)
 
 Recorded Talks are
 <ul>
