@@ -23,7 +23,7 @@ Get started by watching our free tutorials to learn from scratch and explore adv
 <div markdown="1">
 ### Community
 Join our community to exchange ideas, ask for help and create amazing NPR together
-* [Artineers Community](https://community.artineering.io)
+* [Artineers Community](http://community.artineering.io)
 </div>
 
 
