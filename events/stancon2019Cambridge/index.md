@@ -21,7 +21,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
 - [**Schedule**](#schedule)
-- [**Recorded talks**](#streaming)
+- [**Recorded talks**](#recorded-talks)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
 - [**Contact**](#contact)
