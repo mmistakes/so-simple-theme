@@ -9,7 +9,6 @@ Hello, my name is **Esteban Oliva** and I am originally from Cuba. I graduated i
 
 In November 2019, I graduated from **Generation USA** as a **Cloud Support Engineer** at **Miami Dade College**, allowed me to obtain my **AWS Certified Cloud Practitioner**.
 
-At present, I am coursing an online course to obtain the **AWS Certified Solutions Architect - Associate** .
  
 
 <a markdown="0" href="https://www.linkedin.com/in/esteban-oliva-76251958" class="btn">More on Esteban</a>
