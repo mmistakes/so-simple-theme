@@ -70,7 +70,11 @@ In case the activation code is not valid, or the existing license is no longer v
 ## FAQ
 _**I've activated the non-commercial version of MNPRX previously and now want to activate an Indie or Studio license**_  
 First of all, thanks for supporting us and purchasing our software!  
-To remove the prior non-commercial license, simply delete the license file at `$MAYA_APP_DIR/MNPRX.lic` ([_MAYA_APP_DIR_ location](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-EnvVar/files/GUID-228CCA33-4AFE-4380-8C3D-18D23F7EAC72-htm.html?st=$MAYA_APP_DIR)) and restart _Maya_ to run the MNPRX activation process again.
+The easiest way to activate your license is as follows:
+1. Run the [installation method](../installation) again from where MNPRX is installed
+2. Delete the existing non-commercial license when prompted
+3. Restart Maya
+4. Load MNPRX and activate it with your license key
 
 
 _**My activation failed with the activation code that was given**_  

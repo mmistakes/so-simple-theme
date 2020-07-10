@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 ## Requirements
-* Maya 2017, 2018, 2019 (with updates)
+* Maya 2018, 2019, 2020 (with updates)
 * Windows 10 (Linux [CentOS/RHEL] and Mac upon request for bulk purchases of _Studio_ licenses)
 * Modern Graphics Card (2+ GB recommended, more is needed at higher resolutions and scene complexity)
 
