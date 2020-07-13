@@ -21,6 +21,7 @@ google_fonts:
     weights: "700"
 google_tag_manager: GTM-N5D7T4C
 google_analytics_anon: UA-142029611-4
+google_analytics_anon_nc: UA-142029611-5
 disqus:
   shortname: artineering
 twitter:
