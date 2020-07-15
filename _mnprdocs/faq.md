@@ -75,6 +75,16 @@ There are many reasons why this might be happening, we'll list them up from most
 You may [clamp the resolution of the textures](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Rendering/files/GUID-8BAA3B98-F6C5-48F4-834F-14A551836B34-htm.html) to help alleviate this problem.
 </div>
 
+#### When working with many semi-transparent objects, they flicker from frame to frame
+<div markdown="1">
+This is due to a _Maya_ bug that we have reported to _Autodesk_ ([MAYA-105672](https://forums.autodesk.com/t5/maya-programming/object-sorting-of-transparent-objects-not-working-with-mrt/td-p/9597898)). Fortunately, there is a workaround that will get depth sorting of transparent objects working with MNPRX.
+1. Navigate to this folder `C:\Program Files\Autodesk\Maya20XX\bin\ScriptFragment` (replace the 'XX' with the version of Maya you are using in production).
+2. Open up the `mayaTransparentDrawPass.xml` file with a text editor that has administrator privileges.
+3. Search for this line `<If value="@sortTransparent" />` and comment it out like this: `<!--<If value="@sortTransparent" />-->`
+4. Comment out the _EndIf_ just underneath like this `<!--<EndIf />-->`
+5. Save the file and restart _Maya_ to have depth sorting of transparent objects working with MNPRX.
+</div>
+
 #### The MNPRX shelf doesn't show any buttons/icons
 <div markdown="1">
 Because Maya automatically saves shelf files, using different versions of Maya with MNPRX can invalidate the shelf on older versions of Maya. This makes the buttons/icons disappear. Thankfully, it's easy to solve this:
