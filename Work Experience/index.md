@@ -24,7 +24,7 @@ modified: 2014-08-08T19:44:38.564948-04:00
    * Effectively uses a python script that start and stop virtual machine in **AWS Cloud** using **AWS Lambda**.
    * Utilization and configuration of **Putty** in Windows OS for effectively communication with virtual machine ( **Amazon EC2** ) hosted in **AWS Cloud**.
  
- <a markdown="0" href="https://www.bellefleurtech.com/" class="btn">More on bellefleurtech.com/</a>  
+ <a markdown="0" href="https://www.bellefleurtech.com/" class="btn">More on bellefleurtech.com</a>  
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
    
