@@ -24,12 +24,13 @@ image:
    * AWS Services :
       
       * AWS EC2
-      * AWS Lambda
-      * AWS S3
-      * AWS Gamelift
       * AWS IAM
+      * Amazon VPC
+      * AWS S3
+      * AWS System Manager
       * Amazon Appstream
       * AWS CloudWatch
+      * AWS RDS
  
 **Technologies**
    
@@ -42,7 +43,8 @@ image:
       * Python
    
    * Databases Management System
-      * PostgreSQL   
+      * PostgreSQL
+      * AWS RDS
 
 **Manufacturing Industry Skills**
    
