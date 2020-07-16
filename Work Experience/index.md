@@ -19,7 +19,11 @@ modified: 2014-08-08T19:44:38.564948-04:00
   
 **Titanium Fabrication Corporation, Fairfield, NJ (March 2017 - May 2019 )**
    
-   * At Titanium Fabrication, once again I had the opportunity to work with great people, where I continued improving my          knowledge on how to use new CNC programming languages like Fanuc and Tosnuc, and how to use new digital precision            instrument like RAYTECH surfaces roughness tester and ultrasonic thickness gauge.
+   * Assists with the development of concepts, ideas, and methods for solving milling/machining problems.
+   * Programs, performs setup, and runs CNC mills.
+   * Plans machining by studying work orders, blueprints, engineering plans, and material specifications.
+   * Set up equipment for machining of complex high precision metal parts, including setting fixtures and tooling.
+   
    
    * CNC Machine that I used in Titanium Fabrication Corp.   
   
@@ -34,9 +38,16 @@ modified: 2014-08-08T19:44:38.564948-04:00
 
 **Barnett Machine Tool, Harrison, NJ (September 2015 - March 2017 )**
    
-   * At Barnet Machine Tool, I had the opportunity to work with a great teamwork, which gave me the possibilities to              improve my skills in this industry and be a better professional. One of my main task as a worker in Barnett was the          complete set up of a Haas VF-3 and a Toshiba BP-13P40 from using the right tools to machined the part, to inspected the      part once was finished, using precision instruments like micrometer, caliper, and gauges.
-
+   * Programming, setting up and machining of NC blocks and various 3D machined parts. (Surface programing and machining).
+   * Programs, performs setup, and runs CNC mills (total control over the CNC mills.)
+   * Plans machining by studying work orders, blueprints, engineering plans, and material specifications.
+   * Make proper cutting tool selections, taking into consideration such factors as materials, speeds, type of cutters, feeds, and control system imitations.
+   
+   * CNC Machine that I used in Barnett Machine Tool.
       
+      * Vertical Milling : Haas VF-2 & Haas VF-3
+      * Horizontal Milling : Toshiba BP-13P40
+          
       
 <a markdown="0" href="https://www.barnett-machine.com/" class="btn">More on barnett-machine.com</a>      
       
