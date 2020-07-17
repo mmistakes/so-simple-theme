@@ -135,7 +135,7 @@ Abstract: State-space models are a popular choice in modelling voting intentions
 <hr>
 
 
-<i><b id="29">Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=13090)
+<i><b id="29">Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=13090)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3950561.svg)](https://doi.org/10.5281/zenodo.3950561)
 
 Abstract: Model inference, such as model comparison, model checking, and model selection, is an important part of model development. Leave-one-out cross-validation (LOO) is a general approach for assessing the generalizability of a model, but unfortunately, LOO does not scale well to large datasets. We propose a combination of using approximate inference techniques and probability-proportional-to-size-sampling (PPS) for fast LOO model evaluation for large datasets. We provide both theoretical and empirical results showing good properties for large data.
 
