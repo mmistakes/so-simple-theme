@@ -142,7 +142,7 @@ Abstract: Model inference, such as model comparison, model checking, and model s
 <hr>
 
 
-<i><b id="28">Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=11874)
+<i><b id="28">Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=11874) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3951087.svg)](https://doi.org/10.5281/zenodo.3951087)
 
 Abstract: When working with multimodal posterior distributions, MCMC algorithms can have difficulty moving between modes, and default variational or mode-based approximate inferences can understate posterior uncertainty. And, even if the most important modes can be found, it is difficult to evaluate their relative weights in the posterior, which requires computing the integral of the posterior in the neighborhood of each mode.
 Here we propose an alternative approach, using parallel runs of MCMC, variational, or mode- based inferences to hit as many modes as possible, and then using Bayesian stacking to weight the set of simulations at each mode. Bayesian stacking is a method for constructing a weighted average of distributions so as to minimize cross-validated prediction errors. The result from stacking is not necessarily equivalent, even asymptotically, to fully Bayesian inference, but it serves many of the same goals.
