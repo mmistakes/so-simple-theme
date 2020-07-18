@@ -156,7 +156,7 @@ Abstract: Chronikis (http://chronikis.org) is an open-source language for Bayesi
 
 Thus the Chronikis language itself focuses on concise and clear model specification, and as far as possible the task of creating efficient estimation and forecasting code is left to the compiler. These twin goals are facilitated by making the Chronikis language fully declarative: the body of a Chronikis program is just an expression whose ""value"" is a probability distribution over time series.
 
-The compiler applies a series of semantics-preserving transformations to the body of a Chronikis program, eventually arriving at a form that it can straightforwardly translate to Stan. Along the way it infers types and shapes for all variables except the parameters of main(), reparameterizes in some cases to use non-centered parameterization, assigns each variable to the appropriate Stan block, and infers bounds for variables assigned to the parameters block.
+The compiler applies a series of semantics-preserving transformations to the body of a Chronikis program, eventually arriving at a form that it can straightforwardly translate to Stan. Along the way it infers types and shapes for all variables except the parameters of main(), reparameterizes in some cases to[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3951091.svg)](https://doi.org/10.5281/zenodo.3951091) use non-centered parameterization, assigns each variable to the appropriate Stan block, and infers bounds for variables assigned to the parameters block.
 
 For the sake of clarity, Chronikis supports operations for constructing complex models from simpler components. For example, here is a Chronikis program for a random-walk model with observation noise:
 
@@ -185,7 +185,7 @@ Chronikis also has some innovative support for (quasi-)periodic time-series mode
 <hr>
 
 
-<i><b id="26">Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=22373)
+<i><b id="26">Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <b></b> [Video](https://youtu.be/rP1Voi9bpz0?t=22373) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3951091.svg)](https://doi.org/10.5281/zenodo.3951091)
 
 Abstract:A central theme in the field of survey statistics is estimating population-level quantities through data coming from potentially non-representative samples of the population. Multilevel Regression and Poststratification (MRP), a model-based approach, is gaining traction against the traditional weighted approach for survey estimates. MRP uses partial pooling through random effects, thus shrinking model estimates to an overall mean and reducing potential overfitting. Despite MRP’s straightforward specification of prior distributions, the estimates coming from it are susceptible to bias if there is an underlying structure that the prior does not capture. This work aims to provide a new framework for specifying structured prior distributions that lead to bias reduction in MRP estimates. We use simulation studies to explore the benefit of these priors and demonstrate on US survey data.
 
