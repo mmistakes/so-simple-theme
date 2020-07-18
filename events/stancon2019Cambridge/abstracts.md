@@ -205,7 +205,7 @@ A full paper is available at https://arxiv.org/abs/1811.00457.
 
 <hr>
 
-<i><b id="24">The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Video](https://youtu.be/KH4jN9EBTtE?t=5838)
+<i><b id="24">The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> [Video](https://youtu.be/KH4jN9EBTtE?t=5838) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3951099.svg)](https://doi.org/10.5281/zenodo.3951099)
 
 Abstract: Airbnb and short-term rentals are raising rents in cities through the use of new technologies and by catering to culturally savvy populations. As a phenomenon of the attention economy, Airbnb is a platform where meaning becomes priced, as efficient and attractive communication is awarded by more bookings. In this paper, we look at how this capitalization of meaning can be understood by modelling the use of neighbourhood names. Using Natural Language Processing techniques and Bayesian hierarchical logit models with Intrinsic Auto-Regressive priors, we explore how listings draw upon the value placed on well-known neighbourhoods to promote themselves. Our findings separate different spatial effects as well as neighbourhood and listing level patterns that help us explain how neighbourhood names are deployed to promote short-term rentals on Airbnb.
 
