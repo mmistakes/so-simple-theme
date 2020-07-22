@@ -91,6 +91,6 @@ The `Render targets` button will start rendering the target sequence with the se
 
 ## FAQ
 _**When rendering with TAA, the render comes out shifted**_<br>
-This will happen when the `2D Pan/Zoom` is used in the camera you are rendering (`Camera Shape Attributes -> Display Options -> 2D Pan/Zoom`). We discourage from using this function with MNPRX at the moment, but we might add this in the future if [requested by the community](http://community.artineering.io).
+This will happen when the `2D Pan/Zoom` is used in the camera you are rendering (`Camera Shape Attributes -> Display Options -> 2D Pan/Zoom`). We discourage from using this function with MNPRX at the moment, but we might add this in the future if [requested by the community](https://www.reddit.com/r/artineers/).
 
 {% include toc-side %}

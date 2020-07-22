@@ -8,6 +8,6 @@ image:
   header: images/headers/filmaka2019.jpg
 search: false
 ---
-<script>window.location.href = "https://artineers.mn.co/"</script>
-If you are not redirected automatically, please manually continue [here](https://artineers.mn.co/).
+<script>window.location.href = "https://www.reddit.com/r/artineers/"</script>
+If you are not redirected automatically, please manually continue [here](https://www.reddit.com/r/artineers/).
 {: .top2}

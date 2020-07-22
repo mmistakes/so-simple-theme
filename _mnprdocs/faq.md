@@ -115,7 +115,7 @@ If you really need to use the *Batch Render* tool within Maya, temporarily delet
 
 </div>  <!-- end Troubleshooting MNPRX -->
 
-If you don't find your question here, feel free to reach out to us through the [Artineers](http://community.artineering.io) community
+If you don't find your question here, feel free to reach out to us through the [Artineers](https://www.reddit.com/r/artineers/) community
 
 <!-- accordion widget documentation: https://api.jqueryui.com/accordion/-->
 <script> $( ".accordion" ).accordion({
