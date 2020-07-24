@@ -12,6 +12,16 @@ image:
 
 # StanCon 2020. A 24h Global Event.
 
+## Registration is open!
+
+Please register at: [https://www.stancon.mc-stan.org/](https://www.stancon.mc-stan.org/)
+
+Cost: $50.
+
+Scholarships will be made available for members of the community needing financial support to cover the cost of the tickets. For details on scholarship applications please visit the registration page.
+
+
+
 ## Date Confirmed: Thursday, 13 August 2020 
 
 The Stan Conference will be virtual this year! We are aiming for a 24-hour conference that can bring the global Stan community together. There will be 3 scheduled blocks of time, each with a plenary talk and discussion for six contributed talks. Since the conference is virtual, we’re distributing most of the content ahead of the schedule.
@@ -114,13 +124,6 @@ August 13, 2020.
 
 Online! 
 
-## [Registration](#registration)
-
-Registration details to come! 
-
-### Fees
-
-To be announced!
 
 ## [Accomodation](#accommodation)
 
