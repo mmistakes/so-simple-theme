@@ -10,10 +10,6 @@ image:
   creditlink:
 ---
 
-## StanCon Cambridge UK, August 20-23, 2019
-
-StanCon 2019 is coming up soon! There's still time to submit a poster: posters deadline is August 15. Register and more information [here](https://mc-stan.org/events/stancon2019Cambridge/).
-
 ## About Stan
 Stan is a state-of-the-art platform for statistical modeling
 and high-performance statistical computation.  Thousands of users rely
@@ -45,9 +41,7 @@ class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
 on all major platforms <span class="note">(Linux, Mac,
 Windows)</span>.
 
-To get started using Stan begin with the [Users](/users/) page or
-you can use Stan without any additional configuration via
-[RStudio Cloud](https://rstudio.cloud/project/56157)
+To get started using Stan begin with the [Users](/users/) page.
 
 ## Open Code &amp; Reproducible Science
 

@@ -45,11 +45,13 @@ warnings take two forms:
 
 Deprecation warnings may look something like
 
-> DIAGNOSTIC(S) FROM PARSER:
-> Warning (non-fatal): increment_log_prob(...); is deprecated and will be removed in the future.
-> Use target += ...; instead.
-> Warning: Deprecated function 'normal_log'; please replace suffix '_log' with '_lpdf' for density functions or 
-> '_lpmf' for mass functions
+```r
+DIAGNOSTIC(S) FROM PARSER:
+Warning (non-fatal): increment_log_prob(...); is deprecated and will be removed in the future.
+Use target += ...; instead.
+Warning: Deprecated function 'normal_log'; please replace suffix '_log' with '_lpdf' for density functions or 
+'_lpmf' for mass functions
+```
 
 These warnings indicate that, although your Stan syntax is valid, some
 construction(s) you are using will be removed in a future version of Stan. Thus,
@@ -60,12 +62,14 @@ ensure that your Stan program will continue to run in the future.
 
 Jacobian warnings may look something like
 
-> DIAGNOSTIC(S) FROM PARSER:
-> Warning (non-fatal):
-> Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable.
-> If so, you need to call target += with the log absolute determinant of the Jacobian of the transform.
-> Left-hand-side of sampling statement:
->    sqrt(y) ~ gamma(...)
+```r
+DIAGNOSTIC(S) FROM PARSER:
+Warning (non-fatal):
+Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable.
+If so, you need to call target += with the log absolute determinant of the Jacobian of the transform.
+Left-hand-side of sampling statement:
+   sqrt(y) ~ gamma(...)
+```
 
 If you fail to heed this warning, the posterior distribution Stan will sample
 from is not necessarily the posterior distribution that you have in mind. The
@@ -83,7 +87,8 @@ warnings. Compiler warnings occur when you call `stan_model()` directly or
 indirectly by calling `stan()` with its `file` or `model_code` argument
 specified. They may look something like
 
-> In file included from /usr/local/lib/R/site-library/BH/include/boost/multi_array/base.hpp:28:0,
+```r
+In file included from /usr/local/lib/R/site-library/BH/include/boost/multi_array/base.hpp:28:0,
                  from /usr/local/lib/R/site-library/BH/include/boost/multi_array.hpp:21,
                  from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint/util/multi_array_adaption.hpp:29,
                  from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint.hpp:61,
@@ -125,6 +130,7 @@ In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/mat
                  from file3d155eade6dd.cpp:8:
 /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/set_zero_all_adjoints.hpp:14:17: warning: ‘void stan::math::set_zero_all_adjoints()’ defined but not used [-Wunused-function]
      static void set_zero_all_adjoints() {
+```
 
 These simply say there is some part of the Stan library that is being compiled
 but not used; it has nothing to do with your model specifically. You can 
@@ -143,7 +149,7 @@ the line that starts with `CXXFLAGS = ` but add the two-character string `no`
 after the starting string `-W`. For example, in the case of the compiler warnings
 in the messages above, the line that starts with `CXXFLAGS = ` would become
 
-```
+```r
 CXXFLAGS = ... -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs
 ```
 
@@ -256,11 +262,10 @@ stan(..., control = list(adapt_delta = 0.99))
 and the _Reparameterization_ section of the
 _Optimizing Stan Code_ chapter in the [Stan
 manual](http://mc-stan.org/users/documentation/), in particular the discussion
-of hierarhical models and non-centered parameterizations.
+of hierarchical models and non-centered parameterizations.
 
-<br>
 
-### Exception ... Hamiltonian proposal rejected
+### Exceptions thrown when Hamiltonian proposal rejected
 
 **Example:**
 
@@ -287,11 +292,15 @@ the constrained parameter to its boundary and this should be investigated.
 * Verify that the support of the parameters matches the distributions used in
 the model. In the example above this means making sure that `sigma` is declared 
 with a `<lower=0>` constraint.
+
 * If all parameters are declared with the appropriate constraints, you can 
 ignore this warning if it's very sporadic.
+
 * Simulate data and fit the same model to check whether the same problem occurs
 using different data.
+
 * Use priors that place less weight on values near the boundary.
+
 * Use numerically stable expressions. This includes always performing 
 calculations on the log-scale when possible and making use of Stan's special 
 composed functions. For example, `log_sum_exp(x)` is more robust numerically
@@ -300,7 +309,6 @@ than `log(sum(exp(x))`. Other examples like this include `log1m(x)` instead of
 the _Composed Functions_ subsection of the _Real-Valued Basic Functions_ chapter
 of the Stan manual for a complete listing.
 
-<br>
 
 ### Maximum treedepth exceeded
 
@@ -329,7 +337,6 @@ to 15 (the default is 10) you would do this:
 stan(..., control = list(max_treedepth = 15))
 ```
 
-<br>
 
 ### BFMI low
 
@@ -345,9 +352,11 @@ on this diagnostic, see https://arxiv.org/abs/1604.00695.
   the `energy__` margin. There should be a negative relationship between `lp__`
   and `energy__` in the `pairs` plot, which is not a concern because `lp__` is 
   the logarithm of the posterior kernel rather than a primitive parameter. 
+
 * Reparameterize your model. The primitive parameters that are correlated with
   the `energy__` margin in the `pairs` plot are a good place to start thinking
   about reparameterizations.
+
 * You might try setting a higher value for the `iter` and / or `warmup` arguments.
   By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
@@ -365,9 +374,13 @@ sensitive also to differences in scale. For more details on this
 diagnostic, see https://arxiv.org/abs/1903.08008.
 
 **Recommendations:**
+
 * Look at Bulk- and Tail-ESS for further information.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$. 
 
@@ -397,10 +410,14 @@ when running four chains, this corresponds to having a rank-normalized
 effective sample size of at least 400.
 
 **Recommendations:**
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * Look at change in bulk-ESS when the number of iterations
   increase. If R-hat is less than 1.01 and bulk-ESS grows linearly
   with the number of iterations and eventually exceeds the recommended
@@ -415,10 +432,14 @@ to different scales of the chains and slow mixing in the tails. See
 also general information about ESS above in description of bulk-ESS.
 
 **Recommendations:**
+
 * You might try setting a higher value for the `iter` argument.
   By default `iter` is $2000$.
+
 * Look at the `rank` plot to see how the chains differ from each other.
+
 * Look at the local and quantile efficiency plots.
+
 * Look at change in tail-ESS when the number of iterations
   increase. If R-hat is less than 1.01 and tail-ESS grows linearly
   with the number of iterations and eventually exceeds the recommended
@@ -437,7 +458,7 @@ recommendations:
 
 * Always put Stan programs in a stand-alone file with a `.stan` extension. Even 
 though some Stan interfaces allows specifying the model as a string, the line
-numbers in warning and error messages are only meaningul if you use a separate
+numbers in warning and error messages are only meaningful if you use a separate
 file.
 
 * Maintain reproducibility by saving the model and initial values 
@@ -456,4 +477,3 @@ RStan users, you will be warned about divergences and you can view Rhats using
 the `print` or `summary` methods for stanfit objects. All important diagnostics
 can also be found in our [ShinyStan](http://mc-stan.org/interfaces/shinystan)
 GUI.
-

@@ -58,6 +58,13 @@ class="note"> (YouTube)</span>
 
 ## Lectures
 
+* <a class="external"
+  href="https://www.youtube.com/watch?v=I7AVP9BCm1g">Principled
+  Bayesian Workflow---Practicing Safe Bayes</a> <span class =
+  "note">(YouTube)</span>
+  <br />
+  Keith O'Rourke (2019)
+
 * <a class="external" href="https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/How-to-Use-RStan-to-Estimate-Models-in-External-R-Packages">
   How to Use (R)Stan to Estimate Models in External R Packages </a> <span class="note">
   (useR2017 Conference)</span>

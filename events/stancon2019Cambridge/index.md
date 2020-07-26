@@ -21,6 +21,7 @@ StanCon 2019 is open for registration. Two days of tutorials followed by two day
 - [**34 Accepted Presentations (opens new page)**](https://mc-stan.org/events/stancon2019Cambridge/abstracts.html)
 - [**Tutorials**](#tutorials)
 - [**Schedule**](#schedule)
+- [**Recorded talks**](#recorded-talks)
 - [**Lodging**](#lodging)
 - [**Travel**](#travel)
 - [**Contact**](#contact)
@@ -117,7 +118,13 @@ This class covers techniques to build, fit, and criticize Bayesian models in pha
 
 The course reviews elementary techniques to solve ODEs in Stan, the efficient parametrization of hierarchical models, and within-chain parallelization. We also introduce Torsten, an extension of Stan for pharmacometrics, which allows us to seamlessly combine the above methods. We will give participants access to a cloud platform, so that users may use multiple cores when parallelizing Stan and Torsten. Original tutorial abstract [here](https://mc-stan.org/events/stancon2019Cambridge/pharmaTutorialProposal.pdf).
 
+# [Recorded talks](#streaming)
 
+Recorded Talks are
+<ul>
+<li> <a href="https://www.youtube.com/watch?time_continue=2970&v=qJlhq4Eb-_U">Thursday</a></li>
+<li> <a href="https://www.youtube.com/watch?v=d5avHkTHvy4">Friday</a></li>
+</ul>
 
 # [Schedule](#schedule)
 
@@ -179,17 +186,18 @@ Subject to change.
 <li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9am-10am Submitted Talks
 <ul>
-<li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a></li>
-	<li><i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> <a href="abstracts.html#20">Abstract</a></li>
-	<li><i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> <a href="abstracts.html#24">Abstract</a></li>
+<li> <i><b>Prior choice in logit models of discrete choice</b></i>. Jim Savage. <a href="abstracts.html#14">Abstract</a> 
+<a href="https://youtu.be/KH4jN9EBTtE?t=3428">Video</a></li>
+	<li><i><b>Approximate leave-future-out cross-validation for Bayesian time series models</b></i>. Paul Bürkner, Jonah Gabry, Aki Vehtari. <b></b> <a href="abstracts.html#20">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=4653">Video</a></li>
+	<li><i><b>The Currency of Place and the Short-Term Rental Market</b></i>. Mikael Brunila. <b></b> <a href="abstracts.html#24">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=5838">Video</a></li>
 </ul></li>
 
 <li> 10am-10:40am Break </li>
 <li>10:40am-11:40am Submitted Talks
 	<ul>
-	<li><i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> <a href="abstracts.html#17">Abstract</a></li>
-	<li><i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> <a href="abstracts.html#18">Abstract</a></li>
-	<li><i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> <a href="abstracts.html#19">Abstract</a></li>
+	<li><i><b>Modelling enzyme kinetics with Stan</b></i>. Teddy Groves. <b>DTU BIOSUSTAIN Quantitative Modelling of Cell Metabolism Team</b> <a href="abstracts.html#17">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=9305">Video</a></li>
+	<li><i><b>The emergence of HIV resistance to antiretroviral therapy in southern Africa: a mechanistic meta-analysis of survey data</b></i>. Julien Riou, Matthias Egger, Christian Althaus. <b>Institute of Social and Preventive Medicine, University of Bern, Switzerland</b> <a href="abstracts.html#18">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=10581">Video</a></li>
+	<li><i><b>Handling missing data, censored values and measurement error in machine learning models using multiple imputation for early stage drug discovery</b></i>. Rowan Swiers. <b>AstraZeneca</b> <a href="abstracts.html#19">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=11826">Video</a></li>
 	</ul></li>
 	
 <li>11:40-12:00pm Sponsor Talks and Birds of Feather</li>
@@ -197,20 +205,21 @@ Subject to change.
 <li>1:00pm-2:00pm Stan Community Meeting</li>
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
-<li><i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> <a href="abstracts.html#23">Abstract</a></li>
-	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>The Wharton School</b> <a href="abstracts.html#25">Abstract</a></li>
-		<li><i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> <a href="abstracts.html#21">Abstract</a></li>
+<li><i><b>Fast Forward Like a Lambo (skrrt skrrt)</b></i>. Daniel Lee. <b>Generable</b> <a href="abstracts.html#23">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=21410">Video</a></li>
+	<li><i><b>Profit-Maximizing A/B Tests</b></i>. Elea McDonnell Feit, Ron Berman. <b>Drexel University, The Wharton School</b> <a href="abstracts.html#25">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=22351">Video</a></li>
+		<li><i><b>When seasonality meets Bayesian: Decomposing seasonalities in Stan</b></i>. Hyunji Moon, SNU, Hyeonseop Lee, PUBG. <b></b> <a href="abstracts.html#21">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=23821">Video</a></li>
 	</ul>
 </li>
 <li>3:00pm-3:40pm Break</li>
 <li>3:40pm-4:20pm Submitted Talks
 	<ul>
-		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract</a></li>
-		<!--<li><i><b>Parallel numerical ODE solution in Torsten for population models</b></i>. Yi Zhang,  William R. Gillespie. <b>Metrum LLC</b> <a href="abstracts.html#2">Abstract</a></li>
-		-->
+		<li><i><b>Chronikis: a Bayesian time-series modeling language</b></i>. Kevin S. Van Horn. <b>Adobe Inc.</b> <a href="abstracts.html#27">Abstract, </a><a href="http://opensource.adobe.com/Chronikis/docker.html
+">Docker link</a> <a href="https://youtu.be/KH4jN9EBTtE?t=27391">Video</a></li>
+		<li><i><b id="8">Estimating the prevalence of HIV infection in England using Bayesian evidence synthesis</b></i>. Anne Presanis, Christopher Jackson [presenting author], Daniela De Angelis (MRC Biostatistics Unit, University of Cambridge);  Peter Kirwan, Alison Brown, Ada Miltz, Ross Harris, Cuong Chau, Stephanie Migchelsen, Hamish Mohammed, Katy Davison, Sara Croxford, Sarika Desai, Kathy Lowndes, Valerie Delpech, Noel Gill (Public Health England). <b></b>  <a href="abstracts.html#8">Abstract</a> <a href="https://youtu.be/KH4jN9EBTtE?t=28593">Video</a></li>
+		
 	</ul>
 </li>
-<li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i></li>
+<li>4:20pm-5:10pm David Spiegelhalter <i><b>Communicating Uncertainty about Facts, Numbers and Science</b></i> <a href="https://youtu.be/KH4jN9EBTtE?t=29990">Video</a></li>
 <li>5:10pm-6:30pm: Networking at the Pub and pickup football(soccer) match</li>
 <li>6:30pm Dinner at King's College</li>
 
@@ -220,35 +229,35 @@ Subject to change.
 <li>8:00am-9:00am Registration <s><a href="img/annotated_kings.pdf">Chetwynd Room</a></s><a href="img/CambridgeLarge.png">West Road Concert Hall</a></li>
 <li>9:00am-10:00am Submitted Talks
 	<ul>
-	<li><i><b>Using the Stan Math Library to reduce memory consumption for tape-based Algorithmic Differentiation (AD)</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a></li>
-	<li><i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> <a href="abstracts.html#10">Abstract</a></li>
-	<li><i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> <a href="abstracts.html#16">Abstract</a></li>
+	<li><i><b>Extending Stan's Automatic Differentiation (AD) capabilities using dco/c++</b></i>. Philip Maybank. <b>Numerical Algorithms Group (NAG)</b> <a href="abstracts.html#9">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=3398">Video</a></li>
+	<li><i><b>The State of GPU Computation Support for Stan</b></i>. Rok Češnovar (University of Ljubljana - UL), Steve Bronder (Capital One), Davor Sluga (UL), Jure Demšar (UL), Tadej Ciglarič (UL), Sean Talts (Columbia University), Erik Štrumbelj (UL). <b></b> <a href="abstracts.html#10">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=4419">Video</a></li>
+	<li><i><b>Modeling cocoa bean fermentation processes</b></i>. Mauricio Moreno-Zambrano, Sergio Grimbs, Matthias S. Ullrich and Marc-Thorsten Hütt. <b> Department of Life Sciences & Chemistry, Jacobs University Bremen</b> <a href="abstracts.html#16">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=5408">Video</a></li>
 	</ul></li>
 	
 <li> 10am-10:40am Break </li>
 <li>10:40am-12:00pm Submitted Talks
 	<ul>
-<li><i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> <a href="abstracts.html#15">Abstract</a></li>
-<li><i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> <a href="abstracts.html#11">Abstract</a></li>
-<li><i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> <a href="abstracts.html#28">Abstract</a></li>
- <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a></li>
+<li><i><b>Bayesian analyses of time-to-event data using the rstanarm R package</b></i>. Eren M. Elçi, Sam Brilleman. <b>Public Health and Preventive Medicine, Monash University.</b> <a href="abstracts.html#15">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=9283">Video</a></li>
+<li><i><b>A Decision-Theoretic Journey From Early Clinical Data to Late Stage Efficacy using Hierarchical Joint Models.</b></i>. Krzysztof Sakrejda, Eric Novik. <b> Generable </b> <a href="abstracts.html#11">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=10652">Video</a></li>
+<li><i><b>Stacking for multimodal posterior distributions</b></i>. Yuling Yao, Aki Vehtari and Andrew Gelman. <b></b> <a href="abstracts.html#28">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=11874">Video</a></li>
+ <li><i><b>Bayesian leave-one-out cross-validation for large data</b></i>. Måns Magnusson, Aalto, Michael Riis Andersen, Danish Technical University, Johan Jonasson, Chalmers Technical University, Aki Vehtari, Aalto. <b></b> <a href="abstracts.html#29">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=13090">Video</a></li>
 	</ul></li>
 <li> 12:00pm-1:00pm Provided Lunch </li>
 <li> 1:00pm-2:00pm Open Developers Meeting, <a href="img/annotated_kings.pdf">Chetwynd Room</a> (stanc optimization)</li>
 <li>2:00pm-3:00pm Submitted Talks
 	<ul>
-	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a></li>
-	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a></li>
-	<li>Leah Comment</li>
+	<li><i><b>Simulation of Statistic Mechanical Systems using Stan</b></i>. Forrest Eli Hurley. <b>North Carolina State University</b> <a href="abstracts.html#31">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=21174">Video</a></li>
+	<li><i><b>Structured priors for survey estimates in the presence of non-representative data</b></i>. Yuxiang Gao (University of Toronto), Lauren Kennedy (Columbia University), Daniel Simpson (University of Toronto). <a href="abstracts.html#26">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=22373">Video</a></li>
+	<li><i><b>Prediction and causal inference for time-to-event outcomes truncated by death</b> <a href="abstracts.html#22">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=23731">Video</a></i> Leah Comment </li>
 	</ul></li>
 	
 	<li> 3:00pm-3:40pm Break</li>
 	<li>3:40pm-4:00pm Submitted Talk
 	<ul>
-	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i>. Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a></li>
+	<li><i><b>Getting the Lead out--Does New York City's childhood lead testing make statistical sense?</b></i> Jonathan Auerbach, Breck Baldwin. <b>Columbia University</b> <a href="abstracts.html#32">Abstract</a> <a href="https://youtu.be/rP1Voi9bpz0?t=26935">Video</a></li>
 	</ul>
 	</li>
-	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i></li>
+	<li>4:00pm-4:50pm Lauren Kennedy <i><b>Out of Sample Prediction and the Quest for Generalization</b></i> <a href="https://youtu.be/rP1Voi9bpz0?t=28463">Video</a></li>
 </ul>
 	
 

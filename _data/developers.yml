@@ -7,9 +7,9 @@
   avatar: andrew_gelman.gif
 
 - name: Bob Carpenter
-  affiliation: Columbia University
+  affiliation: Flatiron Institute
   web: http://bob-carpenter.github.io
-  email: carp@alias-i.com
+  email: bcarpenter@flatironinstitute.org
   github: bob-carpenter
   avatar: bob_carpenter.jpg
 
@@ -37,14 +37,8 @@
   github: betanalpha
   avatar: michael_betancourt.jpg
 
-- name: Marcus Brubaker
-  affiliation: York University
-  web: http://www.eecs.yorku.ca/~mab/
-  github: mrbrubake
-  avatar: marcus_brubaker.jpg
-
 - name: Jiqiang Guo
-  affiliation: NPD Group
+  affiliation: Lucus Advisors
   email: guojq28@gmail.com
   github: maverickg
   linkedin: http://www.linkedin.com/pub/jiqiang-guo/9/4b2/a54
@@ -63,7 +57,7 @@
   email: marcoigarapava@gmail.com
 
 - name: Jeffrey Arnold
-  affiliation: University of Washington
+  affiliation: Instacart
   web: http://jrnold.me
   email: jeffrey.arnold@gmail.com
   linkedin: https://www.linkedin.com/in/jrnold
@@ -93,7 +87,6 @@
 
 - name: Brian Lau
   affiliation: CNRS, Paris
-  web: http://research.icm-institute.org/team/29435/homepage
   github: brian-lau
   avatar: brian_lau.png
 
@@ -140,7 +133,8 @@
 
 - name: Charles Margossian
   affiliation: Columbia University
-  email: charlesm@metrumrg.com
+  web: https://charlesm93.github.io./
+  email: charles.margossian@columbia.edu
   linkedin: https://www.linkedin.com/in/charles-margossian-3428935b
   github: charlesm93
   avatar: charles_margossian.jpg
@@ -154,12 +148,12 @@
   avatar: vincent_picaud.png
 
 - name: Imad Ali
-  affiliation: National Basketball Association
+  affiliation: PlayStation
   web: http://imadali.net
   email: imad.ali@columbia.edu
   linkedin: https://www.linkedin.com/in/imadmali
   github: imadmali
-  avatar: imad_ali.png
+  avatar: imad_ali.jpg
 
 - name: Sean Talts
   affiliation: Columbia University
@@ -170,7 +164,7 @@
   avatar: sean_talts.png
 
 - name: Ben Bales
-  affiliation: UC, Santa Barbara
+  affiliation: Columbia University
   email: bbbales2@gmail.com
   github: bbbales2
   avatar: ben_bales.png
@@ -184,10 +178,10 @@
   linkedin: https://www.linkedin.com/in/ari-hartikainen-64b87b32/
 
 - name: Matthijs Vákár
-  affiliation: University of Oxford
+  affiliation: Utrecht University
   github: VMatthijs
-  web: http://users.ox.ac.uk/~magd3996/
-  email:  matthijs.vakar@cs.ox.ac.uk
+  web: https://www.uu.nl/medewerkers/MILVakar
+  email: m.i.l.vakar@uu.nl
   avatar: matthijs_vakar.jpg
 
 - name: Andrew Johnson
@@ -245,7 +239,7 @@
   avatar: edward_a_roualdes.jpg
 
 - name: Andre Zapico
-  affiliation: University of North Carolina
+  affiliation: University of Electronic Science and Technology of China
   github: drezap
 
 - name: Ryan Bernstein
@@ -259,3 +253,52 @@
   github: enetsee
   linkedin: https://www.linkedin.com/in/michael-thomas-38620943/
   avatar: michael_thomas.jpg
+
+- name: Tadej Ciglarič
+  affiliation: University of Ljubljana
+  email: tadej.c@gmail.com
+  github: t4c1
+  avatar: tadej.png
+
+- name: Marco Colombo
+  affiliation: Independent Consultant
+  github: mcol
+  web: https://pm2.phs.ed.ac.uk/~mcolombo/
+
+- name: Adam Haber
+  affiliation: Weizmann Institute
+  github: adamhaber
+  email: adamhaber@gmail.com
+  web: https://adamhaber.github.io
+  twitter: _adam_haber
+  avatar: adam_haber.jpeg
+
+- name: Martin Modrák
+  affiliation: Institute of Microbiology of the Czech Academy of Sciences
+  github: martinmodrak
+  email: martin.modrak@biomed.cas.cz
+  twitter: modrak_m
+  web: https://www.martinmodrak.cz
+  avatar: martin-modrak.jpg
+
+- name: Nicusor Serban
+  github: serban-nicusor-toptal
+  email: nicusor.serban@sre.work
+  avatar: serban-nicusor.jpg
+
+- name: Maria Gorinova
+  affiliation: University of Edinburgh
+  web: http://homepages.inf.ed.ac.uk/s1207807/
+  email:  m.gorinova@ed.ac.uk
+  twitter: migorinova
+  github: mgorinova
+  linkedin: https://www.linkedin.com/in/mariagorinova/
+  avatar: maria_gorinova.jpeg
+  
+- name: Duco Veen
+  affiliation: Utrecht University
+  web: http://ducoveen.com
+  email: ducoveen@gmail.com
+  linkedin: https://www.linkedin.com/in/duco-veen-162931b4/
+  github: VeenDuco
+  avatar: duco_veen.jpg

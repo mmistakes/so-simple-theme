@@ -95,6 +95,11 @@ Code may be found in the  [Stan example models repo](https://github.com/stan-dev
 
 # Books using Stan
 
+* Holmes, E. E., M. D. Scheuerell, and E. J. Ward.  2019.
+  [*Applied Time Series Analysis for Fisheries and Environmental Sciences*](
+  https://nwfsc-timeseries.github.io/atsa-labs/). NOAA Fisheries,
+  Northwest Fisheries Science Center.
+
 * Hilbe, J. M., R.S. de Souza, and E. E. O. Ishida.  2017. *Bayesian
   Models for Astrophysical Data Using R, JAGS, Python and Stan*.
   Cambridge University Press.

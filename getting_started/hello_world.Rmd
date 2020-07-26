@@ -1,0 +1,132 @@
+---
+title: "Hello World for Stan"
+author: "Breck Baldwin"
+date: "2/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(readr)
+knitr::opts_chunk$set(echo = TRUE)
+
+read_chunk('R/HelloWorld.r')
+read_chunk('python/helloWorld.py')
+```
+
+## Hello World! for Stan
+
+It is traditional for programming languages to offer a 'Hello World!' example to help newcomers understand how to edit/run/view output for the language in the simplest way possible. 'Hello World!' programs verify that the install works, that the user can interact with the software and that the user knows the how to use the most fundemental debugging tool--the 'print' statement. For example in Python we have:
+
+```{python python.reticulate=FALSE,comment=''}
+<<hwpy>>
+```
+
+R's version has very similar syntax:
+
+```{r comment=''}
+<<helloWorldR>>
+
+```
+
+Stan however is not a programming language as much as a modeling environment which makes creating a 'Hello World!' a bit more complex because:
+
+* Stan is typically compiled/run from another language, an interface langauge like R or Python. 
+* Stan can also be compiled/run standalone as CmdStan which stands for command Stan.
+* Stan has a block structure that constrains where 'print("Hello World!")' can happen.
+* Stan has invocation options that determine what blocks are run and how often. 
+
+One might wonder why bother with 'Hello World!' at all given the above complexity--there are some reasons:
+
+* Learning the basics of the Stan environment before taking on a modeling problem will ease learning. 
+* The evaluation of various blocks of a Stan program need to be understood to properly model and print statements make that order clear. 
+* 'print' statements are core to debugging Stan programs so knowing where they can be used is vital. 
+
+## Hello World! in Stan with CmdStan
+
+We will start with CmdStan since it forms the foundatation of all ways of running Stan programs. This assumes you know how to use the command line on your computer--if you are not comfortable with the command line there are instructions for RStudio below.
+
+Below is an example Stan program:
+
+```{r echo=FALSE,comment=''}
+stan_file = read_file('stan/hello_world.stan')
+writeLines(stan_file)
+```
+
+
+Steps are:
+
+1. Install [CmdStan](https://github.com/stan-dev/cmdstan). It is strongly reccomended to use 2.22.1 or greater because of compilation issues.
+2. Save the above Stan program to a directory `tmp_stan` with the name `hello_world.stan`. `<path>` is where ever you put the directory in your file system.  
+3. Change directory to where CmdStan is installed. The parent directory should be something like `cmdstan-2.22.1`. **It is required that Stan's compiler be invoked from the install directory.**  
+    i) On linux/MacOSX save the above Stan program to `<path>/tmp_stan/hello_world.stan`.
+    ii) On Windows save the above Stan program to `<path>\tmp_stan\hello_world.stan`.
+4. Compile `hello_world.stan`. Note that you need to drop the `.stan` suffix because the `make` command is being directed to create the executable `hello_world`. 
+    i) On linux/MacOSX run `make <path>/tmp_stan/hello_world`
+    ii) On Windows run `make <path>\tmp_stan\hello_world.exe`
+5. This should generated a few screenfulls of compiler messages. In the end there will be the following files added to the `tmp_stan` directory:
+    * The executable `hello_world` or `hello_word.exe` for Windows.
+    * The compiler generated intermediate files `hello_world.d`, `hello_world.o` and `hello_world.hpp`. If the compiled failed there may be other files instead. 
+6. Run the executable. Change the directory to where the executable `hello_world` is and type the executable as follows (the `>` is the command prompt):
+    * On Linux/MacOSX: `>./hello_world method=sample num_samples=1 num_warmup=1`
+    * On Windows: `>hello_world.exe method=sample num_samples=1 num_warmup=1`
+    
+Below is the system out output, but lets go over how the program was configured. The `method=sample` argument tells the executable to run the standard HMC inference algorithm, `num_samples=1` tells inference to only sample one time and `num_warmup=1` to only do one iteration of the warmup process. Default values are 1000 for both arguments but we don't care since we only want to generate 'hello world!' statements. 
+
+The first section of console output is a bunch of configuration information about how the Stan program is setup. Note that the num_samples and num_warmup are reflected here. 
+
+```{r echo=FALSE,comment=''}
+library(stringr)
+stan_output = read_file('stan/output.txt')
+writeLines(str_extract(stan_output,regex("^.*(?=transformed data)",dotall = TRUE)))
+```
+
+Next in the console output we get to the print statements we added to `hello_world.stan`.
+              
+```{r echo=FALSE,comment=''}
+writeLines(str_extract(stan_output,regex("transformed data.*from\n",dotall = TRUE)))
+```
+For details on how Stan programs are executed please refer to Chapter 8 of the [Stan Manual])https://mc-stan.org/docs/). You will however get a good sense of what is happening by looking at the hello world output. Our first hello is from `transformed data{}` and it is executed once. 
+
+Next we see the result of a function call from `transformed data{}` to `helloWorld()` which can be called from any Stan block that allows statements calls--only `data{}` and `parameters{}` don't allow statements. 
+
+Next Stan starts to estimate parameters. See Chapter 12 of the Stan manual for more details, we see below the leapfrog steps applying. 
+
+```{r echo=FALSE,comment=''}
+writeLines(str_extract(stan_output,regex("transformed parameters.*Iteration: 1 / 2",dotall = TRUE)))
+```
+The above leapfrog steps supported getting a warmup sample indicated by `Iteration: 1 / 2`. Because we are still in warmup the value for `estimate_me` is not saved for user examination nor is `generated quantities{}` called.
+
+
+```{r echo=FALSE,comment=''}
+writeLines(str_extract(stan_output,regex("(?<=Warmup\\)).*",dotall = TRUE)))
+```
+Above is the second sample being determined with leapfrog steps and since we forced Stan to sample after one warmup step we get a value for the parameter 'estimate_me' that we can print out in the `generated quantities{}` block.
+
+So that is it, refer to the Stan manual for more about what is going on behind the scenes but these 'Hello World!' convey the general execution order of a Stan program doing HMC inference. 
+
+Below we show how to run 'hello_world.stan' from CmdStanR, CmdStanPy and RStudio. 
+
+## Hello world! from interface languages
+
+Most users will work with Stan from another language. The most popular ones are R with two:
+
+* [CmdStanR](https://github.com/stan-dev/cmdstanr) 
+* [RStan](https://github.com/stan-dev/rstan) 
+
+and Python with a pair as well:
+
+* [CmdStanPy](https://github.com/stan-dev/cmdstanpy)
+* [PyStan](https://github.com/stan-dev/pystan)
+
+and there are others at our [interfaces page](https://mc-stan.org/users/interfaces/). For 'Hello World!' we will focus on the light weight interfaces CmdStanR and CmdStanPy.
+
+## RStudio and CmdStanR 'Hello World!'
+
+Many Stan users use a IDE (Integrated Development Environment) to code. RStudio is the dominant R IDE, so we show how to run our example Stan program in it using [CmdStanR](https://mc-stan.org/cmdstanr/articles/cmdstanr.html). This document assumes you have installed both [RStudio](https://rstudio.com/) and [CmdStanR](https://mc-stan.org/cmdstanr/articles/cmdstanr.html). 
+
+
+
+
+
+

@@ -27,10 +27,177 @@ versions noted and seeds fixed)</span> and
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+# *Stan Case Studies*, &nbsp; Volume 7 &nbsp; (2020)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Bayesian Workflow for disease transmission modeling in Stan
+
+<small>
+This tutorial shows how to build, fit, and criticize disease transmission models in Stan, and should be useful to researchers interested in modeling the COVID-19 outbreak and doing Bayesian inference. 
+Bayesian modeling provides a principled way to quantify uncertainty and incorporate prior knowledge into the model. 
+What is more, Stan's main inference engine, Hamiltonian Monte Carlo sampling, is amiable to diagnostics, which means we can verify whether our inference is reliable. 
+Stan is an expressive probabilistic programing language that abstracts the inference and allows users to focus on the modeling. The resulting code is readable and easily extensible, which makes the modeler's work more transparent and flexible. 
+In this tutorial, we demonstrate with a simple Susceptible-Infected-Recovered (SIR) model how to formulate, fit, and diagnose a compartmental model in Stan. 
+We also introduce more advanced topics which can help practitioners fit sophisticated models; notably, how to use simulations to probe our model and our priors, and computational techniques to scale ODE-based models.
+</small>
+
+[View](case-studies/boarding_school_case_study.html) <span class="note">(HTML)</span>
+
+Authors
+: Leo Grinsztajn, Elizaveta Semenova, Charles C. Margossian, and Julien Riou
+
+Keywords
+: Disease transmission, Compartment models, Ordinary Differential Equations, Bayesian Workflow
+
+Source Repository
+: [example-models/knitr/disease_transmission](https://github.com/stan-dev/example-models/tree/master/knitr/disease_transmission)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">RStan</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+## Reduce Sum Example: parallelization of a single chain across multiple cores
+
+<small> Stan 2.23 introduced `reduce_sum`, a new way to parallelize the execution
+of a single Stan chain across multiple cores.  This introduction copies directly
+from Richard McElreath’s
+[Multithreading and Map-Reduce in Stan 2.18.0: A Minimal Example](https://github.com/rmcelreath/cmdstan_map_rect_tutorial)
+</small>
+
+
+[View](case-studies/reduce_sum_tutorial.html) <span class="note">(HTML)</span>
+
+Author
+: Ben Bales
+
+Keywords
+: within-chain parallel computation, cmdstanr, Stan programming
+
+Source Repository
+: [example-models/knitr/reduce-sum](https://github.com/stan-dev/example-models/tree/master/knitr/reduce-sum)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">CmdStanR</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+
+## Stan Notebooks in the Cloud
+
+<small>This report shows you how to author a Jupyter Notebook for your Stan
+model and data so that anyone with a modern web browser and a Google account
+can run your analysis with Google Colaboratory free cloud servers.  It shows
+you how to quickly set up a Stan installation in the cloud and introduces
+two lightweight interfaces: 
+[CmdStanR](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) and
+[CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/index.html).</small>
+
+
+[View](case-studies/jupyter_colab_notebooks_2020.html) <span class="note">(HTML)</span>
+
+Author
+: Mitzi Morris
+
+Keywords
+: Jupyter, Google Colab, teaching Stan, online classroom, cloud computing
+
+Source Repository
+: [example-models/knitr/cloud-compute-2020](https://github.com/stan-dev/example-models/tree/master/knitr/cloud-compute-2020)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">internet connection, Google account</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+
 # *Stan Case Studies*, &nbsp; Volume 6 &nbsp; (2019)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
+
+
+## Model-based Inference for Causal Effects in Completely Randomized Experiments
+
+<small>In this document, we discuss the implementation of Bayesian model-based inference for causal effects in Stan. We start by providing an introduction to the Bayesian inferential framework by analyzing a simulated dataset generated under unconfounded treatment assignment. Then we analyze an example dataset obtained from a completely randomized experiment focusing on the specification of the joint distribution of the potential outcomes.</small>
+
+[View](case-studies/model-based_causal_inference_for_RCT.html) <span class="note">(HTML)</span>
+
+Author
+: JoonHo Lee, Avi Feller and Sophia Rabe-Hesketh
+
+Keywords
+: causal inference, completely randomized experiments
+
+Source Repository
+: [example-models/education/causal_rct](https://github.com/stan-dev/example-models/tree/master/education/causal_rct)
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>, 
+<tt style="font-size: 90%">rstanarm</tt>, 
+<tt style="font-size: 90%">bayesplot</tt>, 
+<tt style="font-size: 90%">tidyverse</tt>, 
+<tt style="font-size: 90%">gridExtra</tt>, 
+<tt style="font-size: 90%">Matching</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+## Tagging Basketball Events with HMM in Stan
+
+<small>This case study shows how we can apply Bayesian inference to Hidden Markov Models (HMMs) using Stan to extract useful information from basketball player tracking data. Specifically we show how to tag drive events and how to determine defensive assignment. Before diving into basketball data we show how to fit an HMM in Stan using a simple example. This should help build some intuition for those who are unfamiliar with HMMs and will also show how to specify an HMM using Stan.</small>
+
+[View](case-studies/bball-hmm.html) <span class="note">(HTML)</span>
+
+Author
+: Imad Ali
+
+Keywords
+: hidden markov models, sports
+
+Source Repository
+: [imadmali/bball-hmm](https://github.com/imadmali/bball-hmm)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan, bayesplot, dplyr</tt>
+
+License
+:  BSD (3 clause), CC-BY-NC
+
+
+## Model building and expansion for golf putting
+
+<small>In this case study, we use Stan to build a series of models to estimate the probability of a successful putt using data from professional golfers.  We fit and check the fit of a series of models, demonstrating the benefits of modeling based on substantive (rather than purely statistical) principles.  We successfully fit to a small dataset and then have to expand the model to fit a new, larger dataset.  We use weakly informative priors and a model-misfit error term to enable the fit.</small>
+
+[View](case-studies/golf.html) <span class="note">(HTML)</span>
+
+Author
+: Andrew Gelman
+
+Keywords
+: nonlinear regression, sports
+
+Source Repository
+: [example-models/knitr/golf](https://github.com/stan-dev/example-models/tree/master/knitr/golf)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>
+
+License
+:  BSD (3 clause), CC-BY
 
 ## A Dyadic Item Response Theory Model: Stan Case Study
 
@@ -83,7 +250,7 @@ License
 
 ## Predator-Prey Population Dynamics: the Lotka-Volterra model in Stan
 
-Lotka (1925) and Volterra (1926) formulated parameteric differential
+<small>Lotka (1925) and Volterra (1926) formulated parameteric differential
 equations that characterize the oscillating populations of predators
 and prey. A statistical model to account for measurement error and
 unexplained variation uses the deterministic solutions to the
@@ -94,7 +261,7 @@ model is fit to Canadian lynx and snowshoe hare populations between
 1900 and 1920, based on the number of pelts collected annually by the
 Hudson’s Bay Company. Posterior predictive checks for replicated data
 show the model fits this data well. Full Bayesian inference may be
-used to estimate future (or past) populations.
+used to estimate future (or past) populations.</small>
 
 [View](case-studies/lotka-volterra-predator-prey.html) <span class="note">(HTML)</span>
 

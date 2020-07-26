@@ -22,9 +22,15 @@ through interfaces into many popular computing environments.
 
 * [PyStan](pystan.html)
   <span class="note">(Python)</span>
-
+  
 * [CmdStan](cmdstan.html)
   <span class="note">(shell, command-line terminal)</span>
+
+* [CmdStanR](https://mc-stan.org/cmdstanr)
+  <span class="note">(R, lightweight wrapper for CmdStan)</span>
+
+* [CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/getting_started.html)
+  <span class="note">(Python, lightweight wrapper for CmdStan)</span>
 
 * [MatlabStan](matlab-stan.html)
   <span class="note">(MATLAB)</span>
@@ -127,9 +133,13 @@ Emacs
   <a href="https://github.com/stan-dev/stan-mode">Emacs mode for Stan</a>
   </p>
 
-Vim
+There are several Vim plugins that offer syntax highlighting and support for
+Stan.
 
 * <p>
-  <a href="https://github.com/maverickg/stan.vim">Vim syntax highlighting for Stan</a>
+  <a href="https://github.com/eigenfoo/stan-vim">stan-vim: syntax highlighting, automatic indentation, code folding and more.</a>
+  </p>
+* <p>
+  <a href="https://github.com/maverickg/stan.vim">stan.vim: Vim syntax highlighting for Stan</a>
   </p>
 
