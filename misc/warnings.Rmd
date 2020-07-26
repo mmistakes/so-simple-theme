@@ -176,7 +176,7 @@ drawback.
 **Example:**
 
 ```r
-1: There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
+1: There were 15 divergent transitions after warmup.
 2: Examine the pairs() plot to diagnose sampling problems
 ```
 

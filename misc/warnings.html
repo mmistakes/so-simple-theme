@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Stan Development Team" />
 
-<meta name="date" content="2019-07-11" />
+<meta name="date" content="2020-07-26" />
 
 <title>Brief Guide to Stan’s Warnings</title>
 
@@ -270,7 +270,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -332,6 +331,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -343,18 +343,6 @@ summary {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -377,7 +365,7 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Brief Guide to Stan’s Warnings</h1>
 <h4 class="author">Stan Development Team</h4>
-<h4 class="date">2019-07-11</h4>
+<h4 class="date">2020-07-26</h4>
 
 </div>
 
@@ -453,7 +441,7 @@ $(document).ready(function () {
 <div id="divergent-transitions-after-warmup" class="section level3">
 <h3>Divergent transitions after warmup</h3>
 <p><strong>Example:</strong></p>
-<pre class="r"><code>1: There were 15 divergent transitions after warmup. Increasing adapt_delta above 0.8 may help. 
+<pre class="r"><code>1: There were 15 divergent transitions after warmup.
 2: Examine the pairs() plot to diagnose sampling problems</code></pre>
 <p>Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution — the posterior defined by a Stan program + data — by simulating the evolution of a <a href="https://en.wikipedia.org/wiki/Hamiltonian_system">Hamiltonian system</a>. In order to approximate the exact solution of the Hamiltonian dynamics we need to choose a step size governing how far we move each time we evolve the system forward. That is, the <em>step size controls the resolution of the sampler</em>.</p>
 <p>Unfortunately, for particularly hard problems there are features of the target distribution that are too small for this resolution. Consequently the sampler misses those features and returns biased estimates. Fortunately, this mismatch of scales manifests as <em>divergences</em> which provide a practical diagnostic.</p>
@@ -520,7 +508,7 @@ funnel_reparam &lt;- stan_demo(&quot;funnel_reparam&quot;) # has no divergent tr
 <div id="bulk-ess" class="section level3">
 <h3>Bulk ESS</h3>
 <p>Roughly speaking, the effective sample size (ESS) of a quantity of interest captures how many independent draws contain the same amount of information as the dependent sample obtained by the MCMC algorithm. Clearly, the higher the ESS the better. Stan uses R-hat adjustment to use the between-chain information in computing the ESS. For example, in case of multimodal distributions with well-separated modes, this leads to an ESS estimate that is close to the number of distinct modes that are found.</p>
-<p>Bulk-ESS refers to the effective sample size based on the rank normalized draws. This does not directly compute the ESS relevant for computing the mean of the parameter, but instead computes a quantity that is well defined even if the chains do not have finite mean or variance. Overall bulk-ESS estimates rhe sampling efficiency for the location of the distribution (e.g. mean and median).</p>
+<p>Bulk-ESS refers to the effective sample size based on the rank normalized draws. This does not directly compute the ESS relevant for computing the mean of the parameter, but instead computes a quantity that is well defined even if the chains do not have finite mean or variance. Overall bulk-ESS estimates the sampling efficiency for the location of the distribution (e.g. mean and median).</p>
 <p>Often quite smaller ESS would be sufficient for the desired estimation accuracy, but the estimation of ESS and convergence diagnostics themselves require higher ESS. We recommend requiring that the bulk-ESS is greater than 100 times the number of chains. For example, when running four chains, this corresponds to having a rank-normalized effective sample size of at least 400.</p>
 <p><strong>Recommendations:</strong> * You might try setting a higher value for the <code>iter</code> argument. By default <code>iter</code> is <span class="math inline">\(2000\)</span>. * Look at the <code>rank</code> plot to see how the chains differ from each other. * Look at the local and quantile efficiency plots. * Look at change in bulk-ESS when the number of iterations increase. If R-hat is less than 1.01 and bulk-ESS grows linearly with the number of iterations and eventually exceeds the recommended limit, the mixing is sufficient but MCMC has high autocorrelation requiring a large number of iterations</p>
 </div>
@@ -560,6 +548,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
