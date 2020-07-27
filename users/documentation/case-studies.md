@@ -32,6 +32,31 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Upgrading to the new ODE interface
+
+<small> Cmdstan 2.24 introduces a new ODE interface intended to make it easier to
+specify the ODE system function. This document should serve as an overview of the
+interface changes as well as a tutorial for converting code written with the old
+ODE interface.</small>
+
+[View](case-studies/convert_odes.html) <span class="note">(HTML)</span>
+
+Authors
+: Ben Bales, Sebastian Weber
+
+Keywords
+: ordinary differential equations, cmdstanr, Stan programming
+
+Source Repository
+: [example-models/knitr/convert-odes](https://github.com/stan-dev/example-models/tree/master/knitr/convert-odes)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">CmdStanR</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## Bayesian Workflow for disease transmission modeling in Stan
 
 <small>
