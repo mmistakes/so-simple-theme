@@ -10,11 +10,11 @@ schema: AboutPage
 
 It's common to hear the term 'cg-look', and it is unfortunate considering the unlimited possibilities that computer graphics can offer. The more 3D software has matured, the more it has ingrained the photorealistic look into its core. We are here to change that.
 
-We are developing [MNPRX](/software/MNPRX/) and the evolution thereof, while integrating our technology into existing production pipelines and making it as flexible as possible. At the same time, we strongly advocate to real-time art-directed workflows to support and motivate the creative flow and exploration of artists.
+We are developing [MNPRX](/software/MNPRX/) and the [evolution thereof](/software/Flair/), while integrating our technology into existing production pipelines and making it as flexible as possible. At the same time, we strongly advocate to real-time art-directed workflows to support and motivate the creative flow and exploration of artists.
 
 Still here? Awesome! We craft our software in close collaboration with our community and clients like you, to make sure we make something production proven that everyone will love to use!
 
-Building upon years of research in the field, we are passionate and determined developers, researchers and artists from different corners of the world whose headquarters are currently in Tallinn, Estonia.
+Building upon years of research in the field, we are passionate and determined developers, researchers and artists from different corners of the world working remotely to bring different art-styles to a screen near you.
 
 <div class="aio-team">
   {%- for member in site.data.team -%}
