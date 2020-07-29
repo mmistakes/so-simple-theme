@@ -28,7 +28,7 @@ Unpack the distribution and consult the <a href="/docs/2_24/cmdstan-guide/cmdsta
 
 # Documentation
 
-CmdStan Interface User’s Guide
+CmdStan User’s Guide
 
 * [CmdStan User's Guide 2.24](/docs/2_24/cmdstan-guide/index.html)
   <span class="note">(html)</span>
