@@ -12,9 +12,9 @@ image:
 
 # StanCon 2020. A 24h Global Event.
 
-StanCon is on Thursday, 13 August 2020.
+StanCon Thursday, 13 August 2020.
 
-Please see https://stancon.mc-stan.org for details, including registration.
+Please see the [StanCon page](https://stancon.mc-stan.org) for details, including registration.
 
 ## Registration
 
@@ -29,7 +29,6 @@ Registration is $50. Scholarships are available for members of community needing
 
 <a href="https://www.jumpingrivers.com/"><img width="400" src="logos/JumpingRivers.png" /></a>
 <hr>
-
 
 We can’t do this without the support of generous sponsors that support our events! If you’re interested in sponsoring StanCon, please email <stancon@mc-stan.org>.
 
