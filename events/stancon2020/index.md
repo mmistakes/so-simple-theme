@@ -18,7 +18,7 @@ Please see the [StanCon page](https://stancon.mc-stan.org) for details, includin
 
 ## Registration
 
-Registration is $50. Scholarships are available for members of community needing financial support. For details on scholarship applications please visit the registration page.
+Registration is closed.
 
 
 ## Sponsors
@@ -26,11 +26,16 @@ Registration is $50. Scholarships are available for members of community needing
 <a href="https://www.metrumrg.com/"><img width="400" src="logos/MetrumResearchGroup.png" /></a>
 <hr>
 
-
 <a href="https://www.jumpingrivers.com/"><img width="400" src="logos/JumpingRivers.png" /></a>
 <hr>
 
-We can’t do this without the support of generous sponsors that support our events! If you’re interested in sponsoring StanCon, please email <stancon@mc-stan.org>.
+<a href="https://hoxo-m.com/"><img width="400" src="logos/hoxo-m_logo.png" /></a>
+<hr>
+
+<a href="https://generable.com/"><img width="400" src="logos/generable_word_logo.png" /></a>
+<hr>
+
+We can’t do this without the support of generous sponsors!
 
 
 **Organizers:**
