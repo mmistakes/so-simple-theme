@@ -21,7 +21,9 @@ google_fonts:
     weights: "700"
 google_tag_manager: GTM-N5D7T4C
 google_analytics_anon: UA-142029611-4
-google_analytics_anon_nc: UA-142029611-5
+google_analytics_flair_demo: UA-142029611-5
+google_analytics_flair_community: UA-142029611-2
+google_analytics_flair_indie_studio: UA-142029611-6
 disqus:
   shortname: artineering
 twitter:
@@ -94,6 +96,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  feeds:
+    output: true
+    permalink: /software/feeds/:title/
 
 
 # Front Matter Defaults

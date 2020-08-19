@@ -68,7 +68,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 // GDPR compliant google analytics
-ga('create', '{{ site.google_analytics_anon_nc }}', {
+ga('create', '{{ site.google_analytics_flair_demo }}', {
   'storage': 'none',
   'anonymizeIp': true,
   'storeGac': false
