@@ -1,7 +1,7 @@
 ---
 title: MNPRX Demo - End-User License Agreement
 layout: plain
-excerpt: "End-User License Agreement of MNPRX DEMO"
+excerpt: "End-User License Agreement of MNPRX Demo"
 schema:
 ---
 

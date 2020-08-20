@@ -1,7 +1,7 @@
 ---
 title: MNPRX Community - End-User License Agreement
 layout: plain
-excerpt: "End-User License Agreement of Non-Commercial MNPRX"
+excerpt: "End-User License Agreement of MNPRX Community"
 schema:
 ---
 
