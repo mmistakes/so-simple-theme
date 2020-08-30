@@ -17,8 +17,8 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "Champion Grip"
+description: "IChampion Grip Bowls Spray and Polish. Lawn bowling grip enhancer."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
@@ -34,7 +34,7 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: "UA-176828863-1"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
@@ -102,6 +102,12 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/championgrip
+    icon: fab fa-twitter-square
+  - title: Facebook
+    url: https://www.facebook.com/Champion-Grip-Bowls-Spray-Polish-280675745629906/
+    icon: fab fa-facebook
   - title: Feed
     url: atom.xml
-    icon: fas fa-rss-square
+    icon: fas fa-rss-square 
