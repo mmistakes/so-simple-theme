@@ -1063,6 +1063,16 @@ p .btn--aio {
     h2 {
       margin-top: 0;
     }
+    .community-center {
+      &:before {
+          content: "";
+          margin-left: -100%;
+      }
+      &:after {
+          content: "";
+          margin-right: -100%;
+      }
+    }
   }
 
   @media (min-width: 900px) {
@@ -1076,6 +1086,12 @@ p .btn--aio {
         li:first-child {
           padding-top: 28px;
           padding-bottom: 28px;
+        }
+      }
+      .space-out-2 {
+        li:first-child {
+          padding-top: 19px;
+          padding-bottom: 19px;
         }
       }
 
