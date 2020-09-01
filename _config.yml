@@ -139,24 +139,27 @@ twitter:
 
 # Footer Links
 footer_links:
-  - title: Twitter
+  - title: Artineering on Twitter
     url: https://twitter.com/artineering
     icon: fab fa-twitter-square
-  - title: Instagram
+  - title: Artineering on Instagram
     url: https://www.instagram.com/artineering.io/
     icon: fab fa-instagram
-  - title: Facebook
+  - title: Artineering on Facebook
     url: https://www.facebook.com/artineering/
     icon: fab fa-facebook-square
-  - title: LinkedIn
+  - title: Artineering on LinkedIn
     url: https://www.linkedin.com/company/artineering/
     icon: fab fa-linkedin
-  - title: Github
+  - title: Artineering on Github
     url: https://github.com/artineering-io/
     icon: fab fa-github-square
-  - title: Youtube
+  - title: Artineering on Youtube
     url: https://www.youtube.com/c/artineering
     icon: fab fa-youtube-square
+  - title: Artineering on Patreon
+    url: https://www.patreon.com/artineering
+    icon: fab fa-patreon
 #  - title: Feed
 #    url: atom.xml
 #    icon: fas fa-rss-square
