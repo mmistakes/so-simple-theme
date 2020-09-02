@@ -1,3 +1,4 @@
+
 // pricing togglers
 var filtMonthly = document.getElementById("filt-monthly"),
     filtQuarterly = document.getElementById("filt-quarterly"),

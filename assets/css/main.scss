@@ -1639,6 +1639,32 @@ p .btn--aio {
 
 
 /*
+   NEW update available - Bubble
+   ==========================================================================*/
+
+
+.speech-bubble-fade-in {
+  img {
+    position: fixed;
+    top: 3rem;
+    right: 6rem;
+    height: 9rem;
+    // z-index: 1;
+  }
+}
+
+//WORKING FADE IN WITH DELAY
+// #speech-bubble {
+//   animation: cssAnimation 0s 0.5s forwards;
+//   opacity: 0;
+// }
+//
+// @keyframes cssAnimation {
+//   to   { opacity: 1; }
+// }
+
+
+/*
    Stay up to date Button
    ==========================================================================*/
 
