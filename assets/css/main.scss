@@ -470,6 +470,28 @@ p .btn--aio {
   }
 }
 
+.btn--round {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2rem;
+  border: 2px solid #000;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.btn--round:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
 // footer
 .social-icons > a {
   color: #AAA;
@@ -1659,14 +1681,17 @@ p .btn--aio {
    ==========================================================================*/
 
 
-.speech-bubble-fade-in {
-  img {
+#speech-bubble {
     position: fixed;
     top: 3rem;
-    right: 6rem;
-    height: 9rem;
+    right: 0.1rem;
+    width: 7rem;
+    height: 7rem;
+    border: 0;
+    color: #FFF;
+    background-image: linear-gradient(#13547a 0%, #80d0c7 100%);
+    transition: background-image 0.2s ease-in-out;
     // z-index: 1;
-  }
 }
 
 //WORKING FADE IN WITH DELAY

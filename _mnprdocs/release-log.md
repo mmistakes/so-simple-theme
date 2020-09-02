@@ -21,6 +21,132 @@ redirect_from:
   <figcaption>As an MNPRX user, you will automatically get the latest version of MNPRX upon release!</figcaption>
 </figure>
 
+
+---
+
+## August 2020 UPDATE
+The August 2020 update brings some exciting new features and improvements to MNPRX. **With over 200 commits** (code changes) over the past 6 months, we have taken our time to also thoroughly test the plugin to ensure a great user experience. Please let us know if you encounter any issues so that we can fix them ASAP!
+
+**Upgrading notes**:  
+An update prompt will appear when you try opening scenes that were stylized with a previous version of MNPRX. You can automatically update your scene to the current version of MNPRX from this prompt.
+{: .notice--info}
+
+We tried our best to keep the stylization as close as possible to previous versions, but there were simply too many changes (please see below). Mainly the canvas roughness and scale will need to be tweaked to match the previous stylization.
+
+### MNPRX
+
+**Resolution independent styles**
+* _New_ - Watercolor, Cutout and Frayed edges now have resolution independent effects. This means that you can render at any resolution, and the effects will remain the same size relative to the subject.
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/Resolution-Independent-Effects.mp4" type="video/mp4">
+	</video>
+</figure>
+
+**_Substrate_ to _Canvas_**
+* _Improved_ - No more obscure words, "substrate" has been renamed to "canvas" throughout the plugin. Older presets that used _substrate_ names will continue to work.
+
+**Custom canvases**
+* _New_ - You can synthesize your own canvas texture from any heightmap. Just make sure to put the heightmap in the `textures` directory of MNPRX.
+
+**Infinite Canvas**
+* _New_ - We have implemented a new canvas synthesis algorithm that generates infinite and seamless canvases from any texture!
+<figure class="pull-center">
+	<video autoplay loop muted playsinline>
+	  <source src="/images/MNPRX/Infinite-Canvas.mp4" type="video/mp4">
+	</video>
+</figure>
+
+**Canvas tile blend**
+* _Improved_ - Canvas tile blend now has histogram preserving blending, keeping the contrast throughout the blended tiles.
+
+**Canvas control**
+* _New_ - You can also translate the canvas, in addition to scaling and rotating it
+* _Improved_ - Scaling now happens from the center of the viewport
+
+**Canvas advection**
+* _Improved_ - Canvas advection should work now no matter how complex the shape transform hierarchy is.
+* _New_ - A regeneration attribute (in seconds) has been added that will allow you to regenerate distorted canvas textures due to advection. This attribute can be animated depending on the action in the scene.
+
+**Floating viewport**
+- *New* - Floating viewport (float) icon will toggle a floating viewport.
+- *New* - Right-click on the floating viewport shelf button to open the floating viewport with different resolutions
+
+**Bulk attribute**
+- *New* - Bulkattr tool is available in all versions of MNPRX
+- *New* - Bulkattr tool (blk) now has its own tool on the shelf
+- *New* - There is a reload button right next to texture attributes that allows to easily reload textures
+- *Fixed* - Modifying settings with *Auto-refresh* unchecked will not clear the populated UI
+
+**HDR**
+- *Improved* - Materials now support HDR lighting
+
+**Bloom**
+- *New* - Add bloom to your scenes from the configuration node with control over its *intensity*, *size* and *blur*.
+
+**Highlight**
+- *Improved* - Control the highlight *diffusion*, in addition to *roll off* and *transparency*
+- *New* - Highlight is available in its own AOV (red channel of *pigmentCtrlTarget*)
+
+**Cutout**
+- *New* - Support for cutout masks in cutout materials.
+
+**References**
+* _Improved_ - The plugin will automatically save the stylization when references are in the scene (*.json* file with the same name in the directory where the open scene is located). The plugin will also automatically search for it and load the stylization of references when opening scenes.
+
+**This means that stylizing references is now fully supported in MNPRX.**  
+Changes to a referenced ShaderFX graph is still not supported by Maya though, so make sure to modify the ShaderFX graph only of non-referenced materials.
+{: .notice--info}
+
+**Sequence Renderer**
+- *Improved* - Cameras auto-populate whenever you create/delete a camera in the scene and whenever a scene is opened.
+- *Improved* - resolution and renderable cameras in the tool now modify the scene settings.
+- *Fixed* - Progress bar not working with bigger ranges
+
+**Style presets**
+- *Fixed* - Changing between styles sometimes didn't work correctly (deleted the configuration node or showed different canvas sizes)
+- *New* - *InViewMessages* for versions of Maya that support it (2019+)
+- *New* - Added presets for watercolor, frayed edges and cutout
+
+**Material presets**
+- *New* - Inherit material preset will inherit attributes/textures from Maya materials and create an *mnprx_uber* material with these attributes/textures.
+- *New* - Streamlined material preset icons
+
+**MNPRX Toolbox**
+- *New* - Auto-convert Maya materials will automatically convert all Maya materials in the scene to *mnprx_uber* materials, inheriting attributes and textures.
+
+**Installation**
+- *Fixed* - Users not being able to install MNPRX from directories that contained non-ascii characters
+- *Fixed* - Problems installing MNPRX when Redshift was installed
+- *Fixed* - Opening a scene without activating MNPRX went straight to Non-Commercial version
+
+**Miscellaneous**
+- *New* - Adding cast-shadows setting in material
+- *Fixed* - Texture resolution (canvas) being clamped to 2048 in Maya 2018
+- *Fixed* - The world scale will be automatically inferred upon creation of the configuration node
+- *Fixed* - NoiseFX of edge darkening being stretched
+- *Fixed* - *Flip-Back-Faces* not updating when importing the stylization
+- *Fixed* - Keying of PaintFX not working when no effects were previously painted on objects
+- *Fixed* - Roughness not working on alternate canvas
+- *Fixed* - Disabled MSAA, as everyone can use TAA now and it was only creating artifacts
+- *Fixed* - Disabled scroll on NoiseFX sliders
+- *Improved* - Default maxLights of mnprx_uber was raised to 10
+- *Improved* - Robustness of material selection (now also supports from selected components)
+- *Improved* - Robustness of paintFX with components and multiple materials
+- *Improved* - Pass inspector not showing current target
+- *Improved* - Only one prompt when loading the plugin for all versions
+
+### New licensing options
+**Community license**
+- *New* - we have launched a new **_Community_ license on [Patreon](https://www.patreon.com/artineering)** that goes as low as 5€ a month, **including with all features**. This will hopefully ease the entry point for students and artists on a budget that use MNPRX non-commercially (or commercially for higher tiers).
+
+**Demo license**
+- *New* - the old non-commercial free version is replaced by the _Demo_ version. This version provides the entire feature set for testing purposes, but is limited to 720p in resolution.
+
+### Stylizations in Nuke
+{: .top2}
+* _New_ - Watercolor stylization supporting August 2020 release (except for bloom)
+
 ---
 
 ## February 2020 UPDATE
@@ -33,7 +159,7 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 ### MNPRX
 
 **Demo Scenes**
-* _New_ - We are releasing the first set of demo scenes in different styles for you all to experiment with [[download](/software/MNPRX/demo-scenes)]. 
+* _New_ - We are releasing the first set of demo scenes in different styles for you all to experiment with [[download](/software/MNPRX/demo-scenes)].
 <figure class="pull-center third">
 	<img src="/images/MNPRX/demo-scenes/Spherebot.gif" alt="spherebot-watercolor">
 	<img src="/images/MNPRX/demo-scenes/mech-drone.gif" alt="mech-drone-frayed">
@@ -58,7 +184,7 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 **PaintFX** - [[Docs](/software/MNPRX/docs/paintfx/)]
 * _New_ - Visualize the PaintFX parameters that are painted onto different objects.
 * _New_ - Show vertices where PaintFX are being applied to within the brush.
-* _New_ - Choose between different brush stamps to apply PaintFX onto objects. 
+* _New_ - Choose between different brush stamps to apply PaintFX onto objects.
 
 **NoiseFX** - [[Docs](/software/MNPRX/docs/noisefx/)]
 * _New_ - Visualize the NoiseFX parameters that are assigned to different materials.
@@ -84,18 +210,18 @@ We still recommend exporting/importing the stylization to guarantee the art-dire
 
 ### Stylizations in Nuke
 {: .top2}
-* _Fixed_ - Pigment application not working correctly with bleeding 
+* _Fixed_ - Pigment application not working correctly with bleeding
 
 ---
 
 ## December 2019 UPDATE
-The December 2019 update has taken a long time to come out, but we hope to make the wait worth it! 
+The December 2019 update has taken a long time to come out, but we hope to make the wait worth it!
 
 We have worked hard with one of our clients to develop a [_Frayed_](/styles/frayed/) style, which is inspired by the look of short films like _Feast_ and _Age of Sail_. We are including the style with this release, pushing MNPRX further than ever before!
 
 While doing so, we revamped the way [_PaintFX_](/software/MNPRX/docs/paintfx/) are handled to make scenes lighter, developed a way to bake NoiseFX onto animated objects and made [_NoiseFX_](/software/MNPRX/docs/noisefx/) more intuitive to use at different scene world scales.
 
-On our existing styles, we've made improvements to the dry-brush effect in the watercolor stylization and on stabilizing the line/point patterns in the hatching stylization under animation. 
+On our existing styles, we've made improvements to the dry-brush effect in the watercolor stylization and on stabilizing the line/point patterns in the hatching stylization under animation.
 
 We've also tried to address most issues that some of you have been having, so thank you for sharing your valuable feedback with us! We will focus on creating tutorials on all these new features in the coming weeks.
 
@@ -153,7 +279,7 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 
 ### Stylizations in Nuke
 {: .top2}
-* _New_ - The frayed stylization in Nuke 
+* _New_ - The frayed stylization in Nuke
 * _Updated_ - The watercolor stylization in Nuke has been updated to support the December 2019 release of MNPRX.
 * _New_ - Refer to the art-direction control [documentation](/software/MNPRX/docs/controls/) to create your own control textures within Nuke.
 
