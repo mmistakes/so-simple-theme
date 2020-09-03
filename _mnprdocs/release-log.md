@@ -46,9 +46,6 @@ We tried our best to keep the stylization as close as possible to previous versi
 **_Substrate_ to _Canvas_**
 * _Improved_ - No more obscure words, "substrate" has been renamed to "canvas" throughout the plugin. Older presets that used _substrate_ names will continue to work.
 
-**Custom canvases**
-* _New_ - You can synthesize your own canvas texture from any heightmap. Just make sure to put the heightmap in the `textures` directory of MNPRX.
-
 **Infinite Canvas**
 * _New_ - We have implemented a new canvas synthesis algorithm that generates infinite and seamless canvases from any texture!
 <figure class="pull-center">
@@ -57,6 +54,13 @@ We tried our best to keep the stylization as close as possible to previous versi
 	</video>
 </figure>
 
+**Canvas advection**
+* _Improved_ - Canvas advection should work now no matter how complex the shape transform hierarchy is.
+* _New_ - A regeneration attribute (in seconds) has been added that will allow you to regenerate distorted canvas textures due to advection. This attribute can be animated depending on the action in the scene.
+
+**Custom canvases**
+* _New_ - You can synthesize your own canvas texture from any heightmap. Just make sure to put the heightmap in the `textures` directory of MNPRX.
+
 **Canvas tile blend**
 * _Improved_ - Canvas tile blend now has histogram preserving blending, keeping the contrast throughout the blended tiles.
 
@@ -64,25 +68,24 @@ We tried our best to keep the stylization as close as possible to previous versi
 * _New_ - You can also translate the canvas, in addition to scaling and rotating it
 * _Improved_ - Scaling now happens from the center of the viewport
 
-**Canvas advection**
-* _Improved_ - Canvas advection should work now no matter how complex the shape transform hierarchy is.
-* _New_ - A regeneration attribute (in seconds) has been added that will allow you to regenerate distorted canvas textures due to advection. This attribute can be animated depending on the action in the scene.
+**Temporal Anti-Aliasing**
+* _New_ - TAA is now available in all versions of MNPRX
+
+**Bulk attribute**
+- *New* - Bulkattr tool is now available in all versions of MNPRX
+- *New* - Bulkattr tool (blk) now has its own tool on the shelf
+- *New* - There is a reload button right next to texture attributes that allows to easily reload textures
+- *Fixed* - Modifying settings with *Auto-refresh* unchecked will not clear the populated UI
 
 **Floating viewport**
 - *New* - Floating viewport (float) icon will toggle a floating viewport.
 - *New* - Right-click on the floating viewport shelf button to open the floating viewport with different resolutions
 
-**Bulk attribute**
-- *New* - Bulkattr tool is available in all versions of MNPRX
-- *New* - Bulkattr tool (blk) now has its own tool on the shelf
-- *New* - There is a reload button right next to texture attributes that allows to easily reload textures
-- *Fixed* - Modifying settings with *Auto-refresh* unchecked will not clear the populated UI
+**Bloom**
+- *New* - Add bloom to your scenes from the configuration node with control over its *intensity*, *size* and *blur*.
 
 **HDR**
 - *Improved* - Materials now support HDR lighting
-
-**Bloom**
-- *New* - Add bloom to your scenes from the configuration node with control over its *intensity*, *size* and *blur*.
 
 **Highlight**
 - *Improved* - Control the highlight *diffusion*, in addition to *roll off* and *transparency*

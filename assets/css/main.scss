@@ -454,9 +454,9 @@ p .btn--aio {
   color: #000;
 }
 
-.main-content .social-icons > a {
+.social-icons > a {
   border-bottom: none;
-  color: #000;
+  color: #AAA;
   margin-right: 1em;
 }
 
@@ -495,6 +495,9 @@ p .btn--aio {
 // footer
 .social-icons > a {
   color: #AAA;
+  &:hover {
+    color: #000;
+  }
 }
 
 .schematic{
@@ -1504,6 +1507,49 @@ p .btn--aio {
 
 
 /*
+   Simple feed used in splash windows
+   ========================================================================== */
+.simple-feed {
+  text-align: center;
+  h1 {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  margin-left: -1rem;
+  margin-right:-1rem;
+  .feed-btns{
+    margin-top: 1rem;
+    a {
+      opacity: 0.5;
+      border: 0px;
+      color: #000;
+      background-color: #FFF;
+      &.patreon-color{
+        color: #fff;
+        background-color: #FF424D;
+      }
+      &:hover {
+        opacity: 1.0;
+      }
+    }
+  }
+
+  .social-icons > a {
+    border-bottom: none;
+    color: #AAA;
+    margin-right: 1em;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+
+/*
    Osano cookie consent
   ========================================================================== */
 // don't show popup on mobile after accepted or revoked
@@ -1635,7 +1681,7 @@ p .btn--aio {
   }
 
 /*
-   Upgrade-Simple
+   Upgrade-Simple (deprecated since August 2020 version)
    ==========================================================================*/
 .maya-gray {
   color: #bdbdbd;
@@ -1732,102 +1778,6 @@ p .btn--aio {
   }
 }
 
-
-/*
-   Old Comparison Slider
-   ==========================================================================
-
-.aio-compare-splitview {
-  position: relative;
-  width: 100%;
-  min-height: 50vw;
-  //  overflow: hidden;
-  @media (min-width: 900px) {
-    min-height: 35vw;
-  }
-
-  .aio-compare-panel {
-    position: absolute;
-    width: 100%;
-    min-height: 50vw;
-    overflow: hidden;
-    @media (min-width: 900px) {
-      min-height: 35vw;
-    }
-    .aio-compare-content {
-      position: absolute;
-      width: 100%;
-      min-height: 50vw;
-      color: black;
-      @media (min-width: 900px) {
-        min-height: 35vw;
-      }
-      .aio-compare-description-r {
-        width: 100%;
-        position: absolute;
-        top: 92%;
-        right: 3%;
-        transform: translateY(-50%);
-        text-align: right;
-      }
-      .aio-compare-description-l {
-        width: 100%;
-        position: absolute;
-        top: 13%;
-        left: 3%;
-        transform: translateY(-50%);
-        text-align: left;
-      }
-      img {
-        width: 32%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        @media (min-width: 900px) {
-          width: 50%;
-        }
-      }
-    }
-  }
-
-  .aio-compare-bottom {
-    background-color: #dbdbdb;
-    z-index: 1;
-    .aio-compare-description {
-      right: 5%;
-    }
-  }
-
-  .aio-compare-top {
-    background-color: #ebebeb;
-    z-index: 2;
-    width: 50%;
-    .aio-compare-description {
-      left: 5%;
-    }
-    .aio-compare-content {
-      width: 200%;
-    }
-  }
-}
-
-.aio-compare-handle {
-  height: 100%;
-  position: absolute;
-  display: block;
-  background-color: white;
-  width: 2px;
-  top: 0;
-  left: 50%;
-  z-index: 3;
-  transform: translateX(-1px);
-}
-*/
-
-
-
-
 // QUICK READS //
 
 .quick-reads-subtitle {
@@ -1870,4 +1820,11 @@ p .btn--aio {
       width: 100%;
     }
   }
+}
+
+
+// PATREON
+.patreon-color {
+  color: #fff;
+  background-color: #FF424D;
 }

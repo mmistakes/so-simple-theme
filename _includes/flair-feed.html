@@ -1,11 +1,22 @@
-coming soon...
+<a class="twitter-timeline" href="https://twitter.com/artineering/timelines/1301426808936693762?ref_src=twsrc%5Etfw" data-theme="dark" data-link-color="#fff" data-chrome="nofooter transparent noheader noborders"></a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<!-- jquery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<footer id="footer" class="site-footer">
+
+  <h3 class="top-05"> Stay in touch! </h3>
+  {%- if site.footer_links -%}
+    <div class="social-icons">
+      {%- for footer_link in site.footer_links -%}
+        {%- if footer_link.url contains "://" -%}
+          {%- assign url = footer_link.url -%}
+        {%- else -%}
+          {%- assign url = footer_link.url | relative_url -%}
+        {%- endif -%}
+        <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</footer>
 
 <!-- Font Awesome -->
 <script src="https://pro.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-I3Hhe9TkmlsxzooTtbRzdeLbmkFQE9DVzX/19uTZfHk1zn/uWUyk+a+GyrHyseSq" crossorigin="anonymous"></script>
-
-<!--
-<script src='https://redditjs.com/subreddit.js' data-subreddit='artineers' data-height='500' data-width='500' data-sort='new' data-theme='dark' data-subreddit-mode='large'></script>
--->

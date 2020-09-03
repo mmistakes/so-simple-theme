@@ -5,14 +5,19 @@ excerpt: "Advantages of MNPRX Indie/Studio"
 search: false
 sitemap: false
 ---
-<div class="upgrade-text" markdown="1">
-Upgrade to render at any resolution!
-  <div class="upgrade-img">
+<div class="simple-feed">
+  <h1> MNPRX Demo </h1>
+  <h3>Upgrade to render at any resolution</h3>
+  <div class="upgrade-img" style="width:80%; margin:0 auto">
     <img src="/images/MNPRX/comparison/resolutions.svg"/>
   </div>
+  <p class="feed-btns">
+    <a class="btn btn--aio patreon-color" href="https://artineering.io/software/MNPRX/#getit">Absolutely!</a>
+  </p>
+  <hr>
+  <h2> What's new? </h2>
+  {% include flair-feed.html %}
 </div>
-
-{% include flair-feed.html %}
 
 <!-- Google Analytics -->
 <script>

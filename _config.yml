@@ -157,6 +157,9 @@ footer_links:
   - title: Artineering on Youtube
     url: https://www.youtube.com/c/artineering
     icon: fab fa-youtube-square
+  - title: Artineering on reddit
+    url: https://www.reddit.com/r/artineers/
+    icon: fab fa-reddit-square
   - title: Artineering on Patreon
     url: https://www.patreon.com/artineering
     icon: fab fa-patreon

@@ -5,11 +5,10 @@ excerpt: "MNPRX community news feed"
 search: false
 sitemap: false
 ---
-<div class="upgrade-text" markdown="1">
-Community News
+<div class="simple-feed">
+  <h1> We <i class="fas fa-heart fa-xs"></i> Community </h1>
+  {% include flair-feed.html %}
 </div>
-
-{% include flair-feed.html %}
 
 <!-- Google Analytics -->
 <script>
