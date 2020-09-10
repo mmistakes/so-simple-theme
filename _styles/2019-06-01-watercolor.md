@@ -65,8 +65,8 @@ The style can be **[art-directed](/software/MNPRX/docs/art-direction/)** at each
 </figure>
 
 <figure>
-{% include responsive-embed url="https://www.youtube-nocookie.com/embed/mZQoIKaKuLA?rel=0" ratio="16:9" %}
- <figcaption>Student work by Ray Sober</figcaption>
+{% include responsive-embed url="https://www.youtube.com/embed/videoseries?list=PLI1XjFOSo4gNvqJxIJewcQYmSOKE-MimD" ratio="16:9" %}
+ <figcaption>Biology of SARS-CoV-2 - Mini-series by AXS Studio</figcaption>
 </figure>
 
 <figure>
