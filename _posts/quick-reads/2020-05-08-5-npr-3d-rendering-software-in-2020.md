@@ -16,6 +16,13 @@ read_time: true
 ---
 {%- assign imgPath = "/images/blog/quick-reads/5-non-photorealistic-3d-rendering-software-in-2020" -%}
 
+<!-- Article Banner -->
+<figure class="align-center">
+	<img src="{{imgPath}}/image.jpg" alt="image">
+<figcaption markdown="1">
+Image by [Alice Dietrich from Unsplash](https://unsplash.com/photos/FwF_fKj5tBo)
+</figcaption>
+</figure>
 
 3D rendering is fundamental in many industries including animation, visual effects, computer games, and industrial visualization. Therefore, it comes as no surprise that there is a large number of different 3D rendering applications available today.
 
