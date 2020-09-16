@@ -100,8 +100,7 @@ community. If you would like to contribute one for your field please reach
 out on the Stan forums.
 
 * <p>
-  <a href="https://education-stan.github.io">Education
-    research using Stan</a>
+  <a href="https://education-stan.github.io">Stan for Education Research </a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
 
@@ -114,6 +113,11 @@ out on the Stan forums.
   <a href="https://epidemiology-stan.github.io/">Stan for Epidemiology</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
+  
+* <p>
+  <a href="https://cognitive-science-stan.github.io/">Stan for Cognitive Science</a>
+  &nbsp; <span class="note">(GitHub)</span>
+  </p>  
 
 # The Stan Forums
 
