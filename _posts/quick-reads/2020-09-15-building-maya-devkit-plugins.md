@@ -110,7 +110,7 @@ That's it, start Maya again and you should be able to automatically see the plug
 
 ### Closing remarks
 
-The build files will reside in the build folder at the `%DEVKITBASE%`, but you can still find the created _Visual Studio Solution_ its plugin folder `%DEVKITBASE%\devkit\plug-ins\YOURPLUGIN\build\Project.sln`. There are plenty of other ways to build Maya devkit plugins, however, this is enough for my testing needs.
+The build files will reside in the build folder at the `%DEVKITBASE%`, but you can still find the created _Visual Studio Solution_ in its plugin folder `%DEVKITBASE%\devkit\plug-ins\YOURPLUGIN\build\Project.sln`. There are plenty of other ways to build Maya devkit plugins, however, this is enough for my testing needs.
 
 I hope this small article makes someone's life a bit easier when building Maya devkit plugins in the future.
 If you found this article helpful, let me know in the comments below. I might then do future articles on writing plugins or dev in general.
