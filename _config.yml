@@ -48,7 +48,7 @@ search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/blog/"
-tag_archive_path: "/tags/#"
+tag_archive_path: "/tags#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
