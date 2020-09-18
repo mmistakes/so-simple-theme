@@ -8,6 +8,16 @@ sitemap: false
 <!-- TwentyTwenty CSS -->
 <link rel="stylesheet" href="/assets/css/plugins/twentytwenty.css" type="text/css" media="screen" />
 
+<div class="simple-feed">
+<h1> New August 2020 release! </h1>
+<h3> Update and start using the latest tools </h3>
+<h4> Support us on Patreon to render at ANY resolution!</h4>
+<div class="upgrade-img" style="width:80%; margin:0 auto 2rem">
+  <img src="/images/patreon/Artineering-Patreon.png"/>
+</div>
+<hr style="height:3px; border: none; background-color:#444; color:#444">
+</div>
+
 <div class="upgrade-text" markdown="1">
 Thank you for using the **non-commercial** version of MNPRX.  
 Support us by purchasing an **Indie/Studio** version and unlock more features!
