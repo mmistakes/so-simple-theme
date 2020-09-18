@@ -1822,6 +1822,25 @@ p .btn--aio {
   }
 }
 
+// Flair Feed
+.flair-feed-section {
+  h2 {
+    text-align: left;
+    padding-left: 4rem;
+  }
+  p {
+    font-size: 1.3rem;
+    text-align: left;
+    padding: 0 6rem;
+    margin-bottom: 0.5rem;
+  }
+  img {
+    max-width: 60%;
+  }
+  hr {
+
+  }
+}
 
 // PATREON
 .patreon-color {
