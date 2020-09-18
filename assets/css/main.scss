@@ -1831,21 +1831,47 @@ p .btn--aio {
 
 // Flair Feed
 .flair-feed-section {
-  h2 {
-    text-align: left;
-    padding-left: 4rem;
-  }
-  p {
-    font-size: 1.3rem;
-    text-align: left;
-    padding: 0 6rem;
-    margin-bottom: 0.5rem;
-  }
-  img {
-    max-width: 60%;
+  a {
+    div {
+      position: relative;
+      color: #bdbdbd;
+      padding: 2.5rem 2rem 2rem;
+      &:hover {
+        background-color: #444;
+      }
+      transition: $global-transition;
+      time {
+        position: absolute;
+        font-size: 0.9rem;
+        color: #777;
+        top: 0.5rem;
+        right: 0.5rem;
+      }
+      h3 {
+        margin-top: 0;
+        text-align: left;
+      }
+      p {
+        font-size: 1.1rem;
+        text-align: left;
+        margin-bottom: 0.5rem;
+      }
+      figure {
+        margin: 0 auto;
+        max-width: 80%;
+      }
+    }
   }
   hr {
-
+    height:3px;
+    border: none;
+    background-color:#444;
+    color:#444;
+    margin: 0;
+  }
+  & + .site-footer{
+    border-top: none;
+    padding-top: 0;
   }
 }
 

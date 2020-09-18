@@ -1,17 +1,25 @@
 <section class="flair-feed-section">
-  <h2>Cutout masks</h2>
-  <p>Learn how to use the new cutout masks and stylize an animated model with the 3D Cutout style of #MNPRX from scratch.</p>
-  <img src="/images/feed/2020-09-11.jpg" alt="How to stylize an animation with 3D cutout">
+  {%- for entry in site.data.flair-feed -%}
+  {%- assign date = entry[0] -%}
+  {%- assign data = entry[1] -%}
+  <a href = "{{ data.link }}">
+    <div>
+      <time>{{date}}</time>
+      <h3>{{ data.title }}</h3>
+      <p>{{ data.text }}</p>
+      <figure>
+        {%- if data.img -%}
+          <img src="/images/{{ data.img }}">
+        {%- endif -%}
+      </figure>
+    </div>
+  </a>
   <hr>
+  {%- endfor -%}
 </section>
 
-
-
-<a class="twitter-timeline" href="https://twitter.com/artineering/timelines/1301426808936693762?ref_src=twsrc%5Etfw" data-theme="dark" data-link-color="#fff" data-chrome="nofooter transparent noheader noborders"></a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <footer id="footer" class="site-footer">
-
+  <p> And more... </p>
   <h3 class="top-05"> Stay in touch! </h3>
   {%- if site.footer_links -%}
     <div class="social-icons">

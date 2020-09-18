@@ -1,6 +1,23 @@
-entries:
-  date: 11/9/2020
-  title: Cutout masks
-  text: Learn how to use the new cutout masks and stylize an animated model with the 3D Cutout style of "#MNPRX" from scratch.
-  link: youtu.be/zrbPOeOeOdF0E
-  img: 2020-09-11.jpg
+11/09/2020:
+  title: "Tutorial: Cutout 102 - Stylize an animation"
+  text: Learn how to use the new cutout masks and stylize an animated model with the 3D Cutout style of MNPRX from scratch.
+  link: https://www.youtube.com/watch?v=zrbPOeOdF0E&list=PLqQsRmdLB8t8jP8Rmp-BnwOxKbQyenm3h&index=2
+  img: feed/2020-09-11.jpg
+
+13/08/2020:
+  title: Resolution independent effects
+  text: We have revised each 3D style to have resolution independent effects, so your renders will look almost the same, no matter what resolution you render at.
+  link: https://twitter.com/artineering/status/1293927352377004032
+  img: feed/2020-08-13.gif
+
+30/07/2020:
+  title: Infinite canvas
+  text: The new Infinite Canvas replaces the previous Substrate and provides a seamless surface with control over its translation, rotation and scale. You can also generate an infinite canvas based on any height map!
+  link: https://twitter.com/artineering/status/1288836995029049345?s=20
+  img: feed/2020-07-30.gif
+
+22/05/2020:
+  title: Call for alpha testers!
+  text: Flair, our newest software is ready for an adventure! <br><b>Click to find out more!</b>
+  link: /software/Flair/
+  img: cards/flair.jpg
