@@ -7,14 +7,13 @@ sitemap: false
 ---
 <div class="simple-feed">
   <h1> MNPRX Demo </h1>
-  <h3>Upgrade to render at any resolution</h3>
-  <div class="upgrade-img" style="width:80%; margin:0 auto">
-    <img src="/images/MNPRX/comparison/resolutions.svg"/>
+  <h3 class="top-05"> Enjoying MNPRX? </h3>
+  <h4><a href="https://artineering.io/software/MNPRX/#getit">Get a commercial Indie/Studio license</a> or <br>
+  <a href="https://www.patreon.com/artineering">support us on Patreon</a> to render at ANY resolution!</h4>
+  <div class="upgrade-img" style="width:80%; margin:0 auto 2rem">
+    <img src="/images/MNPRX/demo-resolution.png"/>
   </div>
-  <p class="feed-btns">
-    <a class="btn btn--aio patreon-color" href="https://artineering.io/software/MNPRX/#getit">Absolutely!</a>
-  </p>
-  <hr>
+  <hr style="height:3px; border: none; background-color:#444; color:#444">
   <h2> What's new? </h2>
   {% include flair-feed.html %}
 </div>
