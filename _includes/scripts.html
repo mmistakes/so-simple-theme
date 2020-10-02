@@ -12,7 +12,21 @@
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 {%- endif -%}
-
+<script type="text/javascript">
+  for(let svg of document.getElementsByClassName('load-remote-svg')) {
+    fetch(svg.getAttribute('data-src'))
+    .then(response => response.text())
+    .then(xmlString => $.parseXML(xmlString))
+    .then(data => function() {
+      data.documentElement.style = svg.getAttribute('data-style');
+      if(svg.getAttribute('data-class'))
+        data.documentElement.setAttribute('class', svg.getAttribute('data-class'));
+      for(let title of data.getElementsByTagName('title'))
+        title.textContent = title.textContent.replace(" icon","");
+      svg.replaceWith(data.documentElement);
+    }());
+  }
+</script>
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
   <script>
   if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -52,21 +66,6 @@ MathJax = {
     }
   }
 }
-</script>
-<script type="text/javascript">
-  for(let svg of document.getElementsByClassName('load-remote-svg')) {
-    fetch(svg.getAttribute('data-src'))
-    .then(response => response.text())
-    .then(xmlString => $.parseXML(xmlString))
-    .then(data => function() {
-      data.documentElement.style = svg.getAttribute('data-style');
-      if(svg.getAttribute('data-class'))
-        data.documentElement.setAttribute('class', svg.getAttribute('data-class'));
-      for(let title of data.getElementsByTagName('title'))
-        title.textContent = title.textContent.replace(" icon","");
-      svg.replaceWith(data.documentElement);
-    }());
-  }
 </script>
 <script type="text/javascript" id="MathJax-script" async src="{{ mathjaxjs }}"></script>
 {% endif %}
