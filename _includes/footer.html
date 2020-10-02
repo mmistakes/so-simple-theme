@@ -11,7 +11,7 @@
         {%- endif -%}
         <a class="social-icon" href="{{ url }}">
         {%- if footer_link.icon contains "://" and footer_link.icon contains ".svg" -%}
-          {%- assign style = "height: .875em;border-radius: 0.15em;padding: 0.1em;vertical-align: -0.07em;" -%}
+          {%- assign style = "height: .875em;border-radius: 0.15em;padding: 0.065em;vertical-align: -0.07em;" -%}
           {%- if footer_link.color -%}
             {% capture style %}{{ style }}fill: white;background-color: {{ footer_link.color | color_to_rgb }};{% endcapture %}
           {%- endif -%}
