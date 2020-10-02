@@ -112,7 +112,8 @@ author:
   links:
     - title: Twitter
       url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
+      icon: https://simpleicons.org/icons/twitter.svg
+      color: "#1DA1F2"
     - title: Instagram
       url: https://instagram.com/mmistakes
       icon: fab fa-instagram
@@ -124,7 +125,8 @@ author:
 footer_links:
   - title: Twitter
     url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
+    icon: https://simpleicons.org/icons/twitter.svg
+    color: "#1DA1F2"
   - title: Instagram
     url: https://instagram.com/mmistakes
     icon: fab fa-instagram

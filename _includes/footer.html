@@ -11,7 +11,11 @@
         {%- endif -%}
         <a class="social-icon" href="{{ url }}">
         {%- if footer_link.icon contains "://" and footer_link.icon contains ".svg" -%}
-          <img style="display: inline-block;font-size: 2em;height: 1em;overflow: visible" class="svg-inline--fa fa-w-16 fa-2x" src="{{ footer_link.icon }}" type="image/svg+xml"></img>
+          {%- assign style = "height: .875em;border-radius: 0.15em;padding: 0.1em;vertical-align: -0.07em;" -%}
+          {%- if footer_link.color -%}
+            {% capture style %}{{ style }}fill: white;background-color: {{ footer_link.color | color_to_rgb }};{% endcapture %}
+          {%- endif -%}
+          <i class="load-remote-svg" data-class="svg-inline--fa fa-w-14 fa-2x" data-style="{{ style }}" data-src="{{ footer_link.icon }}"></i>
         {%- else -%}
           <i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i>
         {%- endif -%}</a>

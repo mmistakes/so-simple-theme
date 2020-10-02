@@ -28,7 +28,11 @@
           <li class="author-link">
             <a class="u-url" rel="me" href="{{ url }}">
             {%- if link.icon contains "://" and link.icon contains ".svg" -%}
-              <img style="display: inline-block;font-size: 1.33em;height: 1em;overflow: visible" class="svg-inline--fa fa-w-16 fa-lg" src="{{ link.icon }}" type="image/svg+xml"></img>
+              {%- assign style = "height: .875em;border-radius: 0.15em;padding: 0.1em;vertical-align: -0.17em;" -%}
+              {%- if link.color -%}
+                {% capture style %}{{ style }}fill: white;background-color: {{ link.color | color_to_rgb }};{% endcapture %}
+              {%- endif -%}
+              <i class="load-remote-svg" data-class="svg-inline--fa fa-w-14 fa-lg" data-style="{{ style }}" data-src="{{ link.icon }}"></i>
             {%- else -%}
               <i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i>
             {%- endif -%}
