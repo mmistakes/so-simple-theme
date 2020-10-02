@@ -26,7 +26,13 @@
             {%- assign url = link.url | relative_url -%}
           {%- endif -%}
           <li class="author-link">
-            <a class="u-url" rel="me" href="{{ url }}"><i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i></a>
+            <a class="u-url" rel="me" href="{{ url }}">
+            {%- if link.icon contains "://" and link.icon contains ".svg" -%}
+              <img style="display: inline-block;font-size: 1.33em;height: 1em;overflow: visible" class="svg-inline--fa fa-w-16 fa-lg" src="{{ link.icon }}" type="image/svg+xml"></img>
+            {%- else -%}
+              <i class="{{ link.icon | default : 'fas fa-link' }} fa-lg" title="{{ link.title }}"></i>
+            {%- endif -%}
+            </a>
           </li>
         {%- endfor -%}
       </ul>
