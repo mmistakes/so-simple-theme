@@ -51,7 +51,7 @@ please email <board@mc-stan.org>.
 
 The current SGB members are:
 
-* Imad Ali <span class="note">(Playstation)</span>
+* Imad Ali <span class="note">(PlayStation)</span>
 * Leah Comment <span class="note">(Foundation Medicine Inc.)</span>
 * Jonah Gabry <span class="note">(Columbia University)</span>
 * Bill Gillespie <span class="note">(Metrum LLC)</span>
