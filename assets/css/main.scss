@@ -1509,10 +1509,15 @@ p .btn--aio {
 /*
    Simple feed used in splash windows
    ========================================================================== */
+.maya-gray {
+  color: #bdbdbd;
+  background-color: #2f2f2f;
+  margin-top: 0;
+}
 .simple-feed {
   text-align: center;
+  margin-top: 4vh;
   h1 {
-    margin-top: 2vh;
     font-size: 5vw;
   }
   h3 {
@@ -1553,6 +1558,7 @@ p .btn--aio {
     border-bottom: none;
     color: #AAA;
     margin-right: 1em;
+    font-size: 2vw;
     &:hover {
       color: #fff;
     }
@@ -1564,7 +1570,7 @@ p .btn--aio {
       div {
         position: relative;
         color: #bdbdbd;
-        padding: 2.5rem 2rem 2rem;
+        padding: 5vw 3vw 5vw;
         &:hover {
           background-color: #444;
         }
@@ -1743,11 +1749,6 @@ p .btn--aio {
 /*
    Upgrade-Simple (deprecated since August 2020 version)
    ==========================================================================*/
-.maya-gray {
-  color: #bdbdbd;
-  background-color: #2f2f2f;
-  margin-top: 0;
-}
 .upgrade-text-nc {
   font-weight: 400;
   font-size: 3vw;
