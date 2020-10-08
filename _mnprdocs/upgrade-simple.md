@@ -11,16 +11,15 @@ sitemap: false
 <div class="simple-feed">
 <h1> New August 2020 release! </h1>
 <h3> Update and start using the latest tools </h3>
-<h4> Support us on Patreon to render at ANY resolution!</h4>
+<h4> Purchase an Indie/Studio commercial license or support us on Patreon to use all tools and render at ANY resolution!</h4>
 <div class="upgrade-img" style="width:80%; margin:0 auto 2rem">
   <img src="/images/patreon/Artineering-Patreon.png"/>
 </div>
 <hr style="height:3px; border: none; background-color:#444; color:#444">
 </div>
 
-<div class="upgrade-text" markdown="1">
-Thank you for using the **non-commercial** version of MNPRX.  
-Support us by purchasing an **Indie/Studio** version and unlock more features!
+<div class="upgrade-text-nc" markdown="1">  
+Features you are missing out!
 
 <div class="upgrade-background" markdown="1">
 Anti-aliasing - improved quality
@@ -53,6 +52,24 @@ Bulk attribute - change multiple attributes simultaneously
 </div>
 
 </div>
+
+<footer id="footer" class="site-footer">
+  <p> And more... </p>
+  <h3 class="top-05"> Stay in touch! </h3>
+  {%- if site.footer_links -%}
+    <div class="social-icons">
+      {%- for footer_link in site.footer_links -%}
+        {%- if footer_link.url contains "://" -%}
+          {%- assign url = footer_link.url -%}
+        {%- else -%}
+          {%- assign url = footer_link.url | relative_url -%}
+        {%- endif -%}
+        <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</footer>
+
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

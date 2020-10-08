@@ -1512,22 +1512,26 @@ p .btn--aio {
 .simple-feed {
   text-align: center;
   h1 {
-    margin-top: 3rem;
-    font-size: 2.5rem;
+    margin-top: 2vh;
+    font-size: 5vw;
   }
-  h2 {
-    margin-top: 3rem;
-    font-size: 2rem;
+  h3 {
+    font-size: 4vw;
   }
-  h4 a {
-    color: #1b95e0;
-    &:hover {
-      color: #44a2d5
+  h4 {
+    font-size: 3vw;
+    a {
+      color: #1b95e0;
+      &:hover {
+        color: #44a2d5
+      }
     }
-
   }
-  margin-left: -1rem;
-  margin-right:-1rem;
+  p {
+      font-size: 2.7vw;
+  }
+  margin-left: -1em;
+  margin-right:-1em;
   .feed-btns{
     margin-top: 1rem;
     a {
@@ -1551,6 +1555,55 @@ p .btn--aio {
     margin-right: 1em;
     &:hover {
       color: #fff;
+    }
+  }
+
+  // Flair Feed
+  .flair-feed-section {
+    a {
+      div {
+        position: relative;
+        color: #bdbdbd;
+        padding: 2.5rem 2rem 2rem;
+        &:hover {
+          background-color: #444;
+        }
+        transition: $global-transition;
+        time {
+          position: absolute;
+          font-size: 2vw;
+          color: #777;
+          top: 0.5rem;
+          right: 0.5rem;
+        }
+        h3 {
+          margin-top: 0;
+          text-align: left;
+        }
+        p {
+          text-align: left;
+          margin-bottom: 0.5rem;
+        }
+        figure {
+          margin: 0 auto;
+          max-width: 80%;
+          min-width: 80%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    hr {
+      height:3px;
+      border: none;
+      background-color:#444;
+      color:#444;
+      margin: 0;
+    }
+    & + .site-footer{
+      border-top: none;
+      padding-top: 0;
     }
   }
 }
@@ -1695,12 +1748,14 @@ p .btn--aio {
   background-color: #2f2f2f;
   margin-top: 0;
 }
-.upgrade-text {
+.upgrade-text-nc {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 3vw;
   font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1.5em;
+  margin-left: -1em;
+  margin-right: -1em;
   .upgrade-background {
     background-color: #444444;
     display: flex;
@@ -1761,8 +1816,6 @@ p .btn--aio {
 /*
    Stay up to date Button
    ==========================================================================*/
-
-
 .navigation-uptodate {
   font-size: 1em;
   padding: 0.3em 1em 0.5em;
@@ -1826,52 +1879,6 @@ p .btn--aio {
     .p-summary {
       width: 100%;
     }
-  }
-}
-
-// Flair Feed
-.flair-feed-section {
-  a {
-    div {
-      position: relative;
-      color: #bdbdbd;
-      padding: 2.5rem 2rem 2rem;
-      &:hover {
-        background-color: #444;
-      }
-      transition: $global-transition;
-      time {
-        position: absolute;
-        font-size: 0.9rem;
-        color: #777;
-        top: 0.5rem;
-        right: 0.5rem;
-      }
-      h3 {
-        margin-top: 0;
-        text-align: left;
-      }
-      p {
-        font-size: 1.1rem;
-        text-align: left;
-        margin-bottom: 0.5rem;
-      }
-      figure {
-        margin: 0 auto;
-        max-width: 80%;
-      }
-    }
-  }
-  hr {
-    height:3px;
-    border: none;
-    background-color:#444;
-    color:#444;
-    margin: 0;
-  }
-  & + .site-footer{
-    border-top: none;
-    padding-top: 0;
   }
 }
 
