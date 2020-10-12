@@ -32,6 +32,29 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Predicting Engine Failure with Hierarchical Gaussian Process
+
+<small> This gaussian process case study is an extension of the Stancon <a href="https://www.youtube.com/watch?v=1FJyNntNMH4&feature=youtu.be">talk</a>, <em>Failure prediction in hierarchical equipment system: spline fitting naval ship failure</em>. Many comparison criteria exist, but in terms of prediction accuracy, gaussian model outperformed the spline model. However, this accuracy comes at a cost of more detailed and iterative checking process. This casestudy shows how identification and underfitting problems diagnosed from pushforward and predictive checks are addressed through reparameterization and adding variables. Basically our data is highly unbalanced per category with lots of missing data. Also, due to its hierarchical structure of a system, such as shared engine types, hierarchical model is applicable. For detailed explanation on the data and spline model, please refer to <a href="https://github.com/hyunjimoon/reliability_prediction/blob/master/spline/Failure%20prediction%20in%20hierarchical%20equipment%20system.ipynb">this</a> notebook.
+</small>
+
+[View](case-studies/gaussian-process.html) <span class="note">(HTML)</span>
+
+Author
+: Hyunji Moon, Jungin Choi
+
+Keywords
+: Hierarchical Gaussian process, Bayesian workflow
+
+Source Repository
+: [example-models/knitr/gaussian-process](https://github.com/stan-dev/example-models/tree/master/knitr/gaussian-process)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%"> CmdStanR, Rstan </tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## Upgrading to the new ODE interface
 
 <small> Cmdstan 2.24 introduces a new ODE interface intended to make it easier to
