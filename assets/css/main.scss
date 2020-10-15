@@ -36,6 +36,11 @@ video {
 img {
   max-width: 100%;
 }
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
 .hide {
   display: none !important;
 }
@@ -75,6 +80,7 @@ img {
 // navigation
 .site-nav {
   font-size: 1em;
+  margin-top: -1px; 
   ul {
     min-height: 2.3em;
     border-radius: 0;
