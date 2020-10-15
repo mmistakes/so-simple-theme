@@ -11,55 +11,34 @@ image:
 entries_layout: grid
 ---
 
-## Watercolor
-{: .pull-center}
-
+{% for style in site.data.demo-scenes %}
+<h2 class="pull-center">{{style[0]}}</h2>
 <div class="demo-img">
-  {% for scene in site.data.demo-scenes['watercolor'] %}
-    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ scene.download }}" target="_blank">
-      <div>
-        <img src="/images/MNPRX/demo-scenes/{{scene.picture}}" alt="Image of {{ scene.name }}">
-        {% if scene.credits %}
-        <p class="img-author"><span>{{ scene.credits }}</span></p>
-        {% endif %}
-      </div>
-       <p><i class="fa fa-download" aria-hidden="true"></i> {{ scene.name }}.zip ({{scene.filesize}})</p>
-    </a>
+  {% for scene in style[1] %}
+  <div>
+    <figure>
+      <img src="/images/MNPRX/demo-scenes/{{scene.picture}}" alt="Image of {{ scene.name }}">
+      {% if scene.credits %}
+      <p class="img-author"><span>{{ scene.credits }}</span></p>
+      {% endif %}
+    </figure>
+    <p>
+      {% if scene.download %}
+        <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download/{{ scene.download }}" target="_blank">
+          <i class="fa fa-download" aria-hidden="true"></i> {{ scene.name }}.zip ({{scene.filesize}})
+        </a>
+      {% else %}
+        <a href="https://www.patreon.com/artineering" target="_blank">
+          <i class="fab fa-patreon" aria-hidden="true"></i>Become our Patron
+        </a>
+        <i class="fas fa-grip-lines-vertical"></i>
+        <a href="/software/MNPRX/#getit" target="_blank">
+          <i class="fas fa-shopping-cart" aria-hidden="true"></i>Buy Indie/Studio license
+        </a>
+      {% endif %}
+    </p>
+  </div>
   {% endfor %}
 </div>
---- 
-
-## Frayed
-{: .pull-center}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }} demo-img">
-  {% for scene in site.data.demo-scenes['frayed'] %}
-    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ scene.download }}" target="_blank">
-      <div>
-        <img src="/images/MNPRX/demo-scenes/{{scene.picture}}" alt="Image of {{ scene.name }}">
-        {% if scene.credits %}
-        <p class="img-author"><span>{{ scene.credits }}</span></p>
-        {% endif %}
-      </div>
-      <p><i class="fa fa-download" aria-hidden="true"></i> {{ scene.name }}.zip ({{scene.filesize}})</p>
-    </a>
-  {% endfor %}
-</div>
---- 
-
-## Cutout
-{: .pull-center}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }} demo-img">
-  {% for scene in site.data.demo-scenes['cutout'] %}
-    <a href="https://github.com/artineering-io/mnprx-demo-scenes/releases/download{{ scene.download }}" target="_blank">
-      <div>
-        <img src="/images/MNPRX/demo-scenes/{{scene.picture}}" alt="Image of {{ scene.name }}">
-        {% if scene.credits %}
-        <p class="img-author"><span>{{ scene.credits }}</span></p>
-        {% endif %}
-      </div>
-      <p><i class="fa fa-download" aria-hidden="true"></i> {{ scene.name }}.zip ({{scene.filesize}})</p>
-    </a>
-  {% endfor %}
-</div>
+<hr>
+{% endfor %}

@@ -343,11 +343,11 @@ img {
   align-content: stretch;
   align-items: center;
   text-align: center;
-  div {
+  figure {
     position: relative;
     max-width: 400px;
-    margin-left: 1em;
-    margin-top: 1em;
+    margin: 0.4rem;
+    margin-bottom: 0.1rem;
   }
   .img-author {
     position: absolute;
@@ -361,7 +361,17 @@ img {
     border-radius: 4px 0 0 0;
     font-size: 0.7em;
   }
+  svg {
+    margin-right: 0.3rem;
+  }
+  a {
+    margin: 0 0.5rem;
+  }
+  & + hr:last-child {
+    visibility: hidden;
+  }
 }
+
 
 // images
 figcaption {

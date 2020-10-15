@@ -1,29 +1,32 @@
-watercolor:
-  - name: Fruit Plate
-    picture: fruit-plate.jpg
-    download: /2020.2/Fruit_Plate.zip
-    filesize: 1.65 MB
+Watercolor:
   - name: Spherebot
     picture: Spherebot.gif
-    download: /2020.2/Spherebot.zip
-    filesize: 3.58 MB
+    download: 2020.8/Spherebot.zip
+    filesize: 4.71 MB
     credits: 3D model/animation by Bastien Genbrugge
+  - name: Fruit Plate
+    picture: fruit-plate.jpg
+    download: 2020.8/Fruit_Plate.zip
+    filesize: 1.65 MB
   - name: Wiz Biz
     picture: wiz-biz.jpg
-    download: /2020.2/Wiz_Biz.zip
+    download: 2020.8/Wiz_Biz.zip
     filesize: 1.78 MB
     credits: 3D model by Tom Robinson
+  - name: Lain 2.0
+    picture: lain.gif
+    credits: 3D model/animation by woopoodle
 
-frayed:
+Frayed:
   - name: Mech Drone
     picture: mech-drone.gif
-    download: /2020.2/Mech_Drone.zip
+    download: 2020.8/Mech_Drone.zip
     filesize: 12.2 MB
     credits: 3D model/animation by Willy Decarpentrie
 
-cutout:
+Cutout:
   - name: Walk cycle
     picture: walk-cycle.gif
-    download: /2020.2/Walk_Cycle.zip
-    filesize: 335 KB
+    download: 2020.8/Walk_Cycle.zip
+    filesize: 338 KB
     credits: 3D model by Davide Benvenuti, animation by Santiago Montesdeoca

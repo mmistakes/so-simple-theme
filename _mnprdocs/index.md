@@ -17,7 +17,7 @@ redirect_from:
   - /projects/MNPRX/docs/
 ---
 
-As MNPRX continues to grow, it has become indispensable to document all its functions. 
+As MNPRX continues to grow, it has become indispensable to document all its functions.
 {: .pull-center}
 
 <figure class="pull-center">
@@ -46,7 +46,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Styles
 ### [Style Library](/styles/)
-### [Configuration](config)  {% include aio-new.html %}
+### [Configuration](config)
 ### [Style Presets](style-presets)
 </div>
 
@@ -60,13 +60,13 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Art-direction
 ### [NoiseFX](noisefx)
-### [PaintFX](paintfx) {% include aio-new.html %}
-### [MNPRX Toolbox](toolbox)  {% include aio-new.html %}
+### [PaintFX](paintfx)
+### [MNPRX Toolbox](toolbox)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Stylizations
-### [Import/Export](import-export) {% include aio-new.html %}
+### [Import/Export](import-export)
 ### Breakdowns  {% include aio-wip.html %}
 ### [Controls](controls)
 </div>
@@ -76,6 +76,12 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 ### [Stylizing Scenes](stylizing-scene)
 ### [Rendering Scenes](rendering-scene)
 ### [Compositing in Nuke](compositing-nuke)
+</div>
+
+<div class="doc-element" markdown="1" style="white-space: nowrap;">
+## Curious?
+### [FAQ](/software/MNPRX/docs/faq)
+### [Demo scenes](/software/MNPRX/demo-scenes) {% include aio-new.html %}
 </div>
 
 </div>
