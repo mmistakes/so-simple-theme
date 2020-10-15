@@ -37,9 +37,9 @@ over:
 * licensing requirements for contributed code and documentation
 
 The SGB is intended to be a transparent body in service of the Stan
-community and electorate. The SGB will publicly post minutes on a
-regular basis on the [Stan Discourse](http://discourse.mc-stan.org) in
-the [general category](https://discourse.mc-stan.org/c/general).
+community and electorate. To this end the SGB will post regular updates 
+about its activities on the [Stan forums](http://discourse.mc-stan.org) 
+in the [Stan Governance category](https://discourse.mc-stan.org/c/stan-governance/41).
 
 The SGB is to advance diversity in under-represented communities in
 the Stan ecosystem. The SGB will actively develop and implement
@@ -58,7 +58,9 @@ The current SGB members are:
 * Susana Márquez <span class="note">(The Rockefeller Foundation)</span>
 
 
-## [Minutes](/about/sgb/minutes)
+## [SGB public updates and minutes](/about/sgb/minutes)
+
+- [SGB 2020 general updates](https://discourse.mc-stan.org/t/sgb-2020-general-updates/13385)
 
 - [Summary of motions of the provisional SGB (08/2018-11/2019)](/about/sgb/minutes.html#summary-of-motions-of-the-provisional-sgb-082018-112019)
 
