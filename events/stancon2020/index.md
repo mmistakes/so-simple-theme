@@ -28,6 +28,7 @@ The abstracts to the talks are included in the video descriptions.
 
 ### Recorded StanCon 2020 Videos on YouTube
 
+Playlists:
 - [Session 1](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzSg_N87tVF2YWebmoHB7Bp)
 - [Session 2](https://www.youtube.com/playlist?list=PLCrWEzJgSUqwychgV5Q72Nsaq08FU48aQ)
 - [Session 3](https://www.youtube.com/playlist?list=PLCrWEzJgSUqwj78wmC7vLklk8Zg158Htk)
@@ -182,12 +183,6 @@ The abstracts to the talks are included in the video descriptions.
 | 05:30 | 00:30 | 21:30 | End of session |
 
 
-### Session Playlists on YouTube
-
-- [Session 1](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzSg_N87tVF2YWebmoHB7Bp)
-- [Session 2](https://www.youtube.com/playlist?list=PLCrWEzJgSUqwychgV5Q72Nsaq08FU48aQ)
-- [Session 3](https://www.youtube.com/playlist?list=PLCrWEzJgSUqwj78wmC7vLklk8Zg158Htk)
-- [All videos](https://www.youtube.com/playlist?list=PLCrWEzJgSUqzI3goQEAKkDsHg72inmqbe) 
 
 
 ## Sponsors
