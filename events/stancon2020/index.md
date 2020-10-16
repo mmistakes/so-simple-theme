@@ -171,7 +171,8 @@ The abstracts to the talks are included in the video descriptions.
 |       |       |       | [*video (English)*](https://youtu.be/PpJnAz7tAeI) |
 |       |       |       | [*video (Catalan)*](https://youtu.be/TOCphac1GM0) |
 |       |       |       | [*video (French)*](https://youtu.be/VFGvUarQNUk) |
-|       |       |       | [*video (Finnish)*](https://youtu.be/bOddqDTubVc) || ​02:33 | 21:33 | 18:33 | Orbit: Probabilistic Forecast with Exponential Smoothing, |
+|       |       |       | [*video (Finnish)*](https://youtu.be/bOddqDTubVc) |
+| ​02:33 | 21:33 | 18:33 | Orbit: Probabilistic Forecast with Exponential Smoothing, |
 |       |       |       | Edwin Ng, Zhishi Wang, Steve Yang, Uber |
 |       |       |       | [*video*](https://youtu.be/QWKk_lr5PC8) |
 | 02:42 | 21:42 | 18:42 | Effortless frequentist covariances of posterior expectations in Stan, |
