@@ -32,6 +32,30 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## HMM Interface Example
+
+<small> Cmdstan 2.24 introduces a new interface for working with
+Hidden Markov Models (HMMs). This is an example of how to use that
+interface. </small>
+
+[View](case-studies/hmm-example.html) <span class="note">(HTML)</span>
+
+Authors
+: Ben Bales
+
+Keywords
+: Hidden Markov Models, HMMs, cmdstanr, Stan programming
+
+Source Repository
+: [example-models/knitr/hmm-example](https://github.com/stan-dev/example-models/tree/master/knitr/hmm-example)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">CmdStanR</tt>
+
+License
+:  BSD (3 clause), CC-BY
+
 ## Predicting Engine Failure with Hierarchical Gaussian Process
 
 <small> This gaussian process case study is an extension of the StanCon <a href="https://www.youtube.com/watch?v=1FJyNntNMH4&feature=youtu.be">talk</a>, <em>Failure prediction in hierarchical equipment system: spline fitting naval ship failure</em>. Many comparison criteria exist, but in terms of prediction accuracy, the gaussian process model outperformed the spline model. However, this accuracy comes at a cost of a more detailed and iterative checking process. This case study shows how identification and underfitting problems diagnosed from pushforward and predictive checks are addressed through reparameterization and adding variables. Basically, our data is highly unbalanced per category with lots of missing data. Also, due to the hierarchical structure of the system, such as shared engine types, the hierarchical model is applicable. For a detailed explanation of the data and spline model, please refer to <a href="https://github.com/hyunjimoon/reliability_prediction/blob/master/spline/Failure%20prediction%20in%20hierarchical%20equipment%20system.ipynb">this</a> notebook.
