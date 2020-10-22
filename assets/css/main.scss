@@ -80,7 +80,7 @@ hr {
 // navigation
 .site-nav {
   font-size: 1em;
-  margin-top: -1px; 
+  margin-top: -1px;
   ul {
     min-height: 2.3em;
     border-radius: 0;
@@ -446,6 +446,13 @@ figcaption {
   @include breakpoint($medium) {
     max-width: 47%;
   }
+}
+
+hr.half {
+  width: 50%;
+}
+hr.quarter {
+  width: 20%;
 }
 
 .third img {
