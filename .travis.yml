@@ -4,7 +4,8 @@ rvm:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - gem install bundler -v 1.17.3
+  #- gem install bundler -v 1.17.3
+  - gem install bundler:2.1.4
   
 script:
   - bundle exec jekyll build --drafts
