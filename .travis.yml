@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.1
+  - 2.3.0
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
