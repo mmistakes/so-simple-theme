@@ -5,10 +5,11 @@ rvm:
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+install:
+  - gem uninstall bundler
+  - gem install bundler --version '2.1.4'
+  
 script:
-  - bundle update
-  - gem install bundler
-  - gem install bundle
   - bundle exec jekyll build --drafts
 #  - bundle exec htmlproof ./_site
 
