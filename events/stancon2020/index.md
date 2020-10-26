@@ -108,12 +108,12 @@ Playlists:
 |       |       |       | University of Ljubljana |
 |       |       |       | [*video*](https://youtu.be/hCSiAUPi39Q) |
 | 17:53 | 12:53 | 09:53 | Developer talk 4: Approximate Bayesian inference for latent Gaussian |
-|       |       |       |  processes in Stan, Charles Margossian, Aki Vehtari, Daniel Simpson, |
+|       |       |       |  models in Stan, Charles Margossian, Aki Vehtari, Daniel Simpson, |
 |       |       |       | Raj Agrawal, Columbia University, Department of Statistics; |
 |       |       |       | Aalto University, Department of Computer Science; |
 |       |       |       | University of Toronto, Department of Statistical Sciences; |
 |       |       |       | Massachusetts Institute of Technology, CSAIL |
-|       |       |       | [*video*](https://youtu.be/hbYsakCQiew) |
+|       |       |       | [*video*](https://youtu.be/hbYsakCQiew), [*code and notebook*](https://github.com/charlesm93/StanCon2020) |
 | 18:00 | 13:00 | 10:00 | Plenary: Multi-Source Information Modeling, Curation, and |
 |       |       |       | Fusion Enabling Transdisciplinary Decision-Making: A Case for Space!  |
 |       |       |       | Moriba Jah, Oden Institute for Computational Engineering & Sciences |
