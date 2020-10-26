@@ -4,9 +4,9 @@ rvm:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - gem install bundler --pre
 
 script:
+  - bundle update
   - bundle exec jekyll build --drafts
 #  - bundle exec htmlproof ./_site
 
