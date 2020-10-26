@@ -1,10 +1,12 @@
 language: ruby
 rvm:
-  - 2.1
+  - 2.3.0
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-
+  - yes | gem update --system --force
+  - gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+  
 script:
   - bundle exec jekyll build --drafts
 #  - bundle exec htmlproof ./_site
