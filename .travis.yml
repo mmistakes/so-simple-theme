@@ -8,6 +8,7 @@ before_install:
 script:
   - bundle update
   - gem install bundler
+  - gem install bundle
   - bundle exec jekyll build --drafts
 #  - bundle exec htmlproof ./_site
 
