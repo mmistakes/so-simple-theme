@@ -41,7 +41,8 @@ class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
 on all major platforms <span class="note">(Linux, Mac,
 Windows)</span>.
 
-To get started using Stan begin with the [Users](/users/) page.
+To get started using Stan begin with the [Installation](/users/interfaces) 
+and [Documentation](/users/documentation/) pages.
 
 ## Citing Stan
 
