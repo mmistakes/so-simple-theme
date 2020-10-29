@@ -17,95 +17,16 @@ acknowledging Stan
 
 We appreciate citations for the Stan software because it lets us find
 out what people have been doing with Stan and motivate further grant
-funding.  Below are our recommendations citations for each component
-of Stan.
+funding. When citing Stan we recommend citing both Stan itself as well
+as the particular interface used. 
 
-We do not have any particular recommendations regarding which component(s)
-you cite in a given publication.  Many authors cite only the interface
-they use, while some also include the language manual or the overview paper.
+To cite Stan itself you can cite the Stan manual, taking the year and version from
+the latest release documented at https://mc-stan.org/users/documentation/:
 
-## Overview Paper
+* Stan Development Team. YEAR. Stan Modeling Language Users Guide and Reference Manual, VERSION. https://mc-stan.org
 
-* Bob Carpenter, Andrew Gelman, Matthew D. Hoffman, Daniel Lee, Ben
-  Goodrich, Michael Betancourt, Marcus Brubaker, Jiqiang Guo,
-  Peter Li, and Allen Riddell.  2017.  Stan: A probabilistic
-  programming language.  *Journal of Statistical Software* 76(1).
-  DOI <a href="http://dx.doi.org/10.18637/jss.v076.i01">10.18637/jss.v076.i01</a>
-
-## Language Manual
-
-* <p>Stan Development Team. 2018. <i>Stan Modeling Language Users Guide and
-  Reference Manual</i>, Version 2.18.0.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## Stan Math Library
-
-* <p>Stan Development Team. 2018.  <i>The Stan Math Library</i>,  Version
-  2.18.0. &nbsp; <tt style="font-size:0.9em">http://mc-stan.org</tt></p>
-
-* Bob Carpenter, Matthew D. Hoffman, Marcus Brubaker, Daniel Lee,
-  Peter Li, and Michael J. Betancourt.  2015.  The Stan Math Library:
-  Reverse-Mode Automatic Differentiation in C++. *arXiv* 1509.07164.
-
-## Stan Core Library
-
-* <p>Stan Development Team. 2018. <i>The Stan Core Library</i>, Version 2.18.0.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## RStan
-
-* <p>Stan Development Team. 2018. <i>RStan: the R interface to Stan</i>.
-  R package version 2.17.3.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## PyStan
-
-* <p>Stan Development Team. 2018. <i>PyStan: the Python interface to Stan</i>,
-  Version 2.17.1.0.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
+To cite the interface or post-processing package you used we recommend using the citation conventions 
+for the language (R, Python, Julia, etc.) associated with the interface or package. For example, to cite 
+RStan use the standard conventions for citing R packages. 
 
 
-## CmdStan
-
-* <p>Stan Development Team. 2018. <i>CmdStan: the command-line
-  interface to Stan</i>, Version 2.18.0.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## MatlabStan
-
-* <p>Stan Development Team. 2017. <i>MatlabStan: the MATLAB interface to
-  Stan</i>.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## Stan.jl
-
-* <p>Stan Development Team. 2018. <i>Stan.jl: the Julia interface to
-  Stan</i>, Version 3.5.0.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## StataStan
-
-* <p>Stan Development Team. 2017. <i>StataStan: the Stata interface to Stan</i>.
-  &nbsp; <tt style="font-size: 95%">http://mc-stan.org</tt>
-  </p>
-
-## RStanArm
-
-* <p>Stan Development Team. 2018. <i>RStanArm: Bayesian applied
-  regression modeling via Stan</i>. R package version 2.17.4.
-  &nbsp; <tt style="font-size:
-  95%">http://mc-stan.org</tt> </p>
-
-## ShinyStan
-
-* <p>Stan Development Team. 2018. <i>ShinyStan: Interactive Visual and
-  Numerical Diagnostics and Posterior Analysis for Bayesian
-  Models</i>. R package version 2.5.0.  &nbsp; <tt style="font-size:
-  95%">http://mc-stan.org</tt> </p>
