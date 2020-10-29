@@ -39,10 +39,8 @@ posterior visualization, and leave-one-out cross-validation.
 Stan interfaces with the most popular data analysis languages <span
 class="note">(R, Python, shell, MATLAB, Julia, Stata)</span> and runs
 on all major platforms <span class="note">(Linux, Mac,
-Windows)</span>.
-
-To get started using Stan begin with the [Installation](/users/interfaces) 
-and [Documentation](/users/documentation/) pages.
+Windows)</span>. To get started using Stan begin with the 
+[Installation](/users/interfaces) and [Documentation](/users/documentation/) pages.
 
 ## Citing Stan
 
