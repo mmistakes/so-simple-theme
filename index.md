@@ -43,6 +43,12 @@ Windows)</span>.
 
 To get started using Stan begin with the [Users](/users/) page.
 
+## Citing Stan
+
+We appreciate citations for the Stan software because it lets us find out what 
+people have been doing with Stan and motivate further grant funding. See 
+[How to Cite Stan](/users/citations/) for more details.
+
 ## Open Code &amp; Reproducible Science
 
 Stan is freedom-respecting, open-source software <span
