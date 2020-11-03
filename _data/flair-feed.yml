@@ -1,3 +1,9 @@
+03/11/2020:
+  title: "Quick Tip #2"
+  text: Learn how to enable the canvas advection to attach the canvas to the underlying motion and avoid having the shower door effect or canvas flickering.
+  link: https://youtu.be/F6v952Via_o
+  img: feed/2020-11-03.jpg
+
 22/10/2020:
   title: "Flair Alpha"
   text: Have you ever wanted to modify the styles that we provide with MNPRX, or even create your own?
@@ -27,9 +33,3 @@
   text: The new Infinite Canvas replaces the previous Substrate and provides a seamless surface with control over its translation, rotation and scale. You can also generate an infinite canvas based on any height map!
   link: https://twitter.com/artineering/status/1288836995029049345?s=20
   img: feed/2020-07-30.gif
-
-22/05/2020:
-  title: Call for alpha testers!
-  text: Flair, our newest software is ready for an adventure! <br><b>Click to find out more!</b>
-  link: /software/Flair/
-  img: cards/flair.jpg
