@@ -32,6 +32,28 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Spatial models for plant neighborhood dynamics in Stan
+<small> In this case study, we demonstrate how Stan’s segment function can speed computation on sparse matrices of pairwise neighbors in plant-plant interaction models. In addition, we present solutions to common problems of fitting neighborhood models with hierarchical effects, including a comparison of centered vs. non-centered parameterizations.</small>
+
+[View](case-studies/plantInteractions.html) <span class="note">(HTML)</span>
+
+Authors
+: Cristina Barber, Andrii Zaiats, Cara Applestein and T.Trevor Caughlin
+
+Keywords
+: plants, neighbor interactions, sparse matrix, segment function
+
+Source Repository
+: [Cristinabarber/Neighbor_Interactions](https://github.com/Cristinabarber/Neighbor_Interactions)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>
+
+License
+:  BSD (3 clause), CC BY NC
+
+
 ## Predicting Engine Failure with Hierarchical Gaussian Process
 
 <small> This gaussian process case study is an extension of the StanCon <a href="https://www.youtube.com/watch?v=1FJyNntNMH4&feature=youtu.be">talk</a>, <em>Failure prediction in hierarchical equipment system: spline fitting naval ship failure</em>. Many comparison criteria exist, but in terms of prediction accuracy, the gaussian process model outperformed the spline model. However, this accuracy comes at a cost of a more detailed and iterative checking process. This case study shows how identification and underfitting problems diagnosed from pushforward and predictive checks are addressed through reparameterization and adding variables. Basically, our data is highly unbalanced per category with lots of missing data. Also, due to the hierarchical structure of the system, such as shared engine types, the hierarchical model is applicable. For a detailed explanation of the data and spline model, please refer to <a href="https://github.com/hyunjimoon/reliability_prediction/blob/master/spline/Failure%20prediction%20in%20hierarchical%20equipment%20system.ipynb">this</a> notebook.
