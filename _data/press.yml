@@ -1,4 +1,9 @@
 # Press release list
+- title: "Flair: An Overview of A Node-Based Engine for Stylized 3D Art"
+  url: https://80.lv/articles/flair-an-overview-of-a-node-based-engine-for-stylized-3d-art/
+  excerpt: "Santiago Montesdeoca, CEO of Artineering, talked about the new node-based real-time engine for stylized CG, discussed its core features and advantages of it for 3D artists, shared resources on how to get started with it as well as mentioned key current integrations and future plans."
+  place: 80 Level
+  year: 2020
 
 - title: "A conversation with Santiago Montesdeoca: how current 3-D computer animations are constraining individual creative expression"
   url: https://ubiquity.acm.org/article.cfm?id=3343441
