@@ -1,3 +1,9 @@
+20/11/2020:
+  title: "Tutorial: Frayed 101 - Break 3D edges"
+  text: Learn how the Frayed stylization in MNPRX breaks 3D edges and attaches them onto 3D objects! Frayed edges move with the underlying motion and always stay the same size on the screen.
+  link: https://youtu.be/WXLLQd5TXtM
+  img: feed/2020-11-20.jpg
+
 03/11/2020:
   title: "Quick Tip #2"
   text: Learn how to enable the canvas advection to attach the canvas to the underlying motion and avoid having the shower door effect or canvas flickering.
@@ -27,9 +33,3 @@
   text: We have revised each 3D style to have resolution independent effects, so your renders will look almost the same, no matter what resolution you render at.
   link: https://twitter.com/artineering/status/1293927352377004032
   img: feed/2020-08-13.gif
-
-30/07/2020:
-  title: Infinite canvas
-  text: The new Infinite Canvas replaces the previous Substrate and provides a seamless surface with control over its translation, rotation and scale. You can also generate an infinite canvas based on any height map!
-  link: https://twitter.com/artineering/status/1288836995029049345?s=20
-  img: feed/2020-07-30.gif
