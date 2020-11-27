@@ -1,5 +1,10 @@
 {% if site.data.navigation %}
   <div class="navigation-wrapper">
+    {%- if site.banner-text -%}
+    <div class="top-banner {% unless page.title %}animated drop{%endunless%}">
+      <p><a href="{{site.banner-link}}">{{site.banner-text}}</a></p>
+    </div>
+    {%- endif -%}
     <a href="#menu-toggle" id="menu-toggle"><span class="fas fa-bars fa-lg"></span> {{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
     <nav id="primary-nav" class="site-nav {% unless page.title %}animated drop{%endunless%}">
       <ul>
@@ -13,9 +18,12 @@
           <li><a href="{{ url }}">{{ link.title }}</a></li>
         {%- endfor -%}
       </ul>
+      <p class="navigation-download animated drop">
+        <a href="/software/MNPRX/#getit">download</a>
+      </p>
     </nav>
-    <p class="navigation-download animated drop">
-      <a href="/software/MNPRX/#getit">download</a>
-    </p>
   </div><!-- /.navigation-wrapper -->
+  {%- if site.banner-text -%}
+  <div style="height: 2rem"></div>
+  {%- endif -%}
 {% endif %}

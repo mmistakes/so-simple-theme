@@ -7,12 +7,15 @@ sitemap: false
 
 // modify theme
 .navigation-wrapper {
-  border-top: solid 0.25em $nav-background-color;
+  margin-top: 0;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
   right: 0;
+  #primary-nav {
+    position: relative;
+  }
 }
 .page-wrapper-landing {
   margin: 0 auto;
@@ -78,9 +81,26 @@ hr {
 
 
 // navigation
+.top-banner {
+  //background-color: $nav-background-color;
+  background-color: #237afc;
+  text-align: center;
+  p {
+    text-transform: uppercase;
+    font-family: $sans-serif-font-family2;
+    margin: 0 auto;
+    padding-bottom: 0.25rem;
+    padding-top: 0.5rem;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
 .site-nav {
+  border-top: solid 3px $nav-background-color;
   font-size: 1em;
-  margin-top: -1px;
+  //margin-top: -1px;
   ul {
     min-height: 2.3em;
     border-radius: 0;
@@ -126,11 +146,11 @@ hr {
   }
 }
 .navigation-download {
-  font-size: 1em;
-  padding: 0.35em 1em 0.6em;
+  font-size: 1rem;
+  padding: 0.6rem 1rem 0.55rem;
   visibility: hidden;
-  position: fixed;
-  top: 0.2em;
+  position: absolute;
+  top: 0;
   right: 0;
   margin: 0;
   z-index: 100;
@@ -140,6 +160,7 @@ hr {
   a {
     color: #CCC;
     text-decoration: none;
+    padding: 0;
     font-size: 0.8em;
     font-family: $sans-serif-font-family2;
     &:hover {
