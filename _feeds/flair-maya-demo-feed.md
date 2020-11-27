@@ -10,8 +10,12 @@ sitemap: false
   <h3 class="top-05"> Enjoying MNPRX? </h3>
   <h4><a href="https://artineering.io/software/MNPRX/#getit">Get a commercial Indie/Studio license</a> or <br>
   <a href="https://www.patreon.com/artineering">support us on Patreon</a> to render at ANY resolution!</h4>
+  <h2> CYBER-WEEK SALE</h2>
   <div class="upgrade-img" style="width:80%; margin:0 auto 2rem">
-    <img src="/images/MNPRX/demo-resolution.png"/>
+    <a href="https://artineering.io/software/MNPRX/#getit">
+      <img src="/images/feed/demo-promotion.jpg"/>
+    </a>
+    <!--<img src="/images/MNPRX/demo-resolution.png"/>-->
   </div>
   <hr style="height:3px; border: none; background-color:#444; color:#444">
   <h2> What's new? </h2>
