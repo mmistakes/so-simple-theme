@@ -35,7 +35,7 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 ## Bayesian model of planetary motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality
 <small> The Bayesian model of planetary motion is a simple but powerful example that illustrates important concepts, as well as gaps, in prescribed modeling workflows. Our focus is on Bayesian inference using Markov chains Monte Carlo for a model based on an ordinary differential equations (ODE). Our example presents unexpected multimodality, causing our inference to be unreliable and what is more, dramatically slowing down our ODE integrators. What do we do when our chains do not mix and do not forget their starting points? Reasoning about the computational statistics at hand and the physics of the modeled phenomenon, we diagnose how the modes arise and how to improve our inference. Our process for fitting the model is iterative, starting with a simplification and building the model back up, and makes extensive use of visualization.</small>
 
-[View](case-studies/planetary_motion.html) <span
+[View](case-studies/planetary_motion/planetary_motion.html) <span
 class="note">(HTML)</span>
 
 Authors
