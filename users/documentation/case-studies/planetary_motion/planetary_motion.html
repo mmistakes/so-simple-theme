@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality | planetary_motion.utf8</title>
+  <meta name="description" content="Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality | planetary_motion.utf8" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality | planetary_motion.utf8" />
+  
+  
+  
+
+<meta name="author" content="Charles C. Margossian  and Andrew Gelman" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<style type="text/css">
+p.abstract{
+  text-align: center;
+  font-weight: bold;
+}
+div.abstract{
+  margin: auto;
+  width: 90%;
+}
+</style>
+<script src="libs/header-attrs-2.3/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path=""><a href="#inst"><i class="fa fa-check"></i>Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#setup"><i class="fa fa-check"></i>R setup</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec2"><i class="fa fa-check"></i>Building the model</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#sec2.1"><i class="fa fa-check"></i>Equations of motion</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec2.2"><i class="fa fa-check"></i>Simulation</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3"><i class="fa fa-check"></i>Fitting a simple model and diagnosing inference</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.1"><i class="fa fa-check"></i>Is the model degenerate?</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.2"><i class="fa fa-check"></i>The wanderers: how do the chains even find these presumed modes?</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.3"><i class="fa fa-check"></i>Confirming the existence of local modes</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.4"><i class="fa fa-check"></i>Elliptical motion induces multimodality</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.5"><i class="fa fa-check"></i>Bad Markov chain, slow Markov chain?</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec3.6"><i class="fa fa-check"></i>Improving the inference</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec4"><i class="fa fa-check"></i>Building the model back up: position and momentum</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec5"><i class="fa fa-check"></i>Expending the model to estimate the position of the star</a>
+<ul>
+<li class="chapter" data-level="" data-path=""><a href="#sec5.1"><i class="fa fa-check"></i>Encoding more information in our prior</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec5.2"><i class="fa fa-check"></i>A first pass at fitting the model</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec5.3"><i class="fa fa-check"></i>Using conditional likelihoods to understand modes</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec5.4"><i class="fa fa-check"></i>Fitting the model</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec6"><i class="fa fa-check"></i>Discussion and lessons learned</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#sec7"><i class="fa fa-check"></i>Acknowledgement</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#my-section"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><div class="line-block">Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality</div></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title"><div class="line-block">Bayesian Model of Planetary Motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality</div></h1>
+<p class="author"><em>Charles C. Margossian<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>  and Andrew Gelman<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></em></p>
+<div class="abstract">
+<p class="abstract">Abstract</p>
+The Bayesian model of planetary motion is a simple but powerful example that illustrates important concepts, as well as gaps, in prescribed modeling workflows. Our focus is on Bayesian inference using Markov chains Monte Carlo for a model based on an ordinary differential equations (ODE). Our example presents unexpected multimodality, causing our inference to be unreliable and what is more, dramatically slowing down our ODE integrators. What do we do when our chains do not mix and do not forget their starting points? Reasoning about the computational statistics at hand and the physics of the modeled phenomenon, we diagnose how the modes arise and how to improve our inference. Our process for fitting the model is iterative, starting with a simplification and building the model back up, and makes extensive use of visualization.
+</div>
+</div>
+<div id="inst" class="section level2 unnumbered" number="">
+<h2>Introduction</h2>
+<p>As developers of statistical software<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, we realize that we cannot fully automate modeling.
+Practitioners need to take bespoke steps to fit, evaluate, and improve their models.
+At the same time, the more modeling we do, the better prepared we usually are for the next project we undertake.
+It’s not uncommon to apply hard-learned lessons from a past project to a new problem.
+Articles on <em>modeling workflows</em> aim to formalize this experience, building and deconstructing heuristics, developing methods, and motivating new theory <span class="citation">(e.g. Blei 2014; Gabry et al. 2019; Betancourt 2020; Gelman et al. 2020)</span>.
+We believe this effort must be complemented by case studies, such as this one, which illustrate in great details the concepts that arise in workflows, provide usable code, and also raise new questions.
+The specific concepts we encounter in this article include why our inference fails way more slowly than it succeeds, why the behavior of an ODE changes wildely across the parameter space, and what to do when chains drift into “unreasonable” modes of the posterior distribution.</p>
+<p>Given the recorded position of a planet over time, we want to estimate the physical properties of a star-planet system.
+This includes position, momentum, and gravitational interaction.
+We fit the model with Stan <span class="citation">(Carpenter et al. 2017)</span>, using a Hamiltonian Monte Carlo (HMC) sampler, a gradient-based Markov chain Monte Carlo (MCMC) algorithm;
+for a thorough introduction to HMC, we recommend the article by <span class="citation">Betancourt (2018)</span>.
+Initially, we meant the planetary motion problem to be a simple textbook example for ODE-based models; but it turns out many interesting challenges arise when we do a Bayesian analysis on this model.
+We discuss how to diagnose and fix these issues.
+The techniques we deploy involve a combination of mathematical considerations that are specific to the system at hand and statistical principles we can generalize.
+This case study examines the model in the controlled setting of simulated data.</p>
+<p>We begin by constructing our model, using elementary notions of classical mechanics.
+After failing to fit this complete model, we develop a simpler model and build our way back to the original model.
+This step-by-step expansion allows us to isolate issues that make Bayesian inference challenging.
+Classic tools we use involve: running multiple chains, checking convergence diagnostics, and simulating data from the fitted model.
+There are several ways to visualize simulated data and an agile use of plots proves extremely helpful.
+Running simulations for multiple parameter values allows us to understand how the parameters interact with the likelihood, and identify local modes in the posterior.
+In our presentation, we try to distinguish generalizable methods, problem-specific steps, and shortcoming in existing defaults.</p>
+<div id="setup" class="section level3 unnumbered" number="">
+<h3>R setup</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(cmdstanr)</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">library</span>(posterior)</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">library</span>(ggplot2)</span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="kw">library</span>(dplyr)</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">library</span>(plyr)</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="kw">library</span>(tidyr)</span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="kw">library</span>(boot)</span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="kw">library</span>(latex2exp)</span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="kw">source</span>(<span class="st">&quot;tools.r&quot;</span>)</span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a>bayesplot<span class="op">::</span><span class="kw">color_scheme_set</span>(<span class="st">&quot;viridisC&quot;</span>)</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="kw">set.seed</span>(<span class="dv">1954</span>)</span></code></pre></div>
+<p>All the requisite code to run this notebook can be found online, in the <a href="https://github.com/stan-dev/example-models/tree/case-study/planet/knitr/planetary_motion">planetary motion github repository</a>.</p>
+</div>
+</div>
+<div id="sec2" class="section level2 unnumbered" number="">
+<h2>Building the model</h2>
+<p>Consider a simple star-planet system.
+We assume the star is much more massive than the planet and approximate the position of the star as <em>fixed</em>.
+We would like to estimate the following quantities:</p>
+<ul>
+<li>The gravitational force between the two objects.
+We assume the gravitational constant is known, <span class="math inline">\(G = 1.0 \times 10^{-3}\)</span> in some unit, and aim to evaluate the star-planet mass ratio.
+To do this, we set the planetary mass to <span class="math inline">\(m = 1\)</span>.
+It remains to evaluate the solar mass, <span class="math inline">\(M\)</span>.</li>
+<li>The initial position vector, <span class="math inline">\(q_0\)</span>, and the initial momentum vector, <span class="math inline">\(p_0\)</span>, of the planet.</li>
+<li>The subsequent position vector, <span class="math inline">\(q(t)\)</span>, of the planet over time.</li>
+<li>The position vector of the star, <span class="math inline">\(q_*\)</span>.</li>
+</ul>
+<div id="sec2.1" class="section level3 unnumbered" number="">
+<h3>Equations of motion</h3>
+<p>A more natural treatment of the problem would be using polar coordinates, but for simplicity, let’s use Cartesian coordinates.
+The motion of the planet is described by Newton’s law of motion, which is a second-order differential equation.
+For convenience, we use Hamilton’s formulation of the law, which is based on a system of two first-order differential equations,
+<span class="math display">\[\begin{eqnarray*}
+  \frac{\mathrm d q}{\mathrm d t} &amp; = &amp; \frac{p}{m}, \\
+  \frac{\mathrm d q}{\mathrm d t} &amp; = &amp; - \frac{k}{r^3} (q - q_*),
+\end{eqnarray*}\]</span>
+where <span class="math inline">\(k = GmM = 10^{-3}M\)</span>, and <span class="math inline">\(r = \sqrt{(q - q_*)^T(q - q_*)}\)</span> is the distance between the planet and the star.</p>
+<p>Our measurements are made with a normally distributed error:
+<span class="math display">\[
+  q_\mathrm{obs} \sim \mathrm{Normal}(q, \sigma I),
+\]</span>
+with <span class="math inline">\(\sigma\)</span> the standard deviation and <span class="math inline">\(I\)</span> the <span class="math inline">\(2 \times 2\)</span> identity matrix.</p>
+</div>
+<div id="sec2.2" class="section level3 unnumbered" number="">
+<h3>Simulation</h3>
+<p>The simulation can be done in Stan, using one of its numerical integrators.
+At <span class="math inline">\(t = 0\)</span>, <span class="math inline">\(q_0 = (1, 0)\)</span> and <span class="math inline">\(p_0 = (0, 1)\)</span>,
+and we set <span class="math inline">\(k = 1\)</span>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>mod &lt;-<span class="st"> </span><span class="kw">cmdstan_model</span>(<span class="st">&quot;model/planetary_motion_sim.stan&quot;</span>)</span></code></pre></div>
+<pre><code>## Model executable is up to date!</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>n &lt;-<span class="st"> </span><span class="dv">40</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>sigma =<span class="st"> </span><span class="fl">0.01</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a>sim &lt;-<span class="st"> </span>mod<span class="op">$</span><span class="kw">sample</span>(<span class="dt">data =</span> <span class="kw">list</span>(<span class="dt">n =</span> n, <span class="dt">sigma_x =</span> sigma, <span class="dt">sigma_y =</span> sigma),</span>
+<span id="cb4-4"><a href="#cb4-4"></a>                  <span class="dt">chains =</span> <span class="dv">1</span>, <span class="dt">iter_warmup =</span> <span class="dv">1</span>,</span>
+<span id="cb4-5"><a href="#cb4-5"></a>                  <span class="dt">iter_sampling =</span> <span class="dv">2</span>, <span class="dt">seed =</span> <span class="dv">123</span>)</span></code></pre></div>
+<pre><code>## Running MCMC with 1 chain...
+## 
+## Chain 1 Iteration: 1 / 3 [ 33%]  (Warmup) 
+## Chain 1 Iteration: 2 / 3 [ 66%]  (Sampling) 
+## Chain 1 Iteration: 3 / 3 [100%]  (Sampling) 
+## Chain 1 finished in 0.2 seconds.</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>simulation &lt;-<span class="st"> </span><span class="kw">as.vector</span>(sim<span class="op">$</span><span class="kw">draws</span>(<span class="dt">variables =</span> <span class="st">&quot;q_obs&quot;</span>)[<span class="dv">1</span>, , ])</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>q_obs &lt;-<span class="st"> </span><span class="kw">array</span>(<span class="ot">NA</span>, <span class="kw">c</span>(n, <span class="dv">2</span>))</span>
+<span id="cb6-4"><a href="#cb6-4"></a>q_obs[, <span class="dv">1</span>] &lt;-<span class="st"> </span>simulation[<span class="dv">1</span><span class="op">:</span><span class="dv">40</span>]</span>
+<span id="cb6-5"><a href="#cb6-5"></a>q_obs[, <span class="dv">2</span>] &lt;-<span class="st"> </span>simulation[<span class="dv">41</span><span class="op">:</span><span class="dv">80</span>]</span>
+<span id="cb6-6"><a href="#cb6-6"></a></span>
+<span id="cb6-7"><a href="#cb6-7"></a>sub_set &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="dv">1</span>, <span class="dt">to =</span> <span class="dv">40</span>, <span class="dt">by =</span> <span class="dv">2</span>)</span>
+<span id="cb6-8"><a href="#cb6-8"></a>plot &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(<span class="dt">q_x =</span> q_obs[sub_set, <span class="dv">1</span>], </span>
+<span id="cb6-9"><a href="#cb6-9"></a>                                 <span class="dt">q_y =</span> q_obs[sub_set, <span class="dv">2</span>], </span>
+<span id="cb6-10"><a href="#cb6-10"></a>                                 <span class="dt">time =</span> sub_set), </span>
+<span id="cb6-11"><a href="#cb6-11"></a>               <span class="kw">aes</span>(<span class="dt">x =</span> q_x, <span class="dt">y =</span> q_y, <span class="dt">label =</span> time)) <span class="op">+</span><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></span>
+<span id="cb6-12"><a href="#cb6-12"></a><span class="st">  </span><span class="kw">geom_text</span>()</span>
+<span id="cb6-13"><a href="#cb6-13"></a>plot</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-2-1.png" width="384" /></p>
+</div>
+</div>
+<div id="sec3" class="section level2 unnumbered" number="">
+<h2>Fitting a simple model and diagnosing inference</h2>
+<p>A first attempt at fitting the complete model (<a href="https://github.com/stan-dev/example-models/blob/master/knitr/planetary_motion/model/planetary_motion_star.stan">planetary_motion_star.stan</a>) fails spectacularly: the chains do not converge and take a long time to run.
+This is an invitation to start with a simpler model.
+A useful simplification is more manageable but still exhibits the challenges we encounter with the complete model.
+The hope is that a fix in this simple context translates into a fix in a more sophisticated setting.
+This turns out to be true here where a simple one-parameter model allows us to understand the fundamentally multimodal nature of the model.</p>
+<p>There are many ways to simplify a model.
+A general approach is to fix some of the parameters, which we can easily do when working with simulated data.
+We fix all the parameters, except for <span class="math inline">\(k\)</span>, and writhe the file <code>planetary_motion.stan</code>.
+We now want to characterize the posterior distribution,
+<span class="math display">\[
+   p(k \mid q_\mathrm{obs}),
+\]</span>
+by fitting the model with Stan.
+Since <span class="math inline">\(k\)</span> is a scalar, we could use quadrature but our goal is to understand the pathologies that frustrate our inference algorithm, so we stick to MCMC.
+As a prior, we use
+<span class="math display">\[
+  k \sim \mathrm{Normal}^+(0, 1).
+\]</span></p>
+<p>We fit 8 chains in parallel.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a>chains &lt;-<span class="st"> </span><span class="dv">8</span></span></code></pre></div>
+<pre><code>mod &lt;- cmdstan_model(&quot;model/planetary_motion.stan&quot;)
+fit &lt;- mod$sample(data = list(n = n, q_obs = q_obs),
+                  chains = chains, parallel_chains = chains,
+                  iter_warmup = 500,
+                  iter_sampling = 500,
+                  seed = 123, save_warmup = TRUE)
+
+
+fit$save_object(file = &quot;saved_fit/fit1.RDS&quot;)</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="co"># The model takes a while to run, so we read in the saved output.</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a>r_fit1 &lt;-<span class="st"> </span><span class="kw">readRDS</span>(<span class="st">&quot;saved_fit/fit1.RDS&quot;</span>)</span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="kw">print</span>(r_fit1<span class="op">$</span><span class="kw">time</span>(), <span class="dt">digits =</span> <span class="dv">3</span>)</span></code></pre></div>
+<pre><code>## $total
+## [1] 4434
+## 
+## $chains
+##   chain_id  warmup sampling   total
+## 1        1    5.67     4.57   10.56
+## 2        2    1.71     1.54    3.40
+## 3        3 2380.82  2047.75 4433.93
+## 4        4  175.61     6.21  181.98
+## 5        5    1.78     1.54    3.50
+## 6        6    5.66     4.77   10.74
+## 7        7    1.77     1.65    3.59
+## 8        8    5.56     4.57   10.42</code></pre>
+<p>The first notable pathology is that some of the chains take a much longer time to run. The difference is not subtle…</p>
+<p>Let’s examine the summary.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a>r_fit1<span class="op">$</span><span class="kw">summary</span>(<span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>))[, <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">9</span>)]</span></code></pre></div>
+<pre><code>## # A tibble: 2 x 5
+##   variable       mean        sd  rhat ess_bulk
+##   &lt;chr&gt;         &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
+## 1 lp__     -217422.   169013.    2.67     9.49
+## 2 k              2.43      1.69  2.62     9.56</code></pre>
+<p><span class="math inline">\(\hat R \gg 1\)</span>.
+Wow, these numbers are dramatic!
+Clearly the chains are not mixing and we can visualize this using trace plots.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a>bayesplot<span class="op">::</span><span class="kw">mcmc_trace</span>(r_fit1<span class="op">$</span><span class="kw">draws</span>(),</span>
+<span id="cb13-2"><a href="#cb13-2"></a>                      <span class="dt">pars =</span> <span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>))</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>Notice that chains 3 and 4, which ran for longer than 1000 seconds, sample around the largest values of <span class="math inline">\(k\)</span> and also produce the lowest log posterior distribution.
+It’s not uncommon for issues to come in bulks.
+By contrast, chains that sample around <span class="math inline">\(k = 1\)</span> run in ~2 seconds, and produce a high log posterior.</p>
+<p>At this point, we may formulate several hypothesis as to what may be happening:</p>
+<ul>
+<li>The model is degenerate and cannot resolve the correct value of <span class="math inline">\(k\)</span>.</li>
+<li>The chains get stuck at local modes and cannot escape, even if the log posterior is much higher near <span class="math inline">\(k = 1\)</span>.</li>
+<li>The chains get stuck on flat surfaces, and the gradient doesn’t guide the chain back to <span class="math inline">\(k \approx 1\)</span>.</li>
+<li>The numerical integrator struggles to accurately solve the ODEs for large values of <span class="math inline">\(k\)</span>. This means the ODE integrator is slower or even inaccurate.
+In the latter case, this also means our gradient calculations, and computation of HMC could be wrong.</li>
+</ul>
+<div id="sec3.1" class="section level3 unnumbered" number="">
+<h3>Is the model degenerate?</h3>
+<p>Bearing a slight abuse of language, we use “degenerate” to mean that wildly different values of <span class="math inline">\(k\)</span> roughly produce the same data generating process.
+We can check for degeneracy by looking at the <em>posterior predictive checks</em>, split across chains.
+We plot <span class="math inline">\(q_x\)</span> against <span class="math inline">\(q_y\)</span>, and for each chain, compute the median estimate for <span class="math inline">\(q_\mathrm{pred}\)</span>, obtained using the <code>generated quantities block</code>.
+Note that since we fixed <span class="math inline">\(\sigma = 0.01\)</span>, we expect the confidence interval to be very narrow.</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a>data_pred &lt;-<span class="st"> </span><span class="kw">data.frame</span>(q_obs, <span class="dv">1</span><span class="op">:</span>n)</span>
+<span id="cb14-2"><a href="#cb14-2"></a><span class="kw">names</span>(data_pred) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;qx&quot;</span>, <span class="st">&quot;qy&quot;</span>, <span class="st">&quot;t&quot;</span>)</span>
+<span id="cb14-3"><a href="#cb14-3"></a></span>
+<span id="cb14-4"><a href="#cb14-4"></a><span class="kw">ppc_plot2D</span>(r_fit1, <span class="dt">data_pred =</span> data_pred)</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Clearly, only the chains that landed close to <span class="math inline">\(k = 1\)</span> (chains 2, 5, and 7) are able to fit the data.
+This is consistent with the much higher log posterior density these chains produce.
+Degeneracy therefore doesn’t drive the lack of convergence because otherwise the different chains would produce roughly the same predictions.
+<!-- So degeneracy alone does not explain the lack of convergence. -->
+<!-- Nevertheless, the chains may still be getting stuck at smaller modes, in the tail of $k$'s distribution. --></p>
+<p>At this point, we have taken “standard” steps to diagnose issues with our inference.
+To fully grasp what prevents the chains from mixing, we require a more bespoke analysis.
+We summarize our reasoning, noting it involves unmentioned trials and errors, and long moments of pondering.</p>
+</div>
+<div id="sec3.2" class="section level3 unnumbered" number="">
+<h3>The wanderers: how do the chains even find these presumed modes?</h3>
+<p>Given our prior, <span class="math inline">\(k \sim \mathrm{normal}^+(0, 1)\)</span>, and the very strong log posterior density around <span class="math inline">\(k = 1\)</span>, we may wonder: how did the chains drift to these distant modes?
+Based on the trace plots, the chains appear to be relatively static during the sampling phase.
+We extend the trace plots to include the warmup phase.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>bayesplot<span class="op">::</span><span class="kw">mcmc_trace</span>(r_fit1<span class="op">$</span><span class="kw">draws</span>(<span class="dt">inc_warmup =</span> <span class="ot">TRUE</span>), <span class="dt">pars =</span> <span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>),</span>
+<span id="cb15-2"><a href="#cb15-2"></a>                      <span class="dt">n_warmup =</span> <span class="dv">500</span>)</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p>It is now clear that the chain’s final position is mostly driven by its initial point.
+It then only takes a few iterations for the chain to be trapped inside a mode.
+We further note that the initial points, which are based on Stan’s defaults, are inconsistent with our prior.
+Currently, the starting point are sampled from a uniform distribution over (-2, 2), over the unconstrained space.
+That is
+<span class="math display">\[
+  \log k^{(0)} \sim \mathrm{uniform}(-2, 2).
+\]</span>
+The bounds of <span class="math inline">\(k\)</span> are thence <span class="math inline">\((\sim 0.13, 7.4)\)</span>, which is a rather large range.
+Inevitably, some of the chains start in the far tails of <span class="math inline">\(p(k \mid y)\)</span> and cannot make it back.</p>
+</div>
+<div id="sec3.3" class="section level3 unnumbered" number="">
+<h3>Confirming the existence of local modes</h3>
+<p>Because the parameter space is one-dimensional, we can “cheat” a bit
+– well, we’ve earned it by setting up a simplified problem –
+and compute the joint distribution (i.e. unnormalized posterior) across a grid of values for <span class="math inline">\(k\)</span> to check that the modes indeed exist.</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a>ks &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="fl">0.2</span>, <span class="dt">to =</span> <span class="dv">9</span>, <span class="dt">by =</span> <span class="fl">0.01</span>)</span>
+<span id="cb16-2"><a href="#cb16-2"></a>q0 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="fl">1.0</span>, <span class="dv">0</span>)</span>
+<span id="cb16-3"><a href="#cb16-3"></a>p0 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">0</span>, <span class="fl">1.0</span>)</span>
+<span id="cb16-4"><a href="#cb16-4"></a>dt &lt;-<span class="st"> </span><span class="fl">0.001</span></span>
+<span id="cb16-5"><a href="#cb16-5"></a>m &lt;-<span class="st"> </span><span class="dv">1</span></span>
+<span id="cb16-6"><a href="#cb16-6"></a>n_obs &lt;-<span class="st"> </span><span class="kw">nrow</span>(q_obs)</span>
+<span id="cb16-7"><a href="#cb16-7"></a>ts &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span>n_obs <span class="op">/</span><span class="st"> </span><span class="dv">10</span></span>
+<span id="cb16-8"><a href="#cb16-8"></a></span>
+<span id="cb16-9"><a href="#cb16-9"></a>sigma_x &lt;-<span class="st"> </span><span class="fl">0.01</span></span>
+<span id="cb16-10"><a href="#cb16-10"></a>sigma_y &lt;-<span class="st"> </span><span class="fl">0.01</span></span>
+<span id="cb16-11"><a href="#cb16-11"></a></span>
+<span id="cb16-12"><a href="#cb16-12"></a>lk &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="ot">NA</span>, <span class="kw">length</span>(ks))</span>
+<span id="cb16-13"><a href="#cb16-13"></a></span>
+<span id="cb16-14"><a href="#cb16-14"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(ks)) {</span>
+<span id="cb16-15"><a href="#cb16-15"></a>  k &lt;-<span class="st"> </span>ks[i]</span>
+<span id="cb16-16"><a href="#cb16-16"></a>  </span>
+<span id="cb16-17"><a href="#cb16-17"></a>  q_sim &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts)</span>
+<span id="cb16-18"><a href="#cb16-18"></a>  </span>
+<span id="cb16-19"><a href="#cb16-19"></a>  lk[i] &lt;-<span class="st"> </span></span>
+<span id="cb16-20"><a href="#cb16-20"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">1</span>], q_sim[, <span class="dv">1</span>], sigma_x, <span class="dt">log =</span> T)) <span class="op">+</span></span>
+<span id="cb16-21"><a href="#cb16-21"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">2</span>], q_sim[, <span class="dv">2</span>], sigma_y, <span class="dt">log =</span> T)) <span class="op">+</span></span>
+<span id="cb16-22"><a href="#cb16-22"></a><span class="st">    </span><span class="kw">dnorm</span>(k, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dt">log =</span> T)</span>
+<span id="cb16-23"><a href="#cb16-23"></a>}</span>
+<span id="cb16-24"><a href="#cb16-24"></a></span>
+<span id="cb16-25"><a href="#cb16-25"></a>plot &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(<span class="dt">ks =</span> ks, <span class="dt">lk =</span> lk),</span>
+<span id="cb16-26"><a href="#cb16-26"></a>               <span class="kw">aes</span>(<span class="dt">x =</span> ks, <span class="dt">y =</span> lk)) <span class="op">+</span><span class="st"> </span><span class="kw">theme_bw</span>() <span class="op">+</span></span>
+<span id="cb16-27"><a href="#cb16-27"></a><span class="st">  </span><span class="kw">geom_line</span>() <span class="op">+</span><span class="st"> </span><span class="kw">theme</span>(<span class="dt">text =</span> <span class="kw">element_text</span>(<span class="dt">size =</span> <span class="dv">18</span>)) <span class="op">+</span></span>
+<span id="cb16-28"><a href="#cb16-28"></a><span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;log joint&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">xlab</span>(<span class="st">&quot;k&quot;</span>)</span>
+<span id="cb16-29"><a href="#cb16-29"></a>plot</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>There is a strong mode at <span class="math inline">\(k = 1\)</span> and a “wiggly” tail for larger values of <span class="math inline">\(k\)</span>, with some notable local modes.</p>
+</div>
+<div id="sec3.4" class="section level3 unnumbered" number="">
+<h3>Elliptical motion induces multimodality</h3>
+<p>To understand how these modes arise, we may reason about the log likelihood as a function that penalizes large distances between <span class="math inline">\(q_\mathrm{obs}\)</span> and <span class="math inline">\(q(k)\)</span>, the positions we obtain when we simulate trajectories for a certain value of <span class="math inline">\(k\)</span>.
+Indeed
+<span class="math display">\[
+ \log p(q_\mathrm{obs} \mid k) = C - \frac{1}{2\sigma^2} 
+   ||q_\mathrm{obs} - q(k))||^2_2,
+\]</span>
+where <span class="math inline">\(C\)</span> is a constant which doesn’t depend on <span class="math inline">\(k\)</span>.</p>
+<p>Let us now simulate trajectories for various values of <span class="math inline">\(k\)</span>.</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a>k &lt;-<span class="st"> </span><span class="fl">0.5</span></span>
+<span id="cb17-2"><a href="#cb17-2"></a>q_<span class="dv">050</span> &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts)</span>
+<span id="cb17-3"><a href="#cb17-3"></a>k &lt;-<span class="st"> </span><span class="fl">1.6</span></span>
+<span id="cb17-4"><a href="#cb17-4"></a>q_<span class="dv">160</span> &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts)</span>
+<span id="cb17-5"><a href="#cb17-5"></a>k &lt;-<span class="st"> </span><span class="fl">2.16</span></span>
+<span id="cb17-6"><a href="#cb17-6"></a>q_<span class="dv">216</span> &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts)</span>
+<span id="cb17-7"><a href="#cb17-7"></a>k &lt;-<span class="st"> </span><span class="dv">3</span></span>
+<span id="cb17-8"><a href="#cb17-8"></a>q_<span class="dv">300</span> &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts)</span>
+<span id="cb17-9"><a href="#cb17-9"></a></span>
+<span id="cb17-10"><a href="#cb17-10"></a>q_plot &lt;-<span class="st"> </span><span class="kw">rbind</span>(q_obs, q_<span class="dv">050</span>, q_<span class="dv">160</span>, q_<span class="dv">216</span>, q_<span class="dv">300</span>)</span>
+<span id="cb17-11"><a href="#cb17-11"></a>k_plot &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="kw">c</span>(<span class="st">&quot;1.0&quot;</span>, <span class="st">&quot;0.5&quot;</span>, <span class="st">&quot;1.6&quot;</span>, <span class="st">&quot;2.16&quot;</span>, <span class="st">&quot;3.00&quot;</span>), <span class="dt">each =</span> <span class="dv">40</span>)</span>
+<span id="cb17-12"><a href="#cb17-12"></a>plot_data &lt;-<span class="st"> </span><span class="kw">data.frame</span>(q_plot, k_plot, <span class="dt">obs =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">40</span>)</span>
+<span id="cb17-13"><a href="#cb17-13"></a><span class="kw">names</span>(plot_data) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;qx&quot;</span>, <span class="st">&quot;qy&quot;</span>, <span class="st">&quot;k&quot;</span>, <span class="st">&quot;obs&quot;</span>)</span>
+<span id="cb17-14"><a href="#cb17-14"></a></span>
+<span id="cb17-15"><a href="#cb17-15"></a>comp_point &lt;-<span class="st"> </span><span class="dv">35</span></span>
+<span id="cb17-16"><a href="#cb17-16"></a>select &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span>(<span class="dv">40</span> <span class="op">*</span><span class="st"> </span><span class="dv">5</span>)</span>
+<span id="cb17-17"><a href="#cb17-17"></a></span>
+<span id="cb17-18"><a href="#cb17-18"></a>plot &lt;-<span class="st"> </span><span class="kw">ggplot</span>() <span class="op">+</span><span class="st"> </span><span class="kw">geom_path</span>(<span class="dt">data =</span> plot_data[select, ], </span>
+<span id="cb17-19"><a href="#cb17-19"></a>                         <span class="kw">aes</span>(<span class="dt">x =</span> qx, <span class="dt">y =</span> qy, <span class="dt">color =</span> k)) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb17-20"><a href="#cb17-20"></a><span class="st">  </span><span class="kw">theme_bw</span>() <span class="op">+</span></span>
+<span id="cb17-21"><a href="#cb17-21"></a><span class="st">  </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(<span class="dt">x =</span> q_<span class="dv">216</span>[comp_point, <span class="dv">1</span>], <span class="dt">y =</span> q_<span class="dv">216</span>[comp_point, <span class="dv">2</span>]),</span>
+<span id="cb17-22"><a href="#cb17-22"></a>            <span class="dt">shape =</span> <span class="dv">3</span>) <span class="op">+</span></span>
+<span id="cb17-23"><a href="#cb17-23"></a><span class="st">  </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(<span class="dt">x =</span> q_<span class="dv">160</span>[comp_point, <span class="dv">1</span>], <span class="dt">y =</span> q_<span class="dv">160</span>[comp_point, <span class="dv">2</span>]),</span>
+<span id="cb17-24"><a href="#cb17-24"></a>             <span class="dt">shape =</span> <span class="dv">3</span>) <span class="op">+</span></span>
+<span id="cb17-25"><a href="#cb17-25"></a><span class="st">  </span><span class="kw">geom_point</span>(<span class="kw">aes</span>(<span class="dt">x =</span> q_obs[comp_point, <span class="dv">1</span>], <span class="dt">y =</span> q_obs[comp_point, <span class="dv">2</span>])) <span class="op">+</span></span>
+<span id="cb17-26"><a href="#cb17-26"></a><span class="st">  </span><span class="co"># Add segments to compare distances.</span></span>
+<span id="cb17-27"><a href="#cb17-27"></a><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> q_obs[comp_point, <span class="dv">1</span>], <span class="dt">y =</span> q_obs[comp_point, <span class="dv">2</span>],</span>
+<span id="cb17-28"><a href="#cb17-28"></a>                   <span class="dt">xend =</span> q_<span class="dv">216</span>[comp_point], </span>
+<span id="cb17-29"><a href="#cb17-29"></a>                   <span class="dt">yend =</span> q_<span class="dv">216</span>[comp_point, <span class="dv">2</span>]),</span>
+<span id="cb17-30"><a href="#cb17-30"></a>               <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>) <span class="op">+</span></span>
+<span id="cb17-31"><a href="#cb17-31"></a><span class="st">  </span><span class="kw">geom_segment</span>(<span class="kw">aes</span>(<span class="dt">x =</span> q_obs[comp_point, <span class="dv">1</span>], <span class="dt">y =</span> q_obs[comp_point, <span class="dv">2</span>],</span>
+<span id="cb17-32"><a href="#cb17-32"></a>                   <span class="dt">xend =</span> q_<span class="dv">160</span>[comp_point, <span class="dv">1</span>], </span>
+<span id="cb17-33"><a href="#cb17-33"></a>                   <span class="dt">yend =</span> q_<span class="dv">160</span>[comp_point, <span class="dv">2</span>]),</span>
+<span id="cb17-34"><a href="#cb17-34"></a>               <span class="dt">linetype =</span> <span class="st">&quot;dashed&quot;</span>) <span class="op">+</span></span>
+<span id="cb17-35"><a href="#cb17-35"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">text =</span> <span class="kw">element_text</span>(<span class="dt">size =</span> <span class="dv">18</span>)) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb17-36"><a href="#cb17-36"></a><span class="st">  </span><span class="kw">xlab</span>(<span class="kw">TeX</span>(<span class="st">&quot;$q_x$&quot;</span>)) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="kw">TeX</span>(<span class="st">&quot;$q_y$&quot;</span>))</span>
+<span id="cb17-37"><a href="#cb17-37"></a>  </span>
+<span id="cb17-38"><a href="#cb17-38"></a>plot</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p>As <span class="math inline">\(k\)</span>, and therefore the gravitational force, increases, the orbit becomes shorter.
+The orbit eventually gets so short that for high enough values of <span class="math inline">\(k\)</span>, the planet undergoes multiple orbits in the observed time.
+We next note that for <span class="math inline">\(k &lt; 1\)</span>, the trajectory can drift arbitrarily far away from the observed ellipsis.
+On the other hand, for <span class="math inline">\(k &gt; 1\)</span>, the simulated ellipsis must be contained inside the observed ellipsis, which bounds the distance between <span class="math inline">\(q_\mathrm{obs}\)</span> and <span class="math inline">\(q\)</span>.
+Finally, as we change <span class="math inline">\(k\)</span> and “rotate” the ellipsis, some of the observed and simulated positions become more aligned,
+which induces the wiggles in the tail of the likelihood and creates the local modes.
+This can be seen with the <span class="math inline">\(35^\mathrm{th}\)</span> observation, where the observed trajectory at <span class="math inline">\(k = 1\)</span> is closer to the trajectory simulated when <span class="math inline">\(k = 2.16\)</span> than when <span class="math inline">\(k = 1.6\)</span>.</p>
+<p>Clearly the local modes are a mathematical artifact caused by the interaction between our measurement model and the observed elliptical motion:
+they do not describe a latent phenomenon of interest.
+It also clear, from the trace and likelihood plot, that the minor modes contribute a negligible probability mass to the posterior distribution.
+This means that any chain which doesn’t explore the dominant mode wastes our precious computational resources.</p>
+</div>
+<div id="sec3.5" class="section level3 unnumbered" number="">
+<h3>Bad Markov chain, slow Markov chain?</h3>
+<p>Not only are the samples produced by the misbehaving chains essentially useless when computing summary quantities, such as expectation values and quantiles;
+they also take much longer to run!
+Let’s elucidate why that is.</p>
+<p>A priori, the ODE we solve is fairly simple.
+It certainly is when <span class="math inline">\(k = 1\)</span>.
+But the problem becomes numerically more difficult for large values of <span class="math inline">\(k\)</span>,
+because for each step <span class="math inline">\(\Delta t\)</span>, the planet travels a longer trajectory;
+this means a greater change in <span class="math inline">\(q\)</span> and <span class="math inline">\(p\)</span>.
+Hence, in order to achieve the same precision, a numerical integrator must take smaller step sizes, leading to longer integration times.</p>
+<p>There is wisdom is this anecdote: an easy deterministic problem can become difficult in a Bayesian analysis.
+Indeed Bayesian inference requires us to solve the problem across a range of parameter values, which means we must sometimes confront unsuspected versions of the said problem.
+In our experience, notably with differential equation based models in pharmacology and epidemiology, we sometime require a more computationally expensive stiff solver to tackle difficult ODEs generated during the warmup phase;
+on the other hand, the problem behaves better during the sampling phase.</p>
+<p>Other times, slow computation can alert us that our inference is allowing for absurd parameter values and that we need either better priors or more reasonable initial points.</p>
+<p>Ideally, we would want our algorithm to fail fast – it does the opposite.
+We however note that, waiting for the chains to undergo 1,000 iterations was unnecessary.
+The observed failure could have been diagnosed by running the algorithm for a shorter time,
+which is an important perspective to keep in mind in the early stages of model development.</p>
+</div>
+<div id="sec3.6" class="section level3 unnumbered" number="">
+<h3>Improving the inference</h3>
+<p>Equipped with a sound understanding of the pathology at hand, we can try to improve our inference.
+Three candidate solutions come to mind.</p>
+<div id="sec3.6.1" class="section level4 unnumbered" number="">
+<h4>Build stronger priors</h4>
+<p>One option is to build a more informative prior to reflect our belief that a high value of <span class="math inline">\(k\)</span> is implausible; or that any data generating process that suggests the planet undergoes several orbits over the observation time is unlikely.
+When such information is available, stronger priors can indeed improve computation.
+This is unfortunately not the case here.
+A stronger prior would reduce the density at the mode, but the wiggles in the tail of the posterior would persist.
+Given MCMC uses an unnormalized posterior density to explore the parameter space, a change in the magnitude of the log density will have no effect, even though a change in the gradient can affect HMC.
+Paradoxically, with more data, the tail wiggles become stronger: the model is fundamentally multimodal.
+Note further that our current prior, <span class="math inline">\(k \sim \mathrm{normal}^+(0, 1)\)</span>, is already inconsistent with the values <span class="math inline">\(k\)</span> takes at the minor modes.
+In principle we could go a step further and add a hard constraint on orbital time or velocity to remove the modes.</p>
+</div>
+<div id="sec3.6.2" class="section level4 unnumbered" number="">
+<h4>Reweight draws from each chain</h4>
+<p>One issue is that the Markov chains fail to transition from one mode to the other, meaning some chains sample over a region with a low probability mass.
+We can correct our Monte Carlo estimate using a re-weighting scheme, such as stacking <span class="citation">(Yao, Vehtari, and Gelman 2018)</span>.
+This strategy likely gives us reasonable Monte Carlo estimates, but: (i) we will not comprehensively explore all the modes with 8 chains, so stacking should really be treated as discarding the chains stuck at local modes and (ii) we still pay a heavy computational price, as the chains in minor modes take up to <span class="math inline">\(\sim\)</span> 1000 times longer to run.</p>
+</div>
+<div id="sec3.6.3" class="section level4 unnumbered" number="">
+<h4>Tune the starting points</h4>
+<p>Stan’s default initial points produce values which are inconsistent with our prior (and our domain expertise).
+In a non-asymptotic regime, the Markov chain doesn’t always “forget” its starting point, and it is unlikely to do so here even if we run the chain for many <em>many</em> more iterations.
+We can therefore not ignore this tuning parameter in our algorithm.
+What then constitutes an appropriate starting point?</p>
+<p>There are various considerations.
+In order to assess whether our chains converge, notably with <span class="math inline">\(\hat R\)</span>, our starting points should be overdispersed, relative to our posterior <span class="citation">(e.g. Vehtari et al. 2020)</span>.
+But clearly, for this and other examples, too much dispersion can prevent certain chains from exploring the relevant regions of the parameter space.
+One heuristic is to sample the starting point from the prior distribution, or potentially from an overdispered prior.</p>
+<p>Another perspective is to simply admit that there is no one-size-fits-all solution.
+This is very much true of other tuning parameters of our algorithm, such as the length of the warmup or the target acceptance rate of HMC.
+While defaults exist, a first attempt at fitting the model can motivate adjustments.
+In this sense, we can justify using a tighter distribution to draw the starting points after examining the behavior of the Markov chains with a broad starting distribution.</p>
+<p>This doesn’t sound ideal, if failing to fit the model takes <span class="math inline">\(\sim\)</span> 2,000 seconds!
+As mentioned before, we however didn’t need to wait this long to diagnose a failure in our inference and the here presented analysis could have been made with 100 MCMC draws.</p>
+</div>
+<div id="sec3.6.4" class="section level4 unnumbered" number="">
+<h4>Fitting the simplified model</h4>
+<p>We opt for the third candidate solution and use
+<span class="math display">\[
+  \log k^{(0)} \sim \mathrm{uniform}(-0.5, 0.5).
+\]</span></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a>mod &lt;-<span class="st"> </span><span class="kw">cmdstan_model</span>(<span class="st">&quot;model/planetary_motion.stan&quot;</span>)</span>
+<span id="cb18-2"><a href="#cb18-2"></a></span>
+<span id="cb18-3"><a href="#cb18-3"></a>fit &lt;-<span class="st"> </span>mod<span class="op">$</span><span class="kw">sample</span>(<span class="dt">data =</span> <span class="kw">list</span>(<span class="dt">n =</span> n, <span class="dt">q_obs =</span> q_obs), </span>
+<span id="cb18-4"><a href="#cb18-4"></a>                  <span class="dt">init =</span> <span class="fl">0.5</span>,</span>
+<span id="cb18-5"><a href="#cb18-5"></a>                  <span class="dt">chains =</span> chains, <span class="dt">parallel_chains =</span> chains,</span>
+<span id="cb18-6"><a href="#cb18-6"></a>                  <span class="dt">iter_warmup =</span> <span class="dv">500</span>, </span>
+<span id="cb18-7"><a href="#cb18-7"></a>                  <span class="dt">iter_sampling =</span> <span class="dv">500</span>, </span>
+<span id="cb18-8"><a href="#cb18-8"></a>                  <span class="dt">seed =</span> <span class="dv">123</span>, <span class="dt">save_warmup =</span> <span class="ot">TRUE</span>, <span class="dt">refresh =</span> <span class="dv">0</span>)</span></code></pre></div>
+<pre><code>## Running MCMC with 8 parallel chains...
+## 
+## Chain 3 finished in 3.8 seconds.
+## Chain 4 finished in 3.9 seconds.
+## Chain 5 finished in 4.0 seconds.
+## Chain 7 finished in 4.0 seconds.
+## Chain 1 finished in 4.2 seconds.
+## Chain 2 finished in 4.2 seconds.
+## Chain 8 finished in 4.1 seconds.
+## Chain 6 finished in 4.2 seconds.
+## 
+## All 8 chains finished successfully.
+## Mean chain execution time: 4.1 seconds.
+## Total execution time: 4.3 seconds.</code></pre>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a>fit<span class="op">$</span><span class="kw">summary</span>(<span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>))[, <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">9</span>)]</span></code></pre></div>
+<pre><code>## # A tibble: 2 x 5
+##   variable   mean       sd  rhat ess_bulk
+##   &lt;chr&gt;     &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
+## 1 lp__     -36.1  0.706     1.00    2009.
+## 2 k          1.00 0.000328  1.00    1422.</code></pre>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a>bayesplot<span class="op">::</span><span class="kw">mcmc_trace</span>(fit<span class="op">$</span><span class="kw">draws</span>(<span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>)))</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p>Everything now looks good. The chains converge near <span class="math inline">\(k = 1\)</span>, and simulate predictions that are consistent with the data.</p>
+</div>
+</div>
+</div>
+<div id="sec4" class="section level2 unnumbered" number="">
+<h2>Building the model back up: position and momentum</h2>
+<p>Starting from the simplified model, we now build our way back to the original model.
+We do so by “unfixing” one or two parameters at a time.
+In total, we fit four models, which gradually estimate more parameters,
+<span class="math display">\[
+(k) \to (k, p_0) \to (k, p_0, q_0) \to (k, p_0, q_0, q_*).
+\]</span></p>
+<p>It turns out fitting more sophisticated models is not quite straightforward but we can put what we have learned from the simplified model to good use.
+Most inference problems we encounter across the models we fit can be traced back to the interaction between the likelihood and the cyclical observations – an elementary notion, once grasped, but which would have been difficult to discover in a less simple setting than the one we used.</p>
+<p>For several parameters, we adjust the starting point, especially when encoding stronger priors is neither helpful (because of the fundamental multimodality), nor possible. An example is the initial momentum, <span class="math inline">\(p_0\)</span>, and the initial position, <span class="math inline">\(q_0\)</span>.</p>
+<p>We have no a priori information for the direction of the momemtum.
+A graphical inspection of the data suggests the planet is moving counter-clockwise.
+Recall that in our simulation, <span class="math inline">\(p_0 = (1, 0)\)</span>.
+A first attempt at fitting the model shows there exists a mode at <span class="math inline">\(p_0 \approx (-0.5, -1.5)\)</span>, which means the planet is moving clockwise!
+If the planet moves fast enough, some of the generated trajectory does in fact align with the observed trajectory (thank you posterior predictives for helping us spot this!), leading to a similar problem than the one we observed before hand.
+To guide the Markov chain to a region with high probability mass, we start wit a crude estimate:
+<span class="math display">\[
+  \hat p = \frac{q_{\mathrm{obs},2} - q_{\mathrm{obs}, 1}}{t_2 - t_1},
+\]</span>
+and similarly with the initial position
+<span class="math display">\[
+  \hat q = q_\mathrm{obs, 1}. 
+\]</span>
+We can then perturb these values to make sure the chains start at different points.</p>
+</div>
+<div id="sec5" class="section level2 unnumbered" number="">
+<h2>Expending the model to estimate the position of the star</h2>
+<p>So far, we have assumed that the star was positioned at the origin, that is <span class="math inline">\(q_* = (0, 0)\)</span>.
+We now relax this assumption and treat the position of the star as unknown.
+This requires adding two parameters to the model, <span class="math inline">\(q_*\)</span> (<code>star</code> in the model), and adjusting Hamilton’s equations to make sure that <span class="math inline">\(r\)</span> is the distance between <span class="math inline">\(q\)</span> and <span class="math inline">\(q_*\)</span> and that <span class="math inline">\(\mathrm d p / \mathrm d t\)</span> points from the planet to the star.</p>
+<p>The assumption that the position of the star is fixed only works if the star is much more massive than the planet.
+In the previous model, setting <span class="math inline">\(q_* = (0, 0)\)</span> enforced that the star stays fixed.
+In this new model, we will attempt to encode this belief in our priors.</p>
+<div id="sec5.1" class="section level3 unnumbered" number="">
+<h3>Encoding more information in our prior</h3>
+<p>The stellar mass doesn’t explicitly appear in the model.
+Instead, we work with
+<span class="math display">\[
+  k = GMm.
+\]</span>
+Let us consider our solar system.
+The solar mass is
+<span class="math display">\[
+  M_* = 2 \times 10^{30} \mathrm{kg}.
+\]</span>
+The mass of the planet can vary widely.
+Earth’s mass is
+<span class="math display">\[
+  m_\mathcal{E} = 6 \times 10^{24} \mathrm{kg},
+\]</span>
+that of Jupiter
+<span class="math display">\[
+  m_\mathcal{J} = 1.9 \times 10^{27} \mathrm{kg}.
+\]</span>
+In the unusual case where we could record the position of an exoplanet, the mass of the host star could also vary widely.</p>
+<p>Nevertheless, these orders of magnitude are telling.
+Let’s take as an implicit prior,
+<span class="math display">\[
+  M \sim \mathrm{Normal}(10^3, 5 \times 10^2),
+\]</span>
+which we might expect if we are observing a Jovian planet.
+In the right units, <span class="math inline">\(G = 10^{-3}\)</span>, and <span class="math inline">\(k = 1\)</span>.
+The above prior then becomes
+<span class="math display">\[
+  k \sim \mathrm{Normal}(1, 5 \times 10^{-4}),
+\]</span>
+which is much more informative than what we initially used.
+Relaxing the above a little, we may roll with a prior such as <span class="math inline">\(k \sim \mathrm{Normal}(1, 10^{-3})\)</span>.</p>
+</div>
+<div id="sec5.2" class="section level3 unnumbered" number="">
+<h3>A first pass at fitting the model</h3>
+<p>Let us fit the model, using the initial conditions we developed above, plus a broad range of values for the star’s position, confined by the observations.</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a>mod &lt;-<span class="st"> </span><span class="kw">cmdstan_model</span>(<span class="st">&quot;model/planetary_motion_star.stan&quot;</span>)</span></code></pre></div>
+<pre><code>## Model executable is up to date!</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="co"># Process data for new model (same data, different format)</span></span>
+<span id="cb25-2"><a href="#cb25-2"></a>n_select &lt;-<span class="st"> </span><span class="dv">40</span></span>
+<span id="cb25-3"><a href="#cb25-3"></a>time &lt;-<span class="st"> </span>(<span class="dv">1</span><span class="op">:</span>n_select) <span class="op">/</span><span class="st"> </span><span class="dv">10</span></span>
+<span id="cb25-4"><a href="#cb25-4"></a>stan_data &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">n =</span> n_select, <span class="dt">q_obs =</span> q_obs, <span class="dt">time =</span> time, </span>
+<span id="cb25-5"><a href="#cb25-5"></a>                  <span class="dt">sigma =</span> sigma)</span>
+<span id="cb25-6"><a href="#cb25-6"></a></span>
+<span id="cb25-7"><a href="#cb25-7"></a>init_empirical &lt;-<span class="st"> </span><span class="cf">function</span>() {</span>
+<span id="cb25-8"><a href="#cb25-8"></a>  p0_empirical &lt;-<span class="st"> </span>(q_obs[<span class="dv">2</span>, ] <span class="op">-</span><span class="st"> </span>q_obs[<span class="dv">1</span>, ]) <span class="op">/</span><span class="st"> </span></span>
+<span id="cb25-9"><a href="#cb25-9"></a><span class="st">    </span>(stan_data<span class="op">$</span>time[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>stan_data<span class="op">$</span>time[<span class="dv">1</span>])</span>
+<span id="cb25-10"><a href="#cb25-10"></a>  q0_empirical &lt;-<span class="st"> </span>q_obs[<span class="dv">1</span>, ]</span>
+<span id="cb25-11"><a href="#cb25-11"></a>  sigma &lt;-<span class="st"> </span><span class="fl">0.1</span></span>
+<span id="cb25-12"><a href="#cb25-12"></a></span>
+<span id="cb25-13"><a href="#cb25-13"></a>  <span class="kw">list</span>(<span class="dt">k =</span> <span class="kw">abs</span>(<span class="kw">rnorm</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="fl">0.5</span>)),</span>
+<span id="cb25-14"><a href="#cb25-14"></a>       <span class="dt">p0 =</span> <span class="kw">c</span>(<span class="kw">rnorm</span>(<span class="dv">2</span>, p0_empirical, sigma)),</span>
+<span id="cb25-15"><a href="#cb25-15"></a>       <span class="dt">q0 =</span> <span class="kw">c</span>(<span class="kw">rnorm</span>(<span class="dv">2</span>, q0_empirical, sigma)),</span>
+<span id="cb25-16"><a href="#cb25-16"></a>       <span class="dt">star =</span> <span class="kw">c</span>(<span class="kw">runif</span>(<span class="dv">2</span>, <span class="dv">-1</span>, <span class="dv">1</span>))</span>
+<span id="cb25-17"><a href="#cb25-17"></a>       )</span>
+<span id="cb25-18"><a href="#cb25-18"></a>}</span>
+<span id="cb25-19"><a href="#cb25-19"></a></span>
+<span id="cb25-20"><a href="#cb25-20"></a>chains &lt;-<span class="st"> </span><span class="dv">8</span></span>
+<span id="cb25-21"><a href="#cb25-21"></a>init_files &lt;-<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;init/planetary_motion_star/init&quot;</span>, </span>
+<span id="cb25-22"><a href="#cb25-22"></a>                     <span class="dv">1</span><span class="op">:</span>chains, <span class="st">&quot;.json&quot;</span>)</span>
+<span id="cb25-23"><a href="#cb25-23"></a><span class="cf">if</span> (<span class="ot">FALSE</span>) {  <span class="co"># Set to TRUE to generate new inits; </span></span>
+<span id="cb25-24"><a href="#cb25-24"></a>              <span class="co"># else use existing inits.</span></span>
+<span id="cb25-25"><a href="#cb25-25"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>chains) {</span>
+<span id="cb25-26"><a href="#cb25-26"></a>    init_chain &lt;-<span class="st"> </span><span class="kw">init_empirical</span>()</span>
+<span id="cb25-27"><a href="#cb25-27"></a>    <span class="kw">write_stan_json</span>(init_chain, <span class="dt">file =</span> init_files[i])</span>
+<span id="cb25-28"><a href="#cb25-28"></a>  }</span>
+<span id="cb25-29"><a href="#cb25-29"></a>}</span></code></pre></div>
+<pre><code># (Code takes time to run; instead use saved output)
+fit &lt;- mod$sample(data = stan_data,
+                  init = init_files,
+                  chains = chains, parallel_chains = chains,
+                  iter_warmup = 500,
+                  iter_sampling = 500,
+                  seed = 123, save_warmup = TRUE)
+fit$save_object(file = &quot;saved_fit/fit_star.RDS&quot;)</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>r_fit2 &lt;-<span class="st"> </span><span class="kw">readRDS</span>(<span class="dt">file =</span> <span class="st">&quot;saved_fit/fit_star.RDS&quot;</span>)</span>
+<span id="cb27-2"><a href="#cb27-2"></a><span class="kw">print</span>(r_fit2<span class="op">$</span><span class="kw">time</span>(), <span class="dt">digits =</span> <span class="dv">3</span>)</span></code></pre></div>
+<pre><code>## $total
+## [1] 1702
+## 
+## $chains
+##   chain_id  warmup sampling  total
+## 1        1   42.10     34.0   77.0
+## 2        2   38.28     39.9   78.6
+## 3        3   44.60     35.5   80.7
+## 4        4    8.66     23.4   32.4
+## 5        5   38.35     38.3   77.1
+## 6        6   39.74     35.0   75.3
+## 7        7  510.81     69.3  580.7
+## 8        8 1410.23    290.8 1701.8</code></pre>
+<p>As commented before, we would’ve been wise not to run the algorithm for so many iterations… Stan returns several warning messages, including divergent transitions (for 343 out of 8,000 samples) and exceeded maximum treedepths (for 28 samples).
+We can check the warning message report using <code>fit$cmdstan_diagnose()</code>.
+As before, let’s examine a few diagnostics:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a>pars &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>, <span class="st">&quot;q0&quot;</span>, <span class="st">&quot;p0&quot;</span>, <span class="st">&quot;star&quot;</span>)</span>
+<span id="cb29-2"><a href="#cb29-2"></a>r_fit2<span class="op">$</span><span class="kw">summary</span>(pars)[, <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">9</span>)]</span></code></pre></div>
+<pre><code>## # A tibble: 8 x 5
+##   variable         mean          sd  rhat ess_bulk
+##   &lt;chr&gt;           &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
+## 1 lp__     -134685.     251018.      1.68     12.8
+## 2 k              0.925       0.185   1.61     13.8
+## 3 q0[1]          0.972       0.0656  1.61     13.6
+## 4 q0[2]          0.0276      0.0916  1.68     13.2
+## 5 p0[1]         -0.0300      0.111   1.66     13.5
+## 6 p0[2]          0.950       0.0972  1.76     12.1
+## 7 star[1]        0.182       0.349   2.16     10.4
+## 8 star[2]        0.121       0.238   1.59     13.7</code></pre>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1"></a>pars &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;lp__&quot;</span>, <span class="st">&quot;k&quot;</span>, <span class="st">&quot;q0[1]&quot;</span>, <span class="st">&quot;q0[2]&quot;</span>, <span class="st">&quot;p0[1]&quot;</span>, <span class="st">&quot;p0[2]&quot;</span>,</span>
+<span id="cb31-2"><a href="#cb31-2"></a>          <span class="st">&quot;star[1]&quot;</span>, <span class="st">&quot;star[2]&quot;</span>)</span>
+<span id="cb31-3"><a href="#cb31-3"></a>bayesplot<span class="op">::</span><span class="kw">mcmc_trace</span>(r_fit2<span class="op">$</span><span class="kw">draws</span>(<span class="dt">inc_warmup =</span> <span class="ot">TRUE</span>), <span class="dt">pars =</span> pars,</span>
+<span id="cb31-4"><a href="#cb31-4"></a>                      <span class="dt">n_warmup =</span> <span class="dv">500</span>)</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p>We have five well-behaved chains, which return consistent estimates, and three other chains which have with great effort ventured into other regions of the parameter space.
+They take significantly longer to run without achieving the same log-posterior (what else is new?).
+The posterior predictive checks confirm that these three chains do not produce output consistent with the observations.</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a><span class="kw">ppc_plot2D</span>(r_fit2, <span class="dt">data_pred =</span> data_pred, <span class="dt">plot_star =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-15-1.png" width="672" />
+The particular characteristic they share in common is that <span class="math inline">\(q_0\)</span> and <span class="math inline">\(q_*\)</span> are very close to one another.</p>
+</div>
+<div id="sec5.3" class="section level3 unnumbered" number="">
+<h3>Using conditional likelihoods to understand modes</h3>
+<p>Once again, we need to reason about whether these local modes are mere mathematical artifacts or the manifestation of a latent phenomenon of interest.
+We now have some intuition that elliptical observations allow for local modes, because of rotating orbits and chance alignments between observed and generated data.
+<!-- Remember also that for a mode to exist, it doesn't need to induce a particularly good fit; it simply needs to dominate a neighborhood. --></p>
+<p>Conceptually, tweaking <span class="math inline">\(q_*\)</span> means we can move the star closer to the planet and thus increase the gravitational interaction.
+This is not unlike tweaking <span class="math inline">\(k\)</span>, except we are affecting the <span class="math inline">\(r\)</span> term in
+<span class="math display">\[
+\frac{\mathrm d p}{\mathrm d t} = - \frac{k}{r^3}(q - q_*).
+\]</span>
+We may expect the same pathology to manifest itself.</p>
+<p>This is more difficult to visualize because the parameters are now 7-dimensional, rather than 1-dimensional as was the case in our first simplified model.
+Unfortunately we cannot compute the likelihood across a 7-dimensional grid and we wouldn’t quite know how to visualize it.
+Our proposition is to look at <em>conditional likelihoods</em>, that is fix some of the parameters and examine the remaining ones.
+This, from a certain point of view, very much amounts to studying a simplification of our model.
+To begin, we fix all parameters (based on the correct values or equivalently estimates from the well-behaving Markov chains), except for <span class="math inline">\(q_*^x\)</span>.</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a>star_x &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="fl">-0.5</span>, <span class="dt">to =</span> <span class="fl">0.8</span>, <span class="dt">by =</span> <span class="fl">0.01</span>)</span>
+<span id="cb33-2"><a href="#cb33-2"></a>star_s &lt;-<span class="st"> </span><span class="kw">array</span>(<span class="ot">NA</span>, <span class="dt">dim =</span> <span class="kw">c</span>(<span class="kw">length</span>(star_x), <span class="dv">2</span>))</span>
+<span id="cb33-3"><a href="#cb33-3"></a>star_s[, <span class="dv">1</span>] &lt;-<span class="st"> </span>star_x</span>
+<span id="cb33-4"><a href="#cb33-4"></a>star_s[, <span class="dv">2</span>] &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="dv">0</span>, <span class="kw">length</span>(star_x))</span>
+<span id="cb33-5"><a href="#cb33-5"></a></span>
+<span id="cb33-6"><a href="#cb33-6"></a>k &lt;-<span class="st"> </span><span class="dv">1</span></span>
+<span id="cb33-7"><a href="#cb33-7"></a>q0 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="fl">1.0</span>, <span class="dv">0</span>)</span>
+<span id="cb33-8"><a href="#cb33-8"></a>p0 &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">0</span>, <span class="fl">1.0</span>)</span>
+<span id="cb33-9"><a href="#cb33-9"></a>dt &lt;-<span class="st"> </span><span class="fl">0.001</span></span>
+<span id="cb33-10"><a href="#cb33-10"></a>m &lt;-<span class="st"> </span><span class="dv">1</span></span>
+<span id="cb33-11"><a href="#cb33-11"></a>n_obs &lt;-<span class="st"> </span><span class="kw">nrow</span>(q_obs)</span>
+<span id="cb33-12"><a href="#cb33-12"></a></span>
+<span id="cb33-13"><a href="#cb33-13"></a>lk &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="ot">NA</span>, <span class="kw">nrow</span>(star_s))</span>
+<span id="cb33-14"><a href="#cb33-14"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(star_s)) {</span>
+<span id="cb33-15"><a href="#cb33-15"></a>  q_sim &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts, star_s[i, ])</span>
+<span id="cb33-16"><a href="#cb33-16"></a>  </span>
+<span id="cb33-17"><a href="#cb33-17"></a>  lk[i] &lt;-<span class="st"> </span></span>
+<span id="cb33-18"><a href="#cb33-18"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">1</span>], q_sim[, <span class="dv">1</span>], sigma_x, <span class="dt">log =</span> T)) <span class="op">+</span></span>
+<span id="cb33-19"><a href="#cb33-19"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">2</span>], q_sim[, <span class="dv">2</span>], sigma_y, <span class="dt">log =</span> T))</span>
+<span id="cb33-20"><a href="#cb33-20"></a>}</span>
+<span id="cb33-21"><a href="#cb33-21"></a></span>
+<span id="cb33-22"><a href="#cb33-22"></a>plot &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(<span class="dt">star_x =</span> star_x, <span class="dt">lk =</span> lk),</span>
+<span id="cb33-23"><a href="#cb33-23"></a>               <span class="kw">aes</span>(<span class="dt">x =</span> star_x, <span class="dt">y =</span> lk)) <span class="op">+</span><span class="st"> </span><span class="kw">theme_bw</span>() <span class="op">+</span></span>
+<span id="cb33-24"><a href="#cb33-24"></a><span class="st">  </span><span class="kw">geom_line</span>() <span class="op">+</span><span class="st"> </span><span class="kw">theme</span>(<span class="dt">text =</span> <span class="kw">element_text</span>(<span class="dt">size =</span> <span class="dv">18</span>)) <span class="op">+</span></span>
+<span id="cb33-25"><a href="#cb33-25"></a><span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;Conditional log likelihood&quot;</span>) <span class="op">+</span><span class="st"> </span><span class="kw">xlab</span>(<span class="kw">TeX</span>(<span class="st">&quot;$q_*^x$&quot;</span>))</span>
+<span id="cb33-26"><a href="#cb33-26"></a>plot</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p>This is the type of profile we expect.
+We can extend this to a heat map, with both coordinates of <span class="math inline">\(q_*\)</span> varying, and observe “ripples” that suggest the presence of local modes.</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a>star_x &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="fl">-0.5</span>, <span class="dt">to =</span> <span class="fl">0.8</span>, <span class="dt">by =</span> <span class="fl">0.05</span>)</span>
+<span id="cb34-2"><a href="#cb34-2"></a>star_y &lt;-<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> <span class="fl">-0.5</span>, <span class="dt">to =</span> <span class="fl">0.5</span>, <span class="dt">by =</span> <span class="fl">0.05</span>)</span>
+<span id="cb34-3"><a href="#cb34-3"></a>star_s &lt;-<span class="st"> </span><span class="kw">array</span>(<span class="ot">NA</span>, <span class="kw">c</span>(<span class="kw">length</span>(star_x), <span class="kw">length</span>(star_y), <span class="dv">2</span>))</span>
+<span id="cb34-4"><a href="#cb34-4"></a></span>
+<span id="cb34-5"><a href="#cb34-5"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(star_x)) {</span>
+<span id="cb34-6"><a href="#cb34-6"></a>  <span class="cf">for</span> (j <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(star_y)) star_s[i, j, ] =<span class="st"> </span><span class="kw">c</span>(star_x[i], star_y[j])</span>
+<span id="cb34-7"><a href="#cb34-7"></a>}</span>
+<span id="cb34-8"><a href="#cb34-8"></a></span>
+<span id="cb34-9"><a href="#cb34-9"></a>star_data &lt;-<span class="st"> </span><span class="kw">array</span>(<span class="ot">NA</span>, <span class="kw">c</span>(<span class="kw">length</span>(star_s) <span class="op">/</span><span class="st"> </span><span class="dv">2</span>, <span class="dv">2</span>))</span>
+<span id="cb34-10"><a href="#cb34-10"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(star_x)) {</span>
+<span id="cb34-11"><a href="#cb34-11"></a>  <span class="cf">for</span> (j <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(star_y)) {</span>
+<span id="cb34-12"><a href="#cb34-12"></a>    index &lt;-<span class="st"> </span>(j <span class="op">-</span><span class="st"> </span><span class="dv">1</span>) <span class="op">*</span><span class="st"> </span><span class="kw">length</span>(star_x) <span class="op">+</span><span class="st"> </span>i</span>
+<span id="cb34-13"><a href="#cb34-13"></a>    star_data[index, ] &lt;-<span class="st"> </span>star_s[i, j, ]</span>
+<span id="cb34-14"><a href="#cb34-14"></a>  }</span>
+<span id="cb34-15"><a href="#cb34-15"></a>}</span>
+<span id="cb34-16"><a href="#cb34-16"></a></span>
+<span id="cb34-17"><a href="#cb34-17"></a>lk &lt;-<span class="st"> </span><span class="kw">rep</span>(<span class="ot">NA</span>, <span class="kw">nrow</span>(star_data)) </span>
+<span id="cb34-18"><a href="#cb34-18"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw">nrow</span>(star_data)) {</span>
+<span id="cb34-19"><a href="#cb34-19"></a>  q_sim &lt;-<span class="st"> </span><span class="kw">solve_trajectory</span>(q0, p0, dt, k, m, n_obs, ts, star_data[i, ])</span>
+<span id="cb34-20"><a href="#cb34-20"></a>  </span>
+<span id="cb34-21"><a href="#cb34-21"></a>  lk[i] &lt;-<span class="st"> </span></span>
+<span id="cb34-22"><a href="#cb34-22"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">1</span>], q_sim[, <span class="dv">1</span>], sigma_x, <span class="dt">log =</span> T)) <span class="op">+</span></span>
+<span id="cb34-23"><a href="#cb34-23"></a><span class="st">    </span><span class="kw">sum</span>(<span class="kw">dnorm</span>(q_obs[, <span class="dv">2</span>], q_sim[, <span class="dv">2</span>], sigma_y, <span class="dt">log =</span> T))</span>
+<span id="cb34-24"><a href="#cb34-24"></a>}</span>
+<span id="cb34-25"><a href="#cb34-25"></a></span>
+<span id="cb34-26"><a href="#cb34-26"></a>plot2 &lt;-<span class="st"> </span><span class="kw">ggplot</span>(<span class="dt">data =</span> <span class="kw">data.frame</span>(<span class="dt">star_x =</span> star_data[, <span class="dv">1</span>],</span>
+<span id="cb34-27"><a href="#cb34-27"></a>                                  <span class="dt">star_y =</span> star_data[, <span class="dv">2</span>],</span>
+<span id="cb34-28"><a href="#cb34-28"></a>                                  <span class="dt">lk =</span> lk), </span>
+<span id="cb34-29"><a href="#cb34-29"></a>                <span class="kw">aes</span>(<span class="dt">x =</span> star_x, <span class="dt">y =</span> star_y, <span class="dt">fill =</span> lk)) <span class="op">+</span></span>
+<span id="cb34-30"><a href="#cb34-30"></a><span class="st">  </span><span class="kw">geom_tile</span>() <span class="op">+</span><span class="st"> </span><span class="kw">theme_bw</span>() <span class="op">+</span><span class="st"> </span><span class="kw">theme</span>(<span class="dt">text =</span> <span class="kw">element_text</span>(<span class="dt">size =</span> <span class="dv">18</span>)) <span class="op">+</span></span>
+<span id="cb34-31"><a href="#cb34-31"></a><span class="st">  </span><span class="kw">xlab</span>(<span class="kw">TeX</span>(<span class="st">&quot;$q_*^x$&quot;</span>)) <span class="op">+</span><span class="st"> </span><span class="kw">ylab</span>(<span class="kw">TeX</span>(<span class="st">&quot;$q_*^y$&quot;</span>)) <span class="op">+</span><span class="st"> </span><span class="kw">labs</span>(<span class="dt">fill =</span> <span class="st">&quot;log likelihood&quot;</span>)</span>
+<span id="cb34-32"><a href="#cb34-32"></a>plot2</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p>These figures support our conjecture and, along with the log posterior and the posterior predictive checks, suggest the modes are mathematical artifacts, much like to ones we have previously probed.
+<!-- Let us caution that the behavior of the posterior density can change quite a bit as we add more moving parts. --></p>
+</div>
+<div id="sec5.4" class="section level3 unnumbered" number="">
+<h3>Fitting the model</h3>
+<p>At this point, we would want to reason about the expected position of the star.
+Do we have measurements from a previous experiment that suggest the star is closer to the origin (in our coordinate system)?
+If so, we can encode this information in a prior – but as before this may not be enough.
+Given the number of observations and the very low measurement error, the likelihood, along with its pesky modes, dominates the posterior.
+Hence, we must give our inference a helping hand through the form of a more judicious starting point: for example, by sampling from the prior.</p>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1"></a>init_empirical &lt;-<span class="st"> </span><span class="cf">function</span>() {</span>
+<span id="cb35-2"><a href="#cb35-2"></a>  p0_empirical &lt;-<span class="st"> </span>(q_obs[<span class="dv">2</span>, ] <span class="op">-</span><span class="st"> </span>q_obs[<span class="dv">1</span>, ]) <span class="op">/</span><span class="st"> </span></span>
+<span id="cb35-3"><a href="#cb35-3"></a><span class="st">    </span>(stan_data<span class="op">$</span>time[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>stan_data<span class="op">$</span>time[<span class="dv">1</span>])</span>
+<span id="cb35-4"><a href="#cb35-4"></a>  q0_empirical &lt;-<span class="st"> </span>q_obs[<span class="dv">1</span>, ]</span>
+<span id="cb35-5"><a href="#cb35-5"></a>  sigma &lt;-<span class="st"> </span><span class="fl">0.5</span></span>
+<span id="cb35-6"><a href="#cb35-6"></a></span>
+<span id="cb35-7"><a href="#cb35-7"></a>  <span class="kw">list</span>(<span class="dt">k =</span> <span class="kw">abs</span>(<span class="kw">rnorm</span>(<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>)),</span>
+<span id="cb35-8"><a href="#cb35-8"></a>       <span class="dt">p0 =</span> <span class="kw">c</span>(<span class="kw">rnorm</span>(<span class="dv">2</span>, p0_empirical, sigma)),</span>
+<span id="cb35-9"><a href="#cb35-9"></a>       <span class="dt">q0 =</span> <span class="kw">c</span>(<span class="kw">rnorm</span>(<span class="dv">2</span>, q0_empirical, sigma)),</span>
+<span id="cb35-10"><a href="#cb35-10"></a>       <span class="dt">star =</span> <span class="kw">rnorm</span>(<span class="dv">2</span>, <span class="dv">0</span>, sigma)</span>
+<span id="cb35-11"><a href="#cb35-11"></a>       )</span>
+<span id="cb35-12"><a href="#cb35-12"></a>}</span>
+<span id="cb35-13"><a href="#cb35-13"></a></span>
+<span id="cb35-14"><a href="#cb35-14"></a>chains &lt;-<span class="st"> </span><span class="dv">8</span></span>
+<span id="cb35-15"><a href="#cb35-15"></a></span>
+<span id="cb35-16"><a href="#cb35-16"></a><span class="co"># create init files for each chain</span></span>
+<span id="cb35-17"><a href="#cb35-17"></a>init_files &lt;-<span class="st"> </span><span class="kw">paste0</span>(<span class="st">&quot;init/planetary_motion_star2/init&quot;</span>,</span>
+<span id="cb35-18"><a href="#cb35-18"></a>                     <span class="dv">1</span><span class="op">:</span>chains, <span class="st">&quot;.json&quot;</span>)</span>
+<span id="cb35-19"><a href="#cb35-19"></a><span class="cf">if</span> (<span class="ot">FALSE</span>) {  <span class="co"># Set to TRUE to generate new inits; </span></span>
+<span id="cb35-20"><a href="#cb35-20"></a>              <span class="co"># elese use existing inits.</span></span>
+<span id="cb35-21"><a href="#cb35-21"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>chains) {</span>
+<span id="cb35-22"><a href="#cb35-22"></a>    init_chain &lt;-<span class="st"> </span><span class="kw">init_empirical</span>()</span>
+<span id="cb35-23"><a href="#cb35-23"></a>    <span class="kw">write_stan_json</span>(init_chain, <span class="dt">file =</span> init_files[i])</span>
+<span id="cb35-24"><a href="#cb35-24"></a>  }</span>
+<span id="cb35-25"><a href="#cb35-25"></a>}</span></code></pre></div>
+<pre><code># (Code takes time to run; instead use saved output)
+fit &lt;- mod$sample(data = stan_data,
+                  init = init_files,
+                  chains = chains, parallel_chains = chains,
+                  iter_warmup = 500,
+                  iter_sampling = 500,
+                  seed = 123, save_warmup = TRUE)
+fit$save_object(file = &quot;saved_fit/fit_star2.RDS&quot;)</code></pre>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1"></a>r_fit3 &lt;-<span class="st"> </span><span class="kw">readRDS</span>(<span class="dt">file =</span> <span class="st">&quot;saved_fit/fit_star2.RDS&quot;</span>)</span>
+<span id="cb37-2"><a href="#cb37-2"></a></span>
+<span id="cb37-3"><a href="#cb37-3"></a>r_fit3<span class="op">$</span><span class="kw">summary</span>(pars)[, <span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">8</span>, <span class="dv">9</span>)]</span></code></pre></div>
+<pre><code>## # A tibble: 8 x 5
+##   variable       mean      sd  rhat ess_bulk
+##   &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
+## 1 lp__     -36.3      1.88     1.00    1587.
+## 2 k          1.00     0.00100  1.00    4590.
+## 3 q0[1]      1.00     0.00371  1.00    1698.
+## 4 q0[2]     -0.00636  0.00455  1.00    1287.
+## 5 p0[1]      0.00291  0.00626  1.01    1108.
+## 6 p0[2]      1.00     0.00437  1.00    1332.
+## 7 star[1]   -0.000126 0.00536  1.01    1430.
+## 8 star[2]   -0.00255  0.00557  1.00    1722.</code></pre>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1"></a><span class="kw">ppc_plot2D</span>(r_fit3, <span class="dt">data_pred =</span> data_pred, <span class="dt">plot_star =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<p><img src="planetary_motion_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p>All our diagnostics now suggest we have successfully fitted the model.</p>
+</div>
+</div>
+<div id="sec6" class="section level2 unnumbered" number="">
+<h2>Discussion and lessons learned</h2>
+<p>When we fail to fit a model, examining a simplified model can help us understand the challenges that frustrate our inference algorithm.
+In practice it is difficult to find a simplification which is manageable and still exhibits the pathology we wish to understand.
+A straightforward way of simplifying is to fix some of the model parameters.
+When the model has more structure, such as in multilevel models, more elaborate simplificartions can be considered.</p>
+<p>In the planetary motion example, we are confronted with a multimodal posterior distribution.
+This geometry prevents our chains from cohesively exploring the parameter space and leads to biased Monte Carlo estimates.
+It is important to understand how these local modes arise and what their contribution to the posterior probability mass might be. We do so using posterior predictive checks.
+It is not uncommon for minor modes, with negligible probability mass, to trap a Markov chain.
+The possibility of such ill-fitting modes implies we should always run multiple chains, perhaps more than our current default of <span class="math inline">\(4\)</span>.</p>
+<p>This case study also raises the question of what role starting points may play.
+Ideally a Markov chain forgets its initial value but in a non-asymptotic regime this may not be the case.
+Just as there is no universal default prior, there is no universal default initial point.
+Modelers often need to depart from defaults to ensure a numerically stable evaluation of the joint density and improve MCMC computation.
+At the same time we want dispersed initial points in order to have reliable convergence diagnostics and to potentially explore all the relevant modes.
+As with other tuning parameters of an inference algorithm, picking starting points can be an iterative process, with adjustments made after a first attempt at fitting the model.</p>
+<p>We do not advocate mindlessly discarding misbehaving chains. It is important to analyze where this poor behavior comes from, and whether it hints at serious flaws in our model and in our inference. Our choice to adjust the initial estimates is based on: (a) the realization that the defaults are widely inconsistent with our expertise and (b) the understanding that the local modes do not describe a latent phenomenon of interest, as shown by our detailed analysis of how cyclical data interacts with a normal likelihood.</p>
+</div>
+<div id="sec7" class="section level2 unnumbered" number="">
+<h2>Acknowledgement</h2>
+<p>We thank Ben Bales, Matthew West, Martin Modrák, and Jonah Gabry for helpful discussion.</p>
+</div>
+<div id="my-section" class="section level2 unnumbered" number="">
+<h2>References</h2>
+<div id="refs" class="references hanging-indent">
+<div>
+<p>Betancourt, M. 2018. “A Conceptual Introduction to Hamiltonian Monte Carlo.” <em>arXiv:1701.02434v2</em>.</p>
+</div>
+<div>
+<p>———. 2020. “Towards a Principled Bayesian Workflow.” <a href="betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html">betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html</a>.</p>
+</div>
+<div>
+<p>Blei, David M. 2014. “Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models.” <em>Annual Review of Statistics and Its Application</em> 1. <a href="https://doi.org/https://doi.org/10.1146/annurev-statistics-022513-115657">https://doi.org/https://doi.org/10.1146/annurev-statistics-022513-115657</a>.</p>
+</div>
+<div>
+<p>Carpenter, Bob, Andrew Gelman, Matt Hoffman, Daniel Lee, Ben Goodrich, Michael Betancourt, Marcus A. Brubaker, Jiqiang Guo, Peter Li, and Allen Riddel. 2017. “Stan: A Probabilistic Programming Language.” <em>Journal of Statistical Software</em>. <a href="https://doi.org/10.18637/jss.v076.i01">https://doi.org/10.18637/jss.v076.i01</a>.</p>
+</div>
+<div>
+<p>Gabry, J, D Simpson, A Vehtari, M Betancourt, and A Gelman. 2019. “Visualization inBayesian Workflow (with Discussion and Rejoinder).” <em>Journal of the Royal Statistical Society A</em> 182: 389–441.</p>
+</div>
+<div>
+<p>Gelman, A, D Simpson, A Vehtari, C C Margossian, Bob Carpenter, Y Yao, B Bales, L Kennedy, P-C Bürkner, and M Modák. 2020. “Bayesian Workflow.” <em>In Preperation</em>.</p>
+</div>
+<div>
+<p>Vehtari, A, A Gelman, D Simpson, B Carpenter, and P-C Bürkner. 2020. “Rank-Normalization, Folding, and Localization: An Improved <span class="math inline">\(\hat R\)</span> for Assessing Convergence of Mcmc.” <em>Bayesian Analysis</em>. <a href="https://doi.org/10.1214/20-BA1221">https://doi.org/10.1214/20-BA1221</a>.</p>
+</div>
+<div>
+<p>Yao, Y, A Vehtari, and A Gelman. 2018. “Using Stacking to Average Bayesian Predictive Distributions (with Discussion).” <em>Bayesian Analysis</em> 13: 917–1003.</p>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Department of Statistics, Columbia University; contact – <a href="mailto:charles.margossian@columbia.edu" class="email">charles.margossian@columbia.edu</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Department of Statistics and Political Science, Columbia University<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>One of the software we work on is Stan, see <a href="https://mc-stan.org/">mc-stan.org</a>.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": false
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

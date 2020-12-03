@@ -32,6 +32,29 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+## Bayesian model of planetary motion: exploring ideas for a modeling workflow when dealing with ordinary differential equations and multimodality
+<small> The Bayesian model of planetary motion is a simple but powerful example that illustrates important concepts, as well as gaps, in prescribed modeling workflows. Our focus is on Bayesian inference using Markov chains Monte Carlo for a model based on an ordinary differential equations (ODE). Our example presents unexpected multimodality, causing our inference to be unreliable and what is more, dramatically slowing down our ODE integrators. What do we do when our chains do not mix and do not forget their starting points? Reasoning about the computational statistics at hand and the physics of the modeled phenomenon, we diagnose how the modes arise and how to improve our inference. Our process for fitting the model is iterative, starting with a simplification and building the model back up, and makes extensive use of visualization.</small>
+
+[View](case-studies/planetary_motion/planetary_motion.html) <span
+class="note">(HTML)</span>
+
+Authors
+: Charles Margossian and Andrew Gelman
+
+Keywords
+: ordinary differential equations, multimodality, classical mechanics
+
+Source Repository
+: [example-models/knitr/planetary_motion](https://github.com/stan-dev/example-models/tree/master/knitr/planetary_motion)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%"> CmdStanR, posterior, ggplot2, dplyr, plyr, tidyr, boot, latex2exp </tt>
+>>>>>>> origin/master
+
+License
+:  BSD (3 clause), CC-BY
+
 ## HMM Interface Example
 
 <small> Cmdstan 2.24 introduces a new interface for working with
@@ -55,6 +78,28 @@ Dependencies
 
 License
 :  BSD (3 clause), CC-BY
+
+## Spatial models for plant neighborhood dynamics in Stan
+<small> In this case study, we demonstrate how Stan’s segment function can speed computation on sparse matrices of pairwise neighbors in plant-plant interaction models. In addition, we present solutions to common problems of fitting neighborhood models with hierarchical effects, including a comparison of centered vs. non-centered parameterizations.</small>
+
+[View](case-studies/plantInteractions.html) <span class="note">(HTML)</span>
+
+Authors
+: Cristina Barber, Andrii Zaiats, Cara Applestein and T.Trevor Caughlin
+
+Keywords
+: plants, neighbor interactions, sparse matrix, segment function
+
+Source Repository
+: [Cristinabarber/Neighbor_Interactions](https://github.com/Cristinabarber/Neighbor_Interactions)
+<span class="note">(GitHub)</span>
+
+R Package Dependencies
+: <tt style="font-size: 90%">rstan</tt>
+
+License
+:  BSD (3 clause), CC BY NC
+
 
 ## Predicting Engine Failure with Hierarchical Gaussian Process
 
