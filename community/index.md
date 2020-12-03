@@ -24,7 +24,7 @@ applications of Stan and we try very hard to be as helpful as possible, so
 please don't be shy to introduce yourself, share your work, or ask a question!
 
 There are also discussions happening over on Slack. Anyone is welcome to join at
-https://mc-stan.slack.com/. 
+[mc-stan.slack.com](https://mc-stan.slack.com/). 
 
 #  Bug Reports, Feature Requests
 
