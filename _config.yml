@@ -30,8 +30,8 @@ twitter:
   username: notpainted
 
 # top banner
-banner-text: "40% off first payment of MNPRX Indie with code: CYBER-WEEK-2020"
-banner-link: "/software/MNPRX/#getit"
+# banner-text: "40% off first payment of MNPRX Indie with code: CYBER-WEEK-2020"
+# banner-link: "/software/MNPRX/#getit"
 
 # Liquid
 liquid:
