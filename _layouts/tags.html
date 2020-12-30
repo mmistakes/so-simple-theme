@@ -1,0 +1,81 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign tags_max = 0 %}
+{% for tag in site.tags %}
+  {% if tag[1].size > tags_max %}
+    {% assign tags_max = tag[1].size %}
+  {% endif %}
+{% endfor %}
+
+{% assign tag_names_array = "" %}
+{% assign tag_counts = "" %}
+{% assign first_array_element = true %}
+{% for i in (1..tags_max) reversed %}
+  {% assign tag_names = "" %}
+  {% assign first_tag = true %}
+
+  {% for tag in site.tags %}
+    {% if tag[1].size == i %}
+      {% if first_tag %}
+        {% assign first_tag = false %}
+      {% else %}
+        {% assign tag_names = tag_names | append: "," %}
+      {% endif %}
+      {% assign tag_names = tag_names | append: tag[0] %}
+    {% endif %}
+  {% endfor %}
+
+  {% if tag_names != "" %}
+    {% assign tag_names = tag_names | split: "," | sort | join: "," %}
+
+    {% if first_array_element %}
+      {% assign first_array_element = false %}
+    {% else %}
+      {% assign tag_names_array = tag_names_array | append: "|" %}
+      {% assign tag_counts = tag_counts | append: "|" %}
+    {% endif %}
+    {% assign tag_names_array = tag_names_array | append: tag_names %}
+    {% assign tag_counts = tag_counts | append: i %}
+  {% endif %}
+{% endfor %}
+
+{% assign tag_names_array = tag_names_array | split: "|" %}
+{% assign tag_counts = tag_counts | split: "|" %}
+
+
+<ul class="taxonomy-index">
+  {% for tag_names in tag_names_array %}
+    {% assign tag_names_list = tag_names | split: "," %}
+    {% assign tag_count = tag_counts[forloop.index0] %}
+    {% for tag_name in tag_names_list %}
+      <li>
+        <a href="#{{ tag_name | slugify }}">
+          <strong>{{ tag_name }}</strong> <span class="taxonomy-count">{{ tag_count }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+{% for tag_names in tag_names_array %}
+  {% assign tag_names_list = tag_names | split: "," %}
+  {% for tag_name in tag_names_list %}
+    <section id="{{ tag_name | slugify | downcase }}" class="taxonomy-section">
+      <h2 class="taxonomy-title">{{ tag_name }}</h2>
+      {% for tag in site.tags %}
+        {% if tag[0] == tag_name %}
+          <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% for entry in tag.last %}
+              {% include entry.html %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+    </section>
+  {% endfor %}
+{% endfor %}

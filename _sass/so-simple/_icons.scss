@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Icons
+   ========================================================================== */
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: -0.05em; /* fine-tune alignment */
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  vertical-align: middle;
+  fill: currentColor;
+
+  $icons: (
+     (bitbucket, #205081),
+     (codepen, #000),
+     (dribbble, #ea4c89),
+     (email, #000),
+     (facebook, #3b5998),
+     (flickr, #0063dc),
+     (github, #181717),
+     (gitlab, #e24329),
+     (googleplus, #dc4e41),
+     (instagram, #e4405f),
+     (lastfm, #d51007),
+     (linkedin, #0077b5),
+     (pinterest, #bd081c),
+     (rss, #ffa500),
+     (soundcloud, #f30),
+     (stackoverflow, #fe7a16),
+     (tumblr, #36465d),
+     (twitter, #1da1f2),
+     (xing, #005a5f),
+     (youtube, #cd201f)
+  );
+
+  @each $icon, $color in $icons {
+    &--#{$icon} {
+      fill: $color;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{% if entry.id %}
+  {% assign title = entry.title | markdownify | strip_html %}
+{% else %}
+  {% assign title = entry.title %}
+{% endif %}
+
+<article class="entry h-entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      {% if entry.link %}
+        <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }}</a> <a href="{{ entry.url | relative_url }}" rel="bookmark"><span class="link-arrow">&rarr;</span></a>
+      {% else %}
+        <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
+      {% endif %}
+    </h3>
+    {% if entry.image.thumbnail %}
+      {% assign entry_image = entry.image.thumbnail %}
+      {% unless entry_image contains '://' %}
+        {% assign entry_image = entry_image | relative_url %}
+      {% endunless %}
+      {% assign entry_image = entry_image | escape %}
+      <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
+    {% endif %}
+  </header>
+  {% unless page.show_excerpts == false %}
+    <div class="entry-excerpt p-summary">
+      {% if entry.excerpt %}
+        {{ entry.excerpt | markdownify }}
+      {% endif %}
+    </div>
+  {% endunless %}
+  {% if site.read_time or entry.date and page.layout != 'collection' %}
+    <footer class="entry-meta">
+      {% if site.read_time %}{% include read-time.html %}{% endif %}
+      {% if entry.date %}{% include entry-date.html %}{% endif %}
+    </footer>
+  {% endif %}
+</article>
