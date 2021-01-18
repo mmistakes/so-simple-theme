@@ -1065,11 +1065,12 @@ Theme files can be [overridden](http://jekyllrb.com/docs/themes/#overriding-them
 
 **ProTip:** to locate the theme's files on your computer run `bundle show jekyll-theme-so-simple`. This returns the location of the gem-based theme files.
 
-The theme comes with two files to help inject custom markup and content into predefined locations.
+The theme comes with three files to help inject custom markup and content into predefined locations.
 
 |     | Description |
 | --- | ----------- |
 | [`_includes/head-custom.html`](_includes/head-custom.html) | Inserted inside the `<head>` element for adding metadata, favicons, etc. |
+| [`_includes/body-custom.html`](_includes/body-custom.html) | Inserted inside the `<body>` element for adding Google Tag Manager, etc. |
 | [`_includes/footer-custom.html`](_includes/footer-custom.html) | Inserted inside the `<footer>` element before site scripts and copyright information. |
 
 ### Customizing Sass (SCSS)
