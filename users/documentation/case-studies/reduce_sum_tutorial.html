@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
-<meta name="date" content="2020-06-16" />
 
 <title>Reduce Sum: A Minimal Example</title>
 
@@ -331,6 +329,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -363,7 +362,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Reduce Sum: A Minimal Example</h1>
-<h4 class="date">16 June 2020</h4>
+<h4 class="date">2 Dec 2020</h4>
 
 </div>
 
@@ -371,7 +370,8 @@ summary {
 <p>This introduction to <code>reduce_sum</code> copies directly from Richard McElreath’s <a href="https://github.com/rmcelreath/cmdstan_map_rect_tutorial">Multithreading and Map-Reduce in Stan 2.18.0: A Minimal Example</a>.</p>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
-<p>Stan 2.23 introduced <code>reduce_sum</code>, a new way to parallelize the execution of a single Stan chain across multiple cores. This is in addition to the already existing <code>map_rect</code> utility, and introduces a number of features that make it easier to use parallelism:</p>
+<p><strong>Note:</strong> This has been rewritten to use unnormalized distribution functions ( <code>_lupdf˙/˙_lupmf</code>) which requires Cmdstan 2.25 or newer.</p>
+<p>Cmdstan 2.23 introduced <code>reduce_sum</code>, a new way to parallelize the execution of a single Stan chain across multiple cores. This is in addition to the already existing <code>map_rect</code> utility, and introduces a number of features that make it easier to use parallelism:</p>
 <ol style="list-style-type: decimal">
 <li>More flexible argument interface, avoiding the packing and unpacking that is necessary with <code>map_rect</code>.</li>
 <li>Partitions data for parallelization automatically (this is done manually in <code>map_rect</code>).</li>
@@ -438,53 +438,33 @@ model {
                                              refresh = 1000))</code></pre>
 <pre><code>## Running MCMC with 4 parallel chains...
 ## 
-## Running ./logistic0 'id=1' random 'seed=1821957448' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-104856db8c26.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic0-202006161303-1-1333c5.csv' 'refresh=1000' \
-##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
-##   'engaged=1'
-## Running ./logistic0 'id=2' random 'seed=1139081694' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-104856db8c26.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic0-202006161303-2-1333c5.csv' 'refresh=1000' \
-##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
-##   'engaged=1'
-## Running ./logistic0 'id=3' random 'seed=128574416' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-104856db8c26.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic0-202006161303-3-1333c5.csv' 'refresh=1000' \
-##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
-##   'engaged=1'
-## Running ./logistic0 'id=4' random 'seed=1343942358' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-104856db8c26.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic0-202006161303-4-1333c5.csv' 'refresh=1000' \
-##   'method=sample' 'save_warmup=0' 'algorithm=hmc' 'engine=nuts' adapt \
-##   'engaged=1'
 ## Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 2 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 3 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 4 Iteration:    1 / 2000 [  0%]  (Warmup) 
-## Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
+## Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 1 finished in 172.3 seconds.
-## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 2 finished in 173.3 seconds.
+## Chain 1 finished in 163.9 seconds.
 ## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 4 finished in 175.9 seconds.
+## Chain 4 finished in 167.2 seconds.
 ## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 3 finished in 183.6 seconds.
+## Chain 3 finished in 167.5 seconds.
+## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 2 finished in 168.7 seconds.
 ## 
 ## All 4 chains finished successfully.
-## Mean chain execution time: 176.3 seconds.
-## Total execution time: 183.7 seconds.</code></pre>
+## Mean chain execution time: 166.8 seconds.
+## Total execution time: 168.7 seconds.</code></pre>
 <pre class="r"><code>time0</code></pre>
 <pre><code>##    user  system elapsed 
-## 627.300  79.702 184.054</code></pre>
+## 582.427  86.830 169.233</code></pre>
 <p><strong>Note:</strong> Older versions of cmdstanr use <code>num_cores</code>, <code>cores</code>, and <code>num_chains</code> instead of <code>parallel_chains</code>, <code>threads_per_chain</code>, and <code>chains</code>. If you get an error, <a href="https://mc-stan.org/cmdstanr/">update</a> <code>cmdstanr</code>.</p>
 <p>In this case, we’ll compute four chains running in parallel on four cores. This computer has eight cores though, and we’ll see how we can make use of those other cores later. The <code>elapsed</code> time is the time that we would have recorded if we were timing this process with a stop-watch, so that is the one relevant to understanding performance here (<code>system</code> time is time spent on system functions like I/O, and <code>user</code> time is for parallel calculations).</p>
 </div>
@@ -492,45 +472,49 @@ model {
 <h2>Rewriting the Model to Enable Multithreading</h2>
 <p>The key to porting this calculation to <code>reduce_sum</code>, is recognizing that the statement:</p>
 <pre class="stan"><code>n_redcards ~ binomial_logit(n_games, beta[1] + beta[2] * rating);</code></pre>
-<p>can be rewritten (up to a proportionality constant) as:</p>
+<p>can be rewritten as:</p>
 <pre class="stan"><code>for(n in 1:N) {
-  target += binomial_logit_lpmf(n_redcards[n] | n_games[n], beta[1] + beta[2] * rating[n])
+  target += binomial_logit_lupmf(n_redcards[n] | n_games[n], beta[1] + beta[2] * rating[n])
 }</code></pre>
-<p>Now it is clear that the calculation is the sum of a number of conditionally independent Bernoulli log probability statements. So whenever we need to calculate a large sum where each term is independent of all others and associativity holds, then <code>reduce_sum</code> is useful.</p>
+<p>Now it is clear that the calculation is the sum (up to a proportionality constant) of a number of conditionally independent Bernoulli log probability statements. Whenever we need to calculate a large sum where each term is independent of all others and associativity holds, then <code>reduce_sum</code> is useful.</p>
 <p>To use <code>reduce_sum</code>, a function must be written that can be used to compute arbitrary sections of this sum.</p>
+<p>Note we are using <code>binomial_logit_lupmf</code> instead of <code>binomial_logit_lpmf</code>. This is because we only need this likelihood term up to a proportionality constant for MCMC to work and for some distributions this can make code run noticeably faster. There is a catch though: Stan only allows <code>_lupmf</code> in the model block or in user-defined probability distribution functions. Thus, for us to use <code>binomial_logit_lupmf</code> the, function we write for <code>reduce_sum</code> must be a user-defined probability distribution function (which means it must be suffixed with <code>_lpdf</code> or <code>_lpmf</code>).</p>
+<p>If the difference in the performance of normalized and unnormalized functions is not relevant for your application, you can call your <code>reduce_sum</code> function whatever you like.</p>
 <p>Using the reducer interface defined in <a href="https://mc-stan.org/docs/2_23/functions-reference/functions-reduce.html">Reduce-Sum</a>:</p>
 <pre class="stan"><code>functions {
-  real partial_sum(int[] slice_n_redcards,
-                   int start, int end,
-                   int[] n_games,
-                   vector rating,
-                   vector beta) {
-    return binomial_logit_lpmf(slice_n_redcards |
-                               n_games[start:end],
-                               beta[1] + beta[2] * rating[start:end]);
+  real partial_sum_lpmf(int[] slice_n_redcards,
+                        int start, int end,
+                        int[] n_games,
+                        vector rating,
+                        vector beta) {
+    return binomial_logit_lupmf(slice_n_redcards |
+                                n_games[start:end],
+                                beta[1] + beta[2] * rating[start:end]);
   }
 }</code></pre>
 <p>The likelihood statement in the model can now be written:</p>
-<pre class="stan"><code>target += partial_sum(n_redcards, 1, N, n_games, rating, beta); // Sum terms 1 to N in the likelihood</code></pre>
-<p>Equivalently it could be broken into two pieces and written like:</p>
+<pre class="stan"><code>target += partial_sum_lupmf(n_redcards, 1, N, n_games, rating, beta); // Sum terms 1 to N in the likelihood</code></pre>
+<p>Note that we’re calling <code>partial_sum_lupmf</code> even though we defined the function <code>partial_sum_lpmf</code>. <code>partial_sum_lupmf</code> is implicitly defined when we write <code>partial_sum_lpmf</code> and is a special version of the function that will signify to all the <code>_lupmf</code> calls inside it that it is okay to drop constants. If we call <code>partial_sum_lpmf</code>, the <code>binomial_logit_lupmf</code> function call will not drop constants (and hence be slower).</p>
+<p>Equivalently this partial sum could be broken into two pieces and written like:</p>
 <pre class="stan"><code>int M = N / 2;
-target += partial_sum(n_redcards[1:M], 1, M, n_games, rating, beta) // Sum terms 1 to M
-target += partial_sum(n_redcards[(M + 1):N], M + 1, N, n_games, rating, beta); // Sum terms M + 1 to N</code></pre>
-<p>By passing <code>partial_sum</code> to <code>reduce_sum</code>, we allow Stan to automatically break up these calculations and do them in parallel.</p>
+target += partial_sum_lupmf(n_redcards[1:M], 1, M, n_games, rating, beta) // Sum terms 1 to M
+target += partial_sum_lupmf(n_redcards[(M + 1):N], M + 1, N, n_games, rating, beta); // Sum terms M + 1 to N</code></pre>
+<p>By passing <code>partial_sum_lupmf</code> to <code>reduce_sum</code>, we tell Stan to automatically break up these calculations and do them in parallel.</p>
 <p>Notice the difference in how <code>n_redcards</code> is split in half (to reflect which terms of the sum are being accumulated) and the rest of the arguments (<code>n_games</code>, <code>x</code>, and <code>beta</code>) are left alone. This distinction is important and more fully described in the User’s Guide section on <a href="https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html">Reduce-sum</a>.</p>
 <p>Given the partial sum function, <code>reduce_sum</code> can be used to automatically parallelize the likelihood:</p>
 <pre class="stan"><code>int grainsize = 1;
-target += reduce_sum(partial_sum, n_redcards, grainsize,
+target += reduce_sum(partial_sum_lupmf, n_redcards, grainsize,
                      n_games, rating, beta);</code></pre>
 <p><code>reduce_sum</code> automatically breaks the sum into roughly <code>grainsize</code> sized pieces and computes them in parallel. <code>grainsize = 1</code> specifies that the grainsize should be estimated automatically (<code>grainsize</code> should be left at 1 unless specific tests are done to <a href="https://mc-stan.org/docs/2_23/stan-users-guide/reduce-sum.html#reduce-sum-grainsize">pick a different one</a>).</p>
+<p>Again, if we passed <code>partial_sum_lpmf</code> to <code>reduce_sum</code> instead of <code>partial_sum_lupmf</code> we would not take advantage of the performance benefits of using <code>bernoulli_logit_lupmf</code>.</p>
 <p>Making <code>grainsize</code> data (this makes it convenient to experiment with), the final model is:</p>
 <pre class="stan"><code>functions {
-  real partial_sum(int[] slice_n_redcards,
-                   int start, int end,
-                   int[] n_games,
-                   vector rating,
-                   vector beta) {
-    return binomial_logit_lpmf(slice_n_redcards |
+  real partial_sum_lpmf(int[] slice_n_redcards,
+                        int start, int end,
+                        int[] n_games,
+                        vector rating,
+                        vector beta) {
+    return binomial_logit_lupmf(slice_n_redcards |
                                n_games[start:end],
                                beta[1] + beta[2] * rating[start:end]);
   }
@@ -550,7 +534,7 @@ model {
   beta[1] ~ normal(0, 10);
   beta[2] ~ normal(0, 1);
 
-  target += reduce_sum(partial_sum, n_redcards, grainsize,
+  target += reduce_sum(partial_sum_lupmf, n_redcards, grainsize,
                        n_games, rating, beta);
 }</code></pre>
 <p>Save this as <code>logistic1.stan</code>.</p>
@@ -571,72 +555,49 @@ time1 = system.time(fit1 &lt;- logistic1$sample(redcard_data,
                                              refresh = 1000))</code></pre>
 <pre><code>## Running MCMC with 4 parallel chains, with 2 thread(s) per chain...
 ## 
-## Running ./logistic1_threads 'id=1' random 'seed=948103613' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-1048c784cc7.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic1_threads-202006161306-1-679aa7.csv' \
-##   'refresh=1000' 'method=sample' 'save_warmup=0' 'algorithm=hmc' \
-##   'engine=nuts' adapt 'engaged=1'
-## Running ./logistic1_threads 'id=2' random 'seed=1654742267' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-1048c784cc7.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic1_threads-202006161306-2-679aa7.csv' \
-##   'refresh=1000' 'method=sample' 'save_warmup=0' 'algorithm=hmc' \
-##   'engine=nuts' adapt 'engaged=1'
-## Running ./logistic1_threads 'id=3' random 'seed=1898131361' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-1048c784cc7.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic1_threads-202006161306-3-679aa7.csv' \
-##   'refresh=1000' 'method=sample' 'save_warmup=0' 'algorithm=hmc' \
-##   'engine=nuts' adapt 'engaged=1'
-## Running ./logistic1_threads 'id=4' random 'seed=662848006' data \
-##   'file=/tmp/Rtmp0TDWkT/standata-1048c784cc7.json' output \
-##   'file=/tmp/Rtmp0TDWkT/logistic1_threads-202006161306-4-679aa7.csv' \
-##   'refresh=1000' 'method=sample' 'save_warmup=0' 'algorithm=hmc' \
-##   'engine=nuts' adapt 'engaged=1'
 ## Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 2 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 3 Iteration:    1 / 2000 [  0%]  (Warmup) 
 ## Chain 4 Iteration:    1 / 2000 [  0%]  (Warmup) 
-## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
-## Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 2 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
 ## Chain 2 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
-## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 4 finished in 69.2 seconds.
-## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 1 finished in 71.4 seconds.
-## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 3 finished in 72.5 seconds.
+## Chain 1 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 1 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
+## Chain 4 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 4 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
+## Chain 3 Iteration: 1000 / 2000 [ 50%]  (Warmup) 
+## Chain 3 Iteration: 1001 / 2000 [ 50%]  (Sampling) 
 ## Chain 2 Iteration: 2000 / 2000 [100%]  (Sampling) 
-## Chain 2 finished in 73.0 seconds.
+## Chain 2 finished in 58.3 seconds.
+## Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 1 finished in 61.1 seconds.
+## Chain 4 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 4 finished in 63.1 seconds.
+## Chain 3 Iteration: 2000 / 2000 [100%]  (Sampling) 
+## Chain 3 finished in 64.7 seconds.
 ## 
 ## All 4 chains finished successfully.
-## Mean chain execution time: 71.5 seconds.
-## Total execution time: 73.0 seconds.</code></pre>
+## Mean chain execution time: 61.8 seconds.
+## Total execution time: 64.8 seconds.</code></pre>
 <pre class="r"><code>time1</code></pre>
 <pre><code>##    user  system elapsed 
-## 571.353   0.499  73.133</code></pre>
+## 494.100   0.430  64.919</code></pre>
 <p><strong>Note:</strong> Older versions of cmdstanr use <code>num_cores</code>, <code>cores</code>, and <code>num_chains</code> instead of <code>parallel_chains</code>, <code>threads_per_chain</code>, and <code>chains</code>. If you get an error, <a href="https://mc-stan.org/cmdstanr/">update</a> <code>cmdstanr</code>.</p>
 <p>Again, <code>elapsed</code> time is the time recorded as if by a stopwatch. Computing the ratios of the two times gives a speedup on eight cores of:</p>
 <pre class="r"><code>time0[[&quot;elapsed&quot;]] / time1[[&quot;elapsed&quot;]]</code></pre>
-<pre><code>## [1] 2.516702</code></pre>
+<pre><code>## [1] 2.606833</code></pre>
 <p>This model was particularly easy to parallelize because a lot of the arguments are data (and do not need to be autodiffed). It is possible to get a speedup over two even though we are only doubling the computational resources because of the way <code>reduce_sum</code> breaks up work and uses CPU cache more efficiently. If a model has a large number of arguments that are either defined in the parameters block, transformed parameters block, or model block, or do not do very much computation inside the reduce function, or does not get lucky with caching, the speedup will be much more limited.</p>
 <p>We can always get speedup in terms of effective sample size per time by running multiple chains in parallel on different cores. <code>reduce_sum</code> is not a replacement for that, and it is still important to run multiple chains to check diagnostics. <code>reduce_sum</code> is a tool for speeding up single chain calculations, which can be useful for model development and on computers with large numbers of cores.</p>
-<p>We can do a quick check that these two methods are mixing with posterior. When parallelizing a model is a good thing to do to make sure something is not breaking:</p>
-<pre class="r"><code>remotes::install_github(&quot;jgabry/posterior&quot;)</code></pre>
-<pre><code>## Skipping install of 'posterior' from a github remote, the SHA1 (d7c0a696) has not changed since last install.
-##   Use `force = TRUE` to force installation</code></pre>
+<p>We can do a quick check that these two methods are mixing with the <code>posterior</code> package (<a href="https://github.com/stan-dev/posterior" class="uri">https://github.com/stan-dev/posterior</a>). When parallelizing a model is a good thing to do to make sure something is not breaking:</p>
 <pre class="r"><code>library(posterior)</code></pre>
-<pre><code>## This is posterior version 0.1.0</code></pre>
+<pre><code>## This is posterior version 0.1.2</code></pre>
 <pre class="r"><code>summarise_draws(bind_draws(fit0$draws(), fit1$draws(), along = &quot;chain&quot;))</code></pre>
 <pre><code>## # A tibble: 3 x 10
-##   variable     mean   median      sd     mad       q5      q95  rhat ess_bulk
-##   &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
-## 1 lp__     -9.05e+3 -9.05e+3 1.20e+3 1.78e+3 -1.03e+4 -7.85e+3  1.70     12.6
-## 2 beta[1]  -5.53e+0 -5.53e+0 3.44e-2 3.48e-2 -5.59e+0 -5.48e+0  1.00   2902. 
-## 3 beta[2]   2.91e-1  2.90e-1 8.09e-2 8.02e-2  1.56e-1  4.23e-1  1.00   3061. 
+##   variable     mean   median     sd    mad       q5      q95  rhat ess_bulk
+##   &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;
+## 1 lp__     -1.03e+4 -1.03e+4 0.979  0.741  -1.03e+4 -1.03e+4  1.00    3574.
+## 2 beta[1]  -5.53e+0 -5.53e+0 0.0337 0.0339 -5.59e+0 -5.48e+0  1.00    2669.
+## 3 beta[2]   2.89e-1  2.89e-1 0.0819 0.0806  1.53e-1  4.21e-1  1.00    2674.
 ## # … with 1 more variable: ess_tail &lt;dbl&gt;</code></pre>
 <p>Ignoring <code>lp__</code> (remember the change to <code>bernoulli_logit_lpmf</code> means the likelihoods between the two models are only proportional up to a constant), the Rhats are less than 1.01, so our basic convergence checks pass. Unless something strange is going on, we probably parallelized our model correctly!</p>
 </div>
