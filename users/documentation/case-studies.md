@@ -74,7 +74,7 @@ Source Repository
 <span class="note">(GitHub)</span>
 
 Dependencies
-: <tt style="font-size: 90%">CmdStanR</tt>
+: <tt style="font-size: 90%">CmdStanR, tidyverse, ggplot2, and posterior</tt>
 
 License
 :  BSD (3 clause), CC-BY
