@@ -23,6 +23,86 @@ redirect_from:
 
 
 ---
+## January 2021 UPDATE
+The January 2021 update brings massive changes under the hood. Every single script file has been updated and is now compatible with both Python 2 and 3 to support future Maya versions. We have also created and revamped many tools to make them as robust as possible.
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/2021-01.jpg" alt="MNPRX January 2021 Update" style="height:360px">
+</figure>
+
+**Separate stylization and Maya scene**
+- *New* - The stylization and Maya scene are now saved separately. This brings a much needed (and massive) reduction in file sizes for production. This workflow also improves the robustness when working with complex scenes:
+    - If the Maya scene gets corrupted, you can restore the stylization through the separate `style` file saved along with the scene.
+    - References or caches? No problem, as we are saving the stylization ourselves, we can be sure that any style changes made to referenced or cached objects are also saved.
+
+The *style* and *Maya scene* files should always be in the same folder for a seamless workflow.
+{: .notice--info}
+
+**Revamped import/export workflow**
+- *New* - Dedicated import/export icon on shelf
+- *New* - Automatically save the stylization when saving the scene
+- *Improved* - Smaller stylization files (*.style*). We are using our own encoder and only saving the data that has been set in the scene.
+Old stylization files (*.json) can still be imported.
+
+**Support for multiple materials in the same objects**
+- *New* - Revamping the import/export workflow required us to fully support when artists assign multiple materials to objects and vice-versa. The entire MNPRX stylization now should work as expected no matter what is assigned where.
+
+**Revamped installation process**
+- *New* - Installation dialog with different options
+- *New* - Install MNPRX for **ALL users** of a computer. This has been highly requested by institutions with multiple users per computer.
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/installation.png" alt="MNPRX Installation">
+</figure>
+
+Installations for a single user will always take precedence over installations for all users. Make sure to uninstall MNPRX if you have a previous 'single user' installation and want to use the installation for all users, instead.
+{: .notice--info}
+
+**Popup shelf tool**
+- *New* - Easily detach the shelf onto a new window with the new *Popup Shelf* tool (last one on the right)
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/popup-shelf.png" alt="MNPRX Popup Shelf">
+</figure>
+
+**Re-link textures tool**
+- *New* - Working with a scene that was running on another computer? Now you can automatically relink all existing textures with a click of a button. The Re-link texture tool can be found in the MNPRX toolbox.
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/tbox2.png" alt="MNPRX toolbox">
+</figure>
+
+**Material presets**
+- *Improved -* Inherit will replicate the attributes of whatever is already assigned to the object—thereby inheriting the old material. This works with Maya materials (creating a ShaderFX material with similar attributes) or with ShaderFX materials (making a "duplicate").
+- *Fixed* - Filtered presets not appearing correctly
+
+**Style presets**
+- *New* - Watercolor and Frayed RGB-matte presets
+- *New* - New presets to experiment with
+
+**ShaderFX updates**
+- *New* - Most nodes in the ShaderFX graph are now referenced. This means that this update will be the last one in which you will have to manually update the ShaderFX materials in the scene. And the scene size will be reduced by around 0.5MB per material!
+- *New* - Color-plane s*etting* in the material will override any atmosphere range effects on it, making it easier to work with color planes in MNPRX
+- *New* - While rarely, ShaderFX materials sometimes just stop working (-1 issue). We can't fix the ShaderFX plugin (proprietary of Autodesk). However, by separating the stylization in a separate file, we can now auto-repair corrupted ShaderFX materials by simply importing the style again!
+- *Improved* - UDIMs now supported for all types of textures using the *UDIM group* and using the right channels according to texture type.
+- *New* - *Texture layer group* allows to layer textures directly within the ShaderFX material with different blending modes
+- *New* - *Fresnel group* allows to easily apply semi-transparent Fresnel reflections to the ShaderFX material.
+
+**Frayed Edges**
+
+- *Improved* - Frayed instances behave properly no matter the rotation order or nested hierarchy of objects
+- *Compatibility* - The *Frayed Edges* style should be used only from *Maya 2019* onwards
+
+**Watercolor**
+- *Fixed* - Bleeding issue with negative parameter values overwriting bled areas
+
+**Miscellaneous**
+- *Fixed* - Configuration node is not deleted anymore when the last connection is removed from it
+- *Improved* - No MNPRX script jobs will run unless MNPRX is running in a viewport
+- *Improved* - Speed of internet check when activating MNPRX
+- *Improved* - Fingerprint of license now based on Mainboard Serial number and not on MAC addresses
+
+---
 
 ## August 2020 UPDATE
 The August 2020 update brings some exciting new features and improvements to MNPRX. **With over 200 commits** (code changes) over the past 6 months, we have taken our time to also thoroughly test the plugin to ensure a great user experience. Please let us know if you encounter any issues so that we can fix them ASAP!
