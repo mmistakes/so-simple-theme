@@ -65,6 +65,8 @@ The construction history will be in place and you can now animate the _PaintFX_ 
 </div>
 </div>  <!-- end NoiseFX and PaintFX -->
 
+### Rendering
+{% include faq/section.html file="rendering.md" %}
 
 ### Troubleshooting MNPRX
 
