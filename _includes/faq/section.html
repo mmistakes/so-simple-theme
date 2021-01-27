@@ -1,0 +1,16 @@
+{%- if include.self-contained -%}
+  {% include faq/_header.html %}
+{%- endif -%}
+
+<div class="accordion" markdown="1">
+
+{%- if include.file -%}
+  {% assign section-file = "faq/" | append: include.file %}
+  {% include {{section-file}} %}
+{%- endif -%}
+
+</div>
+
+{%- if include.self-contained -%}
+  {% include faq/_footer.html %}
+{%- endif -%}

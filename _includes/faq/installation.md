@@ -1,4 +1,3 @@
-<div class="accordion" markdown="1">
 
 #### I can't install 'only for me'
 <div markdown="1">
@@ -20,6 +19,4 @@ To do this manually, follow the steps below:
 1. (Windows) Copy the edited MNPRX.mod and paste it in `C:/Program Files/Common Files/Autodesk Shared/Modules/Maya/2020` (paste it in the Maya version that you want to install MNPRX in).
 1. (Windows) Run this _mel script_ within _Maya_: `setRenderingEngineInModelPanel "DirectX11"`
 1. Restart Maya.
-</div>
-
 </div>

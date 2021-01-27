@@ -68,9 +68,7 @@ In case the activation code is not valid, or the existing license is no longer v
 
 
 ## FAQ
-{% include faq/_header.html %}
-{% include faq/activation.md %}
-{% include faq/_footer.html %}
+{% include faq/section.html file="activation.md" self-contained=true %}
 
 If the issues persists, please [contact us](/contact/) so that we can get you onboard as soon as possible.
 {: .notice--info}

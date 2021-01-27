@@ -1,4 +1,3 @@
-<div class="accordion" markdown="1">
 
 #### Re-activating MNPRX after activating another version
 <div markdown="1">
@@ -19,6 +18,4 @@ If for some reason activation fails, make sure to try the following:
     * (Windows) `<username>/Documents/maya/MNPRX.lic`
   * All-users installation:
     * (Windows) `C:/Program Files/Common Files/Autodesk Shared/Modules/Maya/MNPRX.lic`
-</div>
-
 </div>

@@ -9,30 +9,32 @@ schema:
 redirect_from:
   - /projects/MNPRX/docs/update/
 ---
-{% include toc-side %}
 
-MNPRX is updated almost every month, so its important to stay current to continue being able to render and benefit from all the latest features. Fortunately, updating is even easier than installing MNPRX.
+It is important to update MNPRX to continue being able to render and benefit from all the latest features. The update from version to version should be seamless and all your presets and previously stylized scenes will continue working with the new version.
 {: .top2}
 
 ## Replacing MNPRX
-The easiest way to update MNPRX (if you are coming from MNPR, please perform a [fresh install](../installation#installation)) is by replacing the existing files with the ones from the new version.
+The easiest (though messy) way to update MNPRX is by replacing the existing files with the ones from the new version.
 1. Download the latest MNPRX version and unzip all files.
-1. With the _Maya_ application closed, replace all the existing MNPRX files with the new ones.
+1. Close all instances of _Maya_
+1. Replace all the existing MNPRX files with the new ones.
 1. Start _Maya_ and continue using MNPRX as you always have.
 
 ## Fresh Install
-If you'd like to keep the old version or start fresh, unzip all files and install the new version of MNPRX from a different directory, following the [installation instructions](../installation#installation).
+If you'd like to keep the old version or start fresh
+1. Unzip all files and install the new version of MNPRX from a different directory, following the [installation instructions](../installation#installation).
+2. Copy any presets from the `presets` folder of previous installations into the new version.
 
 ## Updating materials
 {: #materials}
-Some updates require you to update the existing _ShaderFX_ materials in the scene to take advantage of new features. This is done in the _MNPRX shelf_, by right clicking on the _mPre_ tool -> _Update ShaderFX materials_.
+Up until the January 2021 update, the existing _ShaderFX_ materials in the scene needed to be updated to take advantage of new features. A prompt will appear when opening older scenes to do so. However, this can also be done in the _MNPRX shelf_, by right clicking on the _mPre_ tool -> _Update ShaderFX materials_.
 
 <figure class="pull-center">
-	<img src="/images/MNPRX/update-shaderfx.png" alt="Updating ShaderFX materials" style="width: 350px">
+	<img src="/images/MNPRX/update-shaderfx.png" alt="Updating ShaderFX materials" style="max-width: 100%; width: 300px">
 	<figcaption>Right click on the mPre tool -> Update ShaderFX materials.</figcaption>
 </figure>
 
-
 ## FAQ
-_**I want to perform a fresh install but would like to keep my presets**_<br>
-To transfer your presets to the new installation, simply copy the presets within the presets folder that you wish to transfer, and paste them where the presets of the new installation are.
+{% include faq/section.html file="updating.md" self-contained=true %}
+
+{% include toc-side %}

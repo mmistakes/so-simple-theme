@@ -47,11 +47,7 @@ You can [download demo scenes](/software/MNPRX/demo-scenes) for _MNPRX_ in a var
 1. Open the demo scene `Menu, File->Open`
 1. Update the scene if required by the prompt after opening.
 
-
 ## FAQ
-{% include faq/_header.html %}
-{% include faq/installation.md %}
-{% include faq/_footer.html %}
-
+{% include faq/section.html file="installation.md" self-contained=true %}
 
 {% include toc-side %}

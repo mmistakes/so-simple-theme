@@ -45,10 +45,10 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 </div> <!-- end About MNPRX -->
 
 ### Installation
-{% include faq/installation.md %}
+{% include faq/section.html file="installation.md" %}
 
 ### Activation
-{% include faq/activation.md %}
+{% include faq/section.html file="activation.md" %}
 
 ### NoiseFX and PaintFX
 
