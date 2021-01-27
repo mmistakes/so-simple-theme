@@ -8,9 +8,7 @@ comments: true
 search: true
 schema:
 ---
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="//code.jquery.com/jquery-1.12.4.js"></script>
-<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+{% include faq/_header.html %}
 
 ### About MNPRX
 
@@ -45,6 +43,9 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 </div>
 
 </div> <!-- end About MNPRX -->
+
+### Installation
+{% include faq/installation.md %}
 
 ### NoiseFX and PaintFX
 
@@ -117,10 +118,4 @@ If you really need to use the *Batch Render* tool within Maya, temporarily delet
 
 If you don't find your question here, feel free to reach out to us through the [Artineers](https://www.reddit.com/r/artineers/) community
 
-<!-- accordion widget documentation: https://api.jqueryui.com/accordion/-->
-<script> $( ".accordion" ).accordion({
-   collapsible: true,
-   animate: 100,
-   heightStyle: "content"
-   });
-</script>
+{% include faq/_footer.html %}

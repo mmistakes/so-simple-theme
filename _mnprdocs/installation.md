@@ -10,28 +10,34 @@ redirect_from:
   - /projects/MNPRX/docs/installation/
 ---
 
-## Requirements
-* Maya 2018, 2019, 2020 (with updates)
-* Windows 10 (Linux [CentOS/RHEL] and Mac upon request for bulk purchases of _Studio_ licenses)
-* Modern Graphics Card (2+ GB recommended, more is needed at higher resolutions and scene complexity)
+## Download MNPRX
+**Get a commercial or non-commercial version of MNPRX [here](/software/MNPRX/#getit).**  
+Make sure to also take a look at the system requirements below:
 
-
-## Get MNPRX
-Get a commercial or non-commercial version of MNPRX [here](/software/MNPRX/#getit).
-
+| Requirements      | Minimum    | Recommended | Notes                                                                                   |
+|-------------------|------------|-------------|-----------------------------------------------------------------------------------------|
+| **Autodesk Maya** | 2018.7     | 2020.4      | 2018, 2019 and 2020 are supported                                                       |
+| **OS**            | Windows 10 | Windows 10  | Linux and Mac versions developed for interested Studios, [contact us](/agency/#contact) |
+| **VRAM**          | 2 GB       | 8 GB        | Higher resolutions and scene complexity require more VRAM                               |
+| **Memory**        | 8 GB       | 16 GB       | As much as your Maya scene requires                                                     |
+{: .aio-table}
 
 ## Installation
-The installation of MNPRX is intended to be the least invasive, so you won't need to change anything in _Maya_ or place files in any particular place.
-1. Extract the contents of the downloaded _zip_ file anywhere you want e.g., documents, desktop, the project folder, you get the drill.
-1. Drag and drop the _install.mel_ file from the extracted content into one of the _Maya_ viewports. The _install.mel_ will then run in the background and automatically add the MNPRX paths in your _Maya.env_ file.
+1. Extract the contents of the downloaded _zip_ file anywhere you want e.g., documents, desktop, a shared drive, you get the drill.
+1. Drag and drop the _install.mel_ file from the MNPRX folder into one of the _Maya_ viewports.
+1. The installation window will appear (see image below).
+1. Install MNPRX from this folder _'only for you'_ or install MNPRX from this directory _'for ALL users'_ (requires admin rights)
 1. If successful, a prompt will appear in _Maya_, asking you to restart the application, please do so to show all changes.
 1. Once you open _Maya_ again, the [_MNPRX shelf_](../shelf) will appear alongside the other shelves.
-1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the test button.
+1. To test if everything is working correctly, switch to the _MNPRX shelf_ and click on the `test` button.
 1. If MNPRX has not been activated before, the [activation prompt](/software/MNPRX/docs/licensing/#activating-a-license) will appear.
 
-A video showing this installation process can be seen below:
-{% include responsive-embed url="https://www.youtube.com/embed/PQp9-CmLbRU" ratio="16:9" width="90%" %}
+<figure class="pull-center">
+  <img src="/images/MNPRX/installation-plain.png" alt="MNPRX Installation">
+</figure>
 
+Installations for a single user will ALWAYS take precedence over installations for all users. Make sure to uninstall MNPRX if you have a previous 'single user' installation and want to use the installation for 'all users', instead.
+{: .notice--info}
 
 ## Demo Scenes
 You can [download demo scenes](/software/MNPRX/demo-scenes) for _MNPRX_ in a variety of styles. To open them up, follow the instructions below.
@@ -39,41 +45,13 @@ You can [download demo scenes](/software/MNPRX/demo-scenes) for _MNPRX_ in a var
 1. Extract the files in a desired folder
 1. Set your _Maya project_ to the folder where your demo scene is `Menu, File->Set Project`
 1. Open the demo scene `Menu, File->Open`
-1. (Optional) Update the materials in the scene `right click on the 'mPre' shelf tool->Update ShaderFX materials`.
+1. Update the scene if required by the prompt after opening.
 
 
 ## FAQ
-_**I can't get the system to install using the install.mel file, what can I do?**_<br>
-It doesn't usually happen, but if the _install.mel_ installation doesn't work, there are two ways of manually installing MNPRX:
-
-_Solution 1: Temporarily remove the content in the Maya environment file_
-
-1. Copy the existing content of _Maya.env_ to another file.
-2. Clear all the environment variables (which you have copied over already for backup) and save the file.
-3. Drag and drop the _install.mel_ file again into the _Maya_ viewport -> it should install successfully then.
-4. Merge the other environment variables with the new ones in the _Maya.env_ file and save the changes.
-5. Restart Maya.
-
-_Solution 2: Insert the system paths manually to the Maya environment_
-
-1. Enter the environment variables (available at the bottom of this page) into Maya. Make sure the shelf path is the first environment variable, replace _#YOURMNPRXPATH#_ with the path where MNPRX is located and _#MAYAVERSION#_ with the version of Maya you are using e.g., 2018, 2019.
-1. (Windows only) After entering the environment variables, run this _mel script_ within _Maya_: `setRenderingEngineInModelPanel "DirectX11"`
-1. Restart Maya.
+{% include faq/_header.html %}
+{% include faq/installation.md %}
+{% include faq/_footer.html %}
 
 
-**Environment variables on Windows:**
-```python
-MNPRX_PATH=#YOURMNPRXPATH#;
-MAYA_MODULE_PATH=#YOURMNPRXPATH#;
-MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1;
-```
-
-<!--
-**Environment variables on Linux or MacOS**
-```python
-MNPRX_PATH=#YOURMNPRXPATH#:
-MAYA_MODULE_PATH=#YOURMNPRXPATH#:
-MAYA_VP2_USE_GPU_MAX_TARGET_SIZE=1:
-```
--->
 {% include toc-side %}

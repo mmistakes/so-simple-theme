@@ -51,7 +51,6 @@ hr {
   opacity: 0 !important;
 }
 
-
 .layout--plain {
   border-top: none;
 }
@@ -78,7 +77,9 @@ hr {
 .background-video {
   z-index: -1;
 }
-
+.aio-table {
+  font-size: 1rem;
+}
 
 // navigation
 .top-banner {
