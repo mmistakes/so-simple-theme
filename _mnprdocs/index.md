@@ -46,8 +46,8 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Styles
 ### [Style Library](/styles/)
-### [Configuration](config)
 ### [Style Presets](style-presets)
+### [Configuration](config)
 </div>
 
 <div class="doc-element" markdown="1">
@@ -67,7 +67,6 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1">
 ## Stylizations
 ### [Import/Export](import-export)
-### Breakdowns  {% include aio-wip.html %}
 ### [Controls](controls)
 </div>
 
