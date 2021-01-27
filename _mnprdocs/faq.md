@@ -47,6 +47,9 @@ Yes, just change the viewport renderer from MNPRX to Viewport 2.0.
 ### Installation
 {% include faq/installation.md %}
 
+### Activation
+{% include faq/activation.md %}
+
 ### NoiseFX and PaintFX
 
 <div class="accordion" markdown="1">
