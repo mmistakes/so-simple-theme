@@ -43,8 +43,8 @@ The _Watercolor_ style emulates the **traditional watercolor animation** aesthet
 ### Main Features
 * Pigment-based effects such as **pigment turbulence and bleeding**
 * Edge-based effects such as **edge darkening and gaps & overlaps**
-* Substrate-based effects such as **paper granulation and distortion**
-* Substrate can be attached to the underlying motion
+* Canvas-based effects such as **paper granulation and distortion**
+* canvas can be attached to the underlaying motion
 * Use PaintFX and NoiseFX to **attach effects** onto the animation
 * Use proxies to **control the style with invisible objects**
 * The stylization is also **available in Nuke** for Indie/Studio subscribers to add the watercolor style to offline renders (i.e., Arnold, Renderman)
@@ -98,7 +98,7 @@ The concentration of pigments, giving the render either a diluted or a more satu
 </figure>
 
 ### Paper Granulation
-The accumulation of pigments on the valleys of the paper (substrate). Concentrates the pigments on the valleys and creates a more saturated and darker look.
+The accumulation of pigments on the valleys of the paper (canvas). Concentrates the pigments on the valleys and creates a more saturated and darker look.
 <figure class="pull-center">
 	<video autoplay loop muted playsinline>
 	  <source src="/images/MNPRX/WC/paper-granulation.mp4" type="video/mp4">

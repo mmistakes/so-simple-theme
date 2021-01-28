@@ -73,7 +73,7 @@ Installations for a single user will always take precedence over installations f
 </figure>
 
 **Material presets**
-- *Improved -* Inherit will replicate the attributes of whatever is already assigned to the object—thereby inheriting the old material. This works with Maya materials (creating a ShaderFX material with similar attributes) or with ShaderFX materials (making a "duplicate").
+- *Improved -* Inherit will replicate the attributes of whatever is already assigned to the object—thereby inheriting the old material. This works with _Maya_ materials (creating a _ShaderFX_ material with similar attributes) or with _ShaderFX_ materials (making a "duplicate").
 - *Fixed* - Filtered presets not appearing correctly
 
 **Style presets**
@@ -262,7 +262,7 @@ The February 2020 update concentrates on stability and bug fixes, while at the s
 
 **Materials**
 * _New_ - Custom _UDIM_ texture node group for _ShaderFX_ materials [[tutorial](https://www.youtube.com/watch?v=jPTdqG-PjcA&t=87s)].
-* _Improved_ - Underlying management of control sets and baking for PaintFX and NoiseFX.  
+* _Improved_ - underlaying management of control sets and baking for PaintFX and NoiseFX.  
 
 **PaintFX** - [[Docs](/software/MNPRX/docs/paintfx/)]
 * _New_ - Visualize the PaintFX parameters that are painted onto different objects.
@@ -328,7 +328,7 @@ _New_ - Inspired by the look of short films like _Feast_ and _Age of Sail_, our 
 **Viewport rendering**
 * _Improved_ - Performance with VelocityPV enabled has been drastically improved
 * _Fixed_ - Automatically disable MSAA to avoid wrong output within the viewport
-* _Fixed_ - The substrate doesn't sometimes dissapear anymore when the resolution changes
+* _Fixed_ - The canvas doesn't sometimes dissapear anymore when the resolution changes
 
 **Watercolor**
 * _New_ - Added a custom dry-brush color and improved upon the dry-brush effect
@@ -433,7 +433,7 @@ The August 2019 update is focused on improving the functionality of MNPRX and it
 * _Improved_ - Ambient occlusion has been improved upon and can now be used with any material and in scenes with big world scales.
 * _Improved_ - The _Atmosphere Tint_ is now deactivated for orthographic views.
 * _Fixed_ - Minor bug that didn't TAA the image when de-selecting objects.
-* _Fixed_ - Minor bug that didn't show the substrate properly upon changing between textures of different resolutions.
+* _Fixed_ - Minor bug that didn't show the canvas properly upon changing between textures of different resolutions.
 
 **MNPRX Materials**
 * _New_ - _Rim Lights_ setting and attributes have been added to the [uber material](./docs/uber#rim-light).  
@@ -457,7 +457,7 @@ _New_ - Redesigned and more powerful material presets window. From top to bottom
 **Style Presets**  
 _New_ - Redesigned and more powerful stylization presets window. From top to bottom, the updates are as follows:
 * _Improved_ - Save presets by pressing enter after writing the name (save button still there if you prefer a mouse)
-* _New_ - Loading options for stylizations, giving control over loading the world scale, attributes, quality and substrates.
+* _New_ - Loading options for stylizations, giving control over loading the world scale, attributes, quality and canvases.
 * _New_ - Filter presets by name or by stylization
 * _Improved_ - Double click on a preset to load it
 
@@ -494,9 +494,9 @@ _New_ - The _Cutout Stylization_ brings real-time cutout rendering of 3D objects
 **Watercolor Stylization**
 * _New_ - Ambient occlusion can concentrate pigment density within the watercolor stylization.
 
-**Substrates**
-* _New_ - Rotation attribute on each substrate.
-* _New_ - Thorough control over the _Alternate Substrate_
+**Canvases**
+* _New_ - Rotation attribute on each canvas.
+* _New_ - Thorough control over the _Alternate Canvas_
 
 **Material Presets**
 * _Improved_ - Material presets do not force to load-up materials within the _MNPRX_ renderer anymore, you can use the normal _Viewport 2.0_ with it, if desired.
@@ -567,7 +567,7 @@ _New_ - Viewport rendering has been completely re-implemented to be handled enti
 * _Improved_ - Velocity vertex data is discarded when no longer required, reducing scene size.
 * _Fixed_ - Bug where the attribute editor sometimes didn't show the _ShaderFX_ attributes.
 * _Fixed_ - Memory leak when resizing the viewport.
-* _Fixed_ - Memory leak when loading different substrate textures.
+* _Fixed_ - Memory leak when loading different canvas textures.
 
 **Installation**
 * _New_ - MNPRX environment variables are now handled by a plugin distribution module, avoiding clashes with environment variables from the host system.
@@ -624,7 +624,7 @@ The tool is name-based, but supports the Import/Export between different namespa
 * _New_ - Viewport Rendering now also matches the resolution gate, when in use.
 * _Fixed_ - Memory leak that used all available system memory when rendering out big image sequences.
 * _Fixed_ - Texture samplers not being recognized until the shaders were reloaded i.e., no more weird pixels at the borders of the images.
-* _Fixed_ - Assigned substrate not showing when opening a scene from scratch.
+* _Fixed_ - Assigned canvas not showing when opening a scene from scratch.
 
 ### Watercolor stylization in Nuke
 {: .top2 .bottom05}
@@ -713,11 +713,11 @@ _New_ - Tool to batch render any render target (images/gBuffers) out of MNPRX. Y
 * Multiple camera views
 The artist can cancel the render at any time and all targets are saved within one pass.
 
-**Substrates**
-* _New_ - Motion-driven substrates (dynamic canvas) that allow for motion coherent substrate-based effects. Activate the _Velocity PV_ attribute in the _mnprConfig_ node to activate it.
-* _Improved_ - Controllable substrate tiles through the _Substrate Tile_ attribute.
-* _New_ - Smooth/rough transition between tiles by activating the _Substrate Tile Blend_ attribute.
-* _New_ - Support for substrate blending between two specified textures with the _Substrate Blend_ attribute.
+**Canvases**
+* _New_ - Motion-driven canvases (dynamic canvas) that allow for motion coherent canvas-based effects. Activate the _Velocity PV_ attribute in the _mnprConfig_ node to activate it.
+* _Improved_ - Controllable canvas tiles through the _Canvas Tile_ attribute.
+* _New_ - Smooth/rough transition between tiles by activating the _Canvas Tile Blend_ attribute.
+* _New_ - Support for canvas blending between two specified textures with the _Canvas Blend_ attribute.
 
 **Watercolor**
 * _Improved_ - No more _Depth Range_ or _Bleeding Threshold_ attribute required for watercolor effects to behave correctly.
@@ -742,10 +742,10 @@ _New_ - The watercolor stylization pipeline in _The Foundry_'s _Nuke_. This node
 **Viewport Rendering**
 * _Fixed_ - Edge artefacts in alpha channel when _FXAA_ was on
 
-**Substrates**
-* _Improved_ - Extended the range of substrates (papers) to use.
-* _Improved_ - Substrates can be downloaded from within the shelf
-  ``RMB on _MNPR_ shelf icon -> Download substrates``.
+**Canvases**
+* _Improved_ - Extended the range of canvases (papers) to use.
+* _Improved_ - Canvases can be downloaded from within the shelf
+  ``RMB on _MNPR_ shelf icon -> Download canvases``.
 
 ---
 

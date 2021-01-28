@@ -10,7 +10,7 @@ redirect_from:
   - /projects/MNPRX/docs/proxy/
 ---
 
-Proxy materials are invisible materials that only render to the stylization control maps within MNPRX, modifying stylization effects. As this may sound abstract, please watch the following tutorial demonstrating its usage within a watercolor stylization.
+Proxy materials are invisible materials that only render to the stylization control maps within MNPRX, modifying stylization effects. As this may sound abstract, please watch the following tutorial demonstrating its usage within the watercolor stylization.
 {: .top2}
 
 {% include responsive-embed ratio="16:9" width="90%"
@@ -18,7 +18,7 @@ url="https://www.youtube.com/embed/QD9cX0Y8WRE"
 local="/Working With Proxies.mp4" %}
 
 
-It may take some time to get used to working with proxy materials, but these provide unique versatility, as they portray standalone stylization elements in the scene. They can help stylize at a high level of control---affecting the whole image by being placed in front of the camera---, down to a low level of control---affecting a specific part in 3D space.
+It may take some time to get used to working with proxy materials, but these provide a unique versatility, as they are separate stylization elements in the scene. They can help stylize at a high level of control---affecting the whole image by being placed in front of the camera---, down to a low level of control---affecting a specific part in 3D space.
 
 Built using the _ShaderFX_ framework, it is entirely contained within the node-based [_ShaderFX Graph_](#shaderfx-graph) and can be modified to fit any requirements by look development artists. However, most settings and attributes are easily accessible from the _Attribute Editor_ when the material is selected, as shown below.
 
@@ -29,7 +29,7 @@ Built using the _ShaderFX_ framework, it is entirely contained within the node-b
 	<figcaption>The proxy material in the Attribute Editor.</figcaption>
 </figure>
 
-The first element within the _proxy_ material is the `Open ShaderFX` button. This button will open the _ShaderFX Graph_, which allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but, if interested, we recommend you to watch [these tutorials](https://www.youtube.com/watch?v=wWc9_eqbGUI&list=PLOKJUFwsV5SotMRNNxxmbVjlyz7R7mdoc).
+The first element within the _mnpr_uber_ material is the `Open ShaderFX` button, which opens the _ShaderFX Graph_. This graph allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but you can learn a lot by watching [these tutorials](https://www.youtube.com/playlist?list=PLtiFs_CcTAQ5bewy6WwDrak9q9Pw2O6pu).
 {: .top2 #shaderfx-graph}
 
 The first section, when opened, provides the material **Settings** that allow to customize what optional features the _proxy_ material should have. The section is closed by default, as the only setting in the proxy material is handled by the [_PaintFX_](./../paintfx) tool.

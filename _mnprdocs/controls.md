@@ -14,13 +14,13 @@ The stylization pipeline of MNPRX is controlled via a set of *control targets*, 
 There are currently four control targets, each containing three control channels (RGB):
 
 - Pigment-based effects (pigmentCtrlTarget in MNPRX)
-- Substrate-based effects (substrateCtrlTarget)
+- Canvas-based effects (canvasCtrlTarget)
 - Edge-based effects (edgeCtrlTarget)
 - Abstraction-based effects (abstractCtrlTarget)
 
 The control targets are shared between all styles, meaning that they will keep their contents as you switch styles.
 
-As much as possible, the control targets are designed so that their meaning is generic enough to be able to "transfer" cleanly from one style to the other. However, for highly specialized styles, the meaning of the control targets don't directly relate to other styles. 
+As much as possible, the control targets are designed so that their meaning is generic enough to be able to "transfer" cleanly from one style to the other. However, for highly specialized styles, the meaning of the control targets don't directly relate to other styles.
 
 Usually, the way these control targets work is entirely transparent from the user. However, the contents of control targets are relevant if you want to use MNPRX-generated render targets outside of Maya, such as in Nuke.
 
@@ -33,7 +33,7 @@ This table summarizes how the controls are assigned to specific channels of cont
 | Pigment Control     | Red     | Pigment Variation   | -                       | -                       | Noise 1                | -                    |
 |                     | Green   | Pigment Application | Granulation - Dry-brush | Granulation - Dry-brush | Noise 2                | -                    |
 |                     | Blue    | Pigment Density     | Pigment Density         | Pigment Density         | Noise 3                | -                    |
-| Substrate control   | Red     | Distortion          | Substrate Distortion    | Frayed Amplitude        | -                      | Substrate Distortion |
+| Canvas control   | Red     | Distortion          | Canvas Distortion    | Frayed Amplitude        | -                      | Canvas Distortion |
 |                     | Green   | U-inclination       | -                       | -                       | Orientation Offset     | -                    |
 |                     | Blue    | V-inclination       | -                       | -                       | -                      | -                    |
 | Edge control        | Red     | Edge Intensity      | Edge Darkening          | Edge Darkening          | -                      | -                    |
@@ -48,13 +48,13 @@ This table summarizes how the controls are assigned to specific channels of cont
 {: .top2}
 
 The control values for each effect mostly transition smoothly between -1 and 1 (0 is the default).
-The individual detailed values of current effects are found in the table below. 
+The individual detailed values of current effects are found in the table below.
 
 | Name                    | -1 (negative values) | 0                  | +1 (positive values)  |
 |:------------------------|:---------------------|:------------------:|----------------------:|
 | Granulation - Dry-brush | More granulation     | Global granulation | Dry-brush             |
 | Pigment Density         | Diluted color        | Global density     | Denser color          |
-| Substrate Distortion    | Not distorted        | Global distortion  | More distortion       |
+| Canvas Distortion    | Not distorted        | Global distortion  | More distortion       |
 | Frayed Amplitude        | Not frayed           | Global amplitude   | More amplitude        |
 | Gaps and Overlaps       | Gaps                 | -                  | Overlaps              |
 | Edge Darkening          | Not darkened         | Global darkening   | Darker                |
@@ -75,13 +75,13 @@ Here we detail the generic semantics we use for control targets, to facilitate c
 ### Pigment-based effects
 
 - **Pigment variation**, controls the degree at which the reflected color of a pigment deviates towards one or another color. E.g., green pigmentation that deviates to a more blue or yellow color in certain parts.
-- **Pigment application**, controls how the pigment is placed over a substrate. This can be interpreted as the amount or pressure at which pigment is applied to achieve an effect. E.g., pigment granulation (Watercolor/Frayed).
-- **Pigment density**, controls the concentration of the pigment placed over a substrate. This is especially relevant to transparent and translucent media ( i.e., watercolor, ink, colored pencils), but can also influence opaque media. E.g., dilution, lightness, saturation.
+- **Pigment application**, controls how the pigment is placed over a canvas. This can be interpreted as the amount or pressure at which pigment is applied to achieve an effect. E.g., pigment granulation (Watercolor/Frayed).
+- **Pigment density**, controls the concentration of the pigment placed over a canvas. This is especially relevant to transparent and translucent media ( i.e., watercolor, ink, colored pencils), but can also influence opaque media. E.g., dilution, lightness, saturation.
 
-### Substrate-based effects
+### Canvas-based effects
 
-- **Substrate distortion**, controls the distortion caused by the substrate roughness on the rendered image. This is especially relevant for fluid media (i.e., watercolor, graffiti).
-- **U-inclination** and **V-inclination**, control the inclination of the substrate, which generally affects the direction at which patterns or marks from fluid media evolve. However, generalizing upon this, these parameters are used to define the offset of existing patterns or marks in a horizontal or vertical direction. E.g., bleeding direction, cross-hatching direction, stroke direction.
+- **Canvas distortion**, controls the distortion caused by the canvas roughness on the rendered image. This is especially relevant for fluid media (i.e., watercolor, graffiti).
+- **U-inclination** and **V-inclination**, control the inclination of the canvas, which generally affects the direction at which patterns or marks from fluid media evolve. However, generalizing upon this, these parameters are used to define the offset of existing patterns or marks in a horizontal or vertical direction. E.g., bleeding direction, cross-hatching direction, stroke direction.
 
 ### Edge-based effects
 

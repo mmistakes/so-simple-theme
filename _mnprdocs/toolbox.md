@@ -48,7 +48,7 @@ If nothing is selected, the tool will try to delete the _PaintFX_ of **ALL** obj
 
 ## Unsubdivide Previews
 _Unsubdivide Previews_ can be useful in a various situations where you need to work with light meshes.
-* When using the _Velocity PV_ attribute in the [style configuration node](../config/#velocity-pv), to improve upon the performance and correctly advect (attach) the substrate to the underlying motion.
+* When using the _Velocity PV_ attribute in the [style configuration node](../config/#velocity-pv), to improve upon the performance and correctly advect (attach) the canvas to the underlaying motion.
 * For performance and stability issues on computers running with integrated graphics
 
 To use it, simply select the objects from which you'd like to unsubdivide and click on the **Unsubdivide Previews** button.

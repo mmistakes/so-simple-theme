@@ -365,7 +365,7 @@ _Rim Light Wrap_ defines the area of effect of the rim light.
 </div>
 
 #### Rim Light Color
-Controls the color of the rim light effect. The color is additively blended on top of the underlying shading.
+Controls the color of the rim light effect. The color is additively blended on top of the underlaying shading.
 
 <figure class="pull-center">
  <video autoplay loop muted playsinline style="width:200px">
