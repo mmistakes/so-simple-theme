@@ -10,7 +10,7 @@ This is a private link for Indie/Studio subscribers of MNPRX. Please do not shar
 {: .top2}
 
 ## MNPRX
-* [MNPRX (January 2021 RC)](https://www.notion.so/artineering/January-2021-030539c7d70e43e0a9fa81c04576b93d) {% include aio-new.html %}
+* [MNPRX (January 2021)](https://www.notion.so/artineering/January-2021-030539c7d70e43e0a9fa81c04576b93d) {% include aio-new.html %}
 * [MNPRX (August 2020)](https://www.notion.so/artineering/August-2020-1723a56c32ff4270b82de27d8467c6f2)
 * [MNPRX (February 2020)](https://www.notion.so/artineering/February-2020-8d7b7f0387b74cddb6947be699ec479a)
 * [MNPRX (December 2019)](https://www.notion.so/artineering/December-2019-090847c31a62463ca79978c0b91c655b)
