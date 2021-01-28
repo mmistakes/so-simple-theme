@@ -10,12 +10,12 @@ redirect_from:
   - /projects/MNPRX/docs/uber/
 ---
 
-Materials give the surface properties to 3D objects, which are then projected to an image. Therefore, it is crucial to understand what features materials can provide, especially in a non-photorealistic rendering context where everything is possible. It can take some time to fully master the _mnpr_uber_ material, but hopefully this documentation will make the learning curve manageable.
+Materials give the surface properties to 3D objects, which are then projected to an image. Therefore, it is crucial to understand what features materials can provide, especially in a non-photorealistic rendering context where everything is possible.
 {: .top2}
 
-The _mnpr_uber_ material is developed to meet most painterly shading requirements in real-time. Built using the _ShaderFX_ framework, it is entirely contained within the node-based [_ShaderFX Graph_](#shaderfx-graph) and can be modified to fit any shading requirements by look development artists. However, most settings and attributes are easily accessible from the _Attribute Editor_ when the material is selected, as shown below.
+The _mnpr_uber_ material is developed to meet most painterly shading requirements in real-time. Built using the _ShaderFX_ framework, it is entirely contained within the node-based [_ShaderFX Graph_](#shaderfx-graph) and can be modified to fit any shading requirements by look development artists. However, most _settings_ and _attributes_ are easily accessible from the _Attribute Editor_ when the material is selected, as shown below.
 
-A ShaderFX material has two types of 'attributes': [**Settings**](.#settings) and [**Attributes**](.#painterly-shading). They work quite differently so its important to consider them as separate entities.
+A _ShaderFX_ material has two types of 'attributes': [**Settings**](.#settings) and [**Attributes**](.#painterly-shading). They work differently so consider them as separate entities.
 {: .notice--info}
 
 -------------
@@ -25,20 +25,19 @@ A ShaderFX material has two types of 'attributes': [**Settings**](.#settings) an
 	<figcaption>The default mnpr_uber material in the Attribute Editor.</figcaption>
 </figure>
 
-The first element within the _mnpr_uber_ material is the `Open ShaderFX` button. This button will open the _ShaderFX Graph_, which allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but, if interested, we recommend you to watch [these tutorials](https://www.youtube.com/playlist?list=PLtiFs_CcTAQ5bewy6WwDrak9q9Pw2O6pu) and read the [advanced documentation](#advanced).
+The first element within the _mnpr_uber_ material is the `Open ShaderFX` button, which opens the _ShaderFX Graph_. This graph allows complete control to customize the material with nodes. The graph is intended for shader writers or advanced users who know how to manipulate and work with the _ShaderFX_ framework. Using the _ShaderFX_ framework is outside of the scope of this documentation, but you can learn a lot by watching [these tutorials](https://www.youtube.com/playlist?list=PLtiFs_CcTAQ5bewy6WwDrak9q9Pw2O6pu) and reading the [advanced documentation](#advanced).
 {: .top2 #shaderfx-graph}
 
-The first section, when opened, provides the material [**Settings**](.#settings) that allow to customize what optional features the _mnpr_uber_ material should have. The section is closed by default, as these settings are rather advanced. However, we'll go into detail with each setting [further on](#settings). Let us concentrate first on the default material [**Attributes**](.#painterly-shading).
+The first section, when opened, provides the material [**Settings**](.#settings) that allow to customize what optional features the _mnpr_uber_ material should have. The section is closed by default, as these settings enable/disable material properties. We'll go into detail with each setting [further on](#settings). Let us concentrate first on the default material [**Attributes**](.#painterly-shading).
 
-{% include aio-hint.html %} **Almost all attributes shown in the _mnpr_uber_ material go between `0` and `1`. The ShaderFX framework unfortunately maxes out the sliders of attributes at their default value.**
-
+{% include aio-hint.html %} **Almost all attributes shown in the _mnpr_uber_ material go between `0` and `1`. The ShaderFX framework unfortunately maxes out the sliders of attributes at their default value if they are not `0`.**
 
 ## Painterly Shading
 Painterly shading attributes focus on bringing colors into the foreground of shading control and work differently than most attributes found in photorealistic renderers. This doesn't mean that they can't be combined with normal [_Shading_](#shading) parameters, but they require 3D artists to go back to thinking in terms of colors and light. The first group of attributes control the color in the lit parts of the objects, whereas the second group of attributes (from [_Colored Shading_](#colored-shading) onwards) control the color in the shade of objects.
 
 ### Cangiante
 _Cangiante_ illumination changes the hue of the lit area towards a brighter and saturated related color. This attributes can also be used to enhance the color of any applied [_Albedo Texture_](#albedo-texture).
-<figure class="pull-center">
+<figure class="pull-center" style="display: flow-root">
  <video autoplay loop muted playsinline style="width:200px">
    <source src="/images/MNPRX/mnpr-uber/cangiante.mp4" type="video/mp4">
  </video>
@@ -216,13 +215,23 @@ Some reflectance models may not be compatible with all material features on this
 
 ------------------
 
+### Deformed
+The _Deformed_ setting bakes the current position of vertices so that effects that rely on the 3D position of objects can stay in place when objects are animated/deformed. If this setting is not enabled, things like _NoiseFX_ or _FeatureNoise_ would float around in 3D space and not move with the objects.
+
+------------------
+
 ### VtxControl
 The _VtxControl_ setting enables the control of stylization effects through the vertex colors. This attribute is automatically managed by MNPRX and is activated as soon as you start using [_PaintFX_](./../paintfx).
 
 ------------------
 
-### Shadow
-The _Shadow_ setting enables cast shadows of the material on other surfaces. If disabled, the objects with the material won't _cast_ any shadows onto other objects (they might still present shadows from other casting objects/materials).
+### Cast-Shadows
+The _Cast Shadows_ setting enables cast shadows of the material on other surfaces. If disabled, the objects with the material won't _cast_ any shadows onto other objects.
+
+------------------
+
+### Receive-Shadows
+The _Receive Shadows_ setting enables receiving cast shadows from other objects on the material. If disabled, the objects with the material won't receive shadows from other objects.
 
 ------------------
 
@@ -231,15 +240,15 @@ The _Flip-Back-Faces_ setting flips the normals of faces that might be pointing 
 
 ------------------
 
-### Transparent and Semi-Transparent
-The _Transparent_ setting enables the use of alpha masks in the material and unlocks the _Semi-Transparent_ setting directly underneath.
+### Transparency
+The _Transparent_ setting enables the use of alpha masks in the material and unlocks the _Semi-Transparent_ and _Blend-All_ settings directly underneath.
 <figure class="align-center">
 	<img src="/images/MNPRX/mnpr-uber/transparent-AE.png" alt="Transparency and Semi-Transparency attributes"  style="width: 500px">
 	<figcaption>The Transparent and Semi-Transparent section in the Attribute Editor.</figcaption>
 </figure>
 
 #### Alpha Mask
-_Alpha Mask_ is a black and white image which embeds the alpha of the material. White is opaque, black is transparent. Use the alpha masks if you want cast shadows respect the transparency.
+_Alpha Mask_ is a black and white image which embeds the alpha of the material. White is opaque, black is transparent. Use the alpha masks if you want that cast shadows respect the transparency.
 
 #### Alpha Texture File
 Specifies the file path to the _Alpha Mask_. The path can be absolute or relative to the project root directory. While similar to [_Transparency Map_](#transparency-map), the alpha mask is binary and can only distinguish between opaque or fully transparent.
@@ -279,6 +288,9 @@ _Transparency_ defines the overall semi-transparency of the material.
 When working with [_Transparency Map_](#transparency-map) or [_Alpha Mask_](#alpha-mask), you can set the _Transparency_ attribute to `0`, as the textures will normally handle the transparency, instead.
 {: .notice--info}
 
+#### Blend-All setting
+The _Blend-All_ setting (which shows up once the _Semi-Transparency_ setting has been enabled) makes all underlaying data semi-transparent, blending it with whatever is underneath. While this setting is experimental, you can use it in case semi-transparent objects are having adverse effects on your renders.
+
 ------------------
 
 ### LightMap
@@ -307,35 +319,6 @@ If this attribute is enabled, [_Light Maps_](#lightmap) will add both light and 
 		<figcaption>Light Map applied.</figcaption>
 	</figure>
 </div>
-
-------------------
-
-### Highlight
-The _Highlight_ setting generates the [_Highlight Roll Off_](#highlight-roll-off) and [_Highlight Transparency_](#highlight-transparency) attributes in the _Painterly Shading_ material section. These attributes generate a sharp highlight with the [_Light Color_](#light-color).
-<figure class="align-center">
-	<img src="/images/MNPRX/mnpr-uber/highlight-AE.png" alt="Highlight attributes"  style="width: 500px">
-	<figcaption>The Highlight attributes in the Paintery Shading section within the Attribute Editor.</figcaption>
-</figure>
-
-#### Highlight Roll Off
-_Highlight Roll Off_ defines the size of the highlight in the lit area of objects.
-
-<figure class="pull-center">
- <video autoplay loop muted playsinline style="width:200px">
-   <source src="/images/MNPRX/mnpr-uber/highlight-roll-off.mp4" type="video/mp4">
- </video>
- <figcaption>Highlight Roll Off with an orange Light Color (0...1.0)</figcaption>
-</figure>
-
-#### Highlight Transparency
-_Highlight Transparency_ defines the transparency of the highlight.
-
-<figure class="pull-center">
- <video autoplay loop muted playsinline style="width:200px">
-   <source src="/images/MNPRX/mnpr-uber/highlight-transparency.mp4" type="video/mp4">
- </video>
- <figcaption>Highlight Transparency (0...1.0).</figcaption>
-</figure>
 
 ------------------
 
@@ -389,6 +372,45 @@ Controls the color of the rim light effect. The color is additively blended on t
    <source src="/images/MNPRX/mnpr-uber/rim-color.mp4" type="video/mp4">
  </video>
  <figcaption>Varying the hue of the rim light color.</figcaption>
+</figure>
+
+------------------
+
+### Highlight
+The _Highlight_ setting generates the [_Highlight Roll Off_](#highlight-roll-off) and [_Highlight Transparency_](#highlight-transparency) attributes in the _Painterly Shading_ material section. These attributes generate a sharp highlight with the [_Light Color_](#light-color).
+<figure class="align-center">
+	<img src="/images/MNPRX/mnpr-uber/highlight-AE.png" alt="Highlight attributes"  style="max-width: 100%">
+	<figcaption>The Highlight attributes in the Paintery Shading section within the Attribute Editor.</figcaption>
+</figure>
+
+#### Highlight Roll Off
+_Highlight Roll Off_ defines the size of the highlight in the lit area of objects.
+
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="width:200px">
+   <source src="/images/MNPRX/mnpr-uber/highlight-roll-off.mp4" type="video/mp4">
+ </video>
+ <figcaption>Highlight Roll Off with an orange Light Color (0...1.0)</figcaption>
+</figure>
+
+#### Highlight Diffusion
+_Highlight Diffusion_ defines how diffuse (blurred) the highlight should be.
+
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="width:200px">
+   <source src="/images/MNPRX/mnpr-uber/highlight-diffusion.mp4" type="video/mp4">
+ </video>
+ <figcaption>Highlight Diffusion (0...1.0)</figcaption>
+</figure>
+
+#### Highlight Transparency
+_Highlight Transparency_ defines the transparency of the highlight.
+
+<figure class="pull-center">
+ <video autoplay loop muted playsinline style="width:200px">
+   <source src="/images/MNPRX/mnpr-uber/highlight-transparency.mp4" type="video/mp4">
+ </video>
+ <figcaption>Highlight Transparency (0...1.0).</figcaption>
 </figure>
 
 ------------------
@@ -599,6 +621,16 @@ _Invert U_ and _Invert V_ invert the normal inclinations either horizontally or 
 		<figcaption>Invert U and Invert V.</figcaption>
 	</figure>
 </div>
+
+------------------
+
+### FeatureNoise
+The _FeatureNoise_ setting creates fractalized 3D noise that is used for styles that require it i.e., hatching.
+
+------------------
+
+### Color-Plane
+The _Color-Plane_ setting defines a material as a color plane. Objects assigned to a color plane material won't be affected by the _Atmosphere Color_ attribute that is set in the configuration node. This allows you to use color planes at different distances from the camera, without any atmospheric tint affecting them.
 
 ------------------
 
