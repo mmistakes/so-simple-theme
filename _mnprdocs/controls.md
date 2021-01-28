@@ -44,6 +44,8 @@ This table summarizes how the controls are assigned to specific channels of cont
 |                     | Blue    | Blending            | Color Bleeding          | -                       | -                      | -                    |
 {: .almost-full-width}
 
+---
+
 ### Control Details
 {: .top2}
 

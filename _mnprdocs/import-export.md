@@ -10,12 +10,12 @@ redirect_from:
   - /projects/MNPRX/docs/import-export/
 ---
 
-Importing/exporting the stylization is crucial in professional production workflows and can be done with the _Import/Export Tool_. The tool can be found in the _MNPRX Toolbox_, opened by clicking on the `tbox` [shelf icon](../shelf).
+Importing/exporting the stylization is crucial for professional production workflows and can be done with the _Import/Export Tool_. The tool windowcan be opened by clicking on the `im/ex` [shelf icon](../shelf).
 {: .top2}
 
-<figure class="align-center">
-	<img src="/images/MNPRX/tbox.png" alt="MNPRX Toolbox" style="width:300px;">
-	<figcaption>The MNPRX Toolbox contains a growing set of useful tools for production.</figcaption>
+<figure class="pull-right top-1" style="max-width:100%">
+	<img src="/images/MNPRX/import-export.png" alt="MNPRX Toolbox" style="width:300px;">
+	<figcaption>The Import/Export tool.</figcaption>
 </figure>
 
 At the top of the _Import/Export Tool_, you will find the different options thereof.

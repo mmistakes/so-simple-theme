@@ -41,7 +41,7 @@ The *style* and *Maya scene* files should always be in the same folder for a sea
 **Revamped import/export workflow**
 - *New* - Dedicated import/export icon on shelf
 - *New* - Automatically save the stylization when saving the scene
-- *Improved* - Smaller stylization files (*.style*). We are using our own encoder and only saving the data that has been set in the scene.
+- *Improved* - Smaller stylization files (*.style*). We are using our own encoder and only saving the data that has been set in the scene.  
 Old stylization files (*.json) can still be imported.
 
 **Support for multiple materials in the same objects**
@@ -66,7 +66,7 @@ Installations for a single user will always take precedence over installations f
 </figure>
 
 **Re-link textures tool**
-- *New* - Working with a scene that was running on another computer? Now you can automatically relink all existing textures with a click of a button. The Re-link texture tool can be found in the MNPRX toolbox.
+- *New* - Working with a scene that was running on another computer? Now you can automatically relink all existing textures with the click of a button. The Re-link texture tool can be found in the MNPRX toolbox.
 
 <figure class="pull-center">
   <img src="/images/MNPRX/tbox2.png" alt="MNPRX toolbox">

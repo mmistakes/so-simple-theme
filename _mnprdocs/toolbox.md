@@ -14,26 +14,9 @@ The _MNPRX toolbox_ is a handy collection of tools to use MNPRX in production. T
 {: .top2}
 
 <figure class="align-center">
-	<img src="/images/MNPRX/tbox.png" alt="MNPRX Toolbox" style="max-width:100%;">
+	<img src="/images/MNPRX/tbox2.png" alt="MNPRX Toolbox" style="max-width:100%;">
 	<figcaption>The MNPRX Toolbox contains a growing set of useful tools for production.</figcaption>
 </figure>
-
-## Import/export MNPRX stylization
-Importing/exporting the stylization is crucial in professional production workflows and can be done with the _Import/Export Tool_. We go into detail about this tool in the [**Import/Export Tool documentation**](../import-export/).
-
-## Bulk Attribute {% include aio-new.html %}
-Only available for _Indie_ and _Studio_ licenses, the bulk attribute allows to easily change _MNPRX_ material settings and attributes in bulk. To open the tool window, click on the `Bulk Attribute` button in the _MNPRX Toolbox_.
-
-<figure class="align-center">
-	<img src="/images/MNPRX/bulkAttribute.png" alt="Bulk attribute tool" style="max-width:600px;">
-	<figcaption>The bulk attribute tool contains the active settings of selected MNPRX materials.</figcaption>
-</figure>
-
-The settings and attributes that appear on the _Bulk Attribute_ tool depend on what materials you have selected in the scene.
-
-By default, the tool will automatically refresh when the selection changes to show the attributes/settings of the current selection. You can disable this behaviour by unchecking the `Auto-refresh` option within the tool and refreshing manually through the `Refresh` button.
-
-The material will be automatically gathered from any object you currently have selected. You can disable this bahavior by unchecking `Auto-materials` at the bottom right of the UI. If disabled, you will need to select the materials yourself for the attributes/settings to appear in the _Bulk Attribute_ tool.
 
 ## Delete PaintFX
 Deleting _PaintFX_ can be useful in a various situations
@@ -46,6 +29,10 @@ To use it, simply select the objects from which you'd like to remove the _PaintF
 If nothing is selected, the tool will try to delete the _PaintFX_ of **ALL** objects in the scene.
 {: .notice--info}
 
+## Auto-convert Maya materials
+_Auto-convert Maya materials_ will automatically try to convert all Maya materials in the scene to _MNPRX_ materials, inheriting attributes and textures. This is especially useful for quickly loading existing _Maya_ scenes and seeing how they render with _MNPRX_.
+
+
 ## Unsubdivide Previews
 _Unsubdivide Previews_ can be useful in a various situations where you need to work with light meshes.
 * When using the _Velocity PV_ attribute in the [style configuration node](../config/#velocity-pv), to improve upon the performance and correctly advect (attach) the canvas to the underlaying motion.
@@ -55,5 +42,8 @@ To use it, simply select the objects from which you'd like to unsubdivide and cl
 
 If nothing is selected, the tool will try to unsubdivide **ALL** meshes/shapes in the scene.
 {: .notice--info}
+
+## Re-link textures
+When opening scenes that were stylized by someone else or from another computer, the texture paths within the _ShaderFX_ materials might not be the same anymore. Re-link textures automatically re-links all existing textures from a specific directory with the click of a button.
 
 {% include toc-side %}

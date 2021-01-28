@@ -59,14 +59,15 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 
 <div class="doc-element" markdown="1">
 ## Art-direction
+### [Bulk Attribute](bulkattr)
 ### [NoiseFX](noisefx)
 ### [PaintFX](paintfx)
-### [MNPRX Toolbox](toolbox)
 </div>
 
 <div class="doc-element" markdown="1">
 ## Stylizations
 ### [Import/Export](import-export)
+### [MNPRX Toolbox](toolbox)
 ### [Controls](controls)
 </div>
 
@@ -80,7 +81,7 @@ As MNPRX continues to grow, it has become indispensable to document all its func
 <div class="doc-element" markdown="1" style="white-space: nowrap;">
 ## Curious?
 ### [FAQ](/software/MNPRX/docs/faq)
-### [Demo scenes](/software/MNPRX/demo-scenes) {% include aio-new.html %}
+### [Demo scenes](/software/MNPRX/demo-scenes)
 </div>
 
 </div>

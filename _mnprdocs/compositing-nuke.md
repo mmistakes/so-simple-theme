@@ -21,5 +21,6 @@ A brief **introduction** into the MNPRX stylizations in Nuke, how to **load MNPR
 {% include responsive-embed url="https://www.youtube.com/embed/bGhlye7Ji8c?rel=0" width="90%" %}
 
 ## MNPRX AOV's explained
-To truly master the MNPRX stylization in Nuke, you need to **know what kind of data is found on each MNPRX target**.
+To truly master the MNPRX stylization in Nuke, you need to **know what kind of data is found on each MNPRX target**. Make sure to watch the video below and always keep the [stylization controls](/software/MNPRX/docs/controls/) at hand to know what data each channel of each target contains.
+
 {% include responsive-embed url="https://www.youtube.com/embed/cdbuN5baD7Y?rel=0" width="90%" %}
