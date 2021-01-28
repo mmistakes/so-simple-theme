@@ -81,4 +81,7 @@ The painted values can be reset or flooded (added) on the selected objects/verti
  <figcaption>Painting NoiseFX</figcaption>
 </figure>
 
+## FAQ
+{% include faq/section.html file="vertexfx.md" self-contained=true %}
+
 {% include toc-side %}
