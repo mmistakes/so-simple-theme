@@ -27,7 +27,7 @@ redirect_from:
 The January 2021 update brings massive changes under the hood. Every single script file has been updated and is now compatible with both Python 2 and 3 to support future Maya versions. We have also created and revamped many tools to make them as robust as possible.
 
 <figure class="pull-center">
-  <img src="/images/MNPRX/2021-01.jpg" alt="MNPRX January 2021 Update" style="height:360px">
+  <img src="/images/MNPRX/2021-01.jpg" alt="MNPRX January 2021 Update" style="max-height:360px">
 </figure>
 
 **Separate stylization and Maya scene**
