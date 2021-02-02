@@ -52,7 +52,7 @@ Keywords
 : Disease transmission, Compartment models, Ordinary Differential Equations, Bayesian Workflow
 
 Source Repository
-: [example-models/knitr/disease_transmission](https://github.com/stan-dev/example-models/tree/master/knitr/disease_transmission)
+: [charlesm93/disease\_transmission\_workflow](https://github.com/charlesm93/disease_transmission_workflow)
 <span class="note">(GitHub)</span>
 
 Dependencies
