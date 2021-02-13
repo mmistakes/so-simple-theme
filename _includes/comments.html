@@ -1,0 +1,40 @@
+{% if page.comments != false and jekyll.environment == "production" %}
+  {% if site.utterances.repo and site.utterances.term %}
+    <div id="utterances-container">
+      <script src="https://utteranc.es/client.js"
+        repo="{{ site.utterances.repo }}"
+        issue-term="{{ site.utterances.term }}"
+        {% if site.utterances.lebel %}
+          label="{{ site.utterances.label }}"
+        {% else %}
+          label="Post Comment"
+        {% endif %}
+        {% if site.utterances.theme %}
+          theme="{{ site.utterances.theme }}"
+        {% else %}
+          theme="preferred-color-scheme"
+        {% endif %}
+        crossorigin="anonymous"
+        async>
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://utteranc.es/" rel="nofollow">comments powered by Utterances.</a></noscript>
+    </div>
+  {% elsif site.disqus.shortname %}
+      <div class="page-comments">
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+            this.page.url = '{{ page.url | absolute_url }}';
+            this.page.identifier = '{{ page.url | absolute_url }}';
+          };
+                  (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+  {% endif %}
+{% endif %}
