@@ -1,3 +1,21 @@
+03/03/2021:
+  title: "Frayed Edges in Nuke"
+  text: "Learn how to break-up the edges of an Arnold render using only two MNPRX AOVs in Nuke."
+  link: https://youtu.be/RdCEW2SIUlU
+  img: feed/2021-03-03.jpg
+
+19/02/2021:
+  title: "Quick Tip #4"
+  text: Learn how to modify the amount of bleeding based on depth using the effect focal range locators.
+  link: https://youtu.be/lOPOX-pulP4
+  img: feed/2021-02-19.jpg
+
+12/02/2021:
+  title: "Quick Tip #3"
+  text: Learn how to auto-convert Maya materials into MNPRX materials, re-link textures and modify all materials with just a few clicks.
+  link: https://youtu.be/bv9gunT6MkA
+  img: feed/2021-02-12.jpg
+
 29/01/2021:
   title: "MNPRX January 2021 Release"
   text: "Featuring smaller scene sizes, improved import/export, all-user installations and more! Check out the Release Log for full details."
@@ -15,27 +33,3 @@
   text: Learn how to enable the canvas advection to attach the canvas to the underlaying motion and avoid having the shower door effect or canvas flickering.
   link: https://youtu.be/F6v952Via_o
   img: feed/2020-11-03.jpg
-
-22/10/2020:
-  title: "Flair Alpha"
-  text: Have you ever wanted to modify the styles that we provide with MNPRX, or even create your own?
-  link: https://artineering.io/software/Flair/
-  img: feed/2020-10-22.jpg
-
-02/10/2020:
-  title: "Quick Tip #1"
-  text: Learn how to use and create your own infinite canvas in MNPRX to generate a seamless texture from any height or displacement map!
-  link: https://youtu.be/SqXUdonfABw
-  img: feed/2020-10-02.jpg
-
-11/09/2020:
-  title: "Tutorial: Cutout 102 - Stylize an animation"
-  text: Learn how to use the new cutout masks and stylize an animated model with the 3D Cutout style of MNPRX from scratch.
-  link: https://www.youtube.com/watch?v=zrbPOeOdF0E&list=PLqQsRmdLB8t8jP8Rmp-BnwOxKbQyenm3h&index=2
-  img: feed/2020-09-11.jpg
-
-13/08/2020:
-  title: Resolution independent effects
-  text: We have revised each 3D style to have resolution independent effects, so your renders will look almost the same, no matter what resolution you render at.
-  link: https://twitter.com/artineering/status/1293927352377004032
-  img: feed/2020-08-13.gif
