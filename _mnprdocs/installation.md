@@ -39,8 +39,8 @@ Make sure to also take a look at the system requirements below:
 Installations for a single user will ALWAYS take precedence over installations for all users. Make sure to uninstall MNPRX if you have a previous 'single user' installation and want to use the installation for 'all users', instead.
 {: .notice--info}
 
-## Upgrading
-To upgrade your currently activated MNPRX version, you need to delete the license file stored in your computer and reactivate MNPRX.
+## Upgrading from Demo license
+If you previously activated a Demo version and wish to activate another license, follow these steps:
 1. Delete the `MNPRX.lic` file found in:
   * "Only for you" installations -> `Documents/maya/MNPRX.lic`
   * "For all users" installations -> `Program Files/Common Files/Autodesk Shared/Modules/Maya/MNPRX.lic`
