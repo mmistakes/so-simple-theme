@@ -1,3 +1,9 @@
+12/03/2021:
+  title: "Quick Tip #5"
+  text: Make the most out of your 3D renders by maximizing the rendering quality in the Maya Viewport.
+  link: https://youtu.be/7OjbFkHuGns
+  img: feed/2021-03-12.jpg
+
 03/03/2021:
   title: "Frayed Edges in Nuke"
   text: "Learn how to break-up the edges of an Arnold render using only two MNPRX AOVs in Nuke."
@@ -27,9 +33,3 @@
   text: Learn how the Frayed stylization in MNPRX breaks 3D edges and attaches them onto 3D objects! Frayed edges move with the underlaying motion and always stay the same size on the screen.
   link: https://youtu.be/WXLLQd5TXtM
   img: feed/2020-11-20.jpg
-
-03/11/2020:
-  title: "Quick Tip #2"
-  text: Learn how to enable the canvas advection to attach the canvas to the underlaying motion and avoid having the shower door effect or canvas flickering.
-  link: https://youtu.be/F6v952Via_o
-  img: feed/2020-11-03.jpg
