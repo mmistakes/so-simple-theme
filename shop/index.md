@@ -12,10 +12,10 @@ image:
 If you're looking to infer in style, stop by one of our shops for Stan
 t-shirts and mugs.
 
-* [Stan Shop [US]](http://mc-stan.spreadshirt.com/)
+* [Stan Shop [US]](https://shop.spreadshirt.com/mc-stan/)
   &nbsp; <span class="note">(Spreadshirt US)</span>
 
-* [Stan Shop [UK]](http://mc-stan.spreadshirt.co.uk/)
+* [Stan Shop [UK]](https://shop.spreadshirt.co.uk/mc-stan/)
   &nbsp; <span class="note">(Spreadshirt UK)</span>
 
 Don't hesitate to [let us know](/community/) if there are other Stan
