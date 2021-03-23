@@ -20,7 +20,7 @@ image:
   thumbnail:
 comments: true
 share: true
-source: http://hdl.handle.net/10220/47356
+source: https://hdl.handle.net/10356/102529
 schema: ScholarlyArticle
 redirect_from:
   - /articles/Real-time-watercolor-rendering-of-3D-objects-and-animation-with-enhanced-control/
@@ -73,4 +73,4 @@ _Towards these goals, the field of expressive, non-photorealistic rendering is i
     {% endraw %}
 
 ## Downloads
-* [Final Thesis](https://dr.ntu.edu.sg/bitstream/handle/10220/47356/Thesis%20-%20Final.pdf?sequence=1&isAllowed=y)
+* [Final Thesis](https://dr.ntu.edu.sg/bitstream/10356/102529/1/Thesis%20-%20Final.pdf)
