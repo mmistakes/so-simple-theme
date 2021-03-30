@@ -1,3 +1,9 @@
+19/03/2021:
+  title: "Quick Tip #6"
+  text: Learn how to quickly change between the different ambient occlusion modes and optimize ambient occlusion to your scene.
+  link: https://youtu.be/FZfnh0KFKPg
+  img: feed/2021-03-19.jpg
+
 12/03/2021:
   title: "Quick Tip #5"
   text: Make the most out of your 3D renders by maximizing the rendering quality in the Maya Viewport.
@@ -27,9 +33,3 @@
   text: "Featuring smaller scene sizes, improved import/export, all-user installations and more! Check out the Release Log for full details."
   link: https://artineering.io/software/MNPRX/release-log
   img: MNPRX/2021-01.jpg
-
-20/11/2020:
-  title: "Tutorial: Frayed 101 - Break 3D edges"
-  text: Learn how the Frayed stylization in MNPRX breaks 3D edges and attaches them onto 3D objects! Frayed edges move with the underlaying motion and always stay the same size on the screen.
-  link: https://youtu.be/WXLLQd5TXtM
-  img: feed/2020-11-20.jpg
