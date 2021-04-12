@@ -51,15 +51,16 @@ please email <board@mc-stan.org>.
 
 The current SGB members are:
 
-* Imad Ali <span class="note">(PlayStation)</span>
+* Arman Oganisian <span class="note">(University of Pennsylvania)</span>
+* Duco Veen <span class="note">(University Medical Center Utrecht)</span>
 * Leah Comment <span class="note">(Foundation Medicine Inc.)</span>
-* Jonah Gabry <span class="note">(Columbia University)</span>
-* Bill Gillespie <span class="note">(Metrum LLC)</span>
-* Susana Márquez <span class="note">(The Rockefeller Foundation)</span>
+* Max Mantei <span class="note">(University of Hamburg)</span>
+* Yi Zhang <span class="note">(Metrum Research Group)</span>
 
 
 ## [SGB public updates and minutes](/about/sgb/minutes)
 
+- [SGB 2021 general updates](https://discourse.mc-stan.org/t/sgb-2021-general-updates/20241)
 - [SGB 2020 general updates](https://discourse.mc-stan.org/t/sgb-2020-general-updates/13385)
 
 - [Summary of motions of the provisional SGB (08/2018-11/2019)](/about/sgb/minutes.html#summary-of-motions-of-the-provisional-sgb-082018-112019)

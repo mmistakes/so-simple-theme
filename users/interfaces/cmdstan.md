@@ -22,7 +22,7 @@ getting started instructions and documentation, is available from
 * [CmdStan Releases](https://github.com/stan-dev/cmdstan/releases)
   <span class="note">(GitHub)</span>
 
-Unpack the distribution and consult the <a href="/docs/2_25/cmdstan-guide/cmdstan-installation.html">CmdStan User's Guide</a> for installation and getting started instructions.
+Unpack the distribution and consult the <a href="/docs/2_26/cmdstan-guide/cmdstan-installation.html">CmdStan User's Guide</a> for installation and getting started instructions.
 
 
 
@@ -30,10 +30,10 @@ Unpack the distribution and consult the <a href="/docs/2_25/cmdstan-guide/cmdsta
 
 CmdStan User’s Guide
 
-* [CmdStan User's Guide 2.25](/docs/2_25/cmdstan-guide/index.html)
+* [CmdStan User's Guide 2.26](/docs/2_26/cmdstan-guide/index.html)
   <span class="note">(html)</span>
 
-* [CmdStan User's Guide 2.25](/docs/2_25/cmdstan-guide-2_25.pdf)
+* [CmdStan User's Guide 2.26](/docs/2_26/cmdstan-guide-2_26.pdf)
   <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 Stan's modeling language documentation is platform independent.

@@ -50,6 +50,31 @@ Source Repository
 
 Dependencies
 : <tt style="font-size: 90%"> CmdStanR, posterior, ggplot2, dplyr, plyr, tidyr, boot, latex2exp </tt>
+>>>>>>> origin/master
+
+License
+:  BSD (3 clause), CC-BY
+
+## HMM Interface Example
+
+<small> Cmdstan 2.24 introduces a new interface for working with
+Hidden Markov Models (HMMs). This is an example of how to use that
+interface. </small>
+
+[View](case-studies/hmm-example.html) <span class="note">(HTML)</span>
+
+Authors
+: Ben Bales
+
+Keywords
+: Hidden Markov Models, HMMs, cmdstanr, Stan programming
+
+Source Repository
+: [example-models/knitr/hmm-example](https://github.com/stan-dev/example-models/tree/master/knitr/hmm-example)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%">CmdStanR, tidyverse, ggplot2, and posterior</tt>
 
 License
 :  BSD (3 clause), CC-BY
@@ -144,7 +169,7 @@ Keywords
 : Disease transmission, Compartment models, Ordinary Differential Equations, Bayesian Workflow
 
 Source Repository
-: [example-models/knitr/disease_transmission](https://github.com/stan-dev/example-models/tree/master/knitr/disease_transmission)
+: [charlesm93/disease\_transmission\_workflow](https://github.com/charlesm93/disease_transmission_workflow)
 <span class="note">(GitHub)</span>
 
 Dependencies
