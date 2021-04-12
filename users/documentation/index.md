@@ -58,9 +58,29 @@ by the Stan project is hosted at
 
 * [Stan Software Development Lifecycle](/docs/sdlc.html)
 
+# CmdStan Documentation 
+
+* [CmdStan User's Guide 2.26](/docs/2_26/cmdstan-guide/index.html)
+<span class="note">&nbsp; &nbsp; (html)</span>
+
+* [CmdStan User's Guide 2.26 pdf](/docs/2_26/cmdstan-guide-2_26.pdf)
+<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+
+# CmdStanR, CmdStanPy Documentation 
+
+CmdStanPy and CmdStanR provide access to the latest version of Stan,
+or earlier versions, as specified. 
+They use minimal memory beyond what is used by CmdStan itself to
+runs and records an analysis, therefore they can be used to fit
+more complex models and/or large datasets.
+
+
+*  [CmdStanR Vignettes, tutorials, and other package information](/cmdstanr) 
+*  [CmdStanPy documentation](/cmdstanpy) 
+
 # RStan Documentation
 
-*  [RStan Vignettes, tutorials, and other package information](/rstan)
+*  [RStan Vignettes, tutorials, and other package information](/rstan) 
 
 # PyStan Documentation
 
