@@ -71,7 +71,7 @@ by the Stan project is hosted at
 CmdStanPy and CmdStanR provide access to the latest version of Stan,
 or earlier versions, as specified. 
 They use minimal memory beyond what is used by CmdStan itself to
-runs and records an analysis, therefore they can be used to fit
+run and record an analysis, therefore they can be used to fit
 more complex models and/or large datasets.
 
 
