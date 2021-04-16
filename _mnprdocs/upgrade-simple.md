@@ -9,7 +9,7 @@ sitemap: false
 <link rel="stylesheet" href="/assets/css/plugins/twentytwenty.css" type="text/css" media="screen" />
 
 <div class="simple-feed">
-<h1> New August 2020 release! </h1>
+<h1> New April 2021 release! </h1>
 <h3> Update and start using the latest tools </h3>
 <h4> Purchase an Indie/Studio commercial license or support us on Patreon to use all tools and render at ANY resolution!</h4>
 <div class="upgrade-img" style="width:80%; margin:0 auto 2rem">

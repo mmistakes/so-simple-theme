@@ -16,7 +16,7 @@ Make sure to also take a look at the system requirements below:
 
 | Requirements      | Minimum    | Recommended | Notes                                                                                   |
 |-------------------|------------|-------------|-----------------------------------------------------------------------------------------|
-| **Autodesk Maya** | 2018.7     | 2020.4      | 2018, 2019 and 2020 are supported                                                       |
+| **Autodesk Maya** | 2018.7     | 2020.4      | 2018, 2019, 2020 and 2022 are supported                                                       |
 | **OS**            | Windows 10 | Windows 10  | Linux and Mac versions developed for interested Studios, [contact us](/agency/#contact) |
 | **VRAM**          | 2 GB       | 8 GB        | Higher resolutions and scene complexity require more VRAM                               |
 | **Memory**        | 8 GB       | 16 GB       | As much as your Maya scene requires                                                     |
