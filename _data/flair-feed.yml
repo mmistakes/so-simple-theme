@@ -1,3 +1,9 @@
+16/04/2021:
+  title: "MNPRX April 2021 Release"
+  text: "Now with support for Maya 2022, toon shading, standalone rendering and more! Check out the Release Log for full details."
+  link: https://artineering.io/software/MNPRX/release-log
+  img: MNPRX/2021-04.gif
+
 31/03/2021:
   title: "Quick Tip #7"
   text: Learn how to enable bloom and customize it to make lighting contrasts pop.
@@ -33,9 +39,3 @@
   text: Learn how to auto-convert Maya materials into MNPRX materials, re-link textures and modify all materials with just a few clicks.
   link: https://youtu.be/bv9gunT6MkA
   img: feed/2021-02-12.jpg
-
-29/01/2021:
-  title: "MNPRX January 2021 Release"
-  text: "Featuring smaller scene sizes, improved import/export, all-user installations and more! Check out the Release Log for full details."
-  link: https://artineering.io/software/MNPRX/release-log
-  img: MNPRX/2021-01.jpg

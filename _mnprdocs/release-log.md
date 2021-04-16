@@ -23,6 +23,87 @@ redirect_from:
 
 
 ---
+## April 2021 UPDATE
+The April 2021 update brings support for Maya 2022 and highly requested features including toon shading and support for standalone rendering using *mayapy*! Other improvements and quality of life improvements have been done to existing tools, outlined below
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/2021-04.gif" alt="MNPRX April 2021 Update" style="max-height:360px">
+</figure>
+
+### Toon Shading
+
+- *New* - **Toon** *Setting* in the *mnprx_uber* material will toggle toon shading attributes.
+
+<figure class="pull-center half">
+  <img src="/images/MNPRX/mnpr-uber/toon-AE.png" alt="Toon attributes">
+  <figcaption>Toon shading attributes in the mnprx_uber material</figcaption>
+</figure>
+
+- *New* - Toon *Colors* tints the different toon regions
+- *New* - Toon *Wrap* modifies how much the toon regions wrap around objects
+- *New* - Toon *Blur* modifies the transitions between toon regions, blurring/sharpening them.
+- *New* - *Toon settings* window can be opened from the *MNPRX Toolbox.* The window contains toon-related functions.
+    - **Toon Toolset** - Enable/disable Toon *PaintFX* and *NoiseFX* options.
+    - **Toggle Mattes** - Toggles RGB mattes for the three toon regions for further compositing
+
+<figure class="pull-center third">
+	<img src="/images/MNPRX/toon/tbox3-toon.png" style="max-width: 150px" alt="MNPRX toolbox">
+	<img src="/images/MNPRX/toon/toon-settings.png" style="max-width: 250px" alt="Toon settings window">
+  <figure class="pull-center half">
+  	<img src="/images/MNPRX/toon/toon-paintfx.png" style="max-width: 300px" alt="Toon PaintFX toggled by the Toon Tollset">
+  	<img src="/images/MNPRX/toon/toon-noisefx.png" style="max-width: 300px" alt="Toon NoiseFX toggled by the Toon Tollset">
+  </figure>
+	<figcaption>User interfaces to modify toon shading</figcaption>
+</figure>
+
+Toon shading works on top of existing shading attributes, so one can do a mix of toon and painterly shading (e.g., cangiante and toon as with the example above).
+{: .notice--info}
+
+<figure class="pull-center third">
+  <img src="/images/MNPRX/toon/matte.jpg" alt="Toon RGB matte">
+  <img src="/images/MNPRX/toon/photoreal.jpg" alt="No toon shading">
+  <img src="/images/MNPRX/toon/toon.jpg" alt="With toon shading">
+  <figcaption>From left to right: Toon RGB matte, no toon shading, with toon shading. 3D model "Link - Breath of the Wild - Animation" by Murilo Kleine on <a href="https://sketchfab.com/3d-models/link-breath-of-the-wild-animation-2394419dfebe424b846d4e5e39c9c727">Sketchfab</a></figcaption>
+</figure>
+
+### Revamped MNPRX renderer
+
+- *New* - Revamped and centralized all rendering procedures in new *Renderer* class.
+- *New* - You can render with **MNPRX without opening Maya using *mayapy***!  
+An example on how to setup the Python script can be found in `MNPRX/scripts/flair_standalone.py`.
+
+This is a *Windows only* feature for now, *[get in touch with us](/contact)* if you need us to develop standalone MNPRX versions for other OSs.
+{: .notice--info}
+
+### Support for Maya 2022
+- *New* - Added support for Maya 2022, making MNPRX compatible from Maya 2018-2022 using either Python 2 or 3.
+
+There is a viewport display bug in Maya 2022 that will always show the wireframe of selected objects. This won't show up during rendering as we have created a temporary workaround, but will affect how some effects are shown when interacting in the viewport. Autodesk is aware of the issue and will release a fix in their upcoming updates.  
+{: .notice--warning}
+
+### Installation
+
+- *Fixed* - A prompt will appear when installing MNPRX if a license has been found. You can then choose to keep the existing license or remove it.
+- *Fixed* - Installation for all-users sometimes failing due to incorrect paths.
+
+### Bulk Attribute fixes
+
+- *Improved* - Bulk Attribute tool now keeps the scrolled view when the selection is changed.
+- *Fixed* - Color attribute widgets sometimes not working.
+- *Improved* - Bulk Attribute tool also works with selected components (polygon faces).
+
+### Miscellaneous
+
+- *Improved* - Getting materials from polygon faces works for any amount of components.
+- *Improved* - Consolidated *rgb_matte* into one preset which will only change the attributes necessary to generate a clean matte.
+- *Fixed* - Artifacts that appeared when the pigment application was elevated to the power of `0`.
+- *Fixed* - Bloom leaks due to wrong texture wrapping.
+- *Fixed* - NoiseFX with multiple noise options failing to activate.
+- *Improved* - Many other smaller fixes/optimizations.
+
+---
+
+
 ## January 2021 UPDATE
 The January 2021 update brings massive changes under the hood. Every single script file has been updated and is now compatible with both Python 2 and 3 to support future Maya versions. We have also created and revamped many tools to make them as robust as possible.
 
