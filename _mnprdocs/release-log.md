@@ -24,7 +24,7 @@ redirect_from:
 
 ---
 ## April 2021 UPDATE
-The April 2021 update brings support for Maya 2022 and highly requested features including toon shading and support for standalone rendering using *mayapy*! Other improvements and quality of life improvements have been done to existing tools, outlined below
+The April 2021 update brings support for Maya 2022 and highly requested features including toon shading and support for standalone rendering using *mayapy*! Other quality of life improvements and optimizations have been done to existing tools, outlined below
 
 <figure class="pull-center">
   <img src="/images/MNPRX/2021-04.gif" alt="MNPRX April 2021 Update" style="max-height:360px">
@@ -69,7 +69,7 @@ Toon shading works on top of existing shading attributes, so one can do a mix of
 ### Revamped MNPRX renderer
 
 - *New* - Revamped and centralized all rendering procedures in new *Renderer* class.
-- *New* - You can render with **MNPRX without opening Maya using *mayapy***!  
+- *New* - You can render with **MNPRX without opening the Maya UI using *mayapy***!  
 An example on how to setup the Python script can be found in `MNPRX/scripts/flair_standalone.py`.
 
 This is a *Windows only* feature for now, *[get in touch with us](/contact)* if you need us to develop standalone MNPRX versions for other OSs.
