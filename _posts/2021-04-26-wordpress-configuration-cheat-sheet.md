@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WordPress Configuration Cheat Sheet
-excerpt: "WordPress is the most frequently installed web application in the world. The system is operated not only by experienced developers but also by beginners. This post summarizes what to look out for when configuring your WordPress installation’s security."
+excerpt: "Short configuration checklist for the WordPress application."
 last_modified_at: 2021-04-26 22:11:36
 categories: articles
 tags: [wordpress, https, security, configuration]
@@ -11,6 +11,8 @@ comments: true
 ---
 
 > Original post were located by https://blog.ripstech.com/2018/wordpress-configuration-cheat-sheet/ url.
+
+WordPress is the most frequently installed web application in the world. The system is operated not only by experienced developers but also by beginners. This post summarizes what to look out for when configuring your WordPress installation’s security.
 
 ## 1. Disable Debugging
 
