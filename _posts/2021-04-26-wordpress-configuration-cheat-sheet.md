@@ -2,6 +2,7 @@
 layout: post
 title: WordPress Configuration Cheat Sheet
 excerpt: "WordPress is the most frequently installed web application in the world. The system is operated not only by experienced developers but also by beginners. This post summarizes what to look out for when configuring your WordPress installation’s security."
+last_modified_at: 2021-04-26 22:11:36
 WordPress Configuration Cheat Sheet"
 categories: articles
 tags: [wordpress, https, security, configuration]
