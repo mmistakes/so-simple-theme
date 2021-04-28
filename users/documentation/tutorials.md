@@ -56,6 +56,12 @@ class="note"> (YouTube)</span>
     <br />
     Mike Lawrence (2015)
 
+*  <a class="external"
+    href="https://www.youtube.com/playlist?list=PLu77iLvsj_GNmWqDdX-26kZ56dCZqkzBO">Bayesian Inference for Psychologists using R & Stan</a> (Full graduate-level course)
+    <span class="note">(YouTube)</span>
+    <br />
+    Mike Lawrence (2017)
+
 ## Lectures
 
 * <a class="external"
