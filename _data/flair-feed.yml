@@ -1,3 +1,9 @@
+30/04/2021:
+  title: "Quick Tip #8"
+  text: Learn how to toggle Toon Shading and customize each toon zone with material attributes, NoiseFX and PaintFX!
+  link: https://youtu.be/R6RNRI6Q7GU
+  img: feed/2021-04-30.jpg
+
 16/04/2021:
   title: "MNPRX April 2021 Release"
   text: "Now with support for Maya 2022, toon shading, standalone rendering and more! Check out the Release Log for full details."
@@ -33,9 +39,3 @@
   text: Learn how to modify the amount of bleeding based on depth using the effect focal range locators.
   link: https://youtu.be/lOPOX-pulP4
   img: feed/2021-02-19.jpg
-
-12/02/2021:
-  title: "Quick Tip #3"
-  text: Learn how to auto-convert Maya materials into MNPRX materials, re-link textures and modify all materials with just a few clicks.
-  link: https://youtu.be/bv9gunT6MkA
-  img: feed/2021-02-12.jpg
