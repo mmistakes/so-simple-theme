@@ -2,7 +2,7 @@
 title: "Receita vivi"
 image: 
   path: /images/vivi.jpg
-  thumbnail: /images/vivi.jpg
+  thumbnail: /images/vivi-400x200.jpg
   caption: "Photo from [Camila]"
 ---
 
