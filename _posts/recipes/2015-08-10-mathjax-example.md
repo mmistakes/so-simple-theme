@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "MathJax Example"
+title: "Assado da Vivi"
 modified:
-categories: blog
+categories: recipes
 excerpt:
 tags: []
 image:
@@ -10,7 +10,10 @@ image:
 date: 2015-08-10T08:08:50-04:00
 ---
 
-[MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
+[MathJax]mas tem que cozinhar a batata antes, depois de ferver a agua deixa uns 3 min...
+ não pode ficar muito mole nem muito dura
+aí as camadas são batata, cebola, pimentão, sal e pimenta a gosto, proteina(temperada já), queijo e temperos verdes, aí repete qntas vezes quiser
+Camila Cardoso: 20 min no forno
 
 ## Usage
 
