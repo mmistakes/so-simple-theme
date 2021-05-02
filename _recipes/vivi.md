@@ -1,5 +1,5 @@
 ---
-title: "Chocolate Chip Cookies"
+title: "Receita vivi"
 image: 
   path: /images/vivi.jpg
   thumbnail: /images/vivi.jpg
