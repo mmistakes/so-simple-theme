@@ -91,6 +91,7 @@ so-simple-theme/
 ├── feed.xml                     # Atom feed template
 ├── index.md                     # sample homepage. lists 5 latest posts 
 └── theme-setup/                 # theme setup page. safe to remove
+└── recipes/                     # recipes page.
 ```
 
 ---
