@@ -120,7 +120,7 @@ Used to generate absolute URLs for sitemaps, feeds and for generating canonical 
 Examples:
 
 ```yaml
-url: https://mmistakes.github.io/so-simple-theme
+url: https://felipetirus.github.io/felipetirus
 url: http://localhost:4000
 url: http://yourdomain.com
 url: 
