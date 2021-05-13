@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] -
 
 ### Changed
+- Update `onchange` and `uglify-js` dependencies.
 - Don't hide author avatar on smaller screens.
 - Improve readability of text on smaller screens by increasing minimum font-size from `14` to `16px`.
 - Replace font-size sizes with `rem` units instead of `em`.
