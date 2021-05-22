@@ -10,7 +10,8 @@ This is a private link for Indie/Studio subscribers of MNPRX. Please do not shar
 {: .top2}
 
 ## MNPRX
-* [MNPRX (April 2021)](https://www.notion.so/artineering/April-2021-b26aaa475c594b12a0decec6b4b2591f) {% include aio-new.html %}
+* [MNPRX (May 2021)](https://www.notion.so/artineering/May-2021-74e617ce71a44da29dde1e2e9b58321c) {% include aio-new.html %}
+* [MNPRX (April 2021)](https://www.notion.so/artineering/April-2021-b26aaa475c594b12a0decec6b4b2591f)
 * [MNPRX (January 2021)](https://www.notion.so/artineering/January-2021-030539c7d70e43e0a9fa81c04576b93d)
 * [MNPRX (August 2020)](https://www.notion.so/artineering/August-2020-1723a56c32ff4270b82de27d8467c6f2)
 * [MNPRX (February 2020)](https://www.notion.so/artineering/February-2020-8d7b7f0387b74cddb6947be699ec479a)
@@ -23,3 +24,6 @@ This is a private link for Indie/Studio subscribers of MNPRX. Please do not shar
 ## Stylizations in Nuke
 * [Watercolor Stylization](https://www.notion.so/artineering/Watercolor-in-Nuke-4074efd3989d4fdc8fd9e7c5b2422988)
 * [Frayed Edges Stylization](https://www.notion.so/artineering/Frayed-edges-in-Nuke-f137362d907b46a2989772ad40fb5817)
+
+## Stylizations in Fusion (DaVinci Resolve)
+* [Frayed edges Fuse](https://www.notion.so/artineering/Frayed-Fuse-ecde69dfbb8749278301b315662a0c1e)
