@@ -1,3 +1,9 @@
+21/05/2021:
+  title: "MNPRX May 2021 Hotfix"
+  text: "Fixes for Maya 2022, referenced scenes experiencing big file sizes, velocity per vertex, automatically loading styles and standalone rendering."
+  link: https://artineering.io/software/MNPRX/release-log
+  img: MNPRX/2021-05.gif
+
 30/04/2021:
   title: "Quick Tip #8"
   text: Learn how to toggle Toon Shading and customize each toon zone with material attributes, NoiseFX and PaintFX!
@@ -33,9 +39,3 @@
   text: "Learn how to break-up the edges of an Arnold render using only two MNPRX AOVs in Nuke."
   link: https://youtu.be/RdCEW2SIUlU
   img: feed/2021-03-03.jpg
-
-19/02/2021:
-  title: "Quick Tip #4"
-  text: Learn how to modify the amount of bleeding based on depth using the effect focal range locators.
-  link: https://youtu.be/lOPOX-pulP4
-  img: feed/2021-02-19.jpg

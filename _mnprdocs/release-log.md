@@ -23,6 +23,32 @@ redirect_from:
 
 
 ---
+## May 2021 UPDATE
+The May 2021 update brings small but important hotfixes if the following applies to you:
+
+- Working with Maya 2022
+- Working with references and experiencing big file sizes
+- Working with velocity per vertex
+- Working with standalone rendering
+
+If any if the above doesn't apply your workflow, you can ignore this quick update and continue using the April 2021 release.
+
+<figure class="pull-center">
+  <img src="/images/MNPRX/2021-05.gif" alt="MNPRX May 2021 Update" style="max-height:360px">
+  <figcaption>This shot is all referenced, so the scene file size is 8MB and the style file size is 1MB. Stylizing "Apple of my Eye" by Davide Benvenuti.</figcaption>
+</figure>
+
+### Hot-fixes
+
+- *Fixed* - Shape UI elements (e.g., wireframe) were always present in the color target, so they were also stylized (no bueno). This will by default no longer be the case in the next update of Maya 2022 (we got Autodesk to fix this bug!) and we have included a workaround in this version that will be applied as soon as you select the *config* node through the shelf.
+- *Fixed - S*tyle not automatically loading when opening a scene with a separate saved stylization
+- *Fixed* - Style not automatically loading when plugin was not previously loaded
+- *Fixed* - Style not automatically loading when opening scene in standalone mode
+- *Fixed* - Style of references being applied after style of main scenes
+- *Fixed -* Previous view-space position vertex color set being applied to all meshes and not being deleted when *VelocityPV* was disabled (reduced file sizes!)
+- *Fixed -* Continuously asking to update the scene in some files
+
+---
 ## April 2021 UPDATE
 The April 2021 update brings support for Maya 2022 and highly requested features including toon shading and support for standalone rendering using *mayapy*! Other quality of life improvements and optimizations have been done to existing tools, outlined below
 
