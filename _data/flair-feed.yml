@@ -1,3 +1,9 @@
+26/05/2021:
+  title: "Quick Tip #9"
+  text: Learn how to setup Maya for standalone hardware rendering, customize the rendering script and render stylized image sequences using MNPRX!
+  link: https://youtu.be/DLTyDFDbwoI
+  img: feed/2021-05-26.jpg
+
 21/05/2021:
   title: "MNPRX May 2021 Hotfix"
   text: "Fixes for Maya 2022, referenced scenes experiencing big file sizes, velocity per vertex, automatically loading styles and standalone rendering."
@@ -33,9 +39,3 @@
   text: Make the most out of your 3D renders by maximizing the rendering quality in the Maya Viewport.
   link: https://youtu.be/7OjbFkHuGns
   img: feed/2021-03-12.jpg
-
-03/03/2021:
-  title: "Frayed Edges in Nuke"
-  text: "Learn how to break-up the edges of an Arnold render using only two MNPRX AOVs in Nuke."
-  link: https://youtu.be/RdCEW2SIUlU
-  img: feed/2021-03-03.jpg
