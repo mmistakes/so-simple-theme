@@ -4,6 +4,7 @@
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg?style=flat-square)](https://jekyllrb.com/)
 [![Ruby gem](https://img.shields.io/gem/v/jekyll-theme-so-simple.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-so-simple)
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?style=flat-square&logo=paypal)](https://www.paypal.me/mmistakes)
+[![Donate to this project using Buy Me A Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=flat-square)](https://www.buymeacoffee.com/mmistakes)
 
 So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your words and pictures. Built to provide:
 
@@ -13,13 +14,12 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 * SEO best practices via [Jekyll SEO Tag][jekyll-seo-tag].
 * Options to customize the theme and make it your own.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) for developing and maintaining it.**
+**If you enjoy this theme, please consider sponsoring:**
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
+ [![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
 
-:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).**
-
-:blue_book: **[v2 documentation](README-OLD.md)**.
+:sparkles: **See what's new in the [CHANGELOG](CHANGELOG.md).** :blue_book: **[v2 documentation](README-OLD.md)**.
 
 [![So Simple live preview][2]][1]
 
@@ -62,80 +62,6 @@ So Simple is a simple [Jekyll theme](https://jekyllrb.com/docs/themes/) for your
 [grid-view-source]: docs/recipes.md
 
 Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) can be view on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs) folder.
-
-## Table of Contents
-
-1. [Installation](#installation)
-    1. [Ruby Gem Method](#ruby-gem-method)
-    2. [GitHub Pages Method](#github-pages-method)
-        1. [Remove the Unnecessary](#remove-the-unnecessary)
-2. [Upgrading](#upgrading)
-    1. [Ruby Gem](#ruby-gem)
-    2. [Remote Theme](#remote-theme)
-    3. [Use Git](#use-git)
-    4. [Update Files Manually](#update-files-manually)
-3. [Structure](#structure)
-    1. [Starting Fresh](#starting-fresh)
-    2. [Starting from `jekyll new`](#starting-from-jekyll-new)
-4. [Configuring](#configuring)
-    1. [Site Skin](#site-skin)
-    2. [Site Locale](#site-locale)
-    3. [Site URL](#site-url)
-    4. [Site Base URL](#site-base-url)
-    5. [Date Format](#date-format)
-    6. [Reading Time](#reading-time)
-    7. [Mathematics](#mathematics)
-    8. [Google Fonts](#google-fonts)
-    9. [Pagination](#pagination)
-    10. [Search](#search)
-    11. [Taxonomy Pages](#taxonomy-pages)
-    12. [Comments (via Disqus)](#comments-via-disqus)
-    13. [Google Analytics](#google-analytics)
-    14. [Other](#other)
-5. [Layouts](#layouts)
-    1. [`layout: default`](#layout-default)
-    2. [`layout: post`](#layout-post)
-    3. [`layout: page`](#layout-page)
-    4. [`layout: home`](#layout-home)
-    5. [`layout: posts`](#layout-posts)
-    6. [`layout: categories`](#layout-categories)
-    7. [`layout: tags`](#layout-tags)
-    8. [`layout: collection`](#layout-collection)
-    9. [`layout: category`](#layout-category)
-    10. [`layout: tag`](#layout-tag)
-    11. [`layout: search`](#layout-search)
-6. [Images](#images)
-7. [Theme Text](#theme-text)
-8. [Navigation](#navigation)
-9. [Author](#author)
-10. [Footer](#footer)
-    1. [Footer Links](#footer-links)
-    2. [Copyright Text](#copyright-text)
-11. [Helpers](#helpers)
-    1. [Responsive Embed](#responsive-embed)
-    2. [Table of Contents](#table-of-contents)
-12. [Migration Guide](#migration-guide)
-    1. [Global Changes](#global-changes)
-    2. [Browser Support](#browser-support)
-    3. [Configuration Changes](#configuration-changes)
-        1. [Locale Changes](#locale-changes)
-        2. [Owner Changes](#owner-changes)
-        3. [Google Analytics Changes](#google-analytics-changes)
-        4. [Disqus Comments Changes](#disqus-comments-changes)
-    4. [Search Changes](#search-changes)
-    5. [Image Changes](#image-changes)
-    6. [Development Changes](#development-changes)
-    7. [Step-by-Step](#step-by-step)
-13. [Customization](#customization)
-    1. [Overriding Includes and Layouts](#overriding-includes-and-layouts)
-    2. [Customizing Sass (SCSS)](#customizing-sass-scss)
-    3. [Customizing JavaScript](#customizing-javascript)
-14. [Font Awesome Icons](#font-awesome-icons)
-15. [Development](#development)
-    1. [JavaScript Build Script](#javascript-build-script)
-16. [Contributing](#contributing)
-17. [Credits](#credits)
-18. [License](#license)
 
 ## Installation
 
