@@ -9,10 +9,14 @@ image:
   creditlink:
 ---
 
+# Stan Connect
+
+## [Stan Connect. Part 1]
+
 # Stan Conferences
 
 
-## [StanCon 2020. Oregon State University, 11-14 August](/events/stancon2020)
+## [StanCon 2020. Online 24h event, 13 August](/events/stancon2020)
 
 
 ## [StanCon 2019. Cambridge, England 20-23 August](/events/stancon2019Cambridge)
