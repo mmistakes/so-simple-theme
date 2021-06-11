@@ -9,9 +9,17 @@ image:
   creditlink:
 ---
 
-# Stan Connect
+# StanConnect
 
-## [Stan Connect. Part 1]
+## [StanConnect - Simulation Based Calibration, 31 August 2021](/events/stanconnect_SBC)
+
+## [StanConnect - Ecology Part 1, 30 September 2021](/events/stanconnect_Ecology1)
+
+## [StanConnect - Ecology Part 2, 4 October 2021](/events/stanconnect_Ecology2)
+
+## [StanConnect - Biomedical , 4 October 2021](/events/stanconnect_Biomedical)
+
+## [StanConnect - Cognitive Science and Neuroscience, 19 November 2021](https://cognitive-science-stan.github.io/stanconnect2021-cogsci/)
 
 # Stan Conferences
 
