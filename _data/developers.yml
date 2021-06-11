@@ -241,6 +241,9 @@
 - name: Andre Zapico
   affiliation: University of Electronic Science and Technology of China
   github: drezap
+  email: andrezapico@yahoo.com
+  linkedin: https://www.linkedin.com/in/andre-zapico/
+  avatar: andre_zapico.jpg
 
 - name: Ryan Bernstein
   affiliation: Columbia University
@@ -328,7 +331,7 @@
   affiliation: Kookmin University
   email: tttllshin@gmail.com
   github: Dashadower
-  
+
 - name: Måns Magnusson
   affiliation: Uppsala University
   web: mansmagnusson.com
@@ -336,5 +339,11 @@
   github: MansMeg
   linkedin: https://www.linkedin.com/in/m%C3%A5ns-magnusson-93843248/
   twitter: mansmeg
-  avatar: mans_magnusson.png  
-  
+  avatar: mans_magnusson.png
+
+- name: Hamada S. Badr
+  affiliation: Johns Hopkins University
+  email: badr@jhu.edu
+  github: hsbadr
+  web: https://hsbadr.github.io
+  avatar: hamada_badr.jpeg
