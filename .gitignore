@@ -8,3 +8,5 @@ node_modules
 *~
 .Rproj.user
 .Rhistory
+Gemfile.lock
+Gemfile
