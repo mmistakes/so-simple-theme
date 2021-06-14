@@ -9,10 +9,22 @@ image:
   creditlink:
 ---
 
+# StanConnect
+
+## [StanConnect - Simulation Based Calibration, 31 August 2021](/events/stanconnect_SBC)
+
+## [StanConnect - Ecology Part 1, 30 September 2021](/events/stanconnect_Ecology1)
+
+## [StanConnect - Ecology Part 2, 4 October 2021](/events/stanconnect_Ecology2)
+
+## [StanConnect - Biomedical , 4 October 2021](/events/stanconnect_Biomedical)
+
+## [StanConnect - Cognitive Science and Neuroscience, 19 November 2021](https://cognitive-science-stan.github.io/stanconnect2021-cogsci/)
+
 # Stan Conferences
 
 
-## [StanCon 2020. Oregon State University, 11-14 August](/events/stancon2020)
+## [StanCon 2020. Online 24h event, 13 August](/events/stancon2020)
 
 
 ## [StanCon 2019. Cambridge, England 20-23 August](/events/stancon2019Cambridge)
