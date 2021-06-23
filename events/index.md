@@ -13,13 +13,23 @@ image:
 
 ## [StanConnect - Simulation Based Calibration, 31 August 2021](/events/stanconnect_SBC)
 
+Register [here](https://www.eventbrite.com/e/159548191937){:target="_blank"}
+
 ## [StanConnect - Ecology Part 1, 30 September 2021](/events/stanconnect_Ecology1)
+
+Register [here](https://www.eventbrite.com/e/158476919733){:target="_blank"} 
 
 ## [StanConnect - Ecology Part 2, 4 October 2021](/events/stanconnect_Ecology2)
 
+Register [here](https://www.eventbrite.com/e/159546047523){:target="_blank"} 
+
 ## [StanConnect - Biomedical , 4 October 2021](/events/stanconnect_Biomedical)
 
-## [StanConnect - Cognitive Science and Neuroscience, 19 November 2021](https://cognitive-science-stan.github.io/stanconnect2021-cogsci/)
+Register [here](https://www.eventbrite.com/e/159548589125){:target="_blank"} 
+
+## [StanConnect - Cognitive Science and Neuroscience, 19 November 2021](https://cognitive-science-stan.github.io/stanconnect2021-cogsci/){:target="_blank"} 
+
+Register [here](https://www.eventbrite.com/e/159547271183){:target="_blank"} 
 
 # Stan Conferences
 
