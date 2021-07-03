@@ -5,7 +5,7 @@ url: "//mc-stan.org"
 title:
 locale: en_US
 description:
-logo: stan_logo_rainbow.png
+logo: stan_logo.png
 search: false
 
 # Jekyll configuration  (want pygments highlighter, but not supported)
