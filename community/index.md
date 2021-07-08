@@ -24,7 +24,7 @@ applications of Stan and we try very hard to be as helpful as possible, so
 please don't be shy to introduce yourself, share your work, or ask a question!
 
 There are also discussions happening over on Slack. Anyone is welcome to join at
-[mc-stan.slack.com](https://mc-stan.slack.com/). **Update:** As we are reaching maximum capacity of the slack workspace, we are trying out a move to Zulip. Anyone is welcome to join via [this link.](https://mc-stan.zulipchat.com/join/jersrgqth56gxzu5jnsx6ofn/){:target="_blank"}
+[mc-stan.slack.com](https://mc-stan.slack.com/). **Update:** As we are reaching maximum capacity of the slack workspace, we are trying out a move to Zulip. Anyone is welcome to join via [this link.](https://mc-stan.zulipchat.com/join/irkoc4dfqkppddwpni2iomr7/){:target="_blank"}
 
 #  Bug Reports, Feature Requests
 
