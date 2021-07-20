@@ -1,32 +1,35 @@
 Watercolor:
   - name: Spherebot
     picture: Spherebot.gif
-    download: 2020.8/Spherebot.zip
+    download: 2021.5/Spherebot.zip
     filesize: 4.71 MB
     credits: 3D model/animation by Bastien Genbrugge
   - name: Fruit Plate
     picture: fruit-plate.jpg
-    download: 2020.8/Fruit_Plate.zip
-    filesize: 1.65 MB
+    download: 2021.5/Fruit.Plate.zip
+    filesize: 1.05 MB
   - name: Wiz Biz
     picture: wiz-biz.jpg
-    download: 2020.8/Wiz_Biz.zip
-    filesize: 1.78 MB
+    download: 2021.5/Wiz.Biz.zip
+    filesize: 1.56 MB
     credits: 3D model by Tom Robinson
   - name: Lain 2.0
     picture: lain.gif
     credits: 3D model/animation by woopoodle
+  - name: Ship in Clouds
+    picture: ship.gif
+    credits: 3D model by Bastien Genbrugge
 
 Frayed:
   - name: Mech Drone
     picture: mech-drone.gif
-    download: 2020.8/Mech_Drone.zip
-    filesize: 12.2 MB
+    download: 2021.5/Mech.Drone.zip
+    filesize: 12.11 MB
     credits: 3D model/animation by Willy Decarpentrie
 
 Cutout:
   - name: Walk cycle
     picture: walk-cycle.gif
-    download: 2020.8/Walk_Cycle.zip
-    filesize: 338 KB
+    download: 2021.5/Walk.Cycle.zip
+    filesize: 0.27 MB
     credits: 3D model by Davide Benvenuti, animation by Santiago Montesdeoca
