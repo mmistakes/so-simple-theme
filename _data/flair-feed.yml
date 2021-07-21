@@ -1,3 +1,8 @@
+21/07/2021:
+  title: "Ship in Clouds - Demo Scene"
+  text: Find a new exclusive demo scene available in our Discord server for patrons, Indie and Studio licenses!
+  img: MNPRX/demo-scenes/ship.gif
+
 26/05/2021:
   title: "Quick Tip #9"
   text: Learn how to setup Maya for standalone hardware rendering, customize the rendering script and render stylized image sequences using MNPRX!
@@ -33,9 +38,3 @@
   text: Learn how to quickly change between the different ambient occlusion modes and optimize ambient occlusion to your scene.
   link: https://youtu.be/FZfnh0KFKPg
   img: feed/2021-03-19.jpg
-
-12/03/2021:
-  title: "Quick Tip #5"
-  text: Make the most out of your 3D renders by maximizing the rendering quality in the Maya Viewport.
-  link: https://youtu.be/7OjbFkHuGns
-  img: feed/2021-03-12.jpg
