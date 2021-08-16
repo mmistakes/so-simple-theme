@@ -1,0 +1,15 @@
+{% if page.tags.size > 0 %}
+  <h3 class="page-taxonomies-title">{{ site.data.text[site.locale].tags | default: 'Tags' }}</h3>
+  {% assign tags = page.tags | sort %}
+  <ul class="page-taxonomies">
+    {%- for tag in tags -%}
+      <li class="page-taxonomy">
+        {%- if site.tag_archive_path -%}
+          <a href="{{ tag | slugify | prepend: site.tag_archive_path | relative_url }}" title="{{ site.data.text[site.locale].pages_tagged | default: 'Pages tagged' }} {{ tag }}" rel="tag">{{ tag }}</a>
+        {%- else -%}
+          {{ tag }}
+        {%- endif -%}
+      </li>
+    {%- endfor- %}
+  </ul>
+{% endif %}

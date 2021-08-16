@@ -1,0 +1,5 @@
+{% assign posts_limit = page.posts_limit | default: 10 %}
+
+{%- for entry in site.posts limit: posts_limit -%}
+  {% include entry.html %}
+{%- endfor -%}

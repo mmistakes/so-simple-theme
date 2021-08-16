@@ -1,0 +1,7 @@
+/*
+   EM conversion
+   ========================================================================== */
+
+   @function em($target, $context: $doc-font-size) {
+    @return ($target / $context) * 1em;
+  }

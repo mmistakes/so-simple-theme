@@ -1,0 +1,353 @@
+/* ==========================================================================
+   Site-wide
+   ========================================================================== */
+
+.skip-links {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+#menu-toggle {
+  display: block;
+  margin: 0;
+  padding: 0.25em 0.75em 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    display: none;
+  }
+}
+
+.site-nav {
+  display: none;
+  margin-bottom: 1em;
+  text-align: center;
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0.25em 0.75em;
+    list-style: none;
+    border-radius: 0 0 (2 * $border-radius) (2 * $border-radius);
+
+    @include breakpoint($medium) {
+      display: inline-block;
+    }
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+
+  a {
+    display: block;
+    padding: 0.5em 0.75em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: $border-radius;
+  }
+
+  @include breakpoint($medium) {
+    display: block;
+  }
+
+  &.js-menu-is-open {
+    display: block;
+    -webkit-animation-name: initial;
+    animation-name: initial;
+  }
+}
+
+.masthead {
+  @include clearfix;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0.5em 0 0;
+  padding: 0;
+  @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
+  font-weight: 700;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-description {
+  margin-bottom: 1em;
+  font-family: $description-font-family;
+  @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.site-logo {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.site-logo-img {
+  width: $site-logo-width;
+  height: $site-logo-height;
+  border: 5px solid;
+  border-radius: $site-logo-width;
+
+  @include breakpoint($medium) {
+    width: 1.5 * $site-logo-width;
+    height: 1.5 * $site-logo-height;
+    border-radius: 1.5 * $site-logo-width;
+  }
+
+  @include breakpoint($large) {
+    width: 2 * $site-logo-width;
+    height: 2 * $site-logo-height;
+    border-radius: 2 * $site-logo-width;
+  }
+}
+
+.site-footer {
+  @include clearfix();
+  margin: 2em 0;
+  padding: 2em 0;
+  text-align: center;
+  border-top: 1px solid;
+
+  .social-icons {
+    margin-bottom: 0.5em;
+  }
+
+  .social-icon {
+    display: inline-block;
+    padding: 0 0.25em;
+  }
+}
+
+.copyright {
+  font-size: 0.75rem;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.footnotes {
+  margin: 2rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid;
+  font-size: 0.75rem;
+}
+
+.more-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-to-top {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: none;
+}
+
+.taxonomy-section {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+
+  &:not(:last-child) {
+    border-bottom: solid 1px;
+  }
+
+  + .taxonomy-section {
+    margin-top: 2em;
+  }
+}
+
+.taxonomy-title {
+  @include fluid-type($min-vw, $max-vw, 28px, 32px);
+  margin-bottom: 0.5em;
+  font-family: $base-font-family;
+}
+
+.taxonomy-index {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  padding: 0;
+  font-family: $base-font-family;
+  font-size: 0.9rem;
+  list-style: none;
+
+  @include breakpoint($large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0.25em 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+
+  + .taxonomy-section {
+    margin-top: 3em;
+  }
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column: 1 / -1;
+  margin: 2em 0;
+  width: 100%;
+
+  ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  li {
+    display: block;
+    float: left;
+    margin-left: -1px;
+
+    a {
+      display: block;
+      margin-bottom: 0.25em;
+      padding: 0.5em 1em;
+      font-size: 0.75rem;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid;
+      border-radius: 0;
+
+      &.disabled {
+        pointer-events: none;
+        cursor: not-allowed;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+
+      a {
+        border-top-left-radius: $border-radius;
+        border-bottom-left-radius: $border-radius;
+      }
+    }
+
+    &:last-child {
+      a {
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+      }
+    }
+  }
+}
+
+.search-input {
+  margin-bottom: 2em;
+  padding: 0.5em;
+  width: 100%;
+  font-size: 0.9rem;
+  border: 2px solid;
+  border-radius: $border-radius;
+}
+
+.toc-wrapper {
+  display: inline-block;
+  margin-bottom: 1.5em;
+  border: 1px solid;
+  border-radius: $border-radius;
+
+  h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    font-family: $base-font-family;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    .toc-toggle-icon {
+      margin-left: 1rem;
+      -webkit-transition: -webkit-transform 350ms ease;
+      transition: -webkit-transform 350ms ease;
+      transition: transform 350ms ease;
+      transition: transform 350ms ease, -webkit-transform 350ms ease;
+    }
+
+    &.js-toc-is-open {
+      .toc-toggle-icon {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  #markdown-toc {
+    display: none;
+    height: 0;
+    margin-bottom: 0;
+    padding-left: 2rem;
+    overflow: hidden;
+    font-size: 0.9rem;
+    -webkit-transition: height 350ms ease;
+    transition: height 350ms ease;
+
+    &.js-toc-is-open {
+      display: block;
+      height: auto;
+    }
+  }
+
+  li {
+    padding: 0.3em 0;
+    font-family: $base-font-family;
+
+    a {
+      display: inline-block;
+      color: inherit;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px dotted transparent;
+    }
+
+    ol {
+      padding-left: 0.5rem;
+      list-style-type: lower-roman;
+    }
+  }
+}

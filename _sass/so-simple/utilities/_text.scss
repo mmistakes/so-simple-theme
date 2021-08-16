@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Text
+   ========================================================================== */
+
+/*
+   Alignment
+   ========================================================================== */
+
+.text-justify {
+  text-align: justify !important;
+}
+.text-nowrap {
+  white-space: nowrap !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+
+/*
+   Transformation
+   ========================================================================== */
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.text-truncate {
+  @include text-truncate;
+}
+
+/*
+   Sizing
+   ========================================================================== */
+
+.small {
+  font-size: 80%;
+}

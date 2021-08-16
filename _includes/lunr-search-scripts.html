@@ -1,0 +1,106 @@
+{%- assign lang = site.locale | slice: 0,2 | default: "en" -%}
+  {%- case lang -%}
+    {%- when "da" -%}
+      {%- assign lang = "da" -%}
+    {%- when "de" -%}
+      {%- assign lang = "de" -%}
+    {%- when "du" -%}
+      {%- assign lang = "du" -%}
+    {-% when "es" -%}
+      {%- assign lang = "es" -%}
+    {%- when "fi" -%}
+      {%- assign lang = "fi" -%}
+    {%- when "fr" -%}
+      {%- assign lang = "fr" -%}
+    {%- when "hu" -%}
+      {%- assign lang = "hu" -%}
+    {%- when "it" -%}
+      {%- assign lang = "it" -%}
+    {%- when "ja" -%}
+      {%- assign lang = "ja" -%}
+    {%- when "jp" -%}
+      {%- assign lang = "jp" -%}
+    {%- when "no" -%}
+      {%- assign lang = "no" -%}
+    {%- when "pt" -%}
+      {%- assign lang = "pt" -%}
+    {%- when "ro" -%}
+      {%- assign lang = "ro" -%}
+    {%- when "ru" -%}
+      {%- assign lang = "ru" -%}
+    {%- when "sv" -%}
+      {%- assign lang = "sv" -%}
+    {%- when "tr" -%}
+      {%- assign lang = "tr" -%}
+    {%- else -%}
+      {%- assign lang = "en" -%}
+  {%- endcase -%}
+  <script src="{{ '/assets/js/lunr/lunr.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
+  {%- unless lang == "en" -%}
+    <script src="{{ '/assets/js/lunr/lunr.stemmer.support.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/lunr/lunr.' | append: lang | append: '.min.js' | relative_url }}"></script>
+  {%- endunless %}
+  <script>
+    var idx = lunr(function () {
+      {% unless lang == "en" %}
+        // use the language
+        this.use(lunr.{{ lang }});
+      {% endunless %}
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    console.log(jQuery.type(idx));
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p class="results__found">' + result.length + ' {{ site.data.text[site.locale].results_found | default: "Result(s) found" }}</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>

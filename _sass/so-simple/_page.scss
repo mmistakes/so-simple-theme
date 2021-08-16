@@ -1,0 +1,286 @@
+/* ==========================================================================
+   Page
+   ========================================================================== */
+
+.page-wrapper {
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: $main-sidebar-max-width;
+}
+
+.page-title {
+  @include fluid-type($min-vw, $max-vw, 48px, 60px);
+  margin-bottom: 0.5em;
+  font-family: $title-font-family;
+  font-weight: $page-title-weight;
+  font-style: italic;
+  letter-spacing: -2px;
+}
+
+.page-image {
+  position: relative;
+  text-align: center;
+  margin-top: (-1 * $site-logo-height) / 2;
+  margin-bottom: 2em;
+  z-index: 1;
+
+  @include breakpoint($medium) {
+    margin-top: (-1.5 * $site-logo-height) / 2;
+  }
+
+  @include breakpoint($large) {
+    margin-top: (-2 * $site-logo-height) / 2;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.page-image-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0.25em 0.5em;
+  color: #fff;
+  font-size: 0.75rem;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: 4px 0 0 0;
+
+  > * {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.page-sidebar {
+  font-size: 0.75rem;
+
+  @include breakpoint($large) {
+    text-align: center;
+  }
+
+  .page-date,
+  .read-time {
+    font-family: $meta-font-family;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .read-time {
+    @include breakpoint($large) {
+      display: block;
+    }
+  }
+
+  .read-time + .page-date::before {
+    content: "\2022";
+    padding: 0 0.5em;
+
+    @include breakpoint($large) {
+      content: "";
+      padding: 0;
+    }
+  }
+}
+
+.page-author {
+  @include clearfix;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.page-taxonomies-title {
+  display: inline;
+  padding-right: 0.5em;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+
+  @include breakpoint($large) {
+    display: inline-block;
+    margin: 1.5em 0 0.5em;
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+}
+
+.page-taxonomies {
+  display: inline;
+  margin-right: 1em;
+  padding: 0;
+  list-style: none;
+
+  @include breakpoint($large) {
+    display: block;
+    margin: 0 0 1.5em 0;
+  }
+}
+
+.page-taxonomy {
+  display: inline;
+
+  &:not(:last-child)::after {
+    content: ", ";
+  }
+}
+
+.page-share {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.page-comments {
+  margin-bottom: 2em;
+}
+
+.page-pagination {
+  margin: 2em 0 1em;
+  clear: both;
+
+  @include breakpoint($large) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.page-previous,
+.page-next {
+  display: block;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-decoration: none;
+}
+
+.page-next {
+  margin-top: 1em;
+
+  @include breakpoint($large) {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+
+.page-pagination-label {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.page-pagination-title {
+  margin: 0;
+  padding: 0;
+  font-family: $meta-font-family;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/*
+   Wide Layout Overrides
+   ========================================================================== */
+
+.layout--home,
+.layout--posts,
+.layout--categories,
+.layout--tags,
+.layout--category,
+.layout--tag,
+.layout--collection,
+.layout--search {
+  .page-wrapper {
+    max-width: $main-max-width;
+  }
+
+  .page-title {
+    text-align: center;
+  }
+}
+
+.layout--post {
+  .page-wrapper {
+    @include breakpoint($large) {
+      display: grid;
+      grid-column-gap: 3em;
+      grid-row-gap: 0;
+      grid-template-columns: 175px 1fr;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  }
+
+  .page-header {
+    @include breakpoint($large) {
+      grid-column: 1 / -1;
+      clear: both; // needed for floated layout
+    }
+  }
+
+  .page-sidebar {
+    margin-bottom: 1em;
+
+    @include breakpoint($large) {
+      float: left; // display: grid fallback
+      width: 18%; // display: grid fallback
+    }
+
+    @supports (display: grid) {
+      width: auto;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .page-content {
+    @include breakpoint($large) {
+      float: right; // display: grid fallback
+      width: 78%; // display: grid fallback
+      min-width: 0;
+    }
+
+    @supports (display: grid) {
+      width: auto;
+      margin: 0;
+    }
+  }
+
+  .page-share {
+    // display: grid fallback
+    clear: both;
+  }
+}
+
+.page--wide {
+  .page-wrapper {
+    max-width: $main-sidebar-max-width;
+  }
+}
