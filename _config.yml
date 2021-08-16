@@ -20,7 +20,7 @@ locale: en-US
 title: "sante-numerique"
 description: "sante-numerique"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: https://sante-numerique.github.io
+url: "https://sante-numerique.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
