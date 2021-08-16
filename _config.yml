@@ -18,7 +18,7 @@ skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "My Awesome Site"
 description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: "https://sante-numerique.github.io"
 url: "https://sante-numerique.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
