@@ -1,8 +1,8 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
+Kamran Afzali:
+  name: Kamran Afzali
   picture: /images/bio-photo-2.jpg
   twitter: "@billyrick"
   links:
@@ -10,7 +10,29 @@ Billy Rick:
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
 
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
+Pascale Beliveau:
+  name: Pascale Beliveau
   picture: /images/bio-photo.jpg
   twitter: corneliusfiddlebone
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+
+Khedidja Seridi:
+  name: Khedidja Seridi
+  picture: /images/bio-photo-2.jpg
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+
+Yves Terrat:
+  name: Yves Terrat
+  picture: /images/bio-photo.jpg
+  twitter: corneliusfiddlebone
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square

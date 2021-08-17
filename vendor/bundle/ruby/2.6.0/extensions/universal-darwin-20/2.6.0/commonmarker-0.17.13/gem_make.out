@@ -1,0 +1,93 @@
+current directory: /Users/khedidjaseridi/work/commit_sante/sante-numerique.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210816-83791-ffx7mm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/khedidjaseridi/work/commit_sante/sante-numerique.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: /Users/khedidjaseridi/work/commit_sante/sante-numerique.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR="
+compiling arena.c
+compiling autolink.c
+compiling blocks.c
+compiling buffer.c
+compiling cmark.c
+compiling cmark_ctype.c
+compiling commonmark.c
+compiling commonmarker.c
+In file included from commonmarker.c:3:
+In file included from ./houdini.h:9:
+./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
+#define HAVE_STDBOOL_H
+        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/include/ruby-2.6.0/universal-darwin20/ruby/config.h:25:9: note: previous definition is here
+#define HAVE_STDBOOL_H 1
+        ^
+1 warning generated.
+compiling core-extensions.c
+compiling ext_scanners.c
+compiling footnotes.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling houdini_html_u.c
+compiling html.c
+compiling inlines.c
+compiling iterator.c
+compiling latex.c
+compiling linked_list.c
+compiling man.c
+compiling map.c
+compiling node.c
+compiling plaintext.c
+compiling plugin.c
+compiling references.c
+compiling registry.c
+compiling render.c
+compiling scanners.c
+compiling strikethrough.c
+compiling syntax_extension.c
+compiling table.c
+compiling tagfilter.c
+compiling utf8.c
+compiling xml.c
+linking shared-object commonmarker/commonmarker.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file arena.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file autolink.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file blocks.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file buffer.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file cmark.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file cmark_ctype.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file commonmarker.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file commonmark.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file core-extensions.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file ext_scanners.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file footnotes.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file html.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file inlines.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ld: warning: ignoring file houdini_href_e.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file iterator.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file houdini_html_e.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file houdini_html_u.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ignoring file latex.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file map.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file node.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: ignoring file plugin.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: ignoring file linked_list.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: ignoring file registry.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: ld: warning: ignoring file strikethrough.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+
+ld: warning: ignoring file syntax_extension.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: ignoring file man.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+
+ld: warning: ignoring file references.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: 
+ignoring file scanners.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+
+ld: warning: ignoring file table.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ignoring file tagfilter.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: 
+ignoring file utf8.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: 
+ignoring file plaintext.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64ld: warning: 
+ignoring file xml.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file render.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+
+
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+
+current directory: /Users/khedidjaseridi/work/commit_sante/sante-numerique.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20210816-83791-jykeny/commonmarker
