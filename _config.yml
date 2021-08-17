@@ -18,7 +18,7 @@ skin: "/assets/css/skins/default.css"
 locale: fr-CA
 title: "ESSN blog"
 description: "Un blog pour comprendre les enjeux de la transition numérique dans le domaine de la santé"
-baseurl: "/blog"
+#baseurl: "/blog"
 url: "https://sante-numerique.github.io"
 logo: "/images/Logo_ESSN_rond.png"
 date_format: "%B %-d, %Y"
