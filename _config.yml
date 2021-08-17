@@ -17,10 +17,10 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: fr-CA
 title: "ESSN blog"
-description: "It really is the best."
-#baseurl: "https://sante-numerique.github.io"
+description: "Un blog pour comprendre les enjeux de la transition numérique dans le domaine de la santé"
+#baseurl: "blog"
 url: "https://sante-numerique.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: "/images/Logo_ESSN_rond.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -87,7 +87,11 @@ defaults:
     values:
       layout: post
       share: true
-
+  - scope:
+     # path: "_apropos"
+      type: about
+    values:
+      layout: page
 # Site Author
 author:
   name:
