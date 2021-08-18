@@ -17,7 +17,7 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: fr-CA
 title: "ESSN blog"
-description: "Un blog pour comprendre les enjeux de la transition numérique dans le domaine de la santé"
+description: "Un blog pour comprendre les enjeux de la transition numérique <br /> dans le domaine de la santé"
 #baseurl: "/blog"
 url: "https://sante-numerique.github.io"
 logo: "images/logo_noir_blanc_essn.png"
