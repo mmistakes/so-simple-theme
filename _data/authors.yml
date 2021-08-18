@@ -36,3 +36,13 @@ Yves Terrat:
     - title: Twitter
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
+
+
+Eva Lacroix:
+  name: Eva Lacroix
+  picture: /images/bio-photo-2.jpg
+  twitter: "@billyrick"
+  links:
+    - title: Twitter
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square

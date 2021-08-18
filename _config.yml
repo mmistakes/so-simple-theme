@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/dark.css"
+skin: "/assets/css/skins/default.css"
 locale: fr-CA
 title: "ESSN blog"
 description: "Un blog pour comprendre les enjeux de la transition numérique dans le domaine de la santé"
 #baseurl: "/blog"
 url: "https://sante-numerique.github.io"
-logo: "/images/Logo_ESSN_rond.png"
+logo: "images/logo_noir_blanc_essn.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
