@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
-skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/dark.css"
 locale: fr-CA
 title: "ESSN blog"
 description: "Un blog pour comprendre les enjeux de la transition numérique dans le domaine de la santé"
