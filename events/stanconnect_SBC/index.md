@@ -11,19 +11,21 @@ image:
 
 # Stan Connect 2021 - Checking your model, SBC
 
-This StanConnect event will take place on August 31, 2021, at 9AM EST. 
+This StanConnect event will take place on August 31, 2021, at 8.30AM EST. 
 
 ## Program
 
-Tentative schedule (times in ET) of each event: 
+Schedule (All times EST)
+- 8:30am -  9:00am: Event opens, informal chat/networking
+- 9:00am -  9:05am: Introduction to the Event by SGB representative
+- 9:05am -  9:20am: Opening by Hyunji Moon and Andrew Gelman
+- 9:20am - 10:00am: Teemu Säilynoja and Paul Buerkner's talk [15-min. talk + 5 min. Q&A]
+- 10:00am - 10:10am: Break, tutorial setup
+- 10:10am - 11:15am: Tutorial (Martin Modrak, Shinyoung Kim)
+- 11:15am - 11:20am: Break
+- 11:20am - 12:10am: Daniel Schad and Luiz Max Carvalho's talk [20-min. talk + 5 min. Q&A]
+- 12:10am - 12:15am: Closing
 
--	9am - 9:05am: Introduction to the Event by SGB representative (5min)
--	9:05pm - 9:20am: Introduction to theme by Session Chair and Andrew Gelman (15min)
--	9:20 - 9:50pm: Two minitalks on application side [10-minute talks + 5 minute Q&A]
--	9:50pm - 10:05pm: Zoom Networking/Social session.
--	10:05pm - 11:15pm: Tutorial (70min)
--	11:15pm - 11:55pm: Two talk on theoretical side [15-minute talks + 5 minute Q&A]
--	11:55pm - 12:00pm: Closing 
 
 | Speaker Name | Position/title/occupation | Affiliation | Tentative Talk Title |
 |:-:|:-:|:-:|:-:|
@@ -42,4 +44,4 @@ Session Chair: Hyunji Moon - Columbia University
 
 ## Registration
 
-Details will be made available as soon as possible. 
+See [this eventbright page](https://www.eventbrite.com/e/stanconnect-2021-checking-your-model-sbc-tickets-159548191937) for registration. 
