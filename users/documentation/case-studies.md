@@ -35,9 +35,9 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0 0 2em 0;"/>
 
 ## Bayesian Latent Class Models and Handling of Label Switching
-<small> In this case study, we use Stan to fit the Bayesian latent class model and illustrate the issue of label switching and its treatment. </small>
+<small> In this case study, we fit the Bayesian latent class model using Hamiltonian Monte Carlo sampling and Variational Bayes in Stan and illustrate the issue of label switching and its treatment with simulated and empirical data. </small>
 
-[View](case-studies/planetary_motion/planetary_motion.html) <span
+[View](case-studies/Latent_class_case_study.html) <span
 class="note">(HTML)</span>
 
 Authors
@@ -47,7 +47,7 @@ Keywords
 : latent class models, label-switching, post-hoc relabeling, variational Bayes
 
 Source Repository
-: [example-models/knitr/planetary_motion](https://github.com/stan-dev/example-models/tree/master/knitr/planetary_motion)
+: [example-models/education/latent_class](https://github.com/education-stan/example-models/tree/master/education/latent_class)
 <span class="note">(GitHub)</span>
 
 Dependencies
