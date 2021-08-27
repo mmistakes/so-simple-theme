@@ -23,8 +23,8 @@ Everyone who joins the forum has posting privileges.  We love hearing about
 applications of Stan and we try very hard to be as helpful as possible, so
 please don't be shy to introduce yourself, share your work, or ask a question!
 
-There are also discussions happening over on Slack. Anyone is welcome to join at
-[mc-stan.slack.com](https://mc-stan.slack.com/). **Update:** As we are reaching maximum capacity of the slack workspace, we are trying out a move to Zulip. Anyone is welcome to join via [this link.](https://mc-stan.zulipchat.com/join/iamupeimmdnwstfr7gmxppem/){:target="_blank"}
+There are also discussions happening over on Slack and Zulip. Anyone is welcome to join Slack at
+[mc-stan.slack.com](https://mc-stan.slack.com/) or Zulip via [this link.](https://mc-stan.zulipchat.com/join/fbqucco5tesfz7gkat3ppvzy/){:target="_blank"}
 
 #  Bug Reports, Feature Requests
 
