@@ -347,3 +347,22 @@
   github: hsbadr
   web: https://hsbadr.github.io
   avatar: hamada_badr.jpeg
+
+- name: Yuling Yao
+  affiliation: Flatiron Institute
+  email: yyao@flatironinstitute.org
+  github: yao-yl
+  web: https://www.yulingyao.com
+  avatar: yuling-yao-sq.png
+
+- name: Brian Ward
+  affiliation: Flatiron Institute
+  email: bward@flatironinstitute.org
+  github: WardBrian
+  avatar: brian-ward-sq.png
+  linkedin: https://www.linkedin.com/in/ward-brianm/
+
+- name: Nicholas DiDio
+  affiliation: Stevens Institute of Technology
+  email: nicholasdidio@rocketmail.com
+  github: nickdidio
