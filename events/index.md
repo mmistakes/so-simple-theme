@@ -23,7 +23,7 @@ Register [here](https://www.eventbrite.com/e/158476919733){:target="_blank"}
 
 Register [here](https://www.eventbrite.com/e/159546047523){:target="_blank"} 
 
-## [StanConnect - Biomedical , 4 October 2021](/events/stanconnect_Biomedical)
+## [StanConnect - Biomedical , 19 October 2021](/events/stanconnect_Biomedical)
 
 Register [here](https://www.eventbrite.com/e/159548589125){:target="_blank"} 
 
