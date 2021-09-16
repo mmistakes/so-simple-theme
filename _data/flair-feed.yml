@@ -1,3 +1,9 @@
+16/09/2021:
+  title: "Stylizing a Scene from Scratch #2 - Globals and Best Practices"
+  text: In this tutorial we set the initial global parameters and talk about some of the best practices when working with references.
+  link: https://youtu.be/C2_OluhAr80
+  img: feed/2021-09-16.jpg
+
 02/09/2021:
   title: "Stylizing a Scene from Scratch #1 - Preparing the scene"
   text: In this tutorial we go in-depth into preparing the scene and troubleshooting any problems you might encounter along the way.
@@ -32,9 +38,3 @@
   text: "Now with support for Maya 2022, toon shading, standalone rendering and more! Check out the Release Log for full details."
   link: https://artineering.io/software/MNPRX/release-log
   img: MNPRX/2021-04.gif
-
-31/03/2021:
-  title: "Quick Tip #7"
-  text: Learn how to enable bloom and customize it to make lighting contrasts pop.
-  link: https://youtu.be/f2CxshwgK-k
-  img: feed/2021-03-31.jpg
