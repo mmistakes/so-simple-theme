@@ -2,14 +2,14 @@
 
 - title: Home
   url: /
-# - title: Posts
-#   url: /posts/
-# - title: Categories
-#   url: /categories/
-# - title: Tags
-#   url: /tags/
-# - title: Recipes
-#   url: /recipes/
+- title: Scholarships
+  url: /scholarships/
+- title: Funds
+  url: /funds/
+- title: Contribute
+  url: /contribute/
+- title: About
+  url: /about/
 # - title: Search
 #   url: /search/
 # - title: External Page
