@@ -2,8 +2,8 @@
 layout: post
 title: "Test post title"
 excerpt: "This is a test excerpt"
-categories: blog
-tags: [governance]
+categories: update
+tags: [website]
 date: 2021-09-24
 author: magicboard
 ---
