@@ -1,16 +1,11 @@
-# Sample Authors
-# Remove file or replace with your own
+jehrenhofer:
+  name: Justin Ehrenhofer
+  web: https://ehrenhofer.org
+  email: justin@magicgrants.org
+  bio: ""
+  twitter: JEhrenhofer
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
-  links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+magicboard:
+  name: Multidisciplinary Academic Grants in Cryptocurrencies
+  twitter: MAGICGrants
+  

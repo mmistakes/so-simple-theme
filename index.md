@@ -8,6 +8,8 @@ excerpt: "MAGIC is a 501(c)(3) public charity focused on financial privacy. Our 
 
 MAGIC Grants is a public charity that provides undergraduate scholarships for students interested in cryptocurrencies and supports various critical cryptocurrency public payment infrastructure.
 
+
+
 {% include email-cta.html %}
 
 ## Undergraduate Scholarships
