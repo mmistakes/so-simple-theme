@@ -2,7 +2,7 @@
 layout: post
 title: "Test post title"
 excerpt: "This is a test excerpt"
-categories: update
+categories: blog
 tags: [website]
 date: 2021-09-24
 author: magicboard
