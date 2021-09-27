@@ -12,11 +12,11 @@ image:
 
 # StanConnect 2021 - Ecology, models for biological survey data
 
-This StanConnect event will take place on September 30, 2021, at 12PM EST. 
+This StanConnect event will take place on September 30, 2021, at 12PM EDT.
 
 ## Program
 
-Tentative schedule (times in ET) of each event: 
+Tentative schedule (times in EDT):
 
 -	12pm - 12:15pm: Introduction to the Event by SGB representative, Introduction to theme by Session Chair
 -	12:15 - 1:35pm: four 20-minute talks - 15 minute presentation + 5 minute Q&A.
@@ -26,11 +26,13 @@ Tentative schedule (times in ET) of each event:
 
 | Speaker Name | Position/title/occupation | Affiliation | Tentative Talk Title |
 |:-:|:-:|:-:|:-:|
-| Adam C. Smith | Senior Biostatistician | Canadian Wildlife Service | Using Stan for more efficient, elaborate, and biologically informed modeling of the spatial and temporal patterns in North American bird populations. |
+| Ara Winter | Data Manager |  University of New Mexico, Department of Biology, Bosque Ecosystem Monitoring Program | Using Stan to build better community. |
 | Harold Eyster | PhD candidate | University of British Columbia | Using Stan to diagnose and fit high-dimensional multispecies abundance models |
 | Jacob Socolar | Postdoctoral fellow | Cornell Lab of Ornithology | 250000 parameters: the story of an occupancy model for Colombia’s birdlife in Stan |
-| Maxwell Joseph | Data scientist | Earth Lab—University of Colorado, Boulder | Semi-supervised approaches for misclassified encounter data: marginalizing over combinatorially intractable discrete parameters |
+| Maxwell Joseph | Data scientist | Earth Lab—University of Colorado, Boulder | MLOps in a Bayesian workflow: tracking experiments with MLFlow. |
 
+**Panelist**
+Vianey Leos Barajas: Assistant Professor, University of Toronto, Department of Statistical Sciences
 
 **Organizers:**
 
