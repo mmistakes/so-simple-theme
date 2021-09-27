@@ -40,7 +40,7 @@ Session Chair: Luiz Max Carvalho, PhD - Getúlio Vargas Foundation
 
 ## Registration
 
-Details will be made available as soon as possible. 
+Register [here](https://www.eventbrite.com/e/159548589125){:target="_blank"} 
 
 
 
