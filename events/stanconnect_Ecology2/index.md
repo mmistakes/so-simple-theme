@@ -37,5 +37,5 @@ Session Chair: Jacob B. Socolar - Cornell Lab of Ornithology
 
 ## Registration
 
-Details will be made available as soon as possible. 
+Register [here](https://www.eventbrite.com/e/159546047523){:target="_blank"} 
 
