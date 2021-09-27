@@ -32,6 +32,7 @@ Tentative schedule (times in EDT):
 | Maxwell Joseph | Data scientist | Earth Lab—University of Colorado, Boulder | MLOps in a Bayesian workflow: tracking experiments with MLFlow. |
 
 **Panelist**
+
 Vianey Leos Barajas: Assistant Professor, University of Toronto, Department of Statistical Sciences
 
 **Organizers:**
