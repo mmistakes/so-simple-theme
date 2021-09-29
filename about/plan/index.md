@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "Plan"
 ---
-
-## Plan
 
 MAGIC Grants aspires to make a more formal plan for 2022 as it scales up its operations to meet the growing needs of the cryptocurrency ecosystem.
 
