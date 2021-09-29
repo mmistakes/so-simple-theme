@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Test post title"
-excerpt: "This is a test excerpt"
+title: "New website!"
+excerpt: "Our new website will help MAGIC Grants grow"
 categories: blog
 tags: [website]
-date: 2021-09-24
+date: 2021-10-01
 author: magicboard
 ---
 
-We are happy to have a new website that's not hosted on Google Sites anymore.
+We are happy to have a new website that will help MAGIC Grants further expand its programs!
+
+Website code: https://github.com/MAGICGrants
