@@ -38,7 +38,7 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  username: MagicGrants
 
 # Liquid
 liquid:
@@ -91,10 +91,10 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: MAGIC Grants Board
   picture:
-  email:
-  twitter:
+  email: info@magicgrants.org
+  twitter: MagicGrants
   links:
     - title:
       url:
@@ -102,6 +102,19 @@ author:
 
 # Footer Links
 footer_links:
+  - title: Twitter
+    url: https://twitter.com/MagicGrants
+    icon: twitter
+  - title: GitHub
+    url: https://github.com/MagicGrants
+    icon: github
+  - title: LinkedIn
+    url: https://linkedin.com/company/magicgrants
+    icon: linkedin
+  - title: Email
+    url: mailto:info@magicgrants.org
+    icon: email
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
