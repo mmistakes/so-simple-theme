@@ -7,8 +7,8 @@ To request additional documents from MAGIC, please email [info@magicgrants.org](
 
 * [1023 Application](/about/documentation/1023.pdf)
 
-* [1023 Schedule H](/about/documentation/"1023 Schedule H.pdf")
+* [1023 Schedule H](/about/documentation/1023 Schedule H.pdf)
 
-* [Initial Narrative](/about/documentation/"1023 Narrative.pdf")
+* [Initial Narrative](/about/documentation/1023 Narrative.pdf)
 
-* [Public Charity Approval Letter](/about/documentation/"501c3 Approval Letter 2020-08-07.pdf")
+* [Public Charity Approval Letter](/about/documentation/501c3 Approval Letter 2020-08-07.pdf)
