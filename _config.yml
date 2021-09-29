@@ -107,13 +107,13 @@ footer_links:
     icon: fas fa-twitter-square
   - title: GitHub
     url: https://github.com/MagicGrants
-    icon: fas github
+    icon: fas github-square
   - title: LinkedIn
     url: https://linkedin.com/company/magicgrants
-    icon: linkedin-square
+    icon: fas linkedin-square
   - title: Email
     url: mailto:info@magicgrants.org
-    icon: email
+    icon: fas email-square
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
