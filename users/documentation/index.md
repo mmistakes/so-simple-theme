@@ -84,7 +84,7 @@ more complex models and/or large datasets.
 
 # PyStan Documentation
 
-* [PyStan API documentation from readthedocs.org](https://pystan.readthedocs.org/en/latest/api.html)
+* [PyStan Documentation on readthedocs.org](https://pystan.readthedocs.org/en/latest/)
 
 # Case Studies and Notebooks
 
@@ -160,12 +160,7 @@ includes a few pages with helpful information for users.
   <a href="https://github.com/stan-dev/stan/wiki">Stan Wiki</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
   </p>
 
-Two particularly recommended pages are
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/wiki/Stan-Best-Practices">
-  Stan Best Practices</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
-  </p>
+One particularly recommended page is
 
 * <p>
   <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations">

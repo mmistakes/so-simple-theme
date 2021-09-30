@@ -55,14 +55,6 @@ developer process followed by Stan, are listed in various places on:
   <span class="note">(on GitHub)</span>
   </p>
 
-There is a top-level list that is in the process of being moved
-over to the issue tracker.
-
-* <p><a href="https://github.com/stan-dev/stan/wiki/Longer-Term-To-Do-List">To-Do
-    List Wiki</a>
-  <span class="note">(on GitHub)</span>
-  </p>
-
 # Join the Development Team
 
 The Stan development team is always looking for developers
