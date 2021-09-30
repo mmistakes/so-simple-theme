@@ -9,7 +9,7 @@ MAGIC Grants focuses on building strong cryptocurrency communities and networks.
 
 MAGIC Grants does this through the direct efforts of the organization and through the semi-autonomous MAGIC Funds. This two-tier approach allows MAGIC Grants to focus on projects that support all cryptocurrency communities, while MAGIC Funds can provide more tailored attention and community engagement with specific communities and projects.
 
-MAGIC Grants's mission is to continue improving the cryptocurrency ecosystem through various projects. MAGIc Grants supports essential payment infrastructure for the public good to lessen the burden of government.
+MAGIC Grants's mission is to continue improving the cryptocurrency ecosystem through various projects. MAGIC Grants supports essential payment infrastructure for the public good to lessen the burden of government.
 
 ## Plan
 
