@@ -9,7 +9,7 @@
         {%- else -%}
           {%- assign url = footer_link.url | relative_url -%}
         {%- endif -%}
-        <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fas fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
+        <a  href="{{ url }}"><img src="{{ footer_link.icon  }}" alt="{{ footer_link.title }}"></img></a>
       {%- endfor -%}
     </div>
   {%- endif -%}
