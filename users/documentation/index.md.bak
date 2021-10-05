@@ -19,10 +19,10 @@ and inference.
 For versions 2.18 and later, this is titled _Stan User's Guide_.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan User's Guide 2.26](/docs/2_27/stan-users-guide/index.html)
+* [Stan User's Guide 2.27](/docs/2_28/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.26 pdf](/docs/2_27/stan-users-guide-2_27.pdf)
+* [Stan User's Guide 2.27 pdf](/docs/2_28/stan-users-guide-2_28.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -32,11 +32,11 @@ inference algorithms for fitting models and making predictions,
 and posterior analysis tools for evaluating the results.
 This manual applies to all Stan interfaces.
 
-* [Stan Language Reference Manual 2.26](/docs/2_27/reference-manual/index.html)
+* [Stan Language Reference Manual 2.27](/docs/2_28/reference-manual/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
 
-* [Stan Language Reference Manual 2.26 pdf](/docs/2_27/reference-manual-2_27.pdf)
+* [Stan Language Reference Manual 2.27 pdf](/docs/2_28/reference-manual-2_28.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Functions Reference
@@ -45,10 +45,10 @@ The reference for the functions defined in the Stan math
 library and available in the Stan programming language.
 For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 
-* [Stan Language Functions Reference 2.26](/docs/2_27/functions-reference/index.html)
+* [Stan Language Functions Reference 2.27](/docs/2_28/functions-reference/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan Language Functions Reference 2.26 pdf](/docs/2_27/functions-reference-2_27.pdf)
+* [Stan Language Functions Reference 2.27 pdf](/docs/2_28/functions-reference-2_28.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Software Development Lifecycle
@@ -60,10 +60,10 @@ by the Stan project is hosted at
 
 # CmdStan Documentation 
 
-* [CmdStan User's Guide 2.26](/docs/2_27/cmdstan-guide/index.html)
+* [CmdStan User's Guide 2.27](/docs/2_28/cmdstan-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [CmdStan User's Guide 2.26 pdf](/docs/2_27/cmdstan-guide-2_27.pdf)
+* [CmdStan User's Guide 2.27 pdf](/docs/2_28/cmdstan-guide-2_28.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # CmdStanR, CmdStanPy Documentation 
@@ -84,7 +84,7 @@ more complex models and/or large datasets.
 
 # PyStan Documentation
 
-* [PyStan API documentation from readthedocs.org](https://pystan.readthedocs.org/en/latest/api.html)
+* [PyStan Documentation on readthedocs.org](https://pystan.readthedocs.org/en/latest/)
 
 # Case Studies and Notebooks
 
@@ -160,12 +160,7 @@ includes a few pages with helpful information for users.
   <a href="https://github.com/stan-dev/stan/wiki">Stan Wiki</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
   </p>
 
-Two particularly recommended pages are
-
-* <p>
-  <a href="https://github.com/stan-dev/stan/wiki/Stan-Best-Practices">
-  Stan Best Practices</a> &nbsp; &nbsp; <span class="note">(GitHub)</span>
-  </p>
+One particularly recommended page is
 
 * <p>
   <a href="https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations">
