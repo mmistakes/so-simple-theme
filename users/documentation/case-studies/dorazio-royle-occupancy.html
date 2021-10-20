@@ -125,7 +125,7 @@ $(document).ready(function () {
 
 <p>In the following paper, Dorazio et al. provide a hierarchical occupancy model for “estimating species richness and accumulation by forming these community-level attributes as functions of model-based estimators of species occurence while accounting for imperfect detection of individual species.”</p>
 <blockquote>
-Dorazio, R. M., Royle, J. A., Söderström, B., &amp; Glimskär, A. (2006). <a href="http://www.uvm.edu/rsenr/vtcfwru/spreadsheets/occupancy/Occupancy%20Exercises/Exercise15/Dorazio_et_al_2006.pdf">Estimating species richness and accumulation by modeling species occurrence and detectability</a>. <i>Ecology</i> <b>87</b>(4), 842-854.
+Dorazio, R. M., Royle, J. A., Söderström, B., &amp; Glimskär, A. (2006). <a href="https://doi.org/10.1890/0012-9658(2006)87[842:ESRAAB]2.0.CO;2">Estimating species richness and accumulation by modeling species occurrence and detectability</a>. <i>Ecology</i> <b>87</b>(4), 842-854.
 </blockquote>
 <p>They apply their model to estimating total numbers of butterfly species (and of birds, with a similar format to the data).</p>
 <p>This <a href="http://yihui.name/knitr/">knitr</a> document contains all that you need to replicate Dorazio et al.’s statistical analysis of butterfly species. The model is coded and statistical inference carried out using the Bayesian inference package <a href="http://mc-stan.org">RStan</a>. A great follow-on exercise would be to code up more of the models from <a href="http://www.mbr-pwrc.usgs.gov/pubanalysis/roylebook/chapters.htm">Dorazio and Royle’s book</a> in Stan.</p>
@@ -142,7 +142,7 @@ Dorazio, R. M., Royle, J. A., Söderström, B., &amp; Glimskär, A. (2006). <a h
 </ul>
 <p>The supercommunity size parameter <span class="math inline">\(S\)</span> is just required to be large enough to encompass all possible species that might be present; it will affect the estimation of various model parameters, but not the derived quantities of interest such as the estimated total number of species available at a site.</p>
 <p>Reading the data in requires a web connection to the publisher’s web site:</p>
-<pre class="r"><code>x_csv &lt;- read.csv(&quot;http://esapubs.org/archive/ecol/E087/050/butterflyData.txt&quot;);
+<pre class="r"><code>x_csv &lt;- read.csv(&quot;https://esapubs.org/archive/ecol/E087/050/butterflyData.txt&quot;);
 n &lt;- dim(x_csv)[1];
 J &lt;- dim(x_csv)[2];
 x &lt;- matrix(NA, n, J)
