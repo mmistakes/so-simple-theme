@@ -1,3 +1,9 @@
+14/12/2021:
+  title: "Flair - Early Access"
+  text: We are incredibly excited to finally bring to you Flair on Early Access! Available for Patrons and Indie/Studio subscribers. More info on Discord!
+  link: https://www.patreon.com/artineering
+  img: feed/2021-12-14.gif
+
 15/10/2021:
   title: "Stylizing a Scene from Scratch #4 - Wrapping Up!"
   text: In this tutorial we modify the composition of the shot, use displacement in ShaderFX to break the generic forms of 3D models and polish the look!
@@ -38,9 +44,3 @@
   text: "Fixes for Maya 2022, referenced scenes experiencing big file sizes, velocity per vertex, automatically loading styles and standalone rendering."
   link: https://artineering.io/software/MNPRX/release-log
   img: MNPRX/2021-05.gif
-
-30/04/2021:
-  title: "Quick Tip #8"
-  text: Learn how to toggle Toon Shading and customize each toon zone with material attributes, NoiseFX and PaintFX!
-  link: https://youtu.be/R6RNRI6Q7GU
-  img: feed/2021-04-30.jpg
