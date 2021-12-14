@@ -82,6 +82,9 @@ collections:
   mnprdocs:
     output: true
     permalink: /software/MNPRX/docs/:slug/
+  flairdocs:
+    output: true
+    permalink: /software/flair/docs/:slug/
   publications:
     output: true
     permalink: /:collection/:title/
