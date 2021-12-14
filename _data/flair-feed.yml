@@ -1,3 +1,9 @@
+15/10/2021:
+  title: "Stylizing a Scene from Scratch #4 - Wrapping Up!"
+  text: In this tutorial we modify the composition of the shot, use displacement in ShaderFX to break the generic forms of 3D models and polish the look!
+  link: https://youtu.be/XOAG_F_7Jcg
+  img: feed/2021-10-15.jpg
+
 30/09/2021:
   title: "Stylizing a Scene from Scratch #3 - Stylizing the Shot"
   text: In this tutorial we stylize the entire scene and go through each level-of-control to art-direct it to our liking.
@@ -38,9 +44,3 @@
   text: Learn how to toggle Toon Shading and customize each toon zone with material attributes, NoiseFX and PaintFX!
   link: https://youtu.be/R6RNRI6Q7GU
   img: feed/2021-04-30.jpg
-
-16/04/2021:
-  title: "MNPRX April 2021 Release"
-  text: "Now with support for Maya 2022, toon shading, standalone rendering and more! Check out the Release Log for full details."
-  link: https://artineering.io/software/MNPRX/release-log
-  img: MNPRX/2021-04.gif
