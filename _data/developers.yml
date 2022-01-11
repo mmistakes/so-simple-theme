@@ -204,7 +204,7 @@
   avatar: yi_zhang.jpg
 
 - name: Paul Bürkner
-  affiliation: Aalto University
+  affiliation: University of Stuttgart
   github: paul-buerkner
   email: paul.buerkner@gmail.com
   web: https://paul-buerkner.github.io/
@@ -347,3 +347,32 @@
   github: hsbadr
   web: https://hsbadr.github.io
   avatar: hamada_badr.jpeg
+
+- name: Yuling Yao
+  affiliation: Flatiron Institute
+  email: yyao@flatironinstitute.org
+  github: yao-yl
+  web: https://www.yulingyao.com
+  avatar: yuling-yao-sq.png
+
+- name: Brian Ward
+  affiliation: Flatiron Institute
+  email: bward@flatironinstitute.org
+  github: WardBrian
+  avatar: brian-ward-sq.jpg
+  linkedin: https://www.linkedin.com/in/ward-brianm/
+
+- name: Nicholas DiDio
+  affiliation: Stevens Institute of Technology
+  email: nicholasdidio@rocketmail.com
+  github: nickdidio
+  linkedin: https://www.linkedin.com/in/nick-didio/
+  avatar: nicholas-didio.jpeg
+
+- name: Johann D. Gaebler
+  affiliation: Stanford University
+  email: jgaeb@stanford.edu
+  github: jgaeb
+  twitter: jgaeb1
+  web: https://www.jgaeb.com
+  avatar: johann_gaebler.jpg

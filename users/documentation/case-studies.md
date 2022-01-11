@@ -27,6 +27,37 @@ versions noted and seeds fixed)</span> and
 * an open-source code license <span class="note">(preferably BSD or GPL
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
+
+
+# *Stan Case Studies*, &nbsp; Volume 8 &nbsp; (2021)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## Bayesian Latent Class Models and Handling of Label Switching
+<small> In this case study, we fit the Bayesian latent class model using Hamiltonian Monte Carlo sampling and Variational Bayes in Stan and illustrate the issue of label switching and its treatment with simulated and empirical data. </small>
+
+[View](case-studies/Latent_class_case_study.html) <span
+class="note">(HTML)</span>
+
+Authors
+: Feng Ji, Aybolek Amanmyradova, Sophia Rabe-Hesketh
+
+Keywords
+: latent class models, label-switching, post-hoc relabeling, variational Bayes
+
+Source Repository
+: [example-models/education/latent_class](https://github.com/education-stan/example-models/tree/master/education/latent_class)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%"> label.switching, rstan, magrittr, knitr, poLCA </tt>
+>>>>>>> origin/master
+
+License
+:  BSD (3 clause), CC-BY
+
+
 # *Stan Case Studies*, &nbsp; Volume 7 &nbsp; (2020)
 
 <hr style="margin:0.25em 0 0.25em 0;"/>
