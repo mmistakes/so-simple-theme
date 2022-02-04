@@ -580,25 +580,6 @@ R Package Dependencies
 License
 : Code: BSD (3 clause), Text: CC BY-NC 4.0
 
-[View](case-studies/splines_in_stan.html) <span class="note">(HTML)</span>
-
-Author
-: Milad Kharratzadeh
-
-Keywords
-: B-splines, piecewise regression, knots, priors
-
-Source Repository
-: [milkha/Splines_in_Stan](https://github.com/milkha/Splines_in_Stan)
-<span class="note">(GitHub)</span>
-
-R Package Dependencies
-: <tt style="font-size: 90%">splines</tt>,
-  <tt style="font-size: 90%">rstan</tt>,
-
-License
-: Code: BSD (3 clause), Text: CC BY-NC 4.0
-
 
 ## Spatial Models in Stan: Intrinsic Auto-Regressive Models for Areal Data
 
