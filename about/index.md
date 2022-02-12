@@ -51,10 +51,10 @@ please email <board@mc-stan.org>.
 
 The current SGB members are:
 
-* Arman Oganisian <span class="note">(University of Pennsylvania)</span>
-* Duco Veen <span class="note">(University Medical Center Utrecht)</span>
-* Leah Comment <span class="note">(Foundation Medicine Inc.)</span>
-* Max Mantei <span class="note">(University of Hamburg)</span>
+* Vianey Leos Barajas <span class="note">(University of Toronto)</span>
+* Mitzi Morris <span class="note">(Columbia University)</span>
+* Sean Pinkney <span class="note">(Bully Pulpit Interactive Media)</span>
+* Jose Storopoli <span class="note">(Pumas-AI, Inc. and UNINOVE, Brazil)</span>
 * Yi Zhang <span class="note">(Metrum Research Group)</span>
 
 
