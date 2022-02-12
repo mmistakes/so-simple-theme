@@ -21,6 +21,15 @@ volunteer developers from around the world.
 
 * <p><a href="/about/team/">The Stan Development Team</a></p>
 
+
+# Stan Logo
+
+The Stan name and logo are registered trademarks of NumFOCUS
+under the direction of the [Stan Governing Body](#stan-governing-body-sgb).
+For details on when you can use the logo see
+
+* <p><a href="/about/logo/index.html">Stan Logo</a></p>
+
 # Funding
 
 Stan would not exist or continue to exist without the
@@ -58,8 +67,8 @@ and communication within the scientific computing community.
 # Stan Governing Body (SGB)
 
 The Stan Governing Body provides project governance structure
-in accord with the NumFOCUS requirements and is the liason between
-the project and NumFOCUS for all fically sponsered initiatives.
+in accord with the NumFOCUS requirements and is the liaison between
+the project and NumFOCUS for all fiscally sponsored initiatives.
 The SGB has authority over:
 
 * ownership and management of trademarks
@@ -99,12 +108,3 @@ The current SGB members are:
 
 - [Minutes of the provisional SGB, 2018-2019](/about/sgb/minutes)
 - [Summary of motions of the provisional SGB (08/2018-11/2019)](/about/sgb/minutes.html#summary-of-motions-of-the-provisional-sgb-082018-112019)
-
-
-# Stan Logo
-
-The Stan name and logo are registered trademarks of NumFOCUS
-under the direction of the [Stan Governing Body](#stan-governing-body-sgb).
-For details on when you can use the logo see
-
-* <p><a href="/about/logo/index.html">Stan Logo</a></p>
