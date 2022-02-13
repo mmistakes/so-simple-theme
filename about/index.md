@@ -97,7 +97,7 @@ The current SGB members are:
 * Vianey Leos Barajas <span class="note">(University of Toronto)</span>
 * Mitzi Morris <span class="note">(Columbia University)</span>
 * Sean Pinkney <span class="note">(Bully Pulpit Interactive Media)</span>
-* Jose Storopoli <span class="note">(Pumas-AI, Inc. and UNINOVE, Brazil)</span>
+* Jose Storopoli <span class="note">(UNINOVE, Brazil and Pumas-AI, Inc.)</span>
 * Yi Zhang <span class="note">(Metrum Research Group)</span>
 
 
