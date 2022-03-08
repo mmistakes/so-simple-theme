@@ -974,119 +974,20 @@ p .btn--aio {
 .aio-pricing {
   position: relative;
   background-color: #fff;
+ 
+  .main-pricing{
+    margin: 0 1em;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0.7, 0.7, 0.7, 0.15);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 
-  .toggler {
-    white-space: nowrap;
-    color: #aaa;
-    transition: .2s;
-    font-weight: bold;
-    .pricing-banner {
-      display: inline-block;
-      position: relative;
-      min-width: 105px;
-      @media (min-width: 900px) {
-        min-width: 130px;
-      }
-      margin: -4px 0;
-      background-color: black;
-      border-left: 12px solid white;
-      border-right: 12px solid white;
-      border-top: 12px solid;
-      border-bottom: 12px solid;
-      &#state-m-caption {
-        border-top-color: #607d8b;
-        border-bottom-color: #607d8b;
-      }
-      &#state-y-caption {
-        border-top-color: #008080;
-        border-bottom-color: #008080;
-      }
-      p {
-        color: #fff;
-        width: 100%;
-        text-align: center;
-        margin: -0.75em 0 0;
-        position:absolute;
-      }
-    }
-    .toggle {
-      display: inline-block;
-      vertical-align: middle;
-      margin: 0 1em 0.5em;
-      position: relative;
-      width: 80px;
-      height: 25px;
-      border-radius: 100px;
-      background-color: #000;
-      overflow: hidden;
-      box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
-      input {
-        position: absolute;
-        display: block;
-        cursor: pointer;
-        top: 0;
-        width: 33%;  // each element a third of the width
-        height: 100%;
-        opacity: 0;  // hide radio buttons
-        z-index: 6;
-        // place radio buttons in thirds
-        &#state-m {
-          left: 0;
-        }
-        &#state-q {
-          left: 33%;
-        }
-        &#state-y {
-          left: 66%;
-          width: 34%;
-        }
-        // when something is checked, the switch will...
-        &#state-y:checked ~ .switch {
-          right: 2px;
-          left: 71%;
-          transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-          transition-property: left, right;
-          transition-delay: .08s, 0s;
-        }
-        &#state-q:checked ~ .switch {
-          right: 37%;
-          left: 37%;
-          transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-        }
-      }
-      .switch {
-        display: block;
-        position: absolute;
-        left: 2px;
-        top: 2px;
-        bottom: 2px;
-        right: 71%;
-        background-color: #fff;
-        border-radius: 36px;
-        z-index: 1;
-        transition: 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-        transition-property: left, right;
-        transition-delay: 0s, .08s;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-      }
-    }
-    .toggle-options {
-      .toggler--is-active {
-        color: #000;
-      }
-      label {
-        min-width: 4em;
-        cursor: pointer;
-        &:hover {
-          color: #000;
-        }
-        display: inline-block;
-        margin: 0 1em;
-      }
-      margin-bottom: 0.5em;
+    @media (min-width: 900px) {
+      flex-direction: row;
     }
   }
-
   .pricing-table {
     margin: 0 1em;
     padding: 5px;
