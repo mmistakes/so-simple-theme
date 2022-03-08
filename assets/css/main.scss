@@ -1204,11 +1204,10 @@ p .btn--aio {
 
 // requirements
 .aio-requirements {
-    ul {
-      padding-left: 1.5em;
-    }
-    ol {
-      padding-left: 1.5em;
+  display: inline-flex;
+  justify-content:center;
+    .specs{
+      padding: 2.5rem;
     }
 }
 
