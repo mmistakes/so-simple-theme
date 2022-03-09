@@ -969,7 +969,10 @@ p .btn--aio {
 .aio-pricing {
   position: relative;
   background-color: #fff;
- 
+ .location{
+   margin: 1em;
+   padding: 3px;
+ }
   .main-pricing{
     margin: 0 1em;
     padding: 5px;
