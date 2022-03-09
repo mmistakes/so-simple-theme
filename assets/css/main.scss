@@ -1022,6 +1022,42 @@ p .btn--aio {
       }
     }
   }
+  .pricing-tables{
+    margin: 0 1em;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 900px) {
+      flex-direction: row;
+    }
+
+    * {
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    ul {
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 20px 0 20px;
+      list-style-type: none;
+      padding-inline-start: 0;
+      li {
+        border-top: 1px solid #DDD;
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 10px 0;
+      }
+      li:last-child{
+        border-bottom: 1px solid #DDD;
+      }
+    }
+  }
   .pricing-plan {
     border-bottom: 1px solid #DDD;
     padding: 25px;

@@ -3,12 +3,12 @@
   <p>Choouse your license</p>
   <div class="pricing-table">
     <div class="pricing-plan" id="comercial">
-        <i class="fas fa-home-alt fa-3x"></i>
-        <h3>Commercial Use</h3>
+      <i class="fas fa-home-alt fa-3x"></i>
+      <h3>Commercial Use</h3>
     </div>
-      <div class="pricing-plan" id="noncomercial">
-        <i class="fas fa-dove fa-3x"></i>
-        <h3>Non-Commercial Use</h3>
+    <div class="pricing-plan" id="noncomercial">
+      <i class="fas fa-dove fa-3x"></i>
+      <h3>Non-Commercial Use</h3>
     </div>
     <div class="pricing-plan hide" id="individual">
       <i class="fas fa-user fa-3x"></i>
@@ -37,13 +37,264 @@
       <p>all subscriptions can be cancelled any time</p>
     </div>
     <div class="pricing-plan hide" id="more">
-        <i class="fab fa-fort-awesome fa-3x"></i>
-          <h3>More than 10</h3>
+      <i class="fab fa-fort-awesome fa-3x"></i>
+      <h3>More than 10</h3>
     </div>
     <div class="pricing-plan hide" id="less">
-         <i class="fas fa-campground fa-3x"></i>
-          <h3>Less than 10</h3>
-      </div>
+      <i class="fas fa-campground fa-3x"></i>
+      <h3>Less than 10</h3>
+    </div>
+    <div class="pricing-plan hide" id="studio">
+      <i class="fab fa-fort-awesome fa-3x"></i>
+      <h3>mnprx studio</h3>
+      <p>your subscriptions options</p>
+      <!-- monthly pricing table -->
+      <div id="monthly" class="pricing-tables">
+        <div class="pricing-plan">
+          <!-- features -->
+          <h3>monthly</h3>
+              <!-- price -->
+              <div class="pricing-price">
+                <span data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-price></span><span>/month</span>
+                <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+              </div>
+    
+              <!-- quantity -->
+              <div class="pricing-quantity">
+                <span>Quantity: </span>
+                <select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <sup><a href="#footprint">7</a></sup>
+              </div>
+    
+              <!-- purchase button -->
+              <p>
+                <a class="btn btn--aio" data-fsc-item-path="mnprx-studio-subscription"
+                  data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+              </p>
+        </div> <!-- end NC -->
+
+
+        <div class="pricing-plan">
+
+          <!-- features -->
+          <h3>quarterly</h3>
+          <!-- <ul>
+            <li>Commercial use for<br>
+              private individuals/teams and small companies<sup><a href="#footprint">3</a></sup></li>
+            <li>Production toolset</li>
+            <li>Email support</li>
+          </ul> -->
+
+          <!-- price -->
+          <div class="pricing-price">
+            <span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>
+            <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+          </div>
+
+          <!-- quantity -->
+          <div class="pricing-quantity">
+            <span>Quantity: </span>
+            <select data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-item-quantity-value>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <sup><a href="#footprint">7</a></sup>
+          </div>
+
+          <!-- purchase button -->
+          <p>
+            <a class="btn btn--aio" data-fsc-item-path="mnprx-indie-subscription"
+              data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+          </p>
+        </div> <!-- end Indie -->
+
+
+        <div class="pricing-plan">
+
+          <!-- features -->
+          <h3>yearly</h3>
+          <!-- <ul>
+            <li>Commercial use<br>
+              for companies/teams<br>
+              of any size</li>
+            <li>Production toolset</li>
+            <li>Live support</li>
+          </ul> -->
+
+          <!-- price -->
+          <div class="pricing-price">
+            <span data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-price></span><span>/month</span>
+            <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+          </div>
+
+          <!-- quantity -->
+          <div class="pricing-quantity">
+            <span>Quantity: </span>
+            <select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            <sup><a href="#footprint">7</a></sup>
+          </div>
+          <!-- purchase button -->
+          <p>
+            <a class="btn btn--aio" data-fsc-item-path="mnprx-studio-subscription"
+              data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+          </p>
+        </div> <!-- end Studio -->
+
+      </div> <!-- end monthly pricing-table -->
+      <p id="customization" class="top05" markdown="1">For **bulk purchases** or **site licenses**, please [contact sales](/contact/).</p>
+      <p>all subscriptions can be cancelled at any time</p>
+    </div>
+    <div class="pricing-plan hide" id="indie">
+      <i class="fas fa-campground fa-3x"></i>
+      <h3>mnprx indie</h3>
+      <p>your subscriptions options</p>
+      <!-- monthly pricing table -->
+      <div id="monthly" class="pricing-tables">
+        <div class="pricing-plan">
+          <!-- features -->
+          <h3>monthly</h3>
+              <!-- price -->
+              <div class="pricing-price">
+                <span data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-price></span><span>/month</span>
+                <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+              </div>
+    
+              <!-- quantity -->
+              <div class="pricing-quantity">
+                <span>Quantity: </span>
+                <select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <sup><a href="#footprint">7</a></sup>
+              </div>
+    
+              <!-- purchase button -->
+              <p>
+                <a class="btn btn--aio" data-fsc-item-path="mnprx-studio-subscription"
+                  data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+              </p>
+        </div> <!-- end NC -->
+
+
+        <div class="pricing-plan">
+
+          <!-- features -->
+          <h3>quarterly</h3>
+          <!-- <ul>
+            <li>Commercial use for<br>
+              private individuals/teams and small companies<sup><a href="#footprint">3</a></sup></li>
+            <li>Production toolset</li>
+            <li>Email support</li>
+          </ul> -->
+
+          <!-- price -->
+          <div class="pricing-price">
+            <span data-fsc-item-path="mnprx-indie-subscription" data-fsc-item-price></span><span>/month</span>
+            <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+          </div>
+
+          <!-- quantity -->
+          <div class="pricing-quantity">
+            <span>Quantity: </span>
+            <select data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-item-quantity-value>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <sup><a href="#footprint">7</a></sup>
+          </div>
+
+          <!-- purchase button -->
+          <p>
+            <a class="btn btn--aio" data-fsc-item-path="mnprx-indie-subscription"
+              data-fsc-item-path-value="mnprx-indie-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+          </p>
+        </div> <!-- end Indie -->
+
+
+        <div class="pricing-plan">
+
+          <!-- features -->
+          <h3>yearly</h3>
+          <!-- <ul>
+            <li>Commercial use<br>
+              for companies/teams<br>
+              of any size</li>
+            <li>Production toolset</li>
+            <li>Live support</li>
+          </ul> -->
+
+          <!-- price -->
+          <div class="pricing-price">
+            <span data-fsc-item-path="mnprx-studio-subscription" data-fsc-item-price></span><span>/month</span>
+            <p>- per-seat<sup><a href="#footprint">5</a></sup> -</p>
+          </div>
+
+          <!-- quantity -->
+          <div class="pricing-quantity">
+            <span>Quantity: </span>
+            <select data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-item-quantity-value>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+            <sup><a href="#footprint">7</a></sup>
+          </div>
+          <!-- purchase button -->
+          <p>
+            <a class="btn btn--aio" data-fsc-item-path="mnprx-studio-subscription"
+              data-fsc-item-path-value="mnprx-studio-subscription" data-fsc-action="Update, Checkout">Purchase</a>
+          </p>
+        </div> <!-- end Studio -->
+
+      </div> <!-- end monthly pricing-table -->
+      <p id="customization" class="top05" markdown="1">For **bulk purchases** or **site licenses**, please [contact sales](/contact/).</p>
+      <p>all subscriptions can be cancelled at any time</p>
+    </div>
+    </div>
   </div>
   <section>
     <!-- end aio-pricing -->
