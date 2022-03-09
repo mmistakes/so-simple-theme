@@ -7,8 +7,17 @@ const nonprofit = document.getElementById("nonprofit")
 const community = document.getElementById("community ")
 const patron = document.getElementById("patron")
 
+
+const more = document.getElementById("more");
+const less = document.getElementById("less");
+
 comercial.addEventListener("click", function (){
   console.log("click comercial")
+  comercial.classList.add("hide");
+  nonComercial.classList.add("hide");
+  more.classList.remove("hide");
+  less.classList.remove("hide")
+
 })
 
 nonComercial.addEventListener("click",function(){
