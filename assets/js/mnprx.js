@@ -15,6 +15,7 @@ const studio= document.getElementById("studio");
 
 const indie= document.getElementById("indie");
 
+const employees = document.getElementById('employees')
 
 const selection = document.getElementById("tittle")
 const reset = document.getElementById('reset');
@@ -27,6 +28,7 @@ comercial.addEventListener("click", function (){
   more.classList.remove("hide");
   less.classList.remove("hide")
   selection.innerText = 'Chosen license : Comercial Use'
+  employees.classList.remove('hide')
   reset.classList.remove("hide")
 
 })
@@ -63,6 +65,7 @@ more.addEventListener("click",function(){
   more.classList.add("hide");
   less.classList.add("hide")
   studio.classList.remove('hide')
+  employees.innerHTML = 'Your company has more than 10 employees '
 })
 
 less.addEventListener("click",function(){
@@ -70,6 +73,7 @@ less.addEventListener("click",function(){
   more.classList.add("hide");
   less.classList.add("hide")
   indie.classList.remove('hide')
+  employees.innerHTML = 'Your company has less than 10 '
 })
 
 
@@ -89,5 +93,7 @@ reset.addEventListener("click",function(){
   studio.classList.add('hide')
   indie.classList.add('hide')
   selection.innerText = 'Choose your license'
+  employees.classList.add('hide')
+  employees.innerHTML = 'How many employees does your company have?'
   reset.classList.add('hide')
 })
