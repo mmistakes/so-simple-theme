@@ -45,7 +45,11 @@ hr {
   border: none;
 }
 .hide {
-  display: none !important;
+  // display: none !important;
+  visibility: hidden !important;
+}
+.show{
+  visibility: visible !important;
 }
 .transparent {
   opacity: 0 !important;
@@ -960,15 +964,6 @@ p .btn--aio {
 .hide {
   display: none !important;
 }
-
-
-
-
-
-
-
-
-
 
 
 .aio-pricing {
