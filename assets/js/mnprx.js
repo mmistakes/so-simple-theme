@@ -88,6 +88,6 @@ reset.addEventListener("click",function(){
   community.classList.add('hide')
   studio.classList.add('hide')
   indie.classList.add('hide')
-
+  selection.innerText = 'Choose your license'
   reset.classList.add('hide')
 })
