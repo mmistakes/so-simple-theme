@@ -18,6 +18,13 @@ const indie= document.getElementById("indie");
 const employees = document.getElementById('employees')
 
 const selection = document.getElementById("tittle")
+
+const customization  = document.getElementById('customization')
+const subs =document.getElementById('subs')
+
+const demo = document.getElementById("demo")
+
+const dis = document.getElementById('disclaimer')
 const reset = document.getElementById('reset');
 
 
@@ -49,6 +56,8 @@ nonprofit.addEventListener("click",function(){
   individual.classList.add("hide");
   nonprofit.classList.add("hide");
   patron.classList.remove("hide")
+  subs.classList.remove('hide')
+  demo.classList.remove('hide')
 })
 
 individual.addEventListener("click",function(){
@@ -57,7 +66,8 @@ individual.addEventListener("click",function(){
   individual.classList.add("hide");
   nonprofit.classList.add("hide");
   community.classList.remove("hide");
-
+  subs.classList.remove('hide')
+  demo.classList.remove('hide')
 })
 
 more.addEventListener("click",function(){
@@ -66,6 +76,9 @@ more.addEventListener("click",function(){
   less.classList.add("hide")
   studio.classList.remove('hide')
   employees.innerHTML = 'Your company has more than 10 employees '
+  customization.classList.remove('hide')
+  subs.classList.remove('hide')
+  demo.classList.remove('hide')
 })
 
 less.addEventListener("click",function(){
@@ -74,6 +87,9 @@ less.addEventListener("click",function(){
   less.classList.add("hide")
   indie.classList.remove('hide')
   employees.innerHTML = 'Your company has less than 10 '
+  customization.classList.remove('hide')
+  subs.classList.remove('hide')
+  demo.classList.remove('hide')
 })
 
 
@@ -95,5 +111,8 @@ reset.addEventListener("click",function(){
   selection.innerText = 'Choose your license'
   employees.classList.add('hide')
   employees.innerHTML = 'How many employees does your company have?'
+  customization.classList.add('hide')
+  subs.classList.add('hide')
   reset.classList.add('hide')
+  demo.classList.add('hide')
 })
