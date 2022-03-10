@@ -1,479 +1,236 @@
 ---
-title: "Brief Guide to Stan's Warnings"
+title: "Runtime warnings and convergence problems"
 author: "Stan Development Team"
-date: "`r Sys.Date()`"
+date: "Last updated: `r Sys.Date()`"
 output: 
   html_document:
     toc: true
-    toc_depth: 4
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Stan emits a lot of messages, some of which are warnings. In this document we go
-over why this happens, explain some of the most common warnings, and provide
-some tips about how to proceed depending on the particular warnings you're
-seeing.
+A big advantage of Stan is that it employs a range of diagnostics to let you notice many potential problems with your model --- Stan is conservative and throws warnings for anything suspicious.  Here we walk through the types of warnings and hints to help you diagnose and resolve underlying modelling problems. If you fail to diagnose/resolve the problems with the model yourself or if you have trouble understanding or applying some of the hints, don't worry, you are welcome to ask on [Stan Discourse](https://discourse.mc-stan.org/), we'll try to help!
 
-While reading this document it is important to keep in mind that _there is no 
-statistical algorithm that is guaranteed to get the right results on all 
-models_. Markov chain Monte Carlo is no exception. Although it is often 
-advertised as being "unbiased", this is _not_ a guarantee unless the Markov
-chains are infinitely long. Whether or not MCMC yields good values in finite
-time is a much more challenging problem.
+Resolving modeling issues is generally hard and requires some understanding of probabilistic theory and Hamiltonian Monte-Carlo, see [Understanding basics of Bayesian statistics and modelling](https://discourse.mc-stan.org/t/understanding-basics-of-bayesian-statistics-and-modelling/17243) for more general resources.
 
-## Preruntime warnings
+For guidance on warnings that occur when compiling the model, see [Stan User's guide on errors and warnings](https://mc-stan.org/docs/2_28/stan-users-guide/understanding-stanc3-errors-and-warnings.html).
 
-Preruntime warnings occur before any estimation is performed, although if you
-call `stan()` these preruntime warnings may only appear slightly before the
-estimation.
+## When can warnings be ignored
 
+In most cases the warnings actually indicate important problems with your model. This does not mean that _every_ time you see a warning the model estimates are meaningless, but when you see warnings you shouldn't trust your estimates without first understanding what the warnings mean.
 
-### Parser warnings
+However, in early stages of a modelling workflow, we often don’t need completely reliable inference, and a roughly correct posterior can be enough to let us check if the model is sensible using posterior predictive checks. If warnings occur rarely or the diagnostics are just somewhat above the recommended threshold, it often makes sense to do some rough sanity checks before investigating the warnings in detail. This can help to avoid investing a lot of time debugging a model that would be discarded anyway due to lack of fit to data or other conceptual problems.
 
-Parser warnings occur when you call `stanc()` directly, or indirectly by calling
-`stan()` with either its `file` or `model_code` argument specified. Parser
-warnings take two forms:
+## Types of warnings
 
-1. Deprecation warnings
-2. Jacobian warnings
-
-
-#### Deprecation warnings
-
-Deprecation warnings may look something like
-
-```r
-DIAGNOSTIC(S) FROM PARSER:
-Warning (non-fatal): increment_log_prob(...); is deprecated and will be removed in the future.
-Use target += ...; instead.
-Warning: Deprecated function 'normal_log'; please replace suffix '_log' with '_lpdf' for density functions or 
-'_lpmf' for mass functions
-```
-
-These warnings indicate that, although your Stan syntax is valid, some
-construction(s) you are using will be removed in a future version of Stan. Thus,
-you should update your Stan program to the suggested syntax in order to better
-ensure that your Stan program will continue to run in the future.
-
-#### Jacobian warnings
-
-Jacobian warnings may look something like
-
-```r
-DIAGNOSTIC(S) FROM PARSER:
-Warning (non-fatal):
-Left-hand side of sampling statement (~) may contain a non-linear transform of a parameter or local variable.
-If so, you need to call target += with the log absolute determinant of the Jacobian of the transform.
-Left-hand-side of sampling statement:
-   sqrt(y) ~ gamma(...)
-```
-
-If you fail to heed this warning, the posterior distribution Stan will sample
-from is not necessarily the posterior distribution that you have in mind. The
-only situation in which you can ignore this warning is when you are sure that
-the determinant of the Jacobian matrix of the transformation depends only on
-constants.
-For example, `target += exponential(y - 1 | 1);` does not require a Jacobian
-adjustment because if $z = y - 1$, then $y = z + 1$ and 
-$\frac{\partial y}{\partial z} = 1$ is a constant.
-
-### Compiler warnings
-
-There is one category of warnings that are essentially useless: compiler
-warnings. Compiler warnings occur when you call `stan_model()` directly or
-indirectly by calling `stan()` with its `file` or `model_code` argument
-specified. They may look something like
-
-```r
-In file included from /usr/local/lib/R/site-library/BH/include/boost/multi_array/base.hpp:28:0,
-                 from /usr/local/lib/R/site-library/BH/include/boost/multi_array.hpp:21,
-                 from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint/util/multi_array_adaption.hpp:29,
-                 from /usr/local/lib/R/site-library/BH/include/boost/numeric/odeint.hpp:61,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/arr/functor/integrate_ode_rk45.hpp:13,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/arr.hpp:36,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/mat.hpp:235,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:9,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4,
-                 from file3d155eade6dd.cpp:8:
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp: In static member function ‘static void boost::multi_array_concepts::detail::idgen_helper<N>::call(Array&, const IdxGen&, Call_Type)’:
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:42:43: warning: typedef ‘index_range’ locally defined but not used [-Wunused-local-typedefs]
-       typedef typename Array::index_range index_range;
-                                           ^
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:43:37: warning: typedef ‘index’ locally defined but not used [-Wunused-local-typedefs]
-       typedef typename Array::index index;
-                                     ^
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp: In static member function ‘static void boost::multi_array_concepts::detail::idgen_helper<0ul>::call(Array&, const IdxGen&, Call_Type)’:
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:53:43: warning: typedef ‘index_range’ locally defined but not used [-Wunused-local-typedefs]
-       typedef typename Array::index_range index_range;
-                                           ^
-/usr/local/lib/R/site-library/BH/include/boost/multi_array/concept_checks.hpp:54:37: warning: typedef ‘index’ locally defined but not used [-Wunused-local-typedefs]
-       typedef typename Array::index index;
-                                     ^
-In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/operator_unary_plus.hpp:7:0,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core.hpp:34,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:4,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4,
-                 from file3d155eade6dd.cpp:8:
-/usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/scal/fun/constants.hpp: At global scope:
-/usr/local/lib/R/site-library/StanHeaders/include/stan/math/prim/scal/fun/constants.hpp:65:18: warning: ‘stan::math::NEGATIVE_EPSILON’ defined but not used [-Wunused-variable]
-     const double NEGATIVE_EPSILON
-                  ^
-In file included from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core.hpp:42:0,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/mat.hpp:4,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/stan/math.hpp:4,
-                 from /usr/local/lib/R/site-library/StanHeaders/include/src/stan/model/model_header.hpp:4,
-                 from file3d155eade6dd.cpp:8:
-/usr/local/lib/R/site-library/StanHeaders/include/stan/math/rev/core/set_zero_all_adjoints.hpp:14:17: warning: ‘void stan::math::set_zero_all_adjoints()’ defined but not used [-Wunused-function]
-     static void set_zero_all_adjoints() {
-```
-
-These simply say there is some part of the Stan library that is being compiled
-but not used; it has nothing to do with your model specifically. You can 
-safely ignore these compiler warnings but they can also be suppressed by
-editing your Makevars file.
-
-Open the file whose path is the output of
-
-```{r, eval = FALSE}
-normalizePath("~/.R/Makevars")
-```
-
-and add (or add on to) a line that starts with `CXXFLAGS = `. Copy the part(s)
-inside the square brackets from the compiler warning message and paste them onto
-the line that starts with `CXXFLAGS = ` but add the two-character string `no`
-after the starting string `-W`. For example, in the case of the compiler warnings
-in the messages above, the line that starts with `CXXFLAGS = ` would become
-
-```r
-CXXFLAGS = ... -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs
-```
-
-where `...` stands for what was already there, such as `-O3`.
-
-## Runtime warnings
-
-Runtime warnings occur during the estimation. Stan throws a lot of runtime
-warnings because they may be important. This does not mean that _every_ time you
-see a warning you can't trust your estimates, but when you see warnings it does
-mean that you shouldn't blindly trust your estimates without first understanding
-what the warnings mean and which ones require action on your part.
-
-You might not be used to seeing so many warnings from other software you use,
-but that _does not mean_ that Stan has more problems than that other software.
-The Stan Development Team places a high priority on notifying users about any
-issue that could potentially be important and Stan will always tell you about
-problems it encounters instead of hiding them from you. Warning messages do not
-indicate that something is wrong with Stan but rather that Stan is doing its job
-and warning you when it finds problems (or possible problems) with what it was
-told to do. Furthermore, a huge advantage of the algorithms used by Stan is that
-they permit certain unique diagnostics (e.g. the divergences discussed below)
-that are unavailable when using other algorithms. This leads to more warnings
-from Stan, but we cannot emphasize enough that this is a _feature_ rather than a
-drawback.
-
+ - Divergent transitions after warmup
+ - Exceptions thrown when computing target density and its gradient (Hamiltonian proposal rejected)
+ - R-hat
+ - Bulk- and Tail-ESS
+ - Maximum treedepth
+ - BFMI low
 
 ### Divergent transitions after warmup
 
 **Example:**
 
+
 ```r
 1: There were 15 divergent transitions after warmup.
-2: Examine the pairs() plot to diagnose sampling problems
 ```
+Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution --- the posterior defined by a Stan program + data --- by simulating the evolution of a [Hamiltonian system](https://en.wikipedia.org/wiki/Hamiltonian_system). In order to approximate the exact solution of the Hamiltonian dynamics we need to choose a step size governing how far we move each time we evolve the system forward. _The step size controls the resolution of the sampler_.
 
-Stan uses Hamiltonian Monte Carlo (HMC) to explore the target distribution ---
-the posterior defined by a Stan program + data --- by simulating the evolution
-of a [Hamiltonian system](https://en.wikipedia.org/wiki/Hamiltonian_system). In
-order to approximate the exact solution of the Hamiltonian dynamics we need to
-choose a step size governing how far we move each time we evolve the system
-forward. That is, the _step size controls the resolution of the sampler_.
+For hard problems the curvature of the posterior can vary a lot and there can be features of the target distribution that are too small for this resolution. For example, divergences are likely if the log posterior density doesn't have continuous derivative everywhere. Consequently the sampler misses those features and returns biased estimates. Fortunately, this mismatch of scales manifests as _divergences_ which provide a practical diagnostic. 
 
-Unfortunately, for particularly hard problems there are features of the target 
-distribution that are too small for this resolution. Consequently the sampler 
-misses those features and returns biased estimates. Fortunately, this mismatch 
-of scales manifests as _divergences_ which provide a practical diagnostic.
+Even a small number of divergences after warmup cannot be safely ignored if completely reliable inference is desired. But if you get only few divergences and you get good Rhat and ESS values, the resulting posterior is often good enough to move forward. There are also cases when a small number divergences without any pattern in their locations can be verified to be unimportant, but this cannot be safely assumed without a careful investigation of the model.
 
-For some intuition, imagine walking down a steep mountain. If you take too big
-of a step you will fall, but if you can take very tiny steps you might be able
-to make your way down the mountain, albeit very slowly. Similarly, we can tell
-Stan to take smaller steps around the posterior distribution, which (in some but
-not all cases) can help avoid these divergences.
-
-As the warning message says, you should call `pairs()` on the resulting object.
-Red points indicate divergent transitions. In our experience, divergent
-transitions that occur __above__ the diagonal of the `pairs()` plot --- meaning
-that the amount of numerical error was above the median over the iterations ---
-can often be eliminated simply by increasing the value of the `adapt_delta`
-parameter (see below for example code). This is the target average proposal
-acceptance probability during Stan's adaptation period, and increasing it will
-force Stan to take smaller steps. The downside is that sampling will tend to be
-slower because a smaller step size means that more steps are required. **Since
-the validity of the estimates is not guaranteed if there are post-warmup
-divergences, the slower sampling is a minor cost.**
-
-If you have many unknowns in your Stan program, then the `pairs()` plot may be
-illegible. There is a `pars` argument to the `pairs()` function that allows you
-to specify a subset of parameters. Also, there is an `include` argument that can
-be set to `FALSE` that will result in the complement of the `pars` argument
-being included in the `pairs()` plot. You should definitely include variance (or
-standard deviation, etc.) parameters, since they illustrate the funnel
-phenomenon most often. In addition, you should include at least some lower-level
-parameters in hierarchical models.
-
-Conversely, divergent transitions that occur __below__ the diagonal of the
-`pairs()` plot --- meaning that the amount of numerical error was below the
-median over the iterations --- often cannot be eliminated simply by increasing
-the value of the `adapt_delta` parameter, although it does not hurt to try and
-it might actually work if the number of divergent transitions is small. If the
-divergent transitions cannot be eliminated by increasing the `adapt_delta`
-parameter, we have to find a different way to write the model that is logically
-equivalent but simplifies the geometry of the posterior distribution. This
-problem occurs frequently with hierarchical models and one of the simplest
-examples is Neal's Funnel, which is discussed in the *Optimizing Stan Code*
-chapter of the [Stan manual](http://mc-stan.org/documentation/) and can be
-performed by calling
-
-```{r, eval = FALSE}
-library(rstan)
-funnel <- stan_demo("funnel", seed = 12345)   # has 5 divergent transitions
-pairs(funnel, pars = c("y", "x[1]", "lp__"), las = 1) # below the diagonal
-funnel_reparam <- stan_demo("funnel_reparam") # has no divergent transitions
-```
-
-
-**Recommendations:**
-
-* Increase the target acceptance rate `adapt_delta`. In RStan, `adapt_delta` is
-one of the parameters that you can include in the optional `control` list passed
-to the `stan` or `sampling` functions. For example, to set `adapt_delta` to 0.99
-(the default is 0.8) you would do this:
-
-```{r, eval=FALSE}
-stan(..., control = list(adapt_delta = 0.99))
-```
-
-* Reparameterize your model. See the Stan case study 
-[_Diagnosing Biased Inference with Divergences_](http://mc-stan.org/users/documentation/case-studies/divergences_and_bias.html)
-and the _Reparameterization_ section of the
-_Optimizing Stan Code_ chapter in the [Stan
-manual](http://mc-stan.org/users/documentation/), in particular the discussion
-of hierarchical models and non-centered parameterizations.
-
+**Further reading on divergences:**
+- [Identity Crisis](https://betanalpha.github.io/assets/case_studies/identifiability.html) - a discussion of the causes of divergences, diagnosis and treatment.
+* [Taming divergences in Stan models](https://www.martinmodrak.cz/2018/02/19/taming-divergences-in-stan-models/) a less mathematical but hopefully more accessible intuition on what divergent transitions are.
+* [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434)
 
 ### Exceptions thrown when Hamiltonian proposal rejected
 
-**Example:**
-
+**Examples:**
 ```r
 Exception thrown at line 24: normal_log: Scale parameter is 0, but must be positive! 
+-----
+Rejecting initial value:
+Gradient evaluated at the initial value is not finite.
+Stan can’t start sampling from this initial value.
 ```
+The first warning indicates that the standard deviation (scale parameter) of the  normal distribution (at line 24 in the Stan program) is 0, but it must be positive for Stan to compute the value of density function. 
 
-This warning indicates that the standard deviation (scale parameter) of the 
-normal distribution (at line 24 in the Stan program) is 0, but it must be
-positive for Stan to compute the value of density function. It is not uncommon
-to get this type of warning if your model has bounded parameters. A message like
-this does not necessarily indicate that something is wrong with your model, as
-it's possible that even in a correctly specified and well-behaved model the
-value of the scale parameter can be 0 (or numerically indistinguishable from 0)
-occasionally during sampling.
+The second message indicates that the gradient of the target (as computed by Stan's automatic differention) is infinite, indicating numerical problems somewhere in the model but unfortunately without clear information about where exactly.
 
-However, this warning should _not_ be ignored if it occurs many times. 
-Informally, if the number of times this happens is large then something in the
-model or data (or the combination of the model and data) is consistently forcing
-the constrained parameter to its boundary and this should be investigated.
+There are many other types of these warnings. A message like this does not necessarily indicate that something is wrong with your model, as it's possible that even in a correctly specified and generally well-behaved model a numerical inaccuracy is occasionally seen, especially during warmup (for example, scale parameter with zero lower bound can still become numerically indistinguishable from 0). If such warnings occur only before the first iteration it is a sign that initialization is problematic. In this case changing the initial values can help but is not necessary if there are no further warnings. Warnings after the first few iterations may indicate bugs or numerical issues in the model and if exceptions occur many times, investigation is definitely warranted.
 
-**Recommendations:** 
+**Further reading on numerical accuracy of floating point format used in the computation:**
+- [Lecture notes by Geyer (2020) "Stat 3701 Lecture Notes: Computer Arithmetic"](https://stat.umn.edu/geyer/3701/notes/arithmetic.html) provide code examples in R illustrating the most common issues in floating-point arithmetic which can cause also unwanted rounding to the boundary of the constraint.
 
-* Verify that the support of the parameters matches the distributions used in
-the model. In the example above this means making sure that `sigma` is declared 
-with a `<lower=0>` constraint.
-
-* If all parameters are declared with the appropriate constraints, you can 
-ignore this warning if it's very sporadic.
-
-* Simulate data and fit the same model to check whether the same problem occurs
-using different data.
-
-* Use priors that place less weight on values near the boundary.
-
-* Use numerically stable expressions. This includes always performing 
-calculations on the log-scale when possible and making use of Stan's special 
-composed functions. For example, `log_sum_exp(x)` is more robust numerically
-than `log(sum(exp(x))`. Other examples like this include `log1m(x)` instead of
-`log(1-x)`, `log1p_exp(x)` instead of `log(1 + exp(x))`, and many others. See
-the _Composed Functions_ subsection of the _Real-Valued Basic Functions_ chapter
-of the Stan manual for a complete listing.
-
-
-### Maximum treedepth exceeded
-
-Warnings about hitting the maximum treedepth are not as serious as warnings 
-about divergent transitions. While divergent transitions are a _validity_
-concern, hitting the maximum treedepth is an _efficiency_ concern. Configuring
-the No-U-Turn-Sampler (the variant of HMC used by Stan) involves putting a cap
-on the depth of the trees that it evaluates during each iteration (for details
-on this see the *Hamiltonian Monte Carlo Sampling* chapter in the [Stan 
-manual](http://mc-stan.org/documentation/)). This is controlled through a 
-maximum depth parameter `max_treedepth`. When the maximum allowed tree depth is 
-reached it indicates that NUTS is terminating prematurely to avoid excessively 
-long execution time.
-
-Transitions that hit the maximum treedepth are plotted in yellow in the 
-`pairs()` plot.
-
-**Recommendations:** 
-
-* Increase the maximum allowed treedepth. In RStan, `max_treedepth` is one
-of the parameters that you can include in the optional `control` list passed
-to the `stan` or `sampling` functions. For example, to set `max_treedepth`
-to 15 (the default is 10) you would do this:
-
-```{r, eval=FALSE}
-stan(..., control = list(max_treedepth = 15))
-```
-
-
-### BFMI low
-
-You may see a warning that says some number of chains had an estimated Bayesian
-Fraction of Missing Information (BFMI) that was too low. This implies that the
-adaptation phase of the Markov Chains did not turn out well and those chains
-likely did not explore the posterior distribution efficiently. For more details
-on this diagnostic, see https://arxiv.org/abs/1604.00695.
-
-**Recommendations:** 
-
-* Look at the `pairs` plot to see which primitive parameters are correlated with
-  the `energy__` margin. There should be a negative relationship between `lp__`
-  and `energy__` in the `pairs` plot, which is not a concern because `lp__` is 
-  the logarithm of the posterior kernel rather than a primitive parameter. 
-
-* Reparameterize your model. The primitive parameters that are correlated with
-  the `energy__` margin in the `pairs` plot are a good place to start thinking
-  about reparameterizations.
-
-* You might try setting a higher value for the `iter` and / or `warmup` arguments.
-  By default `warmup` is half of `iter` and `iter` is $2000$ by default. 
 
 ### R-hat
 
-R-hat convergence diagnostic compares the between- and within-chain
-estimates for model parameters and other univariate quantities of
-interest. If chains have not mixed well (ie, the between- and
-within-chain estimates don't agree), R-hat is larger than 1. We
-recommend running at least four chains by default and only using the
-sample if R-hat is less than 1.01. Stan reports R-hat which is the
-maximum of rank normalized split-R-hat and rank normalized
-folded-split-R-hat, which works for thick tailed distributions and is
-sensitive also to differences in scale. For more details on this
-diagnostic, see https://arxiv.org/abs/1903.08008.
+R-hat (sometimes also Rhat) convergence diagnostic compares the between- and within-chain estimates for model parameters and other univariate quantities of interest. If chains have not mixed well (so that between- and within-chain estimates don't agree), R-hat is larger than 1. We recommend running at least four chains by default and in general only fully trust the sample if R-hat is less than 1.01. In early workflow, R-hat below 1.1 is often sufficient.
 
-**Recommendations:**
+Stan reports R-hat as the maximum of rank normalized split-R-hat and rank normalized folded-split-R-hat, which works for thick tailed distributions and is sensitive also to differences in scale.
 
-* Look at Bulk- and Tail-ESS for further information.
+High R-hat means that the chains have not mixed well and so there is not a good reason to think of them as them being fully representative of the posterior. 
 
-* Look at the `rank` plot to see how the chains differ from each other.
+When there are divergent transitions in the model, high R-hat is often just another symptom of the problematic geometry that caused the divergences.  If there are "maximum treedepth" warnings alongside high R-hat, it usually reflects a problematic geometry of the posterior that is hard to traverse efficiently and is often a side effect of setting very high `adapt_delta` in an attempt to resolve divergences.
+High R-hat without other warnings is commonly associated with posteriors that have multiple well-separated modes for the offending parameters, but can also arise in unimodal posteriors with difficult geometry, in case of high correlations, or in near improper posteriors.
 
-* Look at the local and quantile efficiency plots.
+R-hat and ESSs (see below) are useful quick summaries, but for the final results, it is useful to check also Monte Carlo standard error for the quantities of interest and compare that to the domain knowledge of the required accuracy, and if it is low, then run longer chains to get more samples from the posterior.
 
-* You might try setting a higher value for the `iter` argument.
-  By default `iter` is $2000$. 
+**Further reading on R-hat:**
 
-### Bulk ESS
+- [Rank-normalization, folding, and localization: An improved $\hat{R}$ for assessing convergence of MCMC](https://arxiv.org/abs/1903.08008)
+- Documentation for the [rhat()](https://mc-stan.org/posterior/reference/rhat.html) function in the `posterior` package.
 
-Roughly speaking, the effective sample size (ESS) of a quantity of
-interest captures how many independent draws contain the same amount
-of information as the dependent sample obtained by the MCMC
-algorithm. Clearly, the higher the ESS the better.  Stan uses R-hat
-adjustment to use the between-chain information in computing the
-ESS. For example, in case of multimodal distributions with
-well-separated modes, this leads to an ESS estimate that is close to
-the number of distinct modes that are found.
+### Bulk and Tail ESS
+Roughly speaking, the effective sample size (ESS) of a quantity of interest captures how many independent draws contain the same amount of information as the dependent sample obtained by the MCMC algorithm. The higher the ESS the better.  Stan uses R-hat adjustment to use the within- and between-chain information in computing the ESS. For example, in case of multimodal distributions with well-separated modes, this leads to an ESS estimate that is close to the number of distinct modes that are found.
 
-Bulk-ESS refers to the effective sample size based on the rank
-normalized draws. This does not directly compute the ESS relevant for
-computing the mean of the parameter, but instead computes a quantity
-that is well defined even if the chains do not have finite mean or
-variance. Overall bulk-ESS estimates the sampling efficiency for the
-location of the distribution (e.g. mean and median).
+Bulk-ESS refers to the effective sample size based on the rank normalized draws. This does not directly compute the ESS relevant for computing the mean of the parameter, but instead computes a quantity that is well defined even if the chains do not have finite mean or variance. Overall bulk-ESS estimates the sampling efficiency for location summaries such as mean and median. Often smaller ESS would be sufficient for the desired estimation accuracy, but the estimation of ESS and convergence diagnostics themselves require higher ESS.  For final results, we recommend requiring that the bulk-ESS is greater than 100 times the number of chains. For example, when running four chains, this corresponds to having a rank-normalized effective sample size of at least 400. In early workflow, ESS > 20 is often sufficient. 
 
-Often quite smaller ESS would be sufficient for the desired estimation
-accuracy, but the estimation of ESS and convergence diagnostics
-themselves require higher ESS.  We recommend requiring that the
-bulk-ESS is greater than 100 times the number of chains. For example,
-when running four chains, this corresponds to having a rank-normalized
-effective sample size of at least 400.
+Tail-ESS computes the minimum of the effective sample sizes (ESS) of the 5% and 95% quantiles. Tail-ESS can help diagnose problems due to different scales of the chains and slow mixing in the tails. If one or more chains has no draws below the 5% or above 95% quantiles computed from the all draws, there will be no direct way to assess that those chains are not completely failing, and thus NA (not available) can be reported for tail-ESS.
+> [name=Paul] We recently changed this policy in posterior because constant within chain was too conservative and turned out to return NA to oft
 
-**Recommendations:**
+In most cases, low bulk-ESS and tail-ESS is accompanied by large R-hat, and all recommendations for large Rhat are often useful in dealing with low ESS. 
 
-* You might try setting a higher value for the `iter` argument.
-  By default `iter` is $2000$.
+R-hat and ESS are useful quick summaries, but for final results, it can useful to check also Monte Carlo standard error for the quantities of interest and compare that to the domain knowledge of the required accuracy, and if needed then sample from the posterior.
 
-* Look at the `rank` plot to see how the chains differ from each other.
+**Further reading on ESS:**
 
-* Look at the local and quantile efficiency plots.
+- [Rank-normalization, folding, and localization: An improved $\hat{R}$ for assessing convergence of MCMC](https://arxiv.org/abs/1903.08008)
+-  [Comparison of MCMC effective sample size estimators.](https://avehtari.github.io/rhat_ess/ess_comparison.html)
+-  Documentation for [ess_bulk()](https://mc-stan.org/posterior/reference/ess_bulk.html) and [ess_tail()](https://mc-stan.org/posterior/reference/ess_tail.html) in the `posterior` package.
 
-* Look at change in bulk-ESS when the number of iterations
-  increase. If R-hat is less than 1.01 and bulk-ESS grows linearly
-  with the number of iterations and eventually exceeds the recommended
-  limit, the mixing is sufficient but MCMC has high autocorrelation
-  requiring a large number of iterations
+### Maximum treedepth
+Warnings about hitting the maximum treedepth are not as serious as other warnings. While divergent transitions, high R-hat and low ESS are a _validity_ concern, hitting the maximum treedepth is an _efficiency_ concern. Configuring the No-U-Turn-Sampler (the variant of HMC used by Stan) involves putting a cap on the number of simulation steps it evaluates during each iteration (for details on this see the *Hamiltonian Monte Carlo Sampling* chapter in the [Stan manual](http://mc-stan.org/documentation/)). This is controlled through a  maximum tree depth parameter `max_treedepth` where the maximum number of steps is `2^max_treedepth`. When the maximum allowed tree depth is reached it indicates that NUTS might be terminating prematurely to avoid excessively long execution time.
 
-### Tail ESS
+If this is the only warning you are getting and your ESS and R-hat diagnostics are good, it is likely safe to ignore this warning, but finding the root cause could result in a more efficient model. 
 
-Tail-ESS computes the minimum of the effective sample sizes (ESS) of
-the 5% and 95% quantiles. Tail-ESS can help diagnosing problems due
-to different scales of the chains and slow mixing in the tails. See
-also general information about ESS above in description of bulk-ESS.
+We do _not_ generally recommend increasing max treedepth. In practice, the max treedepth limit being reached can be a sign of model misspecification, and to increase max treedepth can then result in just taking longer to fit a model that you don't want to be fitting.
 
-**Recommendations:**
+### BFMI low
 
-* You might try setting a higher value for the `iter` argument.
-  By default `iter` is $2000$.
+**Example:**
 
-* Look at the `rank` plot to see how the chains differ from each other.
+```
+The E-BFMI 0.2786 is below the nominal threshold of 0.3 which suggests that
+HMC may have trouble exploring the target distribution.
+```
 
-* Look at the local and quantile efficiency plots.
+You may see a warning that says some number of chains had an estimated BFMI that was too low. This implies that the adaptation phase of the Markov chains did not turn out well or the posterior has thick tails that were not well explored in the simulation.  As with other warnings, if the BFMI value is just slightly below the threshold, the posterior is likely good for sanity checks but probably still not good for final inferences.
 
-* Look at change in tail-ESS when the number of iterations
-  increase. If R-hat is less than 1.01 and tail-ESS grows linearly
-  with the number of iterations and eventually exceeds the recommended
-  limit, the mixing is sufficient but MCMC has high autocorrelation
-  requiring a large number of iterations
+A brief technical description of the diagnostic can be found in section 6.1 of [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434) and a thorough account is given in https://arxiv.org/abs/1604.00695.
+
+## Diagnosing and resolving problems
+
+Diagnosing problems is best thought of as a part of larger workflow of model building, testing and critique/evaluation. Building blocks of such workflow are provided in our [Bayesian Workflow](https://arxiv.org/abs/2011.01808) article.
+
+Some approaches that can be helpful for most types of warnings follow. This is not, and can’t be, a definitive guide --- each case is problematic in its own way and there is no single approach that would always work.
+
+If you are using Stan via a package or other higher-level interface such as `rstanarm` or `brms`, your options are more limited, but the general advice below still applies. Additionally you may want to consult the package documentation or the underlying Stan code to get a good understanding on what is happening under the hood.
+
+1. Reduce your model. Find the smallest / least complex model and a (preferably simulated) dataset that shows problems. Only add more complexity after you resolve or at least understand all the issues with the small model. If your model has multiple components (for example, a linear predictor for parameters in an ODE model), build and test small models where each of the components is separate (for example, a separate linear model and separate ODE model with constant parameters). For higher-level interfaces, this usually means removing predictor terms.
+
+   * The [small model implementation workflow](https://hyunjimoon.github.io/SBC/articles/small_model_workflow.html) vignette from the SBC package shows an example of building a larger model from simpler components step-by-step.
+
+2. Reduce your data (if it is big). Diagnosing a model that takes a long time to fit and has many parameters is difficult, so working with a suitable subset of the data can speed the process up. This is however a double-edged sword as some problems can be caused by having not enough data, notably fitting varying slopes/intercepts for less than 3 categories can be problematic if priors are weak.
+
+   * You can often reduce the model and data at the same time - e.g. if your linear model has multiple predictors, you can filter the data to only contain rows with a specific value of a categorical predictor (or narrow range of a continuous predictor) and then remove the predictor from the model.
+
+3. Use stronger priors. Often a computation is slow to converge because it is drifting all over parameter space.  A reasonable prior can control things by reducing the range of operation. Including a reasonable prior will not always solve problems of computation, but often it gets rid of the worst problems.
+
+4. Visualisations: in R some very useful plots are provided by the [ `bayesplot` ](https://mc-stan.org/bayesplot) package (e.g. `mcmc_parcoord`, `mcmc_pairs`, `mcmc_rank_overlay`) and the [`shinystan`](https://mc-stan.org/shinystan) package (which provides an interactive GUI). In Python and Julia the [`ArviZ`](https://arviz-devs.github.io/arviz/) and [`ArviZ.jl`](https://arviz-devs.github.io/ArviZ.jl/) packages provide similar functionality. The most commonly useful visualisation is the pairs plot where well behaved models commonly show a set of "Gaussian blobs" while any other pattern can indicate problems. Further reading:
+   - [bayesplot vignette on diagnostics](https://mc-stan.org/bayesplot/articles/visual-mcmc-diagnostics.html)
+   - [ArviZ example gallery](https://arviz-devs.github.io/arviz/examples/index.html)
+   - [Case study - diagnosing a multilevel model](http://mc-stan.org/users/documentation/case-studies/divergences_and_bias.html)
+   - The [small model implementation workflow](https://hyunjimoon.github.io/SBC/articles/small_model_workflow.html) vignette from the SBC package shows (among other things) how several problems manifest in a `pairs` plot.
+   - [Gabry et al. 2019 - Visualization in Bayesian workflow](https://arxiv.org/pdf/1709.01449.pdf)
+
+5. Make sure all parameters in your model are well informed by the model. Typical problematic situations are when large changes in parameters can result in almost the same posterior density (for example complete separation in a logistic regression) and multimodality (multiple local maxima of the posterior distributions). Further reading:
+   - [Case study - mixture models](http://mc-stan.org/users/documentation/case-studies/identifying_mixture_models.html)
+   - [Identifying non-identifiability](https://www.martinmodrak.cz/2018/05/14/identifying-non-identifiability/) - some informal intuition of the concept and examples of problematic models and how to spot them.
+   - [Underdetermined linear regression](https://betanalpha.github.io/assets/case_studies/underdetermined_linear_regression.html) discusses problems arising when the data cannot inform all parameters.
+   -  https://discourse.mc-stan.org/t/interpretation-of-cor-term-from-multivariate-animal-models/16703/26 has an example where a varying intercept at individual-level is not informed by the data.
+
+6. If computation is very slow in the warmup stage, this can sometimes be fixed by choosing more reasonable initial values rather than using Stan's defaults, which can be so widely dispersed that for models with complex geometries, chains can get stuck in unimportant regions of parameter space.
+
+7. **Specifically for divergences/max treedepth:** 
+   - Check that the log posterior density and its derivatives are everywhere continuous. Numerical instabilities and inaccuracies can also cause the log density or its derivatives to behave discontinuously in practice, even if they are continuous in theory. 
+   - If the model seems "almost OK" or it is very fast to fit, you might be able to resolve the warnings by playing a bit with `adapt_delta` and `stepsize`; [see here for an example](http://singmann.org/hierarchical-mpt-in-stan-i-dealing-with-convergent-transitions-via-control-arguments/). Increasing `adapt_delta` in particular has become common as the go-to first thing people try, and while there are cases where it can be useful, it may also be possible to obtain more efficient sampling with the default `adapt_delta` and modified model, prior or parameterization.  Increasing `adapt_delta`/`max_treedepth` will likely increase the sampling time per iteration. You are more likely to achieve both better sampling performance and a more robust model (not to mention understanding thereof) by pursing the above options and leaving adjustment of `adapt_delta` as a last-resort.  Increasing `adapt_delta` beyond 0.99 and `max_treedepth` beyond 12 is seldom useful. For the purpose of diagnosis, it is sometimes helpful to have _more_ divergences, so reverting to default settings for diagnosis can be useful. Increasing `adapt_delta`/`max_treedepth` is rarely useful to resolve Rhat/ESS/BFMI issues.
+
+8. Create a simulated dataset with known true values of all parameters. If the errors disappear on simulated data and the posterior mostly covers the "true" parameters from the simulation, your model may be a bad fit for the actual observed data. If you are using a higher-level interface, writing code to simulate data is a great way to test whether you understand what the model is actually doing. Further reading:
+
+   * [Falling (In Love With Principled Modeling)](https://betanalpha.github.io/assets/case_studies/falling.html) has examples of using Stan to simulate data.
+   * https://discourse.mc-stan.org/t/failure-to-recover-simulated-group-means-in-cross-classified-lmm-with-monotonic-predictor/12978 shows an R simulation for a complex model and how it helped diagnose a bug.
+   * `brms` can simulate datasets using the `sample_prior = "only"` argument (see the [docs](https://paul-buerkner.github.io/brms/reference/brm.html) for more details).
+
+9. Move parameters to the `data` block and set them to their true values (from simulated data). Then return them one by one to `parameters` block. Which parameter introduces the problems?
+
+10. Using a simulated dataset, introduce tight priors centered at true parameter values (known from the simulation). How tight need the priors to be to let the model fit? Useful for identifying multimodality.
+
+11. Check your code.  Problems are almost as likely a result of a programming error as they are a truly statistical issue.  This is most relevant for exceptions and rejections. 
+
+    * Are all the declared parameters used in the model?
+    * Do all parameters have informative priors? 
+    * Do your array indices and for loops match? 
+    * Do you have correct hard bounds (e.g. standard deviation parameters have `<lower=0>`,  probabilities have `<lower=0, upper=1>`). Don't use hard bounds to express soft prior knowledge as the effects to the shape of the posterior are not trivial.
+    * Check for other errors/warnings in the Stan output (for example `Location parameter is inf, but must be finite!`) and investigate their sources, as they usually hint at coding errors. In `rstan`, those warnings might not get displayed unless you run with `chains = 1`.
+ 
+1. **Specifically for exceptions/rejections:** Help the sampler avoid bounds of the parameter space and numerical inaccuracies. 
+   * Use priors that place less weight on values near the boundary (if that's consistent with domain expertise).
+   * Use numerically stable expressions. This includes always performing calculations on the log-scale when possible and making use of Stan's special composed functions. For example, `log_sum_exp(x)` is more robust numerically than `log(sum(exp(x))`. Other examples like this include `log1m(x)` instead of `log(1-x)`, `log1p_exp(x)` instead of `log(1 + exp(x))`, and many others. See the [_Composed Functions_](https://mc-stan.org/docs/functions-reference/composed-functions.html) subsection of the the Stan functions reference for a complete listing.
+    * Use the `print()` function in your Stan model to display intermediate values in a computation to see where an invalid value originates.
+  
+1. Introduce more informative priors. If your posterior includes values that imply some clearly absurd predictions (e.g. 10m tall humans, almost zero between-subject differences in survival, ...), removing those by a stricter prior might be useful.
+     * When working on the logarithmic scale (e.g. logistic/Poisson regression) even seemingly narrow priors like `normal(0, 1);` can be actually quite wide (this makes an odds ratio/multiplicative effect of `exp(2)` or roughly `7.4` still a-priori plausible - is that consistent with your domain expertise?).
+     * Some (slightly outdated) advice on priors is at https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations 
+     * Half-normal or half-student distribution is usually preferable to half-cauchy for sd parameters in varying intercept/effect models. [Forum discussion](https://discourse.mc-stan.org/t/why-studentt-3-0-1-for-prior/8102),  [Gelman 2006](http://www.stat.columbia.edu/~gelman/research/published/taumain.pdf) 
+     * If you have additional knowledge that would let you defensibly constrain your priors use it. [Identity Crisis](https://betanalpha.github.io/assets/case_studies/identifiability.html)  has some discussion of when this can help. 
+    * Simulating data from the prior (a.k.a _prior predictive check_) is a good way to check if the priors and their interaction are roughly reasonable. [Gabry et al. 2019](https://arxiv.org/abs/1709.01449) has an example.
+      
+6. Compare your priors to the posterior distribution. If the model is sampling heavily in the very tails of your priors or on the boundaries of parameter constraints, this is a bad sign, indicating that your priors might be substantially influencing the sampling. Here, setting wider priors can sometimes help.
+
+7. *Reparametrize* your model. An ideal posterior is close to independent normal distributions in each parameter as those result in constant curvature. Any deviations from this ideal --- sharp corners, edges, cusps, banana shapes, tight correlations or other irregularities signal potential targets for reparametrization.  In default setting, Stan will automatically rescale each parameter by a constant factor during adaptation, so the absolute scale of the posterior is usually not very important. The main part of reparametrization is to change the actual parameters and compute your parameters of interest in the `transformed parameters` block. Further reading:
+   - Stan user's guide [chapter  on reparametrization](https://mc-stan.org/docs/stan-users-guide/reparameterization-section.html).
+   - [Case study - diagnosing a multilevel model](http://mc-stan.org/users/documentation/case-studies/divergences_and_bias.html) discusses *non-centered parametrization* which is frequently useful.
+   - [The case study on hierarchical models](https://betanalpha.github.io/assets/case_studies/hierarchical_modeling.html) by Mike Betancourt goes into more detail on the non-centered parametrization, [Betancourt & Girolami 2015](https://arxiv.org/pdf/1312.0906) addresses the same topic.
+   - [Non-centered parametrization for the exponential distribution](https://discourse.mc-stan.org/t/uncentered-exponential-priors-and-hyperpriors/21224)
+   - Stan users guide chapter [on QR reparametrization for linear models](https://mc-stan.org/docs/stan-users-guide/QR-reparameterization-section.html)
+   - [Identifying non-identifiability - a sigmoid model](https://www.martinmodrak.cz/2018/05/14/identifying-non-identifiability/#a-weakly-identified-sigmoid-model) shows an example of where the parameters are not well informed by data, while https://discourse.mc-stan.org/t/difficulties-with-logistic-population-growth-model/8286/3 show a potential reparametrization. 
+   - [Reparametrizing the Sigmoid Model of Gene Regulation](https://www.biorxiv.org/content/10.1101/352070v1) shows problems and solutions in an ODE model.  
+   - [Multiple parametrizations of a sum-to-zero constraint](https://discourse.mc-stan.org/t/test-soft-vs-hard-sum-to-zero-constrain-choosing-the-right-prior-for-soft-constrain/3884).
+
+1. **Specifically for low BFMI warnings:** 
+   * Look at the `pairs` plot to see which primitive parameters are correlated with the `energy__` margin. 
+   * The primitive parameters that are correlated with the `energy__` margin in the `pairs` plot are a good place to start thinking about reparameterizations. There should be be a negative relationship between `lp__` and `energy__` in the `pairs` plot, but this is not a concern because `lp__` is  the logarithm of the posterior kernel rather than a primitive parameter.
+
+1. **Specifically for Rhat, ESS, low BFMI warnings:** You might try setting a higher number of warmup or sampling iterations. Increasing the number of iterations is rarely helpful for resolving divergences/max treedepth warnings.
+   * Look at change in bulk-ESS and tail-ESS when the number of iterations
+  increase. If R-hat is less than 1.01 and ESS grows linearly with the number of iterations and eventually exceeds the recommended limit, the mixing is sufficient but MCMC has high autocorrelation requiring a large number of iterations.
+
+10. Run the `optimizing` mode (penalized maximum likelihood) instead of sampling (NUTS) to check if the resulting values look at least roughly reasonable, if not try to find out why.
+
+11. Run Stan in diagnose (`test_grad`) mode to test the gradient computations. This can sometimes detect numerical instabilities in your model.
+
+## I got no warnings when fitting the same model in JAGS/WinBUGS/...
+
+You might not be used to seeing so many warnings from other software you use, but that _does not mean_ that Stan has more problems than that other software. The Stan Development Team places a high priority on notifying users about any issue that could potentially be important and Stan will always tell you about problems it encounters instead of hiding them from you. 
+
+A huge advantage of the algorithms used by Stan is that they permit certain unique diagnostics that are unavailable when using other algorithms. This can lead to more warnings from Stan, but this is a _feature_ rather than a drawback. Sometimes when people reimplement a model from some other software in Stan, they get unexpected warnings, and further investigation reveals that the problem is not Stan being too sensitive, but that the original model in fact did not compute the correct posterior.
 
 ## Getting help
 
-Te best place to get help from Stan developers and users if you have
-difficulties fitting a model is to visit the [Stan
-Forums](http://discourse.mc-stan.org/). 
+Te best place to get help from Stan developers and users if you have difficulties fitting a model is to visit the [Stan Forums](http://discourse.mc-stan.org/). 
 
-In order to both reduce the amount of help you need and allow us to give the
-best help when you do need it, it is essential that you follow these
-recommendations:
+In order to both reduce the amount of help you need and allow us to give the best help when you do need it, it is recommended to:
+* Put Stan programs in a stand-alone file with a `.stan` extension. Even though some Stan interfaces allow specifying the model as a string, the line numbers in warning and error messages are only meaningful if you use a separate file.
+* Maintain reproducibility by saving the model and initial values in files and the RStan (other other Stan interface) commands in scripts. 
+* Use version control such as git on your files and scripts so that you have a history of the changes you've made.
+* Start simple! Build your model in stages, and check for good fits at each stage, only adding complexity if there are no red flags. If you start by writing a complicated model it can be more difficult to figure out where things are going wrong.
 
-* Always put Stan programs in a stand-alone file with a `.stan` extension. Even 
-though some Stan interfaces allows specifying the model as a string, the line
-numbers in warning and error messages are only meaningful if you use a separate
-file.
-
-* Maintain reproducibility by saving the model and initial values 
-in files and the RStan (other other Stan interface) commands in scripts. 
-
-* Use version control (e.g. git) on your files and scripts so that you have a 
-history of the changes you've made.
-
-* Start simple! Build your model in stages, and check for good fits at each 
-stage, only adding complexity if there are no red flags. If you start by writing
-a very complicated model it will be much more difficult to figure out where
-things are going wrong.
-
-* Keep an eye on the diagnostics, in particular divergences and Rhat values. For
-RStan users, you will be warned about divergences and you can view Rhats using
-the `print` or `summary` methods for stanfit objects. All important diagnostics
-can also be found in our [ShinyStan](http://mc-stan.org/interfaces/shinystan)
-GUI.
