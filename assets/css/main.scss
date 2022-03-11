@@ -972,7 +972,9 @@ p .btn--aio {
  .location{
    margin: 1em;
    padding: 3px;
+   font-weight: bold;
  }
+
  .demo{
   margin: 1em;
   padding: 3px;
@@ -982,18 +984,19 @@ p .btn--aio {
     justify-content: end;
     padding: 24px;
     font-weight: bold;
+    cursor: pointer;
  }
+
   .pricing{
     margin: 0 1em;
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0.7, 0.7, 0.7, 0.15);
     text-align: center;
-    // display: flex;
-    // flex-direction: column;
 
     @media (min-width: 900px) {
       flex-direction: row;
+   
     }
   }
   .pricing-table {
@@ -1001,7 +1004,7 @@ p .btn--aio {
     padding: 5px;
     display: flex;
     flex-direction: column;
-
+  
     @media (min-width: 900px) {
       flex-direction: row;
     }
@@ -1031,13 +1034,14 @@ p .btn--aio {
         border-bottom: 1px solid #DDD;
       }
     }
+  
   }
   .pricing-tables{
     margin: 0 1em;
     padding: 5px;
     display: flex;
     flex-direction: column;
-
+  
     @media (min-width: 900px) {
       flex-direction: row;
     }
@@ -1068,10 +1072,16 @@ p .btn--aio {
       }
     }
   }
+
   .pricing-plan {
     border-bottom: 1px solid #DDD;
     padding: 25px;
     padding-top: 5em;
+    
+    svg:hover{
+      cursor: pointer;
+      opacity: .7;
+    }
     h2 {
       margin-top: 0;
     }
@@ -1085,6 +1095,7 @@ p .btn--aio {
           margin-right: -100%;
       }
     }
+    
     .pricing-banner {
       display: inline-block;
       position: relative;
@@ -1116,6 +1127,13 @@ p .btn--aio {
     }
   }
 
+ .out  {border-right: none !important;}
+ .in{
+   border-left: 1px solid #DDD !important;
+ }
+.pricing-table .pricing-plan:nth-child(2n){
+  border-right: none;
+}
   @media (min-width: 900px) {
     .pricing-plan {
       border-bottom: none;
@@ -1135,11 +1153,12 @@ p .btn--aio {
           padding-bottom: 19px;
         }
       }
+      .pricing-plan:last-child {
+        border-right: none;
+      }
 
     }
-    .pricing-plan:last-child {
-      border-right: none;
-    }
+    
   }
   .pricing-price {
     margin-top: 0.5em;
