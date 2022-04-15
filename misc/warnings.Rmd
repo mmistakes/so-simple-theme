@@ -47,6 +47,7 @@ For hard problems the curvature of the posterior can vary a lot and there can be
 Even a small number of divergences after warmup cannot be safely ignored if completely reliable inference is desired. But if you get only few divergences and you get good Rhat and ESS values, the resulting posterior is often good enough to move forward. There are also cases when a small number divergences without any pattern in their locations can be verified to be unimportant, but this cannot be safely assumed without a careful investigation of the model.
 
 **Further reading on divergences:**
+
 - [Identity Crisis](https://betanalpha.github.io/assets/case_studies/identifiability.html) - a discussion of the causes of divergences, diagnosis and treatment.
 * [Taming divergences in Stan models](https://www.martinmodrak.cz/2018/02/19/taming-divergences-in-stan-models/) a less mathematical but hopefully more accessible intuition on what divergent transitions are.
 * [A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/abs/1701.02434)
