@@ -67,7 +67,7 @@ implement is available on the interface-specific
 
 If you'd like to join the development team and gain push access
 to the Stan code repository, please let us know by first creating
-a post in the _Project Proposals_ cateogry of the
+a post in the _Project Proposals_ category of the
 [Stan Forums](http://discourse.mc-stan.org/).  Be sure to include
 a brief description of your programming background and details of
 what you'd like to contribute.
