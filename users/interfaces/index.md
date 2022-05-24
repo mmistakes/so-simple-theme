@@ -177,7 +177,7 @@ This highlighting is also the one used by the [pandoc](https://pandoc.org/) tool
   <a href="https://invent.kde.org/frameworks/syntax-highlighting/-/blob/master/data/syntax/stan.xml">(Source code)</a>
   </p>
 
-**Web**
+**Javascript (Web)**
 
 * <p>
   <a href="https://prismjs.com/">Prism: a lightweight, robust, and elegant syntax highlighting library.</a>
