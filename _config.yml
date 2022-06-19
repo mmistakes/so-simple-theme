@@ -18,13 +18,13 @@ theme : "jekyll-theme-hacker"
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Profile"
-description: "It really is the best."
+title: "My Study Record"
+description: "Trust one who has gone through it."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://Jjineeq.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "Seongho Jang" # path of site logo, e.g. "/images/logo.png"
-date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+date_format: "19B 6d, 2022Y"
+read_time: true # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
