@@ -20,12 +20,12 @@ skin: "assets/css/skins/dark.scss"
 locale: en-US
 title: "My Study Record"
 description: "Trust one who has gone through it."
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: test # the subpath of your site, e.g. "/blog"
 url: "https://Jjineeq.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "social_image.jpg" # path of site logo, e.g. "/images/logo.png"
 date_format: "6.19.2022"
 read_time: "true" # reading time estimates, e.g. true
-words_per_minute: # 200
+words_per_minute: 300 # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
