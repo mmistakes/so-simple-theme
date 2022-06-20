@@ -22,7 +22,7 @@ title: "My Study Record"
 description: "Trust one who has gone through it."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://Jjineeq.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "blogging-neon-text-vector-design-template-blog-logo-light-banner-element-colorful-modern-trend-night-bright-advertising-sign-144268595.jpg" # path of site logo, e.g. "/images/logo.png"
+logo: "60736.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "6.19.2022"
 read_time: "true" # reading time estimates, e.g. true
 words_per_minute: # 200
