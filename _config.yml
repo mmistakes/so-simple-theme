@@ -93,7 +93,7 @@ defaults:
 # Site Author
 author:
   name: "Seong ho Jang"
-  picture:
+  picture: "social_image.jpg"
   email: "jangsung0212@gmail.com"
   twitter:
   links:
