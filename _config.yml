@@ -23,7 +23,7 @@ description: "Trust one who has gone through it."
 baseurl: "/"# the subpath of your site, e.g. "/blog"
 url: "https://Jjineeq.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "60736.png" # path of site logo, e.g. "/images/logo.png"
-date_format: "6.19.2022"
+date_format: "%d-%m-%Y"
 read_time: "true" # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax:
@@ -36,10 +36,10 @@ google_fonts:
   - name: / "Lora"
     weights: / "400,400i,700,700i"
 google_analytics: / # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-disqus: /
-  shortname: / # Disqus shortname, e.g. "my_disqus_shortname"
-twitter: /
-  username: / # site's Twitter username, e.g. "mmistakes"
+disqus: 
+  shortname:  # Disqus shortname, e.g. "my_disqus_shortname"
+twitter: 
+  username:  # site's Twitter username, e.g. "mmistakes"
 
 # Liquid
 liquid:
@@ -95,11 +95,11 @@ author:
   name: "Seong ho Jang"
   picture: "social_image.jpg"
   email: "jangsung0212@gmail.com"
-  twitter: /
-  links: / 
-    - title: /
-      url: /
-      icon: /
+  twitter: 
+  links: 
+    - title: 
+      url: 
+      icon: 
 
 # Footer Links
 footer_links:
