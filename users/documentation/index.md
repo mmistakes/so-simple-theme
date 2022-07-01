@@ -22,7 +22,7 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan User's Guide 2.30](/docs/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.30 pdf](/docs/stan-users-guide-2_30.pdf)
+* [Stan User's Guide 2.30 pdf](/docs/2_30/stan-users-guide-2_30.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -36,7 +36,7 @@ This manual applies to all Stan interfaces.
 <span class="note">&nbsp; &nbsp; (html)</span>
 
 
-* [Stan Language Reference Manual 2.30 pdf](/docs/reference-manual-2_30.pdf)
+* [Stan Language Reference Manual 2.30 pdf](/docs/2_30/reference-manual-2_30.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Functions Reference
@@ -63,7 +63,7 @@ by the Stan project is hosted at
 * [CmdStan User's Guide 2.30](/docs/cmdstan-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [CmdStan User's Guide 2.30 pdf](/docs/cmdstan-guide-2_30.pdf)
+* [CmdStan User's Guide 2.30 pdf](/docs/2_30/cmdstan-guide-2_30.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # CmdStanR, CmdStanPy Documentation 

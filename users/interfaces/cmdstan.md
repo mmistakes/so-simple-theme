@@ -33,7 +33,7 @@ CmdStan User’s Guide
 * [CmdStan User's Guide 2.30](/docs/cmdstan-guide/index.html)
   <span class="note">(html)</span>
 
-* [CmdStan User's Guide 2.30](/docs/cmdstan-guide-2_30.pdf)
+* [CmdStan User's Guide 2.30](/docs/2_30/cmdstan-guide-2_30.pdf)
   <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 Stan's modeling language documentation is platform independent.
