@@ -28,6 +28,34 @@ versions noted and seeds fixed)</span> and
 for code, Creative Commons for text)</span>; authors retain all copyright.
 
 
+# *Stan Case Studies*, &nbsp; Volume 9 &nbsp; (2022)
+
+<hr style="margin:0.25em 0 0.25em 0;"/>
+<hr style="margin:0 0 2em 0;"/>
+
+## HoloML in Stan: Low-photon Image Reconstruction
+<small> In this case study, we perform image reconstruction in Stan by implementing the HoloML phase retrieval model and then solving the inverse problem with optimization. This case study requires Stan 2.30 or greater in order to use the Fourier transform functions added in that version. </small>
+
+[View](case-studies/HoloML_in_Stan.html) <span
+class="note">(HTML)</span>
+
+Authors
+: Brian Ward, Bob Carpenter, and David Barmherzig
+
+Keywords
+: image reconstruction, phase retrieval, Fourier transforms, deconvolution
+
+Source Repository
+: [WardBrian/holoml-in-stan](https://github.com/WardBrian/holoml-in-stan)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%"> cmdstanpy, numpy, matplotlib, scipy, jupyter </tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
 
 # *Stan Case Studies*, &nbsp; Volume 8 &nbsp; (2021)
 
@@ -52,7 +80,6 @@ Source Repository
 
 Dependencies
 : <tt style="font-size: 90%"> label.switching, rstan, magrittr, knitr, poLCA </tt>
->>>>>>> origin/master
 
 License
 :  BSD (3 clause), CC-BY
@@ -81,7 +108,6 @@ Source Repository
 
 Dependencies
 : <tt style="font-size: 90%"> CmdStanR, posterior, ggplot2, dplyr, plyr, tidyr, boot, latex2exp </tt>
->>>>>>> origin/master
 
 License
 :  BSD (3 clause), CC-BY
@@ -183,11 +209,11 @@ License
 ## Bayesian Workflow for disease transmission modeling in Stan
 
 <small>
-This tutorial shows how to build, fit, and criticize disease transmission models in Stan, and should be useful to researchers interested in modeling the COVID-19 outbreak and doing Bayesian inference. 
-Bayesian modeling provides a principled way to quantify uncertainty and incorporate prior knowledge into the model. 
-What is more, Stan's main inference engine, Hamiltonian Monte Carlo sampling, is amiable to diagnostics, which means we can verify whether our inference is reliable. 
-Stan is an expressive probabilistic programing language that abstracts the inference and allows users to focus on the modeling. The resulting code is readable and easily extensible, which makes the modeler's work more transparent and flexible. 
-In this tutorial, we demonstrate with a simple Susceptible-Infected-Recovered (SIR) model how to formulate, fit, and diagnose a compartmental model in Stan. 
+This tutorial shows how to build, fit, and criticize disease transmission models in Stan, and should be useful to researchers interested in modeling the COVID-19 outbreak and doing Bayesian inference.
+Bayesian modeling provides a principled way to quantify uncertainty and incorporate prior knowledge into the model.
+What is more, Stan's main inference engine, Hamiltonian Monte Carlo sampling, is amiable to diagnostics, which means we can verify whether our inference is reliable.
+Stan is an expressive probabilistic programing language that abstracts the inference and allows users to focus on the modeling. The resulting code is readable and easily extensible, which makes the modeler's work more transparent and flexible.
+In this tutorial, we demonstrate with a simple Susceptible-Infected-Recovered (SIR) model how to formulate, fit, and diagnose a compartmental model in Stan.
 We also introduce more advanced topics which can help practitioners fit sophisticated models; notably, how to use simulations to probe our model and our priors, and computational techniques to scale ODE-based models.
 </small>
 
@@ -244,7 +270,7 @@ License
 model and data so that anyone with a modern web browser and a Google account
 can run your analysis with Google Colaboratory free cloud servers.  It shows
 you how to quickly set up a Stan installation in the cloud and introduces
-two lightweight interfaces: 
+two lightweight interfaces:
 [CmdStanR](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) and
 [CmdStanPy](https://cmdstanpy.readthedocs.io/en/latest/index.html).</small>
 
@@ -291,11 +317,11 @@ Source Repository
 : [example-models/education/causal_rct](https://github.com/stan-dev/example-models/tree/master/education/causal_rct)
 
 R Package Dependencies
-: <tt style="font-size: 90%">rstan</tt>, 
-<tt style="font-size: 90%">rstanarm</tt>, 
-<tt style="font-size: 90%">bayesplot</tt>, 
-<tt style="font-size: 90%">tidyverse</tt>, 
-<tt style="font-size: 90%">gridExtra</tt>, 
+: <tt style="font-size: 90%">rstan</tt>,
+<tt style="font-size: 90%">rstanarm</tt>,
+<tt style="font-size: 90%">bayesplot</tt>,
+<tt style="font-size: 90%">tidyverse</tt>,
+<tt style="font-size: 90%">gridExtra</tt>,
 <tt style="font-size: 90%">Matching</tt>
 
 License
