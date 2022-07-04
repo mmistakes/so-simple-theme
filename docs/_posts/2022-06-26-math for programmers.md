@@ -283,7 +283,8 @@ plt.show()
 
 
     
-![png](output_29_1.png)
+![output_29_1](https://user-images.githubusercontent.com/100830660/177185317-fd2a85eb-0540-47a9-af53-7074b3b3ccf3.png)
+
     
 
 
@@ -570,7 +571,8 @@ draw(Polygon(*vectors, color='green'))
 
 
     
-![png](output_38_0.png)
+![output_38_0](https://user-images.githubusercontent.com/100830660/177185385-b66b7acf-580f-4c18-aece-f8c9ce9fed92.png)
+
     
 
 
