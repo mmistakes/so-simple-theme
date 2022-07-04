@@ -59,7 +59,7 @@ draw(
 ```
 
 
-![png](/image/2022-06-24-image/output_3_0.png)
+![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/9eaef810fa7cfd1b69ab2cdff27848c563ade520/_image/2022-06-24-image/output_3_0.png)
     
 
 
