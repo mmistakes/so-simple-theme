@@ -22,29 +22,6 @@ from matplotlib.pyplot import xlim, ylim
 ```
 
 
-```python
-%load_ext autoreload
-%autoreload 2
-from vector_drawing import *
-```
-
-    The autoreload extension is already loaded. To reload it, use:
-      %reload_ext autoreload
-    
-
-
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-31-a4c880a6e2f1> in <module>
-          1 get_ipython().run_line_magic('load_ext', 'autoreload')
-          2 get_ipython().run_line_magic('autoreload', '2')
-    ----> 3 from vector_drawing import *
-    
-
-    ModuleNotFoundError: No module named 'vector_drawing'
-
 
 
 ```python
@@ -59,7 +36,7 @@ draw(
 ```
 
 
-![image](https://github.com/Jjineeq/Jjineeq.github.io/blob/9eaef810fa7cfd1b69ab2cdff27848c563ade520/_image/2022-06-24-image/output_3_0.png)
+![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/9eaef810fa7cfd1b69ab2cdff27848c563ade520/_image/2022-06-24-image/output_3_0.png)
     
 
 
