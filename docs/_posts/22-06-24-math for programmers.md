@@ -50,7 +50,8 @@ draw(
 
 
     
-![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_4_0.png)
+![output_4_0](https://user-images.githubusercontent.com/100830660/177184588-eeeaf9b8-7e4d-4145-8285-cd0e1c1aa934.png)
+
     
 
 
@@ -64,7 +65,8 @@ draw(
 
 
     
-![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_5_0.png)
+![output_5_0](https://user-images.githubusercontent.com/100830660/177184713-c720292a-d1b7-471c-a57f-760e94d962d3.png)
+
     
 
 
@@ -230,7 +232,7 @@ draw(
 
 
     
-![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_20_1.png)
+![output_20_1](https://user-images.githubusercontent.com/100830660/177184764-17bba05c-a283-47fb-8351-195865edbaa6.png)
     
 
 
