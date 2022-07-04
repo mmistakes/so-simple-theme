@@ -1,9 +1,9 @@
 ---
-title: math for programers
+title: 2차원 벡토로 그림 그리기
 date: 2022-06-24
 categories:
-- jekyll
-- blog
+- Chapter 2
+- 2차원 벡터
 ---
 
 
