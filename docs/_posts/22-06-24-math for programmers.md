@@ -50,8 +50,7 @@ draw(
 ```
 
 
-    
-! /image/2022-06-24-image/output_3_0.png(output_3_0.png)
+image : /image/2022-06-24-image/output_3_0.png(output_3_0.png)
     
 
 
