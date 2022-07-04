@@ -1,3 +1,12 @@
+---
+title: math for programers
+date: 2022-06-24
+categories:
+- jekyll
+- blog
+---
+
+
 ```python
 from math import sqrt, pi, ceil, floor
 import matplotlib
@@ -50,7 +59,7 @@ draw(
 ```
 
 
-image: /image/2022-06-24-image/output_3_0.png
+![png](/image/2022-06-24-image/output_3_0.png)
     
 
 
