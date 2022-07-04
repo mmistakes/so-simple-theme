@@ -36,7 +36,7 @@ draw(
 ```
 
 
-![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/9eaef810fa7cfd1b69ab2cdff27848c563ade520/_image/2022-06-24-image/output_3_0.png)
+![output_3_0](https://user-images.githubusercontent.com/100830660/177180162-a48b0393-a8bf-40a4-9993-d2ac6babad00.png)
     
 
 
