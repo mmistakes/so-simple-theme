@@ -203,7 +203,7 @@ draw(
 
 
     
-![png](output_3_0.png)
+![output_3_0](https://user-images.githubusercontent.com/100830660/177185637-740c0062-ddf6-4435-a428-5be7297ebf67.png)
     
 
 
@@ -223,7 +223,7 @@ draw(
 
 
     
-![png](output_5_0.png)
+![output_5_0](https://user-images.githubusercontent.com/100830660/177185671-5227ae9c-0e7c-4ba2-a3e6-c8a2150616b2.png)
     
 
 
@@ -243,7 +243,7 @@ draw(Polygon(*new_dino,color='green'))
 
 
     
-![png](output_9_0.png)
+![output_9_0](https://user-images.githubusercontent.com/100830660/177185696-eae621f4-7a9a-40b7-8528-4e367c2e42c2.png)
     
 
 
@@ -272,7 +272,8 @@ draw(Polygon(*regular_polygon(7),color='red'))
 
 
     
-![png](output_12_0.png)
+![output_12_0](https://user-images.githubusercontent.com/100830660/177185731-5b1e0c54-33b0-4894-ba5c-bbd67c8b6eac.png)
+
     
 
 
@@ -298,7 +299,7 @@ draw(
 
 
     
-![png](output_14_0.png)
+![output_14_0](https://user-images.githubusercontent.com/100830660/177185761-c0a5eef6-8214-476c-8aa4-286104c2f2c9.png)
     
 
 
