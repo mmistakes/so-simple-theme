@@ -1,3 +1,13 @@
+---
+title: Chapter2 평면벡터 산술
+date: 2022-06-26
+categories:
+- Chapter 2
+- 평면벡터 산술
+---
+
+
+
 ```python
 from math import tan
 tan(45)
