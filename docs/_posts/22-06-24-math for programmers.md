@@ -50,7 +50,7 @@ draw(
 
 
     
-![png](output_4_0.png)
+![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_4_0.png)
     
 
 
@@ -64,7 +64,7 @@ draw(
 
 
     
-![png](output_5_0.png)
+![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_5_0.png)
     
 
 
@@ -230,7 +230,7 @@ draw(
 
 
     
-![png](output_20_1.png)
+![png](https://github.com/Jjineeq/Jjineeq.github.io/blob/bdb1c615fb66f24d3788899a8bd17eb9639dce36/_image/2022-06-24-image/output_20_1.png)
     
 
 
