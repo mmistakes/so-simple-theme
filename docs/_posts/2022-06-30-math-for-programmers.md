@@ -4,7 +4,6 @@ date: 2022-06-30
 categories:
 - Chapter 2
 - 벡터 결합
-- 
 ---
 
 ```python
