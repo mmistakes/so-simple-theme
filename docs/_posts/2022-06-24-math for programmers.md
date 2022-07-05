@@ -1,5 +1,5 @@
 ---
-title: Chapter2 2차원 벡로 그림 그리기
+title: Chapter2 2차원 벡터로 그림 그리기
 date: 2022-06-24
 categories:
 - Chapter 2
