@@ -46,6 +46,9 @@ twitter:
 liquid:
   error_mode: strict
 
+kramdown:
+  input: GFM
+
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
@@ -60,7 +63,7 @@ paginate_path: /page:num/
 search_full_content: true # can have performance implications for large sites
 
 #Taxonomy pages 
-category_archive_path: "/docs/category/"
+category_archive_path: "/docs/category/#"
 tag_archive_path: "/tags/#"
 
 # Exclude from processing.
