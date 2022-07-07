@@ -1,9 +1,8 @@
 ---
-title: math for programers
+title: Chapter2 2차원 벡터로 그림 그리기
 date: 2022-06-24
 categories:
-- jekyll
-- blog
+- Chapter 2
 ---
 
 
@@ -22,29 +21,6 @@ from matplotlib.pyplot import xlim, ylim
 ```
 
 
-```python
-%load_ext autoreload
-%autoreload 2
-from vector_drawing import *
-```
-
-    The autoreload extension is already loaded. To reload it, use:
-      %reload_ext autoreload
-    
-
-
-    ---------------------------------------------------------------------------
-
-    ModuleNotFoundError                       Traceback (most recent call last)
-
-    <ipython-input-31-a4c880a6e2f1> in <module>
-          1 get_ipython().run_line_magic('load_ext', 'autoreload')
-          2 get_ipython().run_line_magic('autoreload', '2')
-    ----> 3 from vector_drawing import *
-    
-
-    ModuleNotFoundError: No module named 'vector_drawing'
-
 
 
 ```python
@@ -59,7 +35,7 @@ draw(
 ```
 
 
-![image](https://github.com/Jjineeq/Jjineeq.github.io/blob/9eaef810fa7cfd1b69ab2cdff27848c563ade520/_image/2022-06-24-image/output_3_0.png)
+![output_3_0](https://user-images.githubusercontent.com/100830660/177180162-a48b0393-a8bf-40a4-9993-d2ac6babad00.png)
     
 
 
@@ -73,7 +49,8 @@ draw(
 
 
     
-![png](output_4_0.png)
+![output_4_0](https://user-images.githubusercontent.com/100830660/177184588-eeeaf9b8-7e4d-4145-8285-cd0e1c1aa934.png)
+
     
 
 
@@ -87,7 +64,8 @@ draw(
 
 
     
-![png](output_5_0.png)
+![output_5_0](https://user-images.githubusercontent.com/100830660/177184713-c720292a-d1b7-471c-a57f-760e94d962d3.png)
+
     
 
 
@@ -253,7 +231,7 @@ draw(
 
 
     
-![png](output_20_1.png)
+![output_20_1](https://user-images.githubusercontent.com/100830660/177184764-17bba05c-a283-47fb-8351-195865edbaa6.png)
     
 
 

@@ -13,23 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-gem : "jekyll-theme-so-simple"
+# gem : "jekyll-theme-so-simple"
+# theme : "jekyll-theme-hacker"
 theme : "jekyll-theme-hacker"
 # remote_theme: mmistakes/so-simple-theme
 skin: "assets/css/skins/dark.scss"
-locale: en-US
+locale: ko-KR
 title: "My Study Record"
 description: "Trust one who has gone through it."
-baseurl: "/"# the subpath of your site, e.g. "/blog"
+baseurl:  # the subpath of your site, e.g. "/blog"
 url: "https://Jjineeq.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "60736.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%d-%m-%Y"
 read_time: "true" # reading time estimates, e.g. true
-words_per_minute: # 200
+words_per_minute: 180 # 200
 mathjax:
   enable: # MathJax equations, e.g. true, false (default)
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  # "none", "ams" (default), "all"
+  tags: # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
@@ -45,6 +46,9 @@ twitter:
 liquid:
   error_mode: strict
 
+kramdown:
+  input: GFM
+
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
@@ -52,15 +56,15 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+#Taxonomy pages 
+category_archive_path: "/docs/category/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
