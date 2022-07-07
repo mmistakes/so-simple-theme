@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # gem : "jekyll-theme-so-simple"
-theme : "jekyll-theme-hacker"
+# theme : "jekyll-theme-hacker"
+theme : jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "assets/css/skins/dark.scss"
 locale: ko-KR
