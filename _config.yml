@@ -32,7 +32,7 @@ mathjax:
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags: # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Nanum Pen Script"
+  - name: "Public Sans"
     weights: "400,400i,700,700i"
   - name: "Nanum Pen Script"
     weights: "400,400i,700,700i"
