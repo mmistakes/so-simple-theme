@@ -36,6 +36,8 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
+  - name: "Nanum Pen Script"
+    weights: "400,400i,700,700i"
 google_analytics: / # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus: 
   shortname:  # Disqus shortname, e.g. "my_disqus_shortname"
