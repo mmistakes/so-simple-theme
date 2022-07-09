@@ -3,7 +3,6 @@ title: Chapter2 벡터 집합 변환하기
 date: 2022-06-30
 categories:
 - Chapter 2
-- 벡터 결합
 ---
 
 ```python
