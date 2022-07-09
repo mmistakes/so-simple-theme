@@ -17,7 +17,7 @@
 # theme : "jekyll-theme-hacker"
 theme : "jekyll-theme-hacker"
 # remote_theme: mmistakes/so-simple-theme
-skin: "assets/css/skins/dark.scss"
+skin: "/assets/css/skins/dark.css"
 locale: ko-KR
 title: "My Study Record"
 description: "Trust one who has gone through it."
