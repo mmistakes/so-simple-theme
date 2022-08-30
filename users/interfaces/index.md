@@ -22,7 +22,7 @@ through interfaces into many popular computing environments.
 
 * [PyStan](pystan.html)
   <span class="note">(Python)</span>
-  
+
 * [CmdStan](cmdstan.html)
   <span class="note">(shell, command-line terminal)</span>
 
@@ -119,21 +119,22 @@ The loo package provides efficient leave-one-out cross-validation and WAIC calcu
 
 # Stan Language Syntax Aware Editors
 
-RStudio now recognizes `.stan` files and provides syntax highlighting,
+**RStudio** now recognizes `.stan` files and provides syntax highlighting,
 formatting, and checking.
 
 * <p>
   <a href="https://resources.rstudio.com/rstudio-blog/rstudio-1-2-preview-stan">RStudio 1.2 Stan</a>
+  <a href="https://github.com/rstudio/rstudio/blob/main/src/gwt/acesupport/acemode/stan_highlight_rules.js">(Source code)</a>
   <span class="note">(R)</span>
   </p>
 
-Emacs
+**Emacs**
 
 * <p>
   <a href="https://github.com/stan-dev/stan-mode">Emacs mode for Stan</a>
   </p>
 
-There are several Vim plugins that offer syntax highlighting and support for
+**Vim** has several plugins that offer syntax highlighting and support for
 Stan.
 
 * <p>
@@ -143,3 +144,56 @@ Stan.
   <a href="https://github.com/maverickg/stan.vim">stan.vim: Vim syntax highlighting for Stan</a>
   </p>
 
+**VSCode**
+
+* <p>
+  <a href="https://github.com/ivan-bocharov/stan-vscode">Stan language support for Visual Studio Code</a>
+  </p>
+
+**Atom** has a language definition plugin for Stan, which also provides the
+highlighting seen on GitHub.
+
+* <p>
+  <a href="https://github.com/stan-dev/atom-language-stan">Stan language support in Atom</a>
+  </p>
+
+**Sublime Text**
+
+* <p>
+  <a href="https://github.com/djsutherland/sublime-stan">Stan Syntax Package for Sublime Text</a>
+  </p>
+
+**Jupyter Lab**
+
+* <p>
+  <a href="https://www.npmjs.com/package/jupyterlab-stan-highlight">Jupyterlab extension to highlight Stan syntax.</a>
+  </p>
+
+**Kate Editor**
+
+This highlighting is also the one used by the [pandoc](https://pandoc.org/) tool used by RMarkdown.
+* <p>
+  <a href="https://kate-editor.org/">Kate: Kate is a Feature-Packed Text Editor.</a>
+  <a href="https://invent.kde.org/frameworks/syntax-highlighting/-/blob/master/data/syntax/stan.xml">(Source code)</a>
+  </p>
+
+**Javascript (Web)**
+
+* <p>
+  <a href="https://prismjs.com/">Prism: a lightweight, robust, and elegant syntax highlighting library.</a>
+  <a href="https://github.com/PrismJS/prism/blob/master/components/prism-stan.js">(Source code)</a>
+  </p>
+* <p>
+  <a href="https://github.com/highlightjs/highlight.js">Highlight.js: a syntax highlighter written in JavaScript</a>
+  <a href="https://github.com/highlightjs/highlight.js/blob/main/src/languages/stan.js">(Source code)</a>
+  </p>
+
+**Other**
+
+* <p>
+  <a href="https://github.com/jrnold/lstbayes">lstbayes: LaTeX Listings language drivers for BUGS, JAGS, and Stan</a>
+  </p>
+* <p>
+  <a href="https://pygments.org/">Pygments: a generic syntax highlighter</a>
+  <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/modeling.py">(Source code)</a>
+  </p>
