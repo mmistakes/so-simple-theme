@@ -33,6 +33,36 @@ for code, Creative Commons for text)</span>; authors retain all copyright.
 <hr style="margin:0.25em 0 0.25em 0;"/>
 <hr style="margin:0 0 2em 0;"/>
 
+##  Multilevel regression modeling with CmdStanPy and plotnine
+<small> This notebook is a short introduction to multilevel regression modeling
+using the [CmdStanPy](https://mc-stan.org/cmdstanpy/) interface and
+[plotnine](https://plotnine.readthedocs.io/en/stable/), a Python implementation
+of a [_grammar of graphics_](https://vita.had.co.nz/papers/layered-grammar.pdf)
+based on [ggplot2](https://en.wikipedia.org/wiki/Ggplot2).
+
+
+[View](case-studies/radon_cmdstanpy_plotnine.html) <span
+class="note">(HTML)</span>
+
+Authors
+: Mitzi Morris
+
+Keywords
+: Python, CmdStanPy, plotnine, hierarchical/multilevel modeling,
+linear regression, posterior predictive checks, radon
+
+Source Repository
+: [example-models/jupyter/radon](https://github.com/stan-dev/example-models/tree/master/jupyter/radon)
+<span class="note">(GitHub)</span>
+
+Dependencies
+: <tt style="font-size: 90%"> cmdstanpy, numpy, pandas, matplotlib, plotnine, jupyter </tt>
+
+License
+:  BSD (3 clause), CC-BY
+
+
+
 ## HoloML in Stan: Low-photon Image Reconstruction
 <small> In this case study, we perform image reconstruction in Stan by implementing the HoloML phase retrieval model and then solving the inverse problem with optimization. This case study requires Stan 2.30 or greater in order to use the Fourier transform functions added in that version. </small>
 
