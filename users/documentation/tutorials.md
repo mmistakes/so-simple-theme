@@ -146,7 +146,7 @@ class="note"> (YouTube)</span>
   &amp; Hall/CRC Press.
 
 * Richard McElreath (2020) [<i>Statistical Rethinking
-A Bayesian Course with Examples in R and STAN, Second Edition
+A Bayesian Course with Examples in R and Stan, Second Edition
 </i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
   &amp; Hall/CRC Press.  <br /> free online: Chapters 1 and 2; code
   examples; video tutorials (follow title link above)
