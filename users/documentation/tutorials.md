@@ -41,8 +41,8 @@ learn to use Stan
 ## Courses
 
 * <a class="external"
-  href="https://youtu.be/oy7Ks3YfbDg?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc">Statistical
-  Rethinking Fall 2017</a> <span class="note"> (YouTube)</span>
+  href="https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN">Statistical
+  Rethinking 2022</a> <span class="note"> (YouTube)</span>
   <br />Richard McElreath.
 
 * <a class = "external"
@@ -145,10 +145,10 @@ class="note"> (YouTube)</span>
   Edition</i>](http://www.maths.bath.ac.uk/~jjf23/ELM/index.html). Chapman
   &amp; Hall/CRC Press.
 
-* Richard McElreath (2016) [<i>Statistical Rethinking: A Bayesian
-  Course with Examples in R and
-  Stan</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
-  &amp; Hall/CRC Press.  <br /> free online: Chapters 1 and 12; code
+* Richard McElreath (2020) [<i>Statistical Rethinking
+A Bayesian Course with Examples in R and STAN, Second Edition
+</i>](http://xcelab.net/rm/statistical-rethinking/). Chapman
+  &amp; Hall/CRC Press.  <br /> free online: Chapters 1 and 2; code
   examples; video tutorials (follow title link above)
 
 * Fränzi Korner-Nievergelt, Tobias Roth, Stefanie von Felten, Jérôme
