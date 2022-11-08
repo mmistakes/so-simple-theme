@@ -56,7 +56,7 @@ image:
 - 9/26/2018.
 	- Motion: Motion to turn down proposal for "Developing Stan's GP Library."
 	- Result: Passed. 7-2.
-	- Note: We need to set up the Techincal Working Group to handle this type of request.
+	- Note: We need to set up the Technical Working Group to handle this type of request.
 
 - 10/10/2018.
 	- Motion: Move to authorize the TWG to spend $50k within a year (by 10/10/2019) with the expectation that the TWG reports how it's spent via email to the SGB.
