@@ -59,3 +59,6 @@ Stan](/support/).
 <center style="padding: 0.75em 0 0 0">
 <a href="http://numfocus.org"><img width="200" src="images/numfocus.png" /></a>
 </center>
+
+
+<a rel="me" href="https://bayes.club/@mcmc_stan">Follow us on Mastodon!</a>
