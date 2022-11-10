@@ -281,7 +281,7 @@ Location
 Details
 : [View](https://www.eventbrite.com/e/learn-bayes-mcmc-and-stan-with-andrew-gelman-jonah-gabry-vince-dorie-tickets-25554757969)
 
-## Surival Models with Stan
+## Survival Models with Stan
 
 Instructors
 : Jacki Buros
