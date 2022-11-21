@@ -22,7 +22,7 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan User's Guide 2.30](/docs/stan-users-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan User's Guide 2.30 pdf](/docs/2_30/stan-users-guide-2_30.pdf)
+* [Stan User's Guide 2.30 pdf](/docs/2_31/stan-users-guide-2_31.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Reference Manual
@@ -36,7 +36,7 @@ This manual applies to all Stan interfaces.
 <span class="note">&nbsp; &nbsp; (html)</span>
 
 
-* [Stan Language Reference Manual 2.30 pdf](/docs/2_30/reference-manual-2_30.pdf)
+* [Stan Language Reference Manual 2.30 pdf](/docs/2_31/reference-manual-2_31.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Language Functions Reference
@@ -48,7 +48,7 @@ For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
 * [Stan Language Functions Reference 2.30](/docs/functions-reference/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [Stan Language Functions Reference 2.30 pdf](/docs/2_30/functions-reference-2_30.pdf)
+* [Stan Language Functions Reference 2.30 pdf](/docs/2_31/functions-reference-2_31.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
 # Stan Software Development Lifecycle
@@ -58,29 +58,29 @@ by the Stan project is hosted at
 
 * [Stan Software Development Lifecycle](/docs/sdlc.html)
 
-# CmdStan Documentation
+# CmdStan Documentation 
 
 * [CmdStan User's Guide 2.30](/docs/cmdstan-guide/index.html)
 <span class="note">&nbsp; &nbsp; (html)</span>
 
-* [CmdStan User's Guide 2.30 pdf](/docs/2_30/cmdstan-guide-2_30.pdf)
+* [CmdStan User's Guide 2.30 pdf](/docs/2_31/cmdstan-guide-2_31.pdf)
 <span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
 
-# CmdStanR, CmdStanPy Documentation
+# CmdStanR, CmdStanPy Documentation 
 
 CmdStanPy and CmdStanR provide access to the latest version of Stan,
-or earlier versions, as specified.
+or earlier versions, as specified. 
 They use minimal memory beyond what is used by CmdStan itself to
 run and record an analysis, therefore they can be used to fit
 more complex models and/or large datasets.
 
 
-*  [CmdStanR Vignettes, tutorials, and other package information](/cmdstanr)
-*  [CmdStanPy documentation](/cmdstanpy)
+*  [CmdStanR Vignettes, tutorials, and other package information](/cmdstanr) 
+*  [CmdStanPy documentation](/cmdstanpy) 
 
 # RStan Documentation
 
-*  [RStan Vignettes, tutorials, and other package information](/rstan)
+*  [RStan Vignettes, tutorials, and other package information](/rstan) 
 
 # PyStan Documentation
 
@@ -133,11 +133,11 @@ out on the Stan forums.
   <a href="https://epidemiology-stan.github.io/">Stan for Epidemiology</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
-
+  
 * <p>
   <a href="https://cognitive-science-stan.github.io/">Stan for Cognitive Science</a>
   &nbsp; <span class="note">(GitHub)</span>
-  </p>
+  </p>  
 
 # The Stan Forums
 
