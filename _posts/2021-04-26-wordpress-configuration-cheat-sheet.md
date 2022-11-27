@@ -10,7 +10,7 @@ image:
 comments: true
 ---
 
-> Original post were located by https://blog.ripstech.com/2018/wordpress-configuration-cheat-sheet/ url.
+> Original post was located by https://blog.ripstech.com/2018/wordpress-configuration-cheat-sheet/ url.
 
 WordPress is the most frequently installed web application in the world. The system is operated not only by experienced developers but also by beginners. This post summarizes what to look out for when configuring your WordPress installation’s security.
 
@@ -135,4 +135,4 @@ define( 'DISALLOW_FILE_MODS', true );
 ```
 
 
-Our cheat sheet lists the 10 most important configurations. Many of these settings are set correctly by default when installing WordPress while others can be changed to harden your security. Note that not all of the suggested settings for a secure configuration might be suitable for your application, depending on its environment and development stage. With the help of static analysis tools, these and other settings can also be checked automatically.
+The cheat sheet lists the 10 most important configurations. Many of these settings are set correctly by default when installing WordPress while others can be changed to harden your security. Note that not all of the suggested settings for a secure configuration might be suitable for your application, depending on its environment and development stage. With the help of static analysis tools, these and other settings can also be checked automatically.
