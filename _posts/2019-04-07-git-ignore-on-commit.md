@@ -3,7 +3,7 @@ title: Git Ignore-On-Commit
 layout: post
 excerpt: "Ignore files which are already versioned."
 last_modified_at: 2019-04-07 22:05:04
-categories: articles
+categories: notes
 tags: [git]
 image:
   feature: git.png

@@ -3,7 +3,7 @@ layout: post
 title: Cursor-based Pagination
 excerpt: "The easy way to build cursor-based pagination in the application."
 last_modified_at: 2022-11-27 14:17:42
-categories: articles
+categories: notes
 tags: [sql, configuration, development]
 image:
   feature: wordpress.png

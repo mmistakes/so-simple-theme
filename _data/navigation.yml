@@ -3,14 +3,11 @@
 - title: About
   url: /about/
 
-- title: Articles
-  url: /articles/
+- title: Notes
+  url: /notes/
 
 - title: Blog
   url: /blog/
 
 - title: Tags
   url: /tags/
-
-- title: Search
-  url: /search/

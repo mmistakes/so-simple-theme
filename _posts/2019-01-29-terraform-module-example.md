@@ -3,14 +3,14 @@ title: Terraform Module Example
 layout: post
 excerpt: "Alternative way to create re-usable and distributable application infrastructure with Terraform."
 last_modified_at: 2019-02-14 10:40:18
-categories: articles
+categories: notes
 tags: [deployment, terraform, wordpress]
 image:
   feature: terraform-modules.png
 comments: true
 ---
 
-> In addition to [the previous article](/articles/how-to-deploy-applications-to-digitalocean-with-terraform/) I would also like to write about [Terraform&nbsp;Modules](https://www.terraform.io/docs/modules/index.html) as a way to boilerplate common deployment tasks.
+> In addition to [the previous article](/notes/how-to-deploy-applications-to-digitalocean-with-terraform/) I would also like to write about [Terraform&nbsp;Modules](https://www.terraform.io/docs/modules/index.html) as a way to boilerplate common deployment tasks.
 
 *Let's make a module to quickly deploy WordPress website with DigitalOcean provider.*
 

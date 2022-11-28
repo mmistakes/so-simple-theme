@@ -3,7 +3,7 @@ title: How to deploy applications to DigitalOcean with Terraform
 layout: post
 excerpt: "Create super fast and easy repeatable way to deploy various applications and servers from scratch."
 last_modified_at: 2019-01-28 23:00:13
-categories: articles
+categories: notes
 tags: [deployment, digitalocean, terraform]
 image:
   feature: digitalocean-terraform.png

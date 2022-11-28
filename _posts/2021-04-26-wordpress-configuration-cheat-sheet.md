@@ -3,7 +3,7 @@ layout: post
 title: WordPress Configuration Cheatsheet
 excerpt: "Short configuration checklist for the WordPress application."
 last_modified_at: 2021-04-26 22:11:36
-categories: articles
+categories: notes
 tags: [wordpress, https, security, configuration]
 image:
   feature: wordpress.png
