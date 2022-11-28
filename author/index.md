@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Sergey Kuzmich
 tags: [about, resume, cv, bio]
 excerpt: Hi, my name is Sergey and I'm a web-developer.
 last_modified_at: 2019-09-26 13:34:28
@@ -82,7 +82,7 @@ php developer \| *September 2014 ... April 2016*
 * Developed a number of features and extensions;
 * Extended & improved Shopify integration;
 
-##### Kreativ-Laboratory 82 #####
+##### Creative Lab 82 #####
 full-stack developer \| *February 2014 ... July 2014*
 
 * Migrated websites to new internal CMS & the other open-source CMS like WordPress & Drupal;
@@ -94,7 +94,7 @@ full-stack developer \| *May 2013 ... January 2014*
 * Developed a number of of API systems for mobile application;
 * Built a custom boxed CMS solution for corporate website easy to deploy and manage;
 
-##### Kreativ-Laboratory 82 #####
+##### Creative Lab 82 #####
 full-stack developer \| *February 2011 ... March 2013*
 
 * Developed a number of small and medium size corporate websites using different CMS;

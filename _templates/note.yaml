@@ -3,7 +3,7 @@
 layout: post
 title: ${1:post}
 excerpt: "$2"
-categories: articles
+categories: note
 tags: [$3]
 image:
   feature: $4
