@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cursor-based Pagination
+title: Cursor Way of Pagination
 excerpt: "The easy way to build cursor-based pagination in the application."
 last_modified_at: 2022-11-27 14:17:42
 categories: notes
