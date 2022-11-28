@@ -18,29 +18,7 @@ The idea of cursor-based pagination is moving between "next" & "previous" pages 
 
 The developers who integrates with this type of pagination also doesn't have "pages" in API, but has a "cursor" to the next or previous page. It looks like:
 
-```json
-{
-    "data": [
-        {
-            "ID": "dc4a8926-4ca5-42d7-920a-4f0de5024619",
-            "...": "..."
-        },
-        {
-            "ID": "2a4f316a-3fb4-4ae9-864f-38a34e50b1d5",
-            "...": "..."
-        },
-        {
-            "ID": "a7436831-4db7-40f2-9b37-d1962e5e56d0",
-            "...": "..."
-        },
-        {
-            "...": "..."
-        },
-    ],
-    "previous": "https://awesome.example/posts?before=dc4a8926-4ca5-42d7-920a-4f0de5024619",
-    "next": "https://awesome.example/posts?after=..."
-}
-```
+{% gist 60ba05b97448c9595434cb35ea4afb84 %}
 
 ## Implementation
 
@@ -67,18 +45,10 @@ The table **news** will look the next way.
 Since *datetime* is not unique, but *ID* is, we need to create a single directional list of items using it.
 
 The database index will help to chain items by those files.
-```sql
-CREATE INDEX idx_datetime_uid ON news (datetime, uid);
-```
+{% gist 5b4936232c1d8cae5f3c39f57376df2a %}
 
 Now query to get the next page will be:
-```sql
-SELECT uid, title, content, datetime
-    FROM news
-    WHERE (datetime, uid) < ((SELECT datetime FROM news WHERE uid = :uid), :uid)
-    ORDER BY (datetime, uid) DESC
-    LIMIT :per_page;
-```
+{% gist 22652f6ed9e4b05b009bc63d35d101a2 %}
 
 Links to previous & next pages could be provided by API as a part of response, but also the application which uses API could build it on its own according the latest response.
 
