@@ -53,12 +53,6 @@ Now query to get the next page will be:
 Links to previous & next pages could be provided by API as a part of response, but also the application which uses API could build it on its own according the latest response.
 
 Getting previous page a little bit different:
-```sql
-SELECT uid, title, content, datetime
-    FROM news
-    WHERE (datetime, uid) > ((SELECT datetime FROM news WHERE uid = :uid), :uid)
-    ORDER BY (datetime, uid) ASC
-    LIMIT :per_page;
-```
+{% gist 7f075577b3bb06524f7bdcc5409771b0 %}
 
 So we change the order, but then reverse items before sending it as a response.
