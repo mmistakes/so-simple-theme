@@ -3,7 +3,7 @@ layout: page
 title: Sergey Kuzmich
 tags: [about, resume, cv, bio]
 excerpt: Hi, my name is Sergey and I'm a web-developer.
-last_modified_at: 2019-09-26 13:34:28
+last_modified_at: 2022-11-28 16:46:01
 image:
   feature: about-featured-image.png
 ---
@@ -30,13 +30,13 @@ I love [Docker](/tags/#docker), just love. If there any chance to apply it to he
 ## Skills <span>📚</span> ##
 
 #### Languages ####
-* [PHP](/tags/#php), JavaScript, HTML/CSS (HTML5/CSS3), ActionScript 3
+* [PHP](/tags/#php), JavaScript, Python, HTML/CSS (HTML5/CSS3), ActionScript 3
 
 #### Frameworks & Libraries ####
-* Laravel (Lumen), Slim, [WordPress](/tags/#wordpress), React, ReactNative, jQuery, Bootstrap
+* Laravel (Lumen), Slim, [WordPress](/tags/#wordpress), React, Vue, ReactNative, Flask, Django, jQuery, Bootstrap
 
 #### Other ####
-* Unix, Git, Vagrant, [Docker](/tags/#docker), Forge, Envoy, [Terraform](/tags/#terraform), [Travis CI](/tags/#travis-ci)
+* Unix, Git, [Docker](/tags/#docker), Forge, Envoy, [Terraform](/tags/#terraform), [Travis CI](/tags/#travis-ci), Vagrant
 * User Interfaces and User Experience
 * Software Architecture
 
@@ -45,7 +45,21 @@ I love [Docker](/tags/#docker), just love. If there any chance to apply it to he
 ## Experience <span>💻</span> ##
 
 ##### Remedy Point Solutions, Inc. #####
-director of engineering \| *September 2017 ... present*
+chief quality officier \| *October 2022 ... present*
+
+* Setting up on quality gate development, tracking, etc;
+* Onboarding technical/project leads process;
+* Guiding technical interviewers team;
+
+##### Remedy Point Solutions, Inc. #####
+director of architecture \| *September 2020 ... October 2022*
+
+* Developed architecture boilerplates & expectations for the company;
+* Created automation gate for the projects with CI/CD;
+* Setup code quality tools & KPI's to track per project;
+
+##### Remedy Point Solutions, Inc. #####
+director of engineering \| *September 2017 ... September 2020*
 
 * Developed the architecture for a number of products;
 * Automated the processes of code build, code review & code delivery;
