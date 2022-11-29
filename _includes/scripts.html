@@ -7,20 +7,14 @@
 
 {% unless jekyll.environment == 'development' %}
   {% if site.owner.google.analytics %}
-    <!-- Asynchronous Google Analytics snippet -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.owner.google.analytics }}"></script>
     <script>
-      var _gaq = _gaq || [];
-      var pluginUrl =
-     'https://www.google-analytics.com/plugins/ga/inpage_linkid.js';
-      _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-      _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
-      _gaq.push(['_trackPageview']);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = 'https://stats.g.doubleclick.net/dc.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+      gtag('config', '{{ site.owner.google.analytics }}');
     </script>
   {% endif %}
 {% endunless %}
