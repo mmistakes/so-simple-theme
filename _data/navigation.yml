@@ -2,10 +2,10 @@
 
 - title: Home
   url: /
-# - title: Posts
-#   url: /posts/
-# - title: Categories
-#   url: /categories/
+- title: Blog
+  url: "https://medium.com/@jeffs7tao"
+- title: Contact
+  url: /contact/
 # - title: Tags
 #   url: /tags/
 # - title: Recipes
