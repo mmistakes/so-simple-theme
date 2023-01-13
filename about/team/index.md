@@ -18,7 +18,7 @@ volunteer developers.
 <h1>Core Developers <span style="font-size:0.6em" class="note">(in order of joining)</span></h1>
 
 
-<ul style="columns:2">
+<ul style="columns:1">
 {% for member in site.data.developers %}
 
   <div style="clear:both">
