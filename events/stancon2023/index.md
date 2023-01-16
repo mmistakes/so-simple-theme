@@ -74,13 +74,15 @@ Coming soon.
 # [Registration fees](#fees)
 ## Early bird (Till March 31, 2023)
 ### Conference only
+
 | Student | Academic | Industry |
-|---------|----------|----------|
+| ------- | -------- | -------- |
 |$199      |$299      |$449     |
 
 ### Tutorial & workshop + Conference
+
 | Student | Academic | Industry |
-|---------|----------|----------|
+| ------- | -------- | -------- |
 |$299      |$449      |$649     |
 
 ## Regular admission (After March 31, 2023)
