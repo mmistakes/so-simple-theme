@@ -17,6 +17,7 @@ StanCon 2023 will be held in Washington University in St. Louis, on June 20-23. 
 ------
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
+- [**Invited speakers**](#speakers)
 - [**Tutorials**](#tutorials)
 - [**Schedules**](#schedules)
 - [**Registration fees**](#fees)
@@ -35,16 +36,19 @@ StanCon 2023 will be held in Washington University in St. Louis, on June 20-23. 
 
 </ul>
 
+# [Invited speakers](#speakers)
+**Bob Carpenter** (Flatiron institute)
+
 # [Tutorials](#tutorials)
 
-**Ordinary differential equation (ODE) models in Stan** Instructors Daniel Lee.
-
+**Ordinary differential equation (ODE) models in Stan**
+**Instructor:** Daniel Lee.
 **Synopsis:** coming soon.
 
 More tutorials and workshops coming soon.
 
 # [Sponsors](#sponsors)
-We would like to thank our sponsors who both support conference costs but scholarships andStan as a whole.
+We would like to thank our sponsors who both support conference costs, scholarships, and Stan as a whole. If you’re interested in sponsoring StanCon, please email [stancon@mc-stan.org](mailto:stancon@mc-stan.org).
 
 <!-- <center style="padding: 0.75em 0 0 0"> -->
 <!-- <span style="display:inline-block; width: 0.75em;"> -->
@@ -75,19 +79,15 @@ Coming soon.
 ## Early bird (Till March 31, 2023)
 ### Conference only
 
-| Student | Academic | Industry |
-| ------- | -------- | -------- |
-| $199    | $299     | $449     |
+$199(student)/$299(academic)/$449(industry)
 
 ### Tutorial & workshop + Conference
 
-| Student | Academic | Industry |
-| ------- | -------- | -------- |
-| $299    | $449     | $649     |
+$299(student)/$449(academic)/$599(industry)
 
 ## Regular admission (After March 31, 2023)
 Coming soon.
 
 # [Contact](#contact)
 
-Email stancon@mc-stan.org
+[stancon@mc-stan.org](mailto:stancon@mc-stan.org)
