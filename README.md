@@ -459,10 +459,10 @@ If you don't want to display comments for a particular post you can disable them
 
 ### Google Analytics
 
-To enable [**Google Analytics**](https://analytics.google.com/analytics/web/), add your tracking ID to `_config.yml` like so:
+To enable [**Google Analytics**](https://analytics.google.com/analytics/web/), add your Measurement ID to `_config.yml` like so:
 
 ```yaml
-google_analytics: UA-NNNNNNNN-N
+google_analytics: G-NNNNNNNNNN
 ```
 
 Similar to Disqus comments above, the Google Analytics tracking script will only appear in production when using the following environment value: `JEKYLL_ENV=production`.

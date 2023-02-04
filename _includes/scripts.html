@@ -13,6 +13,7 @@
   <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
 {%- endif -%}
 
+<!-- "Old" Tracking ID with Google Analytics 3
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
   <script>
   if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -25,7 +26,7 @@
   }
   </script>
 {%- endif %}
-
+-->
 {% if site.mathjax == true or site.mathjax.enable == true %}
 <!-- MathJax -->
 {% capture mathjaxjs %}https://cdn.jsdelivr.net/npm/mathjax@3/es5/{{ site.mathjax.combo | default: "tex-svg" }}.js{% endcapture %}
