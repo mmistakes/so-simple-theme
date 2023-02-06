@@ -8,10 +8,6 @@ image:
   credit:
   creditlink:
 ---
-
-June 20-23, 2023      &emsp; &bull; &emsp; Washington University in St. Louis, USA
-{: style="font-size: 150%; text-align: center;"}
-
 <center style="padding: 0.75em 0 0 0">
 <img width="600" src="./img/header.png" /><br>
 </center>
