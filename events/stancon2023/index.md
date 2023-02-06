@@ -20,6 +20,8 @@ image:
 - [**Schedules**](#schedules)
 - [**Registration fees**](#fees)
 - [**Contact**](#contact)
+- [**Organizers**](#organizers)
+
 
 ------
 
@@ -42,12 +44,12 @@ image:
 **Mariel Finucane** (Mathematica Policy Research)
 
 # [Tutorials](#tutorials)
-### Introduction to Bayesian hierarchical modeling using Stan and brms**
+### Introduction to Bayesian hierarchical modeling using Stan and brms
 **Instructor:** Mitzi Morris, Mike Lawrence
 
 **Synopsis:** coming soon.
 
-### Ordinary differential equation (ODE) models in Stan**
+### Ordinary differential equation (ODE) models in Stan
 **Instructor:** Daniel Lee.
 
 **Synopsis:** coming soon.
@@ -98,3 +100,11 @@ Coming soon.
 # [Contact](#contact)
 
 [stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org)
+
+
+# [Organizers](#organizers)
+- Charles Margossian (Flatiron Institute)
+- Debashis Mondal (Washington University in St. Louis)
+- Eric Ward (NOAA & University of Washington)
+- Vianey Leos Barajas (University of Toronto) 
+- Yi Zhang (Sage Therapeutics, Inc)
