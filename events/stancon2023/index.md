@@ -12,6 +12,8 @@ image:
 <img width="600" src="./img/header.png" /><br>
 </center>
 
+<a href="https://buytickets.at/standevelopmentteam/835500/r/stancon2023" title="Buy tickets for StanCon 2023"><img src="https://app.tickettailor.com/images/btns/bt_re.gif" alt="Buy tickets for StanCon 2023" /></a>
+
 ------
 - [**Sponsors**](#sponsors)
 - [**Dates**](#dates)
