@@ -9,10 +9,12 @@ image:
   creditlink:
 ---
 
-StanCon 2023 will be held in Washington University in St. Louis, on June 20-23. Two days of tutorials followed by two days of talks, open discussions, and statistical modeling. Registration open soon.
-{: style="font-size: 150%; text-align: left;"}
+June 20-23, 2023      &emsp; &bull; &emsp; Washington University in St. Louis, USA
+{: style="font-size: 150%; text-align: center;"}
 
-<img src="https://wustl.edu/wp-content/uploads/2014/08/danforth-campus-aerial.jpg">
+<center style="padding: 0.75em 0 0 0">
+<img width="600" src="./img/header.png" /><br>
+</center>
 
 ------
 - [**Sponsors**](#sponsors)
@@ -39,16 +41,25 @@ StanCon 2023 will be held in Washington University in St. Louis, on June 20-23. 
 # [Invited speakers](#speakers)
 **Bob Carpenter** (Flatiron institute)
 
-# [Tutorials](#tutorials)
+**John Kruschke** (Indiana University)
 
-**Ordinary differential equation (ODE) models in Stan**
-**Instructor:** Daniel Lee.
+**Mariel Finucane** (Mathematica Policy Research)
+
+# [Tutorials](#tutorials)
+### Introduction to Bayesian hierarchical modeling using Stan and brms**
+**Instructor:** Mitzi Morris, Mike Lawrence
+
 **Synopsis:** coming soon.
 
-More tutorials and workshops coming soon.
+### Ordinary differential equation (ODE) models in Stan**
+**Instructor:** Daniel Lee.
+
+**Synopsis:** coming soon.
+
+More tutorials coming soon.
 
 # [Sponsors](#sponsors)
-We would like to thank our sponsors who both support conference costs, scholarships, and Stan as a whole. If you’re interested in sponsoring StanCon, please email [stancon@mc-stan.org](mailto:stancon@mc-stan.org).
+We would like to thank our sponsors who both support conference costs, scholarships, and Stan as a whole. If you’re interested in sponsoring StanCon, please email [stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org).
 
 <!-- <center style="padding: 0.75em 0 0 0"> -->
 <!-- <span style="display:inline-block; width: 0.75em;"> -->
@@ -79,15 +90,15 @@ Coming soon.
 ## Early bird (Till March 31, 2023)
 ### Conference only
 
-$199(student)/$299(academic)/$449(industry)
+$199(student) | $299(academic) | $449(industry)
 
 ### Tutorial & workshop + Conference
 
-$299(student)/$449(academic)/$599(industry)
+$299(student) | $449(academic) | $599(industry)
 
 ## Regular admission (After March 31, 2023)
 Coming soon.
 
 # [Contact](#contact)
 
-[stancon@mc-stan.org](mailto:stancon@mc-stan.org)
+[stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org)
