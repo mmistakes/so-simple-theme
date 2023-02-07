@@ -9,34 +9,21 @@ image:
   creditlink:
 ---
 <center style="padding: 0.75em 0 0 0">
-<img width="600" src="./img/header.png" /><br>
+<img width="700" src="./img/header.png" /><br>
 </center>
 
-<a href="https://buytickets.at/standevelopmentteam/835500/r/stancon2023" title="Buy tickets for StanCon 2023"><img src="https://app.tickettailor.com/images/btns/bt_re.gif" alt="Buy tickets for StanCon 2023" /></a>
+<a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
 
 ------
 - [**Sponsors**](#sponsors)
-- [**Dates**](#dates)
 - [**Invited speakers**](#speakers)
 - [**Tutorials**](#tutorials)
 - [**Schedules**](#schedules)
-- [**Registration fees**](#fees)
-- [**Contact**](#contact)
+- [**Registration**](#registration)
 - [**Organizers**](#organizers)
 
 
 ------
-
-# [Dates](#dates)
-<ul>
-<li>Tutorials: June 20-21, 2023</li>
-
-<li>Conference: June 22-23, 2023</li>
-
-<li> Conference Dinner: June 22, 2023</li>
-
-
-</ul>
 
 # [Invited speakers](#speakers)
 **Bob Carpenter** (Flatiron institute)
@@ -84,9 +71,21 @@ We would like to thank our sponsors who both support conference costs, scholarsh
 <!-- </center> -->
 
 # [Schedules](#schedules)
-Coming soon.
+<ul>
+<li>Tutorials: June 20-21, 2023</li>
 
-# [Registration fees](#fees)
+<li>Conference: June 22-23, 2023</li>
+
+<li> Conference Dinner: June 22, 2023</li>
+
+
+</ul>
+More details soon.
+
+# [Registration](#registration)
+
+<a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
+
 ## Early bird (Till March 31, 2023)
 ### Conference only
 
@@ -101,7 +100,7 @@ Coming soon.
 
 # [Contact](#contact)
 
-[stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org)
+
 
 
 # [Organizers](#organizers)
@@ -110,3 +109,5 @@ Coming soon.
 - Eric Ward (NOAA & University of Washington)
 - Vianey Leos Barajas (University of Toronto) 
 - Yi Zhang (Sage Therapeutics, Inc)
+
+Contact us at [stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org).
