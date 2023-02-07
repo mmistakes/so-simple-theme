@@ -9,7 +9,7 @@ image:
   creditlink:
 ---
 <center style="padding: 0.75em 0 0 0">
-<img width="700" src="./img/header.png" /><br>
+<img width="700" src="./img/banner.png" /><br>
 </center>
 
 <a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
