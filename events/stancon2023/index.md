@@ -16,13 +16,12 @@ image:
 
 ------
 - [**Sponsors**](#sponsors)
-- [**Invited speakers**](#speakers)
+- [**Invited speakers**](#invited-speakers)
 - [**Tutorials**](#tutorials)
-- [**Call for proposals**](#call)
+- [**Call for proposals**](#call-for-proposals)
 - [**Schedules**](#schedules)
 - [**Registration**](#registration)
 - [**Organizers**](#organizers)
-- [**Code of conduct**](#conduct)
 
 ------
 
@@ -30,6 +29,8 @@ Stan (http://mc-stan.org) is a probabilistic programming and statistical modelin
 
 If you have questions regarding registration, payments, travel, please email
 [stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org).
+
+StanCon participants are expected to abide by the [Stan code of conduct](https://discourse.mc-stan.org/t/announcing-our-new-stan-code-of-conduct/23764).
 
 ------
 
@@ -149,19 +150,9 @@ $199(student) | $299(academic) | $449(industry)
 
 $299(student) | $449(academic) | $599(industry)
 
-
-
 # [Organizers](#organizers)
 - Charles Margossian (Flatiron Institute)
 - Debashis Mondal (Washington University in St. Louis)
 - Eric Ward (NOAA & University of Washington)
 - Vianey Leos Barajas (University of Toronto) 
 - Yi Zhang (Sage Therapeutics, Inc)
-
-Contact us at 
-
-# [Code of conduct](#conduct)
-
-Participants are expected to abide by the [Stan code of conduct](https://discourse.mc-stan.org/t/announcing-our-new-stan-code-of-conduct/23764).
-
-
