@@ -38,14 +38,11 @@ image:
 ### Introduction to Bayesian hierarchical modeling using Stan and brms
 **Instructor:** Mitzi Morris, Mike Lawrence
 
-**Synopsis:** coming soon.
 
 ### Ordinary differential equation (ODE) models in Stan
 **Instructor:** Daniel Lee.
 
-**Synopsis:** coming soon.
-
-More tutorials coming soon.
+### ....
 
 # [Call for proposals](#call)
 
@@ -66,13 +63,13 @@ Keep in mind that StanCon brings together a diverse audience. Material which foc
 
 Talks are 15 minutes long, with an additional 5 minutes dedicated to questions.
 
-To submit a proposal for a contributed talk, submit a form via https://forms.gle/4fbNbd4p32MFPR219 by March 15th.
+To submit a proposal for a contributed talk, submit a form via https://forms.gle/4fbNbd4p32MFPR219 by March 31st.
 
 ## [Call for thematic sessions](#call-sessions)
 
 Thematic sessions are an opportunity to dive deeper into a topic and comprise three talks (15 + 5 minutes each), with an additional 10 minutes which can be used for a panel discussion. Thematic sessions may be run in parallel.
 
-To submit a proposal for a contributed talk, submit a form via https://forms.gle/HcfZPS3jMb8HGqsY8 by March 15th.
+To submit a proposal for a contributed talk, submit a form via https://forms.gle/HcfZPS3jMb8HGqsY8 by March 31st.
 
 ## [Call for posters](#call-posters)
 
@@ -84,7 +81,7 @@ If the poster summarizes work presented in a longer document (e.g. a paper, a do
 
 An example poster from StanCon 2018 can be found [here](https://www.metrumrg.com/wp-content/uploads/2018/09/stan_pde_poster.pdf).
 
-To submit an abstract, submit a form via https://forms.gle/rm2a6KFfhXJ5CyL67 by March 22nd.
+To submit an abstract, submit a form via https://forms.gle/rm2a6KFfhXJ5CyL67. We accept poster submission on a rolling basis.
 
 ## [Call for tutorials](#call-tutorials)
 
@@ -92,7 +89,7 @@ Tutorials are an opportunity to do an in-depth exploration of a particular topic
 
 Tutorials may comprise a single session of 2 or 3 hours (half-a-day) or two sessions of 2 or 3 hours each (full day).
 
-To submit a proposal for a tutorial, submit a form via https://forms.gle/tgGmaSrQM7yTmHMA7 by March 15th.
+To submit a proposal for a tutorial, submit a form via https://forms.gle/tgGmaSrQM7yTmHMA7 by March 31st.
 
 
 # [Sponsors](#sponsors)
@@ -130,13 +127,14 @@ We would like to thank our sponsors who both support conference costs, scholarsh
 
 
 </ul>
-More details soon.
+Details coming soon.
 
 # [Registration](#registration)
 
 <a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
 
-## Early bird (Till March 31, 2023)
+Early bird price till March 31, 2023!
+
 ### Conference only
 
 $199(student) | $299(academic) | $449(industry)
@@ -144,9 +142,6 @@ $199(student) | $299(academic) | $449(industry)
 ### Tutorial & workshop + Conference
 
 $299(student) | $449(academic) | $599(industry)
-
-## Regular admission (After March 31, 2023)
-Coming soon.
 
 
 
