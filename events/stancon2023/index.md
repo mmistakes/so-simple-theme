@@ -41,6 +41,8 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 
 **Mariel Finucane** (Mathematica Policy Research)
 
+**Siddhartha Chib** (Washington University in St. Louis)
+
 # [Tutorials](#tutorials)
 ### Introduction to Bayesian hierarchical modeling using Stan and brms
 **Instructor:** Mitzi Morris, Mike Lawrence
