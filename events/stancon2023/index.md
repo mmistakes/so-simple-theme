@@ -24,6 +24,12 @@ image:
 - [**Organizers**](#organizers)
 - [**Code of conduct**](#conduct)
 
+------
+
+Stan (http://mc-stan.org) is a probabilistic programming and statistical modeling language used by tens of thousands of scientists, engineers, and other researchers for statistical modeling, data analysis, and prediction. It is being applied academically and commercially across fields as diverse as ecology, pharmacometrics, physics, political science, finance and econometrics, professional sports, real estate, publishing, recommender systems, and educational testing.
+
+If you have questions regarding registration, payments, travel, please email
+[stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org).
 
 ------
 
@@ -152,7 +158,7 @@ $299(student) | $449(academic) | $599(industry)
 - Vianey Leos Barajas (University of Toronto) 
 - Yi Zhang (Sage Therapeutics, Inc)
 
-Contact us at [stancon2023@mc-stan.org](mailto:stancon2023@mc-stan.org).
+Contact us at 
 
 # [Code of conduct](#conduct)
 
