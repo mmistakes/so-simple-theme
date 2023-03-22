@@ -51,6 +51,11 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 ### Ordinary differential equation (ODE) models in Stan
 **Instructor:** Daniel Lee.
 
+### Cognitive diagnostic models in R and Stan ([tutorial summary](img/dcm-tutorial-description.pdf))
+**Instructor:** W. Jake Thompson, PhD (Assistant Director of Psychometrics | ATLAS | University of Kansas). 
+
+
+
 ### ....
 
 # [Call for proposals](#call)
