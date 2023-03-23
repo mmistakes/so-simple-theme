@@ -191,7 +191,7 @@ Details coming soon.
 
 <a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
 
-Early bird price till March 31, 2023!
+Early bird window extended till April 30, 2023! Registration fees cover lunch, coffee & refreshment breaks, icebreaker reception (June 21 PM), and conference dinner.
 
 ### Conference only
 
