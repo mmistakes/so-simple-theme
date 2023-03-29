@@ -47,7 +47,7 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 # [Tutorials](#tutorials)
 
 
-- Introduction to Bayesian hierarchical modeling using Stan and brms
+- Introduction to Bayesian hierarchical modeling using Stan and brms\
 **Instructor:** Mitzi Morris (Columbia University) and Mike Lawrence
 
 - Ordinary differential equation (ODE) models in Stan
