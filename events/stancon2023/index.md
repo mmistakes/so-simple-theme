@@ -45,14 +45,15 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 **Siddhartha Chib** (Washington University in St. Louis)
 
 # [Tutorials](#tutorials)
-### Introduction to Bayesian hierarchical modeling using Stan and brms
-**Instructor:** Mitzi Morris, Mike Lawrence
 
 
-### Ordinary differential equation (ODE) models in Stan
+- Introduction to Bayesian hierarchical modeling using Stan and brms
+**Instructor:** Mitzi Morris (Columbia University) and Mike Lawrence
+
+- Ordinary differential equation (ODE) models in Stan
 **Instructor:** Daniel Lee.
 
-### Cognitive diagnostic models in R and Stan
+- Cognitive diagnostic models in R and Stan
 **Instructor:** W. Jake Thompson, PhD (Assistant Director of Psychometrics | ATLAS | University of Kansas). See tutorial summary [here](img/dcm-tutorial-description.pdf).
 
 ### ....
@@ -61,14 +62,14 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 ### Access Stan models from your favorite language with BridgeStan
 Edward A. Roualdes (CSU, Chico)
 
-Abstract: BridgeStan provides efficient in-memory access to the methods of Stan models through Python, Julia, and R. This allows algorithm
+**Abstract**: BridgeStan provides efficient in-memory access to the methods of Stan models through Python, Julia, and R. This allows algorithm
 development in these languages with the efficiency and xpressiveness of Stan models. Importantly, methods for og-density, gradient, and Hessian evaluations as well as
 constraining and unconstraining transforms are exposed from an nderlying Stan model, with zero to minimal additional memory llocations.  Furthermore, these features are exposed through a anguage-agnostic C API, allowing foreign function interfaces in ther languages with minimal additional development.
 
 ### Using Stan for Bayesian Discrete Choice Models: A Healthcare Case Study
 Srinivas Kowta
 
-Abstract: This paper compares a traditional logit model vs. a Bayesian model using Stan in the R eco-system as applied to a discrete choice dataset in the healthcare arena. Additionally comparison is conducted on a sub-segment where two of the choice attributes may present multi-collinearity challenges in determining the best drivers of the brand chosen.
+**Abstract**: This paper compares a traditional logit model vs. a Bayesian model using Stan in the R eco-system as applied to a discrete choice dataset in the healthcare arena. Additionally comparison is conducted on a sub-segment where two of the choice attributes may present multi-collinearity challenges in determining the best drivers of the brand chosen.
 
 ### Bayesian pipelines with stantargets
 Will Landau (Eli Lilly)
@@ -117,17 +118,19 @@ We are interested in a broad range of topics relevant to the Stan community, inc
 
 Keep in mind that StanCon brings together a diverse audience. Material which focuses on an application should introduce the problem to non-field experts; theoretical insights should be linked to problems modelers are working on, etc.
 
+_We review proposals on a rolling basis and can often make decisions before the submission deadline. Accepted talks will progressively get added to the schedule._
+
 ## [Call for contributed talks](#call-talks)
 
 Talks are 15 minutes long, with an additional 5 minutes dedicated to questions.
 
-To submit a proposal for a contributed talk, submit a [form](https://forms.gle/4fbNbd4p32MFPR219) by **March 31st**.
+To submit a proposal for a contributed talk, submit a [form](https://forms.gle/4fbNbd4p32MFPR219) by **April 30th**.
 
 ## [Call for thematic sessions](#call-sessions)
 
 Thematic sessions are an opportunity to dive deeper into a topic and comprise three talks (15 + 5 minutes each), with an additional 10 minutes which can be used for a panel discussion. Thematic sessions may be run in parallel.
 
-To submit a proposal for a contributed talk, submit a [form](https://forms.gle/HcfZPS3jMb8HGqsY8) by **March 31st**.
+To submit a proposal for a contributed talk, submit a [form](https://forms.gle/HcfZPS3jMb8HGqsY8) by **April 30th**.
 
 ## [Call for posters](#call-posters)
 
@@ -147,7 +150,7 @@ Tutorials are an opportunity to do an in-depth exploration of a particular topic
 
 Tutorials may comprise a single session of 2 or 3 hours (half-a-day) or two sessions of 2 or 3 hours each (full day).
 
-To submit a proposal for a tutorial, submit a [form](https://forms.gle/tgGmaSrQM7yTmHMA7) by **March 31st**.
+To submit a proposal for a tutorial, submit a [form](https://forms.gle/tgGmaSrQM7yTmHMA7) by **April 30th**.
 
 
 # [Sponsors](#sponsors)
@@ -192,6 +195,8 @@ Details coming soon.
 <a href="https://buytickets.at/standevelopmentteam/835500" title="Buy tickets for StanCon 2023">Buy tickets for StanCon 2023</a>
 
 Early bird window extended till April 30, 2023! Registration fees cover lunch, coffee & refreshment breaks, icebreaker reception (June 21 PM), and conference dinner.
+
+_Information about scholarships will be posted soon._
 
 ### Conference only
 
