@@ -47,24 +47,26 @@ StanCon participants are expected to abide by the [Stan code of conduct](https:/
 # [Tutorials](#tutorials)
 
 
-- Introduction to Bayesian hierarchical modeling using Stan and brms\
+**Introduction to Bayesian hierarchical modeling using Stan and brms**\
 **Instructor:** Mitzi Morris (Columbia University) and Mike Lawrence
 
-- Ordinary differential equation (ODE) models in Stan
+**Ordinary differential equation (ODE) models in Stan**\
 **Instructor:** Daniel Lee.
 
-- Cognitive diagnostic models in R and Stan
+**Cognitive diagnostic models in R and Stan**\
 **Instructor:** W. Jake Thompson, PhD (Assistant Director of Psychometrics | ATLAS | University of Kansas). See tutorial summary [here](img/dcm-tutorial-description.pdf).
 
 ### ....
 
 # [Talks](#talks)
-### Access Stan models from your favorite language with BridgeStan
+**Access Stan models from your favorite language with BridgeStan**\
 Edward A. Roualdes (CSU, Chico)
 
 **Abstract**: BridgeStan provides efficient in-memory access to the methods of Stan models through Python, Julia, and R. This allows algorithm
 development in these languages with the efficiency and xpressiveness of Stan models. Importantly, methods for og-density, gradient, and Hessian evaluations as well as
 constraining and unconstraining transforms are exposed from an nderlying Stan model, with zero to minimal additional memory llocations.  Furthermore, these features are exposed through a anguage-agnostic C API, allowing foreign function interfaces in ther languages with minimal additional development.
+
+\ \
 
 ### Using Stan for Bayesian Discrete Choice Models: A Healthcare Case Study
 Srinivas Kowta
