@@ -64,9 +64,9 @@ Edward A. Roualdes (CSU, Chico)
 
 **Abstract**: BridgeStan provides efficient in-memory access to the methods of Stan models through Python, Julia, and R. This allows algorithm
 development in these languages with the efficiency and xpressiveness of Stan models. Importantly, methods for og-density, gradient, and Hessian evaluations as well as
-constraining and unconstraining transforms are exposed from an nderlying Stan model, with zero to minimal additional memory llocations.  Furthermore, these features are exposed through a anguage-agnostic C API, allowing foreign function interfaces in ther languages with minimal additional development.\
+constraining and unconstraining transforms are exposed from an nderlying Stan model, with zero to minimal additional memory llocations.  Furthermore, these features are exposed through a anguage-agnostic C API, allowing foreign function interfaces in ther languages with minimal additional development.
 
-### Using Stan for Bayesian Discrete Choice Models: A Healthcare Case Study
+\ **Using Stan for Bayesian Discrete Choice Models: A Healthcare Case Study**\
 Srinivas Kowta
 
 **Abstract**: This paper compares a traditional logit model vs. a Bayesian model using Stan in the R eco-system as applied to a discrete choice dataset in the healthcare arena. Additionally comparison is conducted on a sub-segment where two of the choice attributes may present multi-collinearity challenges in determining the best drivers of the brand chosen.
