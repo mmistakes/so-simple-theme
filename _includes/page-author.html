@@ -2,6 +2,10 @@
 {%- assign author = site.data.authors[author] | default: author -%}
 
 <div class="page-author h-card p-author">
+  {%- if author.bio_link -%}
+    <a href="{{author.bio_link}}">
+  {%- endif -%}
+
   {%- if author.picture -%}
     {%- if author.picture contains "://" -%}
       {%- assign author_picture = author.picture -%}
@@ -16,6 +20,9 @@
       <div class="author-name">
         {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
       </div>
+    {%- endif -%}
+    {%- if author.bio_link -%}
+      </a>
     {%- endif -%}
     {%- if author.links -%}
       <ul class="author-links">
