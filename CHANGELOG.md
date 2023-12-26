@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased] -
 
+- Added support for multiple authors on a single post
+
 ### Changed
 - Update `onchange` and `uglify-js` dependencies.
 - Don't hide author avatar on smaller screens.
