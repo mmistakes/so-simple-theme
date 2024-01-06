@@ -2,9 +2,10 @@
    Fluid Type
    as seen on https://madebymike.com.au/writing/fluid-type-calc-examples/
    ========================================================================== */
+@use "sass:math";
 
 @function strip-unit($value) {
-  @return $value / ($value * 0 + 1);
+  @return math.div($value, ($value * 0 + 1));
 }
 
 @mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
@@ -28,6 +29,6 @@
       }
     }
   } @else {
-    @error "Detected mixed units. Please use the same units for all parameters. " + $u1 +", " + $u2 + ", " + $u3 +", "+ $u4;
+    @error "Detected mixed units. Please use the same units for all parameters. " + $u1 + ", " + $u2 + ", " + $u3 + ", "+ $u4;
   }
 }
