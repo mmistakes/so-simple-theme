@@ -11,7 +11,11 @@
     {% endcomment %}
     {% include head-seo.html %}
   {% else %}
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>
+      {% if page.title_element %}{{ page.title_element | escape }}
+      {% elsif page.title %}{{ page.title | escape }}
+      {% else %}{{ site.title | escape }}{% endif %}
+    </title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
@@ -22,8 +26,9 @@
       document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
     }
   </script>
-
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  
+  {% assign cacheBust = site.time | date:'?v=%s' %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | append: cacheBust }}">
   <link rel="stylesheet" href="{{ site.skin | default: '/assets/css/skins/default.css' | relative_url }}">
   {% if site.google_fonts %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">

@@ -2,6 +2,7 @@
    Compass YIQ Color Contrast
    https://github.com/easy-designs/yiq-color-contrast
    ========================================================================== */
+@use "sass:math";
 
    @function yiq-is-light(
     $color,
@@ -11,7 +12,7 @@
     $green: green($color);
     $blue: blue($color);
 
-    $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+    $yiq: math.div(($red*299)+($green*587)+($blue*114),1000);
 
     @if $yiq-debug { @debug $yiq, $threshold; }
 
