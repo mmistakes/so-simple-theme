@@ -11,7 +11,11 @@
     {% endcomment %}
     {% include head-seo.html %}
   {% else %}
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <title>
+      {% if page.title_element %}{{ page.title_element | escape }}
+      {% elsif page.title %}{{ page.title | escape }}
+      {% else %}{{ site.title | escape }}{% endif %}
+    </title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
   {% endif %}
