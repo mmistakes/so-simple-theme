@@ -8,11 +8,11 @@
     {% assign page_image = page.image.path | default: page.image %}
     {% unless page_image %}
       {% if page.url == '/' %}
-        <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <h1 class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
       {% else %}
-        <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+        <div class="site-title animated fadeIn"><a href="{{ '/' | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></div>
       {% endif %}
-      <p class="site-description animated fadeIn" itemprop="description">{{ site.description }}</p>
+      <p class="site-description animated fadeIn" itemprop="description">{{ site.tagline | default: site.description | default: site.github.project_tagline }}</p>
     {% endunless %}
   </div>
 </header><!-- /.masthead -->
