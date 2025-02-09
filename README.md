@@ -536,11 +536,11 @@ johndoe:
 
 To define what links appear in the author sidebar use the `authors.links` key in either `_config.yml` or `/_data/authors.yml`.
 
-| Name    | Description                                                                                                      |
-| ------- | ---------------------------------------------------------------------------------------------------------------- |
-| `title` | Describes the link. Not visible, used for accessibility purposes.                                                |
-| `url`   | URL the link points to.                                                                                          |
-| `icon`  | Corresponds with a [Font Awesome icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`.   |
+| Name    | Description                                                                                                            |
+| ------- | ---------------------------------------------------------------------------------------------------------------------- |
+| `title` | Describes the link. Not visible, used for accessibility purposes.                                                      |
+| `url`   | URL the link points to.                                                                                                |
+| `icon`  | Corresponds with a [Font Awesome icon](https://fontawesome.com/icons?d=gallery) e.g., `fa-brands fa-square-twitter`.   |
 
 **Example:**
 
@@ -549,13 +549,13 @@ author:
   links:
     - title: Twitter
       url: https://twitter.com/username
-      icon: fab fa-twitter-square
+      icon: fa-brands fa-square-twitter
     - title: Instagram
       url: https://instagram.com/username
-      icon: fab fa-instagram
+      icon: fa-brands fa-instagram
     - title: GitHub
       url: https://github.com/username
-      icon: fab fa-github-square
+      icon: fa-brands fa-square-github
 ```
 
 **Note:** To disable author links completely use use:
@@ -786,11 +786,11 @@ The footer links and copyright text can both be customized.
 
 Footer links are set in `_config.yml` under the `footer_links` key.
 
-| Name    | Description                                                                                                      |
-| ------- | ---------------------------------------------------------------------------------------------------------------- |
-| `title` | Describes the link. Not visible, used for accessibility purposes.                                                |
-| `url`   | URL the link points to.                                                                                          |
-| `icon`  | Corresponds with a [Font Awesome 5 icon](https://fontawesome.com/icons?d=gallery) e.g., `fab fa-twitter-square`. |
+| Name    | Description                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `title` | Describes the link. Not visible, used for accessibility purposes.                                                       |
+| `url`   | URL the link points to.                                                                                                 |
+| `icon`  | Corresponds with a [Font Awesome 6 icon](https://fontawesome.com/icons?d=gallery) e.g., `fa-brands fa--square-twitter`. |
 
 **Examples:**
 
@@ -798,13 +798,13 @@ Footer links are set in `_config.yml` under the `footer_links` key.
 footer_links:
   - title: Twitter
     url: https://twitter.com/username
-    icon: fab fa-twitter-square
+    icon: fa-brands fa-twitter-square
   - title: GitHub
     url: https://github.com/mmistakes
-    icon: fab fa-github-square
+    icon: fa-brands fa-square-github
   - title: Feed
     url: atom.xml
-    icon: fas fa-rss-square
+    icon: fa-solid fa-square-rss
 ```
 
 **Note:** To disable footer links completely use `footer_links: false`.
@@ -1110,7 +1110,7 @@ If all goes well, executing `npm run build:js` will compress/concatenate `main.j
 ## Contributing
 
 Found a typo in the documentation? Requesting a feature or
-[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication. 
+[bug fix][issues]? Search through the open and closed issues before [submitting an issue][new-issue] to avoid duplication.
 
 [Pull requests][using-pull-requests] are also appreciated. If this is your first time, it may be helpful to read up on the [GitHub Flow][github-flow].
 
