@@ -1,0 +1,14 @@
+/* Rounded post cards on homepage */
+.home .post-item {
+  background: #ffffff;
+  padding: 1.2rem 1.4rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #eee;
+}
+
+/* Round corners on images inside posts */
+.home .post-item img {
+  border-radius: 10px;
+}
