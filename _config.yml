@@ -1,77 +1,51 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+# ============================
+# BASIC SITE SETTINGS
+# ============================
+remote_theme: "mmistakes/so-simple-theme"
+include: ["_data"]
+navigation: true
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+
+title: "Build Fun Stuff"
+description: "Coding & DIY Stuff For You"
+
+# When using a custom domain:u
+url: "https://build.kervian.com"
+baseurl: ""
+
+# Optional logo (leave blank if none)
+logo:
+
+# Date format for posts
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
-words_per_minute: # 200
-mathjax:
-  enable: # MathJax equations, e.g. true, false (default)
-  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
-  tags:  # "none", "ams" (default), "all"
+
+# Estimated reading time for posts
+read_time: false
+
+# Google Fonts used by So Simple
 google_fonts:
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
-google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+
+# Disable analytics and comments for now
+google_analytics:
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
-twitter:
-  username: # site's Twitter username, e.g. "mmistakes"
+  shortname:
 
-# Liquid
-liquid:
-  error_mode: strict
+# ============================
+# BUILD SETTINGS
+# ============================
 
-# Build settings
-permalink: /:categories/:title/
+permalink: /:title/
 markdown: kramdown
+
 feed:
   path: atom.xml
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
-
-# Search
-search_full_content: false # can have performance implications for large sites
-
-# Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+search_full_content: false
 
 plugins:
   - jekyll-seo-tag
@@ -79,29 +53,25 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-# Front Matter Defaults
+# ============================
+# DEFAULT FRONT MATTER
+# ============================
+
 defaults:
-  # Posts defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
-      share: true
+      share: false
 
-# Site Author
+# ============================
+# AUTHOR (kept empty)
+# ============================
 author:
-  name:
-  picture:
-  email:
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
+  links: false
+# ============================
+# FOOTER LINKS
+# ============================
 
-# Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+footer_links: false
