@@ -63,6 +63,7 @@ so-simple-theme/
 ├── _includes/
 |    ├── browser-upgrade.html    # prompt to install a modern browser for < IE9
 |    ├── disqus-comments.html    # Disqus comments script
+|    ├── giscus-comments.html    # Giscus comments script
 |    ├── feed-footer.html        # post footers in feed
 |    ├── footer.html             # site footer
 |    ├── head.html               # site head

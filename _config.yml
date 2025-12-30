@@ -39,6 +39,20 @@ disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
+giscus: # parameters for Giscus comments. Obtain values from https://giscus.app/
+  repo:
+  repo_id:
+  category:
+  category_id:
+  mapping:
+  strict:
+  reactions_enabled:
+  emit_metadata:
+  input_position:
+  theme:
+  lang:
+  loading:
+  crossorigin:
 
 # Liquid
 liquid:

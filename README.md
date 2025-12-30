@@ -434,9 +434,11 @@ You'd need to change `category_archive_path` to `"/foo/#` for category links to 
 
 **Note:** You can create dedicated category and tag pages manually with [`layout: category`](#layout-category) and [`layout: tag`](#layout-tag). Or use plugins like [**jekyll-archives**][jekyll-archives] or [**jekyll-paginate-v2**](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-AUTOPAGES.md) to generate them automatically.
 
-### Comments (via Disqus)
+### Comments
 
-If you have a [**Disqus**](https://disqus.com/) account, you can show a comments section below each post.
+If you have a [**Disqus**](https://disqus.com/) account or have [**Giscus**](https://giscus.app) configured, you can show a comments section below each post.
+
+#### Disqus
 
 To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208) to your project's `_config.yml` file:
 
@@ -445,7 +447,29 @@ disqus:
   shortname: my_disqus_shortname
 ```
 
-Comments only appear in production when built with the following [environment value](http://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time): `JEKYLL_ENV=production` to avoid polluting your Disqus account with `localhost` content.
+#### Giscus
+
+To enable Giscus comments, configure Giscus following the [Giscus instructions](https://giscus.app). The instructions will provide you with a set of parameters for a `<script>` tag. Add these parameters to your project's `_config.yml` file.
+
+```yaml
+giscus:
+  repo: mygithub/myrepo
+  repo_id: my_repo_id
+  category: my_category
+  category_id: my_category_id
+  mapping: my_mapping
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: bottom
+  theme: light
+  lang: en
+  loading: lazy
+  crossorigin: anonymous
+```
+#### General notes
+
+Comments only appear in production when built with the following [environment value](http://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time): `JEKYLL_ENV=production` to avoid polluting your comments account with `localhost` content.
 
 If you don't want to display comments for a particular post you can disable them by adding `comments: false` to that post's front matter.
 

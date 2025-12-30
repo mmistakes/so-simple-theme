@@ -34,6 +34,10 @@ layout: default
           {% include disqus-comments.html %}
         {% endif %}
 
+        {% if site.giscus.repo %}
+          {% include giscus-comments.html %}
+        {% endif %}
+
         {% include page-pagination.html %}
       </div>
     </div>
