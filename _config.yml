@@ -17,10 +17,10 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: "Chin XX | Photography & Blogging"
+description: "Photography, storytelling, and thoughtful blogging from Malaysia."
+baseurl: ""
+url: "https://wengyuen.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -91,17 +91,26 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: "Chin XX"
   picture:
   email:
   twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Instagram
+      url: https://www.instagram.com/
+      icon: fab fa-instagram
+    - title: LinkedIn
+      url: https://www.linkedin.com/
+      icon: fab fa-linkedin
 
 # Footer Links
 footer_links:
+  - title: Instagram
+    url: https://www.instagram.com/
+    icon: fab fa-instagram
+  - title: LinkedIn
+    url: https://www.linkedin.com/
+    icon: fab fa-linkedin
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square

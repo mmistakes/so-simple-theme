@@ -1,16 +1,14 @@
-# Sample Authors
-# Remove file or replace with your own
+# Site authors
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Chin XX:
+  name: Chin XX
+  picture:
+  twitter:
+  bio: Photographer and blogger based in Malaysia, sharing stories shaped by a Master’s background from Imperial College.
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+    - title: Instagram
+      url: https://www.instagram.com/
+      icon: fab fa-instagram
+    - title: LinkedIn
+      url: https://www.linkedin.com/
+      icon: fab fa-linkedin
