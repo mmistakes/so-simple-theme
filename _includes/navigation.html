@@ -1,6 +1,6 @@
 {% if site.data.navigation %}
   <div class="navigation-wrapper">
-    <a href="#menu-toggle" id="menu-toggle">{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</a>
+    <a href="#menu-toggle" id="menu-toggle"><span>{{ site.data.text[site.locale].menu_label | default: 'Menu' }}</span><i class="fa-solid fa-bars"></i></a>
     <nav id="primary-nav" class="site-nav animated drop">
       <ul>
         {%- for link in site.data.navigation -%}

@@ -11,12 +11,17 @@
 }
 
 #menu-toggle {
-  display: block;
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0.25em 0.75em 0.5em;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
+
+  span {
+    flex: 1;
+    text-align: center;
+  }
 
   @include breakpoint($medium) {
     display: none;
@@ -75,7 +80,9 @@
   margin: 0.5em 0 0;
   padding: 0;
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
-  font-weight: 700;
+  & {
+    font-weight: 700;
+  }
 
   a {
     text-decoration: none;
@@ -86,8 +93,10 @@
   margin-bottom: 1em;
   font-family: $description-font-family;
   @include fluid-type($min-vw, $max-vw, $h5-min, $h5-max);
-  font-weight: 400;
-  font-style: italic;
+  & {
+    font-weight: 400;
+    font-style: italic;
+  }
 }
 
 .site-logo {
@@ -176,8 +185,10 @@
 
 .taxonomy-title {
   @include fluid-type($min-vw, $max-vw, 28px, 32px);
-  margin-bottom: 0.5em;
-  font-family: $base-font-family;
+  & {
+    margin-bottom: 0.5em;
+    font-family: $base-font-family;
+  }
 }
 
 .taxonomy-index {

@@ -1,8 +1,10 @@
+@use 'sass:list';
+
 @function breakpoint-parse-query($query) {
   // Parse features out of an individual query
   $feature-holder: ();
   $query-holder: ();
-  $length: length($query);
+  $length: list.length($query);
 
   @if $length == 2 {
     // If we've got a string/number, number/string, check to see if it's a valid string/number pair or two singles

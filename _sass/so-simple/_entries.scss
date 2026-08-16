@@ -89,9 +89,11 @@
 
   .entry-title {
     @include fluid-type($min-vw, $max-vw, 24px, 36px);
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+    & {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
   }
 
   .entry-excerpt,
@@ -152,9 +154,11 @@
 
   .entry-title {
     @include fluid-type($min-vw, $max-vw, 18px, 24px);
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
+    & {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
   }
 
   .entry-excerpt,

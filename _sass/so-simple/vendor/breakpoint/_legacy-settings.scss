@@ -1,3 +1,4 @@
+@use 'sass:meta';
 @mixin legacy-settings-warning {
   $legacyVars: (
     'default-media': 'default media',
@@ -12,7 +13,7 @@
   );
 
   @each $legacy, $new in $legacyVars {
-    @if global-variable-exists('breakpoint-' + $legacy) {
+    @if meta.global-variable-exists('breakpoint-' + $legacy) {
       @warn "In order to avoid variable namspace collisions, we have updated the way to change settings for Breakpoint. Please change all instances of `$breakpoint-#{$legacy}: {{setting}}` to `@include breakpoint-set('#{$new}', {{setting}})`. Variable settings, as well as this warning will be deprecated in a future release."
     }
   };
@@ -20,31 +21,31 @@
   //////////////////////////////
   // Hand correct each setting
   //////////////////////////////
-  @if global-variable-exists('breakpoint-default-media') and $breakpoint-default-media != breakpoint-get('default media') {
+  @if meta.global-variable-exists('breakpoint-default-media') and $breakpoint-default-media != breakpoint-get('default media') {
     @include breakpoint-set('default media', $breakpoint-default-media);
   }
-  @if global-variable-exists('breakpoint-default-feature') and $breakpoint-default-feature != breakpoint-get('default feature') {
+  @if meta.global-variable-exists('breakpoint-default-feature') and $breakpoint-default-feature != breakpoint-get('default feature') {
     @include breakpoint-set('default feature', $breakpoint-default-feature);
   }
-  @if global-variable-exists('breakpoint-force-media-all') and $breakpoint-force-media-all != breakpoint-get('force all media type') {
+  @if meta.global-variable-exists('breakpoint-force-media-all') and $breakpoint-force-media-all != breakpoint-get('force all media type') {
     @include breakpoint-set('force all media type', $breakpoint-force-media-all);
   }
-  @if global-variable-exists('breakpoint-to-ems') and $breakpoint-to-ems != breakpoint-get('to ems') {
+  @if meta.global-variable-exists('breakpoint-to-ems') and $breakpoint-to-ems != breakpoint-get('to ems') {
     @include breakpoint-set('to ems', $breakpoint-to-ems);
   }
-  @if global-variable-exists('breakpoint-resolutions') and $breakpoint-resolutions != breakpoint-get('transform resolutions') {
+  @if meta.global-variable-exists('breakpoint-resolutions') and $breakpoint-resolutions != breakpoint-get('transform resolutions') {
     @include breakpoint-set('transform resolutions', $breakpoint-resolutions);
   }
-  @if global-variable-exists('breakpoint-no-queries') and $breakpoint-no-queries != breakpoint-get('no queries') {
+  @if meta.global-variable-exists('breakpoint-no-queries') and $breakpoint-no-queries != breakpoint-get('no queries') {
     @include breakpoint-set('no queries', $breakpoint-no-queries);
   }
-  @if global-variable-exists('breakpoint-no-query-fallbacks') and $breakpoint-no-query-fallbacks != breakpoint-get('no query fallbacks') {
+  @if meta.global-variable-exists('breakpoint-no-query-fallbacks') and $breakpoint-no-query-fallbacks != breakpoint-get('no query fallbacks') {
     @include breakpoint-set('no query fallbacks', $breakpoint-no-query-fallbacks);
   }
-  @if global-variable-exists('breakpoint-base-font-size') and $breakpoint-base-font-size != breakpoint-get('base font size') {
+  @if meta.global-variable-exists('breakpoint-base-font-size') and $breakpoint-base-font-size != breakpoint-get('base font size') {
     @include breakpoint-set('base font size', $breakpoint-base-font-size);
   }
-  @if global-variable-exists('breakpoint-legacy-syntax') and $breakpoint-legacy-syntax != breakpoint-get('legacy syntax') {
+  @if meta.global-variable-exists('breakpoint-legacy-syntax') and $breakpoint-legacy-syntax != breakpoint-get('legacy syntax') {
     @include breakpoint-set('legacy syntax', $breakpoint-legacy-syntax);
   }
 }

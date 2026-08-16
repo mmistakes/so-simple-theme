@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 //////////////////////////////
 // Default Variables
 //////////////////////////////
@@ -45,11 +47,11 @@ $breakpoint: () !default;
 
   $breakpoint: breakpoint($query, false);
 
-  $query-string: map-get($breakpoint, 'query');
-  $query-fallback: map-get($breakpoint, 'fallback');
+  $query-string: map.get($breakpoint, 'query');
+  $query-fallback: map.get($breakpoint, 'fallback');
 
-  $private-breakpoint-context-holder: map-get($breakpoint, 'context holder') !global;
-  $private-breakpoint-query-count: map-get($breakpoint, 'query count') !global;
+  $private-breakpoint-context-holder: map.get($breakpoint, 'context holder') !global;
+  $private-breakpoint-query-count: map.get($breakpoint, 'query count') !global;
 
   // Allow for an as-needed override or usage of no query fallback.
   @if $no-query != false {

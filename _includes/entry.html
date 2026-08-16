@@ -33,6 +33,11 @@
     <footer class="entry-meta">
       {% if site.read_time %}{% include read-time.html %}{% endif %}
       {% if entry.date %}{% include entry-date.html %}{% endif %}
+      {% if entry.draft %} [DRAFT]{% endif %}
+      {% comment %}Jekyll never sets a per-document "future" flag; site.future is only
+      config read by Publisher#hidden_in_the_future?. So compare dates the same way it
+      does, against the build time.{% endcomment %}
+      {% if entry.date > site.time %} [FUTURE]{% endif %}
     </footer>
   {% endif %}
 </article>

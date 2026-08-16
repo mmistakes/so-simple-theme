@@ -1,6 +1,7 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
+@use "sass:math";
 
 /* Breakpoint widths */
 $small: 320px !default;
@@ -34,8 +35,8 @@ $h4-max: $modular-scale-2 * $base-font-size !default;
 $h5-min: $base-font-size !default;
 $h5-max: $base-font-size !default;
 /* Heading 6 */
-$h6-min: ($base-font-size / $modular-scale-1) !default;
-$h6-max: ($base-font-size / $modular-scale-2) !default;
+$h6-min: (math.div($base-font-size, $modular-scale-1)) !default;
+$h6-max: (math.div($base-font-size, $modular-scale-2)) !default;
 
 /* Font Families */
 $serif-font-family: "Lora", serif !default;
